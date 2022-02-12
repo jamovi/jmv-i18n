@@ -95,7 +95,7 @@ msgstr "“{rotation}”进行旋转"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "'{var}' 中包含负值，不允许有负数权重。"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -598,7 +598,7 @@ msgstr "列"
 
 #: R/conttables.b.R
 msgid "Columns compared"
-msgstr ""
+msgstr "比较列"
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
@@ -3448,7 +3448,7 @@ msgstr "行"
 
 #: R/conttables.b.R
 msgid "Rows compared"
-msgstr ""
+msgstr "比较行"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
@@ -4391,11 +4391,11 @@ msgstr "W值"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "已由 '{varName}' 加权"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
-msgstr ""
+msgstr "权重（可选）"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
@@ -8119,7 +8119,7 @@ msgstr "百分位数"
 
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
-msgstr ""
+msgstr "来自 `data` 的权重（可选）被用于拟合过程。"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
