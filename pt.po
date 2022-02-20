@@ -2,15 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-02-07 12:24+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-02-21 22:00+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
+"jmv_i18n/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: undefined;\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -80,7 +81,7 @@ msgstr "'{col}' contém valores omissos"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr "'{col}'  contém apenas valores omissos"
+msgstr "'{col}' contém apenas valores omissos"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
@@ -96,7 +97,7 @@ msgstr "Foi utilizada a rotação '{rotation}'"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr "'{var}'  contém valores negativos. Não são permitidos valores negativos"
+msgstr "'{var}' contém valores negativos. Não são permitidos valores negativos"
 
 #: R/corrmatrix.b.R R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -341,7 +342,7 @@ msgstr "Baseado em Valores próprios"
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr "Baseado em Análise  Paralela"
+msgstr "Baseado em Análise Paralela"
 
 #: propTest2/options/bf.title ttestIS/options/bf.title
 #: ttestIS/ui[1][0][0]/students/bf.label ttestOneS/options/bf.title
@@ -354,7 +355,7 @@ msgstr "Factor de Bayes"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr "Factor de  Bayes₁₀"
+msgstr "Factor de Bayes₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
@@ -430,7 +431,7 @@ msgstr "Diagrama de Extremos e Quartis"
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr "Teste de Box à Homogeneidade da Matriz de Covariância "
+msgstr "Teste de Box à Homogeneidade da Matriz de Covariância"
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
@@ -777,11 +778,22 @@ msgid ""
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
-"As matrizes de correlação são uma forma de examinar as relações lineares entre duas ou mais variáveis ​​contínuas.\n"
+"As matrizes de correlação são uma forma de examinar as relações lineares "
+"entre duas ou mais variáveis contínuas.\n"
 "\n"
-"Para cada par de variáveis, o valor do coeficiente de correlação r de Pearson indica a força e a direção da correlação entre essas duas variáveis. Um valor positivo indica uma relação positiva (valores mais elevados de uma variável indicam valores mais elevados da outra variável). Um r negativo indica uma relação negativa (valores mais elevados de uma variável indicam valores mais baixos da outra variável, e vice-versa). Um valor r de zero indica ausência de relação linear (seja uma variável elevada ou baixa, não nos diz nada sobre o valor da outra variável).\n"
+"Para cada par de variáveis, o valor do coeficiente de correlação r de "
+"Pearson indica a força e a direção da correlação entre essas duas variáveis. "
+"Um valor positivo indica uma relação positiva (valores mais elevados de uma "
+"variável indicam valores mais elevados da outra variável). Um r negativo "
+"indica uma relação negativa (valores mais elevados de uma variável indicam "
+"valores mais baixos da outra variável, e vice-versa). Um valor r de zero "
+"indica ausência de relação linear (seja uma variável elevada ou baixa, não "
+"nos diz nada sobre o valor da outra variável).\n"
 "\n"
-"Mais formalmente, é possível testar a hipótese nula de que a correlação é zero e calcular um p-value. Se o p-value for baixo, então o coeficiente de correlação é significativamente diferente de zero, e há uma relação linear (ou mais complexa) entre as duas variáveis."
+"Mais formalmente, é possível testar a hipótese nula de que a correlação é "
+"zero e calcular um p-value. Se o p-value for baixo, então o coeficiente de "
+"correlação é significativamente diferente de zero, e há uma relação linear ("
+"ou mais complexa) entre as duas variáveis."
 
 #: corrMatrix/options/plots.title corrMatrix/ui[1][3]/plots.label
 msgid "Correlation matrix"
@@ -1093,7 +1105,7 @@ msgstr "Estimativa (logaritmo do rácio de chances )"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr "Estimativa  (Logaritmo do rácio das taxas )"
+msgstr "Estimativa (Logaritmo do rácio das taxas )"
 
 #: ancova/ui[6].label ancova/results/emm.title anova/ui[6].label
 #: anova/results/emm.title anovaRM/ui[5].label anovaRM/results/emm.title
@@ -1479,7 +1491,7 @@ msgstr "Teste à Homogeneidade de Variâncias (Levene)"
 #: anovaOneW/options/eqv.title anovaRM/options/leveneTest.title
 #: ttestIS/options/eqv.title
 msgid "Homogeneity test"
-msgstr "Teste  à Homogeneidade de Variâncias"
+msgstr "Teste à Homogeneidade de Variâncias"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
@@ -1587,7 +1599,7 @@ msgstr "O item '{item}' tem apenas valores omissos"
 
 #: R/reliability.b.R
 msgid "Item '{item}' has no variance"
-msgstr "O item  '{item}'  não tem variância"
+msgstr "O item '{item}' não tem variância"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' needs to be numeric"
@@ -1928,7 +1940,7 @@ msgstr "Min"
 
 #: R/descriptives.b.R descriptives/options/min.title
 msgid "Minimum"
-msgstr "Mínimo "
+msgstr "Mínimo"
 
 #: R/pca.b.R
 msgid "Minimum residual"
@@ -1984,7 +1996,7 @@ msgstr "Modelo"
 #: linReg/ui[1].label logLinear/ui[1].label logRegBin/ui[1].label
 #: logRegMulti/ui[1].label logRegOrd/ui[1].label
 msgid "Model Builder"
-msgstr "Especificação de  Modelo"
+msgstr "Especificação de Modelo"
 
 #: linReg/ui[5].label logLinear/ui[4].label
 #: logLinear/results/models.template/coef.title logRegBin/ui[5].label
@@ -2062,7 +2074,10 @@ msgstr "Regressão Logística Multinomial"
 
 #: package/analyses/mancova.description mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "A Análise de (Co)Variância Multivariada  (MANCOVA) é utilizada para explorar a relação entre múltiplas variáveis dependentes e uma ou mais variáveis explicativas categóricas e/ou contínuas."
+msgstr ""
+"A Análise de (Co)Variância Multivariada (MANCOVA) é utilizada para explorar "
+"a relação entre múltiplas variáveis dependentes e uma ou mais variáveis "
+"explicativas categóricas e/ou contínuas."
 
 #: mancova/options/multivar.title mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
@@ -2256,7 +2271,9 @@ msgstr "Uma ou ambas as variáveis não têm observações suficicentes"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "Um ou mais coeficientes do modelo '{modelNo}'  não podem ser estimados devido a colinearidade perfeita."
+msgstr ""
+"Um ou mais coeficientes do modelo '{modelNo}' não podem ser estimados devido "
+"a colinearidade perfeita."
 
 #: package/analyses/anovaOneW.title package/analyses/anovaOneW.menuTitle
 #: package/analyses/anovaNP.menuTitle anovaNP/options.menuTitle
@@ -3050,7 +3067,7 @@ msgstr "Pontuação para a Componente"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr "Pontuação para o fator {i}. Estimado com o método  '{fsMethod}' ."
+msgstr "Pontuação para o fator {i}. Estimado com o método '{fsMethod}' ."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
@@ -3432,15 +3449,17 @@ msgid ""
 msgstr ""
 "A Análise de Variância (ANOVA) é utilizada para explorar a relação\n"
 "entre uma variável dependente contínua, e uma ou mais\n"
-"variáveis explicativas categoriais. Esta \"ANOVA unifatoriall\" é uma versão simplificada da\n"
+"variáveis explicativas categoriais. Esta \"ANOVA unifatoriall\" é uma versão "
+"simplificada da\n"
 "ANOVA \"normal\", permitindo apenas um único factor explicativo, no entanto\n"
 "também fornece a ANOVA da Welch. A ANOVA da Welch tem a vantagem de\n"
 "não exigir que as variâncias de todos os grupos sejam iguais.\n"
 "\n"
-"Por conveniência, este método permite especificar múltiplas variáveis dependentes,\n"
+"Por conveniência, este método permite especificar múltiplas variáveis "
+"dependentes,\n"
 "produzindo múltiplos testes independentes.\n"
 "\n"
-"Note que a ANOVA de Welch é o mesmo procedimento que  o teste t de Welch\n"
+"Note que a ANOVA de Welch é o mesmo procedimento que o teste t de Welch\n"
 "para amostras independentes."
 
 #: package/analyses/propTest2.description propTest2/options.description.main
@@ -3488,11 +3507,19 @@ msgid ""
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
-"A ANOVA de medições repetidas é usada para explorar a relação entre uma variável dependente continua e uma ou mais variáveis explicativas categoriais, onde uma ou mais variáveis explicativas estão aninhadas nos sujeitos (medidas repetidas dos mesmos sujeitos).  Adicionalmente, esta análise permite a inclusão de covariáveis permitindo realizar uma ANCOVA de medições repetidas.\n"
+"A ANOVA de medições repetidas é usada para explorar a relação entre uma "
+"variável dependente continua e uma ou mais variáveis explicativas "
+"categoriais, onde uma ou mais variáveis explicativas estão aninhadas nos "
+"sujeitos (medidas repetidas dos mesmos sujeitos). Adicionalmente, esta "
+"análise permite a inclusão de covariáveis permitindo realizar uma ANCOVA de "
+"medições repetidas.\n"
 "\n"
-"Esta análise requer que os dados estejam em formato 'expandido' onde cada linha representa um sujeito (por oposição ao formato longo onde as medidas repetidas são representadas em linha).\n"
+"Esta análise requer que os dados estejam em formato 'expandido' onde cada "
+"linha representa um sujeito (por oposição ao formato longo onde as medidas "
+"repetidas são representadas em linha).\n"
 "\n"
-"A alternativa não-paramétrica à ANOVA de medições repetidas é o Teste de Friedman. Contudo, este teste está limitado à avaliação de um fator único."
+"A alternativa não-paramétrica à ANOVA de medições repetidas é o Teste de "
+"Friedman. Contudo, este teste está limitado à avaliação de um fator único."
 
 #: package/analyses/ttestIS.description
 msgid ""
@@ -3529,8 +3556,10 @@ msgid ""
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
-"O teste t de Student para uma amostra é usado para testar a hipótese nula de que a verdadeira média é igual a um determinado valor (tipicamente zero). Um p-value pequeno sugere que a hipótese nula não é verdadeira, e\n"
-"a verdadeira média deve diferir do valor do teste."
+"O teste t de Student para uma amostra é usado para testar a hipótese nula de "
+"que a verdadeira média é igual a um determinado valor (tipicamente zero). Um "
+"p-value pequeno sugere que a hipótese nula não é verdadeira, e a verdadeira "
+"média deve diferir do valor do teste."
 
 #: ttestOneS/options.description.main
 msgid ""
@@ -3587,7 +3616,7 @@ msgstr "A variável dependente '{dep}' tem apenas dois níveis, considere fazer 
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr "A variável dependente  '{dep}' tem a seguinte ordem: {orderedLevels}"
+msgstr "A variável dependente '{dep}' tem a seguinte ordem: {orderedLevels}"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -3661,7 +3690,7 @@ msgstr "Amostras insuficientes para calcular a estatística (N<3)"
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr "Amostras insuficientes para calcular a estatística  (N < {n})"
+msgstr "Amostras insuficientes para calcular a estatística (N < {n})"
 
 #: R/ttestones.b.R R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
@@ -3908,7 +3937,11 @@ msgstr "`'2'` ou`' 3'` (padrão), a soma de quadrados a ser usada"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
-msgstr "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'`  usam respetivamente os métodos  de 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', ou 'Harman' para estimação das pontuações fatoriais: "
+msgstr ""
+"`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or "
+"`'Harman'` usam respetivamente os métodos de 'Thurstone', 'Bartlett', 'ten "
+"Berge', 'Anderson & Rubin', ou 'Harman' para estimação das pontuações "
+"fatoriais:"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
@@ -4680,7 +4713,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece o α de Cronbach se o item fosse el
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece o ω do McDonald's  se o item fosse eliminado"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece o ω do McDonald's se o item fosse "
+"eliminado"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
@@ -4693,7 +4728,7 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece o sumário dos diferentes grupos"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
-msgstr "`TRUE` ou` FALSE` (padrão), define o valor de  corte usado nas previsões"
+msgstr "`TRUE` ou` FALSE` (padrão), define o valor de corte usado nas previsões"
 
 #: efa/options/bartlett.description.R pca/options/bartlett.description.R
 msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
@@ -4751,7 +4786,9 @@ msgstr "`TRUE` ou` FALSE` (padrão); realiza o teste geral do modelo"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr "`colunas` ou` linhas` (padrão), compara diferença de proporções ou riscos relativos entre colunas / linhas na  (tabelas 2x2)"
+msgstr ""
+"`colunas` ou` linhas` (padrão), compara diferença de proporções ou riscos "
+"relativos entre colunas / linhas na (tabelas 2x2)"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
@@ -4874,7 +4911,7 @@ msgstr "um número (padrão: 1), o parâmetro prior beta 'a'"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr "um número (padrão: 1), o parâmetro prior beta  'b'"
+msgstr "um número (padrão: 1), o parâmetro prior beta 'b'"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
@@ -5005,7 +5042,8 @@ msgstr "uma codificação nomeando a variável dependente em `dados`"
 
 #: anovaNP/options/group.description.R anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
-msgstr "uma  codificação que nomeia o agrupamento ou variável independente em `dados`"
+msgstr ""
+"uma codificação que nomeia o agrupamento ou variável independente em `data`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
@@ -5159,7 +5197,7 @@ msgstr "uma tabela de resultados do teste"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
-msgstr "uma tabela de resultados 'nominais'  do teste"
+msgstr "uma tabela de resultados 'nominais' do teste"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
@@ -5259,7 +5297,7 @@ msgstr "um vetor de códigos que nomeia as variáveis ​​usadas para dividir 
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr "uma  série de gráficos Q-Q"
+msgstr "uma série de gráficos Q-Q"
 
 #: ancova/results/contrasts.description anova/results/contrasts.description
 msgid "an array of contrasts tables"
@@ -7119,7 +7157,9 @@ msgstr "realizar testes de Shapiro-Wilk à normalidade. Um p-value pequeno suger
 
 #: ancova/options/norm.description.ui anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "realizar testes de  Shapiro-Wilk à normalidade. Um p-value pequeno sugere que os resíduos não são normalmente distribuídos."
+msgstr ""
+"realizar testes de Shapiro-Wilk à normalidade. Um p-value pequeno sugere que "
+"os resíduos não são normalmente distribuídos."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -7127,7 +7167,7 @@ msgstr "realizar testes t de Student para amostras independentes-"
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr "realizar os testes t  de Student para uma amostra."
+msgstr "realizar os testes t de Student para uma amostra."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
@@ -7588,7 +7628,7 @@ msgstr "as contagens nos `dados`"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr "as covariáveis (especificá-las produz a  ANCOVA)"
+msgstr "as covariáveis (especificá-las produz a ANCOVA)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
@@ -7836,11 +7876,11 @@ msgstr "Teste z disponível apenas para tabelas 2x2"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr " Limite inferior do IC a {ciWidth}%"
+msgstr "Limite inferior do IC a {ciWidth}%"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "Limite superior do IC a {ciWidth}% "
+msgstr "Limite superior do IC a {ciWidth}%"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -7850,11 +7890,11 @@ msgstr "{ciWidth}% IC média {title}"
 #: R/loglinear.b.R R/logregbin.b.R R/logregmulti.b.R R/logregord.b.R
 #: R/proptest2.b.R R/ttestis.b.R R/ttestones.b.R R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr "Intervalo de Confiança a {ciWidth}% "
+msgstr "Intervalo de Confiança a {ciWidth}%"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr "Intervalo de Confiança a  {ciWidth}%"
+msgstr "Intervalo de Confiança a {ciWidth}%"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
