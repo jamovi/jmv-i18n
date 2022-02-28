@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-02-24 12:58+0000\n"
+"PO-Revision-Date: 2022-03-01 00:31+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv_i18n/"
 "de/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -797,7 +797,7 @@ msgstr "Einschränkungen (constraints)"
 #: contTablesPaired/options.menuSubgroup
 #: contTablesPaired/results/freqs.title
 msgid "Contingency Tables"
-msgstr "Kontingenztabellen"
+msgstr "Kreuztabellen"
 
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
@@ -2832,7 +2832,7 @@ msgstr "Gepaarte Stichproben"
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr "Kontingenztabellen für gepaarte Stichproben"
+msgstr "Kreuztabellen für vebundene Stichproben"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -4450,8 +4450,8 @@ msgid "This module represents the analyses included with jamovi. It contains man
 msgstr ""
 "Dieses Modul umfasst die in jamovi enthaltenen Analysen. Es enthält viele "
 "oft genutzte statistische Analysen (wie t-Tests, ANOVAs, Regressions- und "
-"Korrelationsanalysen, Häufigkeitsanalysen, Kontingenztabellen, "
-"Faktorenanalysen, usw.)."
+"Korrelationsanalysen, Häufigkeitsanalysen, Kreuztabellen, Faktorenanalysen, "
+"usw.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
@@ -6704,9 +6704,9 @@ msgstr ""
 "contTablesPaired(formula = Counts ~ `1. Umfrage`:`2. Umfrage`, data = dat)\n"
 "\n"
 "#\n"
-"#  KONTINGENZTABELLEN FÜR GEPAARTE STICHPROBEN\n"
+"#  KREUZTABELLEN FÜR VERBUNDENE STICHPROBEN\n"
 "#\n"
-"#  Kontingenztabellen\n"
+"#  Kreuztabellen\n"
 "#  ───────────────────────────────────────────────\n"
 "#    1. Umfrage    Einig    Uneinig    Insgesamt\n"
 "#  ───────────────────────────────────────────────\n"
@@ -6934,9 +6934,9 @@ msgstr ""
 "contTables(formula = Freq ~ Hair:Eye, dat)\n"
 "\n"
 "#\n"
-"#  KONTINGENZTABELLEN\n"
+"#  KREUZTABELLEN\n"
 "#\n"
-"#  Kontingenztabellen\n"
+"#  Kreuztabellen\n"
 "#  ─────────────────────────────────────────────────────────────\n"
 "#    Hair         Brown    Blue    Hazel    Green    Insgesamt\n"
 "#  ─────────────────────────────────────────────────────────────\n"
@@ -9217,24 +9217,24 @@ msgstr "die Variable, welche die Gruppen spezifiziert; muss 2 Ebenen haben."
 #: contTablesPaired/options/cols.description.R
 msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
-"die Variable, welche für die Spalten der Kontingenztabelle verwendet werden "
-"soll (Angabe nicht erforderlich, wenn eine Formel angegeben wird, siehe die "
+"die Variable, welche für die Spalten der Kreuztabelle verwendet werden soll ("
+"Angabe nicht erforderlich, wenn eine Formel angegeben wird, siehe die "
 "Beispiele)"
 
 #: contTables/options/counts.description.R
 #: contTablesPaired/options/counts.description.R
 msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
-"die Variable, welche für die Anzahlen der Kontingenztabelle verwendet werden "
-"soll (Angabe nicht erforderlich, wenn eine Formel angegeben wird, siehe die "
+"die Variable, welche für die Anzahlen der Kreuztabelle verwendet werden soll "
+"(Angabe nicht erforderlich, wenn eine Formel angegeben wird, siehe die "
 "Beispiele)"
 
 #: contTables/options/rows.description.R
 #: contTablesPaired/options/rows.description.R
 msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
-"die Variable, welche für die Zeilen der Kontingenztabelle verwendet werden "
-"soll (Angabe nicht erforderlich, wenn eine Formel angegeben wird, siehe die "
+"die Variable, welche für die Zeilen der Kreuztabelle verwendet werden soll ("
+"Angabe nicht erforderlich, wenn eine Formel angegeben wird, siehe die "
 "Beispiele)"
 
 #: ttestOneS/options/vars.description.ui
@@ -9251,8 +9251,8 @@ msgstr "die interessierenden Variablen."
 #: contTables/options/layers.description.R
 msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
-"die Variablen, die zum Aufteilen der Kontingenztabelle verwendet werden "
-"sollen (nicht erforderlich, wenn eine Formel verwendet wird, siehe Beispiele)"
+"die Variablen, die zum Aufteilen der Kreuztabelle verwendet werden sollen ("
+"nicht erforderlich, wenn eine Formel verwendet wird, siehe Beispiele)"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
