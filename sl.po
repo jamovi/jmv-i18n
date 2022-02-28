@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-02-27 19:57+0000\n"
+"PO-Revision-Date: 2022-03-01 00:31+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
 "jmv_i18n/sl/>\n"
@@ -76,19 +76,19 @@ msgstr "% po vrstici"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr ""
+msgstr "Stolpec »{col}« vsebuje neskončne vrednosti"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "Stolpec »{col}« vsebuje manjkajoče vrednosti"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "Stolpec »{col}« vsebuje le manjkajoče vrednosti"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "Stolpec »{col}« vsebuje le eno enoznačno vrednost"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
@@ -101,6 +101,7 @@ msgstr ""
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
 msgstr ""
+"Vrednost »{var}« vsebuje negativne vrednosti. Negativne uteži niso dovoljene."
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -121,7 +122,7 @@ msgstr "1 - Specifičnost"
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr ""
+msgstr "2 izida"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
@@ -150,11 +151,11 @@ msgstr "Nizka p-vrednost kaže na kršitev predpostavke normalnosti"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "Zanimiv podatkovni nabor za določanje korelacij"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr ""
+msgstr "Podatkovni nabor za metodo ANOVA s ponavljajočimi meritvami"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -169,7 +170,7 @@ msgstr ""
 #: logRegOrd/options/aic.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "AIC"
-msgstr "AIC"
+msgstr "Kriterij AIC"
 
 #: package/analyses/ancova.title
 #: package/analyses/ancova.menuTitle
@@ -204,12 +205,12 @@ msgstr "ANOVA"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr "Preizkus ANOVA"
+msgstr "Test ANOVA"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "AUC"
-msgstr ""
+msgstr "Polje pod krivuljo (AUC)"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -278,11 +279,11 @@ msgstr "Alternativna hipoteza"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "Pretežno nezanimiv nabor podatkov za analizo ANOVA"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
-msgstr ""
+msgstr "Analize vključene v program jamovi"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
@@ -290,7 +291,7 @@ msgstr "Anderson in Rubin"
 
 #: package/datasets/Anderson's Iris Data.name
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "Podatki: Andersonovi podatki Iris"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
@@ -298,7 +299,7 @@ msgstr ""
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
-msgstr ""
+msgstr "Privzemi enakost (Fisherjev test)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -321,28 +322,28 @@ msgstr ""
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr ""
+msgstr "Preverjanje napovedi"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
 msgid "Assumptions"
-msgstr ""
+msgstr "Napovedi"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
-msgstr ""
+msgstr "Vsaj ena spremenljivka mora imeti 2 ravni"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
-msgstr ""
+msgstr "Samokorelacija"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr ""
+msgstr "Test samokorelacije"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
-msgstr ""
+msgstr "Na voljo le za razpredelnice 2x2"
 
 #: cfa/options/fitMeasures/bic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -358,7 +359,7 @@ msgstr ""
 #: logRegOrd/results/modelFit.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "BIC"
-msgstr ""
+msgstr "Kriterij BIC"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
@@ -375,7 +376,7 @@ msgstr "Vrsta stolpčnega diagrama"
 
 #: descriptives/options/bar.title
 msgid "Bar plot"
-msgstr ""
+msgstr "Stolpčni diagram"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
@@ -423,19 +424,19 @@ msgstr "Bayesova statistika"
 
 #: anovaRM/options/bs.title
 msgid "Between Subject Factors"
-msgstr ""
+msgstr "Faktorji med primeri"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr ""
+msgstr "Komponente med primeri"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
-msgstr ""
+msgstr "Učinki med primeri"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).name
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr ""
+msgstr "Podatki: Velikih 5 (Dolan, Oort, Stoel in Wicherts, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
@@ -503,7 +504,7 @@ msgstr "Vretenasti diagram"
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr ""
+msgstr "Boxov test homogenosti kovarianc matrik"
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
@@ -515,7 +516,7 @@ msgstr "Boxov M test homogenosti kovarianc matrik"
 
 #: logRegBin/results/models.template/assump/boxTidwell.title
 msgid "Box-Tidwell Test for Linearity of the Logit"
-msgstr ""
+msgstr "Box-Tidwellov test linearnosti funkcije Logit"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
@@ -523,20 +524,20 @@ msgstr "Box-Tidwellov test"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).name
 msgid "Bugs (Ryan, Wilde & Crist, 2013)"
-msgstr ""
+msgstr "Podatki: Hrošči (Ryan, Wilde in Crist, 2013)"
 
 #: cfa/options/fitMeasures/cfi.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "CFI"
-msgstr ""
+msgstr "Index CFI"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "Spodnji Interval zaupanja"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "Zgornji Interval zaupanja"
 
 #: contTables/ui[1][1].label
 msgid "Cells"
@@ -544,11 +545,11 @@ msgstr "Celice"
 
 #: descriptives/ui[2][1][0].label
 msgid "Central Tendency"
-msgstr ""
+msgstr "Sredinjska simetrija"
 
 #: R/mancova.b.R
 msgid "Chi-Square Quantiles"
-msgstr ""
+msgstr "Kvantili Hi-kvadrat"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -556,7 +557,7 @@ msgstr "Klasifikacijska razpredelnica"
 
 #: R/logregbin.b.R
 msgid "Classification Table – {dep}"
-msgstr ""
+msgstr "Klasifikacijska razpredelnica – {dep}"
 
 #: logRegBin/options/class.title
 msgid "Classification table"
@@ -589,11 +590,13 @@ msgstr "Stolpec"
 #: R/ancova.b.R
 msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
 msgstr ""
+"V stolpcu »{name}« so neuporabljene ravni (napaka se pojavi, če so izločene "
+"vrstice z manjkajočimi vrednostmi)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Column variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "Stolpec spremenljivke »{var}« vsebuje manj kot 2 ravni"
 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
@@ -603,15 +606,15 @@ msgstr "Stolpci"
 
 #: R/conttables.b.R
 msgid "Columns compared"
-msgstr ""
+msgstr "Primerjani stolpci"
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
-msgstr ""
+msgstr "Mere primerjave"
 
 #: contTables/ui[1][0][0][1][0].label
 msgid "Comparative Measures (2x2 only)"
-msgstr ""
+msgstr "Mere primerjave (le 2x2)"
 
 #: contTables/options/compare.title
 msgid "Compare"
@@ -629,7 +632,7 @@ msgstr "Primerjava"
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr ""
+msgstr "Primerjave so utemeljene na oceni robnih povprečnih vrednosti"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
@@ -644,7 +647,7 @@ msgstr ""
 
 #: pca/results/factorStats.title
 msgid "Component Statistics"
-msgstr ""
+msgstr "Statistika komponent"
 
 #: pca/options/factorCor.title
 msgid "Component correlations"
@@ -656,7 +659,7 @@ msgstr ""
 
 #: pca/options/factorSummary.title
 msgid "Component summary"
-msgstr ""
+msgstr "Povzetek komponent"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
@@ -810,17 +813,17 @@ msgstr ""
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
-msgstr ""
+msgstr "Kontrolne spremenljivke"
 
 #: corrPart/options/controls.title
 msgid "Control variables"
-msgstr ""
+msgstr "Kontrolne spremenljivke"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
 msgid "Cook's Distance"
-msgstr ""
+msgstr "Cookova razdalja"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -830,7 +833,7 @@ msgstr ""
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
 msgid "Cook's distance"
-msgstr ""
+msgstr "Cookova razdalja"
 
 #: ancova/options/postHocCorr.title
 #: ancova/ui[5][1][0].label
@@ -872,7 +875,7 @@ msgstr "Korelacijski koeficienti"
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
 msgid "Correlation Heatmap"
-msgstr ""
+msgstr "Korelacijska mreža"
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -889,7 +892,7 @@ msgstr "Vrsta korelacije"
 
 #: reliability/ui[1][0][1]/corPlot.label
 msgid "Correlation heatmap"
-msgstr ""
+msgstr "Korelacijska matrika"
 
 #: package/analyses/corrMatrix.description
 msgid "Correlation matrices are a way to examine linear relationships between\n"
@@ -951,16 +954,16 @@ msgstr "Števci (izbirno)"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be infinite"
-msgstr ""
+msgstr "Števci ne smejo biti neskončni"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be negative"
-msgstr ""
+msgstr "Števci ne smejo biti negativni"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
-msgstr ""
+msgstr "Števci morajo biti končni in ne-negativni"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
@@ -1003,7 +1006,7 @@ msgstr "Cronbach α"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
-msgstr ""
+msgstr "Cronbach α (če je predmet izpuščen)"
 
 #: R/descriptives.b.R
 #: pca/results/factorStats/factorSummary.columns.title
@@ -1054,7 +1057,7 @@ msgstr "Podatki"
 #: package/analyses/efa.menuSubgroup
 #: package/analyses/cfa.menuSubgroup
 msgid "Data Reduction"
-msgstr ""
+msgstr "Zmanjšanje podatkov"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -1069,7 +1072,7 @@ msgstr "Gostota spremenljivk"
 #: R/proptest2.b.R
 #: descriptives/options/dens.title
 msgid "Density"
-msgstr "Gostota"
+msgstr "Diagram gostote"
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
@@ -1171,7 +1174,7 @@ msgstr ""
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
 msgid "Deviation"
-msgstr ""
+msgstr "Odklon"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
@@ -1197,7 +1200,7 @@ msgstr "Porazdelitev"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr ""
+msgstr "Ne privzemi enakosti (Welchev test)"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -1612,7 +1615,7 @@ msgstr "Splošne možnosti"
 
 #: anovaRM/options/effectSize/ges.title
 msgid "Generalised η²"
-msgstr ""
+msgstr "Posplošeni η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
@@ -1795,7 +1798,7 @@ msgstr ""
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
 msgid "Independent Samples"
-msgstr ""
+msgstr "Neodvisni vzorci"
 
 #: package/analyses/ttestIS.title
 #: package/analyses/ttestIS.menuTitle
@@ -1804,7 +1807,7 @@ msgstr ""
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
 msgid "Independent Samples T-Test"
-msgstr ""
+msgstr "T-Test neodvisnih vzorcev"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
@@ -1817,15 +1820,15 @@ msgstr "Začetne lastne vrednosti"
 #: efa/options/eigen.title
 #: pca/options/eigen.title
 msgid "Initial eigenvalues"
-msgstr ""
+msgstr "Začetne lastne vrednosti"
 
 #: pca/results/factorStats/factorCor.title
 msgid "Inter-Component Correlations"
-msgstr ""
+msgstr "Med-komponentne korelacije"
 
 #: R/pca.b.R
 msgid "Inter-Factor Correlations"
-msgstr ""
+msgstr "Med-faktorske korelacije"
 
 #: R/linreg.b.R
 #: R/loglinear.b.R
@@ -1882,11 +1885,11 @@ msgstr "Predmet »{item}« mora biti številska vrednost"
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
-msgstr ""
+msgstr "Statistika zanesljivosti postavk"
 
 #: reliability/ui[1][1][0].label
 msgid "Item Statistics"
-msgstr ""
+msgstr "Statistika postavk"
 
 #: reliability/options/itemRestCor.title
 msgid "Item-rest correlation"
@@ -1898,7 +1901,7 @@ msgstr "Predmeti"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr ""
+msgstr "Raztreseno"
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
@@ -2013,7 +2016,7 @@ msgstr ""
 #: logLinear/ui.title
 #: logLinear/results.title
 msgid "Log-Linear Regression"
-msgstr ""
+msgstr "Log-linearna regresija"
 
 #: package/analyses/logRegBin.menuSubgroup
 #: package/analyses/logRegMulti.menuSubgroup
@@ -2061,7 +2064,7 @@ msgstr "MANCOVA"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
-msgstr ""
+msgstr "Analiza MSA"
 
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
@@ -2183,7 +2186,7 @@ msgstr "Povprečna vrednost"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "Povprečje ({ciWidth}% CI)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -2219,7 +2222,7 @@ msgstr "Povprečna razlika"
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
 msgid "Mean score"
-msgstr ""
+msgstr "Povprečna vrednost"
 
 #: anovaRMNP/options/plotType/means.title
 msgid "Means"
@@ -2231,23 +2234,23 @@ msgstr "Mera"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
-msgstr ""
+msgstr "Mera 1 - Mera 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "Mera 1 < Mera 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "Mera 1 > Mera 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_different.label
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "Mera 1 ≠ Mera 2"
 
 #: anovaRMNP/options/measures.title
 msgid "Measures"
-msgstr ""
+msgstr "Mere"
 
 #: R/descriptives.b.R
 #: R/ttestis.b.R
@@ -2264,7 +2267,7 @@ msgstr "Mediana"
 
 #: anovaRMNP/options/plotType/medians.title
 msgid "Medians"
-msgstr ""
+msgstr "Mediane"
 
 #: efa/ui[1][0][0].label
 #: pca/ui[1][0][0].label
@@ -2358,7 +2361,7 @@ msgstr ""
 #: logRegMulti/ui[4].label
 #: logRegOrd/ui[4].label
 msgid "Model Coefficients"
-msgstr ""
+msgstr "Koeficienti modela"
 
 #: linReg/results/modelComp.title
 #: logLinear/results/modelComp.title
@@ -2366,7 +2369,7 @@ msgstr ""
 #: logRegMulti/results/modelComp.title
 #: logRegOrd/results/modelComp.title
 msgid "Model Comparisons"
-msgstr ""
+msgstr "Primerjave modela"
 
 #: ancova/ui[1][0].label
 #: anova/ui[1][0].label
@@ -2403,15 +2406,15 @@ msgstr ""
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
 msgid "Model Terms"
-msgstr ""
+msgstr "Pogoji modela"
 
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "Model Test"
-msgstr ""
+msgstr "Test modela"
 
 #: logRegOrd/results/models.template/thres.title
 msgid "Model Thresholds"
-msgstr ""
+msgstr "Pragi modela"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
@@ -2419,7 +2422,7 @@ msgstr ""
 
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
-msgstr ""
+msgstr "Pragi modela"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -2482,7 +2485,7 @@ msgstr "N"
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr ""
+msgstr "N izidov"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
@@ -2499,7 +2502,7 @@ msgstr ""
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr ""
+msgstr "Brez korekcije"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
@@ -2764,14 +2767,14 @@ msgstr ""
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr ""
+msgstr "Odvisni pari vzorcev"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr ""
+msgstr "Kontingenčne razpredelnice odvisnih parov vzorcev"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -2780,7 +2783,7 @@ msgstr ""
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "T-Test odvisnih vzorcev"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
@@ -3182,18 +3185,18 @@ msgstr ""
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
 msgid "RMSE"
-msgstr ""
+msgstr "Napaka RMSE"
 
 #: cfa/options/fitMeasures/rmsea.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "RMSEA"
-msgstr ""
+msgstr "Napaka RMSEA"
 
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr ""
+msgstr "Napaka RMSEA 90 % intervala zaupanja"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
@@ -3302,14 +3305,14 @@ msgstr "Ponovljeno"
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
 msgid "Repeated Measures ANOVA"
-msgstr ""
+msgstr "ANOVA ponavljajočih meritev"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr ""
+msgstr "ANOVA ponavljajočih meritev (neparametrično)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
@@ -3322,7 +3325,7 @@ msgstr ""
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
 msgid "Repeated Measures Factors"
-msgstr ""
+msgstr "Faktorji ponavljajočih meritev"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
@@ -3524,7 +3527,7 @@ msgstr ""
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "SRMR"
-msgstr ""
+msgstr "Ostanek SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
@@ -3546,11 +3549,11 @@ msgstr "Shrani"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
-msgstr ""
+msgstr "Analiza lestvice"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr ""
+msgstr "Statistika zanesljivosti lestvice"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
@@ -3698,7 +3701,7 @@ msgstr ""
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "Testi sferičnosti"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
@@ -3712,7 +3715,7 @@ msgstr ""
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr ""
+msgstr "Zloženo"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -3785,7 +3788,7 @@ msgstr "St. Odklon"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "St. napaka sploščenosti"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
@@ -3793,11 +3796,11 @@ msgstr ""
 
 #: descriptives/ui[2][2][1][0]/se.label
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "St. napaka povprečja"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "St. napaka asimetrije"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
@@ -4155,7 +4158,7 @@ msgstr "Prag"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "Pragi"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
@@ -4169,36 +4172,38 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr ""
+msgstr "Za izračun statistik je zbranih je premalo podatkov (N < 3)"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
 msgstr ""
+"Za izračun statistik je zbranih je premalo podatkov. Vsaka (pod)skupina mora "
+"bimeti vsaj toliko primerov, kot je odvisnih spremenljivk."
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr ""
+msgstr "Za izračun statistik je izbran premajhen vzorec (N < 3)"
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr ""
+msgstr "Za izračun statistik je izbran premajhen vzorec (N < {n})"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr ""
+msgstr "Za izračun statistik je uporabljenih preveč podatkov (N > 5000)"
 
 #: R/ttestis.b.R
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr ""
+msgstr "Za izračun statistik je izbran prevelik vzorec (N > 5000)"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr ""
+msgstr "Za izračun statistik je izbran prevelik vzorec (N > {n})"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "Podatki: Rast zob"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4256,7 +4261,7 @@ msgstr ""
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "Univariatne analize"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4313,12 +4318,12 @@ msgstr "Spremenljiva"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "Spremenljivka »{var} je brez podatkov"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable contains infinite values"
-msgstr ""
+msgstr "Spremenljivka vsebuje neskončne vrednosti"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
@@ -4327,7 +4332,7 @@ msgstr ""
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable is not numeric"
-msgstr ""
+msgstr "Spremenljivka ni številska"
 
 #: corrMatrix/options/vars.title
 #: corrPart/options/vars.title
@@ -4342,15 +4347,15 @@ msgstr "Spremenljivke"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr ""
+msgstr "Spremenljivke po stolpcih"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr ""
+msgstr "Spremenljivke po vrsticah"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
-msgstr ""
+msgstr "Spremenljivke morajo imeti vsaj 2 ravni"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
@@ -4364,7 +4369,7 @@ msgstr "Variance"
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
 msgid "Varimax"
-msgstr ""
+msgstr "Varimax (variance uteži)"
 
 #: descriptives/options/violin.title
 msgid "Violin"
@@ -4390,7 +4395,7 @@ msgstr ""
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "Welchev t"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
@@ -4404,12 +4409,12 @@ msgstr "Wilcoxonov W"
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "Wilcoxonov test rangov"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
 msgid "Wilcoxon signed rank test"
-msgstr ""
+msgstr "Wilcoxonov test predznačenih rangov"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
@@ -4418,7 +4423,7 @@ msgstr "Wilksova Lambda"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "Učinki med primeri"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
@@ -4539,11 +4544,11 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA – ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA – ${dep}`"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -6746,7 +6751,7 @@ msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
-msgstr ""
+msgstr "opuščeno"
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -6830,7 +6835,7 @@ msgstr ""
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr ""
+msgstr "enake skupine"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -6844,7 +6849,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "factors"
-msgstr ""
+msgstr "faktorji"
 
 #: R/cfa.b.R
 msgid "fixed parameter"
@@ -6861,11 +6866,11 @@ msgstr ""
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
-msgstr ""
+msgstr "če je predmet izpuščen"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
-msgstr ""
+msgstr "v razvoju"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
