@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-01 00:31+0000\n"
+"PO-Revision-Date: 2022-03-03 21:56+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
-"jmv_i18n/no/>\n"
+"jmv-i18n/nb_NO/>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1919,76 +1919,76 @@ msgstr "Statistikk på item-reliabilitet"
 
 #: reliability/ui[1][1][0].label
 msgid "Item Statistics"
-msgstr ""
+msgstr "Item-Statistikk"
 
 #: reliability/options/itemRestCor.title
 msgid "Item-rest correlation"
-msgstr ""
+msgstr "Item-rest-korrelasjon"
 
 #: reliability/options/vars.title
 msgid "Items"
-msgstr ""
+msgstr "Items"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr ""
+msgstr "Jittered"
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
-msgstr ""
+msgstr "KMO-mål for adekvat prøvetaking"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
 msgid "KMO measure of sampling adequacy"
-msgstr ""
+msgstr "KMO-mål for adekvat prøvetaking"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr ""
+msgstr "Kendalls Tau-b"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
-msgstr ""
+msgstr "Kendalls Tau-b"
 
 #: contTables/results/taub.title
 msgid "Kendall's Tau-b"
-msgstr ""
+msgstr "Kendalls Tau-b"
 
 #: contTables/options/taub.title
 #: corrMatrix/options/kendall.title
 #: corrPart/options/kendall.title
 msgid "Kendall's tau-b"
-msgstr ""
+msgstr "Kendalls Tau-b"
 
 #: package/analyses/anovaNP.menuSubtitle
 #: anovaNP/options.menuSubtitle
 #: anovaNP/results/table.title
 msgid "Kruskal-Wallis"
-msgstr ""
+msgstr "Kruskal-Wallis"
 
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
 msgid "Kurtosis"
-msgstr ""
+msgstr "Kurtosis"
 
 #: contTables/options/layers.title
 msgid "Layers"
-msgstr ""
+msgstr "Lag"
 
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Level"
-msgstr ""
+msgstr "Nivå"
 
 #: anovaRM/options/rm.default[0].levels[0]
 msgid "Level 1"
-msgstr ""
+msgstr "Nivå 1"
 
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
-msgstr ""
+msgstr "Nivå 2"
 
 #: R/descriptives.b.R
 msgid "Levels"
@@ -1997,22 +1997,24 @@ msgstr "Nivåer"
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
+"Levenes test er signifikant (p < 0,05), noe som tyder på et brudd på "
+"antakelsen om like varianser"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
-msgstr ""
+msgstr "Sannsynlighet"
 
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
 msgid "Likelihood ratio"
-msgstr ""
+msgstr "Sannsynlighetsforhold"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
 msgid "Likelihood ratio tests"
-msgstr ""
+msgstr "Tester av sannsynlighetsforhold"
 
 #: package/analyses/linReg.title
 #: package/analyses/linReg.menuTitle
@@ -2020,22 +2022,26 @@ msgstr ""
 #: linReg/ui.title
 #: linReg/results.title
 msgid "Linear Regression"
-msgstr ""
+msgstr "Lineær regresjon"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
+"Lineær regresjon brukes til å utforske forholdet mellom en kontinuerlig "
+"avhengig variabel, og en eller flere kontinuerlige og/eller kategoriske "
+"forklarende variabler. Andre statistiske metoder, som ANOVA og ANCOVA, er i "
+"realiteten bare former for lineær regresjon."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr ""
+msgstr "Logg odds ratio"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
 msgid "Log odds ratio exact"
-msgstr ""
+msgstr "Eksakt logg-odds-ratio"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -2046,7 +2052,7 @@ msgstr ""
 #: logLinear/ui.title
 #: logLinear/results.title
 msgid "Log-Linear Regression"
-msgstr ""
+msgstr "Log-lineær regresjon"
 
 #: package/analyses/logRegBin.menuSubgroup
 #: package/analyses/logRegMulti.menuSubgroup
@@ -2055,7 +2061,7 @@ msgstr ""
 #: logRegMulti/options.menuSubgroup
 #: logRegOrd/options.menuSubgroup
 msgid "Logistic Regression"
-msgstr ""
+msgstr "Logistisk regresjon"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -2082,7 +2088,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Lower"
-msgstr ""
+msgstr "Nedre"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -2090,24 +2096,24 @@ msgstr ""
 #: mancova/ui.title
 #: mancova/results.title
 msgid "MANCOVA"
-msgstr ""
+msgstr "MANCOVA"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
-msgstr ""
+msgstr "MSA"
 
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr ""
+msgstr "Mann-Whitney U"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
-msgstr ""
+msgstr "Mantel-Haenszel"
 
 #: contTables/results/mh.title
 msgid "Mantel-Haenszel Test for Trend"
-msgstr ""
+msgstr "Mantel-Haenszel-trendtest"
 
 #: R/linreg.b.R
 msgid "Marginal Mean"
@@ -2145,54 +2151,55 @@ msgstr ""
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
-msgstr ""
+msgstr "Mauchly's W"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
-msgstr ""
+msgstr "Maks"
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
 msgid "Maximum"
-msgstr ""
+msgstr "Maksimum"
 
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Maximum likelihood"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "McDonald's ω"
-msgstr ""
+msgstr "McDonalds ω"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr ""
+msgstr "McDonalds ω (hvis spørsmål fjernes)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
+#, fuzzy
 msgid "McFadden's R²"
-msgstr ""
+msgstr "McFadden's R²"
 
 #: contTablesPaired/results/test.title
 msgid "McNemar Test"
-msgstr ""
+msgstr "McNemar-test"
 
 #: R/conttablespaired.b.R
 msgid "McNemar requires a 2x2 table"
-msgstr ""
+msgstr "McNemar krever en 2x2 tabelle"
 
 #: package/analyses/contTablesPaired.menuSubtitle
 #: package/analyses/contTablesPaired.description
 #: contTablesPaired/options.menuSubtitle
 #: contTablesPaired/options.description.main
 msgid "McNemar test"
-msgstr ""
+msgstr "McNemar-test"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -2210,22 +2217,22 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr ""
+msgstr "Gjennomsnitt"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "Gjennomsnitt ({ciWidth}% KI)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Mean Difference"
-msgstr ""
+msgstr "Gjennomsnittlig forskjell"
 
 #: descriptives/ui[2][2][1].label
 msgid "Mean Dispersion"
-msgstr ""
+msgstr "Gjennomsnittlig spredning"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -2247,40 +2254,40 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
 msgid "Mean difference"
-msgstr ""
+msgstr "Gjennomsnittlig differanse"
 
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
 msgid "Mean score"
-msgstr ""
+msgstr "Gjennomsnittlig poengsum"
 
 #: anovaRMNP/options/plotType/means.title
 msgid "Means"
-msgstr ""
+msgstr "Gjennomsnitt"
 
 #: R/anovarmnp.b.R
 msgid "Measure"
-msgstr ""
+msgstr "Måling"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
-msgstr ""
+msgstr "Måling 1 - Måling 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "Måling 1 < Måling 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "Måling 1 > Måling 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_different.label
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "Måling 1 ≠ Måling 2"
 
 #: anovaRMNP/options/measures.title
 msgid "Measures"
-msgstr ""
+msgstr "Målinger"
 
 #: R/descriptives.b.R
 #: R/ttestis.b.R
@@ -2293,44 +2300,44 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Median"
-msgstr ""
+msgstr "Median"
 
 #: anovaRMNP/options/plotType/medians.title
 msgid "Medians"
-msgstr ""
+msgstr "Medianer"
 
 #: efa/ui[1][0][0].label
 #: pca/ui[1][0][0].label
 msgid "Method"
-msgstr ""
+msgstr "Metode"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 #: R/descriptives.b.R
 #: descriptives/options/min.title
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 #: R/pca.b.R
 msgid "Minimum residual"
-msgstr ""
+msgstr "Minst residuum"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
-msgstr ""
+msgstr "Minste residuer"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
 msgid "Minimum value"
-msgstr ""
+msgstr "Minimumsverdi"
 
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr ""
+msgstr "Mangler"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
@@ -2339,7 +2346,7 @@ msgstr "Manglende verdier"
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
 msgid "Missing Values Method"
-msgstr ""
+msgstr "Metode for manglende verdier"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -2352,12 +2359,12 @@ msgstr "Manglende verdier"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
-msgstr ""
+msgstr "Metode for å ekskludere manglende verdier"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 #: R/logregbin.b.R
 #: ancova/ui[2].label
@@ -2374,7 +2381,7 @@ msgstr ""
 #: logRegOrd/results/modelFit.columns.title
 #: logRegOrd/results/modelComp.columns.title
 msgid "Model"
-msgstr ""
+msgstr "Modell"
 
 #: linReg/ui[1].label
 #: logLinear/ui[1].label
@@ -2382,7 +2389,7 @@ msgstr ""
 #: logRegMulti/ui[1].label
 #: logRegOrd/ui[1].label
 msgid "Model Builder"
-msgstr ""
+msgstr "Modell-Builder"
 
 #: linReg/ui[5].label
 #: logLinear/ui[4].label
@@ -2391,7 +2398,7 @@ msgstr ""
 #: logRegMulti/ui[4].label
 #: logRegOrd/ui[4].label
 msgid "Model Coefficients"
-msgstr ""
+msgstr "Modellkoeffisienter"
 
 #: linReg/results/modelComp.title
 #: logLinear/results/modelComp.title
@@ -2399,7 +2406,7 @@ msgstr ""
 #: logRegMulti/results/modelComp.title
 #: logRegOrd/results/modelComp.title
 msgid "Model Comparisons"
-msgstr ""
+msgstr "Modellsammenlikninger"
 
 #: ancova/ui[1][0].label
 #: anova/ui[1][0].label
@@ -2412,7 +2419,7 @@ msgstr ""
 #: logRegOrd/ui[3].label
 #: pca/results/modelFit.title
 msgid "Model Fit"
-msgstr ""
+msgstr "Modell-Fit"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -2421,7 +2428,7 @@ msgstr ""
 #: logRegOrd/results/modelFit.title
 #: pca/results/modelFit/fit.title
 msgid "Model Fit Measures"
-msgstr ""
+msgstr "Mål for modelltilpasning"
 
 #: linReg/results/models.title
 #: logLinear/results/models.title
@@ -2429,26 +2436,26 @@ msgstr ""
 #: logRegMulti/results/models.title
 #: logRegOrd/results/models.title
 msgid "Model Specific Results"
-msgstr ""
+msgstr "Modellspesifikke resultater"
 
 #: ancova/options/modelTerms.title
 #: anova/options/modelTerms.title
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
 msgid "Model Terms"
-msgstr ""
+msgstr "Modelltermer"
 
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "Model Test"
-msgstr ""
+msgstr "Modelltest"
 
 #: logRegOrd/results/models.template/thres.title
 msgid "Model Thresholds"
-msgstr ""
+msgstr "Modellterskler"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
-msgstr ""
+msgstr "Mål for modelltilpasning"
 
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
@@ -2456,20 +2463,20 @@ msgstr ""
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
-msgstr ""
+msgstr "Modifikasjonsindekser"
 
 #: cfa/options/mi.title
 msgid "Modification indices"
-msgstr ""
+msgstr "Modifikasjonsindekser"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
+msgstr "Det finnes mer enn én modus, bare den første berettes"
 
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
 msgid "Multinomial"
-msgstr ""
+msgstr "Multinominell"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -2478,21 +2485,24 @@ msgstr ""
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
 msgid "Multinomial Logistic Regression"
-msgstr ""
+msgstr "Multinomisk logistisk regresjon"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
+"Den multivariate kovariansanalysen (MANCOVA) brukes til å utforske "
+"sammenhenger mellom flere avhengige variabler, og en eller flere kategoriske "
+"og/eller kontinuerlige forklaringsvariabler."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
-msgstr ""
+msgstr "Multivariat statistikk"
 
 #: mancova/results/multivar.title
 msgid "Multivariate Tests"
-msgstr ""
+msgstr "Multivariate tester"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -2508,35 +2518,37 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr ""
+msgstr "N Utfall"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
 #: logRegMulti/options/pseudoR2/r2n.title
 #: logRegOrd/options/pseudoR2/r2n.title
 msgid "Nagelkerke's R²"
-msgstr ""
+msgstr "Nagelkerkes R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr ""
+msgstr "Ingen komponenter har en eigenverdi som er større enn {value}"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr ""
+msgstr "Ingen korreksjon"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
 msgstr ""
+"Ingen faktorer er definert. Box's M-test er bare relevant når modellen "
+"inneholder faktorer."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -2548,7 +2560,7 @@ msgstr "Nominell"
 #: anovaNP/options.menuSubgroup
 #: anovaRMNP/options.menuSubgroup
 msgid "Non-Parametric"
-msgstr ""
+msgstr "Ikke-parametrisk"
 
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
@@ -2566,11 +2578,11 @@ msgstr "Ingen"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr ""
+msgstr "Normalskalerte items"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
-msgstr ""
+msgstr "Antakelse av normalfordeling"
 
 #: ancova/results/assump/norm.title
 #: anova/results/assump/norm.title
@@ -2580,7 +2592,7 @@ msgstr ""
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr ""
+msgstr "Test på normalfordeling (Shapiro-Wilk)"
 
 #: ancova/options/norm.title
 #: anova/options/norm.title
@@ -2590,50 +2602,50 @@ msgstr ""
 #: ttestOneS/options/norm.title
 #: ttestPS/options/norm.title
 msgid "Normality test"
-msgstr ""
+msgstr "Test på normalfordeling"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
-msgstr ""
+msgstr "Antall komponenter"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
-msgstr ""
+msgstr "Antall faktorer"
 
 #: pca/options/nFactorMethod.title
 msgid "Number of components"
-msgstr ""
+msgstr "Antall komponenter"
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
-msgstr ""
+msgstr "Antall faktorer"
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
 msgid "Oblimin"
-msgstr ""
+msgstr "Oblimin"
 
 #: R/conttables.b.R
 #: R/logregbin.b.R
 #: propTestN/results/props.columns.content
 msgid "Observed"
-msgstr ""
+msgstr "Observert"
 
 #: contTables/options/obs.title
 msgid "Observed counts"
-msgstr ""
+msgstr "Observert (antall)"
 
 #: ancova/options/emmPlotData.title
 #: anova/options/emmPlotData.title
 #: anovaRM/options/emmPlotData.title
 msgid "Observed scores"
-msgstr ""
+msgstr "Observerte skårer"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
 msgid "Odds Ratio"
-msgstr ""
+msgstr "Odds-forhold"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -2645,36 +2657,36 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Odds ratio"
-msgstr ""
+msgstr "Odds-forhold"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr ""
+msgstr "Omnibus ANOVA-test"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "Omnibus Likelihood-Ratio-tester"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr ""
+msgstr "Omnibus-test"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
 msgid "Omnibus Tests"
-msgstr ""
+msgstr "Omnibus-tester"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "Proporsjonstests med en utvalg"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -2683,15 +2695,15 @@ msgstr ""
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr ""
+msgstr "t-Test for en utvalg"
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
-msgstr ""
+msgstr "Én eller begge gruppene inneholder ikke nok observasjoner"
 
 #: R/ttestps.b.R
 msgid "One or both variables are not numeric"
-msgstr ""
+msgstr "En av eller begge variablene er ikke numeriske"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain infinite values"
