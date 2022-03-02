@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-01 00:31+0000\n"
+"PO-Revision-Date: 2022-03-02 12:56+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
-"jmv_i18n/sl/>\n"
+"jmv-i18n/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -262,7 +262,7 @@ msgstr "Dodatna statistika"
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
 msgid "Adjusted R²"
-msgstr "Prilagojeni R²"
+msgstr "Prilagojen R²"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
@@ -840,12 +840,12 @@ msgstr "Cookova razdalja"
 #: anova/options/postHocCorr.title
 #: anova/ui[5][1][0].label
 msgid "Correction"
-msgstr ""
+msgstr "Popravek"
 
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[4][1][0].label
 msgid "Corrections"
-msgstr ""
+msgstr "Popravki"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
@@ -898,6 +898,8 @@ msgstr "Korelacijska matrika"
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr ""
+"Korelacijske matrike so način za preučevanje linearnih povezav\n"
+"med dvema ali več zveznimi spremenljivkami."
 
 #: corrMatrix/options.description.main
 msgid "Correlation matrices are a way to examine linear relationships between\n"
@@ -918,6 +920,22 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Korelacijske matrike so način za preučevanje linearnih povezav\n"
+"med dvema ali več zveznimi spremenljivkami.\n"
+"\n"
+"Pearsonov R pokaže za vsak par spremenljivk velikost in smer\n"
+"povezave med njima. Pozitivna vrednost pomeni pozitivno razmerje\n"
+"(višje vrednosti ene spremenljivke napovedujejo višje vrednosti\n"
+"druge). Negativna vrednost kaže negativno razmerje (višje vrednosti\n"
+"ene napovedujejo nižje vrednosti druge spremenljivke in obratno).\n"
+"Vrednost 0 pomeni, da ni povezave (visoka ali nizka vrednost prve ne\n"
+"pove ničesar o vrednosti druge spremenljivke).\n"
+"\n"
+"Formalno je mogoče ničelno hipotezo preveriti po p-vrednosti, če je\n"
+"korelacija enaka 0. Če je p-vrednost nizka, kaže, da korelacijski "
+"koeficient\n"
+"ni enak nič in obstaja linearno (ali kako bolj zapleteno) razmerje med\n"
+"spremenljivkama."
 
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
@@ -1026,19 +1044,19 @@ msgstr "Točke prereza za"
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
 msgid "Cut-Off"
-msgstr ""
+msgstr "Prerez"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
 msgid "Cut-Off Plot"
-msgstr ""
+msgstr "Diagram Prereza"
 
 #: logRegBin/options/cutOffPlot.title
 msgid "Cut-off plot"
-msgstr ""
+msgstr "Diagram prereza"
 
 #: logRegBin/options/cutOff.title
 msgid "Cut-off value"
-msgstr ""
+msgstr "Vrednost prereza"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
@@ -1141,12 +1159,16 @@ msgstr "Opisni izrisi"
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
 msgid "Descriptives Table"
-msgstr ""
+msgstr "Razpredelnica opisne statistike"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
 msgstr ""
+"Opisne statistike so zbirka statističnih izračunov, ki povzemajo in "
+"predočijo značilnosti podatkov, vrednosti in porazdelitve. Običajno se "
+"pregled opisnih statistik pokaže kot dobra praksa pred poglobljenimi "
+"analizami."
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
@@ -1157,7 +1179,7 @@ msgstr "Opisni izrisi"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr ""
+msgstr "Razpredelnica opisne statistike"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -1184,11 +1206,11 @@ msgstr "Razlika"
 
 #: contTables/results/odds.columns.content
 msgid "Difference in 2 proportions"
-msgstr ""
+msgstr "Razlika dveh sorazmernih deležev"
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
-msgstr ""
+msgstr "Razlika sorazmernih deležev"
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
@@ -1204,11 +1226,11 @@ msgstr "Ne privzemi enakosti (Welchev test)"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "Durbin-Watsonov test samokorelacije"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr ""
+msgstr "Dwass-Steel-Critchlow-Flignerjeva parna primerjava"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -1258,13 +1280,13 @@ msgstr "Lastne vrednosti večje od"
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
 msgid "Equal cell weights"
-msgstr ""
+msgstr "Enako utežene celice"
 
 #: ancova/options/emmPlotError.title
 #: anova/options/emmPlotError.title
 #: anovaRM/options/emmPlotError.title
 msgid "Error bars"
-msgstr ""
+msgstr "Razpon napake"
 
 #: ancova/results/contrasts.template.columns.title
 #: anovaRM/results/contrasts.template.columns.title
@@ -1282,7 +1304,7 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Estimate"
-msgstr ""
+msgstr "Ocena"
 
 #: logRegBin/ui[5][0][0][1].label
 #: logRegMulti/ui[4][0][0][1].label
@@ -1309,7 +1331,7 @@ msgstr ""
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "Ocenjena robna povprečja"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -1322,7 +1344,7 @@ msgstr ""
 
 #: cfa/ui[3].label
 msgid "Estimates"
-msgstr ""
+msgstr "Ocene"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
@@ -1341,7 +1363,7 @@ msgstr ""
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr ""
+msgstr "Izloči primere analizo po analizo"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -1349,7 +1371,7 @@ msgstr ""
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr ""
+msgstr "Izloči nepopolne primere"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -1363,7 +1385,7 @@ msgstr "Pričakovano"
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr ""
+msgstr "Izločeni sorazmerni deleži"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
@@ -1779,16 +1801,16 @@ msgstr "Hipoteza"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ pomeni negativno korelacijo"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ pomeni pozitivno korelacijo"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
-msgstr ""
+msgstr "Hₐ je sorazmerni delež {direction} {testValue}"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -2052,7 +2074,7 @@ msgstr "Logistična regresija"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Lower"
-msgstr ""
+msgstr "Spodnji"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -2749,11 +2771,11 @@ msgstr "Skupno"
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "Splošni Preskus Modela"
 
 #: R/ancova.b.R
 msgid "Overall model"
-msgstr ""
+msgstr "Splošni model"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -2762,7 +2784,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "Splošni preskus modela"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
@@ -3034,7 +3056,7 @@ msgstr ""
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 msgid "Predictor"
-msgstr ""
+msgstr "Prediktor"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -3042,7 +3064,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "Prediktorji"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -3339,7 +3361,7 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Represents reference level"
-msgstr ""
+msgstr "Pomeni sklicno raven"
 
 #: R/anovarm.b.R
 msgid "Residual"
@@ -3837,7 +3859,7 @@ msgstr "Vsota kvadratov"
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "Vsota kvadratov"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
@@ -3986,6 +4008,10 @@ msgstr ""
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"Binomski test se uporablja za preverjanje ničelne hipoteze, da se sorazmerni "
+"delež opazovanj ujema z določeno pričakovano vrednostjo. Če je p-vrednost "
+"nizka, pomeni, da je ničelna hipoteza napačna in da mora biti pravi delež "
+"druge vrednosti."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -4245,15 +4271,15 @@ msgstr "Vrsta 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "Vrsta 3 vsote kvadratov"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "Vrsta {ssType} vsote kvadratov"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr ""
+msgstr "Zvezne spremenljivke ni mogoče razdeliti"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
@@ -4288,7 +4314,7 @@ msgstr "Univariatne analize"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "Zgornji"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
@@ -4382,15 +4408,15 @@ msgstr "Violina"
 #: ttestOneS/results/normality.columns.title
 #: ttestPS/results/norm.columns.title
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "Uteženo po spremenljivki »{varName}«"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
-msgstr ""
+msgstr "Uteži (izbirno)"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
@@ -5565,7 +5591,7 @@ msgstr ""
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
+msgstr "parameter"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
@@ -5574,11 +5600,11 @@ msgstr ""
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "razpredelnica post-hoc"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "razpredelnica sorazmernih deležev"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
@@ -5767,7 +5793,7 @@ msgstr ""
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
-msgstr ""
+msgstr "razpredelnica sorazmernih deležev"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
@@ -5804,11 +5830,11 @@ msgstr ""
 
 #: propTestN/results/props.description
 msgid "a table of the proportions"
-msgstr ""
+msgstr "razpredelnica sorazmernih deležev"
 
 #: propTest2/results/table.description
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "razpredelnica sorazmernih deležev in rezultatov testa"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
@@ -7341,7 +7367,7 @@ msgstr ""
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "sd"
-msgstr ""
+msgstr "sd"
 
 #: R/ancova.b.R
 msgid "septic"
@@ -7711,7 +7737,7 @@ msgstr ""
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
 msgid "the width for the Confidence intervals."
-msgstr ""
+msgstr "širina intervala zaupanja."
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
@@ -7723,7 +7749,7 @@ msgstr ""
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr ""
+msgstr "vrednost"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
@@ -7731,7 +7757,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "varimax"
-msgstr ""
+msgstr "varianca uteži"
 
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
@@ -7789,11 +7815,11 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciWidth} % interval zaupanja"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "{ciWidth} % intervali zaupanja"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
