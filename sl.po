@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-02 12:56+0000\n"
+"PO-Revision-Date: 2022-03-03 21:56+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/sl/>\n"
@@ -115,7 +115,7 @@ msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr "1 - Specifičnost"
+msgstr "1 – Specifičnost"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
@@ -1815,7 +1815,7 @@ msgstr "Hₐ je sorazmerni delež {direction} {testValue}"
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
 msgid "IQR"
-msgstr ""
+msgstr "Interkvartilni razmik (IQR)"
 
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
@@ -1989,22 +1989,24 @@ msgstr "Ravni"
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
+"Levenov test je statistično pomemben (P < 0.05), kar kaže na kršitev "
+"predpostavke o enakih varianc."
 
 #: R/proptest2.b.R
 msgid "Likelihood"
-msgstr ""
+msgstr "Razmerje verjetij"
 
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
 msgid "Likelihood ratio"
-msgstr ""
+msgstr "Razmerje verjetij"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
 msgid "Likelihood ratio tests"
-msgstr ""
+msgstr "Preizkus razmerij verjetij"
 
 #: package/analyses/linReg.title
 #: package/analyses/linReg.menuTitle
@@ -2018,6 +2020,10 @@ msgstr "Linearna regresija"
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
+"Linearna regresija se uporablja pri raziskovanju razmerij med zvezno odvisno "
+"spremenljivko in eno ali več zveznimi in/ali kategoričnimi pojasnjevalnimi "
+"spremenljivkami. Druge statistične metode, kot sta ANOVA in ANCOVA, so "
+"pravzaprav le prilagojene oblike linearne regresije."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -2142,7 +2148,7 @@ msgstr "Mauchlyjev W"
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
-msgstr ""
+msgstr "Max‧"
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
@@ -2152,7 +2158,7 @@ msgstr "Zgornja vrednost"
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Največje razmerje verjetij"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
@@ -2162,7 +2168,7 @@ msgstr "McDonaldov ω"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr ""
+msgstr "McDonaldov ω (če je predmet izpuščen)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
@@ -2256,7 +2262,7 @@ msgstr "Mera"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
-msgstr "Mera 1 - Mera 2"
+msgstr "Mera 1 – Mera 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Measure 1 < Measure 2"
@@ -2299,7 +2305,7 @@ msgstr "Metoda"
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
-msgstr ""
+msgstr "Min‧"
 
 #: R/descriptives.b.R
 #: descriptives/options/min.title
@@ -2322,11 +2328,11 @@ msgstr "Najmanjša vrednost"
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr ""
+msgstr "Manjkajoče vrednosti 1"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "Manjkajoče vrednosti"
+msgstr "Manjkajoče vrednosti 2"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
@@ -2340,7 +2346,7 @@ msgstr ""
 #: ttestPS/options/miss.title
 #: ttestPS/ui[1][0][2].label
 msgid "Missing values"
-msgstr "Manjkajoče vrednosti"
+msgstr "Manjkajoče vrednosti 3"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
@@ -2476,6 +2482,9 @@ msgstr ""
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
+"Večrazsežnostna analiza (ko)variance (MANCOVA) se uporablja za raziskovanje "
+"razmerij med več odvisnimi spremenljivkami in eno ali več kategoričnimi in/"
+"ali zveznimi pojasnjevalnimi spremenljivkami."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -2529,6 +2538,8 @@ msgstr "Brez korekcije"
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
 msgstr ""
+"Ni določenih faktorjev. Boxov M-Test je ima smisel le, če model vsebuje "
+"faktorje."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -2648,18 +2659,18 @@ msgstr "Preizkus Omnibus ANOVA"
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "Preizkus razmerij verjetij Omnibus"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr ""
+msgstr "Preizkus Omnibus"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
 msgid "Omnibus Tests"
-msgstr ""
+msgstr "Preizkusi Omnibus"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -2743,7 +2754,7 @@ msgstr "Ordinalna / Urejenostna"
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "Ordinalna logistična regresija"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
@@ -3001,7 +3012,7 @@ msgstr "Post-Hoc test"
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "Testi Post-Hoc"
 
 #: R/proptest2.b.R
 msgid "Posterior"
@@ -3184,7 +3195,7 @@ msgstr ""
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr "Diagrami Q-Q"
+msgstr "Diagrami Q–Q"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
@@ -5519,10 +5530,14 @@ msgstr ""
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"število med 0,5 in 2 (privzeto 0,707), ki določa predhodno širino za "
+"izračunavanje Bayesovih faktorjev"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"število med 0,5 in 2,0 (privzeto 0,707), ki določa predhodno širino za "
+"izračunavanje Bayesovih faktorjev"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -5536,6 +5551,7 @@ msgstr ""
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
 msgstr ""
+"število med 50 in 99,9 (privzeto 95), ki določa širino intervala zaupanja"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -5550,14 +5566,17 @@ msgstr ""
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
+"število med 50 in 99,9 (privzeto 95), ki določa širino intervala zaupanja, "
+"uporabljenega kot `'ci'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
+msgstr "število med 50 in 99,9 (privzeto 95), širina intervala zaupanja"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
 msgstr ""
+"število med 50 in 99,9 (privzeto 95), ki določa verodostojno širino zahtevala"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
@@ -5565,6 +5584,8 @@ msgstr ""
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
 msgstr ""
+"število med 50 in 99,9 (privzeto 95), ki določa širino zahtevanih intervalov "
+"zaupanja"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
@@ -5580,14 +5601,18 @@ msgstr ""
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
 msgstr ""
+"število med 50 in 99,9 (privzeto 95), ki določa širino zahtevanih intervalov "
+"zaupanja"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
 msgstr ""
+"število med 50 in 99,9 (privzeto 95), ki določa širino zahtevanega intervala "
+"zaupanja"
 
 #: ttestOneS/options/testValue.description.R
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "število, ki določa vrednost ničte hipoteze"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
@@ -7847,19 +7872,19 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} modela{modelNo} binomske logistične regresije"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} modela{modelNo} linearne regresije"
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr "{} - Kendallov Tau-B"
+msgstr "{} – Kendallov Tau-B"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr "{} - Pearsonov r"
+msgstr "{} – Pearsonov r"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
