@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-03 21:56+0000\n"
+"PO-Revision-Date: 2022-03-06 22:57+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/sl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -49,11 +49,11 @@ msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "% pravilnih"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "% celote"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
@@ -62,7 +62,7 @@ msgstr "% variance"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "% celote"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -93,10 +93,12 @@ msgstr "Stolpec »{col}« vsebuje le eno enoznačno vrednost"
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
+"Uporabljena je bila metoda ekstrakcije »{method}« v kombinaciji z rotacijo "
+"»{rotation}«."
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "Uporabljena je bila rotacija »{rotation}«."
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -131,16 +133,16 @@ msgstr "25, 50, 75"
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr "< Testne vrednosti"
+msgstr "< Tetstne vrednosti"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr "> Testne vrednosti"
+msgstr "> testne vrednosti"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr "Nizka p-vrednost kaže na kršitev predpostavke o enakih varianc"
+msgstr "Nizka p-vrednost kaže na kršitev predpostavke o enakih variancah"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
@@ -178,7 +180,7 @@ msgstr "Kriterij AIC"
 #: ancova/ui.title
 #: ancova/results.title
 msgid "ANCOVA"
-msgstr "ANCOVA"
+msgstr "Analiza ANCOVA"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -201,7 +203,7 @@ msgstr "ANCOVA"
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr "ANOVA"
+msgstr "Analiza ANOVA"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
@@ -268,7 +270,7 @@ msgstr "Prilagojen R²"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr ""
+msgstr "Vsa opažanja so povezana."
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -296,6 +298,8 @@ msgstr "Podatki: Andersonovi podatki Iris"
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
 msgstr ""
+"Ker ni opredeljenih faktorjev med predmeti, je ta predpostavka vedno "
+"izpolnjena."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -651,7 +655,7 @@ msgstr "Statistika komponent"
 
 #: pca/options/factorCor.title
 msgid "Component correlations"
-msgstr ""
+msgstr "Korelacije komponent"
 
 #: pca/options/factorScoresOV.title
 msgid "Component scores"
@@ -850,7 +854,7 @@ msgstr "Popravki"
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "Nedoločena korelacija"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
@@ -972,12 +976,12 @@ msgstr "Števci (izbirno)"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be infinite"
-msgstr "Števci ne smejo biti neskončni"
+msgstr "Števci ne morejo biti neskončni"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be negative"
-msgstr "Števci ne smejo biti negativni"
+msgstr "Števci ne morejo biti negativni"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1064,7 +1068,7 @@ msgstr ""
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr ""
+msgstr "Durbin–Watsonova statistika"
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
@@ -1395,7 +1399,7 @@ msgstr ""
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
 msgid "Exploration"
-msgstr ""
+msgstr "Raziskovanje"
 
 #: R/efa.b.R
 #: package/analyses/efa.title
@@ -1594,7 +1598,7 @@ msgstr "Frekvence"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
-msgstr ""
+msgstr "Frekvence spremenljivke »$key«"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
@@ -1688,7 +1692,7 @@ msgstr "Skupina 2"
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
 msgid "Group Descriptives"
-msgstr ""
+msgstr "Opisne statistike skupine"
 
 #: anovaRM/results/groupSummary.title
 msgid "Group Summary"
@@ -1703,33 +1707,35 @@ msgstr "Povzetek skupine"
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Združevalna spremenljivka"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
 msgstr ""
+"Združevalna spremenljivka »{a}« ima po izločitvi manjkajočih vrednosti manj "
+"kot 2 ravni"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr ""
+msgstr "Združevalna spremenljivka »{a}« mora imeti natanko 2 ravni"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr ""
+msgstr "Združevalna spremenljivka »{a}« ne sme biti tudi odvisna spremenljivka"
 
 #: R/conttables.b.R
 msgid "Haldane-Anscombe correction applied"
-msgstr ""
+msgstr "Upoštevan je Haldane-Anscombeov popravek"
 
 #: efa/options/factorScoreMethod/Harman.title
 msgid "Harman"
-msgstr ""
+msgstr "Harman‧"
 
 #: ancova/options/contrasts.template/type/helmert.title
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
-msgstr ""
+msgstr "Helmert‧"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -1739,7 +1745,7 @@ msgstr ""
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 msgid "Highlight values above"
-msgstr ""
+msgstr "Poudari zgornje vrednosti"
 
 #: descriptives/options/hist.title
 msgid "Histogram"
@@ -1761,7 +1767,7 @@ msgstr "Holm"
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr ""
+msgstr "Levenov test enakosti varianc"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
@@ -1779,7 +1785,7 @@ msgstr ""
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Huynh-Feldt"
-msgstr "Huynh-Feldt"
+msgstr "Huynh-Feldt‧"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Huynh-Feldt ε"
@@ -1927,12 +1933,12 @@ msgstr "Raztreseno"
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
-msgstr ""
+msgstr "Kaiser-Meyer-Olkinova mera primernosti vzorčenja"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
 msgid "KMO measure of sampling adequacy"
-msgstr ""
+msgstr "Kaiser-Meyer-Olkinova mera primernosti vzorčenja"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -2153,7 +2159,7 @@ msgstr "Max‧"
 #: R/descriptives.b.R
 #: descriptives/options/max.title
 msgid "Maximum"
-msgstr "Zgornja vrednost"
+msgstr "Največ‧"
 
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
@@ -2310,7 +2316,7 @@ msgstr "Min‧"
 #: R/descriptives.b.R
 #: descriptives/options/min.title
 msgid "Minimum"
-msgstr ""
+msgstr "Najmanj‧"
 
 #: R/pca.b.R
 msgid "Minimum residual"
@@ -2328,16 +2334,16 @@ msgstr "Najmanjša vrednost"
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr "Manjkajoče vrednosti 1"
+msgstr "Manjkajoče"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "Manjkajoče vrednosti 2"
+msgstr "Manjkajoče Vrednosti"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
 msgid "Missing Values Method"
-msgstr ""
+msgstr "Metoda manjkajočih vrednosti"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -2346,11 +2352,11 @@ msgstr ""
 #: ttestPS/options/miss.title
 #: ttestPS/ui[1][0][2].label
 msgid "Missing values"
-msgstr "Manjkajoče vrednosti 3"
+msgstr "Manjkajoče vrednosti"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
-msgstr ""
+msgstr "Izločitvena metoda manjkajočih vrednosti"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
@@ -2462,7 +2468,7 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
+msgstr "Obstaja več kot en modus, podana je le prva vrednost"
 
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
@@ -2527,7 +2533,7 @@ msgstr "Nagelkerkejev R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr ""
+msgstr "Ni komponente z lastno vrednostjo, večjo od {value}"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
@@ -3033,10 +3039,11 @@ msgstr "Napovedano"
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
 msgstr ""
+"Napovedana verjetnost spremenljivke {dep} = {level1} (proti {dep} = {level2})"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "napovedana verjetnost spremenljivke … = … (proti … = …)"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -3085,7 +3092,7 @@ msgstr "Prediktorji"
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Analiza glavnih komponent (PCA)"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
@@ -3353,7 +3360,7 @@ msgstr ""
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr ""
+msgstr "ANOVA ponavljajočih meritev"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
@@ -3932,7 +3939,7 @@ msgstr ""
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "Rezultati testa (t in df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
@@ -3952,7 +3959,7 @@ msgstr "Testi"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Testi sferičnosti"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
@@ -4159,10 +4166,14 @@ msgstr ""
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
+"Vrednosti spremenljivke {var} ni mogoče obravnavati kot številke. Izrisi "
+"diagramov, ki zahtevajo številske vrednosti, bodo izpuščeni."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
+"Vrednosti spremenljivk {var} ni mogoče obravnavati kot številke. Izrisi "
+"diagramov, ki zahtevajo številske vrednosti, bodo izpuščeni."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
@@ -4183,7 +4194,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "Teoretični kvantili"
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -4199,7 +4210,7 @@ msgstr "Pragi"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
-msgstr ""
+msgstr "Thurstonenova lestvica"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
@@ -4342,7 +4353,7 @@ msgstr "Vrednost"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr ""
+msgstr "Vrednosti so števci"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -5397,19 +5408,19 @@ msgstr ""
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr ""
+msgstr "z vejico ločen seznam (privzeto: 25,50,75) percentilov"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "diagram matrike korelacij"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "razpredelnica matrike korelacij"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "diagrami opisne statistike"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
@@ -5508,7 +5519,7 @@ msgstr ""
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "število (privzeto: 0,5), ki določa ničto hipotezo"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
@@ -5521,6 +5532,8 @@ msgstr ""
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
 msgstr ""
+"število (privzeto: 1), ki določa najmanjšo lastno vrednost komponente, ki bo "
+"vključena v model"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
@@ -5635,42 +5648,51 @@ msgstr "razpredelnica sorazmernih deležev"
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "diagram normale Q-Q"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
+"niz (privzeto: 'odvisna') za opis oznake, uporabljene kot odvisno "
+"spremenljivko med analizo"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
 msgstr ""
+"niz za poimenovanje odvisne spremenljivke med `podatki`, ki vsebuje števce, "
+"ali prazno vrednost, če vsaka vrstica pomeni eno opazovanje"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
 msgstr ""
+"niz za poimenovanje odvisne spremenljivke med `podatki`, spremenljivka mora "
+"faktor"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
 msgstr ""
+"niz za poimenovanje odvisne spremenljivke med `podatki`, spremenljivka mora "
+"biti številska"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr ""
+msgstr "niz za poimenovanje odvisne spremenljivke med `podatki`"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr ""
+msgstr "niz za poimenovanje odvisnih spremenljivk med `podatki`"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
 msgstr ""
+"niz za poimenovanje združevalne ali neodvisne spremenljivke med `podatki`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
-msgstr ""
+msgstr "povzetek skupin"
 
 #: ancova/results/emm.template/emmTable.description
 #: anova/results/emm.template/emmTable.description
@@ -5684,7 +5706,7 @@ msgstr ""
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "razpredelnica z napovedjo kovarianc faktorja"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
@@ -5720,13 +5742,13 @@ msgstr ""
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "razpredelnica s statistiko kolinearnosti"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "razpredelnica z izračuni opisne statistike"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
@@ -5744,31 +5766,31 @@ msgstr ""
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa normalnosti"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusov normalnosti"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "razpredelnica z rezultati Box-Tidwellovega testa"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "razpredelnica z rezultati T-Testa"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "razpredelnica z rezultati analize ANCOVA"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "razpredelnica z rezultati analize ANOVA"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
@@ -5776,23 +5798,23 @@ msgstr ""
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa homogenosti varianc"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusov homogenosti"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa verjetij"
 
 #: logRegOrd/results/models.template/thres.description
 msgid "a table of model coefficient thresholds"
-msgstr ""
+msgstr "razpredelnica s pražnimi vrednostmi koeficienta modela"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
@@ -5800,13 +5822,13 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "razpredelnica s koeficienti modela"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusov normalnosti"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -5822,7 +5844,7 @@ msgstr "razpredelnica sorazmernih deležev"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
@@ -5830,24 +5852,24 @@ msgstr ""
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
-msgstr ""
+msgstr "razpredelnica z rezultati Friedmanovega preizkusa"
 
 #: contTables/results/taub.description
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "razpredelnica z rezultati Kendallovega Tau-B preizkusa"
 
 #: contTables/results/mh.description
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "razpredelnica z rezultati Mantel-Haenszelovega preizkusa trenda"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "razpredelnica z izračuni opisne statistike"
 
 #: contTables/results/gamma.description
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa gama"
 
 #: anovaRMNP/results/comp.description
 msgid "a table of the pairwise comparisons"
@@ -5865,19 +5887,20 @@ msgstr "razpredelnica sorazmernih deležev in rezultatov testa"
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
 msgid "a table of the test results"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa"
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "razpredelnica z rezultati preizkusa χ²"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
 msgstr ""
+"vektor z nizi imen spremenljivk, katerih lestvica je vrednostno obrnjena"
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr ""
+msgstr "vektor števil: pričakovani sorazmerni deleži"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
@@ -5942,11 +5965,11 @@ msgstr ""
 
 #: descriptives/results/plots.description
 msgid "an array of descriptive plots"
-msgstr ""
+msgstr "polje izrisov diagramov opisne statistike"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
-msgstr ""
+msgstr "polje frekvenčnih razpredelnic"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
@@ -6007,19 +6030,19 @@ msgstr ""
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr ""
+msgstr "število (privzeto: 4), ki določa število enakih skupin"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "parameter b"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "beta 'a' parameter"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "beta 'b' parameter"
 
 #: contTables/options/compare/columns.title
 msgid "columns"
@@ -6031,7 +6054,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "components"
-msgstr ""
+msgstr "komponente"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
@@ -6909,11 +6932,11 @@ msgstr ""
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr ""
+msgstr "označi statistično pomembne korelacije (p < 0,05) s simboli."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "označi statistično pomembne primerjave post-hoc."
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
@@ -6925,7 +6948,7 @@ msgstr "v razvoju"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
-msgstr ""
+msgstr "vključi povzetek skupin"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
@@ -6945,12 +6968,12 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "lower bound"
-msgstr ""
+msgstr "spodnja meja"
 
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "mean"
-msgstr ""
+msgstr "povprečna vrednost"
 
 #: R/pca.b.R
 msgid "none"
@@ -6958,7 +6981,7 @@ msgstr "brez"
 
 #: R/pca.b.R
 msgid "oblimin"
-msgstr ""
+msgstr "oblimin"
 
 #: R/ancova.b.R
 msgid "octic"
@@ -7130,24 +7153,26 @@ msgstr ""
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "izvedi Welchove analize ANOVA."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "Izvedi Welchev t preizkus"
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "izvedi Wilcoxonov test predznačenih rangov."
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "izvedi Mann-Whitneyjev U test."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"izvedi Shapiro-Wilkov preizkus normalnosti. Nizka p-vrednost kaže, da "
+"podatki niso del normalne distribucije."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -7166,7 +7191,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "promax"
-msgstr ""
+msgstr "promax"
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
@@ -7529,7 +7554,7 @@ msgstr ""
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr ""
+msgstr "širina intervala zaupanja."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
@@ -7546,7 +7571,7 @@ msgstr ""
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
-msgstr ""
+msgstr "števci med `podatki`"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
@@ -7792,11 +7817,11 @@ msgstr ""
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
-msgstr ""
+msgstr "po stolpcu"
 
 #: contTables/options/yaxisPc/row_pc.title
 msgid "within rows"
-msgstr ""
+msgstr "po vrsticah"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
@@ -7816,15 +7841,15 @@ msgstr ""
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% spodnjega IZ"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% zgornjega IZ"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}% povprečja IZ {title}"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -7848,15 +7873,15 @@ msgstr "{ciWidth} % intervali zaupanja"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} in {item2}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list} in {lastItem}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list}, {nextItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
@@ -7956,12 +7981,12 @@ msgstr "χ²"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "Skladnost χ² (GoF)"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr ""
+msgstr "Skladnost χ² (GoF)"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
