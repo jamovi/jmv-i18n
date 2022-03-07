@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-07 21:18+0000\n"
+"PO-Revision-Date: 2022-03-07 22:42+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -2239,7 +2239,7 @@ msgstr "Gjennomsnittlig spredning"
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Mean Square"
-msgstr ""
+msgstr "Varians"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -3226,11 +3226,11 @@ msgstr "Q-Q-diagram for å vurdere multivariat normalfordeling"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "Q-Q-diagram av residuer"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr ""
+msgstr "Q-Q-diagrammer"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
@@ -4077,21 +4077,49 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
+"Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
+"kontinuerlig avhengig variabel, og én eller flere kategoriske uavhengige\n"
+"variabler. Denne «ANOVA med én faktor» er en foreklet versjon av den\n"
+"«vanlige» ANOVA, slik at tillater bare én faktor som uavhengig variabel.\n"
+"I tillegg eksisterer også en ANOVA etter Welch. Welchs ANOVA har som\n"
+"fordel at det ikke trenger å antas at variansene for alle gruppene er like.\n"
+"\n"
+"For å gjøre ting enklere tillater denne ANOVA med én faktor å spesifisere\n"
+"flere avhengige variabler. Det resulterer i flere uavhengige tester.\n"
+"\n"
+"Vær oppmerksom på at den samme prosedyren som underligger uavhengig\n"
+"t-test etter Welch også står bak Welchs ANOVA."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"Binomialtesten brukes til å teste nullhypotesen at andelen av observasjoner "
+"samsvarer med en bestemt forventet verdi. Hvis p-verdien er lav, tyder dette "
+"på at nullhypotesen er usann, og at den observerte andelen avviker fra den "
+"forventete andelen."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Friedman-testen brukes til å undersøke forholdet mellom en kontinuerlig "
+"avhengig variabel og en kategorisk uavhengig variabel, der den uavhengige "
+"variabelen er innenfor deltakere (dvs. flere målinger er tatt fra samme "
+"deltakeren). Det er analog for til ANOVA for gjentatte målinger, men det er "
+"ikke-parametrisk, og derfor ikke krever at dataene er normalfordelt eller "
+"varianser må være homogent. Samtidig har testen begrensningen at den bare "
+"kan teste én enkelt faktor som uavhengig variabel om gangen."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Kruskal-Wallis-testen brukes til å undersøke sammenhengen mellom en "
+"kontinuerlig avhengig variabel, og en kategorisk uavhengig variabel. Det er "
+"analogt med ANOVA, men det er ikke-parametrisk og derfor ha færre "
+"forutsetninger. Samtidig har testen begrensningen at den bare kan teste en "
+"faktor som uavhengig variabel om gangen."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -4101,6 +4129,12 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"ANOVA for gjentatte målinger brukes til å undersøke forholdet mellom en\n"
+"kontinuerlig avhengig variabel og én eller flere kategoriske uavhengige\n"
+"variabler, der én eller flere av de avhengig variablene er målt «innenfor\n"
+"deltakerne» (dvs. det er flere målinger fra samme deltaker). I tillegg\n"
+"tillater denne analysen inkludering av kovariater, noe som også gir\n"
+"mulighet for kovariansanalyser (ANCOVA) for gjentatte målinger."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -7750,62 +7784,74 @@ msgstr ""
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "testverdien for å teste mot (vanligvis null)."
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "hvilken korrelasjonstype som skal beregnes"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr ""
+msgstr "typen av kvadratsumme som skal brukes; Type 1, 2 eller 3."
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr ""
+msgstr "typen av kvadratsumme som skal brukes; type 2 eller 3."
 
 #: propTestN/options/var.description.R
 msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
 msgstr ""
+"variabelen av interesse i `data` (ikke nødvendig når du bruker en formel, se "
+"eksemplene)"
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "variabelen som spesifiserer gruppene; må ha 2 nivåer."
 
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
 msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"variabelen som skal brukes som kolonnene i krysstabellen (ikke nødvendig når "
+"du bruker en formel, se eksemplene)"
 
 #: contTables/options/counts.description.R
 #: contTablesPaired/options/counts.description.R
 msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"variabelen som skal brukes for antall i krysstabellen (ikke nødvendig når du "
+"bruker en formel, se eksemplene)"
 
 #: contTables/options/rows.description.R
 #: contTablesPaired/options/rows.description.R
 msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"variabelen som skal brukes som rader i krysstabellen (ikke nødvendig når du "
+"bruker en formel, se eksemplene)"
 
 #: ttestOneS/options/vars.description.ui
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
 msgstr ""
+"variablene av interesse – en separat t-test gjennomføres for hver "
+"spesifisert variabel."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
 msgid "the variables of interest."
-msgstr ""
+msgstr "variablene av interesse."
 
 #: contTables/options/layers.description.R
 msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"variablene som skal brukes til å dele krysstabellen (ikke nødvendig når du "
+"bruker en formel, se eksemplene)"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
 msgid "the width for the Confidence intervals."
-msgstr ""
+msgstr "bredden på konfidensintervallene."
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
@@ -8039,9 +8085,9 @@ msgstr ""
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
-msgstr ""
+msgstr "⁻ gjennomsnitt - 1SD, <sup>μ</sup> gjennomsnitt, ⁺ gjennomsnitt + 1SD"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ Testverdi"
