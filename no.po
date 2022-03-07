@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-03 21:56+0000\n"
+"PO-Revision-Date: 2022-03-07 21:18+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -2182,7 +2182,6 @@ msgstr "McDonalds ω (hvis spørsmål fjernes)"
 #: logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
-#, fuzzy
 msgid "McFadden's R²"
 msgstr "McFadden's R²"
 
@@ -2459,7 +2458,7 @@ msgstr "Mål for modelltilpasning"
 
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
-msgstr ""
+msgstr "Modellterskler"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -2707,19 +2706,21 @@ msgstr "En av eller begge variablene er ikke numeriske"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain infinite values"
-msgstr ""
+msgstr "Minst én variable inneholder uendelige verdier"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain no observations"
-msgstr ""
+msgstr "Minst én variable inneholder ingen observasjoner"
 
 #: R/ttestps.b.R
 msgid "One or both variables do not contain enough observations"
-msgstr ""
+msgstr "Minst én variable inneholder ikke nok observasjoner"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
 msgstr ""
+"Minst én koeffisient i modellen '{modelNo}' kunne ikke estimeres på grunn av "
+"perfekt kollinearitet."
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -2730,27 +2731,27 @@ msgstr ""
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
 msgid "One-Way ANOVA"
-msgstr ""
+msgstr "ANOVA med én faktor"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Fisher's)"
-msgstr ""
+msgstr "ANOVA med én faktor (Fisher)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr ""
+msgstr "ANOVA med én faktor (ikke-parametrisk)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr ""
+msgstr "ANOVA med én faktor (Welch)"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
 msgid "Options"
-msgstr ""
+msgstr "Opsjoner"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
@@ -2763,12 +2764,12 @@ msgstr "Ordinal"
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "Ordinal logistisk regresjon"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "Ordinale resultater"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -2782,7 +2783,7 @@ msgstr "Utgave"
 
 #: R/pca.b.R
 msgid "Overall"
-msgstr ""
+msgstr "Alt i alt"
 
 #: linReg/ui[4][0][1][0].label
 #: linReg/results/modelFit.columns.superTitle
@@ -2791,11 +2792,11 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "Test av den hele modellen"
 
 #: R/ancova.b.R
 msgid "Overall model"
-msgstr ""
+msgstr "Hele modell"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -2804,19 +2805,19 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "Test av den hele modellen"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr ""
+msgstr "Parete stikkprøver"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr ""
+msgstr "Krysstabeller for parete stikkprøver"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -2825,27 +2826,27 @@ msgstr ""
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "Paret t-test"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
-msgstr ""
+msgstr "Parete variabler"
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Parvise sammenligninger (Durbin-Conover)"
 
 #: anovaRMNP/options/pairs.title
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Parvise sammenligninger (Durbin-Conover)"
 
 #: anovaNP/results/comparisons.template.title
 msgid "Pairwise comparisons - $key"
-msgstr ""
+msgstr "Parvise sammenligninger - $key"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
-msgstr ""
+msgstr "Partiell"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -2854,13 +2855,16 @@ msgstr ""
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr ""
+msgstr "Partiell korrelasjon"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
+"Partielle korrelasjoner er en måte å undersøke lineære relasjoner mellom\n"
+"to eller flere kontinuerlige variabler mens en kontrollerer for andre\n"
+"variabler"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -2882,78 +2886,100 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Partielle korrelasjoner er en måte å undersøke lineære relasjoner mellom\n"
+"to eller flere kontinuerlige variabler mens en kontrollerer for andre\n"
+"variabler.\n"
+"\n"
+"For hvert par av variabler angir en Pearsons r-koeffisient styrken og\n"
+"retningen for forholdet mellom disse to variablene. En positiv verdi\n"
+"indikerer en positiv relasjon (hvor høyere verdier av én variabelen "
+"predikerer\n"
+"høye verdier for den andre variabelen). Et negativt Pearsons r-koeffisient\n"
+"angir en negativ relasjon (hvor høyere verdier av én variabelen predikerer\n"
+"lave verdier for den andre variabelen, og omvendt). Verdien null angir "
+"ingen\n"
+"relasjon (om en variabel er høy eller lav, forteller oss ikke noe om "
+"verdien\n"
+"av den andre variabelen).\n"
+"\n"
+"Det er mulig å teste nullhypotesen om at korrelasjonen er null og beregner\n"
+"en p-verdi. Hvis p-verdien er lav, antyder det at samvirkeeffektiv "
+"korrelasjon\n"
+"ikke er null, og at det er en lineær (eller mer kompleks) relasjon mellom "
+"de\n"
+"to variablene."
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
-msgstr ""
+msgstr "Partiell η²"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
-msgstr ""
+msgstr "Stidiagram"
 
 #: cfa/options/pathDiagram.title
 msgid "Path diagram"
-msgstr ""
+msgstr "Stidiagram"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
-msgstr ""
+msgstr "Pearson"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "Pearsons r"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
-msgstr ""
+msgstr "Pearson{}Korrelasjon"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr ""
+msgstr "Prosentandeler"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
-msgstr ""
+msgstr "Prosentandeler av totalt"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "Prosentandeler innenfor {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
-msgstr ""
+msgstr "Persentil"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
-msgstr ""
+msgstr "Persentilverdier"
 
 #: descriptives/options/pcValues.title
 msgid "Percentile values"
-msgstr ""
+msgstr "Persentilverdier"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
 msgid "Percentiles"
-msgstr ""
+msgstr "Persentiler"
 
 #: contTables/options/phiCra.title
 msgid "Phi and Cramer's V"
-msgstr ""
+msgstr "Phi og Cramers V"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "Phi-koeffisient"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "Pillais spor"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -2961,11 +2987,11 @@ msgstr ""
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr ""
+msgstr "Diagram"
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr ""
+msgstr "Diagramtype"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -2985,12 +3011,12 @@ msgstr "Figurer"
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
-msgstr ""
+msgstr "Polynomial"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "Post-hoc-sammenlikninger – {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -3003,49 +3029,49 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "Post-hoc-tester"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Post-hoc-tester – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "Kvaliteten på post-hoc-modellen"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "Post-hoc-test"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "Post-hoc-tester"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr ""
+msgstr "Posterior"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr ""
+msgstr "Posterior-diagrammer"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr ""
+msgstr "Posterior-diagram"
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr ""
+msgstr "Forutsagt"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
+msgstr "Forventet sannsynlighet for {dep} = {level1} (vs{dep} = {level2})"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "Forventet sannsynlighet for ... = ... (vs ... = ...)"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -3053,17 +3079,17 @@ msgstr ""
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr ""
+msgstr "Forutsagte verdier"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
 msgid "Prediction"
-msgstr ""
+msgstr "Prediksjon"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr ""
+msgstr "Prediktive mål"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -3076,7 +3102,7 @@ msgstr ""
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 msgid "Predictor"
-msgstr ""
+msgstr "Prediktor"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -3084,7 +3110,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "Prediktorer"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -3094,15 +3120,15 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Hovedkomponentanalyse"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
-msgstr ""
+msgstr "Hovedakse"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Hovedaksefaktorering"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -3110,44 +3136,44 @@ msgstr ""
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
 msgid "Prior"
-msgstr ""
+msgstr "Antakelse (prior)"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "Bredde på antakelse (prior)"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Probability"
-msgstr ""
+msgstr "Sannsynlighet"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "Promax"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Proportion"
-msgstr ""
+msgstr "Proporsjon"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "Proporsjonstest (2 resultater)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "Proporsjonstest (N resultater)"
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -3158,11 +3184,11 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.title
 #: logRegOrd/ui[3][0][1]/pseudoR2.label
 msgid "Pseudo R²"
-msgstr ""
+msgstr "Pseudo-R²"
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
-msgstr ""
+msgstr "Q-Q"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -3175,15 +3201,15 @@ msgstr ""
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr ""
+msgstr "Q-Q-diagram"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "Q-Q-diagram for å vurdere multivariat normalfordeling"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
-msgstr ""
+msgstr "Q-Q-diagrammer"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -3192,11 +3218,11 @@ msgstr ""
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q-diagram"
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "Q-Q-diagram for å vurdere multivariat normalfordeling"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
@@ -3209,74 +3235,74 @@ msgstr ""
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
 msgid "Quartimax"
-msgstr ""
+msgstr "Quartimax"
 
 #: linReg/options/r.title
 #: linReg/results/modelFit.columns.title
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
-msgstr ""
+msgstr "Faktor 1 for gjentatte målinger"
 
 #: jamovi/js/anovarm.events.js:8
 msgid "RM Factor {0}"
-msgstr ""
+msgstr "Faktor {0] for gjentatte målinger"
 
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
 msgid "RMSE"
-msgstr ""
+msgstr "RMSE"
 
 #: cfa/options/fitMeasures/rmsea.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "RMSEA"
-msgstr ""
+msgstr "RMSEA"
 
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr ""
+msgstr "RMSEA 90 % KI"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
-msgstr ""
+msgstr "ROC"
 
 #: logRegBin/results/models.template/pred/rocPlot.title
 msgid "ROC Curve"
-msgstr ""
+msgstr "ROC-kurve"
 
 #: logRegBin/options/rocPlot.title
 msgid "ROC curve"
-msgstr ""
+msgstr "ROC-kurve"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
-msgstr ""
+msgstr "Variasjonsbredde"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Rank biserial correlation"
-msgstr ""
+msgstr "Biserial rangkorrelasjon"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr ""
+msgstr "Andelsforhold"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
 msgid "Rate ratio"
-msgstr ""
+msgstr "Andelsforhold"
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
-msgstr ""
+msgstr "Forhold"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -3284,7 +3310,7 @@ msgstr ""
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 msgid "Reference Level"
-msgstr ""
+msgstr "Referansenivå"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -3297,11 +3323,11 @@ msgstr ""
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
 msgid "Reference Levels"
-msgstr ""
+msgstr "Referansenivåer"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
-msgstr ""
+msgstr "Referansenivå (dummy-koding)"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -3316,12 +3342,12 @@ msgstr ""
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
 msgid "Regression"
-msgstr ""
+msgstr "Regresjon"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
 msgid "Relative risk"
-msgstr ""
+msgstr "Relativ risiko"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -3331,13 +3357,13 @@ msgstr ""
 #: reliability/ui.title
 #: reliability/results.title
 msgid "Reliability Analysis"
-msgstr ""
+msgstr "Reliabilitetsanalyse"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
 #: anovaRM/options/contrasts.template/type/repeated.title
 msgid "Repeated"
-msgstr ""
+msgstr "Gjentatt"
 
 #: package/analyses/anovaRM.title
 #: package/analyses/anovaRM.menuTitle
@@ -3347,80 +3373,82 @@ msgstr ""
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
 msgid "Repeated Measures ANOVA"
-msgstr ""
+msgstr "ANOVA for gjentatte målinger"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr ""
+msgstr "ANOVA for gjentatte målinger (ikke-parametrisk)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
-msgstr ""
+msgstr "Celler ved gjentatte målinger"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr ""
+msgstr "Komponenter for gjentatte målinger"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
 msgid "Repeated Measures Factors"
-msgstr ""
+msgstr "Faktorer for gjentatte målinger"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr ""
+msgstr "Signifikansnivå"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr ""
+msgstr "Representerer totalgjennomsnitt"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
-msgstr ""
+msgstr "Representerer referansenivå"
 
 #: R/anovarm.b.R
 msgid "Residual"
-msgstr ""
+msgstr "Residuer"
 
 #: cfa/options/resCov.title
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "Kovarians av residuene"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "Kovarians av residuene – Modifikasjonsindekser"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "Estimater på residuer"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "Skjæringspunkter for residuer"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "Kovarianser av residuene"
 
 #: cfa/options/resInterceptEst.title
 msgid "Residual intercepts"
-msgstr ""
+msgstr "Skjæringspunkter for residuene"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "Diagrammer av residuene"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
 msgstr ""
+"Kvadratsummen på residuene og / eller frihetsgrader er null, noe som "
+"indikerer en perfekt tilpasning av modellen"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -3435,23 +3463,23 @@ msgstr ""
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
 msgid "Residuals"
-msgstr ""
+msgstr "Residuer"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
-msgstr ""
+msgstr "Diagrammer av residuene"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "Residuene for observert korrelasjonsmatrise"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "Residuene for ANOVA"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
-msgstr ""
+msgstr "Residuene for observert korrelasjonsmatrise"
 
 #: package/analyses/empty.title
 #: package/analyses/empty.menuTitle
@@ -3466,22 +3494,22 @@ msgstr "Resultater"
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr ""
+msgstr "Inverterte items"
 
 #: efa/options/rotation.title
 #: pca/options/rotation.title
 msgid "Rotation"
-msgstr ""
+msgstr "Rotasjon"
 
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
-msgstr ""
+msgstr "Rad"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "Radvariabelen «{var}» omfatter færre enn 2 nivåer"
 
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
@@ -3491,38 +3519,38 @@ msgstr "Rader"
 
 #: R/conttables.b.R
 msgid "Rows compared"
-msgstr ""
+msgstr "Sammenlignete rader"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
 msgid "Roy's Largest Root"
-msgstr ""
+msgstr "Største rot etter Roy"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
 msgid "R²"
-msgstr ""
+msgstr "R²"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>CS</sub>"
-msgstr ""
+msgstr "R²<sub>CS</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>McF</sub>"
-msgstr ""
+msgstr "R²<sub>McF</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
-msgstr ""
+msgstr "R²<sub>N</sub>"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -3532,7 +3560,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr ""
+msgstr "Standardavvik"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -3559,25 +3587,25 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SE"
-msgstr ""
+msgstr "Standardfeil"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "SE difference"
-msgstr ""
+msgstr "Standardfeil for differanse"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "SRMR"
-msgstr ""
+msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr ""
+msgstr "Kvadratsumme for ladinger"
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
-msgstr ""
+msgstr "Størrelse på utvalg"
 
 #: ancova/ui[7].label
 #: anova/ui[7].label
@@ -3591,173 +3619,175 @@ msgstr "Lagre"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
-msgstr ""
+msgstr "Skalaanalyse"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr ""
+msgstr "Statistikk på skalareliabilitet"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
-msgstr ""
+msgstr "Skalastatistikk"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
-msgstr ""
+msgstr "Skalerungsfaktor = først skalerungsindikator"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
 msgid "Scheffe"
-msgstr ""
+msgstr "Scheffé"
 
 #: R/pca.b.R
 msgid "Score Component"
-msgstr ""
+msgstr "Score-komponent"
 
 #: R/pca.b.R
 msgid "Score Factor"
-msgstr ""
+msgstr "Score-faktor"
 
 #: R/pca.b.R
 msgid "Score for component"
-msgstr ""
+msgstr "Score for komponent"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr ""
+msgstr "Score for faktor {i}. Estimert ved å bruke «{fsMethod}»-metoden."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
-msgstr ""
+msgstr "Scree-diagram"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
 msgid "Scree plot"
-msgstr ""
+msgstr "Scree-diagram"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
-msgstr ""
+msgstr "Semipartiell"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
-msgstr ""
+msgstr "Semipartiell korrelasjon"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Sensitivity"
-msgstr ""
+msgstr "Sensitivitet"
 
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr ""
+msgstr "Shapiro-Wilk-test på multivariat normalfordeling"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
-msgstr ""
+msgstr "Shapiro-Wilk W"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr ""
+msgstr "Shapiro-Wilk p"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
-msgstr ""
+msgstr "Shapiro-Wilk-test"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr ""
+msgstr "Shapiro-Wilk-test på multivariat normalfordeling"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
-msgstr ""
+msgstr "Side-ved-side"
 
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
 msgid "Simple"
-msgstr ""
+msgstr "Enkel"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
 msgid "Simplimax"
-msgstr ""
+msgstr "Simplimax"
 
 #: R/pca.b.R
 msgid "Simulations"
-msgstr ""
+msgstr "Simulasjoner"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
 msgstr ""
+"Det oppsto singularitet: Én eller flere prediktorvariabler er en lineær "
+"kombinasjon av andre prediktorvariabler."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr ""
+msgstr "Feil pga. singularitet. Sfærisitetstester er ikke tilgjengelige"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
 msgid "Skewness"
-msgstr ""
+msgstr "Skjevhet"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "Sorter faktorladinger etter størrelse"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
 msgid "Spearman"
-msgstr ""
+msgstr "Spearman"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr ""
+msgstr "Spearmans rho"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr ""
+msgstr "Spesifisitet"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr ""
+msgstr "Sfærisitetskorreksjon"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr ""
+msgstr "Sfærisitetskorreksjoner"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "Sfærisitetstester"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr ""
+msgstr "Del etter"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "Kvadrert Mahalanobis-distanse"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr ""
+msgstr "Stablet"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -3766,29 +3796,29 @@ msgstr ""
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr ""
+msgstr "Stand. Estimat"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
 msgid "Standard Error"
-msgstr ""
+msgstr "Standardfeil"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr ""
+msgstr "Standardavvik"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr ""
+msgstr "Standardfeil"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "Standardisert estimat"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -3799,12 +3829,12 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "Standardiserte residuer"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr ""
+msgstr "Standardisert estimat"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -3813,7 +3843,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr ""
+msgstr "Statistikk"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -3822,50 +3852,50 @@ msgstr ""
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
 msgid "Statistics"
-msgstr ""
+msgstr "Statistikk"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr ""
+msgstr "Std.-avvik"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "Std.-feil kurtosis"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
-msgstr ""
+msgstr "Std.-feil av gjennomsnitt"
 
 #: descriptives/ui[2][2][1][0]/se.label
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "Std.-feil av gjennomsnitt"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "Std.-feil for skjevhet"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
 msgid "Student's"
-msgstr ""
+msgstr "Student's"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Student's t"
-msgstr ""
+msgstr "Student's t"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr ""
+msgstr "Student's test"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
 #: descriptives/options/sum.title
 msgid "Sum"
-msgstr ""
+msgstr "Sum"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -3873,22 +3903,22 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "Kvadratsum"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "Kvadratsum"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "Totalscore"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
-msgstr ""
+msgstr "Sammendrag"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -3897,13 +3927,13 @@ msgstr ""
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr ""
+msgstr "t-tester"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "TLI"
-msgstr ""
+msgstr "TLI"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -3913,7 +3943,7 @@ msgstr ""
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr ""
+msgstr "Term 1"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -3928,48 +3958,48 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr ""
+msgstr "Term {0}"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "Testverdi"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
 msgid "Test for Exact Fit"
-msgstr ""
+msgstr "Test for eksakt tilpassing"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "Testresultater (t og df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr ""
+msgstr "Teststatistikk"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "Testverdi"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr ""
+msgstr "Tester"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Sfærisitetstester"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "«Iris»-datasettet fra R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
+msgstr "«Delt etter»-variabelen «{var}» inneholder ingen data."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -3979,12 +4009,20 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
+"Kovariansanalyse (ANCOVA) brukes til å utforske sammenhengene\n"
+"mellom en kontinuerlig avhengig variabel, én eller flere kategoriske\n"
+"uavhengige variabler og én eller flere kontinuerlige uavhengige variabler\n"
+"(også kalt kovariater). Det er egentlig den samme analysen som ANOVA, men\n"
+"den tillater kovariater i tillegg."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
+"Variansanalysen (ANOVA) brukes til å utforske sammenhengene\n"
+"mellom en kontinuerlig avhengig variabel, og en eller flere kategoriske\n"
+"uavhengige variabler."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -3999,6 +4037,16 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
 msgstr ""
+"Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom\n"
+"en kontinuerlig avhengig variabel, og én eller flere kategoriske\n"
+"uavhengige variabler.\n"
+"\n"
+"ANOVA antar at residuene er normalfordelt, og at varianser for alle\n"
+"grupper er like. Hvis man kan ikke anta at variansene er like, kan en\n"
+"Welch-test brukes i stedet (Welch-test støtter imidlertid ikke mer enn\n"
+"én faktor som uavhengig variable). Hvis man dessuten ikke kan anta\n"
+"at dataene er normalfordelt, kan en ikke-parametrisk tilnærming (f.eks.\n"
+"Kruskal-Wallis-test) brukes."
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -4008,6 +4056,12 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
+"Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
+"kontinuerlig avhengig variabel, og én eller flere kategoriske uavhengige\n"
+"variabler. Denne «ANOVA med èn faktor» er en forenklet versjon av den\n"
+"«vanlige» ANOVA, som bare tillater èn faktor som uavhengig variable. I\n"
+"tillegg eksisterer også en ANOVA etter Welch. Welchs ANOVA har fordelen\n"
+"at den ikke trenger å anta at variansene for alle gruppene er like."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
