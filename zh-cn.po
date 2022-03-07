@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-03-07 22:42+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"jamovi/jmv-i18n/zh_Hans/>\n"
+"Language: zh-cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: zh-cn\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -2507,7 +2511,7 @@ msgstr "不存在任何因子。Box's M检验仅在模型中包含因子时才�
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
 msgid "Nominal"
-msgstr "无序多分类"
+msgstr "名义"
 
 #: package/analyses/anovaNP.menuSubgroup
 #: package/analyses/anovaRMNP.menuSubgroup
@@ -2708,7 +2712,7 @@ msgstr "选项"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
-msgstr "有序多分类"
+msgstr "定序"
 
 #: package/analyses/logRegOrd.title
 #: package/analyses/logRegOrd.description
@@ -3582,7 +3586,7 @@ msgstr "成分的得分"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr "因子 {i} 的分数. 使用“{fsMethod}”方法估计"
+msgstr "因子 {i} 的分数。 使用“{fsMethod}”方法估计。"
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
@@ -3624,7 +3628,7 @@ msgstr "Shapiro-Wilk W统计量"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr "Shapiro-Wilk  p值"
+msgstr "Shapiro-Wilk p值"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
@@ -7904,11 +7908,11 @@ msgstr "提供描述图."
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr "提供效应量（Cohen's d值）"
+msgstr "提供效应量（Cohen's d值）。"
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "提供效应量（Cohen's d值）"
+msgstr "提供效应量（Cohen's d值）。"
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -7956,7 +7960,7 @@ msgstr "提供球形度检验结果."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "提供事后检验结果（t值和自由度）"
+msgstr "提供事后检验结果（t值和自由度）。"
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -8150,7 +8154,7 @@ msgstr "备择假设。可以进行单侧检验."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr "组间因子（可选）"
+msgstr "组间因子（可选）。"
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
@@ -8239,7 +8243,7 @@ msgstr "`数据`中的因变量，必须是数值型"
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr "`数据`中的因变量，必须是数值型（提供公式时不需要，见示例）."
+msgstr "`数据`中的因变量，必须是数值型（提供公式时不需要，见示例）。"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -8354,7 +8358,7 @@ msgstr "提供边际估计均值项。可以指定多个项."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr "比较值（通常为零）"
+msgstr "比较值（通常为零）。"
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
