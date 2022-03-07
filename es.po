@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-03 21:56+0000\n"
+"PO-Revision-Date: 2022-03-07 22:42+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -914,20 +914,22 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Las matrices de correlación son una forma de examinar las relaciones\n"
+msgstr ""
+"Las matrices de correlación son una forma de examinar las relaciones\n"
 "lineales entre dos o más variables continuas.\n"
 "\n"
 "Para cada par de variables, el valor r de Pearson indica la fuerza\n"
 "y dirección de la relación entre esas dos variables. Un valor positivo\n"
 "indica una relación positiva (valores más altos de una variable predicen\n"
-"valores más altos de la otra variable). Un valor negativo de la r de Pearson\n"
+"valores más altos de la otra variable). Un valor negativo de la r de "
+"Pearson\n"
 "indica una relación negativa (valores más altos de una variable predicen\n"
 "valores más bajos de la otra variable, y viceversa).\n"
 "Un valor de cero indica que no hay relación (si una variable es alta\n"
 "o baja, no nos dice nada sobre el valor de la otra variable).\n"
 "\n"
 "Más formalmente, es posible probar la hipótesis nula de que la\n"
-"la correlación es cero y calcular un valor p. Si el valor p es bajo,\n"
+"correlación es cero y calcular un valor p. Si el valor p es bajo,\n"
 "sugiere que el coeficiente de correlación no es cero, y hay una relación\n"
 "lineal (o más compleja) entre las dos variables."
 
@@ -2330,7 +2332,7 @@ msgstr "Método de Valores Perdidos"
 #: ttestPS/options/miss.title
 #: ttestPS/ui[1][0][2].label
 msgid "Missing values"
-msgstr "Valores Perdidos"
+msgstr "Valores perdidos"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
@@ -2544,7 +2546,7 @@ msgstr "No Paramétrico"
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
 msgid "None"
-msgstr "Ninguno"
+msgstr "Ninguna"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
@@ -2853,7 +2855,8 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Las matrices de correlación parcial son una forma de examinar las\n"
+msgstr ""
+"Las matrices de correlación parcial son una forma de examinar las\n"
 "relaciones lineales entre dos o más variables continuas mientras\n"
 "se controla por otras variables.\n"
 "\n"
@@ -2868,8 +2871,9 @@ msgstr "Las matrices de correlación parcial son una forma de examinar las\n"
 "variable).\n"
 "\n"
 "Más formalmente, es posible probar la hipótesis nula de que la\n"
-"la correlación es cero y calcular un valor p. Si el valor p es bajo,\n"
-"sugiere que el coeficiente de correlación no es cero, y hay una relación lineal\n"
+"correlación es cero y calcular un valor p. Si el valor p es bajo,\n"
+"sugiere que el coeficiente de correlación no es cero, y hay una relación "
+"lineal\n"
 "(o más compleja) entre las dos variables."
 
 #: anovaRM/options/effectSize/partEta.title
@@ -2968,7 +2972,7 @@ msgstr "Tipo de Gráfica"
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr "Gráficas"
+msgstr "Gráficos"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -4200,17 +4204,22 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "La prueba t de muestras pareadas de Student (a veces llamada\n"
-"prueba t de muestras dependientes) se utiliza para probar la hipótesis nula de que el\n"
+msgstr ""
+"La prueba t de muestras pareadas de Student (a veces llamada\n"
+"prueba t de muestras dependientes) se utiliza para probar la hipótesis nula "
+"de que el\n"
 "la diferencia entre pares de medidas es igual a cero. Un valor p bajo\n"
 "sugiere que la hipótesis nula no es cierta y que la\n"
-"la diferencia entre los pares de medidas no es cero.\n"
+"diferencia entre los pares de medidas no es cero.\n"
 "\n"
-"La prueba t de Student para muestras pareadas asume que siguen las diferencias entre pares\n"
+"La prueba t de Student para muestras pareadas asume que siguen las "
+"diferencias entre pares\n"
 "una distribución normal - en el caso de que uno no esté dispuesto a asumir\n"
-"esto, el rango con signo de Wilcoxon no paramétrico se puede usar en su lugar\n"
+"esto, el rango con signo de Wilcoxon no paramétrico se puede usar en su "
+"lugar\n"
 "(Sin embargo, tenga en cuenta que el rango con signo de Wilcoxon tiene un\n"
-" ligeramente diferentehipótesis nula; que los dos grupos de medidas siguen el mismo\n"
+" ligeramente diferentehipótesis nula; que los dos grupos de medidas siguen "
+"el mismo\n"
 "distribución)."
 
 #: R/logregbin.b.R
@@ -4639,7 +4648,9 @@ msgstr "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (predeterm
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr " `'notequal'` (predeterminado), `'greater’` o` ‘less’`, la hipótesis alternativa"
+msgstr ""
+"`'notequal'` (predeterminado), `'greater’` o` ‘less’`, la hipótesis "
+"alternativa"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
@@ -4648,17 +4659,28 @@ msgstr "` ‘parallel’` (predeterminado), `'eigen'` o` ‘fixed’`, la forma 
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr " `'perAnalysis'` o `'listwise'`, cómo manejar los valores perdidos; 'perAnalysis'` excluye los valores perdidos para las variables dependientes individuales,`'listwise'` excluye una fila de todos los análisis si una de sus entradas es desaparecido"
+msgstr ""
+"`'perAnalysis'` o `'listwise'`, cómo manejar los valores perdidos; "
+"'perAnalysis'` excluye los valores perdidos para las variables dependientes "
+"individuales,`'listwise'` excluye una fila de todos los análisis si una de "
+"sus entradas es desaparecido"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr " `'perAnalysis'` o `'listwise'`, cómo manejar los valores perdidos; 'perAnalysis'` excluye los valores perdidos para las variables dependientes individuales,`'listwise'` excluye una fila de todos los análisis si una de sus entradas es desaparecido."
+msgstr ""
+"`'perAnalysis'` o `'listwise'`, cómo manejar los valores perdidos; "
+"'perAnalysis'` excluye los valores perdidos para las variables dependientes "
+"individuales,`'listwise'` excluye una fila de todos los análisis si una de "
+"sus entradas es desaparecido."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr " `'refLevel'` (predeterminado) o `'grandMean'`, codificación de la intersección. O crea contraste para que la intersección represente el nivel de referencia o la media global"
+msgstr ""
+"`'refLevel'` (predeterminado) o `'grandMean'`, codificación de la "
+"intersección. O crea contraste para que la intersección represente el nivel "
+"de referencia o la media global"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
@@ -5801,7 +5823,7 @@ msgstr "una tabla que contiene los descriptivos"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr "una tabla que contiene las cargas  del factor"
+msgstr "una tabla que contiene las cargas del factor"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
@@ -7069,7 +7091,10 @@ msgstr "uno o más de `'none'`, `'tukey'` (predeterminado), `'scheffe'`, `'bonf'
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
-msgstr "uno o más de `'none’`, `'tukey’`, `'scheffe’`, `'bonf’`, or `'holm’`; proporciona ninguno, Tukey, Scheffe, Bonferroni y Holm correcciones Post Hoc  respectivamente"
+msgstr ""
+"uno o más de `'none’`, `'tukey’`, `'scheffe’`, `'bonf’`, or `'holm’`; "
+"proporciona ninguno, Tukey, Scheffe, Bonferroni y Holm correcciones Post Hoc "
+"respectivamente"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
@@ -7158,7 +7183,7 @@ msgstr "p<sub>bonferroni</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr "p<sub>holm</sub"
+msgstr "p<sub>holm</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
@@ -7588,7 +7613,7 @@ msgstr "los términos entre sujetos del modelo."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr "las variables categóricas explicativas (o independientes)"
+msgstr "las variables categóricas explicativas (o independientes)."
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -7704,7 +7729,9 @@ msgstr "las covariables explicativas (no es necesario cuando se proporciona una 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
 msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
-msgstr "los factores explicativos en` data` (no es necesario cuando se proporciona una fórmula, ver ejemplos) ."
+msgstr ""
+"los factores explicativos en` data` (no es necesario cuando se proporciona "
+"una fórmula, ver ejemplos)"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
