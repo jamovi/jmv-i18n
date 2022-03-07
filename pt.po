@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-02-21 22:00+0000\n"
+"PO-Revision-Date: 2022-03-07 22:42+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
-"jmv_i18n/pt/>\n"
+"jmv-i18n/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -97,7 +97,7 @@ msgstr "Foi utilizada a rotação '{rotation}'"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr "'{var}' contém valores negativos. Não são permitidos valores negativos"
+msgstr "'{var}' contém valores negativos. Não são permitidos valores negativos."
 
 #: R/corrmatrix.b.R R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -355,7 +355,7 @@ msgstr "Fator de Bayes"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr "Fator de  Bayes₁₀"
+msgstr "Fator de Bayes₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
@@ -1131,7 +1131,7 @@ msgstr "As estimativas representam o Log das Chances de \"{dep} = {level1}\" vs.
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr "As estimativas representam o Log das chances de..."
+msgstr "As estimativas representam o Log das chances de …"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -3427,10 +3427,12 @@ msgid ""
 msgstr ""
 "A Análise de Variância (ANOVA) é utilizada para explorar a relação\n"
 "entre uma variável dependente contínua, e uma ou mais\n"
-"variáveis explicativas categoriais . Esta \"ANOVA unifatorial\" é uma versão simplificada de\n"
-"da ANOVA \"normal\", permitindo apenas um único fator explicativo, no entanto\n"
+"variáveis explicativas categoriais . Esta \"ANOVA unifatorial\" é uma versão "
+"simplificada de\n"
+"da ANOVA \"normal\", permitindo apenas um único fator explicativo, no "
+"entanto\n"
 "também fornece a ANOVA da Welch. A ANOVA da Welch tem a vantagem de\n"
-"não precisar que as variâncias de todos os grupos seja iguais iguais."
+"não precisar que as variâncias de todos os grupos seja iguais."
 
 #: anovaOneW/options.description.main
 msgid ""
@@ -3485,7 +3487,8 @@ msgid ""
 msgstr ""
 "A ANOVA de medidas repetidas é usada para explorar a relação\n"
 "entre uma variável dependente contínua e uma ou mais\n"
-"variáveis ​​explicativas categoriais, onde uma ou mais das variáveis ​​explicativas\n"
+"variáveis explicativas categoriais, onde uma ou mais das variáveis "
+"explicativas\n"
 "estão 'dentro dos sujeitos' (várias medições repetidas do mesmo\n"
 "sujeito). Além disso, esta análise permite a inclusão de\n"
 "covariáveis, permitindo também fazer ANCOVAs de medidas repetidas."
@@ -3640,7 +3643,9 @@ msgstr "A variável {var} não pode ser tratada como numérica. Os gráficos que
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "As variáveis ​​{vars} não podem ser tratadas como numéricas. Os gráficos que exigem dados numéricos não serão criados para estas variáveis."
+msgstr ""
+"As variáveis {vars} não podem ser tratadas como numéricas. Os gráficos que "
+"exigem dados numéricos não serão criados para estas variáveis."
 
 #: package/analyses/propTestN.description propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
@@ -3648,7 +3653,11 @@ msgstr "O teste χ² de Qualidade do Ajustamento (não confundir com o teste χ�
 
 #: package/analyses/contTables.description contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "O teste χ² de Associação (não confundir com χ² da Qualidade de Ajustamento) é usado para testar se duas variáveis ​​categoriais são independentes ou estão associadas. Se o p-value for pequeno, isso sugere que as variáveis ​​não são independentes e que existe uma relação entre elas."
+msgstr ""
+"O teste χ² de Associação (não confundir com χ² da Qualidade de Ajustamento) "
+"é usado para testar se duas variáveis categoriais são independentes ou estão "
+"associadas. Se o p-value for pequeno, isso sugere que as variáveis não são "
+"independentes e que existe uma relação entre elas."
 
 #: R/ancova.b.R R/anovaonew.b.R R/anovarm.b.R R/descriptives.b.R R/linreg.b.R
 #: R/ttestis.b.R R/ttestones.b.R R/ttestps.b.R
@@ -3682,7 +3691,9 @@ msgstr "Observações insuficientes (N<3) para calcular a estatística"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "Observações insuficientes para calcular a estatística. Cada (sub)grupo deve ter pelo menos tantas observações quanto o número de variáveis ​​dependentes."
+msgstr ""
+"Observações insuficientes para calcular a estatística. Cada (sub)grupo deve "
+"ter pelo menos tantas observações quanto o número de variáveis dependentes."
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
@@ -3826,15 +3837,15 @@ msgstr "Variáveis"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr "Variáveis ​​em colunas"
+msgstr "Variáveis em colunas"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr "Variáveis ​​em linhas"
+msgstr "Variáveis em linhas"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
-msgstr "As variáveis ​​devem ter pelo menos dois níveis"
+msgstr "As variáveis devem ter pelo menos dois níveis"
 
 #: R/descriptives.b.R descriptives/options/variance.title
 msgid "Variance"
@@ -3941,7 +3952,7 @@ msgstr ""
 "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or "
 "`'Harman'` usam respetivamente os métodos de 'Thurstone', 'Bartlett', 'ten "
 "Berge', 'Anderson & Rubin', ou 'Harman' para estimação das pontuações "
-"fatoriais:"
+"fatoriais"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
@@ -4001,12 +4012,20 @@ msgstr "`'parallel'` (padrão),`' eigen'` ou `'fixed'`, a forma de determinar o 
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr "`'perAnalysis'` ou`' listwise'`, como lidar com valores omissos; `'perAnalysis'` exclui valores omissos em variáveis ​​dependentes individuais,`' listwise'` exclui uma linha de todas as análises se uma das suas entradas for omissa"
+msgstr ""
+"`'perAnalysis'` ou`' listwise'`, como lidar com valores omissos; "
+"`'perAnalysis'` exclui valores omissos em variáveis dependentes individuais,`"
+"' listwise'` exclui uma linha de todas as análises se uma das suas entradas "
+"for omissa"
 
 #: anovaOneW/options/miss.description.R ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr "`'perAnalysis'` ou`' listwise'`, como lidar com valores omissos; `'perAnalysis'` exclui valores omissos em variáveis ​​dependentes individuais,`' listwise'` exclui uma linha de todas as análises se uma das suas entradas for omissa."
+msgstr ""
+"`'perAnalysis'` ou`' listwise'`, como lidar com valores omissos; "
+"`'perAnalysis'` exclui valores omissos em variáveis dependentes individuais,`"
+"' listwise'` exclui uma linha de todas as análises se uma das suas entradas "
+"for omissa."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
@@ -4014,7 +4033,9 @@ msgstr "`'refLevel'` (padrão) ou`' grandMean'`, codificação do intercepto. Am
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr "`'rows'` ou`' columns'` (padrão), exibe as variáveis ​​nas linhas ou nas colunas (padrão)"
+msgstr ""
+"`'rows'` ou`' columns'` (padrão), exibe as variáveis nas linhas ou nas "
+"colunas (padrão)"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -4253,7 +4274,7 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece o Critério de Informação de Baye
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece intervalos credíveis ​​Bayesianos"
+msgstr "`TRUE` ou` FALSE` (padrão), fornece intervalos credíveis Bayesianos"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
@@ -4291,7 +4312,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece o Phi e V de Cramer"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece gráficos Q-Q (somente para variáveis ​​contínuas)"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece gráficos Q-Q (somente para variáveis "
+"contínuas)"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
@@ -4405,7 +4428,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece uma estimativa estandardizada para 
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece gráficos de extremos-e-quartis (somente variáveis ​​contínuas)"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece gráficos de extremos-e-quartis (somente "
+"variáveis contínuas)"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
@@ -4445,7 +4470,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece as curvas de densidade no gráfico 
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece gráficos de densidade (somente variáveis ​​contínuas)"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece gráficos de densidade (somente variáveis "
+"contínuas)"
 
 #: anovaOneW/options/descPlot.description.R ttestIS/options/plots.description.R
 #: ttestOneS/options/plots.description.R ttestPS/options/plots.description.R
@@ -4460,7 +4487,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece estatísticas descritivas"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece gráficos de pontos (somente variáveis ​​contínuas)"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece gráficos de pontos (somente variáveis "
+"contínuas)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
@@ -4498,7 +4527,8 @@ msgstr "TRUE` ou `FALSE` (padrão), fornece gama"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece histogramas (apenas variáveis ​​contínuas)"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece histogramas (apenas variáveis contínuas)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
@@ -4693,7 +4723,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece a soma"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece os liniares usados ​​como valores de corte para os níveis da variável dependente"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece os liniares usados como valores de corte "
+"para os níveis da variável dependente"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
@@ -4705,7 +4737,9 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece as percentagens totais"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
-msgstr "`TRUE` ou` FALSE` (padrão), fornece gráficos de violino (somente para variáveis ​​contínuas)"
+msgstr ""
+"`TRUE` ou` FALSE` (padrão), fornece gráficos de violino (somente para "
+"variáveis contínuas)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
@@ -4774,7 +4808,7 @@ msgstr "`TRUE` ou` FALSE` (padrão), teste à homogeneidade de variâncias (i. e
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr "`TRUE` ou` FALSE` (padrão), as variáveis ​​são contagens"
+msgstr "`TRUE` ou` FALSE` (padrão), as variáveis são contagens"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
@@ -4816,7 +4850,9 @@ msgstr "uma fórmula contendo os termos para estimar as médias marginais (veja 
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
-msgstr "uma fórmula contendo os termos para estimar as médias marginais, suporta até três variáveis ​​por termo"
+msgstr ""
+"uma fórmula contendo os termos para estimar as médias marginais, suporta até "
+"três variáveis por termo"
 
 #: ancova/options/postHoc.description.R anova/options/postHoc.description.R
 msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
@@ -5255,16 +5291,18 @@ msgstr "um vetor de códigos nomeando os fatores entre sujeitos"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr "um vetor de códigos que nomeia as variáveis ​​de controlo nos `dados`"
+msgstr "um vetor de códigos que nomeia as variáveis de controlo nos `dados`"
 
 #: logRegBin/options/covs.description.R logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr "um vetor de códigos nomeando as covariáveis ​​dos `dados`"
+msgstr "um vetor de códigos nomeando as covariáveis dos `dados`"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
-msgstr "um vetor de códigos que nomeia as covariáveis ​​dos `dados`. As variáveis ​​devem ser numéricas"
+msgstr ""
+"um vetor de códigos que nomeia as covariáveis dos `dados`. As variáveis "
+"devem ser numéricas"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
@@ -5279,13 +5317,13 @@ msgstr "um vetor de códigos nomeando os fatores fixos dos `dados`"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
-msgstr "um vetor de códigos nomeando as variáveis ​​de medidas repetidas"
+msgstr "um vetor de códigos nomeando as variáveis de medidas repetidas"
 
 #: descriptives/options/vars.description.R efa/options/vars.description.R
 #: pca/options/vars.description.R propTest2/options/vars.description.R
 #: reliability/options/vars.description.R ttestOneS/options/vars.description.R
 msgid "a vector of strings naming the variables of interest in `data`"
-msgstr "um vetor de códigos que nomeia as variáveis ​​de interesse nos `dados`"
+msgstr "um vetor de códigos que nomeia as variáveis de interesse nos `dados`"
 
 #: corrMatrix/options/vars.description.R corrPart/options/vars.description.R
 msgid "a vector of strings naming the variables to correlate in `data`"
