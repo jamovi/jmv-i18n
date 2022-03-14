@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-14 16:45+0000\n"
+"PO-Revision-Date: 2022-03-14 23:37+0000\n"
 "Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "it/>\n"
@@ -1030,7 +1030,7 @@ msgstr "α di Cronbach"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
-msgstr "α di Cronbach (se un elemento viene rimosso)"
+msgstr "α di Cronbach (se rimosso elemento)"
 
 #: R/descriptives.b.R
 #: pca/results/factorStats/factorSummary.columns.title
@@ -1062,7 +1062,7 @@ msgstr "Grafico del punto di taglio"
 
 #: logRegBin/options/cutOff.title
 msgid "Cut-off value"
-msgstr "Valore del punto di taglio"
+msgstr "punto di taglio"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
@@ -1185,7 +1185,7 @@ msgstr "Grafici descrittive"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr "Tabella descrittiva"
+msgstr "Tabella descrittive"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -1228,7 +1228,7 @@ msgstr "Distribuzione"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr "Non assumere uguale (Welch's)"
+msgstr "Non assumere uguale (Welch)"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -1371,7 +1371,7 @@ msgstr "Metodo di stima"
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "Escludere l'analisi dei casi per analisi"
+msgstr "Escludere i casi analisi per analisi"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -1379,7 +1379,7 @@ msgstr "Escludere l'analisi dei casi per analisi"
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr "Escludi i casi in base all'elenco"
+msgstr "Escludere i casi in base all'elenco"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -1617,7 +1617,7 @@ msgstr "Friedman"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
-msgstr "Informazioni complete massima verosimiglianza"
+msgstr "Info complete massima verosimiglianza"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
@@ -1711,7 +1711,7 @@ msgstr "Riepilogo gruppo"
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr "Variabile Raggruppamento"
+msgstr "Variabile di Raggruppamento"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
@@ -1746,7 +1746,7 @@ msgstr "Helmert"
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
-msgstr "Nascondi caricamenti qui sotto"
+msgstr "Nascondi i caricamenti sotto a"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -1841,7 +1841,7 @@ msgstr "Campioni Indipendenti"
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
 msgid "Independent Samples T-Test"
-msgstr "T-Test per Campioni Indipendenti"
+msgstr "Test t a campioni indipendenti"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
@@ -2141,7 +2141,7 @@ msgstr "Medie Marginali"
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr "Grafico delle medie marginali"
+msgstr "Grafico delle Medie Marginali"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -2180,7 +2180,7 @@ msgstr "ω di McDonald"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr "ω di McDonald (se l'elemento viene rimosso)"
+msgstr "ω di McDonald (se rimosso elemento)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
@@ -2340,7 +2340,7 @@ msgstr "Valore minimo"
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr "Mancante"
+msgstr "Mancanti"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
@@ -2698,7 +2698,7 @@ msgstr "Test per la Proporzione in un Campione"
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr "T-Test per Un Campione"
+msgstr "Test t a campione singolo"
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -2830,7 +2830,7 @@ msgstr "Tabelle di Contingenza di Campioni Accoppiati"
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr "T-Test per Campioni Accoppiati"
+msgstr "Test t a campioni accoppiati"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
@@ -3253,7 +3253,7 @@ msgstr "MR Fattore {0}"
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
 msgid "RMSE"
-msgstr "RMSE ·"
+msgstr "RMSE"
 
 #: cfa/options/fitMeasures/rmsea.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -3667,11 +3667,11 @@ msgstr "Grafico dei Sedimenti (Scree plot)"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
-msgstr "Semipartiale"
+msgstr "Semiparziale"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
-msgstr "Correlazione Semipartiale"
+msgstr "Correlazione Semiparziale"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
@@ -3779,7 +3779,7 @@ msgstr "Test di sfericità"
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr "Diviso da"
+msgstr "Suddiviso per"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -3857,7 +3857,7 @@ msgstr "Statistiche"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr "Dev. standard"
+msgstr "Deviazione std."
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
@@ -3928,7 +3928,7 @@ msgstr "Sommario"
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr "t-Tests"
+msgstr "Test t"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -3972,7 +3972,7 @@ msgstr "Test per l'adattamento esatto"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr "Risultati del test (t e df)"
+msgstr "Risultati del test (t e gdl)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
