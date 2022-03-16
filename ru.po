@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-15 13:50+0000\n"
+"PO-Revision-Date: 2022-03-17 08:26+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -2875,7 +2875,6 @@ msgstr ""
 "переменными"
 
 #: corrPart/options.description.main
-#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
@@ -2927,12 +2926,10 @@ msgid "Partial η²"
 msgstr "Частное η²"
 
 #: cfa/results/pathDiagram.title
-#, fuzzy
 msgid "Path Diagram"
 msgstr "Диаграмма пути"
 
 #: cfa/options/pathDiagram.title
-#, fuzzy
 msgid "Path diagram"
 msgstr "Диаграмма пути"
 
@@ -2940,7 +2937,6 @@ msgstr "Диаграмма пути"
 #: corrMatrix/ui[1][0]/pearson.label
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
-#, fuzzy
 msgid "Pearson"
 msgstr "Пирсон"
 
@@ -2956,7 +2952,6 @@ msgstr "Корреляция{}Пирсона"
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
-#, fuzzy
 msgid "Percentages"
 msgstr "Проценты"
 
@@ -2995,7 +2990,6 @@ msgstr "Фи-коэффициент"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Pillai's Trace"
 msgstr "След Пиллаи"
 
@@ -3051,45 +3045,46 @@ msgstr "Апостериорные тесты"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Апостериорные тесты – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "Производительность апостериорной модели"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "Апостериорный тест"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "Апостериорные тесты"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr ""
+msgstr "Постериорный"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr ""
+msgstr "Постериорные графики"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr ""
+msgstr "Постериорный график"
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr ""
+msgstr "Предсказанный"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
 msgstr ""
+"Прогнозируемая вероятность {dep} = {level1} (по сравнению с {dep} = {level2})"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "Прогнозируемая вероятность … = … (vs … = …)"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -3097,17 +3092,17 @@ msgstr ""
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr ""
+msgstr "Прогнозируемые значения"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
 msgid "Prediction"
-msgstr ""
+msgstr "Прогноз"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr ""
+msgstr "Прогностические меры"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -3120,7 +3115,7 @@ msgstr ""
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 msgid "Predictor"
-msgstr ""
+msgstr "Предиктор"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -3128,7 +3123,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "Предикторы"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -3138,15 +3133,15 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Анализ главных компонент"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
-msgstr ""
+msgstr "Основная ось"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Факторизация главной оси"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -3154,44 +3149,44 @@ msgstr ""
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
 msgid "Prior"
-msgstr ""
+msgstr "Предыдущий"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "Предыдущая ширина"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Probability"
-msgstr ""
+msgstr "Вероятность"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "Промакс"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Proportion"
-msgstr ""
+msgstr "Пропорция"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "Тест пропорций (2 исхода)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "Тест пропорций (N исходов)"
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -3202,11 +3197,11 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.title
 #: logRegOrd/ui[3][0][1]/pseudoR2.label
 msgid "Pseudo R²"
-msgstr ""
+msgstr "Псевдо R²"
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
-msgstr ""
+msgstr "Q-Q"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -3219,15 +3214,15 @@ msgstr ""
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr ""
+msgstr "Q-Q График"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "График Q-Q, оценивающий многомерную нормальность"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
-msgstr ""
+msgstr "Q-Q Графики"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -3236,91 +3231,91 @@ msgstr ""
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q График"
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "График QQ многомерной нормальности"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "Q-Q график остатков"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr ""
+msgstr "Q-Q Графики"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
 msgid "Quartimax"
-msgstr ""
+msgstr "Квартимакс"
 
 #: linReg/options/r.title
 #: linReg/results/modelFit.columns.title
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
-msgstr ""
+msgstr "RM Фактор 1"
 
 #: jamovi/js/anovarm.events.js:8
 msgid "RM Factor {0}"
-msgstr ""
+msgstr "RM-фактор {0}"
 
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
 msgid "RMSE"
-msgstr ""
+msgstr "СКО"
 
 #: cfa/options/fitMeasures/rmsea.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "RMSEA"
-msgstr ""
+msgstr "СКОА"
 
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr ""
+msgstr "СКОА 90% ДИ"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
-msgstr ""
+msgstr "ROC"
 
 #: logRegBin/results/models.template/pred/rocPlot.title
 msgid "ROC Curve"
-msgstr ""
+msgstr "ROC кривая"
 
 #: logRegBin/options/rocPlot.title
 msgid "ROC curve"
-msgstr ""
+msgstr "ROC кривая"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
-msgstr ""
+msgstr "Диапазон"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Rank biserial correlation"
-msgstr ""
+msgstr "Ранговая бисериальная корреляция"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr ""
+msgstr "Отношение рисков (ОР)"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
 msgid "Rate ratio"
-msgstr ""
+msgstr "Отношение рисков (ОР)"
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
-msgstr ""
+msgstr "Соотношение"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -3328,7 +3323,7 @@ msgstr ""
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 msgid "Reference Level"
-msgstr ""
+msgstr "Опорный уровень"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -3341,11 +3336,11 @@ msgstr ""
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
 msgid "Reference Levels"
-msgstr ""
+msgstr "Опорные уровни"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
-msgstr ""
+msgstr "Опорный уровень (фиктивное кодирование)"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -3360,12 +3355,12 @@ msgstr ""
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
 msgid "Regression"
-msgstr ""
+msgstr "Регрессия"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
 msgid "Relative risk"
-msgstr ""
+msgstr "Относительный риск"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -3375,13 +3370,13 @@ msgstr ""
 #: reliability/ui.title
 #: reliability/results.title
 msgid "Reliability Analysis"
-msgstr ""
+msgstr "Анализ надежности"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
 #: anovaRM/options/contrasts.template/type/repeated.title
 msgid "Repeated"
-msgstr ""
+msgstr "Повторный"
 
 #: package/analyses/anovaRM.title
 #: package/analyses/anovaRM.menuTitle
@@ -3391,80 +3386,82 @@ msgstr ""
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
 msgid "Repeated Measures ANOVA"
-msgstr ""
+msgstr "Анализ повторных измерений ANOVA"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr ""
+msgstr "Анализ повторных измерений ANOVA (Непараметрический)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
-msgstr ""
+msgstr "Ячейки повторных измерений"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr ""
+msgstr "Компоненты повторных измерений"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
 msgid "Repeated Measures Factors"
-msgstr ""
+msgstr "Факторы повторных измерений"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr ""
+msgstr "Представлять значимость"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr ""
+msgstr "Представлять объединенное среднее"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
-msgstr ""
+msgstr "Представлять опорный уровень"
 
 #: R/anovarm.b.R
 msgid "Residual"
-msgstr ""
+msgstr "Остаток"
 
 #: cfa/options/resCov.title
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "Остаточные ковариации"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "Остаточные ковариации – индексы модификации"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "Остаточные оценки"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "Остаточные перехваты"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "Остаточные ковариации"
 
 #: cfa/options/resInterceptEst.title
 msgid "Residual intercepts"
-msgstr ""
+msgstr "Остаточные перехваты"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "Графики остатков"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
 msgstr ""
+"Остаточная сумма квадратов и/или степеней свободы равна нулю, что указывает "
+"на идеальное соответствие"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -3479,23 +3476,23 @@ msgstr ""
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
 msgid "Residuals"
-msgstr ""
+msgstr "Остатки"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
-msgstr ""
+msgstr "Графики остатков"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "Матрица наблюдаемой корреляции остатков"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "Остатки от ANOVA"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
-msgstr ""
+msgstr "Матрица наблюдаемой корреляции остатков"
 
 #: package/analyses/empty.title
 #: package/analyses/empty.menuTitle
@@ -3510,22 +3507,22 @@ msgstr "Результаты"
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr ""
+msgstr "Обратно масштабированные элементы"
 
 #: efa/options/rotation.title
 #: pca/options/rotation.title
 msgid "Rotation"
-msgstr ""
+msgstr "Вращение"
 
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
-msgstr ""
+msgstr "Строка"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "Переменная строки '{var}' содержит менее 2 уровней"
 
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
@@ -3535,38 +3532,38 @@ msgstr "Строки"
 
 #: R/conttables.b.R
 msgid "Rows compared"
-msgstr ""
+msgstr "Сравнение строк"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
 msgid "Roy's Largest Root"
-msgstr ""
+msgstr "Самый большой корень Роя"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
 msgid "R²"
-msgstr ""
+msgstr "R²"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>CS</sub>"
-msgstr ""
+msgstr "R²<sub>CS</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>McF</sub>"
-msgstr ""
+msgstr "R²<sub>McF</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
-msgstr ""
+msgstr "R²<sub>N</sub>"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -3576,7 +3573,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -3603,25 +3600,25 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "SE difference"
-msgstr ""
+msgstr "Разница стандартных ошибок (SE)"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "SRMR"
-msgstr ""
+msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr ""
+msgstr "Сумма квадратичных нагрузок (SS)"
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
-msgstr ""
+msgstr "Размер выборки"
 
 #: ancova/ui[7].label
 #: anova/ui[7].label
@@ -3635,173 +3632,176 @@ msgstr "Сохранить"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
-msgstr ""
+msgstr "Масштабный анализ"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr ""
+msgstr "Статистики надежности весов"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
-msgstr ""
+msgstr "Статистики масштаба"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
-msgstr ""
+msgstr "Масштабный коэффициент = первый индикатор масштаба"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
 msgid "Scheffe"
-msgstr ""
+msgstr "Шеффе"
 
 #: R/pca.b.R
 msgid "Score Component"
-msgstr ""
+msgstr "Компонент оценки"
 
 #: R/pca.b.R
 msgid "Score Factor"
-msgstr ""
+msgstr "Фактор оценки"
 
 #: R/pca.b.R
 msgid "Score for component"
-msgstr ""
+msgstr "Оценка для компоненты"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr ""
+msgstr "Оценка фактора {i}. Оценено с использованием метода {fsMethod}."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
-msgstr ""
+msgstr "График каменистой осыпи"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
 msgid "Scree plot"
-msgstr ""
+msgstr "График каменистой осыпи"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
-msgstr ""
+msgstr "Получастный"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
-msgstr ""
+msgstr "Получастная корреляция"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Sensitivity"
-msgstr ""
+msgstr "Чувствительность"
 
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Шапиро-Уилк"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr ""
+msgstr "Многомерный тест нормальности Шапиро-Уилка"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
-msgstr ""
+msgstr "Шапиро-Уилк W"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr ""
+msgstr "Шапиро-Уилк p"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
-msgstr ""
+msgstr "Тест Шапиро-Уилка"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr ""
+msgstr "Тест Шапиро-Уилка на многомерную нормальность"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
-msgstr ""
+msgstr "Бок о бок"
 
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
 msgid "Simple"
-msgstr ""
+msgstr "Простой"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
 msgid "Simplimax"
-msgstr ""
+msgstr "Симплимакс"
 
 #: R/pca.b.R
 msgid "Simulations"
-msgstr ""
+msgstr "Симуляции"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
 msgstr ""
+"Встречается единичное соответствие; одна или несколько переменных-"
+"предикторов представляют собой линейную комбинацию других "
+"переменных-предикторов."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr ""
+msgstr "Ошибка сингулярности. Тесты на сферичность недоступны"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
 msgid "Skewness"
-msgstr ""
+msgstr "Асимметрия"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "Сортировать нагрузки по размеру"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
 msgid "Spearman"
-msgstr ""
+msgstr "Спирмен"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr ""
+msgstr "Спирмен ρ(rho)"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr ""
+msgstr "Специфичность"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr ""
+msgstr "Коррекция сферичности"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr ""
+msgstr "Коррекция сферичности"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "Тесты на сферичность"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr ""
+msgstr "Разделить по"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "Квадратичное расстояние Махаланобиса"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr ""
+msgstr "Штабель"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -3810,29 +3810,29 @@ msgstr ""
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr ""
+msgstr "Стандартная оценка"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
 msgid "Standard Error"
-msgstr ""
+msgstr "Стандартная ошибка"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr ""
+msgstr "Стандартное отклонение"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr ""
+msgstr "Стандартная ошибка"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "Стандартизированная оценка"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -3843,12 +3843,12 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "Стандартизированные остатки"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr ""
+msgstr "Стандартизированная оценка"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -3857,7 +3857,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr ""
+msgstr "Статистика"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -3866,50 +3866,50 @@ msgstr ""
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
 msgid "Statistics"
-msgstr ""
+msgstr "Статистики"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr ""
+msgstr "Станд. отклонение"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "Станд. ошибка эксцесса"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
-msgstr ""
+msgstr "Станд. ошибка средней"
 
 #: descriptives/ui[2][2][1][0]/se.label
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "Станд. ошибка средней"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "Станд. ошибка асимметрии"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
 msgid "Student's"
-msgstr ""
+msgstr "Стьюдент"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Student's t"
-msgstr ""
+msgstr "Стьюдент t"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr ""
+msgstr "Тест Стьюдента"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
 #: descriptives/options/sum.title
 msgid "Sum"
-msgstr ""
+msgstr "Сумма"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -3917,22 +3917,22 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "Сумма квадратов"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "Сумма квадратов"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "Сумма баллов"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
-msgstr ""
+msgstr "Резюме"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -3941,13 +3941,13 @@ msgstr ""
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr ""
+msgstr "Т-тесты"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "TLI"
-msgstr ""
+msgstr "TLI"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -3976,44 +3976,44 @@ msgstr ""
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "Тестовое значение"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
 msgid "Test for Exact Fit"
-msgstr ""
+msgstr "Тест на точное соответствие"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "Результаты теста (t и df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr ""
+msgstr "Статистики теста"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "Тестовое значение"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr ""
+msgstr "Тесты"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Тесты сферичности"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "Набор данных 'Ирисы' из R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
+msgstr "Переменная 'разделить по' '{var}' не содержит данных."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -4023,12 +4023,23 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
+"Ковариационный анализ (ANCOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной, одной или несколькими "
+"категориальными\n"
+"объясняющими переменными и одной или несколькими непрерывными объясняющими "
+"переменными\n"
+"(или ковариатами). По сути, это такой же анализ, как и ANOVA, но с "
+"добавлением ковариатов."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
+"Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими "
+"категориальными\n"
+"объясняющими переменными."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -4043,6 +4054,19 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
 msgstr ""
+"Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими "
+"категориальными\n"
+"объясняющими переменными.\n"
+"\n"
+"ANOVA предполагает, что остатки распределены нормально, и что\n"
+"вариации всех групп равны. Если вы не хотите считать, что\n"
+"вариации равны, то вместо этого можно использовать тест Уэлча.\n"
+"(Однако тест Уэлча не поддерживает более одного объясняющего фактора).\n"
+"факторов). В качестве альтернативы, если нет желания предполагать, что "
+"данные\n"
+"нормально распределены, можно использовать непараметрический подход ("
+"например, Kruskal-Wallis)."
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -4052,6 +4076,15 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
+"Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими "
+"категориальными\n"
+"объясняющими переменными. Этот 'односторонний ANOVA' является упрощенной "
+"версией\n"
+"нормального ANOVA, допускающего только один объясняющий фактор, однако\n"
+"также обеспечивает Welch's ANOVA. Преимущество ANOVA Уэлча состоит в том, "
+"что\n"
+"не нужно предполагать, что дисперсии всех групп равны."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -4067,21 +4100,53 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
+"Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими "
+"категориальными\n"
+"объясняющими переменными. Этот 'односторонний ANOVA' является упрощенной "
+"версией\n"
+"нормального ANOVA, допускающего только один объясняющий фактор, однако\n"
+"также обеспечивает Welch's ANOVA. Преимущество ANOVA Уэлча состоит в том, "
+"что\n"
+"не нужно предполагать, что дисперсии всех групп равны.\n"
+"\n"
+"Для удобства этот метод позволяет указать несколько зависимых\n"
+"переменных, что приводит к нескольким независимым тестам.\n"
+"\n"
+"Обратите внимание, что ANOVA Уэлча является такой же процедурой, что и\n"
+"t-тест для независимых выборок ."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"Биномиальный тест используется для проверки нулевой гипотезы о том, что доля "
+"наблюдений соответствует некоторому ожидаемому значению. Если p-значение "
+"мало, это говорит о том, что нулевая гипотеза ложна, и что истинная "
+"пропорция должна быть какой-то другой."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Тест Фридмана используется для изучения взаимосвязи между непрерывной "
+"зависимой переменной и категориальной объясняющей переменной, где "
+"объясняющая переменная 'внутри субъектов' (когда несколько измерений "
+"проводятся у одного и того же субъекта). Этот метод аналогичен методу "
+"повторных измерений ANOVA, но имеет то преимущество, что является "
+"непараметрическим и не требует предположений о нормальности или однородности "
+"дисперсий. Однако у него есть ограничение: он может одновременно проверять "
+"только одну объясняющую переменную."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Тест Крускала-Уоллиса используется для изучения взаимосвязи между "
+"непрерывной зависимой переменной и категориальной объясняющей переменной. Он "
+"аналогичен ANOVA, но имеет то преимущество, что является непараметрическим и "
+"имеет меньше допущений. Однако у него есть ограничение: он может "
+"одновременно проверять только одну объясняющую переменную."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -4091,6 +4156,13 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"ANOVA с повторными измерениями используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими "
+"категориальными\n"
+"объясняющих переменных, где одна или несколько объясняющих переменных\n"
+"'внутри субъектов' (когда несколько измерений проводятся у одного и того же\n"
+"субъекта). Кроме того, этот анализ позволяет включать в себя\n"
+"ковариаты, что также позволяет использовать ANCOVA для повторных измерений."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -4108,6 +4180,24 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
+"ANOVA с повторными измерениями используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими "
+"категориальными\n"
+"объясняющих переменных, где одна или несколько объясняющих переменных\n"
+"'внутри субъектов' (когда несколько измерений получены от одного и того же\n"
+"субъекта). Кроме того, этот анализ позволяет включать в себя\n"
+"ковариаты, что также позволяет использовать ANCOVA для повторных измерений.\n"
+"\n"
+"Этот анализ требует, чтобы данные были представлены в 'широком формате', где "
+"каждая\n"
+"строка представляет субъекта (в отличие от длинного формата, где каждое "
+"измерение зависимой переменной представлено в виде строки).\n"
+"\n"
+"Существует также непараметрический эквивалент ANOVA с повторными измерениями;"
+"\n"
+"тест Фридмана. Однако он имеет ограничение в том, что может тестировать "
+"только\n"
+"тестировать только один фактор."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -4115,6 +4205,11 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
+"Независимый выборочный t-тест Стьюдента (иногда его называют двухвыборочным\n"
+"t-тестом) используется для проверки нулевой гипотезы о том, что две группы "
+"имеют одинаковое среднее значение. Низкое p-значение говорит о том, что "
+"нулевая гипотеза не верна,\n"
+"и, следовательно, групповые средние различны."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -4131,6 +4226,21 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
+"Независимый выборочный t-тест Стьюдента (иногда его называют двухвыборочным\n"
+"t-тест) используется для проверки нулевой гипотезы о том, что две группы "
+"имеют одинаковое среднее значение. Низкое p-значение говорит о том, что "
+"нулевая гипотеза не верна,\n"
+"и, следовательно, групповые средние различны.\n"
+"\n"
+"Независимый t-тест Стьюдента предполагает, что данные каждой группы\n"
+"имеют нормальное распределение, и что дисперсии этих групп\n"
+"равны. Если вы не хотите считать, что группы имеют равные дисперсии, \n"
+"вместо него можно использовать t-тест Уэлча.\n"
+"Если нежелательно предполагать, что данные каждой группы имеют нормальное "
+"распределение, вместо него можно использовать непараметрический U-тест "
+"Манна-Уитни.\n"
+"(Однако обратите внимание, что U-тест Манна-Уитни имеет несколько иную\n"
+"нулевую гипотезу о том, что распределения каждой группы равны)."
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -4138,6 +4248,11 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
+"Одновыборочный t-тест Стьюдента используется для проверки нулевой гипотезы о "
+"том, что\n"
+"истинное среднее равно определенному значению (обычно нулю). Низкое\n"
+"p-значение предполагает, что нулевая гипотеза не верна, и поэтому\n"
+"истинное среднее должно отличаться от тестового значения."
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -4151,6 +4266,20 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
+"Одновыборочный t-тест Стьюдента используется для проверки нулевой гипотезы о "
+"том, что\n"
+"истинное среднее равно определенному значению (обычно нулю). Низкое\n"
+"p-значение предполагает, что нулевая гипотеза не верна, и поэтому\n"
+"истинное среднее должно отличаться от тестового значения.\n"
+"\n"
+"Одновыборочный t-тест Стьюдента предполагает, что данные имеют нормальное "
+"распределение\n"
+"- в случае, если человек не желает этого предположить, можно использовать\n"
+"непараметрический критерий Wilcoxon signed-rank может быть использован "
+"вместо него (однако,\n"
+"обратите внимание, что непараметрический метод Wilcoxon signed-rank имеет "
+"несколько иную нулевую\n"
+"гипотезу о том, что *медиана* равна тестовому значению)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -4159,6 +4288,12 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
+"Парный выборочный t-тест Стьюдента (иногда называемый\n"
+"t-тест зависимых выборок) используется для проверки нулевой гипотезы о том, "
+"что\n"
+"разница между парами измерений равна нулю. Низкое значение p-value\n"
+"говорит о том, что нулевая гипотеза не верна, и что\n"
+"разница между парами измерений не равна нулю."
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -4174,54 +4309,91 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
+"Парный выборочный t-тест Стьюдента (иногда называемый\n"
+"t-тест зависимых выборок) используется для проверки нулевой гипотезы о том, "
+"что\n"
+"разница между парами измерений равна нулю. Низкое значение p-value\n"
+"говорит о том, что нулевая гипотеза не верна, и что\n"
+"разница между парами измерений не равна нулю.\n"
+"\n"
+"В t-тесте Стьюдента для парных выборок предполагается, что различия между "
+"парами измерений имеют нормальное распределение - в случае, если вы не "
+"желаете этого допускать\n"
+"вместо него можно использовать непараметрический критерий Wilcoxon signed-"
+"rank.\n"
+"(Однако, обратите внимание, что у метода Wilcoxon signed-rank немного "
+"другая\n"
+"нулевая гипотеза; что две группы измерений имеют одинаковое\n"
+"распределению)."
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "Значение отсечки установлено на {}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"Зависимая переменная \"{dep}\" имеет только два уровня, рассмотрите "
+"возможность выполнения биномиальной логистической регрессии."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr ""
+msgstr "Зависимая переменная '{dep}' имеет следующий порядок: {orderedLevels}"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"Зависимая переменная '{}' имеет более двух уровней; биномиальная "
+"логистическая регрессия может быть выполнена только для зависимых переменных "
+"с двумя уровнями"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
 msgstr ""
+"Повторные измерения имеют только два уровня. Предположение о сферичности "
+"всегда выполняется, когда повторяющиеся измерения имеют только два уровня"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
+"Повторные измерения имеют только два уровня. Предположение о сферичности "
+"всегда выполняется, когда повторяющиеся измерения имеют только два уровня."
 
 #: ancova/results/model.description
 #: anova/results/model.description
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "Подлежащий объект `aov`"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
+"Переменная {var} не может рассматриваться как числовая. Графики, которые "
+"ожидают числовых данных, не будут созданы для этой переменной."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
+"Переменные {vars} нельзя рассматривать как числовые. Графики, которые "
+"ожидают числовых данных, не будут созданы для этих переменных."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
 msgstr ""
+"Критерий соответствия χ² (не путать с критерием независимости χ²) проверяет "
+"нулевую гипотезу о том, что пропорции наблюдений соответствуют некоторым "
+"ожидаемым пропорциям. Если p-значение низкое, это говорит о том, что нулевая "
+"гипотеза ложна и что истинные пропорции отличаются от проверяемых."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"χ² тест ассоциации (не путать с χ² критерием соответствия) используется для "
+"проверки того, являются ли две категориальные переменные независимыми. Если "
+"p-значение низкое, это предполагает, что переменные не являются независимыми "
+"и что между двумя переменными существует взаимосвязь."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -4232,120 +4404,125 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "Теоретические квантили"
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
+"Этот модуль представляет анализы, включенные в jamovi. Он содержит множество "
+"общих анализов (таких как t-тесты, ANOVA, регрессия, корреляционные матрицы, "
+"тесты пропорций, таблицы сопряжения, факторный анализ и т. д.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
-msgstr ""
+msgstr "Порог"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "Пороги"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
-msgstr ""
+msgstr "Терстон"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "Tolerance"
-msgstr ""
+msgstr "Толерантность"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr ""
+msgstr "Слишком мало наблюдений (N < 3) для расчета статистики"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
 msgstr ""
+"Слишком мало наблюдений для подсчета статистики. Каждая (под)группа должна "
+"иметь как минимум столько наблюдений, сколько зависимых переменных."
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr ""
+msgstr "Слишком мало выборок для расчета статистики (N < 3)"
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr ""
+msgstr "Слишком мало выборок для вычисления статистики (N < {n})"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr ""
+msgstr "Слишком много наблюдений (N > 5000) для расчета статистики"
 
 #: R/ttestis.b.R
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr ""
+msgstr "Слишком много выборок для расчета статистики (N > 5000)"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr ""
+msgstr "Слишком много выборок для вычисления статистики (N > {n})"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "Рост зубов"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
-msgstr ""
+msgstr "Всего"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr ""
+msgstr "Тьюки"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "Тьюки (равные дисперсии)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "Апостериорный тест Тьюки – {dep}"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr ""
+msgstr "Тип 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr ""
+msgstr "Тип 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr ""
+msgstr "Тип 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "Тип 3 суммы квадратов"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "Тип {ssType} сумм квадратов"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr ""
+msgstr "Невозможно разделить непрерывной переменной"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr ""
+msgstr "Уникальность"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "Одномерные тесты"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4372,12 +4549,12 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "Верхний"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "VIF"
-msgstr ""
+msgstr "VIF"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -4385,11 +4562,11 @@ msgstr ""
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
 msgid "Value"
-msgstr ""
+msgstr "Значение"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr ""
+msgstr "Значения и счетчики"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -4398,25 +4575,25 @@ msgstr ""
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
 msgid "Variable"
-msgstr ""
+msgstr "Переменная"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "Переменная '{var}' не содержит данных"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable contains infinite values"
-msgstr ""
+msgstr "Переменная содержит неопределенные значения"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
-msgstr ""
+msgstr "Переменная не содержит достаточного количества наблюдений"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable is not numeric"
-msgstr ""
+msgstr "Переменная не числовая"
 
 #: corrMatrix/options/vars.title
 #: corrPart/options/vars.title
@@ -4431,33 +4608,33 @@ msgstr "Переменные"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr ""
+msgstr "Переменные в столбцах"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr ""
+msgstr "Переменные в строках"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
-msgstr ""
+msgstr "Переменные должны иметь как минимум два уровня"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
 msgid "Variance"
-msgstr ""
+msgstr "Дисперсия"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr ""
+msgstr "Дисперсии"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
 msgid "Varimax"
-msgstr ""
+msgstr "Варимакс"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr ""
+msgstr "Скрипка"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
@@ -4466,64 +4643,64 @@ msgstr ""
 #: ttestOneS/results/normality.columns.title
 #: ttestPS/results/norm.columns.title
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "Взвешено по '{varName}'"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
-msgstr ""
+msgstr "Веса (необязательно)"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "Уэлч"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "Уэлч t"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "Вилкоксон W"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "Ранг Уилкоксона"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
 msgid "Wilcoxon signed rank test"
-msgstr ""
+msgstr "Уилкоксон ранговый тест знаков"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "Лямбда Уилкса"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "Внутрисубъектные эффекты"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr ""
+msgstr "X-ось"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr ""
+msgstr "X-ось"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr ""
+msgstr "Y-ось"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr ""
+msgstr "Y-ось"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -4537,76 +4714,115 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'1'`, `'2'` или `'3'` (по умолчанию), используемая сумма квадратов"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'2'` или `'3'` (по умолчанию), используемая сумма квадратов"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
 msgstr ""
+"`'Thurstone'` (по умолчанию), `'Bartlett'`, `'tenBerge'`, `'Anderson'` или "
+"`'Harman'` используют соответственно 'Thurstone', 'Bartlett', 'ten Berge', "
+"'Anderson Метод Рубина или Хармана для оценки факторных баллов"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
 msgstr ""
+"`'different'` (по умолчанию), `'oneGreater'` или `'twoGreater'`, "
+"альтернативная гипотеза; группа 1 отличается от группы 2, группа 1 больше "
+"группы 2 и группа 2 больше группы 1 соответственно"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
+"`'different'` (по умолчанию), `'oneGreater'` или `'twoGreater'`, "
+"альтернативная гипотеза; мера 1 отличается от меры 2, мера 1 больше меры 2 и "
+"мера 2 больше меры 1 соответственно"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (по умолчанию), `'gt'` или `'lt'`, альтернативная гипотеза; "
+"отличается от `testValue`, больше `testValue` и меньше `testValue` "
+"соответственно"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` или `'facInd'`, как ограничить модель; `'facVar'` фиксирует "
+"дисперсию фактора на единицу, `'facInd'` фиксирует каждый фактор на шкале "
+"его первого индикатора."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` или `'film'`, как обрабатывать пропущенные значения; "
+"`'listwise'` исключает строку из всех анализов, если одна из ее записей "
+"отсутствует, `'film'` использует метод максимального правдоподобия с полной "
+"информацией для оценки модели."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
+"`'means'` (по умолчанию) или `'medians'`, планки погрешностей для "
+"использования на графике"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"`'minres'` (по умолчанию), `'ml'` или `'pa'` используют соответственно "
+"'минимум остатка', 'макимум правдоподобия' или 'главную ось' в качестве "
+"метода извлечения факторов"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
+"`'none'`, `'ci'` (по умолчанию) или `'se'`. Не используйте планки "
+"погрешностей, используйте доверительные интервалы или используйте "
+"стандартные ошибки на графиках предельного среднего значения соответственно"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` или `'tukey'', которые необходимо предоставить "
+"последующему тестированию; `'none'' не показывает апостериорных тестов, "
+"''gamesHowell'' показывает апостериорные тесты Games-Howell, где не "
+"предполагается эквивалентность дисперсий, а ''tukey'' показывает "
+"апостериорные тесты Тьюки, где эквивалентность дисперсий предполагается"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'` (по умолчанию), `'quartimax'`, `'promax'`, `'oblimin'` "
+"или `'simplimax'`, вращение для использования при оценке"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (по умолчанию) "
+"или `'simplimax'`, вращение для использования при оценке"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
 msgstr ""
+"`'notequal'` (по умолчанию), `'greater' или `'less'`, альтернативная гипотеза"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
+"`'parallel'` (по умолчанию), `'eigen'` или `'fixed'`, способ определения "
+"количества факторов"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
@@ -4628,25 +4844,25 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`Коэффициенты модели - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`Коэффициенты модели – ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Пропорции - ${var}`"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
