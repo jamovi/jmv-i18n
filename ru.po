@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-17 09:59+0000\n"
+"PO-Revision-Date: 2022-03-19 13:59+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -240,7 +240,7 @@ msgstr "Добавить новый фактор"
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 msgid "Add New Term"
-msgstr "Добавить новый термин"
+msgstr "Добавить новый терм"
 
 #: corrMatrix/ui[1][1].label
 #: corrPart/ui[1][3].label
@@ -1035,7 +1035,7 @@ msgstr "Кронбах α"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
-msgstr "Кронбаха α (если объект выпал)"
+msgstr "Кронбаха α (если элемент выпал)"
 
 #: R/descriptives.b.R
 #: pca/results/factorStats/factorSummary.columns.title
@@ -2450,7 +2450,7 @@ msgstr "Конкретные результаты модели"
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
 msgid "Model Terms"
-msgstr "Термины модели"
+msgstr "Термы модели"
 
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "Model Test"
@@ -2953,15 +2953,15 @@ msgstr "Корреляция{}Пирсона"
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr "Проценты"
+msgstr "Процентаж"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
-msgstr "Проценты"
+msgstr "Общий процентаж"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr "Проценты в пределах {var}"
+msgstr "Процентаж в пределах {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
@@ -3957,7 +3957,7 @@ msgstr "TLI"
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr ""
+msgstr "Терм 1"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -3972,7 +3972,7 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr ""
+msgstr "Терм {0}"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
@@ -4881,19 +4881,19 @@ msgstr "`Пропорции - ${var}`"
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`TRUE` (по умолчанию) или `FALSE`, выполнять t-критерий Стьюдента"
+msgstr "`TRUE` (по умолчанию) или `FALSE`, выполняет t-критерий Стьюдента"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
-"`TRUE` (по умолчанию) или `FALSE`, выполните однофакторный дисперсионный "
+"`TRUE` (по умолчанию) или `FALSE`, выполняет однофакторный дисперсионный "
 "анализ Уэлча, который не предполагает равных дисперсий"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
 msgstr ""
-"`TRUE` (по умолчанию) или `FALSE`, укажите значения 'Z' и 'p' для оценок "
-"модели"
+"`TRUE` (по умолчанию) или `FALSE`, представляет значения 'Z' и 'p' для "
+"оценок модели"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -4901,21 +4901,24 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
-"`TRUE` (по умолчанию) или `FALSE`, укажите информационный критерий Айкаике "
-"(AIC) для моделей"
+"`TRUE` (по умолчанию) или `FALSE`, представляет информационный критерий "
+"Айкаике (AIC) для моделей"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет α Кронбаха"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет R Пирсона"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет критерий хи-квадрат для "
+"точного соответствия, который сравнивает модель с моделью идеального "
+"соответствия"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
@@ -4923,6 +4926,8 @@ msgstr ""
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет доверительный интервал для "
+"предполагаемых предельных средних значений"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -4933,27 +4938,37 @@ msgstr ""
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет расчетные графики предельных "
+"средних"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет оценки факторной "
+"(ко)дисперсии"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет оценки остаточной "
+"(ко)дисперсии"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет средние различия для "
+"апостериорных тестов"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет уровни значимости"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет уровни значимости для "
+"апостериорных тестов"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
@@ -4961,43 +4976,53 @@ msgstr ""
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет отклонение (или "
+"-2LogLikelihood) для моделей"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет среднее"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет медиану"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет сравнение моделей между "
+"моделями и NULL моделью"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет количество пропущенных "
+"значений"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет размер выборки"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет стандартное отклонение"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет статистическую меру "
+"`R-квадрат` для моделей"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, представляет статистическую меру `R` для "
+"моделей"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет χ²"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -5008,101 +5033,127 @@ msgstr ""
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, взвешивание каждой ячейки одинаково или "
+"их взвешивание в соответствии с частотой ячеек"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), добавляет счетчики к столбиковой диаграмме"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), добавляет среднее значение к коробчатой "
+"диаграмме"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), помечает значимые корреляции"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), пометить значимые апостериорные сравнения"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет однофакторный дисперсионный "
+"анализ Фишера, который предполагает равные дисперсии"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
+"TRUE` или `FALSE` (по умолчанию), выполняет тест Левена на однородность "
+"дисперсий"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет тестов Левена на однородность "
+"дисперсий"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), выполняет U-критерий Манна-Уитни"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет тест Шапиро-Уилка на "
+"нормальность"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет тест Шапиро-Уилка на "
+"нормальность"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет тесты Шапиро-Уилка на "
+"нормальность"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет тесты Шапиро-Уилка на "
+"нормальность"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), выполняет t-критерий Уэлча"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет ранговый тест знаков Уилкоксона"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), выполняет тест Шапиро-Уилка на остатках"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), выполняете тестов на однородность"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), выполняет попарные сравнения"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), выполняет тесты на сферичность"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), наносит данные поверх предельных средних "
+"значений"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет информационный критерий "
+"Aikaike (AIC) для моделей"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет факторы Байеса"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -5111,78 +5162,94 @@ msgstr ""
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет байесовский информационный "
+"критерий (BIC) для моделей"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет байесовские достоверные "
+"интервалы"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет тест Бокса-Тидвелла на "
+"линейность логита"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), укажите размеры эффекта Коэна d"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет размеры эффекта Коэна d"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет точный критерий Фишера"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет tau-b Кендалла"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет критерий Мантеля-Хензеля для "
+"тренда"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет McDonald's ω"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет Фи и Крамера V"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет графики Q-Q (только "
+"непрерывные переменные)"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет графики остатков Q-Q"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет среднеквадратичную ошибку "
+"(RMSE) для моделей"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет p-значение Шапиро-Уилка"
 
 #: mancova/options/shapiro.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет ρ(rho) Спирмена"
 
 #: corrMatrix/options/spearman.description.R
 #: corrPart/options/spearman.description.R
 msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет ρ(rho) Спирмена"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляет VIF и статистику "
+"толерантности коллинеарности"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют график Q-Q многомерной "
+"нормальности"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -5192,11 +5259,11 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет график Q-Q остатков"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет график ROC кривой"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
@@ -5204,119 +5271,160 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительный интервал для "
+"оценок коэффициентов модели"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительный интервал для "
+"оценки отношения шансов коэффициента модели"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительный интервал для "
+"оценок коэффициента отношения коэффициентов модели"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительный интервал для "
+"стандартизированных оценок коэффициента модели"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительный интервал для "
+"коэффициентов модели"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительный интервал для "
+"оценок модели"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет график корреляционной матрицы"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет график корреляции"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет график отсечки"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет описательный график"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет диаграмму пути модели"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет прогнозируемую "
+"классификационную таблицу (или матрицу ошибок)"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет стандартизированную оценку "
+"коэффициентов модели"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют стандартизированную оценку "
+"для оценок модели"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет тест z для различий между "
+"двумя пропорциями"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет точное отношение "
+"логарифмических шансов (требуется установка точного 2x2)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет столбиковые диаграммы ("
+"только номинальные, порядковые переменные)"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет диаграммы (только "
+"непрерывные переменные)"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет процентаж столбца"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет доверительные интервалы"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительные интервалы для "
+"сравнительных мер"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительные интервалы для "
+"размеров эффекта"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительные интервалы для "
+"среднего"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительные интервалы для "
+"разницы средних"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет доверительные интервалы для "
+"размеров апостериорного эффекта"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет плотность на графике "
+"корреляционной матрицы"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставление графиков плотности (только "
+"непрерывные переменные)"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
@@ -5324,6 +5432,8 @@ msgstr ""
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет графики описательных "
+"статистик"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -5331,20 +5441,22 @@ msgstr ""
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет описательные статистики"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), точечные графики (только непрерывные "
+"переменные)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет размер эффекта"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет размер эффекта"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -5355,143 +5467,182 @@ msgstr ""
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставьте оценочные таблицы предельных "
+"средних значений"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют оценки для перехватов "
+"факторов"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют оценки для остаточных "
+"перехватов"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет таблицы частот (только "
+"номинальные, порядковые переменные)"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет гамму"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет гистограммы (только "
+"непрерывные переменные)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет средние элемента"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет стандартные отклонения "
+"элемента"
 
 #: reliability/options/itemRestCor.description.R
 msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет корреляции между элементами "
+"и остатками"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет средние значения и "
+"стандартные отклонения"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет средние значения и "
+"стандартные ошибки"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет индексы модификации для "
+"параметров, не включенных в модель"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет процентили"
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет апостериорные графики"
 
 #: descriptives/options/pcEqGr.description.R
 msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет квантили"
 
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют графики остатков, где "
+"зависимая переменная и каждая ковариата нанесены на график относительно "
+"стандартизированных остатков."
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляет результаты теста Дарбина-"
+"Ватсона для автокорреляции"
 
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
 msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет процентаж строк"
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляет статистику на графике "
+"корреляционной матрицы"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
 msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляет сводную статистику для "
+"расстояния Кука"
 
 #: anovaOneW/options/phTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет результаты теста (значение t "
+"и степени свободы) для апостериорных тестов"
 
 #: contTables/options/contCoef.description.R
 msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет коэффициент сопряжения"
 
 #: contTables/options/diffProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет разницу в пропорциях ("
+"доступно только для таблиц 2x2)"
 
 #: contTables/options/exp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет ожидаемое количество"
 
 #: logRegBin/options/OR.description.R
 #: logRegMulti/options/OR.description.R
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют экспоненциальную оценку "
+"отношения логарифмических шансов или оценку отношения шансов"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет экспоненциальную оценку "
+"логарифма отношения рисков или оценку отношения рисков"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет межквартильный диапазон"
 
 #: descriptives/options/kurt.description.R
 msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет эксцесс"
 
 #: contTables/options/likeRat.description.R
 msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет отношение правдоподобия"
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет логарифмическое отношение "
+"шансов (доступно только для таблиц 2x2)"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет максимальное"
 
 #: reliability/options/meanScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет среднее"
 
 #: descriptives/options/min.description.R
 msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет минимум"
 
 #: descriptives/options/mode.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет моду"
 
 #: logLinear/options/modelTest.description.R
 #: logRegBin/options/modelTest.description.R
@@ -5499,23 +5650,29 @@ msgstr ""
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет сравнение моделей между "
+"моделями и NULL моделью"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
 msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет количество случаев"
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет наблюдаемые значения"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет отношение шансов (доступно "
+"только для таблиц 2x2)"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставьте комплексный тест ANOVA для "
+"предикторов"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
@@ -5523,198 +5680,247 @@ msgstr ""
 #: logRegOrd/options/omni.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет комплексные тесты отношения "
+"правдоподобия для предикторов"
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), обеспечивает прогнозируемую точность "
+"результатов, сгруппированных по значению отсечки"
 
 #: logRegBin/options/sens.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет прогнозируемую "
+"чувствительность результатов, сгруппированных по значению отсечки"
 
 #: logRegBin/options/spec.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет прогнозируемую специфичность "
+"результатов, сгруппированных по пороговому значению"
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет прогнозируемую специфичность "
+"результатов, сгруппированных по пороговому значению"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет площадь под кривой ROC (AUC)"
 
 #: contTables/options/relRisk.description.R
 msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет относительный риск (доступно "
+"только для таблиц 2x2)"
 
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют остатки для наблюдаемой "
+"матрицы корреляции (т. е. разницу между ожидаемой матрицей корреляции и "
+"наблюдаемой матрицей корреляции)"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет асимметрию"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет стандартное отклонение"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет стандартную ошибку"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет статистическую меру `"
+"скорректированный R-квадрат` для моделей"
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет сумму"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет пороговые значения, которые "
+"используются в качестве пороговых значений для уровней зависимой переменной"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет дисперсию"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), представляет общие проценты"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет графики скрипки (только "
+"непрерывные переменные)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), укажите, каким была бы α Кронбаха, если "
+"бы элемент был выброшен"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), укажите, какой будет McDonald's ω, если "
+"предмет выпадет"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), представляет χ² с коррекцией непрерывности"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), сообщать сводку по различным группам"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), установите отсечку, используемую для "
+"прогнозов"
 
 #: efa/options/bartlett.description.R
 #: pca/options/bartlett.description.R
 msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), показать результаты теста Бартлетта на "
+"сферичность"
 
 #: efa/options/kmo.description.R
 #: pca/options/kmo.description.R
 msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), показать результаты меры адекватности "
+"выборки (MSA) Кайзера-Мейера-Олкина (KMO)"
 
 #: contTables/options/barplot.description.R
 msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), показывать столбиковые графики"
 
 #: efa/options/eigen.description.R
 #: pca/options/eigen.description.R
 msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), показать таблицу собственных значений"
 
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), показать сводку факторов"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), показать межфакторные корреляции"
 
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), показать меры соответствия модели и тест"
 
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
 msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), показать график осыпи"
 
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
 msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), сортировка факторных нагрузок по размеру"
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), тест на однородность отклонений (т.е. "
+"тест Левена)"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), переменные являются счетчиками"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию), должны ли отображаться счетчики"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr ""
+msgstr "`TRUE` или `FALSE` (по умолчанию); выполнить общий тест модели"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"`columns` или `rows` (по умолчанию), сравнить столбцы/строки по разнице "
+"пропорций или относительных рисков (таблицы 2x2)"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr ""
+msgstr "таблица (полу)частной корреляционной матрицы"
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
 msgstr ""
+"список, разделенный запятыми (по умолчанию: 25,50,75), указывающий процентили"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "график корреляционной матрицы"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "график корреляционной матрицы"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "таблица корреляционной матрицы"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for (see the examples)"
 msgstr ""
+"формула, содержащая термы для оценки предельных средних для (см. примеры)"
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
+"формула, содержащая термы для оценки предельных средних, поддерживает до "
+"трех переменных на терм"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
 msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
 msgstr ""
+"формула, содержащая термы для выполнения апостериорных тестов (см. примеры)"
 
 #: ancova/options/modelTerms.description.R
 #: anova/options/modelTerms.description.R
 msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
 msgstr ""
+"формула, описывающая термы для включения в модель (необязательно при "
+"предоставлении формулы, см. примеры)"
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
 msgstr ""
+"список, содержащий именованные списки, которые определяют `метку` фактора и "
+"`переменные`, принадлежащие этому фактору"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -5723,18 +5929,26 @@ msgstr ""
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
 msgstr ""
+"список, содержащий векторы строк, которые называют предикторы, добавляемые в "
+"модель. Элементы добавляются в модель в соответствии с их порядком в списке"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
 msgstr ""
+"список векторов символов, описывающих термы между субъектами для включения в "
+"модель"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
 msgstr ""
+"список векторов символов, описывающих апостериорные тесты, которые "
+"необходимо вычислить"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
 msgstr ""
+"список векторов символов, описывающих термы повторных измерений для "
+"включения в модель"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -5743,19 +5957,25 @@ msgstr ""
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
 msgstr ""
+"список списков, определяющих опорные уровни зависимой переменной и всех "
+"факторов"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
 msgstr ""
+"список списков, определяющих фактор и тип используемого контраста, один из "
+"`'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` или "
+"`'polynomial'`"
 
 #: ttestPS/options/pairs.description.R
 msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr ""
+msgstr "список списков, определяющих пары измерений в `data`"
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
 msgstr ""
+"писок списков, определяющих остаточные ковариации, которые необходимо оценить"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -5763,59 +5983,81 @@ msgstr ""
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
 msgstr ""
+"список списков, определяющих переменные, для которых необходимо рассчитать "
+"оценочные предельные средние значения. Поддерживает до трех переменных на "
+"терм."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
+"список списков, где каждый список описывает повторяющуюся меру (в виде "
+"строки) из `data`, определенных как `measure`, и конкретную комбинацию "
+"уровней из `rm`, к которой она принадлежит (в виде вектора строк), "
+"определяемую как `cell`"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
+"список списков, где каждый список описывает `label` (в виде строки) и "
+"`levels` (в виде вектора строк) конкретного фактора повторных измерений"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
 msgstr ""
+"число (по умолчанию: 0), минимальное собственное значение фактора, которое "
+"должно быть включено в модель"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
 msgstr ""
+"число (по умолчанию: 0,1), выделите значения в таблице `'corRes'` над этим "
+"значением"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
 msgstr ""
+"число (по умолчанию: 0,3), скрыть факторные нагрузки ниже этого значения"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
+msgstr "число (по умолчанию: 0,3), скрыть загрузки ниже этого значения"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "число (по умолчанию: 0,5), значение для нулевой гипотезы"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
+msgstr "число (по умолчанию: 1), бета-априорный параметр 'a'"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
+msgstr "число (по умолчанию: 1), бета-априорный параметр 'b'"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
 msgstr ""
+"число (по умолчанию: 1), минимальное собственное значение для компонента, "
+"который будет включен в модель"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
+"число (по умолчанию: 3), выделить значения в таблицах `'modIndices'` над "
+"этим значением"
 
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"число от 0,5 до 2 (по умолчанию 0,707), предыдущая ширина, используемая при "
+"расчете факторов Байеса"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"число от 0,5 до 2,0 (по умолчанию 0,707), предыдущая ширина, используемая "
+"при расчете факторов Байеса"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -5829,6 +6071,8 @@ msgstr ""
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), указывающее ширину доверительного "
+"интервала"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -5839,106 +6083,128 @@ msgstr ""
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), указывающее ширину доверительного "
+"интервала для предполагаемых предельных средних"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), указывающее ширину доверительного "
+"интервала, который используется как `'ci'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
+msgstr "число от 50 до 99,9 (по умолчанию: 95), ширина доверительного интервала"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr ""
+msgstr "число от 50 до 99,9 (по умолчанию: 95), правдоподобная ширина интервала"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
 #: ttestOneS/options/ciWidth.description.R
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr ""
+msgstr "число от 50 до 99,9 (по умолчанию: 95), ширина доверительных интервалов"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), ширина доверительных интервалов для "
+"размеров эффекта"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), ширина доверительных интервалов для "
+"размеров апостериорного эффекта"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), ширина доверительных интервалов для "
+"предствления"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
 msgstr ""
+"число от 50 до 99,9 (по умолчанию: 95), ширина доверительных интервалов для "
+"для представления"
 
 #: ttestOneS/options/testValue.description.R
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "число, определяющее значение нулевой гипотезы"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
+msgstr "параметр"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
 msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
 msgstr ""
+"возможное значение `'d'`; представляет коэновскую меру величины эффекта для "
+"апостериорных тестов"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "апостериорная таблица"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "таблица пропорций"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "график q-q"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
+"строка (по умолчанию: `Зависимая`), описывающая метку, используемую для "
+"зависимой переменной на протяжении всего анализа"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
 msgstr ""
+"строка, именующая переменную в `data`, содержащую счетчики, или NULL, если "
+"каждая строка представляет одно наблюдение"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
 msgstr ""
+"строка, именующая зависимую переменную от `data`, переменная должна быть "
+"фактором"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
 msgstr ""
+"строка, именующая зависимую переменную от `data`, переменная должна быть "
+"числовой"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr ""
+msgstr "строка, именующая зависимую переменную в `data`"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr ""
+msgstr "строка, именующая зависимые переменные в `data`"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
-msgstr ""
+msgstr "строка, именующая группу или независимую переменную в `data`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
-msgstr ""
+msgstr "сводка по группам"
 
 #: ancova/results/emm.template/emmTable.description
 #: anova/results/emm.template/emmTable.description
@@ -5948,119 +6214,123 @@ msgstr ""
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "таблица, содержащая оценочные предельные средние значения"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "таблица, содержащая оценки факторных ковариаций"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "таблица, содержащая оценки пересечения факторов"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
-msgstr ""
+msgstr "таблица, содержащая меры соответствия"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
 msgstr ""
+"таблица, содержащая индексы модификации для факторных нагрузок, не "
+"включенных в модель"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
 msgstr ""
+"таблица, содержащая индексы модификации для остаточных ковариаций, не "
+"включенных в модель"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "таблица, содержащая оценки остаточных ковариаций"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "таблица, содержащая остаточные оценки перехвата"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "таблица, содержащая остатки для наблюдаемой корреляционной матрицы"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "таблица, содержащая критерий хи-квадрат для точного соответствия"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "таблица, содержащая статистику коллинеарности"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "таблица с описательные статистики"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "таблица, содержащая факторные нагрузки"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "таблица, содержащая описания группы"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "таблица, содержащая тесты на однородность дисперсий"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "таблица, содержащая результаты проверки нормальности"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "таблица, содержащая тесты нормальности"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "таблица, содержащая результаты теста Бокса-Тидвелла"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "таблица, содержащая результаты t-теста"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "таблица результатов ANCOVA"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "таблица результатов ANOVA"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
-msgstr ""
+msgstr "таблица сравнительных мер"
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "таблица тестов однородности дисперсий"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "таблица тестов на однородность"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "таблица тестов отношения правдоподобия"
 
 #: logRegOrd/results/models.template/thres.description
 msgid "a table of model coefficient thresholds"
-msgstr ""
+msgstr "таблица пороговых коэффициентов модели"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
@@ -6068,118 +6338,121 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "таблица коэффициентов модели"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "таблица тестов нормальности"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
-msgstr ""
+msgstr "таблица прогнозируемых классификаций"
 
 #: logRegBin/results/models.template/pred/measures.description
 msgid "a table of predictive measures"
-msgstr ""
+msgstr "таблица прогностических мер"
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
-msgstr ""
+msgstr "таблица пропорций"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
-msgstr ""
+msgstr "таблица результатов теста"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
-msgstr ""
+msgstr "таблица результатов 'номинального' теста"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
-msgstr ""
+msgstr "таблица результатов теста Фридмана"
 
 #: contTables/results/taub.description
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "таблица результатов тау-b-теста Кендалла"
 
 #: contTables/results/mh.description
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "таблица теста Мантеля-Хензеля на тренд"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "таблица описательных статистик"
 
 #: contTables/results/gamma.description
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "таблица результатов гамма-теста"
 
 #: anovaRMNP/results/comp.description
 msgid "a table of the pairwise comparisons"
-msgstr ""
+msgstr "таблица попарных сравнений"
 
 #: propTestN/results/props.description
 msgid "a table of the proportions"
-msgstr ""
+msgstr "таблица пропорций"
 
 #: propTest2/results/table.description
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "таблица пропорций и результаты теста"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
 msgid "a table of the test results"
-msgstr ""
+msgstr "таблица результатов теста"
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "таблица результатов теста χ²"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
 msgstr ""
+"вектор, содержащий строки, именующие переменные, масштабированные в обратном "
+"порядке"
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr ""
+msgstr "вектор чисел: ожидаемые пропорции"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr ""
+msgstr "вектор строк, именующих факторы между субъектами из `data`"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
+msgstr "вектор строк, именующих управляющие переменные в `data`"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R
 #: mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr ""
+msgstr "вектор строк, именующих ковариаты из `data`"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
 msgstr ""
+"вектор строк, именующих ковариаты из `data`. Переменные должны быть числовыми"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
 msgid "a vector of strings naming the factors from `data`"
-msgstr ""
+msgstr "вектор строк, именующих факторы из `data`"
 
 #: logRegBin/options/factors.description.R
 #: logRegMulti/options/factors.description.R
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
-msgstr ""
+msgstr "вектор строк, именующих фиксированные факторы из `data`"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
-msgstr ""
+msgstr "вектор строк, именующих переменные повторных измерений"
 
 #: descriptives/options/vars.description.R
 #: efa/options/vars.description.R
@@ -6188,38 +6461,38 @@ msgstr ""
 #: reliability/options/vars.description.R
 #: ttestOneS/options/vars.description.R
 msgid "a vector of strings naming the variables of interest in `data`"
-msgstr ""
+msgstr "вектор строк, именующих интересующие переменные в `data`"
 
 #: corrMatrix/options/vars.description.R
 #: corrPart/options/vars.description.R
 msgid "a vector of strings naming the variables to correlate in `data`"
-msgstr ""
+msgstr "вектор строк, именующих переменные для корреляции в `data`"
 
 #: descriptives/options/splitBy.description.R
 msgid "a vector of strings naming the variables used to split `vars`"
-msgstr ""
+msgstr "вектор строк, именующих переменные, используемые для разделения `vars`"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "массив графиков Q-Q"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
 msgid "an array of contrasts tables"
-msgstr ""
+msgstr "массив таблиц контрастов"
 
 #: descriptives/results/plots.description
 msgid "an array of descriptive plots"
-msgstr ""
+msgstr "массив описательных графиков"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
-msgstr ""
+msgstr "массив частотных таблиц"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
 msgid "an array of groups of plots"
-msgstr ""
+msgstr "массив групп графиков"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
@@ -6227,21 +6500,21 @@ msgstr ""
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr ""
+msgstr "массив конкретных результатов модели"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "массив таблиц парных сравнений"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "массив апостериорных таблиц"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "массив описательных графиков"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -6251,63 +6524,63 @@ msgstr ""
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "массив оценочных предельных средних графики + таблицы"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "массив постериорных графиков"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "изображение, содержащее диаграмму пути модели"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "изображение описательных графиков"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
+msgstr "целое число (по умолчанию: 1), количество компонент в модели"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
+msgstr "целое число (по умолчанию: 1), количество факторов в модели"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr ""
+msgstr "целое число (по умолчанию: 4), определяющее количество равных групп"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "b параметр"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "бета 'a' параметр"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "параметр 'b' бета"
 
 #: contTables/options/compare/columns.title
 msgid "columns"
-msgstr ""
+msgstr "столбцы"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "component(s)"
-msgstr ""
+msgstr "компонент(ы)"
 
 #: R/pca.b.R
 msgid "components"
-msgstr ""
+msgstr "компоненты"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "контроль за {items}"
 
 #: R/ancova.b.R
 msgid "cubic"
-msgstr ""
+msgstr "кубический"
 
 #: contTablesPaired/options.description.R.usage
 msgid "dat <- data.frame(\n"
@@ -6346,6 +6619,41 @@ msgid "dat <- data.frame(\n"
 "\n"
 "contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
 msgstr ""
+"dat <- data.frame(\n"
+"    `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),\n"
+"    `2nd survey` = c('Approve', 'Disapprove', 'Approve', 'Disapprove'),\n"
+"    `Counts` = c(794, 150, 86, 570),\n"
+"    check.names=FALSE)\n"
+"\n"
+"contTablesPaired(formula = Counts ~ `1st survey`:`2nd survey`, data = dat)\n"
+"\n"
+"#\n"
+"#  PAIRED SAMPLES CONTINGENCY TABLES\n"
+"#\n"
+"#  Contingency Tables\n"
+"#  ────────────────────────────────────────────────\n"
+"#    1st survey    Approve    Disapprove    Total\n"
+"#  ────────────────────────────────────────────────\n"
+"#    Approve           794           150      944\n"
+"#    Disapprove         86           570      656\n"
+"#    Total             880           720     1600\n"
+"#  ────────────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  McNemar Test\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#                                Value    df    p\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#    χ²                           17.4     1    < .001\n"
+"#    χ² continuity correction     16.8     1    < .001\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"\n"
+"# Alternatively, omit the left of the formula (`Counts`) from the\n"
+"# formula if each row represents a single observation:\n"
+"\n"
+"contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
 
 #: propTest2/options.description.R.usage
 msgid "dat <- data.frame(x=c(8, 15))\n"
@@ -6365,6 +6673,22 @@ msgid "dat <- data.frame(x=c(8, 15))\n"
 "#    Note. Hₐ is proportion ≠ 0.5\n"
 "#"
 msgstr ""
+"dat <- data.frame(x=c(8, 15))\n"
+"\n"
+"propTest2(dat, vars = x, areCounts = TRUE)\n"
+"\n"
+"#\n"
+"#  ТЕСТ ПРОПОРЦИЯ (2 ИСХОДА)\n"
+"#\n"
+"#  Биномиальный тест\n"
+"#  ───────────────────────────────────────────────────────\n"
+"#         Уровень    Счет    Итог    Пропорция    p\n"
+"#  ───────────────────────────────────────────────────────\n"
+"#    x    1            8       23         0.348    0.210\n"
+"#         2           15       23         0.652    0.210\n"
+"#  ───────────────────────────────────────────────────────\n"
+"#    Примечание. Hₐ это пропорция ≠ 0.5\n"
+"#"
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
@@ -6430,6 +6754,68 @@ msgid "data <- lavaan::HolzingerSwineford1939\n"
 "#  ───────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data <- lavaan::HolzingerSwineford1939\n"
+"\n"
+"jmv::cfa(\n"
+"    data = data,\n"
+"    factors = list(\n"
+"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
+"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
+"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
+"    resCov = NULL)\n"
+"\n"
+"#\n"
+"#  ПОДТВЕРЖДАЮЩИЙ ФАКТОНЫЙ АНАЛИЗ\n"
+"#\n"
+"#  Факторные нагрузки\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
+"#    Factor     Indicator    Estimate    SE        Z        p\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
+"#    Visual     x1              0.900    0.0832    10.81    < .001\n"
+"#               x2              0.498    0.0808     6.16    < .001\n"
+"#               x3              0.656    0.0776     8.46    < .001\n"
+"#    Textual    x4              0.990    0.0567    17.46    < .001\n"
+"#               x5              1.102    0.0626    17.60    < .001\n"
+"#               x6              0.917    0.0538    17.05    < .001\n"
+"#    Speed      x7              0.619    0.0743     8.34    < .001\n"
+"#               x8              0.731    0.0755     9.68    < .001\n"
+"#               x9              0.670    0.0775     8.64    < .001\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  ФАКТОРНЫЕ ОЦЕНКИ\n"
+"#\n"
+"#  Коварианты фактора\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#                          Estimate    SE        Z       p\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#    Visual     Visual      1.000 ᵃ\n"
+"#               Textual     0.459      0.0635    7.22    < .001\n"
+"#               Speed       0.471      0.0862    5.46    < .001\n"
+"#    Textual    Textual     1.000 ᵃ\n"
+"#               Speed       0.283      0.0715    3.96    < .001\n"
+"#    Speed      Speed       1.000 ᵃ\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#    ᵃ fixed parameter\n"
+"#\n"
+"#\n"
+"#  ПОДГОНКА МОДЕЛИ\n"
+"#\n"
+"#  Test for Exact Fit\n"
+"#  ────────────────────────\n"
+"#    χ²      df    p\n"
+"#  ────────────────────────\n"
+"#    85.3    24    < .001\n"
+"#  ────────────────────────\n"
+"#\n"
+"#\n"
+"#  Измерения соответствия\n"
+"#  ───────────────────────────────────────────────\n"
+"#    CFI      TLI      RMSEA     Lower     Upper\n"
+"#  ───────────────────────────────────────────────\n"
+"#    0.931    0.896    0.0921    0.0714    0.114\n"
+"#  ───────────────────────────────────────────────\n"
+"#"
 
 #: contTables/options.description.R.usage
 msgid "data('HairEyeColor')\n"
@@ -6466,6 +6852,39 @@ msgid "data('HairEyeColor')\n"
 "\n"
 "contTables(formula = ~ Hair:Eye, dat)"
 msgstr ""
+"data('HairEyeColor')\n"
+"dat <- as.data.frame(HairEyeColor)\n"
+"\n"
+"contTables(formula = Freq ~ Hair:Eye, dat)\n"
+"\n"
+"#\n"
+"#  ТАБЛИЦЫ СОПРЯЖЕНИЯ\n"
+"#\n"
+"#  Таблицы сопряжения\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#    Hair     Brown    Blue    Hazel    Green    Total\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#    Black       68      20       15        5      108\n"
+"#    Brown      119      84       54       29      286\n"
+"#    Red         26      17       14       14       71\n"
+"#    Blond        7      94       10       16      127\n"
+"#    Total      220     215       93       64      592\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  χ² тест\n"
+"#  ───────────────────────────────\n"
+"#          Value    df    p\n"
+"#  ───────────────────────────────\n"
+"#    χ²      138     9    < .001\n"
+"#    N       592\n"
+"#  ───────────────────────────────\n"
+"#\n"
+"\n"
+"#Альтернативно, опустите левую часть формулы (`Freq`), если каждая строка\n"
+"#представляет собой одно наблюдение:\n"
+"\n"
+"contTables(formula = ~ Hair:Eye, dat)"
 
 #: propTestN/options.description.R.usage
 msgid "data('HairEyeColor')\n"
@@ -6495,6 +6914,32 @@ msgid "data('HairEyeColor')\n"
 "#  ───────────────────────\n"
 "#"
 msgstr ""
+"data('HairEyeColor')\n"
+"dat <- as.data.frame(HairEyeColor)\n"
+"\n"
+"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
+"\n"
+"#\n"
+"#  ТЕСТ ПРОПОРЦИЙ (N ИСХОДОВ)\n"
+"#\n"
+"#  Пропорции\n"
+"#  ────────────────────────────────\n"
+"#    Level    Count    Proportion\n"
+"#  ────────────────────────────────\n"
+"#    Brown      220         0.372\n"
+"#    Blue       215         0.363\n"
+"#    Hazel       93         0.157\n"
+"#    Green       64         0.108\n"
+"#  ────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  χ² Критерий соответствия\n"
+"#  ───────────────────────\n"
+"#    χ²     df    p\n"
+"#  ───────────────────────\n"
+"#    133     3    < .001\n"
+"#  ───────────────────────\n"
+"#"
 
 #: linReg/options.description.R.usage
 msgid "data('Prestige', package='carData')\n"
@@ -6530,8 +6975,41 @@ msgid "data('Prestige', package='carData')\n"
 "#  ────────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('Prestige', package='carData')\n"
+"\n"
+"linReg(data = Prestige, dep = income,\n"
+"       covs = vars(education, prestige, women),\n"
+"       blocks = list(list('education', 'prestige', 'women')))\n"
+"\n"
+"#\n"
+"#  ЛИНЕЙНАЯ РЕГРЕССИЯ\n"
+"#\n"
+"#  Vths cjjndtncndbz vjltkb\n"
+"#  ───────────────────────────\n"
+"#    Model    R        R²\n"
+"#  ───────────────────────────\n"
+"#        1    0.802    0.643\n"
+"#  ───────────────────────────\n"
+"#\n"
+"#\n"
+"#  КОНКРЕТНЫЕ РЕЗУЛЬТАТЫ МОДЕЛИ\n"
+"#\n"
+"#  MODEL 1\n"
+"#\n"
+"#\n"
+"#  Коэффициенты модели\n"
+"#  ────────────────────────────────────────────────────────\n"
+"#    Predictor    Estimate    SE         t         p\n"
+"#  ────────────────────────────────────────────────────────\n"
+"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
+"#    women           -50.9       8.56    -5.948    < .001\n"
+"#    prestige        141.4      29.91     4.729    < .001\n"
+"#    education       177.2     187.63     0.944     0.347\n"
+"#  ────────────────────────────────────────────────────────\n"
+"#"
 
 #: anova/options.description.R.usage
+#, fuzzy
 msgid "data('ToothGrowth')\n"
 "\n"
 "ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
@@ -6557,6 +7035,31 @@ msgid "data('ToothGrowth')\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANOVA\n"
+"#\n"
+"#  ANOVA\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#                 Sum of Squares    df    Mean Square    F        p\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#    dose                   2426     2         1213.2    92.00    < .001\n"
+"#    supp                    205     1          205.4    15.57    < .001\n"
+"#    dose:supp               108     2           54.2     4.11     0.022\n"
+"#    Residuals               712    54           13.2\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ANOVA(\n"
+"    formula = len ~ dose * supp,\n"
+"    data = ToothGrowth,\n"
+"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:"
+"supp\n"
+"    emmPlots = TRUE,              # produce plots of those marginal means\n"
+"    emmTables = TRUE)             # produce tables of those marginal means"
 
 #: ancova/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -6582,6 +7085,28 @@ msgid "data('ToothGrowth')\n"
 "    postHoc = ~ supp,\n"
 "    emMeans = ~ supp)"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANCOVA\n"
+"#\n"
+"#  ANCOVA\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#                 Sum of Squares    df    Mean Square    F        p\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#    supp                    205     1          205.4     11.4     0.001\n"
+"#    dose                   2224     1         2224.3    124.0    < .001\n"
+"#    Residuals              1023    57           17.9\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ancova(\n"
+"    formula = len ~ supp + dose,\n"
+"    data = ToothGrowth,\n"
+"    postHoc = ~ supp,\n"
+"    emMeans = ~ supp)"
 
 #: anovaNP/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -6599,6 +7124,20 @@ msgid "data('ToothGrowth')\n"
 "#  ───────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
+"#\n"
+"#  Kruskal-Wallis\n"
+"#  ───────────────────────────────\n"
+"#           χ²      df    p\n"
+"#  ───────────────────────────────\n"
+"#    len    40.7     2    < .001\n"
+"#  ───────────────────────────────\n"
+"#"
 
 #: ttestIS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -6616,8 +7155,23 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  INDEPENDENT SAMPLES T-TEST\n"
+"#\n"
+"#  Independent Samples T-Test\n"
+"#  ────────────────────────────────────────────────────\n"
+"#                          statistic    df      p\n"
+"#  ────────────────────────────────────────────────────\n"
+"#    len    Student's t         1.92    58.0    0.060\n"
+"#  ────────────────────────────────────────────────────\n"
+"#"
 
 #: ttestOneS/options.description.R.usage
+#, fuzzy
 msgid "data('ToothGrowth')\n"
 "\n"
 "ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
@@ -6634,6 +7188,21 @@ msgid "data('ToothGrowth')\n"
 "#  ──────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
+"\n"
+"#\n"
+"#  ONE SAMPLE T-TEST\n"
+"#\n"
+"#  One Sample T-Test\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#                           statistic    df      p\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#    len     Student's t         19.1    59.0    < .001\n"
+"#    dose    Student's t         14.4    59.0    < .001\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#"
 
 #: anovaOneW/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -6653,6 +7222,22 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"dat <- ToothGrowth\n"
+"dat$dose <- factor(dat$dose)\n"
+"\n"
+"anovaOneW(formula = len ~ dose, data = dat)\n"
+"\n"
+"#\n"
+"#  ONE-WAY ANOVA\n"
+"#\n"
+"#  One-Way ANOVA (Welch's)\n"
+"#  ────────────────────────────────────────\n"
+"#           F       df1    df2     p\n"
+"#  ────────────────────────────────────────\n"
+"#    len    68.4      2    37.7    < .001\n"
+"#  ────────────────────────────────────────\n"
+"#"
 
 #: logRegBin/options.description.R.usage
 msgid "data('birthwt', package='MASS')\n"
@@ -6695,6 +7280,45 @@ msgid "data('birthwt', package='MASS')\n"
 "#\n"
 "#"
 msgstr ""
+"data('birthwt', package='MASS')\n"
+"\n"
+"dat <- data.frame(\n"
+"            low = factor(birthwt$low),\n"
+"            age = birthwt$age,\n"
+"            bwt = birthwt$bwt)\n"
+"\n"
+"logRegBin(data = dat, dep = low,\n"
+"          covs = vars(age, bwt),\n"
+"          blocks = list(list(\"age\", \"bwt\")),\n"
+"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
+"\n"
+"#\n"
+"#  BINOMIAL LOGISTIC REGRESSION\n"
+"#\n"
+"#  Model Fit Measures\n"
+"#  ───────────────────────────────────────\n"
+"#    Model    Deviance    AIC     R²-McF\n"
+"#  ───────────────────────────────────────\n"
+"#        1     4.97e-7    6.00     1.000\n"
+"#  ───────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODEL SPECIFIC RESULTS\n"
+"#\n"
+"#  MODEL 1\n"
+"#\n"
+"#  Model Coefficients\n"
+"#  ────────────────────────────────────────────────────────────\n"
+"#    Predictor    Estimate      SE          Z           p\n"
+"#  ────────────────────────────────────────────────────────────\n"
+"#    Intercept    2974.73225    218237.2      0.0136    0.989\n"
+"#    age            -0.00653       482.7    -1.35e-5    1.000\n"
+"#    bwt            -1.18532        87.0     -0.0136    0.989\n"
+"#  ────────────────────────────────────────────────────────────\n"
+"#    Note. Estimates represent the log odds of \"low = 1\"\n"
+"#    vs. \"low = 0\"\n"
+"#\n"
+"#"
 
 #: logRegMulti/options.description.R.usage
 msgid "data('birthwt', package='MASS')\n"
@@ -7070,13 +7694,13 @@ msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
-msgstr ""
+msgstr "устарел"
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
 msgid "descriptives plot"
-msgstr ""
+msgstr "график описательных статистик"
 
 #: package/analyses/empty.menuGroup
 #: empty/options.menuGroup
@@ -7116,25 +7740,25 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr ""
+msgstr "df (степеней свободы)"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
-msgstr ""
+msgstr "перетащите сюда переменную"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -7150,104 +7774,116 @@ msgstr ""
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 msgid "drag variables here"
-msgstr ""
+msgstr "перетащите сюда переменные"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr ""
+msgstr "равные группы"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "error %"
-msgstr ""
+msgstr "ошибка %"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
-msgstr ""
+msgstr "фактор(ы)"
 
 #: R/pca.b.R
 msgid "factors"
-msgstr ""
+msgstr "факторы"
 
 #: R/cfa.b.R
 msgid "fixed parameter"
-msgstr ""
+msgstr "фиксированный параметр"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr ""
+msgstr "отметить значимые корреляции (p < 0,05) символами."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "отметьте значимые апостериорные сравнения."
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
-msgstr ""
+msgstr "если элемент выпал"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
-msgstr ""
+msgstr "в разработке"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
-msgstr ""
+msgstr "включить cводку по группам"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
 msgstr ""
+"элемент {item} отрицательно коррелирует с общей шкалой и, возможно, его "
+"следует поменять местами"
 
 #: reliability/results/items.columns.title
 msgid "item-rest correlation"
-msgstr ""
+msgstr "корреляция элемента и остатка"
 
 #: R/reliability.b.R
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
 msgstr ""
+"items {items} отрицательно коррелируют с общей шкалой и, вероятно, должны "
+"быть изменены"
 
 #: R/ancova.b.R
 msgid "linear"
-msgstr ""
+msgstr "линейный"
 
 #: R/descriptives.b.R
 msgid "lower bound"
-msgstr ""
+msgstr "нижняя граница"
 
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "mean"
-msgstr ""
+msgstr "среднее"
 
 #: R/pca.b.R
 msgid "none"
-msgstr ""
+msgstr "нет"
 
 #: R/pca.b.R
 msgid "oblimin"
-msgstr ""
+msgstr "облимин"
 
 #: R/ancova.b.R
 msgid "octic"
-msgstr ""
+msgstr "октик"
 
 #: contTables/options/yaxisPc/total_pc.title
 msgid "of total"
-msgstr ""
+msgstr "из всего"
 
 #: corrMatrix/options/hypothesis.description.R
 #: corrPart/options/hypothesis.description.R
 msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
 msgstr ""
+"один из `'corr'` (по умолчанию), `'pos'`, `'neg'`, определяющий "
+"альтернативную гипотезу; коррелирует, коррелирует положительно, коррелирует "
+"отрицательно соответственно."
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
 msgstr ""
+"один из `'part'` (по умолчанию) или `'semi'`, указывающий тип частной "
+"корреляции для расчета; частная или получастная корреляция."
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
 msgstr ""
+"один или несколько из `'cfi'`, `'tli'`, `'srmr'`, rmsea\\\", `'aic'` или "
+"`'bic'`; используйте CFI, TLI, SRMR, RMSEA + 90% доверительный интервал, "
+"скорректированные показатели соответствия модели AIC и BIC соответственно\""
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
@@ -7537,134 +8173,139 @@ msgstr ""
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
 msgstr ""
+"представляет доверительные интервалы для размеров апостериорного эффекта."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr ""
+msgstr "представляет коэффициенты корреляции на графике матрицы корреляции."
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
-msgstr ""
+msgstr "представляет описательные графики для каждой группы."
 
 #: ttestOneS/options/plots.description.ui
 msgid "provide descriptive plots for each variable."
-msgstr ""
+msgstr "представляет описательные графики для каждой переменной."
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
-msgstr ""
+msgstr "представляет описания для каждой группы измерений."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
 msgid "provide descriptives for each group."
-msgstr ""
+msgstr "представляет описательные статистики для каждой группы."
 
 #: ttestIS/options/plots.description.ui
 msgid "provide descriptives plots."
-msgstr ""
+msgstr "представляет описательные графики."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr ""
+msgstr "представляет размеры эффекта (D Коэна)."
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr ""
+msgstr "представляет размеры эффекта (d Коэна)."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr ""
+msgstr "представляет средние различия и стандартные ошибки средних различий."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr ""
+msgstr "представляет средние различия с апостериорными тестами."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
 msgstr ""
+"представляет средние различия и стандартные ошибки средних различий между "
+"средней оценкой и тестовым значением."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr ""
+msgstr "представляет меры размера эффекта; η², частный η² или ω²."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
-msgstr ""
+msgstr "представляет поправки p-значения для сферичности."
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
 msgid "provide plots of the estimated marginal means."
-msgstr ""
+msgstr "представляет графики расчетных предельных средних."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
 msgid "provide post-hoc tests."
-msgstr ""
+msgstr "представляет апостериорные тесты."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr ""
+msgstr "представляет уровни значимости для апостериорных тестов."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr ""
+msgstr "представляет тесты на сферичность."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
 msgstr ""
+"представляет результаты испытаний (t-значение и степени свободы) для "
+"апостериорных испытаний."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
 msgid "provide the number of cases."
-msgstr ""
+msgstr "представляет количество случаев."
 
 #: R/ancova.b.R
 msgid "quadratic"
-msgstr ""
+msgstr "квадратичный"
 
 #: R/ancova.b.R
 msgid "quartic"
-msgstr ""
+msgstr "биквадратный"
 
 #: R/pca.b.R
 msgid "quartimax"
-msgstr ""
+msgstr "квартимакс"
 
 #: R/ancova.b.R
 msgid "quintic"
-msgstr ""
+msgstr "пятой степени"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr ""
+msgstr "Обратно масштабированный элемент"
 
 #: contTables/options/compare/rows.title
 msgid "rows"
-msgstr ""
+msgstr "строки"
 
 #: contTables/options/xaxis.description.R
 msgid "rows (default), or columns in bar plot X axis"
-msgstr ""
+msgstr "строки (по умолчанию) или столбцы на гистограмме по оси X"
 
 #: reliability/results/scale.columns.content
 msgid "scale"
-msgstr ""
+msgstr "шкала"
 
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "sd"
-msgstr ""
+msgstr "sd"
 
 #: R/ancova.b.R
 msgid "septic"
-msgstr ""
+msgstr "седьмой степени"
 
 #: logRegOrd/options.description.R.usage
 msgid "set.seed(1337)\n"
@@ -7707,46 +8348,48 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "sextic"
-msgstr ""
+msgstr "шестой степени"
 
 #: R/pca.b.R
 msgid "simplimax"
-msgstr ""
+msgstr "симплимакс"
 
 #: R/pca.b.R
 msgctxt "specific factor"
 msgid "Factor"
-msgstr ""
+msgstr "Фактор"
 
 #: contTables/options/bartype.description.R
 msgid "stack or side by side (default), barplot type"
-msgstr ""
+msgstr "стек или разброс (по умолчанию), тип гистограммы"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "статистика"
 
 #: R/ancova.b.R
 #: contTables/results/taub.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr ""
+msgstr "t-значение"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
-msgstr ""
+msgstr "тен Берге"
 
 #: R/descriptives.b.R
 msgid "th percentile"
-msgstr ""
+msgstr "й процентиль"
 
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
 msgstr ""
+"(необязательные) веса из `data`, которые будут использоваться в процессе "
+"подбора"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -7762,67 +8405,69 @@ msgstr ""
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "альтернативная гипотеза."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr ""
+msgstr "альтернативная гипотеза. Позволяет проводить односторонние тесты."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "факторы между субъектами (необязательно)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "межсубъектные условия модели."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "категориальные объясняющие (или независимые) переменные."
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "ширина доверительного интервала для размеров эффекта."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "ширина доверительного интервала для размеров апостериорного эффекта."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr ""
+msgstr "ширина доверительного интервала."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
 msgstr ""
+"непрерывные объясняющие (или независимые) переменные, также известные как "
+"ковариаты."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 msgid "the contrasts to use."
-msgstr ""
+msgstr "контрасты для применения."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr ""
+msgstr "интересующие управляющие переменные."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
-msgstr ""
+msgstr "подсчеты в `data`"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "ковариаты (указание их делает ANCOVA)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "ковариаты из `data`"
 
 #: ancova/options/data.description.R
 #: anova/options/data.description.R
@@ -7851,97 +8496,119 @@ msgstr ""
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
-msgstr ""
+msgstr "данные как фрейм"
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "зависимая переменная от `data`, переменная должна быть числовой"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"зависимая переменная от `data`, переменная должна быть числовой ("
+"необязательно при предоставлении формулы, см. примеры)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "зависимая переменная. Для ANCOVA они будут непрерывными."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "зависимая переменная. Для ANOVA они будут непрерывными."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
 msgstr ""
+"зависимые переменные (не обязательно при использовании формулы, см. примеры)"
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
+"зависимые переменные -- для каждой указанной зависимой переменной "
+"выполняется отдельный t-тест."
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "зависимые переменные. Для ANOVA они будут непрерывными."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "планки погрешностей для построения маргинальных средних значений."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
 msgstr ""
+"пояснительные ковариаты (не обязательны при предоставлении формулы, см. "
+"примеры)"
 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
 msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
 msgstr ""
+"поясняющие факторы в `'данных'` (необязательно при предоставлении формулы, "
+"см. примеры)"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr ""
+msgstr "объясняющая или независимая переменная. Для ANOVA будет категориальной."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
+"\"объясняющие или независимые переменные. Для ANOVA они будут "
+"категориальными."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr ""
+msgstr "фиксированные факторы из `data`"
 
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
+"группирующая переменная с двумя уровнями (необязательно при использовании "
+"формулы, см. примеры)"
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "метка, используемая для зависимой переменной."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
-msgstr ""
+msgstr "синтаксис lavaan, используемый для подгонки модели"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"метод исключения пропущенных значений. `'Analysis by analysis'` исключает "
+"пропущенные значения из каждого анализа. `Listwise` исключает строку из всех "
+"анализов, если одно из ее значений отсутствует."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"метод исключения пропущенных значений. `'Analysis by analysis'` исключает "
+"пропущенные значения из каждой переменной. `Listwise` исключает строку из "
+"всех анализов, если одно из ее значений отсутствует."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
-msgstr ""
+msgstr "условия, составляющие модель."
 
 #: anova/options/modelTerms.description.ui
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
+"условия, составляющие модель. По умолчанию создается полная факторная "
+"модель, но здесь можно настроить точные члены, составляющие модель."
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
 msgstr ""
+"пары измерений - для каждой пары измерений выполняется отдельный t-тест."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
