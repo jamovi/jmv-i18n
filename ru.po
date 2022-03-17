@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-17 08:26+0000\n"
+"PO-Revision-Date: 2022-03-17 09:59+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -4827,20 +4827,33 @@ msgstr ""
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"`'perAnalysis'` или `'listwise'`, как обрабатывать пропущенные значения; "
+"`'perAnalysis'` исключает пропущенные значения для отдельных зависимых "
+"переменных, `'listwise'` исключает строку из всех анализов, если одна из ее "
+"ячеек отсутствует"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"`'perAnalysis'` или `'listwise'`, как обрабатывать пропущенные значения; "
+"`'perAnalysis'` исключает пропущенные значения для отдельных зависимых "
+"переменных, `'listwise'` исключает строку из всех анализов, если одна из ее "
+"ячеек отсутствует."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
+"`'refLevel'` (по умолчанию) или `'grandMean'`, кодирование перехвата. Либо "
+"создает контраст, так что точка пересечения представляет собой контрольный "
+"уровень или общее среднее значение"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
+"`'rows'` или `'columns'` (по умолчанию), отображать переменные по строкам "
+"или по столбцам (по умолчанию)"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -4868,15 +4881,19 @@ msgstr "`Пропорции - ${var}`"
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "`TRUE` (по умолчанию) или `FALSE`, выполнять t-критерий Стьюдента"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, выполните однофакторный дисперсионный "
+"анализ Уэлча, который не предполагает равных дисперсий"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, укажите значения 'Z' и 'p' для оценок "
+"модели"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -4884,6 +4901,8 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, укажите информационный критерий Айкаике "
+"(AIC) для моделей"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
