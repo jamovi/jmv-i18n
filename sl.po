@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-14 16:45+0000\n"
+"PO-Revision-Date: 2022-03-19 13:58+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/sl/>\n"
@@ -1577,12 +1577,12 @@ msgstr "Stalno število"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
-msgstr "Označi statistično pomembne primerjave"
+msgstr "Označi statistično značilne primerjave"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr "Označi statistično pomembne korelacije"
+msgstr "Označi statistično značilne korelacije"
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -1997,7 +1997,7 @@ msgstr "Ravni"
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
-"Levenov test je statistično pomemben (P < 0.05), kar kaže na kršitev "
+"Levenov test je statistično značilen (p < 0.05), kar kaže na kršitev "
 "predpostavke enakih varianc."
 
 #: R/proptest2.b.R
@@ -2340,7 +2340,7 @@ msgstr "Manjkajoče"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "Manjkajoče Vrednosti"
+msgstr "Manjkajoče vrednosti"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
@@ -3007,7 +3007,7 @@ msgstr "Polinomska‧"
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "Primerjave Post Hoc – {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -3024,7 +3024,7 @@ msgstr "Testi Post-Hoc"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Testi Post Hoc – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
@@ -3144,7 +3144,7 @@ msgstr "Verjetnost"
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "Promax"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
@@ -3302,7 +3302,7 @@ msgstr "Razmerje"
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 msgid "Reference Level"
-msgstr ""
+msgstr "Sklicna raven"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -3315,11 +3315,11 @@ msgstr ""
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
 msgid "Reference Levels"
-msgstr ""
+msgstr "Sklicne ravni"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
-msgstr ""
+msgstr "Sklicna raven (navidezno kodiranje)"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -3391,7 +3391,7 @@ msgstr "Faktorji ponavljajočih meritev"
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr ""
+msgstr "Izpiši statistično značilnost"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
@@ -4462,7 +4462,7 @@ msgstr "Podatkov ni mogoče razdeliti na osnovi zvezne spremenljivke"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr ""
+msgstr "Enkratnost"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
@@ -4826,6 +4826,8 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna Aikaikejev informacijski kriterij "
+"(AIC) za modele"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
@@ -4839,6 +4841,8 @@ msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna Pearsonov koeficient R"
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna hi-kvadrat natančega prileganja, ki "
+"primerja podan model s popolno prilegajočim se modelom"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
@@ -4856,27 +4860,32 @@ msgstr ""
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izriše diagrame ocenjenih mejnih povprečij"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr ""
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna ocene za faktorske (ko)variance"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr ""
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna ocene za (ko)variance ostankov"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna razlike povprečij za preizkuse post "
+"hoc"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr ""
+msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna ravni statistične značilnosti"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna ravni statistične značilnosti za "
+"preizkuse post-hoc"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
@@ -4943,15 +4952,18 @@ msgstr ""
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "`TRUE` or `FALSE` (privzeto), označi statistično značilne korelacije"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
 msgstr ""
+"`TRUE` or `FALSE` (privzeto), označi statistično značilne primerjave post-hoc"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"`PRAV` (privzeto) ali `NAPAK`, izračuna vrednosti Fisherjeve enosmerne "
+"analize ANOVA s predvidevanjem enakih varianc"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
@@ -5055,6 +5067,8 @@ msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna Cohenove d učinke velikosti"
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
 msgstr ""
+"`PRAV` ali `NAPAK` (privzeto), izračuna vrednost Fišerjevega natančnega "
+"preizkusa"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
@@ -5577,12 +5591,12 @@ msgstr ""
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr ""
+msgstr "`PRAV` ali `NAPAK` (privzeto), pokaže povzetek faktorjev"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr ""
+msgstr "`PRAV` ali `NAPAK` (privzeto), pokaže med-faktorske korelacije"
 
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
@@ -5974,7 +5988,7 @@ msgstr ""
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "razpredelnica z napovedjo kovarianc ostankov"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
@@ -5986,7 +6000,7 @@ msgstr ""
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr "razpredelnica s statistiko natančnosti skladnosti hi-kvadrat"
+msgstr "razpredelnica s statistiko hi-kvadrat natančne skladnosti"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
@@ -6000,12 +6014,12 @@ msgstr "razpredelnica z izračuni opisne statistike"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "razpredelnica z utežmi faktorjev"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "razpredelnica z izračuni opisne statistike skupine"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
@@ -6182,6 +6196,7 @@ msgstr "vektor nizov z imeni faktorjev za podatkovno zbirko `data`"
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
 msgstr ""
+"vektor nizov z imeni faktorjev stalne faktorje v podatkovni zbirki `data`"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
@@ -6274,15 +6289,15 @@ msgstr ""
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "slikovni izpis diagramov opisne statistike"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
+msgstr "število (privzeto: 1), ki določa število komponent modela"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
+msgstr "število (privzeto: 1), ki določa število faktorjev modela"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
@@ -7188,11 +7203,11 @@ msgstr "nespremenljiv parameter"
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "označi statistično pomembne korelacije (p < 0,05) s simboli."
+msgstr "označi statistično značilne korelacije (p < 0,05) s simboli."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr "označi statistično pomembne primerjave post-hoc."
+msgstr "označi statistično značilne primerjave post-hoc."
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
@@ -7489,12 +7504,18 @@ msgstr ""
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na "
+"pričakovanje *popolnoma* normalno porazdeljenih podatkov. Velika odstopanja "
+"od diagonalne črte kažejo, da podatki niso normalno porazdeljeni."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
+"izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na "
+"pričakovanje *popolnoma* normalno porazdeljenih podatkov. Velika odstopanja "
+"od diagonalne črte kažejo, da ostanki niso normalno porazdeljeni."
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
@@ -7514,6 +7535,9 @@ msgstr "izračuna Pearsonov r za vsako kombinacijo spremenljivk."
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na "
+"pričakovanje *popolnoma* normalno porazdeljenih podatkov. Velika odstopanja "
+"od diagonalne črte kažejo, da podatki niso normalno porazdeljeni."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -7523,6 +7547,8 @@ msgstr "izračuna Spearmanov ro za vsako kombinacijo spremenljivk."
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
+"izračuna interval zaupanja za razliko med oceno povprečne vrednosti in "
+"testno vrednostjo."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -7531,7 +7557,7 @@ msgstr "izriše korelacijsko matriko."
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "izračuna p-vrednost za vsak koeficient korelacije"
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
@@ -7600,7 +7626,7 @@ msgstr "izračuna vrednost velikosti učinka (Cohenov d)"
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr ""
+msgstr "izračuna razlike povprečij in standardne napake teh razlik."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
@@ -7609,6 +7635,8 @@ msgstr "izračuna razlike povprečij s preizkusi post-hoc."
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
 msgstr ""
+"izračuna razlike povprečij in standardne napake teh razlik med oceno "
+"povprečne vrednosti in testno vrednostjo."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -7635,7 +7663,7 @@ msgstr "izvede preizkuse post-hoc."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr ""
+msgstr "izračuna ravni statistične značilnosti za preizkuse post-hoc."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
@@ -7746,7 +7774,7 @@ msgstr "Faktor"
 
 #: contTables/options/bartype.description.R
 msgid "stack or side by side (default), barplot type"
-msgstr ""
+msgstr "naloženi oziroma razvrstilni (privzeto), vrsta stolpčnega diagrama"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
@@ -7764,7 +7792,7 @@ msgstr "t-vrednost"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
-msgstr ""
+msgstr "ten Bergeova ocena"
 
 #: R/descriptives.b.R
 msgid "th percentile"
@@ -8018,11 +8046,11 @@ msgstr ""
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr ""
+msgstr "vrsta vsote kvadratov za uporabo; vrsta 1, 2 ali 3."
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr ""
+msgstr "vrsta vsote kvadratov za uporabo; vrsta 2 ali 3."
 
 #: propTestN/options/var.description.R
 msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
