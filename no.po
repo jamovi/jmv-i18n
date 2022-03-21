@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-07 22:42+0000\n"
+"PO-Revision-Date: 2022-03-21 17:31+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -4152,6 +4152,22 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
+"ANOVA for gjentatte målinger brukes til å utforske forholdet\n"
+"mellom en kontinuerlig avhengig variabel og én eller flere kategoriske\n"
+"uavhengige variabler, der én eller flere av de uavhengige variablene\n"
+"er «innenfor deltaker» (der flere målinger er fra samme\n"
+"deltaker / målesubjekt). I tillegg tillater denne analysen inkludering av\n"
+"kovariater, noe som også gir mulighet for ANCOVAer for gjentatte målinger.\n"
+"\n"
+"Denne analysen krever at dataene er i «bredt format», hvor hver linje\n"
+"representerer en deltaker / målesubjekt (i motsetning til langt format, "
+"hvor\n"
+"hver måling av den avhengige variabelen representeres som en rad).\n"
+"\n"
+"Det finnes også en ikke-parametrisk ekvivalent til ANOVAen for gjentatte "
+"målinger\n"
+"som heter Friedman-testen. Den har imidlertid begrensningen av bare å kunne\n"
+"teste en enkelt faktor."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -4159,6 +4175,11 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
+"Students uavhengig t-test (noen ganger kalt uparet t-test) brukes til å "
+"teste\n"
+"nullhypotesen om at to grupper har samme gjennomsnitt. En lav p-verdi\n"
+"antyder at nullhypotesen ikke er sann, og at gruppemidlene derfor er "
+"forskjellige."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -4175,6 +4196,23 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
+"Students uavhengig t-test (noen ganger kalt uparet t-test) brukes til å "
+"teste\n"
+"nullhypotesen om at to grupper har samme gjennomsnitt. En lav p-verdi\n"
+"antyder at nullhypotesen ikke er sann, og at gruppemidlene derfor er "
+"forskjellige.\n"
+"\n"
+"Students uavhengig t-test forutsetter at dataene fra hver gruppe er "
+"normalfordelt,\n"
+"og at variansene for disse gruppene er like. Hvis du ikke kan anta at "
+"gruppene har\n"
+"like varianser, kan Welchs t-test brukes istedenfor. Hvis en i tillegg ikke "
+"kan anta at\n"
+"dataene i hver gruppe er normalfordelt, kan den ikke-parametriske Mann-"
+"Whitney\n"
+"U-testen brukes (men vær oppmerksom på at Mann-Whitney U-testen har en litt\n"
+"annen nullhypotese, nemlig at fordelingene / rangfølge for hver gruppe er "
+"like)."
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -4182,6 +4220,10 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
+"Students t-test for én stikkprøve brukes til å teste nullhypotesen\n"
+"gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
+"En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
+"er forskjellig fra testverdien."
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -4195,6 +4237,15 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
+"Students t-test for én stikkprøve brukes til å teste nullhypotesen\n"
+"gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
+"En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
+"er forskjellig fra testverdien.\n"
+"\n"
+"Students t-test for én stikkprøve forutsetter at dataene er normalfordelt.\n"
+"Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test brukes\n"
+"istedenfor (men vær oppmerksom på at Wilcoxon-test har en litt annen\n"
+"nullhypotese, nemlig at *median* er lik testverdien)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -4203,6 +4254,10 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
+"Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+"teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
+"lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
+"forskjellen mellom måleparene / gjentatte målingene er ikke null."
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -4218,44 +4273,67 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
+"Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+"teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
+"lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
+"forskjellen mellom måleparene / gjentatte målingene er ikke null.\n"
+"\n"
+"Students paret t-test forutsetter at parforskjeller er normalfordelt. I "
+"tilfelle\n"
+"en kan ikke anta dette kan den ikke-parametriske Wilcoxon-test brukes\n"
+"(men vær oppmerksom på at Wilcoxon-test har en litt annen nullhypotese,\n"
+"nemlig at de to målingsparene har samme rangfølge / distribusjon)."
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "Cut-off-verdien er satt til {}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"Den avhengige variabelen «{dep}» har bare to nivåer, vurder å gjennomføre en "
+"binomial logistisk regresjon."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr ""
+"Den avhengige variabelen «{dep}» har følgende rekkefølge: {orderedLevels}"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"Den avhengige variabelen «{}» har mer enn to nivåer; binomial logistisk "
+"regresjon kan bare gjennomføres med avhengige variabler med to nivåer."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
 msgstr ""
+"Det er bare to gjentatte målinger. Antakelsen om sfæriskhet er alltid gitt "
+"når faktoren for gjentatte målinger har bare to nivåer"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
+"Det er bare to gjentatte målinger. Antakelsen om sfæriskhet er alltid gitt "
+"når faktoren for gjentatte målinger har bare to nivåer."
 
 #: ancova/results/model.description
 #: anova/results/model.description
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "Det underliggende `aov`-objektet"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
+"Variabelen {var} kan ikke behandles som numerisk. Diagrammer som trenger "
+"numeriske data, kan ikke lages for denne variabelen."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
+"Variablene {vars} kan ikke behandles som numeriske. Diagrammer som trenger "
+"numeriske data kan ikke lages for disse variablene."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
@@ -4276,120 +4354,125 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "Teoretiske kvantiler"
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
+"Denne modulen inneholder analysene som er inkludert i jamovi. Den omfatter "
+"mange analyser som brukes ofte (for eksempel t-test, ANOVA, regresjon, "
+"korrelasjon, frekvensanalyse, faktoranalyse, osv.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
-msgstr ""
+msgstr "Terskel"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "Terskler"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
-msgstr ""
+msgstr "Thurstone"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "Tolerance"
-msgstr ""
+msgstr "Toleranse"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr ""
+msgstr "For få observasjoner (N < 3) for å beregne statistikk"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
 msgstr ""
+"For få observasjoner for å beregne statistikk. Hver (under)gruppe må ha "
+"minst like mange observasjoner som det finnes avhengige variabler."
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr ""
+msgstr "For lite utvalg for å beregne statistikk (N < 3)"
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr ""
+msgstr "For lite utvalg for å beregne statistikk (N < {n})"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr ""
+msgstr "For mange observasjoner (N > 5000) til å beregne statistikk"
 
 #: R/ttestis.b.R
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr ""
+msgstr "For stor utvalg for å beregne statistikk (N > 5000)"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr ""
+msgstr "For stor utvalg for å beregne statistikk (N > {n})"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "Tannvekst"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr ""
+msgstr "Tukey"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "Tukey (like varianser antatt)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "Tukey post-hoc-test – {dep}"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr ""
+msgstr "Type 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr ""
+msgstr "Type 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr ""
+msgstr "Type 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "Type-3-kvadratsumme"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "Type-{ssType}-kvadratsumme"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr ""
+msgstr "Kan ikke dele etter en kontinuerlig variabel"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr ""
+msgstr "Unikhet"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "Univariate tester"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4416,12 +4499,12 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "Øvre"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "VIF"
-msgstr ""
+msgstr "VIF"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -4429,11 +4512,11 @@ msgstr ""
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
 msgid "Value"
-msgstr ""
+msgstr "Verdi"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr ""
+msgstr "Verdier er antall"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -4442,25 +4525,25 @@ msgstr ""
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
 msgid "Variable"
-msgstr ""
+msgstr "Variabel"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "Variabelen «{var}» ikke inneholder data"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable contains infinite values"
-msgstr ""
+msgstr "Variabelen inneholder uendelige verdier"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
-msgstr ""
+msgstr "Variabelen inneholder ikke nok observasjoner"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable is not numeric"
-msgstr ""
+msgstr "Variabelen er ikke numerisk"
 
 #: corrMatrix/options/vars.title
 #: corrPart/options/vars.title
@@ -4475,33 +4558,33 @@ msgstr "Variabler"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr ""
+msgstr "Variabler på tvers av kolonner"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr ""
+msgstr "Variabler på tvers av rader"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
-msgstr ""
+msgstr "Variabler må ha i minst to nivåer"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
 msgid "Variance"
-msgstr ""
+msgstr "Varians"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr ""
+msgstr "Varianser"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
 msgid "Varimax"
-msgstr ""
+msgstr "Varimax"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr ""
+msgstr "Fiolin-diagramm"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
@@ -4510,64 +4593,64 @@ msgstr ""
 #: ttestOneS/results/normality.columns.title
 #: ttestPS/results/norm.columns.title
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "Vektet med «{varName}»"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
-msgstr ""
+msgstr "Vekting (valgfritt)"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "Welch's"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "Welch's t"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "Wilcoxon W"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "Wilcoxon-rang"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
 msgid "Wilcoxon signed rank test"
-msgstr ""
+msgstr "Wilcoxon rangtest med fortegn"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "Wilks' Lambda"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "Effekter innenfor deltakerne"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr ""
+msgstr "X-akse"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr ""
+msgstr "X-akse"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr ""
+msgstr "Y-akse"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr ""
+msgstr "Y-akse"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -4581,76 +4664,115 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
 msgstr ""
+"`'1'`, `'2'` eller `'3'` (standard), typ av kvadratsummen som skal brukes"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'2'` eller `'3'` (standard), typ av kvadratsummen som skal brukes"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
 msgstr ""
+"`'Thurstone'` (standard), `'Bartlett'`, `'tenBerge'`, `'Anderson'` eller "
+"`'Harman'` bruker henholdsvis «Thurstone», «Bartlett», «ten Berge», «"
+"Anderson & Rubin» eller «Harman»-metoden for å estimere faktorscorer"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
 msgstr ""
+"`'different'` (standard), `'oneGreater'` eller `'twoGreater'`, "
+"alternativhypotesen; enten at gruppe 1 er forskjellig fra gruppe 2, at "
+"gruppe 1 er større enn gruppe 2 eller at gruppe 2 er større enn gruppe 1"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
+"`'different'` (standard), `'oneGreater'` eller `'twoGreater'`, "
+"alternativhypotesen; enten at måling 1 er forskjellig fra måling 2, at "
+"måling 1 er større enn måling 2 eller at måling 2 er større enn måling 1"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (standard), `'gt'` eller `'lt'`, alternativhypotesen; enten "
+"forskjellig fra `testValue`, større enn `testValue` eller mindre enn "
+"`testValue`"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` eller `'facInd'`, hvordan modellen skal hvordan begrenses; "
+"`'facVar'` fikser faktorvariansene til én, `'facInd'` fikserer hver faktor "
+"til vedien av første indikator."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` eller `'fiml'`, hvordan manglende verdier skal håndteres; "
+"`'listwise'` ekskluderer hele raden fra alle analyser hvis en av verdiene "
+"mangler, `'fiml'` bruker en full-informasjon-maximal-likelihod-metode for å "
+"estimere modellen."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
+"`'means'` (standard) eller ''medianer'`, hva feillinjene i diagrammet skal "
+"baseres på"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"`'minres'` (standard), `'ml'` eller `'pa'` bruker henholdsvis «minimum "
+"residual», «maximum likelihood» eller «prinicipal axis» som "
+"faktorekstraksjonsmetode"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
+"`'none'`, `'ci'` (standard) eller `'se'`. Bruk ingen feilstolper, bruk "
+"konfidensintervaller eller bruk standardfeil på henholdsvis marginale-"
+"gjennomsnitts-diagramm"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` eller `'tukey'`, hvilke post-hoc tester skal vises;"
+" `'none'` viser ingen post-hoc-tester, `'gamesHowell'` viser Games-Howell-"
+"post-hoc-tester (som ikke antar ekvivalens av varianser) og `'tukey'` viser "
+"Tukey-post-hoc-tester (som antar ekvivalens av varianser)"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'ingen'`, `'varimax'` (standard), `'quartimax'`, `'promax'`, `'oblimin'` "
+"eller `'simplimax'`, hvilken metode skal brukes for rotasjon av komponentene"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (standard) "
+"eller `'simplimax'`, hvilken metode skal brukes for rotasjon av faktorene"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
 msgstr ""
+"`'notequal'` (standard), `'greater'` eller `'less'`, alternativhypothesen"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
+"`'parallell'` (standard), `'eigen'` eller `'fixed'`, metoden for å bestemme "
+"antall faktorer"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
