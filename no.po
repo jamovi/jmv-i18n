@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-22 09:58+0000\n"
+"PO-Revision-Date: 2022-03-22 10:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -3226,7 +3226,7 @@ msgstr "Q-Q-diagram for å vurdere multivariat normalfordeling"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr "Q-Q-diagram av residuer"
+msgstr "Q-Q-diagram av residuene"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
@@ -3426,11 +3426,11 @@ msgstr "Kovarians av residuene – Modifikasjonsindekser"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr "Estimater på residuer"
+msgstr "Estimater på residuene"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr "Skjæringspunkter for residuer"
+msgstr "Skjæringspunkter for residuene"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
@@ -5037,13 +5037,13 @@ msgstr ""
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
-"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk tester av "
+"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk-tester av "
 "normalfordeling"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
-"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk tester av "
+"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk-tester av "
 "normalfordeling"
 
 #: ttestIS/options/welchs.description.R
@@ -5125,63 +5125,69 @@ msgstr ""
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut effektstørrelser (Cohens d)"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Fishers eksakte test"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Kendalls tau-b"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Mantel-Haenszel-test for trend"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut McDonald's ω"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Phi og Cramers V"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), vis Q-Q-diagrammer (kun for kontinuerlige "
+"variabler)"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), vis Q-Q-diagrammer for residuene"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut RMSE for modellene"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Shapiro-Wilk p-verdi"
 
 #: mancova/options/shapiro.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk-test"
 
 #: corrMatrix/options/spearman.description.R
 #: corrPart/options/spearman.description.R
 msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Spearmans rho"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut kollinearittsstatistikkene VIF og "
+"tolerans"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut en Q-Q-diagramm for å undersøke den "
+"multivariate normalfordelingen"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -5191,11 +5197,11 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Q-Q-diagramm av residuene"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut et ROC-kurve-diagramm"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
@@ -5203,12 +5209,16 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut konfidensintervall for "
+"modellkoeffisientestimatene"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut konfidensintervallet for estimatene "
+"av odds-ratioene til modellkoeffisientene"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
