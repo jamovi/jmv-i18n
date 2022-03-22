@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-21 17:31+0000\n"
+"PO-Revision-Date: 2022-03-22 09:58+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -4777,56 +4777,73 @@ msgstr ""
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"`'perAnalysis'` eller `'listwise'`, hvordan håndtere manglende verdier; "
+"`'perAnalysis'` ekskluderer manglende verdier for individuelle avhengige "
+"variabler og analyse, `'listwise'` ekskluderer hele raden fra alle analyser "
+"hvis en av målingene mangler"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"`'perAnalysis'` eller `'listwise'`, hvordan håndtere manglende verdier; "
+"`'perAnalysis'` ekskluderer manglende verdier for individuelle avhengige "
+"variabler og analyse, `'listwise'` ekskluderer hele raden fra alle analyser "
+"hvis en av målingene mangler."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
+"`'refLevel'` (standard) eller `'grandMean'`, koding av avskjæringen. Enten "
+"skapes kontrast slik at skjæringspunktet representerer referansenivået eller "
+"det totale gjennomsnittet"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
+"`'rows'` eller `'columns'` (standard), vis variablene på tvers av radene "
+"eller på tvers av kolonnene (standard)"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`Modellkoeffisienter - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`Modellkoeffisienter - ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Proportsjoner - ${var}`"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, utfør Student's t-tester"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, utfører Welchs ANOVA med én faktor som ikke "
+"antar like varianser"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, oppgi «Z»- og «p»-verdier for "
+"modellestimatene"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -4834,26 +4851,33 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut Aikaikes informasjonskriterium (AIC) "
+"for modellene"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut Cronbachs α"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut Pearsons R"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut en kjikvadrattest som sammenligner "
+"modellen med den perfekt tilpassete modellen"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
+#, fuzzy
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut konfidensintervallet for de estimerte "
+"grenseverdiene"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -4862,29 +4886,36 @@ msgstr ""
 #: logLinear/options/emmPlots.description.R
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
+#, fuzzy
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut estimerte marginale middelverdier"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut estimater for faktor(ko)variansene"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut estimater for residuale (ko)varianser"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut gjennomsnittlige differanser for post-"
+"hoc-tester"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut signifikansnivåer"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut signifikansnivåer for post-hoc-tester"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
@@ -4892,43 +4923,50 @@ msgstr ""
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut avviket (deviance, -2-log-likelihood) "
+"for modellene"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut gjennomsnittet"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut medianen"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut sammenligningen mellom de beregnete "
+"modellene og NULL-modellen"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut antall manglende verdier"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut omfang av studiepopulasjon"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut standardavviket"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut det statistiske målet R² for modellene"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut det statistiske målet `R` for "
+"modellene"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut χ²"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -4939,101 +4977,126 @@ msgstr ""
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, vei hver celle likt eller vei dem i henhold "
+"til cellefrekvensen"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), vis antall i stolpediagrammene"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), vis gjennomsnittet i boksplott"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), marker signifikante korrelasjoner"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), marker signifikante post-hoc-sammenligninger"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Fishers ANOVA med én faktor som "
+"antar like varianser"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Levenes test for homogenitet av "
+"varianser"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Levenes tester for homogenitet "
+"av varianser"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Mann-Whitney U-tester"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk test av "
+"normalfordeling"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk-tester av "
+"normalfordeling"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk tester av "
+"normalfordeling"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk tester av "
+"normalfordeling"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Welchs t-tester"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
+#, fuzzy
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Wilcoxon signerte rangetester"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør en Shapiro-Wilk-test på residuene"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør homogenitetstester"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør parvise sammenligninger"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør sfæriskhetstester"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
+#, fuzzy
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), vis dataene i diagrammen med de marginale "
+"middelverdiene"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut Aikaikes informasjonskriterium (AIC) "
+"for modellene"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Bayes-faktorer"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -5042,18 +5105,23 @@ msgstr ""
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut Bayesianske informasjonskriterium "
+"(BIC) for modellene"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut Bayesianske troverdige intervaller"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut Box's M-test"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut Box-Tidwell-test for lineariteten til "
+"logiten"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
