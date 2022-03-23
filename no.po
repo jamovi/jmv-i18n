@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-03-23 15:59+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/nb_NO/>\n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: no\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -38,27 +42,27 @@ msgstr "«{var}» inneholder negative verdier. Negative vekter er ikke tillatt."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - Kendalls Tau B"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - Pearsons r"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - Spearmans rho"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% KI Nedre grense"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}% KI Gjennomsnitt {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% KI Øvre grense"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -74,23 +78,23 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciWidth}% Konfidensintervall"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "{ciWidth}% Konfidensintervaller"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} og {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list}, {nextItem}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list} og {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
@@ -98,11 +102,11 @@ msgstr ""
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "{type}-poengsum basert på variablene {vars}"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (invertert)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
@@ -319,6 +323,8 @@ msgstr "`TRUE` (standard) eller `FALSE`, gi ut en kjikvadrattest som sammenligne
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
 msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut konfidensintervallet for de estimerte "
+"grenseverdiene"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
