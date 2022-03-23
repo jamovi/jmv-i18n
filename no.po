@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-23 15:59+0000\n"
+"PO-Revision-Date: 2022-03-23 16:57+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -110,11 +110,11 @@ msgstr "{varName} (invertert)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} for binomisk logistisk regresjonsmodell{modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} for lineær regresjonsmodell{modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -280,6 +280,8 @@ msgstr "`ANOVA - ${dep}`"
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"`columns` eller `rows` (standard), sammenligne kolonner / rader ifm. "
+"forskjell mellom proporsjoner eller relative risikoer (2x2 tabeller)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -298,6 +300,8 @@ msgstr "`Proportsjoner - ${var}`"
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
+"`TRUE` (standard) oder `FALSE`, vis radnummerne til ekstremverdiene i "
+"boksplotten"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -527,34 +531,44 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut konfidensintervallet for estimate
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut konfidensintervallet for estimatene "
+"av rate-ration for modellkoeffisientene"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut konfidensintervallet for "
+"standardiserte estimater av modellkoeffisientene"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut konfidensintervallet for "
+"modellkoeffisientene"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut konfidensintervallet for "
+"modellestimatene"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut korrelasjonsdiagramm"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut korrelasjonsdiagramm"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut cut-off-diagramm"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut et diagramm med deskriptivstatistiske "
+"verdier"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
