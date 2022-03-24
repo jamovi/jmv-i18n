@@ -1,36 +1,42 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"PO-Revision-Date: 2022-03-24 12:57+0000\n"
+"Last-Translator: Serdar Balcı <drserdarbalci@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr ""
+msgstr "‘{col}’ sonsuz değerler içeriyor"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "‘{col}’ eksik veri içeriyor"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "‘{col}’  sadece eksik verilerden oluşuyor"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "‘{col}’ bir tek değerden oluşuyor"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
+"‘{method}’ extraction method was used in combination with a ‘{rotation}’ "
+"rotation"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "‘{rotation}’ rotation was used"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -115,7 +121,7 @@ msgstr ""
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, one-tailed"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -153,30 +159,30 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "Doğru %"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "Toplamın yüzdesi"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "Toplamın yüzdesi"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr ""
+msgstr "Varyansın yüzdesi"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within column"
-msgstr ""
+msgstr "Sütun yüzdesi"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within row"
-msgstr ""
+msgstr "Satır yüzdesi"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
@@ -1090,7 +1096,7 @@ msgstr ""
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr ""
+msgstr "< Test değeri"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
@@ -1100,7 +1106,7 @@ msgstr ""
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr ""
+msgstr "> Test değeri"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1111,22 +1117,22 @@ msgstr ""
 #: pca/results/loadings.columns.title
 #: pca/results/factorStats/factorCor.columns.title
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Özgüllük"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr ""
+msgstr "2 Çıktılar"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
-msgstr ""
+msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
@@ -2724,7 +2730,7 @@ msgstr ""
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
-msgstr ""
+msgstr "Veri"
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
