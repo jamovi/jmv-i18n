@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-24 18:57+0000\n"
+"PO-Revision-Date: 2022-03-24 19:35+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -622,10 +622,14 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Aikaikes informasjonskriterium (A
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut nøyaktig log-odds-forhold (krever at "
+"«exact2x2» er installert)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut stolpediagrammer (kun for nominelle "
+"eller ordinale variabler)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
@@ -649,6 +653,8 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Bayesianske informasjonskriterium
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut boksplott (kun for kontinuerlige "
+"variabler)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
@@ -665,45 +671,58 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut effektstørrelser (Cohens d)"
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut kolonneprosenter"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut konfidensintervaller"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut konfidensintervaller for de "
+"sammenlignende målingene"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut konfidensintervaller for "
+"effektstørrelsene"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut konfidensintervaller for gjennomsnittet"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut konfidensintervaller for den "
+"gjennomsnittlige differansen"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut konfidensintervaller for post-hoc-"
+"effektstørrelsene"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), inkluder tetthetsdiagrammer i "
+"korrelasjonsdiagram"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut tetthetsdiagram (bare kontinuerlige "
+"variabler)"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
@@ -711,6 +730,8 @@ msgstr ""
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut diagram med deskriptivstatistiske "
+"verdier"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -718,20 +739,22 @@ msgstr ""
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut deskriptivstatistikk"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut spredningsdiagram (kun for "
+"kontinuerlige variabler)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut effektstørrelser"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut effektstørrelser"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -746,10 +769,14 @@ msgstr ""
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut estimater for skjæringspunkter til "
+"faktorene"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut estimater for skjæringspunkter til "
+"residuene"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
@@ -758,26 +785,30 @@ msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Fishers eksakte test"
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut frekvenstabeller (kun for nominelle "
+"eller ordinale variabler)"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut gamma"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut histogrammer (kun for kontinuerlige "
+"variabler)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut gjennomsnittet for hver item"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut standardavviket for hver item"
 
 #: reliability/options/itemRestCor.description.R
 msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut item-rest-korrelasjoner"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
@@ -795,20 +826,23 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut McDonald's ω"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut gjennomsnitt og standardavvik"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut gjennomsnittene og sine standardfeilene"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut modifikasjonsindeksene for parameterne "
+"som ikke er inkludert i modellen"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut persentiler"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
@@ -816,7 +850,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Phi og Cramers V"
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut posterior-diagrammer"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
@@ -828,15 +862,20 @@ msgstr "`TRUE` eller `FALSE` (standard), vis Q-Q-diagrammer for residuene"
 
 #: descriptives/options/pcEqGr.description.R
 msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut kvalantiler"
 
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut diagrammer med residuer hvor den "
+"avhengige variabelen og hver kovariat vises i forhold til sine "
+"standardiserte residuene."
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gjennomfør Durbin-Watson-test for "
+"autokorrelasjon"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
@@ -845,7 +884,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut RMSE for modellene"
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
 msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut radprosenter"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
@@ -863,27 +902,34 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Spearmans rho"
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut statistikk i korrelasjonsdiagrammen"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
 msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut sammendragsstatistikk over Cooks "
+"distansene"
 
 #: anovaOneW/options/phTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut testresultater (t-verdi og "
+"frihetsgrader) for post-hoc-tester"
 
 #: contTables/options/contCoef.description.R
 msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut kontingenskoeffisienten"
 
 #: contTables/options/diffProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` oder `FALSE` (standard), gi ut forskjellene i proporsjonene (kun for "
+"2x2-tabeller)"
 
 #: contTables/options/exp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr ""
+msgstr "`TRUE` oder `FALSE` (standard), gi ut de forventede antallene"
 
 #: logRegBin/options/OR.description.R
 #: logRegMulti/options/OR.description.R
