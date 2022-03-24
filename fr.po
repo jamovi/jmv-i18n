@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-24 12:57+0000\n"
+"PO-Revision-Date: 2022-03-24 13:56+0000\n"
 "Last-Translator: R <romaric.hainez@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "fr/>\n"
@@ -209,7 +209,7 @@ msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternativ
 msgstr ""
 "`'different'` (par défaut), `'oneGreater'` ou `'twoGreater'`, l'hypothèse "
 "alternative ; la mesure 1 différente de la mesure 2, la mesure 1 plus grande "
-"que la mesure 2, et la mesure 2 plus grande que la mesure 1, respectivement."
+"que la mesure 2, et la mesure 2 plus grande que la mesure 1, respectivement"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
@@ -237,7 +237,7 @@ msgstr ""
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
 "`'moyennes'` (par défaut) ou `'médianes'`, les barres d'erreur à utiliser "
-"dans le graphique."
+"dans le graphique"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
@@ -253,7 +253,7 @@ msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence 
 msgstr ""
 "`'none'`, `'ci'` (par défaut), ou `'se'`. N'utiliser aucune barre d'erreur, "
 "utiliser des intervalles de confiance ou utiliser des erreurs standard sur "
-"les graphiques de moyennes marginales, respectivement."
+"les graphiques de moyennes marginales, respectivement"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
@@ -262,7 +262,7 @@ msgstr ""
 "`'none'` ne montre aucun test post-hoc, `'gamesHowell' ;` montre les tests "
 "post-hoc Games-Howell où l'équivalence des variances n'est pas supposée, et "
 "`'tukey'` montre les tests post-hoc Tukey où l'équivalence des variances est "
-"supposée."
+"supposée"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
@@ -309,9 +309,9 @@ msgstr ""
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
-"`'refLevel'` (par défaut) ou `'grandMean'`, codage de l'intercept. L'un ou "
-"l'autre crée un contraste de sorte que l'ordonnée à l'origine représente le "
-"niveau de référence ou la moyenne générale."
+"`'refLevel'` (par défaut) ou `'grandMean'`, codage de l'ordonnée à "
+"l'origine. L'un ou l'autre crée un contraste de sorte que l'ordonnée à "
+"l'origine représente le niveau de référence ou la moyenne générale"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
@@ -359,7 +359,7 @@ msgstr "`Proportions - ${var}`"
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
 "`TRUE` (par défaut) ou `FALSE`, ajoute des étiquettes avec le numéro de "
-"ligne aux valeurs aberrantes dans le box plot."
+"ligne aux valeurs aberrantes dans le box plot"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -990,7 +990,7 @@ msgstr "`TRUE` or `FALSE` (default), fournit les quantiles"
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
 msgstr ""
 "`TRUE` or `FALSE` (default), fournit le graphique des résidus où la variable "
-"dépendante  et chaque covariable est représentée en fonction des résidus "
+"dépendante et chaque covariable est représentée en fonction des résidus "
 "standardisés."
 
 #: linReg/options/durbin.description.R
@@ -1384,7 +1384,8 @@ msgstr "un tableau de corrélation (semi)partielle"
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
 msgstr ""
-"une liste séparée par des virgules (défaut: 25,50,75) spécifiant les centiles"
+"une liste séparée par des virgules (défaut : 25,50,75) spécifiant les "
+"centiles"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
@@ -1533,49 +1534,49 @@ msgstr "Un joli jeu de données sur la corrélation"
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
 msgstr ""
-"un nombre (défaut: 0.1), souligne les valeurs supérieures à cette valeur "
+"un nombre (défaut : 0.1), souligne les valeurs supérieures à cette valeur "
 "dans le tableau `'corRes'`"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
 msgstr ""
-"un nombre (par défaut: 0.3), cache les facteurs dont la contribution est "
+"un nombre (par défaut : 0.3), cache les facteurs dont la contribution est "
 "inférieure à cette valeur"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
 msgstr ""
-"un nombre (par défaut: 0.3), cache les contributions inférieures à cette "
+"un nombre (par défaut : 0.3), cache les contributions inférieures à cette "
 "valeur"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr "un nombre (défaut: 0.5), la valeur de l'hypothèse nulle"
+msgstr "un nombre (défaut : 0.5), la valeur de l'hypothèse nulle"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
 msgstr ""
-"un nombre (défaut: 0), la valeur minimale de l'eigenvalue pour un facteur "
+"un nombre (défaut : 0), la valeur minimale de l'eigenvalue pour un facteur "
 "inclus dans le modèle"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr "un nombre (défaut: 1), le paramètre 'a' de l'a priori beta"
+msgstr "un nombre (défaut : 1), le paramètre 'a' de l'a priori beta"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr "un nombre (défaut: 1), le paramètre 'b' de l'a priori beta"
+msgstr "un nombre (défaut : 1), le paramètre 'b' de l'a priori beta"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
 msgstr ""
-"un nombre (défaut: 1), la valeur minimale de l'eigenvalue pour une "
+"un nombre (défaut : 1), la valeur minimale de l'eigenvalue pour une "
 "composante incluse dans le modèle"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
-"un nombre (défaut: 3), souligne les valeurs supérieures à cette valeur dans "
+"un nombre (défaut : 3), souligne les valeurs supérieures à cette valeur dans "
 "le tableau `'modIndices'`"
 
 #: ttestIS/options/bfPrior.description.R
@@ -1603,7 +1604,7 @@ msgstr ""
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) spécifiant la largeur de "
+"un nombre entre 50 et 99.9 (défaut : 95) spécifiant la largeur de "
 "l'intervalle de confiance"
 
 #: ancova/options/ciWidthEmm.description.R
@@ -1615,25 +1616,25 @@ msgstr ""
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) spécifiant la largeur de "
+"un nombre entre 50 et 99.9 (défaut : 95) spécifiant la largeur de "
 "l'intervalle de confiance pour les estimations des moyennes marginales"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) spécifiant la largeur de "
+"un nombre entre 50 et 99.9 (défaut : 95) spécifiant la largeur de "
 "l'intervalle de confiance utilisé comme `'ci'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "confiance"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "crédibilité"
 
 #: descriptives/options/ciWidth.description.R
@@ -1642,7 +1643,7 @@ msgstr ""
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "confiance"
 
 #: ttestIS/options/ciWidthES.description.R
@@ -1650,26 +1651,26 @@ msgstr ""
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "confiance pour les tailles d'effet"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "confiance pour les tailles d'effet des tests post-hoc"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "confiance à fournir"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
 msgstr ""
-"un nombre entre 50 et 99.9 (défaut: 95) la largeur de l'intervalle de "
+"un nombre entre 50 et 99.9 (défaut : 95) la largeur de l'intervalle de "
 "confiance à fournir"
 
 #: ttestOneS/options/testValue.description.R
@@ -1708,7 +1709,7 @@ msgstr "Un jeu de données pour une Anova avec des mesures répétées"
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
-"une chaîne (défaut: 'Dependent') décrivant l'étiquette utilisée pour la "
+"une chaîne (défaut : 'Dependent') décrivant l'étiquette utilisée pour la "
 "variable dépendante au cours de l'analyse"
 
 #: logLinear/options/counts.description.R
@@ -1961,7 +1962,7 @@ msgstr ""
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr "un vecteur de nombres: les proportions attendues"
+msgstr "un vecteur de nombres : les proportions attendues"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
@@ -2166,15 +2167,15 @@ msgstr "une image du graphe descriptif"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr "un entier (défaut: 1), le nombre de composantes du modèle"
+msgstr "un entier (défaut : 1), le nombre de composantes du modèle"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr "un entier (défaut: 1), le nombre de facteurs du modèle"
+msgstr "un entier (défaut : 1), le nombre de facteurs du modèle"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr "un entier (défaut: 4) spécifiant le nombre de groupes égaux"
+msgstr "un entier (défaut : 4) spécifiant le nombre de groupes égaux"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2276,7 +2277,7 @@ msgstr "Aire sous la courbe"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
-msgstr "Autocorrelation"
+msgstr "Autocorrélation"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
@@ -2834,7 +2835,7 @@ msgstr "Correlé positivement"
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
 msgid "Correlation"
-msgstr "Correlation"
+msgstr "Corrélation"
 
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
@@ -4474,7 +4475,7 @@ msgstr "Games-Howell (variances inégales)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr "Test post-hoc de Games-Howell  – {dep}"
+msgstr "Test post-hoc de Games-Howell – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
@@ -5439,7 +5440,7 @@ msgstr "R² de Nagelkerke"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr "Aucune composante ne présente une eigenvalue plus grande que  {value}"
+msgstr "Aucune composante ne présente une eigenvalue plus grande que {value}"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
@@ -5654,15 +5655,15 @@ msgstr ""
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
 msgstr ""
 "un ou plusieurs des éléments suivants : `'eta'`, `'partEta'`, ou `'omega'` ; "
-"utilisent respectivement des tailles d'effet η², η² partiel et ω²."
+"utilisent respectivement des tailles d'effet η², η² partiel et ω²"
 
 #: anovaRM/options/spherCorr.description.R
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
 msgstr ""
-"un ou plusieurs des termes « none » (par défaut), « GG » ou « HF »; n’"
+"un ou plusieurs des termes « none » (par défaut), « GG » ou « HF » ; n’"
 "utilisent aucune correction de valeur de p, la correction de valeur de p de "
 "Greenhouse-Geisser et la correction de valeur de p de Huynh-Feldt pour la "
-"shericité, respectivement"
+"sphéricité, respectivement"
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
@@ -6494,7 +6495,7 @@ msgstr ""
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr "donne les mesures de la taille d'effet: η², partial η², or ω²."
+msgstr "donne les mesures de la taille d'effet : η², partial η², or ω²."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
@@ -7517,7 +7518,7 @@ msgid "the alternative and null hypotheses;\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
 msgstr ""
-"les hypothèses alternatives et nulles;\n"
+"les hypothèses alternatives et nulles ;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Nulle (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -7629,7 +7630,7 @@ msgstr ""
 "Par praticité, cette méthode permet de spécifier plusieurs variables "
 "dépendantes,\n"
 "résultant en de multiples tests de Welch indépendants.\n"
-"N.B.: l'ANOVA de Welch est la même procédure que le test t de Welch pour "
+"N.B. : l'ANOVA de Welch est la même procédure que le test t de Welch pour "
 "échantillons\n"
 "indépendants."
 
@@ -7742,7 +7743,7 @@ msgstr ""
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr "La variable dépendante '{dep}' suit l'ordre suivant: {orderedLevels}"
+msgstr "La variable dépendante '{dep}' suit l'ordre suivant : {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
@@ -7797,7 +7798,7 @@ msgstr "les barres d'erreur représentent les moyennes marginales."
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
 msgstr ""
-"les covariables explicatives des données  (non nécessaire quand on fournit "
+"les covariables explicatives des données (non nécessaire quand on fournit "
 "une formule, voir les exemples)"
 
 #: ancova/options/factors.description.R
@@ -7958,7 +7959,7 @@ msgstr ""
 "dépendante \n"
 "occupe une ligne séparée.\n"
 "\n"
-"Un équivalent non-paramétrique existe: le test de Friedman. Cependant, il "
+"Un équivalent non-paramétrique existe : le test de Friedman. Cependant, il "
 "possède la\n"
 "limitation de ne pouvoir fonctionner qu'avec un seul facteur."
 
@@ -8022,7 +8023,7 @@ msgstr ""
 "que les moyennes sont différentes.\n"
 "\n"
 "Le test t de Student pour échantillons indépendants nécessite deux "
-"conditions:\n"
+"conditions :\n"
 "- que les données de chaque groupe viennent d'une distribution normale \n"
 "- que les variances de ces groupes soient similaires.\n"
 "\n"
@@ -8227,7 +8228,7 @@ msgstr ""
 "Le test χ² d'ajustement (attention à ne pas le confondre avec le test χ² "
 "d'indépendance) teste l'hypothèse nulle que les proportions observées sont "
 "similaires aux proportions attendues.\n"
-"Une valeur p faible suggère qye l'hypothyse nulle est fausse et donc que les "
+"Une valeur p faible suggère que l'hypothèse nulle est fausse et donc que les "
 "proportions observées sont différentes de celles attendues."
 
 #: package/analyses/contTables.description
