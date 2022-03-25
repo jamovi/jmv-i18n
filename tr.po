@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-24 21:57+0000\n"
+"PO-Revision-Date: 2022-03-25 06:59+0000\n"
 "Last-Translator: Serdar Balcı <drserdarbalci@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
@@ -111,17 +111,19 @@ msgid "{varName} (reversed)"
 msgstr "{varName} (reversed)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "Binom lojistik regresyon modelinin {varType} değeri{modelNo}"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} lineer regresyon modeli{modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, one-tailed"
+msgstr "* p < .05, ** p < .01, *** p < .001, tek yönlü"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -155,11 +157,11 @@ msgstr "* p < .05, ** p < .01, *** p < .001, one-tailed"
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr "Doğru %"
+msgstr "Doğru yüzdesi"
 
 #: R/descriptives.b.R
 msgid "% of Total"
@@ -187,11 +189,11 @@ msgstr "Satır yüzdesi"
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'1'`, `'2'` or `'3'` (varsayılan), kullanılacak karelerin toplamı"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'2'` or `'3'`(varsayılan), kullanılacak karelerin toplamı"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
