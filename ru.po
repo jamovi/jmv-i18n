@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-03-25 14:08+0000\n"
+"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -294,6 +299,8 @@ msgstr "`Пропорции - ${var}`"
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
+"`TRUE` (по умолчанию) или `FALSE`, добавляет метки с номером строки к "
+"выбросам на коробчатой диаграмме"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -2586,7 +2593,7 @@ msgstr "Счетчики"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "Счетчик (необязательно)"
+msgstr "Счетчики (необязательно)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -5142,7 +5149,7 @@ msgstr "Эксцесс"
 
 #: descriptives/options/boxLabelOutliers.title
 msgid "Label outliers"
-msgstr ""
+msgstr "Пометить выбросы"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -7915,7 +7922,7 @@ msgstr "Значение отсечки установлено на {}"
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
-msgstr "данные как фрейм"
+msgstr "данные в формате фрейма"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
