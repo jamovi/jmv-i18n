@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 19:09+0000\n"
+"PO-Revision-Date: 2022-03-27 20:09+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -1543,20 +1543,22 @@ msgstr "en parameter"
 #: anova/options/postHocES.description.R
 msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
 msgstr ""
+"en mulig verdi på `'d'`; gi ut effektstørrelse (Cohens d) for post-hoc-"
+"testene"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "en post-hoc-tabell"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "en proporsjonstabell"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "et Q-Q-diagram"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
@@ -1565,37 +1567,46 @@ msgstr "Et datasett for ANOVA med gjentatte målinger"
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
+"en streng (standard: 'Dependent') som brukes som etikett for den avhengige "
+"variabelen gjennom de gjentatte målingene"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
 msgstr ""
+"en streng som viser til en variabel i `data` som inneholder antall, eller "
+"NULL hvis hver rad representerer en enkelt observasjon"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
 msgstr ""
+"en streng som viser til den avhengige variabelen fra `data`; variabelen må "
+"være en faktor"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
 msgstr ""
+"en streng som viser til den avhengige variabelen fra `data`, variabelen må "
+"være numerisk"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr ""
+msgstr "en streng som viser til den avhengige variabelen i `data`"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr ""
+msgstr "en streng som viser til de avhengige variablene i `data`"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
 msgstr ""
+"en streng som viser til den grupperings- / uavhengige variabelen i `data`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
-msgstr ""
+msgstr "en oppsummering av gruppene"
 
 #: ancova/results/emm.template/emmTable.description
 #: anova/results/emm.template/emmTable.description
@@ -1617,15 +1628,19 @@ msgstr "en tabell med estimater for skjæringspunktene av faktorene"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
-msgstr "en tabelle som inneholder mål av modelltilpassing"
+msgstr "en tabelle med mål for modelltilpassing"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
 msgstr ""
+"en tabell med modifikasjonsindekser for faktorladingene som ikke er "
+"inkludert i modellen"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
 msgstr ""
+"en tabell med modifikasjonsindekser for de residuale kovariansene som ikke "
+"er inkludert i modellen"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
@@ -1637,87 +1652,87 @@ msgstr "en tabell med estimater for skjæringspunktene av residuene"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "en tabell med residuene for den observerte korrelasjonsmatrisen"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr "en tabell som inneholder kjikvadrattesten for eksakt tilpassing"
+msgstr "en tabell med kjikvadrattesten for eksakt tilpassing"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "en tabell med kolinearitetsstatistikk"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "en tabell med deskriptivstatistikk"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "en tabell med faktorladinger"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "en tabell med deskriptivstatistikk for gruppene"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "en tabell med tester på varianshomogenitet"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "en tabell med tester på normalfordeling"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "en tabell med tester på normalfordeling"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "en tabell med resultater fra Box-Tidwell-testen"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "en tabell med resultater fra t-testene"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "en tabell med resultater fra ANCOVA"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "en tabell med resultater fra ANOVA"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
-msgstr ""
+msgstr "en tabell med komparative mål"
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "en tabell med tester på varianshomogenitet"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "en tabell med tester på varianshomogenitet"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "en tabell med likelihood-ratio-tester"
 
 #: logRegOrd/results/models.template/thres.description
 msgid "a table of model coefficient thresholds"
-msgstr ""
+msgstr "en tabell med terskler på modellkoeffisientene"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
@@ -1725,21 +1740,21 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "en tabell med modellkoeffisienter"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "en tabell med tester på normalfordeling"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
-msgstr ""
+msgstr "en tabell med de predikerte klassifikasjonene"
 
 #: logRegBin/results/models.template/pred/measures.description
 msgid "a table of predictive measures"
-msgstr ""
+msgstr "en tabell med prediktive mål"
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
@@ -1747,11 +1762,11 @@ msgstr "en tabell med proporsjoner"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
-msgstr ""
+msgstr "en tabell med testresultater"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
-msgstr ""
+msgstr "en tabell med de «nominelle» testresultatene"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
