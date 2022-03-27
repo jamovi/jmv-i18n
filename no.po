@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 20:09+0000\n"
+"PO-Revision-Date: 2022-03-27 20:50+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -1771,27 +1771,27 @@ msgstr "en tabell med de «nominelle» testresultatene"
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "en tabell med deskriptivstatistikk"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
-msgstr ""
+msgstr "en tabell med resultater av Friedman-testen"
 
 #: contTables/results/gamma.description
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "en tabell med resultater fra gamma-testen"
 
 #: contTables/results/taub.description
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "en tabell med resultater fra Kendalls tau-b-test"
 
 #: contTables/results/mh.description
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "en tabell med Mantel-Haenszel-trendtesten"
 
 #: anovaRMNP/results/comp.description
 msgid "a table of the pairwise comparisons"
-msgstr ""
+msgstr "en tabell med parvise sammenligninger"
 
 #: propTestN/results/props.description
 msgid "a table of the proportions"
@@ -1805,7 +1805,7 @@ msgstr "en tabell med proporsjoner og testresultater"
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
 msgid "a table of the test results"
-msgstr ""
+msgstr "en tabell med testresultatene"
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
@@ -1813,7 +1813,7 @@ msgstr "en tabell med χ²-testresultater"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
-msgstr ""
+msgstr "en vektor med strenger som viser til variablene som skal inverteres"
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
@@ -1821,37 +1821,40 @@ msgstr "en tallvektor: de forventete proporsjonene"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr ""
+msgstr "en vektor av strenger som viser til mellomsubjekt-faktorene fra `data`"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
+msgstr "en vektor av strenger som viser til kontrollvariablene i `data`"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R
 #: mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr ""
+msgstr "en vektor av strenger som viser til kovariatene fra `data`"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
 msgstr ""
+"en vektor av strenger som viser til kovariatene fra `data`; variablene må "
+"være numeriske"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
 msgid "a vector of strings naming the factors from `data`"
-msgstr ""
+msgstr "en vektor av strenger som viser til faktorene fra `data`"
 
 #: logRegBin/options/factors.description.R
 #: logRegMulti/options/factors.description.R
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
-msgstr ""
+msgstr "en vektor av strenger som viser til de faste faktorene fra `data`"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
 msgstr ""
+"en vektor av strenger som viser til de variablene for gjentatte målingene"
 
 #: descriptives/options/vars.description.R
 #: efa/options/vars.description.R
@@ -1861,15 +1864,20 @@ msgstr ""
 #: ttestOneS/options/vars.description.R
 msgid "a vector of strings naming the variables of interest in `data`"
 msgstr ""
+"en vektor av strenger som viser til de interesserende variablene i `data`"
 
 #: corrMatrix/options/vars.description.R
 #: corrPart/options/vars.description.R
 msgid "a vector of strings naming the variables to correlate in `data`"
 msgstr ""
+"en vektor av strenger som viser til de variablene i `data` som skal "
+"korreleres"
 
 #: descriptives/options/splitBy.description.R
 msgid "a vector of strings naming the variables used to split `vars`"
 msgstr ""
+"en vektor av strenger som viser til de variablene som skal brukes for å dele "
+"`vars`"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -1954,20 +1962,20 @@ msgstr "Alternativhypotese"
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
 msgid "an array of contrasts tables"
-msgstr ""
+msgstr "et array med tabeller av kontraster"
 
 #: descriptives/results/plots.description
 msgid "an array of descriptive plots"
-msgstr ""
+msgstr "et array med deskriptivstatistiske diagrammer"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
-msgstr ""
+msgstr "et array med frekvenstabeller"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
 msgid "an array of groups of plots"
-msgstr ""
+msgstr "et array med grupper av diagrammer"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
@@ -1975,25 +1983,25 @@ msgstr ""
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr ""
+msgstr "et array av tabeller med modellspesifikke resultater"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "et array med tabeller av parvise sammenligninger"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "et array med post-hoc-tabeller"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "et array med Q-Q-diagrammer"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "et array med deskriptivstatistiske diagrammer"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -2007,27 +2015,28 @@ msgstr ""
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "et array med posterior-diagrammer"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "et bilde med stidiagrammet av modellen"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "et bilde med et deskriptivstatistisk diagram"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
+msgstr "et heltall (standard: 1), antall komponenter i modellen"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
+msgstr "et heltall (standard: 1), antall faktorer i modellen"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr ""
+"et heltall (standard: 4) som spesifiserer antall grupper ved lik størrelse"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2139,7 +2148,7 @@ msgstr "Bare tilgjengelig for 2x2-tabeller"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "b-parameter"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
@@ -2204,11 +2213,11 @@ msgstr "Bayesiansk statistikk"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "beta-«a»-parameter"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "beta-«b»-Parameter"
 
 #: anovaRM/options/bs.title
 msgid "Between Subject Factors"
@@ -2408,7 +2417,7 @@ msgstr "Kolonner"
 
 #: contTables/options/compare/columns.title
 msgid "columns"
-msgstr ""
+msgstr "kolonner"
 
 #: R/conttables.b.R
 msgid "Columns compared"
@@ -2469,7 +2478,7 @@ msgstr "Oversikt over komponenter"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "component(s)"
-msgstr ""
+msgstr "Komponent(er)"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
@@ -2478,7 +2487,7 @@ msgstr "Komponenter"
 
 #: R/pca.b.R
 msgid "components"
-msgstr ""
+msgstr "Komponenter"
 
 #: ancova/options/postHocEsCi.title
 #: anova/options/postHocEsCi.title
@@ -2635,7 +2644,7 @@ msgstr "Variabler som blir kontrollert"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "kontrollerer for {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
@@ -2845,7 +2854,7 @@ msgstr "Cronbachs α (hvis spørsmål er fjernet)"
 
 #: R/ancova.b.R
 msgid "cubic"
-msgstr ""
+msgstr "kubisk"
 
 #: R/descriptives.b.R
 #: pca/results/factorStats/factorSummary.columns.title
@@ -3953,7 +3962,7 @@ msgstr "Avhengige variabler"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
-msgstr ""
+msgstr "avviklet"
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
@@ -3990,7 +3999,7 @@ msgstr "Deskriptivstatistikk er et utvalg av statistiske oppsummeringer og visua
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
 msgid "descriptives plot"
-msgstr ""
+msgstr "Deskriptivstatistisk diagram"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
@@ -4018,7 +4027,7 @@ msgstr "Tabell med deskriptivstatistikk"
 #: package/analyses/empty.menuGroup
 #: empty/options.menuGroup
 msgid "dev"
-msgstr ""
+msgstr "dev"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -4070,21 +4079,21 @@ msgstr "Avvik"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
@@ -4114,7 +4123,7 @@ msgstr "Ikke anta lik varians (Welch's)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
-msgstr ""
+msgstr "dra variabelen hit"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -4130,7 +4139,7 @@ msgstr ""
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 msgid "drag variables here"
-msgstr ""
+msgstr "dra variablene hit"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
@@ -4200,13 +4209,13 @@ msgstr "Celler er vektet likt"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr ""
+msgstr "grupper med lik størrelse"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "error %"
-msgstr ""
+msgstr "% feil"
 
 #: ancova/options/emmPlotError.title
 #: anova/options/emmPlotError.title
@@ -4447,7 +4456,7 @@ msgstr "Faktorvarianser = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
-msgstr ""
+msgstr "Faktor(er)"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -4467,7 +4476,7 @@ msgstr "Faktorer"
 
 #: R/pca.b.R
 msgid "factors"
-msgstr ""
+msgstr "Faktorer"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
@@ -4505,7 +4514,7 @@ msgstr "Fast antall"
 
 #: R/cfa.b.R
 msgid "fixed parameter"
-msgstr ""
+msgstr "fast parameter"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
@@ -4519,11 +4528,11 @@ msgstr "Marker signifikante korrelasjoner"
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr ""
+msgstr "marker signifikante korrelasjoner (p < .05) med symboler."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "marker signifikante post-hoc-sammenligninger."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -4761,15 +4770,15 @@ msgstr "Hypotese"
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
-msgstr ""
+msgstr "hvis item fjernes"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
-msgstr ""
+msgstr "under utvikling"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
-msgstr ""
+msgstr "legg til et sammendrag av gruppene"
 
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
@@ -4866,7 +4875,7 @@ msgstr "Item «{item}» må være numerisk"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr ""
+msgstr "item {items} korrelerer negativt med hele skalaen og bør inverteres"
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
@@ -4882,7 +4891,7 @@ msgstr "Item-rest-korrelasjon"
 
 #: reliability/results/items.columns.title
 msgid "item-rest correlation"
-msgstr ""
+msgstr "item-rest-korrelasjon"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -4890,7 +4899,7 @@ msgstr "Items"
 
 #: R/reliability.b.R
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr ""
+msgstr "item {items} korrelerer negativt med hele skalaen og bør inverteres"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
@@ -4937,7 +4946,7 @@ msgstr "Kurtosis"
 
 #: descriptives/options/boxLabelOutliers.title
 msgid "Label outliers"
-msgstr ""
+msgstr "Marker uteliggere"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -4983,7 +4992,7 @@ msgstr "Tester av sannsynlighetsforhold"
 
 #: R/ancova.b.R
 msgid "linear"
-msgstr ""
+msgstr "lineær"
 
 #: package/analyses/linReg.title
 #: package/analyses/linReg.menuTitle
@@ -5057,7 +5066,7 @@ msgstr "Nedre"
 
 #: R/descriptives.b.R
 msgid "lower bound"
-msgstr ""
+msgstr "nedre grense"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -5186,7 +5195,7 @@ msgstr "Gjennomsnitt"
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "mean"
-msgstr ""
+msgstr "midlere"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -5546,7 +5555,7 @@ msgstr "Ingen"
 
 #: R/pca.b.R
 msgid "none"
-msgstr ""
+msgstr "ingen"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
@@ -5599,7 +5608,7 @@ msgstr "Oblimin"
 
 #: R/pca.b.R
 msgid "oblimin"
-msgstr ""
+msgstr "Oblimin"
 
 #: R/conttables.b.R
 #: R/logregbin.b.R
@@ -5619,7 +5628,7 @@ msgstr "Observerte skårer"
 
 #: R/ancova.b.R
 msgid "octic"
-msgstr ""
+msgstr "oktisk"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
@@ -5641,7 +5650,7 @@ msgstr "Odds-forhold"
 
 #: contTables/options/yaxisPc/total_pc.title
 msgid "of total"
-msgstr ""
+msgstr "av totalt"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
@@ -5669,10 +5678,14 @@ msgstr "Omnibus-tester"
 #: corrPart/options/hypothesis.description.R
 msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
 msgstr ""
+"en av `'corr'` (standard), `'pos'`, `'neg'` som spesifiserer den alternative "
+"hypotesen; henholdsvis korrelert, positiv korrelert eller negativ korrelert."
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
 msgstr ""
+"en av `'part'` (standard) eller `'semi'` som spesifiserer typen av "
+"korrelasjon som skal beregnes; partiell eller semipartiell korrelasjon."
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -5710,10 +5723,15 @@ msgstr ""
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
 msgstr ""
+"en eller flere av `'eta'`, `'partEta'` eller `'omega'`; bruk henholdsvis η², "
+"partiell η² eller ω² som effektstørrelse"
 
 #: anovaRM/options/spherCorr.description.R
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
 msgstr ""
+"en eller flere av `'none'` (standard), `'GG'` eller `'HF'`; bruk enten ingen "
+"korreksjon av p-verdier for sferisitet, Greenhouse-Geisser-korreksjon eller "
+"Huynh-Feldt-korreksjon"
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
