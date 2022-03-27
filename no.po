@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 15:08+0000\n"
+"PO-Revision-Date: 2022-03-27 16:08+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -1733,7 +1733,7 @@ msgstr ""
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "en tabell med χ²-testresultater"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
@@ -3090,6 +3090,20 @@ msgid "data('bugs', package = 'jmv')\n"
 "#  ────────────────────────\n"
 "#"
 msgstr ""
+"data('bugs', package = 'jmv')\n"
+"\n"
+"anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
+"\n"
+"#\n"
+"#  ANOVA FOR GJENTATTE MÅLINGER (IKKE-PARAMETRISK)\n"
+"#\n"
+"#  Friedman\n"
+"#  ────────────────────────\n"
+"#    χ²      df    p\n"
+"#  ────────────────────────\n"
+"#    55.8     3    < .001\n"
+"#  ────────────────────────\n"
+"#"
 
 #: ttestPS/options.description.R.usage
 msgid "data('bugs', package = 'jmv')\n"
@@ -3524,6 +3538,20 @@ msgid "data('ToothGrowth')\n"
 "#  ───────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANOVA MED ÉN FAKTOR (IKKE-PARAMETRISK)\n"
+"#\n"
+"#  Kruskal-Wallis\n"
+"#  ───────────────────────────────\n"
+"#           χ²      df    p\n"
+"#  ───────────────────────────────\n"
+"#    len    40.7     2    < .001\n"
+"#  ───────────────────────────────\n"
+"#"
 
 #: ttestIS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -7456,7 +7484,7 @@ msgstr ""
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
+msgstr "måleparene – en separat t-test gjenneomføres for hvert par målinger."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -7715,11 +7743,20 @@ msgstr "bredden på konfidensintervallene."
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
 msgstr ""
+"χ²-testen for fordeling (må ikke forveksles med χ²-testen for uavhengighet), "
+"tester nullhypotesen at proporsjonene av observasjoner samsvarer med "
+"forventete proporsjonene. Hvis p-verdien er lav, tyder det på at "
+"nullhypotesen er usann, og at de observerte proporsjonene er forskjellige "
+"fra de forventete."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"χ²-testen for uavhengighet (må ikke forveksles med χ²-testen for fordeling) "
+"brukes til å teste om to kategoriske variabler er uavhengige eller "
+"assosierte. Hvis p-verdien er lav, tyder det på at variablene ikke er "
+"uavhengige, og at det er en sammenheng mellom de to variablene."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -7803,6 +7840,9 @@ msgstr "Total"
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
 msgstr ""
+"total_pc (standard), column_pc eller row_pc; bruk enten prosentandeler «av "
+"total», «innenfor kolonnene» eller «innenfor radene» for y-aksen i "
+"søylediagram."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -8164,12 +8204,12 @@ msgstr "χ² med kontinuitetskorreksjon"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr "χ²-test for tilpasning"
+msgstr "χ²-test for fordeling"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr "χ²-test for tilpasning"
+msgstr "χ²-test for fordeling"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
