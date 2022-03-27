@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-25 13:06+0000\n"
+"PO-Revision-Date: 2022-03-27 13:07+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -936,42 +936,50 @@ msgstr "`TRUE` oder `FALSE` (standard), gi ut de forventede antallene"
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-odds-forhold-"
+"estimatet (også kallt odds-ratio-estimat)"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-rate-forhold-"
+"estimatet (også kallt rate-ratio-estimat)"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut interkvartilavstand"
 
 #: descriptives/options/kurt.description.R
 msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut kurtosis"
 
 #: contTables/options/likeRat.description.R
 msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut sannsynlighetsforholdet (likelihood "
+"ratio)"
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut log-odds-forholdet (kun tilgjengelig "
+"for 2x2-tabeller)"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut maksimum"
 
 #: reliability/options/meanScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut gjennomsnittet"
 
 #: descriptives/options/min.description.R
 msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut minimum"
 
 #: descriptives/options/mode.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut typetall"
 
 #: logLinear/options/modelTest.description.R
 #: logRegBin/options/modelTest.description.R
@@ -979,23 +987,29 @@ msgstr ""
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut modellsammenligningen mellom "
+"modellene og NULL-modellen"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
 msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut antall av målinger"
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut observert antall"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut odds-forholdet (kun tilgjengelig for "
+"2x2-tabeller)"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør omnibus-ANOVA-testen for "
+"prediktorene"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
@@ -1003,66 +1017,83 @@ msgstr ""
 #: logRegOrd/options/omni.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør omnibus-"
+"sannsynlighetsforholdstester (likelihood ratio) for prediktorene"
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut den forutsagte nøyaktigheten av "
+"utfall gruppert etter grenseverdien"
 
 #: logRegBin/options/sens.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut den forutsagte sensitiviteten av "
+"utfall gruppert etter grenseverdien"
 
 #: logRegBin/options/spec.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut den forutsagte spesifisiteten til "
+"utfall gruppert etter grenseverdien"
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut variasjonsbredde"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut område under ROC-kurven (AUC)"
 
 #: contTables/options/relRisk.description.R
 msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut den relative risikoen (kun "
+"tilgjengelig for 2x2-tabeller)"
 
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut residuene for den observerte "
+"korrelasjonsmatrisen (dvs. forskjellen mellom den forventede "
+"korrelasjonsmatrisen og den observerte korrelasjonsmatrisen)"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut skjevheten"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut standardavviket"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut standardfeilen"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut det statistiske målet adjustert R² "
+"for modellene"
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut summen"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut tersklene som brukes som grensepoeng "
+"(cut-offs) for nivåene i den avhengige variabelen"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut variansen"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut de totale prosentandelene"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
@@ -1072,41 +1103,51 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut kollinearittsstatistikkene VIF og
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut fiolinplotter (kun kontinuerlige "
+"variabler)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut hva Cronbachs α ville være hvis item "
+"ble droppet"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut hva McDonald's ω ville være hvis item "
+"ble droppet"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut χ² med kontinuitetskorreksjon"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut sammendraget av de ulike gruppene"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), sett en grenseverdi (cut off) å bruke for "
+"prediksjonene"
 
 #: contTables/options/barplot.description.R
 msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut søylediagrammer"
 
 #: efa/options/bartlett.description.R
 #: pca/options/bartlett.description.R
 msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Bartletts test av sfærisitet"
 
 #: efa/options/eigen.description.R
 #: pca/options/eigen.description.R
 msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut eigenverdi-tabell"
 
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
