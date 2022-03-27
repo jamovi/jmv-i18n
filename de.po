@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 15:08+0000\n"
+"PO-Revision-Date: 2022-03-27 16:08+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "de/>\n"
@@ -8033,7 +8033,10 @@ msgstr "die Methode zum Ausschluss fehlender Werte. `Analysis by analysis` schli
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "die Ausschlussmethode für fehlende Werte. `Analysis by analysis` schließt fehlende Werte aus jeder Variablen aus. `Listwise` schließt eine Zeile von allen Analysen aus, wenn einer ihrer Werte fehlt."
+msgstr ""
+"die Methode zum Ausschluss fehlender Werte. `Analysis by analysis` schließt "
+"fehlende Werte aus jeder Variablen aus. `Listwise` schließt eine Zeile von "
+"allen Analysen aus, wenn einer ihrer Werte fehlt."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -8312,7 +8315,13 @@ msgstr "die Breite der Konfidenzintervalle."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "Der χ²-Anpassungstest (manchmal auch χ²-Verteilungstest; nicht zu verwechseln mit dem χ²-Unabhängigkeitstest) testet die Nullhypothese, dass die Anteile der Beobachtungen mit den erwarteten Anteilen übereinstimmen. Wenn der p-Wert niedrig ist, deutet dies darauf hin, dass die Nullhypothese falsch ist und dass die beobachten Anteile von den erwarteten Anteilen abweichen."
+msgstr ""
+"Der χ²-Anpassungstest (manchmal auch χ²-Verteilungstest genannt; nicht zu "
+"verwechseln mit dem χ²-Unabhängigkeitstest) testet die Nullhypothese, dass "
+"die Anteile der Beobachtungen mit den erwarteten Anteilen übereinstimmen. "
+"Wenn der p-Wert niedrig ist, deutet dies darauf hin, dass die Nullhypothese "
+"falsch ist und dass die beobachten Anteile von den erwarteten Anteilen "
+"abweichen."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
@@ -8400,7 +8409,10 @@ msgstr "Insgesamt"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr "total_pc (Vorgabe), column_pc, oder row_pc. Verwenden Sie für die y-Achse des Balkendiagramms jeweils den prozentualen Anteil „an der Gesamtzahl“, „innerhalb der Spalten“ oder „innerhalb der Zeilen“."
+msgstr ""
+"total_pc (Vorgabe), column_pc, oder row_pc; verwendet entweder den "
+"prozentualen Anteil „an der Gesamtzahl“, „innerhalb der Spalten“ oder „"
+"innerhalb der Zeilen“ für die y-Achse des Balkendiagramms."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
