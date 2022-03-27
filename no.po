@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 21:09+0000\n"
+"PO-Revision-Date: 2022-03-27 21:17+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -582,7 +582,7 @@ msgstr "`TRUE` oder `FALSE` (standard), gi ut et stidiagram for modellen"
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
 msgstr ""
 "`TRUE` oder `FALSE` (standard), gi ut en klassifiseringstabell med "
-"prediksjonene (også kallt konfusjonsmatriks)"
+"prediksjonene (også kalt konfusjonsmatriks)"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
@@ -941,13 +941,13 @@ msgstr "`TRUE` oder `FALSE` (standard), gi ut de forventede antallene"
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
 msgstr ""
 "`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-odds-forhold-"
-"estimatet (også kallt odds-ratio-estimat)"
+"estimatet (også kalt odds-ratio-estimat)"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
 msgstr ""
 "`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-rate-forhold-"
-"estimatet (også kallt rate-ratio-estimat)"
+"estimatet (også kalt rate-ratio-estimat)"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
@@ -7645,27 +7645,29 @@ msgstr ""
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
 msgstr ""
+"de kontinuerlige prediktor- (eller uavhengige) variablene, også kalt "
+"kovariater."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 msgid "the contrasts to use."
-msgstr ""
+msgstr "kontrastene som skal brukes."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr ""
+msgstr "de Interesserende kontrollvariablene."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
-msgstr ""
+msgstr "antall i `data`"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "kovariatene (hvis du spesifiserer disse, blir analysen en ANCOVA)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "kovariatene fra `data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -7715,20 +7717,22 @@ msgstr "Den avhengige variabelen «{dep}» har bare to nivåer, vurder å gjenno
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "den avhengige variabelen fra `data`, variabelen må være numerisk"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"den avhengige variabelen fra `data` (ikke nødvendig når det brukes en "
+"formel, se eksemplene), variabelen må være numerisk"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "den avhengige variabelen. For en ANCOVA må denne være kontinuerlig."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "den avhengige variabelen. For en ANOVA må denne være kontinuerlig."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
