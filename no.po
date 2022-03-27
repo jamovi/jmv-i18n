@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 18:09+0000\n"
+"PO-Revision-Date: 2022-03-27 19:09+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -1344,14 +1344,21 @@ msgstr ""
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler som spesifiserer "
+"faktorene og kontrastene som skal brukes for hver faktor (enten `'deviation'`"
+", `'simple'`, `'difference'`, `'helmert'`, `'repeated'` eller `'polynomial'`)"
 
 #: ttestPS/options/pairs.description.R
 msgid "a list of lists specifying the pairs of measurement in `data`"
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler som spesifiserer "
+"målingsparene i `data`"
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler som spesifiserer for "
+"hvilke residuer kovariansene skal estimeres"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -1363,10 +1370,17 @@ msgstr ""
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler; hver av disse "
+"spesifiserer en gjentatt måling fra `data` (som strenger), definisjonen "
+"består av `measure` og en bestemt kombinasjon av faktortrinn fra `rm` den "
+"tilhører og som er definert som `cell` (og inneholder en vektor av strenger)"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler som beskriver `label`"
+" (som en streng) og `levels` (som vektor av strenger) for en bestemt faktor "
+"for gjentatte målinger"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1386,47 +1400,59 @@ msgstr "Et fint korrelasjonsdatasett"
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
 msgstr ""
+"et tall (standard: 0.1), fremhev verdier i `'corRes'`-tabellen som "
+"overstiger denne verdien"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr ""
+msgstr "et tall (standard: 0.3), skjul faktorladinger under denne verdien"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
+msgstr "et tall (standard: 0.3), skjul komponentladinger under denne verdien"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "et tall (standard: 0.5), med verdien for nullhypotesen"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
 msgstr ""
+"et tall (standard: 0), med den minimale egenverdien for en faktor som skal "
+"inkluderes i modellen"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
+msgstr "et tall (standard: 1), med beta-prior-parameter `a`"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
+msgstr "et tall (standard: 1), med beta-prior-parameter `b`"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
 msgstr ""
+"et tall (standard: 1), den minimale eigenverdien for en komponent som skal "
+"inkluderes i modellen"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
+"et tall (standard: 3), marker verdier i `'modIndices'`-tabellene som "
+"overstiger denne verdien"
 
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"et tall mellom 0.5 og 2 (standard: 0.707), bredden av prior som skal brukes "
+"til å beregne Bayes-faktorer"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"et tall mellom 0.5 og 2 (standard: 0.707), bredden av prior som skal brukes "
+"til å beregne Bayes-faktorer"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1440,6 +1466,8 @@ msgstr ""
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95) som spesifiserer bredden på "
+"konfidensintervallet"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -1454,14 +1482,19 @@ msgstr ""
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95) som spesifiserer bredden på "
+"konfidensintervallet som brukes for `'ci'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95), bredden på konfidensintervallet"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95), spesifiserer bredden på "
+"kredibilitätsintervallet"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
@@ -1469,33 +1502,42 @@ msgstr ""
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95), bredden på konfidensintervallene"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
 msgstr ""
+"et tall mellom 50 og 99,9 (standard: 95), bredden på konfidensintervallene "
+"for effektstørrelsene"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95), bredden på konfidensintervallene "
+"for post-hoc-effektstørrelsene"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95), spesifiserer bredden på "
+"konfidensintervallene"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95), spesifiserer bredden på "
+"konfidensintervallene"
 
 #: ttestOneS/options/testValue.description.R
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "et tall som spesifiserer verdien for nullhypotesen"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
+msgstr "en parameter"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
