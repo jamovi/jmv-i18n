@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 20:50+0000\n"
+"PO-Revision-Date: 2022-03-27 21:09+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -7733,14 +7733,18 @@ msgstr ""
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
+"de avhengige variablene – for hver avhengig variabel som er angitt "
+"gjennomføres en separat t-test."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
 msgstr ""
+"de avhengige variablene (ikke nødvendig når det brukes en formel, se "
+"eksemplene)"
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "de avhengige variablene. For en ANOVA må disse være kontinuerlige."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
@@ -7751,23 +7755,31 @@ msgstr ""
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
 msgstr ""
+"variablene fra `data` som skal brukes som kovariater (ikke nødvendig når det "
+"brukes en formel, se eksempler)"
 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
 msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
 msgstr ""
+"variablene fra `data` som skal brukes som faktorer (ikke nødvendig når det "
+"brukes en formel, se eksempler)"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
+"den prediktor- eller uavhengige variabelen. For en ANOVA må denne være "
+"kategorisk."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
+"de prediktor- eller uavhengige variablene. For en ANOVA må disse være "
+"kategoriske."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr ""
+msgstr "de faste faktorene fra `data`"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -7777,6 +7789,8 @@ msgstr "Friedman-testen brukes til å undersøke forholdet mellom en kontinuerli
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
+"grupperingsvariabelen med to nivåer (ikke nødvendig når det brukes en "
+"formel, se eksemplene)"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
@@ -7785,7 +7799,7 @@ msgstr "Kruskal-Wallis-testen brukes til å undersøke sammenhengen mellom en ko
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "betegnelsen som skal brukes for den avhengige variabelen."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
@@ -7818,12 +7832,16 @@ msgstr "måleparene – en separat t-test gjenneomføres for hvert par målinger
 #: anovaRM/options/postHocCorr.description.ui
 msgid "the post-hoc multiple comparisons corrections to use."
 msgstr ""
+"korreksjonene som skal brukes for de multiple sammenligningene i post-hoc-"
+"testene."
 
 #: ttestIS/options/bfPrior.description.ui
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
+"bredden på prior for de Bayes-faktorene i Students t-testen. Krever en verdi "
+"mellom 0.5 og 2.0 (standard: 0.707)."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -7871,7 +7889,7 @@ msgstr "ANOVA for gjentatte målinger brukes til å utforske forholdet\n"
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
-msgstr ""
+msgstr "det designet for de gjentatte målingene."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
@@ -7883,11 +7901,11 @@ msgstr "Det er bare to gjentatte målinger. Antakelsen om sfæriskhet er alltid 
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "de gjentatte målingene."
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
-msgstr ""
+msgstr "de modelltermene for de gjentatte målingene."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
