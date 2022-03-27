@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 17:08+0000\n"
+"PO-Revision-Date: 2022-03-27 18:09+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -357,7 +357,9 @@ msgstr "`TRUE` (standard) eller `FALSE`, gi ut estimater for faktor(ko)variansen
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr "`TRUE` (standard) eller `FALSE`, gi ut estimater for residuale (ko)varianser"
+msgstr ""
+"`TRUE` (standard) eller `FALSE`, gi ut estimater for (ko)variansene av "
+"residuene"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
@@ -1290,10 +1292,14 @@ msgstr ""
 #: anova/options/modelTerms.description.R
 msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
 msgstr ""
+"en formel som inneholder termene som går inn i modellen (ikke nødvendig når "
+"du oppgir en formel for hele modellen, se eksempler)"
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
 msgstr ""
+"`list`-variablen som igjen inneholder en `named list`-variable med `label` "
+"for faktoren og `vars` (variabler) som tilhører denne faktoren"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -1302,18 +1308,27 @@ msgstr ""
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
 msgstr ""
+"`list`-variabelen som inneholder vektorer av strenger med prediktorer som "
+"skal legge til modellen; elementene legges til modellen i henhold til "
+"rekkefølge i `list-variabelen"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
 msgstr ""
+"`list`-variabelen som inneholder vektorer av strenger som beskriver "
+"mellomsubjekt-termene som skal gå inn i modellen"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
 msgstr ""
+"`list`-variabelen som inneholder vektorer av strenger som beskriver hvilke "
+"post-hoc-tester skal beregnes"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
 msgstr ""
+"`list`-variabelen som inneholder vektorer av strenger som beskriver termene "
+"for gjentatte målinger skal gå inn i modellen"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1322,6 +1337,8 @@ msgstr ""
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler som angir "
+"referansenivåene for de avhengige variablene og alle faktorene"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
@@ -1550,11 +1567,11 @@ msgstr ""
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "en tabell med estimater for kovariansene av faktorene"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "en tabell med estimater for skjæringspunktene av faktorene"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
@@ -1570,11 +1587,11 @@ msgstr ""
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "en tabell med estimater for kovariansene av residuene"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "en tabell med estimater for skjæringspunktene av residuene"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
@@ -3011,7 +3028,7 @@ msgstr ""
 "#  ───────────────────────────────────────────────────────────────────\n"
 "#\n"
 "#\n"
-"#  FAKTORSCHÄTZUNGEN\n"
+"#  ESTIMATER FOR FAKTORENE\n"
 "#\n"
 "#  Faktorkovarianser\n"
 "#  ────────────────────────────────────────────────────────────────\n"
@@ -3098,6 +3115,45 @@ msgid "data('birthwt', package='MASS')\n"
 "#\n"
 "#"
 msgstr ""
+"data('birthwt', package='MASS')\n"
+"\n"
+"dat <- data.frame(\n"
+"            low = factor(birthwt$low),\n"
+"            age = birthwt$age,\n"
+"            bwt = birthwt$bwt)\n"
+"\n"
+"logRegBin(data = dat, dep = low,\n"
+"          covs = vars(age, bwt),\n"
+"          blocks = list(list(\"age\", \"bwt\")),\n"
+"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
+"\n"
+"#\n"
+"#  BINOMIAL LOGISTISK REGRESJON\n"
+"#\n"
+"#  Mål for Modelltilpassing\n"
+"#  ────────────────────────────────────────\n"
+"#    Modell      Avvik     AIC     R²-McF\n"
+"#  ────────────────────────────────────────\n"
+"#         1    4.97e-7    6.00      1.000\n"
+"#  ────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODELLSPEZIFIKKE RESULTATER\n"
+"#\n"
+"#  MODELL 1\n"
+"#\n"
+"#  Modellkoeffisienter\n"
+"#  ───────────────────────────────────────────────────────────────\n"
+"#    Prediktor    Estimat       Std.-feil      Z           p\n"
+"#  ───────────────────────────────────────────────────────────────\n"
+"#    Intercept    2974.73225    218237.2         0.0136    0.989\n"
+"#    age            -0.00653       482.7       -1.35e-5    1.000\n"
+"#    bwt            -1.18532        87.0        -0.0136    0.989\n"
+"#  ───────────────────────────────────────────────────────────────\n"
+"#    Notat. Estimater representerer log-odds-ratioer for «low = 1»\n"
+"#    vs. «low = 0»\n"
+"#\n"
+"#"
 
 #: logRegMulti/options.description.R.usage
 msgid "data('birthwt', package='MASS')\n"
@@ -3145,6 +3201,50 @@ msgid "data('birthwt', package='MASS')\n"
 "#\n"
 "#"
 msgstr ""
+"data('birthwt', package='MASS')\n"
+"\n"
+"dat <- data.frame(\n"
+"            race = factor(birthwt$race),\n"
+"            age = birthwt$age,\n"
+"            low = factor(birthwt$low))\n"
+"\n"
+"logRegMulti(data = dat, dep = race,\n"
+"            covs = age, factors = low,\n"
+"            blocks = list(list(\"age\", \"low\")),\n"
+"            refLevels = list(\n"
+"                list(var=\"race\", ref=\"1\"),\n"
+"                list(var=\"low\", ref=\"0\")))\n"
+"\n"
+"#\n"
+"#  MULTINOMIAL LOGISTISK REGRESJON\n"
+"#\n"
+"#  Mål for Modelltilpassing\n"
+"#  ────────────────────────────────────\n"
+"#    Modell    Avvik    AIC    R²-McF\n"
+"#  ────────────────────────────────────\n"
+"#         1      360    372    0.0333\n"
+"#  ────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODELLSPEZIFIKKE RESULTATER\n"
+"#\n"
+"#  MODELL 1\n"
+"#\n"
+"#  Modellkoeffisienter\n"
+"#  ────────────────────────────────────────────────────────────────────────\n"
+"#    race     Prediktor          Estimat     Std.-feil         Z    p\n"
+"#  ────────────────────────────────────────────────────────────────────────\n"
+"#    2 - 1    Skjæringspunkt      0.8155        1.1186     0.729    0.466\n"
+"#             age                -0.1038        0.0487    -2.131    0.033\n"
+"#             low:\n"
+"#             1 – 0               0.7527        0.4700     1.601    0.109\n"
+"#    3 - 1    Skjæringspunkt      1.0123        0.7798     1.298    0.194\n"
+"#             age                -0.0663        0.0324    -2.047    0.041\n"
+"#             low:\n"
+"#             1 – 0               0.5677        0.3522     1.612    0.107\n"
+"#  ────────────────────────────────────────────────────────────────────────\n"
+"#\n"
+"#"
 
 #: anovaRM/options.description.R.usage
 msgid "data('bugs', package = 'jmv')\n"
@@ -3584,6 +3684,38 @@ msgid "data('Prestige', package='carData')\n"
 "#  ────────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('Prestige', package='carData')\n"
+"\n"
+"linReg(data = Prestige, dep = income,\n"
+"       covs = vars(education, prestige, women),\n"
+"       blocks = list(list('education', 'prestige', 'women')))\n"
+"\n"
+"#\n"
+"#  LINEÆR REGRESJON\n"
+"#\n"
+"#  Mål for Modelltilpassing\n"
+"#  ────────────────────────────\n"
+"#    Modell    R        R²\n"
+"#  ────────────────────────────\n"
+"#         1    0.802    0.643\n"
+"#  ────────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODELLSPEZIFIKKE RESULTATER\n"
+"#\n"
+"#  MODELL 1\n"
+"#\n"
+"#\n"
+"#  Modellkoeffisienter\n"
+"#  ─────────────────────────────────────────────────────────────\n"
+"#    Prediktor        Estimat    Std.-feil         t         p\n"
+"#  ─────────────────────────────────────────────────────────────\n"
+"#    Skjæringspunkt    -253.8      1086.16    -0.234     0.816\n"
+"#    women              -50.9         8.56    -5.948    < .001\n"
+"#    prestige           141.4        29.91     4.729    < .001\n"
+"#    education          177.2       187.63     0.944     0.347\n"
+"#  ─────────────────────────────────────────────────────────────\n"
+"#"
 
 #: ancova/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4218,7 +4350,7 @@ msgstr "Faktorkovarianser"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr "Estimater for faktor"
+msgstr "Estimater for faktorene"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
@@ -6615,7 +6747,7 @@ msgstr "Kovarians av residuene – Modifikasjonsindekser"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr "Estimater på residuene"
+msgstr "Estimater for residuene"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
@@ -6864,7 +6996,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SE"
-msgstr "Standardfeil"
+msgstr "Std.-feil"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
@@ -7402,11 +7534,11 @@ msgstr "Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "mellomsubjekt-faktorene (valgfritt)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "mellomsubjekt-termene for modellen."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
