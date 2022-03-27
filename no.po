@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 16:08+0000\n"
+"PO-Revision-Date: 2022-03-27 17:08+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -508,6 +508,8 @@ msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Welchs t-tester"
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør Wilcoxon-test av "
+"fortegnsfordeling"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
@@ -1169,7 +1171,7 @@ msgstr ""
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
 msgstr ""
-"`TRUE` eller `FALSE` (standard), gi ut mål og tester for modelltilpasning"
+"`TRUE` eller `FALSE` (standard), gi ut mål og tester for modelltilpassing"
 
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
@@ -1556,7 +1558,7 @@ msgstr ""
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
-msgstr ""
+msgstr "en tabelle som inneholder mål av modelltilpassing"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
@@ -1580,7 +1582,7 @@ msgstr ""
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "en tabell som inneholder kjikvadrattesten for eksakt tilpassing"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
@@ -1682,7 +1684,7 @@ msgstr ""
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
-msgstr ""
+msgstr "en tabell med proporsjoner"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
@@ -1719,11 +1721,11 @@ msgstr ""
 
 #: propTestN/results/props.description
 msgid "a table of the proportions"
-msgstr ""
+msgstr "en tabell med proporsjoner"
 
 #: propTest2/results/table.description
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "en tabell med proporsjoner og testresultater"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
@@ -1741,7 +1743,7 @@ msgstr ""
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr ""
+msgstr "en tallvektor: de forventete proporsjonene"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
@@ -2840,6 +2842,41 @@ msgid "dat <- data.frame(\n"
 "\n"
 "contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
 msgstr ""
+"dat <- data.frame(\n"
+"    `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),\n"
+"    `2nd survey` = c('Approve', 'Disapprove', 'Approve', 'Disapprove'),\n"
+"    `Counts` = c(794, 150, 86, 570),\n"
+"    check.names=FALSE)\n"
+"\n"
+"contTablesPaired(formula = Counts ~ `1st survey`:`2nd survey`, data = dat)\n"
+"\n"
+"#\n"
+"#  KRYSSTABELLER FOR PARETE STIKKPRØVER\n"
+"#\n"
+"#  Krysstabeller\n"
+"#  ────────────────────────────────────────────────\n"
+"#    1st survey    Approve    Disapprove    Total\n"
+"#  ────────────────────────────────────────────────\n"
+"#    Approve           794           150      944\n"
+"#    Disapprove         86           570      656\n"
+"#    Total             880           720     1600\n"
+"#  ────────────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  McNemar-test\n"
+"#  ──────────────────────────────────────────────────────────\n"
+"#                                     Verdi    df    p\n"
+"#  ──────────────────────────────────────────────────────────\n"
+"#    χ²                                17.4     1    < .001\n"
+"#    χ² med kontinuitetskorreksjon     16.8     1    < .001\n"
+"#  ──────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"\n"
+"# Alternativt kan du utelate venstre side av formelen (`Counts`) fra\n"
+"# formel hvis hver rad representerer en enkelt observasjon:\n"
+"\n"
+"contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
 
 #: propTest2/options.description.R.usage
 msgid "dat <- data.frame(x=c(8, 15))\n"
@@ -2859,6 +2896,22 @@ msgid "dat <- data.frame(x=c(8, 15))\n"
 "#    Note. Hₐ is proportion ≠ 0.5\n"
 "#"
 msgstr ""
+"dat <- data.frame(x = c(8, 15))\n"
+"\n"
+"propTest2(dat, vars = x, areCounts = TRUE)\n"
+"\n"
+"#\n"
+"# PROPORSJONSTEST (2 RESULTATER)\n"
+"#\n"
+"# Binomialtest\n"
+"# ──────────────────────────────────────────────────\n"
+"#        Nivå    Antall    Total    Andel    p\n"
+"# ──────────────────────────────────────────────────\n"
+"#   x       1         8       23    0.348    0.210\n"
+"#           2        15       23    0.652    0.210\n"
+"# ──────────────────────────────────────────────────\n"
+"# Notat. Hₐ er at andelen er ≠ 0,5\n"
+"#"
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
@@ -2929,6 +2982,68 @@ msgid "data <- lavaan::HolzingerSwineford1939\n"
 "#  ───────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data <- lavaan::HolzingerSwineford1939\n"
+"\n"
+"jmv::cfa(\n"
+"    data = data,\n"
+"    factors = list(\n"
+"        list(label=\"Visual\",  vars=c(\"x1\", \"x2\", \"x3\")),\n"
+"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
+"        list(label=\"Speed\",   vars=c(\"x7\", \"x8\", \"x9\"))),\n"
+"    resCov = NULL)\n"
+"\n"
+"#\n"
+"#  KONFIRMATORISK FAKTORANALYSE\n"
+"#\n"
+"#  Faktorladinger\n"
+"#  ───────────────────────────────────────────────────────────────────\n"
+"#    Faktor     Indikator    Estimat    Std.-feil        Z    p\n"
+"#  ───────────────────────────────────────────────────────────────────\n"
+"#    Visual     x1             0.900       0.0832    10.81    < .001\n"
+"#               x2             0.498       0.0808     6.16    < .001\n"
+"#               x3             0.656       0.0776     8.46    < .001\n"
+"#    Textual    x4             0.990       0.0567    17.46    < .001\n"
+"#               x5             1.102       0.0626    17.60    < .001\n"
+"#               x6             0.917       0.0538    17.05    < .001\n"
+"#    Speed      x7             0.619       0.0743     8.34    < .001\n"
+"#               x8             0.731       0.0755     9.68    < .001\n"
+"#               x9             0.670       0.0775     8.64    < .001\n"
+"#  ───────────────────────────────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  FAKTORSCHÄTZUNGEN\n"
+"#\n"
+"#  Faktorkovarianser\n"
+"#  ────────────────────────────────────────────────────────────────\n"
+"#                          Estimat    Std.-feil    Z       p\n"
+"#  ────────────────────────────────────────────────────────────────\n"
+"#    Visual     Visual     1.000 ᵃ\n"
+"#               Textual    0.459         0.0635    7.22    < .001\n"
+"#               Speed      0.471         0.0862    5.46    < .001\n"
+"#    Textual    Textual    1.000 ᵃ\n"
+"#               Speed      0.283         0.0715    3.96    < .001\n"
+"#    Speed      Speed      1.000 ᵃ\n"
+"#  ────────────────────────────────────────────────────────────────\n"
+"#    ᵃ fixed parameter\n"
+"#\n"
+"#\n"
+"#  MODELLTILPASSING\n"
+"#\n"
+"#  Test for eksakt tilpassing\n"
+"#  ────────────────────────\n"
+"#    χ²      df    p\n"
+"#  ────────────────────────\n"
+"#    85.3    24    < .001\n"
+"#  ────────────────────────\n"
+"#\n"
+"#\n"
+"#  Mål for Modelltilpassing\n"
+"#  ───────────────────────────────────────────────\n"
+"#    CFI      TLI      RMSEA      Undre     Øvre\n"
+"#  ───────────────────────────────────────────────\n"
+"#    0.931    0.896    0.0921    0.0714    0.114\n"
+"#  ───────────────────────────────────────────────\n"
+"#"
 
 #: package/analyses/pca.menuSubgroup
 #: package/analyses/efa.menuSubgroup
@@ -4012,7 +4127,7 @@ msgstr "Forventede antall"
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr "Forventede proporsjoner"
+msgstr "Forventete proporsjoner"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
@@ -4183,7 +4298,7 @@ msgstr "Fisher's eksakt test"
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
 msgid "Fit Measures"
-msgstr "Fit-målinger"
+msgstr "Mål for modelltilpassing"
 
 #: R/linreg.b.R
 msgid "Fitted"
@@ -4372,7 +4487,7 @@ msgstr "Hₐ er en positiv korrelasjon"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
-msgstr "Hₐ er en proporsjon {direction} {testValue}"
+msgstr "Hₐ er at andelen er {direction} {testValue}"
 
 #: R/conttables.b.R
 msgid "Haldane-Anscombe correction applied"
@@ -4702,7 +4817,7 @@ msgstr "Logg odds ratio"
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
 msgid "Log odds ratio exact"
-msgstr "Eksakt logg-odds-ratio"
+msgstr "Eksakt log-odds-forhold"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -5084,7 +5199,7 @@ msgstr "Modellsammenlikninger"
 #: logRegOrd/ui[3].label
 #: pca/results/modelFit.title
 msgid "Model Fit"
-msgstr "Modell-Fit"
+msgstr "Modelltilpassing"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -5093,11 +5208,11 @@ msgstr "Modell-Fit"
 #: logRegOrd/results/modelFit.title
 #: pca/results/modelFit/fit.title
 msgid "Model Fit Measures"
-msgstr "Mål for modelltilpasning"
+msgstr "Mål for modelltilpassing"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
-msgstr "Mål for modelltilpasning"
+msgstr "Mål for modelltilpassing"
 
 #: linReg/results/models.title
 #: logLinear/results/models.title
@@ -5397,6 +5512,9 @@ msgstr "Minst én koeffisient i modellen '{modelNo}' kunne ikke estimeres på gr
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
 msgstr ""
+"en eller flere av `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'` eller "
+"`'bic'`; bruk CFI, TLI, SRMR, RMSEA + 90 % konfidensintervall eller justert "
+"AIC eller BIC som mål for modelltilpassing"
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
@@ -5433,7 +5551,7 @@ msgstr ""
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr "Proporsjonstests med en utvalg"
+msgstr "Proporsjonstests med én utvalg"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -5824,7 +5942,7 @@ msgstr ""
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "gjennomfør Wilcoxon-test av fortegnsfordeling."
 
 #: contTables/options/phiCra.title
 msgid "Phi and Cramer's V"
@@ -6513,7 +6631,9 @@ msgstr "Diagrammer av residuene"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "Kvadratsummen på residuene og / eller frihetsgrader er null, noe som indikerer en perfekt tilpasning av modellen"
+msgstr ""
+"Kvadratsummen på residuene og / eller frihetsgrader er null, det viser til "
+"en perfekt tilpassing av modellen"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7173,7 +7293,7 @@ msgstr "«Delt etter»-variabelen «{var}» inneholder ingen data."
 
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
-msgstr ""
+msgstr "bruk de (valgfrie) vektene fra `data` i tilpassingsprosessen"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -7462,7 +7582,7 @@ msgstr ""
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
-msgstr ""
+msgstr "lavaan-syntaksen som ble brukt for å tilpasse modellen"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
@@ -7617,15 +7737,17 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
-msgstr "Students t-test for én stikkprøve brukes til å teste nullhypotesen\n"
+msgstr ""
+"Students t-test for én stikkprøve brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien.\n"
 "\n"
 "Students t-test for én stikkprøve forutsetter at dataene er normalfordelt.\n"
-"Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test brukes\n"
-"istedenfor (men vær oppmerksom på at Wilcoxon-test har en litt annen\n"
-"nullhypotese, nemlig at *median* er lik testverdien)."
+"Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test av\n"
+"fortegnsfordeling brukes istedenfor (men vær oppmerksom på at\n"
+"Wilcoxon-test har en litt annen nullhypotese, nemlig at *median* er\n"
+"lik testverdien)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -7651,15 +7773,18 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+msgstr ""
+"Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
 "teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
 "lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
 "forskjellen mellom måleparene / gjentatte målingene er ikke null.\n"
 "\n"
-"Students paret t-test forutsetter at parforskjeller er normalfordelt. I tilfelle\n"
-"en kan ikke anta dette kan den ikke-parametriske Wilcoxon-test brukes\n"
-"(men vær oppmerksom på at Wilcoxon-test har en litt annen nullhypotese,\n"
-"nemlig at de to målingsparene har samme rangfølge / distribusjon)."
+"Students paret t-test forutsetter at parforskjeller er normalfordelt. I "
+"tilfelle\n"
+"en kan ikke anta dette kan den ikke-parametriske Wilcoxon-test av\n"
+"fortegnsfordeling brukes (men vær oppmerksom på at Wilcoxon-test har\n"
+"en litt annen nullhypotese, nemlig at de to målingsparene har samme\n"
+"rangfølge / distribusjon)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
@@ -7743,10 +7868,10 @@ msgstr "bredden på konfidensintervallene."
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
 msgstr ""
-"χ²-testen for fordeling (må ikke forveksles med χ²-testen for uavhengighet), "
-"tester nullhypotesen at proporsjonene av observasjoner samsvarer med "
-"forventete proporsjonene. Hvis p-verdien er lav, tyder det på at "
-"nullhypotesen er usann, og at de observerte proporsjonene er forskjellige "
+"χ²-testen for fordeling (goodness-of-fit; må ikke forveksles med χ²-testen "
+"for uavhengighet), tester nullhypotesen at proporsjonene av observasjoner "
+"samsvarer med forventete proporsjonene. Hvis p-verdien er lav, tyder det på "
+"at nullhypotesen er usann, og at de observerte proporsjonene er forskjellige "
 "fra de forventete."
 
 #: package/analyses/contTables.description
@@ -8065,7 +8190,7 @@ msgstr "Wilcoxon-rang"
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
 msgid "Wilcoxon signed rank test"
-msgstr "Wilcoxon rangtest med fortegn"
+msgstr "Wilcoxon-test av fortegnsfordeling"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
