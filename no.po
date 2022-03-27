@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 13:18+0000\n"
+"PO-Revision-Date: 2022-03-27 15:08+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -7884,7 +7884,7 @@ msgstr "Øvre"
 
 #: R/descriptives.b.R
 msgid "upper bound"
-msgstr ""
+msgstr "øvre grense"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -7896,7 +7896,7 @@ msgstr "Verdi"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr ""
+msgstr "verdi"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
@@ -7963,7 +7963,7 @@ msgstr "Varianser"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
-msgstr ""
+msgstr "variasjon fra kontrollvariablene fjernes kun fra variablene i kolonnene"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -7972,7 +7972,7 @@ msgstr "Varimax"
 
 #: R/pca.b.R
 msgid "varimax"
-msgstr ""
+msgstr "Varimax"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
@@ -7997,6 +7997,8 @@ msgstr "W"
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
+"vei hver celle likt (som standard veies cellene i henhold til "
+"cellefrekvensen)."
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8037,11 +8039,11 @@ msgstr "Wilks' Lambda"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
-msgstr ""
+msgstr "innenfor kolonnene"
 
 #: contTables/options/yaxisPc/row_pc.title
 msgid "within rows"
-msgstr ""
+msgstr "innenfor radene"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
@@ -8066,6 +8068,8 @@ msgstr "Y-akse"
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
 msgstr ""
+"`ycounts` (standard) eller `ypc`. Bruk enten `counts` eller `percentages` "
+"for y-aksen i stolpediagrammene"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -8083,23 +8087,23 @@ msgstr "Z"
 
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
-msgstr ""
+msgstr "z-test for forskjell mellom 2 proporsjoner"
 
 #: contTables/options/zProp.title
 msgid "z test for difference in 2 proportions"
-msgstr ""
+msgstr "z-test for forskjell mellom 2 proporsjoner"
 
 #: R/conttables.b.R
 msgid "z test only available for 2x2 tables"
-msgstr ""
+msgstr "z-testen er kun tilgjengelig for 2x2-tabeller"
 
 #: linReg/results/modelComp.columns.title
 msgid "ΔR²"
-msgstr ""
+msgstr "ΔR²"
 
 #: anovaNP/results/table.columns.title
 msgid "ε²"
-msgstr ""
+msgstr "ε²"
 
 #: ancova/options/effectSize/eta.title
 #: ancova/results/main.columns.title
@@ -8108,21 +8112,21 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²"
-msgstr ""
+msgstr "η²"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>G</sub>"
-msgstr ""
+msgstr "η²<sub>G</sub>"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>p</sub>"
-msgstr ""
+msgstr "η²<sub>p</sub>"
 
 #: ancova/results/main.columns.title
 msgid "η²p"
-msgstr ""
+msgstr "η²p"
 
 #: anovaNP/results/table.columns.title
 #: anovaRMNP/results/table.columns.title
@@ -8149,36 +8153,36 @@ msgstr ""
 #: pca/results/assump/bartlett.columns.title
 #: propTestN/results/tests.columns.title
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
 msgid "χ² continuity correction"
-msgstr ""
+msgstr "χ² med kontinuitetskorreksjon"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "χ²-test for tilpasning"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr ""
+msgstr "χ²-test for tilpasning"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
-msgstr ""
+msgstr "χ²-test"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
 msgid "χ² test of association"
-msgstr ""
+msgstr "χ²-test for uavhengighet"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
-msgstr ""
+msgstr "χ²-tester"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title
@@ -8187,4 +8191,4 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "ω²"
-msgstr ""
+msgstr "ω²"
