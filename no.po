@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-27 13:07+0000\n"
+"PO-Revision-Date: 2022-03-27 13:18+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -1152,54 +1152,60 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut eigenverdi-tabell"
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut sammendrag for faktorene"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut inter-faktor-korrelasjoner"
 
 #: efa/options/kmo.description.R
 #: pca/options/kmo.description.R
 msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut Kaiser-Meyer-Olkin-kriterium (KMO) "
+"for tilstrekkelighet av prøvetaking (MSA)"
 
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut mål og tester for modelltilpasning"
 
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
 msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), gi ut steinurplott (scree plot)"
 
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
 msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), sorter faktorladingene etter størrelse"
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør test for homogenitet av "
+"varianser (dvs. Levenes test)"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), variablene inneholder antall"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr ""
+msgstr "`TRUE` eller `FALSE` (standard), om forventede antall skal vises"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default); perform an overall model test"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gjennomfør modelltest for hele modellen"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "±%"
-msgstr ""
+msgstr "±%"
 
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
@@ -1244,23 +1250,23 @@ msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr ""
+msgstr "en (semi)partiell korrelasjonsmatriks"
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr ""
+msgstr "en kommadelt liste (standard: 25,50,75) som spesifiserer persentilene"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "et korrelasjonsdiagram"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "en korrelasjonstabell"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "et diagram med deskriptivstatistiske verdier"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
@@ -1275,6 +1281,8 @@ msgstr ""
 #: anova/options/postHoc.description.R
 msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
 msgstr ""
+"en formel som inneholder termene for å gjennomføre post-hoc-tester (se "
+"eksemplene)"
 
 #: ancova/options/modelTerms.description.R
 #: anova/options/modelTerms.description.R
