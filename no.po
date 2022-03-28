@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-28 16:08+0000\n"
+"PO-Revision-Date: 2022-03-28 16:21+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -7797,7 +7797,7 @@ msgstr "Kvadratsumme for ladinger"
 
 #: contTables/options/bartype.description.R
 msgid "stack or side by side (default), barplot type"
-msgstr ""
+msgstr "type av stolpediagram, stablet eller side-ved-side (standard)"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
@@ -7862,7 +7862,7 @@ msgstr "Statistikk"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "Statistikk"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -7943,7 +7943,7 @@ msgstr "Sammendrag"
 #: contTables/results/taub.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -7956,11 +7956,11 @@ msgstr "t-tester"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr ""
+msgstr "t-verdi"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
-msgstr ""
+msgstr "ten Berge"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -8022,7 +8022,7 @@ msgstr "Sfærisitetstester"
 
 #: R/descriptives.b.R
 msgid "th percentile"
-msgstr ""
+msgstr ". persentil"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
@@ -8045,17 +8045,24 @@ msgid "the alternative and null hypotheses;\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
 msgstr ""
+"Alternativ- og nullhypothesen;\n"
+"\n"
+"|             | Alternativhypotese (Hₐ)  | Nullhypotese (H₀)         |\n"
+"|-------------|--------------------------|---------------------------|\n"
+"| ≠ Testverdi | Gjennomsnitt ≠ Testverdi | Gjennomsnitt = Testverdi  |\n"
+"| > Testverdi | Gjennomsnitt > Testverdi | Gjennomsnitt <= Testverdi |\n"
+"| < Testverdi | Gjennomsnitt < Testverdi | Gjennomsnitt >= Testverdi |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "alternativhypotesen."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr ""
+msgstr "alternativhypotesen. Tillater ensidige tester."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -8156,25 +8163,25 @@ msgstr "Binomialtesten brukes til å teste nullhypotesen at andelen av observasj
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "de kategoriske prediktor- (eller uavhengige) variablene."
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "bredden på konfidensintervall for effektstørrelsene."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "bredden på konfidensintervall for post-hoc-effektstørrelsene."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr ""
+msgstr "bredden på konfidensintervall."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
@@ -8288,7 +8295,7 @@ msgstr "de avhengige variablene. For en ANOVA må disse være kontinuerlige."
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "feilstolpene som vises med de estimerte gjennomsnittene."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
@@ -8348,18 +8355,26 @@ msgstr "lavaan-syntaksen som ble brukt for å tilpasse modellen"
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"metoden for å ekskludere manglende verdier. `Analysis by analysis` "
+"ekskluderer manglende verdier per analyse. `Listwise` ekskluderer hele raden "
+"fra alle analyser hvis en av verdiene mangler."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"metoden for å ekskludere manglende verdier. `Analysis by analysis` "
+"ekskluderer manglende verdier per analyse. `Listwise` ekskluderer hele raden "
+"fra alle analyser hvis en av verdiene mangler."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
-msgstr ""
+msgstr "de modelltermene som inngår i modellen."
 
 #: anova/options/modelTerms.description.ui
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
+"de modelltermene som inngår i modellen. Som standard settes opp en modell "
+"med alle faktorer men de modelltermene kan bli tilpasset."
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
@@ -8555,6 +8570,8 @@ msgstr ""
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
 msgstr ""
+"termene for å beregne de estimerte gjennomsnittene (det kan angis flere "
+"termer)."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
