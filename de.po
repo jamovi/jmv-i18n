@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-28 15:15+0000\n"
+"PO-Revision-Date: 2022-03-28 16:08+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "de/>\n"
@@ -843,7 +843,8 @@ msgstr "`TRUE` oder `FALSE` (Standard), gibt Spearman's Rho aus"
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr "„TRUE“ oder „FALSE“ (Vorgabe), gibt Statistiken im Korrelationsdiagramm aus"
+msgstr ""
+"`TRUE` oder `FALSE` (Vorgabe), gibt Statistiken im Korrelationsdiagramm aus"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
@@ -3796,10 +3797,11 @@ msgid "data('mtcars')\n"
 "# splitting by multiple variables\n"
 "descriptives(formula = mpg ~ cyl:gear, dat,\n"
 "    median=F, min=F, max=F, missing=F)"
-msgstr "data('mtcars')\n"
+msgstr ""
+"data('mtcars')\n"
 "dat <- mtcars\n"
 "\n"
-"# frequency tables can be provided for factors\n"
+"# für Faktoren können Häufigkeitstabellen angezeigt werden\n"
 "dat$gear <- as.factor(dat$gear)\n"
 "\n"
 "descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
@@ -3832,17 +3834,17 @@ msgstr "data('mtcars')\n"
 "#  ───────────────────\n"
 "#\n"
 "\n"
-"# Gruppering nach einer Variablen\n"
+"# Gruppierung nach einer Variablen\n"
 "descriptives(formula = disp + mpg ~ cyl, dat,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
+"    median = F, min = F, max = F, n = F, missing = F)\n"
 "\n"
 "# Histogramme anzeigen\n"
-"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
+"descriptives(formula = mpg ~ cyl, dat, hist = T,\n"
+"    median = F, min = F, max = F, n = F, missing = F)\n"
 "\n"
 "# Gruppierung nach mehreren Variablen\n"
 "descriptives(formula = mpg ~ cyl:gear, dat,\n"
-"    median=F, min=F, max=F, missing=F)"
+"    median = F, min = F, max = F, missing = F)"
 
 #: linReg/options.description.R.usage
 msgid "data('Prestige', package='carData')\n"
@@ -7254,7 +7256,7 @@ msgstr "Std.-abw."
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "sd"
-msgstr "SD"
+msgstr "Std.-abw."
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
