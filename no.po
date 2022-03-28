@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-28 14:07+0000\n"
+"PO-Revision-Date: 2022-03-28 15:15+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -349,7 +349,7 @@ msgstr "`TRUE` (standard) eller `FALSE`, gi ut Cronbachs α"
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr ""
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut estimert gjennomsnitt"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
@@ -518,6 +518,8 @@ msgstr ""
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), vis rådata i diagram med estimert "
+"gjennomsnitt"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
@@ -769,6 +771,8 @@ msgstr "`TRUE` oder `FALSE` (standard), gi ut effektstørrelser"
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut tabeller med de estimerte "
+"gjennomsnittene"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
@@ -1275,11 +1279,13 @@ msgstr "et diagram med deskriptivstatistiske verdier"
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr ""
+msgstr "en formel med termer for å estimere gjennomsnittene (se eksempler)"
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
+"en formel med termer for å estimere gjennomsnittene (støtter opp til tre "
+"variabler per term)"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
@@ -1366,6 +1372,9 @@ msgstr ""
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
 msgstr ""
+"`list`-variabelen som igjen inneholder `list`-variabler som spesifiserer "
+"variablene som skal brukes for å estimere gjennomsnittene (støtter opp til "
+"tre variabler per term)."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
@@ -1478,6 +1487,8 @@ msgstr ""
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
 msgstr ""
+"et tall mellom 50 og 99.9 (standard: 95) som spesifiserer bredden på "
+"konfidensintervaller for de estimerte gjennomsnittene"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
@@ -1616,7 +1627,7 @@ msgstr "en oppsummering av gruppene"
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "en tabell med de estimerte gjennomsnittene"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
@@ -2012,6 +2023,7 @@ msgstr "et array med deskriptivstatistiske diagrammer"
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
 msgstr ""
+"en array med diagrammer og tabeller som viser de estimerte gjennomsnittene"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
@@ -2644,7 +2656,7 @@ msgstr "Variabler som blir kontrollert"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr "kontrollerer for {items}"
+msgstr "Kontrollerer for {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
@@ -2732,7 +2744,8 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom\n"
+msgstr ""
+"Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom\n"
 "to eller flere kontinuerlige variabler.\n"
 "\n"
 "For hvert par av variabler angir en Pearsons r-verdi styrken\n"
@@ -2742,7 +2755,8 @@ msgstr "Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom
 "negativt Pearsons r angir en negativ relasjon (høyere verdier av den første\n"
 "variabelen samsvarer med lavere verdier for den andre variabelen, og\n"
 "omvendt). Hvis verdien av r er nær null, så består ingen relasjon (om den\n"
-"første variabelen er høy eller lav, forteller oss ikke noe om verdien av den\n"
+"første variabelen er høy eller lav, forteller oss ikke noe om verdien av "
+"den\n"
 "andre variabelen).\n"
 "\n"
 "Mer formelt er det mulig å teste nullhypotesen om at\n"
@@ -3762,6 +3776,22 @@ msgid "data('iris')\n"
 "#  ─────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('iris')\n"
+"\n"
+"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', "
+"'Petal.Width'),\n"
+"            omegaScale = TRUE)\n"
+"\n"
+"#\n"
+"#  RELIABILITETSANALYSE\n"
+"#\n"
+"#  Statistikk på skalareliabilitet\n"
+"#  ────────────────────────────────────────\n"
+"#             Cronbachs α    McDonald's ω\n"
+"#  ────────────────────────────────────────\n"
+"#    Skala          0.708           0.848\n"
+"#  ────────────────────────────────────────\n"
+"#"
 
 #: corrMatrix/options.description.R.usage
 msgid "data('mtcars')\n"
@@ -3789,6 +3819,30 @@ msgid "data('mtcars')\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('mtcars')\n"
+"\n"
+"corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
+"\n"
+"#\n"
+"#  KORRELASJONSMATRIKS\n"
+"#\n"
+"#  Korrelasjonsmatriks\n"
+"#  ────────────────────────────────────────────────────────────\n"
+"#                           mpg      cyl       disp      hp\n"
+"#  ────────────────────────────────────────────────────────────\n"
+"#    mpg     Pearsons r       —    -0.852    -0.848    -0.776\n"
+"#            p-verdi          —    < .001    < .001    < .001\n"
+"#\n"
+"#    cyl     Pearsons r                 —     0.902     0.832\n"
+"#            p-verdi                    —    < .001    < .001\n"
+"#\n"
+"#    disp    Pearsons r                           —     0.791\n"
+"#            p-verdi                              —    < .001\n"
+"#\n"
+"#    hp      Pearsons r                                     —\n"
+"#            p-verdi                                        —\n"
+"#  ────────────────────────────────────────────────────────────\n"
+"#"
 
 #: corrPart/options.description.R.usage
 msgid "data('mtcars')\n"
@@ -3814,6 +3868,28 @@ msgid "data('mtcars')\n"
 "#    Note. controlling for 'hp'\n"
 "#"
 msgstr ""
+"data('mtcars')\n"
+"\n"
+"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
+"\n"
+"#\n"
+"#  PARTIELL KORRELASJON\n"
+"#\n"
+"#  Partiell Korrelasjon\n"
+"#  ───────────────────────────────────────────────────\n"
+"#                           mpg       cyl       disp\n"
+"#  ───────────────────────────────────────────────────\n"
+"#    mpg     Pearsons r         —\n"
+"#            p-Wert             —\n"
+"#\n"
+"#    cyl     Pearsons r    -0.590         —\n"
+"#            p-Wert        < .001         —\n"
+"#\n"
+"#    disp    Pearsons r    -0.606     0.719        —\n"
+"#            p-Wert        < .001    < .001        —\n"
+"#  ───────────────────────────────────────────────────\n"
+"#    Notat. Kontrollerer for hp\n"
+"#"
 
 #: logLinear/options.description.R.usage
 msgid "data('mtcars')\n"
@@ -3862,6 +3938,51 @@ msgid "data('mtcars')\n"
 "#\n"
 "#"
 msgstr ""
+"data('mtcars')\n"
+"\n"
+"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
+"dat <- as.data.frame(tab)\n"
+"\n"
+"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
+"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
+"          refLevels = list(\n"
+"              list(var=\"gear\", ref=\"3\"),\n"
+"              list(var=\"cyl\", ref=\"4\")))\n"
+"\n"
+"#\n"
+"#  LOG-LINEÆR REGRESJON\n"
+"#\n"
+"#  Mål for modelltilpassing\n"
+"#  ────────────────────────────────────────\n"
+"#    Modell    Avvik       AIC     R²-McF\n"
+"#  ────────────────────────────────────────\n"
+"#         1    4.12e-10    41.4    1.000\n"
+"#  ────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODELLSPEZIFIKKE RESULTATER\n"
+"#\n"
+"#  MODELL 1\n"
+"#\n"
+"#  Modellkoeffisienter\n"
+"#  ───────────────────────────────────────────────────────────────────\n"
+"#    Prediktor          Estimat      Std.-feil    Z            p\n"
+"#  ───────────────────────────────────────────────────────────────────\n"
+"#    Skæringspubkt      -4.71e-16         1.00    -4.71e-16    1.000\n"
+"#    gear:\n"
+"#    4 – 3                  2.079         1.06        1.961    0.050\n"
+"#    5 – 3                  0.693         1.22        0.566    0.571\n"
+"#    cyl:\n"
+"#    6 – 4                  0.693         1.22        0.566    0.571\n"
+"#    8 – 4                  2.485         1.04        2.387    0.017\n"
+"#    gear:cyl:\n"
+"#    (4 – 3):(6 – 4)       -1.386         1.37       -1.012    0.311\n"
+"#    (5 – 3):(6 – 4)       -1.386         1.73       -0.800    0.423\n"
+"#    (4 – 3):(8 – 4)      -26.867     42247.17    -6.36e -4    0.999\n"
+"#    (5 – 3):(8 – 4)       -2.485         1.44       -1.722    0.085\n"
+"#  ───────────────────────────────────────────────────────────────────\n"
+"#\n"
+"#"
 
 #: descriptives/options.description.R.usage
 msgid "data('mtcars')\n"
@@ -4004,6 +4125,28 @@ msgid "data('ToothGrowth')\n"
 "    postHoc = ~ supp,\n"
 "    emMeans = ~ supp)"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANCOVA\n"
+"#\n"
+"#  ANCOVA\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#                Kvadratsum    df    Varians    F        p\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#    supp               205     1      205.4     11.4     0.001\n"
+"#    dose              2224     1     2224.3    124.0    < .001\n"
+"#    Residuer          1023    57       17.9\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ancova(\n"
+"    formula = len ~ supp + dose,\n"
+"    data = ToothGrowth,\n"
+"    postHoc = ~ supp,\n"
+"    emMeans = ~ supp)"
 
 #: anova/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4031,6 +4174,31 @@ msgid "data('ToothGrowth')\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANOVA\n"
+"#\n"
+"#  ANOVA\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#                Kvadratsum    df    Varians    F        p\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#    dose              2426     2     1213.2    92.00    < .001\n"
+"#    supp               205     1      205.4    15.57    < .001\n"
+"#    dose:supp          108     2       54.2     4.11     0.022\n"
+"#    Residuen           712    54       13.2\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ANOVA(\n"
+"    formula = len ~ dose * supp,\n"
+"    data = ToothGrowth,\n"
+"    emMeans = ~ supp + dose:supp, # beregn de estimerte gjennomsnittene for\n"
+"    emmPlots = TRUE,              # supp og dose:supp og gi ut diagrammer "
+"og\n"
+"    emmTables = TRUE)             # tabeller med disse"
 
 #: anovaNP/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4079,6 +4247,20 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  UAVHENGIG T-TEST\n"
+"#\n"
+"#  Uavhengig t-test\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#                          Statistikk    df      p\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#    len    Student's t          1.92    58.0    0.060\n"
+"#  ─────────────────────────────────────────────────────\n"
+"#"
 
 #: ttestOneS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4097,6 +4279,21 @@ msgid "data('ToothGrowth')\n"
 "#  ──────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
+"\n"
+"#\n"
+"#  T-TEST FOR ÉN UTVALG\n"
+"#\n"
+"#  t-test for én utvalg\n"
+"#  ───────────────────────────────────────────────────────\n"
+"#                           Statistikk    df      p\n"
+"#  ───────────────────────────────────────────────────────\n"
+"#    len     Student's t          19.1    59.0    < .001\n"
+"#    dose    Student's t          14.4    59.0    < .001\n"
+"#  ───────────────────────────────────────────────────────\n"
+"#"
 
 #: anovaOneW/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4116,6 +4313,22 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"dat <- ToothGrowth\n"
+"dat$dose <- factor(dat$dose)\n"
+"\n"
+"anovaOneW(formula = len ~ dose, data = dat)\n"
+"\n"
+"#\n"
+"#  ANOVA MED ÉN FAKTOR\n"
+"#\n"
+"#  ANOVA med én faktor (Welch)\n"
+"#  ────────────────────────────────────────\n"
+"#           F       df1    df2     p\n"
+"#  ────────────────────────────────────────\n"
+"#    len    68.4      2    37.7    < .001\n"
+"#  ────────────────────────────────────────\n"
+"#"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -5288,7 +5501,7 @@ msgstr "Mantel-Haenszel-trendtest"
 
 #: R/linreg.b.R
 msgid "Marginal Mean"
-msgstr ""
+msgstr "Gjennomsnitt"
 
 #: ancova/options/emMeans.title
 #: anova/options/emMeans.title
@@ -5298,7 +5511,7 @@ msgstr ""
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
 msgid "Marginal Means"
-msgstr ""
+msgstr "Gjennomsnitter"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -5308,7 +5521,7 @@ msgstr ""
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr ""
+msgstr "Diagram med gjennomsnitt"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -5318,7 +5531,7 @@ msgstr ""
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
 msgid "Marginal means tables"
-msgstr ""
+msgstr "Tabell med gjennomsnitt"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
@@ -5933,11 +6146,17 @@ msgstr ""
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
 msgstr ""
+"en eller flere av `'ingen'`, `'tukey'` (standard), `'scheffe'`, `'bonf'` "
+"eller `'holm'`; bruk enten ingen, Tukey-, Scheffé-, Bonferroni- eller Holm-"
+"korreksjon for post-hoc-tester"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
 msgstr ""
+"en eller flere av `'ingen'`, `'tukey'`, `'scheffe'`, `'bonf'` eller `'holm'`;"
+" bruk enten ingen, Tukey-, Scheffé-, Bonferroni- eller Holm-korreksjon for "
+"post-hoc-tester"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
@@ -5952,6 +6171,8 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.description.R
 msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
+"en eller flere av `'r2mf'`, `'r2cs'` eller `'r2n'`; bruk enten McFaddens, "
+"Cox & Snells eller Nagelkerkes pseudo-R²"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -5967,7 +6188,7 @@ msgstr "Proporsjonstests med én utvalg"
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr "t-Test for en utvalg"
+msgstr "t-test for én utvalg"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -6116,29 +6337,29 @@ msgstr "Test av den hele modellen"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-verdi"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
-msgstr ""
+msgstr "p<sub>Bonferroni</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr ""
+msgstr "p<sub>Holm</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
-msgstr ""
+msgstr "p<sub>Scheffé</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>tukey</sub>"
-msgstr ""
+msgstr "p<sub>Tukey</sub>"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
@@ -6242,7 +6463,7 @@ msgstr "Partiell η²"
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
 msgid "partial η²"
-msgstr ""
+msgstr "partiell η²"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -6301,30 +6522,36 @@ msgstr "Persentiler"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "gjennomfør Mann-Whitney U-test."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"gjennomfør Shapiro-Wilk-test på normalfordeling. En lav p-verdi antyder at "
+"dataene ikke kommer fra en normalfordeling."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "gjennomfør en test for hele modellen."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
+msgstr "gjennomfør Fishers (eller hva kan kalles «vanlige») ANOVAer."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi antyder at "
+"dataene ikke kommer fra en normalfordeling."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
+"gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi antyder at "
+"residuene ikke kommer fra en normalfordeling."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -6336,15 +6563,15 @@ msgstr "gjennomfør Student's t-test for én utvalg."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "gjennomfør Student's parete t-tester."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "gjennomfør ANOVAer etter Welch."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "gjennomfør Welchs tester."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -6375,12 +6602,13 @@ msgstr "Diagram"
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
 msgstr ""
+"gi ut tetthetsdiagrammer langs hoveddiagonalen i korrelasjonsdiagrammet."
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
 msgid "plot the data along with the marginal means."
-msgstr ""
+msgstr "vis rådataene sammen med de estimerte gjennomsnittene."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
@@ -6549,7 +6777,7 @@ msgstr "Promax"
 
 #: R/pca.b.R
 msgid "promax"
-msgstr ""
+msgstr "Promax"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
@@ -6575,49 +6803,55 @@ msgstr "Proporsjonstest (N resultater)"
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
+msgstr "gi ut effektstørrelsene (Cohens d) for post-hoc tester."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
+"gi ut konfidensintervaller for forskjellen mellom de gjennomsnittsestimatene "
+"og testverdien."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "gi ut korrelasjonsdiagram."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "gi ut Kendalls tau-b for hver kombinasjon av variabler."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "gi ut p-verdi for hver korrelasjonskoeffisient."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr ""
+msgstr "gi ut Pearsons r for hver kombinasjon av variabler."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"gi ut Q-Q-diagram for residuene – diagram viser de faktiske residuene mot "
+"hva kunne forventes hvis dataene var *perfekt* normalfordelt. Store avvik "
+"fra den diagonale linjen tyder på at dataene ikke kommer fra en "
+"normalfordeling."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr ""
+msgstr "gi ut Spearmans rho for hver kombinasjon av variabler."
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
-msgstr ""
+msgstr "gi ut en tabell med deskriptivstatistikk for hver variable."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr ""
+msgstr "gi ut tabell med de estimerte gjennomsnittene."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
@@ -6625,7 +6859,7 @@ msgstr ""
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr ""
+msgstr "gi ut Bayes-faktorer for Student's t-testene med èn utvalg."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
@@ -6633,7 +6867,7 @@ msgstr ""
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
-msgstr ""
+msgstr "gi ut konfidensintervaller for Pearsons r."
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
@@ -7084,7 +7318,7 @@ msgstr "Resultater"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr ""
+msgstr "invertert item"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
@@ -7182,7 +7416,7 @@ msgstr "Lagre"
 
 #: reliability/results/scale.columns.content
 msgid "scale"
-msgstr ""
+msgstr "Skala"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
@@ -8151,7 +8385,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
-"Students t-test for én utvalg brukes til å teste nullhypotesen\n"
+"Student's t-test for én utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien."
@@ -8168,12 +8402,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
-"Students t-test for én utvalg brukes til å teste nullhypotesen\n"
+"Student's t-test for én utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien.\n"
 "\n"
-"Students t-test for én utvalg forutsetter at dataene er normalfordelt.\n"
+"Student's t-test for én utvalg forutsetter at dataene er normalfordelt.\n"
 "Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test av\n"
 "fortegnsfordeling brukes istedenfor (men vær oppmerksom på at\n"
 "Wilcoxon-test har en litt annen nullhypotese, nemlig at *median* er\n"
@@ -8204,12 +8438,12 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
-"Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+"Student's paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
 "teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
 "lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
 "forskjellen mellom måleparene / gjentatte målingene er ikke null.\n"
 "\n"
-"Students paret t-test forutsetter at parforskjeller er normalfordelt. I "
+"Student's paret t-test forutsetter at parforskjeller er normalfordelt. I "
 "tilfelle\n"
 "en kan ikke anta dette kan den ikke-parametriske Wilcoxon-test av\n"
 "fortegnsfordeling brukes (men vær oppmerksom på at Wilcoxon-test har\n"
