@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-28 16:21+0000\n"
+"PO-Revision-Date: 2022-03-29 17:10+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
@@ -307,11 +307,13 @@ msgstr ""
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`TRUE` (standard) eller `FALSE`, utfør Student's t-tester"
+msgstr "`TRUE` (standard) eller `FALSE`, gjennomfør Student's t-tester"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`TRUE` (standard) eller `FALSE`, utfører Welchs ANOVA med én faktor som ikke antar like varianser"
+msgstr ""
+"`TRUE` (standard) eller `FALSE`, gjennomfør Welchs ANOVA med én faktor som "
+"ikke antar like varianser"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
@@ -4333,9 +4335,9 @@ msgstr ""
 "ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
 "\n"
 "#\n"
-"#  T-TEST FOR ÉN UTVALG\n"
+"#  T-TEST FOR ETT UTVALG\n"
 "#\n"
-"#  t-test for én utvalg\n"
+"#  t-test for ett utvalg\n"
 "#  ───────────────────────────────────────────────────────\n"
 "#                           Statistikk    df      p\n"
 "#  ───────────────────────────────────────────────────────\n"
@@ -4452,7 +4454,11 @@ msgstr "Deskriptivstatistikk"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "Deskriptivstatistikk er et utvalg av statistiske oppsummeringer og visualiseringer som gjør det mulig å utforske formen og fordelingen av data. Det er lurt å utforske dataene deskriptivstatistisk før å gå videre til inferensstatistiske tester."
+msgstr ""
+"Deskriptivstatistikk er et utvalg av oppsummerende statistikker og "
+"visualiseringer som gjør det mulig å utforske formen og fordelingen av data. "
+"Det er lurt å utforske dataene deskriptivstatistisk før en går videre til "
+"inferensstatistiske tester."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -6228,7 +6234,7 @@ msgstr ""
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr "Proporsjonstests med én utvalg"
+msgstr "Proporsjonstests med ett utvalg"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -6237,7 +6243,7 @@ msgstr "Proporsjonstests med én utvalg"
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr "t-test for én utvalg"
+msgstr "t-test for ett utvalg"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -6608,7 +6614,7 @@ msgstr "gjennomfør Student's uavhengige t-tester."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr "gjennomfør Student's t-test for én utvalg."
+msgstr "gjennomfør Student's t-test for ett utvalg."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
@@ -6908,7 +6914,7 @@ msgstr "gi ut Bayes-faktorer for Student's uavhengige t-tester."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "gi ut Bayes-faktorer for Student's t-tester med èn utvalg."
+msgstr "gi ut Bayes-faktorer for Student's t-tester med ett utvalg."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
@@ -8500,7 +8506,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
-"Student's t-test for én utvalg brukes til å teste nullhypotesen\n"
+"Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien."
@@ -8517,12 +8523,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
-"Student's t-test for én utvalg brukes til å teste nullhypotesen\n"
+"Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien.\n"
 "\n"
-"Student's t-test for én utvalg forutsetter at dataene er normalfordelt.\n"
+"Student's t-test for ett utvalg forutsetter at dataene er normalfordelt.\n"
 "Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test av\n"
 "fortegnsfordeling brukes istedenfor (men vær oppmerksom på at\n"
 "Wilcoxon-test har en litt annen nullhypotese, nemlig at *median* er\n"
