@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-24 12:57+0000\n"
+"PO-Revision-Date: 2022-03-29 13:25+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/pt/>\n"
@@ -289,7 +289,7 @@ msgstr "`Coeficientes do Modelo - ${ dep }`"
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr "`Coeficientes do modelo - $ {dep}`"
+msgstr "`Coeficientes do modelo - ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
@@ -738,7 +738,7 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece tabelas de frequência (apenas para
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr "TRUE` ou `FALSE` (padrão), fornece gama"
+msgstr "`TRUE` ou `FALSE` (padrão), fornece gama"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
@@ -1389,25 +1389,31 @@ msgstr "um código (padrão: 'Dependente') descrevendo o rótulo usado para a va
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr "um código que nomeia uma variável em `dados` contendo contagens, ou NULL se cada linha representar uma única observação"
+msgstr ""
+"um código que nomeia uma variável em `data` contendo contagens, ou NULL se "
+"cada linha representar uma única observação"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr "um código nomeando a variável dependente de `dados`, a variável deve ser um fator"
+msgstr ""
+"um código nomeando a variável dependente de `data`, a variável deve ser um "
+"fator"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr "um código nomeando a variável dependente de `dados`, a variável deve ser numérica"
+msgstr ""
+"um código nomeando a variável dependente de `data`, a variável deve ser "
+"numérica"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr "um código nomeando a variável dependente em `dados`"
+msgstr "um código nomeando a variável dependente em `data`"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr "uma codificação nomeando a variável dependente em `dados`"
+msgstr "uma codificação nomeando a variável dependente em `data`"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
@@ -7880,7 +7886,7 @@ msgstr "as covariáveis (especificá-las produz a ANCOVA)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr "as covariáveis dos `dados`"
+msgstr "as covariáveis dos `data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -7930,12 +7936,14 @@ msgstr "A variável dependente '{dep}' tem apenas dois níveis, considere fazer 
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr "a variável dependente dos `dados`, a variável deve ser numérica"
+msgstr "a variável dependente dos `data`, a variável deve ser numérica"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr "a variável dependente dos `dados`, a variável deve ser numérica (não é necessário ao fornecer uma fórmula, veja os exemplos)"
+msgstr ""
+"a variável dependente dos `data`, a variável deve ser numérica (não é "
+"necessário ao fornecer uma fórmula, veja os exemplos)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -8010,11 +8018,17 @@ msgstr "a sintaxe do lavaan usada para ajustar o modelo"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "o método de exclusão de valores omissos. `Análise por análise` exclui valores omissos de cada análise. `Listwise` exclui uma linha de todas as análises se um dos seus valores for omisso."
+msgstr ""
+"o método de exclusão de valores omissos. `Analysis by analysis` exclui "
+"valores omissos de cada análise. `Listwise` exclui uma linha de todas as "
+"análises se um dos seus valores for omisso."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "o método de exclusão de valores omissos. `Análise por análise` exclui valores omissos de cada análise. `Listwise` exclui uma linha de todas as análises se um dos seus valores for omisso."
+msgstr ""
+"o método de exclusão de valores omissos. `Analysis by analysis` exclui "
+"valores omissos de cada análise. `Listwise` exclui uma linha de todas as "
+"análises se um dos seus valores for omisso."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
