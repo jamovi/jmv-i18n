@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-01 01:10+0000\n"
+"PO-Revision-Date: 2022-04-05 02:09+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -929,7 +929,9 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), представляе�
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr "`TRUE` или `FALSE` (по умолчанию), предоставьте комплексный тест ANOVA для предикторов"
+msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставьте комплексный дисперсионный "
+"анализ для предикторов"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
@@ -1384,7 +1386,7 @@ msgstr "график q-q"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr "Набор данных повторных измерений ANOVA"
+msgstr "Набор данных ДА повторных измерений"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
@@ -1517,7 +1519,7 @@ msgstr "таблица результатов ANCOVA"
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr "таблица результатов ANOVA"
+msgstr "таблица результатов ДА"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
@@ -1840,7 +1842,7 @@ msgstr "целое число (по умолчанию: 4), определяющ
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr "Скучный набор данных ANOVA"
+msgstr "Скучный набор данных для дисперсионного анализа"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
@@ -1883,11 +1885,11 @@ msgstr "Данные по ирисам Андерсона"
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr "ANOVA"
+msgstr "ДА"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr "Дисперсионный анализ"
+msgstr "ДА тест"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
@@ -3148,7 +3150,8 @@ msgid "data('bugs', package = 'jmv')\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#    Note. Type 3 Sums of Squares\n"
 "#"
-msgstr "data('bugs', package = 'jmv')\n"
+msgstr ""
+"data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRM(\n"
 "    data = bugs,\n"
@@ -3167,7 +3170,7 @@ msgstr "data('bugs', package = 'jmv')\n"
 "        'Frightening'))\n"
 "\n"
 "#\n"
-"#  ANOVA ДЛЯ ПОВТОРНЫХ ИЗМЕРЕНИЙ\n"
+"#  ДА ДЛЯ ПОВТОРНЫХ ИЗМЕРЕНИЙ\n"
 "#\n"
 "#  Внутрисубъектные эффекты\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
@@ -3204,12 +3207,13 @@ msgid "data('bugs', package = 'jmv')\n"
 "#    55.8     3    < .001\n"
 "#  ────────────────────────\n"
 "#"
-msgstr "data('bugs', package = 'jmv')\n"
+msgstr ""
+"data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
 "\n"
 "#\n"
-"#  ANOVA ДЛЯ ПОВТОРНЫХ ИЗМЕРЕНИЙ (НЕПАРАМЕТРИЧЕСКИЙ)\n"
+"#  ДА ДЛЯ ПОВТОРНЫХ ИЗМЕРЕНИЙ (НЕПАРАМЕТРИЧЕСКИЙ)\n"
 "#\n"
 "#  Фридман\n"
 "#  ────────────────────────\n"
@@ -3972,14 +3976,15 @@ msgid "data('ToothGrowth')\n"
 "    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr "data('ToothGrowth')\n"
+msgstr ""
+"data('ToothGrowth')\n"
 "\n"
 "ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
 "\n"
 "#\n"
 "#  ANOVA (ДИСПЕРСИОННЫЙ АНАЛИЗ)\n"
 "#\n"
-"#  ANOVA\n"
+"#  ДА\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
 "#                 Sum of Squares    df    Mean Square    F        p\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
@@ -3993,7 +3998,8 @@ msgstr "data('ToothGrowth')\n"
 "ANOVA(\n"
 "    formula = len ~ dose * supp,\n"
 "    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
+"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:"
+"supp\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
 
@@ -5209,7 +5215,12 @@ msgstr "Линейная регрессия"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "Линейная регрессия используется для изучения взаимосвязи между непрерывной зависимой переменной и одной или несколькими непрерывными и/или категориальными независимыми переменными. Другие статистические методы, такие как ANOVA и ANCOVA, на самом деле являются просто формами линейной регрессии."
+msgstr ""
+"Линейная регрессия используется для изучения взаимосвязи между непрерывной "
+"зависимой переменной и одной или несколькими непрерывными и/или "
+"категориальными независимыми переменными. Другие статистические методы, "
+"такие как дисперсионный и ковариационный анализы, на самом деле являются "
+"просто формами линейной регрессии."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -5858,7 +5869,7 @@ msgstr "из всего"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr "Омнибусные тесты ANOVA"
+msgstr "Омнибусный ДА тест"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
@@ -6304,7 +6315,9 @@ msgstr "провести общий тест модели."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr "выполнить дисперсионный анализ Фишера (или то, что можно было бы назвать 'нормальным') ANOVA."
+msgstr ""
+"выполнить дисперсионный анализ Фишера (или то, что можно было бы назвать "
+"'нормальным')."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
@@ -6330,7 +6343,7 @@ msgstr "выполнить t-критерии Стьюдента для парн
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr "выполнить ANOVA Уэлча."
+msgstr "выполнить дисперсионный анализ Уэлча."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
@@ -6955,7 +6968,7 @@ msgstr "Повторный"
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
 msgid "Repeated Measures ANOVA"
-msgstr "Анализ повторных измерений ANOVA"
+msgstr "Дисперсионный анализ повторных измерений"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
