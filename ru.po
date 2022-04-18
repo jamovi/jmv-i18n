@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-05 02:09+0000\n"
+"PO-Revision-Date: 2022-04-18 09:12+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -3396,12 +3396,14 @@ msgid "data('iris')\n"
 "#  ────────────────────────────────────────────────\n"
 "#    Note. 'oblimin' rotation was used\n"
 "#"
-msgstr "data('iris')\n"
+msgstr ""
+"data('iris')\n"
 "\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
+"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))"
+"\n"
 "\n"
 "#\n"
-"#  ИССЛЕДОВАТЕЛЬСКИЙ ФАКТОРНЫЙ АНАЛИЗ\n"
+"#  РАЗВЕДОЧНЫЙ ФАКТОРНЫЙ АНАЛИЗ\n"
 "#\n"
 "#  Факторные нагрузки\n"
 "#  ────────────────────────────────────────────────\n"
@@ -4508,7 +4510,7 @@ msgstr "Метод оценки"
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "Исключить анализ случаев за анализом"
+msgstr "Исключить попарно"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -4516,7 +4518,7 @@ msgstr "Исключить анализ случаев за анализом"
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr "Исключить случаи списком"
+msgstr "Исключить наблюдения целиком"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -4540,7 +4542,7 @@ msgstr "Ожидаемые пропорции"
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
 msgid "Exploration"
-msgstr "Исследование"
+msgstr "Разведочный"
 
 #: R/efa.b.R
 #: package/analyses/efa.title
@@ -4552,7 +4554,7 @@ msgstr "Исследование"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr "Исследовательский факторный анализ"
+msgstr "Разведочный факторный анализ"
 
 #: efa/options/extraction.title
 msgid "Extraction"
