@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-20 13:14+0000\n"
+"PO-Revision-Date: 2022-04-20 16:11+0000\n"
 "Last-Translator: Luka Ursić <luka.ursic@mefst.hr>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -2221,37 +2221,39 @@ msgstr "Stupac"
 #: R/ancova.b.R
 msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
 msgstr ""
+"Stupac '{ime}' sadrži nekorištene razine (moguće jedino kada su redci sa "
+"nedostajućim vrijednostima isključeni)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Column variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "Stupav varijable '{var}' sadrži manje od 2 razine"
 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
 msgid "Columns"
-msgstr ""
+msgstr "Stupci"
 
 #: contTables/options/compare/columns.title
 msgid "columns"
-msgstr ""
+msgstr "Stupci"
 
 #: R/conttables.b.R
 msgid "Columns compared"
-msgstr ""
+msgstr "Stupci uspoređeni"
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
-msgstr ""
+msgstr "Usporedive mjere"
 
 #: contTables/ui[1][0][0][1][0].label
 msgid "Comparative Measures (2x2 only)"
-msgstr ""
+msgstr "Usporedive mjere (samo 2x2)"
 
 #: contTables/options/compare.title
 msgid "Compare"
-msgstr ""
+msgstr "Usporedi"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -2261,22 +2263,22 @@ msgstr ""
 #: logRegMulti/results/modelComp.columns.superTitle
 #: logRegOrd/results/modelComp.columns.superTitle
 msgid "Comparison"
-msgstr ""
+msgstr "Usporedba"
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr ""
+msgstr "Usporedbe su zasnovane na procjenama marginalnih aritmetičkih sredina"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Component"
-msgstr ""
+msgstr "Značajka"
 
 #: pca/options/factorCor.title
 msgid "Component correlations"
-msgstr ""
+msgstr "Korelacija značajki"
 
 #: pca/results/loadings.title
 msgid "Component Loadings"
@@ -2284,28 +2286,28 @@ msgstr ""
 
 #: pca/options/factorScoresOV.title
 msgid "Component scores"
-msgstr ""
+msgstr "Rezultat značajke"
 
 #: pca/results/factorStats.title
 msgid "Component Statistics"
-msgstr ""
+msgstr "Statistika značajki"
 
 #: pca/options/factorSummary.title
 msgid "Component summary"
-msgstr ""
+msgstr "Suma značajki"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "component(s)"
-msgstr ""
+msgstr "značajke"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
 msgid "Components"
-msgstr ""
+msgstr "Značajke"
 
 #: R/pca.b.R
 msgid "components"
-msgstr ""
+msgstr "značajke"
 
 #: ancova/options/postHocEsCi.title
 #: anova/options/postHocEsCi.title
@@ -2318,7 +2320,7 @@ msgstr ""
 #: ttestPS/options/ci.title
 #: ttestPS/options/ciES.title
 msgid "Confidence Interval"
-msgstr ""
+msgstr "Raspon pouzdanosti"
 
 #: ancova/options/emmPlotError/ci.title
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
@@ -2350,28 +2352,28 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Raspon pouzdanosti"
 
 #: descriptives/ui[2][2][1][0]/ci.label
 msgid "Confidence interval for Mean"
-msgstr ""
+msgstr "Raspon pouzdanosti za aritmetičku sredinu"
 
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "Širina raspona pouzdanosti"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
 msgid "Confidence Intervals"
-msgstr ""
+msgstr "Rasponi pouzdanosti"
 
 #: contTables/options/ci.title
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
 msgid "Confidence intervals"
-msgstr ""
+msgstr "Rasponi pouzdanosti"
 
 #: ancova/options/postHocEsCiWidth.title
 #: ancova/options/ciWidthEmm.title
@@ -2400,7 +2402,7 @@ msgstr ""
 #: ttestPS/options/ciWidth.title
 #: ttestPS/options/ciWidthES.title
 msgid "Confidence level"
-msgstr ""
+msgstr "Razina pouzdanosti"
 
 #: package/analyses/cfa.title
 #: package/analyses/cfa.menuTitle
@@ -2410,17 +2412,17 @@ msgstr ""
 #: cfa/ui.title
 #: cfa/results.title
 msgid "Confirmatory Factor Analysis"
-msgstr ""
+msgstr "Potvrdna faktorska analiza"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
 msgid "Constraints"
-msgstr ""
+msgstr "Ograničenja"
 
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
 msgid "Contingency coefficient"
-msgstr ""
+msgstr "Koeficijent slučajnosti"
 
 #: package/analyses/contTables.title
 #: package/analyses/contTables.menuSubgroup
@@ -2433,7 +2435,7 @@ msgstr ""
 #: contTablesPaired/options.menuSubgroup
 #: contTablesPaired/results/freqs.title
 msgid "Contingency Tables"
-msgstr ""
+msgstr "Tablice slučajnosti"
 
 #: ancova/options/contrasts.title
 #: ancova/ui[4].label
@@ -2444,21 +2446,21 @@ msgstr ""
 #: anovaRM/options/contrasts.title
 #: anovaRM/results/contrasts.title
 msgid "Contrasts"
-msgstr ""
+msgstr "Kontrasti"
 
 #: ancova/results/contrasts.template.title
 #: anova/results/contrasts.template.title
 #: anovaRM/results/contrasts.template.title
 msgid "Contrasts - $key"
-msgstr ""
+msgstr "Kontrasti - $key"
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
-msgstr ""
+msgstr "Kontrolirane varijable"
 
 #: corrPart/options/controls.title
 msgid "Control variables"
-msgstr ""
+msgstr "Kontrolirane varijable"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
