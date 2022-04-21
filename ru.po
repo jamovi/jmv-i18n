@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-20 04:12+0000\n"
+"PO-Revision-Date: 2022-04-21 13:12+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -260,7 +260,10 @@ msgstr "`'perAnalysis'` или `'listwise'`, как обрабатывать п�
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr "`'refLevel'` (по умолчанию) или `'grandMean'`, кодирование перехвата. Либо создает контраст, так что точка пересечения представляет собой контрольный уровень или общее среднее значение"
+msgstr ""
+"`'refLevel'` (по умолчанию) или `'grandMean'`, кодирование константы. Либо "
+"создает контраст, так что точка пересечения представляет собой контрольный "
+"уровень или общее среднее значение"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
@@ -729,7 +732,8 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), предоставля�
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr "`TRUE` или `FALSE` (по умолчанию), предоставляют оценки для остаточных перехватов"
+msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют оценки для констант остатков"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
@@ -1219,7 +1223,9 @@ msgstr "список списков, определяющих пары изме�
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr "писок списков, определяющих остаточные ковариации, которые необходимо оценить"
+msgstr ""
+"список списков, определяющих остаточные ковариации, которые необходимо "
+"оценить"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -1439,7 +1445,7 @@ msgstr "таблица, содержащая оценки факторных к�
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr "таблица, содержащая оценки пересечения факторов"
+msgstr "таблица, содержащая оценки константы фактора"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
@@ -1459,7 +1465,7 @@ msgstr "таблица, содержащая оценки остаточных �
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
-msgstr "таблица, содержащая остаточные оценки перехвата"
+msgstr "таблица, содержащая оценки константы остатка"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
@@ -4451,7 +4457,7 @@ msgstr "Планки погрешностей"
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Estimate"
-msgstr "Оценить"
+msgstr "Оценка"
 
 #: logRegBin/ui[5][0][0][1].label
 #: logRegMulti/ui[4][0][0][1].label
@@ -4632,11 +4638,11 @@ msgstr "Факторные оценки"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr "Перехваты факторов"
+msgstr "Константы фактора"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr "Перехваты факторов"
+msgstr "Константы фактора"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
@@ -5034,7 +5040,7 @@ msgstr "Межфакторные корреляции"
 #: linReg/options/intercept.title
 #: linReg/ui[2][1].label
 msgid "Intercept"
-msgstr "Перехват"
+msgstr "Константа"
 
 #: cfa/ui[3][1][0]/ci/ciWidth.label
 #: contTables/options/ciWidth.title
@@ -7031,11 +7037,11 @@ msgstr "Остаточные оценки"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr "Остаточные перехваты"
+msgstr "Константы остатка"
 
 #: cfa/options/resInterceptEst.title
 msgid "Residual intercepts"
-msgstr "Остаточные перехваты"
+msgstr "Константы остатка"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
