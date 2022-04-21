@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-20 16:11+0000\n"
-"Last-Translator: Luka Ursić <luka.ursic@mefst.hr>\n"
+"PO-Revision-Date: 2022-04-21 14:12+0000\n"
+"Last-Translator: Ivan Buljan <buljan.ivan3@gmail.com>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
 "Language: hr\n"
@@ -7187,41 +7187,49 @@ msgstr ""
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
-msgstr ""
+msgstr "podatci kao skup podataka"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"Zavisna varijabla '{}' ima više od dvije razine, binomna logistička "
+"regresija se može napraviti samo sa zavisnim varijablama s dvije razine."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr ""
+msgstr "Zavisna varijabla '{dep}' ima sljedeći redoslijed: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"Zavisna varijabla \"{dep}\" ima samo dvije razine, razmislite o korištenju "
+"logističke regresije."
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "zavisna varijabla iz `data`, varijabla mora biti numerička"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"zavisna varijabla iz `data`, varijabla mora biti numerička (ne nužno ako se "
+"doda i formula, pogledajte primjere)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "zavisna varijabla. Za ANCOVA-u, ova će biti kontinuirana."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "zavisna varijabla. Za ANOVA-u, ova će biti kontinuirana."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
+"zavisna varijabla--poseban t-test se provodi za svaku pojedinu zavisnu "
+"varijablu."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
