@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-05-19 09:17+0000\n"
+"PO-Revision-Date: 2022-05-19 10:15+0000\n"
 "Last-Translator: Ivan Buljan <buljan.ivan3@gmail.com>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -7347,26 +7347,47 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
+"Analiza varijance za ponovljena mjerenja se koristi za istraživanje "
+"povezanosti \n"
+"između kontiunirane zavisne varijable i jedne ili više kategorijskih \n"
+"opisnih varijabli, gdje je jedna ili više opisnih varijabli\n"
+"\"između ispitanika\" (kada su ponovljena mjerenja dobivena na istim\n"
+"ispitanicima. Dodatno, ova analiza omogućuje uključenje\n"
+"kovarijata, dopuštajući i ANCOVA-u za ponovljena mjerenja.\n"
+"\n"
+"Ova analiza zahtijeva da podatci budu u \"širokom formatu\", gdje svaki\n"
+"red predstavlja ispitanika (nasuprot dugom formatu gdje je svako\n"
+"mjerenje zavisne varijable prikazano kao redak).\n"
+"\n"
+"Neparametrijski ekvivalent ANOVA-e za ponovljena mjerenja također postoji;\n"
+"Friedman test. Međutim, ograničenje je što taj test može testirati \n"
+"samo jedan faktor."
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
-msgstr ""
+msgstr "nacrt za ponovljena mjerenja."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
 msgstr ""
+"Ponovljena mjerenja imaju samo dvije razine. Pretpostavka sfericiteta ("
+"podjednakih varijanci) je uvijek zadovoljena kada postoje samo dva "
+"ponovljena mjerenja"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
+"Ponovljena mjerenja imaju samo dvije razine. Pretpostavka sfericiteta ("
+"podjednakih varijanci) je uvijek zadovoljena kada postoje samo dva "
+"ponovljena mjerenja."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "mjere za ponovljena mjerenja."
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
-msgstr ""
+msgstr "uvjeti modela ponovljenih mjerenja."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -7374,6 +7395,12 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
+"Studentov t-test za nezavisna mjerenja (nekad nazivan i t-testom\n"
+"za dva uzorka) koristi se za testiranje ništične hipoteze da obje skupine "
+"imaju \n"
+"jednaku aritmetičku sredinu. NIska p-vrijednost sugerira da ništična "
+"hipoteza nije točna\n"
+"i da su aritmetičke sredine grupa različite."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -7810,63 +7837,65 @@ msgstr ""
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "Welchov"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "Welchov t"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "Wilcoxonov rang"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
 msgid "Wilcoxon signed rank test"
-msgstr ""
+msgstr "Wilcoxonov test vezanih rangova"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "Wilcoxonov W"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "Wilkov Lambda"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
-msgstr ""
+msgstr "unutar stupca"
 
 #: contTables/options/yaxisPc/row_pc.title
 msgid "within rows"
-msgstr ""
+msgstr "unutar redaka"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "Efekti unutar sudionika"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr ""
+msgstr "X-os"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr ""
+msgstr "X-os"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr ""
+msgstr "Y-Os"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr ""
+msgstr "Y-os"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
 msgstr ""
+"ybrojevi (zadano) or ypostotci. Koristite `brojevi` or `postotci` za y-os "
+"stupčastog grafa"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -7880,27 +7909,27 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
-msgstr ""
+msgstr "z test razlike za dvije proporcije"
 
 #: contTables/options/zProp.title
 msgid "z test for difference in 2 proportions"
-msgstr ""
+msgstr "z test razlike između dvije proporcije"
 
 #: R/conttables.b.R
 msgid "z test only available for 2x2 tables"
-msgstr ""
+msgstr "z test je dostupan samo za 2x2 tablice"
 
 #: linReg/results/modelComp.columns.title
 msgid "ΔR²"
-msgstr ""
+msgstr "ΔR²"
 
 #: anovaNP/results/table.columns.title
 msgid "ε²"
-msgstr ""
+msgstr "ε²"
 
 #: ancova/options/effectSize/eta.title
 #: ancova/results/main.columns.title
@@ -7909,21 +7938,21 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²"
-msgstr ""
+msgstr "η²"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>G</sub>"
-msgstr ""
+msgstr "η²<sub>G</sub>"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>p</sub>"
-msgstr ""
+msgstr "η²<sub>p</sub>"
 
 #: ancova/results/main.columns.title
 msgid "η²p"
-msgstr ""
+msgstr "η²p"
 
 #: anovaNP/results/table.columns.title
 #: anovaRMNP/results/table.columns.title
@@ -7950,36 +7979,36 @@ msgstr ""
 #: pca/results/assump/bartlett.columns.title
 #: propTestN/results/tests.columns.title
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
 msgid "χ² continuity correction"
-msgstr ""
+msgstr "χ² korekcija za kontinuitet"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "χ² preciznost pristajanja"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr ""
+msgstr "χ² preciznost pristajanja"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
-msgstr ""
+msgstr "χ² test"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
 msgid "χ² test of association"
-msgstr ""
+msgstr "χ² test povezanosti"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
-msgstr ""
+msgstr "χ² Testovi"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title
@@ -7988,4 +8017,4 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "ω²"
-msgstr ""
+msgstr "ω²"
