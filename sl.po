@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-05-25 12:21+0000\n"
+"PO-Revision-Date: 2022-05-25 14:18+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/sl/>\n"
@@ -281,6 +281,8 @@ msgstr "`ANOVA – ${dep}`"
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"`columns` oziroma `rows` (privzeto), primerja po stolpcih ali vrsticah "
+"razliko deležev oziroma relativno tveganje 8 (matrike 2x2)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -294,25 +296,31 @@ msgstr "`Koeficienti modela – ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Deleži – ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, poda oznake s številko vrstice za izstopajoče "
+"vrednosti v vretenastem diagramu"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna statistiko T-Testa"
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna statistiko T-Testa"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna Welchovo enosmerno analizo ANOVA, ki ne predvideva enakih varianc"
+msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna Welchovo enosmerno analizo ANOVA, ki "
+"ne predvideva enakih varianc"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna vrednosti 'Z' in 'p' za napoved modela"
+msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna vrednosti 'Z' in 'p' za napoved "
+"modela"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
@@ -324,6 +332,8 @@ msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna hi-kvadrat natančega prileganj
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna interval zaupanja za ocenjena mejna "
+"povprečja"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -334,7 +344,7 @@ msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna Aikaikejev informacijski kriter
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna Cronbachov koeficient α"
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna Cronbachov koeficient α"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -361,12 +371,12 @@ msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna razlike povprečij za preizkuse
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna Pearsonov koeficient R"
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna Pearsonov koeficient R"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna ravni statistične značilnosti"
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna ravni statistične značilnosti"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
@@ -381,40 +391,43 @@ msgstr ""
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna povprečno vrednost"
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna povprečno vrednost"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna mediano"
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna mediano"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, poda modelsko primerjavo med uporabljenimi "
+"modeli in preizkusnim modelom"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, poda število manjkajočih vrednosti"
+msgstr "`TRUE` (privzeto) ali `FALSE`, poda število manjkajočih vrednosti"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, poda podatek velikosti vzorca"
+msgstr "`TRUE` (privzeto) ali `FALSE`, poda podatek velikosti vzorca"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` (privzeto) ali `FALSE`, poda standardni odklon"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, poda statistično lestvico `R-squared` modela"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr ""
+msgstr "`TRUE` (privzeto) ali `FALSE`, poda statistično lestvico `R` modela"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna vrednost χ²"
+msgstr "`TRUE` (privzeto) ali `NAPAK`, izračuna vrednost χ²"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -425,14 +438,17 @@ msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna vrednost χ²"
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, uteži vsako celico enako ali pa poda uteženo "
+"vrednost glede na frekvenco celice"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
+msgstr "`TRUE` (privzeto) ali `FALSE`, doda števce na vretenaste diagrame"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
 msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, doda povprečno vrednost na vretenasti diagram"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
@@ -446,69 +462,79 @@ msgstr "`TRUE` or `FALSE` (privzeto), označi statistično značilne primerjave 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Shapiro-Wilkov preizkus na ostankih"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna vrednosti Fisherjeve enosmerne analize ANOVA s predvidevanjem enakih varianc"
+msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna vrednosti Fisherjeve enosmerne "
+"analize ANOVA s predvidevanjem enakih varianc"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izvede preizkuse homogenosti"
+msgstr "`TRUE` ali `FALSE` (privzeto), izvede preizkuse homogenosti"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Levenove preizkuse homogenosti varianc"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Levenov preizkus homogenosti varianc"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna Man-Whitneyev U"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "`TRUE` or `FALSE` (privzeto), izvede parne primerjave"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Shapiro-Wilkove preizkuse normalnosti"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Shapiro-Wilkov preizkus normalnosti"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Shapiro-Wilkove preizkuse normalnosti"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Shapiro-Wilkove preizkuse normalnosti"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izvede preizkus sferičnosti"
+msgstr "`TRUE` ali `FALSE` (privzeto), izvede preizkus sferičnosti"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost Welchovih T-Testov"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna vrednost Welchovih T-Testov"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izvede Wilcoxonov preizkus predznačenih rangov"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede Wilcoxonov preizkus predznačenih rangov"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr ""
+msgstr "`TRUE` or `FALSE` (privzeto), izriše podatke na robna povprečja"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
@@ -516,6 +542,8 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), določi interval zaupanja za napovedane "
+"koeficientov modela"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
@@ -541,11 +569,11 @@ msgstr ""
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše diagram korelacijske matrike"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše diagram korelacije"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
@@ -553,7 +581,7 @@ msgstr ""
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše diagram opisne statistike"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
@@ -575,11 +603,11 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše diagrame Q-Q ostankov"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše krivuljni diagram"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
@@ -592,10 +620,14 @@ msgstr ""
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
 msgstr ""
+"`TRUE` or `FALSE` (privzeto), izračuna preizkus z sorazmernih razlik med "
+"dvema deležema"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna Aikaikejev informacijski kriterij "
+"(AIC) za modele"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
@@ -610,7 +642,7 @@ msgstr ""
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna Bayesove faktorje"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna Bayesove faktorje"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
@@ -638,42 +670,49 @@ msgstr ""
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna Cohenove d učinke velikosti"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna Cohenove d učinke velikosti"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), poda ostotke stolpca"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna interval zaupanja"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
+"`PRAV` ali `NAPAK` (privzeto), izračuna interval zaupanja primerjalnih "
+"lestvic"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
 msgstr ""
+"`PRAV` ali `NAPAK` (privzeto), izračuna interval zaupanja učinka velikosti"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
 msgstr ""
+"`PRAV` ali `NAPAK` (privzeto), izračuna interval zaupanja povprečne vrednosti"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
 msgstr ""
+"`PRAV` ali `NAPAK` (privzeto), izračuna interval zaupanja razlike povprečja"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"`PRAV` ali `NAPAK` (privzeto), izračuna interval zaupanja učinka velikosti "
+"preizkusa post-hoc"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
@@ -688,7 +727,7 @@ msgstr ""
 #: ttestOneS/options/plots.description.R
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše diagrame opisne statistike"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -696,7 +735,7 @@ msgstr ""
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), poda izračune opisne statistike"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
@@ -705,11 +744,11 @@ msgstr ""
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna učinke velikosti"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna učinke velikosti"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -731,7 +770,9 @@ msgstr ""
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost Fišerjevega natančnega preizkusa"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna vrednost Fišerjevega natančnega "
+"preizkusa"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
@@ -739,15 +780,16 @@ msgstr ""
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost gama"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna vrednost gama"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izriše histograme (le za zvezne spremenljivke)"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izriše histograme (le za zvezne spremenljivke)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
+msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna povprečne vrednosti predmetov"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
@@ -761,24 +803,30 @@ msgstr ""
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost Kendallovega Tau-B"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna vrednost Kendallovega Tau-B"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost Mantel-Haenszelovega trendnega preizkusa"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna vrednost Mantel-Haenszelovega "
+"trendnega preizkusa"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost McDonaldove ω"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna vrednost McDonaldove ω"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna povprečne vrednosti in standardne odklone"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna povprečne vrednosti in standardne "
+"odklone"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna povprečne vrednosti in standardne napake"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna povprečne vrednosti in standardne "
+"napake"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
@@ -786,7 +834,7 @@ msgstr ""
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr ""
+msgstr "`TRUE` or `FALSE` (privzeto), določi percentile"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
@@ -799,14 +847,16 @@ msgstr ""
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izriše diagrame Q-Q (le za zvezne "
+"spremenljivke)"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izriše diagrame Q-Q ostankov"
 
 #: descriptives/options/pcEqGr.description.R
 msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna kvantile"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna kvantile"
 
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
@@ -814,7 +864,9 @@ msgstr ""
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednosti Durbin-Watsovega testa samokorelacije"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna vrednosti Durbin-Watsovega testa "
+"samokorelacije"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
@@ -823,24 +875,26 @@ msgstr ""
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
 msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna odstotne vrednosti"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna odstotne vrednosti"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna Shapiro-Wilkovo p-vrednost"
 
 #: mancova/options/shapiro.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izvede Shapiro-Wilkov preizkus"
 
 #: corrMatrix/options/spearman.description.R
 #: corrPart/options/spearman.description.R
 msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr ""
+msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna Spearmanov koeficient ro"
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna statistiko korelacij v izrisu korelacijske matrike"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna statistiko korelacij v izrisu "
+"korelacijske matrike"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
@@ -849,15 +903,19 @@ msgstr ""
 
 #: anovaOneW/options/phTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna statistike (t-vrednost in prostostne stopnje) za post-hoc teste"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna statistike (t-vrednost in prostostne "
+"stopnje) za post-hoc teste"
 
 #: contTables/options/contCoef.description.R
 msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), poda koeficient kontingenčnosti"
 
 #: contTables/options/diffProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` or `FALSE` (privzeto), izračuna razliko med deleži (na voljo le za "
+"matrike 2x2)"
 
 #: contTables/options/exp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the expected counts"
@@ -875,15 +933,15 @@ msgstr ""
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna interkvartilne range"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna interkvartilne range"
 
 #: descriptives/options/kurt.description.R
 msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna sploščenost porazdelitve"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna sploščenost porazdelitve"
 
 #: contTables/options/likeRat.description.R
 msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna razmerje verjetij"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna razmerje verjetij"
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
@@ -891,19 +949,19 @@ msgstr ""
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr "`PRAV` ali `NAPAK` (privzeto), poda največjo vrednost"
+msgstr "`TRUE` ali `FALSE` (privzeto), poda največjo vrednost"
 
 #: reliability/options/meanScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr ""
+msgstr "`TRUE` (privzeto) ali `FALSE`, izračuna povprečno vrednost podatkov"
 
 #: descriptives/options/min.description.R
 msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr "`PRAV` ali `NAPAK` (privzeto), poda najmanjšo vrednost"
+msgstr "`TRUE` ali `FALSE` (privzeto), poda najmanjšo vrednost"
 
 #: descriptives/options/mode.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr "`PRAV` ali `NAPAK` (privzeto), poda modus podatkov"
+msgstr "`TRUE` ali `FALSE` (privzeto), poda modus podatkov"
 
 #: logLinear/options/modelTest.description.R
 #: logRegBin/options/modelTest.description.R
@@ -911,15 +969,17 @@ msgstr "`PRAV` ali `NAPAK` (privzeto), poda modus podatkov"
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), poda modelsko primerjavo med uporabljenimi "
+"modeli in preizkusnim modelom"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
 msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr "`PRAV` ali `NAPAK` (privzeto), poda število primerov"
+msgstr "`TRUE` ali `FALSE` (privzeto), poda število primerov"
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), izpiše števce opazovanj"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
@@ -950,7 +1010,7 @@ msgstr ""
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr "`PRAV` ali `NAPAK` (privzeto), poda obseg vrednosti podatkov"
+msgstr "`TRUE` ali `FALSE` (privzeto), poda obseg vrednosti podatkov"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
@@ -966,15 +1026,15 @@ msgstr ""
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna asimetričnost porazdelitve"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna asimetričnost porazdelitve"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna standardni odklon"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna standardni odklon"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna standardno napako"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna standardno napako"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
@@ -982,7 +1042,7 @@ msgstr ""
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vsoto podatkov spremenljivke"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna vsoto podatkov spremenljivke"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
@@ -990,11 +1050,11 @@ msgstr ""
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna varianco podatkov spremenljivke"
+msgstr "`TRUE` ali `FALSE` (privzeto), izračuna varianco podatkov spremenljivke"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), poda skupne odstotne vrednosti"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
@@ -1004,19 +1064,26 @@ msgstr ""
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
 msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izriše violinske diagrame (le za zvezne "
+"spremenljivke)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost Cronbachove α, če je predmet izpuščen"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna vrednost Cronbachove α, če je "
+"predmet izpuščen"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izračuna vrednost McDonaldove ω, če je predmet izpuščen"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izračuna vrednost McDonaldove ω, če je "
+"predmet izpuščen"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr "`PRAV` (privzeto) ali `NAPAK`, izračuna vrednost χ² s popravkom zveznosti"
+msgstr ""
+"`TRUE` (privzeto) ali `FALSE`, izračuna vrednost χ² s popravkom zveznosti"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
@@ -1043,12 +1110,12 @@ msgstr ""
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr "`PRAV` ali `NAPAK` (privzeto), pokaže povzetek faktorjev"
+msgstr "`TRUE` ali `FALSE` (privzeto), pokaže povzetek faktorjev"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr "`PRAV` ali `NAPAK` (privzeto), pokaže med-faktorske korelacije"
+msgstr "`TRUE` ali `FALSE` (privzeto), pokaže med-faktorske korelacije"
 
 #: efa/options/kmo.description.R
 #: pca/options/kmo.description.R
@@ -1062,7 +1129,7 @@ msgstr ""
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
 msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr "`PRAV` ali `NAPAK` (privzeto), pokaže diagram komponent"
+msgstr "`TRUE` ali `FALSE` (privzeto), pokaže diagram komponent"
 
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
@@ -1071,15 +1138,19 @@ msgstr ""
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
-msgstr "`PRAV` ali `NAPAK` (privzeto), izvede preizkus homogenosti varianc (npr. Levenov preizkus)"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), izvede preizkus homogenosti varianc (npr. "
+"Levenov preizkus)"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr ""
+msgstr "`TRUE` ali `FALSE` (privzeto), spremenljivke so števci"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr "`PRAV` ali `NAPAK` (privzeto), določa, ali naj bodo prikazani tudi pričakovani števci"
+msgstr ""
+"`TRUE` ali `FALSE` (privzeto), določa, ali naj bodo prikazani tudi "
+"pričakovani števci"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
@@ -3785,11 +3856,11 @@ msgstr "Ocena"
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr ""
+msgstr "Napoved (logaritemsko razmerje obetov)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr ""
+msgstr "Napoved (logaritemsko razmerje stopenj)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -3823,7 +3894,7 @@ msgstr "Ocene"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr ""
+msgstr "Napoved predstavlja log razmerje obetov …"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
@@ -3956,7 +4027,7 @@ msgstr "Faktorske kovariance"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr ""
+msgstr "Napovedi faktorja"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
@@ -4137,7 +4208,7 @@ msgstr "Posplošeni η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
-msgstr ""
+msgstr "Združeno povprečje (enostavno kodiranje)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -4532,7 +4603,7 @@ msgstr "Preizkus razmerij verjetij"
 
 #: R/ancova.b.R
 msgid "linear"
-msgstr ""
+msgstr "linearno‧"
 
 #: package/analyses/linReg.title
 #: package/analyses/linReg.menuTitle
@@ -4859,7 +4930,7 @@ msgstr "Manjkajoče"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "Manjkajoče vrednosti"
+msgstr "Manjkajoče Vrednosti"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -4907,7 +4978,7 @@ msgstr "Model"
 #: logRegMulti/ui[1].label
 #: logRegOrd/ui[1].label
 msgid "Model Builder"
-msgstr ""
+msgstr "Modelski izgrajevalnik"
 
 #: linReg/ui[5].label
 #: logLinear/ui[4].label
@@ -5878,14 +5949,14 @@ msgstr ""
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "Preizkus sorazmernosti (2 izida)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "Preizkus sorazmernosti (N izidov)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
@@ -6123,7 +6194,7 @@ msgstr ""
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "Diagram Q-Q ostankov"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
@@ -6200,12 +6271,12 @@ msgstr "Biserialna korelacija rangov"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr ""
+msgstr "Razmerje Stopenj"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
 msgid "Rate ratio"
-msgstr ""
+msgstr "Razmerje stopenj"
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
@@ -6254,7 +6325,7 @@ msgstr "Regresije"
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
 msgid "Relative risk"
-msgstr ""
+msgstr "Relativno tveganje"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -6291,11 +6362,11 @@ msgstr "ANOVA ponavljajočih meritev (neparametrično)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
-msgstr ""
+msgstr "Cellice ponavljajočih meritev"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr "ANOVA ponavljajočih meritev"
+msgstr "Komponente ponavljajočih meritev"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
@@ -6310,7 +6381,7 @@ msgstr "Izpiši statistično značilnost"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr ""
+msgstr "Predstavlja združeno povprečje"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
@@ -6325,11 +6396,11 @@ msgstr "Ostanek"
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "Kovariance ostankov"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "Kovariance ostankov"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
@@ -6337,7 +6408,7 @@ msgstr ""
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "Napovedi ostankov"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
@@ -6349,7 +6420,7 @@ msgstr ""
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "Diagrami ostankov"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
@@ -6495,7 +6566,7 @@ msgstr "Shrani"
 
 #: reliability/results/scale.columns.content
 msgid "scale"
-msgstr ""
+msgstr "lestvica"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
@@ -6511,7 +6582,7 @@ msgstr "Statistika zanesljivosti lestvice"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
-msgstr ""
+msgstr "Statistika lestvice"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
@@ -6718,7 +6789,7 @@ msgstr "Asimetrija"
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "Razvrsti uteži po velikosti"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
@@ -6841,7 +6912,7 @@ msgstr "Statistika"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "statistika"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -7034,7 +7105,7 @@ msgstr "alternativna hipoteza."
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr ""
+msgstr "alternativna hipoteza. Možnost določa enosmerne preizkuse."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -7140,12 +7211,12 @@ msgstr "kategorične pojasnjevalne (ali neodvisne) spremenljivke."
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "širina intervala zaupanja za velikosti učinka."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "širina intervala zaupanja za velikosti učinka preizkusov post-hoc."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
@@ -7161,7 +7232,7 @@ msgstr "zvezne pojasnjevalne (ali neodvisne) spremenljivke, imenovane tudi kovar
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 msgid "the contrasts to use."
-msgstr ""
+msgstr "kontrasti za uporabo."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
@@ -7177,7 +7248,7 @@ msgstr ""
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "kovariati za podatkovno zbirko `data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -7272,14 +7343,18 @@ msgstr ""
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
+"pojasnjevalna ali neodvisna spremenljivka. Za analizo ANOVA je ta "
+"kategorična."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
+"pojasnjevalne ali neodvisne spremenljivke. Za analizo ANOVA so te "
+"kategorične."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr ""
+msgstr "stalni faktorji med podatki `data`"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -7289,6 +7364,8 @@ msgstr "Friedmanov preizkus se uporablja za raziskovanje razmerja med zvezno odv
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
+"združevalna spremenljivka z dvema ravnema (ni obvezna pri uporabi formule, "
+"več med primeri)"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
@@ -7297,7 +7374,7 @@ msgstr "Kruskal-Wallisov preizkus se uporablja za raziskovanje razmerja med zvez
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "oznaka, uporabljena za odvisno spremenljivko."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
@@ -7315,11 +7392,13 @@ msgstr ""
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
-msgstr ""
+msgstr "pogoji modela, ki oblikujejo model."
 
 #: anova/options/modelTerms.description.ui
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
+"pogoji modela, ki oblikujejo model. Privzeto je ustvarjen polni faktorski "
+"model, vendar je mogoče natančne pogoje, ki določajo model, prilagoditi."
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
@@ -7398,7 +7477,7 @@ msgstr ""
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
-msgstr ""
+msgstr "pogoji ponovljenih meritev modela."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -7505,14 +7584,15 @@ msgstr "T-Test za parnih vzorcev (tudi t-test odvisnih vzorcev) se uporablja\n"
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
 msgstr ""
+"pogoji za izračun ocene robnih povprečij. Določiti je mogoče več pogojev."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "vrednost, ki pomeni preizkusno raven (običajno je nič)."
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "vrsta korelacije za izračun"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
@@ -7526,7 +7606,7 @@ msgstr "vrsta vsote kvadratov za uporabo; vrsta 2 ali 3."
 #: ancova/results/model.description
 #: anova/results/model.description
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "Osnovni predmet `aov`"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
@@ -7538,22 +7618,28 @@ msgstr ""
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "spremenljivka, ki določa dve skupini; vsebovati mora 2 ravni."
 
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
 msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"spremenljivka, ki naj določa stolpce v kontingenčni razpredelnici (pri "
+"formuli ni zahtevana, več med primeri)."
 
 #: contTables/options/counts.description.R
 #: contTablesPaired/options/counts.description.R
 msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"spremenljivka, ki naj določa števce v kontingenčni razpredelnici (pri "
+"formuli ni zahtevana, več med primeri)."
 
 #: contTables/options/rows.description.R
 #: contTablesPaired/options/rows.description.R
 msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"spremenljivka, ki naj določa vrstice v kontingenčni razpredelnici (pri "
+"formuli ni zahtevana, več med primeri)."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
@@ -7831,6 +7917,7 @@ msgstr "Variance"
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
 msgstr ""
+"variacija nadzornih spremenljivk se odstrani le iz spremenljivk v stolpcih"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -7916,7 +8003,7 @@ msgstr "Učinki med primeri"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr "Os X"
+msgstr "X-os"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
@@ -7924,7 +8011,7 @@ msgstr "Os X"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr "Os Y"
+msgstr "Y-os"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
