@@ -1,61 +1,74 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"PO-Revision-Date: 2022-06-05 01:13+0000\n"
+"Last-Translator: ABDULLAH MOHAMMED ALMONTSHRI <acc302@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr ""
+msgstr "يحتوي '{col}' على قيم لا نهائية"
 
 #: R/errors.R
+#, fuzzy
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "يحتوي \"{col}\" على قيم مفقودة"
 
 #: R/errors.R
+#, fuzzy
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "يحتوي '{col}' على القيم المفقودة فقط"
 
 #: R/errors.R
+#, fuzzy
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "يحتوي '{col}' على قيمة فريدة واحدة فقط"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
+msgstr "تم استخدام طريقة الاستخراج \"{method}\" مع الدوران \"{rotation}\""
 
 #: R/pca.b.R
+#, fuzzy
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "تم استخدام التناوب \"{rotation}\""
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "يحتوي '{var}' على قيم سالبة. لا يسمح بالأوزان السالبة."
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - كيندال تاو بي"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - بيرسون r"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - روو سبيرمان"
 
 #: R/corrmatrix.b.R
+#, fuzzy
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}٪ CI أقل"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}٪ CI يعني {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
@@ -74,28 +87,34 @@ msgstr ""
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciWidth}٪ فترة ثقة"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "{ciWidth}٪ فترات الثقة"
 
 #: R/utils.R
+#, fuzzy
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} و {item2}"
 
 #: R/utils.R
+#, fuzzy
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list} ، {nextItem}"
 
 #: R/utils.R
+#, fuzzy
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list} و {lastItem}"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "تم ربط {n} زوج (أزواج) من القيم"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
@@ -2561,8 +2580,9 @@ msgstr ""
 #: contTables/options/yaxis/ycounts.title
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
+#, fuzzy
 msgid "Counts"
-msgstr ""
+msgstr "العد"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -2570,7 +2590,7 @@ msgstr ""
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr ""
+msgstr "العد (اختياري)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4131,7 +4151,7 @@ msgstr ""
 
 #: ttestIS/results/desc.columns.title
 msgid "Group"
-msgstr ""
+msgstr "مجموعة"
 
 #: R/conttables.b.R
 msgid "Group 1"
@@ -5072,7 +5092,7 @@ msgstr ""
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
 msgid "None"
-msgstr ""
+msgstr "لا أحد"
 
 #: R/pca.b.R
 msgid "none"
@@ -6784,7 +6804,7 @@ msgstr ""
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr ""
+msgstr "خطأ تقليدي"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -7156,7 +7176,7 @@ msgstr ""
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
-msgstr ""
+msgstr "البيانات كإطار بيانات"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -7811,7 +7831,7 @@ msgstr ""
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr ""
+msgstr "المحور السيني"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
@@ -7819,7 +7839,7 @@ msgstr ""
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr ""
+msgstr "المحور الصادي"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
