@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-05-30 12:13+0000\n"
-"Last-Translator: Sami Çoksan <sami.coksan@erzurum.edu.tr>\n"
+"PO-Revision-Date: 2022-06-14 00:13+0000\n"
+"Last-Translator: Ömer Emre Can Alagöz <oecakayit@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -29,14 +29,14 @@ msgid "'{col}' contains only one unique value"
 msgstr "‘{col}’ bir tek değerden oluşuyor"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
-"‘{method}’ extraction method was used in combination with a ‘{rotation}’ "
-"rotation"
+"‘{method}’ çıkarma yöntemi ‘{rotation}’ rotasyonu ile birlikte kullanıldı"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr "‘{rotation}’ rotation was used"
+msgstr "‘{rotation}’ rotasyonu kullanıldı"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -206,18 +206,32 @@ msgstr ""
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
+"`'different'` (varsayılan), `'oneGreater'` ya da `'twoGreater'`, alternatif "
+"hipotez; sırasıyla: ölçüm 1 ölçüm 2'den farklıdır, ölçüm 1 ölçüm 2'den "
+"büyüktür, ve ölçüm 2 ölçüm 1'den büyüktür"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (varsayılan), `'gt'` ya da `'lt'`, alternatif hipotez; sırasıyla: "
+"`testValue` değerinden farklıdır, `testValue` değerinden büyüktür, ve "
+"`testValue` değerinden küçüktür"
 
 #: cfa/options/constrain.description.R
+#, fuzzy
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` ya da `'facInd'`, modelin nasıl tanımlandığıdır; `'facVar'` "
+"faktör varyanslarını 1'e sabitler, `'facInd'` her bir faktörün ölçeğini ona "
+"yük veren ilk maddenin ölçeğine sabitler."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` ya da `'fiml'`, eksik verilere ne yapılacağıdır; `'listwise'` "
+"eğer bir satır eksik veri barındırıyorsa o satırdaki veriler hiçbir analize "
+"dahil edilmez , `'fiml'`model tahminlemesi için tam bilgi (full information) "
+"en çok olabilirlik yöntemini kullanır."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
