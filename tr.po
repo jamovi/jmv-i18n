@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-14 01:20+0000\n"
-"Last-Translator: Ömer Emre Can Alagöz <oecakayit@gmail.com>\n"
+"PO-Revision-Date: 2022-06-14 20:20+0000\n"
+"Last-Translator: Haldun Akoğlu <drhaldun@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -256,33 +256,50 @@ msgstr ""
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; "
+"`'none'` post-hoc testleri göstermez, `'gamesHowell'` varyansların denk "
+"olmadığını varsayan Games-Howell post-hoc testlerini gösterir, `'tukey'` "
+"varyansların denk olduğunu varsayan Tukey post-hoc testlerini gösterir"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'` (varsayılan), `'quartimax'`, `'promax'`, `'oblimin'`, "
+"ya da `'simplimax'`, tahminde kullanılacak rotasyon"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (varsayılan), "
+"ya da `'simplimax'`, tahminde kullanılacak rotasyon"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
 msgstr ""
+"`'notequal'` (varsayılan), `'greater'` ya da `'less'`, alternatif hipotez"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
+"`'parallel'` (varsayılan), `'eigen'` ya da `'fixed'`, faktörlerin sayısını "
+"belirleme yöntemi"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"`'perAnalysis'` ya da `'listwise'`, eksik veriler nasıl yönetilsin?; "
+"`'perAnalysis'` eksik veri sadece analiz edilen değişkende hariç tutulur, "
+"`'listwise'` eksik veri olan satır tüm analizlerden hariç tutulur"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"`'perAnalysis'` ya da `'listwise'`, eksik veriler nasıl yönetilsin?; "
+"`'perAnalysis'` eksik veri sadece analiz edilen değişkende hariç tutulur, "
+"`'listwise'` eksik veri olan satır tüm analizlerden hariç tutulur."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
@@ -291,6 +308,8 @@ msgstr ""
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
+"`'rows'` veya `'columns'`(varsayılan), değişkenleri satırlarda veya "
+"sütunlarda (varsayılan) görüntüleyin"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
@@ -298,29 +317,31 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"'sütunlar' veya 'satırlar' (varsayılan), sütunları/satırları oran veya "
+"göreli risk farkı bakımından karşılaştırın (2x2 tablolar)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`Model Katsayıları - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "'Model Katsayıları - ${dep}'"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "'Oranlar - ${var}'"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
