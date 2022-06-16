@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-14 20:20+0000\n"
-"Last-Translator: Haldun Akoğlu <drhaldun@gmail.com>\n"
+"PO-Revision-Date: 2022-06-16 12:20+0000\n"
+"Last-Translator: Tahir Enes Gedik <tegedik@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -472,6 +472,8 @@ msgstr ""
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"`TRUE ` (varsayılan) or `FALSE `, her bir hücreyi eşit ya da hücre "
+"frekansına göre ağırlıklandır"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
@@ -479,7 +481,7 @@ msgstr ""
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
+msgstr "`TRUE ` ya da `FALSE ` (varsayılan), kutu grafiğine ortalama ekle"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
@@ -2278,7 +2280,7 @@ msgstr ""
 
 #: contTables/options/compare.title
 msgid "Compare"
-msgstr ""
+msgstr "Karşılaştır"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -2288,51 +2290,51 @@ msgstr ""
 #: logRegMulti/results/modelComp.columns.superTitle
 #: logRegOrd/results/modelComp.columns.superTitle
 msgid "Comparison"
-msgstr ""
+msgstr "Karşılaştırma"
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr ""
+msgstr "Karşılaştırmalar hesaplanan marjinal ortalamalara dayanmaktadır"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Component"
-msgstr ""
+msgstr "Bileşen"
 
 #: pca/options/factorCor.title
 msgid "Component correlations"
-msgstr ""
+msgstr "Bileşen korelasyonları"
 
 #: pca/results/loadings.title
 msgid "Component Loadings"
-msgstr ""
+msgstr "Bileşen Yükleri"
 
 #: pca/options/factorScoresOV.title
 msgid "Component scores"
-msgstr ""
+msgstr "Bileşen skorları"
 
 #: pca/results/factorStats.title
 msgid "Component Statistics"
-msgstr ""
+msgstr "Bileşen İstatistikleri"
 
 #: pca/options/factorSummary.title
 msgid "Component summary"
-msgstr ""
+msgstr "Bileşen özeti"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "component(s)"
-msgstr ""
+msgstr "Bileşenler"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
 msgid "Components"
-msgstr ""
+msgstr "Bileşenler"
 
 #: R/pca.b.R
 msgid "components"
-msgstr ""
+msgstr "bileşenler"
 
 #: ancova/options/postHocEsCi.title
 #: anova/options/postHocEsCi.title
@@ -2345,7 +2347,7 @@ msgstr ""
 #: ttestPS/options/ci.title
 #: ttestPS/options/ciES.title
 msgid "Confidence Interval"
-msgstr ""
+msgstr "Güven Aralıkları"
 
 #: ancova/options/emmPlotError/ci.title
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
@@ -2377,28 +2379,28 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Güven aralıkları"
 
 #: descriptives/ui[2][2][1][0]/ci.label
 msgid "Confidence interval for Mean"
-msgstr ""
+msgstr "Ortalama için güven aralığı"
 
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "Güven aralığı genişliği"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
 msgid "Confidence Intervals"
-msgstr ""
+msgstr "Güven Aralıkları"
 
 #: contTables/options/ci.title
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
 msgid "Confidence intervals"
-msgstr ""
+msgstr "Güven aralıkları"
 
 #: ancova/options/postHocEsCiWidth.title
 #: ancova/options/ciWidthEmm.title
@@ -2427,7 +2429,7 @@ msgstr ""
 #: ttestPS/options/ciWidth.title
 #: ttestPS/options/ciWidthES.title
 msgid "Confidence level"
-msgstr ""
+msgstr "Güven düzeyi"
 
 #: package/analyses/cfa.title
 #: package/analyses/cfa.menuTitle
@@ -2437,7 +2439,7 @@ msgstr ""
 #: cfa/ui.title
 #: cfa/results.title
 msgid "Confirmatory Factor Analysis"
-msgstr ""
+msgstr "Doğrulayıcı Faktör Analizi"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
@@ -2517,7 +2519,7 @@ msgstr ""
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[4][1][0].label
 msgid "Corrections"
-msgstr ""
+msgstr "Düzeltmeler"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
@@ -2585,12 +2587,12 @@ msgstr ""
 #: corrMatrix/results.title
 #: corrMatrix/results/matrix.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "Korelasyon Matrisi"
 
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Korelasyon matrisi"
 
 #: corrPart/ui[1][2].label
 msgid "Correlation Type"
@@ -3918,7 +3920,7 @@ msgstr ""
 
 #: efa/options/extraction.title
 msgid "Extraction"
-msgstr ""
+msgstr "Çıkarma"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -3952,19 +3954,19 @@ msgstr ""
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr ""
+msgstr "Faktör"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "Faktör '{factor}' en az iki düzeye sahip olmalı"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data"
-msgstr ""
+msgstr "Faktörde '{factorName}' veri bulunmuyor"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level"
-msgstr ""
+msgstr "Faktörde '{factorName}' sadece bir düzey yer almaktadır"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4012,7 +4014,7 @@ msgstr ""
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr ""
+msgstr "Faktör skorları"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
@@ -4910,12 +4912,12 @@ msgstr ""
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
 msgid "Missing Values Method"
-msgstr ""
+msgstr "Kayıp Değerler Yöntemi"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
 msgid "Mode"
-msgstr ""
+msgstr "Mod"
 
 #: R/logregbin.b.R
 #: ancova/ui[2].label
@@ -4932,7 +4934,7 @@ msgstr ""
 #: logRegOrd/results/modelFit.columns.title
 #: logRegOrd/results/modelComp.columns.title
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: linReg/ui[1].label
 #: logLinear/ui[1].label
@@ -5010,7 +5012,7 @@ msgstr ""
 
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
-msgstr ""
+msgstr "Model eşikleri"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -5022,7 +5024,7 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
+msgstr "Birden çok mod bulunmaktadır, sadece ilki gösterilmiştir"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5094,7 +5096,7 @@ msgstr ""
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr ""
+msgstr "Düzeltme yok"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
