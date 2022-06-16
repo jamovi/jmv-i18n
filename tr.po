@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-16 12:20+0000\n"
-"Last-Translator: Tahir Enes Gedik <tegedik@gmail.com>\n"
+"PO-Revision-Date: 2022-06-16 19:16+0000\n"
+"Last-Translator: Serdar Balcı <drserdarbalci@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr "‘{col}’ sonsuz değerler içeriyor"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr "‘{col}’ eksik veri içeriyor"
+msgstr "‘{col}’ eksik veri içermekte"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
@@ -26,7 +26,7 @@ msgstr "‘{col}’ sadece eksik verilerden oluşuyor"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr "‘{col}’ bir tek değerden oluşuyor"
+msgstr "‘{col}’ sadece bir tek değerden oluşuyor"
 
 #: R/pca.b.R
 #, fuzzy
@@ -100,7 +100,7 @@ msgstr "{list}, ve {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr "{n} değer çifti bağlandı"
+msgstr "{n} değer çifti birbirine eşit"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
@@ -111,9 +111,8 @@ msgid "{varName} (reversed)"
 msgstr "{varName} (ters çevrildi)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr "Binom lojistik regresyon modelinin {varType} değeri{modelNo}"
+msgstr "Binom lojistik regresyon modelinin {varType} değeri {modelNo}"
 
 #: R/linreg.b.R
 #, fuzzy
@@ -240,8 +239,11 @@ msgstr ""
 "çubukları"
 
 #: efa/options/extraction.description.R
+#, fuzzy
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"Faktör çıkarma yöntemi olarak `'minres'` (varsayılan), `'ml'` veya `'pa'` "
+"sırasıyla 'minimum artık', 'maksimum olabilirlik' veya 'ana eksen' kullanır"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
@@ -8009,4 +8011,4 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "ω²"
-msgstr ""
+msgstr "ω²"
