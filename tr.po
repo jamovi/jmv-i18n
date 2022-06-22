@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-16 19:16+0000\n"
-"Last-Translator: Serdar Balcı <drserdarbalci@gmail.com>\n"
+"PO-Revision-Date: 2022-06-22 13:17+0000\n"
+"Last-Translator: Tahir Enes Gedik <tegedik@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -217,12 +217,11 @@ msgstr ""
 "`testValue` değerinden küçüktür"
 
 #: cfa/options/constrain.description.R
-#, fuzzy
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
 "`'facVar'` ya da `'facInd'`, modelin nasıl tanımlandığıdır; `'facVar'` "
-"faktör varyanslarını 1'e sabitler, `'facInd'` her bir faktörün ölçeğini ona "
-"yük veren ilk maddenin ölçeğine sabitler."
+"faktör varyanslarını 1'e sabitler, `'facInd'` her bir faktörü ona yük veren "
+"ilk maddenin ölçeğine sabitler."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
@@ -2485,15 +2484,15 @@ msgstr ""
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
-msgstr ""
+msgstr "Kontrol Değişkenleri"
 
 #: corrPart/options/controls.title
 msgid "Control variables"
-msgstr ""
+msgstr "Kontrol değişkenleri"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "{items} için kontrol edildi"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
@@ -3507,7 +3506,7 @@ msgstr ""
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
-msgstr ""
+msgstr "Bağımlı"
 
 #: ancova/options/dep.title
 #: anova/options/dep.title
@@ -3517,15 +3516,15 @@ msgstr ""
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr ""
+msgstr "Bağımlı değişken"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr ""
+msgstr "Bağımlı Değişken Etiketi"
 
 #: R/ancova.b.R
 msgid "Dependent variable must be numeric"
-msgstr ""
+msgstr "Bağımlı değişken sayısal olmalı"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -3534,7 +3533,7 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
-msgstr ""
+msgstr "Bağımlı Değişkenler"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -3542,11 +3541,11 @@ msgstr ""
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
-msgstr ""
+msgstr "Betimleyici Grafik"
 
 #: anovaRMNP/options/plots.title
 msgid "Descriptive plot"
-msgstr ""
+msgstr "Betimleyici grafik"
 
 #: package/analyses/descriptives.title
 #: package/analyses/descriptives.menuTitle
