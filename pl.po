@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-30 20:20+0000\n"
+"PO-Revision-Date: 2022-06-30 21:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -3696,6 +3696,38 @@ msgid "data('Prestige', package='carData')\n"
 "#  ────────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('Prestige', package='carData')\n"
+"\n"
+"linReg(data = Prestige, dep = income,\n"
+"       covs = vars(education, prestige, women),\n"
+"       blocks = list(list('education', 'prestige', 'women')))\n"
+"\n"
+"#\n"
+"#  LINEAR REGRESSION\n"
+"#\n"
+"#  Model Fit Measures\n"
+"#  ───────────────────────────\n"
+"#    Model    R        R²\n"
+"#  ───────────────────────────\n"
+"#        1    0.802    0.643\n"
+"#  ───────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODEL SPECIFIC RESULTS\n"
+"#\n"
+"#  MODEL 1\n"
+"#\n"
+"#\n"
+"#  Model Coefficients\n"
+"#  ────────────────────────────────────────────────────────\n"
+"#    Predictor    Estimate    SE         t         p\n"
+"#  ────────────────────────────────────────────────────────\n"
+"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
+"#    women           -50.9       8.56    -5.948    < .001\n"
+"#    prestige        141.4      29.91     4.729    < .001\n"
+"#    education       177.2     187.63     0.944     0.347\n"
+"#  ────────────────────────────────────────────────────────\n"
+"#"
 
 #: ancova/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3721,6 +3753,28 @@ msgid "data('ToothGrowth')\n"
 "    postHoc = ~ supp,\n"
 "    emMeans = ~ supp)"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANCOVA\n"
+"#\n"
+"#  ANCOVA\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#                 Sum of Squares    df    Mean Square    F        p\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#    supp                    205     1          205.4     11.4     0.001\n"
+"#    dose                   2224     1         2224.3    124.0    < .001\n"
+"#    Residuals              1023    57           17.9\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ancova(\n"
+"    formula = len ~ supp + dose,\n"
+"    data = ToothGrowth,\n"
+"    postHoc = ~ supp,\n"
+"    emMeans = ~ supp)"
 
 #: anova/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3748,6 +3802,31 @@ msgid "data('ToothGrowth')\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANOVA\n"
+"#\n"
+"#  ANOVA\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#                 Sum of Squares    df    Mean Square    F        p\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#    dose                   2426     2         1213.2    92.00    < .001\n"
+"#    supp                    205     1          205.4    15.57    < .001\n"
+"#    dose:supp               108     2           54.2     4.11     0.022\n"
+"#    Residuals               712    54           13.2\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ANOVA(\n"
+"    formula = len ~ dose * supp,\n"
+"    data = ToothGrowth,\n"
+"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:"
+"supp\n"
+"    emmPlots = TRUE,              # produce plots of those marginal means\n"
+"    emmTables = TRUE)             # produce tables of those marginal means"
 
 #: anovaNP/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3765,6 +3844,20 @@ msgid "data('ToothGrowth')\n"
 "#  ───────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
+"#\n"
+"#  Kruskal-Wallis\n"
+"#  ───────────────────────────────\n"
+"#           χ²      df    p\n"
+"#  ───────────────────────────────\n"
+"#    len    40.7     2    < .001\n"
+"#  ───────────────────────────────\n"
+"#"
 
 #: ttestIS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3782,6 +3875,20 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  INDEPENDENT SAMPLES T-TEST\n"
+"#\n"
+"#  Independent Samples T-Test\n"
+"#  ────────────────────────────────────────────────────\n"
+"#                          statistic    df      p\n"
+"#  ────────────────────────────────────────────────────\n"
+"#    len    Student's t         1.92    58.0    0.060\n"
+"#  ────────────────────────────────────────────────────\n"
+"#"
 
 #: ttestOneS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3800,6 +3907,21 @@ msgid "data('ToothGrowth')\n"
 "#  ──────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
+"\n"
+"#\n"
+"#  ONE SAMPLE T-TEST\n"
+"#\n"
+"#  One Sample T-Test\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#                           statistic    df      p\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#    len     Student's t         19.1    59.0    < .001\n"
+"#    dose    Student's t         14.4    59.0    < .001\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#"
 
 #: anovaOneW/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3819,6 +3941,22 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"dat <- ToothGrowth\n"
+"dat$dose <- factor(dat$dose)\n"
+"\n"
+"anovaOneW(formula = len ~ dose, data = dat)\n"
+"\n"
+"#\n"
+"#  ONE-WAY ANOVA\n"
+"#\n"
+"#  One-Way ANOVA (Welch's)\n"
+"#  ────────────────────────────────────────\n"
+"#           F       df1    df2     p\n"
+"#  ────────────────────────────────────────\n"
+"#    len    68.4      2    37.7    < .001\n"
+"#  ────────────────────────────────────────\n"
+"#"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -3831,7 +3969,7 @@ msgstr ""
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
-msgstr ""
+msgstr "Zależna"
 
 #: ancova/options/dep.title
 #: anova/options/dep.title
@@ -3841,15 +3979,15 @@ msgstr ""
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr ""
+msgstr "Zmienna zależna"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr ""
+msgstr "Poziom zmiennej zależnej"
 
 #: R/ancova.b.R
 msgid "Dependent variable must be numeric"
-msgstr ""
+msgstr "Zmienna zależna musi być numeryczna"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -3858,7 +3996,7 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
-msgstr ""
+msgstr "Zmienne zależne"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -3888,12 +4026,16 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/desc.label
 #: ttestPS/results/desc.title
 msgid "Descriptives"
-msgstr ""
+msgstr "Statystyki opisowe"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
 msgstr ""
+"Statystyki opisowe to zbiór statystyk podsumowujących zmienne oraz "
+"wizualizacji pozwalających oceniać kształt rozkładu danych. Dobrą praktyką "
+"jest wykonanie eksploracji danych przy pomocy tych narzędzi przed "
+"przystąpieniem do wykonania dalszych analiz statystycznych."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -3938,13 +4080,13 @@ msgstr ""
 #: logRegOrd/options/dev.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "Deviance"
-msgstr ""
+msgstr "Odchylenie"
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
 msgid "Deviation"
-msgstr ""
+msgstr "Odchylenie"
 
 #: R/ancova.b.R
 #: ancova/results/main.columns.title
@@ -3979,27 +4121,27 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
 #: anovaRM/options/contrasts.template/type/difference.title
 msgid "Difference"
-msgstr ""
+msgstr "Różnica"
 
 #: contTables/results/odds.columns.content
 msgid "Difference in 2 proportions"
@@ -4011,19 +4153,19 @@ msgstr ""
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
-msgstr ""
+msgstr "Miary rozproszenia"
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
-msgstr ""
+msgstr "Miary rozkładu"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr ""
+msgstr "Brak równości wariancji (Welch's)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
-msgstr ""
+msgstr "przeciągnij zmienną tutaj"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -4039,23 +4181,23 @@ msgstr ""
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 msgid "drag variables here"
-msgstr ""
+msgstr "przeciągnij zmienne tutaj"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
-msgstr ""
+msgstr "porównanie parami metodą DSCF"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "statystyka Durbina-Watsona"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr ""
+msgstr "statystyka DW"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr ""
+msgstr "porównanie parami metodą Dwass-Steel-Critchlow-Fligner"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -4071,7 +4213,7 @@ msgstr ""
 #: ttestPS/options/effectSize.title
 #: ttestPS/results/ttest.columns.title
 msgid "Effect Size"
-msgstr ""
+msgstr "Wielkość efektu"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
@@ -4081,21 +4223,21 @@ msgstr ""
 #: ttestOneS/ui[1][1][0]/effectSize.label
 #: ttestPS/ui[1][1][0]/effectSize.label
 msgid "Effect size"
-msgstr ""
+msgstr "Wielkość efektu"
 
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
 msgid "Eigenvalue"
-msgstr ""
+msgstr "Wartość własna"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr ""
+msgstr "Wartości własne"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 msgid "Eigenvalues greater than"
-msgstr ""
+msgstr "Wartości własne większe, niż"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4115,7 +4257,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "error %"
-msgstr ""
+msgstr "błąd %"
 
 #: ancova/options/emmPlotError.title
 #: anova/options/emmPlotError.title
@@ -4210,12 +4352,12 @@ msgstr ""
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
-msgstr ""
+msgstr "Wykluczone"
 
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
 msgid "Expected"
-msgstr ""
+msgstr "Oczekiwane"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
@@ -4242,7 +4384,7 @@ msgstr "Eksploracja"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "Eksploracyjna analiza czynnikowa"
 
 #: efa/options/extraction.title
 msgid "Extraction"
@@ -4259,15 +4401,15 @@ msgstr ""
 #: mancova/results/univar.columns.title
 #: ttestIS/results/assum/eqv.columns.title
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
-msgstr ""
+msgstr "test F"
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
-msgstr ""
+msgstr "statystyka F nie mogła zostać obliczona"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -4280,27 +4422,27 @@ msgstr ""
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr ""
+msgstr "Czynnik"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "Czynnik '{factor}' musi mieć co najmniej 2 poziomy"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data"
-msgstr ""
+msgstr "Czynnik '{factorName}' nie zawiera danych"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level"
-msgstr ""
+msgstr "Czynnik '{factorName}' przyjmuje tylko 1 poziom"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
-msgstr ""
+msgstr "Czynnik {0}"
 
 #: cfa/options/factors.default[0].label
 msgid "Factor 1"
-msgstr ""
+msgstr "Czynnik 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
@@ -4331,7 +4473,7 @@ msgstr ""
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
 msgid "Factor Loadings"
-msgstr ""
+msgstr "Ładunki czynnikowe"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
@@ -4356,7 +4498,7 @@ msgstr ""
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
-msgstr ""
+msgstr "czynnik(i)"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -4372,20 +4514,20 @@ msgstr ""
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
 msgid "Factors"
-msgstr ""
+msgstr "Czynniki"
 
 #: R/pca.b.R
 msgid "factors"
-msgstr ""
+msgstr "czynniki"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
-msgstr ""
+msgstr "Fishera"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr ""
+msgstr "dokładny test Fishera"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -4400,7 +4542,7 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Fitted"
-msgstr ""
+msgstr "Dopasowany"
 
 #: ancova/options/factors.title
 #: anova/options/factors.title
@@ -4418,21 +4560,21 @@ msgstr ""
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
-msgstr ""
+msgstr "Oznacz istotne porównania"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Oznacz istotne korelacje"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr ""
+msgstr "oznacz istotne korelacje (p < .05)."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "oznacz istotne porównania post-hoc."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -4446,22 +4588,22 @@ msgstr ""
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
 msgid "Frequencies"
-msgstr ""
+msgstr "Częstości"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
-msgstr ""
+msgstr "Częstości $key"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
 msgid "Frequency tables"
-msgstr ""
+msgstr "Tabele częstości"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
 msgid "Friedman"
-msgstr ""
+msgstr "test Friedmana"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
@@ -4469,17 +4611,17 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
-msgstr ""
+msgstr "test Games-Howell (nierówne wariancje)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "test post-hoc Games-Howell – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
 #: contTables/results/gamma.columns.title
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
@@ -4502,11 +4644,11 @@ msgstr ""
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Greenhouse-Geisser"
-msgstr ""
+msgstr "statystyka Greenhouse'a-Geissera"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Greenhouse-Geisser ε"
-msgstr ""
+msgstr "ε Greenhouse'a-Geissera"
 
 #: ttestIS/results/desc.columns.title
 msgid "Group"
@@ -4514,32 +4656,32 @@ msgstr "Grupa"
 
 #: R/conttables.b.R
 msgid "Group 1"
-msgstr ""
+msgstr "Grupa 1"
 
 #: contTables/options/hypothesis/twoGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_twoGreater.label
 #: ttestIS/options/hypothesis/twoGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "Grupa 1 < Grupa 2"
 
 #: contTables/options/hypothesis/different.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_different.label
 #: ttestIS/options/hypothesis/different.title
 #: ttestIS/ui[1][0][1]/hypothesis_different.label
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "Grupa 1 ≠ Grupa 2"
 
 #: contTables/options/hypothesis/oneGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_oneGreater.label
 #: ttestIS/options/hypothesis/oneGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "Grupa 1 > Grupa 2"
 
 #: R/conttables.b.R
 msgid "Group 2"
-msgstr ""
+msgstr "Grupa 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
@@ -4548,40 +4690,41 @@ msgstr ""
 
 #: anovaRM/results/groupSummary.title
 msgid "Group Summary"
-msgstr ""
+msgstr "Podsumowanie grup"
 
 #: anovaRM/options/groupSumm.title
 msgid "Group summary"
-msgstr ""
+msgstr "Podsumowanie grup"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Zmienna grupująca"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
 msgstr ""
+"Po wykluczeniu braków danych zmienna grupująca '{a}' ma mniej, niż 2 poziomy"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr ""
+msgstr "Zmienna grupująca '{a}' musi mieć dokładnie 2 poziomy"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr ""
+msgstr "Zmienna grupująca '{a}' nie może być równocześnie zmienną zależną"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ zmienne są skorelowane ujemnie"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ zmienne są skorelowane dodatnio"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
@@ -4589,22 +4732,22 @@ msgstr ""
 
 #: R/conttables.b.R
 msgid "Haldane-Anscombe correction applied"
-msgstr ""
+msgstr "korekta Haldane-Anscombe została zastosowana"
 
 #: efa/options/factorScoreMethod/Harman.title
 msgid "Harman"
-msgstr ""
+msgstr "Harman"
 
 #: ancova/options/contrasts.template/type/helmert.title
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
-msgstr ""
+msgstr "Helmert"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
-msgstr ""
+msgstr "Ukryj ładunki czynnikowe poniżej"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
