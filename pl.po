@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-30 16:19+0000\n"
+"PO-Revision-Date: 2022-06-30 19:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -43,19 +43,19 @@ msgstr ""
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - tau-b Kendalla"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - r Pearsona"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - rho Spearmana"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% CI dolna granica"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% CI górna granica"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -79,7 +79,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciWidth}% Przedział ufności"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
@@ -87,15 +87,15 @@ msgstr ""
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} i {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list}, {nextItem}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list} i {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (odwrócone)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
@@ -120,7 +120,7 @@ msgstr ""
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, jednostronne"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -154,24 +154,24 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "% poprawnych"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "% całości"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "% całości"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr ""
+msgstr "% wariancji"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -272,11 +272,11 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
@@ -294,7 +294,7 @@ msgstr ""
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Proporcje - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
@@ -304,11 +304,13 @@ msgstr ""
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "`PRAWDA` (domyślne) lub `FAŁSZ`, wykonaj test t Studenta"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
+"`PRAWDA` (domyślne) lub `FAŁSZ`, wykonaj jednoczynnikowa ANOVA Welsch'a, "
+"która nie zakłada równości wariancji"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
@@ -381,11 +383,11 @@ msgstr ""
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
+msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl średnią"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
+msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl medianę"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
@@ -5315,7 +5317,7 @@ msgstr ""
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
-msgstr ""
+msgstr "Porządkowy"
 
 #: package/analyses/logRegOrd.title
 #: package/analyses/logRegOrd.description
@@ -5339,7 +5341,7 @@ msgstr ""
 #: logRegBin/ui[6][1][1][0].label
 #: logRegMulti/ui[5][1][1][0].label
 msgid "Output"
-msgstr ""
+msgstr "Wyjście"
 
 #: R/pca.b.R
 msgid "Overall"
@@ -5693,7 +5695,7 @@ msgstr ""
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr ""
+msgstr "Wykresy"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -6373,7 +6375,7 @@ msgstr ""
 #: empty/ui.title
 #: empty/results.title
 msgid "Results"
-msgstr ""
+msgstr "Wyniki"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
