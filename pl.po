@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-30 22:20+0000\n"
+"PO-Revision-Date: 2022-07-01 20:16+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -19,27 +19,28 @@ msgstr "'{col}' zawiera wartości nieskończone"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "'{col}' zawiera braki danych"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "'{col}' zawiera wyłącznie braki danych"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "'{col}' zawiera wyłącznie jedną unikalną wartość"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
+"metoda '{method}' została zastosowana w połączeniu z rotacją '{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "użyto rotacji '{rotation}'"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "'{var}' zawiera liczby ujemne. Wagi ujemne są niedozwolone."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
@@ -59,7 +60,7 @@ msgstr "{ciWidth}% CI dolna granica"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}% średni CI {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
@@ -83,7 +84,7 @@ msgstr "{ciWidth}% Przedział ufności"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "{ciWidth}% przedziały ufności"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
@@ -99,11 +100,11 @@ msgstr "{list} i {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "{n} para(y) wartości zostały powiązane"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "{type} wynik na podstawie zmiennych {vars}"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
@@ -111,11 +112,11 @@ msgstr "{varName} (odwrócone)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} dwumianowego modelu regresji logistycznej {modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} modelu regresji liniowej {modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -176,34 +177,42 @@ msgstr "% wariancji"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within column"
-msgstr ""
+msgstr "% w kolumnie"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within row"
-msgstr ""
+msgstr "% w wierszu"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'1'`, `'2'` or `'3'` (domyślnie), suma kwadratów do użycia"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'2'` or `'3'` (domyślnie), suma kwadratów do użycia"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
 msgstr ""
+"`'different'` (domyślne), `'oneGreater'` or `'twoGreater'`, hipoteza "
+"alternatywna; odpowiednio: grupa 1 różni się od grupy 2, grupa 1 większa niż "
+"grupa 2 i grupa 2 większa niż grupa 1"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
+"`'different'` (domyślne), `'oneGreater'` or `'twoGreater'`, hipoteza "
+"alternatywna; odpowiednio: pomiar 1 różni się od pomiaru 2, pomiar 1 większa "
+"niż pomiar 2 i pomiar 2 większa niż pomiar 1"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (domyślne), `'gt'` lub`'lt'`, hipoteza alternatywna; odpowiednio: "
+"różne od `testValue`, większe niż `testValue`, i mniejsze niż `testValue`"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
@@ -212,20 +221,32 @@ msgstr ""
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` lub `'fiml'`, co zrobić z brakami danych; `'listwise'` usuwa "
+"wiersze ze wszystkich analiz, jeżeli występuje jakikolwiek brak, `'fiml'` "
+"wykorzystuje full information maximum likelihood method do oszacowania "
+"modelu."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
+"`'means'` (domyślne) lub `'medians'`, słupki błędów do wykorzystania na "
+"wykresie"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"`'minres'` (default), `'ml'`, lub `'pa'` używa odpowiednio 'minimum "
+"residual', 'maximum likelihood', or 'prinicipal axis' jako metodę ekstrakcji "
+"czynników"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
+"`'none'`, `'ci'` (domyślne), lub `'se'`. Odpowiednio: nie używaj słupków "
+"błędu, użyj przedziałów ufności lub użyj błędów standardowych na wykresach "
+"średnich brzegowych"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
@@ -2568,7 +2589,7 @@ msgstr ""
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr ""
+msgstr "Zlicz"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -2576,7 +2597,7 @@ msgstr ""
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr ""
+msgstr "Zlicz (opcjonalne)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7678,7 +7699,7 @@ msgstr ""
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
-msgstr ""
+msgstr "dane jako ramka danych"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
