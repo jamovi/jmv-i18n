@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-24 14:56+0000\n"
+"PO-Revision-Date: 2022-07-02 05:21+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hans/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -279,7 +279,7 @@ msgstr "`方差分析- ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr "`正确` 或 `错误`(默认) ,比较行/列的比例差异或相对危险度（2x2四格表）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,比较行/列的比例差异或相对危险度（2x2四格表）"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -303,37 +303,38 @@ msgstr "`TRUE'（默认）或`FALSE'，在箱形图中为离群值添加带有�
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`正确` (默认) 或 `错误`, 执行Student's t检验"
+msgstr "`TRUE` (默认) 或 `FALSE`, 执行Student's t检验"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`正确` (默认) 或 `错误`, 执行Welch's单因素方差分析，该方法不要求方差齐"
+msgstr "`TRUE` (默认) 或 `FALSE`, 执行Welch's单因素方差分析，该方法不要求方差齐"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr "`正确` (默认) 或 `错误`, 提供模型估计的'Z'值和'p'值"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型估计的'Z'值和'p'值"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr "`正确` (默认) 或 `错误`, 提供精确拟合的卡方检验，并将拟合模型与完美拟合模型进行比较"
+msgstr "`TRUE` (默认) 或 `FALSE`, "
+"提供精确拟合的卡方检验，并将拟合模型与完美拟合模型进行比较"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr "`正确` (默认) 或 `错误`, 提供边际估计均值的置信区间"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供边际估计均值的置信区间"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
 #: logRegMulti/options/aic.description.R
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "`正确` (默认) 或 `错误`, 提供模型的AIC"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型的AIC"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr "`正确` (默认) 或 `错误`, 提供Cronbach's α系数"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供Cronbach's α系数"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -343,77 +344,77 @@ msgstr "`正确` (默认) 或 `错误`, 提供Cronbach's α系数"
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr "`正确` (默认) 或 `错误`, 提供边际估计均值图"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供边际估计均值图"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr "`正确` (默认) 或 `错误`, 提供因子（协）方差的估计值"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供因子（协）方差的估计值"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr "`正确` (默认) 或 `错误`, 提供剩余（协）方差的估计值"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供剩余（协）方差的估计值"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
-msgstr "`正确` (默认) 或 `错误`, 提供事后检验的均值差"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供事后检验的均值差"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr "`正确` (默认) 或 `错误`, 提供Pearson's相关系数r"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供Pearson's相关系数r"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr "`正确` (默认) 或 `错误`, 提供显著性水平"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供显著性水平"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
-msgstr "`正确` (默认) 或 `错误`, 提供事后检验的显著性水平"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供事后检验的显著性水平"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
 #: logRegMulti/options/dev.description.R
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr "`正确` (默认) 或 `错误`, 提供模型的偏差（或-2对数似然值）"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型的偏差（或-2对数似然值）"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr "`正确` (默认) 或 `错误`, 提供均值"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供均值"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr "`正确` (默认) 或 `错误`, 提供中位数"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供中位数"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr "`正确` (默认) 或 `错误`, 提供模型与空模型的比较结果"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型与空模型的比较结果"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr "`正确` (默认) 或 `错误`, 提供缺失值的数量"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供缺失值的数量"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr "`正确` (默认) 或 `错误`, 提供样本量"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供样本量"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr "`正确` (默认) 或 `错误`, 提供标准差"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供标准差"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr "`正确` (默认) 或 `错误`, 提供模型的统计评价指标“R²”"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型的统计评价指标“R²”"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr "`正确` (默认) 或 `错误`, 提供模型的统计评价指标“R”"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型的统计评价指标“R”"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr "`正确` (默认) 或 `错误`, 提供χ²值"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供χ²值"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -423,148 +424,149 @@ msgstr "`正确` (默认) 或 `错误`, 提供χ²值"
 #: logRegBin/options/emmWeights.description.R
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr "`正确` (默认) 或 `错误`, 对每个单元格进行平均加权或根据单元格频率进行加权"
+msgstr "`TRUE` (默认) 或 `FALSE`, 对每个单元格进行平均加权或根据单元格频率进行加权"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr "`正确` 或 `错误`(默认) , 在条形图中添加计数"
+msgstr "`TRUE` 或 `FALSE`(默认) , 在条形图中添加计数"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "`正确` 或 `错误`(默认) , 在条形图中添加均值"
+msgstr "`TRUE` 或 `FALSE`(默认) , 在条形图中添加均值"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr "`正确` 或 `错误`(默认) , 标记有统计学意义的相关"
+msgstr "`TRUE` 或 `FALSE`(默认) , 标记有统计学意义的相关"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr "`正确` 或 `错误`(默认) , 标记有统计学意义的事后检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 标记有统计学意义的事后检验"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr "`正确` 或 `错误`(默认) , 对残差进行Shapiro-Wilk正态性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 对残差进行Shapiro-Wilk正态性检验"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr "`正确` 或 `错误`(默认) , 执行 Fisher's 单因素方差分析，该方法需要满足方差齐性的条件"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行 Fisher's "
+"单因素方差分析，该方法需要满足方差齐性的条件"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr "`正确` 或 `错误`(默认) , 执行方差齐性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行方差齐性检验"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr "`正确` 或 `错误`(默认) , 执行Levene's 方差齐性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Levene's 方差齐性检验"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr "`正确` 或 `错误`(默认) , 执行Levene's 方差齐性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Levene's 方差齐性检验"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr "`正确` 或 `错误`(默认) , 执行Mann-Whitney U检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Mann-Whitney U检验"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr "`正确` 或 `错误`(默认) , 进行两两比较"
+msgstr "`TRUE` 或 `FALSE`(默认) , 进行两两比较"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr "`正确` 或 `错误`(默认) , 执行Shapiro-Wilk正态性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Shapiro-Wilk正态性检验"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr "`正确` 或 `错误`(默认) , 执行Shapiro-Wilk正态性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Shapiro-Wilk正态性检验"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr "`正确` 或 `错误`(默认) , 执行Shapiro-Wilk正态性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Shapiro-Wilk正态性检验"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr "`正确` 或 `错误`(默认) , 执行Shapiro-Wilk正态性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Shapiro-Wilk正态性检验"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr "`正确` 或 `错误`(默认) , 执行球形度检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行球形度检验"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr "`正确` 或 `错误`(默认) , 执行Welch's t检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Welch's t检验"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr "`正确` 或 `错误`(默认) , 执行Wilcoxon符号秩检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行Wilcoxon符号秩检验"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr "`正确` 或 `错误`(默认) , 将数据绘制在边际均值上方"
+msgstr "`TRUE` 或 `FALSE`(默认) , 将数据绘制在边际均值上方"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
 #: logRegMulti/options/ci.description.R
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
-msgstr "`正确` 或 `错误`(默认) , 提供模型系数的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型系数的置信区间"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
-msgstr "`正确` 或 `错误`(默认) , 提供模型系数OR值的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型系数OR值的置信区间"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr "`正确` 或 `错误`(默认) , 提供模型系数rr值的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型系数rr值的置信区间"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
-msgstr "`正确` 或 `错误`(默认) , 提供模型标准化系数的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型标准化系数的置信区间"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr "`正确` 或 `错误`(默认) , 提供模型系数的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型系数的置信区间"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr "`正确` 或 `错误`(默认) , 提供模型系数的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型系数的置信区间"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr "`正确` 或 `错误`(默认) , 提供相关矩阵图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供相关矩阵图"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr "`正确` 或 `错误`(默认) , 提供相关图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供相关图"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr "`正确` 或 `错误`(默认) , 提供截断值图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供截断值图"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr "`正确` 或 `错误`(默认) , 提供描述图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供描述图"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr "`正确` 或 `错误`(默认) , 提供模型的路径图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型的路径图"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr "`正确` 或 `错误`(默认) , 提供预测分类表（或混合矩阵）"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供预测分类表（或混合矩阵）"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr "`正确` 或 `错误`(默认) , 提供多元正态Q-Q图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供多元正态Q-Q图"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -574,46 +576,46 @@ msgstr "`正确` 或 `错误`(默认) , 提供多元正态Q-Q图"
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr "`正确` 或 `错误`(默认) , 提供残差Q-Q图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供残差Q-Q图"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr "`正确` 或 `错误`(默认) , 提供ROC曲线图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供ROC曲线图"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr "`正确` 或 `错误`(默认) , 提供模型标准化系数"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型标准化系数"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr "`正确` 或 `错误`(默认) , 提供模型标准化系数"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型标准化系数"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr "`正确` 或 `错误`(默认) , 提供两比例差异比较的Z检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供两比例差异比较的Z检验"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "`正确` 或 `错误`(默认) , 提供模型的AIC"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型的AIC"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr "`正确` 或 `错误`(默认) , 提供精确的对数OR（需要安装2x2精确法模块）"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供精确的对数OR（需要安装2x2精确法模块）"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
-msgstr "`正确` 或 `错误`(默认) , 提供条形图（仅限无序多分类和有序多分类变量）"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供条形图（仅限无序多分类和有序多分类变量）"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr "`正确` 或 `错误`(默认) , 提供贝叶斯因子"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供贝叶斯因子"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr "`正确` 或 `错误`(默认) , 提供贝叶斯可信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供贝叶斯可信区间"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -621,73 +623,73 @@ msgstr "`正确` 或 `错误`(默认) , 提供贝叶斯可信区间"
 #: logRegMulti/options/bic.description.R
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
-msgstr "`正确` 或 `错误`(默认) , 提供模型的BIC"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型的BIC"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr "`正确` 或 `错误`(默认) , 提供箱线图（仅限连续性变量）"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供箱线图（仅限连续性变量）"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr "`正确` 或 `错误`(默认) , 为Logistic回归的线性部分提供 Box-Tidwell检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 为Logistic回归的线性部分提供 Box-Tidwell检验"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr "`正确` 或 `错误`(默认) , 提供Box's M检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供Box's M检验"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr "`正确` 或 `错误`(默认) , 提供Cohen's d效应量"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供Cohen's d效应量"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr "`正确` 或 `错误`(默认) , 提供列百分比"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供列百分比"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr "`正确` 或 `错误`(默认) , 提供置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供置信区间"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
-msgstr "`正确` 或 `错误`(默认) , 提供比较指标的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供比较指标的置信区间"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
-msgstr "`正确` 或 `错误`(默认) , 提供效应量的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供效应量的置信区间"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr "`正确` 或 `错误`(默认) , 提供均值的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供均值的置信区间"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
-msgstr "`正确` 或 `错误`(默认) , 提供均值差的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供均值差的置信区间"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
-msgstr "`正确` 或 `错误`(默认) , 提供事后检验效应量的置信区间"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供事后检验效应量的置信区间"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr "`正确` 或 `错误`(默认) , 在相关矩阵图中提供概率密度"
+msgstr "`TRUE` 或 `FALSE`(默认) , 在相关矩阵图中提供概率密度"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr "`正确` 或 `错误`(默认) ,提供概率密度图（仅限连续性变量）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供概率密度图（仅限连续性变量）"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
 #: ttestOneS/options/plots.description.R
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr "`正确` 或 `错误`(默认) ,提供描述图"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供描述图"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -695,20 +697,20 @@ msgstr "`正确` 或 `错误`(默认) ,提供描述图"
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr "`正确` 或 `错误`(默认) ,提供描述性统计"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供描述性统计"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr "`正确` 或 `错误`(默认），提供点图（仅限连续性变量）"
+msgstr "`TRUE` 或 `FALSE`(默认），提供点图（仅限连续性变量）"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr "`正确` 或 `错误`(默认) ,提供效应量"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供效应量"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr "`正确` 或 `错误`(默认) ,提供效应量"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供效应量"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -718,372 +720,373 @@ msgstr "`正确` 或 `错误`(默认) ,提供效应量"
 #: logRegBin/options/emmTables.description.R
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr "`正确` 或 `错误`(默认) ,提供边际估计均值表"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供边际估计均值表"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
-msgstr "`正确` 或 `错误`(默认) ,提供因子截距的估计值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供因子截距的估计值"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr "`正确` 或 `错误`(默认) ,提供残差截距的估计值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供残差截距的估计值"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr "`正确` 或 `错误`(默认) , 提供 Fisher's 精确检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供 Fisher's 精确检验"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
-msgstr "`正确` 或 `错误`(默认) ,提供频率表（仅限无序多分类和有序多分类变量）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供频率表（仅限无序多分类和有序多分类变量）"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr "`正确` 或 `错误`(默认) ,提供γ值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供γ值"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr "`正确` 或 `错误`(默认) ,提供直方图（仅限连续性变量）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供直方图（仅限连续性变量）"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr "`正确` 或 `错误`(默认) ,提供条目均值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供条目均值"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr "`正确` 或 `错误`(默认) ,提供条目标准差"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供条目标准差"
 
 #: reliability/options/itemRestCor.description.R
 msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
-msgstr "`正确` 或 `错误`(默认) ,提供条目剩余相关性"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供条目剩余相关性"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr "`正确` 或 `错误`(默认) , 提供 Kendall's tau-b值"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供 Kendall's tau-b值"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr "`正确` 或 `错误`(默认) , 提供 Mantel-Haenszel 趋势检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供 Mantel-Haenszel 趋势检验"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr "`正确` 或 `错误`(默认) , 提供 McDonald's ω值"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供 McDonald's ω值"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr "`正确` 或 `错误`(默认) ,提供均值和标准差"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供均值和标准差"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr "`正确` 或 `错误`(默认) ,提供均值和标准误"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供均值和标准误"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr "`正确` 或 `错误`(默认) ,为模型中未包含的参数提供修正指数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,为模型中未包含的参数提供修正指数"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr "`正确` 或 `错误`(默认) ,提供百分位数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供百分位数"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr "`正确` 或 `错误`(默认) , 提供φ系数和Cramer’s V系数"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供φ系数和Cramer’s V系数"
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr "`正确` 或 `错误`(默认) ,提供后验概率图"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供后验概率图"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
-msgstr "`正确` 或 `错误`(默认) , 提供Q-Q图(仅限于连续性变量)"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供Q-Q图(仅限于连续性变量)"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr "`正确` 或 `错误`(默认) , 提供残差Q-Q图"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供残差Q-Q图"
 
 #: descriptives/options/pcEqGr.description.R
 msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr "`正确` 或 `错误`(默认) ,提供分位数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供分位数"
 
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
-msgstr "`正确` 或 `错误`(默认) ,根据标准残差绘制因变量和每个协变量的残差图."
+msgstr "`TRUE` 或 `FALSE`(默认) ,根据标准残差绘制因变量和每个协变量的残差图."
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr "`正确` 或 `错误`(默认) ,提供Durbin- Watson自相关检验的结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供Durbin- Watson自相关检验的结果"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr "`正确` 或 `错误`(默认) , 提供模型的均方根误差（RMSE）"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型的均方根误差（RMSE）"
 
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
 msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr "`正确` 或 `错误`(默认) ,提供行百分比"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供行百分比"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr "`正确` 或 `错误`(默认) , 提供Shapiro-Wilk正态性检验的P值"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供Shapiro-Wilk正态性检验的P值"
 
 #: mancova/options/shapiro.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr "`正确` 或 `错误`(默认) , 提供Shapiro-Wilk正态性检验"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供Shapiro-Wilk正态性检验"
 
 #: corrMatrix/options/spearman.description.R
 #: corrPart/options/spearman.description.R
 msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr "`正确` 或 `错误`(默认) , 提供Spearman's相关系数rho"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供Spearman's相关系数rho"
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr "`正确` 或 `错误`(默认) ,在相关矩阵图中提供统计信息"
+msgstr "`TRUE` 或 `FALSE`(默认) ,在相关矩阵图中提供统计信息"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
 msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
-msgstr "`正确` 或 `错误`(默认) ,提供Cook's距离的摘要信息"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供Cook's距离的摘要信息"
 
 #: anovaOneW/options/phTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
-msgstr "`正确` 或 `错误`(默认) ,提供事后检验的结果（t值和自由度）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供事后检验的结果（t值和自由度）"
 
 #: contTables/options/contCoef.description.R
 msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr "`正确` 或 `错误`(默认) ,提供列联系数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供列联系数"
 
 #: contTables/options/diffProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
-msgstr "`正确` 或 `错误`(默认) ,提供比例差异（仅限于2x2四格表）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供比例差异（仅限于2x2四格表）"
 
 #: contTables/options/exp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr "`正确` 或 `错误`(默认) ,提供理论频数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供理论频数"
 
 #: logRegBin/options/OR.description.R
 #: logRegMulti/options/OR.description.R
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
-msgstr "`正确` 或 `错误`(默认) ,提供对数OR值指数或OR估计值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供对数OR值指数或OR估计值"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr "`正确` 或 `错误`(默认) ,提供对数RR值指数或RR估计值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供对数RR值指数或RR估计值"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr "`正确` 或 `错误`(默认) ,提供四分位数间距"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供四分位数间距"
 
 #: descriptives/options/kurt.description.R
 msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr "`正确` 或 `错误`(默认) ,提供峰度"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供峰度"
 
 #: contTables/options/likeRat.description.R
 msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr "`正确` 或 `错误`(默认) ,提供似然比"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供似然比"
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
-msgstr "`正确` 或 `错误`(默认) ,提供对数OR值（仅限于2x2四格表）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供对数OR值（仅限于2x2四格表）"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr "`正确` 或 `错误`(默认) ,提供最大值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供最大值"
 
 #: reliability/options/meanScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr "`正确` 或 `错误`(默认) ,提供均值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供均值"
 
 #: descriptives/options/min.description.R
 msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr "`正确` 或 `错误`(默认) ,提供最小值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供最小值"
 
 #: descriptives/options/mode.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr "`正确` 或 `错误`(默认) ,提供众数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供众数"
 
 #: logLinear/options/modelTest.description.R
 #: logRegBin/options/modelTest.description.R
 #: logRegMulti/options/modelTest.description.R
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
-msgstr "`正确` 或 `错误`(默认) ,提供模型与空模型比较的结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供模型与空模型比较的结果"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
 msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr "`正确` 或 `错误`(默认) ,提供个案数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供个案数"
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr "`正确` 或 `错误`(默认) ,提供实际频数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供实际频数"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr "`正确` 或 `错误`(默认) ,提供OR值（仅限于2x2四格表）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供OR值（仅限于2x2四格表）"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr "`正确` 或 `错误`(默认) ,提供预测因子的Omnibus方差分析检验结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供预测因子的Omnibus方差分析检验结果"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
 #: logRegMulti/options/omni.description.R
 #: logRegOrd/options/omni.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
-msgstr "`正确` 或 `错误`(默认) ,提供预测因子的Omnibus似然比检验结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供预测因子的Omnibus似然比检验结果"
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
-msgstr "`正确` 或 `错误`(默认) ,提供截断值分组的预测准确性"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供截断值分组的预测准确性"
 
 #: logRegBin/options/sens.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
-msgstr "`正确` 或 `错误`(默认) ,提供截断值分组的预测灵敏度"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供截断值分组的预测灵敏度"
 
 #: logRegBin/options/spec.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
-msgstr "`正确` 或 `错误`(默认) ,提供截断值分组的预测特异度"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供截断值分组的预测特异度"
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr "`正确` 或 `错误`(默认) ,提供全距"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供全距"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
-msgstr "`正确` 或 `错误`(默认) ,提供ROC曲线下面积（AUC）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供ROC曲线下面积（AUC）"
 
 #: contTables/options/relRisk.description.R
 msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
-msgstr "`正确` 或 `错误`(默认) ,提供相对危险度RR（仅限于2x2四格表）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供相对危险度RR（仅限于2x2四格表）"
 
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
-msgstr "`正确` 或 `错误`(默认) ,提供实际相关矩阵的残差（即理论相关矩阵和实际相关矩阵之间的差异）"
+msgstr "`TRUE` 或 `FALSE`(默认) "
+",提供实际相关矩阵的残差（即理论相关矩阵和实际相关矩阵之间的差异）"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr "`正确` 或 `错误`(默认) ,提供偏度"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供偏度"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr "`正确` 或 `错误`(默认) ,提供标准差"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供标准差"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr "`正确` 或 `错误`(默认) ,提供标准吴"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供标准吴"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
-msgstr "`正确` 或 `错误`(默认) , 提供模型评价指标“校正R²”"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供模型评价指标“校正R²”"
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr "`正确` 或 `错误`(默认) ,提供和"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供和"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
-msgstr "`正确` 或 `错误`(默认) , 提供因变量分级的截断值"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供因变量分级的截断值"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr "`正确` 或 `错误`(默认) ,提供方差"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供方差"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr "`正确` 或 `错误`(默认) ,提供合计百分比"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供合计百分比"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
-msgstr "`正确` 或 `错误`(默认) , 提供方差膨胀因子（VIF ）和容忍度（1/VIF）"
+msgstr "`TRUE` 或 `FALSE`(默认) , 提供方差膨胀因子（VIF ）和容忍度（1/VIF）"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
-msgstr "`正确` 或 `错误`(默认) ,提供小提琴图（仅限连续性变量）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供小提琴图（仅限连续性变量）"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr "`正确` 或 `错误`(默认) ,提供该条目删除后的Cronbach's α系数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供该条目删除后的Cronbach's α系数"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr "`正确` 或 `错误`(默认) ,提供该条目删除后的McDonald's ω系数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供该条目删除后的McDonald's ω系数"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr "`正确` 或 `错误`(默认) ,提供连续校正χ²值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供连续校正χ²值"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr "`正确` 或 `错误`(默认) ,分组报告摘要"
+msgstr "`TRUE` 或 `FALSE`(默认) ,分组报告摘要"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
-msgstr "`正确` 或 `错误`(默认) ,设置预测变量的截断值"
+msgstr "`TRUE` 或 `FALSE`(默认) ,设置预测变量的截断值"
 
 #: contTables/options/barplot.description.R
 msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr "`正确` 或 `错误`(默认) ,显示条形图"
+msgstr "`TRUE` 或 `FALSE`(默认) ,显示条形图"
 
 #: efa/options/bartlett.description.R
 #: pca/options/bartlett.description.R
 msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
-msgstr "`正确` 或 `错误`(默认) ,报告Bartlett's球形度检验结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,报告Bartlett's球形度检验结果"
 
 #: efa/options/eigen.description.R
 #: pca/options/eigen.description.R
 msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr "`正确` 或 `错误`(默认) ,显示特征值表"
+msgstr "`TRUE` 或 `FALSE`(默认) ,显示特征值表"
 
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr "`正确` 或 `错误`(默认) ,显示因子摘要"
+msgstr "`TRUE` 或 `FALSE`(默认) ,显示因子摘要"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr "`正确` 或 `错误`(默认) ,显示因子间相关性"
+msgstr "`TRUE` 或 `FALSE`(默认) ,显示因子间相关性"
 
 #: efa/options/kmo.description.R
 #: pca/options/kmo.description.R
 msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
-msgstr "`正确` 或 `错误`(默认) ,报告KMO抽样适合性检验结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,报告KMO抽样适合性检验结果"
 
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
-msgstr "`正确` 或 `错误`(默认) ,显示模型拟合评价和检验结果"
+msgstr "`TRUE` 或 `FALSE`(默认) ,显示模型拟合评价和检验结果"
 
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
 msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr "`正确` 或 `错误`(默认) ,显示碎石图"
+msgstr "`TRUE` 或 `FALSE`(默认) ,显示碎石图"
 
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
 msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr "`正确` 或 `错误`(默认) ,按因子载荷大小排序"
+msgstr "`TRUE` 或 `FALSE`(默认) ,按因子载荷大小排序"
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
-msgstr "`正确` 或 `错误`(默认) ,方差齐性检验（Levene's检验）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,方差齐性检验（Levene's检验）"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr "`正确` 或 `错误`(默认)，变量是计数变量"
+msgstr "`TRUE` 或 `FALSE`(默认)，变量是计数变量"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr "`正确` 或 `错误`(默认) ,是否应显示理论频数"
+msgstr "`TRUE` 或 `FALSE`(默认) ,是否应显示理论频数"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr "`正确` 或 `错误`(默认) ,执行整体模型检验"
+msgstr "`TRUE` 或 `FALSE`(默认) ,执行整体模型检验"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
