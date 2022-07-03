@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-02 05:21+0000\n"
+"PO-Revision-Date: 2022-07-03 02:14+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hans/>\n"
@@ -210,7 +210,9 @@ msgstr "`“facVar”或“facInd”表示如何在模型中设置约束参数�
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr "“listwise”或“fiml”表示如何处理缺失值；`'listwise'`为如果某行有数据缺失，则在所有分析中删除该行；`fiml为`使用完全信息最大似然法来估计模型。"
+msgstr ""
+"“listwise”或“fiml”表示如何处理缺失值；`'listwise'`为如果某行有数据缺失，则在"
+"所有分析中删除该行；`fiml`为使用完全信息最大似然法来估计模型。"
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
@@ -1228,7 +1230,8 @@ msgstr "指定需要计算边际估计均值的变量的列表。每个项最多
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
-msgstr "描述重复测量`数据`中被定义为`测量`（作为字符串）以及`rm`中特定水平组合被定义为`单元`（作为字符串向量）的列表"
+msgstr "描述重复测量`data`中被定义为`measure`（作为字符串）以及`rm`中特定水平组合被定"
+"义为`cell`（作为字符串向量）的列表"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
@@ -1392,7 +1395,7 @@ msgstr "描述整个分析过程中因变量所用标签的字符（默认为“
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr "在包含计数资料的 `数据`中命名变量的字符，如果每行代表一个的观察对象，则为零"
+msgstr "在包含计数资料的 `data`中命名变量的字符，如果每行代表一个的观察对象，则为零"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
@@ -1406,16 +1409,16 @@ msgstr "'数据'中命名因变量的字符，变量必须是数值型变量"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr "命名`数据`中因变量的字符"
+msgstr "命名`data`中因变量的字符"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr "命名`数据`中因变量的字符"
+msgstr "命名`data`中因变量的字符"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
-msgstr "`数据`中命名分组变量或自变量的字符"
+msgstr "`data`中命名分组变量或自变量的字符"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
@@ -1630,37 +1633,37 @@ msgstr "数字向量：理论比例"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr "对`数据`中组间因子命名的字符串向量"
+msgstr "对`data`中组间因子命名的字符串向量"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr "对`数据`中控制变量命名的字符串向量"
+msgstr "对`data`中控制变量命名的字符串向量"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R
 #: mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr "对`数据`中协变量命名的字符串向量"
+msgstr "对`data`中协变量命名的字符串向量"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
-msgstr "对`数据`中协变量命名的字符串向量。变量必须是数值型"
+msgstr "对`data`中协变量命名的字符串向量。变量必须是数值型"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
 msgid "a vector of strings naming the factors from `data`"
-msgstr "对`数据`中因子命名的字符串向量"
+msgstr "对`data`中因子命名的字符串向量"
 
 #: logRegBin/options/factors.description.R
 #: logRegMulti/options/factors.description.R
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
-msgstr "对`数据`中固定因子命名的字符串向量"
+msgstr "对`data`中固定因子命名的字符串向量"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
-msgstr "对`数据`中重复测量变量命名的字符串向量"
+msgstr "对`data`中重复测量变量命名的字符串向量"
 
 #: descriptives/options/vars.description.R
 #: efa/options/vars.description.R
@@ -1669,12 +1672,12 @@ msgstr "对`数据`中重复测量变量命名的字符串向量"
 #: reliability/options/vars.description.R
 #: ttestOneS/options/vars.description.R
 msgid "a vector of strings naming the variables of interest in `data`"
-msgstr "对`数据`中目标变量命名的字符串向量"
+msgstr "对`data`中目标变量命名的字符串向量"
 
 #: corrMatrix/options/vars.description.R
 #: corrPart/options/vars.description.R
 msgid "a vector of strings naming the variables to correlate in `data`"
-msgstr "对`数据`中关联变量命名的字符串向量"
+msgstr "对`data`中关联变量命名的字符串向量"
 
 #: descriptives/options/splitBy.description.R
 msgid "a vector of strings naming the variables used to split `vars`"
@@ -7824,7 +7827,7 @@ msgstr "需要控制的协变量."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
-msgstr "`数据`中的计数资料"
+msgstr "`data`中的计数资料"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
@@ -7832,7 +7835,7 @@ msgstr "协变量（在协方差分析中指定这些变量）"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr "`数据`中的协变量"
+msgstr "`data`中的协变量"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -7882,12 +7885,12 @@ msgstr "因变量“{DEP}”只有两个水平，因此可考虑使用二分类L
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr "`数据`中的因变量，必须是数值型"
+msgstr "`data`中的因变量，必须是数值型"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr "`数据`中的因变量，必须是数值型（提供公式时不需要，见示例）。"
+msgstr "`data`中的因变量，必须是数值型（提供公式时不需要，见示例）。"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -7922,7 +7925,7 @@ msgstr "协变量（提供公式时不需要，见示例）"
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
 msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
-msgstr "`数据`中的解释性因子变量（提供公式时不需要，见示例）"
+msgstr "`data`中的解释性因子变量（提供公式时不需要，见示例）"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
@@ -7934,7 +7937,7 @@ msgstr "解释性变量或自变量. 对方差分析必须是分类变量."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr "`数据`中的固定因子"
+msgstr "`data`中的固定因子"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -8143,7 +8146,7 @@ msgstr "变量{var}不是数值型。不能为此变量绘图。"
 
 #: propTestN/options/var.description.R
 msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
-msgstr "`数据`中的目标变量（提供公式时不需要，见示例）"
+msgstr "`data`中的目标变量（提供公式时不需要，见示例）"
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
