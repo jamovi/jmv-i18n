@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-03 02:14+0000\n"
+"PO-Revision-Date: 2022-07-04 01:17+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hans/>\n"
@@ -1235,7 +1235,8 @@ msgstr "描述重复测量`data`中被定义为`measure`（作为字符串）以
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
-msgstr "描述特定重复测量因子的“标签”（作为字符串）和“水平”（作为字符串向量）的列表"
+msgstr "包含列表的列表。描述特定重复测量因子的`label`（作为字符串）和 "
+"`levels`（作为字符串向量）的列表"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1401,11 +1402,11 @@ msgstr "在包含计数资料的 `data`中命名变量的字符，如果每行�
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr "'数据'中命名因变量的字符，变量必须是分类变量"
+msgstr "`data`中命名因变量的字符，变量必须是分类变量"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr "'数据'中命名因变量的字符，变量必须是数值型变量"
+msgstr "`data`中命名因变量的字符，变量必须是数值型变量"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
@@ -5867,7 +5868,7 @@ msgstr "备择假设中的“'corr'”（默认）、“'pos'”、“'neg'”�
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
-msgstr "相关类型“part”（默认）或“semi”分别对应偏相关或半偏相关."
+msgstr "相关类型 `'part'`（默认）或 `'semi'`分别对应偏相关或半偏相关."
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -5901,7 +5902,7 @@ msgstr "`'cfi'`、`'tli'`、 `'srmr'`、`'rmsea'`、`'aic'`或 `'bic'`分别对�
 #: anova/options/effectSize.description.R
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
-msgstr "“eta”、“partEta”或“omega”分别用η²、偏η²和ω²效应量表示"
+msgstr "`'eta'`, `'partEta'`, 或 `'omega'`分别用η²、偏η²和ω²效应量表示"
 
 #: anovaRM/options/spherCorr.description.R
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
@@ -8281,7 +8282,9 @@ msgstr "合计"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr "合计_百分比（默认）、列_百分比或行_百分比。分别使用`合计`, `列内`或`行内`百分比作为条形图的y轴."
+msgstr ""
+"合计_百分比（默认）、列_百分比或行_百分比。分别使用`of total`, `within "
+"columns`, 及`within rows` 百分比作为条形图的y轴."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
