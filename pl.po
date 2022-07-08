@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-01 20:16+0000\n"
+"PO-Revision-Date: 2022-07-08 19:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -251,41 +251,65 @@ msgstr ""
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` lub `'tukey'`, który test post-hoc zastosować; "
+"`'none'` nie wyświetla żadnego testu, `'gamesHowell'` wyświetla test Games-"
+"Howell, który nie zakłada równości wariancji, and `'tukey'` wyświetla test "
+"Tukey zakładający równość (homogeniczność) wariancji"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'` (domyślne), `'quartimax'`, `'promax'`, `'oblimin'`, "
+"lub `'simplimax'`, rotacja użyta do estymacji"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (domyślne), "
+"lub `'simplimax'`, rotacja użyta do estymacji"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
 msgstr ""
+"`'notequal'` (domyślne), `'greater'` lub `'less'`, hipoteza alternatywna"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
+"`'parallel'` (domyślny), `'eigen'` lub`'fixed'`, sposób wyboru liczby "
+"czynników"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"`'perAnalysis'` lub`'listwise'`, sposób obsługi braków danych; "
+"`'perAnalysis'` wyklucza brakujące wartości dla każdej zmiennej zależnej, "
+"`'listwise'` wyklucza wiersz ze wszystkich analiz, jeżeli występuje w nim "
+"jakikolwiek brak danych"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"`'perAnalysis'` lub `'listwise'`,sposób obsługi braków danych `'perAnalysis'`"
+"wyklucza brakujące wartości dla każdej zmiennej zależnej, `'listwise'` "
+"wyklucza wiersz ze wszystkich analiz, jeżeli występuje w nim jakikolwiek "
+"brak danych."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
+"`'refLevel'` (domyślne) lub `'grandMean'`, sposób kodowania wyrazu wolnego. "
+"Tworzy kontrast, aby punkt przecięcia reprezentował poziom odniesienia albo "
+"średnia całkowitą (ogólną)"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
+"`'rows'` lub `'columns'` (domyślne), wyświetla zmienne w wierszach lub "
+"kolumnach (domyślne)"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
