@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-08 22:20+0000\n"
+"PO-Revision-Date: 2022-07-08 23:21+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1054,19 +1054,19 @@ msgstr ""
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wartość maksymalną"
 
 #: reliability/options/meanScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje średnią"
 
 #: descriptives/options/min.description.R
 msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wartość minimalną"
 
 #: descriptives/options/mode.description.R
 msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje modalną"
 
 #: logLinear/options/modelTest.description.R
 #: logRegBin/options/modelTest.description.R
@@ -1074,15 +1074,17 @@ msgstr ""
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje porównanie pomiędzy modelami a "
+"modelem zerowym"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
 msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje liczbę obserwacji"
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca wartości obserwowane"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
@@ -1113,11 +1115,11 @@ msgstr ""
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca rozstęp"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca obszar pod krzywą ROC (AUC)"
 
 #: contTables/options/relRisk.description.R
 msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
@@ -1126,26 +1128,29 @@ msgstr ""
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), zwraca reszty dla obserwowanej macierzy "
+"korelacji (tj. różnicę pomiędzy oczekiwaną a obserwowaną macierzą korelacji)"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca skośność"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca odchylenie standardowe"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca błąd standardowy"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), zwraca 'skorygowane R-kwadrat' dla modelu"
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca sumę"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
@@ -1153,33 +1158,39 @@ msgstr ""
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca wariancję"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca procent skumulowany"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), zwraca miary współliniowości (VIF i "
+"tolerancję)"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), zwraca wykresy wiolinowe (wyłącznie dla "
+"zmiennych ciągłych)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), zwraca α Cronbacha po wykluczeniu pozycji"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), zwraca ω McDonalda po wykluczeniu pozycji"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), zwraca χ² z poprawką na ciągłość"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
@@ -1191,7 +1202,7 @@ msgstr ""
 
 #: contTables/options/barplot.description.R
 msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla wykresy słupkowe"
 
 #: efa/options/bartlett.description.R
 #: pca/options/bartlett.description.R
