@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-08 21:20+0000\n"
+"PO-Revision-Date: 2022-07-08 22:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -744,6 +744,8 @@ msgstr ""
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj wykresy pudełkowe (wyłącznie dla "
+"zmiennych ciągłych)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
@@ -751,61 +753,73 @@ msgstr ""
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr ""
+msgstr "`TRUE` or `FALSE` (default), generuje test M Boxa"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje d Cohena (wielkość efektu)"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wartości procentowe kolumn"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla miar "
+"porównawczych"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla przedziałów "
+"ufności"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla średniej"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla średniej "
+"różnicy"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla wielkości "
+"efektów testów post-hoc"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje gęstości na wykresie macierzy "
+"korelacji"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wykresy gęstości (tylko dla "
+"zmiennych ciągłych)"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
 #: ttestOneS/options/plots.description.R
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wykresy opisowe"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -813,20 +827,22 @@ msgstr ""
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje statystyki opisowe"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wykresy punktowe (tylko dla "
+"zmiennych ciągłych)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wielkości efektów"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wielkości efektów"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -837,148 +853,178 @@ msgstr ""
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje estymowane tabele średnich brzegowych"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje estymatory wyrazów wolnych czynnika"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje estymatory wyrazów wolnych reszt"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje dokładny test Fishera"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje tabele częstości (wyłącznie dla "
+"zmiennych nominalnych i porządkowych)"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje gamma"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje histogramy (wyłącznie dla zmiennych "
+"ciągłych)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje średnie pozycji testowych"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje odchylenie standardowe pozycji "
+"testowych"
 
 #: reliability/options/itemRestCor.description.R
 msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje współczynniki mocy dyskryminacyjnej ("
+"korelacje item-skala)"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje tau-b Kendalla"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje test Mantela-Haenszela"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje ω McDonalda"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje średnie i odchylenia standardowe"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje średnie i błędy standardowe"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje indeksy modyfikacji dla parametrów "
+"nieuwzględnionych w modelu"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje percentyle"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje współczynniki korelacji Phi Yula i V "
+"Cramera"
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wykresy a posteriori"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wykresy Q-Q (wyłącznie dla zmiennych "
+"ciągłych)"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wykresy Q-Q dla reszt"
 
 #: descriptives/options/pcEqGr.description.R
 msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje kwantyle"
 
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wykresy reszt, na których zmienna "
+"zależna i zmienne kowariancyjne są wykreślane w stosunku do reszt "
+"standaryzowanych."
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje test Durbina-Watsona"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje RMSE dla modeli"
 
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
 msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje procenty dla wierszy"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje poziom istotności testu Shapiro-Wilka"
 
 #: mancova/options/shapiro.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje test Shapiro-Wilka"
 
 #: corrMatrix/options/spearman.description.R
 #: corrPart/options/spearman.description.R
 msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje rho Spearmana"
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje statystyki w wykresie macierzy "
+"korelacji"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
 msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje podsumowanie statystyk dla "
+"odległości Cooka"
 
 #: anovaOneW/options/phTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wyniki testu (wartość t i stopnie "
+"swobody) dla testów post-hoc"
 
 #: contTables/options/contCoef.description.R
 msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje współczynnik kontyngencji (C)"
 
 #: contTables/options/diffProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje różnice w proporcjach (tylko dla "
+"tabel 2x2)"
 
 #: contTables/options/exp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wartości oczekiwane"
 
 #: logRegBin/options/OR.description.R
 #: logRegMulti/options/OR.description.R
@@ -996,11 +1042,11 @@ msgstr ""
 
 #: descriptives/options/kurt.description.R
 msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje kurtozę"
 
 #: contTables/options/likeRat.description.R
 msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje wskaźnik wiarygodności"
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
