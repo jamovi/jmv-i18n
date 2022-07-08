@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-08 20:20+0000\n"
+"PO-Revision-Date: 2022-07-08 21:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -411,12 +411,11 @@ msgstr ""
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj oszacowania dla (ko)wariancji czynników"
+"`TRUE` (domyślne) lub `FALSE`, podaj estymatory dla (ko)wariancji czynników"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj oszacowania dla (ko)wariancji błędu"
+msgstr "`TRUE` (domyślne) lub `FALSE`, podaj estymatory (ko)wariancji reszt"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
@@ -517,9 +516,7 @@ msgstr "`TRUE` lub `FALSE` (domyślne), oznacz istotne porównania post-hoc"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr ""
-"`TRUE` lub `FALSE` (domyślne), wykonaj test Shapiro-Wilka dla wartości "
-"rezydualnych"
+msgstr "`TRUE` lub `FALSE` (domyślne), wykonaj test Shapiro-Wilka dla reszt"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
@@ -530,7 +527,7 @@ msgstr ""
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr "`TRUE` lub `FALSE` (domyślne), wykonaj test homogeniczności"
+msgstr "`TRUE` lub `FALSE` (domyślne), wykonaj testy homogeniczności"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
@@ -606,7 +603,7 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), pokaż przedziały ufności dla oszacowań "
+"`TRUE` lub `FALSE` (domyślne), pokaż przedziały ufności dla estymatorów "
 "współczynników modelu"
 
 #: logRegBin/options/ciOR.description.R
@@ -614,20 +611,20 @@ msgstr ""
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla oszacowań "
+"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla estymatorów "
 "ilorazu szans (OR) współczynników modelu"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla oszacowań "
-"współczynnika częstości występowania dla współczynników modelu"
+"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla estymatorów "
+"współczynnika częstości występowania współczynników modelu"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
 "`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla standaryzowanych "
-"oszacowań współczynników modelu"
+"estymatorów współczynników modelu"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
@@ -670,6 +667,7 @@ msgstr ""
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj wykres Q-Q wielowymiarowej normalności"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -679,46 +677,59 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres Q-Q reszt"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres krzywej ROC"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj standaryzowane estymatory "
+"współczynników modelu"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj standaryzowane oszacowania estymatorów "
+"modelu"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj test Z dla różnic pomiędzy dwiema "
+"proporcjami"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj kryterium informacyjne Aikaikego (AIC) "
+"dla modeli"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj dokładny logarytm ilorazu szans (OR) ("
+"wymaga tabeli 2x2, żeby mogło być zastosowane)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj wykresy słupkowe (wyłącznie dla danych "
+"nominalnych i porządkowych)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), podaj czynnik Bayesa"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj bayesowskie przedziały wiarygodności"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -727,6 +738,8 @@ msgstr ""
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), podaj bayesowskie kryterium informacyjne (BIC)"
+" dla modeli"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
