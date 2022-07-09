@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-09 10:19+0000\n"
+"PO-Revision-Date: 2022-07-09 11:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1459,70 +1459,89 @@ msgstr ""
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
+"spis list, gdzie każda lista opisuje powtarzającą się miarę (jako ciąg "
+"znaków) z `data` zdefiniowaną jako `measure` oraz konkretną kombinację "
+"poziomów z `rm`, do której należy (jako wektor ciągów znaków) zdefiniowaną "
+"jako `cell`"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
+"Spis list, gdzie każda lista opisuje `label` (jako ciąg znaków) i `levels` ("
+"jako wektor ciągów znaków) danego czynnika powtarzanych pomiarów"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr ""
+msgstr "Niska wartość p sugeruje naruszenie założenia o równości wariancji"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
+msgstr "Niska wartość p sugeruje naruszenie założenia o normalności"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "Zestaw danych o korelacji"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
 msgstr ""
+"liczba (domyślnie: 0.1), podświetla wartości w tabeli `'corRes'` powyżej tej "
+"wartości"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr ""
+msgstr "liczba (domyślnie: 0.3), ukrywa ładunki czynnikowe poniżej tej wartości"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
+msgstr "liczba (domyślnie: 0.3), ukrywa ładunki poniżej tej wartości"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "liczba (domyślnie: 0.5), wartość dla hipotezy zerowej"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
 msgstr ""
+"liczba (domyślnie: 0), minimalna wartość własna dla czynnika, który ma być "
+"włączony do modelu"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
+msgstr "liczba (domyślnie: 1), parametr prior 'a' rozkładu beta"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
+msgstr "liczba (domyślnie: 1), parametr prior 'b' rozkładu beta"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
 msgstr ""
+"liczba (domyślnie: 1), minimalna wartość własna dla składowej, która ma być "
+"włączona do modelu"
 
 #: cfa/options/hlMI.description.R
+#, fuzzy
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
+"liczba (domyślnie: 3), podświetla wartości w tablicach `'modIndices'` "
+"powyżej tej wartości"
 
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"liczba z przedziału od 0.5 do 2 (domyślnie 0.707), zakres prioru "
+"wykorzystany przy obliczaniu współczynników Bayesa"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707), zakres prioru "
+"wykorzystany przy obliczaniu współczynników Bayesa"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1536,6 +1555,8 @@ msgstr ""
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
 msgstr ""
+"liczba z zakresu od 50 do 99.9 (domyślnie: 95) określająca szerokość "
+"przedziału ufności"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -1546,110 +1567,136 @@ msgstr ""
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
 msgstr ""
+"liczba z przedziału od 50 do 99.9 (domyślnie: 95) określająca szerokość "
+"przedziału ufności dla oszacowanych średnich brzegowych"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
+"liczba z zakresu od 50 do 99.9 (domyślnie: 95) określająca szerokość "
+"przedziału ufności, który jest używany jako `'ci'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
+msgstr "liczba od 50 do 99.9 (domyślnie: 95), szerokość przedziału ufności"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
 msgstr ""
+"liczba z zakresu od 50 do 99.9 (domyślnie: 95), szerokość przedziału "
+"wiarygodności"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
 #: ttestOneS/options/ciWidth.description.R
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr ""
+msgstr "liczba od 50 do 99.9 (domyślnie: 95), szerokość przedziałów ufności"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
 msgstr ""
+"liczba z zakresu od 50 do 99.9 (domyślnie: 95), szerokość przedziałów "
+"ufności dla wielkości efektu"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"liczba z zakresu od 50 do 99.9 (domyślnie: 95), szerokość przedziałów "
+"ufności dla wielkości efektu testów post-hoc"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
 msgstr ""
+"liczba z przedziału od 50 do 99.9 (domyślnie: 95), szerokość przedziałów "
+"ufności do podania"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
 msgstr ""
+"liczba z przedziału od 50 do 99.9 (domyślnie: 95), szerokość przedziałów "
+"ufności do podania"
 
 #: ttestOneS/options/testValue.description.R
+#, fuzzy
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "liczba określająca wartość hipotezy zerowej"
 
 #: propTest2/ui[2][0][0]/priorA.label
+#, fuzzy
 msgid "a parameter"
-msgstr ""
+msgstr "parametr"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
 msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
 msgstr ""
+"możliwa wartość `'d'`; generuje miarę wielkości efektu Cohena dla testów "
+"post-hoc"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "tabela testów post-hoc"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "tabela proporcji"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "wykres q-q"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr ""
+msgstr "Zestaw danych ANOVA dla powtarzanych pomiarów"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
+"łańcuch znaków (domyślnie: 'Dependent') opisujący etykietę używaną dla "
+"zmiennej zależnej w całej analizie"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
 msgstr ""
+"łańcuch znaków określający zmienną w `data` zawierającą zliczenia, lub NULL "
+"jeśli każdy rząd reprezentuje pojedynczą obserwację"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
 msgstr ""
+"łańcuch znaków określający zmienną zależną z `danych`, zmienna musi być "
+"czynnikiem"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
 msgstr ""
+"łańcuch znaków nazywający zmienną zależną z `data`, zmienna musi być "
+"numeryczna"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr ""
+msgstr "łańcuch znaków określający nazwę zmiennej zależnej w `data`"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr ""
+msgstr "łańcuch nazywający zmienne zależne w `data`"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
-msgstr ""
+msgstr "ciąg znaków nazywający grupowanie lub zmienną niezależną w `data`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
-msgstr ""
+msgstr "podsumowanie grup"
 
 #: ancova/results/emm.template/emmTable.description
 #: anova/results/emm.template/emmTable.description
@@ -1659,119 +1706,123 @@ msgstr ""
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "tabela zawierająca oszacowane średnie brzegowe"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "tabela zawierająca oszacowania kowariancji czynników"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "tabela zawierająca oszacowane wartości wyrazu wolnego czynnika"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
-msgstr ""
+msgstr "tabela zawierająca miary dopasowania modelu"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
 msgstr ""
+"tabela zawierająca indeksy modyfikacji dla ładunków czynnikowych "
+"nieuwzględnionych w modelu"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
 msgstr ""
+"tabela zawierająca indeksy modyfikacji dla kowariancji reszt "
+"nieuwzględnionych w modelu"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "tabela zawierająca oszacowania kowariancji reszt"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "tabela zawierająca oszacowania wyrazów wolnych reszt"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "tabela zawierająca reszty dla obserwowanej macierzy korelacji"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "tabela zawierająca test chi kwadrat dla dokładnego dopasowania"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "tabela zawierająca statystyki współliniowości"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "tabela zawierająca statystyki opisowe"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "tabela zawierająca ładunki czynnikowe"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "tabela zawierająca statystyki opisowe dla grup"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "tabela zawierająca testy jednorodności wariancji"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "tabela zawierająca wyniki testu normalności"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "tabela zawierająca testy normalności"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "tabelę zawierającą wyniki testu Boxa-Tidwella"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "tabela zawierająca wyniki testu t"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "tabela zawierająca wyniki testu ANCOVA"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "tabela zawierająca wyniki testu ANOVA"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
-msgstr ""
+msgstr "tabela zawierająca statystyki porównawcze"
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "tabela testów jednorodności wariancji"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "tabela testów homogeniczności"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "tabela testów wskaźnika wiarygodności"
 
 #: logRegOrd/results/models.template/thres.description
 msgid "a table of model coefficient thresholds"
-msgstr ""
+msgstr "tabela progów współczynników modelu"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
@@ -1779,118 +1830,121 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "tabela współczynników modelu"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "tabela testów normalności"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
-msgstr ""
+msgstr "tabela przewidywanych klasyfikacji"
 
 #: logRegBin/results/models.template/pred/measures.description
 msgid "a table of predictive measures"
-msgstr ""
+msgstr "tabela miar predykcyjnych"
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
-msgstr ""
+msgstr "tabela proporcji"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
-msgstr ""
+msgstr "tabela z wynikami testu"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
-msgstr ""
+msgstr "tabela wyników testów 'nominalnych'"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "tabela statystyk opisowych"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
-msgstr ""
+msgstr "tabela z wynikami testu Friedmana"
 
 #: contTables/results/gamma.description
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "tabela z wynikami testu gamma"
 
 #: contTables/results/taub.description
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "tabela z wynikami współczynnika tau-b Kendalla"
 
 #: contTables/results/mh.description
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "tabela testu Mantela-Haenszela dla trendu"
 
 #: anovaRMNP/results/comp.description
 msgid "a table of the pairwise comparisons"
-msgstr ""
+msgstr "tabela porównań parami"
 
 #: propTestN/results/props.description
 msgid "a table of the proportions"
-msgstr ""
+msgstr "tabela proporcji"
 
 #: propTest2/results/table.description
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "tabela proporcji wraz z wynikami wyników testów"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
 msgid "a table of the test results"
-msgstr ""
+msgstr "tabela z wynikami testu"
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "tabela z wynikami testu χ²"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
 msgstr ""
+"wektor zawierający łańcuchy nazywające zmienne, które są odwrotnie kodowane"
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr ""
+msgstr "wektor liczb: oczekiwane proporcje"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr ""
+msgstr "wektor łańcuchów nazw czynników międzyobiektowych z `danych`"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
+msgstr "wektor łańcuchów nazw zmiennych kontrolnych w `data`"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R
 #: mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr ""
+msgstr "wektor ciągów znaków nazywających zmienne kowariancyjne z `danych`"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
 msgstr ""
+"wektor łańcuchów nazywających zmienne kowariancyjne z `danych`. Zmienne "
+"muszą być numeryczne"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
 msgid "a vector of strings naming the factors from `data`"
-msgstr ""
+msgstr "wektor łańcuchów nazywający czynniki z `data`"
 
 #: logRegBin/options/factors.description.R
 #: logRegMulti/options/factors.description.R
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
-msgstr ""
+msgstr "wektor łańcuchów nazywających czynniki stałe z `danych`"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
-msgstr ""
+msgstr "wektor łańcuchów nazywający zmienne powtarzanych pomiarów"
 
 #: descriptives/options/vars.description.R
 #: efa/options/vars.description.R
@@ -1899,7 +1953,7 @@ msgstr ""
 #: reliability/options/vars.description.R
 #: ttestOneS/options/vars.description.R
 msgid "a vector of strings naming the variables of interest in `data`"
-msgstr ""
+msgstr "wektor łańcuchów nazywający wybrane zmienne w `data`"
 
 #: corrMatrix/options/vars.description.R
 #: corrPart/options/vars.description.R
