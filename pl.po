@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-08 23:21+0000\n"
+"PO-Revision-Date: 2022-07-09 09:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -56,15 +56,15 @@ msgstr "{} - rho Spearmana"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% CI dolna granica"
+msgstr "{ciWidth}% dolna granica przedziału ufności"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}% średni CI {title}"
+msgstr "{ciWidth}% średni przedział ufności {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% CI górna granica"
+msgstr "{ciWidth}% górna granica przedziału ufności"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -80,7 +80,7 @@ msgstr "{ciWidth}% CI górna granica"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr "{ciWidth}% Przedział ufności"
+msgstr "{ciWidth}% przedział ufności"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
@@ -217,6 +217,9 @@ msgstr ""
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` i `'facInd'`, jak ograniczyć model; `'facVar'` ustala wartość "
+"wariacji czynnika na 1, `'facInd'` ustala każdy czynnik względem jego "
+"pierwszego wskaźnika."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
@@ -750,6 +753,7 @@ msgstr ""
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje test liniowości logitu Boxa-Tidwella"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
@@ -1031,14 +1035,18 @@ msgstr "`TRUE` lub `FALSE` (domyślne), generuje wartości oczekiwane"
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wykładniczą estymację logarytmiczną "
+"ilorazu szans (OR) lub estymację ilorazu szans"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje wykładniczą estymację logarytmiczną "
+"współczynnika częstości lub estymację współczynnika częstości"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr ""
+msgstr "`TRUE` lub `FALSE` (domyślne), generuje rozstęp międzykwartylowy"
 
 #: descriptives/options/kurt.description.R
 msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
@@ -1051,6 +1059,8 @@ msgstr "`TRUE` lub `FALSE` (domyślne), generuje wskaźnik wiarygodności"
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje zlogarytmizowany iloraz szans (OR) ("
+"dostępne wyłącznie dla tabel 2x2)"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
@@ -1089,10 +1099,14 @@ msgstr "`TRUE` lub `FALSE` (domyślne), zwraca wartości obserwowane"
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje iloraz szans (OR) (dostępne "
+"wyłącznie dla tabel 2x2)"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje całościowy test różnic (omnibus "
+"ANOVA) dla predyktorów"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
@@ -1100,6 +1114,8 @@ msgstr ""
 #: logRegOrd/options/omni.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślne), generuje całościowe testy wskaźnika "
+"wiarygodności dla predyktorów"
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
