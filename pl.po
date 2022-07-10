@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-09 15:19+0000\n"
+"PO-Revision-Date: 2022-07-10 20:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -2057,7 +2057,7 @@ msgstr "tablica tabel częstości"
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
 msgid "an array of groups of plots"
-msgstr ""
+msgstr "tablica grup wykresów"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
@@ -2065,25 +2065,25 @@ msgstr ""
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr ""
+msgstr "tablica wyników specyficznych dla danego modelu"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "tablica tabel porównań parami"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "tablica tabel testów post-hoc"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "tablica wykresów Q-Q"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "tablica wykresów opisowych"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -2093,39 +2093,39 @@ msgstr ""
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "tablica oszacowanych wykresów średnich brzegowych + tabele"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "tablica wykresów a posteriori"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "obraz zawierający wykres ścieżkowy modelu"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "obraz wykresów opisowych"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
+msgstr "liczba całkowita (domyślnie: 1), liczba komponentów w modelu"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
+msgstr "liczba całkowita (domyślnie: 1), liczba czynników w modelu"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr ""
+msgstr "liczba całkowita (domyślnie: 4) określająca liczbę równych grup"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "Mało inspirujący zestaw danych dla testu ANOVA"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
-msgstr ""
+msgstr "Analizy dostarczone w pakiecie z jamovi"
 
 #: package/analyses/ancova.title
 #: package/analyses/ancova.menuTitle
@@ -2133,15 +2133,15 @@ msgstr ""
 #: ancova/ui.title
 #: ancova/results.title
 msgid "ANCOVA"
-msgstr ""
+msgstr "ANCOVA"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
-msgstr ""
+msgstr "Anderson & Rubin"
 
 #: package/datasets/Anderson's Iris Data.name
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "zbiór danych Andersona (irysy)"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -2164,19 +2164,21 @@ msgstr ""
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr ""
+msgstr "test ANOVA"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
 msgstr ""
+"Ponieważ nie ma określonych czynników międzyobiektowych, to założenie jest "
+"zawsze spełnione."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
-msgstr ""
+msgstr "Zakłada równość (Fisher)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -2199,77 +2201,77 @@ msgstr ""
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr ""
+msgstr "Weryfikacja założeń"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
 msgid "Assumptions"
-msgstr ""
+msgstr "Założenia"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
-msgstr ""
+msgstr "Co najmniej jedna zmienna musi mieć dwa poziomy"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "AUC"
-msgstr ""
+msgstr "Pole pod krzywą (AUC)"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
-msgstr ""
+msgstr "Autokorelacja"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr ""
+msgstr "Test autokorelacji"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
-msgstr ""
+msgstr "Dostępne wyłącznie dla tabel 2x2"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "parametr b"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
-msgstr ""
+msgstr "Wykres słupkowy"
 
 #: descriptives/options/bar.title
 msgid "Bar plot"
-msgstr ""
+msgstr "Wykres słupkowy"
 
 #: descriptives/ui[3][0][2].label
 msgid "Bar Plots"
-msgstr ""
+msgstr "Wykresy słupkowe"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][2][0][0][1].label
 msgid "Bar Type"
-msgstr ""
+msgstr "Typ słupków"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
-msgstr ""
+msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr ""
+msgstr "Test sferyczności Bartletta"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr ""
+msgstr "Test sferyczności Bartletta'a"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
 msgid "Based on eigenvalue"
-msgstr ""
+msgstr "W oparciu o wartość własną"
 
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr ""
+msgstr "W oparciu o analizy równoległe"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -2279,38 +2281,38 @@ msgstr ""
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
 msgid "Bayes factor"
-msgstr ""
+msgstr "Współczynnik Bayesa"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr ""
+msgstr "Współczynnik Bayesa₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
-msgstr ""
+msgstr "Statystyki bayesowskie"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "parametr beta 'a'"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "parametr beta 'b'"
 
 #: anovaRM/options/bs.title
 msgid "Between Subject Factors"
-msgstr ""
+msgstr "Czynniki międzyobiektowe"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr ""
+msgstr "Składowe (komponenty) międzyobiektowe"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
-msgstr ""
+msgstr "Efekty międzyobiektowe"
 
 #: cfa/options/fitMeasures/bic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -2326,16 +2328,16 @@ msgstr ""
 #: logRegOrd/results/modelFit.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).name
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr ""
+msgstr "Wielka Piątka (Dolan, Oort, Stoel & Wicherts, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
 msgid "Binomial"
-msgstr ""
+msgstr "Dwumian"
 
 #: package/analyses/logRegBin.title
 #: package/analyses/logRegBin.description
@@ -2344,16 +2346,16 @@ msgstr ""
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr ""
+msgstr "Dwumianowa regresja logistyczna"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
-msgstr ""
+msgstr "Test dwumianowy"
 
 #: package/analyses/propTest2.menuSubtitle
 #: propTest2/options.menuSubtitle
 msgid "Binomial test"
-msgstr ""
+msgstr "Test dwumianowy"
 
 #: jamovi/js/linreg.events.js:4
 #: jamovi/js/linreg.events.js:40
@@ -2364,7 +2366,7 @@ msgstr ""
 #: jamovi/js/logregord.events.js:38
 #: jamovi/js/logregord.events.js:4
 msgid "Block {0}"
-msgstr ""
+msgstr "Blok {0}"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logLinear/ui[1]/modelSupplier[0]/blocks.template/blockName.label
@@ -2372,7 +2374,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 msgid "Block 1"
-msgstr ""
+msgstr "Blok 1"
 
 #: linReg/options/blocks.title
 #: logLinear/options/blocks.title
@@ -2380,82 +2382,82 @@ msgstr ""
 #: logRegMulti/options/blocks.title
 #: logRegOrd/options/blocks.title
 msgid "Blocks"
-msgstr ""
+msgstr "Bloki"
 
 #: ancova/options/postHocCorr/bonf.title
 #: anova/options/postHocCorr/bonf.title
 #: anovaRM/options/postHocCorr/bonf.title
 msgid "Bonferroni"
-msgstr ""
+msgstr "test Bonferroniego"
 
 #: descriptives/options/box.title
 msgid "Box plot"
-msgstr ""
+msgstr "Wykres pudełkowy"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
-msgstr ""
+msgstr "Wykresy pudełkowe"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
-msgstr ""
+msgstr "Test Boxa-Tidwella"
 
 #: logRegBin/results/models.template/assump/boxTidwell.title
 msgid "Box-Tidwell Test for Linearity of the Logit"
-msgstr ""
+msgstr "Test Boxa-Tidwella na liniowość logitu"
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr ""
+msgstr "Test jednorodności macierzy kowariancji Boxa"
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
-msgstr ""
+msgstr "Test M Boxa"
 
 #: mancova/options/boxM.title
 msgid "Box's M test for homogeneity of covariance matrices"
-msgstr ""
+msgstr "Test M Boxa jednorodności macierzy kowariancji"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).name
 msgid "Bugs (Ryan, Wilde & Crist, 2013)"
-msgstr ""
+msgstr "Błędy (Ryan, Wilde i Crist, 2013)"
 
 #: contTables/ui[1][1].label
 msgid "Cells"
-msgstr ""
+msgstr "Komórki"
 
 #: descriptives/ui[2][1][0].label
 msgid "Central Tendency"
-msgstr ""
+msgstr "Tendencja centralna"
 
 #: cfa/options/fitMeasures/cfi.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "CFI"
-msgstr ""
+msgstr "CFI"
 
 #: R/mancova.b.R
 msgid "Chi-Square Quantiles"
-msgstr ""
+msgstr "Kwantyle Chi-kwadrat"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "Dolna granica przedziału ufności"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "Górna granica przedziału ufności"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
-msgstr ""
+msgstr "Tabela klasyfikacji"
 
 #: logRegBin/options/class.title
 msgid "Classification table"
-msgstr ""
+msgstr "Tabela klasyfikacji"
 
 #: R/logregbin.b.R
 msgid "Classification Table – {dep}"
-msgstr ""
+msgstr "Tabela klasyfikacji – {dep}"
 
 #: R/ancova.b.R
 #: ancova/options/postHocES/d.title
@@ -2464,49 +2466,51 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Cohen's d"
-msgstr ""
+msgstr "d Cohena"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
 msgid "Collinearity Statistics"
-msgstr ""
+msgstr "Statystyki współliniowości"
 
 #: linReg/options/collin.title
 #: logRegBin/options/collin.title
 msgid "Collinearity statistics"
-msgstr ""
+msgstr "Statystyki współliniowości"
 
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
-msgstr ""
+msgstr "Kolumna"
 
 #: R/ancova.b.R
 msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
 msgstr ""
+"Kolumna '{name}' zawiera niewykorzystane poziomy (możliwe tylko, gdy wiersze "
+"z brakami danych zostały wykluczone)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Column variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "Zmienna '{var}' zawiera mniej niż 2 poziomy"
 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
 msgid "Columns"
-msgstr ""
+msgstr "Kolumny"
 
 #: contTables/options/compare/columns.title
 msgid "columns"
-msgstr ""
+msgstr "kolumny"
 
 #: R/conttables.b.R
 msgid "Columns compared"
-msgstr ""
+msgstr "Porównywane kolumny"
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
-msgstr ""
+msgstr "Miary porównawcze"
 
 #: contTables/ui[1][0][0][1][0].label
 msgid "Comparative Measures (2x2 only)"
