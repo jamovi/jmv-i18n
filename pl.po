@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-13 21:15+0000\n"
+"PO-Revision-Date: 2022-07-13 22:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -7491,7 +7491,7 @@ msgstr ""
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "test Shapiro-Wilka"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
@@ -7499,11 +7499,11 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr ""
+msgstr "wartość p testu Shapiro-Wilka"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
-msgstr ""
+msgstr "Test Shapiro-Wilka"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
@@ -7511,7 +7511,7 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
-msgstr ""
+msgstr "W Shapiro-Wilka"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
@@ -7521,20 +7521,20 @@ msgstr ""
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
 msgid "Simple"
-msgstr ""
+msgstr "Proste"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
 msgid "Simplimax"
-msgstr ""
+msgstr "Simplimax"
 
 #: R/pca.b.R
 msgid "simplimax"
-msgstr ""
+msgstr "simplimax"
 
 #: R/pca.b.R
 msgid "Simulations"
-msgstr ""
+msgstr "Symulacje"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
@@ -7547,29 +7547,29 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
 msgid "Skewness"
-msgstr ""
+msgstr "Skośność"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "Sortuj ładunki według wielkości"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
 msgid "Spearman"
-msgstr ""
+msgstr "współczynnik Spearmana"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr ""
+msgstr "rho Spearmana"
 
 #: R/pca.b.R
 msgctxt "specific factor"
 msgid "Factor"
-msgstr ""
+msgstr "Czynnik"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
@@ -7579,21 +7579,21 @@ msgstr ""
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr ""
+msgstr "Poprawka na sferyczność"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr ""
+msgstr "Poprawka na sferyczność"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "Testy sferyczności"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr ""
+msgstr "Podziel przez"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -7602,7 +7602,7 @@ msgstr ""
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "SRMR"
-msgstr ""
+msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
@@ -7631,12 +7631,12 @@ msgstr ""
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr ""
+msgstr "Odchylenie standardowe"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
 msgid "Standard Error"
-msgstr ""
+msgstr "Błąd standardowy"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
@@ -7646,12 +7646,12 @@ msgstr "Błąd standardowy"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "Oszacowanie standaryzowane"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr ""
+msgstr "Oszacowanie standaryzowane"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -7662,7 +7662,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "Reszty standaryzowane"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -7671,11 +7671,11 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr ""
+msgstr "Statystyka"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "statystyka"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -7684,50 +7684,50 @@ msgstr ""
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
 msgid "Statistics"
-msgstr ""
+msgstr "Statystyki"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr ""
+msgstr "Odchylenie standardowe"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "Błąd standardowy kurtozy"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
-msgstr ""
+msgstr "Błąd standardowy średniej"
 
 #: descriptives/ui[2][2][1][0]/se.label
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "Błąd standardowy średniej"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "Błąd standardowy skośności"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
 msgid "Student's"
-msgstr ""
+msgstr "Studenta"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Student's t"
-msgstr ""
+msgstr "t Studenta"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr ""
+msgstr "test Studenta"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
 #: descriptives/options/sum.title
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -7735,13 +7735,13 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "Suma kwadratów"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "Suma kwadratów"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
@@ -7750,13 +7750,13 @@ msgstr ""
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
-msgstr ""
+msgstr "Podsumowanie"
 
 #: R/ancova.b.R
 #: contTables/results/taub.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -7765,11 +7765,11 @@ msgstr ""
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr ""
+msgstr "Testy t"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr ""
+msgstr "wartość t"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
@@ -7807,43 +7807,43 @@ msgstr ""
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "Wyniki testu (t oraz df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr ""
+msgstr "Statystyki testowe"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "Wartość testu"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "Wartość testu"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr ""
+msgstr "Testy"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Testy sferyczności"
 
 #: R/descriptives.b.R
 msgid "th percentile"
-msgstr ""
+msgstr "trzeci percentyl"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "Zestaw danych \"irysy\" z R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
+msgstr "Zmienna 'podziel przez' '{var}' nie zawiera żadnych danych."
 
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
@@ -7863,12 +7863,12 @@ msgstr ""
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "hipoteza alternatywna."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr ""
+msgstr "hipoteza alternatywna. Umożliwia przeprowadzenie testów jednostronnych."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -7944,19 +7944,19 @@ msgstr ""
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "szerokość przedziału ufności dla wielkości efektu."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "szerokość przedziału ufności dla wielkości efektu testów post hoc."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr ""
+msgstr "szerokość przedziału ufności."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
@@ -7965,11 +7965,11 @@ msgstr ""
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 msgid "the contrasts to use."
-msgstr ""
+msgstr "kontrasty do użycia."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr ""
+msgstr "zmienne kontrolne."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
@@ -7985,7 +7985,7 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "Punkt odcięcia jest ustawiony na {}"
 
 #: ancova/options/data.description.R
 #: anova/options/data.description.R
@@ -8031,7 +8031,7 @@ msgstr ""
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "zmienna zależna z `data`; zmienna musi być numeryczna"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
@@ -8040,11 +8040,11 @@ msgstr ""
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "zmienna zależna. W przypadku ANCOVA będzie miała charakter ciągły."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "zmienna zależna. W przypadku ANOVA będzie miała charakter ciągły."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
@@ -8053,6 +8053,7 @@ msgstr ""
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
 msgstr ""
+"zmienna zależna (nie jest konieczna przy stosowaniu wzoru; patrz przykłady)"
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
