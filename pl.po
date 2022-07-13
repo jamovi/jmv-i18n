@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-11 06:20+0000\n"
+"PO-Revision-Date: 2022-07-13 10:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -4946,7 +4946,6 @@ msgid "Generalised η²"
 msgstr "Uogólnione η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
-#, fuzzy
 msgid "Grand mean (simple coding)"
 msgstr "Wielka średnia (proste kodowanie)"
 
@@ -5441,19 +5440,19 @@ msgstr "MANCOVA"
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr ""
+msgstr "U Manna-Whitney'a"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
-msgstr ""
+msgstr "test Mantela-Haenszela"
 
 #: contTables/results/mh.title
 msgid "Mantel-Haenszel Test for Trend"
-msgstr ""
+msgstr "Test Mantela-Haenszela dla trendu"
 
 #: R/linreg.b.R
 msgid "Marginal Mean"
-msgstr ""
+msgstr "Średnia brzegowa"
 
 #: ancova/options/emMeans.title
 #: anova/options/emMeans.title
@@ -5463,7 +5462,7 @@ msgstr ""
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
 msgid "Marginal Means"
-msgstr ""
+msgstr "Średnie brzegowe"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -5473,7 +5472,7 @@ msgstr ""
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr ""
+msgstr "Wykresy średnich brzegowych"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -5483,58 +5482,58 @@ msgstr ""
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
 msgid "Marginal means tables"
-msgstr ""
+msgstr "Tabele średnich brzegowych"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
-msgstr ""
+msgstr "W Mauchly'a"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
-msgstr ""
+msgstr "Maksimum"
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
 msgid "Maximum"
-msgstr ""
+msgstr "Maksimum"
 
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Metoda największej wiarygodności (ML)"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "McDonald's ω"
-msgstr ""
+msgstr "ω McDonalda"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr ""
+msgstr "ω McDonald's (po usunięciu pozycji)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
 msgid "McFadden's R²"
-msgstr ""
+msgstr "R² McFaddena"
 
 #: R/conttablespaired.b.R
 msgid "McNemar requires a 2x2 table"
-msgstr ""
+msgstr "test McNemara wymaga tabeli 2x2"
 
 #: contTablesPaired/results/test.title
 msgid "McNemar Test"
-msgstr ""
+msgstr "Test McNemara"
 
 #: package/analyses/contTablesPaired.menuSubtitle
 #: package/analyses/contTablesPaired.description
 #: contTablesPaired/options.menuSubtitle
 #: contTablesPaired/options.description.main
 msgid "McNemar test"
-msgstr ""
+msgstr "test McNemara"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5552,23 +5551,23 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr ""
+msgstr "Średnia"
 
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "mean"
-msgstr ""
+msgstr "średnia"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "Średnia ({ciWidth}% PU)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Mean Difference"
-msgstr ""
+msgstr "Średnia różnica"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
