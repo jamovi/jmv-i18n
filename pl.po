@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-13 11:19+0000\n"
+"PO-Revision-Date: 2022-07-13 12:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -6318,15 +6318,15 @@ msgstr "Pary zmiennych"
 
 #: anovaNP/results/comparisons.template.title
 msgid "Pairwise comparisons - $key"
-msgstr ""
+msgstr "Porównania parami - $key"
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Porównania parami (test Durbina-Conovera)"
 
 #: anovaRMNP/options/pairs.title
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Porównania parami (test Durbina-Conovera)"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
@@ -6383,7 +6383,7 @@ msgstr "Diagram ścieżkowy"
 
 #: cfa/options/pathDiagram.title
 msgid "Path diagram"
-msgstr "Schemat ścieżkowy"
+msgstr "Diagram ścieżkowy"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
@@ -6406,7 +6406,6 @@ msgstr "Korelacja Pearsona{}"
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
-#, fuzzy
 msgid "Percentages"
 msgstr "Procenty"
 
@@ -6433,15 +6432,17 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
 msgid "Percentiles"
-msgstr ""
+msgstr "Percentyle"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "wykonaj test U Manna-Whitneya."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"wykonaj test normalności rozkładu Shapiro-Wilka. Niska wartość p sugeruje, "
+"że dane nie pochodzą z rozkładu normalnego."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -6451,54 +6452,59 @@ msgstr ""
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
 msgstr ""
+"przeprowadź test ANOVA Fishera (tj. \"standardową\" wersję testu ANOVA)."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"wykonaj testy normalności rozkładu Shapiro-Wilka. Niska wartość p sugeruje, "
+"że dane nie pochodzą z rozkładu normalnego."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
+"wykonaj testy normalności Shapiro-Wilka. Niska wartość p sugeruje, że reszty "
+"nie przyjmują rozkładu normalnego."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr ""
+msgstr "wykonaj testy t-Studenta dla prób niezależnych."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr ""
+msgstr "wykonaj testy t-Studenta dla jednej próby."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "wykonaj testy t-Studenta dla prób zależnych."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "wykonaj test ANOVA Welcha."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "wykonaj testy Welcha."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "wykonaj testy rang Wilcoxona."
 
 #: contTables/options/phiCra.title
 msgid "Phi and Cramer's V"
-msgstr ""
+msgstr "współczynniki Phi i V Cramera"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "Współczynnik Phi"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "Ślad Pillai"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -6506,7 +6512,7 @@ msgstr ""
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr ""
+msgstr "Wykres"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
@@ -6520,7 +6526,7 @@ msgstr ""
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr ""
+msgstr "Typ wykresu"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -6545,7 +6551,7 @@ msgstr ""
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "Porównania post hoc – {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -6558,11 +6564,11 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "Testy post hoc"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Testy post hoc - $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
@@ -6571,12 +6577,12 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "Test post hoc"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "Testy post hoc"
 
 #: R/proptest2.b.R
 msgid "Posterior"
@@ -6596,11 +6602,11 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "Przewidywane prawdopodobieństwo … = … (vs … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
+msgstr "Przewidywane prawdopodobieństwo {dep} = {level1} (vs {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -6608,7 +6614,7 @@ msgstr ""
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr ""
+msgstr "Wartości przewidywane"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
@@ -6631,7 +6637,7 @@ msgstr ""
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 msgid "Predictor"
-msgstr ""
+msgstr "Predyktor"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -6639,11 +6645,11 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "Predyktory"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
-msgstr ""
+msgstr "Oś główna"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
@@ -6657,7 +6663,7 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Analiza głównych składowych (PCA)"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -6665,7 +6671,7 @@ msgstr ""
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
 msgid "Prior"
-msgstr ""
+msgstr "Prior"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
@@ -6676,60 +6682,62 @@ msgstr ""
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Probability"
-msgstr ""
+msgstr "Prawdopodobieństwo"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "Promax"
 
 #: R/pca.b.R
 msgid "promax"
-msgstr ""
+msgstr "promax"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Proportion"
-msgstr ""
+msgstr "Proporcja"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "Test proporcji (2 wyniki)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "Test proporcji (N wyników)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
+msgstr "podaje miarę wielkości efektu d Cohena dla testów post hoc."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
+"podaje przedziały ufności dla różnicy pomiędzy średnim oszacowaniem a "
+"wartością testowaną."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "tworzy wykres macierzy korelacji."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "podaje współczynnik tau-b Kendalla dla każdej kombinacji zmiennych."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "podaje wartość p dla każdego współczynnika korelacji."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
