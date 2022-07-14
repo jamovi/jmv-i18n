@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-13 22:19+0000\n"
+"PO-Revision-Date: 2022-07-14 20:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -8057,13 +8057,13 @@ msgstr ""
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "zmiennych zależnych. W przypadku ANOVA będą to zmienne ciągłe."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "słupki błędów do wyświetlenia na średnich brzegowych."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
@@ -8084,7 +8084,7 @@ msgstr ""
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr ""
+msgstr "stałe czynniki z `data`"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -8094,6 +8094,8 @@ msgstr ""
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
+"zmienna grupująca przyjmująca dwa poziomy (nie jest konieczna w przypadku "
+"korzystania z formuły, patrz przykłady)"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
@@ -8102,7 +8104,7 @@ msgstr ""
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "etykieta, która ma być używana dla zmiennej zależnej."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
@@ -8113,10 +8115,16 @@ msgstr ""
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"metoda wykluczania braków danych. `Analysis by analysis` wyklucza brakujące "
+"wartości z każdej analizy. `Listwise` wyklucza wiersz ze wszystkich analiz, "
+"jeśli brakuje w nim jakiejkolwiek wartości."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"metoda wykluczania braków danych. `Analysis by analysis` wyklucza brakujące "
+"wartości z każdej zmiennej. `Listwise` wyklucza wiersz ze wszystkich analiz, "
+"jeśli brakuje w nim jakiejkolwiek wartości."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -8129,6 +8137,7 @@ msgstr ""
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
 msgstr ""
+"pary pomiarów -- dla każdej pary pomiarów wykonywany jest osobny test t."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -8175,14 +8184,18 @@ msgstr ""
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
 msgstr ""
+"Powtórzony pomiar ma tylko dwa poziomy. Założenie o sferyczności jest zawsze "
+"spełnione, gdy powtarzane pomiary mają tylko dwa poziomy"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
+"Powtórzony pomiar ma tylko dwa poziomy. Założenie o sferyczności jest zawsze "
+"spełnione, gdy powtarzane pomiary mają tylko dwa poziomy."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "miary powtarzanych pomiarów."
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
@@ -8262,11 +8275,11 @@ msgstr ""
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "wartość testowa do sprawdzenia (zazwyczaj zero)."
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "rodzaj korelacji do obliczenia"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
@@ -8294,7 +8307,7 @@ msgstr ""
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "zmienna wyznaczająca grupy; musi mieć 2 poziomy."
 
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
@@ -8332,7 +8345,7 @@ msgstr ""
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
 msgid "the width for the Confidence intervals."
-msgstr ""
+msgstr "szerokość przedziałów ufności."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
@@ -8453,19 +8466,19 @@ msgstr ""
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr ""
+msgstr "Typ 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr ""
+msgstr "Typ 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr ""
+msgstr "Typ 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
