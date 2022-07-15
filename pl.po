@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-15 12:16+0000\n"
+"PO-Revision-Date: 2022-07-15 13:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -8070,10 +8070,22 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
+"Analiza wariancji (ANOVA) służy do badania zależności\n"
+"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorycznymi\n"
+"zmiennymi objaśniającymi. Jednoczynnikowa ANOVA (1-ANOVA) jest\n"
+"uproszczoną wersją testu ANOVA, dopuszczającą tylko jeden czynnik\n"
+"objaśniający. Alternatywna dla testu Fishera ANOVA Welcha ma tę zaletę,\n"
+"że nie wymaga przyjęcia założenia o jednorodności wariancji w grupach.\n"
+"\n"
+"Dla wygody, metoda ta pozwala na wybranie wielu zmiennych zależnych,\n"
+"generując wiele testów niezależnych od siebie.\n"
+"\n"
+"Proszę zwrócić uwagę, że ANOVA Welcha jest taką samą procedurą\n"
+"jak test Welcha dla dwóch prób niezależnych."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "czynniki międzyobiektowe (opcjonalnie)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
@@ -8083,10 +8095,14 @@ msgstr ""
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"Test dwumianowy służy do testowania hipotezy zerowej, mówiącej o tym, że "
+"proporcja obserwacji odpowiada pewnej wartości oczekiwanej. Niska wartość p "
+"sugeruje, że hipoteza zerowa jest fałszywa i że prawdziwa proporcja może być "
+"inną wartością."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "kategoryczne zmienne wyjaśniające (niezależne)."
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8108,7 +8124,7 @@ msgstr "szerokość przedziału ufności."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr ""
+msgstr "ciągłe zmienne objaśniające (niezależne), zwane także kowariantami."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -8121,15 +8137,15 @@ msgstr "zmienne kontrolne."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
-msgstr ""
+msgstr "liczebności w `data`"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "współzmienne (dodanie ich powoduje wykonanie testu ANCOVA)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "współzmienne z `data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -8167,15 +8183,21 @@ msgstr "dane jako ramka danych (data frame)"
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"Zmienna zależna '{}' ma więcej niż dwa poziomy; dwumianową regresję "
+"logistyczną można przeprowadzić tylko na zmiennych zależnych przyjmujących "
+"dwa poziomy."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr ""
+"W zmiennej zależnej '{dep}' występuje następującą kolejność: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"Zmienna zależna '{dep}' ma tylko dwa poziomy - rozważ wykonanie dwumianowej "
+"regresji logistycznej."
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
@@ -8185,6 +8207,8 @@ msgstr "zmienna zależna z `data`; zmienna musi być numeryczna"
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"zmienna zależna z `data`; zmienna musi być numeryczna (nie jest konieczna "
+"przy podawaniu formuły, patrz przykłady)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -8197,6 +8221,8 @@ msgstr "zmienna zależna. W przypadku ANOVA będzie miała charakter ciągły."
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
+"zmienne zależne -- dla każdej podanej zmiennej zależnej wykonywany jest "
+"oddzielny test t."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
@@ -8215,20 +8241,26 @@ msgstr "słupki błędów do wyświetlenia na średnich brzegowych."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
-msgstr ""
+msgstr "współzmienne (nie są konieczne przy podawaniu formuły, patrz przykłady)"
 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
 msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
 msgstr ""
+"zmienne objaśniające w `danych` (nie są konieczne przy podawaniu wzoru, "
+"patrz przykłady)"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
+"zmienna objaśniająca (niezależna). W przypadku testu ANOVA będzie to zmienna "
+"kategoryczna."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
+"zmienne objaśniające (niezależne). W przypadku testu ANOVA będą to zmienne "
+"kategoryczne."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
@@ -8238,6 +8270,14 @@ msgstr "stałe czynniki z `data`"
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Test Friedmana jest stosowany do badania związku między ciągłą zmienną "
+"zależną a kategoryczną zmienną objaśniającą, gdzie zmienna objaśniająca jest "
+"mierzona w schemacie powtórzonego pomiaru (tzn. kilka pomiarów pochodzi od "
+"tych samych obiektów). Test ten jest odpowiednikiem testu ANOVA dla "
+"powtórzonych pomiarów z tą różnicą, że jest testem nieparametryczny i nie "
+"wymaga przyjęcia założeń o normalności rozkładu oraz jednorodności "
+"wariancji. Ma jednak to ograniczenie, że nadaje się do analizy tylko jednej "
+"zmiennej objaśniającej na raz (nie umożliwia analiz wieloczynnikowych)."
 
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
