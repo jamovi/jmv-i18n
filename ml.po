@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-18 05:19+0000\n"
+"PO-Revision-Date: 2022-07-19 12:22+0000\n"
 "Last-Translator: Dr. Chinchu C. <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -211,18 +211,31 @@ msgstr ""
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (default), `'gt'` or `'lt'`, ആൾട്ടർനേറ്റീവ് ഹൈപ്പോതിസീസ്; `testValue`"
+"ൽ നിന്ന് വ്യത്യസ്തം, `testValue`ക്കാൾ കൂടുതൽ, `testValue`ക്കാൾ കുറവ് "
+"എന്നിങ്ങനെ യഥാക്രമം"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` അല്ലെങ്കിൽ `'facInd'`, മോഡലിനെ എങ്ങനെ contrain ചെയ്യാം; `'facVar'`"
+" ഫാക്‌ടർ വേരിയൻസിനെ ഒന്ന് ആയി പരിമിതപ്പെടുത്തുന്നു, `'facInd'' ഓരോ "
+"ഫാക്ടറിനെയും അതിന്റെ ആദ്യ ഇൻഡിക്കേറ്ററിന്റെ സ്കെയിലിലേക്ക് "
+"പരിമിതപ്പെടുത്തുന്നു."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` അല്ലെങ്കിൽ `'fiml'`, ഇല്ലാത്ത മൂല്യങ്ങളെ എങ്ങനെ കൈകാര്യം "
+"ചെയ്യണം; എൻട്രികളിൽ ഒരെണ്ണമെങ്കിലും ഇല്ലെങ്കിൽ`'listwise'` ആ വരിയെ "
+"വിശകലനങ്ങളിൽ നിന്നും ഒഴിവാക്കുന്നു, `'fiml'` മോഡൽ എസ്റ്റിമേഷനായി ഒരു full "
+"information maximum likelihood method ഉപയോഗിക്കുന്നു."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
+"`'means'` (default) അല്ലെങ്കിൽ `'medians'`, പ്ലോട്ടിൽ ഉപയോഗിക്കേണ്ട എറർ "
+"ബാറുകൾ"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
