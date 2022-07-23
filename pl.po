@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-23 20:18+0000\n"
+"PO-Revision-Date: 2022-07-23 21:21+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -8338,6 +8338,8 @@ msgstr "poprawki dla wielokrotnych porównań post hoc."
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
+"szerokość prioru dla współczynników Bayesa testu t-Studenta. Wymaga wartości "
+"od 0,5 do 2,0, domyślnie 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -8347,6 +8349,12 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"ANOVA dla powtórzonych pomiarów jest używana do badania relacji\n"
+"pomiędzy ciągłą zmienną zależną a jedną lub kilkoma kategorycznymi\n"
+"zmiennymi objaśniającymi, gdzie jedna lub więcej zmiennych objaśniających\n"
+"to czynniki wewnątrzobiektowe (wiele pomiarów pochodzi od tego samego\n"
+"obiektu). Dodatkowo, analiza ta pozwala na włączenie\n"
+"współzmiennych (ANCOVA dla powtórzonych pomiarów)."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -8364,10 +8372,27 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
+"ANOVA dla powtórzonych pomiarów jest używana do badania relacji\n"
+"pomiędzy ciągłą zmienną zależną a jedną lub kilkoma kategorycznymi\n"
+"zmiennymi objaśniającymi, gdzie jedna lub więcej zmiennych objaśniających\n"
+"to czynniki wewnątrzobiektowe (wiele pomiarów pochodzi od tego samego\n"
+"obiektu). Dodatkowo analiza ta pozwala na włączenie\n"
+"współzmiennych (ANCOVA dla powtórzonych pomiarów).\n"
+"\n"
+"Analiza ta wymaga, aby dane były przygotowane w \"szerokim formacie\", gdzie "
+"każdy\n"
+"wiersz reprezentuje jeden obiekt (w przeciwieństwie do formatu długiego, "
+"gdzie w każdym\n"
+"wierszu znajduje się jeden pomiar danej zmiennej zależnej).\n"
+"\n"
+"Nieparametrycznym odpowiednikiem testu ANOVA z powtórzonym pomiarem jest\n"
+"test Friedmana. Jego głównym ograniczeniem jest możliwość testowania jedynie "
+"jednego \n"
+"czynnika na raz."
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
-msgstr ""
+msgstr "plan z powtórzonym pomiarem."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
@@ -8395,6 +8420,12 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
+"Test t-Studenta dla prób niezależnych (czasami nazywany testem dla dwóch "
+"grup)\n"
+"jest używany do testowania hipotezy zerowej głoszącej, że dwie grupy mają\n"
+"taką samą średnią. Niska wartość p sugeruje, że hipoteza zerowa nie jest "
+"prawdziwa,\n"
+"i dlatego średnie można uznać za istotnie różniące się od siebie."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -8411,6 +8442,21 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
+"Test t Studenta dla prób niezależnych (czasami nazywany testem dla dwóch "
+"grup)\n"
+"jest używany do testowania hipotezy zerowej głoszącej, iż dwie grupy mają\n"
+"taką samą średnią. Niska wartość p sugeruje, że hipoteza zerowa nie jest "
+"prawdziwa,\n"
+"i dlatego średnie można uznać za istotnie różniące się od siebie.\n"
+"\n"
+"Założenia tego testu wskazują, że dane z każdej grupy\n"
+"powinny pochodzić z rozkładu normalnego, natomiast wariancje tych grup\n"
+"są równe. Jeśli nie możemy przyjąć, że grupy mają jednorodne wariancje,\n"
+"można zastosować w zamian test t Welcha. W przypadku braku przyjęcia\n"
+"założenia, że dane pochodzą z populacji o rozkładzie normalnym,\n"
+"można zastosować nieparametryczny test U Manna-Whitneya.\n"
+"(Należy jednak pamiętać, że test U Manna-Whitneya testuje nieco inną\n"
+"hipotezę zerową, tzn. że rozkłady każdej grupy są równe)."
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -8418,6 +8464,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
+"Test t Studenta dla jednej próby jest używany do testowania hipotezy "
+"zerowej\n"
+"wskazującej, że prawdziwa średnia jest równa określonej wartości (zazwyczaj "
+"zerowej). \n"
+"Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa, a zatem\n"
+"prawdziwa średnia musi różnić się od wartości testowanej."
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -8431,6 +8483,18 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
+"Test t Studenta dla jednej próby jest używany do testowania hipotezy "
+"zerowej\n"
+"wskazującej, że prawdziwa średnia jest równa określonej wartości (zazwyczaj "
+"zerowej).\n"
+"Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa, a zatem\n"
+"prawdziwa średnia musi różnić się od wartości testowanej.\n"
+"\n"
+"Test ten wymaga spełnienia zakłożenia, że dane pochodzą\n"
+"z rozkładu normalnego. W przypadku niespełnienia tego założenia\n"
+"można zastosować nieparametryczny test Wilcoxona. Należy jednakże\n"
+"pamiętać, że test Wilcoxona testuje nieco inną hipotezę zerową, tzn.\n"
+"że *mediana* jest równa testowanej wartości)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -8439,6 +8503,11 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
+"Test t Studenta dla powtórzonych pomiarów (czasami nazywany testem\n"
+"t dla prób zależnych) jest używany do testowania hipotezy zerowej\n"
+"głoszącej, że różnica pomiędzy parami pomiarów jest równa zeru.\n"
+"Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa a\n"
+"różnica pomiędzy parami pomiarów jest niezerowa."
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -8454,6 +8523,19 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
+"Test t Studenta dla powtórzonych pomiarów (czasami nazywany testem\n"
+"t dla prób zależnych) jest używany do testowania hipotezy zerowej\n"
+"głoszącej, że różnica pomiędzy parami pomiarów jest równa zeru.\n"
+"Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa a\n"
+"różnica pomiędzy parami pomiarów jest niezerowa.\n"
+"\n"
+"Test ten wymaga spełnienia założenia, że różnice między parami pomiarów mają "
+"rozkład\n"
+"zbliżony do rozkładu normalnego. W przypadku niespełnienia tego założenia\n"
+"należy użyć nieparametrycznego testu Wilcoxona. Należy jednakże pamiętać,\n"
+"że test Wilcoxon testuje nieco inną hipotezę zerową, tzn. że dwie grupy "
+"pomiarów\n"
+"mają zbliżony rozkład wyników."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
@@ -8472,11 +8554,11 @@ msgstr "rodzaj korelacji do obliczenia"
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr ""
+msgstr "typ sumy kwadratów; typ 1, 2 lub 3."
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr ""
+msgstr "typ sumy kwadratów; typ 2 lub 3."
 
 #: ancova/results/model.description
 #: anova/results/model.description
@@ -8492,6 +8574,8 @@ msgstr ""
 #: propTestN/options/var.description.R
 msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
 msgstr ""
+"zmienna w `data` (nie jest konieczna przy stosowaniu formuły, patrz "
+"przykłady)"
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
@@ -8501,6 +8585,8 @@ msgstr "zmienna wyznaczająca grupy; musi mieć 2 poziomy."
 #: contTablesPaired/options/cols.description.R
 msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"zmienna w kolumnach tabeli krzyżowej (nie jest konieczna przy wprowadzaniu "
+"formuły, patrz przykłady)"
 
 #: contTables/options/counts.description.R
 #: contTablesPaired/options/counts.description.R
@@ -8511,6 +8597,8 @@ msgstr ""
 #: contTablesPaired/options/rows.description.R
 msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"zmienna w wierszach tabeli krzyżowej (nie jest konieczna przy wprowadzaniu "
+"formuły, patrz przykłady)"
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
