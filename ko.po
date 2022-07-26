@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-24 04:22+0000\n"
+"PO-Revision-Date: 2022-07-26 05:17+0000\n"
 "Last-Translator: Hyunsoo Seol <snowcau@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -153,34 +153,34 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "정확도 비율"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "전체 비율"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "전체 비율"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr ""
+msgstr "분산비율"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within column"
-msgstr ""
+msgstr "열 비율"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within row"
-msgstr ""
+msgstr "행 비율"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
@@ -1094,17 +1094,17 @@ msgstr ""
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr ""
+msgstr "< 테스트 값"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr ""
+msgstr "검증 값"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr ""
+msgstr "> 테스트 값"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1119,14 +1119,14 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - 특이성"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr ""
+msgstr "2 결과"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
@@ -1142,15 +1142,15 @@ msgstr ""
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "상관행렬 도표"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "상관행렬"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "기술통계 도표"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
@@ -1233,18 +1233,18 @@ msgstr ""
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr ""
+msgstr "낮은 p값은 동분산 가정의 기각을 암시한다"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
+msgstr "낮은 p값은 정규분포 가정의 기각을 암시한다"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "좋은 상관 관계 데이터 세트"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
@@ -1358,7 +1358,7 @@ msgstr ""
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
+msgstr "모수값"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "사후 검증 표"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
@@ -1377,11 +1377,11 @@ msgstr ""
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "q-q 도표"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr ""
+msgstr "반복측정 분산분석 자료"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
@@ -1688,11 +1688,11 @@ msgstr "정확도"
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.addButton
 msgid "Add New Block"
-msgstr ""
+msgstr "새 블럭 추가"
 
 #: cfa/ui[0][0]/factors.addButton
 msgid "Add New Factor"
-msgstr ""
+msgstr "새 요인 추가"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -1702,19 +1702,19 @@ msgstr ""
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 msgid "Add New Term"
-msgstr ""
+msgstr "새 항목 추가"
 
 #: corrMatrix/ui[1][1].label
 #: corrPart/ui[1][3].label
 #: reliability/ui[1][0][1].label
 msgid "Additional Options"
-msgstr ""
+msgstr "추가 옵션"
 
 #: cfa/ui[5].label
 #: efa/ui[1][1][2].label
 #: pca/ui[1][1][2].label
 msgid "Additional Output"
-msgstr ""
+msgstr "추가 결과표"
 
 #: anovaOneW/ui[1][1][0].label
 #: propTest2/ui[1][1][0].label
@@ -1722,12 +1722,12 @@ msgstr ""
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
 msgid "Additional Statistics"
-msgstr ""
+msgstr "추가 통계값"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
 msgid "Adjusted R²"
-msgstr ""
+msgstr "조정된 R²"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -1755,7 +1755,7 @@ msgstr ""
 #: ttestOneS/options/hypothesis.title
 #: ttestPS/options/hypothesis.title
 msgid "Alternative hypothesis"
-msgstr ""
+msgstr "대안가설"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
@@ -1849,7 +1849,7 @@ msgstr ""
 #: ancova/ui.title
 #: ancova/results.title
 msgid "ANCOVA"
-msgstr "공분산분석"
+msgstr "공분산 분석"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
@@ -1884,7 +1884,7 @@ msgstr "분산분석"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr ""
+msgstr "분산분석 검증"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
@@ -1915,7 +1915,7 @@ msgstr ""
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr ""
+msgstr "가정검증"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
@@ -1924,7 +1924,7 @@ msgstr "가정"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
-msgstr ""
+msgstr "적어도 한개의 변수는 2개의 수준을 가져야 한다"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -1937,11 +1937,11 @@ msgstr "자기상관"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr ""
+msgstr "자기상관 검증"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
-msgstr ""
+msgstr "2x2 테이블에만 사용 가능"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
@@ -1949,20 +1949,20 @@ msgstr ""
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
-msgstr ""
+msgstr "막대 도표"
 
 #: descriptives/options/bar.title
 msgid "Bar plot"
-msgstr ""
+msgstr "막대도표"
 
 #: descriptives/ui[3][0][2].label
 msgid "Bar Plots"
-msgstr ""
+msgstr "막대도표"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][2][0][0][1].label
 msgid "Bar Type"
-msgstr ""
+msgstr "막대유형"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
@@ -1970,17 +1970,17 @@ msgstr ""
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr ""
+msgstr "Bartlett의 구형성 검증"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr ""
+msgstr "Bartlett의 구형성 검증"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
 msgid "Based on eigenvalue"
-msgstr ""
+msgstr "고유값 기반"
 
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
@@ -1995,7 +1995,7 @@ msgstr ""
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
 msgid "Bayes factor"
-msgstr ""
+msgstr "베이즈 계수"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
@@ -2006,7 +2006,7 @@ msgstr ""
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
-msgstr ""
+msgstr "베이지안 통계"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
@@ -2060,16 +2060,16 @@ msgstr "이항"
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr ""
+msgstr "이항 로지스틱 회귀분석"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
-msgstr ""
+msgstr "이항 검증"
 
 #: package/analyses/propTest2.menuSubtitle
 #: propTest2/options.menuSubtitle
 msgid "Binomial test"
-msgstr ""
+msgstr "이항 검증"
 
 #: jamovi/js/linreg.events.js:4
 #: jamovi/js/linreg.events.js:40
@@ -2106,11 +2106,11 @@ msgstr ""
 
 #: descriptives/options/box.title
 msgid "Box plot"
-msgstr ""
+msgstr "박스 도표"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
-msgstr ""
+msgstr "박스 도표"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
@@ -2142,7 +2142,7 @@ msgstr "칸"
 
 #: descriptives/ui[2][1][0].label
 msgid "Central Tendency"
-msgstr ""
+msgstr "집중 경향값"
 
 #: cfa/options/fitMeasures/cfi.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -2151,19 +2151,19 @@ msgstr ""
 
 #: R/mancova.b.R
 msgid "Chi-Square Quantiles"
-msgstr ""
+msgstr "카이-스퀘어 분위수"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "하한계"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "상한계"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
-msgstr ""
+msgstr "분류 테이블"
 
 #: logRegBin/options/class.title
 msgid "Classification table"
@@ -2185,12 +2185,12 @@ msgstr ""
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
 msgid "Collinearity Statistics"
-msgstr ""
+msgstr "공선성 통계값"
 
 #: linReg/options/collin.title
 #: logRegBin/options/collin.title
 msgid "Collinearity statistics"
-msgstr ""
+msgstr "공선성 통계값"
 
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
@@ -2222,7 +2222,7 @@ msgstr ""
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
-msgstr ""
+msgstr "비교 적합도 지수"
 
 #: contTables/ui[1][0][0][1][0].label
 msgid "Comparative Measures (2x2 only)"
@@ -2251,27 +2251,27 @@ msgstr ""
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Component"
-msgstr "성분"
+msgstr "주성분"
 
 #: pca/options/factorCor.title
 msgid "Component correlations"
-msgstr ""
+msgstr "주성분 상관계수"
 
 #: pca/results/loadings.title
 msgid "Component Loadings"
-msgstr ""
+msgstr "주성분 부하량"
 
 #: pca/options/factorScoresOV.title
 msgid "Component scores"
-msgstr ""
+msgstr "주성분 점수"
 
 #: pca/results/factorStats.title
 msgid "Component Statistics"
-msgstr ""
+msgstr "주성분 통계값"
 
 #: pca/options/factorSummary.title
 msgid "Component summary"
-msgstr ""
+msgstr "주성분 요약"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "component(s)"
@@ -2280,7 +2280,7 @@ msgstr "성분"
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
 msgid "Components"
-msgstr "성분"
+msgstr "주성분"
 
 #: R/pca.b.R
 msgid "components"
@@ -2297,7 +2297,7 @@ msgstr "성분"
 #: ttestPS/options/ci.title
 #: ttestPS/options/ciES.title
 msgid "Confidence Interval"
-msgstr ""
+msgstr "신뢰구간"
 
 #: ancova/options/emmPlotError/ci.title
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
@@ -2329,11 +2329,11 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "신뢰구간"
 
 #: descriptives/ui[2][2][1][0]/ci.label
 msgid "Confidence interval for Mean"
-msgstr ""
+msgstr "평균에 대한 신뢰구간"
 
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
@@ -2343,14 +2343,14 @@ msgstr ""
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
 msgid "Confidence Intervals"
-msgstr ""
+msgstr "신뢰구간"
 
 #: contTables/options/ci.title
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
 msgid "Confidence intervals"
-msgstr ""
+msgstr "신뢰구간"
 
 #: ancova/options/postHocEsCiWidth.title
 #: ancova/options/ciWidthEmm.title
@@ -2379,7 +2379,7 @@ msgstr ""
 #: ttestPS/options/ciWidth.title
 #: ttestPS/options/ciWidthES.title
 msgid "Confidence level"
-msgstr ""
+msgstr "신뢰 수준"
 
 #: package/analyses/cfa.title
 #: package/analyses/cfa.menuTitle
@@ -2389,17 +2389,17 @@ msgstr ""
 #: cfa/ui.title
 #: cfa/results.title
 msgid "Confirmatory Factor Analysis"
-msgstr ""
+msgstr "확인적 요인분석"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
 msgid "Constraints"
-msgstr "제약"
+msgstr "제약 조건"
 
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
 msgid "Contingency coefficient"
-msgstr ""
+msgstr "분할계수"
 
 #: package/analyses/contTables.title
 #: package/analyses/contTables.menuSubgroup
@@ -2412,7 +2412,7 @@ msgstr ""
 #: contTablesPaired/options.menuSubgroup
 #: contTablesPaired/results/freqs.title
 msgid "Contingency Tables"
-msgstr ""
+msgstr "분할표"
 
 #: ancova/options/contrasts.title
 #: ancova/ui[4].label
@@ -2433,15 +2433,15 @@ msgstr ""
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
-msgstr ""
+msgstr "통제 변수"
 
 #: corrPart/options/controls.title
 msgid "Control variables"
-msgstr ""
+msgstr "통제 변수"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "통제 {문항}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
@@ -2474,17 +2474,17 @@ msgstr "교정"
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "상관"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "부적 상관"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "정적 상관"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
@@ -2494,16 +2494,16 @@ msgstr "상관"
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
 msgid "Correlation Coefficients"
-msgstr ""
+msgstr "상관계수"
 
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
 msgid "Correlation Heatmap"
-msgstr ""
+msgstr "상관관계 히트맵"
 
 #: reliability/ui[1][0][1]/corPlot.label
 msgid "Correlation heatmap"
-msgstr ""
+msgstr "상관관계 히트맵"
 
 #: package/analyses/corrMatrix.description
 msgid "Correlation matrices are a way to examine linear relationships between\n"
@@ -2537,26 +2537,26 @@ msgstr ""
 #: corrMatrix/results.title
 #: corrMatrix/results/matrix.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "상관계수 행렬"
 
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
 msgid "Correlation matrix"
-msgstr ""
+msgstr "상관 행렬"
 
 #: corrPart/ui[1][2].label
 msgid "Correlation Type"
-msgstr ""
+msgstr "상관 유형"
 
 #: corrPart/options/type.title
 msgid "Correlation type"
-msgstr ""
+msgstr "상관 유형"
 
 #: R/conttablespaired.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
 msgid "Count"
-msgstr ""
+msgstr "빈도"
 
 #: R/conttables.b.R
 #: R/descriptives.b.R
@@ -2573,7 +2573,7 @@ msgstr "빈도"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "빈도 (옵션)"
+msgstr "빈도(선택사항)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -2626,11 +2626,11 @@ msgstr ""
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "Cronbach's α"
-msgstr ""
+msgstr "크론바흐 α"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
-msgstr ""
+msgstr "문항 삭제후 크론바흐 α"
 
 #: R/ancova.b.R
 msgid "cubic"
@@ -2640,11 +2640,11 @@ msgstr ""
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
-msgstr ""
+msgstr "누적비율"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
-msgstr ""
+msgstr "절단값"
 
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
@@ -2654,19 +2654,19 @@ msgstr ""
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
 msgid "Cut-Off"
-msgstr "절단점"
+msgstr "절단값"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
 msgid "Cut-Off Plot"
-msgstr ""
+msgstr "절단값 도표"
 
 #: logRegBin/options/cutOffPlot.title
 msgid "Cut-off plot"
-msgstr ""
+msgstr "절단값 도표"
 
 #: logRegBin/options/cutOff.title
 msgid "Cut-off value"
-msgstr ""
+msgstr "절단값"
 
 #: contTablesPaired/options.description.R.usage
 msgid "dat <- data.frame(\n"
@@ -2728,7 +2728,7 @@ msgstr ""
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
-msgstr "데이터"
+msgstr "자료"
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
@@ -2799,13 +2799,13 @@ msgstr ""
 #: package/analyses/efa.menuSubgroup
 #: package/analyses/cfa.menuSubgroup
 msgid "Data Reduction"
-msgstr ""
+msgstr "데이터 축소"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
-msgstr ""
+msgstr "데이터 요약"
 
 #: logRegBin/options.description.R.usage
 msgid "data('birthwt', package='MASS')\n"
@@ -3465,15 +3465,15 @@ msgstr "종속"
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr ""
+msgstr "종속변수"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr ""
+msgstr "종속변수 라벨"
 
 #: R/ancova.b.R
 msgid "Dependent variable must be numeric"
-msgstr ""
+msgstr "종속변수는 수치형 이어야 한다"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -3482,7 +3482,7 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
-msgstr ""
+msgstr "종속변수"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -3490,11 +3490,11 @@ msgstr ""
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
-msgstr ""
+msgstr "기술통계 도표"
 
 #: anovaRMNP/options/plots.title
 msgid "Descriptive plot"
-msgstr ""
+msgstr "기술통계 도표"
 
 #: package/analyses/descriptives.title
 #: package/analyses/descriptives.menuTitle
@@ -3523,30 +3523,30 @@ msgstr ""
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
 msgid "descriptives plot"
-msgstr ""
+msgstr "기술통계 도표"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
 #: ttestPS/options/plots.title
 msgid "Descriptives Plots"
-msgstr ""
+msgstr "기술통계 도표"
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
 msgid "Descriptives plots"
-msgstr ""
+msgstr "기술통계 도표"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
 msgid "Descriptives Table"
-msgstr ""
+msgstr "기술통계 표"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr ""
+msgstr "기술통계 표"
 
 #: package/analyses/empty.menuGroup
 #: empty/options.menuGroup
@@ -3561,14 +3561,12 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/options/dev.title
 #: logRegOrd/results/modelFit.columns.title
-#, fuzzy
 msgid "Deviance"
 msgstr "이탈도"
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
-#, fuzzy
 msgid "Deviation"
 msgstr "편차"
 
@@ -3633,11 +3631,11 @@ msgstr ""
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
-msgstr ""
+msgstr "비율차이"
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
-msgstr "분산도"
+msgstr "분산"
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
@@ -3645,7 +3643,7 @@ msgstr "분포"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr ""
+msgstr "동분산을 가정하지 않음(Welch's)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
@@ -3673,7 +3671,7 @@ msgstr ""
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "자기상관에 대한  Durbin–Watson 검증"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
@@ -3697,7 +3695,7 @@ msgstr ""
 #: ttestPS/options/effectSize.title
 #: ttestPS/results/ttest.columns.title
 msgid "Effect Size"
-msgstr ""
+msgstr "효과 크기"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
@@ -3707,16 +3705,16 @@ msgstr ""
 #: ttestOneS/ui[1][1][0]/effectSize.label
 #: ttestPS/ui[1][1][0]/effectSize.label
 msgid "Effect size"
-msgstr ""
+msgstr "효과 크기"
 
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
 msgid "Eigenvalue"
-msgstr ""
+msgstr "고유값"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr ""
+msgstr "고유값"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
@@ -3731,7 +3729,7 @@ msgstr ""
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
 msgid "Equal cell weights"
-msgstr ""
+msgstr "동일 가중치"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
@@ -3771,7 +3769,7 @@ msgstr "추정값"
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr ""
+msgstr "추정값(로그 승산비)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
@@ -3817,7 +3815,7 @@ msgstr ""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
-msgstr ""
+msgstr "추정방법"
 
 #: anovaOneW/ui[1][0][1]/miss_perAnalysis.label
 #: ttestIS/ui[1][0][2]/miss_perAnalysis.label
@@ -3836,22 +3834,22 @@ msgstr ""
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
-msgstr ""
+msgstr "제외"
 
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
 msgid "Expected"
-msgstr "기대"
+msgstr "기대값"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
 msgid "Expected counts"
-msgstr ""
+msgstr "기대 빈도"
 
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr ""
+msgstr "기대비율"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
@@ -3868,11 +3866,11 @@ msgstr "기술통계"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "탐색적 요인분석"
 
 #: efa/options/extraction.title
 msgid "Extraction"
-msgstr ""
+msgstr "추출"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -3885,15 +3883,15 @@ msgstr ""
 #: mancova/results/univar.columns.title
 #: ttestIS/results/assum/eqv.columns.title
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
-msgstr ""
+msgstr "F 검증"
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
-msgstr ""
+msgstr "F 통계값이 계산되지 않음"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -3906,7 +3904,7 @@ msgstr ""
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "요인"
+msgstr "요인분석"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -3926,59 +3924,59 @@ msgstr ""
 
 #: cfa/options/factors.default[0].label
 msgid "Factor 1"
-msgstr ""
+msgstr "요인 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
-msgstr ""
+msgstr "요인 상관"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr ""
+msgstr "요인 공분산"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
-msgstr ""
+msgstr "요인 공분산"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr ""
+msgstr "요인 추정값"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "요인 절편"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr ""
+msgstr "요인 절편"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
 msgid "Factor Loadings"
-msgstr ""
+msgstr "요인 부하량"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr ""
+msgstr "요인 부하량- 수정지수"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr ""
+msgstr "요인 점수"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
-msgstr ""
+msgstr "요인 통계값"
 
 #: efa/options/factorSummary.title
 msgid "Factor summary"
-msgstr ""
+msgstr "요인 통계량"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
 msgid "Factor variances = 1"
-msgstr ""
+msgstr "요인분산 = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
@@ -3997,9 +3995,8 @@ msgstr "요인"
 #: logRegOrd/options/factors.title
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
-#, fuzzy
 msgid "Factors"
-msgstr "요인 분석"
+msgstr "요인"
 
 #: R/pca.b.R
 msgid "factors"
@@ -4023,7 +4020,7 @@ msgstr ""
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
 msgid "Fit Measures"
-msgstr ""
+msgstr "적합도"
 
 #: R/linreg.b.R
 msgid "Fitted"
@@ -4032,7 +4029,7 @@ msgstr "적합된"
 #: ancova/options/factors.title
 #: anova/options/factors.title
 msgid "Fixed Factors"
-msgstr ""
+msgstr "고정요인"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
@@ -4041,7 +4038,7 @@ msgstr ""
 
 #: R/cfa.b.R
 msgid "fixed parameter"
-msgstr ""
+msgstr "고정모수"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
@@ -4072,9 +4069,8 @@ msgstr ""
 #: logLinear/options.menuGroup
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
-#, fuzzy
 msgid "Frequencies"
-msgstr "빈도분석"
+msgstr "빈도"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
@@ -4083,7 +4079,7 @@ msgstr ""
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
 msgid "Frequency tables"
-msgstr ""
+msgstr "빈도분포표"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -4117,7 +4113,7 @@ msgstr ""
 #: logRegBin/ui[6][1][0][0].label
 #: logRegMulti/ui[5][1][0][0].label
 msgid "General Options"
-msgstr ""
+msgstr "일반 옵션"
 
 #: anovaRM/options/effectSize/ges.title
 msgid "Generalised η²"
@@ -4142,52 +4138,52 @@ msgstr "집단"
 
 #: R/conttables.b.R
 msgid "Group 1"
-msgstr ""
+msgstr "집단 1"
 
 #: contTables/options/hypothesis/twoGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_twoGreater.label
 #: ttestIS/options/hypothesis/twoGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "집단 1 < 집단 2"
 
 #: contTables/options/hypothesis/different.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_different.label
 #: ttestIS/options/hypothesis/different.title
 #: ttestIS/ui[1][0][1]/hypothesis_different.label
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "집단 1 ≠ 집단 2"
 
 #: contTables/options/hypothesis/oneGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_oneGreater.label
 #: ttestIS/options/hypothesis/oneGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "집단 1 > 집단 2"
 
 #: R/conttables.b.R
 msgid "Group 2"
-msgstr ""
+msgstr "집단 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
 msgid "Group Descriptives"
-msgstr ""
+msgstr "집단 기술통계"
 
 #: anovaRM/results/groupSummary.title
 msgid "Group Summary"
-msgstr ""
+msgstr "집단 통계량"
 
 #: anovaRM/options/groupSumm.title
 msgid "Group summary"
-msgstr ""
+msgstr "집단 통계량"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr ""
+msgstr "집단 변수"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
@@ -4241,7 +4237,7 @@ msgstr ""
 
 #: descriptives/options/hist.title
 msgid "Histogram"
-msgstr "히스토그램"
+msgstr "히스토 그램"
 
 #: descriptives/ui[3][0][0][0].label
 msgid "Histograms"
@@ -4259,7 +4255,7 @@ msgstr ""
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr ""
+msgstr "Levene의 동분산 검증"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
@@ -4267,7 +4263,7 @@ msgstr ""
 #: anovaRM/options/leveneTest.title
 #: ttestIS/options/eqv.title
 msgid "Homogeneity test"
-msgstr ""
+msgstr "동분산 검증"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
@@ -4298,7 +4294,7 @@ msgstr "가설"
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
-msgstr ""
+msgstr "문항을 삭제할때"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -4311,7 +4307,7 @@ msgstr ""
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
 msgid "Independent Samples"
-msgstr ""
+msgstr "독립 표본"
 
 #: package/analyses/ttestIS.title
 #: package/analyses/ttestIS.menuTitle
@@ -4320,7 +4316,7 @@ msgstr ""
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
 msgid "Independent Samples T-Test"
-msgstr ""
+msgstr "독립표본 T 검증"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
@@ -4328,20 +4324,20 @@ msgstr ""
 
 #: pca/results/eigen/initEigen.title
 msgid "Initial Eigenvalues"
-msgstr ""
+msgstr "초기 고유값"
 
 #: efa/options/eigen.title
 #: pca/options/eigen.title
 msgid "Initial eigenvalues"
-msgstr ""
+msgstr "초기 고유값"
 
 #: pca/results/factorStats/factorCor.title
 msgid "Inter-Component Correlations"
-msgstr ""
+msgstr "주성분 상관계수"
 
 #: R/pca.b.R
 msgid "Inter-Factor Correlations"
-msgstr ""
+msgstr "요인 상관"
 
 #: R/linreg.b.R
 #: R/loglinear.b.R
@@ -4407,11 +4403,11 @@ msgstr ""
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
-msgstr ""
+msgstr "문항 신뢰도 통계값"
 
 #: reliability/ui[1][1][0].label
 msgid "Item Statistics"
-msgstr ""
+msgstr "문항 통계값"
 
 #: reliability/options/itemRestCor.title
 msgid "Item-rest correlation"
@@ -4454,12 +4450,12 @@ msgstr ""
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
-msgstr ""
+msgstr "KMO 구형성 검증"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
 msgid "KMO measure of sampling adequacy"
-msgstr ""
+msgstr "KMO 구형성 검증"
 
 #: package/analyses/anovaNP.menuSubtitle
 #: anovaNP/options.menuSubtitle
@@ -4488,11 +4484,11 @@ msgstr "수준"
 
 #: anovaRM/options/rm.default[0].levels[0]
 msgid "Level 1"
-msgstr ""
+msgstr "수준 1"
 
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
-msgstr ""
+msgstr "수준 2"
 
 #: R/descriptives.b.R
 msgid "Levels"
@@ -4509,14 +4505,14 @@ msgstr "우도"
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
 msgid "Likelihood ratio"
-msgstr ""
+msgstr "우도비"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
 msgid "Likelihood ratio tests"
-msgstr ""
+msgstr "우도비 검증"
 
 #: R/ancova.b.R
 msgid "linear"
@@ -4528,7 +4524,7 @@ msgstr "선형"
 #: linReg/ui.title
 #: linReg/results.title
 msgid "Linear Regression"
-msgstr ""
+msgstr "선형 회귀분석"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
@@ -4538,7 +4534,7 @@ msgstr ""
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr ""
+msgstr "Log 승산비"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
@@ -4554,7 +4550,7 @@ msgstr ""
 #: logLinear/ui.title
 #: logLinear/results.title
 msgid "Log-Linear Regression"
-msgstr ""
+msgstr "Log 선형회귀 분석"
 
 #: package/analyses/logRegBin.menuSubgroup
 #: package/analyses/logRegMulti.menuSubgroup
@@ -4563,7 +4559,7 @@ msgstr ""
 #: logRegMulti/options.menuSubgroup
 #: logRegOrd/options.menuSubgroup
 msgid "Logistic Regression"
-msgstr ""
+msgstr "로지스틱 회귀분석"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4594,7 +4590,7 @@ msgstr "하한계"
 
 #: R/descriptives.b.R
 msgid "lower bound"
-msgstr ""
+msgstr "하한계"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -4602,7 +4598,7 @@ msgstr ""
 #: mancova/ui.title
 #: mancova/results.title
 msgid "MANCOVA"
-msgstr "다변량 공분산분석"
+msgstr "다변량 공분산 분석"
 
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
@@ -4668,7 +4664,7 @@ msgstr "최대값"
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "최대우도"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
@@ -4734,7 +4730,7 @@ msgstr ""
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Mean Difference"
-msgstr ""
+msgstr "평균 차이"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -4748,16 +4744,16 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
 msgid "Mean difference"
-msgstr ""
+msgstr "평균 차이"
 
 #: descriptives/ui[2][2][1].label
 msgid "Mean Dispersion"
-msgstr ""
+msgstr "평균 분산"
 
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
 msgid "Mean score"
-msgstr ""
+msgstr "평균 점수"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4765,7 +4761,7 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Mean Square"
-msgstr ""
+msgstr "평균 제곱"
 
 #: anovaRMNP/options/plotType/means.title
 msgid "Means"
@@ -4773,7 +4769,7 @@ msgstr "평균"
 
 #: R/anovarmnp.b.R
 msgid "Measure"
-msgstr "측정"
+msgstr "측정값"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
@@ -4793,7 +4789,7 @@ msgstr ""
 
 #: anovaRMNP/options/measures.title
 msgid "Measures"
-msgstr "측정"
+msgstr "측정값"
 
 #: R/descriptives.b.R
 #: R/ttestis.b.R
@@ -4820,7 +4816,7 @@ msgstr "방법"
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
-msgstr "최소"
+msgstr "최소값"
 
 #: R/descriptives.b.R
 #: descriptives/options/min.title
@@ -4829,25 +4825,25 @@ msgstr "최소값"
 
 #: R/pca.b.R
 msgid "Minimum residual"
-msgstr ""
+msgstr "최소 잔차 값"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
-msgstr ""
+msgstr "최소 잔차 값"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
 msgid "Minimum value"
-msgstr ""
+msgstr "최소값"
 
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr "결측"
+msgstr "결측 값"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "결측 값들"
+msgstr "결측 값"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -4860,12 +4856,12 @@ msgstr "결측 값"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
-msgstr ""
+msgstr "결측값 제거법"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
 msgid "Missing Values Method"
-msgstr ""
+msgstr "결측 값 방법"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
@@ -4895,7 +4891,7 @@ msgstr "모형"
 #: logRegMulti/ui[1].label
 #: logRegOrd/ui[1].label
 msgid "Model Builder"
-msgstr ""
+msgstr "모형 분석 상자"
 
 #: linReg/ui[5].label
 #: logLinear/ui[4].label
@@ -4904,7 +4900,7 @@ msgstr ""
 #: logRegMulti/ui[4].label
 #: logRegOrd/ui[4].label
 msgid "Model Coefficients"
-msgstr ""
+msgstr "모형 계수"
 
 #: linReg/results/modelComp.title
 #: logLinear/results/modelComp.title
@@ -4912,7 +4908,7 @@ msgstr ""
 #: logRegMulti/results/modelComp.title
 #: logRegOrd/results/modelComp.title
 msgid "Model Comparisons"
-msgstr ""
+msgstr "모형 비교"
 
 #: ancova/ui[1][0].label
 #: anova/ui[1][0].label
@@ -4925,7 +4921,7 @@ msgstr ""
 #: logRegOrd/ui[3].label
 #: pca/results/modelFit.title
 msgid "Model Fit"
-msgstr ""
+msgstr "모형 적합도"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -4934,11 +4930,11 @@ msgstr ""
 #: logRegOrd/results/modelFit.title
 #: pca/results/modelFit/fit.title
 msgid "Model Fit Measures"
-msgstr ""
+msgstr "모형 적합도 값"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
-msgstr ""
+msgstr "모형 적합도 값"
 
 #: linReg/results/models.title
 #: logLinear/results/models.title
@@ -4953,31 +4949,31 @@ msgstr ""
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
 msgid "Model Terms"
-msgstr ""
+msgstr "모형 항"
 
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "Model Test"
-msgstr ""
+msgstr "모형 검증"
 
 #: logRegOrd/results/models.template/thres.title
 msgid "Model Thresholds"
-msgstr ""
+msgstr "모형 경계점"
 
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
-msgstr ""
+msgstr "모형 경계점"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
-msgstr ""
+msgstr "수정 지수"
 
 #: cfa/options/mi.title
 msgid "Modification indices"
-msgstr ""
+msgstr "수정 지수"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
+msgstr "한개 이상의 최빈값이 존재함"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -4986,7 +4982,7 @@ msgstr ""
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
 msgid "Multinomial"
-msgstr ""
+msgstr "다항"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -4995,7 +4991,7 @@ msgstr ""
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
 msgid "Multinomial Logistic Regression"
-msgstr ""
+msgstr "다항 로지스틱 회귀분석"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
@@ -5005,11 +5001,11 @@ msgstr ""
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
-msgstr ""
+msgstr "다변량 통계"
 
 #: mancova/results/multivar.title
 msgid "Multivariate Tests"
-msgstr ""
+msgstr "다변량 통계 검증"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -5058,7 +5054,7 @@ msgstr ""
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
 msgid "Nominal"
-msgstr "명목"
+msgstr "명명"
 
 #: package/analyses/anovaNP.menuSubgroup
 #: package/analyses/anovaRMNP.menuSubgroup
@@ -5091,7 +5087,7 @@ msgstr ""
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
-msgstr "정규성"
+msgstr "정규분포성"
 
 #: ancova/options/norm.title
 #: anova/options/norm.title
@@ -5101,7 +5097,7 @@ msgstr "정규성"
 #: ttestOneS/options/norm.title
 #: ttestPS/options/norm.title
 msgid "Normality test"
-msgstr ""
+msgstr "정규분포성 검증"
 
 #: ancova/results/assump/norm.title
 #: anova/results/assump/norm.title
@@ -5111,23 +5107,23 @@ msgstr ""
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr ""
+msgstr "정규분포성 검증(Shapiro-Wilk)"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
-msgstr ""
+msgstr "주성분 갯수"
 
 #: pca/options/nFactorMethod.title
 msgid "Number of components"
-msgstr ""
+msgstr "주성분 갯수"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
-msgstr ""
+msgstr "요인 갯수"
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
-msgstr ""
+msgstr "요인 갯수"
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -5146,7 +5142,7 @@ msgstr "관찰값"
 
 #: contTables/options/obs.title
 msgid "Observed counts"
-msgstr ""
+msgstr "관찰 빈도"
 
 #: ancova/options/emmPlotData.title
 #: anova/options/emmPlotData.title
@@ -5162,7 +5158,7 @@ msgstr ""
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
 msgid "Odds Ratio"
-msgstr ""
+msgstr "우도 비"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -5174,7 +5170,7 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Odds ratio"
-msgstr ""
+msgstr "우도 비"
 
 #: contTables/options/yaxisPc/total_pc.title
 msgid "of total"
@@ -5182,18 +5178,18 @@ msgstr ""
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr ""
+msgstr "분산분석 검증"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "우도비 검증"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr ""
+msgstr "모형 검증"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
@@ -5274,7 +5270,7 @@ msgstr ""
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "단일표본 비율 검증"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -5283,7 +5279,7 @@ msgstr ""
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr ""
+msgstr "단일표본 T 검증"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -5294,27 +5290,27 @@ msgstr ""
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
 msgid "One-Way ANOVA"
-msgstr ""
+msgstr "일원 분산 분석"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Fisher's)"
-msgstr ""
+msgstr "일원 분산분석 (Fisher's)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr ""
+msgstr "일원 분산 분석(비 모수)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr ""
+msgstr "일원 분산 분석(Welch's)"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
@@ -5327,7 +5323,7 @@ msgstr "서열"
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "서열 로지스틱 회귀분석"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
@@ -5350,7 +5346,7 @@ msgstr "전체"
 
 #: R/ancova.b.R
 msgid "Overall model"
-msgstr ""
+msgstr "전체 모형"
 
 #: linReg/ui[4][0][1][0].label
 #: linReg/results/modelFit.columns.superTitle
@@ -5359,7 +5355,7 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "전체 모형 검증"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -5368,7 +5364,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "전체 모형 검증"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5438,7 +5434,7 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p 값"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -5459,14 +5455,14 @@ msgstr ""
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr ""
+msgstr "대응 표본"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr ""
+msgstr "대응표본 빈도 표"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -5475,11 +5471,11 @@ msgstr ""
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "대응표본 T 검증"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
-msgstr ""
+msgstr "대응 변수"
 
 #: anovaNP/results/comparisons.template.title
 msgid "Pairwise comparisons - $key"
@@ -5487,16 +5483,15 @@ msgstr ""
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "짝 비교 (Durbin-Conover)"
 
 #: anovaRMNP/options/pairs.title
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "짝 비교 (Durbin-Conover)"
 
 #: corrPart/options/type/part.title
-#, fuzzy
 msgid "Partial"
-msgstr "편"
+msgstr "편 상관"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -5505,7 +5500,7 @@ msgstr "편"
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr ""
+msgstr "편 상관계수"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -5545,23 +5540,23 @@ msgstr ""
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
-msgstr ""
+msgstr "경로 모형"
 
 #: cfa/options/pathDiagram.title
 msgid "Path diagram"
-msgstr ""
+msgstr "경로 모형"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
-msgstr ""
+msgstr "피어슨"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "피어슨 상관계수"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
@@ -5571,7 +5566,7 @@ msgstr ""
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr ""
+msgstr "비율"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
@@ -5583,7 +5578,7 @@ msgstr ""
 
 #: descriptives/options/pc.title
 msgid "Percentile"
-msgstr "백분위"
+msgstr "백분위수"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
@@ -5591,7 +5586,7 @@ msgstr ""
 
 #: descriptives/options/pcValues.title
 msgid "Percentile values"
-msgstr ""
+msgstr "백분위 수"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
@@ -5656,7 +5651,7 @@ msgstr ""
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "파이 상관계수"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
@@ -5683,7 +5678,7 @@ msgstr ""
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr ""
+msgstr "도표 유형"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -5703,7 +5698,7 @@ msgstr "도표"
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
-msgstr ""
+msgstr "다항"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5721,7 +5716,7 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "사후 검증"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
@@ -5734,16 +5729,16 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "사후 검증"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "사후 검증"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr ""
+msgstr "사후"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
@@ -5755,7 +5750,7 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr "예언"
+msgstr "예측값"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
@@ -5771,17 +5766,17 @@ msgstr ""
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr ""
+msgstr "예측값"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
 msgid "Prediction"
-msgstr "예언"
+msgstr "예측"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr ""
+msgstr "예측값"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -5793,9 +5788,8 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
-#, fuzzy
 msgid "Predictor"
-msgstr "독립변수"
+msgstr "예측"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -5808,11 +5802,11 @@ msgstr "독립변수"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
-msgstr ""
+msgstr "주성분 축"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "단일주축 분해"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -5822,7 +5816,7 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "주성분 분석"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -5857,7 +5851,7 @@ msgstr ""
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Proportion"
-msgstr ""
+msgstr "비율"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
@@ -6088,7 +6082,7 @@ msgstr ""
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr ""
+msgstr "Q-Q 도표"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -6097,7 +6091,7 @@ msgstr ""
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q 도표"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
@@ -6105,19 +6099,19 @@ msgstr ""
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "다변량 정규분포 Q-Q 도표"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "잔차 Q-Q 도표"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
-msgstr ""
+msgstr "Q-Q 도표"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr ""
+msgstr "Q-Q 도표"
 
 #: R/ancova.b.R
 msgid "quadratic"
@@ -6176,7 +6170,7 @@ msgstr ""
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
-msgstr ""
+msgstr "범위"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
@@ -6195,7 +6189,7 @@ msgstr ""
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
-msgstr ""
+msgstr "비율"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -6203,7 +6197,7 @@ msgstr ""
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 msgid "Reference Level"
-msgstr ""
+msgstr "준거 수준"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
@@ -6220,7 +6214,7 @@ msgstr ""
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
 msgid "Reference Levels"
-msgstr ""
+msgstr "준거 수준"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -6235,12 +6229,12 @@ msgstr ""
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
 msgid "Regression"
-msgstr ""
+msgstr "회귀분석"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
 msgid "Relative risk"
-msgstr ""
+msgstr "상대위험"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -6250,13 +6244,13 @@ msgstr ""
 #: reliability/ui.title
 #: reliability/results.title
 msgid "Reliability Analysis"
-msgstr ""
+msgstr "신뢰도 분석"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
 #: anovaRM/options/contrasts.template/type/repeated.title
 msgid "Repeated"
-msgstr ""
+msgstr "반복"
 
 #: package/analyses/anovaRM.title
 #: package/analyses/anovaRM.menuTitle
@@ -6266,14 +6260,14 @@ msgstr ""
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
 msgid "Repeated Measures ANOVA"
-msgstr ""
+msgstr "반복측정 분산분석"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr ""
+msgstr "반복측정 분산분석(비모수)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
@@ -6281,18 +6275,18 @@ msgstr ""
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr ""
+msgstr "반복 측정 구성 요소"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
 msgid "Repeated Measures Factors"
-msgstr ""
+msgstr "반복 측정 요인"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr ""
+msgstr "유의도 보고"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
@@ -6304,38 +6298,38 @@ msgstr ""
 
 #: R/anovarm.b.R
 msgid "Residual"
-msgstr ""
+msgstr "잔차"
 
 #: cfa/options/resCov.title
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "잔차 공분산"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "잔차 공분산"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "잔차 공분산–수정지수"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "잔차 추정값"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "잔차 절편"
 
 #: cfa/options/resInterceptEst.title
 msgid "Residual intercepts"
-msgstr ""
+msgstr "잔차 절편"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "잔차 도표"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
@@ -6354,7 +6348,7 @@ msgstr ""
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
 msgid "Residuals"
-msgstr ""
+msgstr "잔차"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
@@ -6362,7 +6356,7 @@ msgstr ""
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "ANOVA의 잔차"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
@@ -6370,7 +6364,7 @@ msgstr ""
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
-msgstr ""
+msgstr "잔차 도표"
 
 #: package/analyses/empty.title
 #: package/analyses/empty.menuTitle
@@ -6383,13 +6377,13 @@ msgstr "결과"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr ""
+msgstr "역코딩 문항"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr ""
+msgstr "역코딩 문항"
 
 #: jamovi/js/anovarm.events.js:8
 msgid "RM Factor {0}"
@@ -6430,12 +6424,12 @@ msgstr ""
 #: efa/options/rotation.title
 #: pca/options/rotation.title
 msgid "Rotation"
-msgstr ""
+msgstr "회전"
 
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
-msgstr ""
+msgstr "행"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -6450,7 +6444,7 @@ msgstr "행"
 
 #: contTables/options/compare/rows.title
 msgid "rows"
-msgstr ""
+msgstr "행"
 
 #: contTables/options/xaxis.description.R
 msgid "rows (default), or columns in bar plot X axis"
@@ -6467,7 +6461,7 @@ msgstr ""
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
-msgstr ""
+msgstr "표본크기"
 
 #: ancova/ui[7].label
 #: anova/ui[7].label
@@ -6481,11 +6475,11 @@ msgstr "저장"
 
 #: reliability/results/scale.columns.content
 msgid "scale"
-msgstr ""
+msgstr "척도"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
-msgstr ""
+msgstr "척도분석"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
@@ -6493,11 +6487,11 @@ msgstr ""
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr ""
+msgstr "척도 신뢰도"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
-msgstr ""
+msgstr "척도 통계"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
@@ -6538,12 +6532,12 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr ""
+msgstr "표준편차"
 
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "sd"
-msgstr ""
+msgstr "표준펀차"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6570,12 +6564,12 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SE"
-msgstr ""
+msgstr "표준오차"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "SE difference"
-msgstr ""
+msgstr "표준오차의 차이"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
@@ -6686,7 +6680,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "Simulations"
-msgstr ""
+msgstr "모의 실험"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
@@ -6699,12 +6693,12 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
 msgid "Skewness"
-msgstr ""
+msgstr "왜도"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "부하량 크기 정렬"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
@@ -6727,7 +6721,7 @@ msgstr ""
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr ""
+msgstr "특이도"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
@@ -6740,7 +6734,7 @@ msgstr ""
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "구형성 검증"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
@@ -6758,7 +6752,7 @@ msgstr ""
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr ""
+msgstr "제곱합 부하량"
 
 #: contTables/options/bartype.description.R
 msgid "stack or side by side (default), barplot type"
@@ -6783,27 +6777,27 @@ msgstr ""
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr ""
+msgstr "표준편차"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
 msgid "Standard Error"
-msgstr ""
+msgstr "표준오차"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr "표준 오차"
+msgstr "표준오차"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "표준화 추정값"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr ""
+msgstr "표준화 추정값"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6814,7 +6808,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "표준 잔차"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -6823,11 +6817,11 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr ""
+msgstr "통계"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "통계 값"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -6836,27 +6830,27 @@ msgstr ""
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
 msgid "Statistics"
-msgstr ""
+msgstr "통계"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr ""
+msgstr "표준편차"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "첨도 표준오차"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
-msgstr ""
+msgstr "평균에 대한 표준오차"
 
 #: descriptives/ui[2][2][1][0]/se.label
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "평균에 대한 표준오차"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "왜도 표준오차"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
@@ -6879,7 +6873,7 @@ msgstr ""
 #: R/reliability.b.R
 #: descriptives/options/sum.title
 msgid "Sum"
-msgstr ""
+msgstr "합계"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -6887,22 +6881,22 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "제곱합"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "제곱합"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "합산점수"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
-msgstr ""
+msgstr "요약"
 
 #: R/ancova.b.R
 #: contTables/results/taub.columns.title
@@ -6917,11 +6911,11 @@ msgstr ""
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr ""
+msgstr "T-검증"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr ""
+msgstr "t 값"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
@@ -6959,31 +6953,31 @@ msgstr ""
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "검증 결과"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr ""
+msgstr "검증 통계 값"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "결과 값"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "검증 값"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr ""
+msgstr "검증"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "구형성 검증"
 
 #: R/descriptives.b.R
 msgid "th percentile"
@@ -7015,7 +7009,7 @@ msgstr ""
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "대안가설."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
@@ -7510,11 +7504,11 @@ msgstr ""
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
-msgstr ""
+msgstr "경계점"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "경계점"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
@@ -7529,7 +7523,7 @@ msgstr ""
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "Tolerance"
-msgstr ""
+msgstr "공차"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
@@ -7570,7 +7564,7 @@ msgstr ""
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
-msgstr ""
+msgstr "전체"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
@@ -7621,11 +7615,11 @@ msgstr ""
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr ""
+msgstr "고유분산"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "단변량 검증"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7652,11 +7646,11 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "상한계"
 
 #: R/descriptives.b.R
 msgid "upper bound"
-msgstr ""
+msgstr "상한계"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -7664,11 +7658,11 @@ msgstr ""
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
 msgid "Value"
-msgstr ""
+msgstr "값"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr ""
+msgstr "값"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
@@ -7681,7 +7675,7 @@ msgstr ""
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
 msgid "Variable"
-msgstr ""
+msgstr "변수"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
@@ -7710,7 +7704,7 @@ msgstr ""
 #: pca/options/vars.title
 #: propTest2/options/vars.title
 msgid "Variables"
-msgstr "변수들"
+msgstr "변수"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
@@ -7727,11 +7721,11 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
 msgid "Variance"
-msgstr ""
+msgstr "분산"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr ""
+msgstr "분산"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
@@ -7749,7 +7743,7 @@ msgstr ""
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "VIF"
-msgstr ""
+msgstr "분산 팽창 계수"
 
 #: descriptives/options/violin.title
 msgid "Violin"
@@ -7825,7 +7819,7 @@ msgstr "X-축"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr ""
+msgstr "X-축"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
@@ -7833,7 +7827,7 @@ msgstr "Y-축"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr ""
+msgstr "Y-축"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
@@ -7932,7 +7926,7 @@ msgstr ""
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "χ² 적합도 검증"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
@@ -7941,7 +7935,7 @@ msgstr ""
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
-msgstr ""
+msgstr "χ² 검증"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
@@ -7950,7 +7944,7 @@ msgstr ""
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
-msgstr ""
+msgstr "χ² 검증"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title
