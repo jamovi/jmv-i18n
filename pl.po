@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-23 21:21+0000\n"
+"PO-Revision-Date: 2022-08-01 20:14+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -4884,11 +4884,11 @@ msgstr "Oszacowania czynników"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "Wyrazy wolne czynnika"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr ""
+msgstr "Wyrazy wolne czynnika"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
@@ -5029,7 +5029,7 @@ msgstr "test Friedmana"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
-msgstr ""
+msgstr "Metoda Największej Wiarygodności z pełną informacją (FIML)"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
@@ -5287,7 +5287,7 @@ msgstr "Korelacje między czynnikami"
 #: linReg/options/intercept.title
 #: linReg/ui[2][1].label
 msgid "Intercept"
-msgstr ""
+msgstr "Wyraz wolny"
 
 #: cfa/ui[3][1][0]/ci/ciWidth.label
 #: contTables/options/ciWidth.title
@@ -5712,7 +5712,7 @@ msgstr "Średni wynik"
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Mean Square"
-msgstr ""
+msgstr "Średni kwadrat"
 
 #: anovaRMNP/options/plotType/means.title
 msgid "Means"
@@ -5776,11 +5776,11 @@ msgstr "Minimum"
 
 #: R/pca.b.R
 msgid "Minimum residual"
-msgstr ""
+msgstr "Wartość minimalna reszty"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
-msgstr ""
+msgstr "Wartość minimalna reszt"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
@@ -5834,7 +5834,7 @@ msgstr "Modalna"
 #: logRegOrd/results/modelFit.columns.title
 #: logRegOrd/results/modelComp.columns.title
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: linReg/ui[1].label
 #: logLinear/ui[1].label
@@ -5842,7 +5842,7 @@ msgstr ""
 #: logRegMulti/ui[1].label
 #: logRegOrd/ui[1].label
 msgid "Model Builder"
-msgstr ""
+msgstr "Kreator modeli"
 
 #: linReg/ui[5].label
 #: logLinear/ui[4].label
@@ -5892,8 +5892,9 @@ msgstr "Miary dopasowania modelu"
 #: logRegBin/results/models.title
 #: logRegMulti/results/models.title
 #: logRegOrd/results/models.title
+#, fuzzy
 msgid "Model Specific Results"
-msgstr ""
+msgstr "Podsumowanie modelu"
 
 #: ancova/options/modelTerms.title
 #: anova/options/modelTerms.title
@@ -5916,11 +5917,11 @@ msgstr ""
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
-msgstr ""
+msgstr "Wskaźniki modyfikacji"
 
 #: cfa/options/mi.title
 msgid "Modification indices"
-msgstr ""
+msgstr "Wskaźniki modyfikacji"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5933,7 +5934,7 @@ msgstr "MSA"
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
 msgid "Multinomial"
-msgstr ""
+msgstr "Wielomianowy"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -5942,17 +5943,20 @@ msgstr ""
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
 msgid "Multinomial Logistic Regression"
-msgstr ""
+msgstr "Wielomianowa regresja logistyczna"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
+"Wieloczynnikowa analiza (ko)wariancji (MANCOVA) służy do analizy związku "
+"pomiędzy wieloma zmiennymi zależnymi a jedną lub kilkoma kategorycznymi i/"
+"lub ciągłymi zmiennymi objaśniającymi."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
-msgstr ""
+msgstr "Statystyki wielowymiarowe"
 
 #: mancova/results/multivar.title
 msgid "Multivariate Tests"
@@ -5979,7 +5983,7 @@ msgstr "N"
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr ""
+msgstr "N wyników"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
@@ -6155,10 +6159,14 @@ msgstr ""
 #: corrPart/options/hypothesis.description.R
 msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
 msgstr ""
+"`'corr'` (domyślnie), `'pos'`, `'neg'`, określające hipotezę alternatywną; "
+"odpowiednio: skorelowane, skorelowane dodatnio, skorelowane ujemnie."
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
 msgstr ""
+"`'part'` (domyślnie) lub `'semi'`, określające typ korelacji do obliczenia; "
+"odpowiednio: korelacja cząstkowa lub semicząstkowa."
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -6183,6 +6191,8 @@ msgstr "Jedna lub obie zmienne nie zawierają wystarczającej liczby obserwacji"
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
 msgstr ""
+"Jeden lub kilka współczynników w modelu '{modelNo}' nie mogło zostać "
+"oszacowanych z powodu idealnej współliniowości."
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
