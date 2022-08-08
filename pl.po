@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-01 20:14+0000\n"
+"PO-Revision-Date: 2022-08-08 14:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -6197,25 +6197,40 @@ msgstr ""
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
 msgstr ""
+"jedno lub więcej spośród `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, lub "
+"`'bic'`; zastosuj następujące miary dopasowania (odpowiednio): CFI, TLI, "
+"SRMR, RMSEA (z 90% przedziałem ufności), skorygowany AIC lub BIC"
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
 msgstr ""
+"jedna lub więcej spośród `'eta'`, `'partEta'`, lub `'omega'`; zastosuj "
+"następujące miary wielkości efektu (odpowiednio): η², częściowe η² lub ω²"
 
 #: anovaRM/options/spherCorr.description.R
+#, fuzzy
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
 msgstr ""
+"jedno lub więcej z `'none'` (domyślnie), `'GG'` lub ``HF``; należy użyć "
+"odpowiednio korekty p-wartości, korekty p-wartości Greenhouse-Geisser oraz "
+"korekty p-wartości Huynh-Feldt dla shericity"
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
 msgstr ""
+"jedno lub więcej z `'none'`, `'tukey'` (domyślnie), `'scheffe'`, `'bonf'` "
+"lub `'holm'`; użyj następujących korekt posthoc (odpowiednio): brak, "
+"Tukey'a, Scheffégo, Bonferroniego lub Holma"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
 msgstr ""
+"jedno lub więcej z `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` lub `'holm'`; "
+"użyj następujących korekt posthoc (odpowiednio): brak, Tukey'a, Scheffégo, "
+"Bonferroniego lub Holma"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
@@ -7154,7 +7169,7 @@ msgstr "Rozstęp"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Rank biserial correlation"
-msgstr ""
+msgstr "Współczynnik korelacji rangowo-dwuseryjnej"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
@@ -7619,7 +7634,7 @@ msgstr "test Shapiro-Wilka"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr ""
+msgstr "Test Shapiro-Wilk dla wielowymiarowej normalności"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
@@ -7631,7 +7646,7 @@ msgstr "Test Shapiro-Wilka"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr ""
+msgstr "Test Shapiro-Wilk dla wielowymiarowej normalności"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
@@ -7639,7 +7654,7 @@ msgstr "W Shapiro-Wilka"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
-msgstr ""
+msgstr "Obok siebie"
 
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
@@ -7721,7 +7736,7 @@ msgstr "Podziel przez"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "Kwadrat odległości Mahalanobisa"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -7730,7 +7745,7 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr ""
+msgstr "Ładunki SS"
 
 #: contTables/options/bartype.description.R
 msgid "stack or side by side (default), barplot type"
@@ -7870,7 +7885,7 @@ msgstr "Suma kwadratów"
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "Suma punktów"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
@@ -7912,7 +7927,7 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr ""
+msgstr "Pojęcie {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -7922,12 +7937,12 @@ msgstr ""
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr ""
+msgstr "Pojęcie 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
 msgid "Test for Exact Fit"
-msgstr ""
+msgstr "Test dokładny dobroci dopasowania"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
@@ -7972,6 +7987,7 @@ msgstr "Zmienna 'podziel przez' '{var}' nie zawiera żadnych danych."
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
 msgstr ""
+"(opcjonalne) wagi z `data`, które mają zostać użyte przy dopasowaniu modelu"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -8299,6 +8315,10 @@ msgstr ""
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Test Kruskala-Wallisa służy do badania zależności między ciągłą zmienną "
+"zależną, a kategoryczną zmienną objaśniającą. Jest odpowiednikiem testu "
+"ANOVA, ale jako test nieparametryczny, posiada mniej założeń. Umożliwia on "
+"włączenie do analizy jedynie jednej zmiennej objaśniającej."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -8306,7 +8326,7 @@ msgstr "etykieta, która ma być używana dla zmiennej zależnej."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
-msgstr ""
+msgstr "składnia pakietu lavaan użyta do dopasowania modelu"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
@@ -8573,7 +8593,7 @@ msgstr "typ sumy kwadratów; typ 2 lub 3."
 #: ancova/results/model.description
 #: anova/results/model.description
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "Obiekt bazowy `aov`"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
@@ -8602,6 +8622,8 @@ msgstr ""
 #: contTablesPaired/options/counts.description.R
 msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"zmienna, która ma być użyta dla liczebności w tabeli krzyżowych (nie jest "
+"konieczna przy podawaniu formuły, patrz przykłady)"
 
 #: contTables/options/rows.description.R
 #: contTablesPaired/options/rows.description.R
@@ -8613,19 +8635,25 @@ msgstr ""
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
+"Zmienne {vars} nie mogą być traktowane jako numeryczne. Wykresy wymagają "
+"danych numerycznych nie będą tworzone dla tych zmiennych."
 
 #: ttestOneS/options/vars.description.ui
+#, fuzzy
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr ""
+msgstr "dla każdej podanej zmiennej wykonywany jest osobny test t."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
+#, fuzzy
 msgid "the variables of interest."
-msgstr ""
+msgstr "zmiennych będących przedmiotem zainteresowania."
 
 #: contTables/options/layers.description.R
 msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
+"zmienne używane do podziału tabeli krzyżowej (nie są konieczne przy używaniu "
+"formuły; zobacz przykłady)"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
@@ -8637,11 +8665,19 @@ msgstr "szerokość przedziałów ufności."
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
 msgstr ""
+"Test χ² dobroci dopasowania (nie mylić z testem niezależności χ² ) służy do "
+"weryfikacji hipotezy zerowej wskazującej, że proporcje obserwacji "
+"odpowiadają pewnym proporcjom oczekiwanym. Niska wartość p sugeruje, że "
+"hipoteza zerowa jest fałszywa, a prawdziwe proporcje są inne niż testowane."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"Test zgodności χ² (nie mylić z testem χ² dobroci dopasowania) służy do "
+"sprawdzenia, czy dwie zmienne kategoryczne są niezależne czy też powiązane "
+"ze sobą. Niska wartość p sugeruje, że zmienne nie są niezależne i że może "
+"istnieć związek między nimi."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -8663,11 +8699,11 @@ msgstr ""
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
-msgstr ""
+msgstr "Próg"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "Progi"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
@@ -8718,7 +8754,7 @@ msgstr "Zbyt duża próba, żeby obliczyć statystyki (N > 5000)"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "Wzrost zębów"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -8730,6 +8766,8 @@ msgstr "Całość"
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
 msgstr ""
+"total_pc (domyślnie), column_pc, lub row_pc. Użyj odpowiednio: procentów `of "
+"total`, `within columns`, lub `within rows` dla osi y wykresu słupkowego."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -8747,7 +8785,7 @@ msgstr "test post-hic Tukey'a – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "Suma kwadratów typu {ssType}"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
@@ -8768,7 +8806,7 @@ msgstr "Typ 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "Suma kwadratów typu III."
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
@@ -8780,7 +8818,7 @@ msgstr ""
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "Testy jednowymiarowe"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -8827,7 +8865,7 @@ msgstr "wartość"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr ""
+msgstr "Wartości są liczebnościami"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -8891,6 +8929,7 @@ msgstr "Wariancja"
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
 msgstr ""
+"wariancja zmiennych kontrolnych jest usuwana tylko ze zmiennych w kolumnach"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -8908,7 +8947,7 @@ msgstr "VIF"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr ""
+msgstr "Skrzypcowy"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
@@ -8924,6 +8963,8 @@ msgstr "W"
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
+"zastosuj równe wagi dla każdej komórki. (Komórki są domyślnie ważone według "
+"częstości)."
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8993,6 +9034,8 @@ msgstr "oś Y"
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
 msgstr ""
+"ycounts (domyślnie) lub ypc. Użyj odpowiednio `counts` lub `percentages` dla "
+"osi y wykresu słupkowego"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -9010,11 +9053,11 @@ msgstr "Z"
 
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
-msgstr ""
+msgstr "test z dla dwóch proporcji"
 
 #: contTables/options/zProp.title
 msgid "z test for difference in 2 proportions"
-msgstr ""
+msgstr "test z dla dwóch proporcji"
 
 #: R/conttables.b.R
 msgid "z test only available for 2x2 tables"
@@ -9087,12 +9130,12 @@ msgstr "χ² poprawka na ciągłość"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "χ² dobroci dopasowania"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr ""
+msgstr "χ² dobroci dopasowania"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
@@ -9101,7 +9144,7 @@ msgstr "test χ²"
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
 msgid "χ² test of association"
-msgstr ""
+msgstr "Test zgodności χ²"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
