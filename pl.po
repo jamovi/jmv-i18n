@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-09 15:20+0000\n"
+"PO-Revision-Date: 2022-08-09 16:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -6193,7 +6193,7 @@ msgstr "Wartości obserwowane"
 
 #: R/ancova.b.R
 msgid "octic"
-msgstr ""
+msgstr "wielomian 8. stopnia"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
@@ -6219,25 +6219,25 @@ msgstr "z całości"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr ""
+msgstr "Test omnibus ANOVA"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "Testy omnibus wskaźnika wiarygodności"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr ""
+msgstr "Test omnibus"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
 msgid "Omnibus Tests"
-msgstr ""
+msgstr "Testy omnibus"
 
 #: corrMatrix/options/hypothesis.description.R
 #: corrPart/options/hypothesis.description.R
@@ -6329,6 +6329,8 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.description.R
 msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
+"jedno lub więcej spośród `'r2mf'`, `'r2cs'` lub `'r2n'`; zastosuj "
+"(odpowiednio): pseudo-R² McFaddena, Coxa i Snella lub Nagelkerke'a"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -6420,7 +6422,7 @@ msgstr "Model ogólny"
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "Ogólny test modelu"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -6429,7 +6431,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "Ogólny test modelu"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6556,7 +6558,7 @@ msgstr "Porównania parami (test Durbina-Conovera)"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
-msgstr ""
+msgstr "Cząstkowy"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -6565,13 +6567,17 @@ msgstr ""
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr ""
+msgstr "Korelacja cząstkowa"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
+"Macierze korelacji cząstkowych są sposobem badania zależności liniowych\n"
+"pomiędzy dwiema lub kilkoma zmiennymi ciągłymi przy jednoczesnym "
+"kontrolowaniu\n"
+"innych zmiennych"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -6593,6 +6599,24 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Macierze korelacji cząstkowych są sposobem badania zależności liniowych\n"
+"pomiędzy dwiema lub kilkoma zmiennymi ciągłymi przy jednoczesnym "
+"kontrolowaniu\n"
+"innych zmiennych\n"
+"\n"
+"Wartość r Pearsona wskazuje siłę i kierunek związku\n"
+"każdej pary zmiennych. Dodatnia wartość wskazuje na\n"
+"związek dodatni (wraz ze wzrostem wartości jednej zmiennej\n"
+"wzrastają wartości drugiej zmiennej). Ujemna wartość\n"
+"r Pearsona wskazuje na związek ujemny (wraz ze wzrostem\n"
+"wartości jednej zmiennej spadają wartości drugiej zmiennej).\n"
+"Wartość zero wskazuje na brak związku (wartość jednej zmiennej\n"
+"nie jest związana z wartością drugiej zmiennej).\n"
+"\n"
+"Bardziej formalnie: analiza ta umożliwia przetestowanie hipotezy zerowej,\n"
+"że wartość współczynnika korelacji wynosi zero i obliczyć wartość p.\n"
+"Niska wartość p sugeruje, że współczynnik korelacji nie jest zerowy\n"
+"oraz że istnieje liniowa (lub bardziej złożona) relacja pomiędzy zmiennymi."
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
@@ -6673,7 +6697,7 @@ msgstr ""
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "wykonuje ogólny test modelu."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
@@ -6879,7 +6903,7 @@ msgstr "Oś główna"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Metoda osi głównych (PAF)"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -6903,7 +6927,7 @@ msgstr "Prior"
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "Szerokość prioru"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -6973,6 +6997,9 @@ msgstr "podaj r Pearsona dla każdej kombinacji zmiennych."
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"generuje wykres K-K reszt - wykres rzeczywistych reszt względem sytuacji, w "
+"której reszty miały rozkład idealnie normalny. Duże odchylenia od linii "
+"ukośnej sugerują, że dane nie przyjmują rozkładu normalnego."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -7112,12 +7139,18 @@ msgstr "podaje testy post hoc."
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"generuje wykres K-K reszt - wykres rzeczywistych reszt względem sytuacji, w "
+"której reszty miały rozkład idealnie normalny. Duże odchylenia od linii "
+"ukośnej sugerują, że dane nie pochodzą z rozkładu normalnego."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
+"generuje wykres K-K reszt - wykres rzeczywistych reszt względem sytuacji, w "
+"której reszty miały rozkład idealnie normalny. Duże odchylenia od linii "
+"ukośnej sugerują, że reszty nie przyjmują rozkładu normalnego."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -7175,11 +7208,11 @@ msgstr "Wykres K-K"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "Wykres K-K do oceny wielowymiarowej normalności"
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "Wykres K-K wielowymiarowej normalności"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
@@ -7400,12 +7433,14 @@ msgid "Residual Estimates"
 msgstr "Reszty oszacowane"
 
 #: cfa/results/resEst/resIntercept.title
+#, fuzzy
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "Wyrazy wolne reszt"
 
 #: cfa/options/resInterceptEst.title
+#, fuzzy
 msgid "Residual intercepts"
-msgstr ""
+msgstr "Wyrazy wolne reszt"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
