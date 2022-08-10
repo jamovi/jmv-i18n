@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-09 18:14+0000\n"
+"PO-Revision-Date: 2022-08-10 19:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr "użyto rotacji '{rotation}'"
+msgstr "zastosowano rotację '{rotation}'"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -56,15 +56,15 @@ msgstr "{} - rho Spearmana"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% dolna granica przedziału ufności"
+msgstr "{ciWidth}% dolny PU"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}% średni przedział ufności {title}"
+msgstr "{ciWidth}% PU średniej {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% górna granica przedziału ufności"
+msgstr "{ciWidth}% górny PU"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -112,16 +112,16 @@ msgstr "{varName} (odwrócone)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr "{varType} dwumianowego modelu regresji logistycznej {modelNo}"
+msgstr "{varType} modelu {modelNo} dwumianowej regresji logistycznej"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr "{varType} modelu regresji liniowej {modelNo}"
+msgstr "{varType} modelu {modelNo} regresji liniowej"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, jednostronne"
+msgstr "* p < 0,05, ** p < 0,01, *** p < 0,001, hipoteza jednostronna"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -159,7 +159,7 @@ msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr "% poprawnych"
+msgstr "% prawidłowych"
 
 #: R/descriptives.b.R
 msgid "% of Total"
@@ -187,37 +187,37 @@ msgstr "% w wierszu"
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr "`'1'`, `'2'` or `'3'` (domyślnie), suma kwadratów do użycia"
+msgstr "`'1'`, `'2'` lub `'3'` (domyślnie) suma kwadratów"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr "`'2'` or `'3'` (domyślnie), suma kwadratów do użycia"
+msgstr "`'2'` lub `'3'` (domyślnie) suma kwadratów"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
 msgstr ""
-"`'different'` (domyślne), `'oneGreater'` or `'twoGreater'`, hipoteza "
+"`'different'` (domyślnie), `'oneGreater'` lub `'twoGreater'`, hipoteza "
 "alternatywna; odpowiednio: grupa 1 różni się od grupy 2, grupa 1 większa niż "
 "grupa 2 i grupa 2 większa niż grupa 1"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
-"`'different'` (domyślne), `'oneGreater'` or `'twoGreater'`, hipoteza "
+"`'different'` (domyślnie), `'oneGreater'` lub `'twoGreater'`, hipoteza "
 "alternatywna; odpowiednio: pomiar 1 różni się od pomiaru 2, pomiar 1 większa "
 "niż pomiar 2 i pomiar 2 większa niż pomiar 1"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
-"`'dt'` (domyślne), `'gt'` lub`'lt'`, hipoteza alternatywna; odpowiednio: "
-"różne od `testValue`, większe niż `testValue`, i mniejsze niż `testValue`"
+"`'dt'` (domyślnie), `'gt'` lub`'lt'`, hipoteza alternatywna; odpowiednio: "
+"różne od `testValue`, większe niż `testValue` i mniejsze niż `testValue`"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
-"`'facVar'` i `'facInd'`, jak ograniczyć model; `'facVar'` ustala wartość "
+"`'facVar'` lub `'facInd'`, jak ograniczyć model; `'facVar'` ustala wartość "
 "wariacji czynnika na 1, `'facInd'` ustala każdy czynnik względem jego "
 "pierwszego wskaźnika."
 
@@ -225,78 +225,78 @@ msgstr ""
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
 "`'listwise'` lub `'fiml'`, co zrobić z brakami danych; `'listwise'` usuwa "
-"wiersze ze wszystkich analiz, jeżeli występuje jakikolwiek brak, `'fiml'` "
-"wykorzystuje full information maximum likelihood method do oszacowania "
-"modelu."
+"wiersz ze wszystkich analiz, jeżeli występuje w nim jakikolwiek brak, "
+"`'fiml'` wykorzystuje metodę Największej Wiarygodności z pełną informacją "
+"(FIML) do oszacowania modelu."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
-"`'means'` (domyślne) lub `'medians'`, słupki błędów do wykorzystania na "
+"`'means'` (domyślnie) lub `'medians'`, słupki błędów wykorzystywane na "
 "wykresie"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
-"`'minres'` (default), `'ml'`, lub `'pa'` używa odpowiednio 'minimum "
-"residual', 'maximum likelihood', or 'prinicipal axis' jako metodę ekstrakcji "
-"czynników"
+"`'minres'` (domyślnie), `'ml'` lub `'pa'`; użyj odpowiednio: 'minimum "
+"residual' (polska nazwa), 'maximum likelihood', or 'prinicipal axis' jako "
+"metodę wyodrębniania czynników"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
-"`'none'`, `'ci'` (domyślne), lub `'se'`. Odpowiednio: nie używaj słupków "
+"`'none'`, `'ci'` (domyślnie) lub `'se'`. Odpowiednio: nie używaj słupków "
 "błędu, użyj przedziałów ufności lub użyj błędów standardowych na wykresach "
 "średnich brzegowych"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
-"`'none'`, `'gamesHowell'` lub `'tukey'`, który test post-hoc zastosować; "
-"`'none'` nie wyświetla żadnego testu, `'gamesHowell'` wyświetla test Games-"
-"Howell, który nie zakłada równości wariancji, and `'tukey'` wyświetla test "
-"Tukey zakładający równość (homogeniczność) wariancji"
+"`'none'`, `'gamesHowell'` lub `'tukey'`, wybierz, który test post-hoc "
+"zastosować; `'none'` nie wyświetla żadnego testu, `'gamesHowell'` wyświetla "
+"test Games-Howell, który nie zakłada równości wariancji, natomiast `'tukey'` "
+"wyświetla test Tukey'a zakładający równość (homogeniczność) wariancji"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
-"`'none'`, `'varimax'` (domyślne), `'quartimax'`, `'promax'`, `'oblimin'`, "
+"`'none'`, `'varimax'` (domyślnie), `'quartimax'`, `'promax'`, `'oblimin'` "
 "lub `'simplimax'`, rotacja użyta do estymacji"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
-"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (domyślne), "
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (domyślnie) "
 "lub `'simplimax'`, rotacja użyta do estymacji"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
 msgstr ""
-"`'notequal'` (domyślne), `'greater'` lub `'less'`, hipoteza alternatywna"
+"`'notequal'` (domyślnie), `'greater'` lub `'less'`, hipoteza alternatywna"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
-"`'parallel'` (domyślny), `'eigen'` lub`'fixed'`, sposób wyboru liczby "
+"`'parallel'` (domyślnie), `'eigen'` lub`'fixed'`, sposób wyboru liczby "
 "czynników"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
-"`'perAnalysis'` lub`'listwise'`, sposób obsługi braków danych; "
-"`'perAnalysis'` wyklucza brakujące wartości dla każdej zmiennej zależnej, "
-"`'listwise'` wyklucza wiersz ze wszystkich analiz, jeżeli występuje w nim "
-"jakikolwiek brak danych"
+"`'perAnalysis'` lub`'listwise'`, co zrobić z brakami danych; `'perAnalysis'` "
+"wyklucza brakujące wartości dla każdej zmiennej zależnej, `'listwise'` "
+"wyklucza wiersz ze wszystkich analiz, jeżeli występuje w nim jakikolwiek "
+"brak danych"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
-"`'perAnalysis'` lub `'listwise'`,sposób obsługi braków danych `'perAnalysis'`"
+"`'perAnalysis'` lub `'listwise'`, co zrobić z brakami danych; `'perAnalysis'`"
 "wyklucza brakujące wartości dla każdej zmiennej zależnej, `'listwise'` "
 "wyklucza wiersz ze wszystkich analiz, jeżeli występuje w nim jakikolwiek "
 "brak danych."
@@ -304,15 +304,15 @@ msgstr ""
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
-"`'refLevel'` (domyślne) lub `'grandMean'`, sposób kodowania wyrazu wolnego. "
-"Tworzy kontrast, aby punkt przecięcia reprezentował poziom odniesienia albo "
-"średnia całkowitą (ogólną)"
+"`'refLevel'` (domyślnie) lub `'grandMean'`, sposób kodowania wyrazu wolnego. "
+"Tworzy kontrast, tak aby punkt przecięcia reprezentował poziom odniesienia "
+"albo średnią ogólną"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
-"`'rows'` lub `'columns'` (domyślne), wyświetla zmienne w wierszach lub "
-"kolumnach (domyślne)"
+"`'rows'` lub `'columns'` (domyślnie), wyświetla zmienne w wierszach lub "
+"kolumnach (domyślnie)"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
