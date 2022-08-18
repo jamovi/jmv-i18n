@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-16 19:19+0000\n"
+"PO-Revision-Date: 2022-08-18 14:20+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -318,8 +318,8 @@ msgstr ""
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
 msgstr ""
 "`'Thurstone'` (domyślnie), `'Bartlett'`, `'tenBerge'`, `'Anderson'` lub "
-"`'Harman'` używa metody (odpowiednio) Thurstone'a, Bartletta, ten Berge'a, "
-"Andersona i Rubina lub Harmana do estymacji ocen czynnikowych"
+"`'Harman'` używa do estymacji ocen czynnikowych metody (odpowiednio) "
+"Thurstone'a, Bartletta, ten Berge'a, Andersona i Rubina lub Harmana"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -332,7 +332,7 @@ msgstr "`ANOVA - ${dep}`"
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
-"`columns` lub `rows` (domyślnie), porównaj kolumny/wiersze w zakresie "
+"`columns` lub `rows` (domyślnie), porównuje kolumny/wiersze w zakresie "
 "różnicy proporcji lub ryzyka względnego (tabele 2x2)"
 
 #: linReg/results/models.template/coef.title
@@ -352,30 +352,31 @@ msgstr "`Proportions - ${var}`"
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, dodaj etykiety z numerem wiersza do wartości "
-"odstających na wykresie skrzynkowym"
+"`TRUE` (domyślnie) lub `FALSE`, dodaje etykiety z numerem wiersza do "
+"wartości odstających na wykresie skrzynkowym"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonaj test t Studenta"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test t Studenta"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, wykonaj test jednoczynnikowa ANOVA Welsch'a ("
-"nie zakłada równości wariancji)"
+"`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welsch'a "
+"(nie zakłada równości wariancji)"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
 msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, podaj wartości „Z” i „p” dla oszacowań modelu"
+"`TRUE` (domyślnie) lub `FALSE`, podaje wartości „Z” i „p” dla oszacowań "
+"modelu"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj test chi-kwadrat dla dokładnego "
+"`TRUE` (domyślnie) lub `FALSE`, podaje test chi-kwadrat dokładnego "
 "dopasowania, który porównuje model z modelem idealnie dopasowanym"
 
 #: linReg/options/ciEmm.description.R
@@ -384,7 +385,7 @@ msgstr ""
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj przedział ufności dla oszacowanych "
+"`TRUE` (domyślnie) lub `FALSE`, podaje przedział ufności dla oszacowanych "
 "średnich brzegowych"
 
 #: logLinear/options/aic.description.R
@@ -393,12 +394,12 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj kryterium informacyjne Akaikego (AIC) "
+"`TRUE` (domyślnie) lub `FALSE`, podaje kryterium informacyjne Akaikego (AIC) "
 "dla modeli"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr "`TRUE` (domyślne) lub `FALSE`, podaj α Cronbacha"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje α Cronbacha"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -409,36 +410,37 @@ msgstr "`TRUE` (domyślne) lub `FALSE`, podaj α Cronbacha"
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj wykresy oszacowanych średnich brzegowych"
+"`TRUE` (domyślnie) lub `FALSE`, podaje wykresy oszacowanych średnich "
+"brzegowych"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj estymatory dla (ko)wariancji czynników"
+"`TRUE` (domyślne) lub `FALSE`, podaje oszacowania dla (ko)wariancji czynników"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr "`TRUE` (domyślne) lub `FALSE`, podaj estymatory (ko)wariancji reszt"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje oszacowania (ko)wariancji reszt"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj średnie różnice dla testów post-hoc"
+"`TRUE` (domyślnie) lub `FALSE`, podaje średnie różnice dla testów post-hoc"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr "`TRUE` (domyślne) lub `FALSE`, podaj r Pearsona"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje r Pearsona"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr "`TRUE` (domyślne) lub `FALSE`, podaj poziom istotności"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje poziomy istotności"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj poziom istotności dla testów post-hoc"
+"`TRUE` (domyślnie) lub `FALSE`, podaje poziomy istotności dla testów post-hoc"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
@@ -446,47 +448,47 @@ msgstr ""
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj odchylenie (lub -2LogLikelihood) dla "
+"`TRUE` (domyślnie) lub `FALSE`, podaje odchylenie (lub -2LogLikelihood) dla "
 "modeli"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl średnią"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje średnią"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl medianę"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje medianę"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, podaj porównanie pomiędzy modelami a modelem "
-"zerowym"
+"`TRUE` (domyślnie) lub `FALSE`, wykonuje porównanie pomiędzy modelami a "
+"modelem zerowym"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl liczbę braków danych"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje liczbę braków danych"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl wielkość próby"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje wielkość próby"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl odchylenie standardowe"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje odchylenie standardowe"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr "`TRUE` (domyślne) lub `FALSE`, podaj `R-kwadrat` dla modeli"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje wartość R-kwadrat dla modeli"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr "`TRUE` (domyślne) lub `FALSE`, podaj wartość `R` dla modeli"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje wartość R dla modeli"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl χ²"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje χ²"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -497,29 +499,29 @@ msgstr "`TRUE` (domyślne) lub `FALSE`, wyświetl χ²"
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
-"`TRUE` (domyślne) lub `FALSE`, zastosuj równą wagę dla każdej komórki lub "
-"wagę zgodnie z częstotliwością komórki"
+"`TRUE` (domyślnie) lub `FALSE`, zastosuj równą wagę dla każdej komórki lub "
+"wagę zgodną z częstością w komórce"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr "`TRUE` lub `FALSE` (domyślne), dodaj liczby do wykresów słupkowych"
+msgstr "`TRUE` lub `FALSE` (domyślnie), dodaj liczby do wykresów słupkowych"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), dodaj średnie do wykresów pudełkowych"
+msgstr "`TRUE` lub `FALSE` (domyślnie), dodaj średnie do wykresów skrzynkowych"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr "`TRUE` lub `FALSE` (domyślne), oznacz istotne korelacje"
+msgstr "`TRUE` lub `FALSE` (domyślnie), oznacz istotne korelacje"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr "`TRUE` lub `FALSE` (domyślne), oznacz istotne porównania post-hoc"
+msgstr "`TRUE` lub `FALSE` (domyślnie), oznacz istotne porównania post-hoc"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr "`TRUE` lub `FALSE` (domyślne), wykonaj test Shapiro-Wilka dla reszt"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj test Shapiro-Wilka dla reszt"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
