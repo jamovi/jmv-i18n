@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-18 15:18+0000\n"
+"PO-Revision-Date: 2022-08-19 09:21+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -579,19 +579,19 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy sferyczności"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy Welcha"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy t Welcha"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr "`TRUE` lub `FALSE` (domyślne), wykonaj testy rang Wilcoxona"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy rang Wilcoxona"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), wykonaj wykres danych dla górnych wartości "
+"`TRUE` lub `FALSE` (domyślnie), sporządź wykres dla górnych wartości "
 "średnich brzegowych"
 
 #: logLinear/options/ci.description.R
@@ -600,7 +600,7 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), pokaż przedziały ufności dla estymatorów "
+"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań "
 "współczynników modelu"
 
 #: logRegBin/options/ciOR.description.R
@@ -608,63 +608,64 @@ msgstr ""
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla estymatorów "
-"ilorazu szans (OR) współczynników modelu"
+"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań "
+"ilorazu szans współczynników modelu"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla estymatorów "
-"współczynnika częstości występowania współczynników modelu"
+"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań "
+"współczynnika częstości dla współczynników modelu"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla standaryzowanych "
-"estymatorów współczynników modelu"
+"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla "
+"standaryzowanych oszacowań współczynników modelu"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla współczynników "
+"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla współczynników "
 "modelu"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przedziały ufności dla estymatorów "
+"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla oszacowań "
 "modelu"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres macierzy korelacji"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres macierzy korelacji"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres korelacji"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres korelacji"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres wartości granicznych"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres wartości granicznych"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres opisowy"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres opisowy"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj diagram ścieżkowy modelu"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla diagram ścieżkowy modelu"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj przewidywaną tabelę klasyfikacji (lub "
-"macierz krzyżową)"
+"`TRUE` lub `FALSE` (domyślnie), podaje tabelę klasyfikacji dla wartości "
+"oczekiwanych (lub macierz błędów)"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj wykres Q-Q wielowymiarowej normalności"
+"`TRUE` lub `FALSE` (domyślnie), wyświetla wykres K-K wielowymiarowej "
+"normalności"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -674,59 +675,59 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres Q-Q reszt"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres K-K reszt"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj wykres krzywej ROC"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres krzywej ROC"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj standaryzowane estymatory "
+"`TRUE` lub `FALSE` (domyślnie), podaje standaryzowane oszacowania "
 "współczynników modelu"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj standaryzowane oszacowania estymatorów "
-"modelu"
+"`TRUE` lub `FALSE` (domyślnie), podaje standaryzowane oszacowania "
+"estymatorów modelu"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj test Z dla różnic pomiędzy dwiema "
+"`TRUE` lub `FALSE` (domyślnie), podaje test Z dla różnic pomiędzy dwiema "
 "proporcjami"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj kryterium informacyjne Aikaikego (AIC) "
-"dla modeli"
+"`TRUE` lub `FALSE` (domyślnie), podaje kryterium informacyjne Aikaikego (AIC)"
+" dla modeli"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj dokładny logarytm ilorazu szans (OR) ("
-"wymaga tabeli 2x2, żeby mogło być zastosowane)"
+"`TRUE` lub `FALSE` (domyślnie), podaje dokładny logarytm ilorazu szans ("
+"wymaga tabeli 2x2)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj wykresy słupkowe (wyłącznie dla danych "
-"nominalnych i porządkowych)"
+"`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy słupkowe (wyłącznie dla "
+"danych nominalnych i porządkowych)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr "`TRUE` lub `FALSE` (domyślne), podaj czynnik Bayesa"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje czynnik Bayesa"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj bayesowskie przedziały wiarygodności"
+"`TRUE` lub `FALSE` (domyślnie), podaje bayesowskie przedziały wiarygodności"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -735,44 +736,44 @@ msgstr ""
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj bayesowskie kryterium informacyjne (BIC)"
-" dla modeli"
+"`TRUE` lub `FALSE` (domyślnie), podaje bayesowskie kryterium informacyjne "
+"(BIC) dla modeli"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), podaj wykresy pudełkowe (wyłącznie dla "
+"`TRUE` lub `FALSE` (domyślnie), podaje wykresy pudełkowe (wyłącznie dla "
 "zmiennych ciągłych)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje test liniowości logitu Boxa-Tidwella"
+"`TRUE` lub `FALSE` (domyślnie), wykonuje test liniowości logitu Boxa-Tidwella"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr "`TRUE` or `FALSE` (default), generuje test M Boxa"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje test M Boxa"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje d Cohena (wielkość efektu)"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje d Cohena (wielkość efektu)"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje wartości procentowe kolumn"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wartości procentowe kolumn"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla miar "
+"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla miar "
 "porównawczych"
 
 #: ttestIS/options/ciES.description.R
@@ -780,30 +781,30 @@ msgstr ""
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla przedziałów "
-"ufności"
+"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla wielkości "
+"efektu"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla średniej"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla średniej"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla średniej "
+"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla średniej "
 "różnicy"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje przedziały ufności dla wielkości "
+"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla wielkości "
 "efektów testów post-hoc"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje gęstości na wykresie macierzy "
+"`TRUE` lub `FALSE` (domyślnie), wyświetla gęstości na wykresie macierzy "
 "korelacji"
 
 #: descriptives/options/dens.description.R
