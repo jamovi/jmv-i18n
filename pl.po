@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-19 09:21+0000\n"
+"PO-Revision-Date: 2022-08-19 10:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -410,7 +410,7 @@ msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje α Cronbacha"
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, podaje wykresy oszacowanych średnich "
+"`TRUE` (domyślnie) lub `FALSE`, wyświetla wykresy oszacowanych średnich "
 "brzegowych"
 
 #: cfa/options/factCovEst.description.R
@@ -499,83 +499,86 @@ msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje χ²"
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, zastosuj równą wagę dla każdej komórki lub "
-"wagę zgodną z częstością w komórce"
+"`TRUE` (domyślnie) lub `FALSE`, wykorzystuje równą wagę dla każdej komórki "
+"lub wagę zgodną z częstością w komórce"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr "`TRUE` lub `FALSE` (domyślnie), dodaj liczby do wykresów słupkowych"
+msgstr "`TRUE` lub `FALSE` (domyślnie), dodaje liczby do wykresów słupkowych"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "`TRUE` lub `FALSE` (domyślnie), dodaj średnie do wykresów skrzynkowych"
+msgstr "`TRUE` lub `FALSE` (domyślnie), dodaje średnie do wykresów skrzynkowych"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr "`TRUE` lub `FALSE` (domyślnie), oznacz istotne korelacje"
+msgstr "`TRUE` lub `FALSE` (domyślnie), zaznacza istotne korelacje"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr "`TRUE` lub `FALSE` (domyślnie), oznacz istotne porównania post-hoc"
+msgstr "`TRUE` lub `FALSE` (domyślnie), zaznacza istotne porównania post-hoc"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj test Shapiro-Wilka dla reszt"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje test Shapiro-Wilka dla reszt"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), wykonaj test jednoczynnikowa ANOVA Fishera ("
+"`TRUE` lub `FALSE` (domyślnie), wykonuje test jednoczynnikowa ANOVA Fishera ("
 "zakłada równość wariancji)"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy homogeniczności"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy homogeniczności"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), wykonaj test homogeniczności wariancji "
+"`TRUE` lub `FALSE` (domyślnie), wykonuje test homogeniczności wariancji "
 "Levene'a"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), wykonaj testy homogeniczności wariancji "
+"`TRUE` lub `FALSE` (domyślnie), wykonuje testy homogeniczności wariancji "
 "Levene'a"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy U Manna-Whitney'a"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy U Manna-Whitney'a"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj porównania parami"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje porównania parami"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy normalności Shapiro-Wilka"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), wykonuje testy normalności Shapiro-Wilka"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj test normalności Shapiro-Wilka"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje test normalności Shapiro-Wilka"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy normalności Shapiro-Wilka"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), wykonuje testy normalności Shapiro-Wilka"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy normalności Shapiro-Wilka"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), wykonuje testy normalności Shapiro-Wilka"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonaj testy sferyczności"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy sferyczności"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
@@ -591,7 +594,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy rang Wilcoxona"
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), sporządź wykres dla górnych wartości "
+"`TRUE` lub `FALSE` (domyślnie), wyświetla wykres dla górnych wartości "
 "średnich brzegowych"
 
 #: logLinear/options/ci.description.R
@@ -810,7 +813,7 @@ msgstr ""
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje wykresy gęstości (tylko dla "
+"`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy gęstości (tylko dla "
 "zmiennych ciągłych)"
 
 #: anovaOneW/options/descPlot.description.R
@@ -818,7 +821,7 @@ msgstr ""
 #: ttestOneS/options/plots.description.R
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje wykresy opisowe"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy opisowe"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -826,22 +829,22 @@ msgstr "`TRUE` lub `FALSE` (domyślne), generuje wykresy opisowe"
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje statystyki opisowe"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje statystyki opisowe"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje wykresy punktowe (tylko dla "
+"`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy punktowe (tylko dla "
 "zmiennych ciągłych)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje wielkości efektów"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wielkości efektów"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje wielkości efektów"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wielkości efektów"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -852,31 +855,32 @@ msgstr "`TRUE` lub `FALSE` (domyślne), generuje wielkości efektów"
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje estymowane tabele średnich brzegowych"
+"`TRUE` lub `FALSE` (domyślnie), wyświetla tabele oszacowanych średnich "
+"brzegowych"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje estymatory wyrazów wolnych czynnika"
+"`TRUE` lub `FALSE` (domyślnie), podaje oszacowania wyrazów wolnych czynnika"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje estymatory wyrazów wolnych reszt"
+"`TRUE` lub `FALSE` (domyślnie), podaje oszacowania wyrazów wolnych reszt"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje dokładny test Fishera"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje dokładny test Fishera"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje tabele częstości (wyłącznie dla "
+"`TRUE` lub `FALSE` (domyślnie), wyświetla tabele częstości (wyłącznie dla "
 "zmiennych nominalnych i porządkowych)"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje gamma"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje gamma"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
