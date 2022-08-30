@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-30 10:15+0000\n"
+"PO-Revision-Date: 2022-08-30 11:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1139,159 +1139,162 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje rozstęp"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca obszar pod krzywą ROC (AUC)"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla obszar pod krzywą ROC (AUC)"
 
 #: contTables/options/relRisk.description.R
 msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje ryzyko względne (RR) (dostępne "
+"`TRUE` lub `FALSE` (domyślnie), podaje ryzyko względne (RR) (dostępne "
 "wyłącznie dla tabel 2x2)"
 
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), zwraca reszty dla obserwowanej macierzy "
+"`TRUE` lub `FALSE` (domyślnie), podaje reszty dla obserwowanej macierzy "
 "korelacji (tj. różnicę pomiędzy oczekiwaną a obserwowaną macierzą korelacji)"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca skośność"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje skośność"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca odchylenie standardowe"
+msgstr "`TRUE` lub `FALSE` (domyślnie),podaje odchylenie standardowe"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca błąd standardowy"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje błąd standardowy"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), zwraca 'skorygowane R-kwadrat' dla modelu"
+"`TRUE` lub `FALSE` (domyślnie), podaje `adjusted R-squared` (skorygowane "
+"R-kwadrat) dla modeli"
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca sumę"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje sumę"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), generuje progi, które są wykorzystywane jako "
-"wartości graniczne dla poziomów zmiennej zależnej"
+"`TRUE` lub `FALSE` (domyślnie), wyświetla progi, które są wykorzystywane "
+"jako wartości graniczne dla poziomów zmiennej zależnej"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca wariancję"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wariancję"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca procent skumulowany"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje procent skumulowany"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), zwraca miary współliniowości (VIF i "
+"`TRUE` lub `FALSE` (domyślnie), podaje miary współliniowości (VIF i "
 "tolerancję)"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), zwraca wykresy wiolinowe (wyłącznie dla "
+"`TRUE` lub `FALSE` (domyślne), wyświetla wykresy wiolinowe (wyłącznie dla "
 "zmiennych ciągłych)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), zwraca α Cronbacha po wykluczeniu pozycji"
+"`TRUE` lub `FALSE` (domyślnie), podaje α Cronbacha obliczoną bez danego itemu"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), zwraca ω McDonalda po wykluczeniu pozycji"
+"`TRUE` lub `FALSE` (domyślnie), podaje ω McDonalda obliczoną bez danego itemu"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr "`TRUE` lub `FALSE` (domyślne), zwraca χ² z poprawką na ciągłość"
+msgstr "`TRUE` lub `FALSE` (domyślne), podaje χ² z poprawką na ciągłość"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr "`TRUE` lub `FALSE` (domyślne), generuje podsumowanie różnych grup"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla podsumowanie różnych grup"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), ustawia wartość graniczną używaną do predykcji"
+"`TRUE` lub `FALSE` (domyślnie), ustawia wartość graniczną używaną do "
+"predykcji"
 
 #: contTables/options/barplot.description.R
 msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla wykresy słupkowe"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy słupkowe"
 
 #: efa/options/bartlett.description.R
 #: pca/options/bartlett.description.R
 msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
-msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla test sferyczności Bartletta"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), podaje wyniki testu sferyczności Bartletta"
 
 #: efa/options/eigen.description.R
 #: pca/options/eigen.description.R
 msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla tabelę wartości własnych"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla tabelę z wartościami własnymi"
 
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla podsumowanie czynników"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla podsumowanie czynników"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla korelacje mięzyczynnikowe"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje korelacje międzyczynnikowe"
 
 #: efa/options/kmo.description.R
 #: pca/options/kmo.description.R
 msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), wyświetla miarę adekwatności doboru próby "
+"`TRUE` lub `FALSE` (domyślnie), podaje miarę adekwatności doboru próby "
 "Kaisera-Meyera-Olkina (KMO)"
 
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), wyświetla miary dopasowania modelu wraz z "
+"`TRUE` lub `FALSE` (domyślnie), podaje miary dopasowania modelu wraz z "
 "testami"
 
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
 msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr "`TRUE` lub `FALSE` (domyślne), wyświetla wykres osypiska"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykres osypiska"
 
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
 msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr "`TRUE` lub `FALSE` (domyślne), sortuje ładunki czynnikowe wg wielkości"
+msgstr "`TRUE` lub `FALSE` (domyślnie), sortuje ładunki czynnikowe wg wielkości"
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), test homogeniczności wariancji (tj. test "
-"Levene'a)"
+"`TRUE` lub `FALSE` (domyślnie), wykonuje test homogeniczności wariancji (tj. "
+"test Levene'a)"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr "`TRUE` lub `FALSE` (domyślne), zlicza zmienne"
+msgstr "`TRUE` lub `FALSE` (domyślnie), zlicza zmienne"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślne), czy wartości oczekiwane powinny być "
+"`TRUE` lub `FALSE` (domyślnie), czy wartości oczekiwane powinny być "
 "wyświetlane"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr "`TRUE` lub `FALSE` (domyślne), wykonuje ogólny test modelu"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje ogólny test modelu"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -1302,17 +1305,17 @@ msgstr "±%"
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr "< wartości testowanej"
+msgstr "< wartość testu"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr "≠ wartości testowanej"
+msgstr "≠ wartości testu"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr "> wartości testowanej"
+msgstr "> wartość testu"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1342,7 +1345,7 @@ msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr "a tabela macierzy korelacji (semi)cząstkowych"
+msgstr "tabela macierzy korelacji (semi)cząstkowych"
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
@@ -1372,7 +1375,7 @@ msgstr ""
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
 "formuła zawierająca wyrażenia do oszacowania średnich brzegowych, obsługuje "
-"do trzech zmiennych na termin"
+"do trzech zmiennych na wyrażenie"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
@@ -1384,14 +1387,14 @@ msgstr ""
 #: anova/options/modelTerms.description.R
 msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
 msgstr ""
-"formuła opisująca wyrażenia, które mają trafić do modelu (nie jest to "
-"konieczne przy podawaniu formuły, patrz przykłady)"
+"formuła opisująca wyrażenia, które mają trafić do modelu (nie są konieczne "
+"przy podawaniu formuły, patrz przykłady)"
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
 msgstr ""
-"lista zawierająca listy nazwane, które definiują `label` czynnika i `vars` "
-"należące do tego czynnika"
+"lista zawierająca listy nazwane, które definiują `label` (etykietę) czynnika "
+"i `vars` (zmienne) należące do tego czynnika"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -1400,13 +1403,14 @@ msgstr ""
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
 msgstr ""
-"lista zawierająca wektory ciągów znaków, które określają predyktory dodawane "
-"do modelu. Elementy są dodawane do modelu zgodnie z ich kolejnością na liście"
+"lista zawierająca wektory ciągów znaków, zawierających nazwy predyktorów "
+"dodawanych do modelu. Elementy są dodawane do modelu zgodnie z ich "
+"kolejnością na liście"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
 msgstr ""
-"lista wektorów znaków opisujących pojęcia międzyobiektowe, które mają trafić "
+"lista wektorów znaków opisujących terminy międzyobiektowe, które mają wejść "
 "do modelu"
 
 #: anovaRM/options/postHoc.description.R
@@ -1433,7 +1437,7 @@ msgstr ""
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
 msgstr ""
-"spis list określających współczynnik i typ kontrastu, jeden z następujących: "
+"spis list określających czynnik i typ kontrastu spośród następujących: "
 "`'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` lub "
 "`'polynomial'`"
 
@@ -1457,16 +1461,15 @@ msgstr ""
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
-"spis list, gdzie każda lista opisuje powtarzającą się miarę (jako ciąg "
-"znaków) z `data` zdefiniowaną jako `measure` oraz konkretną kombinację "
-"poziomów z `rm`, do której należy (jako wektor ciągów znaków) zdefiniowaną "
-"jako `cell`"
+"spis list, gdzie każda lista opisuje powtórzony pomiar (jako ciąg znaków) z "
+"`data` zdefiniowany jako `measure` oraz konkretną kombinację poziomów z `rm`"
+", do której należy jako wektor ciągu znaków, zdefiniowaną jako `cell`"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
-"Spis list, gdzie każda lista opisuje `label` (jako ciąg znaków) i `levels` ("
-"jako wektor ciągów znaków) danego czynnika powtarzanych pomiarów"
+"spis list, gdzie każda lista opisuje `label` (jako ciąg znaków) i `levels` ("
+"jako wektor ciągu znaków) danego czynnika powtarzanych pomiarów"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
