@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-03 21:23+0000\n"
+"PO-Revision-Date: 2022-09-03 22:22+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -6039,7 +6039,7 @@ msgstr "Wielomianowa regresja logistyczna"
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
 "Wieloczynnikowa analiza (ko)wariancji (MANCOVA) służy do analizy związku "
-"pomiędzy wieloma zmiennymi zależnymi a jedną lub kilkoma kategorycznymi i/"
+"pomiędzy wieloma zmiennymi zależnymi a jedną lub kilkoma kategorialnymi i/"
 "lub ciągłymi zmiennymi objaśniającymi."
 
 #: mancova/options/multivar.title
@@ -6094,7 +6094,7 @@ msgstr "Bez korekty"
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
 msgstr ""
-"Brak zdefiniowanych czynników. Test M Boxa jest właściwy tylko wtedy, gdy "
+"Brak zdefiniowanych czynników. Test M Boxa jest odpowiedni tylko wtedy, gdy "
 "model zawiera czynniki."
 
 #: contTables/ui[1][0][1][0][0].label
@@ -6107,7 +6107,7 @@ msgstr "Nominalny"
 #: anovaNP/options.menuSubgroup
 #: anovaRMNP/options.menuSubgroup
 msgid "Non-Parametric"
-msgstr "Nieparametryczne"
+msgstr "Nieparametryczny"
 
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
@@ -6153,7 +6153,7 @@ msgstr "Test normalności"
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr "Test normalności Shapiro-Wilka"
+msgstr "Test normalności (Shapiro-Wilk)"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -6204,7 +6204,7 @@ msgstr "wielomian 8. stopnia"
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
 msgid "Odds Ratio"
-msgstr "iloraz szans (OR)"
+msgstr "iloraz szans"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -6216,7 +6216,7 @@ msgstr "iloraz szans (OR)"
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Odds ratio"
-msgstr "Ilorazy szans (OR)"
+msgstr "Iloraz szans"
 
 #: contTables/options/yaxisPc/total_pc.title
 msgid "of total"
@@ -6248,14 +6248,15 @@ msgstr "Testy omnibus"
 #: corrPart/options/hypothesis.description.R
 msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
 msgstr ""
-"`'corr'` (domyślnie), `'pos'`, `'neg'`, określające hipotezę alternatywną; "
-"odpowiednio: skorelowane, skorelowane dodatnio, skorelowane ujemnie."
+"jedno z: `'corr'` (domyślnie), `'pos'`, `'neg'`, określają hipotezę "
+"alternatywną; odpowiednio: skorelowane, skorelowane dodatnio, skorelowane "
+"ujemnie."
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
 msgstr ""
-"`'part'` (domyślnie) lub `'semi'`, określające typ korelacji do obliczenia; "
-"odpowiednio: korelacja cząstkowa lub semicząstkowa."
+"jedno z: `'part'` (domyślnie) lub `'semi'`, określają typ korelacji, który "
+"zostanie obliczony; odpowiednio: korelacja cząstkowa lub semicząstkowa."
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -6286,7 +6287,7 @@ msgstr ""
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
 msgstr ""
-"jedno lub więcej spośród `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, lub "
+"jedno lub więcej spośród: `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'` lub "
 "`'bic'`; zastosuj następujące miary dopasowania (odpowiednio): CFI, TLI, "
 "SRMR, RMSEA (z 90% przedziałem ufności), skorygowany AIC lub BIC"
 
@@ -6295,7 +6296,7 @@ msgstr ""
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
 msgstr ""
-"jedna lub więcej spośród `'eta'`, `'partEta'`, lub `'omega'`; zastosuj "
+"jedna lub więcej spośród: `'eta'`, `'partEta'` lub `'omega'`; zastosuj "
 "następujące miary wielkości efektu (odpowiednio): η², częściowe η² lub ω²"
 
 #: anovaRM/options/spherCorr.description.R
@@ -6309,22 +6310,22 @@ msgstr ""
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
 msgstr ""
-"jedno lub więcej z `'none'`, `'tukey'` (domyślnie), `'scheffe'`, `'bonf'` "
-"lub `'holm'`; użyj następujących korekt posthoc (odpowiednio): brak, "
-"Tukey'a, Scheffégo, Bonferroniego lub Holma"
+"jedno lub więcej spośród: `'none'`, `'tukey'` (domyślnie), `'scheffe'`, "
+"`'bonf'` lub `'holm'`; użyj następujących poprawek post-hoc (odpowiednio): "
+"brak, Tukey'a, Scheffégo, Bonferroniego lub Holma"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
 msgstr ""
-"jedno lub więcej z `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` lub `'holm'`; "
-"użyj następujących korekt posthoc (odpowiednio): brak, Tukey'a, Scheffégo, "
-"Bonferroniego lub Holma"
+"jedno lub więcej spośród: `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` lub "
+"`'holm'`; użyj następujących poprawek post-hoc (odpowiednio): brak, Tukey'a, "
+"Scheffégo, Bonferroniego lub Holma"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
 msgstr ""
-"jedno lub więcej z 'pillai'`, `'wilks'`, `'hotel'` lub `'roy'`; użyj "
+"jedno lub więcej spośród: 'pillai'`, `'wilks'`, `'hotel'` lub `'roy'`; użyj "
 "następujących statystyk wielowymiarowych (odpowiednio): ślad Pillai, Lambda "
 "Wilksa, ślad Hotellinga lub kryterium największego pierwiastka Roya"
 
@@ -6334,7 +6335,7 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.description.R
 msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
-"jedno lub więcej spośród `'r2mf'`, `'r2cs'` lub `'r2n'`; zastosuj "
+"jedno lub więcej spośród: `'r2mf'`, `'r2cs'` lub `'r2n'`; zastosuj "
 "(odpowiednio): pseudo-R² McFaddena, Coxa i Snella lub Nagelkerke'a"
 
 #: package/analyses/propTest2.menuSubgroup
@@ -6342,7 +6343,7 @@ msgstr ""
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr "Testy dla jednej proporcji"
+msgstr "Testy proporcji dla jednej próby"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
