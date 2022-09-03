@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-03 20:23+0000\n"
+"PO-Revision-Date: 2022-09-03 21:23+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -2071,7 +2071,7 @@ msgstr "tablica grup wykresów"
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr "tablica wyników specyficznych dla danego modelu"
+msgstr "tablica wyników dla poszczególnych modeli"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
@@ -3872,13 +3872,13 @@ msgstr ""
 "            omegaScale = TRUE)\n"
 "\n"
 "#\n"
-"#  RELIABILITY ANALYSIS\n"
+"#  ANALIZY RZETELNOŚCI\n"
 "#\n"
-"#  Scale Reliability Statistics\n"
+"#  Statystyki rzetelności skali\n"
 "#  ─────────────────────────────────────────\n"
-"#             Cronbach's α    McDonald's ω\n"
+"#             α Cronbacha    ω McDonalda\n"
 "#  ─────────────────────────────────────────\n"
-"#    scale           0.708           0.848\n"
+"#    skala           0.708           0.848\n"
 "#  ─────────────────────────────────────────\n"
 "#"
 
@@ -3913,23 +3913,23 @@ msgstr ""
 "corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
 "\n"
 "#\n"
-"#  CORRELATION MATRIX\n"
+"#  MACIERZ KORELACJI\n"
 "#\n"
-"#  Correlation Matrix\n"
+"#  Macierz korelacji\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#                           mpg      cyl       disp      hp\n"
 "#  ──────────────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r        —    -0.852    -0.848    -0.776\n"
-"#            p-value            —    < .001    < .001    < .001\n"
+"#    mpg     r Pearsona        —    -0.852    -0.848    -0.776\n"
+"#            p            —    < .001    < .001    < .001\n"
 "#\n"
-"#    cyl     Pearson's r                  —     0.902     0.832\n"
-"#            p-value                      —    < .001    < .001\n"
+"#    cyl     r Pearsona                  —     0.902     0.832\n"
+"#            p                      —    < .001    < .001\n"
 "#\n"
-"#    disp    Pearson's r                            —     0.791\n"
-"#            p-value                                —    < .001\n"
+"#    disp    r Pearsona                            —     0.791\n"
+"#            p                                —    < .001\n"
 "#\n"
-"#    hp      Pearson's r                                      —\n"
-"#            p-value                                          —\n"
+"#    hp      r Pearsona                                      —\n"
+"#            p                                          —\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#"
 
@@ -3962,22 +3962,22 @@ msgstr ""
 "corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
 "\n"
 "#\n"
-"#  PARTIAL CORRELATION\n"
+"#  KORELACJA CZĄSTKOWA\n"
 "#\n"
-"#  Partial Correlation\n"
+"#  Korelacja cząstkowa\n"
 "#  ────────────────────────────────────────────────────\n"
 "#                           mpg       cyl       disp\n"
 "#  ────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r         —\n"
-"#            p-value             —\n"
+"#    mpg     r Pearsona         —\n"
+"#            p             —\n"
 "#\n"
-"#    cyl     Pearson's r    -0.590         —\n"
-"#            p-value        < .001         —\n"
+"#    cyl     r Pearsona    -0.590         —\n"
+"#            p        < .001         —\n"
 "#\n"
-"#    disp    Pearson's r    -0.606     0.719        —\n"
-"#            p-value        < .001    < .001        —\n"
+"#    disp    r Pearsona    -0.606     0.719        —\n"
+"#            p        < .001    < .001        —\n"
 "#  ────────────────────────────────────────────────────\n"
-"#    Note. controlling for 'hp'\n"
+"#    Uwaga. Zmienna kontrolowana to 'hp'\n"
 "#"
 
 #: logLinear/options.description.R.usage
@@ -4039,25 +4039,25 @@ msgstr ""
 "              list(var=\"cyl\", ref=\"4\")))\n"
 "\n"
 "#\n"
-"#  LOG-LINEAR REGRESSION\n"
+"#  ANALIZA LOG-LINIOWA\n"
 "#\n"
-"#  Model Fit Measures\n"
+"#  Miary dopasowania modelu\n"
 "#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
+"#    Model    Odchylenie    AIC     R²-McF\n"
 "#  ───────────────────────────────────────\n"
 "#        1    4.12e-10    41.4     1.000\n"
 "#  ───────────────────────────────────────\n"
 "#\n"
 "#\n"
-"#  MODEL SPECIFIC RESULTS\n"
+"#  Wyniki dla poszczególnych modeli\n"
 "#\n"
 "#  MODEL 1\n"
 "#\n"
-"#  Model Coefficients\n"
+"#  Współczynniki modelu\n"
 "#  ──────────────────────────────────────────────────────────────────\n"
-"#    Predictor          Estimate     SE          Z            p\n"
+"#    Predyktor          Oszacowanie     SE          Z            p\n"
 "#  ──────────────────────────────────────────────────────────────────\n"
-"#    Intercept          -4.71e-16        1.00    -4.71e-16    1.000\n"
+"#    Wyraz wolny          -4.71e-16        1.00    -4.71e-16    1.000\n"
 "#    gear:\n"
 "#    4 – 3                  2.079        1.06        1.961    0.050\n"
 "#    5 – 3                  0.693        1.22        0.566    0.571\n"
@@ -4125,32 +4125,32 @@ msgstr ""
 "data('mtcars')\n"
 "dat <- mtcars\n"
 "\n"
-"# frequency tables can be provided for factors\n"
+"# tabele częstości mogą zostać utworzone dla czynników\n"
 "dat$gear <- as.factor(dat$gear)\n"
 "\n"
 "descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
 "\n"
 "#\n"
-"#  DESCRIPTIVES\n"
+"#  STATYSTYKI OPISOWE\n"
 "#\n"
-"#  Descriptives\n"
+"#  Statystyki opisowe\n"
 "#  ───────────────────────────────────────────\n"
 "#               mpg     cyl     disp    gear\n"
 "#  ───────────────────────────────────────────\n"
 "#    N            32      32      32      32\n"
-"#    Missing       0       0       0       0\n"
-"#    Mean       20.1    6.19     231    3.69\n"
-"#    Median     19.2    6.00     196    4.00\n"
+"#    Braki danych       0       0       0       0\n"
+"#    Średnia       20.1    6.19     231    3.69\n"
+"#    Mediana     19.2    6.00     196    4.00\n"
 "#    Minimum    10.4    4.00    71.1       3\n"
-"#    Maximum    33.9    8.00     472       5\n"
+"#    Maksimum    33.9    8.00     472       5\n"
 "#  ───────────────────────────────────────────\n"
 "#\n"
 "#\n"
-"#  FREQUENCIES\n"
+"#  CZĘSTOŚCI\n"
 "#\n"
-"#  Frequencies of gear\n"
+"#  Częstości dla gear\n"
 "#  ────────────────────\n"
-"#    Levels    Counts\n"
+"#    Poziomy    Liczebności\n"
 "#  ────────────────────\n"
 "#    3             15\n"
 "#    4             12\n"
@@ -4158,15 +4158,15 @@ msgstr ""
 "#  ────────────────────\n"
 "#\n"
 "\n"
-"# spliting by a variable\n"
+"# podział na grupy wg zmiennej\n"
 "descriptives(formula = disp + mpg ~ cyl, dat,\n"
 "    median=F, min=F, max=F, n=F, missing=F)\n"
 "\n"
-"# providing histograms\n"
+"# utworzenie histogramów\n"
 "descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
 "    median=F, min=F, max=F, n=F, missing=F)\n"
 "\n"
-"# splitting by multiple variables\n"
+"# podział na grupy wg kilku zmiennych\n"
 "descriptives(formula = mpg ~ cyl:gear, dat,\n"
 "    median=F, min=F, max=F, missing=F)"
 
@@ -4211,9 +4211,9 @@ msgstr ""
 "       blocks = list(list('education', 'prestige', 'women')))\n"
 "\n"
 "#\n"
-"#  LINEAR REGRESSION\n"
+"#  REGRESJA LINIOWA\n"
 "#\n"
-"#  Model Fit Measures\n"
+"#  Miary dopasowania modelu\n"
 "#  ───────────────────────────\n"
 "#    Model    R        R²\n"
 "#  ───────────────────────────\n"
@@ -4221,16 +4221,16 @@ msgstr ""
 "#  ───────────────────────────\n"
 "#\n"
 "#\n"
-"#  MODEL SPECIFIC RESULTS\n"
+"#  Wyniki dla poszczególnych modeli\n"
 "#\n"
 "#  MODEL 1\n"
 "#\n"
 "#\n"
-"#  Model Coefficients\n"
+"#  Współczynniki modelu\n"
 "#  ────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE         t         p\n"
+"#    Predyktor    Oszacowanie    SE         t         p\n"
 "#  ────────────────────────────────────────────────────────\n"
-"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
+"#    Wyraz wolny      -253.8    1086.16    -0.234     0.816\n"
 "#    women           -50.9       8.56    -5.948    < .001\n"
 "#    prestige        141.4      29.91     4.729    < .001\n"
 "#    education       177.2     187.63     0.944     0.347\n"
@@ -4270,11 +4270,11 @@ msgstr ""
 "#\n"
 "#  ANCOVA\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
+"#                 Suma kwadratów    df    Średni kwadrat    F        p\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
 "#    supp                    205     1          205.4     11.4     0.001\n"
 "#    dose                   2224     1         2224.3    124.0    < .001\n"
-"#    Residuals              1023    57           17.9\n"
+"#    Reszty              1023    57           17.9\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "\n"
@@ -4319,12 +4319,12 @@ msgstr ""
 "#\n"
 "#  ANOVA\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
+"#                 Suma kwadratów    df    Średni kwadrat    F        p\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
 "#    dose                   2426     2         1213.2    92.00    < .001\n"
 "#    supp                    205     1          205.4    15.57    < .001\n"
 "#    dose:supp               108     2           54.2     4.11     0.022\n"
-"#    Residuals               712    54           13.2\n"
+"#    Reszty               712    54           13.2\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "\n"
@@ -4357,9 +4357,9 @@ msgstr ""
 "anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
 "\n"
 "#\n"
-"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
+"#  JEDNOCZYNNIKOWA ANOVA (NIEPARAMETRYCZNA)\n"
 "#\n"
-"#  Kruskal-Wallis\n"
+"#  Test Kruskala-Wallisa\n"
 "#  ───────────────────────────────\n"
 "#           χ²      df    p\n"
 "#  ───────────────────────────────\n"
@@ -4388,13 +4388,13 @@ msgstr ""
 "ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
 "\n"
 "#\n"
-"#  INDEPENDENT SAMPLES T-TEST\n"
+"#   TEST T DLA PRÓB NIEZALEŻNYCH\n"
 "#\n"
-"#  Independent Samples T-Test\n"
+"#  Test t dla prób niezależnych\n"
 "#  ────────────────────────────────────────────────────\n"
-"#                          statistic    df      p\n"
+"#                          statystyka    df      p\n"
 "#  ────────────────────────────────────────────────────\n"
-"#    len    Student's t         1.92    58.0    0.060\n"
+"#    len    t Studenta         1.92    58.0    0.060\n"
 "#  ────────────────────────────────────────────────────\n"
 "#"
 
@@ -4420,14 +4420,14 @@ msgstr ""
 "ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
 "\n"
 "#\n"
-"#  ONE SAMPLE T-TEST\n"
+"#  TEST T DLA JEDNEJ PRÓBY\n"
 "#\n"
-"#  One Sample T-Test\n"
+"#  Test t dla jednej próby\n"
 "#  ──────────────────────────────────────────────────────\n"
-"#                           statistic    df      p\n"
+"#                           statystyka    df      p\n"
 "#  ──────────────────────────────────────────────────────\n"
-"#    len     Student's t         19.1    59.0    < .001\n"
-"#    dose    Student's t         14.4    59.0    < .001\n"
+"#    len     t Studenta         19.1    59.0    < .001\n"
+"#    dose    t Studenta         14.4    59.0    < .001\n"
 "#  ──────────────────────────────────────────────────────\n"
 "#"
 
@@ -4456,9 +4456,9 @@ msgstr ""
 "anovaOneW(formula = len ~ dose, data = dat)\n"
 "\n"
 "#\n"
-"#  ONE-WAY ANOVA\n"
+"#  JEDNOCZYNNIKOWA ANOVA\n"
 "#\n"
-"#  One-Way ANOVA (Welch's)\n"
+"#  Jednoczynnikowa ANOVA (test Welcha)\n"
 "#  ────────────────────────────────────────\n"
 "#           F       df1    df2     p\n"
 "#  ────────────────────────────────────────\n"
@@ -4491,7 +4491,7 @@ msgstr "Zmienna zależna"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr "Poziom zmiennej zależnej"
+msgstr "Etykieta zmiennej zależnej"
 
 #: R/ancova.b.R
 msgid "Dependent variable must be numeric"
@@ -4540,10 +4540,10 @@ msgstr "Statystyki opisowe"
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
 msgstr ""
-"Statystyki opisowe to zbiór statystyk podsumowujących zmienne oraz "
-"wizualizacji pozwalających oceniać kształt rozkładu danych. Dobrą praktyką "
-"jest wykonanie eksploracji danych przy pomocy tych narzędzi przed "
-"przystąpieniem do wykonania dalszych analiz statystycznych."
+"Statystyki opisowe to zbiór statystyk podsumowujących zmienne. Zawarte są "
+"tutaj także wizualizacje pozwalające oceniać kształt rozkładu danych. Przed "
+"przystąpieniem do dalszych analiz statystycznych warto dokonać eksploracji "
+"danych przy pomocy tych narzędzi."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -4562,17 +4562,17 @@ msgstr "Wykresy opisowe"
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
 msgid "Descriptives plots"
-msgstr "Wykres opisowe"
+msgstr "Wykresy opisowe"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
 msgid "Descriptives Table"
-msgstr "Tabele opisowe"
+msgstr "Tabela statystyk opisowych"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr "Tabela opisowa"
+msgstr "Tabela statystyk opisowych"
 
 #: package/analyses/empty.menuGroup
 #: empty/options.menuGroup
@@ -4669,7 +4669,7 @@ msgstr "Miary rozkładu"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr "Brak równości wariancji (Welch's)"
+msgstr "Nie zakłada równości (test Welcha)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
@@ -4745,7 +4745,7 @@ msgstr "Wartości własne"
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 msgid "Eigenvalues greater than"
-msgstr "Wartości własne większe, niż"
+msgstr "Wartości własne większe niż"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4795,11 +4795,11 @@ msgstr "Oszacowanie"
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr "Oszacowanie (logarytmiczny iloraz szans)"
+msgstr "Oszacowanie (logarytm ilorazu szans)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr "Oszacowanie (logarytmiczny współczynnik częstości)"
+msgstr "Oszacowanie (logarytm współczynnika częstości)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -4833,13 +4833,13 @@ msgstr "Oszacowania"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr "Oszacowania reprezentują logarytmiczne szanse…"
+msgstr "Oszacowania reprezentują logarytm szans…"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
 msgstr ""
-"Oszacowania reprezentują logarytmiczne szanse \"{dep} = {level1}\" vs. \""
-"{dep} = {level2}\""
+"Oszacowania reprezentują logarytm szans \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -4992,7 +4992,7 @@ msgstr "Ładunki czynnikowe - wskaźniki modyfikacji"
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr "Wyniki czynnikowe"
+msgstr "Oceny czynnikowe"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
@@ -5066,7 +5066,7 @@ msgstr "Stała liczba"
 
 #: R/cfa.b.R
 msgid "fixed parameter"
-msgstr "stały parametr"
+msgstr "parametr stały"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
@@ -5125,7 +5125,7 @@ msgstr "test Games-Howell (nierówne wariancje)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr "test post-hoc Games-Howell – {dep}"
+msgstr "test post-hoc Gamesa-Howella – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
@@ -5141,7 +5141,7 @@ msgstr "Gamma"
 #: logRegBin/ui[6][1][0][0].label
 #: logRegMulti/ui[5][1][0][0].label
 msgid "General Options"
-msgstr "Opcje"
+msgstr "Opcje ogólne"
 
 #: anovaRM/options/effectSize/ges.title
 msgid "Generalised η²"
@@ -5149,7 +5149,7 @@ msgstr "Uogólnione η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
-msgstr "Wielka średnia (proste kodowanie)"
+msgstr "Średnia ogólna (proste kodowanie)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -5216,7 +5216,7 @@ msgstr "Zmienna grupująca"
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
 msgstr ""
-"Po wykluczeniu braków danych zmienna grupująca '{a}' ma mniej, niż 2 poziomy"
+"Po wykluczeniu braków danych zmienna grupująca '{a}' ma mniej niż 2 poziomy"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
@@ -5229,12 +5229,12 @@ msgstr "Zmienna grupująca '{a}' nie może być równocześnie zmienną zależn�
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is negative correlation"
-msgstr "Hₐ zmienne są skorelowane ujemnie"
+msgstr "Hₐ: zmienne są skorelowane ujemnie"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr "Hₐ zmienne są skorelowane dodatnio"
+msgstr "Hₐ: zmienne są skorelowane dodatnio"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
@@ -5257,7 +5257,7 @@ msgstr "Helmert"
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
-msgstr "Ukryj ładunki czynnikowe poniżej"
+msgstr "Ukryj ładunki poniżej"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -5284,7 +5284,7 @@ msgstr "metoda Holma"
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr "Test jednorodności wariancji (Levene'a)"
+msgstr "Test homogeniczności wariancji (Levene'a)"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
@@ -5292,7 +5292,7 @@ msgstr "Test jednorodności wariancji (Levene'a)"
 #: anovaRM/options/leveneTest.title
 #: ttestIS/options/eqv.title
 msgid "Homogeneity test"
-msgstr "Test jednorodności"
+msgstr "Test homogeniczności"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
@@ -5323,7 +5323,7 @@ msgstr "Hipoteza"
 
 #: reliability/results/items.columns.superTitle
 msgid "if item dropped"
-msgstr "przy wykluczeniu pozycji (itemu)"
+msgstr "po usunięciu danej pozycji"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5416,7 +5416,7 @@ msgstr "Pozycja '{item}' zawiera wartości nieskończone"
 #: R/anovarm.b.R
 #: R/reliability.b.R
 msgid "Item '{item}' contains only missing values"
-msgstr "Pozycja '{item}' zawiera tylko braki danych"
+msgstr "Pozycja '{item}' zawiera wyłącznie braki danych"
 
 #: R/reliability.b.R
 msgid "Item '{item}' has no variance"
@@ -5455,8 +5455,8 @@ msgstr "Pozycje testowe"
 #: R/reliability.b.R
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
 msgstr ""
-"pozycje {przedmioty} korelują negatywnie z wynikiem ogólnym i i "
-"prawdopodobnie powinny zostać odwrócone"
+"pozycje {items} korelują negatywnie z wynikiem ogólnym i i prawdopodobnie "
+"powinny zostać odwrócone"
 
 #: descriptives/options/dotType/jitter.title
 #, fuzzy
@@ -5466,11 +5466,11 @@ msgstr "Roztrzęsiony? (dodaje losowy szum)"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr "Tau B Kendalla"
+msgstr "Tau-b Kendalla"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
-msgstr "Tau-B Kendalla"
+msgstr "Tau-b Kendalla"
 
 #: contTables/results/taub.title
 msgid "Kendall's Tau-b"
@@ -5504,7 +5504,7 @@ msgstr "Kurtoza"
 
 #: descriptives/options/boxLabelOutliers.title
 msgid "Label outliers"
-msgstr "Oznaczaj wartości odstające"
+msgstr "Oznacz przypadki odstające"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -5541,14 +5541,14 @@ msgstr "Prawdopodobieństwo"
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
 msgid "Likelihood ratio"
-msgstr "Wskaźnik wiarygodności (LR)"
+msgstr "Wskaźnik wiarygodności"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
 msgid "Likelihood ratio tests"
-msgstr "Testy wskaźnika wiarygodności (LR)"
+msgstr "Testy wskaźnika wiarygodności"
 
 #: R/ancova.b.R
 msgid "linear"
@@ -5566,20 +5566,20 @@ msgstr "Regresja liniowa"
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
-"Regresja liniowa jest stosowana do badania związku pomiędzy zmienną zależną "
-"(objaśnianą) ciągłą a jedną lub wieloma ciągłymi i/lub kategorycznymi "
+"Regresja liniowa jest stosowana do badania związku pomiędzy ciągłą zmienną "
+"zależną (objaśnianą) a jedną lub kilkoma ciągłymi i/lub kategorialnymi "
 "zmiennymi objaśniającymi. Inne metody statystyczne, takie jak ANOVA i "
-"ANCOVA, są szczególnymi przypadkami regresji liniowej."
+"ANCOVA, są tak naprawdę jedynie szczególnymi przypadkami regresji liniowej."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr "Logarytmiczny iloraz szans (OR)"
+msgstr "Logarytm ilorazu szans"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
 msgid "Log odds ratio exact"
-msgstr "Dokładny logarytmiczny iloraz szans (OR)"
+msgstr "Dokładny logarytm ilorazu szans"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -5714,7 +5714,7 @@ msgstr "ω McDonalda"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr "ω McDonald's (po usunięciu pozycji)"
+msgstr "ω McDonald's (po usunięciu danej pozycji)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
@@ -5809,7 +5809,7 @@ msgstr "Średnie"
 
 #: R/anovarmnp.b.R
 msgid "Measure"
-msgstr "Miara"
+msgstr "Pomiar"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
@@ -5865,11 +5865,11 @@ msgstr "Minimum"
 
 #: R/pca.b.R
 msgid "Minimum residual"
-msgstr "Wartość minimalna reszty"
+msgstr "Minimalna reszta"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
-msgstr "Wartość minimalna reszt"
+msgstr "Minimalne reszty"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
@@ -5879,7 +5879,7 @@ msgstr "Wartość minimalna"
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr "Brakujące"
+msgstr "Braki"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
@@ -6014,7 +6014,7 @@ msgstr "Wskaźniki modyfikacji"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr "Istnieje więcej niż jedna modalna, raportowana jest pierwsza z nich"
+msgstr "Istnieje więcej niż jedna modalna, podana została pierwsza z nich"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
