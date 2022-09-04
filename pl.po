@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-03 22:22+0000\n"
+"PO-Revision-Date: 2022-09-04 17:17+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -6415,7 +6415,7 @@ msgstr "Wyjście"
 
 #: R/pca.b.R
 msgid "Overall"
-msgstr "Ogólnie"
+msgstr "Ogólne"
 
 #: R/ancova.b.R
 msgid "Overall model"
@@ -6428,7 +6428,7 @@ msgstr "Model ogólny"
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr "Ogólny test modelu"
+msgstr "Test modelu ogólnego"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -6437,7 +6437,7 @@ msgstr "Ogólny test modelu"
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr "Ogólny test modelu"
+msgstr "Test modelu ogólnego"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6580,7 +6580,7 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
-"Macierze korelacji cząstkowych są sposobem badania zależności liniowych\n"
+"Macierze korelacji cząstkowych służą do badania zależności liniowych\n"
 "pomiędzy dwiema lub kilkoma zmiennymi ciągłymi przy jednoczesnym "
 "kontrolowaniu\n"
 "innych zmiennych"
@@ -6605,23 +6605,23 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
-"Macierze korelacji cząstkowych są sposobem badania zależności liniowych\n"
+"Macierze korelacji cząstkowych służą do badania zależności liniowych\n"
 "pomiędzy dwiema lub kilkoma zmiennymi ciągłymi przy jednoczesnym "
 "kontrolowaniu\n"
-"innych zmiennych\n"
+"innych zmiennych.\n"
 "\n"
 "Wartość r Pearsona wskazuje siłę i kierunek związku\n"
-"każdej pary zmiennych. Dodatnia wartość wskazuje na\n"
+"każdej pary zmiennych. Dodatnia wartość oznacza\n"
 "związek dodatni (wraz ze wzrostem wartości jednej zmiennej\n"
 "wzrastają wartości drugiej zmiennej). Ujemna wartość\n"
-"r Pearsona wskazuje na związek ujemny (wraz ze wzrostem\n"
-"wartości jednej zmiennej spadają wartości drugiej zmiennej).\n"
+"współczynnika r Pearsona wskazuje na związek ujemny (wraz ze\n"
+"wzrostem wartości jednej zmiennej wartości drugiej zmiennej maleją).\n"
 "Wartość zero wskazuje na brak związku (wartość jednej zmiennej\n"
 "nie jest związana z wartością drugiej zmiennej).\n"
 "\n"
-"Bardziej formalnie: analiza ta umożliwia przetestowanie hipotezy zerowej,\n"
-"że wartość współczynnika korelacji wynosi zero i obliczyć wartość p.\n"
-"Niska wartość p sugeruje, że współczynnik korelacji nie jest zerowy\n"
+"Precyzyjniej: analiza ta umożliwia przetestowanie hipotezy zerowej,\n"
+"mówiącej o ty, że wartość współczynnika korelacji wynosi zero\n"
+"Niska wartość p sugeruje, że współczynnik korelacji jest niezerowy\n"
 "oraz że istnieje liniowa (lub bardziej złożona) relacja pomiędzy zmiennymi."
 
 #: anovaRM/options/effectSize/partEta.title
@@ -6695,18 +6695,17 @@ msgstr "wykonaj test U Manna-Whitneya."
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
-"wykonaj test normalności rozkładu Shapiro-Wilka. Niska wartość p sugeruje, "
-"że dane nie pochodzą z rozkładu normalnego."
+"wykonaj test normalności Shapiro-Wilka. Niska wartość p sugeruje, że dane "
+"nie pochodzą z rozkładu normalnego."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr "wykonuje ogólny test modelu."
+msgstr "wykonaj test modelu ogólnego."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
-"przeprowadź test ANOVA Fishera (tj. \"standardową\" wersję testu ANOVA)."
+msgstr "wykonaj test ANOVA Fishera (tj. \"standardową\" wersję testu ANOVA)."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
@@ -6805,7 +6804,7 @@ msgstr "Wielomian"
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr "Porównania post hoc – {term}"
+msgstr "Porównania post-hoc – {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -6818,11 +6817,11 @@ msgstr "Porównania post hoc – {term}"
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr "Testy post hoc"
+msgstr "Testy post-hoc"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr "Testy post hoc - $key"
+msgstr "Testy post-hoc - $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
@@ -6831,12 +6830,12 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr "Test post hoc"
+msgstr "Test post-hoc"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr "Testy post hoc"
+msgstr "Testy post-hoc"
 
 #: R/proptest2.b.R
 msgid "Posterior"
@@ -6868,7 +6867,7 @@ msgstr "Przewidywane prawdopodobieństwo {dep} = {level1} (vs {dep} = {level2})"
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr "Wartości przewidywane"
+msgstr "Przewidywane wartości"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
@@ -6971,27 +6970,27 @@ msgstr "Test proporcji (N wyników)"
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr "podaje miarę wielkości efektu d Cohena dla testów post hoc."
+msgstr "podaj miarę wielkości efektu d Cohena dla testów post-hoc."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
-"podaje przedziały ufności dla różnicy pomiędzy średnim oszacowaniem a "
+"podaj przedziały ufności dla różnicy pomiędzy średnim oszacowaniem a "
 "wartością testowaną."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr "tworzy wykres macierzy korelacji."
+msgstr "utwórz wykres macierzy korelacji."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr "podaje współczynnik tau-b Kendalla dla każdej kombinacji zmiennych."
+msgstr "podaj współczynnik tau-b Kendalla dla każdej kombinacji zmiennych."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr "podaje wartość p dla każdego współczynnika korelacji."
+msgstr "podaj wartość p dla każdego współczynnika korelacji."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
