@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-04 18:17+0000\n"
+"PO-Revision-Date: 2022-09-04 19:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -8090,7 +8090,7 @@ msgstr "ten Berge"
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr "Pojęcie {0}"
+msgstr "Termin {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -8100,7 +8100,7 @@ msgstr "Pojęcie {0}"
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr "Pojęcie 1"
+msgstr "Termin 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
@@ -8145,7 +8145,7 @@ msgstr "Zestaw danych \"irysy\" z R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr "Zmienna 'podziel przez' '{var}' nie zawiera żadnych danych."
+msgstr "Zmienna 'podziel według' '{var}' nie zawiera żadnych danych."
 
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
@@ -8189,10 +8189,10 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "with the addition of covariates."
 msgstr ""
 "Analiza kowariancji (ANCOVA) służy do badania związku\n"
-"pomiędzy ciągłą zmienną zależną, jedną lub kilkoma kategorycznymi\n"
+"pomiędzy ciągłą zmienną zależną, jedną lub kilkoma kategorialnymi\n"
 "zmiennymi objaśniającymi oraz jedną lub kilkoma ciągłymi zmiennymi "
 "objaśniającymi\n"
-"(kowariantami). Jest to zasadniczo taka sama analiza jak ANOVA, ale\n"
+"(kowariantami). Jest to zasadniczo ta sama analiza co ANOVA, ale\n"
 "z dodaniem zmiennych współwystępujących."
 
 #: package/analyses/anova.description
@@ -8201,7 +8201,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "explanatory variables."
 msgstr ""
 "Analiza wariancji (ANOVA) służy do badania zależności\n"
-"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorycznymi\n"
+"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorialnymi\n"
 "zmiennymi objaśniającymi."
 
 #: anova/options.description.main
@@ -8218,14 +8218,14 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "can be used."
 msgstr ""
 "Analiza wariancji (ANOVA) służy do badania zależności\n"
-"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorycznymi\n"
+"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorialnymi\n"
 "zmiennymi objaśniającymi.\n"
 "\n"
 "ANOVA zakłada, że reszty mają rozkład normalny oraz że\n"
 "wariancje wszystkich grup są równe. W przypadku braku\n"
 "jednorodności wariancji (lub jeżeli takie założenie nie jest przyjmowane)\n"
-"można zastosować test Welcha. Test ten nie wspiera jednakże więcej\n"
-"niż jednego czynnika wyjaśniającego.\n"
+"można zastosować test Welcha. Test ten nie pozwala jednakże\n"
+"na użycie więcej niż jednego czynnika wyjaśniającego.\n"
 "W przypadku braku spełnienia założenia o normalnym rozkładzie zmiennych\n"
 "(lub gdy takie założenie nie jest przyjmowane) można zastosować\n"
 "podejście nieparametryczne (np. test H Kruskala-Wallisa)."
@@ -8239,7 +8239,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
 "Analiza wariancji (ANOVA) służy do badania zależności\n"
-"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorycznymi\n"
+"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorialnymi\n"
 "zmiennymi objaśniającymi. Jednoczynnikowa ANOVA (1-ANOVA) jest\n"
 "uproszczoną wersją testu ANOVA, dopuszczającą tylko jeden czynnik\n"
 "objaśniający. Alternatywna dla testu Fishera ANOVA Welcha ma tę zaletę,\n"
@@ -8260,16 +8260,16 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "independent samples t-test."
 msgstr ""
 "Analiza wariancji (ANOVA) służy do badania zależności\n"
-"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorycznymi\n"
+"pomiędzy ciągłą zmienną zależną, a jedną lub kilkoma kategorialnymi\n"
 "zmiennymi objaśniającymi. Jednoczynnikowa ANOVA (1-ANOVA) jest\n"
 "uproszczoną wersją testu ANOVA, dopuszczającą tylko jeden czynnik\n"
 "objaśniający. Alternatywna dla testu Fishera ANOVA Welcha ma tę zaletę,\n"
 "że nie wymaga przyjęcia założenia o jednorodności wariancji w grupach.\n"
 "\n"
-"Dla wygody, metoda ta pozwala na wybranie wielu zmiennych zależnych,\n"
-"generując wiele testów niezależnych od siebie.\n"
+"Dla wygody metoda ta pozwala na wybranie wielu zmiennych zależnych,\n"
+"generując wyniki wielu niezależnych od siebie testów.\n"
 "\n"
-"Proszę zwrócić uwagę, że ANOVA Welcha jest taką samą procedurą\n"
+"Proszę zwrócić uwagę, że ANOVA Welcha jest taką samą analizą\n"
 "jak test Welcha dla dwóch prób niezależnych."
 
 #: anovaRM/options/bs.description.ui
@@ -8286,12 +8286,12 @@ msgid "The Binomial test is used to test the Null hypothesis that the proportion
 msgstr ""
 "Test dwumianowy służy do testowania hipotezy zerowej, mówiącej o tym, że "
 "proporcja obserwacji odpowiada pewnej wartości oczekiwanej. Niska wartość p "
-"sugeruje, że hipoteza zerowa jest fałszywa i że prawdziwa proporcja może być "
-"inną wartością."
+"sugeruje, że hipoteza zerowa jest fałszywa i że prawdziwa proporcja może "
+"mieć inną wartość."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr "kategoryczne zmienne wyjaśniające (niezależne)."
+msgstr "kategorialne zmienne wyjaśniające (niezależne)."
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8302,7 +8302,7 @@ msgstr "szerokość przedziału ufności dla wielkości efektu."
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr "szerokość przedziału ufności dla wielkości efektu testów post hoc."
+msgstr "szerokość przedziału ufności dla wielkości efektu testów post-hoc."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
@@ -8322,7 +8322,7 @@ msgstr "kontrasty do użycia."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr "zmienne kontrolne."
+msgstr "zmienne kontrolowane."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
