@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-04 17:17+0000\n"
+"PO-Revision-Date: 2022-09-04 18:17+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -7000,37 +7000,36 @@ msgstr "podaj r Pearsona dla każdej kombinacji zmiennych."
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
-"generuje wykres K-K reszt - wykres rzeczywistych reszt względem sytuacji, w "
-"której reszty miały rozkład idealnie normalny. Duże odchylenia od linii "
-"ukośnej sugerują, że dane nie przyjmują rozkładu normalnego."
+"wyświetl wykres K-K dla reszt - wykres rzeczywistych wartości reszt względem "
+"sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia "
+"od linii ukośnej sugerują, że dane nie przyjmują rozkładu normalnego."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "podaj współczynnik Spearmana dla każdej kombinacji zmiennych."
+msgstr "podaj współczynnik rho Spearmana dla każdej kombinacji zmiennych."
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
-msgstr "podaj tabelę statystyk opisowych dla każdej zmiennej."
+msgstr "wyświetl tabelę ze statystykami opisowymi dla każdej zmiennej."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr "przedstaw tabelę szacowanych średnich brzegowych."
+msgstr "wyświetl tabelę z oszacowanymi średnimi brzegowymi."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
-"podaje współczynniki Bayesa dla testów t-Studenta dla prób niezależnych."
+msgstr "podaj czynniki Bayesa dla testów t-Studenta dla prób niezależnych."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "podaje współczynniki Bayesa dla testów t-Studenta dla jednej próby."
+msgstr "podaj czynniki Bayesa dla testów t-Studenta dla jednej próby."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "podaje współczynniki Bayesa dla testów t-Studenta dla prób zależnych."
+msgstr "podaj czynniki Bayesa dla testów t-Studenta dla prób zależnych."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
@@ -7050,19 +7049,20 @@ msgstr "podaje przedziały ufności dla średnich różnic."
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr "podaje przedziały ufności dla wielkości efektów testów post hoc."
+msgstr "podaje przedziały ufności dla wielkości efektów testów post-hoc."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr "podaje współczynniki korelacji w wykresie macierzy korelacji."
+msgstr ""
+"wyświetla wartości współczynników korelacji w wykresie macierzy korelacji."
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
-msgstr "przedstawia wykresy opisowe dla każdej grupy."
+msgstr "wyświetla wykresy opisowe dla każdej grupy."
 
 #: ttestOneS/options/plots.description.ui
 msgid "provide descriptive plots for each variable."
-msgstr "przedstawia wykresy opisowe dla każdej zmiennej."
+msgstr "wyświetla wykresy opisowe dla każdej zmiennej."
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
@@ -7075,7 +7075,7 @@ msgstr "podaje statystyki opisowe dla każdej grupy."
 
 #: ttestIS/options/plots.description.ui
 msgid "provide descriptives plots."
-msgstr "podaje wykresy opisowe."
+msgstr "wyświetla wykresy statystyk opisowych."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
@@ -7091,15 +7091,15 @@ msgstr "podaje wielkość efektu (d Cohena)."
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
-"wykonuje test jednorodność wariancji Levene'a . Niska wartość p sugeruje, że "
-"grupy mają nierówne wariancje."
+"wykonuje test homogeniczności wariancji Levene'a . Niska wartość p sugeruje, "
+"że wariancje grup nie są równe."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
-"wykonuje testy jednorodność wariancji Levene'a. Niska wartość p sugeruje, że "
-"grupy mają nierówne wariancje."
+"wykonuje testy homogeniczności wariancji Levene'a. Niska wartość p sugeruje, "
+"że wariancje grup nie są równe."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -7108,7 +7108,7 @@ msgstr "podaje średnie różnice oraz ich błędy standardowe."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr "podaje średnie różnice z testami post hoc."
+msgstr "podaje średnie różnice wraz z testami post-hoc."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
@@ -7128,44 +7128,44 @@ msgstr "zapewnia poprawki wartości p dla sferyczności."
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
 msgid "provide plots of the estimated marginal means."
-msgstr "przedstawia wykresy szacowanych średnich brzegowych."
+msgstr "wyświetla wykresy oszacowanych średnich brzegowych."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
 msgid "provide post-hoc tests."
-msgstr "podaje testy post hoc."
+msgstr "podaje testy post-hoc."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
-"generuje wykres K-K reszt - wykres rzeczywistych reszt względem sytuacji, w "
-"której reszty miały rozkład idealnie normalny. Duże odchylenia od linii "
-"ukośnej sugerują, że dane nie pochodzą z rozkładu normalnego."
+"wyświetla wykres K-K reszt - wykres rzeczywistych wartości reszt względem "
+"sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia "
+"od linii ukośnej sugerują, że dane nie pochodzą z rozkładu normalnego."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
-"generuje wykres K-K reszt - wykres rzeczywistych reszt względem sytuacji, w "
-"której reszty miały rozkład idealnie normalny. Duże odchylenia od linii "
-"ukośnej sugerują, że reszty nie przyjmują rozkładu normalnego."
+"wyświetla wykres K-K reszt - wykres rzeczywistych wartości reszt względem "
+"sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia "
+"od linii ukośnej sugerują, że reszty nie przyjmują rozkładu normalnego."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr "podaje poziomy istotności dla testów post hoc."
+msgstr "podaje poziomy istotności dla testów post-hoc."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr "podaje testy sferyczności."
+msgstr "wykonuje testy sferyczności."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "podaje wyniki testów (wartość t i stopnie swobody) dla testów post hoc."
+msgstr "podaje wyniki testów (wartość t i stopnie swobody) dla testów post-hoc."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -7185,7 +7185,7 @@ msgstr "Pseudo-R²"
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
-msgstr "wykres K-K"
+msgstr "K-K"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -7248,7 +7248,7 @@ msgstr "quartimax"
 
 #: R/ancova.b.R
 msgid "quintic"
-msgstr "kwintyczny"
+msgstr "5-tego stopnia"
 
 #: linReg/options/r.title
 #: linReg/results/modelFit.columns.title
@@ -7296,7 +7296,7 @@ msgstr "Współczynnik korelacji rangowo-dwuseryjnej"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr "Współczynnik częstości (RR)"
+msgstr "Współczynnik częstości"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
@@ -7350,7 +7350,7 @@ msgstr "Regresja"
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
 msgid "Relative risk"
-msgstr "Ryzyko względne (RR)"
+msgstr "Ryzyko względne"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -7406,7 +7406,7 @@ msgstr "Oznacz wyniki istotne"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr "Reprezentuje wielką średnią"
+msgstr "Reprezentuje średnią ogólną"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
@@ -7429,11 +7429,11 @@ msgstr "Kowariancje reszt"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr "Kowariancje reszt – indeksy modyfikacji"
+msgstr "Kowariancje reszt – wskaźniki modyfikacji"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr "Reszty oszacowane"
+msgstr "Oszacowania reszt"
 
 #: cfa/results/resEst/resIntercept.title
 #, fuzzy
@@ -7447,7 +7447,7 @@ msgstr "Wyrazy wolne reszt"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr "Wykres reszt"
+msgstr "Wykresy reszt"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
@@ -7476,11 +7476,11 @@ msgstr "Reszty dla obserwowanej macierzy korelacji"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr "Reszty z ANOVA"
+msgstr "Reszty z testu ANOVA"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
-msgstr "Macierz korelacji obserwowanych reszt"
+msgstr "Obserwowana macierz korelacji reszt"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
@@ -7554,7 +7554,7 @@ msgstr "Wiersz"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
-msgstr "Zmienna wierszowa '{var}' zawiera mniej niż 2 poziomy"
+msgstr "Zmienna w wierszu '{var}' zawiera mniej niż 2 poziomy"
 
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
@@ -7568,11 +7568,11 @@ msgstr "wiersze"
 
 #: contTables/options/xaxis.description.R
 msgid "rows (default), or columns in bar plot X axis"
-msgstr "wiersze (domyślnie), lub kolumny na osi X wykresu słupkowego"
+msgstr "wiersze (domyślnie) lub kolumny na osi X wykresu słupkowego"
 
 #: R/conttables.b.R
 msgid "Rows compared"
-msgstr "Porównane wiersze"
+msgstr "Porównywane wiersze"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
@@ -7599,7 +7599,7 @@ msgstr "skala"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
-msgstr "Analiza skal"
+msgstr "Analiza skali"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
@@ -7760,7 +7760,7 @@ msgstr ""
 "          blocks = list(list(\"x1\", \"x2\")))\n"
 "\n"
 "#\n"
-"#  ORDINAL LOGISTIC REGRESSION\n"
+"#  PORZĄDKOWA REGRESJA LOGISTYCZNA\n"
 "#\n"
 "#  Miary dopasowania modelu\n"
 "#  ───────────────────────────────────────\n"
@@ -7797,7 +7797,7 @@ msgstr "test Shapiro-Wilka"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr "Test Shapiro-Wilk dla wielowymiarowej normalności"
+msgstr "Test Shapiro-Wilka dla wielowymiarowej normalności"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
@@ -7809,7 +7809,7 @@ msgstr "Test Shapiro-Wilka"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr "Test Shapiro-Wilk dla wielowymiarowej normalności"
+msgstr "Test Shapiro-Wilka dla wielowymiarowej normalności"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
@@ -7886,7 +7886,7 @@ msgstr "Poprawka na sferyczność"
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr "Poprawka na sferyczność"
+msgstr "Poprawki na sferyczność"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
@@ -7895,7 +7895,7 @@ msgstr "Testy sferyczności"
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr "Podziel przez"
+msgstr "Podziel według"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -8048,7 +8048,7 @@ msgstr "Suma kwadratów"
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr "Suma punktów"
+msgstr "Wynik sumaryczny"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
