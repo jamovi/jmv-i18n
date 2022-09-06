@@ -1,17 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-08 15:19+0000\n"
-"Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"hr/>\n"
-"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -31,9 +26,7 @@ msgstr "'{col}' sadrži samo jednu jedinstvenu vrijednost"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
-"'{method}' ekstrakcijska metoda korištena je u kombinaciji s '{rotation}' "
-"rotacijom"
+msgstr "'{method}' ekstrakcijska metoda korištena je u kombinaciji s '{rotation}' rotacijom"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -197,49 +190,31 @@ msgstr "`'2'` or `'3'` (default), zbroj kvadrata za korištenje"
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr ""
-"`'different'` (default), `'oneGreater'` or `'twoGreater'`, alternativna "
-"hipoteza; grupa 1 različita od grupe 2, grupa 1 veća od grupe 2 ili grupa 2 "
-"veća od grupe 1"
+msgstr "`'different'` (default), `'oneGreater'` or `'twoGreater'`, alternativna hipoteza; grupa 1 različita od grupe 2, grupa 1 veća od grupe 2 ili grupa 2 veća od grupe 1"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
-msgstr ""
-"`'different'` (default), `'oneGreater'` or `'twoGreater'`, alternativna "
-"hipoteza; mjera 2 različita od mjere 2, mjera 1 veća od mjere 2 ili mjera 2 "
-"veća od mjere 1"
+msgstr "`'different'` (default), `'oneGreater'` or `'twoGreater'`, alternativna hipoteza; mjera 2 različita od mjere 2, mjera 1 veća od mjere 2 ili mjera 2 veća od mjere 1"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
-msgstr ""
-"`'dt'` (default), `'gt'` or `'lt'`, alternativna hipoteza; različita od "
-"`testValue`, veća od `testValue`ili manja od `testValue`"
+msgstr "`'dt'` (default), `'gt'` or `'lt'`, alternativna hipoteza; različita od `testValue`, veća od `testValue`ili manja od `testValue`"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
-msgstr ""
-"`'facVar'` or `'facInd'`, kako ograničiti model, `'facVar'` fiksira "
-"varijance faktora na jedan, `'facInd'` fiksira svaki faktor na skalu "
-"njegovog prvog indikatora."
+msgstr "`'facVar'` or `'facInd'`, kako ograničiti model, `'facVar'` fiksira varijance faktora na jedan, `'facInd'` fiksira svaki faktor na skalu njegovog prvog indikatora."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr ""
-"`'listwise'` or `'fiml'`, kako rukovati vrijednostima koje nedostaju, "
-"`'listwise'` isključuje red iz svih analiza ako mu nedostaje jedan od unosa, "
-"`'fiml'` koristi punu informacijsku metodu najveće vjerodostojnosti da "
-"procijeni model."
+msgstr "`'listwise'` or `'fiml'`, kako rukovati vrijednostima koje nedostaju, `'listwise'` isključuje red iz svih analiza ako mu nedostaje jedan od unosa, `'fiml'` koristi punu informacijsku metodu najveće vjerodostojnosti da procijeni model."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr ""
-"`'means'` (default) or `'medians'`, stupci pogreške za korištenje na grafu"
+msgstr "`'means'` (default) or `'medians'`, stupci pogreške za korištenje na grafu"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
-msgstr ""
-"`'minres'` (default), `'ml'` ili `'pa'` svaki koriste \"najmanju razliku\", "
-"\"najveću vjerodostojnost\" ili \"glavnu os\" kao metodu ekstrakcije faktora"
+msgstr "`'minres'` (default), `'ml'` ili `'pa'` svaki koriste \"najmanju razliku\", \"najveću vjerodostojnost\" ili \"glavnu os\" kao metodu ekstrakcije faktora"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
@@ -802,6 +777,10 @@ msgstr ""
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
+msgstr ""
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
 
 #: descriptives/options/pc.description.R
@@ -1787,6 +1766,10 @@ msgstr ""
 msgid "an array of descriptive plots"
 msgstr ""
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr ""
@@ -1854,6 +1837,10 @@ msgstr ""
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
+msgstr ""
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
 msgstr ""
 
 #: package/datasets/Tooth Growth.description
@@ -2217,12 +2204,6 @@ msgstr "Statistika kolinearnosti"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "Stupac"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr ""
-"Stupac '{ime}' sadrži nekorištene razine (moguće jedino kada su redci sa "
-"nedostajućim vrijednostima isključeni)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -3490,12 +3471,24 @@ msgstr ""
 msgid "Dependent Variable"
 msgstr ""
 
-#: anovaRM/ui[1][1][0].label
-msgid "Dependent Variable Label"
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Dependent variable must be numeric"
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
+#: anovaRM/ui[1][1][0].label
+msgid "Dependent Variable Label"
 msgstr ""
 
 #: anovaNP/options/deps.title
@@ -3505,6 +3498,10 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
 msgstr ""
 
 #: ttestOneS/options/mann.description
@@ -3744,6 +3741,10 @@ msgstr ""
 msgid "Eigenvalues greater than"
 msgstr ""
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -3895,6 +3896,18 @@ msgstr ""
 msgid "Extraction"
 msgstr ""
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -3929,16 +3942,24 @@ msgstr ""
 msgid "Factor"
 msgstr ""
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
 
 #: jamovi/js/cfa.events.js:40
@@ -4316,7 +4337,7 @@ msgid "Hypothesis"
 msgstr ""
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
+msgid "If item dropped"
 msgstr ""
 
 #: anovaRM/options/contrasts.description.R
@@ -4433,11 +4454,8 @@ msgid "Item Statistics"
 msgstr ""
 
 #: reliability/options/itemRestCor.title
-msgid "Item-rest correlation"
-msgstr ""
-
 #: reliability/results/items.columns.title
-msgid "item-rest correlation"
+msgid "Item-rest correlation"
 msgstr ""
 
 #: reliability/options/vars.title
@@ -4512,10 +4530,6 @@ msgstr ""
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr ""
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "Razine"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -4733,15 +4747,12 @@ msgstr ""
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr ""
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
 msgstr ""
 
 #: R/anovaonew.b.R
@@ -4998,6 +5009,10 @@ msgstr ""
 msgid "More than one mode exists, only the first is reported"
 msgstr ""
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr ""
@@ -5132,6 +5147,14 @@ msgstr ""
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr ""
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr ""
@@ -5140,12 +5163,20 @@ msgstr ""
 msgid "Number of components"
 msgstr ""
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr ""
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
+msgstr ""
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
 
 #: efa/options/rotation/oblimin.title
@@ -5351,6 +5382,10 @@ msgstr ""
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
+msgstr ""
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
 msgstr ""
 
 #: ancova/ui[6][1][0][0].label
@@ -6354,7 +6389,7 @@ msgid "Residual plots"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
 
 #: R/ancova.b.R
@@ -6453,6 +6488,10 @@ msgstr "Rotacija"
 msgid "Row"
 msgstr "Red"
 
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
+
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
@@ -6550,16 +6589,13 @@ msgstr "Grafikon osipa"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
 msgstr "SD"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
-msgstr "sd"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6706,9 +6742,7 @@ msgstr "Simulacije"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr ""
-"Singularni model, jedna ili više prediktorskih varijabli su linearna "
-"kombinacija drugih prediktorskih varijabli."
+msgstr "Singularni model, jedna ili više prediktorskih varijabli su linearna kombinacija drugih prediktorskih varijabli."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -7110,6 +7144,10 @@ msgstr ""
 msgid "the categorical explanatory (or independent) variables."
 msgstr ""
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7186,11 +7224,18 @@ msgstr ""
 msgid "the data as a data frame"
 msgstr "podatci kao skup podataka"
 
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
+
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr ""
-"Zavisna varijabla '{}' ima više od dvije razine, binomna logistička "
-"regresija se može napraviti samo sa zavisnim varijablama s dvije razine."
+msgstr "Zavisna varijabla '{}' ima više od dvije razine, binomna logistička regresija se može napraviti samo sa zavisnim varijablama s dvije razine."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
@@ -7199,9 +7244,7 @@ msgstr "Zavisna varijabla '{dep}' ima sljedeći redoslijed: {orderedLevels}"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr ""
-"Zavisna varijabla \"{dep}\" ima samo dvije razine, razmislite o korištenju "
-"logističke regresije."
+msgstr "Zavisna varijabla \"{dep}\" ima samo dvije razine, razmislite o korištenju logističke regresije."
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
@@ -7210,9 +7253,7 @@ msgstr "zavisna varijabla iz `data`, varijabla mora biti numerička"
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr ""
-"zavisna varijabla iz `data`, varijabla mora biti numerička (ne nužno ako se "
-"doda i formula, pogledajte primjere)"
+msgstr "zavisna varijabla iz `data`, varijabla mora biti numerička (ne nužno ako se doda i formula, pogledajte primjere)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -7224,14 +7265,11 @@ msgstr "zavisna varijabla. Za ANOVA-u, ova će biti kontinuirana."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr ""
-"zavisne varijable--poseban t-test se provodi za svaku pojedinu zavisnu "
-"varijablu."
+msgstr "zavisne varijable--poseban t-test se provodi za svaku pojedinu zavisnu varijablu."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
-msgstr ""
-"zavisne varijable (nije nužno kada se koristi formula, pogledajte primjere)"
+msgstr "zavisne varijable (nije nužno kada se koristi formula, pogledajte primjere)"
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
@@ -7241,9 +7279,7 @@ msgstr "zavisne varijable. za ANOVA-u, ove će biti kontinuirane."
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
-"grafički prikazati linije standardne pogreške na graničnim aritmetičkim "
-"sredinama."
+msgstr "grafički prikazati linije standardne pogreške na graničnim aritmetičkim sredinama."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
@@ -7346,9 +7382,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr ""
-"Analiza varijance za ponovljena mjerenja se koristi za istraživanje "
-"povezanosti \n"
+msgstr "Analiza varijance za ponovljena mjerenja se koristi za istraživanje povezanosti \n"
 "između kontiunirane zavisne varijable i jedne ili više kategorijskih \n"
 "opisnih varijabli, gdje je jedna ili više opisnih varijabli\n"
 "\"između ispitanika\" (kada su ponovljena mjerenja dobivena na istim\n"
@@ -7369,17 +7403,11 @@ msgstr "nacrt za ponovljena mjerenja."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
-msgstr ""
-"Ponovljena mjerenja imaju samo dvije razine. Pretpostavka sfericiteta ("
-"podjednakih varijanci) je uvijek zadovoljena kada postoje samo dva "
-"ponovljena mjerenja"
+msgstr "Ponovljena mjerenja imaju samo dvije razine. Pretpostavka sfericiteta (podjednakih varijanci) je uvijek zadovoljena kada postoje samo dva ponovljena mjerenja"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr ""
-"Ponovljena mjerenja imaju samo dvije razine. Pretpostavka sfericiteta ("
-"podjednakih varijanci) je uvijek zadovoljena kada postoje samo dva "
-"ponovljena mjerenja."
+msgstr "Ponovljena mjerenja imaju samo dvije razine. Pretpostavka sfericiteta (podjednakih varijanci) je uvijek zadovoljena kada postoje samo dva ponovljena mjerenja."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
@@ -7394,12 +7422,9 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr ""
-"Studentov t-test za nezavisna mjerenja (nekad nazivan i t-testom\n"
-"za dva uzorka) koristi se za testiranje ništične hipoteze da obje skupine "
-"imaju \n"
-"jednaku aritmetičku sredinu. NIska p-vrijednost sugerira da ništična "
-"hipoteza nije točna\n"
+msgstr "Studentov t-test za nezavisna mjerenja (nekad nazivan i t-testom\n"
+"za dva uzorka) koristi se za testiranje ništične hipoteze da obje skupine imaju \n"
+"jednaku aritmetičku sredinu. NIska p-vrijednost sugerira da ništična hipoteza nije točna\n"
 "i da su aritmetičke sredine grupa različite."
 
 #: ttestIS/options.description.main
@@ -7719,11 +7744,16 @@ msgstr ""
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr ""
 
 #: mancova/results/multivar.columns.title
 msgid "value"
+msgstr ""
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
 msgstr ""
 
 #: propTest2/options/areCounts.title
@@ -7893,9 +7923,7 @@ msgstr "Y-os"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
-msgstr ""
-"ybrojevi (zadano) or ypostotci. Koristite `brojevi` or `postotci` za y-os "
-"stupčastog grafa"
+msgstr "ybrojevi (zadano) or ypostotci. Koristite `brojevi` or `postotci` za y-os stupčastog grafa"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title

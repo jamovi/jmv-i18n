@@ -1,17 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-01 10:16+0000\n"
-"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -260,10 +255,7 @@ msgstr "`'perAnalysis'` или `'listwise'`, как обрабатывать п�
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr ""
-"`'refLevel'` (по умолчанию) или `'grandMean'`, кодирование константы. Либо "
-"создает контраст, так что точка пересечения представляет собой контрольный "
-"уровень или общее среднее значение"
+msgstr "`'refLevel'` (по умолчанию) или `'grandMean'`, кодирование константы. Либо создает контраст, так что точка пересечения представляет собой контрольный уровень или общее среднее значение"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
@@ -301,9 +293,7 @@ msgstr "`Пропорции - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-"`TRUE` (по умолчанию) или `FALSE`, добавляет метки с номером строки к "
-"выбросам на коробчатой диаграмме"
+msgstr "`TRUE` (по умолчанию) или `FALSE`, добавляет метки с номером строки к выбросам на коробчатой диаграмме"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -328,9 +318,7 @@ msgstr "`TRUE` (по умолчанию) или `FALSE`, представляе�
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr ""
-"`TRUE` (по умолчанию) или `FALSE`, представляет доверительный интервал для "
-"взвешенных предельных средних значений"
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет доверительный интервал для взвешенных предельных средних значений"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -351,9 +339,7 @@ msgstr "`TRUE` (по умолчанию) или `FALSE`, представляе�
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr ""
-"`TRUE` (по умолчанию) или `FALSE`, представляет графики взвешенных "
-"предельных средних"
+msgstr "`TRUE` (по умолчанию) или `FALSE`, представляет графики взвешенных предельных средних"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
@@ -728,9 +714,7 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), представляе�
 #: logRegBin/options/emmTables.description.R
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr ""
-"`TRUE` или `FALSE` (по умолчанию), предоставляет таблицы взвешенных "
-"предельных средних значений"
+msgstr "`TRUE` или `FALSE` (по умолчанию), предоставляет таблицы взвешенных предельных средних значений"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
@@ -738,8 +722,7 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), предоставля�
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr ""
-"`TRUE` или `FALSE` (по умолчанию), предоставляют оценки для констант остатков"
+msgstr "`TRUE` или `FALSE` (по умолчанию), предоставляют оценки для констант остатков"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
@@ -795,6 +778,10 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), представляе�
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "`TRUE` или `FALSE` (по умолчанию), представляет индексы модификации для параметров, не включенных в модель"
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -939,9 +926,7 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), представляе�
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr ""
-"`TRUE` или `FALSE` (по умолчанию), предоставьте комплексный дисперсионный "
-"анализ для предикторов"
+msgstr "`TRUE` или `FALSE` (по умолчанию), предоставьте комплексный дисперсионный анализ для предикторов"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
@@ -1174,9 +1159,7 @@ msgstr "формула, содержащая термы для оценки пр
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
-msgstr ""
-"формула, содержащая термы для взвешивания предельных средних, поддерживает "
-"до трех переменных на терм"
+msgstr "формула, содержащая термы для взвешивания предельных средних, поддерживает до трех переменных на терм"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
@@ -1231,19 +1214,14 @@ msgstr "список списков, определяющих пары изме�
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
-"список списков, определяющих остаточные ковариации, которые необходимо "
-"оценить"
+msgstr "список списков, определяющих остаточные ковариации, которые необходимо оценить"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
 #: logRegBin/options/emMeans.description.R
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
-msgstr ""
-"список списков, определяющих переменные, для которых необходимо рассчитать "
-"взвешенные предельные средние значения. Поддерживает до трех переменных на "
-"терм."
+msgstr "список списков, определяющих переменные, для которых необходимо рассчитать взвешенные предельные средние значения. Поддерживает до трех переменных на терм."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
@@ -1334,9 +1312,7 @@ msgstr "число от 50 до 99,9 (по умолчанию: 95), указыв
 #: logRegBin/options/ciWidthEmm.description.R
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
-msgstr ""
-"число от 50 до 99,9 (по умолчанию: 95), указывающее ширину доверительного "
-"интервала для взвешенных предельных средних"
+msgstr "число от 50 до 99,9 (по умолчанию: 95), указывающее ширину доверительного интервала для взвешенных предельных средних"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
@@ -1790,6 +1766,10 @@ msgstr "массив таблиц контрастов"
 msgid "an array of descriptive plots"
 msgstr "массив описательных графиков"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "массив частотных таблиц"
@@ -1858,6 +1838,10 @@ msgstr "целое число (по умолчанию: 1), количество
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "целое число (по умолчанию: 4), определяющее количество равных групп"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2220,10 +2204,6 @@ msgstr "Статистики коллинеарности"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "Столбец"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "Столбец '{name}' содержит неиспользуемые уровни (возможно только при исключении строк с отсутствующими значениями)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -3169,8 +3149,7 @@ msgid "data('bugs', package = 'jmv')\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#    Note. Type 3 Sums of Squares\n"
 "#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
+msgstr "data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRM(\n"
 "    data = bugs,\n"
@@ -3226,8 +3205,7 @@ msgid "data('bugs', package = 'jmv')\n"
 "#    55.8     3    < .001\n"
 "#  ────────────────────────\n"
 "#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
+msgstr "data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
 "\n"
@@ -3415,11 +3393,9 @@ msgid "data('iris')\n"
 "#  ────────────────────────────────────────────────\n"
 "#    Note. 'oblimin' rotation was used\n"
 "#"
-msgstr ""
-"data('iris')\n"
+msgstr "data('iris')\n"
 "\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))"
-"\n"
+"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
 "\n"
 "#\n"
 "#  РАЗВЕДОЧНЫЙ ФАКТОРНЫЙ АНАЛИЗ\n"
@@ -3997,8 +3973,7 @@ msgid "data('ToothGrowth')\n"
 "    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
 "\n"
@@ -4019,8 +3994,7 @@ msgstr ""
 "ANOVA(\n"
 "    formula = len ~ dose * supp,\n"
 "    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:"
-"supp\n"
+"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
 
@@ -4039,8 +4013,7 @@ msgid "data('ToothGrowth')\n"
 "#    len    40.7     2    < .001\n"
 "#  ───────────────────────────────\n"
 "#"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
 "\n"
@@ -4174,13 +4147,25 @@ msgstr "Зависимый"
 msgid "Dependent Variable"
 msgstr "Зависимая переменная"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "Метка зависимой переменной"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "Зависимая переменная должна быть числовой"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4190,6 +4175,10 @@ msgstr "Зависимая переменная должна быть число
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "Зависимые переменные"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4428,6 +4417,10 @@ msgstr "Собственные значения"
 msgid "Eigenvalues greater than"
 msgstr "Собственные значения больше, чем"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4518,9 +4511,7 @@ msgstr "Веса представляют собой логарифмическ�
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr ""
-"Веса представляют собой логарифмические шансы \"{dep} = {level1}\" по "
-"сравнению с \"{dep} = {level2}\""
+msgstr "Веса представляют собой логарифмические шансы \"{dep} = {level1}\" по сравнению с \"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -4581,6 +4572,18 @@ msgstr "Разведочный факторный анализ"
 msgid "Extraction"
 msgstr "Извлечение"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4615,17 +4618,25 @@ msgstr "F-статистика не может быть рассчитана"
 msgid "Factor"
 msgstr "Фактор"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Фактор '{factor}' должен иметь как минимум 2 уровня"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "Фактор '{factorName}' не содержит данных"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "Фактор '{factorName}' содержит только один уровень"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5002,8 +5013,8 @@ msgid "Hypothesis"
 msgstr "Гипотеза"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "если элемент выпал"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5119,12 +5130,9 @@ msgid "Item Statistics"
 msgstr "Статистики элемента"
 
 #: reliability/options/itemRestCor.title
+#: reliability/results/items.columns.title
 msgid "Item-rest correlation"
 msgstr "Корреляция элемент-остаток"
-
-#: reliability/results/items.columns.title
-msgid "item-rest correlation"
-msgstr "корреляция элемента и остатка"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -5199,10 +5207,6 @@ msgstr "Уровень 1"
 msgid "Level 2"
 msgstr "Уровень 2"
 
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "Уровни"
-
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr "Критерий Левена значим (p < 0,05), что свидетельствует о нарушении предположения о равных дисперсиях"
@@ -5238,12 +5242,7 @@ msgstr "Линейная регрессия"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr ""
-"Линейная регрессия используется для изучения взаимосвязи между непрерывной "
-"зависимой переменной и одной или несколькими непрерывными и/или "
-"категориальными независимыми переменными. Другие статистические методы, "
-"такие как дисперсионный и ковариационный анализы, на самом деле являются "
-"просто формами линейной регрессии."
+msgstr "Линейная регрессия используется для изучения взаимосвязи между непрерывной зависимой переменной и одной или несколькими непрерывными и/или категориальными независимыми переменными. Другие статистические методы, такие как дисперсионный и ковариационный анализы, на самом деле являются просто формами линейной регрессии."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -5424,16 +5423,13 @@ msgstr "Тест Макнемара"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
 msgstr "Среднее"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
-msgstr "среднее"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -5689,6 +5685,10 @@ msgstr "Индексы модификации"
 msgid "More than one mode exists, only the first is reported"
 msgstr "Существует более одной моды, сообщается только о первой"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MSA"
@@ -5823,6 +5823,14 @@ msgstr "Тест на нормальность"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Тест на нормальность (Шапиро-Уилк)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "Количество компонент"
@@ -5831,6 +5839,10 @@ msgstr "Количество компонент"
 msgid "Number of components"
 msgstr "Количество компонент"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "Количество факторов"
@@ -5838,6 +5850,10 @@ msgstr "Количество факторов"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "Количество факторов"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -5947,10 +5963,7 @@ msgstr "Не удалось оценить один или несколько к
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
-msgstr ""
-"один или несколько из `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'` или "
-"`'bic'`; используйте CFI, TLI, SRMR, RMSEA + 90% доверительный интервал, "
-"скорректированные показатели соответствия модели AIC и BIC соответственно"
+msgstr "один или несколько из `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'` или `'bic'`; используйте CFI, TLI, SRMR, RMSEA + 90% доверительный интервал, скорректированные показатели соответствия модели AIC и BIC соответственно"
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
@@ -6046,6 +6059,10 @@ msgstr "Порядковая логистическая регрессия"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "Порядковые исходы"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -6338,9 +6355,7 @@ msgstr "провести общий тест модели."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
-"выполнить дисперсионный анализ Фишера (или то, что можно было бы назвать "
-"'нормальным')."
+msgstr "выполнить дисперсионный анализ Фишера (или то, что можно было бы назвать 'нормальным')."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
@@ -7063,8 +7078,8 @@ msgid "Residual plots"
 msgstr "Графики остатков"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "Остаточная сумма квадратов и/или степеней свободы равна нулю, что указывает на идеальное соответствие"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7161,6 +7176,10 @@ msgstr "Вращение"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "Строка"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7259,16 +7278,13 @@ msgstr "График каменистой осыпи"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
 msgstr "SD"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
-msgstr "sd"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7838,15 +7854,11 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr ""
-"Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
-"между непрерывной зависимой переменной и одной или несколькими "
-"категориальными\n"
-"объясняющими переменными. Этот 'однофакторный ANOVA' является упрощенной "
-"версией\n"
+msgstr "Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими категориальными\n"
+"объясняющими переменными. Этот 'однофакторный ANOVA' является упрощенной версией\n"
 "нормального ANOVA, допускающего только один объясняющий фактор, однако\n"
-"также обеспечивает Welch's ANOVA. Преимущество ANOVA Уэлча состоит в том, "
-"что\n"
+"также обеспечивает Welch's ANOVA. Преимущество ANOVA Уэлча состоит в том, что\n"
 "не нужно предполагать, что дисперсии всех групп равны."
 
 #: anovaOneW/options.description.main
@@ -7862,15 +7874,11 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr ""
-"Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
-"между непрерывной зависимой переменной и одной или несколькими "
-"категориальными\n"
-"объясняющими переменными. Этот 'однофакторный ANOVA' является упрощенной "
-"версией\n"
+msgstr "Дисперсионный анализ (ANOVA) используется для изучения взаимосвязи\n"
+"между непрерывной зависимой переменной и одной или несколькими категориальными\n"
+"объясняющими переменными. Этот 'однофакторный ANOVA' является упрощенной версией\n"
 "нормального ANOVA, допускающего только один объясняющий фактор, однако\n"
-"также обеспечивает Welch's ANOVA. Преимущество ANOVA Уэлча состоит в том, "
-"что\n"
+"также обеспечивает Welch's ANOVA. Преимущество ANOVA Уэлча состоит в том, что\n"
 "не нужно предполагать, что дисперсии всех групп равны.\n"
 "\n"
 "Для удобства этот метод позволяет указать несколько зависимых\n"
@@ -7895,6 +7903,10 @@ msgstr "Биномиальный тест используется для про
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
 msgstr "категориальные объясняющие (или независимые) переменные."
+
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -7972,6 +7984,15 @@ msgstr "Значение отсечки установлено на {}"
 msgid "the data as a data frame"
 msgstr "данные в формате фрейма"
 
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
+
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr "Зависимая переменная '{}' имеет более двух уровней; биномиальная логистическая регрессия может быть выполнена только для зависимых переменных с двумя уровнями."
@@ -8035,8 +8056,7 @@ msgstr "объясняющая или независимая переменна�
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr ""
-"объясняющие или независимые переменные. Для ANOVA они будут категориальными."
+msgstr "объясняющие или независимые переменные. Для ANOVA они будут категориальными."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
@@ -8269,9 +8289,7 @@ msgstr "Парный выборочный t-тест Стьюдента (ино�
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr ""
-"термы для предоставления взвешенных предельных средних. Здесь вы можете "
-"указать несколько термов."
+msgstr "термы для предоставления взвешенных предельных средних. Здесь вы можете указать несколько термов."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
@@ -8525,12 +8543,17 @@ msgstr "верхняя граница"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "Значение"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "значение"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

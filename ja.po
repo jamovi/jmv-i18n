@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-24 13:56+0000\n"
-"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ja/>\n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -297,8 +293,7 @@ msgstr "`比率 - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr "箱ひげ図の外れ値にそのデータの行番号ラベルを追加するかどうかについて、`TRUE`"
-"（初期値）または`FALSE`で指定します"
+msgstr "箱ひげ図の外れ値にそのデータの行番号ラベルを追加するかどうかについて、`TRUE`（初期値）または`FALSE`で指定します"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -783,6 +778,10 @@ msgstr "平均値と標準誤差を算出するかどうかを`TRUE`または`FA
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "モデルに含まれるパラメタの修正指標を算出するかどうかを`TRUE`または`FALSE`（初期値）で指定します"
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1767,6 +1766,10 @@ msgstr "対比結果の表の配列です"
 msgid "an array of descriptive plots"
 msgstr "記述統計量グラフの配列です"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "度数分布表の配列です"
@@ -1835,6 +1838,10 @@ msgstr "抽出する因子の数を整数値（初期値：1）で指定しま�
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "分割数を整数値（初期値：4）で指定します"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2197,10 +2204,6 @@ msgstr "共線性統計量"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "列"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "「{name}」列に未使用の水準が含まれています（これは欠損値のある行が除外された場合に起こり得ます）"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4144,13 +4147,25 @@ msgstr "従属変数"
 msgid "Dependent Variable"
 msgstr "従属変数"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "従属変数ラベル"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "従属変数は数値型でなければなりません"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4160,6 +4175,10 @@ msgstr "従属変数は数値型でなければなりません"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "従属変数"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4398,6 +4417,10 @@ msgstr "固有値"
 msgid "Eigenvalues greater than"
 msgstr "固有値の最小基準値"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4549,6 +4572,18 @@ msgstr "探索的因子分析"
 msgid "Extraction"
 msgstr "抽出法"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4583,17 +4618,25 @@ msgstr "F統計量を計算できません"
 msgid "Factor"
 msgstr "因子分析"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "因子 {factor} の値は2水準以上でなければなりません"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "「{factorName}」要因にデータがありません"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "「{factorName}」要因に1水準しか含まれていません"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4970,8 +5013,8 @@ msgid "Hypothesis"
 msgstr "仮説"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "項目除外時の値"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5087,11 +5130,8 @@ msgid "Item Statistics"
 msgstr "項目統計量"
 
 #: reliability/options/itemRestCor.title
-msgid "Item-rest correlation"
-msgstr "I-R相関"
-
 #: reliability/results/items.columns.title
-msgid "item-rest correlation"
+msgid "Item-rest correlation"
 msgstr "I-R相関"
 
 #: reliability/options/vars.title
@@ -5166,10 +5206,6 @@ msgstr "水準 1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "水準 2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "水準"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -5388,15 +5424,12 @@ msgstr "マクニマー検定"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr "平均値"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
 msgstr "平均値"
 
 #: R/anovaonew.b.R
@@ -5653,6 +5686,10 @@ msgstr "修正指数"
 msgid "More than one mode exists, only the first is reported"
 msgstr "最頻値が複数存在しますが、ここでは最初の値のみ報告されています"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MSA"
@@ -5787,6 +5824,14 @@ msgstr "正規性検定"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "正規性検定（シャピロ=ウィルク）"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "主成分数"
@@ -5795,6 +5840,10 @@ msgstr "主成分数"
 msgid "Number of components"
 msgstr "主成分数"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "因子数"
@@ -5802,6 +5851,10 @@ msgstr "因子数"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "因子数"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6007,6 +6060,10 @@ msgstr "順序ロジスティック回帰"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "順序目的変数"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7022,8 +7079,8 @@ msgid "Residual plots"
 msgstr "残差プロット"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "残差2乗和と自由度のいずれかまたは両方が0です。これは完全な一致を意味します"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7120,6 +7177,10 @@ msgstr "回転法"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "行"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7218,15 +7279,12 @@ msgstr "スクリープロット"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "標準偏差"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
 msgstr "標準偏差"
 
 #: R/ancova.b.R
@@ -7841,6 +7899,10 @@ msgstr "2項検定は、観察された比率が期待値に一致するとい�
 msgid "the categorical explanatory (or independent) variables."
 msgstr "離散型の説明変数（独立変数）です。"
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7916,6 +7978,15 @@ msgstr "カットオフ値 = {}"
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "データフレームのデータ"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8462,12 +8533,17 @@ msgstr "上限"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "値"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "値"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

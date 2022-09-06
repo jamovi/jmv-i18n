@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-29 08:18+0000\n"
-"Last-Translator: Abari Kálmán <abari.kalman@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/hu/>\n"
-"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -781,6 +777,10 @@ msgstr ""
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
+msgstr ""
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
 
 #: descriptives/options/pc.description.R
@@ -1766,6 +1766,10 @@ msgstr ""
 msgid "an array of descriptive plots"
 msgstr ""
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr ""
@@ -1833,6 +1837,10 @@ msgstr ""
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
+msgstr ""
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
 msgstr ""
 
 #: package/datasets/Tooth Growth.description
@@ -2195,10 +2203,6 @@ msgstr ""
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
-msgstr ""
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
 msgstr ""
 
 #: R/conttables.b.R
@@ -3467,12 +3471,24 @@ msgstr ""
 msgid "Dependent Variable"
 msgstr ""
 
-#: anovaRM/ui[1][1][0].label
-msgid "Dependent Variable Label"
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Dependent variable must be numeric"
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
+#: anovaRM/ui[1][1][0].label
+msgid "Dependent Variable Label"
 msgstr ""
 
 #: anovaNP/options/deps.title
@@ -3482,6 +3498,10 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
 msgstr ""
 
 #: ttestOneS/options/mann.description
@@ -3721,6 +3741,10 @@ msgstr ""
 msgid "Eigenvalues greater than"
 msgstr ""
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -3872,6 +3896,18 @@ msgstr ""
 msgid "Extraction"
 msgstr ""
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -3906,16 +3942,24 @@ msgstr ""
 msgid "Factor"
 msgstr ""
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
 
 #: jamovi/js/cfa.events.js:40
@@ -4293,7 +4337,7 @@ msgid "Hypothesis"
 msgstr ""
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
+msgid "If item dropped"
 msgstr ""
 
 #: anovaRM/options/contrasts.description.R
@@ -4410,11 +4454,8 @@ msgid "Item Statistics"
 msgstr ""
 
 #: reliability/options/itemRestCor.title
-msgid "Item-rest correlation"
-msgstr ""
-
 #: reliability/results/items.columns.title
-msgid "item-rest correlation"
+msgid "Item-rest correlation"
 msgstr ""
 
 #: reliability/options/vars.title
@@ -4488,10 +4529,6 @@ msgstr ""
 
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
-msgstr ""
-
-#: R/descriptives.b.R
-msgid "Levels"
 msgstr ""
 
 #: R/ttestis.b.R
@@ -4710,15 +4747,12 @@ msgstr ""
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr ""
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
 msgstr ""
 
 #: R/anovaonew.b.R
@@ -4975,6 +5009,10 @@ msgstr ""
 msgid "More than one mode exists, only the first is reported"
 msgstr ""
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr ""
@@ -5109,6 +5147,14 @@ msgstr ""
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr ""
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr ""
@@ -5117,12 +5163,20 @@ msgstr ""
 msgid "Number of components"
 msgstr ""
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr ""
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
+msgstr ""
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
 
 #: efa/options/rotation/oblimin.title
@@ -5328,6 +5382,10 @@ msgstr ""
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
+msgstr ""
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
 msgstr ""
 
 #: ancova/ui[6][1][0][0].label
@@ -6331,7 +6389,7 @@ msgid "Residual plots"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
 
 #: R/ancova.b.R
@@ -6428,6 +6486,10 @@ msgstr ""
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
 msgstr ""
 
 #: R/conttables.b.R
@@ -6527,15 +6589,12 @@ msgstr ""
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr ""
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
 msgstr ""
 
 #: R/ancova.b.R
@@ -7085,6 +7144,10 @@ msgstr ""
 msgid "the categorical explanatory (or independent) variables."
 msgstr ""
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7159,6 +7222,15 @@ msgstr ""
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
+msgstr ""
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
 
 #: R/logregbin.b.R
@@ -7656,11 +7728,16 @@ msgstr ""
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr ""
 
 #: mancova/results/multivar.columns.title
 msgid "value"
+msgstr ""
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
 msgstr ""
 
 #: propTest2/options/areCounts.title

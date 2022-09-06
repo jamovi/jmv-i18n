@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-08 13:11+0000\n"
-"Last-Translator: jpmaroco <jpmaroco@gmail.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/pt/>\n"
-"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: pt\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -224,30 +220,19 @@ msgstr "`'minres'` (padrão),`' ml'`, ou `'pa'` usam respetivamente 'resíduo m�
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
-msgstr ""
-"`'none'`, `' ci'` (padrão) ou `'se'`. Não use barras de erro, use intervalos "
-"de confiança ou use erros-padrão nos gráficos de médias marginais, "
-"respetivamente"
+msgstr "`'none'`, `' ci'` (padrão) ou `'se'`. Não use barras de erro, use intervalos de confiança ou use erros-padrão nos gráficos de médias marginais, respetivamente"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr ""
-"`'none'`, `' gamesHowell'` ou `'tukey'`, que testes post-hoc fornecer; "
-"`'none'` não faz testes post-hoc,`' gamesHowell'` mostra o teste post-hoc de "
-"Games-Howell onde não se assume igualdade de variâncias, e `'tukey'` mostra "
-"o teste post-hoc de Tukey onde se assume igualdade de variâncias"
+msgstr "`'none'`, `' gamesHowell'` ou `'tukey'`, que testes post-hoc fornecer; `'none'` não faz testes post-hoc,`' gamesHowell'` mostra o teste post-hoc de Games-Howell onde não se assume igualdade de variâncias, e `'tukey'` mostra o teste post-hoc de Tukey onde se assume igualdade de variâncias"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"`'none'`, `' varimax'` (padrão), `'quartimax'`, `' promax'`, `'oblimin'`, ou`"
-"' simplimax'`, a rotação a ser usada na estimação"
+msgstr "`'none'`, `' varimax'` (padrão), `'quartimax'`, `' promax'`, `'oblimin'`, ou`' simplimax'`, a rotação a ser usada na estimação"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"`'none'`, `' varimax'`, `'quartimax'`, `' promax'`, `'oblimin'` (padrão), ou`"
-"' simplimax'`, a rotação a ser usada na estimação"
+msgstr "`'none'`, `' varimax'`, `'quartimax'`, `' promax'`, `'oblimin'` (padrão), ou`' simplimax'`, a rotação a ser usada na estimação"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
@@ -256,27 +241,17 @@ msgstr "`'notequal'` (padrão), `' greater'` ou `'less'`, a hipótese alternativ
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr ""
-"`'parallel'` (padrão), `' eigen'` ou `'fixed'`, a forma de determinar o "
-"número de fatores"
+msgstr "`'parallel'` (padrão), `' eigen'` ou `'fixed'`, a forma de determinar o número de fatores"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr ""
-"`'perAnalysis'` ou `' listwise'`, como lidar com valores omissos; "
-"`'perAnalysis'` exclui valores omissos em variáveis dependentes individuais, "
-"`' listwise'` exclui uma linha de todas as análises se uma das suas entradas "
-"for omissa"
+msgstr "`'perAnalysis'` ou `' listwise'`, como lidar com valores omissos; `'perAnalysis'` exclui valores omissos em variáveis dependentes individuais, `' listwise'` exclui uma linha de todas as análises se uma das suas entradas for omissa"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr ""
-"`'perAnalysis'` ou `' listwise'`, como lidar com valores omissos; "
-"`'perAnalysis'` exclui valores omissos em variáveis dependentes individuais, "
-"`' listwise'` exclui uma linha de todas as análises se uma das suas entradas "
-"for omissa."
+msgstr "`'perAnalysis'` ou `' listwise'`, como lidar com valores omissos; `'perAnalysis'` exclui valores omissos em variáveis dependentes individuais, `' listwise'` exclui uma linha de todas as análises se uma das suas entradas for omissa."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
@@ -288,11 +263,7 @@ msgstr "`'rows'` ou`' columns'` (padrão), exibe as variáveis nas linhas ou nas
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
-msgstr ""
-"`'Thurstone'` (padrão), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, ou "
-"`'Harman'` usam respetivamente os métodos de 'Thurstone', 'Bartlett', 'ten "
-"Berge', 'Anderson & Rubin', ou 'Harman' para estimação das pontuações "
-"fatoriais"
+msgstr "`'Thurstone'` (padrão), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, ou `'Harman'` usam respetivamente os métodos de 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', ou 'Harman' para estimação das pontuações fatoriais"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -322,9 +293,7 @@ msgstr "`Proporções - $ {var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-"`TRUE` (padrão) ou `FALSE`, adiciona etiquetas com o número da linha aos "
-"valores outliers no diagrama de extremos e quartis"
+msgstr "`TRUE` (padrão) ou `FALSE`, adiciona etiquetas com o número da linha aos valores outliers no diagrama de extremos e quartis"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -809,6 +778,10 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece médias e erros-padrão"
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "`TRUE` ou` FALSE` (padrão), fornece índices de modificação para os parâmetros não incluídos no modelo"
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1416,23 +1389,17 @@ msgstr "um código (padrão: 'Dependente') descrevendo o rótulo usado para a va
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr ""
-"um código que nomeia uma variável em `data` contendo contagens, ou NULL se "
-"cada linha representar uma única observação"
+msgstr "um código que nomeia uma variável em `data` contendo contagens, ou NULL se cada linha representar uma única observação"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr ""
-"um código nomeando a variável dependente de `data`, a variável deve ser um "
-"fator"
+msgstr "um código nomeando a variável dependente de `data`, a variável deve ser um fator"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr ""
-"um código nomeando a variável dependente de `data`, a variável deve ser "
-"numérica"
+msgstr "um código nomeando a variável dependente de `data`, a variável deve ser numérica"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
@@ -1799,6 +1766,10 @@ msgstr "uma série de tabelas de contrastes"
 msgid "an array of descriptive plots"
 msgstr "uma série de gráficos descritivos"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "uma série de tabelas de frequência"
@@ -1867,6 +1838,10 @@ msgstr "um inteiro (padrão: 1), o número de fatores no modelo"
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "um inteiro (padrão: 4) especifica o número de grupos iguais"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2229,10 +2204,6 @@ msgstr "Estatísticas de Colinearidade"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "Coluna"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "A coluna '{name}' contém níveis não usados (possivelmente quando as linhas só com valores omissos foram excluídas)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4162,13 +4133,25 @@ msgstr "Dependente"
 msgid "Dependent Variable"
 msgstr "Variável dependente"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "Etiqueta da variável dependente"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "A variável dependente tem de ser numérica"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4178,6 +4161,10 @@ msgstr "A variável dependente tem de ser numérica"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "Variáveis dependentes"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4416,6 +4403,10 @@ msgstr "Valores próprios"
 msgid "Eigenvalues greater than"
 msgstr "Valores próprios superiores a"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4567,6 +4558,18 @@ msgstr "Análise Fatorial Exploratória"
 msgid "Extraction"
 msgstr "Extração"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4601,17 +4604,25 @@ msgstr "A estatística F não pode ser calculada"
 msgid "Factor"
 msgstr "Fator"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "O Fator '{factorName}' tem de ter pelo menos dois níveis"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "O Fator '{factorName}' não tem dados"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "O Fator '{factorName}' só tem um nivel"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4988,8 +4999,8 @@ msgid "Hypothesis"
 msgstr "Hipóteses"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "se o item for eliminado"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5105,12 +5116,9 @@ msgid "Item Statistics"
 msgstr "Estatísticas do Item"
 
 #: reliability/options/itemRestCor.title
+#: reliability/results/items.columns.title
 msgid "Item-rest correlation"
 msgstr "Correlação item-total"
-
-#: reliability/results/items.columns.title
-msgid "item-rest correlation"
-msgstr "correlação item-total"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -5184,10 +5192,6 @@ msgstr "Nível 1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "Nível 2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "Níveis"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -5405,16 +5409,13 @@ msgstr "Teste de McNemar"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
 msgstr "Média"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
-msgstr "média"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -5670,6 +5671,10 @@ msgstr "Índices de Modificação"
 msgid "More than one mode exists, only the first is reported"
 msgstr "Existe mais de uma moda, apenas a primeira é apresentada"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MAA"
@@ -5804,6 +5809,14 @@ msgstr "Teste à Normalidade"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Teste à Normalidade (Shapiro-Wilk)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "Número de Componentes"
@@ -5812,6 +5825,10 @@ msgstr "Número de Componentes"
 msgid "Number of components"
 msgstr "Número de componentes"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "Número de fatores"
@@ -5819,6 +5836,10 @@ msgstr "Número de fatores"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "Número de fatores"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6024,6 +6045,10 @@ msgstr "Regressão Logística Ordinal"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "Categorias ordinais"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7045,8 +7070,8 @@ msgid "Residual plots"
 msgstr "Gráficos de Resíduos"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "A Soma de Quadrados dos Resíduos e/ou os graus de liberdade são 0, indicado um ajustamento perfeito"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7143,6 +7168,10 @@ msgstr "Rotação"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "Linha"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7241,16 +7270,13 @@ msgstr "Gráfico de Sedimentos (Scree plot)"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
 msgstr "Desvio-padrão"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
-msgstr "sd"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7872,6 +7898,10 @@ msgstr "O teste Binomial é utilizado para testar a hipótese nula de que a prop
 msgid "the categorical explanatory (or independent) variables."
 msgstr "as variáveis explicativas categoriais (ou independentes)."
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7948,6 +7978,15 @@ msgstr "O valor de corte é {}"
 msgid "the data as a data frame"
 msgstr "os dados como um quadro de dados"
 
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
+
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr "A variável dependente '{dep}' tem mais de dois níveis; a regressão logística binomial apenas pode ser feita quando a variável dependente tem dois níveis."
@@ -7968,9 +8007,7 @@ msgstr "a variável dependente dos `data`, a variável deve ser numérica"
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr ""
-"a variável dependente dos `data`, a variável deve ser numérica (não é "
-"necessário ao fornecer uma fórmula, veja os exemplos)"
+msgstr "a variável dependente dos `data`, a variável deve ser numérica (não é necessário ao fornecer uma fórmula, veja os exemplos)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -8045,17 +8082,11 @@ msgstr "a sintaxe do lavaan usada para ajustar o modelo"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
-"o método de exclusão de valores omissos. `Analysis by analysis` exclui "
-"valores omissos de cada análise. `Listwise` exclui uma linha de todas as "
-"análises se um dos seus valores for omisso."
+msgstr "o método de exclusão de valores omissos. `Analysis by analysis` exclui valores omissos de cada análise. `Listwise` exclui uma linha de todas as análises se um dos seus valores for omisso."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
-"o método de exclusão de valores omissos. `Analysis by analysis` exclui "
-"valores omissos de cada análise. `Listwise` exclui uma linha de todas as "
-"análises se um dos seus valores for omisso."
+msgstr "o método de exclusão de valores omissos. `Analysis by analysis` exclui valores omissos de cada análise. `Listwise` exclui uma linha de todas as análises se um dos seus valores for omisso."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -8466,12 +8497,17 @@ msgstr "limite superior"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "Valor"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "valor"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-08-12 10:17+0000\n"
-"Last-Translator: Hyunsoo Seol <snowcau@gmail.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ko/>\n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -781,6 +777,10 @@ msgstr ""
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
+msgstr ""
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
 
 #: descriptives/options/pc.description.R
@@ -1766,6 +1766,10 @@ msgstr ""
 msgid "an array of descriptive plots"
 msgstr ""
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr ""
@@ -1833,6 +1837,10 @@ msgstr ""
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
+msgstr ""
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
 msgstr ""
 
 #: package/datasets/Tooth Growth.description
@@ -2196,10 +2204,6 @@ msgstr "공선성 통계값"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "열"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -3467,13 +3471,25 @@ msgstr "종속변수"
 msgid "Dependent Variable"
 msgstr "종속변수"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "종속변수 라벨"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "종속변수는 수치형 이어야 한다"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -3483,6 +3499,10 @@ msgstr "종속변수는 수치형 이어야 한다"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "종속변수"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -3721,6 +3741,10 @@ msgstr "고유값"
 msgid "Eigenvalues greater than"
 msgstr ""
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -3872,6 +3896,18 @@ msgstr "탐색적 요인분석"
 msgid "Extraction"
 msgstr "추출"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -3906,16 +3942,24 @@ msgstr "F 통계값이 계산되지 않음"
 msgid "Factor"
 msgstr "요인분석"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
 
 #: jamovi/js/cfa.events.js:40
@@ -4293,8 +4337,8 @@ msgid "Hypothesis"
 msgstr "가설"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "문항을 삭제할때"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -4410,11 +4454,8 @@ msgid "Item Statistics"
 msgstr "문항 통계값"
 
 #: reliability/options/itemRestCor.title
-msgid "Item-rest correlation"
-msgstr ""
-
 #: reliability/results/items.columns.title
-msgid "item-rest correlation"
+msgid "Item-rest correlation"
 msgstr ""
 
 #: reliability/options/vars.title
@@ -4489,10 +4530,6 @@ msgstr "수준 1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "수준 2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "레베"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -4710,15 +4747,12 @@ msgstr ""
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr "평균"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
 msgstr "평균"
 
 #: R/anovaonew.b.R
@@ -4975,6 +5009,10 @@ msgstr "수정 지수"
 msgid "More than one mode exists, only the first is reported"
 msgstr "한개 이상의 최빈값이 존재함"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr ""
@@ -5109,6 +5147,14 @@ msgstr "정규분포성 검증"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "정규분포성 검증(Shapiro-Wilk)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "주성분 갯수"
@@ -5117,6 +5163,10 @@ msgstr "주성분 갯수"
 msgid "Number of components"
 msgstr "주성분 갯수"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "요인 갯수"
@@ -5124,6 +5174,10 @@ msgstr "요인 갯수"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "요인 갯수"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -5328,6 +5382,10 @@ msgstr "서열 로지스틱 회귀분석"
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
+msgstr ""
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
 msgstr ""
 
 #: ancova/ui[6][1][0][0].label
@@ -6331,7 +6389,7 @@ msgid "Residual plots"
 msgstr "잔차 도표"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
 
 #: R/ancova.b.R
@@ -6430,6 +6488,10 @@ msgstr "회전"
 msgid "Row"
 msgstr "행"
 
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
+
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
@@ -6527,16 +6589,13 @@ msgstr ""
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
 msgstr "표준편차"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
-msgstr "표준펀차"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7085,6 +7144,10 @@ msgstr ""
 msgid "the categorical explanatory (or independent) variables."
 msgstr ""
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7160,6 +7223,15 @@ msgstr ""
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "데이타 프레임 자료"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -7656,12 +7728,17 @@ msgstr "상한계"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "값"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "값"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

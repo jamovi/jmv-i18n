@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-04-14 10:54+0000\n"
-"Last-Translator: Francisco J. Miguel Quesada <fxmiguel@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"es/>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -297,9 +293,7 @@ msgstr "`Proporciones - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-"`TRUE` (por defecto) o `FALSE`, añadir etiquetas con el número de columna a "
-"los valores extremos en el gráfico de caja"
+msgstr "`TRUE` (por defecto) o `FALSE`, añadir etiquetas con el número de columna a los valores extremos en el gráfico de caja"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -784,6 +778,10 @@ msgstr "`TRUE` o `FALSO` (predeterminado), proporciona medias y errores estánda
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "`TRUE` o `FALSE` (predeterminado), proporciona índices de modificación para los parámetros no incluidos en el modelo"
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1768,6 +1766,10 @@ msgstr "una matriz de tablas de contrastes"
 msgid "an array of descriptive plots"
 msgstr "una matriz de gráficos descriptivos"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "una matriz de tablas de frecuencias"
@@ -1836,6 +1838,10 @@ msgstr "un número entero (predeterminado: 1), el número de factores en el mode
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "un número entero (predeterminado: 4) que especifica el número de grupos iguales"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2198,10 +2204,6 @@ msgstr "Estadísticas de colinealidad"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "Columna"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "La columna ‘{name}’ contiene niveles no utilizados (solo es posible cuando se excluyen las filas con valores perdidos)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -2722,15 +2724,13 @@ msgid "dat <- data.frame(\n"
 "# formula if each row represents a single observation:\n"
 "\n"
 "contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
-msgstr ""
-"dat <- data.frame(\n"
+msgstr "dat <- data.frame(\n"
 "    `1a encuesta` = c('A favor', 'A favor', 'En contra', 'En contra'),\n"
 "    `2a encuesta` = c('A favor', 'En contra', 'A favor', 'En contra'),\n"
 "    `Counts` = c(794, 150, 86, 570),\n"
 "    check.names=FALSE)\n"
 "\n"
-"contTablesPaired(formula = Counts ~ `1a encuesta`:`2a encuesta`, data = dat)"
-"\n"
+"contTablesPaired(formula = Counts ~ `1a encuesta`:`2a encuesta`, data = dat)\n"
 "\n"
 "#\n"
 "#  TABLAS DE CONTINGENCIA PARA MUESTRAS EMPAREJADAS\n"
@@ -2777,8 +2777,7 @@ msgid "dat <- data.frame(x=c(8, 15))\n"
 "#  ───────────────────────────────────────────────────────\n"
 "#    Note. Hₐ is proportion ≠ 0.5\n"
 "#"
-msgstr ""
-"dat <- data.frame(x=c(8, 15))\n"
+msgstr "dat <- data.frame(x=c(8, 15))\n"
 "\n"
 "propTest2(dat, vars = x, areCounts = TRUE)\n"
 "\n"
@@ -2863,8 +2862,7 @@ msgid "data <- lavaan::HolzingerSwineford1939\n"
 "#    0.931    0.896    0.0921    0.0714    0.114\n"
 "#  ───────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data <- lavaan::HolzingerSwineford1939\n"
+msgstr "data <- lavaan::HolzingerSwineford1939\n"
 "\n"
 "jmv::cfa(\n"
 "    data = data,\n"
@@ -2979,8 +2977,7 @@ msgid "data('birthwt', package='MASS')\n"
 "#    vs. \"low = 0\"\n"
 "#\n"
 "#"
-msgstr ""
-"data('birthwt', package='MASS')\n"
+msgstr "data('birthwt', package='MASS')\n"
 "\n"
 "dat <- data.frame(\n"
 "            low = factor(birthwt$low),\n"
@@ -3065,8 +3062,7 @@ msgid "data('birthwt', package='MASS')\n"
 "#  ───────────────────────────────────────────────────────────────\n"
 "#\n"
 "#"
-msgstr ""
-"data('birthwt', package='MASS')\n"
+msgstr "data('birthwt', package='MASS')\n"
 "\n"
 "dat <- data.frame(\n"
 "            race = factor(birthwt$race),\n"
@@ -3152,8 +3148,7 @@ msgid "data('bugs', package = 'jmv')\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#    Note. Type 3 Sums of Squares\n"
 "#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
+msgstr "data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRM(\n"
 "    data = bugs,\n"
@@ -3209,8 +3204,7 @@ msgid "data('bugs', package = 'jmv')\n"
 "#    55.8     3    < .001\n"
 "#  ────────────────────────\n"
 "#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
+msgstr "data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
 "\n"
@@ -3241,8 +3235,7 @@ msgid "data('bugs', package = 'jmv')\n"
 "#    LDLF    LDHF    Student's t        -6.65    90.0    < .001\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
+msgstr "data('bugs', package = 'jmv')\n"
 "\n"
 "ttestPS(bugs, pairs = list(\n"
 "        list(i1 = 'LDLF', i2 = 'LDHF')))\n"
@@ -3292,8 +3285,7 @@ msgid "data('HairEyeColor')\n"
 "# represents a single observation:\n"
 "\n"
 "contTables(formula = ~ Hair:Eye, dat)"
-msgstr ""
-"data('HairEyeColor')\n"
+msgstr "data('HairEyeColor')\n"
 "dat <- as.data.frame(HairEyeColor)\n"
 "\n"
 "contTables(formula = Freq ~ Hair:Eye, dat)\n"
@@ -3322,8 +3314,7 @@ msgstr ""
 "#  ───────────────────────────────\n"
 "#\n"
 "\n"
-"# Alternativamente, omitir la parte izquierda de la fórmula (`Freq`) si cada "
-"fila\n"
+"# Alternativamente, omitir la parte izquierda de la fórmula (`Freq`) si cada fila\n"
 "# representa una observación  singular:\n"
 "\n"
 "contTables(formula = ~ Hair:Eye, dat)"
@@ -3355,8 +3346,7 @@ msgid "data('HairEyeColor')\n"
 "#    133     3    < .001\n"
 "#  ───────────────────────\n"
 "#"
-msgstr ""
-"data('HairEyeColor')\n"
+msgstr "data('HairEyeColor')\n"
 "dat <- as.data.frame(HairEyeColor)\n"
 "\n"
 "propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
@@ -3402,11 +3392,9 @@ msgid "data('iris')\n"
 "#  ────────────────────────────────────────────────\n"
 "#    Note. 'oblimin' rotation was used\n"
 "#"
-msgstr ""
-"data('iris')\n"
+msgstr "data('iris')\n"
 "\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))"
-"\n"
+"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
 "\n"
 "#\n"
 "#  ANALISIS FACTORIAL EXPLORATORIO\n"
@@ -3458,8 +3446,7 @@ msgid "data('iris')\n"
 "#                 Petal.Width                     6.16    147         0.0419\n"
 "#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('iris')\n"
+msgstr "data('iris')\n"
 "\n"
 "mancova(data = iris,\n"
 "    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
@@ -3469,48 +3456,29 @@ msgstr ""
 "#  MANCOVA\n"
 "#\n"
 "#  Tests Multivariable\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#                                     valor     F       gl1    gl2    p\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1,19    53,5      8    290    < ,"
-"001\n"
-"#               Wilks' Lambda         0,0234     199      8    288    < ,"
-"001\n"
-"#               Hotelling's Trace       32,5     581      8    286    < ,"
-"001\n"
-"#               Roy's Largest Root      32,2    1167      4    145    < ,"
-"001\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
+"#    Species    Pillai's Trace          1,19    53,5      8    290    < ,001\n"
+"#               Wilks' Lambda         0,0234     199      8    288    < ,001\n"
+"#               Hotelling's Trace       32,5     581      8    286    < ,001\n"
+"#               Roy's Largest Root      32,2    1167      4    145    < ,001\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "#\n"
 "#  Tests Univariable\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"#                Variable Dependiente     Suma Cuadrática    gl     Media "
-"Cuadrática    F         p\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"#    Species      Sepal.Length                 63,21          2         "
-"31,6061     119,3    < ,001\n"
-"#                 Sepal.Width                  11,34          2          "
-"5,6725      49,2    < ,001\n"
-"#                 Petal.Length                437,10          2        "
-"218,5514    1180,2    < ,001\n"
-"#                 Petal.Width                  80,41          2         "
-"40,2067     960,0    < ,001\n"
-"#    Residuos     Sepal.Length                 38,96        147          0,"
-"2650\n"
-"#                 Sepal.Width                  16,96        147          0,"
-"1154\n"
-"#                 Petal.Length                 27,22        147          0,"
-"1852\n"
-"#                 Petal.Width                   6,16        147          0,"
-"0419\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
+"#                Variable Dependiente     Suma Cuadrática    gl     Media Cuadrática    F         p\n"
+"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
+"#    Species      Sepal.Length                 63,21          2         31,6061     119,3    < ,001\n"
+"#                 Sepal.Width                  11,34          2          5,6725      49,2    < ,001\n"
+"#                 Petal.Length                437,10          2        218,5514    1180,2    < ,001\n"
+"#                 Petal.Width                  80,41          2         40,2067     960,0    < ,001\n"
+"#    Residuos     Sepal.Length                 38,96        147          0,2650\n"
+"#                 Sepal.Width                  16,96        147          0,1154\n"
+"#                 Petal.Length                 27,22        147          0,1852\n"
+"#                 Petal.Width                   6,16        147          0,0419\n"
+"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
 "#"
 
 #: pca/options.description.R.usage
@@ -3532,11 +3500,9 @@ msgid "data('iris')\n"
 "#  ────────────────────────────────────────\n"
 "#    Note. 'varimax' rotation was used\n"
 "#"
-msgstr ""
-"data('iris')\n"
+msgstr "data('iris')\n"
 "\n"
-"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))"
-"\n"
+"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
 "\n"
 "#\n"
 "#  ANALISIS DE COMPONENTES PRINCIPALES\n"
@@ -3569,11 +3535,9 @@ msgid "data('iris')\n"
 "#    scale           0.708           0.848\n"
 "#  ─────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('iris')\n"
+msgstr "data('iris')\n"
 "\n"
-"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', "
-"'Petal.Width'),\n"
+"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width'),\n"
 "            omegaScale = TRUE)\n"
 "\n"
 "#\n"
@@ -3612,8 +3576,7 @@ msgid "data('mtcars')\n"
 "#            p-value                                          —\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('mtcars')\n"
+msgstr "data('mtcars')\n"
 "\n"
 "corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
 "\n"
@@ -3661,8 +3624,7 @@ msgid "data('mtcars')\n"
 "#  ────────────────────────────────────────────────────\n"
 "#    Note. controlling for 'hp'\n"
 "#"
-msgstr ""
-"data('mtcars')\n"
+msgstr "data('mtcars')\n"
 "\n"
 "corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
 "\n"
@@ -3731,8 +3693,7 @@ msgid "data('mtcars')\n"
 "#  ──────────────────────────────────────────────────────────────────\n"
 "#\n"
 "#"
-msgstr ""
-"data('mtcars')\n"
+msgstr "data('mtcars')\n"
 "\n"
 "tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
 "dat <- as.data.frame(tab)\n"
@@ -3826,8 +3787,7 @@ msgid "data('mtcars')\n"
 "# splitting by multiple variables\n"
 "descriptives(formula = mpg ~ cyl:gear, dat,\n"
 "    median=F, min=F, max=F, missing=F)"
-msgstr ""
-"data('mtcars')\n"
+msgstr "data('mtcars')\n"
 "dat <- mtcars\n"
 "\n"
 "# Se pueden proporcionar tablas de frecuencia para los factores\n"
@@ -3908,8 +3868,7 @@ msgid "data('Prestige', package='carData')\n"
 "#    education       177.2     187.63     0.944     0.347\n"
 "#  ────────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('Prestige', package='carData')\n"
+msgstr "data('Prestige', package='carData')\n"
 "\n"
 "linReg(data = Prestige, dep = income,\n"
 "       covs = vars(education, prestige, women),\n"
@@ -3965,8 +3924,7 @@ msgid "data('ToothGrowth')\n"
 "    data = ToothGrowth,\n"
 "    postHoc = ~ supp,\n"
 "    emMeans = ~ supp)"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
 "\n"
@@ -4014,8 +3972,7 @@ msgid "data('ToothGrowth')\n"
 "    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
 "\n"
@@ -4036,12 +3993,9 @@ msgstr ""
 "ANOVA(\n"
 "    formula = len ~ dose * supp,\n"
 "    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. medias marginales para supp y dose:"
-"supp\n"
-"    emmPlots = TRUE,              # produce gràficos para tales medias "
-"marginales\n"
-"    emmTables = TRUE)             # produce tablas para tales medias "
-"marginales"
+"    emMeans = ~ supp + dose:supp, # est. medias marginales para supp y dose:supp\n"
+"    emmPlots = TRUE,              # produce gràficos para tales medias marginales\n"
+"    emmTables = TRUE)             # produce tablas para tales medias marginales"
 
 #: anovaNP/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4058,8 +4012,7 @@ msgid "data('ToothGrowth')\n"
 "#    len    40.7     2    < .001\n"
 "#  ───────────────────────────────\n"
 "#"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
 "\n"
@@ -4089,8 +4042,7 @@ msgid "data('ToothGrowth')\n"
 "#    len    Student's t         1.92    58.0    0.060\n"
 "#  ────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
 "\n"
@@ -4121,8 +4073,7 @@ msgid "data('ToothGrowth')\n"
 "#    dose    Student's t         14.4    59.0    < .001\n"
 "#  ──────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
 "\n"
@@ -4155,8 +4106,7 @@ msgid "data('ToothGrowth')\n"
 "#    len    68.4      2    37.7    < .001\n"
 "#  ────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "dat <- ToothGrowth\n"
 "dat$dose <- factor(dat$dose)\n"
 "\n"
@@ -4196,13 +4146,25 @@ msgstr "Dependiente"
 msgid "Dependent Variable"
 msgstr "Variable Dependiente"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "Etiqueta de la Variable Dependiente"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "La variable dependiente debe ser numérica"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4212,6 +4174,10 @@ msgstr "La variable dependiente debe ser numérica"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "Variables Dependientes"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4450,6 +4416,10 @@ msgstr "Valores Propios"
 msgid "Eigenvalues greater than"
 msgstr "Valores Propios mayores a"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4601,6 +4571,18 @@ msgstr "Análisis Factorial Exploratorio"
 msgid "Extraction"
 msgstr "Extracción"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4635,17 +4617,25 @@ msgstr "El estadístico F no se pudo calcular"
 msgid "Factor"
 msgstr "Factor"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "El factor ‘{factor}’ requiere al menos 2 niveles"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "El factor ‘{factorName}’ no contiene datos"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "El factor ‘{factorName}’ solo tiene un nivel"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5022,8 +5012,8 @@ msgid "Hypothesis"
 msgstr "Hipótesis"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "si el elemento se eliminó"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5139,12 +5129,9 @@ msgid "Item Statistics"
 msgstr "Estadísticas del Elemento"
 
 #: reliability/options/itemRestCor.title
+#: reliability/results/items.columns.title
 msgid "Item-rest correlation"
 msgstr "Correlación del elemento con otros"
-
-#: reliability/results/items.columns.title
-msgid "item-rest correlation"
-msgstr "correlación elemento-resto"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -5218,10 +5205,6 @@ msgstr "Nivel 1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "Nivel 2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "Niveles"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -5439,16 +5422,13 @@ msgstr "Prueba de McNemar"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
 msgstr "Media"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
-msgstr "media"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -5704,6 +5684,10 @@ msgstr "Índices de modificación"
 msgid "More than one mode exists, only the first is reported"
 msgstr "Existe más de una moda, solo se reporta la primera"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MSA"
@@ -5838,6 +5822,14 @@ msgstr "Prueba de Normalidad"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Prueba de Normalidad (Shapiro-Wilk)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "Número de Componentes"
@@ -5846,6 +5838,10 @@ msgstr "Número de Componentes"
 msgid "Number of components"
 msgstr "Número de componentes"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "Número de Factores"
@@ -5853,6 +5849,10 @@ msgstr "Número de Factores"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "Número de factores"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6058,6 +6058,10 @@ msgstr "Regresión Logística Ordinal"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "Resultados Ordinales"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7079,8 +7083,8 @@ msgid "Residual plots"
 msgstr "Gráficas de residuos"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "La suma de cuadrados residuales y/o lo grados de libertad son cero, lo que indica un ajuste perfecto"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7177,6 +7181,10 @@ msgstr "Rotación"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "Fila"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7275,16 +7283,13 @@ msgstr "Gráfica de sedimentación"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
 msgstr "DE"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
-msgstr "de"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7373,8 +7378,7 @@ msgid "set.seed(1337)\n"
 "#  ────────────────────────────────────────────────────\n"
 "#\n"
 "#"
-msgstr ""
-"set.seed(1337)\n"
+msgstr "set.seed(1337)\n"
 "\n"
 "y <- factor(sample(1:3, 100, replace = TRUE))\n"
 "x1 <- rnorm(100)\n"
@@ -7907,6 +7911,10 @@ msgstr "La prueba binomial se usa para probar la hipótesis nula de que la propo
 msgid "the categorical explanatory (or independent) variables."
 msgstr "las variables categóricas explicativas (o independientes)."
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7982,6 +7990,15 @@ msgstr "El punto de corte es {}"
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "los datos como una 'data frame'"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8539,12 +8556,17 @@ msgstr "límite superior"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "Valor"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "valor"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

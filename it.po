@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-31 17:06+0000\n"
-"Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"it/>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -297,9 +293,7 @@ msgstr "`Proporzioni - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-"`TRUE` (predefinito) o `FALSE`, aggiunge etichette con il numero di riga ai "
-"valori anomali (outlier) nel box plot"
+msgstr "`TRUE` (predefinito) o `FALSE`, aggiunge etichette con il numero di riga ai valori anomali (outlier) nel box plot"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -784,6 +778,10 @@ msgstr "`TRUE` o `FALSE` (predefinito), restituisce medie ed errori standard"
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "`TRUE` o `FALSE` (predefinito), restituisce indici di modifica per i parametri non inclusi nel modello"
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1768,6 +1766,10 @@ msgstr "una serie di tabelle di contrasto"
 msgid "an array of descriptive plots"
 msgstr "una serie di grafici descrittivi"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "una matrice di tabelle di frequenza"
@@ -1836,6 +1838,10 @@ msgstr "un intero (predefinito: 1), il numero di fattori nel modello"
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "un intero (predefinito: 4) che specifica il numero di gruppi uguali"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2198,10 +2204,6 @@ msgstr "Statistiche di collinearità"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "Colonna"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "La colonna '{name}' contiene livelli non utilizzati (possibile solo quando sono escluse le righe con valori mancanti)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4145,13 +4147,25 @@ msgstr "Dipendente"
 msgid "Dependent Variable"
 msgstr "Variabile Dipendente"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "Etichetta Variabile Dipendente"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "La variabile dipendente deve essere numerica"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4161,6 +4175,10 @@ msgstr "La variabile dipendente deve essere numerica"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "Variabili Dipendenti"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4399,6 +4417,10 @@ msgstr "Autovalori"
 msgid "Eigenvalues greater than"
 msgstr "Autovalori maggiori di"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4550,6 +4572,18 @@ msgstr "Analisi Fattoriale Esplorativa"
 msgid "Extraction"
 msgstr "Estrazione"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4584,17 +4618,25 @@ msgstr "Impossibile calcolare la statistica F"
 msgid "Factor"
 msgstr "Fattore"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Il fattore \"{factor}\" deve avere almeno 2 livelli"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "Il fattore '{factorName}' non contiene dati"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "Il fattore '{factorName}' contiene un solo livello"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4971,8 +5013,8 @@ msgid "Hypothesis"
 msgstr "Ipotesi"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "se l'elemento viene eliminato"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5088,12 +5130,9 @@ msgid "Item Statistics"
 msgstr "Statistiche degli Elementi"
 
 #: reliability/options/itemRestCor.title
+#: reliability/results/items.columns.title
 msgid "Item-rest correlation"
 msgstr "Correlazione dell'elemento con gli altri"
-
-#: reliability/results/items.columns.title
-msgid "item-rest correlation"
-msgstr "correlazione elemento-residuo"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -5167,10 +5206,6 @@ msgstr "Livello 1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "Livello 2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "Livelli"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -5388,16 +5423,13 @@ msgstr "Test di McNemar"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
 msgstr "Media"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
-msgstr "media"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -5653,6 +5685,10 @@ msgstr "Indici di modifica"
 msgid "More than one mode exists, only the first is reported"
 msgstr "Esiste più di una modalità, viene segnalata solo la prima"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MSA"
@@ -5787,6 +5823,14 @@ msgstr "Test di normalità"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test di Normalità (Shapiro-Wilk)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "Numero delle Componenti"
@@ -5795,6 +5839,10 @@ msgstr "Numero delle Componenti"
 msgid "Number of components"
 msgstr "Numero delle componenti"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "Numero dei Fattori"
@@ -5802,6 +5850,10 @@ msgstr "Numero dei Fattori"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "Numero dei fattori"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6007,6 +6059,10 @@ msgstr "Regressione Logistica Ordinale"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "Risultati Ordinali"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7028,8 +7084,8 @@ msgid "Residual plots"
 msgstr "Grafico dei residui"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "La somma residua di quadrati e/o gradi di libertà è zero, indicando un adattamento perfetto"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7126,6 +7182,10 @@ msgstr "Rotazione"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "Riga"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7224,16 +7284,13 @@ msgstr "Grafico dei Sedimenti (Scree plot)"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
 msgstr "SD"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
-msgstr "ds"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7855,6 +7912,10 @@ msgstr "Il test Binomiale è usato per testare l'ipotesi Nulla che la proporzion
 msgid "the categorical explanatory (or independent) variables."
 msgstr "le variabili categoriali esplicative (o indipendenti)."
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7930,6 +7991,15 @@ msgstr "Il valore di cut-off è impostato su {}"
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "i dati sotto forma di frame di dati"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8486,12 +8556,17 @@ msgstr "limite superiore"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "Valore"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "valore"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

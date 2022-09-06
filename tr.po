@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-06-22 13:17+0000\n"
-"Last-Translator: Tahir Enes Gedik <tegedik@gmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"tr/>\n"
-"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -29,10 +25,8 @@ msgid "'{col}' contains only one unique value"
 msgstr "‘{col}’ sadece bir tek değerden oluşuyor"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
-"‘{method}’ çıkarma yöntemi ‘{rotation}’ rotasyonu ile birlikte kullanıldı"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -115,9 +109,8 @@ msgid "{varType} of binomial logistic regression model{modelNo}"
 msgstr "Binom lojistik regresyon modelinin {varType} değeri {modelNo}"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "{varType} of linear regression model{modelNo}"
-msgstr "{varType} lineer regresyon modeli{modelNo}"
+msgstr ""
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -197,110 +190,68 @@ msgstr "`'2'` or `'3'`(varsayılan), kullanılacak karelerin toplamı"
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr ""
-"`'different'` (varsayılan), `'oneGreater'` veya `'twoGreater'` , alternatif "
-"hipotez; sırasıyla grup 1 grup 2'den farklı, grup 1 grup 2'den büyük ve grup "
-"2 grup 1'den büyük"
+msgstr "`'different'` (varsayılan), `'oneGreater'` veya `'twoGreater'` , alternatif hipotez; sırasıyla grup 1 grup 2'den farklı, grup 1 grup 2'den büyük ve grup 2 grup 1'den büyük"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
-msgstr ""
-"`'different'` (varsayılan), `'oneGreater'` ya da `'twoGreater'`, alternatif "
-"hipotez; sırasıyla: ölçüm 1 ölçüm 2'den farklıdır, ölçüm 1 ölçüm 2'den "
-"büyüktür, ve ölçüm 2 ölçüm 1'den büyüktür"
+msgstr "`'different'` (varsayılan), `'oneGreater'` ya da `'twoGreater'`, alternatif hipotez; sırasıyla: ölçüm 1 ölçüm 2'den farklıdır, ölçüm 1 ölçüm 2'den büyüktür, ve ölçüm 2 ölçüm 1'den büyüktür"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
-msgstr ""
-"`'dt'` (varsayılan), `'gt'` ya da `'lt'`, alternatif hipotez; sırasıyla: "
-"`testValue` değerinden farklıdır, `testValue` değerinden büyüktür, ve "
-"`testValue` değerinden küçüktür"
+msgstr "`'dt'` (varsayılan), `'gt'` ya da `'lt'`, alternatif hipotez; sırasıyla: `testValue` değerinden farklıdır, `testValue` değerinden büyüktür, ve `testValue` değerinden küçüktür"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
-msgstr ""
-"`'facVar'` ya da `'facInd'`, modelin nasıl tanımlandığıdır; `'facVar'` "
-"faktör varyanslarını 1'e sabitler, `'facInd'` her bir faktörü ona yük veren "
-"ilk maddenin ölçeğine sabitler."
+msgstr "`'facVar'` ya da `'facInd'`, modelin nasıl tanımlandığıdır; `'facVar'` faktör varyanslarını 1'e sabitler, `'facInd'` her bir faktörü ona yük veren ilk maddenin ölçeğine sabitler."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr ""
-"`'listwise'` ya da `'fiml'`, eksik verilere ne yapılacağıdır; `'listwise'` "
-"eğer bir satır eksik veri barındırıyorsa o satırdaki veriler hiçbir analize "
-"dahil edilmez , `'fiml'`model tahminlemesi için tam bilgi (full information) "
-"en çok olabilirlik yöntemini kullanır."
+msgstr "`'listwise'` ya da `'fiml'`, eksik verilere ne yapılacağıdır; `'listwise'` eğer bir satır eksik veri barındırıyorsa o satırdaki veriler hiçbir analize dahil edilmez , `'fiml'`model tahminlemesi için tam bilgi (full information) en çok olabilirlik yöntemini kullanır."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr ""
-"\"Ortalamalar\" (varsayılan) veya \"ortancalar\", grafikte kullanılacak hata "
-"çubukları"
+msgstr "\"Ortalamalar\" (varsayılan) veya \"ortancalar\", grafikte kullanılacak hata çubukları"
 
 #: efa/options/extraction.description.R
-#, fuzzy
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
-"Faktör çıkarma yöntemi olarak `'minres'` (varsayılan), `'ml'` veya `'pa'` "
-"sırasıyla 'minimum artık', 'maksimum olabilirlik' veya 'ana eksen' kullanır"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
-#, fuzzy
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
-"`'none'`, `'ci'` (varsayılan), ya da `'se'`. Sırasıyla, hata çubukları "
-"kullanılmasın, güven aralıkları kullanılsın, marjinal ortalama grafiklerinde "
-"standart hatalar kullanılsın"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr ""
-"`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; "
-"`'none'` post-hoc testleri göstermez, `'gamesHowell'` varyansların denk "
-"olmadığını varsayan Games-Howell post-hoc testlerini gösterir, `'tukey'` "
-"varyansların denk olduğunu varsayan Tukey post-hoc testlerini gösterir"
+msgstr "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` post-hoc testleri göstermez, `'gamesHowell'` varyansların denk olmadığını varsayan Games-Howell post-hoc testlerini gösterir, `'tukey'` varyansların denk olduğunu varsayan Tukey post-hoc testlerini gösterir"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"`'none'`, `'varimax'` (varsayılan), `'quartimax'`, `'promax'`, `'oblimin'`, "
-"ya da `'simplimax'`, tahminde kullanılacak rotasyon"
+msgstr "`'none'`, `'varimax'` (varsayılan), `'quartimax'`, `'promax'`, `'oblimin'`, ya da `'simplimax'`, tahminde kullanılacak rotasyon"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (varsayılan), "
-"ya da `'simplimax'`, tahminde kullanılacak rotasyon"
+msgstr "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (varsayılan), ya da `'simplimax'`, tahminde kullanılacak rotasyon"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr ""
-"`'notequal'` (varsayılan), `'greater'` ya da `'less'`, alternatif hipotez"
+msgstr "`'notequal'` (varsayılan), `'greater'` ya da `'less'`, alternatif hipotez"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr ""
-"`'parallel'` (varsayılan), `'eigen'` ya da `'fixed'`, faktörlerin sayısını "
-"belirleme yöntemi"
+msgstr "`'parallel'` (varsayılan), `'eigen'` ya da `'fixed'`, faktörlerin sayısını belirleme yöntemi"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr ""
-"`'perAnalysis'` ya da `'listwise'`, eksik veriler nasıl yönetilsin?; "
-"`'perAnalysis'` eksik veri sadece analiz edilen değişkende hariç tutulur, "
-"`'listwise'` eksik veri olan satır tüm analizlerden hariç tutulur"
+msgstr "`'perAnalysis'` ya da `'listwise'`, eksik veriler nasıl yönetilsin?; `'perAnalysis'` eksik veri sadece analiz edilen değişkende hariç tutulur, `'listwise'` eksik veri olan satır tüm analizlerden hariç tutulur"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr ""
-"`'perAnalysis'` ya da `'listwise'`, eksik veriler nasıl yönetilsin?; "
-"`'perAnalysis'` eksik veri sadece analiz edilen değişkende hariç tutulur, "
-"`'listwise'` eksik veri olan satır tüm analizlerden hariç tutulur."
+msgstr "`'perAnalysis'` ya da `'listwise'`, eksik veriler nasıl yönetilsin?; `'perAnalysis'` eksik veri sadece analiz edilen değişkende hariç tutulur, `'listwise'` eksik veri olan satır tüm analizlerden hariç tutulur."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
@@ -308,9 +259,7 @@ msgstr ""
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr ""
-"`'rows'` veya `'columns'`(varsayılan), değişkenleri satırlarda veya "
-"sütunlarda (varsayılan) görüntüleyin"
+msgstr "`'rows'` veya `'columns'`(varsayılan), değişkenleri satırlarda veya sütunlarda (varsayılan) görüntüleyin"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
@@ -326,9 +275,7 @@ msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr ""
-"'sütunlar' veya 'satırlar' (varsayılan), sütunları/satırları oran veya "
-"göreli risk farkı bakımından karşılaştırın (2x2 tablolar)"
+msgstr "'sütunlar' veya 'satırlar' (varsayılan), sütunları/satırları oran veya göreli risk farkı bakımından karşılaştırın (2x2 tablolar)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -472,9 +419,7 @@ msgstr ""
 #: logRegBin/options/emmWeights.description.R
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr ""
-"`TRUE ` (varsayılan) or `FALSE `, her bir hücreyi eşit ya da hücre "
-"frekansına göre ağırlıklandır"
+msgstr "`TRUE ` (varsayılan) or `FALSE `, her bir hücreyi eşit ya da hücre frekansına göre ağırlıklandır"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
@@ -832,6 +777,10 @@ msgstr ""
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
+msgstr ""
+
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
 
 #: descriptives/options/pc.description.R
@@ -1817,6 +1766,10 @@ msgstr ""
 msgid "an array of descriptive plots"
 msgstr ""
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr ""
@@ -1884,6 +1837,10 @@ msgstr ""
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
+msgstr ""
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
 msgstr ""
 
 #: package/datasets/Tooth Growth.description
@@ -2246,10 +2203,6 @@ msgstr ""
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
-msgstr ""
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
 msgstr ""
 
 #: R/conttables.b.R
@@ -3518,13 +3471,25 @@ msgstr "Bağımlı"
 msgid "Dependent Variable"
 msgstr "Bağımlı değişken"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "Bağımlı Değişken Etiketi"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "Bağımlı değişken sayısal olmalı"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -3534,6 +3499,10 @@ msgstr "Bağımlı değişken sayısal olmalı"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "Bağımlı Değişkenler"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -3772,6 +3741,10 @@ msgstr ""
 msgid "Eigenvalues greater than"
 msgstr ""
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -3923,6 +3896,18 @@ msgstr ""
 msgid "Extraction"
 msgstr "Çıkarma"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -3957,17 +3942,25 @@ msgstr ""
 msgid "Factor"
 msgstr "Faktör"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Faktör '{factor}' en az iki düzeye sahip olmalı"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "Faktörde '{factorName}' veri bulunmuyor"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "Faktörde '{factorName}' sadece bir düzey yer almaktadır"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4184,9 +4177,8 @@ msgid "Greenhouse-Geisser ε"
 msgstr ""
 
 #: ttestIS/results/desc.columns.title
-#, fuzzy
 msgid "Group"
-msgstr "Grup"
+msgstr ""
 
 #: R/conttables.b.R
 msgid "Group 1"
@@ -4345,7 +4337,7 @@ msgid "Hypothesis"
 msgstr ""
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
+msgid "If item dropped"
 msgstr ""
 
 #: anovaRM/options/contrasts.description.R
@@ -4462,11 +4454,8 @@ msgid "Item Statistics"
 msgstr ""
 
 #: reliability/options/itemRestCor.title
-msgid "Item-rest correlation"
-msgstr ""
-
 #: reliability/results/items.columns.title
-msgid "item-rest correlation"
+msgid "Item-rest correlation"
 msgstr ""
 
 #: reliability/options/vars.title
@@ -4540,10 +4529,6 @@ msgstr ""
 
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
-msgstr ""
-
-#: R/descriptives.b.R
-msgid "Levels"
 msgstr ""
 
 #: R/ttestis.b.R
@@ -4762,15 +4747,12 @@ msgstr ""
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr ""
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
 msgstr ""
 
 #: R/anovaonew.b.R
@@ -5027,6 +5009,10 @@ msgstr ""
 msgid "More than one mode exists, only the first is reported"
 msgstr "Birden çok mod bulunmaktadır, sadece ilki gösterilmiştir"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr ""
@@ -5161,6 +5147,14 @@ msgstr ""
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr ""
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr ""
@@ -5169,12 +5163,20 @@ msgstr ""
 msgid "Number of components"
 msgstr ""
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr ""
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
+msgstr ""
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
 
 #: efa/options/rotation/oblimin.title
@@ -5380,6 +5382,10 @@ msgstr ""
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
+msgstr ""
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
 msgstr ""
 
 #: ancova/ui[6][1][0][0].label
@@ -6383,7 +6389,7 @@ msgid "Residual plots"
 msgstr ""
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
 
 #: R/ancova.b.R
@@ -6480,6 +6486,10 @@ msgstr ""
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
 msgstr ""
 
 #: R/conttables.b.R
@@ -6579,15 +6589,12 @@ msgstr ""
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr ""
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
 msgstr ""
 
 #: R/ancova.b.R
@@ -6838,9 +6845,8 @@ msgstr ""
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
-#, fuzzy
 msgid "Standard error"
-msgstr "Standart hata"
+msgstr ""
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -7138,6 +7144,10 @@ msgstr ""
 msgid "the categorical explanatory (or independent) variables."
 msgstr ""
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7213,6 +7223,15 @@ msgstr ""
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "veri çerçevesi (data frame) olarak veri"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -7709,11 +7728,16 @@ msgstr ""
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr ""
 
 #: mancova/results/multivar.columns.title
 msgid "value"
+msgstr ""
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
 msgstr ""
 
 #: propTest2/options/areCounts.title
@@ -7865,13 +7889,12 @@ msgstr ""
 msgid "Within Subjects Effects"
 msgstr ""
 
-#: contTables/ui[1][2][0][1][1].label
-#, fuzzy
-msgid "X-Axis"
-msgstr "X-ekseni"
-
 #: contTables/options/xaxis.title
 msgid "X-axis"
+msgstr ""
+
+#: contTables/ui[1][2][0][1][1].label
+msgid "X-Axis"
 msgstr ""
 
 #: contTables/ui[1][2][0][1][0].label
@@ -7917,9 +7940,8 @@ msgid "ΔR²"
 msgstr ""
 
 #: anovaNP/results/table.columns.title
-#, fuzzy
 msgid "ε²"
-msgstr "ε²"
+msgstr ""
 
 #: ancova/options/effectSize/eta.title
 #: ancova/results/main.columns.title
@@ -7927,9 +7949,8 @@ msgstr "ε²"
 #: anovaRM/options/effectSize/eta.title
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
-#, fuzzy
 msgid "η²"
-msgstr "η²"
+msgstr ""
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
@@ -7942,9 +7963,8 @@ msgid "η²<sub>p</sub>"
 msgstr ""
 
 #: ancova/results/main.columns.title
-#, fuzzy
 msgid "η²p"
-msgstr "η²p"
+msgstr ""
 
 #: anovaNP/results/table.columns.title
 #: anovaRMNP/results/table.columns.title
@@ -7970,9 +7990,8 @@ msgstr "η²p"
 #: pca/results/modelFit/fit.columns.title
 #: pca/results/assump/bartlett.columns.title
 #: propTestN/results/tests.columns.title
-#, fuzzy
 msgid "χ²"
-msgstr "χ²"
+msgstr ""
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content

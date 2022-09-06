@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-07-04 01:17+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"jamovi/jmv-i18n/zh_Hans/>\n"
-"Language: zh-cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: zh-cn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.13.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -210,9 +206,7 @@ msgstr "`“facVar”或“facInd”表示如何在模型中设置约束参数�
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr ""
-"“listwise”或“fiml”表示如何处理缺失值；`'listwise'`为如果某行有数据缺失，则在"
-"所有分析中删除该行；`fiml`为使用完全信息最大似然法来估计模型。"
+msgstr "“listwise”或“fiml”表示如何处理缺失值；`'listwise'`为如果某行有数据缺失，则在所有分析中删除该行；`fiml`为使用完全信息最大似然法来估计模型。"
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
@@ -317,8 +311,7 @@ msgstr "`TRUE` (默认) 或 `FALSE`, 提供模型估计的'Z'值和'p'值"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr "`TRUE` (默认) 或 `FALSE`, "
-"提供精确拟合的卡方检验，并将拟合模型与完美拟合模型进行比较"
+msgstr "`TRUE` (默认) 或 `FALSE`, 提供精确拟合的卡方检验，并将拟合模型与完美拟合模型进行比较"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
@@ -451,8 +444,7 @@ msgstr "`TRUE` 或 `FALSE`(默认) , 对残差进行Shapiro-Wilk正态性检验"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr "`TRUE` 或 `FALSE`(默认) , 执行 Fisher's "
-"单因素方差分析，该方法需要满足方差齐性的条件"
+msgstr "`TRUE` 或 `FALSE`(默认) , 执行 Fisher's 单因素方差分析，该方法需要满足方差齐性的条件"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
@@ -787,6 +779,10 @@ msgstr "`TRUE` 或 `FALSE`(默认) ,提供均值和标准误"
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "`TRUE` 或 `FALSE`(默认) ,为模型中未包含的参数提供修正指数"
 
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
+
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
 msgstr "`TRUE` 或 `FALSE`(默认) ,提供百分位数"
@@ -965,8 +961,7 @@ msgstr "`TRUE` 或 `FALSE`(默认) ,提供相对危险度RR（仅限于2x2四格
 
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
-msgstr "`TRUE` 或 `FALSE`(默认) "
-",提供实际相关矩阵的残差（即理论相关矩阵和实际相关矩阵之间的差异）"
+msgstr "`TRUE` 或 `FALSE`(默认) ,提供实际相关矩阵的残差（即理论相关矩阵和实际相关矩阵之间的差异）"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
@@ -1230,13 +1225,11 @@ msgstr "指定需要计算边际估计均值的变量的列表。每个项最多
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
-msgstr "描述重复测量`data`中被定义为`measure`（作为字符串）以及`rm`中特定水平组合被定"
-"义为`cell`（作为字符串向量）的列表"
+msgstr "描述重复测量`data`中被定义为`measure`（作为字符串）以及`rm`中特定水平组合被定义为`cell`（作为字符串向量）的列表"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
-msgstr "包含列表的列表。描述特定重复测量因子的`label`（作为字符串）和 "
-"`levels`（作为字符串向量）的列表"
+msgstr "包含列表的列表。描述特定重复测量因子的`label`（作为字符串）和 `levels`（作为字符串向量）的列表"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1773,6 +1766,10 @@ msgstr "一组对比表"
 msgid "an array of descriptive plots"
 msgstr "一组描述图"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "一组频数表"
@@ -1841,6 +1838,10 @@ msgstr "整数（默认为1），表示模型中的因子个数"
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "整数（默认为4），表示相等组的个数"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2203,10 +2204,6 @@ msgstr "共线性分析"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "列"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "列“{name}”包含未使用的水平(仅在删除有缺失值的行时才会出现)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4130,13 +4127,25 @@ msgstr "因变量"
 msgid "Dependent Variable"
 msgstr "因变量"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "因变量标签"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "因变量必须是数值变量"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4146,6 +4155,10 @@ msgstr "因变量必须是数值变量"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "因变量"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4384,6 +4397,10 @@ msgstr "特征值"
 msgid "Eigenvalues greater than"
 msgstr "特征值大于"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4535,6 +4552,18 @@ msgstr "探索性因子分析"
 msgid "Extraction"
 msgstr "提取"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4569,17 +4598,25 @@ msgstr "不能计算F统计量"
 msgid "Factor"
 msgstr "因子"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "因子“{factorName}”至少需要两个水平"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "因子“{factorName}”不包含任何数据"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "因子“{factorName}”只有一个水平"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4956,8 +4993,8 @@ msgid "Hypothesis"
 msgstr "假设检验"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "如果剔除该条目"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5073,12 +5110,9 @@ msgid "Item Statistics"
 msgstr "条目统计"
 
 #: reliability/options/itemRestCor.title
+#: reliability/results/items.columns.title
 msgid "Item-rest correlation"
 msgstr "条目剩余相关性"
-
-#: reliability/results/items.columns.title
-msgid "item-rest correlation"
-msgstr "剩余条目相关性"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -5152,10 +5186,6 @@ msgstr "水平1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "水平2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "水平"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -5373,15 +5403,12 @@ msgstr "McNemar 检验"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr "均值"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
 msgstr "均值"
 
 #: R/anovaonew.b.R
@@ -5638,6 +5665,10 @@ msgstr "修正指数"
 msgid "More than one mode exists, only the first is reported"
 msgstr "当存在多个众数时，仅报告第一个"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MSA系数"
@@ -5772,6 +5803,14 @@ msgstr "正态性检验"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "正态性检验 (Shapiro-Wilk)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "成分个数"
@@ -5780,6 +5819,10 @@ msgstr "成分个数"
 msgid "Number of components"
 msgstr "成分个数"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "因子个数"
@@ -5787,6 +5830,10 @@ msgstr "因子个数"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "因子个数"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -5992,6 +6039,10 @@ msgstr "有序Logistic回归"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "有序分类结局"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -6997,8 +7048,8 @@ msgid "Residual plots"
 msgstr "残差图"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "剩余平方和与/或自由度为零，表示拟合较好"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7095,6 +7146,10 @@ msgstr "旋转"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "行"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7193,15 +7248,12 @@ msgstr "碎石图"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "标准差"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
 msgstr "标准差"
 
 #: R/ancova.b.R
@@ -7795,6 +7847,10 @@ msgstr "二项分布检验用于检验某观察比例是否与某个期望比例
 msgid "the categorical explanatory (or independent) variables."
 msgstr "分类解释变量（或自变量）。"
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7870,6 +7926,15 @@ msgstr "截断值设置为{}"
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "数据框格式"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8282,9 +8347,7 @@ msgstr "合计"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr ""
-"合计_百分比（默认）、列_百分比或行_百分比。分别使用`of total`, `within "
-"columns`, 及`within rows` 百分比作为条形图的y轴."
+msgstr "合计_百分比（默认）、列_百分比或行_百分比。分别使用`of total`, `within columns`, 及`within rows` 百分比作为条形图的y轴."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -8373,12 +8436,17 @@ msgstr "上限"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "值"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "值"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"

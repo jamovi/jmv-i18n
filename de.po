@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-03-28 16:08+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"de/>\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -297,9 +293,7 @@ msgstr "`Anteile - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-"`TRUE` (Standard) oder `FALSE`, fügt den Ausreißern im Boxplot "
-"Beschriftungen mit der Zeilennummer hinzu"
+msgstr "`TRUE` (Standard) oder `FALSE`, fügt den Ausreißern im Boxplot Beschriftungen mit der Zeilennummer hinzu"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -450,9 +444,7 @@ msgstr "`TRUE` oder `FALSE` (Vorgabe), führt einen Shapiro-Wilk-Test mit den Re
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr ""
-"`TRUE` oder `FALSE` (Vorgabe), führt eine einfaktorielle ANOVA nach Fisher "
-"durch, die gleiche Varianzen voraussetzt"
+msgstr "`TRUE` oder `FALSE` (Vorgabe), führt eine einfaktorielle ANOVA nach Fisher durch, die gleiche Varianzen voraussetzt"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
@@ -787,6 +779,10 @@ msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt Mittelwerte und deren Standardfehler
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt die Änderungsindizes für Parameter aus, die nicht im Modell enthalten sind"
 
+#: descriptives/options/extreme.description.R
+msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
+msgstr ""
+
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
 msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt Perzentile aus"
@@ -843,8 +839,7 @@ msgstr "`TRUE` oder `FALSE` (Standard), gibt Spearman's Rho aus"
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr ""
-"`TRUE` oder `FALSE` (Vorgabe), gibt Statistiken im Korrelationsdiagramm aus"
+msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt Statistiken im Korrelationsdiagramm aus"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
@@ -1771,6 +1766,10 @@ msgstr "ein Array mit Tabellen mit Kontrasten"
 msgid "an array of descriptive plots"
 msgstr "ein Array mit deskriptivstatistischen Diagrammen"
 
+#: descriptives/results/extremeValues.description
+msgid "an array of extreme values tables"
+msgstr ""
+
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
 msgstr "ein Array mit Häufigkeitstabellen"
@@ -1839,6 +1838,10 @@ msgstr "eine ganze Zahl (Vorgabe: 1), gibt an wie viele Faktoren das Modell enth
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
 msgstr "eine ganze Zahl (Standard: 4), gibt die Anzahl der Gruppen mit gleicher Größe an"
+
+#: descriptives/options/extremeN.description.R
+msgid "an integer (default: 5) specifying the number of extreme values"
+msgstr ""
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2201,10 +2204,6 @@ msgstr "Kollinearitätsstatistik"
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
 msgstr "Spalte"
-
-#: R/ancova.b.R
-msgid "Column '{name}' contains unused levels (possible only when rows with missing values are excluded)"
-msgstr "Spalte '{name}' enthält nicht verwendete Faktor- / Variablenstufen (Berechnung ist nur möglich, wenn Zeilen mit fehlenden Werten ausgeschlossen werden)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -2979,8 +2978,7 @@ msgid "data('birthwt', package='MASS')\n"
 "#    vs. \"low = 0\"\n"
 "#\n"
 "#"
-msgstr ""
-"data('birthwt', package='MASS')\n"
+msgstr "data('birthwt', package='MASS')\n"
 "\n"
 "dat <- data.frame(\n"
 "            low = factor(birthwt$low),\n"
@@ -3151,8 +3149,7 @@ msgid "data('bugs', package = 'jmv')\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#    Note. Type 3 Sums of Squares\n"
 "#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
+msgstr "data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRM(\n"
 "    data = bugs,\n"
@@ -3174,16 +3171,12 @@ msgstr ""
 "#  ANOVA MIT MESSWIEDERHOLUNG\n"
 "#\n"
 "#  Zwischensubjekteffekte\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#                  Quadratsumme    df    Mittl. quad. Abw.    F       p\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
-"#    Frightening            126     1               126.11    44.2    < ."
-"001\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
+"#    Frightening            126     1               126.11    44.2    < .001\n"
 "#    Residual               257    90                 2.85\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#    Anmerkung. Typ-3-Quadratsumme\n"
 "#\n"
 "#\n"
@@ -3354,8 +3347,7 @@ msgid "data('HairEyeColor')\n"
 "#    133     3    < .001\n"
 "#  ───────────────────────\n"
 "#"
-msgstr ""
-"data('HairEyeColor')\n"
+msgstr "data('HairEyeColor')\n"
 "dat <- as.data.frame(HairEyeColor)\n"
 "\n"
 "propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1, 1, 1, 1))\n"
@@ -3633,8 +3625,7 @@ msgid "data('mtcars')\n"
 "#  ────────────────────────────────────────────────────\n"
 "#    Note. controlling for 'hp'\n"
 "#"
-msgstr ""
-"data('mtcars')\n"
+msgstr "data('mtcars')\n"
 "\n"
 "corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
 "\n"
@@ -3797,8 +3788,7 @@ msgid "data('mtcars')\n"
 "# splitting by multiple variables\n"
 "descriptives(formula = mpg ~ cyl:gear, dat,\n"
 "    median=F, min=F, max=F, missing=F)"
-msgstr ""
-"data('mtcars')\n"
+msgstr "data('mtcars')\n"
 "dat <- mtcars\n"
 "\n"
 "# für Faktoren können Häufigkeitstabellen angezeigt werden\n"
@@ -3935,8 +3925,7 @@ msgid "data('ToothGrowth')\n"
 "    data = ToothGrowth,\n"
 "    postHoc = ~ supp,\n"
 "    emMeans = ~ supp)"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
 "\n"
@@ -3944,16 +3933,13 @@ msgstr ""
 "#  ANCOVA\n"
 "#\n"
 "#  ANCOVA\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"\n"
+"#  ──────────────────────────────────────────────────────────────────────────\n"
 "#                Quadratsumme    df    Mittl. quad. Abw.    F        p\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"\n"
+"#  ──────────────────────────────────────────────────────────────────────────\n"
 "#    supp                 205     1                205.4     11.4     0.001\n"
 "#    dose                2224     1               2224.3    124.0    < .001\n"
 "#    Residuen            1023    57                 17.9\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"\n"
+"#  ──────────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "\n"
 "ancova(\n"
@@ -3987,8 +3973,7 @@ msgid "data('ToothGrowth')\n"
 "    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
 "    emmPlots = TRUE,              # produce plots of those marginal means\n"
 "    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr ""
-"data('ToothGrowth')\n"
+msgstr "data('ToothGrowth')\n"
 "\n"
 "ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
 "\n"
@@ -3996,27 +3981,22 @@ msgstr ""
 "#  ANOVA\n"
 "#\n"
 "#  ANOVA\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"\n"
+"#  ──────────────────────────────────────────────────────────────────────────\n"
 "#                Quadratsumme    df    Mittl. quad. Abw.    F        p\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"\n"
+"#  ──────────────────────────────────────────────────────────────────────────\n"
 "#    dose                2426     2               1213.2    92.00    < .001\n"
 "#    supp                 205     1                205.4    15.57    < .001\n"
 "#    dose:supp            108     2                 54.2     4.11     0.022\n"
 "#    Residuen             712    54                 13.2\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"\n"
+"#  ──────────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "\n"
 "ANOVA(\n"
 "    formula = len ~ dose * supp,\n"
 "    data = ToothGrowth,\n"
 "    emMeans = ~ supp + dose:supp, # berechne die geschätzten Randmittel für\n"
-"    emmPlots = TRUE,              # supp und dose:supp und gib Diagramme "
-"sowie\n"
-"    emmTables = TRUE)             # Tabellen mit diesen geschätzten "
-"Randmitteln\n"
+"    emmPlots = TRUE,              # supp und dose:supp und gib Diagramme sowie\n"
+"    emmTables = TRUE)             # Tabellen mit diesen geschätzten Randmitteln\n"
 "                                  # aus"
 
 #: anovaNP/options.description.R.usage
@@ -4168,13 +4148,25 @@ msgstr "Abhängig"
 msgid "Dependent Variable"
 msgstr "Abhängige Variable"
 
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains infinite values"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' contains only one unqiue value (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Dependent variable '{dep}' must be continuous"
+msgstr ""
+
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
 msgstr "Label für die abhängige Variable"
-
-#: R/ancova.b.R
-msgid "Dependent variable must be numeric"
-msgstr "Abhängige Variable muss numerisch sein"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4184,6 +4176,10 @@ msgstr "Abhängige Variable muss numerisch sein"
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
 msgstr "Abhängige Variablen"
+
+#: R/mancova.b.R
+msgid "Dependent variables are very highly correlated"
+msgstr ""
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4422,6 +4418,10 @@ msgstr "Eigenwerte"
 msgid "Eigenvalues greater than"
 msgstr "Eigenwerte größer als"
 
+#: R/anovarm.b.R
+msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgstr ""
+
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title
@@ -4573,6 +4573,18 @@ msgstr "Explorative Faktorenanalyse"
 msgid "Extraction"
 msgstr "Extraktion"
 
+#: descriptives/options/extreme.title
+msgid "Extreme values"
+msgstr ""
+
+#: descriptives/results/extremeValues.title
+msgid "Extreme Values"
+msgstr ""
+
+#: descriptives/results/extremeValues.template.title
+msgid "Extreme values of $key"
+msgstr ""
+
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -4607,17 +4619,25 @@ msgstr "F-Statistik konnte nicht berechnet werden"
 msgid "Factor"
 msgstr "Faktor"
 
+#: R/loglinear.b.R
+msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Faktor „{Faktor}“ benötigt mindestens 2 Faktorstufen"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data"
-msgstr "Faktor „{factorName}“ enthält keine Daten"
+msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgstr ""
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level"
-msgstr "Faktor „{factorName}“ enthält nur eine einzige Faktorstufe"
+msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgstr ""
+
+#: R/ancova.b.R
+msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4994,8 +5014,8 @@ msgid "Hypothesis"
 msgstr "Hypothese"
 
 #: reliability/results/items.columns.superTitle
-msgid "if item dropped"
-msgstr "wenn das Item weggelassen wird"
+msgid "If item dropped"
+msgstr ""
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5111,11 +5131,8 @@ msgid "Item Statistics"
 msgstr "Item-Statistik"
 
 #: reliability/options/itemRestCor.title
-msgid "Item-rest correlation"
-msgstr "Item-Rest-Korrelation"
-
 #: reliability/results/items.columns.title
-msgid "item-rest correlation"
+msgid "Item-rest correlation"
 msgstr "Item-Rest-Korrelation"
 
 #: reliability/options/vars.title
@@ -5190,10 +5207,6 @@ msgstr "Stufe 1"
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
 msgstr "Stufe 2"
-
-#: R/descriptives.b.R
-msgid "Levels"
-msgstr "Stufe"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -5411,16 +5424,13 @@ msgstr "McNemar-Test"
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
 msgstr "Mittelwert"
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "mean"
-msgstr "mittlere"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -5676,6 +5686,10 @@ msgstr "Modifikationsindizes"
 msgid "More than one mode exists, only the first is reported"
 msgstr "Es gibt mehr als einen Modalwert, nur der erste wird berichtet"
 
+#: descriptives/ui[2][3][2][0]/extreme.label
+msgid "Most extreme"
+msgstr ""
+
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
 msgstr "MSA"
@@ -5810,6 +5824,14 @@ msgstr "Test auf Normalverteilung"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test auf Normalverteilung (Shapiro-Wilk)"
 
+#: R/mancova.b.R
+msgid "Not available due to too large number of cases (> 5000)."
+msgstr ""
+
+#: R/mancova.b.R
+msgid "Not enough degrees of freedom to estimate all the model effects"
+msgstr ""
+
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
 msgstr "Anzahl der Komponenten"
@@ -5818,6 +5840,10 @@ msgstr "Anzahl der Komponenten"
 msgid "Number of components"
 msgstr "Anzahl der Komponenten"
 
+#: descriptives/options/extremeN.title
+msgid "Number of extreme values"
+msgstr ""
+
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
 msgstr "Anzahl der Faktoren"
@@ -5825,6 +5851,10 @@ msgstr "Anzahl der Faktoren"
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
 msgstr "Anzahl der Faktoren"
+
+#: R/descriptives.b.R
+msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgstr ""
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6030,6 +6060,10 @@ msgstr "Ordinale logistische Regression"
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
 msgstr "Ordinale Ergebnisse"
+
+#: descriptives/ui[2][3][2].label
+msgid "Outliers"
+msgstr ""
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7051,8 +7085,8 @@ msgid "Residual plots"
 msgstr "Diagramme der Residuen"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom is zero, indicating a perfect fit"
-msgstr "Die Quadratsumme der Residuen und/oder die Freiheitsgrade sind Null, was auf eine perfekte Anpassung des Modells hinweist"
+msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7149,6 +7183,10 @@ msgstr "Rotation"
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
 msgstr "Zeile"
+
+#: descriptives/results/extremeValues.template.columns.title
+msgid "Row number"
+msgstr ""
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7247,15 +7285,12 @@ msgstr "Scree-Test"
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#: reliability/results/scale.columns.title
+#: reliability/results/items.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "Std.-abw."
-
-#: reliability/results/scale.columns.title
-#: reliability/results/items.columns.title
-msgid "sd"
 msgstr "Std.-abw."
 
 #: R/ancova.b.R
@@ -7878,6 +7913,10 @@ msgstr "Der Binomialtest wird verwendet, um die Nullhypothese, dass der Anteil d
 msgid "the categorical explanatory (or independent) variables."
 msgstr "die kategorialen erklärenden (oder unabhängigen) Variablen."
 
+#: R/descriptives.b.R
+msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgstr ""
+
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
@@ -7953,6 +7992,15 @@ msgstr "Der Cut-off-Wert wird auf {} gesetzt"
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
 msgstr "die Daten als `data frame`"
+
+#: R/ancova.b.R
+#: R/mancova.b.R
+msgid "The dataset contains 0 rows (after removing rows with missing values)"
+msgstr ""
+
+#: R/loglinear.b.R
+msgid "The dataset contains 0 rows (or all rows contain missing values)"
+msgstr ""
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8053,10 +8101,7 @@ msgstr "die Methode zum Ausschluss fehlender Werte. `Analysis by analysis` schli
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
-"die Methode zum Ausschluss fehlender Werte. `Analysis by analysis` schließt "
-"fehlende Werte aus jeder Variablen aus. `Listwise` schließt eine Zeile von "
-"allen Analysen aus, wenn einer ihrer Werte fehlt."
+msgstr "die Methode zum Ausschluss fehlender Werte. `Analysis by analysis` schließt fehlende Werte aus jeder Variablen aus. `Listwise` schließt eine Zeile von allen Analysen aus, wenn einer ihrer Werte fehlt."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -8335,13 +8380,7 @@ msgstr "die Breite der Konfidenzintervalle."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr ""
-"Der χ²-Anpassungstest (manchmal auch χ²-Verteilungstest genannt; nicht zu "
-"verwechseln mit dem χ²-Unabhängigkeitstest) testet die Nullhypothese, dass "
-"die Anteile der Beobachtungen mit den erwarteten Anteilen übereinstimmen. "
-"Wenn der p-Wert niedrig ist, deutet dies darauf hin, dass die Nullhypothese "
-"falsch ist und dass die beobachten Anteile von den erwarteten Anteilen "
-"abweichen."
+msgstr "Der χ²-Anpassungstest (manchmal auch χ²-Verteilungstest genannt; nicht zu verwechseln mit dem χ²-Unabhängigkeitstest) testet die Nullhypothese, dass die Anteile der Beobachtungen mit den erwarteten Anteilen übereinstimmen. Wenn der p-Wert niedrig ist, deutet dies darauf hin, dass die Nullhypothese falsch ist und dass die beobachten Anteile von den erwarteten Anteilen abweichen."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
@@ -8429,10 +8468,7 @@ msgstr "Insgesamt"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr ""
-"total_pc (Vorgabe), column_pc, oder row_pc; verwendet entweder den "
-"prozentualen Anteil „an der Gesamtzahl“, „innerhalb der Spalten“ oder „"
-"innerhalb der Zeilen“ für die y-Achse des Balkendiagramms."
+msgstr "total_pc (Vorgabe), column_pc, oder row_pc; verwendet entweder den prozentualen Anteil „an der Gesamtzahl“, „innerhalb der Spalten“ oder „innerhalb der Zeilen“ für die y-Achse des Balkendiagramms."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -8521,12 +8557,17 @@ msgstr "obere Grenze"
 #: contTables/results/odds.columns.title
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
+#: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
 msgstr "Wert"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
 msgstr "Wert"
+
+#: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+msgid "values"
+msgstr ""
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
@@ -8626,9 +8667,7 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr ""
-"jede Zelle gleich gewichten (standardmäßig werden die Zellen nach der "
-"Zellenfrequenz gewichtet)."
+msgstr "jede Zelle gleich gewichten (standardmäßig werden die Zellen nach der Zellenfrequenz gewichtet)."
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
