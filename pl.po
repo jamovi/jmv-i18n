@@ -1,13 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-09-06 08:19+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: pl\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -464,7 +468,7 @@ msgstr "`TRUE` (domyślnie) lub `FALSE`, podaje oszacowania (ko)wariancji reszt"
 msgid ""
 "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, podaje średnie różnice dla testów post-hoc"
+"`TRUE` (domyślnie) lub `FALSE`, podaje różnice średnich dla testów post-hoc"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
@@ -871,8 +875,8 @@ msgid ""
 "`TRUE` or `FALSE` (default), provide confidence intervals for the mean "
 "difference"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla średniej "
-"różnicy"
+"`TRUE` lub `FALSE` (domyślnie), podaje przedziały ufności dla różnicy "
+"średnich"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
@@ -5712,7 +5716,7 @@ msgstr "Średnia ({ciWidth}% PU)"
 
 #: R/ancova.b.R R/anovarm.b.R
 msgid "Mean Difference"
-msgstr "Średnia różnica"
+msgstr "Różnica średnich"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -5722,7 +5726,7 @@ msgstr "Średnia różnica"
 #: ttestPS/options/meanDiff.title ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
 msgid "Mean difference"
-msgstr "Średnia różnica"
+msgstr "Różnica średnich"
 
 #: descriptives/ui[2][2][1].label
 msgid "Mean Dispersion"
@@ -6896,7 +6900,7 @@ msgstr "podaje przedziały ufności dla wielkości efektu"
 
 #: ttestIS/options/ci.description.ui ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr "podaje przedziały ufności dla średnich różnic."
+msgstr "podaje przedziały ufności dla różnic średnich."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
@@ -6957,11 +6961,11 @@ msgstr ""
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr "podaje średnie różnice oraz ich błędy standardowe."
+msgstr "podaje różnice średnich oraz ich błędy standardowe."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr "podaje średnie różnice wraz z testami post-hoc."
+msgstr "podaje różnice średnich wraz z testami post-hoc."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid ""
@@ -7431,7 +7435,7 @@ msgstr "Oceny czynnikowe"
 
 #: R/pca.b.R
 msgid "Score for component"
-msgstr "Oceny dla komponentu"
+msgstr "Oceny dla komponentu ('czynnika')"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
