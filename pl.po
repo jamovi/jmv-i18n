@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-06 08:19+0000\n"
+"PO-Revision-Date: 2022-09-06 09:19+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1028,6 +1028,8 @@ msgid ""
 "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) "
 "values"
 msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), podaje N wartości najbardziej skrajnych ("
+"najwyższych i najniższych)"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1342,14 +1344,16 @@ msgid ""
 "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the "
 "item was dropped"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje α Cronbacha obliczoną bez danego itemu"
+"`TRUE` lub `FALSE` (domyślnie), podaje α Cronbacha obliczoną bez danej "
+"pozycji"
 
 #: reliability/options/omegaItems.description.R
 msgid ""
 "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the "
 "item was dropped"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje ω McDonalda obliczoną bez danego itemu"
+"`TRUE` lub `FALSE` (domyślnie), podaje ω McDonalda obliczoną bez danej "
+"pozycji"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
@@ -2231,7 +2235,7 @@ msgstr "tablica wykresów opisowych"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "tablica wartości skrajnych"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -2299,7 +2303,7 @@ msgstr "liczba całkowita (domyślnie: 4) określająca liczbę równych grup"
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "liczba całkowita (domyślnie: 5) określająca liczbę wartości skrajnych"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4566,23 +4570,27 @@ msgstr "Zmienna zależna"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "Zmienna zależna \"{dep}\" zawiera wartości nieskończone"
 
 #: R/ancova.b.R
 msgid ""
 "Dependent variable '{dep}' contains no data (after removing rows with "
 "missing values)"
 msgstr ""
+"Zmienna zależna '{dep}' nie zawiera danych (po usunięciu wierszy z brakami "
+"danych)"
 
 #: R/ancova.b.R
 msgid ""
 "Dependent variable '{dep}' contains only one unqiue value (after removing "
 "rows with missing values)"
 msgstr ""
+"Zmienna zależna '{dep}' zawiera tylko jedną unikalną wartość (po usunięciu "
+"wierszy z brakami danych)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Zmienna zależna '{dep}' musi być zmienną ciągłą"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4596,7 +4604,7 @@ msgstr "Zmienne zależne"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Zmienne zależne są bardzo silnie skorelowane"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4814,6 +4822,8 @@ msgid ""
 "Empty cells in between subject design: at least one combination of between "
 "subject factor levels has 0 observations"
 msgstr ""
+"Puste komórki w planie międzyobiektowym: co najmniej jedna kombinacja "
+"poziomów czynników międzyobiektowych nie zawiera obserwacji"
 
 #: ancova/options/emmWeights.title anova/options/emmWeights.title
 #: anovaRM/options/emmWeights.title linReg/options/emmWeights.title
@@ -4943,15 +4953,15 @@ msgstr "Ekstrakcja"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Wartości skrajne"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Wartości skrajne"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Wartości skrajne $key"
 
 #: ancova/results/main.columns.title anovaOneW/results/anova.columns.title
 #: anovaRM/results/rmTable.columns.title anovaRM/results/bsTable.columns.title
@@ -4983,6 +4993,8 @@ msgid ""
 "Factor '{factor}' has less than two levels. Factors must have at least two "
 "levels"
 msgstr ""
+"Czynnik '{factor}' ma mniej niż dwa poziomy. Czynniki muszą mieć co najmniej "
+"dwa poziomy"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4993,18 +5005,24 @@ msgid ""
 "Factor '{factorName}' contains no data (after removing rows with missing "
 "values)"
 msgstr ""
+"Czynnik '{factorName}' nie zawiera żadnych danych (po usunięciu wierszy z "
+"brakami danych)"
 
 #: R/ancova.b.R
 msgid ""
 "Factor '{factorName}' contains only a single level (after removing rows with "
 "missing values)"
 msgstr ""
+"Czynnik '{factorName}' zawiera tylko jeden poziom (po usunięciu wierszy z "
+"brakami danych)"
 
 #: R/ancova.b.R
 msgid ""
 "Factor '{factorName}' contains unused levels (after removing rows with "
 "missing values)"
 msgstr ""
+"Czynnik '{factorName}' zawiera niewykorzystane poziomy (po usunięciu wierszy "
+"z brakami danych)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5338,7 +5356,7 @@ msgstr "Hipoteza"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Po usunięciu danej pozycji"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5674,7 +5692,7 @@ msgstr "ω McDonalda"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr "ω McDonald's (po usunięciu danej pozycji)"
+msgstr "ω McDonald's (bez danej pozycji)"
 
 #: logLinear/options/pseudoR2/r2mf.title logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
@@ -5920,7 +5938,7 @@ msgstr "Istnieje więcej niż jedna modalna, podana została pierwsza z nich"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "Najbardziej skrajne"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -6045,11 +6063,13 @@ msgstr "Test normalności (Shapiro-Wilk)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Niedostępne ze względu na zbyt dużą liczbę przypadków (> 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
 msgstr ""
+"Niewystarczająca liczba stopni swobody do oszacowania wszystkich efektów "
+"modelu"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -6061,7 +6081,7 @@ msgstr "Liczba składowych"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Liczba wartości skrajnych"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -6076,6 +6096,7 @@ msgid ""
 "Number of requested extreme values is higher than the number of rows in the "
 "data."
 msgstr ""
+"Liczba żądanych wartości skrajnych jest większa niż liczba wierszy w danych."
 
 #: efa/options/rotation/oblimin.title pca/options/rotation/oblimin.title
 msgid "Oblimin"
@@ -6313,7 +6334,7 @@ msgstr "Wyniki porządkowe"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "Przypadki odstające"
 
 #: ancova/ui[6][1][0][0].label anova/ui[6][1][0][0].label
 #: anovaRM/ui[5][1][0][0].label linReg/ui[6][1][1][0].label
@@ -7279,6 +7300,8 @@ msgid ""
 "Residual sum of squares and/or degrees of freedom are zero, indicating a "
 "perfect fit"
 msgstr ""
+"Resztowa suma kwadratów i/lub stopnie swobody wynoszą zero, co wskazuje na "
+"doskonałe dopasowanie"
 
 #: R/ancova.b.R R/linreg.b.R R/logregbin.b.R R/mancova.b.R
 #: ancova/options/residsOV.title ancova/results/residsOV.title
@@ -7363,7 +7386,7 @@ msgstr "Wiersz"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Numer wiersza"
 
 #: R/conttables.b.R R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
@@ -8059,6 +8082,8 @@ msgid ""
 "The CI of the mean assumes sample means follow a t-distribution with N - 1 "
 "degrees of freedom"
 msgstr ""
+"PU średniej zakłada, że średnie z próby przyjmują rozkład t z N - 1 "
+"stopniami swobody"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8128,11 +8153,12 @@ msgstr "dane jako ramka danych"
 
 #: R/ancova.b.R R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
+msgstr "Zbiór danych zawiera 0 wierszy (po usunięciu wierszy z brakami danych)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
+"Zbiór danych zawiera 0 wierszy (lub wszystkie wiersze zawierają braki danych)"
 
 #: R/logregbin.b.R
 msgid ""
@@ -8853,7 +8879,7 @@ msgstr "wartość"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "wartości"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
