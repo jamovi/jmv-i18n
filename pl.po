@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-05 15:20+0000\n"
+"PO-Revision-Date: 2022-09-06 07:18+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -8801,8 +8801,8 @@ msgstr ""
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
-"Zmienne {vars} nie mogą być traktowane jako numeryczne. Wykresy wymagają "
-"danych numerycznych nie będą tworzone dla tych zmiennych."
+"Zmienne {vars} nie mogą być traktowane jako numeryczne. Wykresy wymagające "
+"danych numerycznych nie zostaną utworzone dla tych zmiennych."
 
 #: ttestOneS/options/vars.description.ui
 #, fuzzy
@@ -8818,8 +8818,8 @@ msgstr "zmiennych będących przedmiotem zainteresowania."
 #: contTables/options/layers.description.R
 msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
-"zmienne używane do podziału tabeli krzyżowej (nie są konieczne przy używaniu "
-"formuły; zobacz przykłady)"
+"zmienne, które zostaną użyte do podziału tabeli krzyżowej (nie są konieczne "
+"przy używaniu formuły - zobacz przykłady)"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
@@ -8841,9 +8841,9 @@ msgstr ""
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
 "Test zgodności χ² (nie mylić z testem χ² dobroci dopasowania) służy do "
-"sprawdzenia, czy dwie zmienne kategoryczne są niezależne czy też powiązane "
-"ze sobą. Niska wartość p sugeruje, że zmienne nie są niezależne i że może "
-"istnieć związek między nimi."
+"sprawdzenia, czy dwie zmienne kategorialne są od siebie niezależne czy też "
+"powiązane ze sobą. Niska wartość p sugeruje, że zmienne nie są niezależne, i "
+"że może istnieć związek pomiędzy nimi."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -8859,9 +8859,9 @@ msgstr "Kwantyle teoretyczne"
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
-"Ten moduł obejmuje analizy zawarte w jamovi. Zawiera wiele powszechnych "
-"analiz (takich jak testy t, ANOVA, regresja, współczynniki korelacji, testy "
-"proporcji, tabele zgodności, analiz czynnikowa, itd.)."
+"Ten moduł zawiera analizy dostarczone z jamovi. Znajduje się w nim wiele "
+"popularnych analiz (takich jak testy t, ANOVA, regresja, współczynniki "
+"korelacji, testy proporcji, tabele zgodności, analiz czynnikowa, itd.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
@@ -8899,11 +8899,11 @@ msgstr ""
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr "Zbyt mała próba, żeby obliczyć statystyki (N < {n})"
+msgstr "Zbyt mała liczba prób, żeby obliczyć statystyki (N < {n})"
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr "Zbyt mała próba, żeby obliczyć statystyki (N < 3)"
+msgstr "Zbyt mała liczba prób, żeby obliczyć statystyki (N < 3)"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
@@ -8912,11 +8912,11 @@ msgstr "Zbyt dużo obserwacji (N > 5000), żeby obliczyć statystyki"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr "Zbyt duża próba, żeby obliczyć statystyki (N > {n})"
+msgstr "Zbyt duża liczba prób, żeby obliczyć statystyki (N > {n})"
 
 #: R/ttestis.b.R
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr "Zbyt duża próba, żeby obliczyć statystyki (N > 5000)"
+msgstr "Zbyt duża liczba prób, żeby obliczyć statystyki (N > 5000)"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
@@ -8932,8 +8932,9 @@ msgstr "Całość"
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
 msgstr ""
-"total_pc (domyślnie), column_pc, lub row_pc. Użyj odpowiednio: procentów `of "
-"total`, `within columns`, lub `within rows` dla osi y wykresu słupkowego."
+"total_pc (domyślnie), column_pc lub row_pc. Użyj odpowiednio: procentów `of "
+"total` (z całości), `within columns` (w kolumnach) lub `within rows` (w "
+"wierszach) dla osi y wykresu słupkowego."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -8947,7 +8948,7 @@ msgstr "test Tukey'a (równe wariancje)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr "test post-hic Tukey'a – {dep}"
+msgstr "test post-hoc Tukey'a – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
@@ -8956,19 +8957,19 @@ msgstr "Suma kwadratów typu {ssType}"
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr "Typ 1"
+msgstr "Typ I."
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr "Typ 2"
+msgstr "Typ II."
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr "Typ 3"
+msgstr "Typ III."
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
@@ -8976,7 +8977,7 @@ msgstr "Suma kwadratów typu III."
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr "Nie można podzielić przez zmienną ciągłą"
+msgstr "Nie można podzielić na grupy przy pomocy zmiennej ciągłej"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
@@ -9049,7 +9050,7 @@ msgstr "Zmienna '{var}' nie zawiera danych"
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable contains infinite values"
-msgstr "Zmienna zawiera nieskończone wartości"
+msgstr "Zmienna zawiera wartości nieskończone"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
@@ -9090,12 +9091,13 @@ msgstr "Wariancja"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr "Wariancja"
+msgstr "Wariancje"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
 msgstr ""
-"wariancja zmiennych kontrolnych jest usuwana tylko ze zmiennych w kolumnach"
+"wariancja zmiennych kontrolowanych jest usuwana tylko ze zmiennych w "
+"kolumnach"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -9113,7 +9115,7 @@ msgstr "VIF"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr "Skrzypcowy"
+msgstr "Wiolinowy"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
@@ -9129,8 +9131,8 @@ msgstr "W"
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
-"zastosuj równe wagi dla każdej komórki. (Komórki są domyślnie ważone według "
-"częstości)."
+"zastosuj równe wagi dla każdej komórki. (Domyślnie komórki są ważone według "
+"częstości.)"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -9200,8 +9202,8 @@ msgstr "oś Y"
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
 msgstr ""
-"ycounts (domyślnie) lub ypc. Użyj odpowiednio `counts` lub `percentages` dla "
-"osi y wykresu słupkowego"
+"ycounts (domyślnie) lub ypc. Użyj odpowiednio: `counts` (liczebności) lub "
+"`percentages` (procenty) dla osi y wykresu słupkowego"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
