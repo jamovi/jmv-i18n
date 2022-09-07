@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-07 13:21+0000\n"
+"PO-Revision-Date: 2022-09-07 14:19+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hans/>\n"
@@ -4620,7 +4620,7 @@ msgstr "因子“{factorName}”仅包含一个水平（在删除缺少值的行
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
+msgstr "因子“{factorName}”包含未使用的水平（删除缺失值的行之后）"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4998,7 +4998,7 @@ msgstr "假设检验"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "如果去除此项"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5837,7 +5837,7 @@ msgstr "因子个数"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
+msgstr "请求的极值数高于数据中的行数。"
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6046,7 +6046,7 @@ msgstr "有序分类结局"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "离群值"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7053,7 +7053,7 @@ msgstr "残差图"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
+msgstr "残差平方和 与/或 自由度为零，表示完美拟合"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7153,7 +7153,7 @@ msgstr "行"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "行数"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7853,7 +7853,7 @@ msgstr "分类解释变量（或自变量）。"
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
+msgstr "均值的 CI 假设样本均值服从具有 N - 1 个自由度的 t 分布"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -7934,11 +7934,11 @@ msgstr "数据框格式"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
+msgstr "数据集包含 0 行（删除缺失值的行后）"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "数据集包含 0 行（或所有行都包含缺失值）"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8450,7 +8450,7 @@ msgstr "值"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "值"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
