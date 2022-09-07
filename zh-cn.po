@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-09-07 13:21+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"jamovi/jmv-i18n/zh_Hans/>\n"
+"Language: zh-cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: zh-cn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -4137,11 +4141,11 @@ msgstr "因变量“{dep}”没有任何数据（在删除缺失值的行之后�
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
+msgstr "因变量“{dep}”仅包含一个唯一值（在删除缺少值的行后）"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "因变量“{dep}”必须是连续型变量"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4158,7 +4162,7 @@ msgstr "因变量"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "因变量相关度高"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4399,7 +4403,7 @@ msgstr "特征值大于"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
+msgstr "主设计之间的空单元格：主因子水平之间的至少一种组合具有 0 个观察值"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4554,15 +4558,15 @@ msgstr "提取"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "极端值"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "极端值"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "$key 的极值"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4600,7 +4604,7 @@ msgstr "因子"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
+msgstr "因子“{factor}”的水平数少于两个。因子必须至少有两个水平"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4608,11 +4612,11 @@ msgstr "因子“{factorName}”至少需要两个水平"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "因子“{factorName}”不包含任何数据（在删除缺失值的行后）"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
+msgstr "因子“{factorName}”仅包含一个水平（在删除缺少值的行后）"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
@@ -5667,7 +5671,7 @@ msgstr "当存在多个众数时，仅报告第一个"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "最极端"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5805,11 +5809,11 @@ msgstr "正态性检验 (Shapiro-Wilk)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "不可用，因为个案数量过多（> 5000）。"
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "没有足够的自由度来估计所有模型效应"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5821,7 +5825,7 @@ msgstr "成分个数"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "极值数量"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
