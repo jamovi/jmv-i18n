@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-09 20:18+0000\n"
+"PO-Revision-Date: 2022-09-09 21:21+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -31,11 +31,12 @@ msgstr "'{col}' zawiera wyłącznie jedną unikalną wartość"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "metoda '{method}' została zastosowana w połączeniu z rotacją '{rotation}'"
+msgstr ""
+"Metoda '{method}' została zastosowana w połączeniu z rotacją '{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr "zastosowano rotację '{rotation}'"
+msgstr "Zastosowano rotację '{rotation}'"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -1722,7 +1723,7 @@ msgstr "Opcje dodatkowe"
 #: efa/ui[1][1][2].label
 #: pca/ui[1][1][2].label
 msgid "Additional Output"
-msgstr "Dodatkowe wyjście"
+msgstr "Dodatkowe wyniki"
 
 #: anovaOneW/ui[1][1][0].label
 #: propTest2/ui[1][1][0].label
@@ -4817,7 +4818,7 @@ msgstr "Test Friedmana"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
-msgstr "Metoda Największej Wiarygodności z pełną informacją (FIML)"
+msgstr "FIML"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
@@ -5127,7 +5128,9 @@ msgstr "Pozycja '{item}' musi być numeryczna"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr "pozycja {item} koreluje negatywnie z wynikiem ogólnym i prawdopodobnie powinna zostać odwrócona"
+msgstr ""
+"Pozycja {item} koreluje ujemnie z wynikiem ogólnym i prawdopodobnie powinna "
+"zostać rekodowana."
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
@@ -5385,7 +5388,7 @@ msgstr "Maksimum"
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr "Metoda największej wiarygodności (ML)"
+msgstr "Największej wiarygodności (ML)"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
@@ -5543,7 +5546,7 @@ msgstr "Minimum"
 
 #: R/pca.b.R
 msgid "Minimum residual"
-msgstr "Minimalna reszta"
+msgstr "Minimalne reszty"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
@@ -6487,7 +6490,7 @@ msgstr "Testy post-hoc - $key"
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr "Wydajność modelu post-hoc"
+msgstr "Model post-hoc"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
@@ -7434,7 +7437,7 @@ msgstr "6. stopnia"
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
 msgid "Shapiro-Wilk"
-msgstr "test Shapiro-Wilka"
+msgstr "Test Shapiro-Wilka"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
@@ -7477,7 +7480,7 @@ msgstr "simplimax"
 
 #: R/pca.b.R
 msgid "Simulations"
-msgstr "Symulacje"
+msgstr "Symulacja"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
