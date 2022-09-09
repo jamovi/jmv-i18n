@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-09 13:22+0000\n"
+"PO-Revision-Date: 2022-09-09 14:17+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1133,7 +1133,7 @@ msgstr "1 - Specyfikacja"
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr "2 Wyniki"
+msgstr "2 wartości"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
@@ -2067,7 +2067,7 @@ msgstr "Wielka Piątka (Dolan, Oort, Stoel & Wicherts, 2009)"
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
 msgid "Binomial"
-msgstr "Dwumian"
+msgstr "Dwumianowa"
 
 #: package/analyses/logRegBin.title
 #: package/analyses/logRegBin.description
@@ -2591,7 +2591,7 @@ msgstr "Liczebność"
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr "Liczebność"
+msgstr "Liczebności"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -2599,7 +2599,7 @@ msgstr "Liczebność"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "Liczebność (opcjonalne)"
+msgstr "Liczebności (opcjonalne)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -2783,12 +2783,13 @@ msgid "dat <- data.frame(x=c(8, 15))\n"
 "#  ───────────────────────────────────────────────────────\n"
 "#    Note. Hₐ is proportion ≠ 0.5\n"
 "#"
-msgstr "dat <- data.frame(x=c(8, 15))\n"
+msgstr ""
+"dat <- data.frame(x=c(8, 15))\n"
 "\n"
 "propTest2(dat, vars = x, areCounts = TRUE)\n"
 "\n"
 "#\n"
-"#  TESTY DLA PROPORCJI (2 WYNIKI)\n"
+"#  TESTY DLA PROPORCJI (2 WARTOŚCI)\n"
 "#\n"
 "#  Test dwumianowy\n"
 "#  ───────────────────────────────────────────────────────\n"
@@ -4546,7 +4547,7 @@ msgstr "Wykluczone"
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
 msgid "Expected"
-msgstr "Oczekiwane"
+msgstr "Oczekiwana"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
@@ -4812,7 +4813,7 @@ msgstr "Tabele częstości"
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
 msgid "Friedman"
-msgstr "test Friedmana"
+msgstr "Test Friedmana"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
@@ -5416,7 +5417,7 @@ msgstr "Test McNemara"
 #: contTablesPaired/options.menuSubtitle
 #: contTablesPaired/options.description.main
 msgid "McNemar test"
-msgstr "test McNemara"
+msgstr "Test McNemara"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5703,7 +5704,7 @@ msgstr "MSA"
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
 msgid "Multinomial"
-msgstr "Wielomianowy"
+msgstr "Wielomianowa"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -5749,7 +5750,7 @@ msgstr "N"
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr "N wyników"
+msgstr "N wartości"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
@@ -5875,7 +5876,7 @@ msgstr "oblimin"
 #: R/logregbin.b.R
 #: propTestN/results/props.columns.content
 msgid "Observed"
-msgstr "Obserwowane"
+msgstr "Obserwowana"
 
 #: contTables/options/obs.title
 msgid "Observed counts"
@@ -5895,7 +5896,7 @@ msgstr "wielomian 8. stopnia"
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
 msgid "Odds Ratio"
-msgstr "iloraz szans"
+msgstr "Iloraz szans"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -6065,7 +6066,7 @@ msgstr "Porządkowa regresja logistyczna"
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
-msgstr "Wyniki porządkowe"
+msgstr "Porządkowa"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
@@ -6616,7 +6617,7 @@ msgstr "Proporcja"
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr "Test proporcji (2 wyniki)"
+msgstr "Test proporcji (2 wartości)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
@@ -7968,7 +7969,7 @@ msgstr "współzmienne z `data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr "Punkt odcięcia jest ustawiony na {}"
+msgstr "Wartość graniczna jest ustawiona na {}"
 
 #: ancova/options/data.description.R
 #: anova/options/data.description.R
@@ -8433,7 +8434,7 @@ msgstr "TLI"
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "Tolerance"
-msgstr "tolerancja"
+msgstr "Tolerancja"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
