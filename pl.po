@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-09 09:20+0000\n"
+"PO-Revision-Date: 2022-09-09 12:21+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -308,7 +308,9 @@ msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test t Studenta"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welsch'a (nie zakłada równości wariancji)"
+msgstr ""
+"`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welch'a ("
+"nie zakłada równości wariancji)"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
@@ -2035,7 +2037,7 @@ msgstr "Czynniki międzyobiektowe"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr "Składowe (czynniki) międzyobiektowe"
+msgstr "Czynniki międzyobiektowe"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
@@ -2115,7 +2117,7 @@ msgstr "Bloki"
 #: anova/options/postHocCorr/bonf.title
 #: anovaRM/options/postHocCorr/bonf.title
 msgid "Bonferroni"
-msgstr "test Bonferroniego"
+msgstr "Test Bonferroniego"
 
 #: descriptives/options/box.title
 msgid "Box plot"
@@ -4367,7 +4369,7 @@ msgstr "przeciągnij zmienne tutaj"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
-msgstr "porównanie parami metodą DSCF"
+msgstr "Porównanie parami metodą DSCF"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -4379,7 +4381,7 @@ msgstr "statystyka DW"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr "porównanie parami metodą Dwass-Steel-Critchlow-Fligner"
+msgstr "Porównanie parami metodą DSCF"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -4526,7 +4528,7 @@ msgstr "Metoda estymacji"
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "Wyklucz przypadki analiza po analizie"
+msgstr "Wyklucz obserwacje analiza po analizie"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -4534,7 +4536,7 @@ msgstr "Wyklucz przypadki analiza po analizie"
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr "Wyklucz przypadki wg listy"
+msgstr "Wyklucz obserwacje w całości"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -4728,7 +4730,7 @@ msgstr "czynniki"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
-msgstr "Fishera"
+msgstr "test Fishera"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
@@ -4817,11 +4819,11 @@ msgstr "Metoda Największej Wiarygodności z pełną informacją (FIML)"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
-msgstr "test Games-Howell (nierówne wariancje)"
+msgstr "Test Gamesa-Howella (nierówne wariancje)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr "test post-hoc Gamesa-Howella – {dep}"
+msgstr "Test post-hoc Gamesa-Howella – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
@@ -4850,7 +4852,7 @@ msgstr "Średnia ogólna (proste kodowanie)"
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Greenhouse-Geisser"
-msgstr "statystyka Greenhouse'a-Geissera"
+msgstr "Statystyka Greenhouse'a-Geissera"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Greenhouse-Geisser ε"
@@ -4971,7 +4973,7 @@ msgstr "Histogramy"
 #: anova/options/postHocCorr/holm.title
 #: anovaRM/options/postHocCorr/holm.title
 msgid "Holm"
-msgstr "metoda Holma"
+msgstr "Metoda Holma"
 
 #: ancova/results/assump/homo.title
 #: anova/results/assump/homo.title
@@ -4997,7 +4999,7 @@ msgstr "Ślad Hotellinga"
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Huynh-Feldt"
-msgstr "poprawka Huynha-Feldta"
+msgstr "Poprawka Huynha-Feldta"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Huynh-Feldt ε"
@@ -5182,7 +5184,7 @@ msgstr "Miara KMO adekwatności doboru próby"
 #: anovaNP/options.menuSubtitle
 #: anovaNP/results/table.title
 msgid "Kruskal-Wallis"
-msgstr "test Kruskala-Wallisa"
+msgstr "Test Kruskala-Wallisa"
 
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
@@ -6176,19 +6178,19 @@ msgstr "wartość p"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
-msgstr "p<sub>testu Bonferroniego</sub>"
+msgstr "p<sub> Bonferroni</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr "p<sub>testu Holma</sub>"
+msgstr "p<sub> Holm</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
-msgstr "p<sub>testu Scheffe'go</sub>"
+msgstr "p<sub> Scheffé</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>tukey</sub>"
-msgstr "p<sub>testu Tukey'a</sub>"
+msgstr "p<sub> Tukey</sub>"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
@@ -6307,7 +6309,7 @@ msgstr "Diagram ścieżkowy"
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
-msgstr "współczynnik Pearsona"
+msgstr "r Pearsona"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6378,15 +6380,15 @@ msgstr "wykonaj testy normalności Shapiro-Wilka. Niska wartość p sugeruje, ż
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr "wykonaj testy t-Studenta dla prób niezależnych."
+msgstr "wykonuje testy t Studenta dla prób niezależnych."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr "wykonaj testy t-Studenta dla jednej próby."
+msgstr "wykonuje testy t Studenta dla jednej próby."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr "wykonaj testy t-Studenta dla prób zależnych."
+msgstr "wykonuje testy t Studenta dla prób zależnych."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
@@ -6671,15 +6673,15 @@ msgstr "wyświetl tabelę z oszacowanymi średnimi brzegowymi."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "podaj czynniki Bayesa dla testów t-Studenta dla prób niezależnych."
+msgstr "podaje czynniki Bayesa dla testów t Studenta dla prób niezależnych."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "podaj czynniki Bayesa dla testów t-Studenta dla jednej próby."
+msgstr "podaje czynniki Bayesa dla testów t Studenta dla jednej próby."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "podaj czynniki Bayesa dla testów t-Studenta dla prób zależnych."
+msgstr "podaje czynniki Bayesa dla testów t Studenta dla prób zależnych."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
@@ -6837,7 +6839,7 @@ msgstr "K-K"
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr "wykres K-K"
+msgstr "Wykres K-K"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -7030,7 +7032,7 @@ msgstr "Komórki z powtarzanymi pomiarami"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr "Komponenty ('czynniki') powtarzanych pomiarów"
+msgstr "Czynniki wewnątrzobiektowe"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
@@ -7041,7 +7043,7 @@ msgstr "Czynniki powtarzanych pomiarów"
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr "Oznacz wyniki istotne"
+msgstr "Wyświetl istotność statystyczną"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
@@ -7256,7 +7258,7 @@ msgstr "Statystyki dla skal"
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
 msgid "Scheffe"
-msgstr "test Scheffégo"
+msgstr "Test Scheffégo"
 
 #: R/pca.b.R
 msgid "Score Component"
@@ -7496,7 +7498,7 @@ msgstr "Sortuj ładunki według wielkości"
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
 msgid "Spearman"
-msgstr "współczynnik Spearmana"
+msgstr "rho Spearmana"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -7647,7 +7649,7 @@ msgstr "Błąd standardowy skośności"
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
 msgid "Student's"
-msgstr "Studenta"
+msgstr "t Studenta"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
@@ -8128,7 +8130,9 @@ msgstr "poprawki dla wielokrotnych porównań post-hoc."
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "szerokość prioru dla czynników Bayesa testu t-Studenta. Wymaga wartości pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
+msgstr ""
+"szerokość prioru dla czynników Bayesa testu t Studenta. Wymaga wartości "
+"pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -8199,9 +8203,12 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "Test t-Studenta dla prób niezależnych (czasami nazywany testem t dla dwóch grup)\n"
+msgstr ""
+"Test t Studenta dla prób niezależnych (czasami nazywany testem t dla dwóch "
+"grup)\n"
 "jest używany do testowania hipotezy zerowej głoszącej, że dwie grupy mają\n"
-"taką samą średnią. Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa,\n"
+"taką samą średnią. Niska wartość p sugeruje, że hipoteza zerowa nie jest "
+"prawdziwa,\n"
 "w związku z czym średnie można uznać za istotnie różniące się od siebie."
 
 #: ttestIS/options.description.main
@@ -8476,15 +8483,15 @@ msgstr "total_pc (domyślnie), column_pc lub row_pc. Użyj odpowiednio: procent�
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr "test Tukey'a"
+msgstr "Test Tukey'a"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr "test Tukey'a (równe wariancje)"
+msgstr "Test Tukey'a (równe wariancje)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr "test post-hoc Tukey'a – {dep}"
+msgstr "Test post-hoc Tukey'a – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
@@ -8548,7 +8555,7 @@ msgstr "Testy jednowymiarowe"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr "Górna"
+msgstr "Górna granica"
 
 #: R/descriptives.b.R
 msgid "upper bound"
@@ -8565,7 +8572,7 @@ msgstr "Wartość"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr "wartość"
+msgstr "Wartość"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
@@ -8682,7 +8689,7 @@ msgstr "Wagi (opcjonalnie)"
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr "Welch'a"
+msgstr "test Welch'a"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
