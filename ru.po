@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-09-11 08:16+0000\n"
+"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -782,6 +787,8 @@ msgstr "`TRUE` или `FALSE` (по умолчанию), представляе�
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
+"`TRUE` или `FALSE` (по умолчанию), предоставляют N самых экстремальных ("
+"наибольшее и наименьшее) значений"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1768,7 +1775,7 @@ msgstr "массив описательных графиков"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "массив таблиц экстремальных значений"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -1842,6 +1849,7 @@ msgstr "целое число (по умолчанию: 4), определяющ
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
 msgstr ""
+"целое число (по умолчанию: 5), определяющее количество экстремальных значений"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4150,18 +4158,23 @@ msgstr "Зависимая переменная"
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
 msgstr ""
+"Зависимая переменная '{dep}' содержит неопределенное количество значений"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Зависимая переменная '{dep}' не содержит данных (после удаления строк с "
+"отсутствующими значениями)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"Зависимая переменная '{dep}' содержит только одно уникальное значение (после "
+"удаления строк с отсутствующими значениями)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Зависимая переменная '{dep}' должна быть непрерывной"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4178,7 +4191,7 @@ msgstr "Зависимые переменные"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Зависимые переменные очень сильно коррелируют между собой"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4420,6 +4433,8 @@ msgstr "Собственные значения больше, чем"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"Пустые клетки между предметом дизайна: по крайней мере одно сочетание между "
+"уровнями фактора предмета имеет 0 наблюдений"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4574,15 +4589,15 @@ msgstr "Извлечение"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Экстремальные значения"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Экстремальные значения"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Экстремальные значения $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4621,6 +4636,8 @@ msgstr "Фактор"
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"Фактор '{фактор}' имеет менее двух уровней. Факторы должны иметь не менее "
+"двух уровней"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4629,14 +4646,20 @@ msgstr "Фактор '{factor}' должен иметь как минимум 2 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Фактор '{factorName}' не содержит данных (после удаления строк с "
+"отсутствующими значениями)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"Фактор '{factorName}' содержит только один уровень (после удаления строк с "
+"отсутствующими значениями)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"Фактор '{factorName}' содержит неиспользованные уровни (после удаления строк "
+"с отсутствующими значениями)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5014,7 +5037,7 @@ msgstr "Гипотеза"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Если элемент выпал"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5687,7 +5710,7 @@ msgstr "Существует более одной моды, сообщаетс�
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "Самый экстремальный"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5825,11 +5848,11 @@ msgstr "Тест на нормальность (Шапиро-Уилк)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Недоступно из-за слишком большого количества случаев (строк > 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "Недостаточно степеней свободы для оценки всех эффектов модели"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5841,7 +5864,7 @@ msgstr "Количество компонент"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Количество экстремальных значений"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -5854,6 +5877,8 @@ msgstr "Количество факторов"
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
+"Количество запрашиваемых экстремальных значений больше, чем количество строк "
+"в данных."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6062,7 +6087,7 @@ msgstr "Порядковые исходы"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "Выбросы"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7080,6 +7105,8 @@ msgstr "Графики остатков"
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
+"Сумма квадратов остатков и/или степени свободы равны нулю, что указывает на "
+"идеальное соответствие"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7179,7 +7206,7 @@ msgstr "Строка"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Номер строки"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7907,6 +7934,8 @@ msgstr "категориальные объясняющие (или незави
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"Доверительный интервал среднего предполагает, что выборочные средние следуют "
+"t-распределению с N–1 степенями свободы"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -7988,10 +8017,14 @@ msgstr "данные в формате фрейма"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"Набор данных содержит 0 строк (после удаления строк с отсутствующими "
+"значениями)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
+"Набор данных содержит 0 строк (или все строки содержат отсутствующие "
+"значения)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8553,7 +8586,7 @@ msgstr "значение"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "значения"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
