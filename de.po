@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-09-23 17:18+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -782,6 +786,8 @@ msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt die Änderungsindizes für Parameter
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
+"`TRUE` oder `FALSE` (Standard), liefert die N extremsten (höchsten und "
+"niedrigsten) Werte"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1768,7 +1774,7 @@ msgstr "ein Array mit deskriptivstatistischen Diagrammen"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "ein Array von Tabellen mit Extremwerten"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -1841,7 +1847,7 @@ msgstr "eine ganze Zahl (Standard: 4), gibt die Anzahl der Gruppen mit gleicher 
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "eine Ganzzahl (Standard: 5), welche die Anzahl der Extremwerte angibt"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4150,19 +4156,23 @@ msgstr "Abhängige Variable"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "Die abhängige Variable '{dep}' enthält unendliche Werte"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Die abhängige Variable '{dep}' enthält keine Daten (nach dem Entfernen von "
+"Zeilen mit fehlenden Werten)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"Die abhängige Variable '{dep}' enthält nur einen einzigen Wert (nach dem "
+"Entfernen von Zeilen mit fehlenden Werten)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Die abhängige Variable '{dep}' muss kontinuierlich sein"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
