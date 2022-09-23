@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2022-09-23 17:56+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/nb_NO/>\n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: no\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -782,6 +786,8 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut modifikasjonsindeksene for parame
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
+"`TRUE` eller `FALSE` (standard), gi ut de N mest ekstreme (høyeste og "
+"laveste) verdiene"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1768,7 +1774,7 @@ msgstr "et array med deskriptivstatistiske diagrammer"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "en matrise av tabeller med ekstremverdier"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -1841,7 +1847,7 @@ msgstr "et heltall (standard: 4) som spesifiserer antall grupper ved lik større
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "et heltall (standard: 5) som spesifiserer antall av ekstremverdier"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4149,19 +4155,23 @@ msgstr "Avhengig variabel"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "Den avhengige variabelen '{dep}' inneholder uendelige verdier"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Den avhengige variabelen '{dep}' inneholder ingen data (etter å ha fjernet "
+"rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"Den avhengige variabelen '{dep}' inneholder bare én unik verdi (etter å ha "
+"fjernet rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Den avhengige variabelen '{dep}' må være kontinuerlig"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4178,7 +4188,7 @@ msgstr "Avhengige variabler"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "De avhengige variablene er svært høyt korrelert"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4420,6 +4430,8 @@ msgstr "Eigenverdier større enn"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"Tomme celler i mellomsubjekt-design: minst én kombinasjon av nivåer på "
+"mellomsubjekt-faktorene har 0 observasjoner"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4574,15 +4586,15 @@ msgstr "Ekstraksjon"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Ekstremverdier"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Ekstremverdier"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Ekstremverdier for $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4621,6 +4633,7 @@ msgstr "Faktor"
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"Faktor '{faktor}' har mindre enn to nivåer. Faktorer må ha minst to nivåer"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4629,14 +4642,20 @@ msgstr "Faktor «{faktor}» må ha minst 2 nivåer"
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Faktor '{factorName}' inneholder ingen data (etter å ha fjernet rader med "
+"manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"Faktor '{factorName}' inneholder bare ett faktornivå (etter å ha fjernet "
+"rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"Faktor «{factorName}» inneholder faktornivåer som blir ikke brukt (etter å "
+"ha fjernet rader med manglende verdier)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5014,7 +5033,7 @@ msgstr "Hypotese"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Hvis item (spørsmål) fjernes"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5687,7 +5706,7 @@ msgstr "Det finnes mer enn én modus, bare den første berettes"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "Mest ekstreme"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5825,11 +5844,11 @@ msgstr "Test på normalfordeling (Shapiro-Wilk)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Ikke tilgjengelig på grunn av for stort antall målinger (> 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "Ikke nok frihetsgrader til å estimere alle modelleffektene"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5841,7 +5860,7 @@ msgstr "Antall komponenter"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Antall ekstremverdier"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -5853,7 +5872,7 @@ msgstr "Antall faktorer"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
+msgstr "Antall forespurte ekstremverdier er høyere enn antall rader i dataene."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6062,7 +6081,7 @@ msgstr "Ordinale resultater"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "Uteliggere"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7085,6 +7104,8 @@ msgstr "Diagrammer av residuene"
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
+"Kvadratsummen på residuene og/eller frihetsgrader er null, som indikerer "
+"perfekt modelltilpassing"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7184,7 +7205,7 @@ msgstr "Rad"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Radnummer"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7913,6 +7934,8 @@ msgstr "de kategoriske prediktor- (eller uavhengige) variablene."
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"Konfidensintervall av gjennomsnittet antar at gjennomsnitt i stikkprøve "
+"følger en t-fordeling med N - 1 frihetsgrader"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -7994,10 +8017,13 @@ msgstr "dataene som `data frame`"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"Datasettet inneholder 0 rader (etter å ha fjernet rader med manglende "
+"verdier)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
+"Datasettet inneholder 0 rader (eller alle rader inneholder manglende verdier)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8557,7 +8583,7 @@ msgstr "verdi"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "Verdier"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
