@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-25 04:25+0000\n"
+"PO-Revision-Date: 2022-09-25 05:19+0000\n"
 "Last-Translator: Santiago Rosales <santiemanuel@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -4161,14 +4161,18 @@ msgstr "La variable dependiente '{dep}' contiene infinitos valores"
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"La variable dependiente '{dep}' no contiene datos (después de eliminar las "
+"filas con valores perdidos)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"La variable dependiente '{dep}' contiene solo un valor único (después de "
+"eliminar las filas con valores perdidos)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "La variable dependiente '{dep}' debe ser continua"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4185,7 +4189,7 @@ msgstr "Variables Dependientes"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Las variables dependientes están altamente correlacionadas"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4427,6 +4431,8 @@ msgstr "Valores Propios mayores a"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"Celdas vacías entre el diseño de los sujetos: al menos una combinación de "
+"niveles de factores entre sujetos tiene 0 observaciones"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4581,15 +4587,15 @@ msgstr "Extracción"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Valores extremos"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Valores Extremos"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Valores extremos de $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4628,6 +4634,8 @@ msgstr "Factor"
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"El factor '{factor}' tiene menos de dos niveles. Los factores deben tener al "
+"menos dos niveles"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4636,14 +4644,20 @@ msgstr "El factor ‘{factor}’ requiere al menos 2 niveles"
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"El factor '{factorName}' no contiene datos (después de eliminar las filas "
+"con valores perdidos)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"El factor '{factorName}' contiene un solo nivel (después de eliminar las "
+"filas con valores perdidos)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"El factor '{factorName}' contiene niveles no utilizados (después de elimnar "
+"las filas con valores perdidos)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5021,7 +5035,7 @@ msgstr "Hipótesis"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Si se descarta el elemento"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5694,7 +5708,7 @@ msgstr "Existe más de una moda, solo se reporta la primera"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "Más extremo"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5833,10 +5847,14 @@ msgstr "Prueba de Normalidad (Shapiro-Wilk)"
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
 msgstr ""
+"No está disponible debido a que el número de casos es demasiado grande (> "
+"5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
 msgstr ""
+"No hay suficientes grados de libertad para estimar todos los efectos del "
+"modelo"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5848,7 +5866,7 @@ msgstr "Número de componentes"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Número de valores extremos"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -5861,6 +5879,8 @@ msgstr "Número de factores"
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
+"El número de valores extremos solicitados es mayor que el número de filas de "
+"los datos."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6069,7 +6089,7 @@ msgstr "Resultados Ordinales"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "Valores atípicos"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -7093,6 +7113,8 @@ msgstr "Gráficas de residuos"
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
+"La suma residual de los cuadrados y/o los grados de libertad son cero, lo "
+"que indica un ajuste perfecto"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7192,7 +7214,7 @@ msgstr "Fila"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Número de fila"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7922,6 +7944,8 @@ msgstr "las variables categóricas explicativas (o independientes)."
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"El CI de la media supone que las medias muestrales siguen una distribución t "
+"con N - 1 grados de libertad"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8003,10 +8027,14 @@ msgstr "los datos como una 'data frame'"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"El conjunto de datos contiene 0 filas (después de eliminar las filas con "
+"valores perdidos)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
+"El conjunto de datos contiene 0 filas (o todas las filas contienen valores "
+"perdidos)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8574,7 +8602,7 @@ msgstr "valor"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "valores"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
