@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-29 08:22+0000\n"
+"PO-Revision-Date: 2022-10-01 19:24+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
@@ -4156,19 +4156,23 @@ msgstr "Залежати переменная"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "Залежна змінна '{dep}' містить нескінченні значення"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Залежна змінна '{dep}' не містить даних (після видалення рядків з відсутніми "
+"значеннями)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"Залежна змінна '{dep}' містить тільки одне неповторюване значення (після "
+"видалення рядків з відсутніми значеннями)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Залежна змінна '{dep}' повинна бути неперервною"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4185,7 +4189,7 @@ msgstr "Залежати переменные"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Залежні змінні дуже сильно корелюють між собою"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4427,6 +4431,8 @@ msgstr "Собственные значення більше, чим"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"Порожні клітинки між предметом дизайну: принаймні одне поєднання між рівнями "
+"фактора має 0 спостережень"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4581,15 +4587,15 @@ msgstr "Витяг"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Екстремальні значення"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Екстремальні значення"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Екстремальні значення $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4628,6 +4634,8 @@ msgstr "Фактор"
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"Фактор '{factor}' має менше двох рівнів. Фактори повинні мати не менше двох "
+"рівнів"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4636,14 +4644,20 @@ msgstr "Фактор '{factor}' повинен мати як мінімум 2 р
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Фактор '{factorName}' не містить даних (після видалення рядків з відсутніми "
+"значеннями)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"Фактор '{factorName}' містить тільки один рівень (після видалення рядків з "
+"відсутніми значеннями)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"Фактор '{factorName}' містить невикористані рівні (після видалення рядків з "
+"відсутніми значеннями)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5021,7 +5035,7 @@ msgstr "Гіпотеза"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Якщо елемент впав"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5694,7 +5708,7 @@ msgstr "Існує понад одної моди, повідомляє тіль
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "Найекстремальніший"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5832,11 +5846,11 @@ msgstr "Тест на нормальность (Шапиро-Уилк)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Не доступно через занадто велику кількість випадків (> 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "Недостатньо ступенів свободи для оцінки всіх ефектів моделі"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5848,7 +5862,7 @@ msgstr "Кількість компоненту"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Кількість екстремальних значень"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -5861,6 +5875,8 @@ msgstr "Кількість факторів"
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
+"Кількість запитуваних екстремальних значень перевищує кількість рядків у "
+"даних."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -5982,10 +5998,15 @@ msgstr "один або кілька з `'cfi'`, `'tli'`, `'srmr'`, rmsea\"\n"
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
 msgstr ""
+"один або більше \"eta\", \"partEta\" або \"omega\"; використовувати розміри "
+"ефекту η², часткові η² та ω² відповідно"
 
 #: anovaRM/options/spherCorr.description.R
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
 msgstr ""
+"одне або більше з \"none\" (типово), \"GG\" або \"HF\"; не використовувати "
+"поправку р-значення, поправку р-значення Ґрінгауза-Ґайссера та поправку р-"
+"значення Гюйня-Фельдта для шеритичності, відповідно"
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
