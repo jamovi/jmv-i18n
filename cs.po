@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-10-07 23:29+0000\n"
+"PO-Revision-Date: 2022-10-10 17:59+0000\n"
 "Last-Translator: Josef Dittrych\\ pepa 77\\josef 77 <pepa.gulasek77@gmail."
 "com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/"
@@ -15,55 +15,56 @@ msgstr ""
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr ""
+msgstr "'{col}' obsahuje nekonečné množství hodnot"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "'{col}' obsahuje chybějící hodnoty"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "'{col}' obsahuje pouze chybějící hodnoty"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "'{col}' obsahuje pouze jednu jedinečnou hodnotu"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
+"Metoda extrakce '{method}' byla použita v kombinaci s rotací '{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "Byla použita rotace '{rotation}'"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "'{var}' obsahuje záporné hodnoty. Záporné váhy nejsou povoleny."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - Kendall's Tau B"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - Pearsonův r"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - Spearmanův rho"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth} % CI Nižší"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciŠířka} % CI střední hodnota {titul}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciŠířka} % CI horní"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -79,35 +80,35 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciŠířka}% interval spolehlivosti"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "{ciŠířka}% intervaly spolehlivosti"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} a {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{Seznam}, {další položka}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{seznam}, a {poslední položka}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "{n} párů hodnot bylo nerozhodných"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "skóre {typu} na základě proměnných {vars}"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (obráceno)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
@@ -120,7 +121,7 @@ msgstr ""
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, jednostranné"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -2574,7 +2575,7 @@ msgstr ""
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr ""
+msgstr "Počítání"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -2582,7 +2583,7 @@ msgstr ""
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr ""
+msgstr "Počty (volitelné)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -3883,7 +3884,7 @@ msgstr ""
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
 msgid "Exploration"
-msgstr ""
+msgstr "Průzkum"
 
 #: R/efa.b.R
 #: package/analyses/efa.title
@@ -4417,7 +4418,7 @@ msgstr ""
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Časový úsek"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -7722,7 +7723,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "Horní"
 
 #: R/descriptives.b.R
 msgid "upper bound"
