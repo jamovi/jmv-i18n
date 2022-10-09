@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-09-30 20:20+0000\n"
+"PO-Revision-Date: 2022-10-10 17:59+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -56,15 +56,15 @@ msgstr "{} - rho Spearmana"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% dolny PU"
+msgstr "{ciWidth}% dolny CI"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}% PU średniej {title}"
+msgstr "{ciWidth}% CI średniej {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% górny PU"
+msgstr "{ciWidth}% górny CI"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -528,7 +528,9 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowa
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr "`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań współczynnika częstości dla współczynników modelu"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań "
+"wskaźnika proporcji współczynników modelu"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
@@ -613,7 +615,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy słupkowe (wyłączn
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr "`TRUE` lub `FALSE` (domyślnie), podaje czynnik Bayesa"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje współczynniki Bayesa"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
@@ -785,7 +787,9 @@ msgstr "`TRUE` lub `FALSE` (domyślne), podaje średnie i błędy standardowe"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wskaźniki modyfikacji dla parametrów nieuwzględnionych w modelu"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), podaje wskaźniki modyfikacji dla parametrów "
+"nieuwzględnionych w modelu"
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
@@ -801,7 +805,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje współczynniki korelacji Phi Yu
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy a posteriori"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy posterior"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
@@ -878,7 +882,9 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wykładniczą estymację logaryt
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wykładniczą estymację logarytmu współczynnika częstości lub estymację współczynnika częstości"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), podaje wykładniczą estymację logarytmu "
+"wskaźnika proporcji lub estymację wskaźnika proporcji"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
@@ -1293,11 +1299,15 @@ msgstr "liczba (domyślnie: 3), zaznacza wartości w tablicach `'modIndices'` po
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "liczba z przedziału od 0.5 do 2 (domyślnie 0.707), szerokość rozkładu a priori wykorzystana przy obliczaniu czynników Bayesa"
+msgstr ""
+"liczba z przedziału od 0.5 do 2 (domyślnie 0.707); szerokość prioru "
+"wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707), szerokość rozkładu a priori wykorzystany przy obliczaniu czynników Bayesa"
+msgstr ""
+"liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707); szerokość prioru "
+"wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1450,7 +1460,9 @@ msgstr "tabela zawierająca miary dopasowania modelu"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "tabela zawierająca wskaźniki modyfikacji dla ładunków czynnikowych nieuwzględnionych w modelu"
+msgstr ""
+"tabela zawierająca wskaźniki modyfikacji dla ładunków czynnikowych "
+"nieuwzględnionych w modelu"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
@@ -1826,7 +1838,7 @@ msgstr "tablica wykresów oszacowanych średnich brzegowych + tabele"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr "tablica wykresów a posteriori"
+msgstr "tablica wykresów posterior"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
@@ -2002,7 +2014,7 @@ msgstr "W oparciu o wartość własną"
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr "W oparciu o analizy równoległe"
+msgstr "W oparciu o analizę równoległą"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -2012,14 +2024,14 @@ msgstr "W oparciu o analizy równoległe"
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
 msgid "Bayes factor"
-msgstr "Czynnik Bayesa"
+msgstr "Współczynnik Bayesa"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr "Czynnik Bayesa₁₀"
+msgstr "Współczynnik Bayesa₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
@@ -2172,11 +2184,11 @@ msgstr "Kwantyle Chi-kwadrat"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr "Dolny PU"
+msgstr "Dolny CI"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "Górny PU"
+msgstr "Górny CI"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -2685,11 +2697,11 @@ msgstr "Wartości graniczne"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
 msgid "Cut-Off Plot"
-msgstr "Wykres wartości granicznych"
+msgstr "Wykres wartości"
 
 #: logRegBin/options/cutOffPlot.title
 msgid "Cut-off plot"
-msgstr "Wykres wartości granicznych"
+msgstr "Wykres wartości"
 
 #: logRegBin/options/cutOff.title
 msgid "Cut-off value"
@@ -4482,7 +4494,7 @@ msgstr "Oszacowanie (logarytm ilorazu szans)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr "Oszacowanie (logarytm współczynnika częstości)"
+msgstr "Oszacowanie (logarytm wskaźnika proporcji)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -4516,7 +4528,7 @@ msgstr "Oszacowania"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr "Oszacowania reprezentują logarytm szans…"
+msgstr "Oszacowania reprezentują logarytm szans"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
@@ -4625,7 +4637,7 @@ msgstr "statystyka F nie mogła zostać obliczona"
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "Czynnik"
+msgstr "Czynniki"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
@@ -4673,11 +4685,11 @@ msgstr "Oszacowania czynników"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr "Wyrazy wolne czynnika"
+msgstr "Wyrazy wolne czynników"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr "Wyrazy wolne czynnika"
+msgstr "Wyrazy wolne czynników"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
@@ -4753,7 +4765,7 @@ msgstr "Miary dopasowania"
 
 #: R/linreg.b.R
 msgid "Fitted"
-msgstr "Dopasowany"
+msgstr "Dopasowane"
 
 #: ancova/options/factors.title
 #: anova/options/factors.title
@@ -5097,7 +5109,7 @@ msgstr "Wyraz wolny"
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
 msgid "Interval"
-msgstr "Wartość"
+msgstr "Przedział"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -5446,7 +5458,7 @@ msgstr "Średnia"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr "Średnia ({ciWidth}% PU)"
+msgstr "Średnia ({ciWidth}% CI)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -6506,15 +6518,15 @@ msgstr "Testy post-hoc"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr "a posteriori"
+msgstr "Posterior"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr "Wykres a posteriori"
+msgstr "Wykres posterior"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr "Wykresy a posteriori"
+msgstr "Wykresy posterior"
 
 #: R/logregbin.b.R
 msgid "Predicted"
@@ -6683,15 +6695,16 @@ msgstr "wyświetl tabelę z oszacowanymi średnimi brzegowymi."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "podaje czynniki Bayesa dla testów t Studenta dla prób niezależnych."
+msgstr ""
+"podaje współczynniki Bayesa dla testów t Studenta dla prób niezależnych."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "podaje czynniki Bayesa dla testów t Studenta dla jednej próby."
+msgstr "podaje współczynniki Bayesa dla testów t Studenta dla jednej próby."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "podaje czynniki Bayesa dla testów t Studenta dla prób zależnych."
+msgstr "podaje współczynniki Bayesa dla testów t Studenta dla prób zależnych."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
@@ -6947,12 +6960,12 @@ msgstr "Współczynnik korelacji rangowo-dwuseryjnej"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr "Współczynnik częstości"
+msgstr "Wskaźnik proporcji"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
 msgid "Rate ratio"
-msgstr "Współczynnik częstości"
+msgstr "Wskaźnik proporcji"
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
@@ -6968,7 +6981,7 @@ msgstr "Poziom referencyjny"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
-msgstr "Poziom referencyjny (zmienne fikcyjne)"
+msgstr "Poziom referencyjny (kodowanie zero-jedynkowe)"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -7174,7 +7187,7 @@ msgstr "RMSEA"
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr "RMSEA 90% PU"
+msgstr "RMSEA 90% CI"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
@@ -7930,7 +7943,9 @@ msgstr "kategorialne zmienne wyjaśniające (niezależne)."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "PU średniej zakłada, że średnie z próby przyjmują rozkład t z N - 1 stopniami swobody"
+msgstr ""
+"CI średniej zakłada, że średnie z próby przyjmują rozkład t z N - 1 "
+"stopniami swobody"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8141,7 +8156,7 @@ msgstr "poprawki dla wielokrotnych porównań post-hoc."
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
-"szerokość prioru dla czynników Bayesa testu t Studenta. Wymaga wartości "
+"szerokość prioru dla współczynników Bayesa testu t Studenta. Wymaga wartości "
 "pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
 
 #: package/analyses/anovaRM.description
