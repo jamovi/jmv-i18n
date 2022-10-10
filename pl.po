@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-10-10 19:23+0000\n"
+"PO-Revision-Date: 2022-10-10 19:44+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -788,7 +788,7 @@ msgstr "`TRUE` lub `FALSE` (domyślne), podaje średnie i błędy standardowe"
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
 msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje wskaźniki modyfikacji dla parametrów "
+"`TRUE` lub `FALSE` (domyślnie), podaje indeksy modyfikacyjne dla parametrów "
 "nieuwzględnionych w modelu"
 
 #: descriptives/options/extreme.description.R
@@ -1461,12 +1461,14 @@ msgstr "tabela zawierająca miary dopasowania modelu"
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
 msgstr ""
-"tabela zawierająca wskaźniki modyfikacji dla ładunków czynnikowych "
+"tabela zawierająca indeksy modyfikacyjne dla ładunków czynnikowych "
 "nieuwzględnionych w modelu"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "tabela zawierająca wskaźniki modyfikacji dla kowariancji reszt nieuwzględnionych w modelu"
+msgstr ""
+"tabela zawierająca indeksy modyfikacyjne dla kowariancji reszt "
+"nieuwzględnionych w modelu"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
@@ -4700,7 +4702,7 @@ msgstr "Ładunki czynnikowe"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr "Ładunki czynnikowe - wskaźniki modyfikacji"
+msgstr "Ładunki czynnikowe - indeksy modyfikacyjne"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
@@ -5698,11 +5700,11 @@ msgstr "Progi modelu"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
-msgstr "Wskaźniki modyfikacji"
+msgstr "Indeksy modyfikacyjne"
 
 #: cfa/options/mi.title
 msgid "Modification indices"
-msgstr "Wskaźniki modyfikacji"
+msgstr "Indeksy modyfikacyjne"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -7093,7 +7095,7 @@ msgstr "Kowariancje reszt"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr "Kowariancje reszt – wskaźniki modyfikacji"
+msgstr "Kowariancje reszt – indeksy modyfikacyjne"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
