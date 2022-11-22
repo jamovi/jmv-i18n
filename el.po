@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-11-22 18:47+0000\n"
+"PO-Revision-Date: 2022-11-22 19:48+0000\n"
 "Last-Translator: Γιώργος Καβρός <gior.k79@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/jamovi/jmv-i18n/el/"
 ">\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr "'{col}' περιέχει μη πεπερασμένες τιμές"
+msgstr "'{col}' περιέχει άπειρες τιμές"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
@@ -31,10 +31,12 @@ msgstr "'{col}' περιέχει μόνο μια μοναδική τιμή"
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
 msgstr ""
+"Η μέθοδος εξαγωγής '{method}' χρησιμοποιήθηκε σε συνδυασμό με μια περιστροφή "
+"'{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "'{rotation}' χρησιμοποιήθηκε περιστροφή"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -110,16 +112,16 @@ msgstr "{varName} (αντίστροφο)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} μοντέλου διωνυμικής λογιστικής παλινδρόμησης{modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} μοντέλου γραμμικής παλινδρόμησης{modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p <.05, ** p <.01, *** p <.001, μονόπλευρη"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -153,29 +155,29 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "επί της εκατό"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "επί τοις εκατό Διορθώνω"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "% του συνόλου"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "% του συνόλου"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr ""
+msgstr "% της Διακύμανσης"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within column"
-msgstr ""
+msgstr "% εντός στήλης"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -2573,7 +2575,7 @@ msgstr ""
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr ""
+msgstr "μετράει"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -2581,7 +2583,7 @@ msgstr ""
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr ""
+msgstr "Μετρήσεις (προαιρετικά)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4182,8 +4184,9 @@ msgid "Greenhouse-Geisser ε"
 msgstr ""
 
 #: ttestIS/results/desc.columns.title
+#, fuzzy
 msgid "Group"
-msgstr ""
+msgstr "Ομάδα"
 
 #: R/conttables.b.R
 msgid "Group 1"
@@ -4416,8 +4419,9 @@ msgstr ""
 #: logRegOrd/ui[4][0][1][1]/ciOR/ciWidthOR.label
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
+#, fuzzy
 msgid "Interval"
-msgstr ""
+msgstr "Διάστημα"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -4881,8 +4885,9 @@ msgid "Missing"
 msgstr ""
 
 #: anovaOneW/ui[1][0][1].label
+#, fuzzy
 msgid "Missing Values"
-msgstr ""
+msgstr "Τιμές που λείπουν"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -5117,8 +5122,9 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.content
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "Κανένα"
 
 #: R/pca.b.R
 msgid "none"
@@ -6850,8 +6856,9 @@ msgstr ""
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
+#, fuzzy
 msgid "Standard error"
-msgstr ""
+msgstr "Τυπικό σφάλμα"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -7226,8 +7233,9 @@ msgstr ""
 #: ttestIS/options/data.description.R
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
+#, fuzzy
 msgid "the data as a data frame"
-msgstr ""
+msgstr "τα δεδομένα ως πλαίσιο δεδομένων"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
@@ -7722,7 +7730,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "Ανώτερο"
 
 #: R/descriptives.b.R
 msgid "upper bound"
@@ -7896,7 +7904,7 @@ msgstr ""
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr ""
+msgstr "X-Άξονας"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
@@ -7904,7 +7912,7 @@ msgstr ""
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr ""
+msgstr "Y-Άξονας"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
