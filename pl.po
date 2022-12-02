@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-11-25 18:48+0000\n"
+"PO-Revision-Date: 2022-12-02 21:48+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1260,7 +1260,7 @@ msgstr "Niska wartość p sugeruje naruszenie założenia o normalności rozkła
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr "Zestaw danych do korelacji"
+msgstr "Ciekawy zbiór danych do obliczania korelacji"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
@@ -1401,7 +1401,7 @@ msgstr "wykres K-K"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr "Zestaw danych do testu ANOVA dla powtórzonych pomiarów"
+msgstr "Zbiór danych do obliczania testu ANOVA dla powtórzonych pomiarów"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
@@ -1870,7 +1870,7 @@ msgstr "liczba całkowita (domyślnie: 5) określająca liczbę wartości skrajn
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr "Mało inspirujący zestaw danych do testu ANOVA"
+msgstr "Niezbyt ciekawy zbiór danych do obliczania testu ANOVA"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
@@ -7805,7 +7805,7 @@ msgstr "trzeci percentyl"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr "Zestaw danych \"Irysy\" z R"
+msgstr "Zbiór danych \"Irysy\" z R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
@@ -8030,11 +8030,15 @@ msgstr "dane jako ramka danych"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "Zbiór danych zawiera 0 wierszy (po usunięciu wierszy z brakami danych)"
+msgstr ""
+"Zbiór danych nie zawiera żadnego wiersza (po usunięciu wierszy z brakami "
+"danych)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr "Zbiór danych zawiera 0 wierszy (lub wszystkie wiersze zawierają braki danych)"
+msgstr ""
+"Zbiór danych nie zawiera żadnego wiersza (lub wszystkie wiersze zawierają "
+"braki danych)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
