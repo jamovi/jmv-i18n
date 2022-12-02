@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-02 04:47+0000\n"
+"PO-Revision-Date: 2022-12-02 05:47+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -90,31 +90,32 @@ msgstr "{item1} және {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list}, {nextItem}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list}, және {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "мәндердің {n} жұбы(лары) байланысқан"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "{vars} айнымалы мәндеріне негізделген {type} санау"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (қайтымды)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} биномдық логистикалық регрессия моделі{modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} сызықтық регрессия үлгісі{modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -153,68 +154,85 @@ msgstr "* p < .05, ** p < .01, **** p < .001, бір жақты"
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "% Дұрыс"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "Жалпы сомасынан %"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "Жалпы санының %- ы"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr ""
+msgstr "% дисперсиясынан"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within column"
-msgstr ""
+msgstr "% баған ішінде"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within row"
-msgstr ""
+msgstr "% қатар ішінде"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
 msgstr ""
+"''1', '2'' немесе ''3'''(әдепкі), пайдалануға жататын квадраттардың қосындысы"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "''2'' немесе '3''(әдепкі), пайдалануға жататын квадраттардың қосындысы"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
 msgstr ""
+"`'different'` (әдепкі),`'oneGreater'` немесе `'twoGreater'`, балама гипотеза;"
+" 1-топ 2-топтан өзгеше, 1-топ 2-топтан үлкен және 2-топ 1-топтан үлкен"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
+"`'different'` (әдепкі),`'oneGreater'` немесе `'twoGreater'`, балама гипотеза;"
+" 1 өлшем 2 өлшемнен өзгеше, 1 өлшем 2 өлшемнен үлкен және 2 өлшем 1 өлшемнен "
+"үлкен"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (әдепкі), `'gt'` немесе `'lt'`, балама гипотеза; \"testValue\" "
+"мәнінен айырмашылығы, \"testValue\" мәнінен үлкен және \"testValue\" мәнінен "
+"кіші"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` немесе `'facInd'` үлгіні қалай шектеуге болады; ''facVar'' "
+"фактордың дисперсиясын бірге бекітеді, ''facInd'' әрбір факторды өзінің "
+"бірінші көрсеткішінің шкаласы бойынша бекітеді."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` немесе `'fiml'`, жетіспейтін мәндерді өңдеу жолы; `'listwise'` "
+"егер оның жазбаларының бірі жоқ болса, қатарларды барлық талдаулардан алып "
+"тастайды, `'fiml'`үлгіні бағалау үшін толық ақпаратпен максималды ықтималдық "
+"әдісін пайдаланады."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
+"'means' (әдепкі) немесе `'medians'` диаграммада пайдаланатын қате жолақтары"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
