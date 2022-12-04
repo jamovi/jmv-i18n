@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-04 13:47+0000\n"
+"PO-Revision-Date: 2022-12-04 14:47+0000\n"
 "Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
@@ -120,7 +120,7 @@ msgstr "{varType} моделі линейной регрессии{modelNo}"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < 0,05, ** p < 0,01, *** p < 0,001, односторонний"
+msgstr "* p < .05, ** p < .01, *** p < .001, односторонній"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -5109,7 +5109,7 @@ msgstr "Перехват"
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
 msgid "Interval"
-msgstr "Интервал"
+msgstr "Інтервал"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -5574,7 +5574,7 @@ msgstr "Пропущенный"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "Відсутні значення"
+msgstr "Пропущені значення"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -6415,49 +6415,53 @@ msgstr "Виконати тест ANOVA Фішера (або те, що можн
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"виконати тест Шапіро-Вілка на нормальність. Низьке значення p означає, що "
+"дані не належать до нормального розподілу."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
+"виконати тест Шапіро-Вілка на нормальність. Низьке значення p означає, що "
+"залишки розподілені ненормально."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr ""
+msgstr "виконати t-критерії незалежних вибірок Стьюдента."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr ""
+msgstr "виконати одновибіркові t-тести Стьюдента."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "виконати t-критерії для парних вибірок Стьюдента."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "виконати дисперсійний аналіз Велча."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "вони виконують тести Велча."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "виконувати знакові рангові тести Вілкоксона."
 
 #: contTables/options/phiCra.title
 msgid "Phi and Cramer's V"
-msgstr ""
+msgstr "Фі та Крамер V"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "Коефіцієнт Фі"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "Слід Піллаї"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -6465,21 +6469,21 @@ msgstr ""
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr ""
+msgstr "Графік"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
-msgstr ""
+msgstr "щільності графіка вздовж діагоналі графіка кореляційної матриці."
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
 msgid "plot the data along with the marginal means."
-msgstr ""
+msgstr "побудувати графік даних разом із марґінальними середніми значеннями."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr ""
+msgstr "Тип графіка"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -6493,18 +6497,18 @@ msgstr ""
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr ""
+msgstr "Графіки"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
-msgstr ""
+msgstr "Поліноміальний"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "Порівняння Post Hoc - {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -6517,49 +6521,49 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "Post Hoc тести"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Post Hoc тести – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "Post-Hoc Модель Продуктивності"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "Post-Hoc Тест"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "Post-Hoc Тести"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr ""
+msgstr "Постеріорний"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr ""
+msgstr "Постеріорний графік"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr ""
+msgstr "Постеріорні графіки"
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr ""
+msgstr "Прогнозовано"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "Прогнозована ймовірність … = … (vs … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
+msgstr "Прогнозована ймовірність {dep} = {level1} (vs {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -6567,17 +6571,17 @@ msgstr ""
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr ""
+msgstr "Прогнозоване значення"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
 msgid "Prediction"
-msgstr ""
+msgstr "Прогнозування"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr ""
+msgstr "Прогнозні заходи"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -6590,7 +6594,7 @@ msgstr ""
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 msgid "Predictor"
-msgstr ""
+msgstr "Предиктор"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -6598,15 +6602,15 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "Предиктори"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
-msgstr ""
+msgstr "Основна ось"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Факторинг головної осі"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -6616,7 +6620,7 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Аналіз головних складових"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -6624,61 +6628,63 @@ msgstr ""
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
 msgid "Prior"
-msgstr ""
+msgstr "Попередній"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "Попередня ширина"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Probability"
-msgstr ""
+msgstr "Ймовірність"
 
 #: R/pca.b.R
 msgid "promax"
-msgstr ""
+msgstr "промакс"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "Промакс"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Proportion"
-msgstr ""
+msgstr "Пропорція"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "Тест пропорцій (2 результати)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "Тест пропорцій (N результатів)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
+msgstr "надайте міру розміру ефекту Коена's для post-hoc тестів."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
+"забезпечити довірчий інтервал для різниці між середньою оцінкою та тестовим "
+"значенням."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "надати графік кореляційної матриці"
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
@@ -8511,7 +8517,7 @@ msgstr "Одномерные тести"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr "Верхний"
+msgstr "Верхній"
 
 #: R/descriptives.b.R
 msgid "upper bound"
