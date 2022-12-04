@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-10-17 00:54+0000\n"
-"Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
+"PO-Revision-Date: 2022-12-04 01:49+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
 "Language: uk\n"
@@ -6011,15 +6011,24 @@ msgstr ""
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
 msgstr ""
+"один або декілька `` none'`, `'tukey' `(за замовчуванням), `'scheffe'`, "
+"`'bonf'` або `'holm'`; не використовуйте, виправлення Tukey, Scheffe, "
+"Bonferroni та Holm posthoc відповідно"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
 msgstr ""
+"один або декілька `` none '``, `'tukey'`, ``scheffe '`, `'bonf'` або `` "
+"'holm'`; надати виправлення відповідно Tukey, Scheffe, Bonferroni та Holm "
+"Post Hoc"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
 msgstr ""
+"один або кілька `'pillai'`, `'wilks'`, `'hotel'`, або `'roy'`; "
+"використовують Pillai's Trace , Wilks' Lambda, Hotelling's Trace, і Roy's "
+"Largest Root багатоваріантивної статистики, відповідно"
 
 #: logLinear/options/pseudoR2.description.R
 #: logRegBin/options/pseudoR2.description.R
@@ -6027,13 +6036,15 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.description.R
 msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
+"один або кілька `` r2mf '`, 'r2cs'` або `'r2n' '; використовувати McFadden', "
+"Cox & Snell і Nagelkerke pseudo-R² відповідно"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "Тести пропорцій одного зразка"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -6042,7 +6053,7 @@ msgstr ""
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr ""
+msgstr "Один зразок T-Тесту"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -6053,31 +6064,31 @@ msgstr ""
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
 msgid "One-Way ANOVA"
-msgstr ""
+msgstr "Односторонній ANOVA"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Fisher's)"
-msgstr ""
+msgstr "Односторонній ANOVA (Рибалка)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr ""
+msgstr "Односторонній ANOVA (не параметричний)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr ""
+msgstr "Односторонній ANOVA (Велч)"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
 msgid "Options"
-msgstr ""
+msgstr "Варіанти"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
-msgstr ""
+msgstr "Звичайний"
 
 #: package/analyses/logRegOrd.title
 #: package/analyses/logRegOrd.description
@@ -6086,12 +6097,12 @@ msgstr ""
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "Звичайний логістичний регіон"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "Звичайні результати"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
@@ -6109,11 +6120,11 @@ msgstr "Вивід"
 
 #: R/pca.b.R
 msgid "Overall"
-msgstr ""
+msgstr "Загалом"
 
 #: R/ancova.b.R
 msgid "Overall model"
-msgstr ""
+msgstr "Загальна модель"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -6122,7 +6133,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "Загальний тест моделі"
 
 #: linReg/ui[4][0][1][0].label
 #: linReg/results/modelFit.columns.superTitle
@@ -6131,7 +6142,7 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "Загальний Модельний тест"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6195,41 +6206,41 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "р-значення"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
-msgstr ""
+msgstr "p<sub>bonferroni</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr ""
+msgstr "p<sub>holm</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
-msgstr ""
+msgstr "p<sub>scheffe</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>tukey</sub>"
-msgstr ""
+msgstr "p<sub>tukey</sub>"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr ""
+msgstr "Парні зразки"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr ""
+msgstr "Парні зразки таблиць непередбачених ситуацій"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -6238,27 +6249,27 @@ msgstr ""
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "Парні зразки T-Тесту"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
-msgstr ""
+msgstr "Парні змінні"
 
 #: anovaNP/results/comparisons.template.title
 msgid "Pairwise comparisons - $key"
-msgstr ""
+msgstr "Паралельні порівняння - $key"
 
 #: anovaRMNP/options/pairs.title
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Паралельні порівняння (Дурбін-Коновер)"
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Паралельні порівняння (Дурбін-Коновер)"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
-msgstr ""
+msgstr "Частковий"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -6267,13 +6278,16 @@ msgstr ""
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr ""
+msgstr "Часткова кореляція"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
+"Матриці часткової кореляції - це спосіб вивчення лінійних зв’язків\n"
+"між двома або більше безперервними змінними під час контролю за іншими\n"
+"змінними"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -6295,83 +6309,103 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Матриці часткової кореляції - це спосіб вивчення лінійних зв’язків\n"
+"між двома або більше безперервними змінними під час контролю за іншими\n"
+"змінними\n"
+"\n"
+"Для кожної пари змінних значення r Пірсона вказує на міцність\n"
+"і напрямок взаємозв'язку між цими двома змінними. А\n"
+"позитивне значення вказує на позитивний зв’язок (більші значення однієї\n"
+"змінної прогнозує більш високі значення іншої змінної). Негативний\n"
+"r Пірсона вказує на негативний зв’язок (більші значення однієї\n"
+"змінної прогнозує нижчі значення іншої змінної та навпаки).\n"
+"Значення нуля вказує на відсутність співвідношення (чи є змінна високою\n"
+"або низький, нічого не говорить нам про цінність іншої\n"
+"змінної).\n"
+"\n"
+"Більш формально можна перевірити нульову гіпотезу про те, що\n"
+"кореляція дорівнює нулю і обчислює р-значення. Якщо значення p низьке, воно\n"
+"припускає, що коефіцієнт кореляції не дорівнює нулю, і існує лінійний\n"
+"(або більш складне) співвідношення між двома змінними."
 
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
 msgid "partial η²"
-msgstr ""
+msgstr "частковий η²"
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
-msgstr ""
+msgstr "Частковий η²"
 
 #: cfa/options/pathDiagram.title
 msgid "Path diagram"
-msgstr ""
+msgstr "Діаграма шляху"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
-msgstr ""
+msgstr "Діаграма Шляху"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
-msgstr ""
+msgstr "Пірсон"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "r Пірсона"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
-msgstr ""
+msgstr "Пірсонова{}Кореляція"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr ""
+msgstr "Відсотки"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
-msgstr ""
+msgstr "Відсотки від загальної кількості"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "Відсотки в межах {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
-msgstr ""
+msgstr "Процетиль"
 
 #: descriptives/options/pcValues.title
 msgid "Percentile values"
-msgstr ""
+msgstr "Процентильні значення"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
-msgstr ""
+msgstr "Процентильні цінності"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
 msgid "Percentiles"
-msgstr ""
+msgstr "Процентилі"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "виконати тест Манна-Вітні Ю."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"виконати тест на нормальність Шапіро-Вілка. Низьке p-значення говорить про "
+"те, що дані не з нормального розподілу."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "виконати загальний тест моделі."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
