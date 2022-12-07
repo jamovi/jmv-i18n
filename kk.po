@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-02 08:48+0000\n"
+"PO-Revision-Date: 2022-12-07 04:48+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -253,93 +253,130 @@ msgstr ""
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` немесе `'tukey'', келесі тестілеуді қамтамасыз ету "
+"үшін, `'none'` пост-хок сынақтарын көрсетпейді, `'gamesHowell'`"
+"дисперсиялардың эквиваленттілігі қабылданбайтын Games-Howell артқы "
+"сынақтарын көрсетеді және ''tukey'' дисперсиялардың эквиваленттігі "
+"болжанатын Tukey's posterior сынақтарын көрсетеді"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'` (по умолчанию), `'quartimax'`, `'promax'`, `'oblimin'` "
+"немесе`'simplimax' есептеуде қолданатын айналу"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), "
+"немесе `'simplimax'` бағалауда қолданылатын айналу"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr ""
+msgstr "`'notequal'` (default), `'greater'` немесе `'less'`, балама гипотеза"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
+"`'parallel'` (default), `'eigen'` немесе `'fixed'`, факторлардың санын "
+"анықтау тәсілі"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"`'perAnalysis'` немесе `'listwise'`, жетіспейтін мәндерді өңдеу жолы; "
+"'perAnalysis'' жеке тәуелді айнымалылар үшін жетіспейтін мәндерді жоққа "
+"шығарады, 'listwise' ұяшықтарының бірі жоқ болса, барлық талдаулардан жолды "
+"алып тастайды"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"`'perAnalysis'` немесе `'listwise'`, жетіспейтін мәндерді өңдеу жолы; "
+"'perAnalysis'' жеке тәуелді айнымалылар үшін жетіспейтін мәндерді жоққа "
+"шығарады, 'listwise' ұяшықтарының бірі жоқ болса, барлық талдаулардан жолды "
+"алып тастайды."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
+"`'refLevel'` (default) немесе`'grandMean'`, контрастты жасайды, осылайша "
+"кесінді анықтамалық деңгейді немесе жалпы орта мәнді көрсетеді"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
+"`'жолдар'' немесе ''бағандар'' (әдепкі), айнымалы мәндерді қатарлар бойынша "
+"немесе бағандар бойынша көрсету (әдепкі)"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
 msgstr ""
+"`'Thurstone'` (әдепкі), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, немесе "
+"`'Harman'`тиісінше 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin'' "
+"немесе 'Harman' әдісін қолданады"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "'ANCOVA - ${dep}'"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "'ANOVA - ${dep}'"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"`columns` немесе `rows` (әдепкі), пропорциялар немесе салыстырмалы "
+"тәуекелдер айырмашылығы бойынша бағандарды/0атарларды салыстыру (2х2 "
+"кестелер)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`Модельдік коэффициенттер - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`Модельдік коэффициенттер - ${ dep }`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Пропорциялар - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', қатар нөмірі белгілерін қорап сызбасындағы "
+"шектен тыс мәндерге қосады"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "`TRUE` (әдепкі) немесе 'FALSE', Студенттің t-тесттерін орындайды"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', тең дисперсияларды қабылдамайтын Уэлчтің бір "
+"жақты ANOVA әдісін орындайды"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', үлгі бағалаулар үшін 'Z' және 'p' мәндерін "
+"береді"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', модельді дәл сәйкес келетін модельмен "
+"салыстыратын дәл сәйкестік үшін хи-квадрат сынамасын қамтамасыз етеді"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
@@ -347,6 +384,8 @@ msgstr ""
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', өлшенген шекті орта үшін сенімді аралықты "
+"қамтамасыз етеді"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -354,10 +393,12 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE`(әдепкі) немесе `FALSE`, үлгілерге арналған Aikaike ақпараттық "
+"критерийін (AАК) қамтамасыз етеді"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
+msgstr "`TRUE` (әдепкі) немесе 'FALSE', Кронбахтың α мәнін береді"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -368,18 +409,25 @@ msgstr ""
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', өлшенген шекті орташа графиктерді білдіреді"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', фактор (ко)диперациялар үшін бағалауды "
+"қамтамасыз етеді"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', қалдық (ко) дисперсиялар үшін бағалауды "
+"қамтамасыз етіңіз"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', hoc-тен кейінгі сынақтар үшін орташа "
+"айырмашылықтарды қамтамасыз етеді"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
@@ -7285,23 +7333,26 @@ msgstr ""
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "тәуелді айнымалы. ANCOVA үшін бұлар үздіксіз болады."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "тәуелді айнымалы. ANOVA үшін бұлар үздіксіз болады."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
+"тәуелдi айнымалылар - көрсетiлген әрбiр тәуелдi айнымалы үшiн жеке t-тест "
+"орындалады."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
 msgstr ""
+"тәуелді айнымалылар (формуланы пайдаланғанда қажет емес, мысалдарды қараңыз)"
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "тәуелді айнымалы. ANOVA үшін бұлар үздіксіз болады."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
