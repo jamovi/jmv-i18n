@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-11 16:49+0000\n"
+"PO-Revision-Date: 2022-12-11 17:49+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -1165,227 +1165,266 @@ msgstr ""
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), ауқымды қамтамасыз етеді"
 
 #: logRegBin/options/auc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the rea under the ROC curve (AUC)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), ROC қисығының астындағы аумақты көрсетеді "
+"(AUC)"
 
 #: contTables/options/relRisk.description.R
 msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), салыстырмалы тәуекелді қамтамасыз етеді (тек "
+"2x2 кестелер үшін қол жетімді)"
 
 #: cfa/options/corRes.description.R
 msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), байқалатын корреляция матрицасы үшін "
+"қалдықты қамтамасыз етеді (яғни күтілетін корреляция матрицасы мен "
+"бақыланатын корреляция матрицасы арасындағы айырмашылық)"
 
 #: descriptives/options/skew.description.R
 msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), ассиметрияны көрсетеді"
 
 #: reliability/options/sdScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), стандартты ауытқуды береді"
 
 #: descriptives/options/se.description.R
 msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), стандартты қатені береді"
 
 #: linReg/options/r2Adj.description.R
 msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгілер үшін 'түзетілген R-squared' "
+"статистикалық өлшемін қамтамасыз етеді"
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), қосындыны береді"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), тәуелді айнымалы деңгейлері үшін шекті "
+"мәндер ретінде пайдаланылатын шекті мәндерді білдіреді"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), дисперсияны береді"
 
 #: contTables/options/pcTot.description.R
 msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), жалпы пайыздарды береді"
 
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), VIF және толеранттылық коллинеарлық "
+"статистикасын қамтамасыз етеді"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), скрипка графиктерін көрсетеді (тек үздіксіз "
+"айнымалылар)"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), егер элемент жойылса, Кронбахтың α мәні "
+"қандай болатынын көрсетіңіз"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), егер элемент жойылса, McDonald's ω қандай "
+"болатынын көрсетіңіз"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), үздіксіздікті түзетуі бар χ² береді"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі),әртүрлі топтардың қорытындысын хабарлаңыз"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), болжамдар үшін қолданылатын кесіндіні "
+"орнатыңыз"
 
 #: contTables/options/barplot.description.R
 msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі), сызбаларды көрсетіңіз"
 
 #: efa/options/bartlett.description.R
 #: pca/options/bartlett.description.R
 msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Барлетттің сфералық нәтижелерін сынауын "
+"көрсету"
 
 #: efa/options/eigen.description.R
 #: pca/options/eigen.description.R
 msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі), меншікті мәндер кестесін көрсету"
 
 #: efa/options/factorSummary.description.R
 #: pca/options/factorSummary.description.R
 msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), факторлардың жиынын көрсету"
 
 #: efa/options/factorCor.description.R
 #: pca/options/factorCor.description.R
 msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), кросс-факторлық корреляцияны көрсету"
 
 #: efa/options/kmo.description.R
 #: pca/options/kmo.description.R
 msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі),Кайзер-Мейер-Олкин (KMO) үлгінің сәйкестік "
+"өлшемі (MSA) нәтижелерін көрсету"
 
 #: efa/options/modelFit.description.R
 msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгінің сәйкестік өлшемдерін көрсетіп, сынау"
 
 #: efa/options/screePlot.description.R
 #: pca/options/screePlot.description.R
 msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі), скрининг графигін көрсету"
 
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
 msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
 msgstr ""
+"`TRUE` немесе `FALSE` (әдепкі), факторлық жүктемелерді өлшемі бойынша "
+"сұрыптау"
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), дисперсиялардың біртектілігіне арналған тест "
+"(яғни, Левен тесті)"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), айнымалылар есептегіштер болып табылады"
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі), есептегіштерді көрсету керек пе"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі); жалпы үлгі сынағын іске қосу"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "±%"
-msgstr ""
+msgstr "±%"
 
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr ""
+msgstr "< сынақ мәні"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ сынақ мәні"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr ""
+msgstr "> сынақ мәні"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
-msgstr ""
+msgstr "⁻ орташа - 1SD, <sup>μ</sup> орташа , ⁺ орташа + 1SD"
 
 #: pca/results/loadings.columns.title
 #: pca/results/factorStats/factorCor.columns.title
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Ерекшелік"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr ""
+msgstr "2 Нәтижелер"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
-msgstr ""
+msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr ""
+msgstr "жартылай корреляция матрицасының кестесі"
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr ""
+msgstr "процентильдерді көрсететін үтірмен бөлінген тізім (әдепкі: 25,50,75)"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "корреляциялық матрицалық график"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "корреляциялық матрицалық кесте"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "сипаттау графигі"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for (see the examples)"
 msgstr ""
+"шекті құралдарды бағалауға арналған терминдерді қамтитын формула (мысалдарды "
+"қараңыз)"
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
+"шекті орташа мәндерді бағалауға арналған терминдерді қамтитын формула, бір "
+"мерзімге үш айнымалыға дейін қолдайды"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
 msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
 msgstr ""
+"кейінгі сынақтарды орындауға арналған терминдерді қамтитын формула ("
+"мысалдарды қараңыз)"
 
 #: ancova/options/modelTerms.description.R
 #: anova/options/modelTerms.description.R
 msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
 msgstr ""
+"үлгіге өту үшін терминдерді сипаттайтын формула (формуланы ұсынғанда қажет "
+"емес, мысалдарды қараңыз)"
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
