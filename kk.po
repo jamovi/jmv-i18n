@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-09 08:48+0000\n"
+"PO-Revision-Date: 2022-12-11 07:47+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -474,24 +474,28 @@ msgstr "`TRUE` (әдепкі) немесе 'FALSE', жетіспейтін мә�
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
+msgstr "'TRUE' (әдепкі) немесе 'FALSE', үлгі өлшемін қамтамасыз етеді"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "'TRUE' (әдепкі) немесе 'FALSE', стандартты ауытқуды қамтамасыз етеді"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', үлгілер үшін 'R-squared' статистикалық "
+"өлшемін қамтамасыз етеді"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', үлгілер үшін 'R' статистикалық өлшемін "
+"қамтамасыз етеді"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "`TRUE` (әдепкі) немесе 'FALSE', χ² береді"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -502,90 +506,108 @@ msgstr ""
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"'TRUE' (әдепкі) немесе 'FALSE', әр ұяшықты бірдей өлшеу немесе оларды ұяшық "
+"жиілігіне сәйкес өлшеу"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), бағаналы диаграммаға есептегіштерді қосады"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), жолақ сызбасына орташа мәнді қосады"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), маңызды корреляцияларды белгілейді"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), салыстырулардан кейінгі маңыздысын белгілейді"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"«TRUE» немесе «FALSE» (әдепкі), қалдықтар бойынша Shapiro-Wilk тестін орындау"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), тең дисперсияларды қабылдайтын Фишердің бір "
+"жақты ANOVA әдісін орындау"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі), біртектілік сынақтарын орындаңыз"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), дисперсиялардың біртектілігіне Levene тестін "
+"орындаңыз"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), дисперсиялардың біртектілігіне Levene тестін "
+"орындаңыз"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), Mann-Whitney U тестін орындаңыз"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), жұптық салыстыруларды орындаңыз"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Shapiro-wilk қалыптылық сынақтарын орындаңыз"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Shapiro-wilk қалыптылық сынақтарын орындаңыз"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Shapiro-wilk қалыптылық сынақтарын орындаңыз"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Shapiro-wilk қалыптылық сынақтарын орындаңыз"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), сфералық сынақтарды орындаңыз"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), Уэлчтің t-тестін орындайды"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Wilcoxon қол қойылған рангтық тестілерді "
+"орындайды"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), деректерді шекті құралдардың үстіне салады"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
@@ -593,56 +615,73 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгі коэффициентін бағалау үшін сенімді "
+"аралықты қамтамасыз етеді"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), модель коэффициентінің ықтималдық қатынасын "
+"бағалауға арналған сенімділік аралығын қамтамасыз етеді"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), модель коэффициенттерінің коэффициенттік "
+"қатынасын бағалау үшін сенімділік аралығын қамтамасыз етеді"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), стандартталған модель коэффициентінің "
+"бағалаулары үшін сенімділік аралығын қамтамасыз етеді"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), модель коэффициенттері үшін сенімділік "
+"аралығын қамтамасыз етеді"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгі бағалаулары үшін сенімділік аралығын "
+"қамтамасыз етеді"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), корреляциялық матрица сызбасын білдіреді"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), корреляция сызбасын қаматамасыз етеді"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), кесу сызбасын қамтамасыз етеді"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), сипаттама сызбасын қамтамасыз етеді"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), үлгі жолының диаграммасын көрсетеді"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), болжамды жіктеу кестесін (немесе қателік "
+"матрицасын) көрсетеді"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), көп айнымалы қалыптылықтың Q-Q сызбасын "
+"қамтамасыз етеді"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -653,45 +692,60 @@ msgstr ""
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), қалдықтардың Q-Q сызбасын қамтамасыз етеді"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), ROC қисық графигін қамтамасыз етеді"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгі коэффициенттері үшін стандартталған "
+"бағалауды қамтамасыз етеді"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгі коэффициенттері үшін стандартталған "
+"бағалауды қамтамасыз етеді"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), екі пропорция арасындағы айырмашылықтар үшін "
+"Z тестін білдіреді"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), модельдер үшін Aikaike ақпараттық "
+"критерийлерін (AIC) білдіреді"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), журнал коэффициенттерінің дәл арақатынасын "
+"қамтамасыз етеді (дәл 2x2 орнатуды талап етеді)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), бағаналы диаграммаларды көрсетеді (тек "
+"номиналды, реттік айнымалылар)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), Байес факторларын қамтамасыз етеді"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Байезияның сенімді аралықтарын қамтамасыз "
+"етеді"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -700,65 +754,84 @@ msgstr ""
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), үлгілер үшін Байезиан ақпарат критерийін "
+"(BIC) қамтамасыз етеді"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), диаграммаларды көрсетеді (тек үздіксіз "
+"айнымалылар)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr ""
+msgstr "`TRUE` немесе `FALSE` (әдепкі), Коэн d әсерінің өлшемдерін көрсетіңіз"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), Box M тестін қамтамасыз етеді"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), Коэннің d әсер өлшемдерін қамтамасыз етеді"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), баған пайыздарын қамтамасыз етеді"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "'TRUE' немесе 'FALSE' (әдепкі), сенімділік аралығын қамтамасыз етеді"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), салыстырмалы шаралар үшін сенімділік "
+"аралығын қамтамасыз етеді"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), әсер өлшемдері үшін сенімді аралықтарды "
+"қамтамасыз етеді"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), орташа мән үшін сенімділік аралықтарын "
+"қамтамасыз етеді"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), орташа мән айырмашылығы үшін сенімді "
+"аралықтарды қамтамасыз етеді"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), әсер өлшемдерінен кейінгі енімділік "
+"аралықтарын қамтамасыз етеді"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), корреляция матрицасының сызбасындағы "
+"тығыздықты білдіреді"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
 msgstr ""
+"'TRUE' немесе 'FALSE' (әдепкі), тығыздық графиктерін қамтамасыз етеді (тек "
+"үздіксіз айнымалылар)"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
