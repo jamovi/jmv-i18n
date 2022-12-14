@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-11 17:49+0000\n"
+"PO-Revision-Date: 2022-12-14 07:48+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -1429,6 +1429,8 @@ msgstr ""
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
 msgstr ""
+"фактордың`label` және осы факторға жататын `vars` анықтайтын аталған "
+"тізімдерді қамтитын тізім"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -1437,18 +1439,26 @@ msgstr ""
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
 msgstr ""
+"үлгіге қосылатын болжауыштарды атайтын жол векторлары бар тізім. Элементтер "
+"үлгіге тізімдегі ретіне сәйкес қосылады"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
 msgstr ""
+"үлгіге қосу үшін субъектілер арасындағы терминдерді сипаттайтын таңба "
+"векторларының тізімі"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
 msgstr ""
+"есептеуді қажет ететін пост-хок сынақтарын сипаттайтын таңба векторларының "
+"тізбесі"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
 msgstr ""
+"үлгіге өту үшін қайталанатын өлшем шарттарын сипаттайтын таңба векторларының "
+"тізімі"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1457,19 +1467,24 @@ msgstr ""
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
 msgstr ""
+"тәуелді айнымалының сілтеме деңгейлерін және барлық факторларды көрсететін "
+"тізімдер тізімі"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
 msgstr ""
+"Пайдалануға арналған контраст факторы мен түрін көрсететін тізімдер тізімі, "
+"оның біреуі `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, "
+"`'repeated'` немесе `'polynomial'`"
 
 #: ttestPS/options/pairs.description.R
 msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr ""
+msgstr "өлшем ішіндегі `data` жұптарын анықтайтын тізімдер тізімі"
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
+msgstr "бағалауды қажет ететін қалдық ковариаттар көрсетілген тізімдер тізбесі"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -1477,74 +1492,89 @@ msgstr ""
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
 msgstr ""
+"есептелген шекті орташа мәнді есептеу қажет болатын айнымалыларды көрсететін "
+"тізімдер тізімі. Бір мерзімге үш айнымалыға дейін қолдануға болады"
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
+"тізімдер тізімі, мұнда әрбір тізім`measure`ретінде анықталған 'data'-ден "
+"қайталанатын өлшемді (жол ретінде) және ол жататын «rm» деңгейлерінің арнайы "
+"комбинациясын (жолдар векторы ретінде) сипаттайды; `cell` ретінде анықталады"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
+"тізімдер тізімі, мұнда әрбір тізім белгілі бір қайталанатын өлшем факторын "
+"`label`(жол ретінде) және `levels` (жолдар векторы ретінде) сипаттайды"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr ""
+msgstr "төмен p-мәні тең дисперсиялар туралы болжамның бұзылуын көрсетеді"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
+msgstr "р-мәнінің төмендігі қалыптылық жорамалының бұзылуын болжайды"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "керемет корреляция деректер жиынтығы"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
 msgstr ""
+"сан (әдепкі: 0,1), осы мәннен жоғары ''corRes'' кестесіндегі мәндерді "
+"бөлектеңіз"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr ""
+msgstr "сан (әдепкі: 0,3), осы мәннен төмен фактор жүктемелерін жасырыңыз"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
+msgstr "сан (әдепкі: 0,3), осы мәннен төмен жүктемелерді жасырыңыз"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "сан (әдепкі: 0,5), нөлдік гипотезаның мәні"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
-msgstr ""
+msgstr "сан (әдепкі: 0), модельге қосылатын фактор үшін минималды өзіндік мән"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
+msgstr "сан (әдепкі: 1), бета алдыңғы \"a\" параметрі"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
+msgstr "сан (әдепкі: 1), бета алдыңғы \"b\" параметрі"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr ""
+msgstr "сан (әдепкі: 1), үлгіге қосылатын құрамдас үшін минималды меншікті мән"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
+"сан (әдепкі: 3), осы мәннен жоғары `'modIndices'` кестелеріндегі мәндерді "
+"бөлектеңіз"
 
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"0,5 пен 2 аралығындағы сан (әдепкі 0,707), Байес факторларын есептегенде "
+"қолданатын алдыңғы ені"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"0,5 пен 2 аралығындағы сан (әдепкі 0,707), Байес факторларын есептегенде "
+"қолданатын алдыңғы ені"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1557,7 +1587,7 @@ msgstr ""
 #: logRegOrd/options/ciWidth.description.R
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
-msgstr ""
+msgstr "50 мен 99.9 аралығындағы сан (әдепкі: 95) сенімді аралық енін көрсету"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -1568,83 +1598,101 @@ msgstr ""
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
 msgstr ""
+"50 мен 99,9 арасындағы сан (әдепкі: 95) болжалды шекті орта мән үшін "
+"сенімділік интервалының енін көрсету"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
+"50 мен 99.9 аралығындағы сан (әдепкі: 95) 'ci' ретінде пайдаланылатын "
+"сенімді аралық енін көрсету"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
+msgstr "50 мен 99,9 арасындағы сан (әдепкі: 95), сенімділік аралығының ені"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr ""
+msgstr "50 мен 99,9 арасындағы сан (әдепкі: 95), сенімді интервал ені"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
 #: ttestOneS/options/ciWidth.description.R
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr ""
+msgstr "50 мен 99,9 арасындағы сан (әдепкі: 95), сенімділік аралықтарының ені"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
 msgstr ""
+"50 мен 99,9 аралығындағы сан (әдепкі: 95), әсер өлшемдері үшін сенімділік "
+"аралықтарының ені"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"50 және 99,9 арасындағы сан (әдепкі: 95), кейінгі әсер өлшемдері үшін "
+"сенімділік аралықтарының ені"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
 msgstr ""
+"50 мен 99,9 аралығындағы сан (әдепкі: 95), қамтамасыз етуге арналған "
+"сенімділік аралықтарының ені"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
 msgstr ""
+"50 мен 99,9 аралығындағы сан (әдепкі: 95), қамтамасыз етуге арналған "
+"сенімділік аралықтарының ені"
 
 #: ttestOneS/options/testValue.description.R
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "нөлдік гипотезаның мәнін көрсететін сан"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
+msgstr "параметр"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
 msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
 msgstr ""
+"ықтимал мәні ''d''; пост hoc тесттері үшін әсер мөлшерінің Коэн өлшемін "
+"білдіреді"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "хоктан кейінгі кесте"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "пропорциялар кестесі"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "q-q графигі"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr ""
+msgstr "Қайталанатын өлшем ANOVA деректер жинағы"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
+"бүкіл талдау барысында тәуелді айнымалы үшін пайдаланылатын белгіні "
+"сипаттайтын жол (әдепкі: 'Тәуелді')"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
 msgstr ""
+"есептегіштерді қамтитын `data`айнымалыны атайтын жол немесе әрбір жол бір "
+"бақылауды білдірсе NULL"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
@@ -2204,51 +2252,51 @@ msgstr ""
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
-msgstr ""
+msgstr "тек 2x2 кестелер үшін қол жетімді"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "b параметрі"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
-msgstr ""
+msgstr "гистограмма"
 
 #: descriptives/options/bar.title
 msgid "Bar plot"
-msgstr ""
+msgstr "гистограмма"
 
 #: descriptives/ui[3][0][2].label
 msgid "Bar Plots"
-msgstr ""
+msgstr "бағаналы графиктер"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][2][0][0][1].label
 msgid "Bar Type"
-msgstr ""
+msgstr "баған түрі"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
-msgstr ""
+msgstr "Бартлетт"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr ""
+msgstr "Бартлетт сфералық тесті"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr ""
+msgstr "Бартлетт сфералық тесті"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
 msgid "Based on eigenvalue"
-msgstr ""
+msgstr "Өзіндік мәнге негізделген"
 
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr ""
+msgstr "Параллельді талдау негізінде"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -2258,26 +2306,26 @@ msgstr ""
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
 msgid "Bayes factor"
-msgstr ""
+msgstr "Байес факторы"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr ""
+msgstr "Байес факторы₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
-msgstr ""
+msgstr "Байес статистикасы"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "бета 'a' параметрі"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "бета 'b' параметрі"
 
 #: anovaRM/options/bs.title
 msgid "Between Subject Factors"
