@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-02 21:48+0000\n"
+"PO-Revision-Date: 2022-12-14 11:48+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -56,15 +56,15 @@ msgstr "{} - rho Spearmana"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% dolny CI"
+msgstr "{ciWidth}% dolny PU"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}% CI średniej {title}"
+msgstr "{ciWidth}% PU dla średniej {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% górny CI"
+msgstr "{ciWidth}% górny PU"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -1135,7 +1135,7 @@ msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr "1 - Specyfikacja"
+msgstr "1 - Specyficzność"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
@@ -2188,11 +2188,11 @@ msgstr "Kwantyle Chi-kwadrat"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr "Dolny CI"
+msgstr "Dolny PU"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "Górny CI"
+msgstr "Górny PU"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -3470,7 +3470,8 @@ msgid "data('iris')\n"
 "#                 Petal.Width                     6.16    147         0.0419\n"
 "#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
 "#"
-msgstr "data('iris')\n"
+msgstr ""
+"data('iris')\n"
 "\n"
 "mancova(data = iris,\n"
 "    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
@@ -3480,29 +3481,46 @@ msgstr "data('iris')\n"
 "#  MANCOVA\n"
 "#\n"
 "#  Testy wielowymiarowe\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
+"#  "
+"───────────────────────────────────────────────────────────────────────────\n"
 "#                                     value     F       df1    df2    p\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1.19    53.5      8    290    < .001\n"
-"#               Wilks' Lambda         0.0234     199      8    288    < .001\n"
-"#               Hotelling's Trace       32.5     581      8    286    < .001\n"
-"#               Roy's Largest Root      32.2    1167      4    145    < .001\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
+"#  "
+"───────────────────────────────────────────────────────────────────────────\n"
+"#    Species    Ślad Pillai          1.19    53.5      8    290    < .001\n"
+"#               Lambda Wilksa         0.0234     199      8    288    < ."
+"001\n"
+"#               Ślad Hotellinga       32.5     581      8    286    < .001\n"
+"#               Największy pierwiastek Roya      32.2    1167      4    "
+"145    < .001\n"
+"#  "
+"───────────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "#\n"
-"#  Univariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#                 Zmienna zależna    Suma kwadratów    df     Średni kwadrat    F         p\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#    Species      Sepal.Length                   63.21      2        31.6061     119.3    < .001\n"
-"#                 Sepal.Width                    11.34      2         5.6725      49.2    < .001\n"
-"#                 Petal.Length                  437.10      2       218.5514    1180.2    < .001\n"
-"#                 Petal.Width                    80.41      2        40.2067     960.0    < .001\n"
-"#    Residuals    Sepal.Length                   38.96    147         0.2650\n"
-"#                 Sepal.Width                    16.96    147         0.1154\n"
-"#                 Petal.Length                   27.22    147         0.1852\n"
-"#                 Petal.Width                     6.16    147         0.0419\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
+"#  Testy jednowymiarowe\n"
+"#  ──────────────────────────────────────────────────────────────────────────"
+"─────────────────────\n"
+"#                 Zmienna zależna    Suma kwadratów    df     Średni "
+"kwadrat    F         p\n"
+"#  ──────────────────────────────────────────────────────────────────────────"
+"─────────────────────\n"
+"#    Species      Sepal.Length                   63.21      2        "
+"31.6061     119.3    < .001\n"
+"#                 Sepal.Width                    11.34      2         "
+"5.6725      49.2    < .001\n"
+"#                 Petal.Length                  437.10      2       "
+"218.5514    1180.2    < .001\n"
+"#                 Petal.Width                    80.41      2        "
+"40.2067     960.0    < .001\n"
+"#    Residuals    Sepal.Length                   38.96    147         0."
+"2650\n"
+"#                 Sepal.Width                    16.96    147         0."
+"1154\n"
+"#                 Petal.Length                   27.22    147         0."
+"1852\n"
+"#                 Petal.Width                     6.16    147         0."
+"0419\n"
+"#  ──────────────────────────────────────────────────────────────────────────"
+"─────────────────────\n"
 "#"
 
 #: pca/options.description.R.usage
@@ -5462,7 +5480,7 @@ msgstr "Średnia"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr "Średnia ({ciWidth}% CI)"
+msgstr "Średnia ({ciWidth}% PU)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -7191,7 +7209,7 @@ msgstr "RMSEA"
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr "RMSEA 90% CI"
+msgstr "RMSEA 90% PU"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
