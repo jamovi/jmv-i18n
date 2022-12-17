@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-17 04:47+0000\n"
+"PO-Revision-Date: 2022-12-17 05:49+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -2023,7 +2023,7 @@ msgstr "қосымша опциялар"
 #: efa/ui[1][1][2].label
 #: pca/ui[1][1][2].label
 msgid "Additional Output"
-msgstr "қосымша шығыс"
+msgstr "қосымша нәтиже"
 
 #: anovaOneW/ui[1][1][0].label
 #: propTest2/ui[1][1][0].label
@@ -2069,24 +2069,24 @@ msgstr "баламалы гипотеза"
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
 msgid "an array of contrasts tables"
-msgstr ""
+msgstr "контраст кестелерінің массиві"
 
 #: descriptives/results/plots.description
 msgid "an array of descriptive plots"
-msgstr ""
+msgstr "сипаттамалық графиктер массиві"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "экстремалды мәндер кестелерінің жиымы"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
-msgstr ""
+msgstr "жиілік кестелерінің жиымы"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
 msgid "an array of groups of plots"
-msgstr ""
+msgstr "график топтарының жиымы"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
@@ -2094,25 +2094,25 @@ msgstr ""
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr ""
+msgstr "үлгіге тән нәтижелер жиыны"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "жұптық салыстыру кестелерінің жиымы"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "хоктан кейінгі кестелер жиымы"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "Q-Q графиктерінің жиымы"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "сипаттамалық графиктер жиымы"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -2122,43 +2122,44 @@ msgstr ""
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "есептелген шекті мәндердің графиктерінің жиымы + кестелер"
 
 #: propTest2/results/postPlots.description
+#, fuzzy
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "артқы графиктердің жиымы"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "үлгі жолы диаграммасын қамтитын сурет"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "сипаттамалық графиктер бейнесі"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
+msgstr "бүтін сан (әдепкі: 1), үлгідегі компоненттер саны"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
+msgstr "бүтін сан (әдепкі: 1), үлгідегі факторлар саны"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr ""
+msgstr "бүтін сан (әдепкі: 4) тең топтардың санын көрсетеді"
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "бүтін сан (әдепкі: 5) экстремалды мәндердің санын көрсетеді"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "шабыттандырмайтын ANOVA деректер жиынтығы"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
-msgstr ""
+msgstr "Jamovi-мен жинақталған талдаулар"
 
 #: package/analyses/ancova.title
 #: package/analyses/ancova.menuTitle
@@ -2166,15 +2167,15 @@ msgstr ""
 #: ancova/ui.title
 #: ancova/results.title
 msgid "ANCOVA"
-msgstr ""
+msgstr "Ковариантты талдау"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
-msgstr ""
+msgstr "Андерсон және Рубин"
 
 #: package/datasets/Anderson's Iris Data.name
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "Андерсонның Ирис деректері"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -2197,19 +2198,21 @@ msgstr ""
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr ""
+msgstr "АНОВА"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr ""
+msgstr "ANOVA тесті"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
 msgstr ""
+"көрсетілген субъектілер арасында факторлар болмағандықтан, бұл болжам "
+"әрқашан орындалады."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
-msgstr ""
+msgstr "Тең деп болжау (Fisher's)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -2232,29 +2235,29 @@ msgstr ""
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr ""
+msgstr "болжамдарды тексеру"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
 msgid "Assumptions"
-msgstr ""
+msgstr "болжамдар"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
-msgstr ""
+msgstr "кем дегенде бір айнымалының екі деңгейі болуы тиіс"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "AUC"
-msgstr ""
+msgstr "ҚАС(Қисық астындағы аудан)"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
-msgstr ""
+msgstr "Автокорреляция"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr ""
+msgstr "Автокорреляция сынағы"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
@@ -2335,15 +2338,15 @@ msgstr "бета 'b' параметрі"
 
 #: anovaRM/options/bs.title
 msgid "Between Subject Factors"
-msgstr ""
+msgstr "субъектік факторлар арасында"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr ""
+msgstr "субъектілер арасындағы компоненттер"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
-msgstr ""
+msgstr "субъектілер арасындағы әсерлер"
 
 #: cfa/options/fitMeasures/bic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -2359,16 +2362,16 @@ msgstr ""
 #: logRegOrd/results/modelFit.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).name
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr ""
+msgstr "Үлкен бестік (Долан, Оорт, Стул және Вихертс, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
 msgid "Binomial"
-msgstr ""
+msgstr "Биномдық"
 
 #: package/analyses/logRegBin.title
 #: package/analyses/logRegBin.description
@@ -2377,16 +2380,16 @@ msgstr ""
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr ""
+msgstr "биномдық логистикалық регрессия"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
-msgstr ""
+msgstr "биномдық тест"
 
 #: package/analyses/propTest2.menuSubtitle
 #: propTest2/options.menuSubtitle
 msgid "Binomial test"
-msgstr ""
+msgstr "биномдық тест"
 
 #: jamovi/js/linreg.events.js:4
 #: jamovi/js/linreg.events.js:40
@@ -2396,8 +2399,9 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:55
 #: jamovi/js/logregord.events.js:38
 #: jamovi/js/logregord.events.js:4
+#, fuzzy
 msgid "Block {0}"
-msgstr ""
+msgstr "Блок {0}"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logLinear/ui[1]/modelSupplier[0]/blocks.template/blockName.label
@@ -2405,7 +2409,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 msgid "Block 1"
-msgstr ""
+msgstr "1-блок"
 
 #: linReg/options/blocks.title
 #: logLinear/options/blocks.title
@@ -2413,13 +2417,13 @@ msgstr ""
 #: logRegMulti/options/blocks.title
 #: logRegOrd/options/blocks.title
 msgid "Blocks"
-msgstr ""
+msgstr "Блоктар"
 
 #: ancova/options/postHocCorr/bonf.title
 #: anova/options/postHocCorr/bonf.title
 #: anovaRM/options/postHocCorr/bonf.title
 msgid "Bonferroni"
-msgstr ""
+msgstr "бонферрони"
 
 #: descriptives/options/box.title
 msgid "Box plot"
@@ -5705,7 +5709,7 @@ msgstr ""
 #: logRegBin/ui[6][1][1][0].label
 #: logRegMulti/ui[5][1][1][0].label
 msgid "Output"
-msgstr "шығыс"
+msgstr "нәтиже"
 
 #: R/pca.b.R
 msgid "Overall"
