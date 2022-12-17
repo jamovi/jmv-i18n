@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-17 06:49+0000\n"
+"PO-Revision-Date: 2022-12-17 07:50+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -2706,17 +2706,17 @@ msgstr "сенімділік деңгейі"
 #: cfa/ui.title
 #: cfa/results.title
 msgid "Confirmatory Factor Analysis"
-msgstr ""
+msgstr "дәлелдеуші факторлық талдау"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
 msgid "Constraints"
-msgstr ""
+msgstr "шектеулер"
 
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
 msgid "Contingency coefficient"
-msgstr ""
+msgstr "конъюгация факторы"
 
 #: package/analyses/contTables.title
 #: package/analyses/contTables.menuSubgroup
@@ -2729,7 +2729,7 @@ msgstr ""
 #: contTablesPaired/options.menuSubgroup
 #: contTablesPaired/results/freqs.title
 msgid "Contingency Tables"
-msgstr ""
+msgstr "конъюгация кестесі"
 
 #: ancova/options/contrasts.title
 #: ancova/ui[4].label
@@ -2740,31 +2740,31 @@ msgstr ""
 #: anovaRM/options/contrasts.title
 #: anovaRM/results/contrasts.title
 msgid "Contrasts"
-msgstr ""
+msgstr "қарама-қайшылықтар"
 
 #: ancova/results/contrasts.template.title
 #: anova/results/contrasts.template.title
 #: anovaRM/results/contrasts.template.title
 msgid "Contrasts - $key"
-msgstr ""
+msgstr "қарама-қайшылықтар - $key"
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
-msgstr ""
+msgstr "басқару айнымалылары"
 
 #: corrPart/options/controls.title
 msgid "Control variables"
-msgstr ""
+msgstr "басқару айнымалылары"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "{items} үшін бақылау"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
 msgid "Cook's Distance"
-msgstr ""
+msgstr "Кук қашықтығы"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -2774,58 +2774,60 @@ msgstr ""
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
 msgid "Cook's distance"
-msgstr ""
+msgstr "Кук қашықтығы"
 
 #: ancova/options/postHocCorr.title
 #: ancova/ui[5][1][0].label
 #: anova/options/postHocCorr.title
 #: anova/ui[5][1][0].label
 msgid "Correction"
-msgstr ""
+msgstr "түзету"
 
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[4][1][0].label
 msgid "Corrections"
-msgstr ""
+msgstr "түзетулер"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "корреляцияланған"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "теріс корреляцияланған"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "оң корреляцияланған"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
 msgid "Correlation"
-msgstr ""
+msgstr "корреляция"
 
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
 msgid "Correlation Coefficients"
-msgstr ""
+msgstr "корреляциялау коэффициенттері"
 
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
 msgid "Correlation Heatmap"
-msgstr ""
+msgstr "корреляциялық жылу картасы"
 
 #: reliability/ui[1][0][1]/corPlot.label
 msgid "Correlation heatmap"
-msgstr ""
+msgstr "корреляциялық жылу картасы"
 
 #: package/analyses/corrMatrix.description
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr ""
+"Корреляциялық матрицалар- екі немесе одан да көп үздіксіз айнымалылар "
+"арасындағы сызықтық қатынастарды зерттеу тәсілі."
 
 #: corrMatrix/options.description.main
 msgid "Correlation matrices are a way to examine linear relationships between\n"
@@ -2846,6 +2848,19 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Корреляциялық матрицалар- екі немесе одан да көп үздіксіз айнымалылар "
+"арасындағы сызықтық қатынастарды зерттеу тәсілі.\n"
+"Әрбір айнымалы жұп үшін Пирсонның r мәні осы екі айнымалы арасындағы күшті "
+"және байланыстың бағытын көрсетеді. АОң мән оң қатынасты көрсетеді (бір "
+"айнымалының жоғары мәндері басқа айнымалының жоғары мәндерін болжайды).Теріс "
+"Пирсонның r мәні теріс қатынасты көрсетеді (бір айнымалының жоғары мәндері "
+"басқа айнымалының төменгі мәндерін болжайды, және керісінше). Нөл мәні "
+"ешқандай қатынастың жоқтығын көрсетеді (айнымалы мән жоғары ма немесе төмен, "
+"бізге басқа айнымалының құны туралы ештеңе айтпайды).\n"
+"Ресми түрде, корреляция нөлге тең болатын нөлдік гипотезаны тексеруге және p-"
+"мәнін есептеуге болады. Егер p-мәні төмен болса, корреляция коэффициенті нөл "
+"емес және екі айнымалы арасындағықатынас сызықтық (немесе күрделірек) бар "
+"деп есептейді."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -2854,26 +2869,26 @@ msgstr ""
 #: corrMatrix/results.title
 #: corrMatrix/results/matrix.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "корреляция матрицасы"
 
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
 msgid "Correlation matrix"
-msgstr ""
+msgstr "корреляция матрицасы"
 
 #: corrPart/ui[1][2].label
 msgid "Correlation Type"
-msgstr ""
+msgstr "корреляция түрі"
 
 #: corrPart/options/type.title
 msgid "Correlation type"
-msgstr ""
+msgstr "корреляция түрі"
 
 #: R/conttablespaired.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
 msgid "Count"
-msgstr ""
+msgstr "санақ"
 
 #: R/conttables.b.R
 #: R/descriptives.b.R
@@ -2890,21 +2905,21 @@ msgstr "есептегіштер"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "жиіліктер (міндетті емес)"
+msgstr "санақтар (міндетті емес)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be infinite"
-msgstr ""
+msgstr "санақтар шексіз болмауы мүмкін"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be negative"
-msgstr ""
+msgstr "санақтар теріс болмауы мүмкін"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
-msgstr ""
+msgstr "санақтар теріс емес және ақырлы болуы керек"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
