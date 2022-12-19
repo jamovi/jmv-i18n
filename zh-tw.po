@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-19 07:48+0000\n"
+"PO-Revision-Date: 2022-12-19 08:48+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hant/>\n"
@@ -207,18 +207,26 @@ msgstr ""
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"`'dt'` (預設), `'gt'` 或 `'lt'`, "
+"對立假說種類；分別表示：和`testValue`有顯著差異，顯著大於`testValue`，以及 "
+"顯著小於`testValue`"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"`'facVar'` 或 `'facInd'`，對模型參數估計的約束(constrain)方式；`'facVar'`將因"
+"素變異數固定為一，`'facInd'`將第一個指標參數估計固定為一。"
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` 或 `'fiml'`，處理缺漏值的方式； `'listwise'` "
+"若該資料行有任何缺漏，便從所有分析中剃除，`'fiml'` 使用全訊息最大概似法(full "
+"information maximum likelihood)來進行模型參數估計。"
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr ""
+msgstr "`'means'` (預設) 或 `'medians'`，圖形中所使用的誤差棒(error bars)"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
@@ -275,11 +283,11 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
@@ -287,17 +295,17 @@ msgstr ""
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`模型係數 - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`模型係數 - ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`比例 - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
@@ -1102,63 +1110,63 @@ msgstr ""
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr ""
+msgstr "< 檢定值"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ 檢定值"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr ""
+msgstr "> 檢定值"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
-msgstr ""
+msgstr "⁻ 平均 - 1SD, <sup>μ</sup> 平均, ⁺ 平均 + 1SD"
 
 #: pca/results/loadings.columns.title
 #: pca/results/factorStats/factorCor.columns.title
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - 特異度(Specificity)"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr ""
+msgstr "二元變項"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
-msgstr ""
+msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr ""
+msgstr "(半)淨相關矩陣表"
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr ""
+msgstr "指定百分等級的逗號分隔清單(預設: 25,50,75)"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "相關矩陣圖"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "相關矩陣表"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "描述統計圖"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
@@ -1252,7 +1260,7 @@ msgstr ""
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "理想的相關資料集"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
@@ -1366,7 +1374,7 @@ msgstr ""
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
+msgstr "參數"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
@@ -1375,7 +1383,7 @@ msgstr ""
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "事後檢定表"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
