@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-19 11:49+0000\n"
+"PO-Revision-Date: 2022-12-19 12:49+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -4362,6 +4362,20 @@ msgid "data('ToothGrowth')\n"
 "#  ───────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
+"\n"
+"#\n"
+"#  БІР ФАКТОРЛЫҚ ДИСПЕРСИЯ ТАЛДАУЫ (ПАРАМЕТРЛІК ЕМЕС)\n"
+"#\n"
+"#  Kruskal-Wallis\n"
+"#  ───────────────────────────────\n"
+"#           χ²      df    p\n"
+"#  ───────────────────────────────\n"
+"#    len    40.7     2    < .001\n"
+"#  ───────────────────────────────\n"
+"#"
 
 #: ttestIS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4379,6 +4393,20 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"# ТӘУЕЛСІЗ ҮЛГІЛЕР T-ТЕСТі\n"
+"#\n"
+"#  Тәуелсіз үлгілер Т-Тесті\n"
+"#  ────────────────────────────────────────────────────\n"
+"#                          statistic    df      p\n"
+"#  ────────────────────────────────────────────────────\n"
+"#    len    Student's t         1.92    58.0    0.060\n"
+"#  ────────────────────────────────────────────────────\n"
+"#"
 
 #: ttestOneS/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4397,6 +4425,21 @@ msgid "data('ToothGrowth')\n"
 "#  ──────────────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
+"\n"
+"#\n"
+"#  БІР ҮЛГІЛІК T-ТЕСТ\n"
+"#\n"
+"#  Бір үлгілік Т-тесті\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#                           statistic    df      p\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#    len     Student's t         19.1    59.0    < .001\n"
+"#    dose    Student's t         14.4    59.0    < .001\n"
+"#  ──────────────────────────────────────────────────────\n"
+"#"
 
 #: anovaOneW/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -4416,19 +4459,35 @@ msgid "data('ToothGrowth')\n"
 "#  ────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data('ToothGrowth')\n"
+"dat <- ToothGrowth\n"
+"dat$dose <- factor(dat$dose)\n"
+"\n"
+"anovaOneW(formula = len ~ dose, data = dat)\n"
+"\n"
+"#\n"
+"#  БІР ФАКТОРЛЫ ДИСПЕРСИЯЛЫҚ ТАЛДАУ\n"
+"#\n"
+"#  Бір Факторлы Дисперсия Талдауы ANOVA (Уэлч)\n"
+"#  ────────────────────────────────────────\n"
+"#           F       df1    df2     p\n"
+"#  ────────────────────────────────────────\n"
+"#    len    68.4      2    37.7    < .001\n"
+"#  ────────────────────────────────────────\n"
+"#"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
-msgstr ""
+msgstr "айнымалылар үшін тығыздықтар"
 
 #: R/proptest2.b.R
 #: descriptives/options/dens.title
 msgid "Density"
-msgstr ""
+msgstr "тығыздық"
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
-msgstr ""
+msgstr "тәуелді"
 
 #: ancova/options/dep.title
 #: anova/options/dep.title
@@ -4438,27 +4497,31 @@ msgstr ""
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr ""
+msgstr "тәуелді айнымалы"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "'{dep}' тәуелді айнымалысы шексіз мәндерден тұрады"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"'{dep}' тәуелді айнымалысында деректер жоқ (мәндері жоқ жолдарды жойғаннан "
+"кейін)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"'{dep}' тәуелді айнымалысы бір ғана бірегей мәнді қамтиды (мәндері жоқ "
+"жолдарды жойғаннан кейін)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "'{dep}' тәуелді айнымалысы үздіксіз болуы керек"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr ""
+msgstr "тәуелді айнымалы белгісі"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -4467,23 +4530,23 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
-msgstr ""
+msgstr "Тәуелді айнымалылар"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "тәуелді айнымалылар бір-бірімен жоғары корреляцияланады"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
-msgstr ""
+msgstr "ескірген"
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
-msgstr ""
+msgstr "сипаттама графигі"
 
 #: anovaRMNP/options/plots.title
 msgid "Descriptive plot"
-msgstr ""
+msgstr "сипаттама графигі"
 
 #: package/analyses/descriptives.title
 #: package/analyses/descriptives.menuTitle
@@ -4501,46 +4564,49 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/desc.label
 #: ttestPS/results/desc.title
 msgid "Descriptives"
-msgstr ""
+msgstr "сипаттамалар"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
 msgstr ""
+"Сипаттама - деректердің пішіні мен таралуын зерттеуге мүмкіндік беретін "
+"жиынтық статистикалық деректер мен көрнекілендірулердің ассортименті.Ресми "
+"сынақтарға өтпес бұрын деректеріңізді сипаттамалармен зерттеу жақсы тәжірибе."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
 msgid "descriptives plot"
-msgstr ""
+msgstr "сипаттамалық статистикалардың графигі"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
 #: ttestPS/options/plots.title
 msgid "Descriptives Plots"
-msgstr ""
+msgstr "сипаттама графиктері"
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
 msgid "Descriptives plots"
-msgstr ""
+msgstr "сипаттамал графиктері"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
 msgid "Descriptives Table"
-msgstr ""
+msgstr "сипаттамалар кестесі"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr ""
+msgstr "сипаттамалар кестесі"
 
 #: package/analyses/empty.menuGroup
 #: empty/options.menuGroup
 msgid "dev"
-msgstr ""
+msgstr "dev"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -4551,13 +4617,13 @@ msgstr ""
 #: logRegOrd/options/dev.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "Deviance"
-msgstr ""
+msgstr "ауытқу"
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
 msgid "Deviation"
-msgstr ""
+msgstr "ауытқу"
 
 #: R/ancova.b.R
 #: ancova/results/main.columns.title
@@ -4592,51 +4658,51 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
 #: anovaRM/options/contrasts.template/type/difference.title
 msgid "Difference"
-msgstr ""
+msgstr "айырмашылық"
 
 #: contTables/results/odds.columns.content
 msgid "Difference in 2 proportions"
-msgstr ""
+msgstr "2 пропорциядағы айырмашылық"
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
-msgstr ""
+msgstr "Пропорциялардағы айырмашылық"
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
-msgstr ""
+msgstr "дисперсия"
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
-msgstr ""
+msgstr "таралу"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr ""
+msgstr "Тең деп есептемеңіз (Уэлч)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
-msgstr ""
+msgstr "айнымалыны осында апарыңыз"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -4652,23 +4718,23 @@ msgstr ""
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 msgid "drag variables here"
-msgstr ""
+msgstr "айнымалыларды осында апарыңыз"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
-msgstr ""
+msgstr "DSCF жұптық салыстырулары"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "Автокорреляцияға арналған Дурбин-Уотсон сынағы"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr ""
+msgstr "DW статистикасы"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr ""
+msgstr "Дуас-Стил-Кричлоу-Флигнерді жұптық салыстыру"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -4684,7 +4750,7 @@ msgstr ""
 #: ttestPS/options/effectSize.title
 #: ttestPS/results/ttest.columns.title
 msgid "Effect Size"
-msgstr ""
+msgstr "әсер өлшемі"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
@@ -4694,25 +4760,27 @@ msgstr ""
 #: ttestOneS/ui[1][1][0]/effectSize.label
 #: ttestPS/ui[1][1][0]/effectSize.label
 msgid "Effect size"
-msgstr ""
+msgstr "әсер өлшемі"
 
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
 msgid "Eigenvalue"
-msgstr ""
+msgstr "меншікті мән"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr ""
+msgstr "меншікті мәндер"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 msgid "Eigenvalues greater than"
-msgstr ""
+msgstr "меншікті мәндер мынадан үлкен"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"субъектілер дизайны арасындағы бос ұяшықтар: субъектің фактор деңгейлері "
+"арасындағы кем дегенде бір комбинацияда 0 бақылау бар"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4722,23 +4790,23 @@ msgstr ""
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
 msgid "Equal cell weights"
-msgstr ""
+msgstr "ұяшықтардың тең салмақтары"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr ""
+msgstr "тең топтар"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "error %"
-msgstr ""
+msgstr "% қатесі"
 
 #: ancova/options/emmPlotError.title
 #: anova/options/emmPlotError.title
 #: anovaRM/options/emmPlotError.title
 msgid "Error bars"
-msgstr ""
+msgstr "Қате жолақтары"
 
 #: ancova/results/contrasts.template.columns.title
 #: anovaRM/results/contrasts.template.columns.title
@@ -4756,17 +4824,17 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Estimate"
-msgstr ""
+msgstr "болжау"
 
 #: logRegBin/ui[5][0][0][1].label
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr ""
+msgstr "бағалау (Log Odds Ratio)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr ""
+msgstr "(Log Rate Ratio)бағалау"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -4783,7 +4851,7 @@ msgstr ""
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "есептелген шекті орта мәндер"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4792,7 +4860,7 @@ msgstr ""
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Estimated Marginal Means - {term}"
-msgstr ""
+msgstr "Есептелетін шекті орта мәндер - {термин}"
 
 #: cfa/ui[3].label
 msgid "Estimates"
