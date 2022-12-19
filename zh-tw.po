@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-19 04:49+0000\n"
+"PO-Revision-Date: 2022-12-19 06:48+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hant/>\n"
@@ -18,51 +18,51 @@ msgstr "'{col}' 包含無限值"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "'{col}' 包含缺漏值"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "'{col}' 皆為缺漏值"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "'{col}' 僅包含一種資料值"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
+msgstr "使用 '{method}' 萃取方式與 '{rotation}' 旋轉法"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "使用'{rotation}'旋轉法"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "'{var}' 包含負數值。無法接受負的加權值。"
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - Kendall's Tau b"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - Pearson's r 相關係數"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - Spearman rho"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% 信賴區間下界(CI Lower)"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}% 信賴區間(CI) mean {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% 信賴區間上界(CI Upper)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -78,48 +78,48 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciWidth}% 信賴區間(Confidence Interval)"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "{ciWidth}% 信賴區間(Confidence Intervals)"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} 與 {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list}, {nextItem}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list}, 及 {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "{n} 對數值為同值(tied)"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "{vars} 資料變數的 {type} 分數"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (反向)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "二元變項邏輯斯迴歸(binomial logistic regression)模型{modelNo}的{varType}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "線性迴歸(linear regression)模型{modelNo}的{varType}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05，** p < .01，*** p < .001，單尾"
+msgstr "* p < .05，** p < .01，*** p < .001，單尾檢定"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -153,11 +153,11 @@ msgstr "* p < .05，** p < .01，*** p < .001，單尾"
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "正確 %"
 
 #: R/descriptives.b.R
 msgid "% of Total"
