@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-19 17:49+0000\n"
+"PO-Revision-Date: 2022-12-20 02:51+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -4868,22 +4868,24 @@ msgstr "болжаулар"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr ""
+msgstr "болжамдар коэффииенттердің логорифмын білдіреді"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
 msgstr ""
+"болжамдар \"{dep} = {level1}\" мен \"{dep} = {level2}\" коэффииенттерінің "
+"логорифмын көрсетеді"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
-msgstr ""
+msgstr "бағалау әдісі"
 
 #: anovaOneW/ui[1][0][1]/miss_perAnalysis.label
 #: ttestIS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr ""
+msgstr "жағдайларды талдау жолымен алып тастау"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -4891,26 +4893,26 @@ msgstr ""
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr ""
+msgstr "жағдайларды тізім бойынша алып тастау"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
-msgstr ""
+msgstr "алынып тасталды"
 
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
 msgid "Expected"
-msgstr ""
+msgstr "күтілуде"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
 msgid "Expected counts"
-msgstr ""
+msgstr "күтілетін сома"
 
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr ""
+msgstr "күтілетін пропорциялар"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
@@ -4927,23 +4929,23 @@ msgstr "барлау"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "барлау факторлық талдауы"
 
 #: efa/options/extraction.title
 msgid "Extraction"
-msgstr ""
+msgstr "экстракция"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "шеткі мәндер"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "шеткі мәндер"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "$key экстремалды мәндері"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4956,15 +4958,15 @@ msgstr ""
 #: mancova/results/univar.columns.title
 #: ttestIS/results/assum/eqv.columns.title
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
-msgstr ""
+msgstr "F тесті"
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
-msgstr ""
+msgstr "F-статистикасын есептеу мүмкін емес"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -4977,91 +4979,99 @@ msgstr ""
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr ""
+msgstr "Фактор"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"'{factor}' факторы екіден аз деңгейге ие. Факторлардың кем дегенде екі "
+"деңгейі болуы керек"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "'{factor}' факторында кемінде 2 деңгей болуы қажет"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' факторында деректер жоқ (мәндері жоқ қатарларды жойғаннан "
+"кейін)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' факторы тек бір деңгейді қамтиды (мәндері жоқ жолдарды "
+"жойғаннан кейін)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' факторында пайдаланылмаған деңгейлер бар (мәндері жоқ "
+"жолдарды жойғаннан кейін)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
-msgstr ""
+msgstr "Фактор {0}"
 
 #: cfa/options/factors.default[0].label
 msgid "Factor 1"
-msgstr ""
+msgstr "фактор 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
-msgstr ""
+msgstr "фактордың корреляциясы"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr ""
+msgstr "факторлық ковариациялар"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
-msgstr ""
+msgstr "факторлық ковариациялар"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr ""
+msgstr "факторлық бағалаулар"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "факторлық константалар"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr ""
+msgstr "факторлық константалар"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
 msgid "Factor Loadings"
-msgstr ""
+msgstr "факторлық жүктемелер"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr ""
+msgstr "факторлық жүктемелер – модификациялық индекстер"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr ""
+msgstr "фактор ұпайлары"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
-msgstr ""
+msgstr "факторлық статистикасы"
 
 #: efa/options/factorSummary.title
 msgid "Factor summary"
-msgstr ""
+msgstr "фактордың түйіндемесі"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
 msgid "Factor variances = 1"
-msgstr ""
+msgstr "факторлық дисперсиялар = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
-msgstr ""
+msgstr "фактор(лар)"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -5077,20 +5087,20 @@ msgstr ""
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
 msgid "Factors"
-msgstr ""
+msgstr "факторлар"
 
 #: R/pca.b.R
 msgid "factors"
-msgstr ""
+msgstr "факторлар"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
-msgstr ""
+msgstr "Фишердікі"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr ""
+msgstr "Фишердің нақты сынағы"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -5101,43 +5111,43 @@ msgstr ""
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
 msgid "Fit Measures"
-msgstr ""
+msgstr "сәйкестік өлшемдер"
 
 #: R/linreg.b.R
 msgid "Fitted"
-msgstr ""
+msgstr "сәйкестендірілген"
 
 #: ancova/options/factors.title
 #: anova/options/factors.title
 msgid "Fixed Factors"
-msgstr ""
+msgstr "тұрақты факторлар"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
 msgid "Fixed number"
-msgstr ""
+msgstr "тұрақты нөмір"
 
 #: R/cfa.b.R
 msgid "fixed parameter"
-msgstr ""
+msgstr "бекітілген параметр"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
-msgstr ""
+msgstr "маңызды салыстыруларды белгілеңіз"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "маңызды корреляцияларды белгілеу"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr ""
+msgstr "маңызды корреляцияларды (p < .05) белгілермен белгілеңіз."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "маңызды кейінгі салыстыруларды белгілеңіз."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -5151,40 +5161,40 @@ msgstr ""
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
 msgid "Frequencies"
-msgstr ""
+msgstr "жиіліктер"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
-msgstr ""
+msgstr "$key жиіліктері"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
 msgid "Frequency tables"
-msgstr ""
+msgstr "жиілік кестелері"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
 msgid "Friedman"
-msgstr ""
+msgstr "Фридман"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
-msgstr ""
+msgstr "максималды ықтималдығының толық ақпараты"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
-msgstr ""
+msgstr "Геймс-Хауэлл (тең емес дисперсиялар)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "Геймс-Хауэлл пост-хок сынағы – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
 #: contTables/results/gamma.columns.title
 msgid "Gamma"
-msgstr ""
+msgstr "гамма"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
@@ -5194,24 +5204,24 @@ msgstr ""
 #: logRegBin/ui[6][1][0][0].label
 #: logRegMulti/ui[5][1][0][0].label
 msgid "General Options"
-msgstr ""
+msgstr "жалпы параметрлер"
 
 #: anovaRM/options/effectSize/ges.title
 msgid "Generalised η²"
-msgstr ""
+msgstr "жалпыланған η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
-msgstr ""
+msgstr "үлкен орташа мән (қарапайым кодтау)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Greenhouse-Geisser"
-msgstr ""
+msgstr "Греенхоус-Геиссер"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Greenhouse-Geisser ε"
-msgstr ""
+msgstr "Греенхоус-Геиссер ε"
 
 #: ttestIS/results/desc.columns.title
 msgid "Group"
@@ -5219,116 +5229,118 @@ msgstr "топ"
 
 #: R/conttables.b.R
 msgid "Group 1"
-msgstr ""
+msgstr "1-топ"
 
 #: contTables/options/hypothesis/twoGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_twoGreater.label
 #: ttestIS/options/hypothesis/twoGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "топ-1 < топ-2"
 
 #: contTables/options/hypothesis/different.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_different.label
 #: ttestIS/options/hypothesis/different.title
 #: ttestIS/ui[1][0][1]/hypothesis_different.label
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "топ-1 ≠ топ-2"
 
 #: contTables/options/hypothesis/oneGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_oneGreater.label
 #: ttestIS/options/hypothesis/oneGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "топ-1 > топ-2"
 
 #: R/conttables.b.R
 msgid "Group 2"
-msgstr ""
+msgstr "топ 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
 msgid "Group Descriptives"
-msgstr ""
+msgstr "топтық сипаттамалар"
 
 #: anovaRM/results/groupSummary.title
 msgid "Group Summary"
-msgstr ""
+msgstr "топтық қорытынды"
 
 #: anovaRM/options/groupSumm.title
 msgid "Group summary"
-msgstr ""
+msgstr "топтық қорытынды"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr ""
+msgstr "топтастыру айнымалысы"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
 msgstr ""
+"'{a}' топтастыру айнымалысы жетіспейтін мәндерді алып тастағаннан кейін 2 "
+"деңгейден аз болады"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr ""
+msgstr "'{a}' топтастыру айнымалысының дәл 2 деңгейі болуы керек"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr ""
+msgstr "'{a}' топтастыру айнымалысы тәуелді айнымалы болмауы керек"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ — теріс корреляция"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ — оң корреляция"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
-msgstr ""
+msgstr "Hₐ — пропорция {direction} {testValue}"
 
 #: R/conttables.b.R
 msgid "Haldane-Anscombe correction applied"
-msgstr ""
+msgstr "Хальдан-Анскомб түзетуі қолданылды"
 
 #: efa/options/factorScoreMethod/Harman.title
 msgid "Harman"
-msgstr ""
+msgstr "Харман"
 
 #: ancova/options/contrasts.template/type/helmert.title
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
-msgstr ""
+msgstr "Хельмерт"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
-msgstr ""
+msgstr "төмендегі жүктеулерді жасыру"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 msgid "Highlight values above"
-msgstr ""
+msgstr "жоғарыдағы мәндерді бөлектеу"
 
 #: descriptives/options/hist.title
 msgid "Histogram"
-msgstr ""
+msgstr "гистограмма"
 
 #: descriptives/ui[3][0][0][0].label
 msgid "Histograms"
-msgstr ""
+msgstr "гистограммалар"
 
 #: ancova/options/postHocCorr/holm.title
 #: anova/options/postHocCorr/holm.title
 #: anovaRM/options/postHocCorr/holm.title
 msgid "Holm"
-msgstr ""
+msgstr "Хольм"
 
 #: ancova/results/assump/homo.title
 #: anova/results/assump/homo.title
@@ -5336,7 +5348,7 @@ msgstr ""
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr ""
+msgstr "Дисперсиялардың біртектілігі сынағы (Левене)"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
