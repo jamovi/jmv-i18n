@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-20 06:48+0000\n"
+"PO-Revision-Date: 2022-12-21 03:49+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -6305,65 +6305,79 @@ msgstr "омнибус АНОВА тесті"
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "Омнибус ықтималдылық коэффициенті сынақтары"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr ""
+msgstr "Омнибус тесті"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
 msgid "Omnibus Tests"
-msgstr ""
+msgstr "Омнибус сынақтары"
 
 #: corrMatrix/options/hypothesis.description.R
 #: corrPart/options/hypothesis.description.R
 msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
 msgstr ""
+"альтернативті гипотезаны көрсететін `'corr'` (әдепкі), `'pos'`, `'neg'` бірі;"
+" корреляцияланған, оң корреляцияланған, сәйкесінше теріс корреляцияланған."
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
 msgstr ""
+"есептеу үшін жартылай корреляция түрін көрсететін `'part'` (әдепкі) немесе "
+"`'semi'`жартылай немесе жартылай бөліну корреляциясы."
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
-msgstr ""
+msgstr "бір немесе екі топта бақылаулар жеткіліксіз"
 
 #: R/ttestps.b.R
 msgid "One or both variables are not numeric"
-msgstr ""
+msgstr "бір немесе екі йнымалыларда сандық емес"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain infinite values"
-msgstr ""
+msgstr "бір немесе екі айнымалы шексіз мәндерді қамтиды"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain no observations"
-msgstr ""
+msgstr "бір немесе екі айнымалыда бақылаулар жоқ"
 
 #: R/ttestps.b.R
 msgid "One or both variables do not contain enough observations"
-msgstr ""
+msgstr "бір немесе екі айнымалыда жеткілікті бақылаулар жоқ"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
 msgstr ""
+"'{modelNo}' үлгісіндегі бір немесе бірнеше коэффициенттерді мінсіз "
+"коллинеарлыққа байланысты бағалау мүмкін болмады."
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
 msgstr ""
+"`'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'` арасындағы бір "
+"немесе бірнеше; CFI, TLI, SRMR, RMSEA + 90% сенімділік интервалын, "
+"түзетілген AIC және BIC үлгісінің сәйкестік өлшемдерін пайдаланыңыз,"
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
 msgstr ""
+"`'eta'`, `'partEta'`, or `'omega'`арасынан бір немесе бірнеше;тиісінше η², "
+"ішінара η² және ω² әсер өлшемдерін пайдаланыңыз"
 
 #: anovaRM/options/spherCorr.description.R
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
 msgstr ""
+"`'none'` (әдепкі), `'GG'`, or ``HF``арасынан бір немесе бірнеше; тиісінше p-"
+"мәнінің түзетуін, Парауз-Гейссердің p-мәнінің түзетуін және Хьюн-Фелдттің p-"
+"мәнінің түзетуін шериттілік үшін пайдаланбаңыз"
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
