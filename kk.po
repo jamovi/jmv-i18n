@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-21 05:48+0000\n"
+"PO-Revision-Date: 2022-12-21 06:48+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -6680,135 +6680,156 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Жартылай корреляциялық матрицалар —басқа айнымалыларды басқару кезіндегі екі "
+"немесе одан да көп үздіксіз айнымалылар арасындағысызықтық қатынастарды "
+"зерттеу тәсілі\n"
+"Әрбір айнымалы жұп үшін Пирсонның r мәні осы екі айнымалы арасындағы күшті "
+"және байланыстың бағытын көрсетеді. Оң мән оң қатынасты көрсетеді (бір "
+"айнымалының жоғары мәндері басқа айнымалының жоғары мәндерін болжайды). "
+"Теріс Пирсонның r мәні теріс қатынасты көрсетеді (бір айнымалының жоғары "
+"мәндері басқа айнымалының төменгі мәндерін болжайды, және керісінше). Нөл "
+"мәні ешқандай қатынастың жоқтығын көрсетеді (айнымалы мән жоғары ма немесе "
+"төмен, бізге басқа айнымалының мәні туралы ештеңе айтпайды). \n"
+"Ресми түрде, корреляция нөлге тең болатын нөлдік гипотезаны тексеруге және p-"
+"мәнін есептеуге болады. Егер p-мәні төмен болса, корреляция коэффициенті нөл "
+"емес және екі айнымалы арасындағы қатынас сызықтық (немесе күрделірек) деп "
+"есептейді."
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
-msgstr ""
+msgstr "жартылай η²"
 
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
 msgid "partial η²"
-msgstr ""
+msgstr "жартылай η²"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
-msgstr ""
+msgstr "жол диаграммасы"
 
 #: cfa/options/pathDiagram.title
 msgid "Path diagram"
-msgstr ""
+msgstr "жол диаграммасы"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
-msgstr ""
+msgstr "Пирсон"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "Пирсон r"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
-msgstr ""
+msgstr "Пирсон{}Корреляциясы"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr ""
+msgstr "пайыздар"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
-msgstr ""
+msgstr "жалпы санының пайызы"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "{var} ішіндегі пайыздар"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
-msgstr ""
+msgstr "процентиль"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
-msgstr ""
+msgstr "пайыздық мәндер"
 
 #: descriptives/options/pcValues.title
 msgid "Percentile values"
-msgstr ""
+msgstr "пайыздық мәндер"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
 msgid "Percentiles"
-msgstr ""
+msgstr "процентильдер"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "Манна-Уитни тестін орындау."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"Шапиро-Уилк қалыптылық тестін орындау. Төмен p мәні деректердің қалыпты "
+"түрде таралмағанын көрсетеді."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "модельдің жалпы тестін жүргізу."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
 msgstr ""
+"Фишер дисперсиясын (немесе «қалыпты» деп атауға болатын) талдауды орындау."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"Шапиро-Уилк қалыптылық сынақтарын орындау. Төмен p мәні деректердің қалыпты "
+"түрде таралмағанын көрсетеді."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
+"Шапиро-Уилк қалыптылық сынақтарын орындаңыз. Төмен p мәні қалдықтардың "
+"қалыпты түрде таралмағанын көрсетеді."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr ""
+msgstr "студенттің тәуелсіз үлгілерінің t-тесттерін орындау."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr ""
+msgstr "студенттің бір үлгілі t-тесттерін орындау."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "студенттің жұптық үлгілерінің t-тесттерін орындау."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "Уэльчтың дисперсионды талдауын орындау."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "Уэльчтың тесттерін орындау."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "Вилкоксон таңбалық дәрежесі сынақтарын орындау."
 
 #: contTables/options/phiCra.title
 msgid "Phi and Cramer's V"
-msgstr ""
+msgstr "Фи және Крамердің V"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "Фи коэффициенті"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "Пиллай ізі"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -6816,21 +6837,22 @@ msgstr ""
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr ""
+msgstr "график"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
 msgstr ""
+"корреляциялық матрица сызбасының диагоналы бойынша таралу тығыздығы графигі."
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
 msgid "plot the data along with the marginal means."
-msgstr ""
+msgstr "деректерді шекті орта мәндермен бірге сызыңыз."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr ""
+msgstr "диаграмма түрі"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -6850,12 +6872,12 @@ msgstr "графиктер"
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
-msgstr ""
+msgstr "полиномдық"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "Кейінгі салыстырулар - {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -6868,11 +6890,11 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "пост hoc сынақтары"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Пост hoc сынақтары – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
