@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-21 03:49+0000\n"
+"PO-Revision-Date: 2022-12-21 04:50+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -6382,15 +6382,24 @@ msgstr ""
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
 msgstr ""
+"`'none'`, `'tukey'` (әдепкі), `'scheffe'`, `'bonf'`, немесе `'holm'`арасынан "
+"бір немесе бірнеше; жоқ, Тьюки,Шеффе, Бонферрони және Холм артқы түзетулерді "
+"пайдаланыңыз"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
 msgstr ""
+"`'none'`, `'tukey'` (әдепкі), `'scheffe'`, `'bonf'`, немесе `'holm'`арасынан "
+"бір немесе бірнеше; жоқ, Тьюки,Шеффе, Бонферрони және Холм артқы түзетулерін "
+"қамтамасыз етеді"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
 msgstr ""
+"`'pillai'`, `'wilks'`, `'hotel'`, немесе `'roy'`арасынан бір немесе бірнеше; "
+"тиісінше Pillai's Trace, Wilks' Lambda, Hotelling's Trace және Roy's Largest "
+"Root көп өзгермелі статистикасын пайдаланыңыз"
 
 #: logLinear/options/pseudoR2.description.R
 #: logRegBin/options/pseudoR2.description.R
@@ -6398,13 +6407,15 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.description.R
 msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
+"`'r2mf'`, `'r2cs'`, немесе`'r2n'` арасынан бір немесе бірнеше; тиісінше "
+"McFadden's, Cox & Snell және Nagelkerke псевдо-R² пайдаланыңыз"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "бір үлгілік пропорция сынақтары"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -6413,7 +6424,7 @@ msgstr ""
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr ""
+msgstr "бір үлгілі T-test"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -6424,27 +6435,27 @@ msgstr ""
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
 msgid "One-Way ANOVA"
-msgstr ""
+msgstr "Бір жақты ANOVA"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Fisher's)"
-msgstr ""
+msgstr "Бір жақты ANOVA (Фишер)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr ""
+msgstr "Бір жақты ANOVA (параметрлік емес)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr ""
+msgstr "Бір жақты ANOVA (Welch's)"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
 msgid "Options"
-msgstr ""
+msgstr "праметрлер"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
@@ -6457,16 +6468,16 @@ msgstr "реттік"
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "Реттік логистикалық регрессия"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "реттік нәтижелер"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "аутлерлер"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -6480,11 +6491,11 @@ msgstr "нәтиже"
 
 #: R/pca.b.R
 msgid "Overall"
-msgstr ""
+msgstr "жалпы"
 
 #: R/ancova.b.R
 msgid "Overall model"
-msgstr ""
+msgstr "жалпы үлгі"
 
 #: linReg/ui[4][0][1][0].label
 #: linReg/results/modelFit.columns.superTitle
@@ -6493,7 +6504,7 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "жалпы үлгі тесті"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -6502,7 +6513,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "жалпы үлгі тесті"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6566,41 +6577,41 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p- мәні"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
-msgstr ""
+msgstr "p<sub>Бонферрони</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr ""
+msgstr "p<sub>Холм</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
-msgstr ""
+msgstr "p<sub>Шеффе</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>tukey</sub>"
-msgstr ""
+msgstr "p<sub>Тьюки</sub>"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr ""
+msgstr "жұптасқан үлгілер"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr ""
+msgstr "жптасқан үлгілердің түйіндестік кестесі"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -6609,27 +6620,27 @@ msgstr ""
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "жұпталған үлгілер T-тесті"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
-msgstr ""
+msgstr "жұпталған айнымалылар"
 
 #: anovaNP/results/comparisons.template.title
 msgid "Pairwise comparisons - $key"
-msgstr ""
+msgstr "жұптық салыстырулар - $key"
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "жұптық салыстырулар (Дурбин-Коновер)"
 
 #: anovaRMNP/options/pairs.title
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "жұптық салыстырулар (Дурбин-Коновер)"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
-msgstr ""
+msgstr "жартылай"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -6638,7 +6649,7 @@ msgstr ""
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr ""
+msgstr "жартылай корреляция"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
