@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-21 02:47+0000\n"
+"PO-Revision-Date: 2022-12-21 03:49+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hant/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr "'{col}' 包含無限值"
+msgstr "'{col}' 包含無限大數值"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
@@ -4173,16 +4173,16 @@ msgstr ""
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
-msgstr ""
+msgstr "變項機率分布"
 
 #: R/proptest2.b.R
 #: descriptives/options/dens.title
 msgid "Density"
-msgstr ""
+msgstr "機率分布"
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
-msgstr ""
+msgstr "依變項"
 
 #: ancova/options/dep.title
 #: anova/options/dep.title
@@ -4192,19 +4192,19 @@ msgstr ""
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr ""
+msgstr "依變項"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "'{dep}'依變項中包含無限大數值"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "'{dep}'依變項未包含資料(移除缺漏值之後)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
+msgstr "'{dep}'依變項僅包含一種數值(移除缺漏值後)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
