@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-25 13:47+0000\n"
+"PO-Revision-Date: 2022-12-25 15:50+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -8388,53 +8388,57 @@ msgstr "категориялық түсіндірмелі (немесе тәуе
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"Орташа мәннің сенімділік интервалы таңдау құралдары N–1 еркіндік дәрежесі "
+"бар t-үлестіруді бақылайды деп болжайды"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "эффект өлшемдері үшін сенімділік интервал ені."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "кейінгі әсер өлшемдері үшін сенімділік интервалының ені."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr ""
+msgstr "сенімділік интервалының ені."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
 msgstr ""
+"ковариаттар деген атпен де белгілі үздіксіз түсіндірме (немесе тәуелсіз) "
+"айнымалылар."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 msgid "the contrasts to use."
-msgstr ""
+msgstr "қолдануға болатын контрасттар."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr ""
+msgstr "қызығушылық тудыратын бақылау айнымалылары."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
-msgstr ""
+msgstr "`data` ішіндегі сандар"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "ковариаттар (бұларды көрсету осыны АНКОВА етеді)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "`data`-дан алынған ковариаттар"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "шектеу мәні {} мәніне орнатылды"
 
 #: ancova/options/data.description.R
 #: anova/options/data.description.R
@@ -8468,33 +8472,39 @@ msgstr "деректер фрейм форматы ретінде"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
+msgstr "Деректер жиыны 0 жолды қамтиды (мәндері жоқ жолдарды жойғаннан кейін)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "Деректер жиыны 0 жолды қамтиды (немесе барлық жолдарда жоқ мәндер бар)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"Тәуелді айнымалы '{}' екіден артық деңгейге ие; биномдық логистикалық "
+"регрессия екі деңгейлі тәуелді айнымалылар бойынша ғана орындалуы мүмкін."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr ""
+msgstr "Тәуелді айнымалы '{dep}' келесі ретке ие: {ordedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"\"{dep}\" тәуелді айнымалының екі деңгейі ғана бар, биномдық логистикалық "
+"регрессия жасауды қарастырыңыз."
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "`data`-ден тәуелді айнымалыны атайтын жол, айнымалы сандық болуы тиіс"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"`data` тәуелді айнымалы,айнымалы сандық болуы керек (формула бергенде қажет "
+"емес, мысалдарды қараңыз)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
