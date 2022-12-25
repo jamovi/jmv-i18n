@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-25 16:48+0000\n"
+"PO-Revision-Date: 2022-12-25 17:48+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -8675,26 +8675,46 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
+"Қайталанатын өлшемдер ANOVA үздіксіз тәуелді айнымалы мен \n"
+"бір немесе бірнеше түсіндірмелі айнымалылар арасындағы байланысты тексеру "
+"үшін пайдаланылады,\n"
+" мұнда бір немесе бірнеше түсіндірме айнымалылар «тақырып ішінде» (бірнеше "
+"өлшем бір тақырыптан болған кезде). \n"
+"Сонымен қатар, бұл талдау ковариаттарды қосуға мүмкіндік береді, \n"
+"бұл сонымен қатар ANCOVA-ны қайталанатын өлшеулер үшін пайдалануға мүмкіндік "
+"береді.\n"
+"\n"
+"Бұл талдау деректердің әрқайсысында 'wide format'ұсынылуын талап етеді\n"
+"жол тақырыпты білдіреді (тәуелді айнымалының әрбір өлшемі жол ретінде "
+"ұсынылған ұзын пішімнен айырмашылығы).\n"
+"\n"
+"Сондай-ақ ANOVA қайталанатын өлшемдердің параметрлік емес эквиваленті бар; "
+"Фридман сынағы. \n"
+"Дегенмен, оның шектеуі бар, ол тек бір факторды сынай алады."
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
-msgstr ""
+msgstr "қайталанатын өлшемдер дизайны."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
 msgstr ""
+"Қайталанатын шаралар тек екі деңгейден тұрады. Қайталанатын шаралар тек екі "
+"деңгейге ие болған кезде сфералық болжам әрқашан орындалады"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
+"Қайталанатын шаралар тек екі деңгейден тұрады. Қайталанатын шаралар тек екі "
+"деңгейге ие болған кезде сфералық болжам әрқашан орындалады."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "қайталанатын өлшем өлшемдері."
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
-msgstr ""
+msgstr "үлгінің қайталанатын өлшем шарттары."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -8702,6 +8722,11 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
+"Студенттің тәуелсіз үлгілері t-сынағы (кейде екі үлгілі t-тест деп аталады) "
+"\n"
+"екі топта бірдей орта мәні бар нөлдік гипотезаны тексеру үшін қолданылады.\n"
+"Төмен p-мәні нөлдік гипотезаның дұрыс еместігін көрсетеді,\n"
+"сондықтан топтық құралдар әртүрлі."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -8718,6 +8743,20 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
+"Студенттің тәуелсіз үлгілері t-сынағы (кейде екі үлгілі t-тест деп аталады) "
+"\n"
+"екі топта бірдей орта мәні бар нөлдік гипотезаны тексеру үшін қолданылады.\n"
+"Төмен p-мәні нөлдік гипотезаның дұрыс еместігін көрсетеді,\n"
+"сондықтан топтық құралдар әртүрлі.\n"
+"\n"
+" Студенттің тәуелсіз t-тесті әрбір топтың деректері қалыпты таралудан \n"
+"және осы топтардың дисперсиялары тең екендігін болжайды. \n"
+"Топтардың тең дисперсиялары бар деп болжағысы келмесе, \n"
+"оның орнында Уэлчтің t-тестін қолдануға болады.\n"
+"Әрбір топтың деректері қалыпты түрде таратылған деп болжағыңыз келмесе, \n"
+"оның орнына параметрлік емес Mann-Whitney U-сынағын пайдалануға болады. \n"
+"(Алайда, Mann-Whitney U-тестінде әр топтың үлестірімдері тең болатыны туралы "
+"сәл өзгеше нөлдік гипотеза бар екенін ескеріңіз)."
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
