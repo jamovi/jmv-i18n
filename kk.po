@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-25 15:50+0000\n"
+"PO-Revision-Date: 2022-12-25 16:48+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -8533,84 +8533,114 @@ msgstr "тәуелді айнымалы. ANOVA үшін бұлар үздікс�
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "шекті отра мәндер графиктеріне арналған қате жолақтары."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
 msgstr ""
+"түсіндірме ковариаттары (формуланы ұсыну кезінде қажет емес, мысалдарды "
+"қараңыз)"
 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
 msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
 msgstr ""
+"`data`-дағы түсіндірме факторлар (формуланы ұсыну кезінде қажет емес, "
+"мысалдарды қараңыз)"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
+"түсіндірмелі немесе тәуелсіз айнымалы. ANOVA үшін бұл категориялық болады."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
+"түсіндірмелі немесе тәуелсіз айнымалы. ANOVA үшін бұл категориялық болады."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr ""
+msgstr "`data`-дан тұрақты факторлар"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Фридман тесті үздіксіз тәуелді айнымалы мен категориялық түсіндірмелі "
+"айнымалы арасындағы байланысты зерттеу үшін қолданылады, мұнда түсіндірме "
+"айнымалы 'within subjects' (мұнда бірнеше өлшем бір субъектен алынған). Ол "
+"ANOVA қайталанатын өлшемдерге ұқсас, бірақ артықшылығы параметрлік емес және "
+"дисперсиялардың қалыптылығы немесе біртектілігі туралы жорамалдарды қажет "
+"етпейді. Дегенмен, оның бір уақытта тек бір түсіндірмелі айнымалыны тексере "
+"алатын шектеуі бар."
 
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
+"екі деңгейлі топтау айнымалысы (формуланы пайдаланғанда қажет емес, "
+"мысалдарды қараңыз)"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Крускал-Уоллис тесті үздіксіз тәуелді айнымалы мен категориялық түсіндірме "
+"айнымалы арасындағы байланысты зерттеу үшін қолданылады. Ол ANOVA аналогы "
+"болып табылады, бірақ параметрлік емес және аз болжамдардың артықшылығы бар. "
+"Дегенмен, оның бір уақытта тек бір түсіндірмелі айнымалыны тексере алатын "
+"шектеуі бар."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "тәуелді айнымалы үшін қолданылатын белгі."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
-msgstr ""
+msgstr "үлгіні сәйкестендіру үшін қолданылатын лаваан синтаксисі"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"жоқ мәнді алып тастау әдісі. `Analysis by analysis` әрбір талдаудан "
+"жетіспейтін мәндерді жоққа шығарады. 'Listwise' мәнінің бірі жоқ болса, "
+"барлық талдаулардан жолды алып тастайды."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"жоқ мәнді алып тастау әдісі. `Analysis by analysis` әрбір талдаудан "
+"жетіспейтін мәндерді жоққа шығарады. 'Listwise' мәнінің бірі жоқ болса, "
+"барлық талдаулардан жолды алып тастайды."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
-msgstr ""
+msgstr "үлгіні құрайтын шарттар."
 
 #: anova/options/modelTerms.description.ui
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
+"үлгіні құрайтын шарттар. Әдепкі бойынша толық факторлық модель жасалады, "
+"бірақ мұнда модельді құрайтын нақты шарттарды реттеуге болады."
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
+msgstr "өлшем жұптары - әрбір өлшем жұбына жеке t-сынағы орындалады."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr ""
+msgstr "пайдалану үшін бірнеше салыстыру пост hoc түзетулері."
 
 #: ttestIS/options/bfPrior.description.ui
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
+"Студенттің t-тестінің Байес факторлары үшін алдыңғы ені. 0,5 және 2,0 "
+"арасындағы мәнді талап етеді, әдепкі 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -8620,6 +8650,14 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"Қайталанатын өлшемдер ANOVA үздіксіз тәуелді айнымалы мен\n"
+"бір немесе бірнеше түсіндірмелі айнымалылар арасындағы байланысты зерттеу "
+"үшін пайдаланылады, \n"
+"мұнда бір немесе бірнеше түсіндірме айнымалылар 'within subjects' \n"
+"(бір тақырып бойынша бірнеше өлшемдер алынған кезде). \n"
+"Сонымен қатар, бұл талдау ковариаттарды қосуға мүмкіндік береді, \n"
+"бұл сонымен қатар ANCOVA-ны қайталанатын өлшеулер үшін пайдалануға мүмкіндік "
+"береді."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
