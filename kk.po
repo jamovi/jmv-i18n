@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-23 03:51+0000\n"
+"PO-Revision-Date: 2022-12-25 13:47+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -8114,13 +8114,13 @@ msgstr "студенттің t"
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr ""
+msgstr "Студенттің тесті"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
 #: descriptives/options/sum.title
 msgid "Sum"
-msgstr ""
+msgstr "қосынды"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -8128,28 +8128,28 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "квадраттардың қосындысы"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "квадраттардың қосындысы"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "жиынтық ұпай"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
-msgstr ""
+msgstr "қысқаша мазмұны"
 
 #: R/ancova.b.R
 #: contTables/results/taub.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -8158,15 +8158,15 @@ msgstr ""
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr ""
+msgstr "T-тестілері"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr ""
+msgstr "t-мәні"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
-msgstr ""
+msgstr "тен Берге"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -8181,7 +8181,7 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr ""
+msgstr "Терм {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -8191,56 +8191,56 @@ msgstr ""
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr ""
+msgstr "Терм 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
 msgid "Test for Exact Fit"
-msgstr ""
+msgstr "нақты сәйкестік тесті"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "тест нәтижелері (t және df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr ""
+msgstr "тест статистикасы"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "тест мәні"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "тест мәні"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr ""
+msgstr "Тесттер"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Сфералық сынақтар"
 
 #: R/descriptives.b.R
 msgid "th percentile"
-msgstr ""
+msgstr "процентиль"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "R-ден алынған 'iris' деректер жиынтығы"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
+msgstr "'{var}' 'split by' айнымалысында деректер жоқ."
 
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
-msgstr ""
+msgstr "орнату процесінде қолданылатын `data` алынған (міндетті емес) салмақтар"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -8251,17 +8251,24 @@ msgid "the alternative and null hypotheses;\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
 msgstr ""
+"балама және нөлдік гипотезалар;\n"
+"\n"
+"|              | Alternative (Hₐ)  | Null (H₀)          |\n"
+"|--------------|-------------------|--------------------|\n"
+"| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
+"| > Test value | Mean > Test value | Mean <= Test value |\n"
+"| < Test value | Mean < Test value | Mean >= Test value |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "балама гипотеза."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr ""
+msgstr "балама гипотеза. Бір құйрықты сынақтар жүргізуге мүмкіндік береді."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -8271,12 +8278,20 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
+"Ковариантты талдау (ANCOVA) үздіксіз тәуелді айнымалы, бір немесе бірнеше "
+"категориялық түсіндірме айнымалылар және бір немесе бірнеше үздіксіз "
+"түсіндірме айнымалылар (немесе ковариаттар) арасындағы байланысты зерттеу "
+"үшін қолданылады. Негізінде, бұл ANOVA сияқты талдау, бірақ ковариаттарды "
+"қосу арқылы."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
+"Дисперсиялық талдау (ANOVA) үздіксіз тәуелді айнымалы мен бір немесе бірнеше "
+"категориялық түсіндірме айнымалылар арасындағы байланысты тексеру үшін "
+"қолданылады."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -8291,6 +8306,15 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
 msgstr ""
+"Дисперсиялық талдау (ANOVA) үздіксіз тәуелді айнымалы мен бір немесе бірнеше "
+"категориялық түсіндірме айнымалылар \n"
+"арасындағы байланысты тексеру үшін қолданылады.\n"
+"ANOVA қалдықтары қалыпты таралған және барлық топтардың вариациялары тең деп "
+"есептейді. Егер сіз вариациялар тең деп болжағыңыз келмесе, оның орнына "
+"Welch тестін қолдануға болады. (Алайда, Welch сынағы бірден көп түсіндірме "
+"факторды қолдамайды). \n"
+"Немесе, егер деректер қалыпты түрде таралған деп болжағысы келмесе, "
+"параметрлік емес тәсілді (мысалы, Крускал-Уоллис) қолдануға болады."
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -8300,6 +8324,15 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
+"Дисперсиялық талдау (ANOVA) үздіксіз тәуелді айнымалы мен\n"
+"бір немесе бірнеше категориялық түсіндірме айнымалылар арасындағы байланысты "
+"тексеру үшін қолданылады.\n"
+"Бұл «бір жақты ANOVA» қалыпты ANOVA-ның жеңілдетілген нұсқасы болып табылады,"
+"\n"
+"тек бір түсіндірме факторға мүмкіндік береді, сонымен бірге Welch ANOVA-ны "
+"қамтамасыз етеді.\n"
+"Уэлчтің ANOVA артықшылығы барлық топтардың дисперсиялары тең деп болжаудың "
+"қажеті жоқ."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -8315,23 +8348,42 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
+"Дисперсиялық талдау (ANOVA) үздіксіз тәуелді айнымалы мен\n"
+"бір немесе бірнеше категориялық түсіндірме айнымалылар арасындағы байланысты "
+"тексеру үшін қолданылады.\n"
+"Бұл «бір жақты ANOVA» қалыпты ANOVA-ның жеңілдетілген нұсқасы болып табылады,"
+"\n"
+"тек бір түсіндірме факторға мүмкіндік береді, сонымен бірге Welch ANOVA-ны "
+"қамтамасыз етеді.\n"
+"Welch's ANOVA-ның артықшылығы - барлық топтардың дисперсиялары тең деп "
+"болжаудың қажеті жоқ.\n"
+"\n"
+"Ыңғайлы болу үшін бұл әдіс бірнеше тәуелді айнымалыларды көрсетуге мүмкіндік "
+"береді,\n"
+"нәтижесінде көптеген тәуелсіз сынақтар жасалады.\n"
+"\n"
+"Welch's ANOVA тәуелсіз үлгілер t-сынағы сияқты процедура екенін ескеріңіз."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "субъектілер арасындағы факторлар (міндетті емес)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "модельдің субъектіаралық шарттары."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"Биномдық тест бақылаулардың үлесі қандай да бір күтілетін мәнге сәйкес "
+"келетіні туралы Нөл гипотезасын тексеру үшін қолданылады. Егер p-мәні төмен "
+"болса, бұл Нөл гипотезасының жалған екенін, ал шынайы пропорция қандай да "
+"бір басқа мән болуы керек дегенді білдіреді."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "категориялық түсіндірмелі (немесе тәуелсіз) айнымалылар."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
