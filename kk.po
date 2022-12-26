@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-25 17:48+0000\n"
+"PO-Revision-Date: 2022-12-26 11:48+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -8764,6 +8764,10 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
+"Бір үлгідегі Студенттің t-тесті шынайы орта белгілі бір мәнге \n"
+"(әдетте нөлге) тең болатын нөлдік гипотезаны тексеру үшін қолданылады.\n"
+" Төмен p-мәні нөлдік гипотезаның жалған екенін көрсетеді, \n"
+"сондықтан шынайы орта мән сынақ мәнінен өзгеше болуы керек."
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -8777,6 +8781,16 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
+"Бір үлгідегі Студенттің t-тесті шынайы орта белгілі бір мәнге \n"
+"(әдетте нөлге) тең болатын нөлдік гипотезаны тексеру үшін қолданылады.\n"
+" Төмен p-мәні нөлдік гипотезаның жалған екенін көрсетеді, \n"
+"сондықтан шынайы орта мән сынақ мәнінен өзгеше болуы керек.\n"
+"\n"
+"Бір үлгідегі Студенттің t-тесті деректердің қалыпты таралғанын болжайды\n"
+" - егер біреу мұны қабылдағысы келмесе, оның орнына параметрлік емес \n"
+"Вилкоксон қолтаңбалы дәреже сынағы пайдаланылуы мүмкін \n"
+"(бірақ, Wilcoxon белгісінің параметрлік емес әдісінің \n"
+"*медиана* сынақ мәніне тең болатын сәл өзгеше нөлдік гипотеза)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -8785,6 +8799,12 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
+"Студенттің жұптастырылған үлгі t-тесті (кейде тәуелді үлгі t-тесті деп "
+"аталады) \n"
+"өлшем жұптарының арасындағы айырмашылық нөлге тең болатын\n"
+" нөлдік гипотезаны тексеру үшін қолданылады. \n"
+"Төмен p-мәні нөлдік гипотезаның жалған екенін және өлшем жұптарының \n"
+"арасындағы айырмашылық нөлге тең екенін көрсетеді."
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -8800,29 +8820,45 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
+"Студенттің жұптастырылған үлгі t-тесті (кейде тәуелді үлгі t-тесті деп "
+"аталады) \n"
+"өлшем жұптарының арасындағы айырмашылық нөлге тең болатын\n"
+" нөлдік гипотезаны тексеру үшін қолданылады. \n"
+"Төмен p-мәні нөлдік гипотезаның жалған екенін және өлшем жұптарының \n"
+"арасындағы айырмашылық нөлге тең екенін көрсетеді.\n"
+"\n"
+"Жұптастырылған үлгідегі Студенттің t-сынағы өлшем жұптары арасындағы\n"
+" айырмашылықтар қалыпты түрде таратылады деп болжайды \n"
+"- егер бұған рұқсат бергіңіз келмесе, оның орнына параметрлік емес\n"
+" Wilcoxon қолтаңбалы дәреже сынамасын пайдалануға болады. \n"
+"(Дегенмен, Вилкоксонның таңбаланған дәрежелі әдісінің сәл өзгеше \n"
+"нөлдік гипотезасы бар екенін ескеріңіз; өлшемдердің екі тобы бірдей "
+"үлестірімге ие)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
 msgstr ""
+"есептік шекті орта мәндерді қамтамасыз ету шарттары. Мұнда бірнеше шарттарды "
+"көрсетуге болады."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "қарсы сынауға арналған сынақ мәні (әдетте нөл)."
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "есептеуге арналған корреляция түрі"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr ""
+msgstr "пайдалануға жататын квадраттар сомаларының түрі; 1, 2 немесе 3 түрі."
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr ""
+msgstr "пайдалануға жататын квадраттар сомаларының түрі; 2 немесе 3 түрі."
 
 #: ancova/results/model.description
 #: anova/results/model.description
