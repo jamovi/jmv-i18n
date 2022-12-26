@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-26 16:49+0000\n"
+"PO-Revision-Date: 2022-12-26 17:50+0000\n"
 "Last-Translator: Ayaulym <ayaulym.bauyrzhanova@nu.edu.kz>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "kk/>\n"
@@ -105,7 +105,6 @@ msgid "{type} score based on the variables {vars}"
 msgstr "{vars} айнымалы мәндеріне негізделген {type} санау"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "{varName} (reversed)"
 msgstr "{varName} (қайтымды)"
 
@@ -1493,7 +1492,7 @@ msgstr "бағалауды қажет ететін қалдық ковариат
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
 msgstr ""
 "есептелген шекті орташа мәнді есептеу қажет болатын айнымалыларды көрсететін "
-"тізімдер тізімі. Бір мерзімге үш айнымалыға дейін қолдануға болады"
+"тізімдер тізімі. Бір уақытта үш айнымалыға дейін қолдануға болады."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
@@ -2125,7 +2124,6 @@ msgid "an array of the estimated marginal means plots + tables"
 msgstr "есептелген шекті мәндердің графиктерінің жиымы + кестелер"
 
 #: propTest2/results/postPlots.description
-#, fuzzy
 msgid "an array of the posterior plots"
 msgstr "артқы графиктердің жиымы"
 
@@ -2399,9 +2397,8 @@ msgstr "биномдық тест"
 #: jamovi/js/logregbin.events.js:55
 #: jamovi/js/logregord.events.js:38
 #: jamovi/js/logregord.events.js:4
-#, fuzzy
 msgid "Block {0}"
-msgstr "Блок {0}"
+msgstr "блок {0}"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logLinear/ui[1]/modelSupplier[0]/blocks.template/blockName.label
@@ -2476,11 +2473,11 @@ msgstr "Хи-квадрат квантилдері"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr "төменгі сенімділік интервалы"
+msgstr "CI төменгі"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "жоғарғы сенімділік интервалы"
+msgstr "CI жоғарғы"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -2501,7 +2498,7 @@ msgstr "жіктеу кестесі — {dep}"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Cohen's d"
-msgstr "Коэн д"
+msgstr "Коэнның d"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
@@ -3498,9 +3495,11 @@ msgstr ""
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#                Квадраттардың қосындысы     df    Квадраттың орташа мәні    "
 "F    p\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
 "    Қалдық               954    90           10.6\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
-"#     Ескерту. Квадраттардың 3 қосындысын жазыңыз"
+"#     Ескерту. Квадраттардың 3 қосындысын жазыңыз\n"
+"#"
 
 #: anovaRMNP/options.description.R.usage
 msgid "data('bugs', package = 'jmv')\n"
@@ -4140,11 +4139,10 @@ msgstr ""
 "dat$gear <- as.factor(dat$gear)\n"
 "\n"
 "descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
-"\n"
 "#\n"
-"#  СИПАТТАМАЛЫҚ СТАТИСТИКАЛАР\n"
+"#  СИПАТТАМАЛАР\n"
 "#\n"
-"#  Сипаттамалық статистикалар\n"
+"#  сипаттамалар\n"
 "#  ───────────────────────────────────────────\n"
 "#               mpg     cyl     disp    gear\n"
 "#  ───────────────────────────────────────────\n"
@@ -4160,7 +4158,6 @@ msgstr ""
 "#  ЖИІЛІКТЕР\n"
 "#\n"
 "#  Тасымалдау жиіліктері\n"
-"#  ────────────────────\n"
 "#    Levels    Counts\n"
 "#  ────────────────────\n"
 "#    3             15\n"
@@ -4169,11 +4166,12 @@ msgstr ""
 "#  ────────────────────\n"
 "#\n"
 "\n"
-"#айнымалыныі сипаттамасы бойынша бөлу(formula = disp + mpg ~ cyl, dat,\n"
+"# айнымалыны сипаттамасы\n"
+" бойынша бөлу(formula = disp + mpg ~ cyl, dat,\n"
 "    median=F, min=F, max=F, n=F, missing=F)\n"
 "\n"
-"# гистограммалардың сипаттамасын береді\n"
-"(formula = mpg ~ cyl, dat, hist=T,\n"
+"# гистограммалардың \n"
+"сипаттамаларын береді(formula = mpg ~ cyl, dat, hist=T,\n"
 "    median=F, min=F, max=F, n=F, missing=F)\n"
 "\n"
 "# бірнеше айнымалылардың сипаттамалары \n"
@@ -5937,7 +5935,7 @@ msgstr "жетіспейтін"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "жетіспейтін мәндер"
+msgstr "жоқ мәндер"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -7558,7 +7556,6 @@ msgid "Residuals for Observed Correlation Matrix"
 msgstr "бақыланатын корреляция матрицаларына арналған қалдықтар"
 
 #: R/anova.b.R
-#, fuzzy
 msgid "Residuals from ANOVA"
 msgstr "АНОВА-дан алынған қалдықтар"
 
@@ -7664,7 +7661,6 @@ msgstr "қатарларды салыстыру"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Roy's Largest Root"
 msgstr "Ройдың ең үлкен түбірі"
 
@@ -7705,7 +7701,6 @@ msgstr "масштаб статистикалары"
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
-#, fuzzy
 msgid "Scheffe"
 msgstr "Шеффе"
 
@@ -7726,9 +7721,8 @@ msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
 msgstr "{i} факторы бойынша балл. '{fsMethod}' әдісі арқылы есептелген."
 
 #: pca/results/eigen/screePlot.title
-#, fuzzy
 msgid "Scree Plot"
-msgstr "Scree Plot"
+msgstr "scree графигі"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
@@ -7955,7 +7949,6 @@ msgstr "спирмен"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
-#, fuzzy
 msgid "Spearman's rho"
 msgstr "Спирмен ро"
 
@@ -8503,7 +8496,7 @@ msgstr "`data`-ден тәуелді айнымалыны атайтын жол,
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
-"`data` тәуелді айнымалы,айнымалы сандық болуы керек (формула бергенде қажет "
+"`data` тәуелді айнымалы, айнымалы сандық болуы керек (формула бергенде қажет "
 "емес, мысалдарды қараңыз)"
 
 #: ancova/options/dep.description.ui
@@ -8945,6 +8938,10 @@ msgstr ""
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"χ² ассоциация сынағы (χ² жақсы сәйкестік тестімен шатастырмау керек) екі "
+"категориялық айнымалының тәуелсіз немесе байланысты екенін тексеру үшін "
+"қолданылады. Егер p-мәні төмен болса, бұл айнымалылардың тәуелсіз еместігін "
+"және екі айнымалының арасында байланыс бар екенін көрсетеді."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -8955,130 +8952,139 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "теориялық квантилдер"
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
+"бұл модуль jamovi құрамына кіретін талдауларды көрсетеді. Ол көптеген жалпы "
+"талдауларды қамтиды (мысалы, t-тесттері, ANOVA, регрессия, корреляциялық "
+"матрицалар, пропорциялық сынақтар, түйіндестік кестесі, факторлық талдау "
+"және т.б.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
-msgstr ""
+msgstr "шек"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "шектер"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
-msgstr ""
+msgstr "терстон"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "TLI"
-msgstr ""
+msgstr "TLI"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "Tolerance"
-msgstr ""
+msgstr "толеранттылық"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr ""
+msgstr "статистиканы есептеу үшін бақылаулар тым аз (N < 3)"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
 msgstr ""
+"Статистиканы есептеу үшін бақылаулар тым аз. Әрбір (кіші) топта кем дегенде "
+"тәуелді айнымалылар қанша бақылау болса, сонша бақылау болуы керек."
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr ""
+msgstr "статистиканы есептеу үшін үлгілер тым аз (N < {n})"
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr ""
+msgstr "статистиканы есептеуге арналған үлгілер тым аз (N < 3)"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr ""
+msgstr "статистиканы есептеу үшін тым көп бақылаулар (N > 5000)"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr ""
+msgstr "статистиканы есептеуге арналған үлгілер тым көп (N > {n})"
 
 #: R/ttestis.b.R
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr ""
+msgstr "статистиканы есептеуге арналған үлгілер тым көп (N > 5000)"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "тістің өсуі"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
-msgstr ""
+msgstr "барлығы"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
 msgstr ""
+"total_pc (әдепкі), column_pc, немесе row_pc. Жолақ сызбасының y осі үшін "
+"сәйкесінше `of total`, `within columns` немесе`within rows` пайыздарды "
+"пайдаланыңыз."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr ""
+msgstr "Тукей"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "Тукей (тең дисперсиялар)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "Tukey Post-Hoc тесті - {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "{ssType} Квадраттардың қосындысын теріңіз"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr ""
+msgstr "1 түрі"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr ""
+msgstr "2 түрі"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr ""
+msgstr "3 түрі"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "квадраттардың 3 қосындысын теріңіз"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr ""
+msgstr "үздіксіз айнымалы бойынша бөлу мүмкін емес"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr ""
+msgstr "бірегейлік"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "бір айнымалы сынақтар"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -9109,7 +9115,7 @@ msgstr "жоғарғы"
 
 #: R/descriptives.b.R
 msgid "upper bound"
-msgstr ""
+msgstr "жоғарғы шекара"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -9118,19 +9124,19 @@ msgstr ""
 #: contTablesPaired/results/test.columns.title
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
-msgstr ""
+msgstr "мән"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr ""
+msgstr "мән"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "мәндер"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr ""
+msgstr "мәндер санақтар болып табылады"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -9139,25 +9145,25 @@ msgstr ""
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
 msgid "Variable"
-msgstr ""
+msgstr "айнымалы"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "'{var}' айнымалысында деректер жоқ"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable contains infinite values"
-msgstr ""
+msgstr "айнымалыда шексіз мәндер бар"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
-msgstr ""
+msgstr "айнымалыда жеткілікті бақылаулар жоқ"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable is not numeric"
-msgstr ""
+msgstr "айнымалы сандық емес"
 
 #: corrMatrix/options/vars.title
 #: corrPart/options/vars.title
@@ -9172,46 +9178,47 @@ msgstr "айнымалылар"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr ""
+msgstr "бағандар бойынша айнымалылар"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr ""
+msgstr "қатарлар бойынша айнымалылар"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
-msgstr ""
+msgstr "айнымалылардың кемінде екі деңгейі болуы тиіс"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
 msgid "Variance"
-msgstr ""
+msgstr "дисперсия"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr ""
+msgstr "дисперсиялар"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
 msgstr ""
+"басқару айнымалыларының өзгеруі тек бағандардағы айнымалылардан жойылады"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
 msgid "Varimax"
-msgstr ""
+msgstr "Варимакс"
 
 #: R/pca.b.R
 msgid "varimax"
-msgstr ""
+msgstr "варимакс"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "VIF"
-msgstr ""
+msgstr "VIF"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr ""
+msgstr "скрипка"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
@@ -9220,62 +9227,64 @@ msgstr ""
 #: ttestOneS/results/normality.columns.title
 #: ttestPS/results/norm.columns.title
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
+"әр ұяшықты бірдей өлшеу. (Ұяшықтар әдепкі бойынша ұяшық жиілігіне сәйкес "
+"өлшенеді.)"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "'{varName}' бойынша өлшенген"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
-msgstr ""
+msgstr "өлшейді (міндетті емес)"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "Уэлчтікі"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "Уэлчтің t"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "Вилкоксон дәрежесі"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
 msgid "Wilcoxon signed rank test"
-msgstr ""
+msgstr "Уилкоксонның дәрежелік бағалау сынағы"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "Вилькоксон W"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "Уилкстің лямбдасы"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
-msgstr ""
+msgstr "баған ішінде"
 
 #: contTables/options/yaxisPc/row_pc.title
 msgid "within rows"
-msgstr ""
+msgstr "қатарлар ішінде"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "субъектаралық эффект"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
@@ -9283,7 +9292,7 @@ msgstr "X- ось"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr ""
+msgstr "X осі"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
@@ -9291,11 +9300,13 @@ msgstr "Y- ось"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr ""
+msgstr "Y осі"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
 msgstr ""
+"ycounts (әдепкі) немесе ypc.График сызбасының y осі үшін сәйкесінше `counts` "
+"немесе `percentages` пайдаланыңыз"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -9309,27 +9320,27 @@ msgstr ""
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
-msgstr ""
+msgstr "2 пропорциядағы z тест айырмашылығы"
 
 #: contTables/options/zProp.title
 msgid "z test for difference in 2 proportions"
-msgstr ""
+msgstr "2 пропорциядағы айырмашылық үшін z тесті"
 
 #: R/conttables.b.R
 msgid "z test only available for 2x2 tables"
-msgstr ""
+msgstr "z сынағы тек 2x2 кестелер үшін қолжетімді"
 
 #: linReg/results/modelComp.columns.title
 msgid "ΔR²"
-msgstr ""
+msgstr "ΔR²"
 
 #: anovaNP/results/table.columns.title
 msgid "ε²"
-msgstr ""
+msgstr "ε²"
 
 #: ancova/options/effectSize/eta.title
 #: ancova/results/main.columns.title
@@ -9338,21 +9349,21 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²"
-msgstr ""
+msgstr "η²"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>G</sub>"
-msgstr ""
+msgstr "η²<sub>G</sub>"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>p</sub>"
-msgstr ""
+msgstr "η²<sub>p</sub>"
 
 #: ancova/results/main.columns.title
 msgid "η²p"
-msgstr ""
+msgstr "η²p"
 
 #: anovaNP/results/table.columns.title
 #: anovaRMNP/results/table.columns.title
@@ -9379,36 +9390,36 @@ msgstr ""
 #: pca/results/assump/bartlett.columns.title
 #: propTestN/results/tests.columns.title
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
 msgid "χ² continuity correction"
-msgstr ""
+msgstr "χ² үздіксіздікті түзету"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "χ² сәйкестігі"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr ""
+msgstr "χ² сәйкестігі"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
-msgstr ""
+msgstr "χ² сынағы"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
 msgid "χ² test of association"
-msgstr ""
+msgstr "χ² ассоциация сынағы"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
-msgstr ""
+msgstr "χ² сынақтары"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title
@@ -9417,4 +9428,4 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "ω²"
-msgstr ""
+msgstr "ω²"
