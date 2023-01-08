@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-01-08 17:47+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"PO-Revision-Date: 2023-01-08 22:49+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
 "Language: uk\n"
@@ -1734,7 +1734,7 @@ msgstr "Додатковий статистики"
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
 msgid "Adjusted R²"
-msgstr "Скорректированный R²"
+msgstr "Скоригований R²"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -2075,7 +2075,7 @@ msgstr "Биномиальный"
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr "Биномиальная логистическая регрессия"
+msgstr "Біноміальна логістична регресія"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
@@ -2170,11 +2170,11 @@ msgstr "Квантили Хи-квадрату"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr "ДИКИЙ Нижний"
+msgstr "CI Нижній"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "ДИКИЙ Верхний"
+msgstr "CI Верхній"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -2195,7 +2195,7 @@ msgstr "Классификационная таблиця – {dep}"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Cohen's d"
-msgstr "Коэн d"
+msgstr "Коен d"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
@@ -2654,7 +2654,7 @@ msgstr "Достовірний интервал"
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "Cronbach's α"
-msgstr "Кронбах α"
+msgstr "α Кронбаха"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
@@ -5170,7 +5170,7 @@ msgstr "Разброс"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr "Кендалл Тау B"
+msgstr "Тау Кендалла Б"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
@@ -7161,6 +7161,8 @@ msgstr "Графіки решт"
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
+"Залишкова сума квадратів і/або ступенів свободи дорівнює нулю, що вказує на "
+"ідеальну відповідність"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7260,7 +7262,7 @@ msgstr "Строка"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Номер рядка"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7992,6 +7994,8 @@ msgstr "категориальные котрий пояснювати (або �
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"СІ середнього припускає, що вибіркові засоби слідують t-розподілу з N - 1 "
+"ступенями свободи"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8073,10 +8077,11 @@ msgstr "дані у форматі фрейма"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"Набір даних містить 0 рядків (після видалення рядків з відсутніми значеннями)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "Набір даних містить 0 рядків (або всі рядки містять відсутні значення)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8651,7 +8656,7 @@ msgstr "значення"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "значення"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
