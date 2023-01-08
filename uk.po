@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-16 18:48+0000\n"
-"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"PO-Revision-Date: 2023-01-08 15:51+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
 "Language: uk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -6689,21 +6689,25 @@ msgstr "надати графік кореляційної матриці."
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "надати тау-b Кендалла для кожноїкомбінації переменных."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "надати p-значення для кожногокоефіцієнта корреляции."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr ""
+msgstr "надати значення r Пирсона для кожноїкомбінації переменных."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"надати графік Q-Q решт -- графік фактичний решт по порівнянню з тем, що "
+"можна було би очікувати, якщо би дані були *ідеально* нормально розподілені. "
+"Великий відхилення від диагональной лінії припускають, що дані не мають "
+"нормального розподілу."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
