@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-10-22 20:03+0000\n"
-"Last-Translator: Fatih Uğur <f4tihugur35@gmail.com>\n"
+"PO-Revision-Date: 2023-01-31 07:43+0000\n"
+"Last-Translator: Ünal Halit ÖZDEN <uozden@ticaret.edu.tr>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -115,7 +115,7 @@ msgstr "Binom lojistik regresyon modelinin {varType} değeri {modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} doğrusal regresyon modeli{modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -1732,7 +1732,7 @@ msgstr ""
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
 msgid "Adjusted R²"
-msgstr ""
+msgstr "Düzeltilmiş R²"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -1760,7 +1760,7 @@ msgstr ""
 #: ttestOneS/options/hypothesis.title
 #: ttestPS/options/hypothesis.title
 msgid "Alternative hypothesis"
-msgstr ""
+msgstr "Alternatif hipotez"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
@@ -2073,7 +2073,7 @@ msgstr ""
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr ""
+msgstr "Binomial Lojistik Regresyon"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
@@ -2168,11 +2168,11 @@ msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "CI Alt"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "CI Üst"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -2193,7 +2193,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Cohen's d"
-msgstr ""
+msgstr "Cohen d"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
@@ -2635,7 +2635,7 @@ msgstr ""
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "Cronbach's α"
-msgstr ""
+msgstr "Cronbach α"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
@@ -4182,7 +4182,6 @@ msgid "Greenhouse-Geisser ε"
 msgstr ""
 
 #: ttestIS/results/desc.columns.title
-#, fuzzy
 msgid "Group"
 msgstr "Grup"
 
@@ -4418,7 +4417,7 @@ msgstr ""
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Aralık"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -4479,7 +4478,7 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr ""
+msgstr "Kendall Tau B"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
@@ -4883,7 +4882,7 @@ msgstr ""
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
-msgstr "Eksik Değerler"
+msgstr "Kayıp değerler"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -6852,7 +6851,7 @@ msgstr ""
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr ""
+msgstr "Standart hata"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -7723,7 +7722,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "Üst"
 
 #: R/descriptives.b.R
 msgid "upper bound"
