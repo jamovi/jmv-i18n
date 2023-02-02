@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-02-02 14:41+0000\n"
+"Last-Translator: GUILLAUME DIAS <guillaumedias.perso@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -782,6 +786,8 @@ msgstr "`TRUE` or `FALSE` (default), fournit les indices de modification pour le
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
 msgstr ""
+"`TRUE` ou `FALSE` (par défaut), fournir les N valeurs les plus extrêmes (la "
+"plus haute et la plus basse)"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1768,7 +1774,7 @@ msgstr "un ensemble de graphes descriptifs"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "un tableau des valeurs extrêmes"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -1829,7 +1835,7 @@ msgstr "une image du graphe descriptif"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr "un entier (défaut : 1), le nombre de composantes du modèle"
+msgstr "un entier (défaut : 1), le nombre de composantes du modèle"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
@@ -1841,7 +1847,7 @@ msgstr "un entier (défaut : 4) spécifiant le nombre de groupes égaux"
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "un entier (par défaut : 5) spécifiant le nombre de valeurs extrêmes"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4142,19 +4148,23 @@ msgstr "Variable dépendante"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "La variable dépendante '{dep}' contient des valeurs infinies"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"La variable dépendante \"{dep}\" ne contient pas de données (après "
+"suppression des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"La variable dépendante \"{dep}\" ne contient qu'une seule valeur unique ("
+"après suppression des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "La variable dépendante '{dep}' doit être continue"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4171,7 +4181,7 @@ msgstr "Variables dépendantes"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Les variables dépendantes sont très fortement corrélées"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -4414,6 +4424,8 @@ msgstr "Eigenvalues supérieures à"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"Cellules vides dans la conception entre sujets : au moins une combinaison de "
+"niveaux de facteurs entre sujets a 0 observation"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4570,15 +4582,15 @@ msgstr "Extraction"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Valeurs extrêmes"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Valeurs extrêmes"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Valeurs extrêmes de $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4617,6 +4629,8 @@ msgstr "Facteur"
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"Le facteur '{facteur}' a moins de deux niveaux. Les facteurs doivent avoir "
+"au moins deux niveaux"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4625,10 +4639,14 @@ msgstr "Le facteur '{factorName}' doit avoir au moins deux modalités"
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Le facteur '{facteurNom}' ne contient pas de données (après suppression des "
+"lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"Le facteur '{facteurNom}' ne contient qu'un seul niveau (après suppression "
+"des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
@@ -5085,7 +5103,7 @@ msgstr "Ordonnée à l'origine"
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
 msgid "Interval"
-msgstr "Intervalle"
+msgstr "Interval"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -8564,7 +8582,7 @@ msgstr "Tests univariés"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr "Borne sup"
+msgstr "Supérieur"
 
 #: R/descriptives.b.R
 msgid "upper bound"
