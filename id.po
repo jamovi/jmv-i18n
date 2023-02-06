@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-10-25 06:03+0000\n"
-"Last-Translator: AZR <metaverse@basyiri.my.id>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/id/>\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -30,9 +26,7 @@ msgstr "'{col}' hanya mengandung satu nilai unik"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
-"'{method}' metode ekstraksi telah digunakan dalam kombinasi dengan sebuah "
-"'{rotation}' rotasi"
+msgstr "'{method}' metode ekstraksi telah digunakan dalam kombinasi dengan sebuah '{rotation}' rotasi"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -3607,6 +3601,7 @@ msgstr ""
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -5615,6 +5610,10 @@ msgstr ""
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
+msgstr ""
+
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr ""
 
 #: corrMatrix/results/matrix.columns.content

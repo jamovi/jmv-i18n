@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-26 13:49+0000\n"
-"Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"it/>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -785,9 +781,7 @@ msgstr "`TRUE` o `FALSE` (predefinito), restituisce indici di modifica per i par
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-"`TRUE` o `FALSE` (predefinito), fornisce gli N valori più estremi (il più "
-"alto e il più basso)"
+msgstr "`TRUE` o `FALSE` (predefinito), fornisce gli N valori più estremi (il più alto e il più basso)"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1072,9 +1066,7 @@ msgstr "`TRUE` o `FALSE` (predefinito), mostra il grafico dei sedimenti (Scree p
 #: efa/options/sortLoadings.description.R
 #: pca/options/sortLoadings.description.R
 msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr ""
-"`TRUE` o `FALSE` (predefinito), ordina le saturazioni fattoriali per "
-"dimensione"
+msgstr "`TRUE` o `FALSE` (predefinito), ordina le saturazioni fattoriali per dimensione"
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
@@ -1849,8 +1841,7 @@ msgstr "un intero (predefinito: 4) che specifica il numero di gruppi uguali"
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
-"un numero intero (predefinito: 5) che specifica il numero di valori estremi"
+msgstr "un numero intero (predefinito: 5) che specifica il numero di valori estremi"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4162,15 +4153,11 @@ msgstr "La variabile dipendente '{dep}' contiene valori infiniti"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
-"La variabile dipendente \"{dep}\" non contiene dati (dopo aver rimosso le "
-"righe con valori mancanti)"
+msgstr "La variabile dipendente \"{dep}\" non contiene dati (dopo aver rimosso le righe con valori mancanti)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
-"La variabile dipendente \"{dep}\" contiene un solo valore univoco (dopo aver "
-"rimosso le righe con valori mancanti)"
+msgstr "La variabile dipendente \"{dep}\" contiene un solo valore univoco (dopo aver rimosso le righe con valori mancanti)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -4290,6 +4277,7 @@ msgstr "Deviazione"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4432,9 +4420,7 @@ msgstr "Autovalori maggiori di"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
-"Celle vuote nel disegno tra soggetti: almeno una combinazione di livelli di "
-"fattori tra soggetti ha 0 osservazioni"
+msgstr "Celle vuote nel disegno tra soggetti: almeno una combinazione di livelli di fattori tra soggetti ha 0 osservazioni"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4635,9 +4621,7 @@ msgstr "Fattore"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
-"Il fattore '{factor}' ha meno di due livelli. I fattori devono avere almeno "
-"due livelli"
+msgstr "Il fattore '{factor}' ha meno di due livelli. I fattori devono avere almeno due livelli"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4645,21 +4629,15 @@ msgstr "Il fattore \"{factor}\" deve avere almeno 2 livelli"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
-"Il fattore '{factorName}' non contiene dati (dopo aver rimosso le righe con "
-"valori mancanti)"
+msgstr "Il fattore '{factorName}' non contiene dati (dopo aver rimosso le righe con valori mancanti)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
-"Il fattore '{factorName}' contiene un solo livello (dopo aver rimosso le "
-"righe con valori mancanti)"
+msgstr "Il fattore '{factorName}' contiene un solo livello (dopo aver rimosso le righe con valori mancanti)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
-"Il fattore '{factorName}' contiene livelli inutilizzati (dopo aver rimosso "
-"le righe con valori mancanti)"
+msgstr "Il fattore '{factorName}' contiene livelli inutilizzati (dopo aver rimosso le righe con valori mancanti)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5852,8 +5830,7 @@ msgstr "Non disponibile a causa di un numero troppo elevato di casi (> 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
-"Gradi di libertà insufficienti per stimare tutti gli effetti del modello"
+msgstr "Gradi di libertà insufficienti per stimare tutti gli effetti del modello"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5877,9 +5854,7 @@ msgstr "Numero dei fattori"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
-"Il numero di valori estremi richiesti è maggiore del numero di righe nei "
-"dati."
+msgstr "Il numero di valori estremi richiesti è maggiore del numero di righe nei dati."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6331,6 +6306,10 @@ msgstr "Diagramma di flusso"
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
 msgstr "Pearson"
+
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -7111,9 +7090,7 @@ msgstr "Grafico dei residui"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
-"La somma dei quadrati residui e/o i gradi di libertà sono pari a zero, il "
-"che indica un adattamento perfetto"
+msgstr "La somma dei quadrati residui e/o i gradi di libertà sono pari a zero, il che indica un adattamento perfetto"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7942,9 +7919,7 @@ msgstr "le variabili categoriali esplicative (o indipendenti)."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"Il CI della media assume che le medie campionarie seguano una distribuzione "
-"t con N - 1 gradi di libertà"
+msgstr "Il CI della media assume che le medie campionarie seguano una distribuzione t con N - 1 gradi di libertà"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8025,14 +8000,11 @@ msgstr "i dati sotto forma di frame di dati"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"Il set di dati contiene 0 righe (dopo aver rimosso le righe con valori "
-"mancanti)"
+msgstr "Il set di dati contiene 0 righe (dopo aver rimosso le righe con valori mancanti)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
-"Il set di dati contiene 0 righe (o tutte le righe contengono valori mancanti)"
+msgstr "Il set di dati contiene 0 righe (o tutte le righe contengono valori mancanti)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."

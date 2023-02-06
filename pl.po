@@ -1,17 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-12-14 11:48+0000\n"
-"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"pl/>\n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -31,8 +26,7 @@ msgstr "'{col}' zawiera wyłącznie jedną unikalną wartość"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
-"Metoda '{method}' została zastosowana w połączeniu z rotacją '{rotation}'"
+msgstr "Metoda '{method}' została zastosowana w połączeniu z rotacją '{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -309,9 +303,7 @@ msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test t Studenta"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr ""
-"`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welch'a ("
-"nie zakłada równości wariancji)"
+msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welch'a (nie zakłada równości wariancji)"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
@@ -528,9 +520,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowa
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań "
-"wskaźnika proporcji współczynników modelu"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje przedział ufności dla oszacowań wskaźnika proporcji współczynników modelu"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
@@ -566,9 +556,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla diagram ścieżkowy modelu"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje tabelę przewidywanych klasyfikacji ("
-"lub macierz błędów)"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje tabelę przewidywanych klasyfikacji (lub macierz błędów)"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
@@ -789,9 +777,7 @@ msgstr "`TRUE` lub `FALSE` (domyślne), podaje średnie i błędy standardowe"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje indeksy modyfikacyjne dla parametrów "
-"nieuwzględnionych w modelu"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje indeksy modyfikacyjne dla parametrów nieuwzględnionych w modelu"
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
@@ -884,9 +870,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wykładniczą estymację logaryt
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr ""
-"`TRUE` lub `FALSE` (domyślnie), podaje wykładniczą estymację logarytmu "
-"wskaźnika proporcji lub estymację wskaźnika proporcji"
+msgstr "`TRUE` lub `FALSE` (domyślnie), podaje wykładniczą estymację logarytmu wskaźnika proporcji lub estymację wskaźnika proporcji"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
@@ -1301,15 +1285,11 @@ msgstr "liczba (domyślnie: 3), zaznacza wartości w tablicach `'modIndices'` po
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
-"liczba z przedziału od 0.5 do 2 (domyślnie 0.707); szerokość prioru "
-"wykorzystana przy obliczaniu współczynników Bayesa"
+msgstr "liczba z przedziału od 0.5 do 2 (domyślnie 0.707); szerokość prioru wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
-"liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707); szerokość prioru "
-"wykorzystana przy obliczaniu współczynników Bayesa"
+msgstr "liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707); szerokość prioru wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1462,15 +1442,11 @@ msgstr "tabela zawierająca miary dopasowania modelu"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr ""
-"tabela zawierająca indeksy modyfikacyjne dla ładunków czynnikowych "
-"nieuwzględnionych w modelu"
+msgstr "tabela zawierająca indeksy modyfikacyjne dla ładunków czynnikowych nieuwzględnionych w modelu"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr ""
-"tabela zawierająca indeksy modyfikacyjne dla kowariancji reszt "
-"nieuwzględnionych w modelu"
+msgstr "tabela zawierająca indeksy modyfikacyjne dla kowariancji reszt nieuwzględnionych w modelu"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
@@ -1655,8 +1631,7 @@ msgstr "wektor ciągów znaków zawierających nazwy czynników międzyobiektowy
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
-"wektor ciągów znaków zwierających nazwy zmiennych kontrolowanych w `data`"
+msgstr "wektor ciągów znaków zwierających nazwy zmiennych kontrolowanych w `data`"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
@@ -2800,8 +2775,7 @@ msgid "dat <- data.frame(x=c(8, 15))\n"
 "#  ───────────────────────────────────────────────────────\n"
 "#    Note. Hₐ is proportion ≠ 0.5\n"
 "#"
-msgstr ""
-"dat <- data.frame(x=c(8, 15))\n"
+msgstr "dat <- data.frame(x=c(8, 15))\n"
 "\n"
 "propTest2(dat, vars = x, areCounts = TRUE)\n"
 "\n"
@@ -3470,8 +3444,7 @@ msgid "data('iris')\n"
 "#                 Petal.Width                     6.16    147         0.0419\n"
 "#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
 "#"
-msgstr ""
-"data('iris')\n"
+msgstr "data('iris')\n"
 "\n"
 "mancova(data = iris,\n"
 "    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
@@ -3481,46 +3454,29 @@ msgstr ""
 "#  MANCOVA\n"
 "#\n"
 "#  Testy wielowymiarowe\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#                                     value     F       df1    df2    p\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#    Species    Ślad Pillai          1.19    53.5      8    290    < .001\n"
-"#               Lambda Wilksa         0.0234     199      8    288    < ."
-"001\n"
+"#               Lambda Wilksa         0.0234     199      8    288    < .001\n"
 "#               Ślad Hotellinga       32.5     581      8    286    < .001\n"
-"#               Największy pierwiastek Roya      32.2    1167      4    "
-"145    < .001\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
+"#               Największy pierwiastek Roya      32.2    1167      4    145    < .001\n"
+"#  ───────────────────────────────────────────────────────────────────────────\n"
 "#\n"
 "#\n"
 "#  Testy jednowymiarowe\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"#                 Zmienna zależna    Suma kwadratów    df     Średni "
-"kwadrat    F         p\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"#    Species      Sepal.Length                   63.21      2        "
-"31.6061     119.3    < .001\n"
-"#                 Sepal.Width                    11.34      2         "
-"5.6725      49.2    < .001\n"
-"#                 Petal.Length                  437.10      2       "
-"218.5514    1180.2    < .001\n"
-"#                 Petal.Width                    80.41      2        "
-"40.2067     960.0    < .001\n"
-"#    Residuals    Sepal.Length                   38.96    147         0."
-"2650\n"
-"#                 Sepal.Width                    16.96    147         0."
-"1154\n"
-"#                 Petal.Length                   27.22    147         0."
-"1852\n"
-"#                 Petal.Width                     6.16    147         0."
-"0419\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
+"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
+"#                 Zmienna zależna    Suma kwadratów    df     Średni kwadrat    F         p\n"
+"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
+"#    Species      Sepal.Length                   63.21      2        31.6061     119.3    < .001\n"
+"#                 Sepal.Width                    11.34      2         5.6725      49.2    < .001\n"
+"#                 Petal.Length                  437.10      2       218.5514    1180.2    < .001\n"
+"#                 Petal.Width                    80.41      2        40.2067     960.0    < .001\n"
+"#    Residuals    Sepal.Length                   38.96    147         0.2650\n"
+"#                 Sepal.Width                    16.96    147         0.1154\n"
+"#                 Petal.Length                   27.22    147         0.1852\n"
+"#                 Petal.Width                     6.16    147         0.0419\n"
+"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
 "#"
 
 #: pca/options.description.R.usage
@@ -4198,9 +4154,7 @@ msgstr "Zmienna zależna '{dep}' nie zawiera danych (po usunięciu wierszy z bra
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
-"Zmienna zależna '{dep}' zawiera tylko jedną unikalną wartość (po usunięciu "
-"wierszy z brakami danych)"
+msgstr "Zmienna zależna '{dep}' zawiera tylko jedną unikalną wartość (po usunięciu wierszy z brakami danych)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -4320,6 +4274,7 @@ msgstr "Odchylenie"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -5162,9 +5117,7 @@ msgstr "Pozycja '{item}' musi być numeryczna"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr ""
-"Pozycja {item} koreluje ujemnie z wynikiem ogólnym i prawdopodobnie powinna "
-"zostać rekodowana."
+msgstr "Pozycja {item} koreluje ujemnie z wynikiem ogólnym i prawdopodobnie powinna zostać rekodowana."
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
@@ -5755,10 +5708,7 @@ msgstr "Wielomianowa regresja logistyczna"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr ""
-"Wielowymiarowa analiza (ko)wariancji (MANCOVA) służy do analizy związku "
-"pomiędzy wieloma zmiennymi zależnymi a jedną lub kilkoma kategorialnymi i/"
-"lub ciągłymi zmiennymi objaśniającymi."
+msgstr "Wielowymiarowa analiza (ko)wariancji (MANCOVA) służy do analizy związku pomiędzy wieloma zmiennymi zależnymi a jedną lub kilkoma kategorialnymi i/lub ciągłymi zmiennymi objaśniającymi."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -6353,6 +6303,10 @@ msgstr "Diagram ścieżkowy"
 msgid "Pearson"
 msgstr "r Pearsona"
 
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
+
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
@@ -6418,9 +6372,7 @@ msgstr "wykonaj testy normalności rozkładu Shapiro-Wilka. Niska wartość p su
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr ""
-"wykonuje testy normalności Shapiro-Wilka. Niska wartość p sugeruje, że "
-"reszty nie przyjmują rozkładu normalnego."
+msgstr "wykonuje testy normalności Shapiro-Wilka. Niska wartość p sugeruje, że reszty nie przyjmują rozkładu normalnego."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -6717,8 +6669,7 @@ msgstr "wyświetl tabelę z oszacowanymi średnimi brzegowymi."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
-"podaje współczynniki Bayesa dla testów t Studenta dla prób niezależnych."
+msgstr "podaje współczynniki Bayesa dla testów t Studenta dla prób niezależnych."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
@@ -7965,9 +7916,7 @@ msgstr "kategorialne zmienne wyjaśniające (niezależne)."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"CI średniej zakłada, że średnie z próby przyjmują rozkład t z N - 1 "
-"stopniami swobody"
+msgstr "CI średniej zakłada, że średnie z próby przyjmują rozkład t z N - 1 stopniami swobody"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8048,15 +7997,11 @@ msgstr "dane jako ramka danych"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"Zbiór danych nie zawiera żadnego wiersza (po usunięciu wierszy z brakami "
-"danych)"
+msgstr "Zbiór danych nie zawiera żadnego wiersza (po usunięciu wierszy z brakami danych)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
-"Zbiór danych nie zawiera żadnego wiersza (lub wszystkie wiersze zawierają "
-"braki danych)"
+msgstr "Zbiór danych nie zawiera żadnego wiersza (lub wszystkie wiersze zawierają braki danych)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8181,9 +8126,7 @@ msgstr "poprawki dla wielokrotnych porównań post-hoc."
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr ""
-"szerokość prioru dla współczynników Bayesa testu t Studenta. Wymaga wartości "
-"pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
+msgstr "szerokość prioru dla współczynników Bayesa testu t Studenta. Wymaga wartości pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -8254,12 +8197,9 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr ""
-"Test t Studenta dla prób niezależnych (czasami nazywany testem t dla dwóch "
-"grup)\n"
+msgstr "Test t Studenta dla prób niezależnych (czasami nazywany testem t dla dwóch grup)\n"
 "jest używany do testowania hipotezy zerowej głoszącej, że dwie grupy mają\n"
-"taką samą średnią. Niska wartość p sugeruje, że hipoteza zerowa nie jest "
-"prawdziwa,\n"
+"taką samą średnią. Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa,\n"
 "w związku z czym średnie można uznać za istotnie różniące się od siebie."
 
 #: ttestIS/options.description.main

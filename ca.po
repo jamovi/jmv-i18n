@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-11-22 13:47+0000\n"
-"Last-Translator: Francisco J. Miguel Quesada <fxmiguel@gmail.com>\n"
-"Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ca/>\n"
-"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -785,9 +781,7 @@ msgstr "`TRUE` o `FALSE` (predeterminat), proporciona índexs de modificació pe
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-"`TRUE` o `FALSE` (predeterminat), proporciona els N valors extrems (més alts "
-"i més baixos)"
+msgstr "`TRUE` o `FALSE` (predeterminat), proporciona els N valors extrems (més alts i més baixos)"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -4158,15 +4152,11 @@ msgstr "La variable dependent '{dep}' conté infinits valors"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
-"La variable dependent '{dep}' no conté dades (després d'eliminar les files "
-"amb valors perduts)"
+msgstr "La variable dependent '{dep}' no conté dades (després d'eliminar les files amb valors perduts)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
-"La variable dependent '{dep}' conté un únic valor (després d'eliminar les "
-"files amb valors perduts)"
+msgstr "La variable dependent '{dep}' conté un únic valor (després d'eliminar les files amb valors perduts)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -4286,6 +4276,7 @@ msgstr "Desviació"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4428,9 +4419,7 @@ msgstr "valors propis més grans que"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
-"Cel·les buides al disseny intra-subjectes: com a mínim una combinació de "
-"nivells de factors entre subjectes te 0 observacions"
+msgstr "Cel·les buides al disseny intra-subjectes: com a mínim una combinació de nivells de factors entre subjectes te 0 observacions"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4631,9 +4620,7 @@ msgstr "Factor"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
-"El factor '{factor}' te menys de dos nivells. Els factores han de tenir com "
-"a mínim dos nivells"
+msgstr "El factor '{factor}' te menys de dos nivells. Els factores han de tenir com a mínim dos nivells"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4641,21 +4628,15 @@ msgstr "El factor ‘{factor}’ requereix com a mínim 2 nivells"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
-"El factor '{factorName}' no conté dades (després d'eliminar les files amb "
-"valors perduts)"
+msgstr "El factor '{factorName}' no conté dades (després d'eliminar les files amb valors perduts)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
-"El factor '{factorName}' conté un únic nivell (després d'eliminar les files "
-"amb valors perduts)"
+msgstr "El factor '{factorName}' conté un únic nivell (després d'eliminar les files amb valors perduts)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
-"El factor '{factorName}' contá nivells no utilitzats (després d'eliminar les "
-"files amb valors perduts)"
+msgstr "El factor '{factorName}' contá nivells no utilitzats (després d'eliminar les files amb valors perduts)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5844,13 +5825,11 @@ msgstr "Prova de Normalitat (Shapiro-Wilk)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
-"No està disponible degut a que el nombre de cassos és massa gran (> 5000)."
+msgstr "No està disponible degut a que el nombre de cassos és massa gran (> 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
-"No hi ha prou graus de llibertat com per a estimar tots els efectes del model"
+msgstr "No hi ha prou graus de llibertat com per a estimar tots els efectes del model"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5874,9 +5853,7 @@ msgstr "Nombre de factors"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
-"El nombre de valors extrems demanats és major que el nombre de files de les "
-"dades."
+msgstr "El nombre de valors extrems demanats és major que el nombre de files de les dades."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6328,6 +6305,10 @@ msgstr "Diagrama de camí"
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
 msgstr "Pearson"
+
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -7108,9 +7089,7 @@ msgstr "Gràfics de residus"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
-"La suma residual dels quadrats i/o els graus de llibertat son zero, el que "
-"indica un ajustament perfecte"
+msgstr "La suma residual dels quadrats i/o els graus de llibertat son zero, el que indica un ajustament perfecte"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7939,9 +7918,7 @@ msgstr "les variables categòriques explicatives (o independents)."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"El CI de la mitjana suposa que les mitjanes mostrals segueixen una "
-"distribució t amb N-1 graus de llibertat"
+msgstr "El CI de la mitjana suposa que les mitjanes mostrals segueixen una distribució t amb N-1 graus de llibertat"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8022,14 +7999,11 @@ msgstr "les dades com una 'data frame'"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"El conjunt de dades conté 0 files (després d'eliminar les files amb valors "
-"perduts)"
+msgstr "El conjunt de dades conté 0 files (després d'eliminar les files amb valors perduts)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
-"El conjunt de dades conté 0 files (o totes les files contenen valors perduts)"
+msgstr "El conjunt de dades conté 0 files (o totes les files contenen valors perduts)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."

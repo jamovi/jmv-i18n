@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-01-02 12:37+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"de/>\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -785,9 +781,7 @@ msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt die Änderungsindizes für Parameter
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-"`TRUE` oder `FALSE` (Vorgabe), gibt die N extremsten Werte (größte und "
-"kleinste) aus"
+msgstr "`TRUE` oder `FALSE` (Vorgabe), gibt die N extremsten Werte (größte und kleinste) aus"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -4160,15 +4154,11 @@ msgstr "Die abhängige Variable '{dep}' enthält unendliche Werte"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
-"Die abhängige Variable '{dep}' enthält keine Daten (nachdem Zeilen mit "
-"fehlenden Werten entfernt wurden)"
+msgstr "Die abhängige Variable '{dep}' enthält keine Daten (nachdem Zeilen mit fehlenden Werten entfernt wurden)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
-"Die abhängige Variable '{dep}' enthält nur einen einzigen Wert (nachdem "
-"Zeilen mit fehlenden Werten entfernt wurden)"
+msgstr "Die abhängige Variable '{dep}' enthält nur einen einzigen Wert (nachdem Zeilen mit fehlenden Werten entfernt wurden)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -4288,6 +4278,7 @@ msgstr "Abweichung"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4430,9 +4421,7 @@ msgstr "Eigenwerte größer als"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
-"Leere Zellen im Intersubjekt-Design: mindestens eine Kombination von "
-"Intersubjekt-Faktorstufen hat 0 Beobachtungen"
+msgstr "Leere Zellen im Intersubjekt-Design: mindestens eine Kombination von Intersubjekt-Faktorstufen hat 0 Beobachtungen"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4633,9 +4622,7 @@ msgstr "Faktor"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
-"Faktor '{factor}' hat weniger als zwei Stufen. Faktoren müssen mindestens "
-"zwei Stufen haben"
+msgstr "Faktor '{factor}' hat weniger als zwei Stufen. Faktoren müssen mindestens zwei Stufen haben"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4643,21 +4630,15 @@ msgstr "Faktor „{Faktor}“ benötigt mindestens 2 Faktorstufen"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
-"Faktor '{factorName}' enthält keine Daten (nachdem Zeilen mit fehlenden "
-"Werten entfernt wurden)"
+msgstr "Faktor '{factorName}' enthält keine Daten (nachdem Zeilen mit fehlenden Werten entfernt wurden)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
-"Faktor '{factorName}' enthält nur eine einzige Faktorstufe (nachdem Zeilen "
-"mit fehlenden Werten entfernt wurden)"
+msgstr "Faktor '{factorName}' enthält nur eine einzige Faktorstufe (nachdem Zeilen mit fehlenden Werten entfernt wurden)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
-"Faktor „{factorName}“ enthält nicht verwendete Faktorstufen (nachdem Zeilen "
-"mit fehlenden Werten entfernt wurden)"
+msgstr "Faktor „{factorName}“ enthält nicht verwendete Faktorstufen (nachdem Zeilen mit fehlenden Werten entfernt wurden)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5874,9 +5855,7 @@ msgstr "Anzahl der Faktoren"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
-"Die gewünschte Anzahl von Extremwerten ist größer als die Anzahl der "
-"Datenzeilen."
+msgstr "Die gewünschte Anzahl von Extremwerten ist größer als die Anzahl der Datenzeilen."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6328,6 +6307,10 @@ msgstr "Pfaddiagramm"
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
 msgstr "Pearson"
+
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -7108,9 +7091,7 @@ msgstr "Diagramme der Residuen"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
-"Quadratsumme der Residuen und/oder die Freiheitsgrade sind Null, was auf "
-"eine perfekte Modellanpassung hinweist"
+msgstr "Quadratsumme der Residuen und/oder die Freiheitsgrade sind Null, was auf eine perfekte Modellanpassung hinweist"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7939,9 +7920,7 @@ msgstr "die kategorialen erklärenden (oder unabhängigen) Variablen."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"Das Konfidenzintervall des Mittelwerts nimmt an, dass die Mittelwerte einer "
-"t-Verteilung mit N - 1 Freiheitsgraden folgen"
+msgstr "Das Konfidenzintervall des Mittelwerts nimmt an, dass die Mittelwerte einer t-Verteilung mit N - 1 Freiheitsgraden folgen"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8022,14 +8001,11 @@ msgstr "die Daten als `data frame`"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"Der Datensatz enthält 0 Zeilen (nachdem Zeilen mit fehlenden Werten entfernt "
-"wurden)"
+msgstr "Der Datensatz enthält 0 Zeilen (nachdem Zeilen mit fehlenden Werten entfernt wurden)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
-"Der Datensatz enthält 0 Zeilen (oder alle Zeilen enthalten fehlende Werte)"
+msgstr "Der Datensatz enthält 0 Zeilen (oder alle Zeilen enthalten fehlende Werte)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."

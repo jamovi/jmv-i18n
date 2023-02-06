@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-11-19 21:48+0000\n"
-"Last-Translator: jpmaroco <jpmaroco@gmail.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/pt/>\n"
-"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: pt\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -431,9 +427,7 @@ msgstr "`TRUE` ou` FALSE` (padrão), adiciona contagens aos gráficos de barras"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
-"`TRUE` ou` FALSE` (padrão), adiciona a média ao gráfico de extremos-e-"
-"quartis (boxplot)"
+msgstr "`TRUE` ou` FALSE` (padrão), adiciona a média ao gráfico de extremos-e-quartis (boxplot)"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
@@ -787,9 +781,7 @@ msgstr "`TRUE` ou` FALSE` (padrão), fornece índices de modificação para os p
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-"`TRUE` ou`FALSE` (default), providencia os N os valores mais extremos ("
-"menores ou maiores)"
+msgstr "`TRUE` ou`FALSE` (default), providencia os N os valores mais extremos (menores ou maiores)"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -1849,8 +1841,7 @@ msgstr "um inteiro (padrão: 4) especifica o número de grupos iguais"
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
-"um número inteiro (padrão: 5) especificando o número de valores extremos"
+msgstr "um número inteiro (padrão: 5) especificando o número de valores extremos"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -4148,15 +4139,11 @@ msgstr "A variável dependente '{dep}' contém valores infinitos"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
-"A variável dependente '{dep}' não contém dados (depois de remover as "
-"fileiras com valores ausentes)"
+msgstr "A variável dependente '{dep}' não contém dados (depois de remover as fileiras com valores ausentes)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
-"Variáveis dependentes '{dep}' contém somente um único valor (depois de "
-"remover as fileiras com valores ausentes)"
+msgstr "Variáveis dependentes '{dep}' contém somente um único valor (depois de remover as fileiras com valores ausentes)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -4276,6 +4263,7 @@ msgstr "Desvio"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4418,9 +4406,7 @@ msgstr "Valores próprios superiores a"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
-"Células vazias no cruzamento entre sujeitos: pelo menos uma combinação entre "
-"sujeitos tem 0 observações"
+msgstr "Células vazias no cruzamento entre sujeitos: pelo menos uma combinação entre sujeitos tem 0 observações"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4621,9 +4607,7 @@ msgstr "Fator"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
-"Fator '{factor}' tem menos de dois níveis. Fatores devem ter pelo menos dois "
-"níveis"
+msgstr "Fator '{factor}' tem menos de dois níveis. Fatores devem ter pelo menos dois níveis"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4631,19 +4615,15 @@ msgstr "O Fator '{factorName}' tem de ter pelo menos dois níveis"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
-"Fator '{factorName}' não tem dados (depois da remoção dos valores omissos)"
+msgstr "Fator '{factorName}' não tem dados (depois da remoção dos valores omissos)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
-"Fator '{factorName}' tem apenas um unico nível (após remoção dos valores "
-"omissos)"
+msgstr "Fator '{factorName}' tem apenas um unico nível (após remoção dos valores omissos)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
-"Fator '{factorName}' tem níveis não usados (após remoção dos valores omissos)"
+msgstr "Fator '{factorName}' tem níveis não usados (após remoção dos valores omissos)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5860,8 +5840,7 @@ msgstr "Número de fatores"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
-"Número de valores extremos pedido é superior ao número de linhas nos dados."
+msgstr "Número de valores extremos pedido é superior ao número de linhas nos dados."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6314,6 +6293,10 @@ msgstr "Diagrama de Trajetórias"
 msgid "Pearson"
 msgstr "Pearson"
 
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
+
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
@@ -6657,11 +6640,7 @@ msgstr "forneça um r de Pearson para cada combinação de variáveis."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
-"fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra "
-"os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios "
-"grandes da linha diagonal sugerem que os dados não provêm de uma "
-"distribuição normal."
+msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -6795,21 +6774,13 @@ msgstr "fornecer testes post-hoc."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
-"fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra "
-"os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios "
-"grandes da linha diagonal sugerem que os dados não provêm de uma "
-"distribuição normal."
+msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr ""
-"fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra "
-"os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios "
-"grandes da linha diagonal sugerem que os dados não provêm de uma "
-"distribuição normal."
+msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -7105,9 +7076,7 @@ msgstr "Gráficos de Resíduos"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
-"A soma de quadrados dos erros e/ou os graus de liberdade são zero, indicando "
-"um ajustamento perfeito ;-)"
+msgstr "A soma de quadrados dos erros e/ou os graus de liberdade são zero, indicando um ajustamento perfeito ;-)"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7936,9 +7905,7 @@ msgstr "as variáveis explicativas categoriais (ou independentes)."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"O IC da média assume que a distribuição amostral da média segue uma "
-"distribuição t com N-1 graus de liberdade"
+msgstr "O IC da média assume que a distribuição amostral da média segue uma distribuição t com N-1 graus de liberdade"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8019,14 +7986,11 @@ msgstr "os dados como um quadro de dados"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"a base de dados tem 0 linhas (depois de remover as linhas com valores "
-"omissos)"
+msgstr "a base de dados tem 0 linhas (depois de remover as linhas com valores omissos)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
-"a base de dados tem 0 linhas (ou todas as linhas contêm valores omissos)"
+msgstr "a base de dados tem 0 linhas (ou todas as linhas contêm valores omissos)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."

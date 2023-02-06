@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-02-02 14:41+0000\n"
-"Last-Translator: GUILLAUME DIAS <guillaumedias.perso@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"fr/>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -785,9 +781,7 @@ msgstr "`TRUE` or `FALSE` (default), fournit les indices de modification pour le
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-"`TRUE` ou `FALSE` (par défaut), fournir les N valeurs les plus extrêmes (la "
-"plus haute et la plus basse)"
+msgstr "`TRUE` ou `FALSE` (par défaut), fournir les N valeurs les plus extrêmes (la plus haute et la plus basse)"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -4152,15 +4146,11 @@ msgstr "La variable dépendante '{dep}' contient des valeurs infinies"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
-"La variable dépendante \"{dep}\" ne contient pas de données (après "
-"suppression des lignes avec des valeurs manquantes)"
+msgstr "La variable dépendante \"{dep}\" ne contient pas de données (après suppression des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
-"La variable dépendante \"{dep}\" ne contient qu'une seule valeur unique ("
-"après suppression des lignes avec des valeurs manquantes)"
+msgstr "La variable dépendante \"{dep}\" ne contient qu'une seule valeur unique (après suppression des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -4280,6 +4270,7 @@ msgstr "Déviation"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4423,9 +4414,7 @@ msgstr "Eigenvalues supérieures à"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
-"Cellules vides dans la conception entre sujets : au moins une combinaison de "
-"niveaux de facteurs entre sujets a 0 observation"
+msgstr "Cellules vides dans la conception entre sujets : au moins une combinaison de niveaux de facteurs entre sujets a 0 observation"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4628,9 +4617,7 @@ msgstr "Facteur"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
-"Le facteur '{facteur}' a moins de deux niveaux. Les facteurs doivent avoir "
-"au moins deux niveaux"
+msgstr "Le facteur '{facteur}' a moins de deux niveaux. Les facteurs doivent avoir au moins deux niveaux"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4638,15 +4625,11 @@ msgstr "Le facteur '{factorName}' doit avoir au moins deux modalités"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
-"Le facteur '{facteurNom}' ne contient pas de données (après suppression des "
-"lignes avec des valeurs manquantes)"
+msgstr "Le facteur '{facteurNom}' ne contient pas de données (après suppression des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
-"Le facteur '{facteurNom}' ne contient qu'un seul niveau (après suppression "
-"des lignes avec des valeurs manquantes)"
+msgstr "Le facteur '{facteurNom}' ne contient qu'un seul niveau (après suppression des lignes avec des valeurs manquantes)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
@@ -6321,6 +6304,10 @@ msgstr "Diagramme structurel"
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
 msgstr "Pearson"
+
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content

@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-11-18 00:47+0000\n"
-"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ja/>\n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -785,8 +781,7 @@ msgstr "モデルに含まれるパラメタの修正指標を算出するかど
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr "もっとも極端なNの値（最大値と最小値）を用いるかどうかを`TRUE`または`FALSE`（"
-"初期値）で指定します"
+msgstr "もっとも極端なNの値（最大値と最小値）を用いるかどうかを`TRUE`または`FALSE`（初期値）で指定します"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -4282,6 +4277,7 @@ msgstr "偏差"
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4424,8 +4420,7 @@ msgstr "固有値の最小基準値"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "参加者間デザインに空のセルがあります。参加者間因子の少なくとも1組の水準にデー"
-"タがありません"
+msgstr "参加者間デザインに空のセルがあります。参加者間因子の少なくとも1組の水準にデータがありません"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4626,8 +4621,7 @@ msgstr "因子分析"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "「{factor}」因子の水準が1つしかありません。因子には少なくとも2つの水準が必要"
-"です"
+msgstr "「{factor}」因子の水準が1つしかありません。因子には少なくとも2つの水準が必要です"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4643,8 +4637,7 @@ msgstr "（欠損値を含む行を除外後の）「{factorName}」因子に1�
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "（欠損値を含む行を除外後の）「{factorName}」因子に使用されていない水準があり"
-"ます"
+msgstr "（欠損値を含む行を除外後の）「{factorName}」因子に使用されていない水準があります"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -6309,6 +6302,10 @@ msgstr "パス図"
 msgid "Pearson"
 msgstr "ピアソンの相関係数"
 
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
+
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
@@ -7088,8 +7085,7 @@ msgstr "残差プロット"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "残差2乗和と自由度のいずれか、または両方が0です。これは完全に適合していること"
-"を意味します"
+msgstr "残差2乗和と自由度のいずれか、または両方が0です。これは完全に適合していることを意味します"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7995,8 +7991,7 @@ msgstr "（欠損値を含む行を除外後の）データセットにデータ
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr "データセットにデータがありません（または、すべての行に欠損値が含まれています"
-"）"
+msgstr "データセットにデータがありません（または、すべての行に欠損値が含まれています）"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."

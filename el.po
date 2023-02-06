@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2022-11-22 20:48+0000\n"
-"Last-Translator: Γιώργος Καβρός <gior.k79@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/jamovi/jmv-i18n/el/"
-">\n"
-"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -30,9 +26,7 @@ msgstr "'{col}' περιέχει μόνο μια μοναδική τιμή"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
-"Η μέθοδος εξαγωγής '{method}' χρησιμοποιήθηκε σε συνδυασμό με μια περιστροφή "
-"'{rotation}'"
+msgstr "Η μέθοδος εξαγωγής '{method}' χρησιμοποιήθηκε σε συνδυασμό με μια περιστροφή '{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -187,29 +181,20 @@ msgstr "% εντός σειράς"
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
-"''1'', ''2'' ή ''3'' (προεπιλογή), το άθροισμα των τετραγώνων που θα "
-"χρησιμοποιηθούν"
+msgstr "''1'', ''2'' ή ''3'' (προεπιλογή), το άθροισμα των τετραγώνων που θα χρησιμοποιηθούν"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
-"''2'' ή ''3'' (προεπιλογή), το άθροισμα των τετραγώνων που θα χρησιμοποιηθούν"
+msgstr "''2'' ή ''3'' (προεπιλογή), το άθροισμα των τετραγώνων που θα χρησιμοποιηθούν"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr ""
-"`'διαφορετικό'' (προεπιλογή), ''oneGreater'' ή 'twoGreater', η εναλλακτική "
-"υπόθεση. Η ομάδα 1 διαφορετική από την ομάδα 2, η ομάδα 1 μεγαλύτερη από την "
-"ομάδα 2 και η ομάδα 2 μεγαλύτερη από την ομάδα 1 αντίστοιχα"
+msgstr "`'διαφορετικό'' (προεπιλογή), ''oneGreater'' ή 'twoGreater', η εναλλακτική υπόθεση. Η ομάδα 1 διαφορετική από την ομάδα 2, η ομάδα 1 μεγαλύτερη από την ομάδα 2 και η ομάδα 2 μεγαλύτερη από την ομάδα 1 αντίστοιχα"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
-msgstr ""
-"`'διαφορετικό'' (προεπιλογή), ''oneGreater'' ή 'twoGreater', η εναλλακτική "
-"υπόθεση. Μέτρο 1 διαφορετικό από το μέτρο 2, μέτρο 1 μεγαλύτερο από μέτρο 2 "
-"και μέτρο 2 μεγαλύτερο από μέτρο 1 αντίστοιχα"
+msgstr "`'διαφορετικό'' (προεπιλογή), ''oneGreater'' ή 'twoGreater', η εναλλακτική υπόθεση. Μέτρο 1 διαφορετικό από το μέτρο 2, μέτρο 1 μεγαλύτερο από μέτρο 2 και μέτρο 2 μεγαλύτερο από μέτρο 1 αντίστοιχα"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
@@ -266,18 +251,11 @@ msgstr ""
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr ""
-"''perAnalysis'' ή ''listwise'', πώς να χειριστείτε τις τιμές που λείπουν. Το "
-"'perAnalysis' εξαιρεί τις τιμές που λείπουν για μεμονωμένες εξαρτημένες "
-"μεταβλητές, το ''listwise'' εξαιρεί μια σειρά από όλες τις αναλύσεις εάν "
-"λείπει μία από τις καταχωρίσεις της."
+msgstr "''perAnalysis'' ή ''listwise'', πώς να χειριστείτε τις τιμές που λείπουν. Το 'perAnalysis' εξαιρεί τις τιμές που λείπουν για μεμονωμένες εξαρτημένες μεταβλητές, το ''listwise'' εξαιρεί μια σειρά από όλες τις αναλύσεις εάν λείπει μία από τις καταχωρίσεις της."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr ""
-"«refLevel» (προεπιλογή) ή «grandMean», κωδικοποίηση της τομής. Είτε "
-"δημιουργεί αντίθεση έτσι ώστε η τομή να αντιπροσωπεύει το επίπεδο αναφοράς ή "
-"το μεγάλο μέσο όρο"
+msgstr "«refLevel» (προεπιλογή) ή «grandMean», κωδικοποίηση της τομής. Είτε δημιουργεί αντίθεση έτσι ώστε η τομή να αντιπροσωπεύει το επίπεδο αναφοράς ή το μεγάλο μέσο όρο"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
@@ -2753,9 +2731,8 @@ msgstr ""
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
-#, fuzzy
 msgid "Data"
-msgstr "Δεδομένα"
+msgstr ""
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
@@ -3624,6 +3601,7 @@ msgstr ""
 #: contTables/results/chiSq.columns.title
 #: contTables/results/mh.columns.title
 #: contTablesPaired/results/test.columns.title
+#: corrMatrix/results/matrix.columns.content
 #: linReg/results/models.template/anova.columns.title
 #: logLinear/results/modelFit.columns.title
 #: logLinear/results/modelComp.columns.title
@@ -4200,9 +4178,8 @@ msgid "Greenhouse-Geisser ε"
 msgstr ""
 
 #: ttestIS/results/desc.columns.title
-#, fuzzy
 msgid "Group"
-msgstr "Ομάδα"
+msgstr ""
 
 #: R/conttables.b.R
 msgid "Group 1"
@@ -4435,9 +4412,8 @@ msgstr ""
 #: logRegOrd/ui[4][0][1][1]/ciOR/ciWidthOR.label
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
-#, fuzzy
 msgid "Interval"
-msgstr "Διάστημα"
+msgstr ""
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
@@ -4900,11 +4876,6 @@ msgstr ""
 msgid "Missing"
 msgstr ""
 
-#: anovaOneW/ui[1][0][1].label
-#, fuzzy
-msgid "Missing Values"
-msgstr "Τιμές που λείπουν"
-
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
 #: ttestOneS/options/miss.title
@@ -4912,6 +4883,10 @@ msgstr "Τιμές που λείπουν"
 #: ttestPS/options/miss.title
 #: ttestPS/ui[1][0][2].label
 msgid "Missing values"
+msgstr ""
+
+#: anovaOneW/ui[1][0][1].label
+msgid "Missing Values"
 msgstr ""
 
 #: anovaOneW/options/miss.title
@@ -5127,6 +5102,10 @@ msgstr ""
 msgid "Non-Parametric"
 msgstr ""
 
+#: R/pca.b.R
+msgid "none"
+msgstr ""
+
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
 #: anova/options/contrasts.template/type/none.title
@@ -5138,12 +5117,7 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.content
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
-#, fuzzy
 msgid "None"
-msgstr "Κανένα"
-
-#: R/pca.b.R
-msgid "none"
 msgstr ""
 
 #: reliability/ui[2]/revItemsSupplier.label
@@ -5636,6 +5610,10 @@ msgstr ""
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
+msgstr ""
+
+#: R/corrmatrix.b.R
+msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
@@ -6872,9 +6850,8 @@ msgstr ""
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
-#, fuzzy
 msgid "Standard error"
-msgstr "Τυπικό σφάλμα"
+msgstr ""
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -7249,9 +7226,8 @@ msgstr ""
 #: ttestIS/options/data.description.R
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
-#, fuzzy
 msgid "the data as a data frame"
-msgstr "τα δεδομένα ως πλαίσιο δεδομένων"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/mancova.b.R
