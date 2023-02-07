@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-02-07 16:37+0000\n"
+"Last-Translator: Coraline Lethimonnier <coraline@stats-co.eu>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -4634,6 +4638,8 @@ msgstr "Le facteur '{facteurNom}' ne contient qu'un seul niveau (après suppress
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' contient des modalités inutilisées (après avoir filtré les "
+"lignes contenant des valeurs manquantes)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5012,7 +5018,7 @@ msgstr "Hypothèse"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Si l'item est retiré"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -5688,8 +5694,9 @@ msgid "More than one mode exists, only the first is reported"
 msgstr "Plus d'un mode existe, seul le premier est proposé"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
+#, fuzzy
 msgid "Most extreme"
-msgstr ""
+msgstr "Plus extrême"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5826,12 +5833,13 @@ msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test de normalité (Shapiro-Wilk)"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Indisponible : nombre de cases trop élevé (> 5000)"
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "Pas assez de degrés de liberté pour estimer tous les effets du modèle"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5843,7 +5851,7 @@ msgstr "Nombre de composantes"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Nombre de valeurs extrêmes"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -5854,8 +5862,11 @@ msgid "Number of factors"
 msgstr "Nombre de facteurs"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Number of requested extreme values is higher than the number of rows in the data."
 msgstr ""
+"Le nombre de valeurs extrêmes demandées est supérieur au nombre de lignes du "
+"jeu de données"
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6064,7 +6075,7 @@ msgstr "Résultats ordinaux"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "Valeurs atypiques"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -6308,6 +6319,8 @@ msgstr "Pearson"
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr ""
+"La corrélation de Pearson ne peut pas être calculée pour des valeurs non "
+"numériques"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -7091,6 +7104,8 @@ msgstr "Graphes des résidus"
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
+"La somme des carrés résiduelle et/ou les degrés de libertés valent 0, ce qui "
+"indique un ajustement parfait"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7192,7 +7207,7 @@ msgstr "Ligne"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Nombre de lignes"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7927,6 +7942,8 @@ msgstr "les variables indépendantes ou explicatives."
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"L'IC de la moyenne utilisant la moyenne de l'échantillon suit une "
+"distribution de Student à N - 1 degrés de liberté"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8008,10 +8025,14 @@ msgstr "les données sous forme de data frame"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"Le jeu de données contient 0 ligne (après avoir filtré les valeurs "
+"manquantes)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
+"Le jeu de données ne contient pas de ligne (ou toutes les lignes contiennent "
+"des valeurs manquantes)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8590,7 +8611,7 @@ msgstr "valeur"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "Valeurs"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
