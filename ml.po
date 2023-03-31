@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-03-31 11:43+0000\n"
+"PO-Revision-Date: 2023-03-31 12:39+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -293,40 +293,46 @@ msgstr ""
 "കണക്കാക്കുന്നു"
 
 #: ancova/results/main.title
+#, fuzzy
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "'ANCOVA - ${dep}'"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"`നിരകൾ` അല്ലെങ്കിൽ `വരികൾ` (default), അനുപാതങ്ങളുടെ വ്യത്യാസത്തിന്റെ "
+"അല്ലെങ്കിൽ ആപേക്ഷിക റിസ്കുകളുടെ അടിസ്ഥാനത്തിൽ നിരകൾ/വരികൾ താരതമ്യം ചെയ്യുക ("
+"2x2 tables)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "'മോഡൽ കോയെഫിഷ്യന്റുകൾ - ${ dep }'"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`മോഡൽ കോയെഫിഷ്യന്റുകൾ - ${ dep }`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`അനുപാതങ്ങൾ - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
+"'TRUE' (default) അല്ലെങ്കിൽ 'FALSE', ബോക്സ് പ്ലോട്ടിലെ ഔട്ട്ലയറുകൾക്ക് വരി "
+"നമ്പറുകൾ ലേബലായി കൊടുക്കുക"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, Student's t-tests ചെയ്യുക"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
