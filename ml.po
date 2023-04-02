@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-03-31 14:40+0000\n"
+"PO-Revision-Date: 2023-04-02 05:36+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -367,10 +367,12 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡലുകൾക്ക് Aikaike's Information "
+"Criterion (AIC) നൽകുക"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, Cronbach's α നൽകുക"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -381,32 +383,41 @@ msgstr ""
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, estimated marginal means പ്ലോട്ടുകൾ "
+"നൽകുക"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, ഫാക്ടർ (കോ)വേരിയൻസിനുള്ള estimates നൽകുക"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, റെസിഡുവൽ (കോ)വേരിയൻസിനുള്ള estimates "
+"നൽകുക"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, post-hoc ടെസ്റ്റുകൾക്കുള്ള mean "
+"differences നൽകുക"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, Pearson's R നൽകുക"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, significance ലെവലുകൾ നൽകുക"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, post-hoc ടെസ്റ്റുകൾക്കുള്ള significance "
+"ലെവലുകൾ നൽകുക"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
@@ -414,43 +425,53 @@ msgstr ""
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് deviance (അല്ലെങ്കിൽ "
+"-2LogLikelihood) നൽകുക"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, mean നൽകുക"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, median നൽകുക"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകളും NULL മോഡലും തമ്മിലുള്ള മോഡൽ "
+"താരതമ്യം നൽകുക"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,ഇല്ലാത്ത മൂല്യങ്ങളുടെ (missing values) "
+"എണ്ണം നൽകുക"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, sample size നൽകുക"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, standard deviation നൽകുക"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് സ്റ്റാറ്റിസ്റ്റിക്കൽ അളവായ "
+"`R-squared` നൽകുക"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് സ്റ്റാറ്റിസ്റ്റിക്കൽ അളവായ "
+"`R` നൽകുക"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,χ²നൽകുക"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
