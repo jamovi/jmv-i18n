@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-03-15 16:40+0000\n"
+"PO-Revision-Date: 2023-04-04 20:36+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -798,7 +798,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje współczynniki korelacji Phi Yu
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy posterior"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wyświetla wykresy rozkładu a posteriori"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
@@ -1290,11 +1290,15 @@ msgstr "liczba (domyślnie: 3), zaznacza wartości w tablicach `'modIndices'` po
 #: ttestIS/options/bfPrior.description.R
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "liczba z przedziału od 0.5 do 2 (domyślnie 0.707); szerokość prioru wykorzystana przy obliczaniu współczynników Bayesa"
+msgstr ""
+"liczba z przedziału od 0.5 do 2 (domyślnie 0.707); szerokość rozkładu a "
+"priori wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707); szerokość prioru wykorzystana przy obliczaniu współczynników Bayesa"
+msgstr ""
+"liczba z przedziału od 0.5 do 2.0 (domyślnie 0.707); szerokość rozkładu a "
+"priori wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1822,7 +1826,7 @@ msgstr "tablica wykresów oszacowanych średnich brzegowych + tabele"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr "tablica wykresów posterior"
+msgstr "tablica wykresów rozkładu a posteriori"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
@@ -6501,11 +6505,11 @@ msgstr "Posterior"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr "Wykres posterior"
+msgstr "Wykres rozkładu a posteriori"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr "Wykresy posterior"
+msgstr "Wykresy rozkładu a posteriori"
 
 #: R/logregbin.b.R
 msgid "Predicted"
@@ -6588,7 +6592,7 @@ msgstr "Prior"
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr "Szerokość prioru"
+msgstr "Szerokość rozkładu a priori"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -8133,7 +8137,9 @@ msgstr "poprawki dla wielokrotnych porównań post-hoc."
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "szerokość prioru dla współczynników Bayesa testu t Studenta. Wymaga wartości pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
+msgstr ""
+"szerokość rozkładu a priori dla współczynników Bayesa testu t Studenta. "
+"Wymaga wartości pomiędzy 0,5 a 2,0; domyślna wartość to 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
