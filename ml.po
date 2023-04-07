@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-04-07 05:47+0000\n"
+"PO-Revision-Date: 2023-04-07 06:48+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -488,90 +488,123 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,χ²നൽകു
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, എല്ലാ സെല്ലുകൾക്കും ഒരേ മുൻഗണന കൊടുക്കണോ"
+" അതോ ഉള്ളടക്കം (frequency) അനുസരിച്ച് മുൻഗണന കൊടുക്കണോ"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default),   ബാർ പ്ലോട്ടുകളിലേക്ക് എണ്ണങ്ങൾ "
+"ചേർക്കുക"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ബോക്സ് പ്ലോട്ടിലേക്ക് ശരാശരി (mean) "
+"ചേർക്കുക"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ശ്രദ്ധേയമായ പരസ്പര ബന്ധങ്ങൾ "
+"(correlations) അടയാളപ്പെടുത്തുക"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ശ്രദ്ധേയമായ പോസ്റ്റ്-ഹോക്ക് താരതമ്യങ്ങൾ "
+"അടയാളപ്പെടുത്തുക"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residuals വെച്ച് Shapiro-Wilk ടെസ്റ്റ് "
+"ചെയ്യുന്നു"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), തുല്യ വേരിയൻസ് അനുമാനിക്കുന്ന Fisher's "
+"one-way ANOVA ചെയ്യുന്നു"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), സമാനത (homogeneity) ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനത (homogeneity of "
+"variances) നോക്കുന്ന Levene's ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനത (homogeneity of "
+"variances) നോക്കുന്ന Levene's ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Mann-Whitney U ടെസ്റ്റ് ചെയ്യുക"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഓരോ ജോഡിയായി (pairwise) താരതമ്യം ചെയ്യുക"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ "
+"ചെയ്യുക"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റ് "
+"ചെയ്യുക"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-Wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ "
+"ചെയ്യുക"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ "
+"ചെയ്യുക"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഗോളാകാര (sphericity) ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വെൽഷ് (Welch's) ടി-ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Wilcoxon signed rank ടെസ്റ്റ് ചെയ്യുക"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
+"'TRUE' അല്ലെങ്കിൽ 'FALSE' (default), മാർജിനൽ ശരാശരിക്കു (marginal means) "
+"മുകളിൽ ഡാറ്റ പ്ലോട്ട് ചെയ്യുക"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
