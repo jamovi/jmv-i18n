@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-04-06 04:53+0000\n"
+"PO-Revision-Date: 2023-04-07 05:47+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -229,10 +229,17 @@ msgstr "`'none'`, `'ci'` (default), അല്ലെങ്കിൽ `'se'`. എ�
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` അല്ലെങ്കിൽ `'tukey'`, ഏത് പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റ് "
+"ചെയ്യണം; `'none'` ആണെങ്കിൽ ഒരു പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും ഇല്ല, "
+"`'gamesHowell'` ആണെങ്കിൽ തുല്യ വേരിയൻസ് അനുമാനം വേണ്ടാത്ത Games-Howell "
+"പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും, `'tukey'` ആണെങ്കിൽ തുല്യ വേരിയൻസ് അനുമാനിക്കുന്ന "
+"Tukey പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും കാണിക്കുന്നു"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, "
+"അല്ലെങ്കിൽ `'simplimax'`, എസ്റ്റിമേഷനിൽ ഉപയോഗിക്കേണ്ട റൊട്ടേഷൻ"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
@@ -293,9 +300,8 @@ msgstr ""
 "കണക്കാക്കുന്നു"
 
 #: ancova/results/main.title
-#, fuzzy
 msgid "`ANCOVA - ${dep}`"
-msgstr "'ANCOVA - ${dep}'"
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
@@ -6559,7 +6565,7 @@ msgstr ""
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
-msgstr ""
+msgstr "വരി"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
@@ -6919,7 +6925,7 @@ msgstr ""
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr ""
+msgstr "സ്റ്റാൻഡേർഡ് എറർ"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -7790,7 +7796,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "ഉയർന്ന"
 
 #: R/descriptives.b.R
 msgid "upper bound"
