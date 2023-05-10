@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-05-10 22:50+0000\n"
+"PO-Revision-Date: 2023-05-10 23:50+0000\n"
 "Last-Translator: Valeriia Zhuravska <zhuravskayalera1@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/"
 ">\n"
@@ -506,87 +506,103 @@ msgstr ""
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), přidání hodnot do sloupcových grafů"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), přidat průměr do krabicového grafu"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), označit významné korelace"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), označit významná post-hoc porovnání"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (\"výchozí\"), provést Shapirův-Wilkův test na "
+"zbytcích"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (\"výchozí\"), provést Fisherovu jednosměrnou "
+"ANOVA, která předpokládá stejné rozptyly"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (\"výchozí\"), provést testy homogenity"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
 msgstr ""
+"`PRAVDA` nebo `NEPRAVDA` (\"výchozí\"), provést Leveneův test homogenity "
+"rozptylů"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (\"výchozí\"), provést Leveneho testy "
+"homogenity rozptylů"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), provést Mann-Whitneyho U test"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), provést párové porovnání"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
 msgstr ""
+"`PRAVDA` nebo `NEPRAVDA` (výchozí), provést Shapiro-wilkovy testy normality"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
 msgstr ""
+"`PRAVDA` nebo `NEPRAVDA` (výchozí), provést Shapirův-Wilkův test normality"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
 msgstr ""
+"`PRAVDA` nebo `NEPRAVDA` (výchozí), provést Shapiro-Wilkovy testy normality"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
 msgstr ""
+"`PRAVDA` nebo `NEPRAVDA` (výchozí), provést Shapiro-wilkovy testy normality"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (výchozí), provést testy sféricity"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
+msgstr "`PRAVDA` nebo `NEPRAVDA` (\"výchozí\"), provést Welchovy t-testy"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"`PRAVDA` nebo `NEPRAVDA` (výchozí), provést Wilcoxonovy signifikantní "
+"rankové testy"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (\"výchozí\"), vykreslit data nad okrajovými "
+"průměry"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
@@ -594,28 +610,40 @@ msgstr ""
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), uvést interval spolehlivosti pro "
+"odhady modelových koeficientů"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), uvést interval spolehlivosti pro "
+"odhady poměru šancí koeficientů modelu"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
 msgstr ""
+"`PRÁVDA` nebo `NEPRAVDA` (\"výchozí\"), uvést interval spolehlivosti pro "
+"odhady poměru modelových koeficientů"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), uvést interval spolehlivosti pro "
+"standardizované odhady koeficientů modelu"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
 msgstr ""
+"\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), poskytne interval spolehlivosti pro "
+"koeficienty modelu"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
 msgstr ""
+"`TRUE` or `FALSE` (default), provide a confidence interval for the model "
+"estimates"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
