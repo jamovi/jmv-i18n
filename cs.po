@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-05-10 22:16+0000\n"
-"Last-Translator: Artur Kalmetev <kalmetev.art@gmail.com>\n"
+"PO-Revision-Date: 2023-05-10 22:50+0000\n"
+"Last-Translator: Valeriia Zhuravska <zhuravskayalera1@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/"
 ">\n"
 "Language: cs\n"
@@ -438,8 +438,8 @@ msgstr "`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést hladiny významnosti"
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
 msgstr ""
-"`PRAVDA` (výchozí) nebo `NEPRAVDA`, poskytuje hladiny významnosti pro post "
-"hoc testy"
+"`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést hladiny významnosti pro post-hoc "
+"testy"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
@@ -447,43 +447,50 @@ msgstr ""
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
 msgstr ""
+"`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést odchylku (nebo -2LogLikelihood) "
+"pro modely"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
+msgstr "`PRAVDA` (výchozí) nebo `NEPRAVDA`, zadat průměrnou hodnotu"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
+msgstr "`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést medián"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
 msgstr ""
+"`PRAVDA` (výchozí) nebo `NEPRAVDA`, poskytnout porovnání modelů s modelem "
+"NULL"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr ""
+msgstr "`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést počet chybějících hodnot"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
+msgstr "`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést velikost vzorku"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "`PRAVDA` (výchozí) nebo `NEPRAVDA`, uveďte směrodatnou odchylku"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
 msgstr ""
+"\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", uvést statistickou míru `R-squared` "
+"pro modely"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
 msgstr ""
+"`PRAVDA` (výchozí) nebo `NEPRAVDA`, uvést statistickou míru `R` pro modely"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", uvést χ²"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -494,6 +501,8 @@ msgstr ""
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", zvážit každou buňku stejně nebo "
+"zvážit podle četnosti buněk"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
