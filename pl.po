@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-04-13 15:48+0000\n"
+"PO-Revision-Date: 2023-05-11 13:49+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -3155,7 +3155,8 @@ msgid "data('bugs', package = 'jmv')\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#    Note. Type 3 Sums of Squares\n"
 "#"
-msgstr "data('bugs', package = 'jmv')\n"
+msgstr ""
+"data('bugs', package = 'jmv')\n"
 "\n"
 "anovaRM(\n"
 "    data = bugs,\n"
@@ -3183,7 +3184,7 @@ msgstr "data('bugs', package = 'jmv')\n"
 "#    Frightening              126     1         126.11    44.2    < .001\n"
 "#    Reszta                 257    90           2.85\n"
 "#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Uwaga. Suma of kwadratów typu III. \n"
+"#    Uwaga. Suma of kwadratów typu III \n"
 "#\n"
 "#\n"
 "#\n"
@@ -3193,7 +3194,7 @@ msgstr "data('bugs', package = 'jmv')\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
 "#    Reszta               954    90           10.6\n"
 "#  ─────────────────────────────────────────────────────────────────\n"
-"#    Uwaga. Suma of kwadratów typu III.\n"
+"#    Uwaga. Suma of kwadratów typu III\n"
 "#"
 
 #: anovaRMNP/options.description.R.usage
@@ -8329,11 +8330,11 @@ msgstr "rodzaj korelacji do obliczenia"
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr "typ sumy kwadratów; typ I., II. lub III."
+msgstr "typ sumy kwadratów; typ I, II lub III"
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr "typ sumy kwadratów; typ II. lub III."
+msgstr "typ sumy kwadratów; typ II lub III"
 
 #: ancova/results/model.description
 #: anova/results/model.description
@@ -8510,17 +8511,17 @@ msgstr "Typ I."
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr "Typ II."
+msgstr "Typ II"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr "Typ III."
+msgstr "Typ III"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr "Suma kwadratów typu III."
+msgstr "Suma kwadratów typu III"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
