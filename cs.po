@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-05-11 08:50+0000\n"
+"PO-Revision-Date: 2023-05-11 09:51+0000\n"
 "Last-Translator: Valeriia Zhuravska <zhuravskayalera1@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/"
 ">\n"
@@ -1269,38 +1269,46 @@ msgstr ""
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "graf korelační matice"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "tabulka korelační matice"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "popisný graf"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr ""
+msgstr "vzorec obsahující výrazy pro odhad mezních průměrů (viz příklady)"
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
+"vzorec obsahující údaje pro odhad mezních středních hodnot, podporuje až tři "
+"proměnné na člen"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
 msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
 msgstr ""
+"vzorec obsahující údaje, s použitím kterých lze provést post-hoc testy (viz "
+"příklady)"
 
 #: ancova/options/modelTerms.description.R
 #: anova/options/modelTerms.description.R
 msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
 msgstr ""
+"vzorec popisující výrazy, které lze do modelu zařadit (při zadávání vzorce "
+"není nutné, viz příklady)"
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
 msgstr ""
+"seznam obsahující pojmenované seznamy, které definují `název` faktoru a `"
+"variabilní prvky`, které patří k tomuto faktoru"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -1309,18 +1317,26 @@ msgstr ""
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
 msgstr ""
+"seznam obsahující vektory řetězců, které udávají názvy prediktorů přidaných "
+"do modelu. Prvky jsou do modelu přidávány podle pořadí v seznamu"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
 msgstr ""
+"seznam znakových vektorů popisujících mezipředmětové vztahy, které budou "
+"zahrnuty do modelu"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
 msgstr ""
+"seznam znakových vektorů popisujících post-hoc testy, které je nutné "
+"vypočítat"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
 msgstr ""
+"seznam znakových vektorů popisujících termíny opakovaných měření, které se "
+"použijí v modelu"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1329,19 +1345,23 @@ msgstr ""
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
 msgstr ""
+"seznam seznamů určujících referenční úrovně závislé proměnné a všech faktorů"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
 msgstr ""
+"seznam seznamů určující faktor a typ kontrastu, které lze použít, jeden z "
+"`'odchylka'`, `'jednoduchý'`, `'rozdíl'`, `'helmert'`, `'opakovaný'` nebo "
+"`'polynom'`"
 
 #: ttestPS/options/pairs.description.R
 msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr ""
+msgstr "seznam seznamů určující dvojice měření v `data`"
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
+msgstr "seznam seznamů určující reziduální kovariance, které je nutné odhadnout"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -1349,45 +1369,54 @@ msgstr ""
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
 msgstr ""
+"seznam seznamů určující proměnné, které vyžadují výpočet odhadovaných "
+"mezních průměrů. Podporuje až tři proměnné na jeden termín."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
+"seznam seznamů, kde každý seznam popisuje opakovanou míru (jako řetězec) z "
+"`data` definovanou jako `míra` a konkrétní kombinaci úrovní z `rm`, ke které "
+"patří (jako vektor řetězců) definovanou jako `buňka`"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
+"seznam seznamů, kde každý seznam popisuje `značku` (jako řetězec) a `úrovně` "
+"(jako vektor řetězců) určitého faktoru opakovaných měření"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr ""
+msgstr "Nízká p-hodnota naznačuje porušení předpokladu rovnosti rozptylů"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
+msgstr "Nízká p-hodnota naznačuje porušení předpokladu normality"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "Přehledný soubor korelačních dat"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
 msgstr ""
+"číslo (výchozí: 0.1), zvýrazní hodnoty v tabulce `'corRes'` nad touto "
+"hodnotou"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr ""
+msgstr "číslo (výchozí: 0,3), skrýt faktorové zátěže pod touto hodnotou"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
+msgstr "číslo (výchozí: 0,3), skrýt zatížení pod touto hodnotou"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "číslo (výchozí: 0,5), hodnota nulové hypotézy"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
