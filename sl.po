@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-06-12 16:50+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/sl/>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: sl\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -26,11 +31,13 @@ msgstr "Stolpec »{col}« vsebuje le eno enoznačno vrednost"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "Uporabljena je bila metoda ekstrakcije »{method}« v kombinaciji z rotacijo »{rotation}«."
+msgstr ""
+"Uporabljena je bila metoda ekstrakcije »{method}« v kombinaciji z rotacijo "
+"»{rotation}«"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr "Uporabljena je bila rotacija »{rotation}«."
+msgstr "Uporabljena je bila rotacija »{rotation}«"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
@@ -1181,7 +1188,9 @@ msgstr ""
 #: logRegMulti/options/blocks.description.R
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
-msgstr "seznam, ki vsebuje vektorje nizov z imeni vzročnih spremenljivk, ki so dodane modelu. Te so dodane modelu glede na vrstni red na seznamu."
+msgstr ""
+"seznam, ki vsebuje vektorje nizov z imeni vzročnih spremenljivk, ki so "
+"dodane modelu. Te so dodane modelu glede na vrstni red na seznamu"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
@@ -1189,11 +1198,13 @@ msgstr "seznam vektorjev znakov, ki opisujejo pogoje med predmeti v modelu"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
-msgstr "seznam znakovnih vektorjev, ki opisujejo preizkuse post-hoc za izračun."
+msgstr "seznam znakovnih vektorjev, ki opisujejo preizkuse post-hoc za izračun"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr "seznam znakovnih vektorjev, ki opisujejo pogoje ponavljajočih se meritev, ki se vključijo v model."
+msgstr ""
+"seznam znakovnih vektorjev, ki opisujejo pogoje ponavljajočih se meritev, ki "
+"se vključijo v model"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1748,7 +1759,7 @@ msgstr "Kriterij AIC"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr "Vsa opažanja so povezana."
+msgstr "Vsa opažanja so povezana"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -4549,7 +4560,9 @@ msgstr "Raven 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levenov test je statistično značilen (p < 0.05), kar kaže na kršitev predpostavke enakih varianc."
+msgstr ""
+"Levenov test je statistično značilen (p < 0.05), kar kaže na kršitev "
+"predpostavke enakih varianc"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -5580,8 +5593,10 @@ msgstr "Delna korelacija"
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "Delne korelacijske matrike so način preučevanja linearnih povezav med\n"
-"dvema ali več zveznimi spremenljivkami ob spremljanju drugih spremenljivk."
+msgstr ""
+"Delne korelacijske matrike so način preučevanja linearnih povezav\n"
+"med dvema ali več zveznimi spremenljivkami ob spremljanju drugih\n"
+"spremenljivk"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -5970,7 +5985,7 @@ msgstr "izračuna Kendallov tau-b za vsako kombinacijo spremenljivk."
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr "izračuna p-vrednost za vsak koeficient korelacije"
+msgstr "izračuna p-vrednost za vsak koeficient korelacije."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
@@ -6016,7 +6031,7 @@ msgstr "izračuna interval zaupanja za Pearsonov r."
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "določi intervale zaupanja za velikosti učinka."
+msgstr "določi intervale zaupanja za velikosti učinka"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
@@ -6056,11 +6071,11 @@ msgstr "izriše diagrame opisnih statistik."
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr "izračuna vrednost velikosti učinka (Cohenov D)"
+msgstr "izračuna vrednost velikosti učinka (Cohenov D)."
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "izračuna vrednost velikosti učinka (Cohenov d)"
+msgstr "izračuna vrednost velikosti učinka (Cohenov d)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
@@ -6771,7 +6786,7 @@ msgstr "Zaznano je singularno prileganje; ena ali več vzročnih spremenljivk so
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr "Napaka singularnosti. Preizkusi sferičnosti niso na voljo."
+msgstr "Napaka singularnosti. Preizkusi sferičnosti niso na voljo"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
@@ -7462,7 +7477,9 @@ msgstr ""
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
-msgstr "Ponavljajoče meritve imajo le dve ravni. Predpostavka sferičnosti je izpolnjena vedno, ko ima ponavljajoča meritev le dve ravni."
+msgstr ""
+"Ponavljajoče meritve imajo le dve ravni. Predpostavka sferičnosti je "
+"izpolnjena vedno, ko ima ponavljajoča meritev le dve ravni"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
@@ -7619,17 +7636,23 @@ msgstr "spremenljivka, ki določa dve skupini; vsebovati mora 2 ravni."
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
 msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "spremenljivka, ki naj določa stolpce v kontingenčni razpredelnici (pri formuli ni zahtevana, več med primeri)."
+msgstr ""
+"spremenljivka, ki naj določa stolpce v kontingenčni razpredelnici (pri "
+"formuli ni zahtevana, več med primeri)"
 
 #: contTables/options/counts.description.R
 #: contTablesPaired/options/counts.description.R
 msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "spremenljivka, ki naj določa števce v kontingenčni razpredelnici (pri formuli ni zahtevana, več med primeri)."
+msgstr ""
+"spremenljivka, ki naj določa števce v kontingenčni razpredelnici (pri "
+"formuli ni zahtevana, več med primeri)"
 
 #: contTables/options/rows.description.R
 #: contTablesPaired/options/rows.description.R
 msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "spremenljivka, ki naj določa vrstice v kontingenčni razpredelnici (pri formuli ni zahtevana, več med primeri)."
+msgstr ""
+"spremenljivka, ki naj določa vrstice v kontingenčni razpredelnici (pri "
+"formuli ni zahtevana, več med primeri)"
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
