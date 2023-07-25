@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-07-25 18:08+0000\n"
+"PO-Revision-Date: 2023-07-25 19:07+0000\n"
 "Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
@@ -82,7 +82,7 @@ msgstr "{ciWidth}% betrouwbaarheidsinterval"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr "{ciWidth}% betrouwbaarheidsintervals"
+msgstr "{ciWidth}% betrouwbaarheidsintervallen"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
@@ -409,6 +409,8 @@ msgstr ""
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
 msgstr ""
+"`TRUE` (standaard) of `FALSE`, geef de statistische meting `R` voor de "
+"modellen op"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
@@ -583,6 +585,8 @@ msgstr ""
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
 msgstr ""
+"`TRUE` of `FALSE` (standaard), geef gestandaardiseerde schatting voor de "
+"modelcoëfficiënten"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
@@ -814,6 +818,9 @@ msgstr ""
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
 msgstr ""
+"`TRUE` of `FALSE` (standaard), geef grafieken van residuen op waarbij de "
+"afhankelijke variabele en elke covariaat geplot is tegenover de "
+"gestandaardiseerde residuen."
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
@@ -821,7 +828,7 @@ msgstr ""
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr ""
+msgstr "`TRUE` of `FALSE` (standaard), geef RMSE voor de modellen op"
 
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
@@ -1206,6 +1213,8 @@ msgstr ""
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
 msgstr ""
+"een lijst van lijsten die de referentieniveaus van de afhankelijke variabele "
+"en alle factoren specificeert"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
@@ -1362,7 +1371,7 @@ msgstr ""
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr "een parameter"
+msgstr "a-parameter"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
@@ -1518,7 +1527,7 @@ msgstr ""
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "een tabel met ANOVA-resultaten"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
@@ -1550,7 +1559,7 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "een tabel van modelcoëfficiënten"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
@@ -1731,7 +1740,7 @@ msgstr "Aanvullende statistieken"
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
 msgid "Adjusted R²"
-msgstr "gestelde R²"
+msgstr "Bijgestelde R²"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -1789,7 +1798,7 @@ msgstr ""
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr ""
+msgstr "een reeks modelspecifieke resultaten"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
@@ -2072,7 +2081,7 @@ msgstr "Binomiaal"
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr ""
+msgstr "Binomiale logistische regressie"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
@@ -2192,7 +2201,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Cohen's d"
-msgstr "Cohens d"
+msgstr "d van Cohen"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
@@ -2351,14 +2360,14 @@ msgstr "Breedte betrouwbaarheidsinterval"
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
 msgid "Confidence Intervals"
-msgstr "Betrouwbaarheidsintervals"
+msgstr "Betrouwbaarheidsintervallen"
 
 #: contTables/options/ci.title
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
 msgid "Confidence intervals"
-msgstr "Betrouwbaarheidsintervals"
+msgstr "Betrouwbaarheidsintervallen"
 
 #: ancova/options/postHocEsCiWidth.title
 #: ancova/options/ciWidthEmm.title
@@ -2407,7 +2416,7 @@ msgstr "Beperkingen"
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
 msgid "Contingency coefficient"
-msgstr ""
+msgstr "Kruiscoëfficiënt"
 
 #: package/analyses/contTables.title
 #: package/analyses/contTables.menuSubgroup
@@ -2624,11 +2633,11 @@ msgstr "Cramers V"
 
 #: propTest2/results/table.columns.superTitle
 msgid "Credible Interval"
-msgstr ""
+msgstr "Geloofwaardigheidsinterval"
 
 #: propTest2/options/ciBayes.title
 msgid "Credible intervals"
-msgstr ""
+msgstr "Geloofwaardigheidsintervallen"
 
 #: reliability/options/alphaScale.title
 #: reliability/results/scale.columns.title
@@ -2802,6 +2811,68 @@ msgid "data <- lavaan::HolzingerSwineford1939\n"
 "#  ───────────────────────────────────────────────\n"
 "#"
 msgstr ""
+"data <- lavaan::HolzingerSwineford1939\n"
+"\n"
+"jmv::cfa(\n"
+"    data = data,\n"
+"    factors = list(\n"
+"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
+"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
+"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
+"    resCov = NULL)\n"
+"\n"
+"#\n"
+"#  BEVESTIGENDE FACTORANALYSE\n"
+"#\n"
+"#  Factorladingen\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
+"#    Factor     Indicator    Schatting   St. fout  Z        p\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
+"#    Visueel    x1              0.900    0.0832    10.81    < .001\n"
+"#               x2              0.498    0.0808     6.16    < .001\n"
+"#               x3              0.656    0.0776     8.46    < .001\n"
+"#    Tekst      x4              0.990    0.0567    17.46    < .001\n"
+"#               x5              1.102    0.0626    17.60    < .001\n"
+"#               x6              0.917    0.0538    17.05    < .001\n"
+"#    Snelheid   x7              0.619    0.0743     8.34    < .001\n"
+"#               x8              0.731    0.0755     9.68    < .001\n"
+"#               x9              0.670    0.0775     8.64    < .001\n"
+"#  ─────────────────────────────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  FACTORSCHATTINGEN\n"
+"#\n"
+"#  Factor-covarianties\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#                          Schatting   St. fout  Z       p\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#    Visueel    Visueel     1.000 ᵃ\n"
+"#               Tekst       0.459      0.0635    7.22    < .001\n"
+"#               Snelheid    0.471      0.0862    5.46    < .001\n"
+"#    Tekst      Tekst       1.000 ᵃ\n"
+"#               Snelheid    0.283      0.0715    3.96    < .001\n"
+"#    Snelh. Snelheid    1.000 ᵃ\n"
+"#  ──────────────────────────────────────────────────────────────\n"
+"#    ᵃ vaste parameter\n"
+"#\n"
+"#\n"
+"#  MODELVORM\n"
+"#\n"
+"#  Toets voor exacte passende vorm\n"
+"#  ────────────────────────\n"
+"#    χ²      df    p\n"
+"#  ────────────────────────\n"
+"#    85.3    24    < .001\n"
+"#  ────────────────────────\n"
+"#\n"
+"#\n"
+"#  Vormmeting\n"
+"#  ───────────────────────────────────────────────\n"
+"#    CFI      TLI      RMSEA     Laag      Hoog\n"
+"#  ───────────────────────────────────────────────\n"
+"#    0.931    0.896    0.0921    0.0714    0.114\n"
+"#  ───────────────────────────────────────────────\n"
+"#"
 
 #: package/analyses/pca.menuSubgroup
 #: package/analyses/efa.menuSubgroup
@@ -3243,6 +3314,51 @@ msgid "data('mtcars')\n"
 "#\n"
 "#"
 msgstr ""
+"data('mtcars')\n"
+"\n"
+"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
+"dat <- as.data.frame(tab)\n"
+"\n"
+"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
+"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
+"          refLevels = list(\n"
+"              list(var=\"gear\", ref=\"3\"),\n"
+"              list(var=\"cyl\", ref=\"4\")))\n"
+"\n"
+"#\n"
+"#  LOG-LINEAIRE REGRESSIE\n"
+"#\n"
+"#  Modelvormmetingen\n"
+"#  ───────────────────────────────────────\n"
+"#    Model    Afwijking   AIC     R²-McF\n"
+"#  ───────────────────────────────────────\n"
+"#        1    4.12e-10    41.4     1.000\n"
+"#  ───────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  MODEL-SPECIFIEKE RESULTATEN\n"
+"#\n"
+"#  MODEL 1\n"
+"#\n"
+"#  Modelcoëfficiënten\n"
+"#  ──────────────────────────────────────────────────────────────────\n"
+"#    Voorspeller        Schatting    St. fout    Z            p\n"
+"#  ──────────────────────────────────────────────────────────────────\n"
+"#    Onderschepping    -4.71e-16        1.00    -4.71e-16    1.000\n"
+"#    gear:\n"
+"#    4 – 3                  2.079        1.06        1.961    0.050\n"
+"#    5 – 3                  0.693        1.22        0.566    0.571\n"
+"#    cyl:\n"
+"#    6 – 4                  0.693        1.22        0.566    0.571\n"
+"#    8 – 4                  2.485        1.04        2.387    0.017\n"
+"#    gear:cyl:\n"
+"#    (4 – 3):(6 – 4)       -1.386        1.37       -1.012    0.311\n"
+"#    (5 – 3):(6 – 4)       -1.386        1.73       -0.800    0.423\n"
+"#    (4 – 3):(8 – 4)      -26.867    42247.17    -6.36e -4    0.999\n"
+"#    (5 – 3):(8 – 4)       -2.485        1.44       -1.722    0.085\n"
+"#  ──────────────────────────────────────────────────────────────────\n"
+"#\n"
+"#"
 
 #: descriptives/options.description.R.usage
 msgid "data('mtcars')\n"
@@ -3293,6 +3409,53 @@ msgid "data('mtcars')\n"
 "descriptives(formula = mpg ~ cyl:gear, dat,\n"
 "    median=F, min=F, max=F, missing=F)"
 msgstr ""
+"data('mtcars')\n"
+"dat <- mtcars\n"
+"\n"
+"# frequentietabellen kunnen als factor worden opgegeven\n"
+"dat$gear <- as.factor(dat$gear)\n"
+"\n"
+"descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
+"\n"
+"#\n"
+"#  BESCHRIJVENDE STATISTIEK\n"
+"#\n"
+"#  Beschrijvende statistiek\n"
+"#  ───────────────────────────────────────────\n"
+"#               mpg     cyl     disp    gear\n"
+"#  ───────────────────────────────────────────\n"
+"#    N            32      32      32      32\n"
+"#    Ontbrekend    0       0       0       0\n"
+"#    Gemiddelde 20.1    6.19     231    3.69\n"
+"#    Mediaan    19.2    6.00     196    4.00\n"
+"#    Minimum    10.4    4.00    71.1       3\n"
+"#    Maximum    33.9    8.00     472       5\n"
+"#  ───────────────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  FREQUENTIES\n"
+"#\n"
+"#  Frequenties van gear\n"
+"#  ────────────────────\n"
+"#    Niveaus   Tel\n"
+"#  ────────────────────\n"
+"#    3             15\n"
+"#    4             12\n"
+"#    5              5\n"
+"#  ────────────────────\n"
+"#\n"
+"\n"
+"# op variabele splitsen\n"
+"descriptives(formula = disp + mpg ~ cyl, dat,\n"
+"    median=F, min=F, max=F, n=F, missing=F)\n"
+"\n"
+"# histogrammen opgeven\n"
+"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
+"    median=F, min=F, max=F, n=F, missing=F)\n"
+"\n"
+"# op meerdere variabelen splitsen\n"
+"descriptives(formula = mpg ~ cyl:gear, dat,\n"
+"    median=F, min=F, max=F, missing=F)"
 
 #: linReg/options.description.R.usage
 msgid "data('Prestige', package='carData')\n"
@@ -3696,11 +3859,11 @@ msgstr ""
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "Durbin–Watson-toets voor autocorrelatie"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr ""
+msgstr "Durbin–Watson-statistiek"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
@@ -3758,7 +3921,7 @@ msgstr ""
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
 msgid "Equal cell weights"
-msgstr ""
+msgstr "Gelijke celgewichten"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
@@ -3819,7 +3982,7 @@ msgstr ""
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "Geschatte marginale gemiddelden"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4091,12 +4254,12 @@ msgstr "vaste parameter"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
-msgstr ""
+msgstr "Significante vergelijkingen markeren"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Significante overeenkomsten markeren"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
@@ -4142,7 +4305,7 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
-msgstr ""
+msgstr "Games-Howell (ongelijke varianties)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
@@ -4478,7 +4641,7 @@ msgstr "Jitter"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr ""
+msgstr "Tau B van Kendall"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
@@ -4677,7 +4840,7 @@ msgstr "Marginale gemiddelden"
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr ""
+msgstr "Grafieken van marginale gemiddelden"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -4687,7 +4850,7 @@ msgstr ""
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
 msgid "Marginal means tables"
-msgstr ""
+msgstr "Tabellen van marginale gemiddelden"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
@@ -4868,7 +5031,7 @@ msgstr "Minimumresidu"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
-msgstr "Minimumresidu's"
+msgstr "Minimumresiduen"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
@@ -4960,7 +5123,7 @@ msgstr "Modelvergelijkingen"
 #: logRegOrd/ui[3].label
 #: pca/results/modelFit.title
 msgid "Model Fit"
-msgstr "Model passend maken"
+msgstr "Modelvorm"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -4969,7 +5132,7 @@ msgstr "Model passend maken"
 #: logRegOrd/results/modelFit.title
 #: pca/results/modelFit/fit.title
 msgid "Model Fit Measures"
-msgstr ""
+msgstr "Modelvormmetingen"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
@@ -5329,7 +5492,7 @@ msgstr ""
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "Proportietoetsen voor één steekproef"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -5418,7 +5581,7 @@ msgstr "Algeheel model"
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "Algehele modeltoets"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -5427,7 +5590,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "Algehele modeltoets"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5783,7 +5946,7 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "Post-Hoc-toetsen"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
@@ -5896,7 +6059,7 @@ msgstr "A priori"
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "Eerdere breedte"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -5924,14 +6087,14 @@ msgstr "Proportie"
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "Proportietoets (2 uitkomsten)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "Proportietoets (N uitkomsten)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
@@ -6131,7 +6294,7 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.title
 #: logRegOrd/ui[3][0][1]/pseudoR2.label
 msgid "Pseudo R²"
-msgstr ""
+msgstr "Pseudo-R²"
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
@@ -6246,12 +6409,12 @@ msgstr ""
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr ""
+msgstr "Snelheidsverhouding"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
 msgid "Rate ratio"
-msgstr ""
+msgstr "Snelheidsverhouding"
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
@@ -6263,7 +6426,7 @@ msgstr "Ratio"
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 msgid "Reference Level"
-msgstr ""
+msgstr "Referentieniveau"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
@@ -6280,7 +6443,7 @@ msgstr ""
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
 msgid "Reference Levels"
-msgstr ""
+msgstr "Referentieniveaus"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -6300,7 +6463,7 @@ msgstr "Regressie"
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
 msgid "Relative risk"
-msgstr ""
+msgstr "Relatief risico"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -6310,7 +6473,7 @@ msgstr ""
 #: reliability/ui.title
 #: reliability/results.title
 msgid "Reliability Analysis"
-msgstr ""
+msgstr "Betrouwbaarheidsanalyse"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
@@ -6326,14 +6489,14 @@ msgstr "Herhaald"
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
 msgid "Repeated Measures ANOVA"
-msgstr ""
+msgstr "ANOVA voor herhaalde metingen"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr ""
+msgstr "ANOVA voor herhaalde metingen (niet-parametrisch)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
@@ -6352,7 +6515,7 @@ msgstr ""
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr ""
+msgstr "Significantie melden"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
@@ -6371,11 +6534,11 @@ msgstr "Residu"
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "Covarianties van residuen"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "Covarianties van residuen"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
@@ -6383,19 +6546,19 @@ msgstr ""
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "Schattingen van residuen"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "Onderscheppingen van residuen"
 
 #: cfa/options/resInterceptEst.title
 msgid "Residual intercepts"
-msgstr ""
+msgstr "Onderscheppingen van residuen"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "Grafieken van residuen"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
@@ -6414,7 +6577,7 @@ msgstr ""
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
 msgid "Residuals"
-msgstr "Residu's"
+msgstr "Residuen"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
@@ -6422,7 +6585,7 @@ msgstr ""
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "Residuen van ANOVA"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
@@ -6430,7 +6593,7 @@ msgstr ""
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
-msgstr ""
+msgstr "Grafieken van residuen"
 
 #: package/analyses/empty.title
 #: package/analyses/empty.menuTitle
@@ -6481,11 +6644,11 @@ msgstr "ROC"
 
 #: logRegBin/results/models.template/pred/rocPlot.title
 msgid "ROC Curve"
-msgstr ""
+msgstr "ROC-kromme"
 
 #: logRegBin/options/rocPlot.title
 msgid "ROC curve"
-msgstr ""
+msgstr "ROC-kromme"
 
 #: efa/options/rotation.title
 #: pca/options/rotation.title
@@ -6499,7 +6662,7 @@ msgstr "Rij"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
-msgstr ""
+msgstr "Rijnummer"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -6522,7 +6685,7 @@ msgstr ""
 
 #: R/conttables.b.R
 msgid "Rows compared"
-msgstr ""
+msgstr "Rijen vergeleken"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
@@ -6531,7 +6694,7 @@ msgstr ""
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
-msgstr ""
+msgstr "Steekproefomvang"
 
 #: ancova/ui[7].label
 #: anova/ui[7].label
@@ -6549,7 +6712,7 @@ msgstr "schaal"
 
 #: package/analyses/reliability.menuSubgroup
 msgid "Scale Analysis"
-msgstr ""
+msgstr "Schaalanalyse"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
@@ -6561,7 +6724,7 @@ msgstr ""
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
-msgstr ""
+msgstr "Schaalstatistiek"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
@@ -6636,7 +6799,7 @@ msgstr "Standaardfout"
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "SE difference"
-msgstr ""
+msgstr "Verschil in standaardfout"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
@@ -6948,13 +7111,13 @@ msgstr "Som"
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "Som van kwadraten"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "Som van kwadraten"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
@@ -7020,7 +7183,7 @@ msgstr ""
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "Toetsresultaten (t en df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
@@ -7028,12 +7191,12 @@ msgstr ""
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "Toetswaarde"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "Toetswaarde"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
@@ -7061,6 +7224,8 @@ msgstr ""
 #: linReg/options/weights.description.R
 msgid "the (optional) weights from `data` to be used in the fitting process"
 msgstr ""
+"de (optionele) gewichten van `data` die moeten worden gebruikt in het "
+"pasproces"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -7658,7 +7823,7 @@ msgstr "Tukey"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "Tukey (gelijke varianties)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
@@ -7671,19 +7836,19 @@ msgstr ""
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr ""
+msgstr "Type 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr ""
+msgstr "Type 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr ""
+msgstr "Type 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
@@ -7751,7 +7916,7 @@ msgstr "waarden"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr ""
+msgstr "Waarden zijn de tel"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -7855,7 +8020,7 @@ msgstr ""
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
-msgstr ""
+msgstr "Gewichten (optioneel)"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
