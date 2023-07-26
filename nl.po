@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-07-26 12:07+0000\n"
+"PO-Revision-Date: 2023-07-26 13:07+0000\n"
 "Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
@@ -219,6 +219,9 @@ msgstr ""
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"`'minres'` (standaard), `'ml'`, of `'pa'` gebruiken respectievelijk "
+"'minimumresidu', 'maximumwaarschijnlijkheid', of 'hoofdas' als "
+"factorextractiemethode"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
@@ -233,10 +236,14 @@ msgstr ""
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'` (standaard), `'quartimax'`, `'promax'`, `'oblimin'`, "
+"of `'simplimax'`, de rotatie gebruikt in de schatting"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (standaard), "
+"of `'simplimax'`, de rotatie gebruikt in de schatting"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
@@ -246,10 +253,16 @@ msgstr ""
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
 msgstr ""
+"`'parallel'` (standaard), `'eigen'` of `'fixed'`, de manier waarop het "
+"aantal factoren bepaald wordt"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"`'perAnalysis'` of `'listwise'`, hoe met ontbrekende waarden wordt omgegaan; "
+"`'perAnalysis'` sluit ontbrekende waarden uit voor individuele afhankelijke "
+"variabelen, `'listwise'` sluit een rij uit van alle analyses als een van de "
+"waarden ontbreekt"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
@@ -3940,7 +3953,7 @@ msgstr "Durbin–Watson-statistiek"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr ""
+msgstr "Paarsgewijze vergelijkingen van Dwass-Steel-Critchlow-Fligner"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -4812,7 +4825,7 @@ msgstr ""
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr ""
+msgstr "Log odds ratio"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
@@ -5000,7 +5013,7 @@ msgstr "Gemiddelde"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "Gemiddelde ({ciWidth}%-betrouwbaarheidsinterval)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5209,7 +5222,7 @@ msgstr "Modelvormmetingen"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
-msgstr ""
+msgstr "Modelvormmetingen"
 
 #: linReg/results/models.title
 #: logLinear/results/models.title
@@ -5217,7 +5230,7 @@ msgstr ""
 #: logRegMulti/results/models.title
 #: logRegOrd/results/models.title
 msgid "Model Specific Results"
-msgstr ""
+msgstr "Modelspecifieke resultaten"
 
 #: ancova/options/modelTerms.title
 #: anova/options/modelTerms.title
@@ -5248,7 +5261,7 @@ msgstr "Modifciatie-indices"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
+msgstr "Er bestaat meer dan één modus—alleen de eerste wordt gemeld"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
@@ -5270,7 +5283,7 @@ msgstr "Multinomiaal"
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
 msgid "Multinomial Logistic Regression"
-msgstr ""
+msgstr "Multinomiale logistische regressie"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
@@ -5362,7 +5375,7 @@ msgstr "geen"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr ""
+msgstr "Normaal geschaalde items"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
@@ -5398,11 +5411,11 @@ msgstr "Vrijheidsgraad te klein om alle modeleffecten in te schatten"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
-msgstr ""
+msgstr "Aantal componenten"
 
 #: pca/options/nFactorMethod.title
 msgid "Number of components"
-msgstr ""
+msgstr "Aantal componenten"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
@@ -5410,11 +5423,11 @@ msgstr ""
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
-msgstr ""
+msgstr "Aantal factoren"
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
-msgstr ""
+msgstr "Aantal factoren"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
@@ -5618,7 +5631,7 @@ msgstr "Ordinaal"
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "Ordinale logistische regressie"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
@@ -5782,11 +5795,11 @@ msgstr ""
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Paarsgewijze vergelijkingen van Durbin-Conover"
 
 #: anovaRMNP/options/pairs.title
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "Paarsgewijze vergelijkingen van Durbin-Conover"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
@@ -5873,11 +5886,11 @@ msgstr "Percentages"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
-msgstr ""
+msgstr "Percentages van totaal"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "Percentages binnen {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
@@ -5941,7 +5954,7 @@ msgstr "voer ANOVA's van Welch uit."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "Welch-toetsen uitvoeren."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -6028,7 +6041,7 @@ msgstr ""
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "Post-Hoc-modelprestaties"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
@@ -6057,11 +6070,12 @@ msgstr "Voorspeld"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "Verwachte waarschijnlijkheid van … = … (versus … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
 msgstr ""
+"Verwachte waarschijnlijkheid van {dep} = {level1} (versus {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -6108,7 +6122,7 @@ msgstr "Hoofdas"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Factorisatie hoofdas"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -6118,7 +6132,7 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Analyse hoofdcomponent"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -6271,7 +6285,7 @@ msgstr ""
 
 #: ttestIS/options/plots.description.ui
 msgid "provide descriptives plots."
-msgstr ""
+msgstr "geef beschrijvende diagrammen op."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
@@ -6327,7 +6341,7 @@ msgstr ""
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
 msgid "provide post-hoc tests."
-msgstr ""
+msgstr "geef post-hoc-toetsen op."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
@@ -6347,7 +6361,7 @@ msgstr ""
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr ""
+msgstr "geef sfericiteitstoetsen op."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
@@ -6807,11 +6821,11 @@ msgstr "Scheffe"
 
 #: R/pca.b.R
 msgid "Score Component"
-msgstr ""
+msgstr "Scorecomponent"
 
 #: R/pca.b.R
 msgid "Score Factor"
-msgstr ""
+msgstr "Scorefactor"
 
 #: R/pca.b.R
 msgid "Score for component"
@@ -7505,6 +7519,8 @@ msgstr ""
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"De afhankelijke variabele '{dep}' heeft slechts twee niveaus. Overweeg een "
+"binomiale logistische regressie toe te passen."
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
@@ -7526,6 +7542,8 @@ msgstr ""
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
+"de afhankelijke variabelen -- een losse t-toets wordt uitgevoerd voor elke "
+"opgegeven afhankelijke variabele."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
@@ -7819,11 +7837,20 @@ msgstr ""
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
 msgstr ""
+"De χ²-goodness-of-fittoets (niet te verwarren met de "
+"χ²-onafhankelijkheidstoets) toetst de nulhypothese dat de "
+"steekproefproporties overeenkomen met de verwachte proporties. Een lage p-"
+"waarde suggereert dat deze nulhypothese onjuist is en dat de ware proporties "
+"dus afwijken van de getoetste proporties."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"De χ²-toets voor afhankelijkheid (niet te verwarren met de χ²-goodness-of-"
+"fit) wordt gebruikt om na te gaan of twee categorische variabelen "
+"afhankelijk dan wel onafhankelijk zijn. Een lage p-waarde suggereert dat er "
+"een verband is tussen de variabelen en dat ze dus niet onafhankelijk zijn."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
