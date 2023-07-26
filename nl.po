@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-07-25 19:07+0000\n"
+"PO-Revision-Date: 2023-07-26 12:07+0000\n"
 "Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
@@ -271,11 +271,11 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
@@ -293,7 +293,7 @@ msgstr ""
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Proporties - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
@@ -893,7 +893,7 @@ msgstr ""
 
 #: contTables/options/likeRat.description.R
 msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr ""
+msgstr "`TRUE` of `FALSE` (default), geef de aannemelijkheidsquotiënt op"
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
@@ -945,6 +945,8 @@ msgstr ""
 #: logRegOrd/options/omni.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
 msgstr ""
+"`TRUE` of `FALSE` (default), geef de aannemelijkheidsquotiënttoetsen van "
+"omnibus op voor de voorspellers"
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
@@ -1161,7 +1163,7 @@ msgstr ""
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "een diagram met beschrijvende statistische waarden"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
@@ -1380,17 +1382,17 @@ msgstr ""
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "een post-hoc-tabel"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "een proportietabel"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "een q-q-plot"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
@@ -1547,7 +1549,7 @@ msgstr ""
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "een tabel met aannemelijkheidsquotiënttoetsen"
 
 #: logRegOrd/results/models.template/thres.description
 msgid "a table of model coefficient thresholds"
@@ -1874,11 +1876,11 @@ msgstr "Covariantie-analyse"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
-msgstr ""
+msgstr "Anderson & Rubin"
 
 #: package/datasets/Anderson's Iris Data.name
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "Irisgegevens van Anderson"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -2031,15 +2033,16 @@ msgstr "Bayesiaanse statistieken"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "bètaparameter 'a'"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "bètaparameter 'b'"
 
 #: anovaRM/options/bs.title
+#, fuzzy
 msgid "Between Subject Factors"
-msgstr ""
+msgstr "Interonderwerpfactoren"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
@@ -2147,7 +2150,7 @@ msgstr ""
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
-msgstr ""
+msgstr "M-toets van Box"
 
 #: mancova/options/boxM.title
 msgid "Box's M test for homogeneity of covariance matrices"
@@ -2406,7 +2409,7 @@ msgstr "Betrouwbaarheidsniveau"
 #: cfa/ui.title
 #: cfa/results.title
 msgid "Confirmatory Factor Analysis"
-msgstr ""
+msgstr "Bevestigende factoranalyse"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
@@ -2446,7 +2449,7 @@ msgstr "Contrasten"
 #: anova/results/contrasts.template.title
 #: anovaRM/results/contrasts.template.title
 msgid "Contrasts - $key"
-msgstr ""
+msgstr "Constrasten - $key"
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
@@ -2458,7 +2461,7 @@ msgstr "Controlevariabelen"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "bepalend voor {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
@@ -2661,7 +2664,7 @@ msgstr "Cumulatief %"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
-msgstr ""
+msgstr "Snijpuntwaarden"
 
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
@@ -3117,6 +3120,32 @@ msgid "data('HairEyeColor')\n"
 "#  ───────────────────────\n"
 "#"
 msgstr ""
+"data('HairEyeColor')\n"
+"dat <- as.data.frame(HairEyeColor)\n"
+"\n"
+"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
+"\n"
+"#\n"
+"#  PROPORTIETOETS (N UITKOMSTEN)\n"
+"#\n"
+"#  Proporties\n"
+"#  ────────────────────────────────\n"
+"#    Niveau   Aantal   Proportie\n"
+"#  ────────────────────────────────\n"
+"#    Bruin      220         0.372\n"
+"#    Blauw      215         0.363\n"
+"#    Hazel       93         0.157\n"
+"#    Groen       64         0.108\n"
+"#  ────────────────────────────────\n"
+"#\n"
+"#\n"
+"#  χ²-goodness-of-fit\n"
+"#  ───────────────────────\n"
+"#    χ²     df    p\n"
+"#  ───────────────────────\n"
+"#    133     3    < .001\n"
+"#  ───────────────────────\n"
+"#"
 
 #: efa/options.description.R.usage
 msgid "data('iris')\n"
@@ -3266,6 +3295,28 @@ msgid "data('mtcars')\n"
 "#    Note. controlling for 'hp'\n"
 "#"
 msgstr ""
+"data('mtcars')\n"
+"\n"
+"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
+"\n"
+"#\n"
+"#  PARTIËLE CORRELATIE\n"
+"#\n"
+"#  Partiële correlatie\n"
+"#  ────────────────────────────────────────────────────\n"
+"#                           mpg       cyl       disp\n"
+"#  ────────────────────────────────────────────────────\n"
+"#    mpg     r van Pearson       —\n"
+"#            p-waarde            —\n"
+"#\n"
+"#    cyl     r van Pearson  -0.590         —\n"
+"#            p-waarde       < .001         —\n"
+"#\n"
+"#    disp    r van Pearson  -0.606     0.719        —\n"
+"#            p-waarde       < .001    < .001        —\n"
+"#  ────────────────────────────────────────────────────\n"
+"#    Let op, is bepalend voor 'hp'\n"
+"#"
 
 #: logLinear/options.description.R.usage
 msgid "data('mtcars')\n"
@@ -3516,6 +3567,28 @@ msgid "data('ToothGrowth')\n"
 "    postHoc = ~ supp,\n"
 "    emMeans = ~ supp)"
 msgstr ""
+"data('ToothGrowth')\n"
+"\n"
+"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
+"\n"
+"#\n"
+"#  ANCOVA\n"
+"#\n"
+"#  ANCOVA\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#                 Kwadraatsom       df    Gem.-kwadraat  F        p\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#    supp                    205     1          205.4     11.4     0.001\n"
+"#    dose                   2224     1         2224.3    124.0    < .001\n"
+"#    Residuen               1023    57           17.9\n"
+"#  ───────────────────────────────────────────────────────────────────────\n"
+"#\n"
+"\n"
+"ancova(\n"
+"    formula = len ~ supp + dose,\n"
+"    data = ToothGrowth,\n"
+"    postHoc = ~ supp,\n"
+"    emMeans = ~ supp)"
 
 #: anova/options.description.R.usage
 msgid "data('ToothGrowth')\n"
@@ -3819,7 +3892,7 @@ msgstr ""
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
-msgstr ""
+msgstr "Proportieverschillen"
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
@@ -3907,7 +3980,7 @@ msgstr "Eigenwaarden"
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 msgid "Eigenvalues greater than"
-msgstr ""
+msgstr "Eigenwaarden groter dan"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
@@ -4058,7 +4131,7 @@ msgstr "Verkennen"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "Verkennende factoranalyse"
 
 #: efa/options/extraction.title
 msgid "Extraction"
@@ -4221,7 +4294,7 @@ msgstr "Fishers"
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr ""
+msgstr "Exacte toets van Fisher"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -4286,7 +4359,7 @@ msgstr "Frequenties"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
-msgstr ""
+msgstr "Frequenties van $key"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
@@ -4425,7 +4498,7 @@ msgstr ""
 
 #: R/conttables.b.R
 msgid "Haldane-Anscombe correction applied"
-msgstr ""
+msgstr "Correctie van Haldane-Anscombe toegepast"
 
 #: efa/options/factorScoreMethod/Harman.title
 msgid "Harman"
@@ -4440,12 +4513,12 @@ msgstr "Helmert"
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
-msgstr ""
+msgstr "Ladingen verbergen die lager zijn dan"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 msgid "Highlight values above"
-msgstr ""
+msgstr "Waarden markeren die hoger zijn dan"
 
 #: descriptives/options/hist.title
 msgid "Histogram"
@@ -4506,7 +4579,7 @@ msgstr "Hypothese"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "Als item is laten vallen"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
@@ -4615,7 +4688,7 @@ msgstr ""
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
-msgstr ""
+msgstr "Itembetrouwbaarheidsstatsitiek"
 
 #: reliability/ui[1][1][0].label
 msgid "Item Statistics"
@@ -4710,14 +4783,14 @@ msgstr "Waarschijnlijkheid"
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
 msgid "Likelihood ratio"
-msgstr "Waarschijnlijkheidsverhouding"
+msgstr "Aannemelijkheidsquotiënt"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
 msgid "Likelihood ratio tests"
-msgstr ""
+msgstr "Aannemelijkheidsquotiënttoetsen"
 
 #: R/ancova.b.R
 msgid "linear"
@@ -5407,7 +5480,7 @@ msgstr "Omnibus-ANOVA-toets"
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "Aannemelijkheidsquotiënttoetsen van Omnibus"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
@@ -6750,12 +6823,12 @@ msgstr ""
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
-msgstr ""
+msgstr "Screeplot"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
 msgid "Scree plot"
-msgstr ""
+msgstr "Screeplot"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -6807,7 +6880,7 @@ msgstr "Semideels"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
-msgstr ""
+msgstr "Semi-partiële correlatie"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
@@ -6875,11 +6948,11 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr ""
+msgstr "p van Shapiro-Wilk"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
-msgstr ""
+msgstr "Shapiro-Wilk-toets"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
@@ -6887,7 +6960,7 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
-msgstr ""
+msgstr "W van Shapiro-Wilk"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
@@ -6940,7 +7013,7 @@ msgstr "Spearman"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr ""
+msgstr "rho van Spearman"
 
 #: R/pca.b.R
 msgctxt "specific factor"
@@ -6955,21 +7028,21 @@ msgstr "Specificiteit"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr ""
+msgstr "Sfericiteitscorrectie"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr ""
+msgstr "Sfericiteitscorrecties"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "Sfericiteitstoetsen"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr ""
+msgstr "Gesplitst op"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -6982,7 +7055,7 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr ""
+msgstr "Som van ladingskwadraten"
 
 #: contTables/options/bartype.description.R
 msgid "stack or side by side (default), barplot type"
@@ -7000,7 +7073,7 @@ msgstr "Gestapeld"
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr ""
+msgstr "Standaardschatting"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
@@ -7012,7 +7085,7 @@ msgstr "Standaardafwijking"
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
 msgid "Standard Error"
-msgstr ""
+msgstr "Standaardfout"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
@@ -7022,12 +7095,12 @@ msgstr "Standaardfout"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "Gestandaardiseerde schatting"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr ""
+msgstr "Gestandaardiseerde schatting"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -7038,7 +7111,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "Gestandaardiseerde residuen"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -7092,12 +7165,12 @@ msgstr "Student"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Student's t"
-msgstr ""
+msgstr "t van Student"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr ""
+msgstr "Student-toets"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
@@ -7122,7 +7195,7 @@ msgstr "Som van kwadraten"
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "Scoretotaal"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
@@ -7149,7 +7222,7 @@ msgstr "t-waarde"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
-msgstr ""
+msgstr "Ten Berge"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -7164,7 +7237,7 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr ""
+msgstr "Term {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -7174,7 +7247,7 @@ msgstr ""
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr ""
+msgstr "Term 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
@@ -7187,7 +7260,7 @@ msgstr "Toetsresultaten (t en df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr ""
+msgstr "Toetsstatistieken"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
@@ -7211,7 +7284,7 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "th percentile"
-msgstr ""
+msgstr "ᵉ percentiel"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
@@ -7236,6 +7309,13 @@ msgid "the alternative and null hypotheses;\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
 msgstr ""
+"de alternatieve en nulhypothesen;\n"
+"\n"
+"|               | Alternatief (Hₐ)   | Nul (H₀)            |\n"
+"|--------------|-------------------|--------------------|\n"
+"| ≠ toetswaarde | gem. ≠ toetswaarde | gem. = toetswaarde  |\n"
+"| > toetswaarde | gem. > toetswaarde | gem. <= toetswaarde |\n"
+"| < toetswaarde | gem. < toetswaarde | gem. >= toetswaarde |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
@@ -7285,6 +7365,12 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
+"Variantieanalyse (vaak ANOVA) wordt gebruikt om de verhouding tussen\n"
+"een continue afhankelijke variabele en één of meerdere categorische\n"
+"variabelen. Deze 'eenzijdige ANOVA' is een versimpelde versie van de\n"
+"'normale' ANOVA die maar één categorische variabele toestaat, maar die\n"
+"toch een ANOVA van Welch biedt. Dat heeft het voordeel dat er niet\n"
+"aangenomen hoeft te worden dat de varianties van alle groepen gelijk zijn."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7540,6 +7626,13 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"De 'ANOVA voor herhaalde metingen' wordt gebruikt om de verhouding\n"
+"tussen een continue afhankelijke variabele en één of meerdere categorische\n"
+"variabelen te verkennen, waarbij minstens één van de categorische "
+"variabelen\n"
+"'binnen onderwerpen' zijn (meerdere metingen van hetzelfde onderwerp).\n"
+"Bij deze analyse kunnen covariaten worden ingesloten, wat 'ANOVA voor\n"
+"herhaalde metingen' toestaat."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -7741,7 +7834,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "Theoretische kwantielen"
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -7802,7 +7895,7 @@ msgstr ""
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "Tandgroei"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -7864,7 +7957,7 @@ msgstr "Uniekheid"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "Univariate toetsen"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7895,7 +7988,7 @@ msgstr "Bovengrens"
 
 #: R/descriptives.b.R
 msgid "upper bound"
-msgstr ""
+msgstr "bovengrens"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -8029,12 +8122,12 @@ msgstr "Welch's"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "t van Welch"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "Wilcoxon-rang"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
@@ -8044,20 +8137,20 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "W van Wilcoxon"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "Labda van Wilks"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
-msgstr ""
+msgstr "binnen kolom"
 
 #: contTables/options/yaxisPc/row_pc.title
 msgid "within rows"
-msgstr ""
+msgstr "binnen rijen"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
