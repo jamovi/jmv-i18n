@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-07-26 13:07+0000\n"
+"PO-Revision-Date: 2023-07-28 20:06+0000\n"
 "Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
@@ -302,7 +302,7 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`Modelcoëfficiënten - ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
@@ -942,7 +942,7 @@ msgstr ""
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
+msgstr "`TRUE` of `FALSE` (standaard), geef het aantal waarnemingen op"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
@@ -1168,11 +1168,11 @@ msgstr ""
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "een correlatiediagram"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "een correlatietabel"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
@@ -1592,7 +1592,7 @@ msgstr ""
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
-msgstr ""
+msgstr "een proportietabel"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
@@ -1776,7 +1776,7 @@ msgstr "Akaike-informatiecriterium"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr ""
+msgstr "Alle waarnemingen zijn verbonden"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -2006,12 +2006,12 @@ msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr ""
+msgstr "Sfericiteitstoets van Bartlett"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr ""
+msgstr "Sfericiteitstoets van Bartlett"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
@@ -2053,17 +2053,16 @@ msgid "beta 'b' parameter"
 msgstr "bètaparameter 'b'"
 
 #: anovaRM/options/bs.title
-#, fuzzy
 msgid "Between Subject Factors"
-msgstr "Interonderwerpfactoren"
+msgstr "Factor tussen elementen"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr ""
+msgstr "Componenten tussen elementen"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
-msgstr ""
+msgstr "Effecten tussen elementen"
 
 #: cfa/options/fitMeasures/bic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -2208,7 +2207,7 @@ msgstr "Klassificatietabel"
 
 #: R/logregbin.b.R
 msgid "Classification Table – {dep}"
-msgstr ""
+msgstr "Classificatietabel – {dep}"
 
 #: R/ancova.b.R
 #: ancova/options/postHocES/d.title
@@ -2259,7 +2258,7 @@ msgstr "Vergelijkende metingen"
 
 #: contTables/ui[1][0][0][1][0].label
 msgid "Comparative Measures (2x2 only)"
-msgstr ""
+msgstr "Vergelijkende metingen (alleen 2x2)"
 
 #: contTables/options/compare.title
 msgid "Compare"
@@ -2641,7 +2640,7 @@ msgstr "Covariaten"
 #: logRegMulti/options/pseudoR2/r2cs.title
 #: logRegOrd/options/pseudoR2/r2cs.title
 msgid "Cox & Snell's R²"
-msgstr ""
+msgstr "R² van Cox & Snell"
 
 #: contTables/results/nom.columns.content
 msgid "Cramer's V"
@@ -3901,7 +3900,7 @@ msgstr "Verschil"
 
 #: contTables/results/odds.columns.content
 msgid "Difference in 2 proportions"
-msgstr ""
+msgstr "Verschil in 2 proporties"
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
@@ -3941,7 +3940,7 @@ msgstr "sleep variabelen hierheen"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
-msgstr ""
+msgstr "DSCF-paarsgewijze vergelijkingen"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -4047,11 +4046,11 @@ msgstr "Schatten"
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr ""
+msgstr "Schatting (log-odds-ratio)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr ""
+msgstr "Schatting (log-rate-ratio)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -4160,7 +4159,7 @@ msgstr "Extreme waarden"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Extreme waarden in $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4274,7 +4273,7 @@ msgstr "Factorsamenvatting"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
 msgid "Factor variances = 1"
-msgstr ""
+msgstr "Factorvarianties = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
@@ -4354,7 +4353,7 @@ msgstr ""
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "significante post-hoc-vergelijkingen markeren."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -4387,7 +4386,7 @@ msgstr "Friedman"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
 msgid "Full information maximum likelihood"
-msgstr ""
+msgstr "Maximale aannemelijkheid op basis van volledige informatie"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
@@ -4419,7 +4418,7 @@ msgstr "Gegeneraliseerde η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
-msgstr ""
+msgstr "Algeheel gemiddelde (simpele codering)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -5446,17 +5445,17 @@ msgstr "oblimin"
 #: R/logregbin.b.R
 #: propTestN/results/props.columns.content
 msgid "Observed"
-msgstr "Geobserveerd"
+msgstr "Waargenomen"
 
 #: contTables/options/obs.title
 msgid "Observed counts"
-msgstr "Geobserveerd aantal"
+msgstr "Waargenomen aantal"
 
 #: ancova/options/emmPlotData.title
 #: anova/options/emmPlotData.title
 #: anovaRM/options/emmPlotData.title
 msgid "Observed scores"
-msgstr "Geobserveerde scores"
+msgstr "Waargenomen scores"
 
 #: R/ancova.b.R
 msgid "octic"
@@ -5529,7 +5528,7 @@ msgstr ""
 
 #: R/ttestps.b.R
 msgid "One or both variables contain no observations"
-msgstr ""
+msgstr "Eén of beide variabelen bevatten geen waarnemingen"
 
 #: R/ttestps.b.R
 msgid "One or both variables do not contain enough observations"
@@ -6492,7 +6491,7 @@ msgstr "Bereik"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Rank biserial correlation"
-msgstr ""
+msgstr "Biseriële rangcorrelatie"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
@@ -6587,16 +6586,16 @@ msgstr "ANOVA voor herhaalde metingen (niet-parametrisch)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
-msgstr ""
+msgstr "Cellen met herhaalde metingen"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
-msgstr ""
+msgstr "Componenten voor herhaalde metingen"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
 msgid "Repeated Measures Factors"
-msgstr ""
+msgstr "Factoren voor hehaalde metingen"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
@@ -6606,11 +6605,11 @@ msgstr "Significantie melden"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr ""
+msgstr "Representeert het algehele gemiddelde"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
-msgstr ""
+msgstr "Representeert het referentieniveau"
 
 #: R/anovarm.b.R
 msgid "Residual"
@@ -6668,7 +6667,7 @@ msgstr "Residuen"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "Residuen waargenomen correlatiematrix"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
@@ -6676,7 +6675,7 @@ msgstr "Residuen van ANOVA"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
-msgstr ""
+msgstr "Residuen waargenomen correlatiematrix"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
@@ -6693,21 +6692,21 @@ msgstr "Resultaten"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr ""
+msgstr "omgekeerd geschaald item"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr ""
+msgstr "Omgekeerd geschaalde items"
 
 #: jamovi/js/anovarm.events.js:8
 msgid "RM Factor {0}"
-msgstr ""
+msgstr "Factor {0} voor herhaalde metingen"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
-msgstr ""
+msgstr "Factor 1 voor herhaalde metingen"
 
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
@@ -6723,7 +6722,7 @@ msgstr "Schatting wortel-gemiddelde-kwadraatafwijking"
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr ""
+msgstr "RMSEA-90%-betrouwbaarheidsinterval"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
@@ -6777,7 +6776,7 @@ msgstr "Rijen vergeleken"
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
 msgid "Roy's Largest Root"
-msgstr ""
+msgstr "Grootste wortel (Roy)"
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
@@ -6807,7 +6806,7 @@ msgstr ""
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr ""
+msgstr "Schaalbetrouwbaarheidsstatistiek"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
@@ -6829,7 +6828,7 @@ msgstr "Scorefactor"
 
 #: R/pca.b.R
 msgid "Score for component"
-msgstr ""
+msgstr "Componentscore"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
@@ -6978,7 +6977,7 @@ msgstr "W van Shapiro-Wilk"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
-msgstr ""
+msgstr "Naast elkaar"
 
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
@@ -7060,7 +7059,7 @@ msgstr "Gesplitst op"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "Kwadratische Mahalanobis-afstand"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -7294,7 +7293,7 @@ msgstr "Toetsen"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Sfericiteitstoets"
 
 #: R/descriptives.b.R
 msgid "th percentile"
@@ -7335,7 +7334,7 @@ msgstr ""
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "de alternatieve hypothese."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
@@ -7403,11 +7402,11 @@ msgstr ""
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "de factoren binnen elementen (optioneel)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "de modeltermen die van toepassing zijn tussen elementen."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
@@ -8058,7 +8057,7 @@ msgstr ""
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
-msgstr ""
+msgstr "Variabele heeft niet genoeg waarnemingen"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
@@ -8136,7 +8135,7 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "Gewicht bepaald door '{varName}'"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8181,7 +8180,7 @@ msgstr "binnen rijen"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "Effecten binnen elementen"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
@@ -8292,7 +8291,7 @@ msgstr "χ²"
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
 msgid "χ² continuity correction"
-msgstr ""
+msgstr "χ²-continuïteitscorrectie"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
