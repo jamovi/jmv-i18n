@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-07-29 13:02+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: pl\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1285,6 +1290,8 @@ msgstr "liczba (domyślnie: 3), zaznacza wartości w tablicach `'modIndices'` po
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"liczba z przedziału od 0.01 do 2 (domyślnie 0.707); szerokość prioru "
+"wykorzystana przy obliczaniu współczynników Bayesa"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2934,7 +2941,7 @@ msgstr "Redukcja danych"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Zbiór danych jest nieważony"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4616,7 +4623,7 @@ msgstr "Statystyka F nie mogła zostać obliczona"
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "Czynniki"
+msgstr "Czynnik"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
@@ -4950,7 +4957,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "ukryte"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5690,7 +5697,7 @@ msgstr "Indeksy modyfikacyjne"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Symulacja Monte Carlo"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -6937,7 +6944,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>t</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8146,6 +8153,8 @@ msgstr "poprawki dla wielokrotnych porównań post-hoc."
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"szerokość prioru dla współczynników Bayesa testu t Studenta. Wymaga wartości "
+"pomiędzy 0.01 a 2.0; domyślna wartość to 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8440,7 +8449,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² Tjura"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8700,7 +8709,7 @@ msgstr "zastosuj równe wagi dla każdej komórki. (Domyślnie komórki są waż
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Zmienna wagowa"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8712,7 +8721,7 @@ msgstr "Ważone przez '{varName}'"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Wagi"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8722,7 +8731,7 @@ msgstr "Wagi (opcjonalnie)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Wagi zawierają wartości ujemne. Ujemne wagi są niedozwolone."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
