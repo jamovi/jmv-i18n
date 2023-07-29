@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-07-29 13:02+0000\n"
+"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1285,6 +1290,8 @@ msgstr "число (по умолчанию: 3), выделить значени
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"число от 0,01 до 2 (по умолчанию 0,707), априорная ширина для использования "
+"при вычислении коэффициентов Байеса"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2937,7 +2944,7 @@ msgstr "Сжатие данных"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Набор данных в настоящее время не взвешен"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4506,7 +4513,7 @@ msgstr "Взвешенные предельные средние - {term}"
 
 #: cfa/ui[3].label
 msgid "Estimates"
-msgstr "Веса"
+msgstr "Оценки"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
@@ -4619,7 +4626,7 @@ msgstr "F-статистика не может быть рассчитана"
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "Фактор"
+msgstr "Факторный"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
@@ -4793,7 +4800,7 @@ msgstr "отметьте значимые апостериорные сравн�
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
 msgid "Frequencies"
-msgstr "Частотный"
+msgstr "Частоты"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
@@ -4953,7 +4960,7 @@ msgstr "Гельмерт"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "скрытый"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5693,7 +5700,7 @@ msgstr "Индексы модификации"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Моделирование Монте-Карло"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5840,6 +5847,7 @@ msgstr "Тест на нормальность (Шапиро-Уилк)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"Не все коэффициенты могут быть оценены (вероятно, из-за сингулярной подгонки)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6935,7 +6943,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -7001,7 +7009,7 @@ msgstr "Опорные уровни"
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
 msgid "Regression"
-msgstr "Регрессия"
+msgstr "Регрессионный"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
@@ -8141,6 +8149,8 @@ msgstr "апостериорные поправки множественных �
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"априорная ширина для байесовских факторов t-критерия Стьюдента. Требуется "
+"значение от 0,5 до 2,0, по умолчанию 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8431,7 +8441,7 @@ msgstr "Терстон"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² Тьюра"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8691,7 +8701,7 @@ msgstr "взвешивать каждую ячейку одинаково. (Яч
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Переменная веса"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8703,7 +8713,7 @@ msgstr "Взвешено по '{varName}'"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Веса"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8714,6 +8724,8 @@ msgstr "Веса (необязательно)"
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
 msgstr ""
+"Веса содержат отрицательные значения. Отрицательные значения весов не "
+"допускаются."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
