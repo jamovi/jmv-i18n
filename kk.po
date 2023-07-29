@@ -1283,6 +1283,9 @@ msgid "a number (default: 3), highlight values in the `'modIndices'` tables abov
 msgstr "сан (әдепкі: 3), осы мәннен жоғары `'modIndices'` кестелеріндегі мәндерді бөлектеңіз"
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr "0,5 пен 2 аралығындағы сан (әдепкі 0,707), Байес факторларын есептегенде қолданатын алдыңғы ені"
@@ -2911,6 +2914,10 @@ msgstr "data <- lavaan::HolzingerSwineford1939\n"
 msgid "Data Reduction"
 msgstr "деректерді қысқарту"
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -4222,11 +4229,6 @@ msgstr "сипаттамалар кестесі"
 msgid "Descriptives table"
 msgstr "сипаттамалар кестесі"
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr "dev"
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4923,6 +4925,13 @@ msgstr "Харман"
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
 msgstr "Хельмерт"
+
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
+msgstr ""
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5660,6 +5669,10 @@ msgstr "модификация индекстері"
 msgid "Modification indices"
 msgstr "модификация индекстері"
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr "бірнеше режим бар, тек біріншісі туралы хабарланады"
@@ -5801,6 +5814,10 @@ msgstr "қалыптылық сынағы"
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "қалыптылық сынағы (Шапиро-Уилк)"
+
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
+msgstr ""
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6882,6 +6899,10 @@ msgstr "R²<sub>McF</sub>"
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
+
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
+msgstr ""
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8071,6 +8092,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr "пайдалану үшін бірнеше салыстыру пост hoc түзетулері."
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -8359,6 +8383,10 @@ msgstr "шектер"
 msgid "Thurstone"
 msgstr "терстон"
 
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
+msgstr ""
+
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
@@ -8614,13 +8642,32 @@ msgstr "W"
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr "әр ұяшықты бірдей өлшеу. (Ұяшықтар әдепкі бойынша ұяшық жиілігіне сәйкес өлшенеді.)"
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr "'{varName}' бойынша өлшенген"
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
 msgstr "өлшейді (міндетті емес)"
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
+msgstr ""
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title

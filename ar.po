@@ -1,17 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-06-12 17:07+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ar/>\n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1289,6 +1284,9 @@ msgid "a number (default: 3), highlight values in the `'modIndices'` tables abov
 msgstr ""
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
@@ -2812,6 +2810,10 @@ msgstr ""
 msgid "Data Reduction"
 msgstr ""
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -3575,11 +3577,6 @@ msgstr ""
 msgid "Descriptives table"
 msgstr ""
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr ""
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4276,6 +4273,13 @@ msgstr ""
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
+msgstr ""
+
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
 msgstr ""
 
 #: efa/options/hideLoadings.title
@@ -5014,6 +5018,10 @@ msgstr ""
 msgid "Modification indices"
 msgstr ""
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr ""
@@ -5154,6 +5162,10 @@ msgstr ""
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
+msgstr ""
+
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
 
 #: R/mancova.b.R
@@ -6233,6 +6245,10 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
+msgstr ""
+
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
 msgstr ""
 
 #: R/descriptives.b.R
@@ -7366,6 +7382,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr ""
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -7596,6 +7615,10 @@ msgstr ""
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
+msgstr ""
+
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
 msgstr ""
 
 #: cfa/options/fitMeasures/tli.title
@@ -7853,12 +7876,31 @@ msgstr ""
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr ""
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
+msgstr ""
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
 msgstr ""
 
 #: anovaOneW/results/anova.columns.content

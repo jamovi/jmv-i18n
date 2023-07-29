@@ -1283,6 +1283,9 @@ msgid "a number (default: 3), highlight values in the `'modIndices'` tables abov
 msgstr "un nombre (predeterminat: 3), destacats els valors a les taules `'modIndices'` per sobre d'aquest valor"
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr "un nombre entre 0,5 i 2,0 (predeterminat 0,707), l'amplada a priori que s'utilitzarà per a calcular els factors de Bayes"
@@ -2931,6 +2934,10 @@ msgstr "data <- lavaan::HolzingerSwineford1939\n"
 msgid "Data Reduction"
 msgstr "Reducció de Dades"
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -4243,11 +4250,6 @@ msgstr "Taula de Descriptives"
 msgid "Descriptives table"
 msgstr "Taula de Descriptives"
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr "desv"
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4944,6 +4946,13 @@ msgstr "Harman"
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
 msgstr "Helmert"
+
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
+msgstr ""
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5681,6 +5690,10 @@ msgstr "Índexs de Modificació"
 msgid "Modification indices"
 msgstr "Índexs de modificació"
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr "Existeix més d'una moda, només es reporta la primera"
@@ -5822,6 +5835,10 @@ msgstr "Prova de normalitat"
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Prova de Normalitat (Shapiro-Wilk)"
+
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
+msgstr ""
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6920,6 +6937,10 @@ msgstr "R²<sub>McF</sub>"
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
+
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
+msgstr ""
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8125,6 +8146,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr "las correccions de comparacions múltiples post-hoc que s'utilitzaran."
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -8416,6 +8440,10 @@ msgstr "Llindars"
 msgid "Thurstone"
 msgstr "Thurstone"
 
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
+msgstr ""
+
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
@@ -8671,13 +8699,32 @@ msgstr "W"
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr "ponderació igual per a cada cel·la. (De forma predeterminada les cel·les es ponderen d'acord amb la freqüència de cada cel·la )."
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr "Ponderat por '{varName}'"
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
 msgstr "Ponderacions (opcional)"
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
+msgstr ""
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title

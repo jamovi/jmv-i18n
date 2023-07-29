@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-04-13 21:50+0000\n"
-"Last-Translator: Synertry <jonny.somrak@gmail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"de/>\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1287,6 +1283,9 @@ msgid "a number (default: 3), highlight values in the `'modIndices'` tables abov
 msgstr "eine Zahl (Vorgabe: 3), hebt Werte in den `'modIndices'`-Tabellen hervor, die diesen Wert übersteigen"
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr "eine Zahl zwischen 0.5 und 2 (Vorgabe: 0.707), die für die Berechnung der Bayes-Faktoren zu verwendende prior width"
@@ -2936,6 +2935,10 @@ msgstr "data <- lavaan::HolzingerSwineford1939\n"
 msgid "Data Reduction"
 msgstr "Datenreduktion"
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -4249,11 +4252,6 @@ msgstr "Tabelle mit Deskriptivstatistik"
 msgid "Descriptives table"
 msgstr "Tabelle mit Deskriptivstatistik"
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr "dev"
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4950,6 +4948,13 @@ msgstr "Harman"
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
 msgstr "Helmert"
+
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
+msgstr ""
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5687,6 +5692,10 @@ msgstr "Modifikationsindizes"
 msgid "Modification indices"
 msgstr "Modifikationsindizes"
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr "Es gibt mehr als einen Modalwert, nur der erste wird berichtet"
@@ -5828,6 +5837,10 @@ msgstr "Test auf Normalverteilung"
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test auf Normalverteilung (Shapiro-Wilk)"
+
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
+msgstr ""
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6926,6 +6939,10 @@ msgstr "R²<sub>McF</sub>"
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
+
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
+msgstr ""
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8131,6 +8148,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr "die zu verwendenden Korrekturen für mulitple Paarvergleiche in den Post-hoc-Tests."
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -8423,6 +8443,10 @@ msgstr "Schwellenwerte"
 msgid "Thurstone"
 msgstr "Thurstone"
 
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
+msgstr ""
+
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
@@ -8678,13 +8702,32 @@ msgstr "W"
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr "jede Zelle gleich gewichten (standardmäßig werden die Zellen nach der Zellenfrequenz gewichtet)."
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr "Gewichtet mit „{varName}“"
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
 msgstr "Gewichte (optional)"
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
+msgstr ""
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title

@@ -1,17 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-06-12 16:50+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: Slovenian <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/sl/>\n"
-"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -31,9 +26,7 @@ msgstr "Stolpec »{col}« vsebuje le eno enoznačno vrednost"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
-"Uporabljena je bila metoda ekstrakcije »{method}« v kombinaciji z rotacijo "
-"»{rotation}«"
+msgstr "Uporabljena je bila metoda ekstrakcije »{method}« v kombinaciji z rotacijo »{rotation}«"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -1188,9 +1181,7 @@ msgstr ""
 #: logRegMulti/options/blocks.description.R
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
-msgstr ""
-"seznam, ki vsebuje vektorje nizov z imeni vzročnih spremenljivk, ki so "
-"dodane modelu. Te so dodane modelu glede na vrstni red na seznamu"
+msgstr "seznam, ki vsebuje vektorje nizov z imeni vzročnih spremenljivk, ki so dodane modelu. Te so dodane modelu glede na vrstni red na seznamu"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
@@ -1202,9 +1193,7 @@ msgstr "seznam znakovnih vektorjev, ki opisujejo preizkuse post-hoc za izračun"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr ""
-"seznam znakovnih vektorjev, ki opisujejo pogoje ponavljajočih se meritev, ki "
-"se vključijo v model"
+msgstr "seznam znakovnih vektorjev, ki opisujejo pogoje ponavljajočih se meritev, ki se vključijo v model"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1294,6 +1283,9 @@ msgid "a number (default: 3), highlight values in the `'modIndices'` tables abov
 msgstr "število (privzeto: 3), ki določa spodnjo mejo za poudarjanje vrednosti"
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr "število med 0,5 in 2 (privzeto 0,707), ki določa predhodno širino za izračunavanje Bayesovih faktorjev"
@@ -2831,6 +2823,10 @@ msgstr ""
 msgid "Data Reduction"
 msgstr "Zmanjšanje podatkov"
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -3594,11 +3590,6 @@ msgstr "Razpredelnica opisne statistike"
 msgid "Descriptives table"
 msgstr "Razpredelnica opisne statistike"
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr ""
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4296,6 +4287,13 @@ msgstr "Harman‧"
 msgid "Helmert"
 msgstr "Helmertov model‧"
 
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
+msgstr ""
+
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
@@ -4560,9 +4558,7 @@ msgstr "Raven 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr ""
-"Levenov test je statistično značilen (p < 0.05), kar kaže na kršitev "
-"predpostavke enakih varianc"
+msgstr "Levenov test je statistično značilen (p < 0.05), kar kaže na kršitev predpostavke enakih varianc"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -5034,6 +5030,10 @@ msgstr ""
 msgid "Modification indices"
 msgstr ""
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr "Obstaja več kot en modus, podana je le prva vrednost"
@@ -5175,6 +5175,10 @@ msgstr "Test normalnosti"
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Normalnost (Shapiro-Wilksov preizkus)"
+
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
+msgstr ""
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -5593,8 +5597,7 @@ msgstr "Delna korelacija"
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr ""
-"Delne korelacijske matrike so način preučevanja linearnih povezav\n"
+msgstr "Delne korelacijske matrike so način preučevanja linearnih povezav\n"
 "med dvema ali več zveznimi spremenljivkami ob spremljanju drugih\n"
 "spremenljivk"
 
@@ -6261,6 +6264,10 @@ msgstr "R²<sub>McF</sub>"
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
+
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
+msgstr ""
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -7423,6 +7430,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr ""
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -7477,9 +7487,7 @@ msgstr ""
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
-msgstr ""
-"Ponavljajoče meritve imajo le dve ravni. Predpostavka sferičnosti je "
-"izpolnjena vedno, ko ima ponavljajoča meritev le dve ravni"
+msgstr "Ponavljajoče meritve imajo le dve ravni. Predpostavka sferičnosti je izpolnjena vedno, ko ima ponavljajoča meritev le dve ravni"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
@@ -7636,23 +7644,17 @@ msgstr "spremenljivka, ki določa dve skupini; vsebovati mora 2 ravni."
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
 msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-"spremenljivka, ki naj določa stolpce v kontingenčni razpredelnici (pri "
-"formuli ni zahtevana, več med primeri)"
+msgstr "spremenljivka, ki naj določa stolpce v kontingenčni razpredelnici (pri formuli ni zahtevana, več med primeri)"
 
 #: contTables/options/counts.description.R
 #: contTablesPaired/options/counts.description.R
 msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-"spremenljivka, ki naj določa števce v kontingenčni razpredelnici (pri "
-"formuli ni zahtevana, več med primeri)"
+msgstr "spremenljivka, ki naj določa števce v kontingenčni razpredelnici (pri formuli ni zahtevana, več med primeri)"
 
 #: contTables/options/rows.description.R
 #: contTablesPaired/options/rows.description.R
 msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-"spremenljivka, ki naj določa vrstice v kontingenčni razpredelnici (pri "
-"formuli ni zahtevana, več med primeri)"
+msgstr "spremenljivka, ki naj določa vrstice v kontingenčni razpredelnici (pri formuli ni zahtevana, več med primeri)"
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
@@ -7713,6 +7715,10 @@ msgstr "Pragi"
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
 msgstr "Thurstonenova lestvica"
+
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
+msgstr ""
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -7969,13 +7975,32 @@ msgstr "W"
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr "enaka uteženost celic (privzeto so celice utežene glede na frekvenco.)"
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr "Uteženo po spremenljivki »{varName}«"
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
 msgstr "Uteži (izbirno)"
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
+msgstr ""
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title

@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-06-14 16:48+0000\n"
-"Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
-"Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/ml/>\n"
-"Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ml\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -228,76 +224,46 @@ msgstr "`'none'`, `'ci'` (default), അല്ലെങ്കിൽ `'se'`. എ�
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr ""
-"`'none'`, `'gamesHowell'` അല്ലെങ്കിൽ `'tukey'`, ഏത് പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റ് "
-"ചെയ്യണം; `'none'` ആണെങ്കിൽ ഒരു പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും ഇല്ല, "
-"`'gamesHowell'` ആണെങ്കിൽ തുല്യ വേരിയൻസ് അനുമാനം വേണ്ടാത്ത Games-Howell "
-"പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും, `'tukey'` ആണെങ്കിൽ തുല്യ വേരിയൻസ് അനുമാനിക്കുന്ന "
-"Tukey പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും കാണിക്കുന്നു"
+msgstr "`'none'`, `'gamesHowell'` അല്ലെങ്കിൽ `'tukey'`, ഏത് പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റ് ചെയ്യണം; `'none'` ആണെങ്കിൽ ഒരു പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും ഇല്ല, `'gamesHowell'` ആണെങ്കിൽ തുല്യ വേരിയൻസ് അനുമാനം വേണ്ടാത്ത Games-Howell പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും, `'tukey'` ആണെങ്കിൽ തുല്യ വേരിയൻസ് അനുമാനിക്കുന്ന Tukey പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റും കാണിക്കുന്നു"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, "
-"അല്ലെങ്കിൽ `'simplimax'`, എസ്റ്റിമേഷനിൽ ഉപയോഗിക്കേണ്ട റൊട്ടേഷൻ"
+msgstr "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, അല്ലെങ്കിൽ `'simplimax'`, എസ്റ്റിമേഷനിൽ ഉപയോഗിക്കേണ്ട റൊട്ടേഷൻ"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"`'ഒന്നും വേണ്ട', `'വാരിമാക്സ്', `'ക്വാർട്ടിമാക്സ്', `'പ്രോമാക്സ്', `'ഒബ്ലിമി"
-"ൻ'' (ഡിഫോൾട്ട്), അല്ലെങ്കിൽ `'സിംപ്ലിമാക്സ്'`, എസ്റ്റിമേഷന് ഉപയോഗിക്കേണ്ട "
-"റൊട്ടേഷൻ"
+msgstr "`'ഒന്നും വേണ്ട', `'വാരിമാക്സ്', `'ക്വാർട്ടിമാക്സ്', `'പ്രോമാക്സ്', `'ഒബ്ലിമിൻ'' (ഡിഫോൾട്ട്), അല്ലെങ്കിൽ `'സിംപ്ലിമാക്സ്'`, എസ്റ്റിമേഷന് ഉപയോഗിക്കേണ്ട റൊട്ടേഷൻ"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr ""
-"\"notequal\" (ഡിഫോൾട്ട്), \"കൂടുതൽ\" അല്ലെങ്കിൽ \"കുറവ്\", ഇതര പരികല്‍പന"
+msgstr "\"notequal\" (ഡിഫോൾട്ട്), \"കൂടുതൽ\" അല്ലെങ്കിൽ \"കുറവ്\", ഇതര പരികല്‍പന"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr ""
-"`'parallel'` (default), `'eigen' അല്ലെങ്കിൽ `fixed'`, ഫാക്ടറുകളുടെ എണ്ണം "
-"നിർണ്ണയിക്കാനുള്ള മാർഗം"
+msgstr "`'parallel'` (default), `'eigen' അല്ലെങ്കിൽ `fixed'`, ഫാക്ടറുകളുടെ എണ്ണം നിർണ്ണയിക്കാനുള്ള മാർഗം"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr ""
-"\"PerAnalysis\" അല്ലെങ്കിൽ \"listwise\", ഇല്ലാത്ത മൂല്യങ്ങൾ എങ്ങനെ കൈകാര്യം "
-"ചെയ്യാം; `'perAnalysis'`ആശ്രിത വേരിയബിളുകളിലെ (dependent variables) ഇല്ലാത്ത "
-"മൂല്യങ്ങളെ ഒഴിവാക്കുന്നു, `'listwise'`എൻട്രികളിൽ ഒന്നെങ്കിലും ഇല്ലെങ്കിൽ "
-"എല്ലാ വിശകലനങ്ങളിൽ നിന്നും ആ നിരയെ ഒഴിവാക്കുന്നു"
+msgstr "\"PerAnalysis\" അല്ലെങ്കിൽ \"listwise\", ഇല്ലാത്ത മൂല്യങ്ങൾ എങ്ങനെ കൈകാര്യം ചെയ്യാം; `'perAnalysis'`ആശ്രിത വേരിയബിളുകളിലെ (dependent variables) ഇല്ലാത്ത മൂല്യങ്ങളെ ഒഴിവാക്കുന്നു, `'listwise'`എൻട്രികളിൽ ഒന്നെങ്കിലും ഇല്ലെങ്കിൽ എല്ലാ വിശകലനങ്ങളിൽ നിന്നും ആ നിരയെ ഒഴിവാക്കുന്നു"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr ""
-"\"PerAnalysis\" അല്ലെങ്കിൽ \"listwise\", ഇല്ലാത്ത മൂല്യങ്ങളെ എങ്ങനെ കൈകാര്യം "
-"ചെയ്യാം; `'perAnalysis'`ഓരോ ആശ്രിത വേരിയബിളുകളിലെ ഇല്ലാത്ത മൂല്യങ്ങളെ "
-"ഒഴിവാക്കുന്നു, `'listwise'`ആകട്ടെ എൻട്രികളിൽ ഒന്നെങ്കിലും ഇല്ലെങ്കിൽ എല്ലാ "
-"വിശകലനങ്ങളിൽ നിന്നും ആ നിരയെ ഒഴിവാക്കുന്നു."
+msgstr "\"PerAnalysis\" അല്ലെങ്കിൽ \"listwise\", ഇല്ലാത്ത മൂല്യങ്ങളെ എങ്ങനെ കൈകാര്യം ചെയ്യാം; `'perAnalysis'`ഓരോ ആശ്രിത വേരിയബിളുകളിലെ ഇല്ലാത്ത മൂല്യങ്ങളെ ഒഴിവാക്കുന്നു, `'listwise'`ആകട്ടെ എൻട്രികളിൽ ഒന്നെങ്കിലും ഇല്ലെങ്കിൽ എല്ലാ വിശകലനങ്ങളിൽ നിന്നും ആ നിരയെ ഒഴിവാക്കുന്നു."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr ""
-"\"refLevel\" (default) അല്ലെങ്കിൽ \"grandMean\", ഇന്റർസെപ്റ്റിന്റെ കോഡിംഗ്. "
-"ഒന്നുകിൽ ഇന്റർസെപ്റ്റ് റഫറൻസ് ലെവലിനെ പ്രതിനിധീകരിക്കുന്ന രീതിയിൽ "
-"കോൺട്രാസ്റ്റ് സൃഷ്ടിക്കുന്നു, അല്ലെങ്കിൽ ഗ്രാൻഡ് ശരാശരി സൃഷ്ടിക്കുന്നു"
+msgstr "\"refLevel\" (default) അല്ലെങ്കിൽ \"grandMean\", ഇന്റർസെപ്റ്റിന്റെ കോഡിംഗ്. ഒന്നുകിൽ ഇന്റർസെപ്റ്റ് റഫറൻസ് ലെവലിനെ പ്രതിനിധീകരിക്കുന്ന രീതിയിൽ കോൺട്രാസ്റ്റ് സൃഷ്ടിക്കുന്നു, അല്ലെങ്കിൽ ഗ്രാൻഡ് ശരാശരി സൃഷ്ടിക്കുന്നു"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr ""
-"\"നിരകൾ\" അല്ലെങ്കിൽ \"കോളങ്ങൾ\" (ഡിഫോൾട്ട്), വേരിയബിളുകളെ വരികളിലുടനീളം "
-"അല്ലെങ്കിൽ നിരകളിലുടനീളം പ്രദർശിപ്പിക്കുക (ഡിഫോൾട്ട്)"
+msgstr "\"നിരകൾ\" അല്ലെങ്കിൽ \"കോളങ്ങൾ\" (ഡിഫോൾട്ട്), വേരിയബിളുകളെ വരികളിലുടനീളം അല്ലെങ്കിൽ നിരകളിലുടനീളം പ്രദർശിപ്പിക്കുക (ഡിഫോൾട്ട്)"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
-msgstr ""
-"`'തഴ്സ്റ്റൺ'' (default), `'ബാർട്ട്‌ലെറ്റ്', `'ടെൻബെർജ്', `'ആൻഡേഴ്സൺ', "
-"അല്ലെങ്കിൽ 'ഹർമൻ'' എന്നിവ യഥാക്രമം 'തഴ്സ്റ്റൺ', 'ബാർട്ട്ലെറ്റ്', 'ടെൻ ബെർജ്"
-"', 'ആൻഡേഴ്സൺ & റൂബിൻ' അല്ലെങ്കിൽ 'ഹർമൻ' രീതി ഉപയോഗിച്ച് ഫാക്ടർ സ്‌കോറുകൾ "
-"കണക്കാക്കുന്നു"
+msgstr "`'തഴ്സ്റ്റൺ'' (default), `'ബാർട്ട്‌ലെറ്റ്', `'ടെൻബെർജ്', `'ആൻഡേഴ്സൺ', അല്ലെങ്കിൽ 'ഹർമൻ'' എന്നിവ യഥാക്രമം 'തഴ്സ്റ്റൺ', 'ബാർട്ട്ലെറ്റ്', 'ടെൻ ബെർജ്', 'ആൻഡേഴ്സൺ & റൂബിൻ' അല്ലെങ്കിൽ 'ഹർമൻ' രീതി ഉപയോഗിച്ച് ഫാക്ടർ സ്‌കോറുകൾ കണക്കാക്കുന്നു"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -309,10 +275,7 @@ msgstr "`ANOVA - ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr ""
-"`നിരകൾ` അല്ലെങ്കിൽ `വരികൾ` (default), അനുപാതങ്ങളുടെ വ്യത്യാസത്തിന്റെ "
-"അല്ലെങ്കിൽ ആപേക്ഷിക റിസ്കുകളുടെ അടിസ്ഥാനത്തിൽ നിരകൾ/വരികൾ താരതമ്യം ചെയ്യുക ("
-"2x2 tables)"
+msgstr "`നിരകൾ` അല്ലെങ്കിൽ `വരികൾ` (default), അനുപാതങ്ങളുടെ വ്യത്യാസത്തിന്റെ അല്ലെങ്കിൽ ആപേക്ഷിക റിസ്കുകളുടെ അടിസ്ഥാനത്തിൽ നിരകൾ/വരികൾ താരതമ്യം ചെയ്യുക (2x2 tables)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -330,9 +293,7 @@ msgstr "`അനുപാതങ്ങൾ - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-"'TRUE' (default) അല്ലെങ്കിൽ 'FALSE', ബോക്സ് പ്ലോട്ടിലെ ഔട്ട്ലയറുകൾക്ക് വരി "
-"നമ്പറുകൾ ലേബലായി കൊടുക്കുക"
+msgstr "'TRUE' (default) അല്ലെങ്കിൽ 'FALSE', ബോക്സ് പ്ലോട്ടിലെ ഔട്ട്ലയറുകൾക്ക് വരി നമ്പറുകൾ ലേബലായി കൊടുക്കുക"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -342,39 +303,29 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, Student's t-tes
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr ""
-"'TRUE' (default) അല്ലെങ്കിൽ 'FALSE', തുല്യ variance അനുമാനിക്കാത്ത വെൽഷ് one-"
-"way ANOVA ചെയ്യുക"
+msgstr "'TRUE' (default) അല്ലെങ്കിൽ 'FALSE', തുല്യ variance അനുമാനിക്കാത്ത വെൽഷ് one-way ANOVA ചെയ്യുക"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡൽ എസ്റ്റിമേറ്റുകൾക്ക് 'Z', 'p' "
-"മൂല്യങ്ങൾ നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡൽ എസ്റ്റിമേറ്റുകൾക്ക് 'Z', 'p' മൂല്യങ്ങൾ നൽകുക"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡലിനെ perfect fitting മോഡലുമായി "
-"താരതമ്യം ചെയ്യുന്ന ഒരു exact fit chi-square ടെസ്റ്റ് തരുന്നു"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡലിനെ perfect fitting മോഡലുമായി താരതമ്യം ചെയ്യുന്ന ഒരു exact fit chi-square ടെസ്റ്റ് തരുന്നു"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, estimated marginal means-ന് വേണ്ട "
-"confidence interval"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, estimated marginal means-ന് വേണ്ട confidence interval"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
 #: logRegMulti/options/aic.description.R
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡലുകൾക്ക് Aikaike's Information "
-"Criterion (AIC) നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, മോഡലുകൾക്ക് Aikaike's Information Criterion (AIC) നൽകുക"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
@@ -388,26 +339,19 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, Cronbach's α �
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, estimated marginal means പ്ലോട്ടുകൾ "
-"നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, estimated marginal means പ്ലോട്ടുകൾ നൽകുക"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, ഫാക്ടർ (കോ)വേരിയൻസിനുള്ള estimates നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, ഫാക്ടർ (കോ)വേരിയൻസിനുള്ള estimates നൽകുക"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, റെസിഡുവൽ (കോ)വേരിയൻസിനുള്ള estimates "
-"നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, റെസിഡുവൽ (കോ)വേരിയൻസിനുള്ള estimates നൽകുക"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, post-hoc ടെസ്റ്റുകൾക്കുള്ള mean "
-"differences നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, post-hoc ടെസ്റ്റുകൾക്കുള്ള mean differences നൽകുക"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
@@ -421,18 +365,14 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, significance �
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, post-hoc ടെസ്റ്റുകൾക്കുള്ള significance "
-"ലെവലുകൾ നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, post-hoc ടെസ്റ്റുകൾക്കുള്ള significance ലെവലുകൾ നൽകുക"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
 #: logRegMulti/options/dev.description.R
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് deviance (അല്ലെങ്കിൽ "
-"-2LogLikelihood) നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് deviance (അല്ലെങ്കിൽ -2LogLikelihood) നൽകുക"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
@@ -444,15 +384,11 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, median നൽ�
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകളും NULL മോഡലും തമ്മിലുള്ള മോഡൽ "
-"താരതമ്യം നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകളും NULL മോഡലും തമ്മിലുള്ള മോഡൽ താരതമ്യം നൽകുക"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,ഇല്ലാത്ത മൂല്യങ്ങളുടെ (missing values) "
-"എണ്ണം നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,ഇല്ലാത്ത മൂല്യങ്ങളുടെ (missing values) എണ്ണം നൽകുക"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
@@ -464,15 +400,11 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, standard deviat
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് സ്റ്റാറ്റിസ്റ്റിക്കൽ അളവായ "
-"`R-squared` നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് സ്റ്റാറ്റിസ്റ്റിക്കൽ അളവായ `R-squared` നൽകുക"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് സ്റ്റാറ്റിസ്റ്റിക്കൽ അളവായ "
-"`R` നൽകുക"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,മോഡലുകൾക്ക് സ്റ്റാറ്റിസ്റ്റിക്കൽ അളവായ `R` നൽകുക"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
@@ -487,64 +419,45 @@ msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`,χ²നൽകു
 #: logRegBin/options/emmWeights.description.R
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr ""
-"`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, എല്ലാ സെല്ലുകൾക്കും ഒരേ മുൻഗണന കൊടുക്കണോ"
-" അതോ ഉള്ളടക്കം (frequency) അനുസരിച്ച് മുൻഗണന കൊടുക്കണോ"
+msgstr "`TRUE` (default) അല്ലെങ്കിൽ `FALSE`, എല്ലാ സെല്ലുകൾക്കും ഒരേ മുൻഗണന കൊടുക്കണോ അതോ ഉള്ളടക്കം (frequency) അനുസരിച്ച് മുൻഗണന കൊടുക്കണോ"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default),   ബാർ പ്ലോട്ടുകളിലേക്ക് എണ്ണങ്ങൾ "
-"ചേർക്കുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default),   ബാർ പ്ലോട്ടുകളിലേക്ക് എണ്ണങ്ങൾ ചേർക്കുക"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ബോക്സ് പ്ലോട്ടിലേക്ക് ശരാശരി (mean) "
-"ചേർക്കുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ബോക്സ് പ്ലോട്ടിലേക്ക് ശരാശരി (mean) ചേർക്കുക"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ശ്രദ്ധേയമായ പരസ്പര ബന്ധങ്ങൾ "
-"(correlations) അടയാളപ്പെടുത്തുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ശ്രദ്ധേയമായ പരസ്പര ബന്ധങ്ങൾ (correlations) അടയാളപ്പെടുത്തുക"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ശ്രദ്ധേയമായ പോസ്റ്റ്-ഹോക്ക് താരതമ്യങ്ങൾ "
-"അടയാളപ്പെടുത്തുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ശ്രദ്ധേയമായ പോസ്റ്റ്-ഹോക്ക് താരതമ്യങ്ങൾ അടയാളപ്പെടുത്തുക"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residuals വെച്ച് Shapiro-Wilk ടെസ്റ്റ് "
-"ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residuals വെച്ച് Shapiro-Wilk ടെസ്റ്റ് ചെയ്യുന്നു"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), തുല്യ വേരിയൻസ് അനുമാനിക്കുന്ന Fisher's "
-"one-way ANOVA ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), തുല്യ വേരിയൻസ് അനുമാനിക്കുന്ന Fisher's one-way ANOVA ചെയ്യുന്നു"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), സമാനത (homogeneity) ടെസ്റ്റുകൾ ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), സമാനത (homogeneity) ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനത (homogeneity of "
-"variances) നോക്കുന്ന Levene's ടെസ്റ്റ് ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനത (homogeneity of variances) നോക്കുന്ന Levene's ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനത (homogeneity of "
-"variances) നോക്കുന്ന Levene's ടെസ്റ്റ് ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനത (homogeneity of variances) നോക്കുന്ന Levene's ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
@@ -553,67 +466,51 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Mann-Whitney U 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഓരോ ജോഡിയായി (pairwise) താരതമ്യം ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഓരോ ജോഡിയായി (pairwise) താരതമ്യം ചെയ്യുക"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ "
-"ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റ് "
-"ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റ് ചെയ്യുക"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-Wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ "
-"ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-Wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ "
-"ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Shapiro-wilk നോർമാലിറ്റി ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഗോളാകാര (sphericity) ടെസ്റ്റുകൾ ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഗോളാകാര (sphericity) ടെസ്റ്റുകൾ ചെയ്യുക"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വെൽഷ് (Welch's) ടി-ടെസ്റ്റ് ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വെൽഷ് (Welch's) ടി-ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Wilcoxon signed rank ടെസ്റ്റ് ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Wilcoxon signed rank ടെസ്റ്റ് ചെയ്യുക"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr ""
-"'TRUE' അല്ലെങ്കിൽ 'FALSE' (default), മാർജിനൽ ശരാശരിക്കു (marginal means) "
-"മുകളിൽ ഡാറ്റ പ്ലോട്ട് ചെയ്യുക"
+msgstr "'TRUE' അല്ലെങ്കിൽ 'FALSE' (default), മാർജിനൽ ശരാശരിക്കു (marginal means) മുകളിൽ ഡാറ്റ പ്ലോട്ട് ചെയ്യുക"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
 #: logRegMulti/options/ci.description.R
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient എസ്റ്റിമേറ്റുകളുടെ ഒരു"
-" confidence interval തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient എസ്റ്റിമേറ്റുകളുടെ ഒരു confidence interval തരുന്നു"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
@@ -623,32 +520,23 @@ msgstr ""
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient rate ratio "
-"എസ്റ്റിമേറ്റിനുള്ള ഒരു confidence interval തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient rate ratio എസ്റ്റിമേറ്റിനുള്ള ഒരു confidence interval തരുന്നു"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient standardized "
-"എസ്റ്റിമേറ്റിനുള്ള ഒരു confidence interval തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient standardized എസ്റ്റിമേറ്റിനുള്ള ഒരു confidence interval തരുന്നു"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient-കളുടെ ഒരു confidence "
-"interval തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient-കളുടെ ഒരു confidence interval തരുന്നു"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model estimate-കളുടെ ഒരു confidence "
-"interval തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model estimate-കളുടെ ഒരു confidence interval തരുന്നു"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), correlation matrix പ്ലോട്ട് തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), correlation matrix പ്ലോട്ട് തരുന്നു"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
@@ -668,15 +556,11 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), മോഡലി
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), predicted classification പട്ടിക "
-"(അല്ലെങ്കിൽ confusion matrix) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), predicted classification പട്ടിക (അല്ലെങ്കിൽ confusion matrix) തരുന്നു"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), multivariate normality-യുടെ ഒരു Q-Q "
-"പ്ലോട്ട് തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), multivariate normality-യുടെ ഒരു Q-Q പ്ലോട്ട് തരുന്നു"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -686,8 +570,7 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residual-കളുടെ ഒരു Q-Q പ്ലോട്ട് തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residual-കളുടെ ഒരു Q-Q പ്ലോട്ട് തരുന്നു"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
@@ -695,39 +578,27 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഒരു ROC c
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient-കളുടെ ഒരു "
-"standardized estimate തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficient-കളുടെ ഒരു standardized estimate തരുന്നു"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model estimate-കളുടെ ഒരു standardized "
-"estimate തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model estimate-കളുടെ ഒരു standardized estimate തരുന്നു"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), രണ്ട് അനുപാതങ്ങൾ (proportions) തമ്മിലുള്"
-"ള വ്യത്യാസങ്ങളുടെ ഒരു z-ടെസ്റ്റ് തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), രണ്ട് അനുപാതങ്ങൾ (proportions) തമ്മിലുള്ള വ്യത്യാസങ്ങളുടെ ഒരു z-ടെസ്റ്റ് തരുന്നു"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default),മോഡലുകൾക്ക് Aikaike's Information "
-"Criterion (AIC) നൽകുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default),മോഡലുകൾക്ക് Aikaike's Information Criterion (AIC) നൽകുക"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), കൃത്യമായ exact log odds ratio നൽകുക ("
-"exact2x2 ഇൻസ്റ്റാൾ ചെയ്തിരിക്കണം)"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), കൃത്യമായ exact log odds ratio നൽകുക (exact2x2 ഇൻസ്റ്റാൾ ചെയ്തിരിക്കണം)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
-msgstr ""
-"`TRUE` or `FALSE` (default), ബാർ പ്ലോട്ടുകൾ (oominal, ordinal വേരിയബിളുകൾ "
-"മാത്രം)"
+msgstr "`TRUE` or `FALSE` (default), ബാർ പ്ലോട്ടുകൾ (oominal, ordinal വേരിയബിളുകൾ മാത്രം)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
@@ -738,9 +609,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Bayes ഫാക
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Bayesian credible അകലങ്ങൾ (intervals) "
-"തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Bayesian credible അകലങ്ങൾ (intervals) തരുന്നു"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -756,9 +625,7 @@ msgstr ""
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), logit linearity നോക്കാനുള്ള Box-Tidwell "
-"ടെസ്റ്റ് ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), logit linearity നോക്കാനുള്ള Box-Tidwell ടെസ്റ്റ് ചെയ്യുന്നു"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
@@ -805,15 +672,11 @@ msgstr ""
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), correlation matrix പ്ലോട്ടിൽ സാന്ദ്രത "
-"(densities) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), correlation matrix പ്ലോട്ടിൽ സാന്ദ്രത (densities) തരുന്നു"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) "
-"സാന്ദ്രതാ (density) പ്ലോട്ടുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) സാന്ദ്രതാ (density) പ്ലോട്ടുകൾ തരുന്നു"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
@@ -832,9 +695,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), descriptive sta
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) dot "
-"പ്ലോട്ടുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) dot പ്ലോട്ടുകൾ തരുന്നു"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
@@ -853,21 +714,15 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഇഫെക്
 #: logRegBin/options/emmTables.description.R
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), estimated marginal means ടേബിളുകൾ "
-"തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), estimated marginal means ടേബിളുകൾ തരുന്നു"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), factor intercept-കൾക്കുള്ള estimates "
-"തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), factor intercept-കൾക്കുള്ള estimates തരുന്നു"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residual intercept-കൾക്കുള്ള estimates "
-"തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residual intercept-കൾക്കുള്ള estimates തരുന്നു"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
@@ -875,9 +730,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Fisher's exact 
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (നോമിനൽ അല്ലെങ്കിൽ ഓർഡിനൽ) "
-"വേരിയബിളുകൾക്കുള്ള frequency ടേബിളുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (നോമിനൽ അല്ലെങ്കിൽ ഓർഡിനൽ) വേരിയബിളുകൾക്കുള്ള frequency ടേബിളുകൾ തരുന്നു"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
@@ -885,9 +738,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), gamma തരു
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) "
-"histograms തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) histograms തരുന്നു"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
@@ -909,9 +760,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Kendall's tau-b
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), trend നോക്കാനുള്ള Mantel-Haenszel "
-"ടെസ്റ്റ് ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), trend നോക്കാനുള്ള Mantel-Haenszel ടെസ്റ്റ് ചെയ്യുന്നു"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
@@ -919,27 +768,20 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), McDonald's ω �
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), means, standard deviations എന്നിവ "
-"തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), means, standard deviations എന്നിവ തരുന്നു"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), means, standard errors എന്നിവ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), means, standard errors എന്നിവ തരുന്നു"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), മോഡലിൽ ഉൾപ്പെടാത്ത parameterകൾക്കുള്ള "
-"modification indices തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), മോഡലിൽ ഉൾപ്പെടാത്ത parameterകൾക്കുള്ള modification indices തരുന്നു"
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), രണ്ടറ്റത്തുമുള്ള (ഏറ്റവും വലുതും "
-"ചെറുതും) N വിലകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), രണ്ടറ്റത്തുമുള്ള (ഏറ്റവും വലുതും ചെറുതും) N വിലകൾ തരുന്നു"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
@@ -955,14 +797,11 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), posterior പ�
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്കു മാത്രം) Q-Q "
-"പ്ലോട്ടുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്കു മാത്രം) Q-Q പ്ലോട്ടുകൾ തരുന്നു"
 
 #: ttestIS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residualകൾക്ക് Q-Q പ്ലോട്ടുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), residualകൾക്ക് Q-Q പ്ലോട്ടുകൾ തരുന്നു"
 
 #: descriptives/options/pcEqGr.description.R
 msgid "`TRUE` or `FALSE` (default), provide quantiles"
@@ -970,15 +809,11 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), quantiles ത�
 
 #: linReg/options/resPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), dependent വേരിയബിളും ഓരോ covariateകളും "
-"standardized residualകൾക്ക് നേരെ പ്ലോട്ട് ചെയ്ത residual plots തരുന്നു."
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), dependent വേരിയബിളും ഓരോ covariateകളും standardized residualകൾക്ക് നേരെ പ്ലോട്ട് ചെയ്ത residual plots തരുന്നു."
 
 #: linReg/options/durbin.description.R
 msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), autocorrelation നോക്കാനുള്ള Durbin- "
-"Watson ടെസ്റ്റ് റിസൾട്ടുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), autocorrelation നോക്കാനുള്ള Durbin- Watson ടെസ്റ്റ് റിസൾട്ടുകൾ തരുന്നു"
 
 #: linReg/options/rmse.description.R
 msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
@@ -987,8 +822,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), മോഡലു
 #: contTables/options/pcRow.description.R
 #: contTablesPaired/options/pcRow.description.R
 msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വരികളുടെ (rows) percentages തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വരികളുടെ (rows) percentages തരുന്നു"
 
 #: descriptives/options/sw.description.R
 msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
@@ -1005,22 +839,16 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), സ്പിയ
 
 #: corrMatrix/options/plotStats.description.R
 msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), correlation matrix പ്ലോട്ടിൽ കണക്കുകൾ "
-"(statistics) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), correlation matrix പ്ലോട്ടിൽ കണക്കുകൾ (statistics) തരുന്നു"
 
 #: linReg/options/cooks.description.R
 #: logRegBin/options/cooks.description.R
 msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Cook's distance-നുള്ള സംഗ്രഹ കണക്കുകൾ ("
-"summary statistics) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Cook's distance-നുള്ള സംഗ്രഹ കണക്കുകൾ (summary statistics) തരുന്നു"
 
 #: anovaOneW/options/phTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റുകൾക്കുള്ള "
-"ടെസ്റ്റ് റിസൾട്ടുകൾ (t-മൂല്യം, degrees of freedom എന്നിവ) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പോസ്റ്റ്-ഹോക്ക് ടെസ്റ്റുകൾക്കുള്ള ടെസ്റ്റ് റിസൾട്ടുകൾ (t-മൂല്യം, degrees of freedom എന്നിവ) തരുന്നു"
 
 #: contTables/options/contCoef.description.R
 msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
@@ -1028,29 +856,21 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), contingency coe
 
 #: contTables/options/diffProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (2x2 ടേബിളുകൾക്കു മാത്രം) അനുപാത "
-"വ്യത്യാസങ്ങൾ (differences in proportions) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (2x2 ടേബിളുകൾക്കു മാത്രം) അനുപാത വ്യത്യാസങ്ങൾ (differences in proportions) തരുന്നു"
 
 #: contTables/options/exp.description.R
 msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പ്രതീക്ഷിക്കുന്ന എണ്ണം (expected counts)"
-" തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പ്രതീക്ഷിക്കുന്ന എണ്ണം (expected counts) തരുന്നു"
 
 #: logRegBin/options/OR.description.R
 #: logRegMulti/options/OR.description.R
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ലോഗ്-ഓഡ്‌സ് റേഷ്യോ (log-odds ratio) "
-"estimate-ന്റെ ഘാതം (exponential), അല്ലെങ്കിൽ ഓഡ്‌സ് റേഷ്യോ estimate തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ലോഗ്-ഓഡ്‌സ് റേഷ്യോ (log-odds ratio) estimate-ന്റെ ഘാതം (exponential), അല്ലെങ്കിൽ ഓഡ്‌സ് റേഷ്യോ estimate തരുന്നു"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ലോഗ്-റേറ്റ് റേഷ്യോ (log-odds ratio) "
-"estimate-ന്റെ ഘാതം (exponential), അല്ലെങ്കിൽ റേറ്റ് റേഷ്യോ estimate തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ലോഗ്-റേറ്റ് റേഷ്യോ (log-odds ratio) estimate-ന്റെ ഘാതം (exponential), അല്ലെങ്കിൽ റേറ്റ് റേഷ്യോ estimate തരുന്നു"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
@@ -1066,9 +886,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), likelihood rati
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (2x2 ടേബിളുകൾക്ക് മാത്രം) ലോഗ് ഓഡ്സ് "
-"അനുപാതം തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (2x2 ടേബിളുകൾക്ക് മാത്രം) ലോഗ് ഓഡ്സ് അനുപാതം തരുന്നു"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
@@ -1091,9 +909,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), mode തരു�
 #: logRegMulti/options/modelTest.description.R
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), നമ്മുടെ മോഡലുകളും NULL മോഡലും തമ്മിൽ "
-"താരതമ്യം ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), നമ്മുടെ മോഡലുകളും NULL മോഡലും തമ്മിൽ താരതമ്യം ചെയ്യുന്നു"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
@@ -1102,36 +918,26 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), കേസുക
 
 #: contTables/options/obs.description.R
 msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), നിരീക്ഷിച്ച എണ്ണം (observed counts) "
-"തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), നിരീക്ഷിച്ച എണ്ണം (observed counts) തരുന്നു"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (2x2 ടേബിളുകൾക്ക് മാത്രം) ഓഡ്സ് അനുപാതം "
-"(odds ratio) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (2x2 ടേബിളുകൾക്ക് മാത്രം) ഓഡ്സ് അനുപാതം (odds ratio) തരുന്നു"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Independent വേരിയബിളുകൾ (predictors) "
-"കൾക്കുള്ള omnibus ANOVA ടെസ്റ്റ് ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Independent വേരിയബിളുകൾ (predictors) കൾക്കുള്ള omnibus ANOVA ടെസ്റ്റ് ചെയ്യുന്നു"
 
 #: logLinear/options/omni.description.R
 #: logRegBin/options/omni.description.R
 #: logRegMulti/options/omni.description.R
 #: logRegOrd/options/omni.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Independent വേരിയബിളുകൾ (predictors) "
-"കൾക്കുള്ള omnibus likelihood ratio ടെസ്റ്റുകൾ ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Independent വേരിയബിളുകൾ (predictors) കൾക്കുള്ള omnibus likelihood ratio ടെസ്റ്റുകൾ ചെയ്യുന്നു"
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), outcomes-ന്റെ കൃത്യതാ പ്രവചനം cut-off വി"
-"ലകൾ വെച്ച് ഗ്രൂപ്പ് ചെയ്ത് തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), outcomes-ന്റെ കൃത്യതാ പ്രവചനം cut-off വിലകൾ വെച്ച് ഗ്രൂപ്പ് ചെയ്ത് തരുന്നു"
 
 #: logRegBin/options/sens.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
@@ -1179,9 +985,7 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), തുക (sum)
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ആശ്രിത (dependent) വേരിയബിളിന്റെ "
-"ലെവലുകൾക്ക് കട്ട്-ഓഫ് സ്കോറുകളായി ഉപയോഗിക്കുന്ന പരിധികൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ആശ്രിത (dependent) വേരിയബിളിന്റെ ലെവലുകൾക്ക് കട്ട്-ഓഫ് സ്കോറുകളായി ഉപയോഗിക്കുന്ന പരിധികൾ തരുന്നു"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
@@ -1194,39 +998,28 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), മൊത്ത
 #: linReg/options/collin.description.R
 #: logRegBin/options/collin.description.R
 msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), VIF, tolerence collinearity എന്നിവയുടെ "
-"കണക്കുകൾ (statistics) തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), VIF, tolerence collinearity എന്നിവയുടെ കണക്കുകൾ (statistics) തരുന്നു"
 
 #: descriptives/options/violin.description.R
 msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) "
-"violin പ്ലോട്ടുകൾ തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), (continuous വേരിയബിളുകൾക്ക് മാത്രം) violin പ്ലോട്ടുകൾ തരുന്നു"
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഈ ഐറ്റം ഒഴിവാക്കിയാൽ Cronbach's α "
-"എത്രയായിരിക്കും എന്ന് പറയുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഈ ഐറ്റം ഒഴിവാക്കിയാൽ Cronbach's α എത്രയായിരിക്കും എന്ന് പറയുന്നു"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഈ ഐറ്റം ഒഴിവാക്കിയാൽ McDonald's ω "
-"എത്രയായിരിക്കും എന്ന് പറയുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), ഈ ഐറ്റം ഒഴിവാക്കിയാൽ McDonald's ω എത്രയായിരിക്കും എന്ന് പറയുന്നു"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
 msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), continuity correction-ഓടെ χ² തരുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), continuity correction-ഓടെ χ² തരുന്നു"
 
 #: anovaRM/options/groupSumm.description.R
 msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പല ഗ്രൂപ്പുകളുടെ ഒരു സംഗ്രഹം (summary) "
-"റിപ്പോർട്ട് ചെയ്യുന്നു"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പല ഗ്രൂപ്പുകളുടെ ഒരു സംഗ്രഹം (summary) റിപ്പോർട്ട് ചെയ്യുന്നു"
 
 #: logRegBin/options/cutOff.description.R
 msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
@@ -1277,9 +1070,7 @@ msgstr ""
 
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനതയ്ക്കുള്ള (homogeneity of "
-"variances) Levene's ടെസ്റ്റ്"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയൻസ് സമാനതയ്ക്കുള്ള (homogeneity of variances) Levene's ടെസ്റ്റ്"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
@@ -1287,16 +1078,12 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), വേരിയ
 
 #: propTestN/options/expected.description.R
 msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പ്രതീക്ഷിക്കുന്ന എണ്ണം (expected counts)"
-" കാണിക്കണോ വേണ്ടയോ എന്ന്"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), പ്രതീക്ഷിക്കുന്ന എണ്ണം (expected counts) കാണിക്കണോ വേണ്ടയോ എന്ന്"
 
 #: ancova/options/modelTest.description.R
 #: anova/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr ""
-"`TRUE` അല്ലെങ്കിൽ `FALSE` (default); മോഡലിന്റെ മൊത്തത്തിലുള്ള ഒരു ടെസ്റ്റ് "
-"ചെയ്യുക"
+msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default); മോഡലിന്റെ മൊത്തത്തിലുള്ള ഒരു ടെസ്റ്റ് ചെയ്യുക"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -1406,9 +1193,7 @@ msgstr ""
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr ""
-"മോഡലിൽ ചേർക്കേണ്ട repeated measures terms വിശദീകരിക്കുന്ന ഒരു character "
-"vector ലിസ്റ്റ്"
+msgstr "മോഡലിൽ ചേർക്കേണ്ട repeated measures terms വിശദീകരിക്കുന്ന ഒരു character vector ലിസ്റ്റ്"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1421,30 +1206,22 @@ msgstr ""
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
-msgstr ""
-"ഉപയോഗിക്കേണ്ട ഫാക്ടർ, contrast തരം എന്നിവ വ്യക്തമാക്കുന്ന ലിസ്റ്റുകളുടെ ഒരു "
-"ലിസ്റ്റ്. `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, "
-"`'repeated'` അല്ലെങ്കിൽ `'polynomial'` ഇവയിൽ ഒന്ന്"
+msgstr "ഉപയോഗിക്കേണ്ട ഫാക്ടർ, contrast തരം എന്നിവ വ്യക്തമാക്കുന്ന ലിസ്റ്റുകളുടെ ഒരു ലിസ്റ്റ്. `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` അല്ലെങ്കിൽ `'polynomial'` ഇവയിൽ ഒന്ന്"
 
 #: ttestPS/options/pairs.description.R
 msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr ""
-"`data`യിലെ മെഷർമെന്റ് പെയറുകൾ വ്യക്തമാക്കുന്ന ലിസ്റ്റുകളുടെ ഒരു ലിസ്റ്റ്"
+msgstr "`data`യിലെ മെഷർമെന്റ് പെയറുകൾ വ്യക്തമാക്കുന്ന ലിസ്റ്റുകളുടെ ഒരു ലിസ്റ്റ്"
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
-"എസ്റ്റിമേറ്റ് ചെയ്യേണ്ട residual covariances വ്യക്തമാക്കുന്ന ലിസ്റ്റുകളുടെ "
-"ഒരു ലിസ്റ്റ്"
+msgstr "എസ്റ്റിമേറ്റ് ചെയ്യേണ്ട residual covariances വ്യക്തമാക്കുന്ന ലിസ്റ്റുകളുടെ ഒരു ലിസ്റ്റ്"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
 #: logRegBin/options/emMeans.description.R
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
-msgstr ""
-"estimated marginal means കണക്കാക്കേണ്ട വേരിയബിളുകൾ വ്യക്തമാക്കുന്ന ഒരു "
-"ലിസ്റ്റുകളുടെ ലിസ്റ്റ്. ഒരു ടേമിൽ മൂന്നു വേരിയബിളുകൾ വരെ ആവാം."
+msgstr "estimated marginal means കണക്കാക്കേണ്ട വേരിയബിളുകൾ വ്യക്തമാക്കുന്ന ഒരു ലിസ്റ്റുകളുടെ ലിസ്റ്റ്. ഒരു ടേമിൽ മൂന്നു വേരിയബിളുകൾ വരെ ആവാം."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
@@ -1479,8 +1256,7 @@ msgstr ""
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
-"ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0.3), ഈ മൂല്യത്തിന് താഴെയുള്ള ലോഡിങ്ങുകൾ മറയ്ക്കുക"
+msgstr "ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0.3), ഈ മൂല്യത്തിന് താഴെയുള്ള ലോഡിങ്ങുകൾ മറയ്ക്കുക"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
@@ -1488,9 +1264,7 @@ msgstr "ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0.5), ശൂന�
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
-msgstr ""
-"ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0), മോഡലിൽ ഉൾപ്പെടുത്തേണ്ട ഒരു ഫാക്ടറിന്റെ ഏറ്റവും "
-"കുറഞ്ഞ എയ്ഗൻവാല്യൂ"
+msgstr "ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0), മോഡലിൽ ഉൾപ്പെടുത്തേണ്ട ഒരു ഫാക്ടറിന്റെ ഏറ്റവും കുറഞ്ഞ എയ്ഗൻവാല്യൂ"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
@@ -1502,15 +1276,16 @@ msgstr "ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 1), ബീറ്
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr ""
-"ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0), മോഡലിൽ ഉൾപ്പെടുത്തേണ്ട ഒരു component-ന്റെ ഏറ്റവും "
-"കുറഞ്ഞ എയ്ഗൻവാല്യൂ"
+msgstr "ഒരു സംഖ്യ (ഡിഫോൾട്ട്: 0), മോഡലിൽ ഉൾപ്പെടുത്തേണ്ട ഒരു component-ന്റെ ഏറ്റവും കുറഞ്ഞ എയ്ഗൻവാല്യൂ"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
@@ -3033,6 +2808,10 @@ msgstr ""
 msgid "Data Reduction"
 msgstr ""
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -3796,11 +3575,6 @@ msgstr ""
 msgid "Descriptives table"
 msgstr ""
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr ""
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4496,6 +4270,13 @@ msgstr ""
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
+msgstr ""
+
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
 msgstr ""
 
 #: efa/options/hideLoadings.title
@@ -5234,6 +5015,10 @@ msgstr ""
 msgid "Modification indices"
 msgstr ""
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr ""
@@ -5374,6 +5159,10 @@ msgstr ""
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
+msgstr ""
+
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
 
 #: R/mancova.b.R
@@ -6453,6 +6242,10 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
+msgstr ""
+
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
 msgstr ""
 
 #: R/descriptives.b.R
@@ -7586,6 +7379,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr ""
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -7816,6 +7612,10 @@ msgstr ""
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
+msgstr ""
+
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
 msgstr ""
 
 #: cfa/options/fitMeasures/tli.title
@@ -8073,12 +7873,31 @@ msgstr ""
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr ""
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
+msgstr ""
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
 msgstr ""
 
 #: anovaOneW/results/anova.columns.content

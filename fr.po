@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-03-25 20:41+0000\n"
-"Last-Translator: tachyglossues <tachyglossues@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"fr/>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1287,6 +1283,9 @@ msgid "a number (default: 3), highlight values in the `'modIndices'` tables abov
 msgstr "un nombre (défaut : 3), souligne les valeurs supérieures à cette valeur dans le tableau `'modIndices'`"
 
 #: ttestIS/options/bfPrior.description.R
+msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
+msgstr ""
+
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr "un nombre entre 0.5 et 2 (défaut 0.707), la largeur de l'a priori à utiliser pour calculer les facteurs de Bayes"
@@ -2929,6 +2928,10 @@ msgstr "data <- lavaan::HolzingerSwineford1939\n"
 msgid "Data Reduction"
 msgstr "Réduction de données"
 
+#: weights/results/text.content
+msgid "Data set is currently unweighted"
+msgstr ""
+
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
@@ -4241,11 +4244,6 @@ msgstr "Tableau des statistiques descriptives"
 msgid "Descriptives table"
 msgstr "Tableau des statistiques descriptives"
 
-#: package/analyses/empty.menuGroup
-#: empty/options.menuGroup
-msgid "dev"
-msgstr "dev"
-
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/options/dev.title
@@ -4637,9 +4635,7 @@ msgstr "Le facteur '{facteurNom}' ne contient qu'un seul niveau (après suppress
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
-"'{factorName}' contient des modalités inutilisées (après avoir filtré les "
-"lignes contenant des valeurs manquantes)"
+msgstr "'{factorName}' contient des modalités inutilisées (après avoir filtré les lignes contenant des valeurs manquantes)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4948,6 +4944,13 @@ msgstr "Harman"
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
 msgstr "Helmert"
+
+#: package/analyses/empty.menuGroup
+#: package/analyses/weights.menuGroup
+#: empty/options.menuGroup
+#: weights/options.menuGroup
+msgid "hidden"
+msgstr ""
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5689,6 +5692,10 @@ msgstr "Indices de modification"
 msgid "Modification indices"
 msgstr "Indices de modification"
 
+#: R/conttables.b.R
+msgid "Monte Carlo simulation"
+msgstr ""
+
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr "Plus d'un mode existe, seul le premier est proposé"
@@ -5831,6 +5838,10 @@ msgstr "Test de normalité"
 msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test de normalité (Shapiro-Wilk)"
 
+#: R/logregbin.b.R
+msgid "Not all coefficients could be estimated (likely due to singular fit)"
+msgstr ""
+
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
 msgstr "Indisponible : nombre de cases trop élevé (> 5000)."
@@ -5861,9 +5872,7 @@ msgstr "Nombre de facteurs"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
-"Le nombre de valeurs extrêmes demandées est supérieur au nombre de lignes du "
-"jeu de données."
+msgstr "Le nombre de valeurs extrêmes demandées est supérieur au nombre de lignes du jeu de données."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -6315,9 +6324,7 @@ msgstr "Pearson"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
-"La corrélation de Pearson ne peut pas être calculée pour des valeurs non "
-"numériques"
+msgstr "La corrélation de Pearson ne peut pas être calculée pour des valeurs non numériques"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6930,6 +6937,10 @@ msgstr "R²<sub>McF</sub>"
 msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
 
+#: logRegBin/results/modelFit.columns.title
+msgid "R²<sub>T</sub>"
+msgstr ""
+
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
@@ -7100,9 +7111,7 @@ msgstr "Graphes des résidus"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
-"La somme des carrés résiduelle et/ou les degrés de libertés valent 0, ce qui "
-"indique un ajustement parfait"
+msgstr "La somme des carrés résiduelle et/ou les degrés de libertés valent 0, ce qui indique un ajustement parfait"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7938,9 +7947,7 @@ msgstr "les variables indépendantes ou explicatives."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"L'IC de la moyenne utilisant la moyenne de l'échantillon suit une "
-"distribution de Student à N - 1 degrés de liberté"
+msgstr "L'IC de la moyenne utilisant la moyenne de l'échantillon suit une distribution de Student à N - 1 degrés de liberté"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -8021,15 +8028,11 @@ msgstr "les données sous forme de data frame"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"Le jeu de données contient 0 ligne (après avoir filtré les valeurs "
-"manquantes)"
+msgstr "Le jeu de données contient 0 ligne (après avoir filtré les valeurs manquantes)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
-"Le jeu de données ne contient pas de ligne (ou toutes les lignes contiennent "
-"des valeurs manquantes)"
+msgstr "Le jeu de données ne contient pas de ligne (ou toutes les lignes contiennent des valeurs manquantes)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -8158,6 +8161,9 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr "les corrections à utiliser pour les comparaisons post hoc multiples."
 
 #: ttestIS/options/bfPrior.description.ui
+msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgstr ""
+
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
@@ -8455,6 +8461,10 @@ msgstr "Seuils"
 msgid "Thurstone"
 msgstr "Thurstone"
 
+#: logRegBin/options/pseudoR2/r2t.title
+msgid "Tjur's R²"
+msgstr ""
+
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
@@ -8710,13 +8720,32 @@ msgstr "W"
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr "Chaque cellule a le même poids (le poids des cellules est calculé selon la fréquence par défaut des cellules)."
 
+#: weights/options/weights.title
+#: weights/ui[0][0].label
+msgid "Weight Variable"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
 msgstr "Pondéré par '{varName}' ;"
 
+#: package/analyses/weights.title
+#: package/analyses/weights.menuTitle
+#: weights/options.title
+#: weights/ui.title
+#: weights/results.title
+msgid "Weights"
+msgstr ""
+
 #: linReg/options/weights.title
 msgid "Weights (optional)"
 msgstr "Poids (facultatif)"
+
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Weights contains negative values. Negative weights are not permitted."
+msgstr ""
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
