@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-09-13 09:50+0000\n"
+"PO-Revision-Date: 2023-09-13 10:50+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "de/>\n"
@@ -2947,7 +2947,7 @@ msgstr "Datenreduktion"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Datensatz ist zur Zeit ungewichtet"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4568,7 +4568,7 @@ msgstr "Erwartete Anteile"
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
 msgid "Exploration"
-msgstr "Erkundung"
+msgstr "Exploration"
 
 #: R/efa.b.R
 #: package/analyses/efa.title
@@ -4964,7 +4964,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "versteckt"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5704,7 +5704,7 @@ msgstr "Modifikationsindizes"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Monte-Carlo-Simulation"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5851,6 +5851,8 @@ msgstr "Test auf Normalverteilung (Shapiro-Wilk)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"Nicht alle Koeffizienten konnten geschätzt werden (wahrscheinlich weil die "
+"Ergebnismatrix singulär ist)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6952,7 +6954,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8160,6 +8162,8 @@ msgstr "die zu verwendenden Korrekturen für mulitple Paarvergleiche in den Post
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"die Breite des Priors für den Bayes-Faktor im Student's t-test. Erfordert "
+"einen Wert zwischen 0.5 und 2.0, Vorgabe: 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8455,7 +8459,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² nach Tjur"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8715,7 +8719,7 @@ msgstr "jede Zelle gleich gewichten (standardmäßig werden die Zellen nach der 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Gewichtungsvariable"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8738,6 +8742,7 @@ msgstr "Gewichte (optional)"
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
 msgstr ""
+"Die Gewichte enthalten negative Werte. Negative Gewichte sind nicht zulässig."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
