@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-09-13 11:50+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/nb_NO/>\n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: no\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1285,6 +1289,8 @@ msgstr "et tall (standard: 3), marker verdier i `'modIndices'`-tabellene som ove
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"et tall mellom 0.01 og 2 (standard: 0.707), bredden av prior som skal brukes "
+"til å beregne Bayes-faktor"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2937,7 +2943,7 @@ msgstr "Datareduksjon"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Datasettet er for øyeblikket uvektet"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4953,7 +4959,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "skjult"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5693,7 +5699,7 @@ msgstr "Modifikasjonsindekser"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Monte Carlo-simulasjon"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5840,6 +5846,8 @@ msgstr "Test på normalfordeling (Shapiro-Wilk)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"Ikke alle koeffisienter kunne estimeres (sannsynligvis fordi "
+"resultatmatrisen er singulær)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6940,7 +6948,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8147,6 +8155,8 @@ msgstr "korreksjonene som skal brukes for de multiple sammenligningene i post-ho
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"bredden på prior for Bayes-faktorer i Students t-test. Krever en verdi "
+"mellom 0.01 og 2.0 (standard: 0.707)."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8435,7 +8445,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "Tjur's R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8695,7 +8705,7 @@ msgstr "vei hver celle likt (som standard veies cellene i henhold til cellefrekv
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Variabel for vekting"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8707,7 +8717,7 @@ msgstr "Vektet med «{varName}»"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Vekter"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8717,7 +8727,7 @@ msgstr "Vekting (valgfritt)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Vektene inneholder negative verdier. Negative vekter er ikke tillatt."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
