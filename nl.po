@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-08-07 19:51+0000\n"
-"Last-Translator: Astrid <github@astrid.exposed>\n"
+"PO-Revision-Date: 2023-09-23 14:00+0000\n"
+"Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
 "Language: nl\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`Modelcoëfficiënten - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
@@ -413,7 +413,7 @@ msgstr "`TRUE` (standaard) of `FALSE`, geef de statistische meting `R` voor de m
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "`TRUE` (standaard) of `FALSE`, geef χ² op"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -2875,7 +2875,7 @@ msgstr "Gegevensreductie"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Gegevensset is momenteel ongewogen"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4499,7 +4499,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "verborgen"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5239,7 +5239,7 @@ msgstr "Modifciatie-indices"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Monte-Carlosimulatie"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -6355,7 +6355,7 @@ msgstr ""
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
 msgid "provide the number of cases."
-msgstr ""
+msgstr "geef het aantal waarden op."
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -6396,11 +6396,11 @@ msgstr "Q-Q-plot"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "Q-Q-plot die multivariate normaliteit evalueert"
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "Q-Q-plot van multivariate normaliteit"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
@@ -6468,7 +6468,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -6618,7 +6618,7 @@ msgstr "Covarianties van residuen"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "Covarianties van residu's - modificatie-indices"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
@@ -6959,7 +6959,7 @@ msgstr "Shapiro-Wilk-toets"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr ""
+msgstr "Toets van Shapiro-Wilk voor multivariate normaliteit"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
@@ -7436,7 +7436,7 @@ msgstr "de contrasten die moeten worden gebruikt."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr ""
+msgstr "de betreffende controlevariabelen."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
@@ -7559,7 +7559,7 @@ msgstr ""
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
-msgstr ""
+msgstr "de vaste factoren van `data`"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -7854,7 +7854,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² van Tjur"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -7924,11 +7924,11 @@ msgstr "Tukey (gelijke varianties)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "Post-Hoctoets van Tukey – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "Kwadraatsommen type {ssType}"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
@@ -7949,7 +7949,7 @@ msgstr "Type 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "Kwadraatsommen type 3"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
@@ -8026,7 +8026,7 @@ msgstr "Variabele"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "Variabele '{var}' bevat geen waarden"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
@@ -8114,7 +8114,7 @@ msgstr ""
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Weegvariabele"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8126,7 +8126,7 @@ msgstr "Gewicht bepaald door '{varName}'"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Weegfactoren"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
