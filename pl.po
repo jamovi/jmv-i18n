@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-09-05 14:57+0000\n"
+"PO-Revision-Date: 2023-10-14 20:02+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -229,7 +229,12 @@ msgstr "`'none'`, `'ci'` (domyślnie) lub `'se'`. Odpowiednio: nie używaj słup
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr "`'none'`, `'gamesHowell'` lub `'tukey'`, wybierz, który test post-hoc zastosować; `'none'` nie wyświetla żadnego testu, `'gamesHowell'` wyświetla test Games-Howell, który nie zakłada równości wariancji, natomiast `'tukey'` wyświetla test Tukey'a zakładający równość (homogeniczność) wariancji"
+msgstr ""
+"`'none'`, `'gamesHowell'` lub `'tukey'`, wybierz, który test post-hoc "
+"zastosować; `'none'` nie wyświetla żadnego testu, `'gamesHowell'` wyświetla "
+"test Gamesa-Howella, który nie zakłada równości wariancji, natomiast "
+"`'tukey'` wyświetla test Tukey'a zakładający równość (homogeniczność) "
+"wariancji"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
@@ -308,7 +313,9 @@ msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test t Studenta"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welch'a (nie zakłada równości wariancji)"
+msgstr ""
+"`TRUE` (domyślnie) lub `FALSE`, wykonuje test jednoczynnikowa ANOVA Welcha ("
+"nie zakłada równości wariancji)"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
@@ -466,7 +473,7 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy homogeniczności warianc
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy U Manna-Whitney'a"
+msgstr "`TRUE` lub `FALSE` (domyślnie), wykonuje testy U Manna-Whitneya"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
@@ -794,7 +801,9 @@ msgstr "`TRUE` lub `FALSE` (domyślnie), podaje percentyle"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr "`TRUE` lub `FALSE` (domyślnie), podaje współczynniki korelacji Phi Yula i V Cramera"
+msgstr ""
+"`TRUE` lub `FALSE` (domyślnie), podaje współczynniki korelacji Phi Yule'a i "
+"V Cramera"
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
@@ -5330,7 +5339,7 @@ msgstr "MANCOVA"
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr "U Manna-Whitney'a"
+msgstr "U Manna-Whitneya"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
@@ -5376,7 +5385,7 @@ msgstr "Tabele średnich brzegowych"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
-msgstr "W Mauchly'a"
+msgstr "W Mauchly'ego"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
@@ -6001,12 +6010,18 @@ msgstr "jedno lub więcej z `'none'` (domyślnie), `'GG'` lub ``HF``; użyj odpo
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
-msgstr "jedno lub więcej spośród: `'none'`, `'tukey'` (domyślnie), `'scheffe'`, `'bonf'` lub `'holm'`; użyj następujących poprawek post-hoc (odpowiednio): brak, Tukey'a, Scheffégo, Bonferroniego lub Holma"
+msgstr ""
+"jedno lub więcej spośród: `'none'`, `'tukey'` (domyślnie), `'scheffe'`, "
+"`'bonf'` lub `'holm'`; użyj następujących poprawek post-hoc (odpowiednio): "
+"brak, Tukeya, Scheffégo, Bonferroniego lub Holma"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
-msgstr "jedno lub więcej spośród: `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` lub `'holm'`; użyj następujących poprawek post-hoc (odpowiednio): brak, Tukey'a, Scheffégo, Bonferroniego lub Holma"
+msgstr ""
+"jedno lub więcej spośród: `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` lub "
+"`'holm'`; użyj następujących poprawek post-hoc (odpowiednio): brak, Tukeya, "
+"Scheffégo, Bonferroniego lub Holma"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
@@ -7804,7 +7819,7 @@ msgstr "-ty percentyl"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr "Zbiór danych \"Irysy\" z R"
+msgstr "Zbiór danych \"Iris\" z R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
@@ -8513,15 +8528,15 @@ msgstr "total_pc (domyślnie), column_pc lub row_pc. Użyj odpowiednio: procent�
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr "Test Tukey'a"
+msgstr "Test Tukeya"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr "Test Tukey'a (równe wariancje)"
+msgstr "Test Tukeya (równe wariancje)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr "Test post-hoc Tukey'a – {dep}"
+msgstr "Test post-hoc Tukeya – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
@@ -8738,11 +8753,11 @@ msgstr "Wagi zawierają wartości ujemne. Ujemne wagi są niedozwolone."
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr "Test Welch'a"
+msgstr "Test Welcha"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr "t Welch'a"
+msgstr "t Welcha"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
