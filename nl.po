@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-09-23 14:00+0000\n"
-"Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
+"PO-Revision-Date: 2023-10-18 04:14+0000\n"
+"Last-Translator: Marielle Winarto <mwinarto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
 "Language: nl\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -189,12 +189,15 @@ msgstr "`'1'`, `'2'` of `'3'` (standaard); de som van de te gebruiken vierkantsw
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr "`'2'` of `'3'` (standaard); de som van de te gebruiken vierkantswortels"
+msgstr "`'2'` of `'3'` (standaard); de te gebruiken kwadratensom"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr "`'different'` (standaard), `'oneGreater'` of `'twoGreater'`; de alternatieve hypothese, resp.: groep 1 verschilt aan groep 2, groep 1 groter dan groep 2, groep 2 groter dan groep 1"
+msgstr ""
+"`'different'` (standaard), `'oneGreater'` of `'twoGreater'`; de alternatieve "
+"hypothese, respectievelijk: groep 1 ongelijk aan groep 2, groep 1 groter dan "
+"groep 2, groep 2 groter dan groep 1"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
@@ -215,6 +218,8 @@ msgstr ""
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
 msgstr ""
+"`'means'` (standaard) of `'medians'`, de foutbalken om in de figuur te "
+"gebruiken"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
@@ -241,6 +246,7 @@ msgstr "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (standaard
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
 msgstr ""
+"`'notequal'` (standaard), `'greater'` of `'less'`, de alternatieve hypothese"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
