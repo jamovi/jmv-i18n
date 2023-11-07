@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-10-18 04:14+0000\n"
-"Last-Translator: Marielle Winarto <mwinarto@gmail.com>\n"
+"PO-Revision-Date: 2023-11-07 15:33+0000\n"
+"Last-Translator: QkeleQ10 <quinten@althues.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/"
 ">\n"
 "Language: nl\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -214,6 +214,10 @@ msgstr ""
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"`'listwise'` of `'fiml'`, hoe er met ontbrekende waarden omgegaan wordt; "
+"`'listwise'` sluit de hele rij uit van alle analyses als de rij een "
+"ontbrekende waarde bevat, `'fiml'` gebruikt een full-information-maximum-"
+"likelihoodmethode om het model te schatten."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
@@ -230,10 +234,18 @@ msgstr "`'minres'` (standaard), `'ml'`, of `'pa'` gebruiken respectievelijk 'min
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
+"`'none'`, `'ci'` (standaard) of `'se'`. Gebruik resp. geen foutbalken, "
+"betrouwbaarheidsintervallen of standaardfouten op de grafieken met marginale "
+"gemiddelden"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"`'none'`, `'gamesHowell'` of `'tukey'`, welke post-hoctoets zal worden "
+"berekend; `'none'` toont geen post-hoctoetsen, `'gamesHowell'` toont post-"
+"hoctoetsen van Games-Howell waarbij geen variantie-equivalentie aangenomen "
+"wordt en `'tukey'` toont post-hoctoetsen waarbij variantie-equivalentie wel "
+"wordt aangenomen"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
@@ -262,6 +274,10 @@ msgstr "`'perAnalysis'` of `'listwise'`, hoe met ontbrekende waarden wordt omgeg
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"`'perAnalysis'` of `'listwise'`, hoe er met ontbrekende waarden omgegaan "
+"wordt; `'perAnalysis'` sluit ontbrekende waarden uit voor individuele "
+"afhankelijke variabelen, `'listwise'` sluit de hele rij uit van alle "
+"analyses als de rij een ontbrekende waarde bevat."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
@@ -270,6 +286,8 @@ msgstr ""
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
 msgstr ""
+"`'rows'` orf`'columns'` (standaard), of de variabelen over de rijen of "
+"kolommen moeten worden weergegeven"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
@@ -7404,10 +7422,14 @@ msgstr "de modeltermen die van toepassing zijn tussen elementen."
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"De binomiale toets wordt gebruikt om de nulhypothese, dat de "
+"steekproefproportie overeenkomt met een verwachte waarde, te toetsen. Een "
+"lage p-waarde duidt erop dat de nulhypothese onjuist is. De ware proportie "
+"moet dan gelijk zijn aan een andere waarde."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "de categorische verklarende (of onafhankelijke) variabelen."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
@@ -7458,7 +7480,7 @@ msgstr "de covariaten van `data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "De afsnijdwaarde is {}"
 
 #: ancova/options/data.description.R
 #: anova/options/data.description.R
@@ -7493,18 +7515,22 @@ msgstr "gegevens als dataframe"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"De dataset bevat 0 rijen (na verwijderen van rijen met ontbrekende waarden)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "De dataset bevat 0 rijen (of alle rijen bevatten ontbrekende waarden)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"De afhankelijke variabele '{}' heeft meer dan twee niveaus. Binomiale "
+"logistische regressie kan alleen worden toegepast op afhankelijke variabelen "
+"die binomiaal zijn (twee niveaus hebben)."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr ""
+msgstr "De afhankelijke variabele '{dep}' heeft als volgorde: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
@@ -7513,20 +7539,22 @@ msgstr "De afhankelijke variabele '{dep}' heeft slechts twee niveaus. Overweeg e
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "de afhankelijke variabele uit `data`, moet numeriek zijn"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"de afhankelijke variabele uit `data`, moet numeriek zijn (niet vereist "
+"wanneer een formule wordt opgegeven, zie voorbeelden)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "de afhankelijke variabele. Voor ANCOVA moet deze continu zijn."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "de afhankelijke variabele. Voor ANOVA moet deze continu zijn."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
@@ -7535,16 +7563,18 @@ msgstr "de afhankelijke variabelen -- een losse t-toets wordt uitgevoerd voor el
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
 msgstr ""
+"de afhankelijke variabele (niet vereist bij het gebruiken van een formule, "
+"zie voorbeelden)"
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "de afhankelijke variabelen. Voor ANOVA moeten deze continu zijn."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "de foutbalken die op de marginale gemiddelden geplot moeten worden."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
