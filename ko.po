@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 09:07+0000\n"
+"PO-Revision-Date: 2023-12-23 10:09+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -1720,22 +1720,22 @@ msgstr "'데이터'에서 공변량을 명명하는 문자열 벡터"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
-msgstr ""
+msgstr "'data'에서 공변량을 명명하는 문자열 벡터. 변수는 숫자여야 한다"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
 msgid "a vector of strings naming the factors from `data`"
-msgstr ""
+msgstr "'데이터'에서 인자를 명명하는 문자열 벡터"
 
 #: logRegBin/options/factors.description.R
 #: logRegMulti/options/factors.description.R
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
-msgstr ""
+msgstr "'데이터'에서 고정 인자를 명명하는 문자열 벡터"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
-msgstr ""
+msgstr "반복 측정 변수를 명명하는 문자열 벡터"
 
 #: descriptives/options/vars.description.R
 #: efa/options/vars.description.R
@@ -1744,16 +1744,16 @@ msgstr ""
 #: reliability/options/vars.description.R
 #: ttestOneS/options/vars.description.R
 msgid "a vector of strings naming the variables of interest in `data`"
-msgstr ""
+msgstr "'데이터'의 관심 변수를 명명하는 문자열 벡터"
 
 #: corrMatrix/options/vars.description.R
 #: corrPart/options/vars.description.R
 msgid "a vector of strings naming the variables to correlate in `data`"
-msgstr ""
+msgstr "'데이터'에서 연관시킬 변수의 이름을 지정하는 문자열 벡터"
 
 #: descriptives/options/splitBy.description.R
 msgid "a vector of strings naming the variables used to split `vars`"
-msgstr ""
+msgstr "분산을 분할하는 데 사용되는 변수의 이름을 지정하는 문자열 벡터"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -1820,13 +1820,13 @@ msgstr "조정된 R²"
 #: logRegOrd/options/aic.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "AIC"
-msgstr ""
+msgstr "아카이케 정보 기준"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr ""
+msgstr "모든 관측치는 동률이다"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -1838,24 +1838,24 @@ msgstr "대안가설"
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
 msgid "an array of contrasts tables"
-msgstr ""
+msgstr "대조표의 배열"
 
 #: descriptives/results/plots.description
 msgid "an array of descriptive plots"
-msgstr ""
+msgstr "설명 플롯의 배열"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "극값 표들의 배열"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
-msgstr ""
+msgstr "일련의 빈도표"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
 msgid "an array of groups of plots"
-msgstr ""
+msgstr "플롯 그룹의 배열"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
@@ -1863,25 +1863,25 @@ msgstr ""
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
 msgid "an array of model specific results"
-msgstr ""
+msgstr "모델별 결과 배열"
 
 #: anovaNP/results/comparisons.description
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "쌍대비교표열"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "사후 테이블 배열"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "Q-Q 플롯 배열"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "설명 플롯의 배열"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -1891,43 +1891,43 @@ msgstr ""
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "추정된 한계 평균 그림 + 표의 배열"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "후방 플롯의 배열"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "모델 경로 다이어그램을 포함하는 이미지"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "묘사된 줄거리의 이미지"
 
 #: pca/options/nFactors.description.R
 msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
+msgstr "정수(기본값: 1), 모델의 성분 수"
 
 #: efa/options/nFactors.description.R
 msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
+msgstr "정수(기본값: 1), 모델의 요인 수"
 
 #: descriptives/options/pcNEqGr.description.R
 msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr ""
+msgstr "동일한 그룹의 수를 지정하는 정수(기본값: 4)"
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "극값의 수를 지정하는 정수(기본값: 5)"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "고무적이지 않은 분산 분석 데이터 집합"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
-msgstr ""
+msgstr "jamovi와 함께 번들링된 분석"
 
 #: package/analyses/ancova.title
 #: package/analyses/ancova.menuTitle
@@ -1939,11 +1939,11 @@ msgstr "공분산 분석"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
-msgstr ""
+msgstr "앤더슨 & 루빈"
 
 #: package/datasets/Anderson's Iris Data.name
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "앤더슨의 아이리스 데이터"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -1966,7 +1966,7 @@ msgstr ""
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr "ANOVA"
+msgstr "분산 분석"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
@@ -1974,7 +1974,7 @@ msgstr "분산분석 검증"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr ""
+msgstr "피험자 사이에 지정된 요인이 없으므로 이 가정은 항상 충족된다."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -2015,7 +2015,7 @@ msgstr "적어도 한개의 변수는 2개의 수준을 가져야 한다"
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "AUC"
-msgstr ""
+msgstr "곡선 아래 영역"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
@@ -2031,7 +2031,7 @@ msgstr "2x2 테이블에만 사용 가능"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "b 매개변수"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
@@ -2052,7 +2052,7 @@ msgstr "막대유형"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
-msgstr ""
+msgstr "바틀렛"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
@@ -2071,7 +2071,7 @@ msgstr "고유값 기반"
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr ""
+msgstr "병렬 분석을 기반으로 함"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -2088,7 +2088,7 @@ msgstr "베이즈 계수"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr ""
+msgstr "베이즈 팩터"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
@@ -2096,23 +2096,23 @@ msgstr "베이지안 통계"
 
 #: propTest2/options/priorA.title
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "베타 'a' 매개변수"
 
 #: propTest2/options/priorB.title
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "베타 'b' 매개변수"
 
 #: anovaRM/options/bs.title
 msgid "Between Subject Factors"
-msgstr ""
+msgstr "주제 요인 간"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr ""
+msgstr "주제 간 구성요소"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
-msgstr ""
+msgstr "주제 사이의 효과"
 
 #: cfa/options/fitMeasures/bic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -2128,11 +2128,11 @@ msgstr ""
 #: logRegOrd/results/modelFit.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "BIC"
-msgstr ""
+msgstr "베이지안 정보 기준"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).name
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr ""
+msgstr "빅5 (돌란, 오르트, 스톨 & 위처츠, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
@@ -2166,7 +2166,7 @@ msgstr "이항 검증"
 #: jamovi/js/logregord.events.js:38
 #: jamovi/js/logregord.events.js:4
 msgid "Block {0}"
-msgstr ""
+msgstr "블럭 {0}"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logLinear/ui[1]/modelSupplier[0]/blocks.template/blockName.label
@@ -2174,7 +2174,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 msgid "Block 1"
-msgstr ""
+msgstr "블럭 1"
 
 #: linReg/options/blocks.title
 #: logLinear/options/blocks.title
@@ -2182,13 +2182,13 @@ msgstr ""
 #: logRegMulti/options/blocks.title
 #: logRegOrd/options/blocks.title
 msgid "Blocks"
-msgstr ""
+msgstr "블럭들"
 
 #: ancova/options/postHocCorr/bonf.title
 #: anova/options/postHocCorr/bonf.title
 #: anovaRM/options/postHocCorr/bonf.title
 msgid "Bonferroni"
-msgstr ""
+msgstr "본페로니"
 
 #: descriptives/options/box.title
 msgid "Box plot"
@@ -2200,27 +2200,27 @@ msgstr "박스 도표"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
-msgstr ""
+msgstr "Box-Tidwell 검정"
 
 #: logRegBin/results/models.template/assump/boxTidwell.title
 msgid "Box-Tidwell Test for Linearity of the Logit"
-msgstr ""
+msgstr "로짓의 선형성에 대한 Box-Tidwell 검정"
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr ""
+msgstr "공분산 행렬의 상자 균질성 검정"
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
-msgstr ""
+msgstr "박스오피스 테스트"
 
 #: mancova/options/boxM.title
 msgid "Box's M test for homogeneity of covariance matrices"
-msgstr ""
+msgstr "공분산 행렬의 균질성에 대한 박스의 M 검정"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).name
 msgid "Bugs (Ryan, Wilde & Crist, 2013)"
-msgstr ""
+msgstr "벅스 (라이언, 와일드 & 크리스트, 2013)"
 
 #: contTables/ui[1][1].label
 msgid "Cells"
