@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 04:11+0000\n"
+"PO-Revision-Date: 2023-12-23 05:01+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -119,7 +119,7 @@ msgstr "선형 회귀 모델 {modelNo}의 {varType}"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, 단측"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -185,62 +185,87 @@ msgstr "행 비율"
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "사용할 제곱합인 '1', '2' 또는 '3'(기본값)"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "사용할 제곱합인 '2' 또는 '3'(기본값)"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
 msgstr ""
+"대립 가설인 'different'(기본값), 'one Greater' 또는 'two Greater'(2Greater); "
+"그룹 1이 그룹 2에, 그룹 1이 그룹 2보다, 그룹 2보다 큰 그룹 2가 그룹 1보다 큰 "
+"그룹"
 
 #: ttestPS/options/hypothesis.description.R
 msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
 msgstr ""
+"'different'(기본값), 'one Greater' 또는 'two Greater'(2Greater), 즉 서로 "
+"다른 1을 측정하여 2를 측정하고, 측정값보다 큰 1을 측정하며, 측정값보다 큰 "
+"2를 각각 측정합니다"
 
 #: ttestOneS/options/hypothesis.description.R
 msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
 msgstr ""
+"대립 가설인 'dt'(기본값), 'gt' 또는 'lt'; 'testValue'와 다르고, "
+"'testValue'보다 크고, 'testValue'보다 작음"
 
 #: cfa/options/constrain.description.R
 msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
 msgstr ""
+"facVar 또는 facInd 모형의 제약 방법 facVar는 요인 분산을 1로 고정하고 "
+"facInd는 각 요인을 첫 번째 지표의 척도로 고정한다."
 
 #: cfa/options/miss.description.R
 msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
 msgstr ""
+"listwise 또는 fiml, 결측 값 처리 방법, listwise는 입력 항목 중 하나가 결측인 "
+"경우 모든 분석에서 행을 제외하고 fiml은 전체 정보 최대 가능성 방법을 "
+"사용하여 모형을 추정한다."
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr ""
+msgstr "플롯에서 사용할 오차 막대인 'means'(기본값) 또는 '중앙값'"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"'minres'(기본값), 'ml' 또는 'pa'는 각각 'minimum 잔차', '최대 가능성' 또는 "
+"'prin 축'을 요인 추출 방법으로 사용한다"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
 msgstr ""
+"'none', 'ci'(기본값) 또는 'se'이다. 오차 막대를 사용하지 않고 신뢰 구간을 "
+"사용하거나 한계 평균 그림에 표준 오차를 사용합니다"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"사후 테스트를 제공하는 'none', 'gamesHowell', 'tukey', 'none'은 사후 "
+"테스트를 보여주지 않으며, 'gamesHowell'은 분산의 등가성이 가정되지 않는 게임-"
+"Howell 사후 테스트를 보여주고, 'tukey'는 분산의 등가성이 가정되지 않는 Tukey "
+"사후 테스트를 보여줍니다"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"추정에 사용할 회전인 'none', 'varimax'(기본값), 'quartimax', 'promax', "
+"'oblimin' 또는 'simplimax'"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"추정에 사용할 회전인 'none', 'varimax'(기본값), 'quartimax', 'promax', "
+"'oblimin' 또는 'simplimax'"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr ""
+msgstr "대립 가설인 'notecqual'(기본값), '더 크거나' 또는 '더 작은'"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
