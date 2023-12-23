@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 05:07+0000\n"
+"PO-Revision-Date: 2023-12-23 06:07+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -284,18 +284,25 @@ msgstr ""
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"결측 값을 처리하는 방법인 'perAnalysis' 또는 'listwise', 'perAnalysis'는 "
+"개별 종속변수의 결측 값을 제외하고, 'listwise'는 입력된 항목 중 하나가 "
+"누락된 경우 모든 분석에서 행을 제외합니다."
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
+"절편을 코딩하는 'refLevel'(기본값) 또는 '합동 평균'입니다. 절편이 기준 수준 "
+"또는 합동 평균을 나타내도록 대비를 만듭니다"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr ""
+msgstr "'행' 또는 '열'(기본값), 행 또는 열에 변수 표시(기본값)"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
 msgstr ""
+"요인 점수를 추정할 때 'Thurstone'(기본값), 'Bartlett'(바틀렛), 'ten "
+"Berge'(텐베르제), 'Anderson'(앤더슨) 또는 'Harman'(하만)을 각각 사용한다"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -307,61 +314,65 @@ msgstr "분산분석-종속변수"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr ""
+msgstr "'열' 또는 '행'(기본값), 비율의 차이 또는 상대적 위험의 열/행 비교(2x2 표)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr "모형계수- 종속변수"
+msgstr "모형계수- 종속변수-${dep}'"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "모형계수- 종속변수-${dep}'"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "'비율 - ${var}'"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 상자 그림의 이상점에 행 번호가 표시된 레이블을 "
+"추가한다"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 스튜던트의 T 검정 수행한다"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 등분산을 가정하지 않은 Welch의 일원 분산 분석을 "
+"수행한다"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델 추정치에 대해 'Z' 및 'p' 값을 제공한다"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델과 완벽한 피팅 모델을 비교하는 정확한 피팅에 "
+"대한 카이-제곱 검정을 제공한다"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 추정된 한계 평균에 대한 신뢰 구간을 제공한다"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
 #: logRegMulti/options/aic.description.R
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델에 대한 AIC(Aikaike's Information Criteria)를 "
+"제공한다"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 크론바흐 알파를 제공한다"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -371,77 +382,77 @@ msgstr ""
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 추정된 한계 평균 그림을 제공한다"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 공분산의 추정치를 제공한다"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 공분산의 추정치를 제공한다"
 
 #: anovaOneW/options/phMeanDif.description.R
 msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 사후 테스트에 대한 평균 차이를 제공한다"
 
 #: corrMatrix/options/pearson.description.R
 #: corrPart/options/pearson.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 피어슨 상관 계수를 제공한다"
 
 #: corrMatrix/options/sig.description.R
 #: corrPart/options/sig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 유의 수준을 제공한다"
 
 #: anovaOneW/options/phSig.description.R
 msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 사후 테스트에 대한 유의 수준을 제공한다"
 
 #: logLinear/options/dev.description.R
 #: logRegBin/options/dev.description.R
 #: logRegMulti/options/dev.description.R
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델의 이탈도(또는 -2Log 가능도)를 제공한다"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 평균을 제공한다"
 
 #: descriptives/options/median.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 중앙값을 제공한다"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델과 NULL 모델 간의 모델 비교를 제공한다"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 결측 값의 수를 제공한다"
 
 #: descriptives/options/n.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 샘플 크기를 제공한다"
 
 #: descriptives/options/sd.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'는 표준 편차를 제공한다"
 
 #: linReg/options/r2.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델에 대한 통계적 척도 'R-제곱'을 제공한다"
 
 #: linReg/options/r.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 모델에 대한 통계적 척도 'R'을 제공한다"
 
 #: contTables/options/chiSq.description.R
 #: contTablesPaired/options/chiSq.description.R
 msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 χ²을 제공한다"
 
 #: ancova/options/emmWeights.description.R
 #: anova/options/emmWeights.description.R
@@ -451,148 +462,152 @@ msgstr ""
 #: logRegBin/options/emmWeights.description.R
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr ""
+msgstr "'참'(기본값) 또는 '거짓'은 각 셀의 무게를 동일하게 측정하거나 셀의 빈도수에 "
+"따라 측정한다"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 막대 플롯에 카운트 추가한다"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 상자 그림에 평균을 추가한다"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 중요한 상관관계를 표시한다"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 중요한 사후 분석을 표시한다"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 잔차에 대한 Shapiro-Wilk 검정 수행"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 등분산을 가정한 피셔의 일원배치 분산분석 수행한다"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 균질성 테스트 수행한다"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 분산의 균질성에 대한 Levene 검정 수행한다"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 분산의 균질성에 대한 Levene 검정 수행한다"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Mann-Whitney U 검정을 수행한다"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 쌍별 비교를 수행한다"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 구형도 테스트를 수행한다"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Welch의 t-test 수행한다"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 윌콕슨 부호순위 검정을 수행한다"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
 #: anovaRM/options/emmPlotData.description.R
 msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 한계 평균 위에 데이터를 표시한다"
 
 #: logLinear/options/ci.description.R
 #: logRegBin/options/ci.description.R
 #: logRegMulti/options/ci.description.R
 #: logRegOrd/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모형 계수 추정치에 대한 신뢰 구간 제공한다"
 
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수 오즈비 추정치에 대한 신뢰 구간을 "
+"제공한다"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수 상대 위험도 추정치에 대한 신뢰 구간을 "
+"제공한다"
 
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수 표준화 추정치에 대한 신뢰 구간을 "
+"제공한다"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 신뢰 구간을 제공한다"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 신뢰 구간을 제공한다"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 상관계수 행렬을 제공한다"
 
 #: reliability/options/corPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 상관계수를 제공한다"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 컷 오프 플롯을 제공한다"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 설명적 플롯을 제공한다"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델의 경로 다이어그램을 제공한다"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 예측된 분류표(또는 혼동 행렬)를 제공한다"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 다변량 정규성의 Q-Q 그림을 제공한다"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -602,23 +617,23 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 잔차의 Q-Q 그림을 제공한다"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 ROC 곡선 그림 제공한다"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 표준화된 추정치 제공한다"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 표준화된 추정치 제공한다"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 두 비율 간의 차이에 대한 z 검정을 제공한다"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
@@ -4454,7 +4469,7 @@ msgstr "절편"
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
 msgid "Interval"
-msgstr "동간척도"
+msgstr "구간"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
