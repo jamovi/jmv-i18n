@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-08-26 00:48+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"PO-Revision-Date: 2023-12-23 04:11+0000\n"
+"Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
 "Language: ko\n"
@@ -10,59 +10,59 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr ""
+msgstr "'{col}' 에는 무한대 값을 포함하고 있습니다"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr "결측값을 포함하고 있다"
+msgstr "'{col}'에는 결측값을 포함하고 있다"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr "결측 값들"
+msgstr "'{col}'에는 오직 결측값을 포함하고 있다"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "'{col}'에는 오직 하나의 고윳값을 포함하고 있다"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
+msgstr "'{method}' 추출 메소드가 '{rotation}'회전과 함께 이용되었다"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "'{rotation}' 회전이 사용되었다"
 
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "'{var}'에 음수가 포함되어 있습니다. 음수 가중치는 허용되지 않는다."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - Kendall's Tau B(켄달타우)"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - Pearson's r(피어슨 상관 계수)"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - Spearman's rho(스피어먼 상관 계수)"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% 신뢰구간 하한계"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}% 신뢰 구간 평균 {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "상한계"
+msgstr "{ciWidth}% 신뢰구간 상한계"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -78,43 +78,43 @@ msgstr "상한계"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr "신뢰구간"
+msgstr "{ciWidth}% 신뢰구간"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr "신뢰구간"
+msgstr "{ciWidth}% 신뢰구간"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} 과 {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list} 와 {nextItem}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list} 와 {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "{n} 쌍의 값이 묶였습니다"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "변수 {vars}을(를) 기준으로 {type} 점수"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName}(반전됨)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "이항 로지스틱 회귀 모형의 {varType} {modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "선형 회귀 모델 {modelNo}의 {varType}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
