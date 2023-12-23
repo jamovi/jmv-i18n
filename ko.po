@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 06:07+0000\n"
+"PO-Revision-Date: 2023-12-23 07:07+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -637,26 +637,27 @@ msgstr "'참' 또는 '거짓'(기본값)은 두 비율 간의 차이에 대한 z
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델에 대한 AIC(아카이케 정보 기준)을 제공한다"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 정확한 로그 오즈비 제공한다(정확한 2x2를 설치해야 "
+"함)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 막대 그림을 제공한다(명목 또는 순서형 변수만)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 베이즈 인자를 제공한다"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 베이지안 신뢰구간을 제공한다"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -664,73 +665,73 @@ msgstr ""
 #: logRegMulti/options/bic.description.R
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델에 대한 베이지안 정보 기준을(BIC) 제공한다"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 상자 그림을 제공한다(연속형 변수만)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 로짓의 선형성에 대한 Box-Tidwell 검정을 제공한다"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Box's M 검정을 제공한다"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Cohen's d의 효과 크기를 제공한다"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 열 백분율을 제공한다"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 신뢰 구간을 제공한다"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 비교 측정에 대한 신뢰 구간을 제공한다"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 효과 크기에 대한 신뢰 구간 제공한다"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 평균에 대한 신뢰 구간을 제공한다"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 평균 차이에 대한 신뢰 구간을 제공한다"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 사후 효과 크기에 대한 신뢰 구간을 제공한다"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 상관계수 행렬에 대한 밀도를 제공한다"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 밀도도 제공한다(연속형 변수만 해당)"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
 #: ttestOneS/options/plots.description.R
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 설명 그림을 제공한다"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -738,20 +739,20 @@ msgstr ""
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 기술 통계를 제공한다"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 점도표를 제공한다(연속형 변수만 해당)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 효과 크기를 제공한다"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 효과 크기를 제공한다"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -761,86 +762,87 @@ msgstr ""
 #: logRegBin/options/emmTables.description.R
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 추정된 한계 평균 테이블을 제공한다"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 요인 절편 추정치를 제공한다"
 
 #: cfa/options/resInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 요인 절편 추정치를 제공한다"
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 피셔 정확 검정을 제공한다"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 주파수 테이블을 제공한다(명목, 순서 변수만)"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 감마를 제공한다"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 히스토그램을 제공한다(연속변수만 해당)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 품목 평균을 제공한다"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 항목 표준 편차를 제공한다"
 
 #: reliability/options/itemRestCor.description.R
 msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 항목-나머지 상관관계를 제공한다"
 
 #: contTables/options/taub.description.R
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 켄달의 tau-b를 제공한다"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 추세에 대한 Mantel-Haenszel 테스트를 제공한다"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 McDonald의 오메가 계수를 제공한다"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr ""
+msgstr "'TRUE' 또는 'FALSE'(기본값)은 평균 및 표준 편차를 제공한다"
 
 #: ttestIS/options/meanDiff.description.R
 #: ttestPS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 평균 및 표준 오류를 제공한다"
 
 #: cfa/options/mi.description.R
 msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 모델에 포함되지 않은 파라미터에 대한 수정 지수를 "
+"제공한다"
 
 #: descriptives/options/extreme.description.R
 msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 N개의 가장 극값(최대 및 최소)을 제공한다"
 
 #: descriptives/options/pc.description.R
 msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 백분위수를 제공한다"
 
 #: contTables/options/phiCra.description.R
 msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 Phi 와 Cramer's V 계수를 제공한다"
 
 #: propTest2/options/postPlots.description.R
 msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr ""
+msgstr "'참' 또는 '거짓'(기본값)은 후방 그림을 제공한다"
 
 #: descriptives/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
