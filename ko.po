@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 11:08+0000\n"
+"PO-Revision-Date: 2023-12-23 12:08+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -5182,7 +5182,7 @@ msgstr "독립표본 T 검증"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
-msgstr ""
+msgstr "지시자"
 
 #: pca/results/eigen/initEigen.title
 msgid "Initial Eigenvalues"
@@ -5239,29 +5239,29 @@ msgstr "사분범위"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
-msgstr ""
+msgstr "항목 '{item}'은(는) 하나의 레벨로만 구성됩니다"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
 msgid "Item '{item}' contains infinite values"
-msgstr ""
+msgstr "항목 '{item}'에 무한대 값이 포함됨"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
 msgid "Item '{item}' contains only missing values"
-msgstr ""
+msgstr "항목 '{item}'에 결측 값만 포함됨"
 
 #: R/reliability.b.R
 msgid "Item '{item}' has no variance"
-msgstr ""
+msgstr "항목 '{item}'에 분산이 없습니다"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' needs to be numeric"
-msgstr ""
+msgstr "항목 '{item}'은(는) 숫자여야 합니다"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr ""
+msgstr "항목 {item}은(는) 총 스케일과 음의 상관 관계가 있으므로 반전되어야 합니다"
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
@@ -5274,38 +5274,38 @@ msgstr "문항 통계값"
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
 msgid "Item-rest correlation"
-msgstr ""
+msgstr "항목-나머지 상관관계"
 
 #: reliability/options/vars.title
 msgid "Items"
-msgstr "문항"
+msgstr "항목"
 
 #: R/reliability.b.R
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr ""
+msgstr "항목 {items}이(가) 총 스케일과 음의 상관 관계가 있으므로 이를 뒤집어야 합니다"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr ""
+msgstr "지터"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr "Kendall's Tau B"
+msgstr "켄달의 타우 B"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
-msgstr ""
+msgstr "켄달의 타우 B"
 
 #: contTables/results/taub.title
 msgid "Kendall's Tau-b"
-msgstr ""
+msgstr "켄달의 타우 b"
 
 #: contTables/options/taub.title
 #: corrMatrix/options/kendall.title
 #: corrPart/options/kendall.title
 msgid "Kendall's tau-b"
-msgstr ""
+msgstr "켄달의 타우 b"
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
@@ -5320,7 +5320,7 @@ msgstr "KMO 구형성 검증"
 #: anovaNP/options.menuSubtitle
 #: anovaNP/results/table.title
 msgid "Kruskal-Wallis"
-msgstr ""
+msgstr "크루스칼-발리스"
 
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
@@ -5329,7 +5329,7 @@ msgstr "첨도"
 
 #: descriptives/options/boxLabelOutliers.title
 msgid "Label outliers"
-msgstr ""
+msgstr "레이블 이상치"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -5351,7 +5351,7 @@ msgstr "수준 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr ""
+msgstr "Levene의 검정은 유의하며(p < .05), 등분산 가정의 위반을 시사한다"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -5385,16 +5385,19 @@ msgstr "선형 회귀분석"
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
+"선형회귀분석은 연속형 종속변수와 하나 이상의 연속형 및/또는 범주형 설명변수 "
+"간의 관계를 탐색하는 데 사용된다. 분산분석이나 ANCOVA와 같은 다른 통계적 "
+"방법들은 실제로는 선형회귀분석의 형태에 불과하다."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr "Log 승산비"
+msgstr "Log 오즈비"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
 msgid "Log odds ratio exact"
-msgstr ""
+msgstr "로그 오즈비 정확"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -5458,19 +5461,19 @@ msgstr "다변량 공분산 분석"
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr ""
+msgstr "맨-휘트니 U"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
-msgstr ""
+msgstr "맨틀-헨젤"
 
 #: contTables/results/mh.title
 msgid "Mantel-Haenszel Test for Trend"
-msgstr ""
+msgstr "추세에 대한 맨틀-헨젤 검정"
 
 #: R/linreg.b.R
 msgid "Marginal Mean"
-msgstr ""
+msgstr "한계평균"
 
 #: ancova/options/emMeans.title
 #: anova/options/emMeans.title
@@ -5480,7 +5483,7 @@ msgstr ""
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
 msgid "Marginal Means"
-msgstr ""
+msgstr "한계평균"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -5490,7 +5493,7 @@ msgstr ""
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr ""
+msgstr "한계 평균 플롯"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -5500,11 +5503,11 @@ msgstr ""
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
 msgid "Marginal means tables"
-msgstr ""
+msgstr "한계평균표"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
-msgstr ""
+msgstr "모클리의 W"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
@@ -5525,33 +5528,33 @@ msgstr "최대우도"
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "McDonald's ω"
-msgstr ""
+msgstr "McDonald의 오메가 계수"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr ""
+msgstr "McDonald의 ω(항목이 누락된경우)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
 msgid "McFadden's R²"
-msgstr ""
+msgstr "McFadden의 R²"
 
 #: R/conttablespaired.b.R
 msgid "McNemar requires a 2x2 table"
-msgstr ""
+msgstr "McNemar는 2x2 테이블이 필요합니다"
 
 #: contTablesPaired/results/test.title
 msgid "McNemar Test"
-msgstr ""
+msgstr "맥네마르 테스트"
 
 #: package/analyses/contTablesPaired.menuSubtitle
 #: package/analyses/contTablesPaired.description
 #: contTablesPaired/options.menuSubtitle
 #: contTablesPaired/options.description.main
 msgid "McNemar test"
-msgstr ""
+msgstr "맥네마르 테스트"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5577,7 +5580,7 @@ msgstr "평균"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "평균 ({ciWidth}% CI)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5794,7 +5797,7 @@ msgstr "모형 적합도 값"
 #: logRegMulti/results/models.title
 #: logRegOrd/results/models.title
 msgid "Model Specific Results"
-msgstr ""
+msgstr "모델별 결과"
 
 #: ancova/options/modelTerms.title
 #: anova/options/modelTerms.title
@@ -5825,7 +5828,7 @@ msgstr "수정 지수"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "몬테카를로 시뮬레이션"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5833,11 +5836,11 @@ msgstr "한개 이상의 최빈값이 존재함"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "최극단"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
-msgstr ""
+msgstr "측정 시스템 분석"
 
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
@@ -5857,6 +5860,8 @@ msgstr "다항 로지스틱 회귀분석"
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
+"다변량 분산 분석(MANCOVA)은 여러 종속 변수와 하나 이상의 범주형 및/또는 "
+"연속형 설명 변수 간의 관계를 탐색하는 데 사용된다."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -5888,28 +5893,29 @@ msgstr "사례수"
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr ""
+msgstr "N개의 결과"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
 #: logRegMulti/options/pseudoR2/r2n.title
 #: logRegOrd/options/pseudoR2/r2n.title
 msgid "Nagelkerke's R²"
-msgstr ""
+msgstr "Nagelkerke의 R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr ""
+msgstr "{value}보다 큰 고유값을 갖는 구성요소가 없음"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr ""
+msgstr "수정 없음"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr ""
+msgstr "정의된 요인이 없습니다. Box의 M 검정은 모형에 요인이 포함된 경우에만 관련이 "
+"있습니다."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -5943,7 +5949,7 @@ msgstr "없음"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr ""
+msgstr "일반 축척된 항목"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
@@ -5971,15 +5977,15 @@ msgstr "정규분포성 검증(Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
+msgstr "모든 계수를 추정할 수 없는 경우(단일 적합으로 인한 경우)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "케이스 수가 너무 많아서 사용할 수 없습니다(> 5000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "모든 모형 효과를 추정하기에 충분한 자유도가 없습니다"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -5991,7 +5997,7 @@ msgstr "주성분 갯수"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "극값의 수"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -6003,16 +6009,16 @@ msgstr "요인 갯수"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
+msgstr "요청된 극값의 수가 데이터의 행 수보다 많다."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
 msgid "Oblimin"
-msgstr ""
+msgstr "오블리민"
 
 #: R/pca.b.R
 msgid "oblimin"
-msgstr ""
+msgstr "오블리민"
 
 #: R/conttables.b.R
 #: R/logregbin.b.R
@@ -6032,13 +6038,13 @@ msgstr "관찰점수"
 
 #: R/ancova.b.R
 msgid "octic"
-msgstr ""
+msgstr "옥틱"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
 msgid "Odds Ratio"
-msgstr "우도 비"
+msgstr "오즈비"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -6050,11 +6056,11 @@ msgstr "우도 비"
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Odds ratio"
-msgstr "우도 비"
+msgstr "오즈비"
 
 #: contTables/options/yaxisPc/total_pc.title
 msgid "of total"
-msgstr ""
+msgstr "도합하여"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
@@ -6082,52 +6088,62 @@ msgstr "모형검증"
 #: corrPart/options/hypothesis.description.R
 msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
 msgstr ""
+"경계 가설을 명시하는 'corr'(기본값), 'pos'(기본값), 'neg'(네그) 중 하나; "
+"상관관계, 양의 상관관계, 음의 상관관계를 각각 나타냈다."
 
 #: corrPart/options/type.description.R
 msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
-msgstr ""
+msgstr "계산할 부분 상관의 유형을 지정하는 '부분'(기본값) 또는 'semi' 중 하나. 부분 "
+"상관 또는 반 부분 상관."
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
-msgstr ""
+msgstr "하나 또는 두 그룹 모두에 충분한 관측치가 포함되어 있지 않다"
 
 #: R/ttestps.b.R
 msgid "One or both variables are not numeric"
-msgstr ""
+msgstr "하나 또는 두 변수 모두 숫자가 아닙니다"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain infinite values"
-msgstr ""
+msgstr "하나 또는 두 변수 모두 무한대의 값을 포함함"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain no observations"
-msgstr ""
+msgstr "하나 또는 두 변수 모두 관측치가 없습니다"
 
 #: R/ttestps.b.R
 msgid "One or both variables do not contain enough observations"
-msgstr ""
+msgstr "하나 또는 두 개의 변수에 관측치가 충분하지 않음"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr ""
+msgstr "완벽한 공선성으로 인해 '{modelNo}' 모델의 계수를 하나 이상 추정할 수 없다."
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
 msgstr ""
+"'cfi', 'tli', 'srmr', 'rmsea', 'aic' 또는 'bic' 중 하나 이상; 각각 CFI, TLI, "
+"SRMR, RMSEA + 90% 신뢰구간, 조정된 AIC 및 BIC 모델 적합도 측정을 사용한다"
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
 #: anovaRM/options/effectSize.description.R
 msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
-msgstr ""
+msgstr "'에타', '파트에타' 또는 '오메가' 중 하나 이상; 각각 η², 부분 η² 및 ω² 효과 "
+"크기 사용"
 
 #: anovaRM/options/spherCorr.description.R
 msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
 msgstr ""
+"'없음'(default), 'GG' 또는 'HF' 중 하나 이상; 쉐리시티에 대해 각각 p-값 "
+"보정, 온실-가이서 p-값 보정 및 Huynh-Feld p-값 보정 사용"
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
 msgstr ""
+"'none', 'tukey'(기본값), 'scheff', 'bonf' 또는 'holm' 중 하나 이상; 각각 no, "
+"Tukey, Scheffe, Bonferroni 및 Holm 사후 수정 사용"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
