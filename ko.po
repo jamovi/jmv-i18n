@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 08:07+0000\n"
+"PO-Revision-Date: 2023-12-23 09:07+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -1237,7 +1237,8 @@ msgstr "모델에 들어가는 항을 설명하는 공식(공식을 제공할 �
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
-msgstr ""
+msgstr "인자의 '라벨'과 해당 인자에 속하는 'vars'을 정의하는 명명된 목록을 포함하는 "
+"목록"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -1245,19 +1246,20 @@ msgstr ""
 #: logRegMulti/options/blocks.description.R
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
-msgstr ""
+msgstr "모형에 추가되는 예측 변수의 이름을 지정하는 문자열의 벡터를 포함하는 목록. "
+"요소는 목록의 순서에 따라 모형에 추가된다"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
-msgstr ""
+msgstr "모델에 적용할 피험자 간 용어를 설명하는 문자 벡터 목록"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
-msgstr ""
+msgstr "계산이 필요한 사후 테스트를 설명하는 문자 벡터 목록"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr ""
+msgstr "모델에 들어가는 반복 측정 항을 설명하는 문자 벡터의 목록"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1265,35 +1267,41 @@ msgstr ""
 #: logRegMulti/options/refLevels.description.R
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
-msgstr ""
+msgstr "종속 변수 및 모든 요인의 기준 수준을 지정하는 목록의 목록"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
 msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
-msgstr ""
+msgstr "사용할 대비 요소 및 유형을 명시한 목록, '편차', '단순', '차이', '헬름트', "
+"'반복' 또는 '다항' 중 하나"
 
 #: ttestPS/options/pairs.description.R
 msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr ""
+msgstr "데이터의 측정 쌍을 지정하는 목록"
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
+msgstr "추정해야 할 잔차 공분산을 지정하는 목록"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
 #: logRegBin/options/emMeans.description.R
 #: logRegMulti/options/emMeans.description.R
 msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
-msgstr ""
+msgstr "추정된 한계 평균을 계산해야 하는 변수를 지정하는 목록입니다. 항당 최대 세 "
+"개의 변수를 지원한다."
 
 #: anovaRM/options/rmCells.description.R
 msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
 msgstr ""
+"각 목록은 'measure'로 정의된 '데이터'에서 repeated measure(스트링으로서)와 "
+"그것이 'cell'로 정의된 'rm'에서 속하는 레벨의 특정 조합(스트링의 벡터로서)을 "
+"기술하는 목록이다"
 
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
-msgstr ""
+msgstr "각 목록이 특정 반복 측정 인자의 '라벨(label)'과 'levels(label)'을 설명하는 "
+"목록"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1312,51 +1320,51 @@ msgstr "좋은 상관 관계 데이터 세트"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
-msgstr ""
+msgstr "숫자(기본값: 0.1), 이 값 위의 'corRes' 테이블의 값 강조 표시"
 
 #: efa/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr ""
+msgstr "숫자(기본값: 0.3), 이 값 아래에 요인 적재 숨기기"
 
 #: pca/options/hideLoadings.description.R
 msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
+msgstr "숫자(기본값: 0.3), 이 값 아래로 적재 숨기기"
 
 #: propTest2/options/testValue.description.R
 msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
+msgstr "숫자(기본값: 0.5), 귀무 가설 값"
 
 #: efa/options/minEigen.description.R
 msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
-msgstr ""
+msgstr "숫자(기본값: 0), 이 모델에 포함될 요인의 최소 고유값"
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
+msgstr "숫자(기본값: 1), 베타 이전 'a' 매개 변수"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
+msgstr "숫자(기본값: 1), 베타 이전 'b' 매개 변수"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr ""
+msgstr "모델에 포함될 성분의 최소 고유값인 숫자(기본값: 1)"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
-msgstr ""
+msgstr "숫자(기본값: 3), 이 값 위의 'modIndices' 테이블의 값 강조 표시"
 
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
+msgstr "0.01에서 2 사이의 숫자(기본값 0.707), 베이즈 인자 계산에 사용할 이전 너비"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
+msgstr "0.5에서 2 사이의 숫자(기본값 0.707), 베이즈 인자 계산에 사용할 이전 너비"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
+msgstr "0.5에서 2.0 사이의 숫자(기본값 0.707), 베이즈 인자 계산에 사용할 이전 너비"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1369,7 +1377,7 @@ msgstr ""
 #: logRegOrd/options/ciWidth.description.R
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
-msgstr ""
+msgstr "신뢰 구간 폭을 지정하는 50에서 99.9 사이의 숫자(기본값: 95)"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -1379,58 +1387,59 @@ msgstr ""
 #: logRegBin/options/ciWidthEmm.description.R
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
-msgstr ""
+msgstr "추정된 한계 평균에 대한 신뢰 구간 폭을 지정하는 50에서 99.9 사이의 "
+"숫자(기본값: 95)"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
-msgstr ""
+msgstr "'ci'로 사용되는 신뢰 구간 폭을 지정하는 50에서 99.9 사이의 숫자(기본값: 95)"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 신뢰 구간 폭"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 신뢰할 수 있는 구간 폭"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
 #: ttestOneS/options/ciWidth.description.R
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 신뢰 구간의 폭"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 효과 크기에 대한 신뢰 구간의 폭"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 사후 효과 크기에 대한 신뢰 구간의 폭"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 제공할 신뢰 구간의 폭"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
-msgstr ""
+msgstr "50에서 99.9 사이의 숫자(기본값: 95), 제공할 신뢰 구간의 폭"
 
 #: ttestOneS/options/testValue.description.R
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "귀무 가설의 값을 지정하는 숫자"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr "모수값"
+msgstr "매개변수"
 
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
 msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
-msgstr ""
+msgstr "'d'의 가능한 값; 사후 테스트의 효과 크기에 대한 코헨의 d 측정값 제공"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
@@ -1448,42 +1457,44 @@ msgstr "q-q 도표"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr "반복측정 분산분석 자료"
+msgstr "반복 측정 분산 분석 데이터 집합"
 
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
-msgstr ""
+msgstr "분석 전반에 걸쳐 종속 변수에 사용되는 레이블을 설명하는 문자열(기본값: "
+"'의존적')"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr ""
+msgstr "카운트를 포함하는 'data'의 변수 이름을 지정하는 문자열 또는 각 행이 단일 "
+"관측치를 나타내는 경우 NULL"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr ""
+msgstr "종속 변수를 'data'에서 명명하는 문자열, 변수는 인자로 해야 합니다"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "종속 변수 이름을 'data'에서 지정하는 문자열, 변수는 숫자로 해야 합니다"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr ""
+msgstr "'data'의 종속 변수 이름을 지정하는 문자열"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr ""
+msgstr "'data'의 종속 변수 이름을 지정하는 문자열"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
-msgstr ""
+msgstr "'data'의 그룹화 또는 독립 변수 이름을 지정하는 문자열"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
-msgstr ""
+msgstr "그룹의 요약"
 
 #: ancova/results/emm.template/emmTable.description
 #: anova/results/emm.template/emmTable.description
@@ -1493,119 +1504,119 @@ msgstr ""
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "추정된 한계평균을 수록한 표"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "요인 공분산 추정치가 포함된 표"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "요인 절편 추정치가 들어 있는 표"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
-msgstr ""
+msgstr "적합도 척도가 들어 있는 테이블"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr ""
+msgstr "모형에 포함되지 않은 요인 적재의 수정 지수를 포함하는 표"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr ""
+msgstr "모형에 포함되지 않은 잔차 공분산에 대한 수정 지수를 포함하는 표"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "잔차 공분산 추정치가 포함된 표"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "잔차 절편 추정치가 포함된 표"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "관측된 상관 행렬의 잔차가 포함된 표"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "정확한 적합성에 대한 카이-제곱 검정이 포함된 표"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "공선성 통계를 수록한 표"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "서술어가 들어 있는 표"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "인자 적재량을 수록한 표"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "그룹 설명이 들어 있는 표"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "분산 검정의 균질성을 포함하는 표"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "정규성 검정 결과를 수록한 표"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "정규성 검정이 들어 있는 표"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "Box-Tidwell test 결과를 수록한 표"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "t-검정 결과가 수록된 표"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "분산 분석 결과 표"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "분산 분석 결과 표"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
-msgstr ""
+msgstr "비교계량표"
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "분산의 균질성 검정표"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "동질성 검정표"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "공산비 검정표"
 
 #: logRegOrd/results/models.template/thres.description
 msgid "a table of model coefficient thresholds"
-msgstr ""
+msgstr "모형 계수 임계값 표"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
@@ -1613,99 +1624,99 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "모형 계수표"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "정규성 검정표"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
-msgstr ""
+msgstr "예측 분류표"
 
 #: logRegBin/results/models.template/pred/measures.description
 msgid "a table of predictive measures"
-msgstr ""
+msgstr "예측 척도표"
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
-msgstr ""
+msgstr "비례표"
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
-msgstr ""
+msgstr "시험 결과표"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
-msgstr ""
+msgstr "'명목적' 시험 결과표"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "기술 통계표"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
-msgstr ""
+msgstr "프리드만 시험결과표"
 
 #: contTables/results/gamma.description
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "감마 테스트 결과 표"
 
 #: contTables/results/taub.description
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "켄달의 타우 b 테스트 결과표"
 
 #: contTables/results/mh.description
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "추세에 대한 만텔-헨젤 검정표"
 
 #: anovaRMNP/results/comp.description
 msgid "a table of the pairwise comparisons"
-msgstr ""
+msgstr "쌍대비교표"
 
 #: propTestN/results/props.description
 msgid "a table of the proportions"
-msgstr ""
+msgstr "비례표"
 
 #: propTest2/results/table.description
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "비율과 시험 결과의 표"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
 msgid "a table of the test results"
-msgstr ""
+msgstr "시험 결과표"
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "χ² 검정 결과 표"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
-msgstr ""
+msgstr "역스케일링된 변량을 명명하는 문자열을 포함하는 벡터"
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr ""
+msgstr "수 벡터: 예상 비율"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr ""
+msgstr "'데이터'에서 주어 사이의 인자를 명명하는 문자열 벡터"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
+msgstr "데이터의 제어 변수 이름을 지정하는 문자열 벡터"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R
 #: mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr ""
+msgstr "'데이터'에서 공변량을 명명하는 문자열 벡터"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
