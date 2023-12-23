@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 05:01+0000\n"
+"PO-Revision-Date: 2023-12-23 05:07+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -270,11 +270,14 @@ msgstr "대립 가설인 'notecqual'(기본값), '더 크거나' 또는 '더 작
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr ""
+msgstr "요인 개수를 결정하는 방법인 'parallel'(기본값), '고윳값' 또는 '고정값'"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"결측 값 처리방법을 다루는 방법인, 'perAnalysis' 또는 "
+"'listwise','perAnalysis'는 개별 종속변수의 결측값을 제외하고, 'listwise'는 "
+"한 행을 모든 분석에서 제외한다"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
