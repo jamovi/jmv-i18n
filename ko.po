@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-12-23 12:08+0000\n"
+"PO-Revision-Date: 2023-12-23 13:08+0000\n"
 "Last-Translator: 박종현 <tgpjh0815@ajou.ac.kr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ko/>\n"
@@ -6149,10 +6149,14 @@ msgstr ""
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
 msgstr ""
+"'none', 'tukey', 'scheff', 'bonf' 또는 'holm' 중 하나 이상; 각각 no, Tukey, "
+"Scheffe, Bonferroni 및 Holm Post Hoc 수정 제공"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
 msgstr ""
+"'pillai', 'wilks', 'hotel' 또는 'roy' 중 하나 이상; 각각 Pillai's Trace, "
+"Wilks' Lambda, Hotelling's Trace 및 Roy's Lawge Root 다변량 통계를 사용합니다"
 
 #: logLinear/options/pseudoR2.description.R
 #: logRegBin/options/pseudoR2.description.R
@@ -6160,6 +6164,8 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.description.R
 msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
+"'r2mf', 'r2cs' 또는 'r2n' 중 하나 이상; 각각 McFadden, Cox & Snell 및 "
+"Nagelkerke pseudo-R² 사용"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -6224,11 +6230,11 @@ msgstr "서열 로지스틱 회귀분석"
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "순서 결과"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "이상치"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -6328,7 +6334,7 @@ msgstr "전체 모형 검증"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -6338,19 +6344,19 @@ msgstr "p 값"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
-msgstr ""
+msgstr "p<sub>bonferroni</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr ""
+msgstr "p<sub>holm</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
-msgstr ""
+msgstr "p<sub>scheffe</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>tukey</sub>"
-msgstr ""
+msgstr "p<sub>tukey</sub>"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
@@ -6379,7 +6385,7 @@ msgstr "대응 변수"
 
 #: anovaNP/results/comparisons.template.title
 msgid "Pairwise comparisons - $key"
-msgstr ""
+msgstr "짝 비교 - $key"
 
 #: anovaRMNP/results/comp.title
 msgid "Pairwise Comparisons (Durbin-Conover)"
@@ -6407,6 +6413,9 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
+"부분 상관 행렬은 선형 관계를 조사하는 방법입니다\n"
+"다른 변수를 통제하는 동안 두 개 이상의 연속형 변수 사이에서\n"
+"변수들"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -6428,15 +6437,33 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"부분 상관 행렬은 선형 관계를 조사하는 방법입니다\n"
+"다른 변수를 통제하는 동안 두 개 이상의 연속형 변수 사이에서\n"
+"변수들\n"
+"\n"
+"각 변수 쌍에 대해 피어슨의 r 값은 강도를 나타냅니다\n"
+"그리고 그 두 변수 사이의 관계의 방향. A\n"
+"양의 값은 양의 관계를 나타냅니다(1의 higher 값)\n"
+"변수는 다른 변수의 더 높은 값을 예측합니다. 음수\n"
+"피어슨의 r은 음의 관계를 나타냅니다(1의 값이 높을수록)\n"
+"변수는 다른 변수의 낮은 값을 예측하고 그 반대의 경우를 예측합니다.\n"
+"값이 0이면 관계가 없음을 나타냅니다(변수가 높은지 여부)\n"
+"낮거나, 다른 사람의 가치에 대해 아무것도 알려주지 않습니다\n"
+"변수).\n"
+"\n"
+"좀 더 공식적으로, 는 귀무가설을 검정할 수 있다\n"
+"상관관계는 0이고 p-값을 계산합니다. p-값이 낮으면\n"
+"상관 계수가 0이 아니며 선형이 있음을 시사합니다\n"
+"(또는 더 복잡한) 두 변수 사이의 관계."
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
-msgstr ""
+msgstr "부분 η²"
 
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
 msgid "partial η²"
-msgstr ""
+msgstr "부분 η²"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -6455,7 +6482,7 @@ msgstr "피어슨"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "숫자가 아닌 값에 대해서는 피어슨 상관 관계를 계산할 수 없습니다"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6464,7 +6491,7 @@ msgstr "피어슨 상관계수"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
-msgstr ""
+msgstr "피어슨 {} 상관관계"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -6478,7 +6505,7 @@ msgstr "전체비율"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "{var} 내 백분율"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
@@ -6499,59 +6526,62 @@ msgstr "백분위"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "Mann-Whitney U 검정을 실시하다."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr ""
+msgstr "정규성에 대한 샤피로-윌크 검정을 수행합니다. p-값이 작으면 데이터가 정규 "
+"분포에서 가져온 것이 아님을 나타냅니다."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "종합 모델 테스트를 하다."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
+msgstr "Fisher's(또는 '정규'라고 할 수 있는) 분산 분석을 수행합니다."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr ""
+msgstr "Shapiro-Wilk 정규성 검정을 수행합니다. p-값이 작으면 데이터가 정규 분포에서 "
+"가져온 것이 아님을 나타냅니다."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr ""
+msgstr "정규성 검정을 Shapiro-Wilk 검정을 수행합니다. p-값이 작으면 잔차가 정규 "
+"분포를 따르지 않음을 나타냅니다."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr ""
+msgstr "학생의 독립 표본 t-검정을 수행합니다."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr ""
+msgstr "학생의 일표본 t-검정을 수행합니다."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "학생 쌍체 표본 t-검정을 수행합니다."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "Welch의 분산 분석 수행."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "Welch의 분산 분석 수행."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "윌콕슨 부호 순위 검정을 수행합니다."
 
 #: contTables/options/phiCra.title
 msgid "Phi and Cramer's V"
-msgstr ""
+msgstr "파이와 크레이머의 V"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
@@ -6560,7 +6590,7 @@ msgstr "Phi 상관계수"
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "필라이스 트레이스"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -6568,21 +6598,21 @@ msgstr ""
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr "도표"
+msgstr "플롯"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
-msgstr ""
+msgstr "상관계수 행렬 플롯의 대각선을 따라 밀도를 표시합니다."
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
 msgid "plot the data along with the marginal means."
-msgstr ""
+msgstr "데이터를 한계 평균과 함께 표시하다."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr "도표 유형"
+msgstr "플롯 유형"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -6607,7 +6637,7 @@ msgstr "다항"
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "사후 비교 - {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -6624,12 +6654,12 @@ msgstr "사후 검증"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "사후 검증 – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "사후 모델 성능"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
@@ -6658,11 +6688,11 @@ msgstr "예측값"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "… = … (vs … = …)의 예측 확률"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
+msgstr "{dep} = {level1}(대 {dep} = {level2})의 예측 확률"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -6733,7 +6763,7 @@ msgstr "사전"
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "전폭"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -6743,11 +6773,11 @@ msgstr "확률"
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "프로맥스"
 
 #: R/pca.b.R
 msgid "promax"
-msgstr ""
+msgstr "프로맥스"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
@@ -6761,203 +6791,214 @@ msgstr "비율"
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "비율 테스트 (2개의 결과)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "비율 테스트 (N개의 결과)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
+msgstr "사후 테스트의 효과 크기에 대한 코헨의 d 측정값을 제공한다."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr ""
+msgstr "평균 추정치와 검정 값의 차이에 대한 신뢰 구간을 제공합니다."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "상관계수 행렬 플롯을 제공합니다."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "각 변수 조합에 대해 켄달의 타우-b를 제공한다."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "각 상관 계수에 대한 p-값을 제공합니다."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr ""
+msgstr "각 변수 조합에 대한 피어슨 r을 제공합니다."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규분포를 따르는 경우 예상되는 것에 "
+"대한 실제 잔차의 그림을 제공한다. 대각선으로부터 큰 편차는 데이터가 "
+"정규분포를 따르지 않음을 시사한다."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr ""
+msgstr "각 변수의 조합에 대해 스피어맨의 rho를 제공합니다."
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
-msgstr ""
+msgstr "각 변수에 대한 설명표를 제공합니다."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr ""
+msgstr "추정된 한계 평균의 표를 제공합니다."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
+msgstr "학생의 독립 표본 t-검정에 대한 베이즈 인자를 제공합니다."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr ""
+msgstr "학생의 일표본 t-검정에 대한 베이즈 인자를 제공합니다."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr ""
+msgstr "학생 쌍체 표본 t-검정에 대한 베이즈 인자를 제공합니다."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
-msgstr ""
+msgstr "Pearson의 r에 대한 신뢰 구간을 제공합니다."
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr ""
+msgstr "효과에 대한 신뢰구간을 제공한다"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr ""
+msgstr "평균차에 대한 신뢰 구간을 제공합니다."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr ""
+msgstr "사후 효과 크기에 대한 신뢰 구간을 제공합니다."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr ""
+msgstr "상관계수 행렬 플롯에 상관 계수를 제공합니다."
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
-msgstr ""
+msgstr "각 그룹에 대한 설명도를 제공합니다."
 
 #: ttestOneS/options/plots.description.ui
 msgid "provide descriptive plots for each variable."
-msgstr ""
+msgstr "각 변수에 대한 설명도를 제공합니다."
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
-msgstr ""
+msgstr "각 측정 그룹에 대한 설명을 제공합니다."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
 msgid "provide descriptives for each group."
-msgstr ""
+msgstr "각 그룹에 대한 설명을 제공합니다."
 
 #: ttestIS/options/plots.description.ui
 msgid "provide descriptives plots."
-msgstr ""
+msgstr "설명 플롯을 제공합니다."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr ""
+msgstr "효과 크기를 제공합니다(Cohen의 D)."
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr ""
+msgstr "효과 크기를 제공합니다(Cohen의 d)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr ""
+msgstr "분산의 균질성에 대한 Levene 검정을 제공합니다. p-값이 낮다는 것은 그룹의 "
+"분산이 동일하지 않음을 의미합니다."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr ""
+msgstr "분산의 균질에 대한 Levene의 검정을 제공한다. p-값이 작으면 두 그룹의 분산이 "
+"동일하지 않음을 알 수 있다."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr ""
+msgstr "평균차와 평균차의 표준 오차를 제공한다."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr ""
+msgstr "사후 테스트에서 평균차를 제공합니다."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr ""
+msgstr "평균 추정치와 검정 값 사이의 평균차 및 평균차의 표준 오차를 제공합니다."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr ""
+msgstr "η², 부분 η² 또는 ω²의 효과 크기 측도를 제공합니다."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
-msgstr ""
+msgstr "구형도에 대한 p-값 보정을 제공합니다."
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
 msgid "provide plots of the estimated marginal means."
-msgstr ""
+msgstr "추정된 한계 평균의 도표를 제공합니다."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
 msgid "provide post-hoc tests."
-msgstr ""
+msgstr "사후 검사를 하다."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규분포를 따르는 경우 예상되는 것에 "
+"대한 실제 잔차의 그림을 제공한다. 대각선으로부터 큰 편차는 데이터가 "
+"정규분포로부터 온 것이 아님을 시사한다."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
+"잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규 분포되어 있을 때 예상되는 것에 "
+"대한 실제 잔차의 그림을 제공합니다. 대각선으로부터 큰 편차는 잔차가 정규 "
+"분포를 따르지 않음을 나타냅니다."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr ""
+msgstr "사후 테스트에 대한 유의 수준을 제공한다."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr ""
+msgstr "구형성 테스트를 제공한다."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr ""
+msgstr "사후 테스트에 대한 테스트 결과(t-value 및 자유도)를 제공한다."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
 msgid "provide the number of cases."
-msgstr ""
+msgstr "사건의 수를 제시하다."
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -6968,11 +7009,11 @@ msgstr ""
 #: logRegOrd/options/pseudoR2.title
 #: logRegOrd/ui[3][0][1]/pseudoR2.label
 msgid "Pseudo R²"
-msgstr ""
+msgstr "Pseudo R²"
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
-msgstr ""
+msgstr "Q-Q"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -6998,7 +7039,7 @@ msgstr "Q-Q 도표"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "다변량 정규성 평가 Q-Q 도표"
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
@@ -7027,11 +7068,11 @@ msgstr "4차"
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
 msgid "Quartimax"
-msgstr ""
+msgstr "쿼티맥스"
 
 #: R/pca.b.R
 msgid "quartimax"
-msgstr ""
+msgstr "쿼티맥스"
 
 #: R/ancova.b.R
 msgid "quintic"
@@ -7040,37 +7081,37 @@ msgstr "5차"
 #: linReg/options/r.title
 #: linReg/results/modelFit.columns.title
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
 msgid "R²"
-msgstr ""
+msgstr "R제곱"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>CS</sub>"
-msgstr ""
+msgstr "R²<sub>CS</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>McF</sub>"
-msgstr ""
+msgstr "R²<sub>McF</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "R²<sub>N</sub>"
-msgstr ""
+msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -7083,16 +7124,16 @@ msgstr "범위"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Rank biserial correlation"
-msgstr ""
+msgstr "순위 이차 상관"
 
 #: logLinear/ui[4][0][1][0].label
 msgid "Rate Ratio"
-msgstr ""
+msgstr "비율"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
 msgid "Rate ratio"
-msgstr ""
+msgstr "비율"
 
 #: propTestN/ui[2]/ratio.columns.label
 msgid "Ratio"
@@ -7178,7 +7219,7 @@ msgstr "반복측정 분산분석(비모수)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
-msgstr ""
+msgstr "반복 측정 셀"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
 msgid "Repeated Measures Components"
@@ -7197,11 +7238,11 @@ msgstr "유의도 보고"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr ""
+msgstr "대평균을 나타낸다"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
-msgstr ""
+msgstr "기준 수준을 나타냅니다"
 
 #: R/anovarm.b.R
 msgid "Residual"
@@ -7240,7 +7281,7 @@ msgstr "잔차 도표"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
+msgstr "제곱 및/또는 자유도의 잔차 합은 0이며, 완전 적합을 나타냅니다"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -7259,7 +7300,7 @@ msgstr "잔차"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "관측 상관 행렬의 잔차"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
@@ -7267,7 +7308,7 @@ msgstr "ANOVA의 잔차"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
-msgstr ""
+msgstr "잔차 관측 상관 행렬"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
@@ -7294,7 +7335,7 @@ msgstr "역코딩 문항"
 
 #: jamovi/js/anovarm.events.js:8
 msgid "RM Factor {0}"
-msgstr ""
+msgstr "RM 요인 {0}"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
