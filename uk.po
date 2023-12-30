@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2023-12-30 11:08+0000\n"
+"Last-Translator: Сергій <sergiy.goncharuk.1@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -14,19 +19,21 @@ msgstr "'{col}' містить нескінченні значення"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr "'{col}' містить пропущенные значення"
+msgstr "'{col}' містить пропущені значення"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr "'{col}' містить тільки пропущенные значення"
+msgstr "'{col}' містить тільки пропущені значення"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr "'{col}' містить тільки одне уникальное значення"
+msgstr "'{col}' містить лише одне унікальне значення"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "Метод витягу '{method}' використовував у поєднанні з обертанням '{rotation}'"
+msgstr ""
+"Метод видобутку '{method}' було використано у поєднанні з обертанням "
+"'{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -1285,6 +1292,8 @@ msgstr "число (по умолчанию: 3), виділити значенн
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"число від 0.01 до 2 (за замовчуванням 0.707), початкова ширина, яку буде "
+"використано для обчислення коефіцієнтів Байєса"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2937,7 +2946,7 @@ msgstr "Сжатие даних"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Набір даних наразі не зважений"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4793,7 +4802,7 @@ msgstr "позначіть значити апостериорные порів�
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
 msgid "Frequencies"
-msgstr "Частоти"
+msgstr "Частотний"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
@@ -4953,7 +4962,7 @@ msgstr "Гельмерт"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "прихований"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5117,7 +5126,7 @@ msgstr "Елемент '{item}' містить неопределенное кі
 #: R/anovarm.b.R
 #: R/reliability.b.R
 msgid "Item '{item}' contains only missing values"
-msgstr "Елемент '{item}' містить тільки пропущенные значення"
+msgstr "Елемент '{item}' містить тільки пропущені значення"
 
 #: R/reliability.b.R
 msgid "Item '{item}' has no variance"
@@ -5693,7 +5702,7 @@ msgstr "Індекси модифікації"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Моделювання Монте-Карло"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5839,7 +5848,7 @@ msgstr "Тест на нормальность (Шапиро-Уилк)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
+msgstr "Не всі коефіцієнти можна оцінити (ймовірно, через сингулярну підгонку)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -5981,12 +5990,10 @@ msgstr "Не удалось оцінити один або кілька коеф
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
-msgstr "один або кілька з `'cfi'`, `'tli'`, `'srmr'`, rmsea\"\n"
-"\n"
-"#: ancova/options/effectSize.description.R\n"
-"#: anova/options/effectSize.description.R\n"
-"#: anovaRM/options/effectSize.description.R\n"
-"msgid "
+msgstr ""
+"один або більше з `'cfi'`, `'tli'', `'srmr'', `'rmsea'', `'aic'' або `'bic'`;"
+" використовуйте CFI, TLI, SRMR, RMSEA + 90% довірчий інтервал, скоригований "
+"AIC та BIC відповідно для оцінки відповідності моделі"
 
 #: ancova/options/effectSize.description.R
 #: anova/options/effectSize.description.R
@@ -6946,7 +6953,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -7012,7 +7019,7 @@ msgstr "Опорний рівні"
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
 msgid "Regression"
-msgstr "Регрессия"
+msgstr "Регресивний"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
@@ -8125,11 +8132,17 @@ msgstr "синтаксис lavaan, використовувати для под�
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "метод виключення пропущенных значень. `'Analysis by analysis'` виключає пропущенные значення з кожногоаналізу. `Listwise` виключає строку з всіх аналізів, якщо одне з їїзначень отсутствует."
+msgstr ""
+"метод виключення пропущених значень. `Analysis by analysis` виключає "
+"пропущені значення з кожного аналізу. `Listwise` виключає рядок зі всіх "
+"аналізів, якщо одне з її значень відсутнє."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "метод виключення пропущенных значень. `'Analysis by analysis'` виключає пропущенные значення з кожної переменной. `Listwise` виключає строку з всіх аналізів, якщо одне з їїзначень отсутствует."
+msgstr ""
+"метод виключення пропущених значень. `Analysis by analysis` виключає "
+"пропущені значення з кожної змінної. `Listwise` виключає рядок зі всіх "
+"аналізів, якщо одне з її значень відсутнє."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -8152,6 +8165,8 @@ msgstr "апостериорные поправки множественных �
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"початкова ширина для Байєсівських факторів t-критерію Стьюдента. Потрібне "
+"значення від 0.01 до 2.0, за замовчуванням 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8443,7 +8458,7 @@ msgstr "Терстон"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² Тюра"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8703,7 +8718,7 @@ msgstr "взвешивать кожнуосередок однаково. (Ос�
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Змінна ваги"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8715,7 +8730,7 @@ msgstr "Виважене по '{varName}'"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Ваги"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8725,7 +8740,7 @@ msgstr "Веса (необязательно)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Ваги містять від'ємні значення. Від'ємні ваги не допускаються."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
