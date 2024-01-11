@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-09-26 09:00+0000\n"
+"PO-Revision-Date: 2024-01-11 17:06+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ca/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1289,6 +1289,8 @@ msgstr "un nombre (predeterminat: 3), destacats els valors a les taules `'modInd
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"un nombre entre 0,01 i 2 (predeterminat 0,707), l'amplada prèvia per ser "
+"utilitzat en el càlcul dels factors de Bayes"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -1734,7 +1736,7 @@ msgstr "Estadístiques Addicionals"
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
 msgid "Adjusted R²"
-msgstr "R² Ajustada"
+msgstr "R² ajustada"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -1762,7 +1764,7 @@ msgstr "Totes les observacions estan repetides"
 #: ttestOneS/options/hypothesis.title
 #: ttestPS/options/hypothesis.title
 msgid "Alternative hypothesis"
-msgstr "Hipótesi alternativa"
+msgstr "Hipòtesis alternatives"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
@@ -2075,7 +2077,7 @@ msgstr "Binomial"
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr "Regressió Logística Binomial"
+msgstr "Regressió logística binomial"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
@@ -2174,7 +2176,7 @@ msgstr "IC Inferior"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "IC Superior"
+msgstr "CI Superior"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -2653,7 +2655,7 @@ msgstr "Intervals de Credibilitat"
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "Cronbach's α"
-msgstr "α de Cronbach"
+msgstr "Alpha de Cronbach"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
@@ -2940,7 +2942,7 @@ msgstr "Reducció de Dades"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "El conjunt de dades no està ponderat actualment"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4956,7 +4958,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "ocult"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5696,7 +5698,7 @@ msgstr "Índexs de modificació"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Simulació de Monte Carlo"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5843,6 +5845,8 @@ msgstr "Prova de Normalitat (Shapiro-Wilk)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"No s'han pogut estimar tots els coeficients (probablement degut a "
+"l'ajustament singular)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6329,7 +6333,7 @@ msgstr "Pearson"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "La correlació de Pearson no pot calcular-se per a valors no numèrics"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6944,7 +6948,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -7605,7 +7609,7 @@ msgstr "Error estàndard"
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr "Error estàndard"
+msgstr "Error típic"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -8152,6 +8156,8 @@ msgstr "las correccions de comparacions múltiples post-hoc que s'utilitzaran."
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"l'amplada a priori per als factors Bayes de la prova t de Student. Requereix "
+"un valor entre 0,01 i 2,0, per defecte 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8446,7 +8452,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² de Tjur"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8706,7 +8712,7 @@ msgstr "ponderació igual per a cada cel·la. (De forma predeterminada les cel·
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Variable de ponderació"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8729,6 +8735,7 @@ msgstr "Ponderacions (opcional)"
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
 msgstr ""
+"Els pesos contenen valors negatius. Els pesos negatius no estan permesos."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
