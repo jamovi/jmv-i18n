@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2024-03-03 00:01+0000\n"
+"Last-Translator: Andre Costa <andrecaeu@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: pt\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1285,6 +1289,8 @@ msgstr "um número (padrão: 3), realça os valores nas tabelas `'modIndices'` a
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"um número entre 0,01 e 2 (por defeito 0,707), a largura prévia a utilizar no "
+"cálculo dos fatores de Bayes"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2925,7 +2931,7 @@ msgstr "Redução de Dados"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "O conjunto de dados não está atualmente ponderado"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4939,7 +4945,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "oculto"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5679,7 +5685,7 @@ msgstr "Índices de Modificação"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Simulação de Monte Carlo"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5826,6 +5832,8 @@ msgstr "Teste à Normalidade (Shapiro-Wilk)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"Nem todos os coeficientes puderam ser estimados (provavelmente devido a um "
+"ajuste singular)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6927,7 +6935,7 @@ msgstr "R²<sub>CS</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8135,6 +8143,8 @@ msgstr "as correções das comparações múltiplas post-hoc a usar."
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"a largura prévia para os factores Bayes do teste t de Student. Requer um "
+"valor entre 0,01 e 2,0, padrão 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8385,7 +8395,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² de Tjur"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8645,7 +8655,7 @@ msgstr "ponder cada célula igualmente. (As células são ponderadas de acordo c
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Peso Variável"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8657,7 +8667,7 @@ msgstr "Ponderado por '{varName}'"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Pesos"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8667,7 +8677,7 @@ msgstr "Pesos (opcional)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Os pesos contêm valores negativos. Não são permitidos pesos negativos."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
