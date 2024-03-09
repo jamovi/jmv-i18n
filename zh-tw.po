@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-08-21 08:48+0000\n"
+"PO-Revision-Date: 2024-03-09 09:01+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "jamovi/jmv-i18n/zh_Hant/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -225,19 +225,27 @@ msgstr "`'minres'`（預設）、 "
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
-msgstr ""
+msgstr "''none''、''ci''（預設值）或 "
+"''se''。在邊際均值圖上分別使用無誤差線、使用置信區間或使用標準誤"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
+"''none''， ''gamesHowell'' 或 ''tukey''，提供事後測試;''none'' "
+"顯示沒有事後測試，''gamesHowell'' 顯示 Games-Howell "
+"事後測試，其中不假設方差等價，''tukey'' 顯示 Tukey 事後測試，其中假設方差等價"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"''none''， ''varimax'' （預設）， ''quartimax''， ''promax''， ''oblimin'' "
+"或 ''simplimax''，用於估計的旋轉"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
 msgstr ""
+"`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, "
+"`'oblimin'`（預設值）或''simplimax''，用於估計的旋轉"
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
