@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-02-28 18:02+0000\n"
+"PO-Revision-Date: 2024-03-12 14:02+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -1108,17 +1108,17 @@ msgstr "±%"
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr "< wartość testu"
+msgstr "< porównywana wartość"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr "≠ wartości testu"
+msgstr "≠ porównywanej wartości"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr "> wartość testu"
+msgstr "> porównywana wartość"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -7795,12 +7795,12 @@ msgstr "Statystyki testowe"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr "Wartość testu"
+msgstr "Porównywana wartość"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr "Wartość testu"
+msgstr "Porównywana wartość"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
@@ -7837,13 +7837,17 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "hipotezy alternatywna i zerowa;\n"
+msgstr ""
+"hipotezy alternatywna i zerowa;\n"
 "\n"
 "|              | Alternatywna (Hₐ)  | Zerowa (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
-"| ≠ Wartość testu | Średnia ≠ Wartość testu | Średnia = Wartość testu  |\n"
-"| > Wartość testu | Średnia > Wartość testu | Średnia <= Wartość testu |\n"
-"| < Wartość testu | Średnia < Wartość testu | Średnia >= Wartość testu |"
+"| ≠ Wartość porównywana | Średnia ≠ Wartość porównywana | Średnia = Wartość "
+"porównywana  |\n"
+"| > Wartość porównywana | Średnia > Wartość porównywana | Średnia <= Wartość "
+"porównywana |\n"
+"| < Wartość porównywana | Średnia < Wartość porównywana | Średnia >= Wartość "
+"porównywana |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
