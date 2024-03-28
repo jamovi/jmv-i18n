@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-03-28 15:01+0000\n"
+"PO-Revision-Date: 2024-03-28 18:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -8434,12 +8434,20 @@ msgstr "szerokość przedziałów ufności."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "Test χ² dobroci dopasowania (nie mylić z testem niezależności χ² ) służy do weryfikacji hipotezy zerowej wskazującej, że proporcje obserwacji odpowiadają pewnym proporcjom oczekiwanym. Niska wartość p sugeruje, że hipoteza zerowa jest fałszywa, a prawdziwe proporcje są inne niż testowane."
+msgstr ""
+"Test zgodności χ² (nie mylić z testem niezależności χ² ) służy do "
+"weryfikacji hipotezy zerowej wskazującej, że proporcje obserwacji "
+"odpowiadają pewnym proporcjom oczekiwanym. Niska wartość p sugeruje, że "
+"hipoteza zerowa jest fałszywa, a prawdziwe proporcje są inne niż testowane."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "Test zgodności χ² (nie mylić z testem χ² dobroci dopasowania) służy do sprawdzenia, czy dwie zmienne kategorialne są od siebie niezależne czy też powiązane ze sobą. Niska wartość p sugeruje, że zmienne nie są niezależne, i że może istnieć związek pomiędzy nimi."
+msgstr ""
+"Test niezależności χ² (nie mylić z testem zgodności χ²) służy do "
+"sprawdzenia, czy dwie zmienne kategorialne są od siebie niezależne czy też "
+"powiązane ze sobą. Niska wartość p sugeruje, że zmienne nie są niezależne, i "
+"że może istnieć związek pomiędzy nimi."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -8908,21 +8916,21 @@ msgstr "χ² poprawka na ciągłość"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
-msgstr "χ² dobroci dopasowania"
+msgstr "Test zgodności χ²"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
 msgid "χ² Goodness of fit"
-msgstr "χ² dobroci dopasowania"
+msgstr "Test zgodności χ²"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
-msgstr "test χ²"
+msgstr "Test χ²"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
 msgid "χ² test of association"
-msgstr "Test zgodności χ²"
+msgstr "Test niezależności χ²"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
