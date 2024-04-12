@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2024-04-12 02:01+0000\n"
+"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1284,7 +1288,8 @@ msgstr "`’modIndices’`の表で強調表示する値の基準値（初期値
 
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
+msgstr "ベイズ因子を計算する際に使用する事前幅を、0.01から2の間の数値（初期値は0."
+"707）で指定します"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2933,7 +2938,7 @@ msgstr "データ縮約"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "データセットは重みづけされていません"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4619,7 +4624,7 @@ msgstr "F統計量を計算できません"
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "因子分析"
+msgstr "因子"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
@@ -4793,7 +4798,7 @@ msgstr "事後検定において差が有意な箇所に印をつけます。"
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
 msgid "Frequencies"
-msgstr "度数分析"
+msgstr "度数"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
@@ -5694,7 +5699,7 @@ msgstr "修正指数"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "モンテ・カルロ・シミュレーション"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -7002,7 +7007,7 @@ msgstr "基準レベル"
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
 msgid "Regression"
-msgstr "回帰分析"
+msgstr "回帰"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
@@ -8693,7 +8698,7 @@ msgstr "‘{varName}’による重みづけあり"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "重みづけ"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
