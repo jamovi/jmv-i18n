@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-04-12 02:01+0000\n"
+"PO-Revision-Date: 2024-04-12 03:01+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ja/>\n"
@@ -4958,7 +4958,7 @@ msgstr "ヘルマート"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "非表示"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5845,7 +5845,7 @@ msgstr "正規性検定（シャピロ=ウィルク）"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
+msgstr "いくつかの係数を推定できませんでした（特異な適合によるものと思われます）"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6941,7 +6941,7 @@ msgstr "R²<sub>ナゲ</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8140,7 +8140,8 @@ msgstr "事後検定で使用する修正方法を指定します。"
 
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr ""
+msgstr "スチューデントのt検定でベイズ因子を算出するための事前幅です。0.01から2."
+"0の間の値で設定してください。初期値は0.707です。"
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8426,7 +8427,7 @@ msgstr "サーストン"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "チュア（Tjur）のR²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8686,7 +8687,7 @@ msgstr "すべてのセルを均等に重みづけします（初期値では、
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "重みづけ変数"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8708,7 +8709,7 @@ msgstr "重みづけ（オプション）"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "重みづけに負の値が含まれています。負の重みは使用できません。"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
