@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-04-10 21:01+0000\n"
+"PO-Revision-Date: 2024-04-18 12:08+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -2087,7 +2087,7 @@ msgstr "Dwumianowa"
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr "Dwumianowa regresja logistyczna"
+msgstr "Regresja logistyczna"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
@@ -2998,7 +2998,8 @@ msgid "data('birthwt', package='MASS')\n"
 "#    vs. \"low = 0\"\n"
 "#\n"
 "#"
-msgstr "data('birthwt', package='MASS')\n"
+msgstr ""
+"data('birthwt', package='MASS')\n"
 "\n"
 "dat <- data.frame(\n"
 "            low = factor(birthwt$low),\n"
@@ -3011,7 +3012,7 @@ msgstr "data('birthwt', package='MASS')\n"
 "          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
 "\n"
 "#\n"
-"# DWUMIANOWA REGRESJA LOGISTYCZNA\n"
+"# REGRESJA LOGISTYCZNA\n"
 "#\n"
 "#  Miary dopasowania modelu\n"
 "#  ───────────────────────────────────────\n"
@@ -8054,7 +8055,9 @@ msgstr "Zbiór danych nie zawiera żadnego wiersza (lub wszystkie wiersze zawier
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "Zmienna zależna '{}' ma więcej niż dwa poziomy; dwumianowa regresja logistyczna może zostać wykonana tylko na zmiennych zależnych przyjmujących dwa poziomy."
+msgstr ""
+"Zmienna zależna '{}' ma więcej niż dwa poziomy; regresja logistyczna może "
+"zostać wykonana tylko na zmiennych zależnych przyjmujących dwa poziomy."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
