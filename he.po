@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-06-24 19:09+0000\n"
+"PO-Revision-Date: 2024-06-24 20:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1522,7 +1522,7 @@ msgstr "טבלת תוצאות ניתוח שונות משותפת (ANCOVA)"
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "טבלת תוצאות ניתוח שונות"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
@@ -1807,7 +1807,7 @@ msgstr ""
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "מערך של תרשימי Q-Q"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
@@ -1896,11 +1896,11 @@ msgstr ""
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr "ניתוח שונות"
+msgstr "ניתוח שונות (ANOVA)"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr ""
+msgstr "מבחן ניתוח שונות"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
@@ -2122,11 +2122,11 @@ msgstr ""
 
 #: descriptives/options/box.title
 msgid "Box plot"
-msgstr ""
+msgstr "תרשים קופסות"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
-msgstr ""
+msgstr "תרשימי קופסות"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
@@ -3550,6 +3550,9 @@ msgstr "תיאורי"
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
 msgstr ""
+"מידע תיאורי הוא אוסף של סטטיסטיקות מסכמות ושל דרכי הצגת מידע העוזרות לחקור "
+"את הצורה ואת ההתפלגות של הנתונים. מומלץ לחקור את הנתונים עם מידע תיאורי לפני "
+"שממשיכים למבחנים רשמיים יותר."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -3667,7 +3670,7 @@ msgstr "פיזור"
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
-msgstr ""
+msgstr "התפלגות"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -4523,11 +4526,11 @@ msgstr "קראסקל–ואליס"
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
 msgid "Kurtosis"
-msgstr ""
+msgstr "גבנוניות (Kurtosis)"
 
 #: descriptives/options/boxLabelOutliers.title
 msgid "Label outliers"
-msgstr ""
+msgstr "תיוג חריגות"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -4651,7 +4654,7 @@ msgstr ""
 #: mancova/ui.title
 #: mancova/results.title
 msgid "MANCOVA"
-msgstr "ניתוח שונות משותפת רב משתני (MANCOVA)"
+msgstr "ניתוח שונות משותפת רבת משתנים (MANCOVA)"
 
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
@@ -5055,15 +5058,17 @@ msgstr ""
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
+"השימוש בניתוח שונות (משותפת) רבת משתנים (MANCOVA) הוא לחקר הקשר בין כמה "
+"משתנים תלויים ומשתנה מסביר אחד (או יותר) מסולם קטגוריאלי ו/או רציף."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
-msgstr "סטטיסטיקה רב משתנית"
+msgstr "סטטיסטיקה רבת משתנים"
 
 #: mancova/results/multivar.title
 msgid "Multivariate Tests"
-msgstr ""
+msgstr "מבחנים רבי משתנים"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -5165,7 +5170,7 @@ msgstr ""
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr ""
+msgstr "מבחן נורמליות (שפירו–וילק)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
@@ -5688,6 +5693,8 @@ msgstr ""
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"ביצוע מבחן שפירו–וילק לנורמליות. ערך p נמוך מעיד על הנתונים שהם אינם מתפלגים "
+"נורמלי."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -5702,11 +5709,15 @@ msgstr ""
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"ביצוע מבחני שפירו–וילק לנורמליות. ערך p נמוך מעיד על הנתונים שהם אינם "
+"מתפלגים נורמלי."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
+"ביצוע מבחני שפירו–וילק לנורמליות. ערך p נמוך מעיד על הנתונים השיוריים שהם "
+"אינם מתפלגים נורמלי."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -6156,7 +6167,7 @@ msgstr ""
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
-msgstr ""
+msgstr "Q-Q"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -6169,7 +6180,7 @@ msgstr ""
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr ""
+msgstr "תרשים Q-Q"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -6178,27 +6189,27 @@ msgstr ""
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr ""
+msgstr "תרשים Q-Q"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "תרשים Q-Q להערכת נורמליות רבת משתנים"
 
 #: mancova/options/qqPlot.title
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "תרשים Q-Q של נורמליות רבת משתנים"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "תרשימי Q-Q של נתונים שיוריים"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
-msgstr ""
+msgstr "תרשימי Q-Q"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr ""
+msgstr "תרשימי Q-Q"
 
 #: R/ancova.b.R
 msgid "quadratic"
@@ -6729,27 +6740,27 @@ msgstr ""
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "שפירו–וילק"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr ""
+msgstr "מבחן שפירו–וילק לנורמליות רבת משתנים"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr ""
+msgstr "p של שפירו–וילק"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
-msgstr ""
+msgstr "מבחן שפירו–וילק"
 
 #: mancova/options/shapiro.title
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr ""
+msgstr "מבחן שפירו–וילק לנורמליות רבת משתנים"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
-msgstr ""
+msgstr "W של שפירו–וילק"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
@@ -6930,7 +6941,7 @@ msgstr "סטיית תקן"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "גבנוניות טעות התקן"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
@@ -7295,7 +7306,7 @@ msgstr ""
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "המשתנה התלוי. בניתוח שונות הוא יהיה רציף."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
@@ -7307,7 +7318,7 @@ msgstr ""
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "המשתנים התלויים. בניתוח שונות הם יהיו רציף."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
@@ -7326,11 +7337,11 @@ msgstr ""
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr ""
+msgstr "המשתנה המסביר או הבלתי תלוי. בניתוח שונות הוא יהיה קטגוריאלי."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr ""
+msgstr "המשתנים המסבירים או הבלתי תלויים. בניתוח שונות הם יהיו קטגוריאליים."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
