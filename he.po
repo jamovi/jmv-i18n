@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-06-25 13:09+0000\n"
+"PO-Revision-Date: 2024-06-25 14:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -15,15 +15,15 @@ msgstr ""
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr ""
+msgstr "”{col}“ מכילה אין־סוף ערכים"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "”{col}“ מכילה ערכים חסרים"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "”{col}“ מכילה רק ערכים חסרים"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
@@ -1219,7 +1219,7 @@ msgstr ""
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
+msgstr "רשימה של רשימות המציינת את השונויות המשותפות השיוריות שיש להעריך"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -1454,11 +1454,11 @@ msgstr ""
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr ""
+msgstr "טבלה המכילה מדדי שינוי של השונויות המשותפות השיוריות שלא נכללות במודל"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "טבלה המכילה הערכות של שונויות משותפות שיוריות"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
@@ -1493,7 +1493,7 @@ msgstr ""
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "טבלה המכילה את מבחני הומוגניות השונויות"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
@@ -1503,7 +1503,7 @@ msgstr ""
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "טבלה המכילה את מבחני הנורמליות"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
@@ -1530,12 +1530,12 @@ msgstr ""
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "טבלת מבחני הומוגניות השונויות"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "טבלת מבחני ההומוגניות"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
@@ -1560,7 +1560,7 @@ msgstr ""
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "טבלת מבחני הנורמליות"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1763,7 +1763,7 @@ msgstr ""
 #: ttestOneS/options/hypothesis.title
 #: ttestPS/options/hypothesis.title
 msgid "Alternative hypothesis"
-msgstr ""
+msgstr "השערה חלופית"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
@@ -1776,7 +1776,7 @@ msgstr ""
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "מערך טבלאות של ערכים קיצוניים"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -1849,7 +1849,7 @@ msgstr ""
 
 #: descriptives/options/extremeN.description.R
 msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr ""
+msgstr "מספר שלם (ברירת מחדל: 5) המציין את כמות הערכים הקיצוניים"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -3485,15 +3485,16 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "המשתנה התלוי ”{dep}“ מכיל אין־סוף ערכים"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "המשתנה התלוי ”{dep}“ אינו מכיל נתונים (לאחר הסרת שורות עם ערכים חסרים)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"המשתנה התלוי ”{dep}“ מכיל רק ערך ייחודי אחד (לאחר הסרת שורות עם ערכים חסרים)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -3674,7 +3675,7 @@ msgstr "התפלגות"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr "ללא הנחת שוויון (וולץ')"
+msgstr "ללא הנחת שוויון (ולץ')"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
@@ -3745,7 +3746,7 @@ msgstr ""
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr ""
+msgstr "ערכים עצמיים"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
@@ -3909,15 +3910,15 @@ msgstr ""
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "ערכים קיצוניים"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "ערכים קיצוניים"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "ערכים קיצוניים של $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -4353,7 +4354,7 @@ msgstr ""
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
 msgid "Hypothesis"
-msgstr ""
+msgstr "השערה"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
@@ -4914,7 +4915,7 @@ msgstr ""
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
 msgid "Missing Values Method"
-msgstr ""
+msgstr "שיטת הערכים החסרים"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
@@ -5034,7 +5035,7 @@ msgstr ""
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "הכי קיצוניים"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5194,7 +5195,7 @@ msgstr ""
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "כמות הערכים הקיצוניים"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -5206,7 +5207,7 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
+msgstr "כמות הערכים הקיצוניים המבוקשים גדול ממספר השורות בנתונים."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -5300,7 +5301,7 @@ msgstr ""
 
 #: R/ttestps.b.R
 msgid "One or both variables contain infinite values"
-msgstr ""
+msgstr "משתנה אחד או יותר מכיל אין־סוף ערכים"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain no observations"
@@ -5388,7 +5389,7 @@ msgstr "ניתוח שונות חד כיווני (לא פרמטרי)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr "ניתוח שונות חד כיווני (של וולץ')"
+msgstr "ניתוח שונות חד כיווני (של ולץ')"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
@@ -5644,7 +5645,7 @@ msgstr "פירסון"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "אי אפשר לחשב מתאם פירסון לערכים לא מספריים"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -5721,15 +5722,15 @@ msgstr ""
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr ""
+msgstr "ביצוע מבחני t של סטודנט למדגמים בלתי תלויים."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr ""
+msgstr "ביצוע מבחני t של סטודנט למדגם יחיד."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "ביצוע מבחני t של סטודנט למדגמים תלויים."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
@@ -5737,7 +5738,7 @@ msgstr ""
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "ביצוע מבחני ולץ'."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -5865,7 +5866,7 @@ msgstr ""
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr ""
+msgstr "ערכים מנובאים"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
@@ -7112,7 +7113,7 @@ msgstr ""
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "ההשערה החלופית."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
@@ -7790,7 +7791,7 @@ msgstr ""
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr ""
+msgstr "ערכים"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
@@ -7812,7 +7813,7 @@ msgstr ""
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable contains infinite values"
-msgstr ""
+msgstr "המשתנה מכיל אין־סוף ערכים"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
