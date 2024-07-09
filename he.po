@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-09 18:09+0000\n"
+"PO-Revision-Date: 2024-07-09 19:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1908,7 +1908,7 @@ msgstr ""
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
-msgstr ""
+msgstr "הנחת שוויון (של פישר)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -1931,7 +1931,7 @@ msgstr ""
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr ""
+msgstr "בדיקת השערות"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
@@ -4149,7 +4149,7 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
-msgstr ""
+msgstr "גיימס–האוול (אי־שוויון שונויות)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
@@ -4319,7 +4319,7 @@ msgstr ""
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr ""
+msgstr "מבחן שוויון השונויות (של לוין)"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
@@ -4455,7 +4455,7 @@ msgstr ""
 
 #: R/reliability.b.R
 msgid "Item '{item}' has no variance"
-msgstr ""
+msgstr "לפריט ”{item}“ אין שונות"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' needs to be numeric"
@@ -4554,6 +4554,8 @@ msgstr ""
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
+"תוצאת מבחן לוין יצאה מובהקת (p < .05) והיא מעידה על כך שהנחת שוויון השונויות "
+"מופרת"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -6084,11 +6086,13 @@ msgstr "גודל האפקט (d של כהן)."
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
+"מבחן לוין לשוויון שונויות. ערך p נמוך מעיד על אי־שוויון שונויות של הקבוצות."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
+"מבחני לוין לשוויון שונויות. ערך p נמוך מעיד על אי־שוויון שונויות של הקבוצות."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -6408,11 +6412,11 @@ msgstr ""
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "שונויות משותפות שיוריות"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "שונויות משותפות שיוריות"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
@@ -7134,6 +7138,9 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
+"ניתוח השונות (ANOVA) משמשת לחקירת הקשר בין\n"
+"משתנה רציף תלוי למשתנה קטגוריאלי מסביר\n"
+"אחד או יותר."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7702,7 +7709,7 @@ msgstr ""
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "טוקי (שוויון שונויות)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
@@ -7854,7 +7861,7 @@ msgstr "שונות"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr ""
+msgstr "שונויות"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
