@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-14 11:09+0000\n"
+"PO-Revision-Date: 2024-07-14 12:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1498,7 +1498,7 @@ msgstr "טבלה המכילה את מבחני הומוגניות השונויו�
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "טבלה המכילה את תוצאות מבחן הנורמליות"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
@@ -2541,6 +2541,19 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"מטריצות קשרים הן דרך לבחינת היחסים הליניאריים בין שני משתנים רציפים או יותר."
+"\n"
+"\n"
+"עבור כל צמד משתנים, r של פירסון מעיד על חוזק הקשר ביניהם ועל הכיוון שלו.\n"
+"ערך חיובי מעיד על קשר חיובי (ערכים גבוהים של משתנה אחד מנבאים ערכים גבוהים\n"
+"של המשתנה השני). ערך שלילי של r של פירסון מעיד על קשר שלילי (ערכים גבוהים\n"
+"של משתנה אחד מנבאים ערכים נמוכים של המשתנה השני, ולהפך). הערך אפס מעיד\n"
+"שאין קשר (בין אם הערך של המשתנה גבוה או נמוך, זה לא אומר דבר על המשתנה השני)."
+"\n"
+"\n"
+"באופן רשמי, ניתן לבחון את השערת האפס שהמתאם הוא אפס ולחשב את ערך ה־p.\n"
+"ערך p נמוך מעיד על מקדם המתאם שאינו שווה לאפס ושיש קשר ליניארי (או מורכב\n"
+"יותר) בין שני המשתנים."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -4786,7 +4799,7 @@ msgstr ""
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Mean Difference"
-msgstr ""
+msgstr "הפרש הממוצעים"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -4800,7 +4813,7 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
 msgid "Mean difference"
-msgstr "הפרש ממוצעים"
+msgstr "הפרש הממוצעים"
 
 #: descriptives/ui[2][2][1].label
 msgid "Mean Dispersion"
@@ -5975,7 +5988,7 @@ msgstr "מדד d של כהן לגודל האפקט לצורך ניתוחי הה�
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr ""
+msgstr "רווח בר סמך עבור ההפרש בין הממוצע המשוער וערך המבחן."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -6040,7 +6053,7 @@ msgstr "רווחים ברי סמך לגודלי האפקטים"
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr ""
+msgstr "רווחים ברי סמך עבור הפרשי הממוצעים."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
@@ -6049,7 +6062,7 @@ msgstr "רווחים ברי סמך לגודלי האפקט של ניתוחי ה�
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr ""
+msgstr "מקדמי המתאם בתרשים מטריצת הקשרים."
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
@@ -6097,15 +6110,16 @@ msgstr ""
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr ""
+msgstr "הפרשי הממוצעים וטעויות התקן של הפרשי הממוצעים."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr ""
+msgstr "הפרשי הממוצעים עם מבחני ההמשך."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
 msgstr ""
+"הפרשי הממוצעים וטעויות התקן של הפרשי הממוצעים בין הממוצע המשוער וערך המבחן."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
