@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-14 12:09+0000\n"
+"PO-Revision-Date: 2024-07-14 13:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -4675,7 +4675,7 @@ msgstr "ניתוח שונות משותפת רבת משתנים (MANCOVA)"
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr ""
+msgstr "U של מאן–ויטני"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
@@ -5704,7 +5704,7 @@ msgstr "אחוזונים"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "ביצוע מבחן U של מאן–ויטני."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
@@ -7373,6 +7373,11 @@ msgstr "הגורמים הקבועים מ־`data`"
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"משתמשים במבחן פרידמן כדי לבחון את הקשר בין משתנה תלוי רציף ומשתנה מסביר "
+"קטגוריאלי כשהמשתנה המסביר הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד). הוא "
+"מקביל לניתוח שונות למדידות חוזרות, אבל יש לו יתרונות שהוא לא פרמטרי ושאין לא "
+"צורך בהנחות נורמליות ושוויון שונויות. עם זאת, יש לו מגבלה שהוא אינו יכול "
+"לבחון יותר ממשתנה מסביר אחד בכל פעם."
 
 #: ttestIS/options/group.description.R
 msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
