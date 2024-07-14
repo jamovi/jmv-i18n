@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-14 14:09+0000\n"
+"PO-Revision-Date: 2024-07-14 15:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -6074,7 +6074,7 @@ msgstr ""
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
-msgstr ""
+msgstr "מידע תיאורי עבור כל קבוצה של מדדים."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
@@ -7153,7 +7153,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "explanatory variables."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה רציף תלוי ומשתנה מסביר קטגוריאלי אחד או יותר."
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7169,7 +7169,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "can be used."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה רציף תלוי ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
 "\n"
 "ניתוח שונות מניח שהנתונים השיוריים מתפלגים נורמלית ושהשונויות\n"
 "של כל הקבוצות שוות. אם לא מניחים שוויון שונויות ניתן להשתמש\n"
@@ -7186,7 +7186,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה רציף תלוי ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
 "השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
@@ -7207,7 +7207,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "independent samples t-test."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה רציף תלוי ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
 "השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
@@ -7412,6 +7412,10 @@ msgstr ""
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"משתמשים במבחן קראסקל–ואליס כדי לחקור את הקשר שבין משתנה תלוי רציף ומשתנה "
+"מסביר קטגוריאלי. הוא מקביל לניתוח שונות, אבל יש לו יתרונות שהוא לא פרמטרי "
+"ושיש לו פחות הנחות. עם זאת, יש לו מגבלה שהוא אינו יכול לבחון יותר ממשתנה "
+"מסביר אחד בכל פעם."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -7441,7 +7445,7 @@ msgstr ""
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
+msgstr "זוגות המדדים – נערך מבחן t שונה עבור כל זוג של מדדים."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -7534,8 +7538,8 @@ msgstr ""
 "מבחן t של סטודנט למדגמים בלתי תלויים מניח שהנתונים מכל קבוצה\n"
 "מגיעים מהתפלגות נורמלית ושהשונויות של הקבוצות הללו שוות. אם\n"
 "לא מניחים שלקבוצות יש שוויון שונויות משתמשים במבחן t של ולץ' במקום.\n"
-"אם בנוסף לא מניחים שהנתונים מגיעים מהתפלגות נורמלית, משתמשים\n"
-"במבחן הלא פרמטרי – U של מאן–ויטני במקום (עם זאת, יש לשים לב שלמבחן\n"
+"אם בנוסף לא מניחים שהנתונים מגיעים מהתפלגות נורמלית, ניתן להשתמש\n"
+"במקום במבחן הלא פרמטרי – U של מאן–ויטני (עם זאת, יש לשים לב שלמבחן\n"
 "U של מאן–ויטני השערת אפס שונה במקצת – שההתפלגויות של כל קבוצה זהות)."
 
 #: package/analyses/ttestOneS.description
@@ -7580,6 +7584,16 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים תלויים (הנקרא לעיתים מבחן\n"
+"t למדגמים מזווגים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
+"שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
+"בין זוגות המדדים שונה מאפס.\n"
+"\n"
+"מבחן t של סטודנט למדגמים תלויים מניח שזוגות ההפרשים מתאימים\n"
+"להתפלגות נורמלית. אם לא מניחים זאת, ניתן להשתמש במקום במבחן הלא\n"
+"פרמטרי – הדרגות המסומנות של וילקוקסון (עם זאת, יש לשים לב שלמבחן\n"
+"הדרגות המסומנות של וילקוקסון השערת אפס שונה במקצת – שקבוצות שני\n"
+"המדדים מתאימות לאותה ההתפלגות)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
@@ -7985,11 +7999,11 @@ msgstr ""
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "של ולץ'"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "t של ולץ'"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
@@ -8004,7 +8018,7 @@ msgstr "מבחן הדרגות המסומנות של וילקוקסון"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "W של וילקוקסון"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
