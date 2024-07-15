@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-14 13:09+0000\n"
+"PO-Revision-Date: 2024-07-14 16:21+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1730,7 +1730,7 @@ msgstr ""
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
 msgid "Additional Statistics"
-msgstr "סטטיסטיקות נוספות"
+msgstr "סטטיסטיקה נוספת"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
@@ -3648,21 +3648,21 @@ msgstr "סטייה"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr ""
+msgstr "ד״ח"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr ""
+msgstr "ד״ח1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr ""
+msgstr "ד״ח2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
@@ -3720,7 +3720,7 @@ msgstr ""
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr ""
+msgstr "הסטטיסטי של DW"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
@@ -3864,14 +3864,14 @@ msgstr ""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
-msgstr ""
+msgstr "שיטת הערכה"
 
 #: anovaOneW/ui[1][0][1]/miss_perAnalysis.label
 #: ttestIS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "לא לכלול, בהתאם לכל ניתוח"
+msgstr "הוצאה בהתאם לכל ניתוח"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -3879,7 +3879,7 @@ msgstr "לא לכלול, בהתאם לכל ניתוח"
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr "לא לכלול, בהתאם לרשימת המשתנים"
+msgstr "הוצאה בהתאם לרשימת המשתנים"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -3952,7 +3952,7 @@ msgstr ""
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
-msgstr ""
+msgstr "לא ניתן היה לחשב את הסטטיסטי F"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -4384,7 +4384,7 @@ msgstr ""
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
 msgid "Independent Samples"
-msgstr ""
+msgstr "מדגמים תלויים"
 
 #: package/analyses/ttestIS.title
 #: package/analyses/ttestIS.menuTitle
@@ -4480,11 +4480,11 @@ msgstr ""
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
-msgstr ""
+msgstr "סטטיסטיקת מהימנות פריט"
 
 #: reliability/ui[1][1][0].label
 msgid "Item Statistics"
-msgstr ""
+msgstr "סטטיסטיקת הפריט"
 
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
@@ -4602,6 +4602,9 @@ msgstr "רגרסיה ליניארית"
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
+"משתמשים ברגרסיה ליניארית כדי לחקור את הקשר שבין משתנה תלוי רציף ומשתנה רציף "
+"ו/או קטגוריאלי אחד או יותר. שיטות סטטיסטיות אחרות, כמו ניתוח שונות וניתוח "
+"שונות משותפת, הן בעצם צורה של רגרסיה ליניארית."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -4880,7 +4883,7 @@ msgstr "חציונים"
 #: efa/ui[1][0][0].label
 #: pca/ui[1][0][0].label
 msgid "Method"
-msgstr ""
+msgstr "שיטה"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
@@ -4925,7 +4928,7 @@ msgstr "ערכים חסרים"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
-msgstr ""
+msgstr "שיטת הוצאת הערכים החסרים"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
@@ -5749,7 +5752,7 @@ msgstr "ביצוע מבחני t של סטודנט למדגמים תלויים."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "ביצוע ניתוחי שונות של ולץ'."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
@@ -6074,7 +6077,7 @@ msgstr ""
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
-msgstr ""
+msgstr "מידע תיאורי עבור כל קבוצה של מדדים."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
@@ -6939,11 +6942,11 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr ""
+msgstr "סטטיסטי"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "סטטיסטי"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -7075,7 +7078,7 @@ msgstr ""
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "תוצאות המבחן (t וד״ח)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
@@ -7152,9 +7155,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
-"ניתוח השונות (ANOVA) משמשת לחקירת הקשר בין\n"
-"משתנה רציף תלוי למשתנה קטגוריאלי מסביר\n"
-"אחד או יותר."
+"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7169,6 +7171,14 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
 msgstr ""
+"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"\n"
+"ניתוח שונות מניח שהנתונים השיוריים מתפלגים נורמלית ושהשונויות\n"
+"של כל הקבוצות שוות. אם לא מניחים שוויון שונויות ניתן להשתמש\n"
+"במבחן ולץ' במקום (עם זאת, מבחן ולץ' אינו תומך ביותר מגורם מסביר אחד).\n"
+"לחילופין, אם לא מניחים שהנתונים מתפלגים נורמלית ניתן להשתמש\n"
+"במבחן לא פרמטרי (כמו קראסקל–ואליס)."
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7178,6 +7188,12 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
+"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
+"שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
+"השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
+"שהוא אינו צריך להניח שהשונויות של כל הקבוצות שוות."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7193,6 +7209,18 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
+"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
+"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
+"שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
+"השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
+"שהוא אינו צריך להניח שהשונויות של כל הקבוצות שוות.\n"
+"\n"
+"לשם הנוחות, שיטה זו מאפשרת לציין כמה משתנים תלויים\n"
+"שייבחנו בכמה מבחנים בלתי תלויים.\n"
+"\n"
+"יש לשים לב שניתוח השונות של ולץ' עובד באותה הצורה\n"
+"כמו מבחן t למדגמים בלתי תלויים של ולץ'."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
@@ -7387,6 +7415,9 @@ msgstr ""
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"משתמשים במבחן קראסקל–ואליס כדי לחקור את הקשר שבין משתנה תלוי רציף ומשתנה "
+"מסביר קטגוריאלי. הוא מקביל לניתוח שונות, אבל יש לו יתרונות שהוא לא פרמטרי "
+"ושיש לו פחות הנחות. עם זאת, הוא מוגבל לבחינת משתנה מסביר אחד בכל פעם."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -7401,10 +7432,14 @@ msgstr ""
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"שיטת הוצאת הערכים החסרים. ”בהתאם לכל ניתוח“ מוציאה ערכים חסרים מכל ניתוח. ”"
+"בהתאם לרשימת המשתנים“ מוציאה שורה מכל הניתוחים אם אחד מערכיה חסר."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"שיטת הוצאת הערכים החסרים. ”בהתאם לכל ניתוח“ מוציאה ערכים חסרים מכל ניתוח. ”"
+"בהתאם לרשימת המשתנים“ מוציאה שורה מכל הניתוחים אם אחד מערכיה חסר."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -7416,7 +7451,7 @@ msgstr ""
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
+msgstr "זוגות המדדים – נערך מבחן t שונה עבור כל זוג של מדדים."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -7441,6 +7476,11 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
+"תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר, כאשר אחד או יותר\n"
+"מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
+"בנוסף, ניתוח זה מאפשר להשתמש בשונויות משותפות כך שניתן לבצע גם\n"
+"ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA)."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -7458,6 +7498,17 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
 msgstr ""
+"משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
+"תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר, כאשר אחד או יותר\n"
+"מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
+"בנוסף, ניתוח זה מאפשר להשתמש בשונויות משותפות כך שניתן לבצע גם\n"
+"ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA).\n"
+"\n"
+"ניתוח זה מחייב את הנתונים להיות ”בפורמט רחב“ שבו כל שורה מייצגת\n"
+"נבדק (בניגוד לפורמט ארוך שבו כל שורה מייצגת מדד של המשתנה התלוי).\n"
+"\n"
+"כמו כן, קיימת חלופה לא פרמטרית של ניתוח השונות למדידות חוזרות: מבחן\n"
+"פרידמן. אבל הוא מוגבל לבחינת גורם אחד בלבד."
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
@@ -7473,7 +7524,7 @@ msgstr ""
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "מדדי המדידות החוזרות."
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
@@ -7485,6 +7536,10 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים בלתי תלויים (הנקרא לעיתים\n"
+"מבחן t לשני מדגמים) לבחינת השערת האפס שלשתי קבוצות יש את\n"
+"אותו הממוצע. ערך p נמוך מעיד על אי נכונותה של השערת האפס\n"
+"ושממוצעי הקבוצות שונים."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -7501,6 +7556,17 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים בלתי תלויים (הנקרא לעיתים\n"
+"מבחן t לשני מדגמים) לבחינת השערת האפס שלשתי קבוצות יש את\n"
+"אותו הממוצע. ערך p נמוך מעיד על אי נכונותה של השערת האפס\n"
+"ושממוצעי הקבוצות שונים.\n"
+"\n"
+"מבחן t של סטודנט למדגמים בלתי תלויים מניח שהנתונים מכל קבוצה\n"
+"מגיעים מהתפלגות נורמלית ושהשונויות של הקבוצות הללו שוות. אם\n"
+"לא מניחים שלקבוצות יש שוויון שונויות משתמשים במבחן t של ולץ' במקום.\n"
+"אם בנוסף לא מניחים שהנתונים מגיעים מהתפלגות נורמלית, ניתן להשתמש\n"
+"במקום במבחן הלא פרמטרי – U של מאן–ויטני (עם זאת, יש לשים לב שלמבחן\n"
+"U של מאן–ויטני השערת אפס שונה במקצת – שההתפלגויות של כל קבוצה זהות)."
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -7529,6 +7595,10 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים תלויים (הנקרא לעיתים מבחן\n"
+"t למדגמים מזווגים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
+"שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
+"בין זוגות המדדים שונה מאפס."
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -7544,6 +7614,16 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים תלויים (הנקרא לעיתים מבחן\n"
+"t למדגמים מזווגים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
+"שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
+"בין זוגות המדדים שונה מאפס.\n"
+"\n"
+"מבחן t של סטודנט למדגמים תלויים מניח שזוגות ההפרשים מתאימים\n"
+"להתפלגות נורמלית. אם לא מניחים זאת, ניתן להשתמש במקום במבחן הלא\n"
+"פרמטרי – הדרגות המסומנות של וילקוקסון (עם זאת, יש לשים לב שלמבחן\n"
+"הדרגות המסומנות של וילקוקסון השערת אפס שונה במקצת – שקבוצות שני\n"
+"המדדים מתאימות לאותה ההתפלגות)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
@@ -7843,7 +7923,7 @@ msgstr "המשתנה מכיל אין־סוף ערכים"
 
 #: R/ttestones.b.R
 msgid "Variable does not contain enough observations"
-msgstr ""
+msgstr "המתנה לא מכיל מספיק תצפיות"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
@@ -7949,11 +8029,11 @@ msgstr ""
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr ""
+msgstr "של ולץ'"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr ""
+msgstr "t של ולץ'"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
@@ -7968,7 +8048,7 @@ msgstr "מבחן הדרגות המסומנות של וילקוקסון"
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "W של וילקוקסון"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
