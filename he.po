@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-16 14:09+0000\n"
+"PO-Revision-Date: 2024-07-16 15:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -2626,7 +2626,7 @@ msgstr ""
 #: logRegOrd/ui[0][1].label
 #: mancova/options/covs.title
 msgid "Covariates"
-msgstr ""
+msgstr "משתנים נלווים"
 
 #: logLinear/options/pseudoR2/r2cs.title
 #: logRegBin/options/pseudoR2/r2cs.title
@@ -7149,6 +7149,10 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
+"משתמשים בניתוח שונות משותפת (ANCOVA) כדי לבחון את הקשר שבין משתנה\n"
+"תלוי רציף, משתנה מסביר קטגוריאלי אחד או יותר ומשתנה מסביר רציף אחד או יותר,\n"
+"(או משתנים נלווים). זה בעקרון אותו ניתוח כמו ניתוח שונות, חוץ מהתוספת של\n"
+"המשתנים הנלווים."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7263,7 +7267,7 @@ msgstr ""
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr ""
+msgstr "המשתנים המסבירים (או התלויים) הרציפים. מוכרים גם בשם משתנים נלווים."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -7280,11 +7284,11 @@ msgstr ""
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "המשתנים הנלווים (ציון שלהם הוא מה שהופך את זה לניתוח שונות משותפת)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "המשתנים הנלווים מ־`data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -7331,6 +7335,8 @@ msgstr ""
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"יש למשתנה התלוי ”{}“ יותר משתי רמות. ניתן לבצע רגרסיה לוגיסטית בינומית רק על "
+"משתנים תלויים בעלי שתי רמות."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
@@ -7378,7 +7384,7 @@ msgstr ""
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
-msgstr ""
+msgstr "המתנים הנלווים המסבירים (אין בהם צורך כשיש נוסחה, יש לראות את הדוגמות)"
 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
@@ -7479,7 +7485,7 @@ msgstr ""
 "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
 "תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר, כאשר אחד או יותר\n"
 "מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
-"בנוסף, ניתוח זה מאפשר להשתמש בשונויות משותפות כך שניתן לבצע גם\n"
+"בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
 "ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA)."
 
 #: anovaRM/options.description.main
@@ -7501,7 +7507,7 @@ msgstr ""
 "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
 "תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר, כאשר אחד או יותר\n"
 "מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
-"בנוסף, ניתוח זה מאפשר להשתמש בשונויות משותפות כך שניתן לבצע גם\n"
+"בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
 "ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA).\n"
 "\n"
 "ניתוח זה מחייב את הנתונים להיות ”בפורמט רחב“ שבו כל שורה מייצגת\n"
@@ -7674,7 +7680,7 @@ msgstr ""
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "המשתנה המציין את הקבוצות. צריכות להיות לו שתי רמות."
 
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
