@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-14 16:21+0000\n"
+"PO-Revision-Date: 2024-07-22 11:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -276,7 +276,7 @@ msgstr ""
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ניתוח שונות – ${dep}`"
 
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
@@ -441,7 +441,7 @@ msgstr ""
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), סימון ההשוואות המובהקות של מבחני ההמשך"
 
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
@@ -1169,7 +1169,7 @@ msgstr ""
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
 msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
-msgstr ""
+msgstr "נוסחה המכילה את התנאים לביצוע מבחני המשך (יש לראות את הדוגמות)"
 
 #: ancova/options/modelTerms.description.R
 #: anova/options/modelTerms.description.R
@@ -1238,14 +1238,14 @@ msgstr ""
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr ""
+msgstr "ערך p נמוך מעיד על הפרה של הנחת שוויון השונויות"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
+msgstr "ערך p נמוך מעיד על הפרה של הנחת הנורמליות"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
@@ -1507,13 +1507,13 @@ msgstr "טבלה המכילה את מבחני הנורמליות"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "טבלה המכילה את תוצאות מבחן בוקס–טידוול"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "טבלה המכילה את תוצאות מבחן t"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
@@ -1576,11 +1576,11 @@ msgstr ""
 
 #: contTablesPaired/results/test.description
 msgid "a table of test results"
-msgstr ""
+msgstr "טבלת תוצאות המבחן"
 
 #: contTables/results/nom.description
 msgid "a table of the 'nominal' test results"
-msgstr ""
+msgstr "טבלת תוצאות המבחן ”השמני“"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
@@ -1593,11 +1593,11 @@ msgstr "טבלת תוצאות מבחן פרידמן"
 
 #: contTables/results/gamma.description
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "טבלת תוצאות מבחן גמא"
 
 #: contTables/results/taub.description
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "טבלת תוצאות מבחן טאו b של קנדל"
 
 #: contTables/results/mh.description
 msgid "a table of the Mantel-Haenszel test for trend"
@@ -1613,17 +1613,17 @@ msgstr ""
 
 #: propTest2/results/table.description
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "טבלת היחסים ותוצאות המבחן"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
 msgid "a table of the test results"
-msgstr ""
+msgstr "טבלת תוצאות המבחן"
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "טבלת תוצאות מבחן χ²"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
@@ -1853,7 +1853,7 @@ msgstr "מספר שלם (ברירת מחדל: 5) המציין את כמות הע
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "מערך נתונים חסר ייחוד עבור ניתוח שונות"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
@@ -1904,7 +1904,7 @@ msgstr "מבחן ניתוח שונות"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr ""
+msgstr "מכיוון שלא צוינו אף גורמים בין נבדקיים, ההנחה תמיד מתקיימת."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -1931,7 +1931,7 @@ msgstr "הנחת שוויון (של פישר)"
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr "בדיקת השערות"
+msgstr "בדיקת ההנחות"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
@@ -2130,7 +2130,7 @@ msgstr "תרשימי קופסות"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
-msgstr ""
+msgstr "מבחן בוקס–טידוול"
 
 #: logRegBin/results/models.template/assump/boxTidwell.title
 msgid "Box-Tidwell Test for Linearity of the Logit"
@@ -2506,7 +2506,7 @@ msgstr ""
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
 msgid "Correlation Coefficients"
-msgstr ""
+msgstr "מקדמי המתאם"
 
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
@@ -2626,7 +2626,7 @@ msgstr ""
 #: logRegOrd/ui[0][1].label
 #: mancova/options/covs.title
 msgid "Covariates"
-msgstr ""
+msgstr "משתנים נלווים"
 
 #: logLinear/options/pseudoR2/r2cs.title
 #: logRegBin/options/pseudoR2/r2cs.title
@@ -3515,7 +3515,7 @@ msgstr "המשתנה התלוי ”{dep}“ צריך להיות רציף"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr ""
+msgstr "תווית המשתנה התלוי"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -3528,7 +3528,7 @@ msgstr "משתנים תלויים"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "בין המשתנים התלויים יש מתאם גבוה מאוד"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -3688,7 +3688,7 @@ msgstr "התפלגות"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr "ללא הנחת שוויון (ולץ')"
+msgstr "ללא הנחת שוויון (של ולץ')"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
@@ -4111,7 +4111,7 @@ msgstr ""
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
-msgstr ""
+msgstr "סימון ההשוואות המובהקות"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
@@ -4125,7 +4125,7 @@ msgstr ""
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "סימון ההשוואות המובהקות של מבחני ההמשך."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -4166,7 +4166,7 @@ msgstr "גיימס–האוול (אי־שוויון שונויות)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "מבחן ההמשך גיימס–האול – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
@@ -4265,7 +4265,7 @@ msgstr ""
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr ""
+msgstr "על המשתנה המקבץ ”{a}“ לא להיות משתנה תלוי"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -4384,7 +4384,7 @@ msgstr ""
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
 msgid "Independent Samples"
-msgstr "מדגמים תלויים"
+msgstr "מדגמים בלתי תלויים"
 
 #: package/analyses/ttestIS.title
 #: package/analyses/ttestIS.menuTitle
@@ -4506,21 +4506,21 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr ""
+msgstr "טאו B של קנדל"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
-msgstr ""
+msgstr "טאו B של קנדל"
 
 #: contTables/results/taub.title
 msgid "Kendall's Tau-b"
-msgstr ""
+msgstr "טאו b של קנדל"
 
 #: contTables/options/taub.title
 #: corrMatrix/options/kendall.title
 #: corrPart/options/kendall.title
 msgid "Kendall's tau-b"
-msgstr ""
+msgstr "טאו b של קנדל"
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
@@ -4567,8 +4567,8 @@ msgstr ""
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
-"תוצאת מבחן לוין יצאה מובהקת (p < .05) והיא מעידה על כך שהנחת שוויון השונויות "
-"מופרת"
+"תוצאת מבחן לוין יצאה מובהקת (p < .05) והיא מעידה על הפרה של הנחת שוויון "
+"השונויות"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -4602,8 +4602,8 @@ msgstr "רגרסיה ליניארית"
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
-"משתמשים ברגרסיה ליניארית כדי לחקור את הקשר שבין משתנה תלוי רציף ומשתנה רציף "
-"ו/או קטגוריאלי אחד או יותר. שיטות סטטיסטיות אחרות, כמו ניתוח שונות וניתוח "
+"משתמשים ברגרסיה ליניארית כדי לבחון את הקשר שבין משתנה תלוי כמותי ומשתנה "
+"כמותי ו/או איכותי אחד או יותר. שיטות סטטיסטיות אחרות, כמו ניתוח שונות וניתוח "
 "שונות משותפת, הן בעצם צורה של רגרסיה ליניארית."
 
 #: contTables/options/logOdds.title
@@ -4972,7 +4972,7 @@ msgstr ""
 #: logRegMulti/ui[4].label
 #: logRegOrd/ui[4].label
 msgid "Model Coefficients"
-msgstr ""
+msgstr "מקדם המודל"
 
 #: linReg/results/modelComp.title
 #: logLinear/results/modelComp.title
@@ -5077,8 +5077,8 @@ msgstr ""
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
-"השימוש בניתוח שונות (משותפת) רבת משתנים (MANCOVA) הוא לחקר הקשר בין כמה "
-"משתנים תלויים ומשתנה מסביר אחד (או יותר) מסולם קטגוריאלי ו/או רציף."
+"משתמשים בניתוח שונות (משותפת) רבת משתנים (MANCOVA) כדי לבחון את הקשר בין כמה "
+"משתנים תלויים ומשתנה מסביר איכותי ו/או כמותי אחד או יותר."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -5561,7 +5561,7 @@ msgstr ""
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr ""
+msgstr "מדגמים תלויים"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
@@ -6000,7 +6000,7 @@ msgstr ""
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "טאו b של קנדל עבור כל צירוף של משתנים."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
@@ -6161,7 +6161,7 @@ msgstr ""
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr ""
+msgstr "רמות מובהקות עבור מבחני ההמשך."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
@@ -6169,7 +6169,7 @@ msgstr ""
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr ""
+msgstr "תוצאות המבחן (ערך t ודרגות החופש) עבור מבחני ההמשך."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -6410,7 +6410,7 @@ msgstr ""
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
 msgid "Report significance"
-msgstr ""
+msgstr "דיווח מובהקות"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
@@ -7149,14 +7149,18 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
+"משתמשים בניתוח שונות משותפת (ANCOVA) כדי לבחון את הקשר שבין משתנה\n"
+"תלוי כמותי, משתנה מסביר איכותי אחד או יותר ומשתנה מסביר כמותי אחד או יותר,\n"
+"(או משתנים נלווים). זה בעקרון אותו ניתוח כמו ניתוח שונות, חוץ מהתוספת של\n"
+"המשתנים הנלווים."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר."
+"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+"שבין משתנה תלוי כמותי ומשתנה מסביר איכותי אחד או יותר."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7171,8 +7175,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
 msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+"שבין משתנה תלוי כמותי ומשתנה מסביר איכותי אחד או יותר.\n"
 "\n"
 "ניתוח שונות מניח שהנתונים השיוריים מתפלגים נורמלית ושהשונויות\n"
 "של כל הקבוצות שוות. אם לא מניחים שוויון שונויות ניתן להשתמש\n"
@@ -7188,8 +7192,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+"שבין משתנה תלוי כמותי ומשתנה מסביר איכותי אחד או יותר.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
 "השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
@@ -7209,8 +7213,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לחקור את הקשר\n"
-"שבין משתנה תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר.\n"
+"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+"שבין משתנה תלוי כמותי ומשתנה מסביראיכותי אחד או יותר.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
 "השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
@@ -7237,7 +7241,7 @@ msgstr ""
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "המשתנים המסבירים (או הבלתי תלויים) האיכותיים."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
@@ -7263,7 +7267,7 @@ msgstr ""
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr ""
+msgstr "המשתנים המסבירים (או התלויים) הרציפים. מוכרים גם בשם משתנים נלווים."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -7280,11 +7284,11 @@ msgstr ""
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "המשתנים הנלווים (ציון שלהם הוא מה שהופך את זה לניתוח שונות משותפת)"
 
 #: linReg/options/covs.description.R
 msgid "the covariates from `data`"
-msgstr ""
+msgstr "המשתנים הנלווים מ־`data`"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -7331,28 +7335,34 @@ msgstr ""
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
 msgstr ""
+"יש למשתנה התלוי ”{}“ יותר משתי רמות. ניתן לבצע רגרסיה לוגיסטית בינומית רק על "
+"משתנים תלויים בעלי שתי רמות."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr ""
+msgstr "המשתנה התלוי ”{dep}“ מסודר לפי הסדר הבא: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
+"יש למשתנה התלוי ”{dep}“ רק שתי רמות. יש לשקול להשתמש ברגרסיה לוגיסטית "
+"בינומית."
 
 #: linReg/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
+msgstr "המשתנה התלוי מ־`data`. על המשתנה להיות מספרי"
 
 #: ancova/options/dep.description.R
 #: anova/options/dep.description.R
 msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
 msgstr ""
+"המשתנה התלוי מ־`data`. על המשתנה להיות מספרי (לא בהכרח אם יש נוסחה. יש לראות "
+"את הדוגמות)"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "המשתנה התלוי. בניתוח שונות משותפת הוא יהיה רציף."
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
@@ -7360,11 +7370,11 @@ msgstr "המשתנה התלוי. בניתוח שונות הוא יהיה רצי�
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr ""
+msgstr "המשתנה התלוי. מבחן t נפרד יבוצע לכל משתנה תלוי שצוין."
 
 #: ttestIS/options/vars.description.R
 msgid "the dependent variables (not necessary when using a formula, see the examples)"
-msgstr ""
+msgstr "המשתנים התלויים (לא בהכרח אם יש נוסחה. יש לראות את הדוגמות)"
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
@@ -7378,7 +7388,7 @@ msgstr ""
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
-msgstr ""
+msgstr "המתנים הנלווים המסבירים (אין בהם צורך כשיש נוסחה, יש לראות את הדוגמות)"
 
 #: ancova/options/factors.description.R
 #: anova/options/factors.description.R
@@ -7387,11 +7397,11 @@ msgstr ""
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr "המשתנה המסביר או הבלתי תלוי. בניתוח שונות הוא יהיה קטגוריאלי."
+msgstr "המשתנה המסביר או הבלתי תלוי. בניתוח שונות הוא יהיה איכותי."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr "המשתנים המסבירים או הבלתי תלויים. בניתוח שונות הם יהיו קטגוריאליים."
+msgstr "המשתנים המסבירים או הבלתי תלויים. בניתוח שונות הם יהיו איכותיים."
 
 #: linReg/options/factors.description.R
 msgid "the fixed factors from `data`"
@@ -7401,9 +7411,9 @@ msgstr "הגורמים הקבועים מ־`data`"
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
-"משתמשים במבחן פרידמן כדי לבחון את הקשר בין משתנה תלוי רציף ומשתנה מסביר "
-"קטגוריאלי כשהמשתנה המסביר הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד). הוא "
-"מקביל לניתוח שונות למדידות חוזרות, אבל יש לו יתרונות שהוא לא פרמטרי ושאין לא "
+"משתמשים במבחן פרידמן כדי לבחון את הקשר בין משתנה תלוי כמותי ומשתנה מסביר "
+"איכותי כשהמשתנה המסביר הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד). הוא "
+"מקביל לניתוח שונות למדידות חוזרות, אבל יש לו יתרונות שהוא לא פרמטרי ושאין לו "
 "צורך בהנחות נורמליות ושוויון שונויות. עם זאת, יש לו מגבלה שהוא אינו יכול "
 "לבחון יותר ממשתנה מסביר אחד בכל פעם."
 
@@ -7415,13 +7425,13 @@ msgstr ""
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
-"משתמשים במבחן קראסקל–ואליס כדי לחקור את הקשר שבין משתנה תלוי רציף ומשתנה "
-"מסביר קטגוריאלי. הוא מקביל לניתוח שונות, אבל יש לו יתרונות שהוא לא פרמטרי "
-"ושיש לו פחות הנחות. עם זאת, הוא מוגבל לבחינת משתנה מסביר אחד בכל פעם."
+"משתמשים במבחן קראסקל–ואליס כדי לבחון את הקשר שבין משתנה תלוי כמותי ומשתנה "
+"מסביר איכותי. הוא מקביל לניתוח שונות, אבל יש לו יתרונות שהוא לא פרמטרי ושיש "
+"לו פחות הנחות. עם זאת, הוא מוגבל לבחינת משתנה מסביר אחד בכל פעם."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "התווית בה יש להשתמש עבור המשתנה התלוי."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
@@ -7477,9 +7487,9 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
 "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
-"תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר, כאשר אחד או יותר\n"
+"תלוי כמותי ומשתנה מסביר איכותי אחד או יותר, כאשר אחד או יותר\n"
 "מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
-"בנוסף, ניתוח זה מאפשר להשתמש בשונויות משותפות כך שניתן לבצע גם\n"
+"בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
 "ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA)."
 
 #: anovaRM/options.description.main
@@ -7499,9 +7509,9 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "test a single factor."
 msgstr ""
 "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
-"תלוי רציף ומשתנה מסביר קטגוריאלי אחד או יותר, כאשר אחד או יותר\n"
+"תלוי כמותי ומשתנה מסביר איכותי אחד או יותר, כאשר אחד או יותר\n"
 "מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
-"בנוסף, ניתוח זה מאפשר להשתמש בשונויות משותפות כך שניתן לבצע גם\n"
+"בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
 "ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA).\n"
 "\n"
 "ניתוח זה מחייב את הנתונים להיות ”בפורמט רחב“ שבו כל שורה מייצגת\n"
@@ -7517,10 +7527,14 @@ msgstr ""
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
 msgstr ""
+"יש רק שתי רמות למדידות החוזרות. כשיש רק שתי רמות למדידות החוזרות הנחת "
+"הכדוריות תמיד מתקיימת"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
+"יש רק שתי רמות למדידות החוזרות. כשיש רק שתי רמות למדידות החוזרות הנחת "
+"הכדוריות תמיד מתקיימת."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
@@ -7574,6 +7588,9 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגם יחיד לבחינת השערת האפס\n"
+"שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על\n"
+"אי נכונותה של השערת האפס ולכן הממוצע האמיתי שונה מערך המבחן."
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -7587,6 +7604,14 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
+"משתמשים במבחן t של סטודנט למדגם יחיד לבחינת השערת האפס\n"
+"שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על\n"
+"אי נכונותה של השערת האפס ולכן הממוצע האמיתי שונה מערך המבחן.\n"
+"\n"
+"מבחן t של סטודנט למדגם יחיד מניח שהתנתונים מגיעים מהתפלגות נורמלית.\n"
+"אם לא מניחים זאת, ניתן להשתמש במקום במבחן הלא פרמטרי – הדרגות\n"
+"המסומנות של וילקוקסון (עם זאת, יש לשים לב שלמבחן הדרגות המסומנות של\n"
+"וילקוקסון השערת אפס שונה במקצת – שהחציון שווה לערך המבחן)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -7663,7 +7688,7 @@ msgstr ""
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "המשתנה המציין את הקבוצות. צריכות להיות לו שתי רמות."
 
 #: contTables/options/cols.description.R
 #: contTablesPaired/options/cols.description.R
@@ -7707,11 +7732,17 @@ msgstr ""
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
 msgstr ""
+"מבחן χ² לטיב התאמה (אין לבלבל עם מבחן χ² לאי תלות) בוחן את השערת האפס "
+"שהיחסים בין התצפיות מתאימים ליחסים צפויים כלשהם. ערך p נמוך מעיד שהשערת האפס "
+"אינה נכונה ושהיחסים האמיתיים שונים מאלו שנבחנו."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"משתמשים במבחן χ² לאי תלות (אין לבלבל עם χ² לטיב התאמה) כדי לבחון אם שני "
+"משתנים איכותיים בלתי תלויים או קשורים. ערך p נמוך מעיד על כך שהמשתנים אינם "
+"בלתי תלויים ושיש קשר ביניהם."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -7763,6 +7794,8 @@ msgstr ""
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
 msgstr ""
+"יש מעט מדי תצפיות כדי לחשב את הסטטיסטי. לכל (תת)קבוצה צריכה להיות כמות "
+"תצפיות לפחות כמו כמות המשתנים התלויים."
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
@@ -7812,7 +7845,7 @@ msgstr "טוקי (שוויון שונויות)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "מבחן ההמשך של טוקי – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
@@ -8195,7 +8228,7 @@ msgstr ""
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
 msgid "χ² test of association"
-msgstr ""
+msgstr "χ² לאי תלות"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
