@@ -1,3 +1,4 @@
+#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
@@ -214,7 +215,7 @@ msgstr "`'listwise'` eller `'fiml'`, hvordan manglende verdier skal håndteres; 
 
 #: anovaRMNP/options/plotType.description.R
 msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr "`'means'` (standard) eller ''medianer'`, hva feillinjene i diagrammet skal baseres på"
+msgstr "`'means'` (standard) eller `'medianer'`, hva usikkerhetsstolpene i diagrammet skal baseres på"
 
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
@@ -224,7 +225,7 @@ msgstr "`'minres'` (standard), `'ml'` eller `'pa'` bruker henholdsvis «minimum 
 #: anova/options/emmPlotError.description.R
 #: anovaRM/options/emmPlotError.description.R
 msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
-msgstr "`'none'`, `'ci'` (standard) eller `'se'`. Bruk ingen feilstolper, bruk konfidensintervaller eller bruk standardfeil på henholdsvis marginale-gjennomsnitts-diagramm"
+msgstr "`'none'`, `'ci'` (standard) eller `'se'`. Bruk enten ingen usikkerhetsstolper, konfidensintervaller eller standardfeil i diagrammene med de marginale gjennomsnittene"
 
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
@@ -232,7 +233,7 @@ msgstr "`'none'`, `'gamesHowell'` eller `'tukey'`, hvilke post-hoc tester skal v
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr "`'ingen'`, `'varimax'` (standard), `'quartimax'`, `'promax'`, `'oblimin'` eller `'simplimax'`, hvilken metode skal brukes for rotasjon av komponentene"
+msgstr "`'none'`, `'varimax'` (standard), `'quartimax'`, `'promax'`, `'oblimin'` eller `'simplimax'`, hvilken metode skal brukes for rotasjon av komponentene"
 
 #: efa/options/rotation.description.R
 msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
@@ -259,7 +260,7 @@ msgstr "`'perAnalysis'` eller `'listwise'`, hvordan håndtere manglende verdier;
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr "`'refLevel'` (standard) eller `'grandMean'`, koding av avskjæringen. Enten skapes kontrast slik at skjæringspunktet representerer referansenivået eller det totale gjennomsnittet"
+msgstr "`'refLevel'` (standard) eller `'grandMean'`, koding av skjæringspunkt. Enten skapes kontrast slik at skjæringspunktet representerer referansenivået eller det totale gjennomsnittet"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
@@ -293,7 +294,7 @@ msgstr "`Modellkoeffisienter - ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr "`Proportsjoner - ${var}`"
+msgstr "`Proporsjoner - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
@@ -303,7 +304,7 @@ msgstr "`TRUE` (standard) eller `FALSE`, vis radnummerne til ekstremverdiene i b
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`TRUE` (standard) eller `FALSE`, gjennomfør Student's t-tester"
+msgstr "`TRUE` (standard) eller `FALSE`, gjennomfør Students t-tester"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
@@ -343,7 +344,7 @@ msgstr "`TRUE` (standard) eller `FALSE`, gi ut Cronbachs α"
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr "`TRUE` (standard) eller `FALSE`, gi ut estimert gjennomsnitt"
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut diagrammer med de estimerte gjennomsnittene"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
@@ -388,7 +389,7 @@ msgstr "`TRUE` (standard) eller `FALSE`, gi ut medianen"
 
 #: linReg/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr "`TRUE` (standard) eller `FALSE`, gi ut sammenligningen mellom de beregnete modellene og NULL-modellen"
+msgstr "`TRUE` (standard) eller `FALSE`, gi ut sammenligningen mellom de beregnete modellene og null-modellen"
 
 #: descriptives/options/missing.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
@@ -431,7 +432,7 @@ msgstr "`TRUE` eller `FALSE` (standard), vis antall i stolpediagrammene"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "`TRUE` eller `FALSE` (standard), vis gjennomsnittet i boksplott"
+msgstr "`TRUE` eller `FALSE` (standard), vis gjennomsnittet i boksplotten"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
@@ -492,7 +493,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gjennomfør Shapiro-Wilk-tester av norm
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr "`TRUE` eller `FALSE` (standard), gjennomfør sfæriskhetstester"
+msgstr "`TRUE` eller `FALSE` (standard), gjennomfør test av sfærisitet"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
@@ -560,7 +561,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut et stidiagram for modellen"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut en klassifiseringstabell med prediksjonene (også kalt konfusjonsmatriks)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut en tabell med forventete klassifiseringer (også kalt konfusjonsmatriks)"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
@@ -598,7 +599,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Aikaikes informasjonskriterium (A
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut nøyaktig log-odds-forhold (krever at «exact2x2» er installert)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut nøyaktig log-odds-ratio (krever at «exact2x2» er installert)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
@@ -625,7 +626,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Bayesianske informasjonskriterium
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut boksplott (kun for kontinuerlige variabler)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut boksplotter (kun for kontinuerlige variabler)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
@@ -633,7 +634,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Box-Tidwell-test for lineariteten
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut Box's M-test"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut M-test av Box"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
@@ -768,7 +769,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut Mantel-Haenszel-test for trend"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut McDonald's ω"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut McDonalds ω"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
@@ -870,11 +871,11 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut de forventede antallene"
 #: logRegMulti/options/OR.description.R
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-odds-forhold-estimatet (også kalt odds-ratio-estimat)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-odds-ratio-estimatet (også kalt odds-ratio-estimat)"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-rate-forhold-estimatet (også kalt rate-ratio-estimat)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut eksponentialen til log-rate-ratio-estimatet (også kalt rate-ratio-estimat)"
 
 #: descriptives/options/iqr.description.R
 msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
@@ -890,7 +891,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut sannsynlighetsforholdet (likeliho
 
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut log-odds-forholdet (kun tilgjengelig for 2x2-tabeller)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut log-odds-ratio (kun tilgjengelig for 2x2-tabeller)"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
@@ -913,7 +914,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut typetall"
 #: logRegMulti/options/modelTest.description.R
 #: logRegOrd/options/modelTest.description.R
 msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut modellsammenligningen mellom modellene og NULL-modellen"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut modellsammenligningen mellom modellene og null-modellen"
 
 #: corrMatrix/options/n.description.R
 #: corrPart/options/n.description.R
@@ -926,7 +927,7 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut observert antall"
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut odds-forholdet (kun tilgjengelig for 2x2-tabeller)"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut odds-ratioet (kun tilgjengelig for 2x2-tabeller)"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
@@ -941,15 +942,15 @@ msgstr "`TRUE` eller `FALSE` (standard), gjennomfør omnibus-sannsynlighetsforho
 
 #: logRegBin/options/acc.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut den forutsagte nøyaktigheten av utfall gruppert etter grenseverdien"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut den forventete nøyaktigheten av utfall gruppert etter grenseverdien"
 
 #: logRegBin/options/sens.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut den forutsagte sensitiviteten av utfall gruppert etter grenseverdien"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut den forventete sensitiviteten av utfall gruppert etter grenseverdien"
 
 #: logRegBin/options/spec.description.R
 msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut den forutsagte spesifisiteten til utfall gruppert etter grenseverdien"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut den forventete spesifisiteten til utfall gruppert etter grenseverdien"
 
 #: descriptives/options/range.description.R
 msgid "`TRUE` or `FALSE` (default), provide the range"
@@ -1010,11 +1011,11 @@ msgstr "`TRUE` eller `FALSE` (standard), gi ut fiolinplotter (kun kontinuerlige 
 
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut hva Cronbachs α ville være hvis item ble droppet"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut hva Cronbachs α ville være hvis item ble fjernet"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr "`TRUE` eller `FALSE` (standard), gi ut hva McDonald's ω ville være hvis item ble droppet"
+msgstr "`TRUE` eller `FALSE` (standard), gi ut hva McDonalds ω ville være hvis item ble fjernet"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
@@ -1298,7 +1299,7 @@ msgstr "et tall mellom 0.5 og 2 (standard: 0.707), bredden av prior som skal bru
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "et tall mellom 0.5 og 2 (standard: 0.707), bredden av prior som skal brukes til å beregne Bayes-faktorer"
+msgstr "et tall mellom 0.5 og 2.0 (standard: 0.707), bredden av prior som skal brukes til å beregne Bayes-faktorer"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1346,7 +1347,7 @@ msgstr "et tall mellom 50 og 99.9 (standard: 95), bredden på konfidensintervall
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
-msgstr "et tall mellom 50 og 99,9 (standard: 95), bredden på konfidensintervallene for effektstørrelsene"
+msgstr "et tall mellom 50 og 99.9 (standard: 95), bredden på konfidensintervallene for effektstørrelsene"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
@@ -1565,7 +1566,7 @@ msgstr "en tabell med tester på normalfordeling"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
-msgstr "en tabell med de predikerte klassifikasjonene"
+msgstr "en tabell med de forventete klassifikasjonene"
 
 #: logRegBin/results/models.template/pred/measures.description
 msgid "a table of predictive measures"
@@ -1826,7 +1827,7 @@ msgstr "en array med diagrammer og tabeller som viser de estimerte gjennomsnitte
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr "et array med posterior-diagrammer"
+msgstr "en array med posterior-diagrammer"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
@@ -2127,7 +2128,7 @@ msgstr "Boksplot"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
-msgstr "Boksplots"
+msgstr "Boksplotter"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
@@ -2257,7 +2258,7 @@ msgstr "Sammenligning"
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr "Sammenligninger er basert på estimerte marginale gjennomsnitt"
+msgstr "Sammenligninger er basert på estimerte gjennomsnitter"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
@@ -2617,7 +2618,7 @@ msgstr "Antall kan ikke være negative"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
-msgstr "Antall må være ikke-negative og endelig"
+msgstr "Antallet må være ikke-negativt og endelig"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
@@ -2801,7 +2802,7 @@ msgstr "dat <- data.frame(x = c(8, 15))\n"
 "#   x       1         8       23    0.348    0.210\n"
 "#           2        15       23    0.652    0.210\n"
 "# ──────────────────────────────────────────────────\n"
-"# Notat. Hₐ er at andelen er ≠ 0,5\n"
+"# Notat. Hₐ er at andelen er ≠ 0.5\n"
 "#"
 
 #: R/pca.b.R
@@ -3019,15 +3020,15 @@ msgstr "data('birthwt', package='MASS')\n"
 "#  MODELL 1\n"
 "#\n"
 "#  Modellkoeffisienter\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    Prediktor    Estimat       Std.-feil      Z           p\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    Intercept    2974.73225    218237.2         0.0136    0.989\n"
-"#    age            -0.00653       482.7       -1.35e-5    1.000\n"
-"#    bwt            -1.18532        87.0        -0.0136    0.989\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    Notat. Estimater representerer log-odds-ratioer for «low = 1»\n"
-"#    vs. «low = 0»\n"
+"#  ────────────────────────────────────────────────────────────────────\n"
+"#    Prediktor         Estimat       Std.-feil      Z           p\n"
+"#  ────────────────────────────────────────────────────────────────────\n"
+"#    Skjæringspunkt    2974.73225    218237.2         0.0136    0.989\n"
+"#    age                 -0.00653       482.7       -1.35e-5    1.000\n"
+"#    bwt                 -1.18532        87.0        -0.0136    0.989\n"
+"#  ────────────────────────────────────────────────────────────────────\n"
+"#    Notat. Estimater representerer log-odds-ratioer for «low = 1» mot\n"
+"#    «low = 0»\n"
 "#\n"
 "#"
 
@@ -3261,7 +3262,7 @@ msgstr "data('bugs', package = 'jmv')\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#                                   Statistikk    df      p\n"
 "#  ──────────────────────────────────────────────────────────────\n"
-"#    LDLF    LDHF    Student's t         -6.65    90.0    < .001\n"
+"#    LDLF    LDHF    Students t          -6.65    90.0    < .001\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#"
 
@@ -3422,7 +3423,7 @@ msgstr "data('iris')\n"
 "#    Petal.Length    0.933             0.00483\n"
 "#    Petal.Width     0.897             0.07088\n"
 "#  ─────────────────────────────────────────────\n"
-"#    Notat. „Oblimin“-rotasjon ble brukt\n"
+"#    Notat. «Oblimin»-rotasjon ble brukt\n"
 "#"
 
 #: mancova/options.description.R.usage
@@ -3474,7 +3475,7 @@ msgstr "data('iris')\n"
 "#                                     Verdi    F       df1    df2    p\n"
 "#  ──────────────────────────────────────────────────────────────────────────\n"
 "#    Species    Pillais spor           1.19    53.5      8    290    < .001\n"
-"#               Wilks' lambda         0.0234    199      8    288    < .001\n"
+"#               Wilks' lambda        0.0234     199      8    288    < .001\n"
 "#               Hotellings spor        32.5     581      8    286    < .001\n"
 "#               Roys største rot       32.2    1167      4    145    < .001\n"
 "#  ───────────────────────────────────────────────────────────────────────────────\n"
@@ -3530,7 +3531,7 @@ msgstr "data('iris')\n"
 "#    Petal.Length     0.992     0.0168\n"
 "#    Petal.Width      0.965     0.0688\n"
 "#  ─────────────────────────────────────\n"
-"#    Notat. „Varimax“-rotasjon ble brukt\n"
+"#    Notat. «Varimax»-rotasjon ble brukt\n"
 "#"
 
 #: reliability/options.description.R.usage
@@ -3559,7 +3560,7 @@ msgstr "data('iris')\n"
 "#\n"
 "#  Statistikk på skalareliabilitet\n"
 "#  ────────────────────────────────────────\n"
-"#             Cronbachs α    McDonald's ω\n"
+"#             Cronbachs α     McDonalds ω\n"
 "#  ────────────────────────────────────────\n"
 "#    Skala          0.708           0.848\n"
 "#  ────────────────────────────────────────\n"
@@ -3650,13 +3651,13 @@ msgstr "data('mtcars')\n"
 "#                           mpg       cyl       disp\n"
 "#  ───────────────────────────────────────────────────\n"
 "#    mpg     Pearsons r         —\n"
-"#            p-Wert             —\n"
+"#            p-verdi            —\n"
 "#\n"
 "#    cyl     Pearsons r    -0.590         —\n"
-"#            p-Wert        < .001         —\n"
+"#            p-verdi       < .001         —\n"
 "#\n"
 "#    disp    Pearsons r    -0.606     0.719        —\n"
-"#            p-Wert        < .001    < .001        —\n"
+"#            p-verdi       < .001    < .001        —\n"
 "#  ───────────────────────────────────────────────────\n"
 "#    Notat. Kontrollerer for hp\n"
 "#"
@@ -3737,7 +3738,7 @@ msgstr "data('mtcars')\n"
 "#  ───────────────────────────────────────────────────────────────────\n"
 "#    Prediktor          Estimat      Std.-feil    Z            p\n"
 "#  ───────────────────────────────────────────────────────────────────\n"
-"#    Skæringspubkt      -4.71e-16         1.00    -4.71e-16    1.000\n"
+"#    Skæringspunkt      -4.71e-16         1.00    -4.71e-16    1.000\n"
 "#    gear:\n"
 "#    4 – 3                  2.079         1.06        1.961    0.050\n"
 "#    5 – 3                  0.693         1.22        0.566    0.571\n"
@@ -4000,7 +4001,7 @@ msgstr "data('ToothGrowth')\n"
 "#    dose              2426     2     1213.2    92.00    < .001\n"
 "#    supp               205     1      205.4    15.57    < .001\n"
 "#    dose:supp          108     2       54.2     4.11     0.022\n"
-"#    Residuen           712    54       13.2\n"
+"#    Residuer           712    54       13.2\n"
 "#  ──────────────────────────────────────────────────────────────\n"
 "#\n"
 "\n"
@@ -4067,7 +4068,7 @@ msgstr "data('ToothGrowth')\n"
 "#  ─────────────────────────────────────────────────────\n"
 "#                          Statistikk    df      p\n"
 "#  ─────────────────────────────────────────────────────\n"
-"#    len    Student's t          1.92    58.0    0.060\n"
+"#    len    Students t           1.92    58.0    0.060\n"
 "#  ─────────────────────────────────────────────────────\n"
 "#"
 
@@ -4098,8 +4099,8 @@ msgstr "data('ToothGrowth')\n"
 "#  ───────────────────────────────────────────────────────\n"
 "#                           Statistikk    df      p\n"
 "#  ───────────────────────────────────────────────────────\n"
-"#    len     Student's t          19.1    59.0    < .001\n"
-"#    dose    Student's t          14.4    59.0    < .001\n"
+"#    len     Students t           19.1    59.0    < .001\n"
+"#    dose    Students t           14.4    59.0    < .001\n"
 "#  ───────────────────────────────────────────────────────\n"
 "#"
 
@@ -4162,19 +4163,19 @@ msgstr "Avhengig variabel"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr "Den avhengige variabelen '{dep}' inneholder uendelige verdier"
+msgstr "Den avhengige variabelen «{dep}» inneholder uendelige verdier"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "Den avhengige variabelen '{dep}' inneholder ingen data (etter å ha fjernet rader med manglende verdier)"
+msgstr "Den avhengige variabelen «{dep}» inneholder ingen data (etter å ha fjernet rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "Den avhengige variabelen '{dep}' inneholder bare én unik verdi (etter å ha fjernet rader med manglende verdier)"
+msgstr "Den avhengige variabelen «{dep}» inneholder bare én unik verdi (etter å ha fjernet rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr "Den avhengige variabelen '{dep}' må være kontinuerlig"
+msgstr "Den avhengige variabelen «{dep}» må være kontinuerlig"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4478,11 +4479,11 @@ msgstr "Estimat"
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr "Estimat (log odds ratio)"
+msgstr "Estimat (Log-odds-ratio)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr "Estimat (log rate ratio)"
+msgstr "Estimat (Log-rate-ratio)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -4499,7 +4500,7 @@ msgstr "Estimat (log rate ratio)"
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr "Estimert randgjennomsnitt"
+msgstr "Estimert gjennomsnitt"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4508,7 +4509,7 @@ msgstr "Estimert randgjennomsnitt"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Estimated Marginal Means - {term}"
-msgstr "Estimert randgjennomsnitt - {term}"
+msgstr "Estimert gjennomsnitt - {term}"
 
 #: cfa/ui[3].label
 msgid "Estimates"
@@ -4520,7 +4521,7 @@ msgstr "Estimater representerer log-odds-ratioer for …"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "Estimater representerer log-odds-ratioer for «{dep} = {level1}» vs. «{dep} = {level2}»"
+msgstr "Estimater representerer log-odds-ratioer for «{dep} = {level1}» mot «{dep} = {level2}»"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -4629,7 +4630,7 @@ msgstr "Faktor"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "Faktor '{faktor}' har mindre enn to nivåer. Faktorer må ha minst to nivåer"
+msgstr "Faktor «{faktor}» har mindre enn to nivåer. Faktorer må ha minst to nivåer"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -4637,11 +4638,11 @@ msgstr "Faktor «{faktor}» må ha minst 2 nivåer"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "Faktor '{factorName}' inneholder ingen data (etter å ha fjernet rader med manglende verdier)"
+msgstr "Faktor «{factorName}» inneholder ingen data (etter å ha fjernet rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr "Faktor '{factorName}' inneholder bare ett faktornivå (etter å ha fjernet rader med manglende verdier)"
+msgstr "Faktor «{factorName}» inneholder bare ett faktornivå (etter å ha fjernet rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
@@ -4733,12 +4734,12 @@ msgstr "Faktorer"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
-msgstr "Fisher's"
+msgstr "Fishers"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr "Fisher's eksakt test"
+msgstr "Fishers eksakt test"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -4905,7 +4906,7 @@ msgstr "Sammendrag per gruppe"
 
 #: anovaRM/options/groupSumm.title
 msgid "Group summary"
-msgstr "Oppsummering per gruppe"
+msgstr "Sammendrag per gruppe"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -4991,7 +4992,7 @@ msgstr "Holm"
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr "Test på varianshomogenitet (Levene's)"
+msgstr "Test på varianshomogenitet (Levenes)"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
@@ -5225,7 +5226,7 @@ msgstr "Nivå 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levenes test er signifikant (p < 0,05), noe som tyder på et brudd på antakelsen om like varianser"
+msgstr "Levenes test er signifikant (p < .05), noe som tyder på et brudd på antakelsen om like varianser"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -5263,12 +5264,12 @@ msgstr "Lineær regresjon brukes til å utforske forholdet mellom en kontinuerli
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr "Logg odds ratio"
+msgstr "Log-odds-ratio"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
 msgid "Log odds ratio exact"
-msgstr "Eksakt log-odds-forhold"
+msgstr "Eksakt log-odds-ratio"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -5378,7 +5379,7 @@ msgstr "Tabell med gjennomsnitt"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
-msgstr "Mauchly's W"
+msgstr "Mauchlys W"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
@@ -5410,7 +5411,7 @@ msgstr "McDonalds ω (hvis spørsmål fjernes)"
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
 msgid "McFadden's R²"
-msgstr "McFadden's R²"
+msgstr "McFaddens R²"
 
 #: R/conttablespaired.b.R
 msgid "McNemar requires a 2x2 table"
@@ -5617,7 +5618,7 @@ msgstr "Modell"
 #: logRegMulti/ui[1].label
 #: logRegOrd/ui[1].label
 msgid "Model Builder"
-msgstr "Modell-Builder"
+msgstr "Sette opp modell"
 
 #: linReg/ui[5].label
 #: logLinear/ui[4].label
@@ -5783,7 +5784,7 @@ msgstr "Ingen korreksjon"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "Ingen faktorer er definert. Box's M-test er bare relevant når modellen inneholder faktorer."
+msgstr "Ingen faktorer er definert. M-test av Box er bare relevant når modellen inneholder faktorer."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -5914,7 +5915,7 @@ msgstr "oktisk"
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
 msgid "Odds Ratio"
-msgstr "Odds-forhold"
+msgstr "Odds-ratio"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -5926,7 +5927,7 @@ msgstr "Odds-forhold"
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Odds ratio"
-msgstr "Odds-forhold"
+msgstr "Odds-ratio"
 
 #: contTables/options/yaxisPc/total_pc.title
 msgid "of total"
@@ -5985,7 +5986,7 @@ msgstr "Minst én variable inneholder ikke nok observasjoner"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "Minst én koeffisient i modellen '{modelNo}' kunne ikke estimeres på grunn av perfekt kollinearitet."
+msgstr "Minst én koeffisient i modellen «{modelNo}» kunne ikke estimeres på grunn av perfekt kollinearitet."
 
 #: cfa/options/fitMeasures.description.R
 msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
@@ -6003,12 +6004,12 @@ msgstr "en eller flere av `'none'` (standard), `'GG'` eller `'HF'`; bruk enten i
 
 #: anovaRM/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
-msgstr "en eller flere av `'ingen'`, `'tukey'` (standard), `'scheffe'`, `'bonf'` eller `'holm'`; bruk enten ingen, Tukey-, Scheffé-, Bonferroni- eller Holm-korreksjon for post-hoc-tester"
+msgstr "en eller flere av `'none'`, `'tukey'` (standard), `'scheffe'`, `'bonf'` eller `'holm'`; bruk enten ingen, Tukey-, Scheffé-, Bonferroni- eller Holm-korreksjon for post-hoc-tester"
 
 #: ancova/options/postHocCorr.description.R
 #: anova/options/postHocCorr.description.R
 msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
-msgstr "en eller flere av `'ingen'`, `'tukey'`, `'scheffe'`, `'bonf'` eller `'holm'`; bruk enten ingen, Tukey-, Scheffé-, Bonferroni- eller Holm-korreksjon for post-hoc-tester"
+msgstr "en eller flere av `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` eller `'holm'`; bruk enten ingen, Tukey-, Scheffé-, Bonferroni- eller Holm-korreksjon for post-hoc-tester"
 
 #: mancova/options/multivar.description.R
 msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
@@ -6404,15 +6405,15 @@ msgstr "gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi anty
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr "gjennomfør Student's uavhengige t-tester."
+msgstr "gjennomfør Students uavhengige t-tester."
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr "gjennomfør Student's t-test for ett utvalg."
+msgstr "gjennomfør Students t-test for ett utvalg."
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr "gjennomfør Student's parete t-tester."
+msgstr "gjennomfør Students parete t-tester."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
@@ -6485,7 +6486,7 @@ msgstr "Polynomial"
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr "Post-hoc-sammenlikninger – {term}"
+msgstr "Post-hoc-sammenlikninger - {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -6532,15 +6533,15 @@ msgstr "Posterior-diagrammer"
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr "Forutsagt"
+msgstr "Forventet"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr "Forventet sannsynlighet for ... = ... (vs ... = ...)"
+msgstr "Forventet sannsynlighet for … = … (mot … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr "Forventet sannsynlighet for {dep} = {level1} (vs{dep} = {level2})"
+msgstr "Forventet sannsynlighet for {dep} = {level1} (mot {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -6548,7 +6549,7 @@ msgstr "Forventet sannsynlighet for {dep} = {level1} (vs{dep} = {level2})"
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr "Forutsagte verdier"
+msgstr "Forventete verdier"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
@@ -6558,7 +6559,7 @@ msgstr "Prediksjon"
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr "Prediktive mål"
+msgstr "Forventet mål"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -6697,15 +6698,15 @@ msgstr "gi ut tabell med de estimerte gjennomsnittene."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "gi ut Bayes-faktorer for Student's uavhengige t-tester."
+msgstr "gi ut Bayes-faktorer for Students uavhengige t-tester."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "gi ut Bayes-faktorer for Student's t-tester med ett utvalg."
+msgstr "gi ut Bayes-faktorer for Students t-tester med ett utvalg."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "gi ut Bayes-faktorer for Student's parete t-tester."
+msgstr "gi ut Bayes-faktorer for Students parete t-tester."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
@@ -6793,7 +6794,7 @@ msgstr "gi ut effektstørrelse; enten η², partiell η² eller ω²."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
-msgstr "gi ut sfærisitetskorreksjoner for p-verdiene."
+msgstr "gi ut korreksjon av sfærisitet for p-verdiene."
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
@@ -6826,7 +6827,7 @@ msgstr "gi ut signifikansnivåer for de post-hoc-testene."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr "gi ut sfærisitetstester."
+msgstr "gi ut test av sfærisitet."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
@@ -7323,7 +7324,7 @@ msgstr "Scree-diagram"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "Standardavvik"
+msgstr "Std.-avvik"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -7509,7 +7510,7 @@ msgstr "Det oppsto singularitet: Én eller flere prediktorvariabler er en lineæ
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr "Feil pga. singularitet. Sfærisitetstester er ikke tilgjengelige"
+msgstr "Feil pga. singularitet. Test av sfærisitet er ikke tilgjengelig"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
@@ -7546,16 +7547,16 @@ msgstr "Spesifisitet"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr "Sfærisitetskorreksjon"
+msgstr "Korreksjon for sfærisitet"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr "Sfærisitetskorreksjoner"
+msgstr "Korreksjon for sfærisitet"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr "Sfærisitetstester"
+msgstr "Test av sfærisitet"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
@@ -7591,7 +7592,7 @@ msgstr "Stablet"
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr "Stand. Estimat"
+msgstr "Std. Estimat"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
@@ -7659,7 +7660,7 @@ msgstr "Std.-avvik"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr "Std.-feil kurtosis"
+msgstr "Std.-feil av kurtosis"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
@@ -7677,18 +7678,18 @@ msgstr "Std.-feil for skjevhet"
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
 msgid "Student's"
-msgstr "Student's"
+msgstr "Students"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Student's t"
-msgstr "Student's t"
+msgstr "Students t"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr "Student's test"
+msgstr "Students test"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
@@ -7798,7 +7799,7 @@ msgstr "Tester"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr "Sfærisitetstester"
+msgstr "Test av sfærisitet"
 
 #: R/descriptives.b.R
 msgid "th percentile"
@@ -7977,7 +7978,7 @@ msgstr "kontrastene som skal brukes."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr "de Interesserende kontrollvariablene."
+msgstr "de interesserende kontrollvariablene."
 
 #: propTestN/options/counts.description.R
 msgid "the counts in `data`"
@@ -8079,7 +8080,7 @@ msgstr "de avhengige variablene. For en ANOVA må disse være kontinuerlige."
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr "feilstolpene som vises med de estimerte gjennomsnittene."
+msgstr "usikkerhetsstolpene som vises med de estimerte gjennomsnittene."
 
 #: ancova/options/covs.description.R
 msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
@@ -8209,7 +8210,7 @@ msgstr "ANOVA for gjentatte målinger brukes til å utforske forholdet\n"
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
-msgstr "det designet for de gjentatte målingene."
+msgstr "designet for de gjentatte målingene."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
@@ -8266,7 +8267,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
+msgstr "Students t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien."
@@ -8282,12 +8283,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
-msgstr "Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
+msgstr "Students t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien.\n"
 "\n"
-"Student's t-test for ett utvalg forutsetter at dataene er normalfordelt.\n"
+"Students t-test for ett utvalg forutsetter at dataene er normalfordelt.\n"
 "Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test av\n"
 "fortegnsfordeling brukes istedenfor (men vær oppmerksom på at\n"
 "Wilcoxon-test har en litt annen nullhypotese, nemlig at *median* er\n"
@@ -8317,12 +8318,12 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "Student's paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+msgstr "Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
 "teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
 "lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
 "forskjellen mellom måleparene / gjentatte målingene er ikke null.\n"
 "\n"
-"Student's paret t-test forutsetter at parforskjeller er normalfordelt. I tilfelle\n"
+"Students paret t-test forutsetter at parforskjeller er normalfordelt. I tilfelle\n"
 "en kan ikke anta dette kan den ikke-parametriske Wilcoxon-test av\n"
 "fortegnsfordeling brukes (men vær oppmerksom på at Wilcoxon-test har\n"
 "en litt annen nullhypotese, nemlig at de to målingsparene har samme\n"
@@ -8445,7 +8446,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr "Tjur's R²"
+msgstr "Tjurs R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8501,7 +8502,7 @@ msgstr "Total"
 
 #: contTables/options/yaxisPc.description.R
 msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr "total_pc (standard), column_pc eller row_pc; bruk enten prosentandeler «av total», «innenfor kolonnene» eller «innenfor radene» for y-aksen i søylediagram."
+msgstr "total_pc (standard), column_pc eller row_pc; bruk enten prosentandeler «av totalt», «innenfor kolonnene» eller «innenfor radene» for y-aksen i søylediagram."
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -8732,11 +8733,11 @@ msgstr "Vektene inneholder negative verdier. Negative vekter er ikke tillatt."
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr "Welch's"
+msgstr "Welchs"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr "Welch's t"
+msgstr "Welchs t"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
@@ -8756,7 +8757,7 @@ msgstr "Wilcoxon W"
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr "Wilks' Lambda"
+msgstr "Wilks' lambda"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
