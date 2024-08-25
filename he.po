@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-07-22 11:09+0000\n"
+"PO-Revision-Date: 2024-08-25 12:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1716,7 +1716,7 @@ msgstr ""
 #: corrPart/ui[1][3].label
 #: reliability/ui[1][0][1].label
 msgid "Additional Options"
-msgstr ""
+msgstr "אפשרויות נוספות"
 
 #: cfa/ui[5].label
 #: efa/ui[1][1][2].label
@@ -1896,7 +1896,7 @@ msgstr ""
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr "ניתוח שונות (ANOVA)"
+msgstr "ניתוח שונות"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
@@ -2011,7 +2011,7 @@ msgstr ""
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
 msgid "Bayes factor"
-msgstr ""
+msgstr "מקדם בייס"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
@@ -2118,7 +2118,7 @@ msgstr ""
 #: anova/options/postHocCorr/bonf.title
 #: anovaRM/options/postHocCorr/bonf.title
 msgid "Bonferroni"
-msgstr ""
+msgstr "בונפרוני"
 
 #: descriptives/options/box.title
 msgid "Box plot"
@@ -2196,7 +2196,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Cohen's d"
-msgstr ""
+msgstr "d של כהן"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
@@ -2476,12 +2476,12 @@ msgstr ""
 #: anova/options/postHocCorr.title
 #: anova/ui[5][1][0].label
 msgid "Correction"
-msgstr ""
+msgstr "תיקון"
 
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[4][1][0].label
 msgid "Corrections"
-msgstr ""
+msgstr "תיקונים"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
@@ -4324,7 +4324,7 @@ msgstr "היסטוגרמות"
 #: anova/options/postHocCorr/holm.title
 #: anovaRM/options/postHocCorr/holm.title
 msgid "Holm"
-msgstr ""
+msgstr "הולם"
 
 #: ancova/results/assump/homo.title
 #: anova/results/assump/homo.title
@@ -5127,7 +5127,7 @@ msgstr ""
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr ""
+msgstr "ללא תיקון"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
@@ -6625,7 +6625,7 @@ msgstr ""
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
 msgid "Scheffe"
-msgstr ""
+msgstr "שפה"
 
 #: R/pca.b.R
 msgid "Score Component"
@@ -7467,7 +7467,7 @@ msgstr "זוגות המדדים – נערך מבחן t שונה עבור כל �
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr ""
+msgstr "התיקונים מרובי ההשוואות שיש לערוך למבחני ההמשך."
 
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
@@ -7837,7 +7837,7 @@ msgstr ""
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr ""
+msgstr "טוקי"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
