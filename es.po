@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-08-29 10:09+0000\n"
+"PO-Revision-Date: 2024-08-29 11:09+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -376,7 +376,9 @@ msgstr "`TRUE` (predeterminado) o `FALSE`, proporciona niveles de significación
 #: logRegMulti/options/dev.description.R
 #: logRegOrd/options/dev.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr "`TRUE` (predeterminado) o `FALSE`, proporciona la desvianza (o -2LogLikelihood) para los modelos"
+msgstr ""
+"`TRUE` (predeterminado) o `FALSE`, proporciona la desviación (o "
+"-2LogLikelihood) para los modelos"
 
 #: descriptives/options/mean.description.R
 msgid "`TRUE` (default) or `FALSE`, provide the mean"
@@ -474,7 +476,8 @@ msgstr "`TRUE` o `FALSE` (predeterminado), realiza comparaciones por pares"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr "`TRUE` o `FALSE` (predeterminado), realiza pruebas de normalidad Shapiro-wilk"
+msgstr ""
+"`TRUE` o `FALSE` (predeterminado), realiza pruebas de normalidad Shapiro-Wilk"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
@@ -488,7 +491,9 @@ msgstr "`TRUE` o `FALSE` (predeterminado), realiza pruebas de normalidad de Shap
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr "`TRUE` o `FALSE` (predeterminado), realiza pruebas de normalidad de Shapiro-wilk"
+msgstr ""
+"`TRUE` o `FALSE` (predeterminado), realiza pruebas de normalidad de Shapiro-"
+"Wilk"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
@@ -768,7 +773,7 @@ msgstr "`TRUE` o `FALSE` (predeterminado), proporciona la prueba de Mantel-Haens
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr "`TRUE` or `FALSE` (predeterminado), proporciona la ω de McDonald"
+msgstr "`TRUE` o `FALSE` (predeterminado), proporciona la ω de McDonald"
 
 #: ttestOneS/options/meanDiff.description.R
 msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
@@ -1103,7 +1108,7 @@ msgstr "< Valor de prueba"
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr "≠ Valor de Prueba"
+msgstr "≠ Valor de prueba"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
@@ -1325,7 +1330,9 @@ msgstr "un número entre 50 y 99.9 (predeterminado: 95) que especifica el ancho 
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
-msgstr "un número entre 50 y 99.9 (predeterminado: 95) que especifica el ancho del intervalo de confianza que se utiliza como `'ci'`"
+msgstr ""
+"un número entre 50 y 99.9 (predeterminado: 95) que especifica el ancho del "
+"intervalo de confianza que se utiliza como `'ic'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
@@ -2176,7 +2183,7 @@ msgstr "IC Inferior"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "CI Superior"
+msgstr "IC Superior"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -6034,7 +6041,7 @@ msgstr "Prueba para la Proporción en Una Muestra"
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr "Prueba T en Una Muestra"
+msgstr "Prueba t de una muestra"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -6056,7 +6063,7 @@ msgstr "ANOVA de Un Factor (Fisher)"
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr "ANOVA de Un Factor (No paramédico)"
+msgstr "ANOVA de Un Factor (No paramétrico)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
@@ -6230,7 +6237,7 @@ msgstr "Tablas de Contingencia para Muestras Apareadas"
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr "Prueba T para Muestras Apareadas"
+msgstr "Prueba T para Muestras Pareadas"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
@@ -8253,17 +8260,22 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "La prueba t de muestras independientes de Student (a veces denominada dos muestras\n"
-"t-test) se utiliza para probar la hipótesis nula de que dos grupos tienen el\n"
+msgstr ""
+"La prueba t de muestras independientes de Student (a veces denominada dos "
+"muestras\n"
+"t-test) se utiliza para probar la hipótesis nula de que dos grupos tienen "
+"el\n"
 "misma media. Un valor p bajo sugiere que la hipótesis nula no es cierta,\n"
 "y por lo tanto las medias del grupo son diferentes.\n"
 "\n"
 "La prueba t independiente de Student asume que los datos de cada grupo\n"
 "son de una distribución normal, y que las variaciones de estos grupos\n"
-"son iguales. Si no está dispuesto a asumir que los grupos tienen variaciones iguales, el\n"
-"La prueba t de Welch se puede usar en su lugar. Si hay una adicional\n"
-"no está dispuesto a asumir que los datos de cada grupo son de un\n"
-" normaldistribución, en su lugar se puede utilizar la prueba U de Mann-Whitney no paramétrica\n"
+"son iguales. Si no está dispuesto a asumir que los grupos tienen variaciones "
+"iguales, la\n"
+"prueba t de Welch se puede usar en su lugar. Si hay una adicional no está "
+"dispuesto a asumir que los datos de cada grupo son de una distribución "
+"normal, en su lugar se puede utilizar la prueba U de Mann-Whitney no "
+"paramétrica\n"
 "(Sin embargo, tenga en cuenta que la prueba U de Mann-Whitney tiene una\n"
 "hipótesis nula; que las distribuciones de cada grupo es igual)."
 
@@ -8272,9 +8284,11 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "La prueba t de Student para una muestra se utiliza para probar la hipótesis nula de que\n"
-"la media real es igual a un valor particular (normalmente cero). Un bajo\n"
-"El valor p sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
+msgstr ""
+"La prueba t de Student para una muestra se utiliza para probar la hipótesis "
+"nula de que\n"
+"la media real es igual a un valor particular (normalmente cero). Un valor p "
+"bajo sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
 "la media real debe ser diferente del valor de prueba."
 
 #: ttestOneS/options.description.main
@@ -8288,15 +8302,20 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the *median* is equal to the test value)."
-msgstr "La prueba t de Student para una muestra se utiliza para probar la hipótesis nula de que\n"
+msgstr ""
+"La prueba t de Student para una muestra se utiliza para probar la hipótesis "
+"nula de que\n"
 "la media real es igual a un valor particular (normalmente cero). Un bajo\n"
 "El valor p sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
 "la media real debe ser diferente del valor de prueba.\n"
 "\n"
-"La prueba t de una muestra de Student asume que los datos provienen de un\n"
-" normaldistribución - en el caso de que uno no esté dispuesto a asumir esto, el\n"
-"El rango con signo de Wilcoxon no paramétrico se puede usar en su lugar (Sin embargo,\n"
-"tenga en cuenta que el rango con signo de Wilcoxon tiene un valor nulo ligeramente diferente\n"
+"La prueba t de una muestra de Student asume que los datos provienen de una "
+"distribución normal - en el caso de que uno no esté dispuesto a asumir esto, "
+"el\n"
+"El rango con signo de Wilcoxon no paramétrico se puede usar en su lugar (Sin "
+"embargo,\n"
+"tenga en cuenta que el rango con signo de Wilcoxon tiene un valor nulo "
+"ligeramente diferente\n"
 "hipótesis; que la * mediana * es igual al valor de prueba)."
 
 #: package/analyses/ttestPS.description
@@ -8305,11 +8324,12 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "La prueba t de muestras pareadas de Student (a veces llamada\n"
-"prueba t de muestras dependientes) se utiliza para probar la hipótesis nula de que el\n"
-"la diferencia entre pares de medidas es igual a cero. Un valor p bajo\n"
-"sugiere que la hipótesis nula no es cierta y que la\n"
-"La diferencia entre los pares de medidas no es cero."
+msgstr ""
+"La prueba t de muestras pareadas de Student (a veces llamada prueba t de "
+"muestras dependientes) se utiliza para probar la hipótesis nula de que la "
+"diferencia entre pares de medidas es igual a cero. Un valor p bajo sugiere "
+"que la hipótesis nula no es cierta y que la diferencia entre los pares de "
+"medidas no es cero."
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
