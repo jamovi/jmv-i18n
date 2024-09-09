@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-09-09 11:09+0000\n"
+"PO-Revision-Date: 2024-09-09 12:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -4189,7 +4189,7 @@ msgstr "אפשרויות כלליות"
 
 #: anovaRM/options/effectSize/ges.title
 msgid "Generalised η²"
-msgstr ""
+msgstr "η² מוכלל"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
@@ -4713,7 +4713,7 @@ msgstr ""
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr ""
+msgstr "תרשימי הממוצעים השוליים"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -4723,7 +4723,7 @@ msgstr ""
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
 msgid "Marginal means tables"
-msgstr ""
+msgstr "טבלאות הממוצעים השוליים"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
@@ -4996,7 +4996,7 @@ msgstr ""
 #: logRegOrd/ui[3].label
 #: pca/results/modelFit.title
 msgid "Model Fit"
-msgstr ""
+msgstr "התאמת המודל"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -5005,7 +5005,7 @@ msgstr ""
 #: logRegOrd/results/modelFit.title
 #: pca/results/modelFit/fit.title
 msgid "Model Fit Measures"
-msgstr ""
+msgstr "מדדי התאמת המודל"
 
 #: efa/options/modelFit.title
 msgid "Model fit measures"
@@ -5028,7 +5028,7 @@ msgstr "תנאי המודל"
 
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "Model Test"
-msgstr ""
+msgstr "בדיקת המודל"
 
 #: logRegOrd/results/models.template/thres.title
 msgid "Model Thresholds"
@@ -5464,7 +5464,7 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
 msgid "Overall Model Test"
-msgstr ""
+msgstr "בדיקה כוללת של המודל"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -5473,7 +5473,7 @@ msgstr ""
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
 msgid "Overall model test"
-msgstr ""
+msgstr "בדיקה כוללת של המודל"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5721,7 +5721,7 @@ msgstr ""
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "ביצוע בדיקה כוללת של המודל."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
@@ -6141,7 +6141,7 @@ msgstr "תיקוני ערך ה־p עבור כדוריות."
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
 msgid "provide plots of the estimated marginal means."
-msgstr ""
+msgstr "תרשימי הממוצעים השוליים המשוערים."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
@@ -6425,7 +6425,7 @@ msgstr ""
 
 #: R/anovarm.b.R
 msgid "Residual"
-msgstr ""
+msgstr "שיורי"
 
 #: cfa/options/resCov.title
 #: cfa/ui[1].label
@@ -6444,7 +6444,7 @@ msgstr ""
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "הערכות שיוריות"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
@@ -6456,7 +6456,7 @@ msgstr ""
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "תרשימי נתונים שיוריים"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
@@ -6475,7 +6475,7 @@ msgstr ""
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
 msgid "Residuals"
-msgstr ""
+msgstr "נתונים שיוריים"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
@@ -6483,7 +6483,7 @@ msgstr ""
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "נתונים שיוריים מניתוח שונות"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
@@ -6491,7 +6491,7 @@ msgstr ""
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
-msgstr ""
+msgstr "תרשימי נתונים שיוריים"
 
 #: package/analyses/empty.title
 #: package/analyses/empty.menuTitle
@@ -7456,11 +7456,13 @@ msgstr ""
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
-msgstr ""
+msgstr "תנאי המודל שמהם מורכב המודל."
 
 #: anova/options/modelTerms.description.ui
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
+"תנאי המודל שמהם מורכב המודל. ברירת המחדל היא שייווצר מודל גורמי מלא, אבל כאן "
+"ניתן לשנות את התנאים המדויקים המרכיבים את המודל."
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
@@ -7657,7 +7659,7 @@ msgstr ""
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr ""
+msgstr "התנאים כדי לספק ממוצעים שוליים משוערים. כאן ניתן לציין כמה תנאים."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
