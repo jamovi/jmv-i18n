@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-08-30 12:09+0000\n"
+"PO-Revision-Date: 2024-09-09 11:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.7.1-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1160,11 +1160,13 @@ msgstr ""
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr ""
+msgstr "נוסחה המכילה את התנאים להערכת הממוצעים השוליים (יש לראות את הדוגמות)"
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
+"נוסחה המכילה את התנאים להערכת הממוצעים השוליים, תומכת בשלושה משתנים לכל תנאי "
+"לכל היותר"
 
 #: ancova/options/postHoc.description.R
 #: anova/options/postHoc.description.R
@@ -3849,7 +3851,7 @@ msgstr ""
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Estimated Marginal Means - {term}"
-msgstr ""
+msgstr "ממוצעים שוליים משוערים – {term}"
 
 #: cfa/ui[3].label
 msgid "Estimates"
@@ -5251,7 +5253,7 @@ msgstr ""
 #: anova/options/emmPlotData.title
 #: anovaRM/options/emmPlotData.title
 msgid "Observed scores"
-msgstr ""
+msgstr "ציונים נצפים"
 
 #: R/ancova.b.R
 msgid "octic"
