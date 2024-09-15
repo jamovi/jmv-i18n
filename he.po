@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-09-09 12:09+0000\n"
+"PO-Revision-Date: 2024-09-15 14:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -27,7 +27,7 @@ msgstr "”{col}“ מכילה רק ערכים חסרים"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "”{col}“ מכילה ערך ייחודי אחד בלבד"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
@@ -1251,7 +1251,7 @@ msgstr "ערך p נמוך מעיד על הפרה של הנחת הנורמליו�
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "מערך נתונים נחמד של מתאמים"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
@@ -1436,7 +1436,7 @@ msgstr "סיכום הקבוצות"
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "טבלה המכילה את הממוצעים השוליים המשוערים"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
@@ -1823,7 +1823,7 @@ msgstr ""
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "מערך התרשימים והטבלאות של הממוצעים השוליים המשוערים"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
@@ -2140,15 +2140,15 @@ msgstr ""
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr ""
+msgstr "מבחן מטריצות ההומוגניות של השונות המשותפת של בוקס"
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
-msgstr ""
+msgstr "מבחן M של בוקס"
 
 #: mancova/options/boxM.title
 msgid "Box's M test for homogeneity of covariance matrices"
-msgstr ""
+msgstr "מבחן M של בוקס למטריצות הומוגניות השונות המשותפת"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).name
 msgid "Bugs (Ryan, Wilde & Crist, 2013)"
@@ -2258,7 +2258,7 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr ""
+msgstr "ההשוואות מבוססות על הממוצעים השוליים המשוערים"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
@@ -3505,12 +3505,14 @@ msgstr "המשתנה התלוי ”{dep}“ מכיל אין־סוף ערכים"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "המשתנה התלוי ”{dep}“ אינו מכיל נתונים (לאחר הסרת שורות עם ערכים חסרים)"
+msgstr ""
+"המשתנה התלוי ”{dep}“ אינו מכיל נתונים (לאחר הסרת שורות בעלות ערכים חסרים)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
-"המשתנה התלוי ”{dep}“ מכיל רק ערך ייחודי אחד (לאחר הסרת שורות עם ערכים חסרים)"
+"המשתנה התלוי ”{dep}“ מכיל רק ערך ייחודי אחד (לאחר הסרת שורות בעלות ערכים "
+"חסרים)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -3842,7 +3844,7 @@ msgstr ""
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "ממוצעים שוליים משוערים"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3972,23 +3974,27 @@ msgstr "גורם"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
+msgstr "לגורם ”{factor}“ יש פחות משתי רמות. לגורמים חייבות להיות לפחות שתי רמות"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "הגורם ”{factor}“ צריך להיות בעל 2 רמות לפחות"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"הגורם ”{factorName}“ אינו מכיל נתונים (לאחר הסרת שורות בעלות ערכים חסרים)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"הגורם ”{factorName}“ מכיל רק רמה יחידה (לאחר הסרת שורות בעלות ערכים חסרים)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"הגורם ”{factorName}“ מכיל רמות שאינן בשימוש (לאחר הסרת שורות בעלות ערכים "
+"חסרים)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -4703,7 +4709,7 @@ msgstr ""
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
 msgid "Marginal Means"
-msgstr ""
+msgstr "ממוצעים שוליים"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -5134,7 +5140,7 @@ msgstr "ללא תיקון"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr ""
+msgstr "לא הוגדרו גורמים. מבחן M של בוקס מתאים רק כשיש גורמים במודל."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -5795,7 +5801,7 @@ msgstr ""
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
 msgid "plot the data along with the marginal means."
-msgstr ""
+msgstr "רישום הנתונים יחד עם הממוצעים השוליים."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
@@ -6032,7 +6038,7 @@ msgstr "טבלת המידע התיאורי של כל משתנה."
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr ""
+msgstr "טבלה של הממוצעים השוליים המשוערים."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
@@ -7113,7 +7119,7 @@ msgstr ""
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "מערך הנתונים ”iris“ מ־R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
@@ -7329,11 +7335,11 @@ msgstr ""
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
+msgstr "מערך הנתונים מכיל 0 שורות (לאחר הסרת שורות בעלות ערכים חסרים)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "מערך הנתונים מכיל 0 שורות (או שכל השורות מכילות ערכים חסרים)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -7931,7 +7937,7 @@ msgstr ""
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr ""
+msgstr "ערך"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
@@ -8091,7 +8097,7 @@ msgstr "W של וילקוקסון"
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "למדה של וילק"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
