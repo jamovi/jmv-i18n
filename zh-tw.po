@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-14 06:16+0000\n"
+"PO-Revision-Date: 2024-10-14 07:16+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -1506,12 +1506,12 @@ msgstr ""
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "常態性檢定結果表"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "常態性檢定表"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
@@ -1568,7 +1568,7 @@ msgstr ""
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
 msgid "a table of normality tests"
-msgstr ""
+msgstr "常態性檢定表"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1738,7 +1738,7 @@ msgstr ""
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
 msgid "Additional Statistics"
-msgstr ""
+msgstr "其他統計值"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
@@ -1815,7 +1815,7 @@ msgstr ""
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "分位圖(Q-Q plots)陣列"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
@@ -2797,7 +2797,7 @@ msgstr "dat <- data.frame(x=c(8, 15))\n"
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
-msgstr "資料"
+msgstr "包含資料點"
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
@@ -4798,7 +4798,7 @@ msgstr ""
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
 msgid "Frequency tables"
-msgstr ""
+msgstr "次數表"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -4989,7 +4989,7 @@ msgstr ""
 #: anovaRM/options/leveneTest.title
 #: ttestIS/options/eqv.title
 msgid "Homogeneity test"
-msgstr ""
+msgstr "同質性檢定"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
@@ -5016,7 +5016,7 @@ msgstr ""
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
 msgid "Hypothesis"
-msgstr "假說"
+msgstr "檢定假說"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
@@ -5042,7 +5042,7 @@ msgstr ""
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
 msgid "Independent Samples T-Test"
-msgstr ""
+msgstr "獨立樣本T檢定"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
@@ -5150,7 +5150,7 @@ msgstr ""
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr ""
+msgstr "抖動顯示(Jittered)"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -5189,11 +5189,11 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
 msgid "Kurtosis"
-msgstr ""
+msgstr "峰度"
 
 #: descriptives/options/boxLabelOutliers.title
 msgid "Label outliers"
-msgstr ""
+msgstr "標記離群值"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -5446,7 +5446,7 @@ msgstr ""
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Mean Difference"
-msgstr ""
+msgstr "平均數差異"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -5460,11 +5460,11 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
 msgid "Mean difference"
-msgstr ""
+msgstr "平均數差異"
 
 #: descriptives/ui[2][2][1].label
 msgid "Mean Dispersion"
-msgstr ""
+msgstr "平均數分散程度"
 
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
@@ -5555,7 +5555,7 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr "缺失"
+msgstr "缺失資料數"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
@@ -5582,7 +5582,7 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
 msgid "Mode"
-msgstr ""
+msgstr "眾數"
 
 #: R/logregbin.b.R
 #: ancova/ui[2].label
@@ -5697,7 +5697,7 @@ msgstr ""
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
-msgstr ""
+msgstr "最極端的"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -5745,7 +5745,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "N"
-msgstr ""
+msgstr "樣本數(N)"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
@@ -5763,13 +5763,13 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr ""
+msgstr "沒有特徵值超過{value}的主成分"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr ""
+msgstr "無相關"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
@@ -5785,7 +5785,7 @@ msgstr "名義變項"
 #: anovaNP/options.menuSubgroup
 #: anovaRMNP/options.menuSubgroup
 msgid "Non-Parametric"
-msgstr ""
+msgstr "無母數"
 
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
@@ -5811,7 +5811,7 @@ msgstr ""
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
-msgstr ""
+msgstr "常態性"
 
 #: ancova/options/norm.title
 #: anova/options/norm.title
@@ -5821,7 +5821,7 @@ msgstr ""
 #: ttestOneS/options/norm.title
 #: ttestPS/options/norm.title
 msgid "Normality test"
-msgstr ""
+msgstr "常態性檢定"
 
 #: ancova/results/assump/norm.title
 #: anova/results/assump/norm.title
@@ -5831,7 +5831,7 @@ msgstr ""
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr ""
+msgstr "常態性檢定(Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
@@ -5847,23 +5847,23 @@ msgstr ""
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
-msgstr ""
+msgstr "主成分數"
 
 #: pca/options/nFactorMethod.title
 msgid "Number of components"
-msgstr ""
+msgstr "主成分數"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
-msgstr ""
+msgstr "極端值樣本數"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
-msgstr ""
+msgstr "因素數量"
 
 #: efa/options/nFactorMethod.title
 msgid "Number of factors"
-msgstr ""
+msgstr "因素數量"
 
 #: R/descriptives.b.R
 msgid "Number of requested extreme values is higher than the number of rows in the data."
@@ -6023,7 +6023,7 @@ msgstr ""
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr ""
+msgstr "單一樣本T檢定"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -6076,7 +6076,7 @@ msgstr ""
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
-msgstr ""
+msgstr "離群值"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -6219,7 +6219,7 @@ msgstr ""
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "相依樣本T檢定"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
@@ -6334,11 +6334,11 @@ msgstr "百分位數"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
-msgstr ""
+msgstr "百分等級"
 
 #: descriptives/options/pcValues.title
 msgid "Percentile values"
-msgstr ""
+msgstr "百分等級"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
@@ -6820,7 +6820,7 @@ msgstr ""
 
 #: descriptives/ui[3][0][0][1]/qq.label
 msgid "Q-Q"
-msgstr ""
+msgstr "分位圖(Q-Q)"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -6833,7 +6833,7 @@ msgstr ""
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr ""
+msgstr "分位圖(Q-Q plots)"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -6842,7 +6842,7 @@ msgstr ""
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr ""
+msgstr "分位圖(Q-Q plots)"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
@@ -6854,15 +6854,15 @@ msgstr ""
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "殘差分位圖(Q-Q plots)"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
-msgstr ""
+msgstr "分位圖(Q-Q Plots)"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr ""
+msgstr "分位圖(Q-Q plots)"
 
 #: R/ancova.b.R
 msgid "quadratic"
@@ -6925,7 +6925,7 @@ msgstr ""
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
-msgstr ""
+msgstr "全距"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
@@ -7220,7 +7220,7 @@ msgstr ""
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
-msgstr ""
+msgstr "樣本數"
 
 #: ancova/ui[7].label
 #: anova/ui[7].label
@@ -7449,7 +7449,7 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
 msgid "Skewness"
-msgstr ""
+msgstr "偏態"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
@@ -7495,7 +7495,7 @@ msgstr ""
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr ""
+msgstr "分組依照"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -7517,7 +7517,7 @@ msgstr ""
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr ""
+msgstr "重疊顯示"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -7590,23 +7590,23 @@ msgstr ""
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr ""
+msgstr "標準差(SD)"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "峰度之標準誤"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
-msgstr ""
+msgstr "平均數之標準誤"
 
 #: descriptives/ui[2][2][1][0]/se.label
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "平均數之標準誤"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "偏態之標準誤"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
@@ -7629,7 +7629,7 @@ msgstr ""
 #: R/reliability.b.R
 #: descriptives/options/sum.title
 msgid "Sum"
-msgstr ""
+msgstr "總和"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -7637,28 +7637,28 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Sum of Squares"
-msgstr ""
+msgstr "平方和"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
 msgid "Sum of squares"
-msgstr ""
+msgstr "平方和"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "總和分數"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: R/ancova.b.R
 #: contTables/results/taub.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -7667,11 +7667,11 @@ msgstr ""
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr "T 檢驗"
+msgstr "T 檢定"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr ""
+msgstr "t值"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
@@ -8443,7 +8443,7 @@ msgstr "value"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr "values"
+msgstr "個資料"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
@@ -8489,11 +8489,11 @@ msgstr "變數"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr ""
+msgstr "欄變項"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr ""
+msgstr "列變項"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
@@ -8502,11 +8502,11 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
 msgid "Variance"
-msgstr ""
+msgstr "變異數"
 
 #: anovaOneW/ui[1][0][0].label
 msgid "Variances"
-msgstr ""
+msgstr "變異數"
 
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
@@ -8528,7 +8528,7 @@ msgstr "VIF"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr ""
+msgstr "小提琴圖(Violin)"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
