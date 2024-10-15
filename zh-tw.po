@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-15 07:15+0000\n"
+"PO-Revision-Date: 2024-10-15 08:15+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -231,9 +231,10 @@ msgstr "''none''、''ci''（預設值）或 "
 #: anovaOneW/options/phMethod.description.R
 msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
 msgstr ""
-"''none''， ''gamesHowell'' 或 ''tukey''，提供事後測試;''none'' "
-"顯示沒有事後測試，''gamesHowell'' 顯示 Games-Howell "
-"事後測試，其中不假設方差等價，''tukey'' 顯示 Tukey 事後測試，其中假設方差等價"
+"''none''， ''gamesHowell'' 或 ''tukey''，提供事後檢定;''none'' "
+"顯示沒有事後檢定，''gamesHowell'' 使用Games-Howell "
+"事後檢定，用於違反變異數同質假設的情境中，而''tukey'' 使用Tukey "
+"事後檢定，假設變異數同質"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
@@ -254,29 +255,41 @@ msgstr "對立假設：`'notequal(不相等)'` (預設)， `'greater(大於)'` �
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr "決定因素個數的方式：`'parallel'` (預設)，`'eigen'` 或 `'fixed'`"
+msgstr "決定因素個數的方式：`'parallel'` (平行分析／預設)，`'eigen'`(特徵值) 或 "
+"`'fixed'`(固定個數)"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
+"處理缺失值的方式：`'perAnalysis'` 或 `'listwise'`； `'perAnalysis'`會依照不同"
+"依變項的分析來排除缺失值，`'listwise'`在所有分析變項中，只要有一個欄位是缺失"
+"值，便會在所有分析中排除該資料列"
 
 #: anovaOneW/options/miss.description.R
 #: ttestIS/options/miss.description.R
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
+"處理缺失值的方式：`'perAnalysis'` 或 `'listwise'`； `'perAnalysis'`會依照不同"
+"依變項的分析來排除缺失值，`'listwise'`在所有分析變項中，只要有一個欄位是缺失"
+"值，便會在所有分析中排除該資料列。"
 
 #: linReg/options/intercept.description.R
 msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
 msgstr ""
+"截距的編碼方式：`'refLevel'` (預設) 或 `'grandMean'`。兩者會採用不同比對方式("
+"contrast)來讓截距分別代表參照水準或整體平均"
 
 #: descriptives/options/desc.description.R
 msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr ""
+msgstr "`'rows'` 或 `'columns'` (預設)，顯示行變項或是列變項(預設)"
 
 #: efa/options/factorScoreMethod.description.R
 msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
 msgstr ""
+"`'Thurstone'` (預設)、`'Bartlett'`、`'tenBerge'`、`'Anderson'`、或`'Harman'`"
+"。分別使用'Thurstone'、'Bartlett'、'ten Berge'、'Anderson & "
+"Rubin'、或'Harman'方法來估計因素分數"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
