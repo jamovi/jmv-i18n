@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-15 09:16+0000\n"
+"PO-Revision-Date: 2024-10-15 10:15+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
-msgstr "理想的相關資料集"
+msgstr "還不錯的相關資料集"
 
 #: cfa/options/hlCorRes.description.R
 msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
@@ -4531,11 +4531,12 @@ msgstr "估計值"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr ""
+msgstr "係數為下列的對數勝算(log odds)：…"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr ""
+msgstr "係數為下列的對數勝算(log odds)： \"{dep} = {level1}\" vs. \"{dep} = {level2}"
+"\""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -4568,12 +4569,12 @@ msgstr "預期的"
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
 msgid "Expected counts"
-msgstr ""
+msgstr "計數期望值"
 
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr ""
+msgstr "比例期望值"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
@@ -4644,83 +4645,83 @@ msgstr "因素"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
+msgstr "'{factor}' 因子少於兩個水準。因子必須至少包含兩個水準"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "'{factor}'因子至少需要兩個水準(level)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "'{factorName}'因子並未包含任何資料(在移除缺失值之後)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
+msgstr "'{factorName}'因子只包含單一水準(移除含缺失值的資料列後)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
+msgstr "'{factorName}'因子包含未使用的水準(在移除含缺失值的資料列後)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
-msgstr ""
+msgstr "因素 {0}"
 
 #: cfa/options/factors.default[0].label
 msgid "Factor 1"
-msgstr ""
+msgstr "因素 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
-msgstr ""
+msgstr "因素間相關"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr ""
+msgstr "因素間共變數"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
-msgstr ""
+msgstr "因素間共變數"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr ""
+msgstr "因素係數"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "因素截距"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr ""
+msgstr "因素截距"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
 msgid "Factor Loadings"
-msgstr ""
+msgstr "因素負荷量"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr ""
+msgstr "因素負荷量 - 修正指標(Modification Indices)"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr ""
+msgstr "因素計分"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
-msgstr ""
+msgstr "因素統計結果"
 
 #: efa/options/factorSummary.title
 msgid "Factor summary"
-msgstr ""
+msgstr "因素摘要"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
 msgid "Factor variances = 1"
-msgstr ""
+msgstr "因素變異數 = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
@@ -4740,7 +4741,7 @@ msgstr "因素"
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
 msgid "Factors"
-msgstr "因子"
+msgstr "因子(因素)"
 
 #: R/pca.b.R
 msgid "factors"
@@ -4753,7 +4754,7 @@ msgstr "Fisher's"
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr ""
+msgstr "費雪正確機率檢定(Fisher's exact test)"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -4764,7 +4765,7 @@ msgstr ""
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
 msgid "Fit Measures"
-msgstr ""
+msgstr "適配度指標"
 
 #: R/linreg.b.R
 msgid "Fitted"
