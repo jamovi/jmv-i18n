@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-14 09:15+0000\n"
+"PO-Revision-Date: 2024-10-15 07:15+0000\n"
 "Last-Translator: 蔡幸祖 <142098@mail.fju.edu.tw>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -249,12 +249,12 @@ msgstr ""
 
 #: propTest2/options/hypothesis.description.R
 msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr ""
+msgstr "對立假設：`'notequal(不相等)'` (預設)， `'greater(大於)'` 或 `'less(小於)'`"
 
 #: efa/options/nFactorMethod.description.R
 #: pca/options/nFactorMethod.description.R
 msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr ""
+msgstr "決定因素個數的方式：`'parallel'` (預設)，`'eigen'` 或 `'fixed'`"
 
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
@@ -2549,6 +2549,18 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"相關矩陣是拿來檢驗兩個或多個連續變項間線性關係的方法之一。\n"
+"\n"
+"對於每個變項組合所計算的皮爾森相關係數(Pearson's r)，代表兩變項\n"
+"之間關連性的高低與方向。係數大於零代表之間的關聯是正相關(其中\n"
+"一個變項若越高，可以預測另一個變項的值也更大)。係數為負代表\n"
+"兩變項間的關聯為負相關(其中一個變項越高，另一個變項可能越低，\n"
+"反之亦然)。係數為零代表兩變項間無相關存在(不論一個變項高或低，\n"
+"都無法預測另一個變項的高低)。\n"
+"\n"
+"更嚴謹的來說，我們可以進行假設檢定來驗證相關係數是否為零的\n"
+"虛無假設，並計算出機率大小(p值)。如果p值很低，代表相關係數\n"
+"可能不是零，兩變項間可能有線性(或更複雜的)關係存在。"
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
