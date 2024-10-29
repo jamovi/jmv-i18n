@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2023-11-21 01:03+0000\n"
-"Last-Translator: Josef Solin <kvokocka@gmail.com>\n"
+"PO-Revision-Date: 2024-10-29 09:00+0000\n"
+"Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/"
 ">\n"
 "Language: cs\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -297,43 +297,54 @@ msgstr "`Proporce - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr "`PRÁVY` (výchozí) nebo `NEPRÁVY`, přidá k odlehlým hodnotám v krabicovém grafu popisky s číslem řádku"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, přidá k odlehlým hodnotám v boxovém grafu "
+"popisky s číslem řádku"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`PRAVÝ` (výchozí) nebo `NEPRAVÝ`, provést Studentův t-test"
+msgstr "`TRUE` (výchozí) nebo `FALSE`, provede Studentův t-test"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`PRAVÝ` (výchozí) nebo `NEPRAVÝ`, provést Welchovu jednosměrnou ANOVA, která nepředpokládá stejné rozptyly"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, provede Welchovu jednocestnou ANOVA, která "
+"nepředpokládá stejné rozptyly"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr "`PRAVÝ` (výchozí) nebo `NEPRAVÝ`, uvést hodnoty 'Z' a 'p' pro modelové odhady"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, uveďte hodnoty 'Z' a 'p' pro odhady modelu"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr "`PRAVÝ` (výchozí) nebo `NEPRAVÝ`, provést chí-kvadrát test přesné shody, který porovná model s dokonale vyhovujícím modelem"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, poskytne chi-square test pro přesnou shodu, "
+"který porovná model s dokonale vyhovujícím modelem"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", poskytnout interval spolehlivosti pro odhadované mezní průměry"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, poskytne interval spolehlivosti pro odhadnuté "
+"mezní průměry"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
 #: logRegMulti/options/aic.description.R
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", poskytnout Akaikeho informační kritérium (AIC) pro modely"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, poskytne Aikaikeho informační kritérium (AIC) "
+"pro modely"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", poskytout Cronbachovo α"
+msgstr "`TRUE` (výchozí) nebo `FALSE`, poskytne Cronbachovo α"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
@@ -343,11 +354,12 @@ msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", poskytout Cronbachovo α"
 #: logRegBin/options/emmPlots.description.R
 #: logRegMulti/options/emmPlots.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", poskytnout grafy odhadovaných mezních průměrů"
+msgstr ""
+"`TRUE` (výchozí) nebo `FALSE`, poskytne grafy odhadovaných mezních průměrů"
 
 #: cfa/options/factCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr "\"PRAVDA\" (výchozí) nebo \"NEPRAVDA\", poskytnout odhady faktorových (ko)variancí"
+msgstr "`TRUE` (výchozí) nebo `FALSE`, poskytne odhady faktorových (ko)variací"
 
 #: cfa/options/resCovEst.description.R
 msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
@@ -532,11 +544,15 @@ msgstr "\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), uvést interval spolehlivosti 
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr "\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), poskytne interval spolehlivosti pro koeficienty modelu"
+msgstr ""
+"`TRUE` nebo `FALSE` (výchozí), poskytne interval spolehlivosti pro "
+"koeficienty modelu"
 
 #: cfa/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
+msgstr ""
+"`TRUE` nebo `FALSE` (výchozí), poskytne interval spolehlivosti pro odhady "
+"modelu"
 
 #: corrMatrix/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
@@ -548,7 +564,7 @@ msgstr "\"PRAVDA\" nebo \"NEPRAVDA\" (výchozí), poskytuje korelační graf"
 
 #: logRegBin/options/cutOffPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr ""
+msgstr "`TRUE` nebo `FALSE` (výchozí nastavení), poskytne mezní graf"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
