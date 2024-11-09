@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-15 11:15+0000\n"
+"PO-Revision-Date: 2024-11-09 21:00+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.8-rc\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1688,7 +1688,7 @@ msgstr ""
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
-msgstr ""
+msgstr "Točnost"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -1696,11 +1696,11 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.addButton
 msgid "Add New Block"
-msgstr ""
+msgstr "Dodaj novi blok"
 
 #: cfa/ui[0][0]/factors.addButton
 msgid "Add New Factor"
-msgstr ""
+msgstr "Dodaj novi faktor"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -1710,19 +1710,19 @@ msgstr ""
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 msgid "Add New Term"
-msgstr ""
+msgstr "Dodaj novi pojam"
 
 #: corrMatrix/ui[1][1].label
 #: corrPart/ui[1][3].label
 #: reliability/ui[1][0][1].label
 msgid "Additional Options"
-msgstr ""
+msgstr "Dodatne opcije"
 
 #: cfa/ui[5].label
 #: efa/ui[1][1][2].label
 #: pca/ui[1][1][2].label
 msgid "Additional Output"
-msgstr ""
+msgstr "Dodatni rezultat"
 
 #: anovaOneW/ui[1][1][0].label
 #: propTest2/ui[1][1][0].label
@@ -1730,7 +1730,7 @@ msgstr ""
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
 msgid "Additional Statistics"
-msgstr ""
+msgstr "Dodatna statistika"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
@@ -2638,7 +2638,7 @@ msgstr ""
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
 msgid "Cronbach's α"
-msgstr ""
+msgstr "Cronbachov α"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
@@ -2740,7 +2740,7 @@ msgstr ""
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
-msgstr "Podatci"
+msgstr "Podaci"
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
@@ -2811,17 +2811,17 @@ msgstr ""
 #: package/analyses/efa.menuSubgroup
 #: package/analyses/cfa.menuSubgroup
 msgid "Data Reduction"
-msgstr ""
+msgstr "Redukcija podataka"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Skup podataka trenutačno nije ponderiran"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
-msgstr ""
+msgstr "Sažetak podataka"
 
 #: logRegBin/options.description.R.usage
 msgid "data('birthwt', package='MASS')\n"
@@ -4488,7 +4488,7 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Kendall's Tau B"
-msgstr ""
+msgstr "Kendallov Tau B"
 
 #: contTables/results/taub.columns.title
 msgid "Kendall's Tau-B"
@@ -5632,16 +5632,16 @@ msgstr ""
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
 msgid "Pearson"
-msgstr ""
+msgstr "Pearson"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Pearsonova korelacija se ne može izračunati za nenumeričke vrijednosti"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "Pearsonov r"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
@@ -5651,7 +5651,7 @@ msgstr ""
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr ""
+msgstr "Postoci"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
@@ -5659,24 +5659,24 @@ msgstr ""
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "Postoci unutar {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
-msgstr ""
+msgstr "Percentil"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
-msgstr ""
+msgstr "Percentil vrijednosti"
 
 #: descriptives/options/pcValues.title
 msgid "Percentile values"
-msgstr ""
+msgstr "Percentil vrijednosti"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
 msgid "Percentiles"
-msgstr ""
+msgstr "Percentili"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
@@ -5749,7 +5749,7 @@ msgstr ""
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr ""
+msgstr "Grafikon"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
@@ -5763,7 +5763,7 @@ msgstr ""
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr ""
+msgstr "Vrsta grafikona"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -5777,7 +5777,7 @@ msgstr ""
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr "Grafički podatci"
+msgstr "Grafikoni"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -6866,12 +6866,12 @@ msgstr ""
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr ""
+msgstr "Standardna devijacija"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
 msgid "Standard Error"
-msgstr ""
+msgstr "Standardna greška"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
@@ -7253,7 +7253,7 @@ msgstr ""
 #: ttestOneS/options/data.description.R
 #: ttestPS/options/data.description.R
 msgid "the data as a data frame"
-msgstr "podatci kao skup podataka"
+msgstr "podaci kao skup podataka"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
@@ -7964,19 +7964,19 @@ msgstr "Efekti unutar sudionika"
 
 #: contTables/ui[1][2][0][1][1].label
 msgid "X-Axis"
-msgstr "X-os"
+msgstr "Os X"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr "X-os"
+msgstr "Os X"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
-msgstr "Y-Os"
+msgstr "Os Y"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr "Y-os"
+msgstr "Os Y"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
