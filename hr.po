@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-11-09 21:00+0000\n"
+"PO-Revision-Date: 2024-11-10 12:00+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -1756,7 +1756,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr ""
+msgstr "Sva zapažanja su povezana"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -3866,12 +3866,12 @@ msgstr ""
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
-msgstr ""
+msgstr "Isključeno"
 
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
 msgid "Expected"
-msgstr ""
+msgstr "Očekivano"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
@@ -3881,12 +3881,12 @@ msgstr ""
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr ""
+msgstr "Očekivane proporcije"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
 msgid "Exploration"
-msgstr ""
+msgstr "Eksploracija"
 
 #: R/efa.b.R
 #: package/analyses/efa.title
@@ -3902,7 +3902,7 @@ msgstr ""
 
 #: efa/options/extraction.title
 msgid "Extraction"
-msgstr ""
+msgstr "Ekstrakcija"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
@@ -5788,7 +5788,7 @@ msgstr ""
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "Post Hoc usporedba – {term}"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -5801,25 +5801,25 @@ msgstr ""
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "Post Hoc testovi"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "Post Hoc testovi – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "Post-Hoc performanca modela"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "Post-Hoc test"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "Post-Hoc testovi"
 
 #: R/proptest2.b.R
 msgid "Posterior"
@@ -7416,20 +7416,22 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "Analiza varijance za ponovljena mjerenja se koristi za istraživanje povezanosti \n"
+msgstr ""
+"Analiza varijance za ponovljena mjerenja se koristi za istraživanje "
+"povezanosti \n"
 "između kontiunirane zavisne varijable i jedne ili više kategorijskih \n"
 "opisnih varijabli, gdje je jedna ili više opisnih varijabli\n"
 "\"između ispitanika\" (kada su ponovljena mjerenja dobivena na istim\n"
 "ispitanicima. Dodatno, ova analiza omogućuje uključenje\n"
 "kovarijata, dopuštajući i ANCOVA-u za ponovljena mjerenja.\n"
 "\n"
-"Ova analiza zahtijeva da podatci budu u \"širokom formatu\", gdje svaki\n"
-"red predstavlja ispitanika (nasuprot dugom formatu gdje je svako\n"
-"mjerenje zavisne varijable prikazano kao redak).\n"
+"Ova analiza zahtijeva da podaci budu u \"širokom formatu\", gdje svaki\n"
+"red predstavlja ispitanika (nasuprot dugom formatu gdje se svako\n"
+"mjerenje zavisne varijable prikazuje kao redak).\n"
 "\n"
-"Neparametrijski ekvivalent ANOVA-e za ponovljena mjerenja također postoji;\n"
-"Friedman test. Međutim, ograničenje je što taj test može testirati \n"
-"samo jedan faktor."
+"Također postpoji neparametrijski ekvivalent ANOVA-e za ponovljena\n"
+"mjerenja – tzv. Friedman test. Njegovo ograničenje je međutim da može\n"
+"testirati samo jedan faktor."
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
