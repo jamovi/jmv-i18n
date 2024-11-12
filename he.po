@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-11-12 18:00+0000\n"
+"PO-Revision-Date: 2024-11-12 19:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -55,7 +55,7 @@ msgstr "{} – רו של ספירמן"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "רווח בר סמך תחתון {ciWidth}%"
+msgstr "רווח סמך תחתון {ciWidth}%"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "רווח סמך עליון {ciWidth}%"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -79,43 +79,43 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr "רווח בר סמך של {ciWidth}%"
+msgstr "רווח סמך של {ciWidth}%"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "רווחי סמך של {ciWidth}%"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
-msgstr ""
+msgstr "{item1} וגם {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr ""
+msgstr "{list}, {nextItem}"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
-msgstr ""
+msgstr "{list}, וגם {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "{n} זוג(ות) ערכים היו קשורים"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "ציון {type} לפי המשתנים {var}"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (בסדר הפוך)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} של מודל {modelNo} של רגרסיה לוגיסטית בינומית"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} של מודל {modelNo} של רגרסיה ליניארית"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -154,43 +154,43 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: R/logregbin.b.R
 msgid "% Correct"
-msgstr ""
+msgstr "% נכון"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr ""
+msgstr "% מהכול"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr ""
+msgstr "% מהכול"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr ""
+msgstr "% מהשונות"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within column"
-msgstr ""
+msgstr "% מתוך העמודה"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within row"
-msgstr ""
+msgstr "% מתוך השורה"
 
 #: ancova/options/ss.description.R
 #: anova/options/ss.description.R
 msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`'1'`, `'2'` או `'3'` (ברירת המחדל), סכום הריבועים שיש להשתמש בו"
 
 #: anovaRM/options/ss.description.R
 msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
+msgstr "`”2“` או `”3“` (ברירת המחדל), סכום הריבועים שיש להשתמש בו"
 
 #: contTables/options/hypothesis.description.R
 #: ttestIS/options/hypothesis.description.R
@@ -2311,7 +2311,7 @@ msgstr "רכיבים"
 #: ttestPS/options/ci.title
 #: ttestPS/options/ciES.title
 msgid "Confidence Interval"
-msgstr "רווח בר סמך"
+msgstr "רווח סמך"
 
 #: ancova/options/emmPlotError/ci.title
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
@@ -2343,28 +2343,28 @@ msgstr "רווח בר סמך"
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
 msgid "Confidence interval"
-msgstr "רווח בר סמך"
+msgstr "רווח סמך"
 
 #: descriptives/ui[2][2][1][0]/ci.label
 msgid "Confidence interval for Mean"
-msgstr "רווח בר סמך של הממוצע"
+msgstr "רווח סמך של הממוצע"
 
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr "רוחב הרווח בר סמך"
+msgstr "רוחב רווח הסמך"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
 msgid "Confidence Intervals"
-msgstr "רווחים ברי סמך"
+msgstr "רווחי סמך"
 
 #: contTables/options/ci.title
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
 msgid "Confidence intervals"
-msgstr "רווחים ברי סמך"
+msgstr "רווחי סמך"
 
 #: ancova/options/postHocEsCiWidth.title
 #: ancova/options/ciWidthEmm.title
@@ -2570,7 +2570,7 @@ msgstr "מטריצת מתאמים"
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
 msgid "Correlation matrix"
-msgstr "Correlation matrix"
+msgstr "מטריצת מתאמים"
 
 #: corrPart/ui[1][2].label
 msgid "Correlation Type"
@@ -2648,7 +2648,7 @@ msgstr "רווח בר מהימנות"
 
 #: propTest2/options/ciBayes.title
 msgid "Credible intervals"
-msgstr "רווחים ברי מהימנות"
+msgstr "רווחי מהימנות"
 
 #: reliability/options/alphaScale.title
 #: reliability/results/scale.columns.title
@@ -4245,9 +4245,8 @@ msgstr "קבוצה 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
-#, fuzzy
 msgid "Group Descriptives"
-msgstr "Group Descriptives"
+msgstr "מידע תיאורי של הקבוצה"
 
 #: anovaRM/results/groupSummary.title
 msgid "Group Summary"
@@ -6000,7 +5999,7 @@ msgstr "מדד d של כהן לגודל האפקט לצורך ניתוחי הה�
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "רווח בר סמך עבור ההפרש בין הממוצע המשוער וערך המבחן."
+msgstr "רווח סמך עבור ההפרש בין הממוצע המשוער וערך המבחן."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -6060,17 +6059,17 @@ msgstr ""
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "רווחים ברי סמך לגודלי האפקטים"
+msgstr "רווחי סמך לגודלי האפקטים"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr "רווחים ברי סמך עבור הפרשי הממוצעים."
+msgstr "רווחי סמך עבור הפרשי הממוצעים."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr "רווחים ברי סמך לגודלי האפקט של ניתוחי ההמשך."
+msgstr "רווחי סמך לגודלי האפקט של ניתוחי ההמשך."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
@@ -7260,19 +7259,19 @@ msgstr ""
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr "רוחב הרווח בר הסמך של גודלי האפקט."
+msgstr "רוחב רווח הסמך של גודלי האפקט."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr "רוחב הרווח בר הסמך של גודלי האפקט של ניתוחי ההמשך."
+msgstr "רוחב רווח הסמך של גודלי האפקט של ניתוחי ההמשך."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr "רוחב הרווח בר הסמך."
+msgstr "רוחב רווח הסמך."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
@@ -7737,7 +7736,7 @@ msgstr ""
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
 msgid "the width for the Confidence intervals."
-msgstr "הרווח עבור הרווח בר הסמך."
+msgstr "הרווח עבור רווח הסמך."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
