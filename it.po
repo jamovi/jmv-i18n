@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2024-11-26 15:00+0000\n"
+"Last-Translator: Dark Space <DarkSpace@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1285,6 +1289,8 @@ msgstr "un numero (predefinito: 3), evidenzia i valori nelle tabelle `'modIndice
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"un numero tra 0,01 e 2 (0,707 è il predefinito), la larghezza precedente da "
+"usare nel calcolo dei fattori Bayes"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2937,7 +2943,7 @@ msgstr "Riduzione dei dati"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Il set di dati non è attualmente ponderato"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4953,7 +4959,7 @@ msgstr "Helmert"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "nascosto"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5693,7 +5699,7 @@ msgstr "Indici di modifica"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Simulazione Monte Carlo"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5838,8 +5844,11 @@ msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test di Normalità (Shapiro-Wilk)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"Non è stato possibile stimare tutti i coefficienti (probabilmente a causa di "
+"...)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
