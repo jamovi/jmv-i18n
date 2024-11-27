@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-11-26 15:00+0000\n"
-"Last-Translator: Dark Space <DarkSpace@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-11-27 17:00+0000\n"
+"Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "it/>\n"
 "Language: it\n"
@@ -5844,11 +5844,10 @@ msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test di Normalità (Shapiro-Wilk)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
-"Non è stato possibile stimare tutti i coefficienti (probabilmente a causa di "
-"...)"
+"Non tutti i coefficienti potrebbero essere stimati (probabilmente a causa di "
+"un problema di singolarità nella stima)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6362,7 +6361,7 @@ msgstr "Percentuali di {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
-msgstr "Percentile"
+msgstr "Percentili"
 
 #: descriptives/ui[2][0][1].label
 msgid "Percentile Values"
@@ -6950,7 +6949,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -8158,6 +8157,8 @@ msgstr "le correzioni dei confronti multipli post-hoc da utilizzare."
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"la larghezza a priori per i fattori di Bayes del t-test di Student. Richiede "
+"un valore compreso tra 0.01 e 2.0, con un valore predefinito di 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8453,7 +8454,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "Tjur's R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -8713,7 +8714,7 @@ msgstr "pesare ogni cella allo stesso modo. (Le celle vengono pesate in base all
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "Variabile di Ponderazione"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -8725,7 +8726,7 @@ msgstr "Ponderato da '{varName}'"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "Pesi"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -8735,7 +8736,7 @@ msgstr "Pesi (opzionale)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Pesi contiene valori negativi. I pesi negativi non sono ammessi."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
