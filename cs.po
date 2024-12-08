@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-29 09:00+0000\n"
+"PO-Revision-Date: 2024-12-08 19:00+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/"
 ">\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -568,19 +568,21 @@ msgstr "`TRUE` nebo `FALSE` (výchozí nastavení), poskytne mezní graf"
 
 #: anovaRMNP/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr ""
+msgstr "`TRUE` nebo `FALSE` (výchozí), poskytne popisný graf"
 
 #: cfa/options/pathDiagram.description.R
 msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr ""
+msgstr "`TRUE` nebo `FALSE` (výchozí), poskytne diagram cesty modelu"
 
 #: logRegBin/options/class.description.R
 msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
 msgstr ""
+"`TRUE` nebo `FALSE` (výchozí), poskytne předpovězenou klasifikační tabulku ("
+"nebo matici záměny)"
 
 #: mancova/options/qqPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "`TRUE` nebo `FALSE` (výchozí), zobrazí Q-Q graf vícerozměrné normality"
 
 #: ancova/options/qq.description.R
 #: anova/options/qq.description.R
@@ -590,23 +592,28 @@ msgstr ""
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "`TRUE` nebo `FALSE` (výchozí), poskytne Q-Q graf reziduí"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "`TRUE` nebo `FALSE` (výchozí), poskytne graf křivky ROC"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
 msgstr ""
+"`TRUE` nebo `FALSE` (výchozí), poskytne standardizovaný odhad koeficientů "
+"modelu"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
 msgstr ""
+"`TRUE` nebo `FALSE` (výchozí), poskytne standardizovaný odhad pro modelové "
+"odhady"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
 msgstr ""
+"`TRUE` nebo `FALSE` (výchozí), poskytne z test pro rozdíly mezi dvěma podíly"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
