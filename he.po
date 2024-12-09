@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-09 11:04+0000\n"
+"PO-Revision-Date: 2024-12-09 22:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr ""
+msgstr "`TRUE` (ברירת המחדל) או `FALSE`, ערכי 'Z' ו־'p' לאומדני המודל"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
@@ -1194,12 +1194,12 @@ msgstr ""
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr "נוסחה המכילה את התנאים להערכת הממוצעים השוליים (יש לראות את הדוגמות)"
+msgstr "נוסחה המכילה את התנאים לאמידת הממוצעים השוליים (יש לראות את הדוגמות)"
 
 #: linReg/options/emMeans.description.R
 msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
 msgstr ""
-"נוסחה המכילה את התנאים להערכת הממוצעים השוליים, תומכת בשלושה משתנים לכל תנאי "
+"נוסחה המכילה את התנאים לאמידת הממוצעים השוליים, תומכת בשלושה משתנים לכל תנאי "
 "לכל היותר"
 
 #: ancova/options/postHoc.description.R
@@ -1255,7 +1255,7 @@ msgstr ""
 
 #: cfa/options/resCov.description.R
 msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr "רשימה של רשימות המציינת את השונויות המשותפות השיוריות שיש להעריך"
+msgstr "רשימה של רשימות המציינת את השונויות המשותפות השיוריות שיש לאמוד"
 
 #: anovaRM/options/emMeans.description.R
 #: logLinear/options/emMeans.description.R
@@ -1494,7 +1494,7 @@ msgstr "טבלה המכילה מדדי שינוי של השונויות המשו
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr "טבלה המכילה הערכות של שונויות משותפות שיוריות"
+msgstr "טבלה המכילה אומדנים של שונויות משותפות שיוריות"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
@@ -3903,7 +3903,7 @@ msgstr ""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
-msgstr "שיטת הערכה"
+msgstr "שיטת האומדן"
 
 #: anovaOneW/ui[1][0][1]/miss_perAnalysis.label
 #: ttestIS/ui[1][0][2]/miss_perAnalysis.label
@@ -6483,7 +6483,7 @@ msgstr ""
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr "הערכות שיוריות"
+msgstr "אומדנים שיוריים"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
