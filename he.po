@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-09 22:00+0000\n"
+"PO-Revision-Date: 2024-12-14 19:47+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.9-rc\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -31,7 +31,7 @@ msgstr "”{col}“ מכילה ערך ייחודי אחד בלבד"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
+msgstr "שיטת החילוץ ”{method}“ הייתה בשימוש יחד עם הרוטציה ”{rotation}“"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -272,7 +272,7 @@ msgstr ""
 #: ttestPS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
 msgstr ""
-"`'perAnalysis'` או `'listwise'`, איך להתמודד עם ערכים חסרים; `'perAnalysis'` "
+"`'perAnalysis'` או `'listwise'`, שיטת הטיפול בערכים חסרים; `'perAnalysis'` "
 "הוצאת הערכים החסרים עבור כל משתנה תלוי, `'listwise'` הוצאת שורה מכל הניתוחים "
 "אם אחד הערכים חסר"
 
@@ -281,7 +281,7 @@ msgstr ""
 #: ttestOneS/options/miss.description.R
 msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
 msgstr ""
-"`'perAnalysis'` או `'listwise'`, איך להתמודד עם ערכים חסרים; `'perAnalysis'` "
+"`'perAnalysis'` או `'listwise'`, שיטת הטיפול בערכים חסרים; `'perAnalysis'` "
 "הוצאת הערכים החסרים עבור כל משתנה תלוי, `'listwise'` הוצאת שורה מכל הניתוחים "
 "אם אחד הערכים חסר."
 
