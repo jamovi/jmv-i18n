@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-14 19:47+0000\n"
+"PO-Revision-Date: 2024-12-14 21:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -230,6 +230,8 @@ msgstr ""
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
+"`'minres'` (ברירת המחדל), `'ml'`, או `'pa'` שיטת חילוץ גורמים, בהתאמה: "
+"'שיורי מזערי', 'נראות מרבית', או 'הציר הראשי'"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
@@ -304,7 +306,7 @@ msgstr ""
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ניתוח שונות משותפת – ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
@@ -316,13 +318,13 @@ msgstr ""
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`מקדמי המודל – ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`מקדמי המודל – ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
@@ -4614,7 +4616,7 @@ msgstr ""
 
 #: R/proptest2.b.R
 msgid "Likelihood"
-msgstr ""
+msgstr "נראות"
 
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
@@ -4781,7 +4783,7 @@ msgstr "מקסימום"
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "נראות מרבית"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
