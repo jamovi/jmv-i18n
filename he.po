@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-14 21:00+0000\n"
+"PO-Revision-Date: 2024-12-14 22:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -328,21 +328,25 @@ msgstr "`מקדמי המודל – ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`יחסים – ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
 msgstr ""
+"`TRUE` (ברירת המחדל) או `FALSE`, הוספת תוויות עם מספרי השורות של החריגות "
+"בתרשים הקופסות"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
 #: ttestPS/options/students.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
+msgstr "`TRUE` (ברירת המחדל) או `FALSE`, ביצוע מבחני t של סטודנט"
 
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
+"`TRUE` (ברירת המחדל) או `FALSE`, ביצוע ניתוח שונות חד כיווני של ולץ׳ שלא "
+"מניח שוויון שונויות"
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
@@ -351,13 +355,15 @@ msgstr "`TRUE` (ברירת המחדל) או `FALSE`, ערכי 'Z' ו־'p' לאו
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
 msgstr ""
+"`TRUE` (ברירת המחדל) או `FALSE`, מבחן כי בריבוע להתאמה מדויקת המשווה את "
+"המודל עם המודל המתאים בצורה מושלמת"
 
 #: linReg/options/ciEmm.description.R
 #: logLinear/options/ciEmm.description.R
 #: logRegBin/options/ciEmm.description.R
 #: logRegMulti/options/ciEmm.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr ""
+msgstr "`TRUE` (ברירת המחדל) או `FALSE`, רווח סמך לממוצעים השוליים המשוערים"
 
 #: logLinear/options/aic.description.R
 #: logRegBin/options/aic.description.R
@@ -365,10 +371,11 @@ msgstr ""
 #: logRegOrd/options/aic.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
 msgstr ""
+"`TRUE` (ברירת המחדל) או `FALSE`, קריטריון המידע של אקייקה (AIC) עבור המודלים"
 
 #: reliability/options/alphaScale.description.R
 msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
+msgstr "`TRUE` (ברירת המחדל) או `FALSE`, α של קרונבך"
 
 #: ancova/options/emmPlots.description.R
 #: anova/options/emmPlots.description.R
