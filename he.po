@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-15 18:00+0000\n"
+"PO-Revision-Date: 2024-12-16 09:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -249,7 +249,7 @@ msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; 
 msgstr ""
 "`'none'`, `'gamesHowell'` או `'tukey'`, באיזה מבחן המשך לבחור; `'none'` ללא "
 "מבחן המשך, `'gamesHowell'` הצגת מבחן ההמשך גיימס–האוול שלא מניח שוויון "
-"שונויות, , ו־`'tukey'` הצגת מבחן ההמשך טוקי שמניח שוויון שונויות"
+"שונויות, , ו־`'tukey'` הצגת מבחן ההמשך טוקי המניח שוויון שונויות"
 
 #: pca/options/rotation.description.R
 msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
@@ -469,19 +469,21 @@ msgstr "`TRUE` (ברירת המחדל) או `FALSE`, חישוב χ²"
 #: logRegMulti/options/emmWeights.description.R
 msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
 msgstr ""
+"`TRUE` (ברירת המחדל) או `FALSE`, שקלול כל תא בצורה שווה או שקלול התאים לפי "
+"התדירות שלהם"
 
 #: descriptives/options/barCounts.description.R
 msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), הוספת ספירות לתרשימי העמודות"
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), הוספת הממוצע לתרשים הקופסות"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), סימון המתאמים המובהקים"
 
 #: anovaOneW/options/phFlag.description.R
 msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
@@ -490,63 +492,67 @@ msgstr "`TRUE` או `FALSE` (ברירת המחדל), סימון ההשוואות
 #: linReg/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחן שפירו–וילק על הנתונים השיוריים"
 
 #: anovaOneW/options/fishers.description.R
 msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), ביצוע ניתוח שונות חד כיווני של פישר המניח "
+"שוויון שונויות"
 
 #: ancova/options/homo.description.R
 #: anova/options/homo.description.R
 msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחני ההומוגניות"
 
 #: anovaOneW/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחן לוין לשוויון שונויות"
 
 #: ttestIS/options/eqv.description.R
 msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחני לוין לשוויון שונויות"
 
 #: ttestIS/options/mann.description.R
 msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחני U של מאן–ויטני"
 
 #: anovaNP/options/pairs.description.R
 #: anovaRMNP/options/pairs.description.R
 msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע השוואות זוגיות"
 
 #: ttestPS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחני שפירו–וילק לנורמליות"
 
 #: anovaOneW/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחן שפירו–וילק לנורמליות"
 
 #: ancova/options/norm.description.R
 #: anova/options/norm.description.R
 #: ttestIS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחני שפירו–וילק לנורמליות"
 
 #: ttestOneS/options/norm.description.R
 msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחני שפירו–וילק לנורמליות"
 
 #: anovaRM/options/spherTests.description.R
 msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת מחדל), ביצוע מבחני כדוריות"
 
 #: ttestIS/options/welchs.description.R
 msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחני t של ולץ׳"
 
 #: ttestOneS/options/wilcoxon.description.R
 #: ttestPS/options/wilcoxon.description.R
 msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), ביצוע מבחן הדרגות המסומנות של וילקוקסון"
 
 #: ancova/options/emmPlotData.description.R
 #: anova/options/emmPlotData.description.R
@@ -775,7 +781,7 @@ msgstr ""
 
 #: contTables/options/fisher.description.R
 msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), המבחן המדויק של פישר"
 
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
@@ -1122,6 +1128,7 @@ msgstr ""
 #: anovaRM/options/leveneTest.description.R
 msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), מבחן שוויון השונויות (כלומר, מבחן לוין)"
 
 #: propTest2/options/areCounts.description.R
 msgid "`TRUE` or `FALSE` (default), the variables are counts"
@@ -2034,12 +2041,12 @@ msgstr ""
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr "מבחן הכדוריות של ברטלט"
+msgstr "מבחן ברטלט לכדוריות"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr "מבחן הכדוריות של ברטלט"
+msgstr "מבחן ברטלט לכדוריות"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
@@ -4128,12 +4135,12 @@ msgstr "גורמים"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
-msgstr ""
+msgstr "של פישר"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr ""
+msgstr "המבחן המדויק של פישר"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -5776,7 +5783,7 @@ msgstr "ביצוע בדיקה כוללת של המודל."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
+msgstr "ביצוע ניתוחי שונות של פישר (הניתוחים הנקראים ”רגילים“)."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
