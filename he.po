@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-23 19:00+0000\n"
+"PO-Revision-Date: 2024-12-23 21:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -931,6 +931,8 @@ msgstr ""
 #: logRegOrd/options/OR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), המעריך של אומדן יחס הלוג של הסיכויים, או "
+"אומדן יחס הסיכויים"
 
 #: logLinear/options/RR.description.R
 msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
@@ -951,6 +953,8 @@ msgstr ""
 #: contTables/options/logOdds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), יחס הלוג של הסיכויים (זמין רק עבור טבלאות "
+"2×2)"
 
 #: descriptives/options/max.description.R
 msgid "`TRUE` or `FALSE` (default), provide the maximum"
@@ -986,7 +990,7 @@ msgstr ""
 
 #: contTables/options/odds.description.R
 msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), יחס הסיכויים (זמין רק עבור טבלאות 2×2)"
 
 #: linReg/options/anova.description.R
 msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
@@ -3921,11 +3925,13 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr ""
+msgstr "אומדנים המייצגים את הלוג של הסיכויים של…"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
 msgstr ""
+"אומדנים מייצגים את הלוג של הסיכויים של ”{dep} = {level1}“ מול ”{dep} = "
+"{level2}“"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -4677,12 +4683,12 @@ msgstr ""
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
 msgid "Log odds ratio"
-msgstr ""
+msgstr "יחס הלוג של הסיכויים"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
 msgid "Log odds ratio exact"
-msgstr ""
+msgstr "היחס המדויק של הלוג של הסיכויים"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
