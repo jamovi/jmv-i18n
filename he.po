@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-23 18:00+0000\n"
+"PO-Revision-Date: 2024-12-23 19:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -584,8 +584,7 @@ msgstr ""
 #: linReg/options/ciStdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
 msgstr ""
-"`TRUE` או `FALSE` (ברירת המחדל), רווח סמך של האומדנים הסטנדרטיים של מקדם "
-"המודל"
+"`TRUE` או `FALSE` (ברירת המחדל), רווח סמך של האומדנים המתוקננים של מקדם המודל"
 
 #: linReg/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
@@ -631,31 +630,33 @@ msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשים Q-Q של נור�
 #: ttestOneS/options/qq.description.R
 #: ttestPS/options/qq.description.R
 msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשים Q-Q של נתונים שיוריים"
 
 #: logRegBin/options/rocPlot.description.R
 msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשים עקומת ROC"
 
 #: linReg/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), אומדן מתוקנן למקדמי המודל"
 
 #: cfa/options/stdEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr "`TRUE` או `FALSE` (ברירת המחדל), אומדן סטנדרטי לאומדני המודל"
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), אומדן מתוקנן לאומדני המודל"
 
 #: contTables/options/zProp.description.R
 msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחן z להבדלים בין שני יחסים"
 
 #: linReg/options/aic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), קריטריון המידע של אקייקה (AIC) למודלים"
 
 #: contTablesPaired/options/exact.description.R
 msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), היחס המדויק של הלוג של הסיכויים (לשם כך יש "
+"להתקין את exact2x2)"
 
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
@@ -6290,7 +6291,7 @@ msgstr "תרשים Q-Q של נורמליות רבת משתנים"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr "תרשימי Q-Q של נתונים שיוריים"
+msgstr "תרשים Q-Q של נתונים שיוריים"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
