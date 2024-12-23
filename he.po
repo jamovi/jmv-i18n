@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-12-23 21:01+0000\n"
+"PO-Revision-Date: 2024-12-23 22:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -318,6 +318,8 @@ msgstr "`ניתוח שונות – ${dep}`"
 #: contTables/options/compare.description.R
 msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
+"`columns` או `rows` (ברירת המחדל), השוואת עמודות/שורות ביחסים שונים או "
+"בסיכונים יחסיים (טבלאות 2×2)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -661,17 +663,18 @@ msgstr ""
 #: descriptives/options/bar.description.R
 msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), תרשימי עמודות (רק למשתנים מהסוגים שמני וסדר)"
 
 #: propTest2/options/bf.description.R
 #: ttestIS/options/bf.description.R
 #: ttestOneS/options/bf.description.R
 #: ttestPS/options/bf.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מקדמי בייס"
 
 #: propTest2/options/ciBayes.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי מהימנות בייסיאניים"
 
 #: linReg/options/bic.description.R
 #: logLinear/options/bic.description.R
@@ -679,73 +682,73 @@ msgstr ""
 #: logRegMulti/options/bic.description.R
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), קריטריון המידע של בייס (BIC) למודלים"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשימי קופסות (רק למשתנים רציפים)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחן בוקס–טידוול לליניאריות הלוג׳יט"
 
 #: mancova/options/boxM.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחן M של בוקס"
 
 #: ttestOneS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), גודלי האפקט של d של כהן"
 
 #: contTables/options/pcCol.description.R
 #: contTablesPaired/options/pcCol.description.R
 msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), אחוזי העמודה"
 
 #: corrMatrix/options/ci.description.R
 #: propTest2/options/ci.description.R
 #: ttestIS/options/ci.description.R
 #: ttestPS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי סמך"
 
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי סמך למדדים ההשוואתיים"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
 #: ttestPS/options/ciES.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי סמך לגודלי האפקט"
 
 #: descriptives/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי סמך לממוצע"
 
 #: ttestOneS/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי סמך להפרש הממוצעים"
 
 #: ancova/options/postHocEsCi.description.R
 #: anova/options/postHocEsCi.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), רווחי סמך לגודלי האפקט של מבחני ההמשך"
 
 #: corrMatrix/options/plotDens.description.R
 msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), צפיפויות בתרשים מטריצת המתאמים"
 
 #: descriptives/options/dens.description.R
 msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשימי צפיפות (רק למשתנים רציפים)"
 
 #: anovaOneW/options/descPlot.description.R
 #: ttestIS/options/plots.description.R
 #: ttestOneS/options/plots.description.R
 #: ttestPS/options/plots.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשימי מידע תיאורי"
 
 #: anovaOneW/options/desc.description.R
 #: anovaRMNP/options/desc.description.R
@@ -753,20 +756,20 @@ msgstr ""
 #: ttestOneS/options/desc.description.R
 #: ttestPS/options/desc.description.R
 msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), סטיסטיקות המידע התיאורי"
 
 #: descriptives/options/dot.description.R
 msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ,תרשים נקודות (רק למשתנים רציפים)"
 
 #: ttestIS/options/effectSize.description.R
 #: ttestPS/options/effectSize.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), גודלי האפקט"
 
 #: anovaNP/options/es.description.R
 msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), גודלי האפקט"
 
 #: ancova/options/emmTables.description.R
 #: anova/options/emmTables.description.R
@@ -776,7 +779,7 @@ msgstr ""
 #: logRegBin/options/emmTables.description.R
 #: logRegMulti/options/emmTables.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), טבלאות הממוצעים השוליים המשוערים"
 
 #: cfa/options/factInterceptEst.description.R
 msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
@@ -793,22 +796,23 @@ msgstr "`TRUE` או `FALSE` (ברירת המחדל), המבחן המדויק ש�
 #: descriptives/options/freq.description.R
 msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
 msgstr ""
+"`TRUE` או `FALSE` (ברירת המחדל), טבלאות שכיחות (רק למשתנים מהסוגים שמני וסדר)"
 
 #: contTables/options/gamma.description.R
 msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), גמה"
 
 #: descriptives/options/hist.description.R
 msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), היסטוגרמות (רק למשתנים רציפים)"
 
 #: reliability/options/meanItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), ממוצעי הפריט"
 
 #: reliability/options/sdItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), סטיות תקן של הפריט"
 
 #: reliability/options/itemRestCor.description.R
 msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
@@ -818,11 +822,11 @@ msgstr ""
 #: corrMatrix/options/kendall.description.R
 #: corrPart/options/kendall.description.R
 msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), טאו b של קנדל"
 
 #: contTables/options/mh.description.R
 msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "`TRUE` או `FALSE` (ברירת המחדל), מבחן מנטל–הנזל למגמה"
 
 #: reliability/options/omegaScale.description.R
 msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
@@ -1651,7 +1655,7 @@ msgstr "טבלת תוצאות המבחן ”השמני“"
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr "טבלה של סטטיסטיקת המידע התיאורי"
+msgstr "טבלה של סטטיסטיקות המידע התיאורי"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
@@ -6165,11 +6169,11 @@ msgstr ""
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr "גודל האפקט (D של כהן)."
+msgstr "גודלי האפקט (D של כהן)."
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "גודל האפקט (d של כהן)."
+msgstr "גודלי האפקט (d של כהן)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
