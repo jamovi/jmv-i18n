@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-09-11 05:09+0000\n"
-"Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
+"PO-Revision-Date: 2024-12-31 06:00+0000\n"
+"Last-Translator: Anirudh S <anirudhsudheer@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
 "Language: ml\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -519,8 +519,11 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), model coefficie
 #: logRegBin/options/ciOR.description.R
 #: logRegMulti/options/ciOR.description.R
 #: logRegOrd/options/ciOR.description.R
+#, fuzzy
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (ഡിഫോൾട്ട്), മോഡൽ കോഫിഫിഷ്യൻ്റ് ഓഡ്‌സ് റേഷ്യോ എസ്റ്റിമേറ്റുകൾക്ക് ഒരു"
+" ആത്മവിശ്വാസ ഇടവേള നൽകുക"
 
 #: logLinear/options/ciRR.description.R
 msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
@@ -622,10 +625,13 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), Bayesian credib
 #: logRegOrd/options/bic.description.R
 msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (സ്ഥിരസ്ഥിതി), മോഡലുകൾക്ക് ബയേസിയൻ വിവര മാനദണ്ഡം (BIC) നൽകുക"
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (സ്ഥിരസ്ഥിതി), ബോക്സ് പ്ലോട്ടുകൾ നൽകുക (തുടർച്ചയുള്ള വേരിയബിളുകൾ "
+"മാത്രം)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
@@ -654,6 +660,8 @@ msgstr "`TRUE` അല്ലെങ്കിൽ `FALSE` (default), confidence inte
 #: contTables/options/ci.description.R
 msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
 msgstr ""
+"`TRUE` അല്ലെങ്കിൽ `FALSE` (സ്ഥിരസ്ഥിതി), താരതമ്യ നടപടികൾക്കായി ആത്മവിശ്വാസ ഇടവേളകൾ "
+"നൽകുക"
 
 #: ttestIS/options/ciES.description.R
 #: ttestOneS/options/ciES.description.R
