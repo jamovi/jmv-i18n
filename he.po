@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-01-22 11:01+0000\n"
+"PO-Revision-Date: 2025-01-22 12:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1223,7 +1223,7 @@ msgstr "טבלת מטריצות למתאם חלק(י)"
 
 #: descriptives/options/pcValues.description.R
 msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr ""
+msgstr "רשימה המופרדת בפסיקים (ברירת המחדל: 25,50,75) לציון האחוזונים"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
@@ -1235,7 +1235,7 @@ msgstr "טבלת מטריצת מתאמים"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "תרשים המידע התיאורי"
 
 #: ancova/options/emMeans.description.R
 #: anova/options/emMeans.description.R
@@ -1257,10 +1257,14 @@ msgstr "נוסחה המכילה את התנאים לביצוע מבחני המש
 #: anova/options/modelTerms.description.R
 msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
 msgstr ""
+"נוסחה המתארת את התנאים שייכנסו למודל (אין בזה צורך כשמספקים נוסחה, יש לראות "
+"את הדוגמות)"
 
 #: cfa/options/factors.description.R
 msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
 msgstr ""
+"רשימה המכילה רשימות משוימות המגדירות את ה־`label` (התווית) של הגורמים ואת "
+"ה־`vars` (המשתנים) השייכים לאותו הגורם"
 
 #: linReg/options/blocks.description.R
 #: logLinear/options/blocks.description.R
@@ -1269,18 +1273,20 @@ msgstr ""
 #: logRegOrd/options/blocks.description.R
 msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
 msgstr ""
+"רשימה המכילה וקטורים של מחרוזות המשיימות את המנבאים שהתווספו למודל. המרכיבים "
+"מתווספים למודל לפי הסדר שלהם ברשימה"
 
 #: anovaRM/options/bsTerms.description.R
 msgid "a list of character vectors describing the between subjects terms to go into the model"
-msgstr ""
+msgstr "רשימת וקטורי תווים המתארים את התנאים הבין נבדקיים שייכנסו למודל"
 
 #: anovaRM/options/postHoc.description.R
 msgid "a list of character vectors describing the post-hoc tests that need to be computed"
-msgstr ""
+msgstr "רשימת וקטורי תווים המתארים את מבחני ההמשך שיש לחשב"
 
 #: anovaRM/options/rmTerms.description.R
 msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr ""
+msgstr "רשימת וקטורי תווים המתארים את התנאים של המדידות החוזרות שייכנסו למודל"
 
 #: linReg/options/refLevels.description.R
 #: logLinear/options/refLevels.description.R
@@ -1288,7 +1294,7 @@ msgstr ""
 #: logRegMulti/options/refLevels.description.R
 #: logRegOrd/options/refLevels.description.R
 msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
-msgstr ""
+msgstr "רשימה של רשימות המציינת את רמות הייחוס של המשתנה התלוי ושל כל הגורמים"
 
 #: ancova/options/contrasts.description.R
 #: anova/options/contrasts.description.R
