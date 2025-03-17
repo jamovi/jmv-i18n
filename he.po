@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-17 11:01+0000\n"
+"PO-Revision-Date: 2025-03-17 12:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1442,37 +1442,39 @@ msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב רוו
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr ""
+msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב הרווח בר המהימנות"
 
 #: descriptives/options/ciWidth.description.R
 #: ttestIS/options/ciWidth.description.R
 #: ttestOneS/options/ciWidth.description.R
 #: ttestPS/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr ""
+msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב רווחי הסמך"
 
 #: ttestIS/options/ciWidthES.description.R
 #: ttestOneS/options/ciWidthES.description.R
 #: ttestPS/options/ciWidthES.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
-msgstr ""
+msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב רווחי הסמך לגודלי האפקט"
 
 #: ancova/options/postHocEsCiWidth.description.R
 #: anova/options/postHocEsCiWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
 msgstr ""
+"מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב רווחי הסמך לגודלי האפקט של מבחני "
+"ההמשך"
 
 #: corrMatrix/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
-msgstr ""
+msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), הרוחב של רווחי הסמך שיש לספק"
 
 #: contTables/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
-msgstr ""
+msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב רווחי הסמך שיש לספק"
 
 #: ttestOneS/options/testValue.description.R
 msgid "a number specifying the value of the null hypothesis"
-msgstr ""
+msgstr "מספר המציין את ערך השערת האפס"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
@@ -1481,21 +1483,21 @@ msgstr "פרמטר a"
 #: ancova/options/postHocES.description.R
 #: anova/options/postHocES.description.R
 msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
-msgstr ""
+msgstr "ערך אפשרי ל־`'d'`; מדד d של כהן לגודל האפקט של מבחני ההמשך"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr ""
+msgstr "טבלת מבחני ההמשך"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
-msgstr ""
+msgstr "טבלת יחסים"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr ""
+msgstr "תרשים q-q"
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
@@ -1504,6 +1506,8 @@ msgstr "מערך נתונים של ניתוח שונות למדידות חוזר
 #: anovaRM/options/depLabel.description.R
 msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
 msgstr ""
+"מחרוזת (ברירת המחדל: ”Dependent“) המתארת את התווית של המשתנה התלוי לאורך "
+"הניתוח"
 
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
