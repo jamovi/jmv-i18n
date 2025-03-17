@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-17 08:01+0000\n"
+"PO-Revision-Date: 2025-03-17 11:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1331,6 +1331,8 @@ msgstr ""
 #: anovaRM/options/rm.description.R
 msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
+"רשימה של רשימות שבה כל רשימה מתארת את ה־`label` (כמחרוזת) ואת ה־`levels` ("
+"כווקטור של מחרוזות) של גורם מסוים של מדדים חוזרים"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1369,31 +1371,39 @@ msgstr "מספר (ברירת המחדל: 0), הערך העצמי המינימל�
 
 #: propTest2/options/priorA.description.R
 msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
+msgstr "מספר (ברירת המחדל: 1), פרמטר הבטא הפריורית ”a“"
 
 #: propTest2/options/priorB.description.R
 msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
+msgstr "מספר (ברירת המחדל: 1), פרמטר הבטא הפריורית ”b“"
 
 #: pca/options/minEigen.description.R
 msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr ""
+msgstr "מספר (ברירת המחדל: 1), הערך העצמי המינימלי כדי שרכיב ייכלל במודל"
 
 #: cfa/options/hlMI.description.R
 msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
 msgstr ""
+"מספר (ברירת המחדל: 3), הדגשת ערכים הגבוהים מערך זה בטבלאות `'modIndices'` "
+"לעיל"
 
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"מספר בין 0.01 ו־2 (ברירת המחדל: 0.707), הרוחב הפריורי שיש להשתמש בו בחישוב "
+"מקדמי בייס"
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"מספר בין 0.5 ו־2 (ברירת המחדל: 0.707), הרוחב הפריורי שיש להשתמש בו בחישוב "
+"מקדמי בייס"
 
 #: ttestOneS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"מספר בין 0.5 ו־2.0 (ברירת המחדל: 0.707), הרוחב הפריורי שיש להשתמש בו בחישוב "
+"מקדמי בייס"
 
 #: linReg/options/ciWidth.description.R
 #: linReg/options/ciWidthStdEst.description.R
@@ -1406,7 +1416,7 @@ msgstr ""
 #: logRegOrd/options/ciWidth.description.R
 #: logRegOrd/options/ciWidthOR.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
-msgstr ""
+msgstr "מספר בין 50 ו־99.9 (ברירת המחדל: 95) המציין את רוחב רווח הסמך"
 
 #: ancova/options/ciWidthEmm.description.R
 #: anova/options/ciWidthEmm.description.R
@@ -1417,14 +1427,18 @@ msgstr ""
 #: logRegMulti/options/ciWidthEmm.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
 msgstr ""
+"מספר בין 50 ו־99.9 (ברירת המחדל: 95) המציין את רוחב רווח הסמך של הממוצעים "
+"השוליים המשוערים"
 
 #: cfa/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
 msgstr ""
+"מספר בין 50 ל־99.9 (ברירת המחדל: 95) המציין את רוחב רווח הסמך שמשמש בתור "
+"`'ci'`"
 
 #: propTest2/options/ciWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
+msgstr "מספר בין 50 ל־99.9 (ברירת המחדל: 95), רוחב רווח הסמך"
 
 #: propTest2/options/ciBayesWidth.description.R
 msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
