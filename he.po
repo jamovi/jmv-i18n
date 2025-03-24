@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-24 09:03+0000\n"
+"PO-Revision-Date: 2025-03-24 10:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1519,11 +1519,11 @@ msgstr ""
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`. המשתנה צריך להיות גורם"
+msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`. על המשתנה להיות גורם"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`. המשתנה צריך להיות מספרי"
+msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`. על המשתנה להיות מספרי"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
@@ -1773,7 +1773,7 @@ msgstr ""
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
 msgid "a vector of strings naming the factors from `data`"
-msgstr ""
+msgstr "וקטור של מחרוזות הקוראות בשמות הגורמים מתוך `data`"
 
 #: logRegBin/options/factors.description.R
 #: logRegMulti/options/factors.description.R
@@ -1783,7 +1783,7 @@ msgstr "וקטור של מחרוזות הקוראות בשמות הגורמים 
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
-msgstr ""
+msgstr "וקטור של מחרוזות הקוראות בשמות המשתנים של המדידות החוזרות"
 
 #: descriptives/options/vars.description.R
 #: efa/options/vars.description.R
@@ -1801,12 +1801,12 @@ msgstr ""
 
 #: descriptives/options/splitBy.description.R
 msgid "a vector of strings naming the variables used to split `vars`"
-msgstr ""
+msgstr "וקטור של מחרוזות הקוראות בשמות המשתנים המשמשים לחלוקת `vars`"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
-msgstr ""
+msgstr "דיוק"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -1814,11 +1814,11 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.addButton
 msgid "Add New Block"
-msgstr ""
+msgstr "הוספת בלוק חדש"
 
 #: cfa/ui[0][0]/factors.addButton
 msgid "Add New Factor"
-msgstr ""
+msgstr "הסופת גורם חדש"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -2731,7 +2731,7 @@ msgstr ""
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
-msgstr ""
+msgstr "על ספירות להיות לא שליליות וסופיות"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
@@ -3632,7 +3632,7 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr "המשתנה התלוי ”{dep}“ צריך להיות רציף"
+msgstr "על המשתנה התלוי ”{dep}“ להיות רציף"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -4391,7 +4391,7 @@ msgstr "למשתנה המקבץ ”{a}“ צריכות להיות לפחות ש�
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr "על המשתנה המקבץ ”{a}“ לא להיות משתנה תלוי"
+msgstr "על המשתנה המקבץ ”{a}“ גם לא להיות משתנה תלוי"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -7717,8 +7717,8 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "the true mean must be different from the test value."
 msgstr ""
 "משתמשים במבחן t של סטודנט למדגם יחיד לבחינת השערת האפס\n"
-"שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על\n"
-"אי נכונותה של השערת האפס ולכן הממוצע האמיתי שונה מערך המבחן."
+"שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על אי נכונותה\n"
+"של השערת האפס ולכן על הממוצע האמיתי להיות שונה מערך המבחן."
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -7733,8 +7733,8 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "hypothesis; that the *median* is equal to the test value)."
 msgstr ""
 "משתמשים במבחן t של סטודנט למדגם יחיד לבחינת השערת האפס\n"
-"שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על\n"
-"אי נכונותה של השערת האפס ולכן הממוצע האמיתי שונה מערך המבחן.\n"
+"שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על אי נכונותה\n"
+"של השערת האפס ולכן על הממוצע האמיתי להיות שונה מערך המבחן.\n"
 "\n"
 "מבחן t של סטודנט למדגם יחיד מניח שהתנתונים מגיעים מהתפלגות נורמלית.\n"
 "אם לא מניחים זאת, ניתן להשתמש במקום במבחן הלא פרמטרי – הדרגות\n"
