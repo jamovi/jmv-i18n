@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-24 08:01+0000\n"
+"PO-Revision-Date: 2025-03-24 09:03+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1512,31 +1512,31 @@ msgstr ""
 #: logLinear/options/counts.description.R
 msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
 msgstr ""
-"מחרוזת המכילה את שם המשתנה ב־`data` המכילה ספירות, או המכילה NULL אם כל שורה "
+"מחרוזת הקוראת בשם המשתנה ב־`data` המכיל ספירות, או המכיל NULL אם כל שורה "
 "מייצגת תצפית בודדת"
 
 #: logRegBin/options/dep.description.R
 #: logRegMulti/options/dep.description.R
 #: logRegOrd/options/dep.description.R
 msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr "מחרוזת המכילה את שם המשתנה התלוי מ־`data`. המשתנה צריך להיות גורם"
+msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`. המשתנה צריך להיות גורם"
 
 #: mancova/options/deps.description.R
 msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr "מחרוזת המכילה את שם המשתנה התלוי מ־`data`. המשתנה צריך להיות מספרי"
+msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`. המשתנה צריך להיות מספרי"
 
 #: anovaNP/options/deps.description.R
 msgid "a string naming the dependent variable in `data`"
-msgstr "מחרוזת המכילה את שם המשתנה התלוי מ־`data`"
+msgstr "מחרוזת הקוראת בשם המשתנה התלוי מ־`data`"
 
 #: anovaOneW/options/deps.description.R
 msgid "a string naming the dependent variables in `data`"
-msgstr "מחרוזת עם שמות המשתנים התלויים ב־`data`"
+msgstr "מחרוזת הקוראת בשמות המשתנים התלויים ב־`data`"
 
 #: anovaNP/options/group.description.R
 #: anovaOneW/options/group.description.R
 msgid "a string naming the grouping or independent variable in `data`"
-msgstr "מחרוזת המכילה את שם המשתנה המקבץ או הבלתי תלוי שב־`data`"
+msgstr "מחרוזת הקוראת בשם המשתנה המקבץ או הבלתי תלוי שב־`data`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
@@ -1582,11 +1582,11 @@ msgstr ""
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "טבלה המכילה מדדי שינוי לטעינויות הגורם שלא נכללו במודל"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "טבלה המכילה את מבחן כי בריבוע להתאמה מדויקת"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
@@ -1743,30 +1743,32 @@ msgstr "טבלת תוצאות מבחן χ²"
 
 #: reliability/options/revItems.description.R
 msgid "a vector containing strings naming the varibales that are reverse scaled"
-msgstr "וקטור המכיל מחרוזות של שמות המשתנים שהם בסולם מהופך"
+msgstr "וקטור המכיל מחרוזות הקוראות בשמות המשתנים שהם בסולם מהופך"
 
 #: propTestN/options/ratio.description.R
 msgid "a vector of numbers: the expected proportions"
-msgstr ""
+msgstr "וקטור של מספרים: היחסים המצופים"
 
 #: anovaRM/options/bs.description.R
 msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr ""
+msgstr "וקטור של מחרוזות ההקוראות בשמות הגורמים הבין נבדקיים מתוך `data`"
 
 #: corrPart/options/controls.description.R
 msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
+msgstr "וקטור של מחרוזות הקוראות בשם משתני הבקרה מתוך `data`"
 
 #: logRegBin/options/covs.description.R
 #: logRegMulti/options/covs.description.R
 #: logRegOrd/options/covs.description.R
 #: mancova/options/covs.description.R
 msgid "a vector of strings naming the covariates from `data`"
-msgstr ""
+msgstr "וקטור של מחרוזות הקוראות בשמות המשתנים הנלווים מתוך `data`"
 
 #: anovaRM/options/cov.description.R
 msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
 msgstr ""
+"וקטור של מחרוזות הקוראות בשם המשתנים הנלווים מתוך `data`. על המשתנים להיות "
+"מספריים"
 
 #: logLinear/options/factors.description.R
 #: mancova/options/factors.description.R
@@ -1777,7 +1779,7 @@ msgstr ""
 #: logRegMulti/options/factors.description.R
 #: logRegOrd/options/factors.description.R
 msgid "a vector of strings naming the fixed factors from `data`"
-msgstr "וקטור המכיל מחרוזות של שמות הגורמים הקבועים מ־`data`"
+msgstr "וקטור של מחרוזות הקוראות בשמות הגורמים הקבועים מ־`data`"
 
 #: anovaRMNP/options/measures.description.R
 msgid "a vector of strings naming the repeated measures variables"
@@ -2561,11 +2563,11 @@ msgstr "קונטרסטים – $key"
 
 #: corrPart/ui/variablesupplier[1].label
 msgid "Control Variables"
-msgstr ""
+msgstr "משתני בקרה"
 
 #: corrPart/options/controls.title
 msgid "Control variables"
-msgstr ""
+msgstr "משתני בקרה"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
@@ -5738,7 +5740,7 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "variables"
 msgstr ""
 "מטריצות מתאם חלקי הן דרך לבחון יחסים ליניאריים\n"
-"בין שני משתנים רציפים או יותר תוך שליטה במשתנים אחרים"
+"בין שני משתנים רציפים או יותר תוך בקרה על משתנים אחרים"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
