@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-31 10:45+0000\n"
+"PO-Revision-Date: 2025-04-07 06:07+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1089,12 +1089,12 @@ msgstr "`TRUE` או `FALSE` (ברירת המחדל), תרשים כינור (רק
 #: reliability/options/alphaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
 msgstr ""
-"`TRUE` או `FALSE` (ברירת המחדל), מה הייתה α של קרונבך אילו הפריט היה יורד"
+"`TRUE` או `FALSE` (ברירת המחדל), מה הייתה α של קרונבך אילו הפריט היה מושמט"
 
 #: reliability/options/omegaItems.description.R
 msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
 msgstr ""
-"`TRUE` או `FALSE` (ברירת המחדל), מה הייתה ω של מקדונלד אילו הפריט היה יורד"
+"`TRUE` או `FALSE` (ברירת המחדל), מה הייתה ω של מקדונלד אילו הפריט היה מושמט"
 
 #: contTables/options/chiSqCorr.description.R
 #: contTablesPaired/options/chiSqCorr.description.R
@@ -2774,7 +2774,7 @@ msgstr "α של קרונבך"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
-msgstr "α של קרונבך (אם פריט יורד)"
+msgstr "α של קרונבך (אם פריט מושמט)"
 
 #: R/ancova.b.R
 msgid "cubic"
@@ -4471,7 +4471,7 @@ msgstr "מבחן שוויון שונויות"
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
 msgid "Hotelling's Trace"
-msgstr ""
+msgstr "מסלול הוטלינג"
 
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
@@ -4497,11 +4497,11 @@ msgstr "השערה"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
+msgstr "אם הפריט הושמט"
 
 #: anovaRM/options/contrasts.description.R
 msgid "in development"
-msgstr ""
+msgstr "בפיתוח"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
@@ -4523,16 +4523,16 @@ msgstr "מבחן T למדגמים בלתי תלויים"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
-msgstr ""
+msgstr "מחוון"
 
 #: pca/results/eigen/initEigen.title
 msgid "Initial Eigenvalues"
-msgstr ""
+msgstr "ערכים עצמיים ראשוניים"
 
 #: efa/options/eigen.title
 #: pca/options/eigen.title
 msgid "Initial eigenvalues"
-msgstr ""
+msgstr "ערכים עצמיים ראשוניים"
 
 #: pca/results/factorStats/factorCor.title
 msgid "Inter-Component Correlations"
@@ -4875,7 +4875,7 @@ msgstr "ω של מקדונלד"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr "ω של מקדונלד (אם פריט יורד)"
+msgstr "ω של מקדונלד (אם פריט מושמט)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
