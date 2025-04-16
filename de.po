@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2024-10-14 20:16+0000\n"
-"Last-Translator: \"game.crash\" <game.crash534@gmail.com>\n"
+"PO-Revision-Date: 2025-04-16 21:01+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "de/>\n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-rc\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -297,7 +297,9 @@ msgstr "`Anteile - ${var}`"
 
 #: descriptives/options/boxLabelOutliers.description.R
 msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr "`TRUE` (Standard) oder `FALSE`, fügt den Ausreißern im Boxplot Beschriftungen mit der Zeilennummer hinzu"
+msgstr ""
+"`TRUE` (Standard) oder `FALSE`, fügt den Ausreißern im Box-Plot "
+"Beschriftungen mit der Zeilennummer hinzu"
 
 #: ttestIS/options/students.description.R
 #: ttestOneS/options/students.description.R
@@ -431,7 +433,7 @@ msgstr "`TRUE` oder `FALSE` (Vorgabe), zeigt die Anzahlen in den Balkendiagramme
 
 #: descriptives/options/boxMean.description.R
 msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "`TRUE` oder `FALSE` (Vorgabe), zeigt den Mittelwert im Boxplot an"
+msgstr "`TRUE` oder `FALSE` (Vorgabe), zeigt den Mittelwert im Box-Plot an"
 
 #: corrMatrix/options/flag.description.R
 #: corrPart/options/flag.description.R
@@ -625,7 +627,9 @@ msgstr "'TRUE' oder 'FALSE' (Vorgabe), gibt das Bayes'sches Informationskriteriu
 
 #: descriptives/options/box.description.R
 msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr "'TRUE' oder 'FALSE' (Vorgabe), gibt Boxplots aus (nur für kontinuierliche Variablen)"
+msgstr ""
+"'TRUE' oder 'FALSE' (Vorgabe), gibt Box-Plots aus (nur für kontinuierliche "
+"Variablen)"
 
 #: logRegBin/options/boxTidwell.description.R
 msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
@@ -2127,7 +2131,7 @@ msgstr "Bonferroni"
 
 #: descriptives/options/box.title
 msgid "Box plot"
-msgstr "Boxplot"
+msgstr "Box-Plot"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
@@ -6466,7 +6470,7 @@ msgstr "zeigt die Rohdaten zusammen mit den Randmitteln an."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr "Plottpy"
+msgstr "Diagrammtyp"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
