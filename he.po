@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-04-21 13:05+0000\n"
+"PO-Revision-Date: 2025-04-21 14:04+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -233,8 +233,8 @@ msgstr ""
 #: efa/options/extraction.description.R
 msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
 msgstr ""
-"`'minres'` (ברירת המחדל), `'ml'`, או `'pa'` שיטת חילוץ גורמים, בהתאמה: "
-"'שיורי מזערי', 'נראות מרבית', או 'הציר הראשי'"
+"`'minres'` (ברירת המחדל), `'ml'`, או `'pa'` שיטת חילוץ גורמים, בהתאמה: ”"
+"שיורי מזערי“, ”נראות מרבית“, או ”הציר הראשי“"
 
 #: ancova/options/emmPlotError.description.R
 #: anova/options/emmPlotError.description.R
@@ -2722,7 +2722,7 @@ msgstr "ספירה (רשות)"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be infinite"
-msgstr "הספירות לא יכולות להיות אין-סופיות"
+msgstr "הספירות לא יכולות להיות אין־סופיות"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -3809,7 +3809,7 @@ msgstr "התפלגות"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr "ללא הנחת שוויון (של ולץ')"
+msgstr "ללא הנחת שוויון (של ולץ׳)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
@@ -5540,7 +5540,7 @@ msgstr "ניתוח שונות חד כיווני (לא פרמטרי)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr "ניתוח שונות חד כיווני (של ולץ')"
+msgstr "ניתוח שונות חד כיווני (של ולץ׳)"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
@@ -5898,11 +5898,11 @@ msgstr "ביצוע מבחני t של סטודנט למדגמים תלויים."
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr "ביצוע ניתוחי שונות של ולץ'."
+msgstr "ביצוע ניתוחי שונות של ולץ׳."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr "ביצוע מבחני ולץ'."
+msgstr "ביצוע מבחני ולץ׳."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -7043,7 +7043,7 @@ msgstr "מעורם"
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr ""
+msgstr "אומדן מתוקנן"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
@@ -7065,12 +7065,12 @@ msgstr "טעות תקן"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "אומדן מתוקנן"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr ""
+msgstr "אומדן מתוקנן"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -7081,7 +7081,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "נתונים שיוריים מתוקננים"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -7165,7 +7165,7 @@ msgstr "סכום הריבועים"
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
 msgid "Sum score"
-msgstr ""
+msgstr "סכום הציונים"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
@@ -7298,7 +7298,7 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "with the addition of covariates."
 msgstr ""
 "משתמשים בניתוח שונות משותפת (ANCOVA) כדי לבחון את הקשר שבין משתנה\n"
-"תלוי כמותי, משתנה מסביר איכותי אחד או יותר ומשתנה מסביר כמותי אחד או יותר,\n"
+"תלוי כמותי, לפחות משתנה מסביר איכותי אחד ולפחות משתנה מסביר כמותי אחד,\n"
 "(או משתנים נלווים). זה בעקרון אותו ניתוח כמו ניתוח שונות, חוץ מהתוספת של\n"
 "המשתנים הנלווים."
 
@@ -7308,7 +7308,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "explanatory variables."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
-"שבין משתנה תלוי כמותי ומשתנה מסביר איכותי אחד או יותר."
+"שבין משתנה תלוי כמותי ולפחות משתנה מסביר איכותי אחד."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -7324,11 +7324,11 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "can be used."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
-"שבין משתנה תלוי כמותי ומשתנה מסביר איכותי אחד או יותר.\n"
+"שבין משתנה תלוי כמותי ולפחות משתנה מסביר איכותי אחד.\n"
 "\n"
 "ניתוח שונות מניח שהנתונים השיוריים מתפלגים נורמלית ושהשונויות\n"
 "של כל הקבוצות שוות. אם לא מניחים שוויון שונויות ניתן להשתמש\n"
-"במבחן ולץ' במקום (עם זאת, מבחן ולץ' אינו תומך ביותר מגורם מסביר אחד).\n"
+"במבחן ולץ׳ במקום (עם זאת, מבחן ולץ׳ אינו תומך ביותר מגורם מסביר אחד).\n"
 "לחילופין, אם לא מניחים שהנתונים מתפלגים נורמלית ניתן להשתמש\n"
 "במבחן לא פרמטרי (כמו קראסקל–ואליס)."
 
@@ -7341,10 +7341,10 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
-"שבין משתנה תלוי כמותי ומשתנה מסביר איכותי אחד או יותר.\n"
+"שבין משתנה תלוי כמותי ולפחות משתנה מסביר איכותי אחד.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
-"השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
+"השימוש בניתוח השונות של ולץ׳. לניתוח השונות של ולץ׳ יש את היתרון\n"
 "שהוא אינו צריך להניח שהשונויות של כל הקבוצות שוות."
 
 #: anovaOneW/options.description.main
@@ -7362,17 +7362,17 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "independent samples t-test."
 msgstr ""
 "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
-"שבין משתנה תלוי כמותי ומשתנה מסביראיכותי אחד או יותר.\n"
+"שבין משתנה תלוי כמותי ולפחות משתנה מסביר איכותי אחד.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
-"השימוש בניתוח השונות של ולץ'. לניתוח השונות של ולץ' יש את היתרון\n"
+"השימוש בניתוח השונות של ולץ׳. לניתוח השונות של ולץ׳ יש את היתרון\n"
 "שהוא אינו צריך להניח שהשונויות של כל הקבוצות שוות.\n"
 "\n"
 "לשם הנוחות, שיטה זו מאפשרת לציין כמה משתנים תלויים\n"
 "שייבחנו בכמה מבחנים בלתי תלויים.\n"
 "\n"
-"יש לשים לב שניתוח השונות של ולץ' עובד באותה הצורה\n"
-"כמו מבחן t למדגמים בלתי תלויים של ולץ'."
+"יש לשים לב שניתוח השונות של ולץ׳ עובד באותה הצורה\n"
+"כמו מבחן t למדגמים בלתי תלויים של ולץ׳."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
@@ -7637,7 +7637,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
 "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
-"תלוי כמותי ומשתנה מסביר איכותי אחד או יותר, כאשר אחד או יותר\n"
+"תלוי כמותי ולפחות משתנה מסביר איכותי אחד, כאשר אחד או יותר\n"
 "מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
 "בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
 "ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA)."
@@ -7659,8 +7659,8 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "test a single factor."
 msgstr ""
 "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
-"תלוי כמותי ומשתנה מסביר איכותי אחד או יותר, כאשר אחד או יותר\n"
-"מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
+"תלוי כמותי ולפחות משתנה מסביר איכותי אחד, כאשר לפחות משתנה מסביר\n"
+"אחד הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד).\n"
 "בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
 "ניתוחי שונות משותפת למדידות חוזרות (repeated measures ANCOVA).\n"
 "\n"
@@ -7727,7 +7727,7 @@ msgstr ""
 "\n"
 "מבחן t של סטודנט למדגמים בלתי תלויים מניח שהנתונים מכל קבוצה\n"
 "מגיעים מהתפלגות נורמלית ושהשונויות של הקבוצות הללו שוות. אם\n"
-"לא מניחים שלקבוצות יש שוויון שונויות משתמשים במבחן t של ולץ' במקום.\n"
+"לא מניחים שלקבוצות יש שוויון שונויות משתמשים במבחן t של ולץ׳ במקום.\n"
 "אם בנוסף לא מניחים שהנתונים מגיעים מהתפלגות נורמלית, ניתן להשתמש\n"
 "במקום במבחן הלא פרמטרי – U של מאן–ויטני (עם זאת, יש לשים לב שלמבחן\n"
 "U של מאן–ויטני השערת אפס שונה במקצת – שההתפלגויות של כל קבוצה זהות)."
@@ -8212,11 +8212,11 @@ msgstr "המשקלים מכילים ערכים שליליים. משקלים של
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
 msgid "Welch's"
-msgstr "של ולץ'"
+msgstr "של ולץ׳"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr "t של ולץ'"
+msgstr "t של ולץ׳"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
@@ -8256,7 +8256,7 @@ msgstr "ציר X"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
-msgstr "ציר-‫X‫"
+msgstr "ציר־X‫"
 
 #: contTables/ui[1][2][0][1][0].label
 msgid "Y-Axis"
@@ -8264,7 +8264,7 @@ msgstr "ציר Y"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr "ציר-‫Y"
+msgstr "ציר־Y"
 
 #: contTables/options/yaxis.description.R
 msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
