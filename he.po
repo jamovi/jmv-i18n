@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-04-21 09:01+0000\n"
+"PO-Revision-Date: 2025-04-21 10:05+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -31,7 +31,7 @@ msgstr "”{col}“ מכילה ערך ייחודי אחד בלבד"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "שיטת החילוץ ”{method}“ הייתה בשימוש יחד עם הרוטציה ”{rotation}“"
+msgstr "שיטת החילוץ ”{method}“ הייתה בשילוב עם הרוטציה ”{rotation}“"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -5769,6 +5769,19 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"מטריצות מתאם חלקי הן דרך לבחון יחסים ליניאריים\n"
+"בין שני משתנים רציפים או יותר תוך בקרה על משתנים אחרים\n"
+"\n"
+"עבור כל צמד משתנים, r של פירסון מעיד על חוזק הקשר ביניהם ועל הכיוון שלו.\n"
+"ערך חיובי מעיד על קשר חיובי (ערכים גבוהים של משתנה אחד מנבאים ערכים גבוהים\n"
+"של המשתנה השני). ערך שלילי של r של פירסון מעיד על קשר שלילי (ערכים גבוהים\n"
+"של משתנה אחד מנבאים ערכים נמוכים של המשתנה השני, ולהפך). הערך אפס מעיד\n"
+"שאין קשר (בין אם הערך של המשתנה גבוה או נמוך, זה לא אומר דבר על המשתנה השני)."
+"\n"
+"\n"
+"באופן רשמי, ניתן לבחון את השערת האפס שהמתאם הוא אפס ולחשב את ערך ה־p.\n"
+"ערך p נמוך מעיד על מקדם המתאם שאינו שווה לאפס ושיש קשר ליניארי (או מורכב\n"
+"יותר) בין שני המשתנים."
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
@@ -5815,11 +5828,11 @@ msgstr "אחוזים"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
-msgstr ""
+msgstr "אחוזים מהכול"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "אחוזים בתוך {var}"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
@@ -5902,12 +5915,12 @@ msgstr "פי ו־V של קרמר"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "מקדם פי"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "מסלול פילאי"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -5949,7 +5962,7 @@ msgstr "תרשימים"
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
-msgstr ""
+msgstr "רב־איבר"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -5971,12 +5984,12 @@ msgstr "מבחני המשך (Post Hoc)"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "מבחני המשך – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "ביצועי מודל מבחן ההמשך"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
@@ -5989,27 +6002,27 @@ msgstr "מבחני המשך"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr ""
+msgstr "פוסטריור"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr ""
+msgstr "תרשים הפוסטריור"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr ""
+msgstr "תרשימי הפוסטריור"
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr ""
+msgstr "מנובא"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "הסתברות המנובאת של … = … (לעומת … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
+msgstr "הסתברות המנובאת של {dep} = {level1} (לעומת {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -6022,12 +6035,12 @@ msgstr "ערכים מנובאים"
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
 msgid "Prediction"
-msgstr ""
+msgstr "ניבוי"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr ""
+msgstr "מדדי ניבוי"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -6040,7 +6053,7 @@ msgstr ""
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 msgid "Predictor"
-msgstr ""
+msgstr "מנבא"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
@@ -6048,7 +6061,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "מנבאים"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
@@ -6085,7 +6098,7 @@ msgstr "רוחב הפריורי"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Probability"
-msgstr ""
+msgstr "הסתברות"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
@@ -6101,21 +6114,21 @@ msgstr ""
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
 msgid "Proportion"
-msgstr ""
+msgstr "יחס"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "מבחן יחסים (שתי תוצאות)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "מבחן יחסים (N תוצאות)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
@@ -6128,7 +6141,7 @@ msgstr "רווח סמך עבור ההפרש בין הממוצע המשוער ו�
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "תרשים מטריצת מתאמים."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
@@ -6138,12 +6151,12 @@ msgstr "טאו b של קנדל עבור כל צירוף של משתנים."
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "ערך p לכל מקדם מתאם."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr ""
+msgstr "r של פירסון עבור כל צירוף של משתנים."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
