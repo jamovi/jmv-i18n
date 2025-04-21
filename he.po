@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-04-21 15:01+0000\n"
+"PO-Revision-Date: 2025-04-21 16:05+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -5505,7 +5505,7 @@ msgstr ""
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr "מבחני יחס במדגם יחיד"
+msgstr "מבחני יחסים במדגם יחיד"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -7623,11 +7623,15 @@ msgstr "התיקונים מרובי ההשוואות שיש לערוך למבח�
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"הרוחב הפריורי לגורמי בייס במבחן t של סטודנט. יש צורך בערך בין 0.01 ל־2.0. "
+"ברירת המחדל היא 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
+"הרוחב הפריורי לגורמי בייס במבחן t של סטודנט. יש צורך בערך בין 0.5 ל־2.0. "
+"ברירת המחדל היא 0.707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -7673,7 +7677,7 @@ msgstr ""
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
-msgstr ""
+msgstr "מערך המדידות החוזרות."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
@@ -7809,11 +7813,11 @@ msgstr "התנאים כדי לספק ממוצעים שוליים משוערים.
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "ערך המבחן שיש לבחון לפיו (בדרך כלל 0)."
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "סוג המתאם שיש לחשב"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
@@ -7832,10 +7836,12 @@ msgstr ""
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
+"אי אפשר להתייחס למשתנה {var} כמספרי. תרשימים הזקוקים לנתונים מספריים לא "
+"יווצרו עבור משתנה זה."
 
 #: propTestN/options/var.description.R
 msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
-msgstr ""
+msgstr "משתנה העניין שב־`data` (אינו נצרך כשניתנת נוסחה. יש לראות את הדוגמות)"
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
@@ -7859,15 +7865,17 @@ msgstr ""
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
+"אי אפשר להתייחס למשתנים {vars} כמספריים. תרשימים הזקוקים לנתונים מספריים לא "
+"יווצרו עבור משתנים אלו."
 
 #: ttestOneS/options/vars.description.ui
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr ""
+msgstr "משתני העניין – מבחן t נפרד בוצע עבור כל משתנה שצוין."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
 msgid "the variables of interest."
-msgstr ""
+msgstr "משתני העניין."
 
 #: contTables/options/layers.description.R
 msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
@@ -7909,14 +7917,17 @@ msgstr "שברונים תיאורטיים"
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
+"מודול זה מייצג את הניתוחים הכלולים ב־jamovi. הוא מכיל הרבה ניתוחים שכיחים ("
+"כמו מבחני t, ניתוחי שונות, רגרסיה, מטריצות מתאם, מבחני יחסים, לוחות שכיחות, "
+"ניתוח גורמים וכו׳)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
-msgstr ""
+msgstr "סף"
 
 #: logRegOrd/ui[4][0][0][1].label
 msgid "Thresholds"
-msgstr ""
+msgstr "ספים"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
@@ -7924,13 +7935,13 @@ msgstr ""
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr ""
+msgstr "R² של טיור"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
 msgid "TLI"
-msgstr ""
+msgstr "מדד טאקר–לואיס (TLI)"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
