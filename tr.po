@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-28 13:02+0000\n"
-"Last-Translator: Bored <boredturkishguy@gmail.com>\n"
+"PO-Revision-Date: 2025-04-27 09:05+0000\n"
+"Last-Translator: 19atlas <o.ustuncelik@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -323,10 +323,14 @@ msgstr ""
 #: anovaOneW/options/welchs.description.R
 msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
 msgstr ""
+"`TRUE` (varsayılan) veya `FALSE`, eşit varyanslar varsaymayan Welch'in tek "
+"yönlü ANOVA'sını gerçekleştirir."
 
 #: cfa/options/estTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
 msgstr ""
+"`TRUE` (varsayılan) veya `FALSE`, model tahminleri için 'Z' ve 'p' "
+"değerlerini sağlar"
 
 #: cfa/options/modelTest.description.R
 msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
@@ -1000,11 +1004,13 @@ msgstr ""
 
 #: descriptives/options/sum.description.R
 msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr ""
+msgstr "`TRUE` veya `FALSE` (varsayılan), toplamı sağlayın"
 
 #: logRegOrd/options/thres.description.R
 msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
 msgstr ""
+"`TRUE` veya `FALSE` (varsayılan), bağımlı değişkenin düzeyleri için kesme "
+"puanları olarak kullanılan eşikleri sağlar"
 
 #: descriptives/options/variance.description.R
 msgid "`TRUE` or `FALSE` (default), provide the variance"
