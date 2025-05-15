@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2025-05-15 17:02+0000\n"
+"Last-Translator: Akhmetkhan <ashulgauov@gmail.com>\n"
+"Language-Team: Kazakh <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"kk/>\n"
+"Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: kk\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1285,6 +1289,8 @@ msgstr "сан (әдепкі: 3), осы мәннен жоғары `'modIndices'
 #: ttestIS/options/bfPrior.description.R
 msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
 msgstr ""
+"0.01-ден 2 аралығындағы мән (әдетті мән 0.707), Байес факторларын есептеу "
+"үшін қолданылатын бастапқы ендік."
 
 #: ttestPS/options/bfPrior.description.R
 msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
@@ -2117,7 +2123,7 @@ msgstr "бонферрони"
 
 #: descriptives/options/box.title
 msgid "Box plot"
-msgstr "қорап диаграммасы"
+msgstr "Қорапша диаграмма"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
@@ -2574,7 +2580,7 @@ msgstr "санақ"
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr "есептегіштер"
+msgstr "Саны"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -2780,7 +2786,7 @@ msgstr "dat <- data.frame(x=c(8, 15))\n"
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
-msgstr "деректер"
+msgstr "Деректер"
 
 #: cfa/options.description.R.usage
 msgid "data <- lavaan::HolzingerSwineford1939\n"
@@ -2916,7 +2922,7 @@ msgstr "деректерді қысқарту"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Деректер жиынтығы қазір өлшенбеген"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -4535,7 +4541,7 @@ msgstr "күтілетін пропорциялар"
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
 msgid "Exploration"
-msgstr "барлау"
+msgstr "Барлау"
 
 #: R/efa.b.R
 #: package/analyses/efa.title
@@ -4884,7 +4890,7 @@ msgstr "топтық қорытынды"
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr "топтастыру айнымалысы"
+msgstr "Топтастырушы айнымалы"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
@@ -4931,7 +4937,7 @@ msgstr "Хельмерт"
 #: empty/options.menuGroup
 #: weights/options.menuGroup
 msgid "hidden"
-msgstr ""
+msgstr "Жасырын"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -5671,7 +5677,7 @@ msgstr "модификация индекстері"
 
 #: R/conttables.b.R
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Монте-Карло симуляциясы"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
@@ -5818,6 +5824,8 @@ msgstr "қалыптылық сынағы (Шапиро-Уилк)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
+"Барлық коэффициенттерді есептеу мүмкін болмады (мүмкін, сингулярлық "
+"сәйкестікке байланысты)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6287,7 +6295,7 @@ msgstr "Пирсон"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Пирсон корреляциясын сандық емес мәндер үшін есептеу мүмкін емес"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6302,7 +6310,7 @@ msgstr "Пирсон{}Корреляциясы"
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
 msgid "Percentages"
-msgstr "пайыздар"
+msgstr "Пайыздар"
 
 #: R/conttables.b.R
 msgid "Percentages of total"
@@ -6414,7 +6422,7 @@ msgstr "деректерді шекті орта мәндермен бірге �
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr "диаграмма түрі"
+msgstr "Диаграмма түрі"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -6902,7 +6910,7 @@ msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -7686,7 +7694,7 @@ msgstr "t"
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr "T-тестілері"
+msgstr "t-тесттер"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
@@ -8582,7 +8590,7 @@ msgstr "айнымалы сандық емес"
 #: pca/options/vars.title
 #: propTest2/options/vars.title
 msgid "Variables"
-msgstr "айнымалылар"
+msgstr "Айнымалылар"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
@@ -8625,7 +8633,7 @@ msgstr "VIF"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr "скрипка"
+msgstr "Скрипка"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/assump/norm.columns.title
@@ -8657,7 +8665,7 @@ msgstr "'{varName}' бойынша өлшенген"
 #: weights/ui.title
 #: weights/results.title
 msgid "Weights"
-msgstr ""
+msgstr "салмақтар"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
