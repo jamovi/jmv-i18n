@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-05-13 07:02+0000\n"
-"Last-Translator: kawasashock <kawasashock@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-05-16 08:01+0000\n"
+"Last-Translator: Ertuğrul Uyar <ertugruluyar.academic@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -17,9 +17,8 @@ msgid "'{col}' contains infinite values"
 msgstr "‘{col}’ sonsuz değerler içeriyor"
 
 #: R/errors.R
-#, fuzzy
 msgid "'{col}' contains missing values"
-msgstr "‘{col}’ eksik değerler içeriyor"
+msgstr "‘{col}’ kayıp değerler içeriyor"
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
@@ -27,7 +26,7 @@ msgstr "‘{col}’ sadece eksik değerlerden oluşuyor"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr "‘{col}’ sadece bir tek sıradışı değerden oluşuyor"
+msgstr "‘{col}’ sadece bir tek benzersiz değerden oluşuyor"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
@@ -1721,7 +1720,7 @@ msgstr ""
 
 #: cfa/ui[0][0]/factors.addButton
 msgid "Add New Factor"
-msgstr ""
+msgstr "Yeni Faktör Ekle"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -2032,14 +2031,14 @@ msgstr ""
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
 msgid "Bayes factor"
-msgstr ""
+msgstr "Bayes faktörü"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Bayes factor₁₀"
-msgstr ""
+msgstr "Bayes faktörü₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
@@ -3919,7 +3918,7 @@ msgstr "Keşif"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "Açımlayıcı Faktör Analizi"
 
 #: efa/options/extraction.title
 msgid "Extraction"
@@ -3969,70 +3968,78 @@ msgstr ""
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "Faktör"
+msgstr "Faktör (Etmen)"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
 msgstr ""
+"'{factor}' faktörü ikiden az düzeye sahiptir. Faktörler en az iki düzeye "
+"sahip olmak zorundadır"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr "Faktör '{factor}' en az iki düzeye sahip olmalı"
+msgstr "'{factor}' faktörü en az iki düzeye sahip olmalıdır"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' faktörü veri içermemektedir (kayıp verilere sahip satırlar "
+"kaldırıldıktan sonra)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' faktörü sadece bir tek düzey içermektedir (kayıp verilere "
+"sahip satırlar kaldırıldıktan sonra)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' faktörü kullanılmayan düzeyler içermektedir (kayıp verilere "
+"sahip satırlar kaldırıldıktan sonra)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
-msgstr ""
+msgstr "Faktör {0}"
 
 #: cfa/options/factors.default[0].label
 msgid "Factor 1"
-msgstr ""
+msgstr "Faktör 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
-msgstr ""
+msgstr "Faktör korelasyonları"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr ""
+msgstr "Faktör kovaryansları"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
-msgstr ""
+msgstr "Faktör kovaryansları"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr ""
+msgstr "Faktör Kestirimleri"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "Faktör Kesenleri"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr ""
+msgstr "Faktör kesenleri"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
 msgid "Factor Loadings"
-msgstr ""
+msgstr "Faktör Yükleri"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr ""
+msgstr "Faktör Yükleri – Düzenleme İndisleri"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
@@ -4041,19 +4048,19 @@ msgstr "Faktör skorları"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
-msgstr ""
+msgstr "Faktör İstatistikleri"
 
 #: efa/options/factorSummary.title
 msgid "Factor summary"
-msgstr ""
+msgstr "Faktör özeti"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
 msgid "Factor variances = 1"
-msgstr ""
+msgstr "Faktör varyansları = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
-msgstr ""
+msgstr "faktör(ler)"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -4069,11 +4076,11 @@ msgstr ""
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
 msgid "Factors"
-msgstr ""
+msgstr "Faktörler"
 
 #: R/pca.b.R
 msgid "factors"
-msgstr ""
+msgstr "faktörler"
 
 #: anovaOneW/results/anova.columns.content
 msgid "Fisher's"
@@ -4102,7 +4109,7 @@ msgstr ""
 #: ancova/options/factors.title
 #: anova/options/factors.title
 msgid "Fixed Factors"
-msgstr ""
+msgstr "Sabit Faktörler"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
@@ -4417,7 +4424,7 @@ msgstr ""
 
 #: R/pca.b.R
 msgid "Inter-Factor Correlations"
-msgstr ""
+msgstr "Faktörler Arası Korelasyonlar"
 
 #: R/linreg.b.R
 #: R/loglinear.b.R
@@ -6825,7 +6832,7 @@ msgstr ""
 #: R/pca.b.R
 msgctxt "specific factor"
 msgid "Factor"
-msgstr ""
+msgstr "Faktör"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
