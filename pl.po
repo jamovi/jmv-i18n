@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2025-05-27 14:02+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: pl\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2738,24 +2743,26 @@ msgstr ""
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Odległość Mahalanobisa"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Odległość Mahalanobisa"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Odległość Mahalanobisa (Chi kw.)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Odległość Mahalanobisa (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
 msgstr ""
+"Odległość Mahalanobisa może być obliczona tylko dla modeli z dwoma lub "
+"więcej kowariantami"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3095,7 +3102,7 @@ msgstr "Dopasowanie modelu"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Wykryto problem z dopasowaniem modelu!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3606,7 +3613,7 @@ msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3616,11 +3623,11 @@ msgstr "p"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3929,11 +3936,11 @@ msgstr "Porównania post-hoc – {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Test post-hoc"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Test post-hoc ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
