@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2025-05-27 06:01+0000\n"
+"Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
+"jmv-i18n/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -87,7 +92,7 @@ msgstr "{item1} і {item2}"
 
 #: R/utils.R
 msgid "{list}, {nextItem}"
-msgstr "{list}, {nextItem}"
+msgstr "{list}, {nextItem}'"
 
 #: R/utils.R
 msgid "{list}, and {lastItem}"
@@ -443,7 +448,7 @@ msgstr "таблиця тестів нормальности"
 
 #: contTables/results/postHoc.description
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "таблиця постфактумних залишків"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1659,15 +1664,15 @@ msgstr "Девиантность"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Залишки відхилення"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Залишки відхилення (GLM Пуассона)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Залишки відхилення – це скориговані залишки з пуассонівського GLM."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1749,7 +1754,7 @@ msgstr "Розподіл"
 
 #: R/descriptives.b.R
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Поки що не підтримує зважені дані."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1782,7 +1787,7 @@ msgstr "Попарные порівняння Двасс-Стил-Кричлоу
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Попарні порівняння Данна"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2523,6 +2528,12 @@ msgstr "Межквартильное відстань"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"Схоже, що ваша модель має проблему \"сингулярності\". Зазвичай це означає, "
+"що модель не може розрізнити певні ефекти, оскільки деякі змінні занадто "
+"тісно пов'язані між собою, або ж даних недостатньо для достовірної оцінки "
+"всіх ефектів. Щоб вирішити цю проблему, спробуйте спростити модель, "
+"видаливши деякі ефекти або перевіривши, чи немає у ваших даних надлишкових "
+"або сильно корельованих змінних."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2736,33 +2747,35 @@ msgstr "нижняя кордон"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Махаланобіс ЧіСквер"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Відстань Махаланобіса"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Відстань Махаланобіс"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Відстань Махаланобіса (Чі кв.)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Відстань Махаланобіса ( p )"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
 msgstr ""
+"Відстань Махаланобіса можна розрахувати лише для моделей з двома або більше "
+"коваріатами"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "Махаланобіс П"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3098,7 +3111,7 @@ msgstr "Відповідність моделі"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Виявлено проблему з підбором моделі!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3145,7 +3158,7 @@ msgstr "Пороги моделі"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "Моделі, оцінені з використанням розміру вибірки N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3307,7 +3320,7 @@ msgstr "Не всі коефіцієнти можна оцінити (ймові
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "Не вся статистика ще підтримує зважені дані."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3609,7 +3622,7 @@ msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3619,11 +3632,11 @@ msgstr "р-значення"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Бонферроні)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(всередині)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3749,7 +3762,7 @@ msgstr "Частковий η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "Учасники (рядки) нижче p-порогової шкали"
 
 #: cfa/options/pathDiagram.title
 msgid "Path diagram"
@@ -3773,7 +3786,7 @@ msgstr "Кореляцію Пірсона неможливо обчислити 
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "Залишки Пірсона"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3918,7 +3931,7 @@ msgstr "Графіки"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "Діаграми ще не підтримуються для зважених описів."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3933,11 +3946,11 @@ msgstr "Порівняння Post Hoc - {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Пост-хок тест"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Постфактумний тест ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4885,7 +4898,7 @@ msgstr "Зустрічається единичное відповідність
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "Помилка сингулярності. Корекції сферичності недоступні"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5009,11 +5022,11 @@ msgstr "Стандартизированные решти"
 
 #: R/conttables.b.R
 msgid "Standardized residuals"
-msgstr ""
+msgstr "Стандартизовані залишки"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Стандартизовані залишки (скориговані за Пірсоном)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5535,6 +5548,10 @@ msgstr "термы повторний вимірів моделі."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"Зазначений опорний рівень не знайдено для наступних змінних: {vars}. За "
+"замовчуванням встановлено перший доступний рівень. Щоб використати власний "
+"рівень порівняння, переконайтеся, що визначений рівень порівняння доступний "
+"у даних."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5719,7 +5736,7 @@ msgstr "Теоретичні квантили"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "Не було виявлено відстаней Махаланобіса з порогом нижче p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5847,7 +5864,7 @@ msgstr "Одномерные тести"
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "Нестандартизовані залишки"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
