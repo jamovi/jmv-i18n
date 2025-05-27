@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-03-19 13:01+0000\n"
-"Last-Translator: Joseph Moon <yurinboy@hotmail.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ko/>\n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -36,6 +32,7 @@ msgstr "'{method}' 추출 메소드가 '{rotation}'회전과 함께 이용되었
 msgid "'{rotation}' rotation was used"
 msgstr "'{rotation}' 회전이 사용되었다"
 
+#: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
 msgstr "'{var}'에 음수가 포함되어 있습니다. 음수 가중치는 허용되지 않는다."
@@ -182,128 +179,6 @@ msgstr "열 비율"
 msgid "% within row"
 msgstr "행 비율"
 
-#: ancova/options/ss.description.R
-#: anova/options/ss.description.R
-msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr "사용할 제곱합인 '1', '2' 또는 '3'(기본값)"
-
-#: anovaRM/options/ss.description.R
-msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr "사용할 제곱합인 '2' 또는 '3'(기본값)"
-
-#: contTables/options/hypothesis.description.R
-#: ttestIS/options/hypothesis.description.R
-msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr ""
-"대립 가설인 'different'(기본값), 'one Greater' 또는 'two Greater'(2Greater); "
-"그룹 1이 그룹 2에, 그룹 1이 그룹 2보다, 그룹 2보다 큰 그룹 2가 그룹 1보다 큰 "
-"그룹"
-
-#: ttestPS/options/hypothesis.description.R
-msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
-msgstr ""
-"'different'(기본값), 'one Greater' 또는 'two Greater'(2Greater), 즉 서로 "
-"다른 1을 측정하여 2를 측정하고, 측정값보다 큰 1을 측정하며, 측정값보다 큰 "
-"2를 각각 측정합니다"
-
-#: ttestOneS/options/hypothesis.description.R
-msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
-msgstr ""
-"대립 가설인 'dt'(기본값), 'gt' 또는 'lt'; 'testValue'와 다르고, "
-"'testValue'보다 크고, 'testValue'보다 작음"
-
-#: cfa/options/constrain.description.R
-msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
-msgstr ""
-"facVar 또는 facInd 모형의 제약 방법 facVar는 요인 분산을 1로 고정하고 "
-"facInd는 각 요인을 첫 번째 지표의 척도로 고정한다."
-
-#: cfa/options/miss.description.R
-msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr ""
-"listwise 또는 fiml, 결측 값 처리 방법, listwise는 입력 항목 중 하나가 결측인 "
-"경우 모든 분석에서 행을 제외하고 fiml은 전체 정보 최대 가능성 방법을 "
-"사용하여 모형을 추정한다."
-
-#: anovaRMNP/options/plotType.description.R
-msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr "플롯에서 사용할 오차 막대인 'means'(기본값) 또는 '중앙값'"
-
-#: efa/options/extraction.description.R
-msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
-msgstr ""
-"'minres'(기본값), 'ml' 또는 'pa'는 각각 'minimum 잔차', '최대 가능성' 또는 "
-"'prin 축'을 요인 추출 방법으로 사용한다"
-
-#: ancova/options/emmPlotError.description.R
-#: anova/options/emmPlotError.description.R
-#: anovaRM/options/emmPlotError.description.R
-msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
-msgstr ""
-"'none', 'ci'(기본값) 또는 'se'이다. 오차 막대를 사용하지 않고 신뢰 구간을 "
-"사용하거나 한계 평균 그림에 표준 오차를 사용합니다"
-
-#: anovaOneW/options/phMethod.description.R
-msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr ""
-"사후 테스트를 제공하는 'none', 'gamesHowell', 'tukey', 'none'은 사후 "
-"테스트를 보여주지 않으며, 'gamesHowell'은 분산의 등가성이 가정되지 않는 게임-"
-"Howell 사후 테스트를 보여주고, 'tukey'는 분산의 등가성이 가정되지 않는 Tukey "
-"사후 테스트를 보여줍니다"
-
-#: pca/options/rotation.description.R
-msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"추정에 사용할 회전인 'none', 'varimax'(기본값), 'quartimax', 'promax', "
-"'oblimin' 또는 'simplimax'"
-
-#: efa/options/rotation.description.R
-msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-"추정에 사용할 회전인 'none', 'varimax'(기본값), 'quartimax', 'promax', "
-"'oblimin' 또는 'simplimax'"
-
-#: propTest2/options/hypothesis.description.R
-msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr "대립 가설인 'notecqual'(기본값), '더 크거나' 또는 '더 작은'"
-
-#: efa/options/nFactorMethod.description.R
-#: pca/options/nFactorMethod.description.R
-msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr "요인 개수를 결정하는 방법인 'parallel'(기본값), '고윳값' 또는 '고정값'"
-
-#: ttestPS/options/miss.description.R
-msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr ""
-"결측 값 처리방법을 다루는 방법인, 'perAnalysis' 또는 "
-"'listwise','perAnalysis'는 개별 종속변수의 결측값을 제외하고, 'listwise'는 "
-"한 행을 모든 분석에서 제외한다"
-
-#: anovaOneW/options/miss.description.R
-#: ttestIS/options/miss.description.R
-#: ttestOneS/options/miss.description.R
-msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr ""
-"결측 값을 처리하는 방법인 'perAnalysis' 또는 'listwise', 'perAnalysis'는 "
-"개별 종속변수의 결측 값을 제외하고, 'listwise'는 입력된 항목 중 하나가 "
-"누락된 경우 모든 분석에서 행을 제외합니다."
-
-#: linReg/options/intercept.description.R
-msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr ""
-"절편을 코딩하는 'refLevel'(기본값) 또는 '합동 평균'입니다. 절편이 기준 수준 "
-"또는 합동 평균을 나타내도록 대비를 만듭니다"
-
-#: descriptives/options/desc.description.R
-msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr "'행' 또는 '열'(기본값), 행 또는 열에 변수 표시(기본값)"
-
-#: efa/options/factorScoreMethod.description.R
-msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
-msgstr ""
-"요인 점수를 추정할 때 'Thurstone'(기본값), 'Bartlett'(바틀렛), 'ten "
-"Berge'(텐베르제), 'Anderson'(앤더슨) 또는 'Harman'(하만)을 각각 사용한다"
-
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
 msgstr "공분산분석- 종속변수"
@@ -311,10 +186,6 @@ msgstr "공분산분석- 종속변수"
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
 msgstr "분산분석-종속변수"
-
-#: contTables/options/compare.description.R
-msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr "'열' 또는 '행'(기본값), 비율의 차이 또는 상대적 위험의 열/행 비교(2x2 표)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -329,823 +200,6 @@ msgstr "모형계수- 종속변수-${dep}'"
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
 msgstr "'비율 - ${var}'"
-
-#: descriptives/options/boxLabelOutliers.description.R
-msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr "'참'(기본값) 또는 '거짓'은 상자 그림의 이상점에 행 번호가 표시된 레이블을 "
-"추가한다"
-
-#: ttestIS/options/students.description.R
-#: ttestOneS/options/students.description.R
-#: ttestPS/options/students.description.R
-msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "'참'(기본값) 또는 '거짓'은 스튜던트의 T 검정 수행한다"
-
-#: anovaOneW/options/welchs.description.R
-msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "'참'(기본값) 또는 '거짓'은 등분산을 가정하지 않은 Welch의 일원 분산 분석을 "
-"수행한다"
-
-#: cfa/options/estTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr "'참'(기본값) 또는 '거짓'은 모델 추정치에 대해 'Z' 및 'p' 값을 제공한다"
-
-#: cfa/options/modelTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr "'참'(기본값) 또는 '거짓'은 모델과 완벽한 피팅 모델을 비교하는 정확한 피팅에 "
-"대한 카이-제곱 검정을 제공한다"
-
-#: linReg/options/ciEmm.description.R
-#: logLinear/options/ciEmm.description.R
-#: logRegBin/options/ciEmm.description.R
-#: logRegMulti/options/ciEmm.description.R
-msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr "'참'(기본값) 또는 '거짓'은 추정된 한계 평균에 대한 신뢰 구간을 제공한다"
-
-#: logLinear/options/aic.description.R
-#: logRegBin/options/aic.description.R
-#: logRegMulti/options/aic.description.R
-#: logRegOrd/options/aic.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "'참'(기본값) 또는 '거짓'은 모델에 대한 AIC(Aikaike's Information Criteria)를 "
-"제공한다"
-
-#: reliability/options/alphaScale.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr "'참'(기본값) 또는 '거짓'은 크론바흐 알파를 제공한다"
-
-#: ancova/options/emmPlots.description.R
-#: anova/options/emmPlots.description.R
-#: anovaRM/options/emmPlots.description.R
-#: linReg/options/emmPlots.description.R
-#: logLinear/options/emmPlots.description.R
-#: logRegBin/options/emmPlots.description.R
-#: logRegMulti/options/emmPlots.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr "'참'(기본값) 또는 '거짓'은 추정된 한계 평균 그림을 제공한다"
-
-#: cfa/options/factCovEst.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr "'참'(기본값) 또는 '거짓'은 공분산의 추정치를 제공한다"
-
-#: cfa/options/resCovEst.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr "'참'(기본값) 또는 '거짓'은 공분산의 추정치를 제공한다"
-
-#: anovaOneW/options/phMeanDif.description.R
-msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
-msgstr "'참'(기본값) 또는 '거짓'은 사후 테스트에 대한 평균 차이를 제공한다"
-
-#: corrMatrix/options/pearson.description.R
-#: corrPart/options/pearson.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr "'참'(기본값) 또는 '거짓'은 피어슨 상관 계수를 제공한다"
-
-#: corrMatrix/options/sig.description.R
-#: corrPart/options/sig.description.R
-msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr "'참'(기본값) 또는 '거짓'은 유의 수준을 제공한다"
-
-#: anovaOneW/options/phSig.description.R
-msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
-msgstr "'참'(기본값) 또는 '거짓'은 사후 테스트에 대한 유의 수준을 제공한다"
-
-#: logLinear/options/dev.description.R
-#: logRegBin/options/dev.description.R
-#: logRegMulti/options/dev.description.R
-#: logRegOrd/options/dev.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr "'참'(기본값) 또는 '거짓'은 모델의 이탈도(또는 -2Log 가능도)를 제공한다"
-
-#: descriptives/options/mean.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr "'참'(기본값) 또는 '거짓'은 평균을 제공한다"
-
-#: descriptives/options/median.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr "'참'(기본값) 또는 '거짓'은 중앙값을 제공한다"
-
-#: linReg/options/modelTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr "'참'(기본값) 또는 '거짓'은 모델과 NULL 모델 간의 모델 비교를 제공한다"
-
-#: descriptives/options/missing.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr "'참'(기본값) 또는 '거짓'은 결측 값의 수를 제공한다"
-
-#: descriptives/options/n.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr "'참'(기본값) 또는 '거짓'은 샘플 크기를 제공한다"
-
-#: descriptives/options/sd.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr "'참'(기본값) 또는 '거짓'는 표준 편차를 제공한다"
-
-#: linReg/options/r2.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr "'참'(기본값) 또는 '거짓'은 모델에 대한 통계적 척도 'R-제곱'을 제공한다"
-
-#: linReg/options/r.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr "'참'(기본값) 또는 '거짓'은 모델에 대한 통계적 척도 'R'을 제공한다"
-
-#: contTables/options/chiSq.description.R
-#: contTablesPaired/options/chiSq.description.R
-msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr "'참'(기본값) 또는 '거짓'은 χ²을 제공한다"
-
-#: ancova/options/emmWeights.description.R
-#: anova/options/emmWeights.description.R
-#: anovaRM/options/emmWeights.description.R
-#: linReg/options/emmWeights.description.R
-#: logLinear/options/emmWeights.description.R
-#: logRegBin/options/emmWeights.description.R
-#: logRegMulti/options/emmWeights.description.R
-msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr "'참'(기본값) 또는 '거짓'은 각 셀의 무게를 동일하게 측정하거나 셀의 빈도수에 "
-"따라 측정한다"
-
-#: descriptives/options/barCounts.description.R
-msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr "'참' 또는 '거짓'(기본값)은 막대 플롯에 카운트 추가한다"
-
-#: descriptives/options/boxMean.description.R
-msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "'참' 또는 '거짓'(기본값)은 상자 그림에 평균을 추가한다"
-
-#: corrMatrix/options/flag.description.R
-#: corrPart/options/flag.description.R
-msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr "'참' 또는 '거짓'(기본값)은 중요한 상관관계를 표시한다"
-
-#: anovaOneW/options/phFlag.description.R
-msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr "'참' 또는 '거짓'(기본값)은 중요한 사후 분석을 표시한다"
-
-#: linReg/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr "'참' 또는 '거짓'(기본값)은 잔차에 대한 Shapiro-Wilk 검정 수행"
-
-#: anovaOneW/options/fishers.description.R
-msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr "'참' 또는 '거짓'(기본값)은 등분산을 가정한 피셔의 일원배치 분산분석 수행한다"
-
-#: ancova/options/homo.description.R
-#: anova/options/homo.description.R
-msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr "'참' 또는 '거짓'(기본값)은 균질성 테스트 수행한다"
-
-#: anovaOneW/options/eqv.description.R
-msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr "'참' 또는 '거짓'(기본값)은 분산의 균질성에 대한 Levene 검정 수행한다"
-
-#: ttestIS/options/eqv.description.R
-msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr "'참' 또는 '거짓'(기본값)은 분산의 균질성에 대한 Levene 검정 수행한다"
-
-#: ttestIS/options/mann.description.R
-msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr "'참' 또는 '거짓'(기본값)은 Mann-Whitney U 검정을 수행한다"
-
-#: anovaNP/options/pairs.description.R
-#: anovaRMNP/options/pairs.description.R
-msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr "'참' 또는 '거짓'(기본값)은 쌍별 비교를 수행한다"
-
-#: ttestPS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
-
-#: anovaOneW/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
-
-#: ancova/options/norm.description.R
-#: anova/options/norm.description.R
-#: ttestIS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
-
-#: ttestOneS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 정규성 검정을 수행한다"
-
-#: anovaRM/options/spherTests.description.R
-msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-wilk 구형도 테스트를 수행한다"
-
-#: ttestIS/options/welchs.description.R
-msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr "'참' 또는 '거짓'(기본값)은 Welch의 t-test 수행한다"
-
-#: ttestOneS/options/wilcoxon.description.R
-#: ttestPS/options/wilcoxon.description.R
-msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr "'참' 또는 '거짓'(기본값)은 윌콕슨 부호순위 검정을 수행한다"
-
-#: ancova/options/emmPlotData.description.R
-#: anova/options/emmPlotData.description.R
-#: anovaRM/options/emmPlotData.description.R
-msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr "'참' 또는 '거짓'(기본값)은 한계 평균 위에 데이터를 표시한다"
-
-#: logLinear/options/ci.description.R
-#: logRegBin/options/ci.description.R
-#: logRegMulti/options/ci.description.R
-#: logRegOrd/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
-msgstr "'참' 또는 '거짓'(기본값)은 모형 계수 추정치에 대한 신뢰 구간 제공한다"
-
-#: logRegBin/options/ciOR.description.R
-#: logRegMulti/options/ciOR.description.R
-#: logRegOrd/options/ciOR.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수 오즈비 추정치에 대한 신뢰 구간을 "
-"제공한다"
-
-#: logLinear/options/ciRR.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수 상대 위험도 추정치에 대한 신뢰 구간을 "
-"제공한다"
-
-#: linReg/options/ciStdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수 표준화 추정치에 대한 신뢰 구간을 "
-"제공한다"
-
-#: linReg/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 신뢰 구간을 제공한다"
-
-#: cfa/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 신뢰 구간을 제공한다"
-
-#: corrMatrix/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr "'참' 또는 '거짓'(기본값)은 상관계수 행렬을 제공한다"
-
-#: reliability/options/corPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr "'참' 또는 '거짓'(기본값)은 상관계수를 제공한다"
-
-#: logRegBin/options/cutOffPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr "'참' 또는 '거짓'(기본값)은 컷 오프 플롯을 제공한다"
-
-#: anovaRMNP/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr "'참' 또는 '거짓'(기본값)은 설명적 플롯을 제공한다"
-
-#: cfa/options/pathDiagram.description.R
-msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr "'참' 또는 '거짓'(기본값)은 모델의 경로 다이어그램을 제공한다"
-
-#: logRegBin/options/class.description.R
-msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr "'참' 또는 '거짓'(기본값)은 예측된 분류표(또는 혼동 행렬)를 제공한다"
-
-#: mancova/options/qqPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr "'참' 또는 '거짓'(기본값)은 다변량 정규성의 Q-Q 그림을 제공한다"
-
-#: ancova/options/qq.description.R
-#: anova/options/qq.description.R
-#: anovaOneW/options/qq.description.R
-#: anovaRM/options/qq.description.R
-#: linReg/options/qqPlot.description.R
-#: ttestOneS/options/qq.description.R
-#: ttestPS/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr "'참' 또는 '거짓'(기본값)은 잔차의 Q-Q 그림을 제공한다"
-
-#: logRegBin/options/rocPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr "'참' 또는 '거짓'(기본값)은 ROC 곡선 그림 제공한다"
-
-#: linReg/options/stdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 표준화된 추정치 제공한다"
-
-#: cfa/options/stdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 계수에 대한 표준화된 추정치 제공한다"
-
-#: contTables/options/zProp.description.R
-msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr "'참' 또는 '거짓'(기본값)은 두 비율 간의 차이에 대한 z 검정을 제공한다"
-
-#: linReg/options/aic.description.R
-msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "'참' 또는 '거짓'(기본값)은 모델에 대한 AIC(아카이케 정보 기준)을 제공한다"
-
-#: contTablesPaired/options/exact.description.R
-msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr "'참' 또는 '거짓'(기본값)은 정확한 로그 오즈비 제공한다(정확한 2x2를 설치해야 "
-"함)"
-
-#: descriptives/options/bar.description.R
-msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 막대 그림을 제공한다(명목 또는 순서형 변수만)"
-
-#: propTest2/options/bf.description.R
-#: ttestIS/options/bf.description.R
-#: ttestOneS/options/bf.description.R
-#: ttestPS/options/bf.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr "'참' 또는 '거짓'(기본값)은 베이즈 인자를 제공한다"
-
-#: propTest2/options/ciBayes.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr "'참' 또는 '거짓'(기본값)은 베이지안 신뢰구간을 제공한다"
-
-#: linReg/options/bic.description.R
-#: logLinear/options/bic.description.R
-#: logRegBin/options/bic.description.R
-#: logRegMulti/options/bic.description.R
-#: logRegOrd/options/bic.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
-msgstr "'참' 또는 '거짓'(기본값)은 모델에 대한 베이지안 정보 기준을(BIC) 제공한다"
-
-#: descriptives/options/box.description.R
-msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 상자 그림을 제공한다(연속형 변수만)"
-
-#: logRegBin/options/boxTidwell.description.R
-msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr "'참' 또는 '거짓'(기본값)은 로짓의 선형성에 대한 Box-Tidwell 검정을 제공한다"
-
-#: mancova/options/boxM.description.R
-msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr "'참' 또는 '거짓'(기본값)은 Box's M 검정을 제공한다"
-
-#: ttestOneS/options/effectSize.description.R
-msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr "'참' 또는 '거짓'(기본값)은 Cohen's d의 효과 크기를 제공한다"
-
-#: contTables/options/pcCol.description.R
-#: contTablesPaired/options/pcCol.description.R
-msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr "'참' 또는 '거짓'(기본값)은 열 백분율을 제공한다"
-
-#: corrMatrix/options/ci.description.R
-#: propTest2/options/ci.description.R
-#: ttestIS/options/ci.description.R
-#: ttestPS/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr "'참' 또는 '거짓'(기본값)은 신뢰 구간을 제공한다"
-
-#: contTables/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
-msgstr "'참' 또는 '거짓'(기본값)은 비교 측정에 대한 신뢰 구간을 제공한다"
-
-#: ttestIS/options/ciES.description.R
-#: ttestOneS/options/ciES.description.R
-#: ttestPS/options/ciES.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
-msgstr "'참' 또는 '거짓'(기본값)은 효과 크기에 대한 신뢰 구간 제공한다"
-
-#: descriptives/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr "'참' 또는 '거짓'(기본값)은 평균에 대한 신뢰 구간을 제공한다"
-
-#: ttestOneS/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
-msgstr "'참' 또는 '거짓'(기본값)은 평균 차이에 대한 신뢰 구간을 제공한다"
-
-#: ancova/options/postHocEsCi.description.R
-#: anova/options/postHocEsCi.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
-msgstr "'참' 또는 '거짓'(기본값)은 사후 효과 크기에 대한 신뢰 구간을 제공한다"
-
-#: corrMatrix/options/plotDens.description.R
-msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr "'참' 또는 '거짓'(기본값)은 상관계수 행렬에 대한 밀도를 제공한다"
-
-#: descriptives/options/dens.description.R
-msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 밀도도 제공한다(연속형 변수만 해당)"
-
-#: anovaOneW/options/descPlot.description.R
-#: ttestIS/options/plots.description.R
-#: ttestOneS/options/plots.description.R
-#: ttestPS/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr "'참' 또는 '거짓'(기본값)은 설명 그림을 제공한다"
-
-#: anovaOneW/options/desc.description.R
-#: anovaRMNP/options/desc.description.R
-#: ttestIS/options/desc.description.R
-#: ttestOneS/options/desc.description.R
-#: ttestPS/options/desc.description.R
-msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr "'참' 또는 '거짓'(기본값)은 기술 통계를 제공한다"
-
-#: descriptives/options/dot.description.R
-msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 점도표를 제공한다(연속형 변수만 해당)"
-
-#: ttestIS/options/effectSize.description.R
-#: ttestPS/options/effectSize.description.R
-msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr "'참' 또는 '거짓'(기본값)은 효과 크기를 제공한다"
-
-#: anovaNP/options/es.description.R
-msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr "'참' 또는 '거짓'(기본값)은 효과 크기를 제공한다"
-
-#: ancova/options/emmTables.description.R
-#: anova/options/emmTables.description.R
-#: anovaRM/options/emmTables.description.R
-#: linReg/options/emmTables.description.R
-#: logLinear/options/emmTables.description.R
-#: logRegBin/options/emmTables.description.R
-#: logRegMulti/options/emmTables.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr "'참' 또는 '거짓'(기본값)은 추정된 한계 평균 테이블을 제공한다"
-
-#: cfa/options/factInterceptEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
-msgstr "'참' 또는 '거짓'(기본값)은 요인 절편 추정치를 제공한다"
-
-#: cfa/options/resInterceptEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr "'참' 또는 '거짓'(기본값)은 요인 절편 추정치를 제공한다"
-
-#: contTables/options/fisher.description.R
-msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr "'참' 또는 '거짓'(기본값)은 피셔 정확 검정을 제공한다"
-
-#: descriptives/options/freq.description.R
-msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 주파수 테이블을 제공한다(명목, 순서 변수만)"
-
-#: contTables/options/gamma.description.R
-msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr "'참' 또는 '거짓'(기본값)은 감마를 제공한다"
-
-#: descriptives/options/hist.description.R
-msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 히스토그램을 제공한다(연속변수만 해당)"
-
-#: reliability/options/meanItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr "'참' 또는 '거짓'(기본값)은 품목 평균을 제공한다"
-
-#: reliability/options/sdItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr "'참' 또는 '거짓'(기본값)은 항목 표준 편차를 제공한다"
-
-#: reliability/options/itemRestCor.description.R
-msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
-msgstr "'참' 또는 '거짓'(기본값)은 항목-나머지 상관관계를 제공한다"
-
-#: contTables/options/taub.description.R
-#: corrMatrix/options/kendall.description.R
-#: corrPart/options/kendall.description.R
-msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr "'참' 또는 '거짓'(기본값)은 켄달의 tau-b를 제공한다"
-
-#: contTables/options/mh.description.R
-msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr "'참' 또는 '거짓'(기본값)은 추세에 대한 Mantel-Haenszel 테스트를 제공한다"
-
-#: reliability/options/omegaScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr "'참' 또는 '거짓'(기본값)은 McDonald의 오메가 계수를 제공한다"
-
-#: ttestOneS/options/meanDiff.description.R
-msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr "'TRUE' 또는 'FALSE'(기본값)은 평균 및 표준 편차를 제공한다"
-
-#: ttestIS/options/meanDiff.description.R
-#: ttestPS/options/meanDiff.description.R
-msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr "'참' 또는 '거짓'(기본값)은 평균 및 표준 오류를 제공한다"
-
-#: cfa/options/mi.description.R
-msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr "'참' 또는 '거짓'(기본값)은 모델에 포함되지 않은 파라미터에 대한 수정 지수를 "
-"제공한다"
-
-#: descriptives/options/extreme.description.R
-msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr "'참' 또는 '거짓'(기본값)은 N개의 가장 극값(최대 및 최소)을 제공한다"
-
-#: descriptives/options/pc.description.R
-msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr "'참' 또는 '거짓'(기본값)은 백분위수를 제공한다"
-
-#: contTables/options/phiCra.description.R
-msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr "'참' 또는 '거짓'(기본값)은 Phi 와 Cramer's V 계수를 제공한다"
-
-#: propTest2/options/postPlots.description.R
-msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr "'참' 또는 '거짓'(기본값)은 후방 그림을 제공한다"
-
-#: descriptives/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 Q-Q 그림을 제공한다(연속형 변수만 해당)"
-
-#: ttestIS/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr "'참' 또는 '거짓'(기본값)은 잔차의 Q-Q 그림을 제공한다"
-
-#: descriptives/options/pcEqGr.description.R
-msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr "'참' 또는 '거짓'(기본값)은 분위수를 제공한다"
-
-#: linReg/options/resPlots.description.R
-msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
-msgstr "'참' 또는 '거짓'(기본값)은 종속 변수와 각 공변량이 표준화된 잔차에 대해 "
-"표시되는 잔차 그림을 제공한다."
-
-#: linReg/options/durbin.description.R
-msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr "'참' 또는 '거짓'(기본값)은 자기상관에 대한 Durbin-Watson 검정 결과를 제공한다"
-
-#: linReg/options/rmse.description.R
-msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr "'참' 또는 '거짓'(기본값)은 모델에 대한 평균 제곱근 오차평균 제곱근 오차를 "
-"제공한다"
-
-#: contTables/options/pcRow.description.R
-#: contTablesPaired/options/pcRow.description.R
-msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr "'참' 또는 '거짓'(기본값)은 행 백분율을 제공한다"
-
-#: descriptives/options/sw.description.R
-msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-Wilk 유의 확률을 제공한다"
-
-#: mancova/options/shapiro.description.R
-msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr "'참' 또는 '거짓'(기본값)은 Shapiro-Wilk 테스트를 제공한다"
-
-#: corrMatrix/options/spearman.description.R
-#: corrPart/options/spearman.description.R
-msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr "'참' 또는 '거짓'(기본값)은 Spearman's rho계수를 제공한다"
-
-#: corrMatrix/options/plotStats.description.R
-msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr "'참' 또는 '거짓'(기본값)은 상관계수 행렬에 통계를 제공한다"
-
-#: linReg/options/cooks.description.R
-#: logRegBin/options/cooks.description.R
-msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
-msgstr "'참' 또는 '거짓'(기본값)은 쿡거리에 대한 요약 통계량을 제공한다"
-
-#: anovaOneW/options/phTest.description.R
-msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
-msgstr "'참' 또는 '거짓'(기본값)은 사후 테스트를 위한 테스트 결과(t-value 및 자유도)"
-"를 제공한다"
-
-#: contTables/options/contCoef.description.R
-msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr "'참' 또는 '거짓'(기본값)은 유관 계수를 제공한다"
-
-#: contTables/options/diffProp.description.R
-msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
-msgstr "'참' 또는 '거짓'(기본값)은 비율 차이를 제공한다(2x2 테이블에만 사용 가능)"
-
-#: contTables/options/exp.description.R
-msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr "'참' 또는 '거짓'(기본값)은 예상 개수를 제공한다"
-
-#: logRegBin/options/OR.description.R
-#: logRegMulti/options/OR.description.R
-#: logRegOrd/options/OR.description.R
-msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
-msgstr "'참' 또는 '거짓'(기본값)은 log-오즈비 추정치 또는 오즈비 추정치를 제공한다"
-
-#: logLinear/options/RR.description.R
-msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr "'참' 또는 '거짓'(기본값)은 로그 비율 추정치 또는 비율 추정치의 지수를 "
-"제공한다"
-
-#: descriptives/options/iqr.description.R
-msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr "'참' 또는 '거짓'(기본값)은 사분위간 범위를 제공한다"
-
-#: descriptives/options/kurt.description.R
-msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr "'참' 또는 '거짓'(기본값)은 첨도를 제공한다"
-
-#: contTables/options/likeRat.description.R
-msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr "'참' 또는 '거짓'(기본값)은 공산비를 제공한다"
-
-#: contTables/options/logOdds.description.R
-msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
-msgstr "'참' 또는 '거짓'(기본값)은 로그 오즈비를 제공(2x2 테이블에만 사용 가능)"
-
-#: descriptives/options/max.description.R
-msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr "'참' 또는 '거짓'(기본값)은 최대값을 제공한다"
-
-#: reliability/options/meanScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr "'참' 또는 '거짓'(기본값)은 평균을 제공한다"
-
-#: descriptives/options/min.description.R
-msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr "'참' 또는 '거짓'(기본값)은 최소값을 제공한다"
-
-#: descriptives/options/mode.description.R
-msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr "'참' 또는 '거짓'(기본값)은 최빈값을 제공한다"
-
-#: logLinear/options/modelTest.description.R
-#: logRegBin/options/modelTest.description.R
-#: logRegMulti/options/modelTest.description.R
-#: logRegOrd/options/modelTest.description.R
-msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
-msgstr "'참' 또는 '거짓'(기본값)은 모델과 NULL 모델 간의 모델 비교를 제공한다"
-
-#: corrMatrix/options/n.description.R
-#: corrPart/options/n.description.R
-msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr "'참' 또는 '거짓'(기본값)은 케이스 수를 제공한다"
-
-#: contTables/options/obs.description.R
-msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr "'참' 또는 '거짓'(기본값)은 관측된 카운트를 제공한다"
-
-#: contTables/options/odds.description.R
-msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr "'참' 또는 '거짓'(기본값)은 오즈비 제공한다(2x2 테이블에만 사용 가능)"
-
-#: linReg/options/anova.description.R
-msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr "'참' 또는 '거짓'(기본값)은 예측 변수에 대한 옴니버스 분산 분석 검정을 "
-"제공한다"
-
-#: logLinear/options/omni.description.R
-#: logRegBin/options/omni.description.R
-#: logRegMulti/options/omni.description.R
-#: logRegOrd/options/omni.description.R
-msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
-msgstr "'참' 또는 '거짓'(기본값)은 예측 변수에 대한 옴니버스 공산비 검정을 제공한다"
-
-#: logRegBin/options/acc.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
-msgstr "'참' 또는 '거짓'(기본값)은 컷오프 값으로 그룹화된 결과의 예측 정확도를 "
-"제공한다"
-
-#: logRegBin/options/sens.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
-msgstr "'참' 또는 '거짓'(기본값)은 컷오프 값으로 그룹화된 결과의 예측 감도를 제공한다"
-
-#: logRegBin/options/spec.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
-msgstr "'참' 또는 '거짓'(기본값)은 컷오프 값으로 그룹화된 결과의 예측 특이성을 "
-"제공한다"
-
-#: descriptives/options/range.description.R
-msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr "'참' 또는 '거짓'(기본값)은 범위를 제공한다"
-
-#: logRegBin/options/auc.description.R
-msgid "`TRUE` or `FALSE` (default), provide the area under the ROC curve (AUC)"
-msgstr "'참' 또는 '거짓'(기본값)은 ROC 곡선(AUC) 아래 영역을 제공한다"
-
-#: contTables/options/relRisk.description.R
-msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
-msgstr "'참' 또는 '거짓'(기본값)은 상대적 위험을 제공한다(2x2 테이블에만 사용 가능)"
-
-#: cfa/options/corRes.description.R
-msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
-msgstr "'참' 또는 '거짓'(기본값)은 관측된 상관 행렬의 잔차(즉, 예상된 상관 행렬과 "
-"관측된 상관 행렬의 차이)를 제공한다"
-
-#: descriptives/options/skew.description.R
-msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr "'참' 또는 '거짓'(기본값)은 왜도를 제공한다"
-
-#: reliability/options/sdScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr "'참' 또는 '거짓'(기본값)은 표준편차를 제공한다"
-
-#: descriptives/options/se.description.R
-msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr "'참' 또는 '거짓'(기본값)은 표준 오차를 제공한다"
-
-#: linReg/options/r2Adj.description.R
-msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
-msgstr "'참' 또는 '거짓'(기본값)은 모델에 대한 통계적 측정값 '조정된 R-제곱'을 "
-"제공한다"
-
-#: descriptives/options/sum.description.R
-msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr "'참' 또는 '거짓'(기본값)은 합을 제공한다"
-
-#: logRegOrd/options/thres.description.R
-msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
-msgstr "'참' 또는 '거짓'(기본값)은 종속변수의 수준에 대한 컷오프 점수로 사용되는 "
-"임계값을 제공한다"
-
-#: descriptives/options/variance.description.R
-msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr "'참' 또는 '거짓'(기본값)은 분산을 제공한다"
-
-#: contTables/options/pcTot.description.R
-msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr "'참' 또는 '거짓'(기본값)은 총 백분율을 제공한다"
-
-#: linReg/options/collin.description.R
-#: logRegBin/options/collin.description.R
-msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
-msgstr "'참' 또는 '거짓'(기본값)은 분산 팽창 인수 및 공차 공선성 통계를 제공한다"
-
-#: descriptives/options/violin.description.R
-msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
-msgstr "'참' 또는 '거짓'(기본값)은 바이올린 플롯을 제공한다(연속변수만 해당)"
-
-#: reliability/options/alphaItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr "'참' 또는 '거짓'(기본값)은 항목을 삭제했을 경우의 크론바흐 알파 계수를 "
-"제공한다"
-
-#: reliability/options/omegaItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr "'TRUE' 또는 'FALSE'(기본값)를 선택하면 해당 항목이 삭제되었을 경우 "
-"맥도날드의 ω계수가 어떻게 될지 알 수 있습니다"
-
-#: contTables/options/chiSqCorr.description.R
-#: contTablesPaired/options/chiSqCorr.description.R
-msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr "'참' 또는 '거짓'(기본값)은 χ²에 연속성 보정을 제공한다"
-
-#: anovaRM/options/groupSumm.description.R
-msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr "'참' 또는 '거짓'(기본값)은 다른 그룹의 요약을 보고한다"
-
-#: logRegBin/options/cutOff.description.R
-msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
-msgstr "'참' 또는 '거짓'(기본값)은 예측에 사용되는 컷오프 설정을 한다"
-
-#: contTables/options/barplot.description.R
-msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr "'참' 또는 '거짓'(기본값)은 막대 그림을 표시한다"
-
-#: efa/options/bartlett.description.R
-#: pca/options/bartlett.description.R
-msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
-msgstr "'참' 또는 '거짓'(기본값)은 Bartlett의 구형도 테스트 결과를 보여준다"
-
-#: efa/options/eigen.description.R
-#: pca/options/eigen.description.R
-msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr "'참' 또는 '거짓'(기본값)은 고유값 테이블을 표시한다"
-
-#: efa/options/factorSummary.description.R
-#: pca/options/factorSummary.description.R
-msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr "'참' 또는 '거짓'(기본값)은 요인 요약을 표시한다"
-
-#: efa/options/factorCor.description.R
-#: pca/options/factorCor.description.R
-msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr "'참' 또는 '거짓'(기본값)은 인자간 상관관계를 표시한다"
-
-#: efa/options/kmo.description.R
-#: pca/options/kmo.description.R
-msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
-msgstr "'참' 또는 '거짓'(기본값)은 샘플링 적정성(MSA) 결과에 대한 Kaiser-Meyer-"
-"Olkin(KMO) 측도를 보여준다"
-
-#: efa/options/modelFit.description.R
-msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
-msgstr "'참' 또는 '거짓'(기본값)은 모델 적합도 측정 및 테스트 표시를 한다"
-
-#: efa/options/screePlot.description.R
-#: pca/options/screePlot.description.R
-msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr "'참' 또는 '거짓'(기본값)은 화면 그림을 표시한다"
-
-#: efa/options/sortLoadings.description.R
-#: pca/options/sortLoadings.description.R
-msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr "'참' 또는 '거짓'(기본값)은 크기별로 요인 적재 분류한다"
-
-#: anovaRM/options/leveneTest.description.R
-msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
-msgstr "'참' 또는 '거짓'(기본값)은 분산의 균질성을 검정한다(즉, Levene 검정)"
-
-#: propTest2/options/areCounts.description.R
-msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr "'참' 또는 '거짓'(기본값)은, 변수는 개수입니다"
-
-#: propTestN/options/expected.description.R
-msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr "'참' 또는 '거짓'(기본값)은 예상 카운트를 표시해야 하는지에 대한 여부"
-
-#: ancova/options/modelTest.description.R
-#: anova/options/modelTest.description.R
-msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr "'참' 또는 '거짓'(기본값)은 전체 모델 테스트를 수행한다"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -1198,10 +252,6 @@ msgstr "25,50,75"
 msgid "a (semi)partial correlation matrix table"
 msgstr "(반)부분 상관 행렬 테이블"
 
-#: descriptives/options/pcValues.description.R
-msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr "백분위수를 지정하는 쉼표로 구분된 목록(기본값: 25,50,75)"
-
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
 msgstr "상관 계수 행렬 플롯"
@@ -1213,95 +263,6 @@ msgstr "상관 계수 행렬 테이블"
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
 msgstr "기술통계플롯"
-
-#: ancova/options/emMeans.description.R
-#: anova/options/emMeans.description.R
-msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr "한계 평균을 추정하는 항이 포함된 공식(예시 참조)"
-
-#: linReg/options/emMeans.description.R
-msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
-msgstr "한계 평균을 추정하기 위한 항이 포함된 공식으로, 항당 최대 세 개의 변수를 "
-"지원한다"
-
-#: ancova/options/postHoc.description.R
-#: anova/options/postHoc.description.R
-msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
-msgstr "사후 검정을 수행하기 위한 항을 포함하는 공식(예시 참조)"
-
-#: ancova/options/modelTerms.description.R
-#: anova/options/modelTerms.description.R
-msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
-msgstr "모델에 들어가는 항을 설명하는 공식(공식을 제공할 때는 필요하지 않음, 예시 "
-"참조)"
-
-#: cfa/options/factors.description.R
-msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
-msgstr "인자의 '라벨'과 해당 인자에 속하는 'vars'을 정의하는 명명된 목록을 포함하는 "
-"목록"
-
-#: linReg/options/blocks.description.R
-#: logLinear/options/blocks.description.R
-#: logRegBin/options/blocks.description.R
-#: logRegMulti/options/blocks.description.R
-#: logRegOrd/options/blocks.description.R
-msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
-msgstr "모형에 추가되는 예측 변수의 이름을 지정하는 문자열의 벡터를 포함하는 목록. "
-"요소는 목록의 순서에 따라 모형에 추가된다"
-
-#: anovaRM/options/bsTerms.description.R
-msgid "a list of character vectors describing the between subjects terms to go into the model"
-msgstr "모델에 적용할 피험자 간 용어를 설명하는 문자 벡터 목록"
-
-#: anovaRM/options/postHoc.description.R
-msgid "a list of character vectors describing the post-hoc tests that need to be computed"
-msgstr "계산이 필요한 사후 테스트를 설명하는 문자 벡터 목록"
-
-#: anovaRM/options/rmTerms.description.R
-msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr "모델에 들어가는 반복 측정 항을 설명하는 문자 벡터의 목록"
-
-#: linReg/options/refLevels.description.R
-#: logLinear/options/refLevels.description.R
-#: logRegBin/options/refLevels.description.R
-#: logRegMulti/options/refLevels.description.R
-#: logRegOrd/options/refLevels.description.R
-msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
-msgstr "종속 변수 및 모든 요인의 기준 수준을 지정하는 목록의 목록"
-
-#: ancova/options/contrasts.description.R
-#: anova/options/contrasts.description.R
-msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
-msgstr "사용할 대비 요소 및 유형을 명시한 목록, '편차', '단순', '차이', '헬름트', "
-"'반복' 또는 '다항' 중 하나"
-
-#: ttestPS/options/pairs.description.R
-msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr "데이터의 측정 쌍을 지정하는 목록"
-
-#: cfa/options/resCov.description.R
-msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr "추정해야 할 잔차 공분산을 지정하는 목록"
-
-#: anovaRM/options/emMeans.description.R
-#: logLinear/options/emMeans.description.R
-#: logRegBin/options/emMeans.description.R
-#: logRegMulti/options/emMeans.description.R
-msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
-msgstr "추정된 한계 평균을 계산해야 하는 변수를 지정하는 목록입니다. 항당 최대 세 "
-"개의 변수를 지원한다."
-
-#: anovaRM/options/rmCells.description.R
-msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
-msgstr ""
-"각 목록은 'measure'로 정의된 '데이터'에서 repeated measure(스트링으로서)와 "
-"그것이 'cell'로 정의된 'rm'에서 속하는 레벨의 특정 조합(스트링의 벡터로서)을 "
-"기술하는 목록이다"
-
-#: anovaRM/options/rm.description.R
-msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
-msgstr "각 목록이 특정 반복 측정 인자의 '라벨(label)'과 'levels(label)'을 설명하는 "
-"목록"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1318,128 +279,9 @@ msgstr "낮은 p값은 정규분포 가정의 기각을 암시한다"
 msgid "A nice correlation data set"
 msgstr "좋은 상관 관계 데이터 세트"
 
-#: cfa/options/hlCorRes.description.R
-msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
-msgstr "숫자(기본값: 0.1), 이 값 위의 'corRes' 테이블의 값 강조 표시"
-
-#: efa/options/hideLoadings.description.R
-msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr "숫자(기본값: 0.3), 이 값 아래에 요인 적재 숨기기"
-
-#: pca/options/hideLoadings.description.R
-msgid "a number (default: 0.3), hide loadings below this value"
-msgstr "숫자(기본값: 0.3), 이 값 아래로 적재 숨기기"
-
-#: propTest2/options/testValue.description.R
-msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr "숫자(기본값: 0.5), 귀무 가설 값"
-
-#: efa/options/minEigen.description.R
-msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
-msgstr "숫자(기본값: 0), 이 모델에 포함될 요인의 최소 고유값"
-
-#: propTest2/options/priorA.description.R
-msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr "숫자(기본값: 1), 베타 이전 'a' 매개 변수"
-
-#: propTest2/options/priorB.description.R
-msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr "숫자(기본값: 1), 베타 이전 'b' 매개 변수"
-
-#: pca/options/minEigen.description.R
-msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr "모델에 포함될 성분의 최소 고유값인 숫자(기본값: 1)"
-
-#: cfa/options/hlMI.description.R
-msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
-msgstr "숫자(기본값: 3), 이 값 위의 'modIndices' 테이블의 값 강조 표시"
-
-#: ttestIS/options/bfPrior.description.R
-msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "0.01에서 2 사이의 숫자(기본값 0.707), 베이즈 인자 계산에 사용할 이전 너비"
-
-#: ttestPS/options/bfPrior.description.R
-msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "0.5에서 2 사이의 숫자(기본값 0.707), 베이즈 인자 계산에 사용할 이전 너비"
-
-#: ttestOneS/options/bfPrior.description.R
-msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "0.5에서 2.0 사이의 숫자(기본값 0.707), 베이즈 인자 계산에 사용할 이전 너비"
-
-#: linReg/options/ciWidth.description.R
-#: linReg/options/ciWidthStdEst.description.R
-#: logLinear/options/ciWidth.description.R
-#: logLinear/options/ciWidthRR.description.R
-#: logRegBin/options/ciWidth.description.R
-#: logRegBin/options/ciWidthOR.description.R
-#: logRegMulti/options/ciWidth.description.R
-#: logRegMulti/options/ciWidthOR.description.R
-#: logRegOrd/options/ciWidth.description.R
-#: logRegOrd/options/ciWidthOR.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
-msgstr "신뢰 구간 폭을 지정하는 50에서 99.9 사이의 숫자(기본값: 95)"
-
-#: ancova/options/ciWidthEmm.description.R
-#: anova/options/ciWidthEmm.description.R
-#: anovaRM/options/ciWidthEmm.description.R
-#: linReg/options/ciWidthEmm.description.R
-#: logLinear/options/ciWidthEmm.description.R
-#: logRegBin/options/ciWidthEmm.description.R
-#: logRegMulti/options/ciWidthEmm.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
-msgstr "추정된 한계 평균에 대한 신뢰 구간 폭을 지정하는 50에서 99.9 사이의 "
-"숫자(기본값: 95)"
-
-#: cfa/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
-msgstr "'ci'로 사용되는 신뢰 구간 폭을 지정하는 50에서 99.9 사이의 숫자(기본값: 95)"
-
-#: propTest2/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 신뢰 구간 폭"
-
-#: propTest2/options/ciBayesWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 신뢰할 수 있는 구간 폭"
-
-#: descriptives/options/ciWidth.description.R
-#: ttestIS/options/ciWidth.description.R
-#: ttestOneS/options/ciWidth.description.R
-#: ttestPS/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 신뢰 구간의 폭"
-
-#: ttestIS/options/ciWidthES.description.R
-#: ttestOneS/options/ciWidthES.description.R
-#: ttestPS/options/ciWidthES.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 효과 크기에 대한 신뢰 구간의 폭"
-
-#: ancova/options/postHocEsCiWidth.description.R
-#: anova/options/postHocEsCiWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 사후 효과 크기에 대한 신뢰 구간의 폭"
-
-#: corrMatrix/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 제공할 신뢰 구간의 폭"
-
-#: contTables/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
-msgstr "50에서 99.9 사이의 숫자(기본값: 95), 제공할 신뢰 구간의 폭"
-
-#: ttestOneS/options/testValue.description.R
-msgid "a number specifying the value of the null hypothesis"
-msgstr "귀무 가설의 값을 지정하는 숫자"
-
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
 msgstr "매개변수"
-
-#: ancova/options/postHocES.description.R
-#: anova/options/postHocES.description.R
-msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
-msgstr "'d'의 가능한 값; 사후 테스트의 효과 크기에 대한 코헨의 d 측정값 제공"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
@@ -1458,39 +300,6 @@ msgstr "q-q 도표"
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
 msgstr "반복 측정 분산 분석 데이터 집합"
-
-#: anovaRM/options/depLabel.description.R
-msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
-msgstr "분석 전반에 걸쳐 종속 변수에 사용되는 레이블을 설명하는 문자열(기본값: "
-"'의존적')"
-
-#: logLinear/options/counts.description.R
-msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr "카운트를 포함하는 'data'의 변수 이름을 지정하는 문자열 또는 각 행이 단일 "
-"관측치를 나타내는 경우 NULL"
-
-#: logRegBin/options/dep.description.R
-#: logRegMulti/options/dep.description.R
-#: logRegOrd/options/dep.description.R
-msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr "종속 변수를 'data'에서 명명하는 문자열, 변수는 인자로 해야 합니다"
-
-#: mancova/options/deps.description.R
-msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr "종속 변수 이름을 'data'에서 지정하는 문자열, 변수는 숫자로 해야 합니다"
-
-#: anovaNP/options/deps.description.R
-msgid "a string naming the dependent variable in `data`"
-msgstr "'data'의 종속 변수 이름을 지정하는 문자열"
-
-#: anovaOneW/options/deps.description.R
-msgid "a string naming the dependent variables in `data`"
-msgstr "'data'의 종속 변수 이름을 지정하는 문자열"
-
-#: anovaNP/options/group.description.R
-#: anovaOneW/options/group.description.R
-msgid "a string naming the grouping or independent variable in `data`"
-msgstr "'data'의 그룹화 또는 독립 변수 이름을 지정하는 문자열"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
@@ -1632,6 +441,10 @@ msgstr "모형 계수표"
 msgid "a table of normality tests"
 msgstr "정규성 검정표"
 
+#: contTables/results/postHoc.description
+msgid "a table of post-hoc residuals"
+msgstr ""
+
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
 msgstr "예측 분류표"
@@ -1694,66 +507,6 @@ msgstr "시험 결과표"
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
 msgstr "χ² 검정 결과 표"
-
-#: reliability/options/revItems.description.R
-msgid "a vector containing strings naming the varibales that are reverse scaled"
-msgstr "역스케일링된 변량을 명명하는 문자열을 포함하는 벡터"
-
-#: propTestN/options/ratio.description.R
-msgid "a vector of numbers: the expected proportions"
-msgstr "수 벡터: 예상 비율"
-
-#: anovaRM/options/bs.description.R
-msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr "'데이터'에서 주어 사이의 인자를 명명하는 문자열 벡터"
-
-#: corrPart/options/controls.description.R
-msgid "a vector of strings naming the control variables in `data`"
-msgstr "데이터의 제어 변수 이름을 지정하는 문자열 벡터"
-
-#: logRegBin/options/covs.description.R
-#: logRegMulti/options/covs.description.R
-#: logRegOrd/options/covs.description.R
-#: mancova/options/covs.description.R
-msgid "a vector of strings naming the covariates from `data`"
-msgstr "'데이터'에서 공변량을 명명하는 문자열 벡터"
-
-#: anovaRM/options/cov.description.R
-msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
-msgstr "'data'에서 공변량을 명명하는 문자열 벡터. 변수는 숫자여야 한다"
-
-#: logLinear/options/factors.description.R
-#: mancova/options/factors.description.R
-msgid "a vector of strings naming the factors from `data`"
-msgstr "'데이터'에서 인자를 명명하는 문자열 벡터"
-
-#: logRegBin/options/factors.description.R
-#: logRegMulti/options/factors.description.R
-#: logRegOrd/options/factors.description.R
-msgid "a vector of strings naming the fixed factors from `data`"
-msgstr "'데이터'에서 고정 인자를 명명하는 문자열 벡터"
-
-#: anovaRMNP/options/measures.description.R
-msgid "a vector of strings naming the repeated measures variables"
-msgstr "반복 측정 변수를 명명하는 문자열 벡터"
-
-#: descriptives/options/vars.description.R
-#: efa/options/vars.description.R
-#: pca/options/vars.description.R
-#: propTest2/options/vars.description.R
-#: reliability/options/vars.description.R
-#: ttestOneS/options/vars.description.R
-msgid "a vector of strings naming the variables of interest in `data`"
-msgstr "'데이터'의 관심 변수를 명명하는 문자열 벡터"
-
-#: corrMatrix/options/vars.description.R
-#: corrPart/options/vars.description.R
-msgid "a vector of strings naming the variables to correlate in `data`"
-msgstr "'데이터'에서 연관시킬 변수의 이름을 지정하는 문자열 벡터"
-
-#: descriptives/options/splitBy.description.R
-msgid "a vector of strings naming the variables used to split `vars`"
-msgstr "분산을 분할하는 데 사용되는 변수의 이름을 지정하는 문자열 벡터"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -1866,6 +619,7 @@ msgid "an array of model specific results"
 msgstr "모델별 결과 배열"
 
 #: anovaNP/results/comparisons.description
+#: anovaNP/results/comparisonsDunn.description
 msgid "an array of pairwise comparison tables"
 msgstr "쌍대비교표열"
 
@@ -1904,22 +658,6 @@ msgstr "모델 경로 다이어그램을 포함하는 이미지"
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
 msgstr "묘사된 줄거리의 이미지"
-
-#: pca/options/nFactors.description.R
-msgid "an integer (default: 1), the number of components in the model"
-msgstr "정수(기본값: 1), 모델의 성분 수"
-
-#: efa/options/nFactors.description.R
-msgid "an integer (default: 1), the number of factors in the model"
-msgstr "정수(기본값: 1), 모델의 요인 수"
-
-#: descriptives/options/pcNEqGr.description.R
-msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr "동일한 그룹의 수를 지정하는 정수(기본값: 4)"
-
-#: descriptives/options/extremeN.description.R
-msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr "극값의 수를 지정하는 정수(기본값: 5)"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -2046,7 +784,7 @@ msgid "Bar Plots"
 msgstr "막대도표"
 
 #: contTables/options/bartype.title
-#: contTables/ui[1][2][0][0][1].label
+#: contTables/ui[1][3][0][0][1].label
 msgid "Bar Type"
 msgstr "막대유형"
 
@@ -2610,9 +1348,7 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr ""
-"상관 행렬은 두 개 이상의 연속형 변수 사이의 선형 관계를 조사하는 방법입니다."
-"\n"
+msgstr "상관 행렬은 두 개 이상의 연속형 변수 사이의 선형 관계를 조사하는 방법입니다.\n"
 "\n"
 "각 변수 쌍에 대해 피어슨의 r 값은 강도를 나타냅니다\n"
 "그리고 그 두 변수 사이의 관계의 방향. A\n"
@@ -2767,247 +1503,10 @@ msgstr "절단값 도표"
 msgid "Cut-off value"
 msgstr "절단값"
 
-#: contTablesPaired/options.description.R.usage
-msgid "dat <- data.frame(\n"
-"    `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),\n"
-"    `2nd survey` = c('Approve', 'Disapprove', 'Approve', 'Disapprove'),\n"
-"    `Counts` = c(794, 150, 86, 570),\n"
-"    check.names=FALSE)\n"
-"\n"
-"contTablesPaired(formula = Counts ~ `1st survey`:`2nd survey`, data = dat)\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ────────────────────────────────────────────────\n"
-"#    1st survey    Approve    Disapprove    Total\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Approve           794           150      944\n"
-"#    Disapprove         86           570      656\n"
-"#    Total             880           720     1600\n"
-"#  ────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  McNemar Test\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#                                Value    df    p\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    χ²                           17.4     1    < .001\n"
-"#    χ² continuity correction     16.8     1    < .001\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Counts`) from the\n"
-"# formula if each row represents a single observation:\n"
-"\n"
-"contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
-msgstr ""
-"dat <- data.frame(\n"
-"    `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),\n"
-"    `2nd survey` = c('Approve', 'Disapprove', 'Approve', 'Disapprove'),\n"
-"    `Counts` = c(794, 150, 86, 570),\n"
-"    check.names=FALSE)\n"
-"\n"
-"contTablesPaired(formula = Counts ~ `1st survey`:`2nd survey`, data = dat)\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ────────────────────────────────────────────────\n"
-"#    1st survey    Approve    Disapprove    Total\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Approve           794           150      944\n"
-"#    Disapprove         86           570      656\n"
-"#    Total             880           720     1600\n"
-"#  ────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  McNemar Test\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#                                Value    df    p\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    χ²                           17.4     1    < .001\n"
-"#    χ² continuity correction     16.8     1    < .001\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Counts`) from the\n"
-"# formula if each row represents a single observation:\n"
-"\n"
-"contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)\n"
-"\n"
-"// 코드라 번역 안함"
-
-#: propTest2/options.description.R.usage
-msgid "dat <- data.frame(x=c(8, 15))\n"
-"\n"
-"propTest2(dat, vars = x, areCounts = TRUE)\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (2 OUTCOMES)\n"
-"#\n"
-"#  Binomial Test\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#         Level    Count    Total    Proportion    p\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    x    1            8       23         0.348    0.210\n"
-"#         2           15       23         0.652    0.210\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    Note. Hₐ is proportion ≠ 0.5\n"
-"#"
-msgstr ""
-"dat <- data.frame(x=c(8, 15))\n"
-"\n"
-"propTest2(dat, vars = x, areCounts = TRUE)\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (2 OUTCOMES)\n"
-"#\n"
-"#  Binomial Test\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#         Level    Count    Total    Proportion    p\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    x    1            8       23         0.348    0.210\n"
-"#         2           15       23         0.652    0.210\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    Note. Hₐ is proportion ≠ 0.5\n"
-"// 코드라 번역 안함"
-
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
 msgstr "자료"
-
-#: cfa/options.description.R.usage
-msgid "data <- lavaan::HolzingerSwineford1939\n"
-"\n"
-"jmv::cfa(\n"
-"    data = data,\n"
-"    factors = list(\n"
-"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
-"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
-"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
-"    resCov = NULL)\n"
-"\n"
-"#\n"
-"#  CONFIRMATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Factor     Indicator    Estimate    SE        Z        p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Visual     x1              0.900    0.0832    10.81    < .001\n"
-"#               x2              0.498    0.0808     6.16    < .001\n"
-"#               x3              0.656    0.0776     8.46    < .001\n"
-"#    Textual    x4              0.990    0.0567    17.46    < .001\n"
-"#               x5              1.102    0.0626    17.60    < .001\n"
-"#               x6              0.917    0.0538    17.05    < .001\n"
-"#    Speed      x7              0.619    0.0743     8.34    < .001\n"
-"#               x8              0.731    0.0755     9.68    < .001\n"
-"#               x9              0.670    0.0775     8.64    < .001\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FACTOR ESTIMATES\n"
-"#\n"
-"#  Factor Covariances\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                          Estimate    SE        Z       p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    Visual     Visual      1.000 ᵃ\n"
-"#               Textual     0.459      0.0635    7.22    < .001\n"
-"#               Speed       0.471      0.0862    5.46    < .001\n"
-"#    Textual    Textual     1.000 ᵃ\n"
-"#               Speed       0.283      0.0715    3.96    < .001\n"
-"#    Speed      Speed       1.000 ᵃ\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    ᵃ fixed parameter\n"
-"#\n"
-"#\n"
-"#  MODEL FIT\n"
-"#\n"
-"#  Test for Exact Fit\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    85.3    24    < .001\n"
-"#  ────────────────────────\n"
-"#\n"
-"#\n"
-"#  Fit Measures\n"
-"#  ───────────────────────────────────────────────\n"
-"#    CFI      TLI      RMSEA     Lower     Upper\n"
-"#  ───────────────────────────────────────────────\n"
-"#    0.931    0.896    0.0921    0.0714    0.114\n"
-"#  ───────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data <- lavaan::HolzingerSwineford1939\n"
-"\n"
-"jmv::cfa(\n"
-"    data = data,\n"
-"    factors = list(\n"
-"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
-"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
-"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
-"    resCov = NULL)\n"
-"\n"
-"#\n"
-"#  CONFIRMATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Factor     Indicator    Estimate    SE        Z        p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Visual     x1              0.900    0.0832    10.81    < .001\n"
-"#               x2              0.498    0.0808     6.16    < .001\n"
-"#               x3              0.656    0.0776     8.46    < .001\n"
-"#    Textual    x4              0.990    0.0567    17.46    < .001\n"
-"#               x5              1.102    0.0626    17.60    < .001\n"
-"#               x6              0.917    0.0538    17.05    < .001\n"
-"#    Speed      x7              0.619    0.0743     8.34    < .001\n"
-"#               x8              0.731    0.0755     9.68    < .001\n"
-"#               x9              0.670    0.0775     8.64    < .001\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FACTOR ESTIMATES\n"
-"#\n"
-"#  Factor Covariances\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                          Estimate    SE        Z       p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    Visual     Visual      1.000 ᵃ\n"
-"#               Textual     0.459      0.0635    7.22    < .001\n"
-"#               Speed       0.471      0.0862    5.46    < .001\n"
-"#    Textual    Textual     1.000 ᵃ\n"
-"#               Speed       0.283      0.0715    3.96    < .001\n"
-"#    Speed      Speed       1.000 ᵃ\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    ᵃ fixed parameter\n"
-"#\n"
-"#\n"
-"#  MODEL FIT\n"
-"#\n"
-"#  Test for Exact Fit\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    85.3    24    < .001\n"
-"#  ────────────────────────\n"
-"#\n"
-"#\n"
-"#  Fit Measures\n"
-"#  ───────────────────────────────────────────────\n"
-"#    CFI      TLI      RMSEA     Lower     Upper\n"
-"#  ───────────────────────────────────────────────\n"
-"#    0.931    0.896    0.0921    0.0714    0.114\n"
-"#  ───────────────────────────────────────────────\n"
-"// 코드라 번역 안함"
 
 #: package/analyses/pca.menuSubgroup
 #: package/analyses/efa.menuSubgroup
@@ -3024,1239 +1523,6 @@ msgstr "데이터 세트가 현재 가중치가 없습니다"
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
 msgstr "데이터 요약"
-
-#: logRegBin/options.description.R.usage
-msgid "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            low = factor(birthwt$low),\n"
-"            age = birthwt$age,\n"
-"            bwt = birthwt$bwt)\n"
-"\n"
-"logRegBin(data = dat, dep = low,\n"
-"          covs = vars(age, bwt),\n"
-"          blocks = list(list(\"age\", \"bwt\")),\n"
-"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  BINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1     4.97e-7    6.00     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate      SE          Z           p\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Intercept    2974.73225    218237.2      0.0136    0.989\n"
-"#    age            -0.00653       482.7    -1.35e-5    1.000\n"
-"#    bwt            -1.18532        87.0     -0.0136    0.989\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Note. Estimates represent the log odds of \"low = 1\"\n"
-"#    vs. \"low = 0\"\n"
-"#\n"
-"#"
-msgstr ""
-"data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            low = factor(birthwt$low),\n"
-"            age = birthwt$age,\n"
-"            bwt = birthwt$bwt)\n"
-"\n"
-"logRegBin(data = dat, dep = low,\n"
-"          covs = vars(age, bwt),\n"
-"          blocks = list(list(\"age\", \"bwt\")),\n"
-"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  BINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1     4.97e-7    6.00     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate      SE          Z           p\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Intercept    2974.73225    218237.2      0.0136    0.989\n"
-"#    age            -0.00653       482.7    -1.35e-5    1.000\n"
-"#    bwt            -1.18532        87.0     -0.0136    0.989\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Note. Estimates represent the log odds of \"low = 1\"\n"
-"#    vs. \"low = 0\"\n"
-"#\n"
-"// 코드라 번역안함"
-
-#: logRegMulti/options.description.R.usage
-msgid "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            race = factor(birthwt$race),\n"
-"            age = birthwt$age,\n"
-"            low = factor(birthwt$low))\n"
-"\n"
-"logRegMulti(data = dat, dep = race,\n"
-"            covs = age, factors = low,\n"
-"            blocks = list(list(\"age\", \"low\")),\n"
-"            refLevels = list(\n"
-"                list(var=\"race\", ref=\"1\"),\n"
-"                list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  MULTINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ──────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ──────────────────────────────────────\n"
-"#        1         360    372    0.0333\n"
-"#  ──────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    race     Predictor    Estimate    SE        Z         p\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    2 - 1    Intercept      0.8155    1.1186     0.729    0.466\n"
-"#             age           -0.1038    0.0487    -2.131    0.033\n"
-"#             low:\n"
-"#             1 – 0          0.7527    0.4700     1.601    0.109\n"
-"#    3 - 1    Intercept      1.0123    0.7798     1.298    0.194\n"
-"#             age           -0.0663    0.0324    -2.047    0.041\n"
-"#             low:\n"
-"#             1 – 0          0.5677    0.3522     1.612    0.107\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr ""
-"data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            race = factor(birthwt$race),\n"
-"            age = birthwt$age,\n"
-"            low = factor(birthwt$low))\n"
-"\n"
-"logRegMulti(data = dat, dep = race,\n"
-"            covs = age, factors = low,\n"
-"            blocks = list(list(\"age\", \"low\")),\n"
-"            refLevels = list(\n"
-"                list(var=\"race\", ref=\"1\"),\n"
-"                list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  MULTINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ──────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ──────────────────────────────────────\n"
-"#        1         360    372    0.0333\n"
-"#  ──────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    race     Predictor    Estimate    SE        Z         p\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    2 - 1    Intercept      0.8155    1.1186     0.729    0.466\n"
-"#             age           -0.1038    0.0487    -2.131    0.033\n"
-"#             low:\n"
-"#             1 – 0          0.7527    0.4700     1.601    0.109\n"
-"#    3 - 1    Intercept      1.0123    0.7798     1.298    0.194\n"
-"#             age           -0.0663    0.0324    -2.047    0.041\n"
-"#             low:\n"
-"#             1 – 0          0.5677    0.3522     1.612    0.107\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#\n"
-"// 코드라 번역안함"
-
-#: anovaRM/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRM(\n"
-"    data = bugs,\n"
-"    rm = list(\n"
-"        list(\n"
-"            label = 'Frightening',\n"
-"            levels = c('Low', 'High'))),\n"
-"    rmCells = list(\n"
-"        list(\n"
-"            measure = 'LDLF',\n"
-"            cell = 'Low'),\n"
-"        list(\n"
-"            measure = 'LDHF',\n"
-"            cell = 'High')),\n"
-"    rmTerms = list(\n"
-"        'Frightening'))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA\n"
-"#\n"
-"#  Within Subjects Effects\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                  Sum of Squares    df    Mean Square    F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Frightening              126     1         126.11    44.2    < .001\n"
-"#    Residual                 257    90           2.85\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#\n"
-"#\n"
-"#\n"
-"#  Between Subjects Effects\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#                Sum of Squares    df    Mean Square    F    p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Residual               954    90           10.6\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRM(\n"
-"    data = bugs,\n"
-"    rm = list(\n"
-"        list(\n"
-"            label = 'Frightening',\n"
-"            levels = c('Low', 'High'))),\n"
-"    rmCells = list(\n"
-"        list(\n"
-"            measure = 'LDLF',\n"
-"            cell = 'Low'),\n"
-"        list(\n"
-"            measure = 'LDHF',\n"
-"            cell = 'High')),\n"
-"    rmTerms = list(\n"
-"        'Frightening'))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA\n"
-"#\n"
-"#  Within Subjects Effects\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                  Sum of Squares    df    Mean Square    F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Frightening              126     1         126.11    44.2    < .001\n"
-"#    Residual                 257    90           2.85\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#\n"
-"#\n"
-"#\n"
-"#  Between Subjects Effects\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#                Sum of Squares    df    Mean Square    F    p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Residual               954    90           10.6\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"// 코드라 번역안함"
-
-#: anovaRMNP/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Friedman\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    55.8     3    < .001\n"
-"#  ────────────────────────\n"
-"#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Friedman\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    55.8     3    < .001\n"
-"#  ────────────────────────\n"
-"// 코드라 번역 안함"
-
-#: ttestPS/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"ttestPS(bugs, pairs = list(\n"
-"        list(i1 = 'LDLF', i2 = 'LDHF')))\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES T-TEST\n"
-"#\n"
-"#  Paired Samples T-Test\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                                   statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    LDLF    LDHF    Student's t        -6.65    90.0    < .001\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('bugs', package = 'jmv')\n"
-"\n"
-"ttestPS(bugs, pairs = list(\n"
-"        list(i1 = 'LDLF', i2 = 'LDHF')))\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES T-TEST\n"
-"#\n"
-"#  Paired Samples T-Test\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                                   statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    LDLF    LDHF    Student's t        -6.65    90.0    < .001\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"// 코드라 번역 안함"
-
-#: contTables/options.description.R.usage
-msgid "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"contTables(formula = Freq ~ Hair:Eye, dat)\n"
-"\n"
-"#\n"
-"#  CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Hair     Brown    Blue    Hazel    Green    Total\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Black       68      20       15        5      108\n"
-"#    Brown      119      84       54       29      286\n"
-"#    Red         26      17       14       14       71\n"
-"#    Blond        7      94       10       16      127\n"
-"#    Total      220     215       93       64      592\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Tests\n"
-"#  ───────────────────────────────\n"
-"#          Value    df    p\n"
-"#  ───────────────────────────────\n"
-"#    χ²      138     9    < .001\n"
-"#    N       592\n"
-"#  ───────────────────────────────\n"
-"#\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Freq`) if each row\n"
-"# represents a single observation:\n"
-"\n"
-"contTables(formula = ~ Hair:Eye, dat)"
-msgstr ""
-"data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"contTables(formula = Freq ~ Hair:Eye, dat)\n"
-"\n"
-"#\n"
-"#  CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Hair     Brown    Blue    Hazel    Green    Total\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Black       68      20       15        5      108\n"
-"#    Brown      119      84       54       29      286\n"
-"#    Red         26      17       14       14       71\n"
-"#    Blond        7      94       10       16      127\n"
-"#    Total      220     215       93       64      592\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Tests\n"
-"#  ───────────────────────────────\n"
-"#          Value    df    p\n"
-"#  ───────────────────────────────\n"
-"#    χ²      138     9    < .001\n"
-"#    N       592\n"
-"#  ───────────────────────────────\n"
-"#\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Freq`) if each row\n"
-"# represents a single observation:\n"
-"\n"
-"contTables(formula = ~ Hair:Eye, dat)\n"
-"// 코드라 번역안함"
-
-#: propTestN/options.description.R.usage
-msgid "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (N OUTCOMES)\n"
-"#\n"
-"#  Proportions\n"
-"#  ────────────────────────────────\n"
-"#    Level    Count    Proportion\n"
-"#  ────────────────────────────────\n"
-"#    Brown      220         0.372\n"
-"#    Blue       215         0.363\n"
-"#    Hazel       93         0.157\n"
-"#    Green       64         0.108\n"
-"#  ────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Goodness of Fit\n"
-"#  ───────────────────────\n"
-"#    χ²     df    p\n"
-"#  ───────────────────────\n"
-"#    133     3    < .001\n"
-"#  ───────────────────────\n"
-"#"
-msgstr ""
-"data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (N OUTCOMES)\n"
-"#\n"
-"#  Proportions\n"
-"#  ────────────────────────────────\n"
-"#    Level    Count    Proportion\n"
-"#  ────────────────────────────────\n"
-"#    Brown      220         0.372\n"
-"#    Blue       215         0.363\n"
-"#    Hazel       93         0.157\n"
-"#    Green       64         0.108\n"
-"#  ────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Goodness of Fit\n"
-"#  ───────────────────────\n"
-"#    χ²     df    p\n"
-"#  ───────────────────────\n"
-"#    133     3    < .001\n"
-"#  ───────────────────────\n"
-"// 코드라 번역안함"
-
-#: efa/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  EXPLORATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ────────────────────────────────────────────────\n"
-"#                    1        2        Uniqueness\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Sepal.Length    0.993                0.10181\n"
-"#    Sepal.Width              0.725       0.42199\n"
-"#    Petal.Length    0.933                0.00483\n"
-"#    Petal.Width     0.897                0.07088\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Note. 'oblimin' rotation was used\n"
-"#"
-msgstr ""
-"data('iris')\n"
-"\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))"
-"\n"
-"\n"
-"#\n"
-"#  EXPLORATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ────────────────────────────────────────────────\n"
-"#                    1        2        Uniqueness\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Sepal.Length    0.993                0.10181\n"
-"#    Sepal.Width              0.725       0.42199\n"
-"#    Petal.Length    0.933                0.00483\n"
-"#    Petal.Width     0.897                0.07088\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Note. 'oblimin' rotation was used\n"
-"// 코드라 번역안함"
-
-#: mancova/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"mancova(data = iris,\n"
-"    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
-"    factors = Species)\n"
-"\n"
-"#\n"
-"#  MANCOVA\n"
-"#\n"
-"#  Multivariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#                                     value     F       df1    df2    p\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1.19    53.5      8    290    < .001\n"
-"#               Wilks' Lambda         0.0234     199      8    288    < .001\n"
-"#               Hotelling's Trace       32.5     581      8    286    < .001\n"
-"#               Roy's Largest Root      32.2    1167      4    145    < .001\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Univariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#                 Dependent Variable    Sum of Squares    df     Mean Square    F         p\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#    Species      Sepal.Length                   63.21      2        31.6061     119.3    < .001\n"
-"#                 Sepal.Width                    11.34      2         5.6725      49.2    < .001\n"
-"#                 Petal.Length                  437.10      2       218.5514    1180.2    < .001\n"
-"#                 Petal.Width                    80.41      2        40.2067     960.0    < .001\n"
-"#    Residuals    Sepal.Length                   38.96    147         0.2650\n"
-"#                 Sepal.Width                    16.96    147         0.1154\n"
-"#                 Petal.Length                   27.22    147         0.1852\n"
-"#                 Petal.Width                     6.16    147         0.0419\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('iris')\n"
-"\n"
-"mancova(data = iris,\n"
-"    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
-"    factors = Species)\n"
-"\n"
-"#\n"
-"#  MANCOVA\n"
-"#\n"
-"#  Multivariate Tests\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
-"#                                     value     F       df1    df2    p\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1.19    53.5      8    290    < ."
-"001\n"
-"#               Wilks' Lambda         0.0234     199      8    288    < ."
-"001\n"
-"#               Hotelling's Trace       32.5     581      8    286    < ."
-"001\n"
-"#               Roy's Largest Root      32.2    1167      4    145    < ."
-"001\n"
-"#  "
-"───────────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Univariate Tests\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"#                 Dependent Variable    Sum of Squares    df     Mean "
-"Square    F         p\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"#    Species      Sepal.Length                   63.21      2        "
-"31.6061     119.3    < .001\n"
-"#                 Sepal.Width                    11.34      2         "
-"5.6725      49.2    < .001\n"
-"#                 Petal.Length                  437.10      2       "
-"218.5514    1180.2    < .001\n"
-"#                 Petal.Width                    80.41      2        "
-"40.2067     960.0    < .001\n"
-"#    Residuals    Sepal.Length                   38.96    147         0."
-"2650\n"
-"#                 Sepal.Width                    16.96    147         0."
-"1154\n"
-"#                 Petal.Length                   27.22    147         0."
-"1852\n"
-"#                 Petal.Width                     6.16    147         0."
-"0419\n"
-"#  ──────────────────────────────────────────────────────────────────────────"
-"─────────────────────\n"
-"// 코드라 번역안함"
-
-#: pca/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  PRINCIPAL COMPONENT ANALYSIS\n"
-"#\n"
-"#  Component Loadings\n"
-"#  ────────────────────────────────────────\n"
-"#                    1         Uniqueness\n"
-"#  ────────────────────────────────────────\n"
-"#    Sepal.Length     0.890        0.2076\n"
-"#    Sepal.Width     -0.460        0.7883\n"
-"#    Petal.Length     0.992        0.0168\n"
-"#    Petal.Width      0.965        0.0688\n"
-"#  ────────────────────────────────────────\n"
-"#    Note. 'varimax' rotation was used\n"
-"#"
-msgstr ""
-"data('iris')\n"
-"\n"
-"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))"
-"\n"
-"\n"
-"#\n"
-"#  PRINCIPAL COMPONENT ANALYSIS\n"
-"#\n"
-"#  Component Loadings\n"
-"#  ────────────────────────────────────────\n"
-"#                    1         Uniqueness\n"
-"#  ────────────────────────────────────────\n"
-"#    Sepal.Length     0.890        0.2076\n"
-"#    Sepal.Width     -0.460        0.7883\n"
-"#    Petal.Length     0.992        0.0168\n"
-"#    Petal.Width      0.965        0.0688\n"
-"#  ────────────────────────────────────────\n"
-"#    Note. 'varimax' rotation was used\n"
-"// 코드라 번역 안함"
-
-#: reliability/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width'),\n"
-"            omegaScale = TRUE)\n"
-"\n"
-"#\n"
-"#  RELIABILITY ANALYSIS\n"
-"#\n"
-"#  Scale Reliability Statistics\n"
-"#  ─────────────────────────────────────────\n"
-"#             Cronbach's α    McDonald's ω\n"
-"#  ─────────────────────────────────────────\n"
-"#    scale           0.708           0.848\n"
-"#  ─────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('iris')\n"
-"\n"
-"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', "
-"'Petal.Width'),\n"
-"            omegaScale = TRUE)\n"
-"\n"
-"#\n"
-"#  RELIABILITY ANALYSIS\n"
-"#\n"
-"#  Scale Reliability Statistics\n"
-"#  ─────────────────────────────────────────\n"
-"#             Cronbach's α    McDonald's ω\n"
-"#  ─────────────────────────────────────────\n"
-"#    scale           0.708           0.848\n"
-"#  ─────────────────────────────────────────\n"
-"// 코드라 번역 안함"
-
-#: corrMatrix/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
-"\n"
-"#\n"
-"#  CORRELATION MATRIX\n"
-"#\n"
-"#  Correlation Matrix\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                           mpg      cyl       disp      hp\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r        —    -0.852    -0.848    -0.776\n"
-"#            p-value            —    < .001    < .001    < .001\n"
-"#\n"
-"#    cyl     Pearson's r                  —     0.902     0.832\n"
-"#            p-value                      —    < .001    < .001\n"
-"#\n"
-"#    disp    Pearson's r                            —     0.791\n"
-"#            p-value                                —    < .001\n"
-"#\n"
-"#    hp      Pearson's r                                      —\n"
-"#            p-value                                          —\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('mtcars')\n"
-"\n"
-"corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
-"\n"
-"#\n"
-"#  CORRELATION MATRIX\n"
-"#\n"
-"#  Correlation Matrix\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                           mpg      cyl       disp      hp\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r        —    -0.852    -0.848    -0.776\n"
-"#            p-value            —    < .001    < .001    < .001\n"
-"#\n"
-"#    cyl     Pearson's r                  —     0.902     0.832\n"
-"#            p-value                      —    < .001    < .001\n"
-"#\n"
-"#    disp    Pearson's r                            —     0.791\n"
-"#            p-value                                —    < .001\n"
-"#\n"
-"#    hp      Pearson's r                                      —\n"
-"#            p-value                                          —\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"// 코드라 번역 안함"
-
-#: corrPart/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
-"\n"
-"#\n"
-"#  PARTIAL CORRELATION\n"
-"#\n"
-"#  Partial Correlation\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                           mpg       cyl       disp\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r         —\n"
-"#            p-value             —\n"
-"#\n"
-"#    cyl     Pearson's r    -0.590         —\n"
-"#            p-value        < .001         —\n"
-"#\n"
-"#    disp    Pearson's r    -0.606     0.719        —\n"
-"#            p-value        < .001    < .001        —\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Note. controlling for 'hp'\n"
-"#"
-msgstr ""
-"data('mtcars')\n"
-"\n"
-"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
-"\n"
-"#\n"
-"#  PARTIAL CORRELATION\n"
-"#\n"
-"#  Partial Correlation\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                           mpg       cyl       disp\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r         —\n"
-"#            p-value             —\n"
-"#\n"
-"#    cyl     Pearson's r    -0.590         —\n"
-"#            p-value        < .001         —\n"
-"#\n"
-"#    disp    Pearson's r    -0.606     0.719        —\n"
-"#            p-value        < .001    < .001        —\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Note. controlling for 'hp'\n"
-"// 코드라 번역안함"
-
-#: logLinear/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
-"dat <- as.data.frame(tab)\n"
-"\n"
-"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
-"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
-"          refLevels = list(\n"
-"              list(var=\"gear\", ref=\"3\"),\n"
-"              list(var=\"cyl\", ref=\"4\")))\n"
-"\n"
-"#\n"
-"#  LOG-LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1    4.12e-10    41.4     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Predictor          Estimate     SE          Z            p\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Intercept          -4.71e-16        1.00    -4.71e-16    1.000\n"
-"#    gear:\n"
-"#    4 – 3                  2.079        1.06        1.961    0.050\n"
-"#    5 – 3                  0.693        1.22        0.566    0.571\n"
-"#    cyl:\n"
-"#    6 – 4                  0.693        1.22        0.566    0.571\n"
-"#    8 – 4                  2.485        1.04        2.387    0.017\n"
-"#    gear:cyl:\n"
-"#    (4 – 3):(6 – 4)       -1.386        1.37       -1.012    0.311\n"
-"#    (5 – 3):(6 – 4)       -1.386        1.73       -0.800    0.423\n"
-"#    (4 – 3):(8 – 4)      -26.867    42247.17    -6.36e -4    0.999\n"
-"#    (5 – 3):(8 – 4)       -2.485        1.44       -1.722    0.085\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr ""
-"data('mtcars')\n"
-"\n"
-"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
-"dat <- as.data.frame(tab)\n"
-"\n"
-"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
-"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
-"          refLevels = list(\n"
-"              list(var=\"gear\", ref=\"3\"),\n"
-"              list(var=\"cyl\", ref=\"4\")))\n"
-"\n"
-"#\n"
-"#  LOG-LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1    4.12e-10    41.4     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Predictor          Estimate     SE          Z            p\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Intercept          -4.71e-16        1.00    -4.71e-16    1.000\n"
-"#    gear:\n"
-"#    4 – 3                  2.079        1.06        1.961    0.050\n"
-"#    5 – 3                  0.693        1.22        0.566    0.571\n"
-"#    cyl:\n"
-"#    6 – 4                  0.693        1.22        0.566    0.571\n"
-"#    8 – 4                  2.485        1.04        2.387    0.017\n"
-"#    gear:cyl:\n"
-"#    (4 – 3):(6 – 4)       -1.386        1.37       -1.012    0.311\n"
-"#    (5 – 3):(6 – 4)       -1.386        1.73       -0.800    0.423\n"
-"#    (4 – 3):(8 – 4)      -26.867    42247.17    -6.36e -4    0.999\n"
-"#    (5 – 3):(8 – 4)       -2.485        1.44       -1.722    0.085\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#\n"
-"// 코드라 번역 안함"
-
-#: descriptives/options.description.R.usage
-msgid "data('mtcars')\n"
-"dat <- mtcars\n"
-"\n"
-"# frequency tables can be provided for factors\n"
-"dat$gear <- as.factor(dat$gear)\n"
-"\n"
-"descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
-"\n"
-"#\n"
-"#  DESCRIPTIVES\n"
-"#\n"
-"#  Descriptives\n"
-"#  ───────────────────────────────────────────\n"
-"#               mpg     cyl     disp    gear\n"
-"#  ───────────────────────────────────────────\n"
-"#    N            32      32      32      32\n"
-"#    Missing       0       0       0       0\n"
-"#    Mean       20.1    6.19     231    3.69\n"
-"#    Median     19.2    6.00     196    4.00\n"
-"#    Minimum    10.4    4.00    71.1       3\n"
-"#    Maximum    33.9    8.00     472       5\n"
-"#  ───────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FREQUENCIES\n"
-"#\n"
-"#  Frequencies of gear\n"
-"#  ────────────────────\n"
-"#    Levels    Counts\n"
-"#  ────────────────────\n"
-"#    3             15\n"
-"#    4             12\n"
-"#    5              5\n"
-"#  ────────────────────\n"
-"#\n"
-"\n"
-"# spliting by a variable\n"
-"descriptives(formula = disp + mpg ~ cyl, dat,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# providing histograms\n"
-"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# splitting by multiple variables\n"
-"descriptives(formula = mpg ~ cyl:gear, dat,\n"
-"    median=F, min=F, max=F, missing=F)"
-msgstr ""
-"data('mtcars')\n"
-"dat <- mtcars\n"
-"\n"
-"# frequency tables can be provided for factors\n"
-"dat$gear <- as.factor(dat$gear)\n"
-"\n"
-"descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
-"\n"
-"#\n"
-"#  DESCRIPTIVES\n"
-"#\n"
-"#  Descriptives\n"
-"#  ───────────────────────────────────────────\n"
-"#               mpg     cyl     disp    gear\n"
-"#  ───────────────────────────────────────────\n"
-"#    N            32      32      32      32\n"
-"#    Missing       0       0       0       0\n"
-"#    Mean       20.1    6.19     231    3.69\n"
-"#    Median     19.2    6.00     196    4.00\n"
-"#    Minimum    10.4    4.00    71.1       3\n"
-"#    Maximum    33.9    8.00     472       5\n"
-"#  ───────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FREQUENCIES\n"
-"#\n"
-"#  Frequencies of gear\n"
-"#  ────────────────────\n"
-"#    Levels    Counts\n"
-"#  ────────────────────\n"
-"#    3             15\n"
-"#    4             12\n"
-"#    5              5\n"
-"#  ────────────────────\n"
-"#\n"
-"\n"
-"# spliting by a variable\n"
-"descriptives(formula = disp + mpg ~ cyl, dat,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# providing histograms\n"
-"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# splitting by multiple variables\n"
-"descriptives(formula = mpg ~ cyl:gear, dat,\n"
-"    median=F, min=F, max=F, missing=F) // 코드라 번역 안함"
-
-#: linReg/options.description.R.usage
-msgid "data('Prestige', package='carData')\n"
-"\n"
-"linReg(data = Prestige, dep = income,\n"
-"       covs = vars(education, prestige, women),\n"
-"       blocks = list(list('education', 'prestige', 'women')))\n"
-"\n"
-"#\n"
-"#  LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────\n"
-"#    Model    R        R²\n"
-"#  ───────────────────────────\n"
-"#        1    0.802    0.643\n"
-"#  ───────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE         t         p\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
-"#    women           -50.9       8.56    -5.948    < .001\n"
-"#    prestige        141.4      29.91     4.729    < .001\n"
-"#    education       177.2     187.63     0.944     0.347\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('Prestige', package='carData')\n"
-"\n"
-"linReg(data = Prestige, dep = income,\n"
-"       covs = vars(education, prestige, women),\n"
-"       blocks = list(list('education', 'prestige', 'women')))\n"
-"\n"
-"#\n"
-"#  LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────\n"
-"#    Model    R        R²\n"
-"#  ───────────────────────────\n"
-"#        1    0.802    0.643\n"
-"#  ───────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE         t         p\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
-"#    women           -50.9       8.56    -5.948    < .001\n"
-"#    prestige        141.4      29.91     4.729    < .001\n"
-"#    education       177.2     187.63     0.944     0.347\n"
-"#  ────────────────────────────────────────────────────────\n"
-"// 코드라 번역안함"
-
-#: ancova/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANCOVA\n"
-"#\n"
-"#  ANCOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    supp                    205     1          205.4     11.4     0.001\n"
-"#    dose                   2224     1         2224.3    124.0    < .001\n"
-"#    Residuals              1023    57           17.9\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ancova(\n"
-"    formula = len ~ supp + dose,\n"
-"    data = ToothGrowth,\n"
-"    postHoc = ~ supp,\n"
-"    emMeans = ~ supp)"
-msgstr ""
-"data('ToothGrowth')\n"
-"\n"
-"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANCOVA\n"
-"#\n"
-"#  ANCOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    supp                    205     1          205.4     11.4     0.001\n"
-"#    dose                   2224     1         2224.3    124.0    < .001\n"
-"#    Residuals              1023    57           17.9\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ancova(\n"
-"    formula = len ~ supp + dose,\n"
-"    data = ToothGrowth,\n"
-"    postHoc = ~ supp,\n"
-"    emMeans = ~ supp) // 코드라 번역안함"
-
-#: anova/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANOVA\n"
-"#\n"
-"#  ANOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    dose                   2426     2         1213.2    92.00    < .001\n"
-"#    supp                    205     1          205.4    15.57    < .001\n"
-"#    dose:supp               108     2           54.2     4.11     0.022\n"
-"#    Residuals               712    54           13.2\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ANOVA(\n"
-"    formula = len ~ dose * supp,\n"
-"    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
-"    emmPlots = TRUE,              # produce plots of those marginal means\n"
-"    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr ""
-"data('ToothGrowth')\n"
-"\n"
-"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANOVA\n"
-"#\n"
-"#  ANOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    dose                   2426     2         1213.2    92.00    < .001\n"
-"#    supp                    205     1          205.4    15.57    < .001\n"
-"#    dose:supp               108     2           54.2     4.11     0.022\n"
-"#    Residuals               712    54           13.2\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ANOVA(\n"
-"    formula = len ~ dose * supp,\n"
-"    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:"
-"supp\n"
-"    emmPlots = TRUE,              # produce plots of those marginal means\n"
-"    emmTables = TRUE)             # produce tables of those marginal means //"
-" 코드라 번역안함"
-
-#: anovaNP/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Kruskal-Wallis\n"
-"#  ───────────────────────────────\n"
-"#           χ²      df    p\n"
-"#  ───────────────────────────────\n"
-"#    len    40.7     2    < .001\n"
-"#  ───────────────────────────────\n"
-"#"
-msgstr ""
-"data('ToothGrowth')\n"
-"\n"
-"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Kruskal-Wallis\n"
-"#  ───────────────────────────────\n"
-"#           χ²      df    p\n"
-"#  ───────────────────────────────\n"
-"#    len    40.7     2    < .001\n"
-"#  ───────────────────────────────\n"
-"# 코드라 번역안함"
-
-#: ttestIS/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  INDEPENDENT SAMPLES T-TEST\n"
-"#\n"
-"#  Independent Samples T-Test\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                          statistic    df      p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    len    Student's t         1.92    58.0    0.060\n"
-"#  ────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('ToothGrowth')\n"
-"\n"
-"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  INDEPENDENT SAMPLES T-TEST\n"
-"#\n"
-"#  Independent Samples T-Test\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                          statistic    df      p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    len    Student's t         1.92    58.0    0.060\n"
-"#  ────────────────────────────────────────────────────\n"
-"# 코드라 번역안함"
-
-#: ttestOneS/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
-"\n"
-"#\n"
-"#  ONE SAMPLE T-TEST\n"
-"#\n"
-"#  One Sample T-Test\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#                           statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#    len     Student's t         19.1    59.0    < .001\n"
-"#    dose    Student's t         14.4    59.0    < .001\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('ToothGrowth')\n"
-"\n"
-"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
-"\n"
-"#\n"
-"#  ONE SAMPLE T-TEST\n"
-"#\n"
-"#  One Sample T-Test\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#                           statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#    len     Student's t         19.1    59.0    < .001\n"
-"#    dose    Student's t         14.4    59.0    < .001\n"
-"#  ──────────────────────────────────────────────────────\n"
-"# 코드라 번역안함"
-
-#: anovaOneW/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"dat <- ToothGrowth\n"
-"dat$dose <- factor(dat$dose)\n"
-"\n"
-"anovaOneW(formula = len ~ dose, data = dat)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA\n"
-"#\n"
-"#  One-Way ANOVA (Welch's)\n"
-"#  ────────────────────────────────────────\n"
-"#           F       df1    df2     p\n"
-"#  ────────────────────────────────────────\n"
-"#    len    68.4      2    37.7    < .001\n"
-"#  ────────────────────────────────────────\n"
-"#"
-msgstr ""
-"data('ToothGrowth')\n"
-"dat <- ToothGrowth\n"
-"dat$dose <- factor(dat$dose)\n"
-"\n"
-"anovaOneW(formula = len ~ dose, data = dat)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA\n"
-"#\n"
-"#  One-Way ANOVA (Welch's)\n"
-"#  ────────────────────────────────────────\n"
-"#           F       df1    df2     p\n"
-"#  ────────────────────────────────────────\n"
-"#    len    68.4      2    37.7    < .001\n"
-"#  ────────────────────────────────────────\n"
-"# 코드라 번역안함"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -4347,10 +1613,7 @@ msgstr "기술통계"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr ""
-"서술형은 자료의 형태와 분포를 탐색할 수 있는 시각화와 통계를 요약하는 여러 "
-"가지 방법이다. 좀 더 공식적인 테스트를 진행하기 전에 서술형으로 자료를 "
-"탐색하는 것이 좋다."
+msgstr "서술형은 자료의 형태와 분포를 탐색할 수 있는 시각화와 통계를 요약하는 여러 가지 방법이다. 좀 더 공식적인 테스트를 진행하기 전에 서술형으로 자료를 탐색하는 것이 좋다."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -4391,6 +1654,18 @@ msgstr "기술통계 표"
 #: logRegOrd/results/modelFit.columns.title
 msgid "Deviance"
 msgstr "이탈도"
+
+#: R/conttables.b.R
+msgid "Deviance residuals"
+msgstr ""
+
+#: contTables/options/resA.title
+msgid "Deviance residuals (Poisson GLM)"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
+msgstr ""
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -4470,6 +1745,10 @@ msgstr "분산"
 msgid "Distribution"
 msgstr "분포"
 
+#: R/descriptives.b.R
+msgid "Does not support weighted data yet."
+msgstr ""
+
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
 msgstr "동분산을 가정하지 않음(Welch's)"
@@ -4498,6 +1777,11 @@ msgstr "이곳으로 변수를 이동하세요"
 msgid "DSCF pairwise comparisons"
 msgstr "DSCF 쌍별 비교"
 
+#: anovaNP/options/pairsDunn.title
+#: anovaNP/results/comparisonsDunn.title
+msgid "Dunn's pairwise comparisons"
+msgstr ""
+
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
 msgstr "자기상관에 대한 Durbin–Watson 검증"
@@ -4516,6 +1800,7 @@ msgstr "드와스-스틸-크리첼로-플라이너 쌍별 비교"
 #: anova/options/effectSize.title
 #: anova/ui[1][1].label
 #: anova/ui[5][1][1].label
+#: anovaNP/ui[1][0].label
 #: anovaRM/options/effectSize.title
 #: anovaRM/ui[1][0][0].label
 #: ttestIS/options/effectSize.title
@@ -4528,7 +1813,6 @@ msgstr "효과 크기"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
-#: anovaNP/options/es.title
 #: ttestIS/ui[1][1][0]/effectSize.label
 #: ttestOneS/options/effectSize.title
 #: ttestOneS/ui[1][1][0]/effectSize.label
@@ -4552,8 +1836,7 @@ msgstr "고유값이 다음보다 큼"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "피실험자 설계 사이의 빈 셀: 피실험자 요인 수준 사이의 하나 이상의 조합에 "
-"0개의 관측치가 있음"
+msgstr "피실험자 설계 사이의 빈 셀: 피실험자 요인 수준 사이의 하나 이상의 조합에 0개의 관측치가 있음"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -4770,8 +2053,7 @@ msgstr "'{factorName}' 요인에 단일 수준만 포함됨(결측 값이 포함
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "'{factorName}' 요인에 사용되지 않은 수준이 포함됨(결측값이 있는 행을 제거한 "
-"후)"
+msgstr "'{factorName}' 요인에 사용되지 않은 수준이 포함됨(결측값이 있는 행을 제거한 후)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -5094,6 +2376,9 @@ msgstr "적재물을 아래에 숨깁니다"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
+#: contTables/options/hlresP.title
+#: contTables/options/hlresS.title
+#: contTables/options/hlresA.title
 msgid "Highlight values above"
 msgstr "위의 값 강조 표시"
 
@@ -5157,10 +2442,6 @@ msgstr "가설"
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
 msgstr "항목이 떨어졌을 경우"
-
-#: anovaRM/options/contrasts.description.R
-msgid "in development"
-msgstr "개발중"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
@@ -5236,6 +2517,10 @@ msgstr "구간"
 #: descriptives/options/iqr.title
 msgid "IQR"
 msgstr "사분범위"
+
+#: R/utilsanova.R
+msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgstr ""
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -5384,10 +2669,7 @@ msgstr "선형 회귀분석"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr ""
-"선형회귀분석은 연속형 종속변수와 하나 이상의 연속형 및/또는 범주형 설명변수 "
-"간의 관계를 탐색하는 데 사용된다. 분산분석이나 ANCOVA와 같은 다른 통계적 "
-"방법들은 실제로는 선형회귀분석의 형태에 불과하다."
+msgstr "선형회귀분석은 연속형 종속변수와 하나 이상의 연속형 및/또는 범주형 설명변수 간의 관계를 탐색하는 데 사용된다. 분산분석이나 ANCOVA와 같은 다른 통계적 방법들은 실제로는 선형회귀분석의 형태에 불과하다."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -5450,6 +2732,36 @@ msgstr "하한계"
 msgid "lower bound"
 msgstr "하한계"
 
+#: R/linreg.b.R
+msgid "Mahalanobis ChiSq"
+msgstr ""
+
+#: linReg/options/mahal.title
+#: linReg/options/mahalOV.title
+msgid "Mahalanobis distance"
+msgstr ""
+
+#: linReg/results/models.template/dataSummary/mahal.title
+#: linReg/results/mahalOV.title
+msgid "Mahalanobis Distance"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance (Chi sq.)"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance (p)"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis p"
+msgstr ""
+
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
 #: mancova/options.title
@@ -5510,6 +2822,7 @@ msgid "Mauchly's W"
 msgstr "모클리의 W"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
 msgstr "최대"
@@ -5565,6 +2878,7 @@ msgstr "맥네마르 테스트"
 #: descriptives/options/boxMean.title
 #: descriptives/options/mean.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
@@ -5652,6 +2966,7 @@ msgstr "측정값"
 #: anovaRMNP/results/desc.columns.title
 #: descriptives/options/median.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
@@ -5669,6 +2984,7 @@ msgid "Method"
 msgstr "방법"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
 msgstr "최소값"
@@ -5778,6 +3094,10 @@ msgstr "모형 비교"
 msgid "Model Fit"
 msgstr "모형 적합도"
 
+#: R/utilsanova.R
+msgid "Model fit issue detected!"
+msgstr ""
+
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
 #: logRegBin/results/modelFit.title
@@ -5817,6 +3137,13 @@ msgstr "모형 경계점"
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
 msgstr "모형 경계점"
+
+#: R/linreg.b.R
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Models estimated using sample size of N={n}"
+msgstr ""
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -5859,9 +3186,7 @@ msgstr "다항 로지스틱 회귀분석"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr ""
-"다변량 분산 분석(MANCOVA)은 여러 종속 변수와 하나 이상의 범주형 및/또는 "
-"연속형 설명 변수 간의 관계를 탐색하는 데 사용된다."
+msgstr "다변량 분산 분석(MANCOVA)은 여러 종속 변수와 하나 이상의 범주형 및/또는 연속형 설명 변수 간의 관계를 탐색하는 데 사용된다."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -5914,8 +3239,7 @@ msgstr "수정 없음"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "정의된 요인이 없습니다. Box의 M 검정은 모형에 요인이 포함된 경우에만 관련이 "
-"있습니다."
+msgstr "정의된 요인이 없습니다. Box의 M 검정은 모형에 요인이 포함된 경우에만 관련이 있습니다."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -5978,6 +3302,10 @@ msgstr "정규분포성 검증(Shapiro-Wilk)"
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr "모든 계수를 추정할 수 없는 경우(단일 적합으로 인한 경우)"
+
+#: R/descriptives.b.R
+msgid "Not all statistics support weighted data yet."
+msgstr ""
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -6084,18 +3412,6 @@ msgstr "모형 검증"
 msgid "Omnibus Tests"
 msgstr "모형검증"
 
-#: corrMatrix/options/hypothesis.description.R
-#: corrPart/options/hypothesis.description.R
-msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
-msgstr ""
-"경계 가설을 명시하는 'corr'(기본값), 'pos'(기본값), 'neg'(네그) 중 하나; "
-"상관관계, 양의 상관관계, 음의 상관관계를 각각 나타냈다."
-
-#: corrPart/options/type.description.R
-msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
-msgstr "계산할 부분 상관의 유형을 지정하는 '부분'(기본값) 또는 'semi' 중 하나. 부분 "
-"상관 또는 반 부분 상관."
-
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
 msgstr "하나 또는 두 그룹 모두에 충분한 관측치가 포함되어 있지 않다"
@@ -6119,53 +3435,6 @@ msgstr "하나 또는 두 개의 변수에 관측치가 충분하지 않음"
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
 msgstr "완벽한 공선성으로 인해 '{modelNo}' 모델의 계수를 하나 이상 추정할 수 없다."
-
-#: cfa/options/fitMeasures.description.R
-msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
-msgstr ""
-"'cfi', 'tli', 'srmr', 'rmsea', 'aic' 또는 'bic' 중 하나 이상; 각각 CFI, TLI, "
-"SRMR, RMSEA + 90% 신뢰구간, 조정된 AIC 및 BIC 모델 적합도 측정을 사용한다"
-
-#: ancova/options/effectSize.description.R
-#: anova/options/effectSize.description.R
-#: anovaRM/options/effectSize.description.R
-msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
-msgstr "'에타', '파트에타' 또는 '오메가' 중 하나 이상; 각각 η², 부분 η² 및 ω² 효과 "
-"크기 사용"
-
-#: anovaRM/options/spherCorr.description.R
-msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
-msgstr ""
-"'없음'(default), 'GG' 또는 'HF' 중 하나 이상; 쉐리시티에 대해 각각 p-값 "
-"보정, 온실-가이서 p-값 보정 및 Huynh-Feld p-값 보정 사용"
-
-#: anovaRM/options/postHocCorr.description.R
-msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
-msgstr ""
-"'none', 'tukey'(기본값), 'scheff', 'bonf' 또는 'holm' 중 하나 이상; 각각 no, "
-"Tukey, Scheffe, Bonferroni 및 Holm 사후 수정 사용"
-
-#: ancova/options/postHocCorr.description.R
-#: anova/options/postHocCorr.description.R
-msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
-msgstr ""
-"'none', 'tukey', 'scheff', 'bonf' 또는 'holm' 중 하나 이상; 각각 no, Tukey, "
-"Scheffe, Bonferroni 및 Holm Post Hoc 수정 제공"
-
-#: mancova/options/multivar.description.R
-msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
-msgstr ""
-"'pillai', 'wilks', 'hotel' 또는 'roy' 중 하나 이상; 각각 Pillai's Trace, "
-"Wilks' Lambda, Hotelling's Trace 및 Roy's Lawge Root 다변량 통계를 사용합니다"
-
-#: logLinear/options/pseudoR2.description.R
-#: logRegBin/options/pseudoR2.description.R
-#: logRegMulti/options/pseudoR2.description.R
-#: logRegOrd/options/pseudoR2.description.R
-msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
-msgstr ""
-"'r2mf', 'r2cs' 또는 'r2n' 중 하나 이상; 각각 McFadden, Cox & Snell 및 "
-"Nagelkerke pseudo-R² 사용"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -6336,11 +3605,23 @@ msgstr "전체 모형 검증"
 msgid "p"
 msgstr "p"
 
+#: linReg/ui[3][0][1][0]/mahal/mahalp.label
+msgid "p <"
+msgstr ""
+
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
 msgstr "p 값"
+
+#: anovaNP/results/comparisonsDunn.template.columns.title
+msgid "p<sub>(Bonferroni)</sub>"
+msgstr ""
+
+#: anovaNP/results/comparisonsDunn.template.columns.title
+msgid "p<sub>(unadj)</sub>"
+msgstr ""
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -6384,6 +3665,7 @@ msgid "Paired Variables"
 msgstr "대응 변수"
 
 #: anovaNP/results/comparisons.template.title
+#: anovaNP/results/comparisonsDunn.template.title
 msgid "Pairwise comparisons - $key"
 msgstr "짝 비교 - $key"
 
@@ -6412,8 +3694,7 @@ msgstr "편 상관계수"
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr ""
-"부분 상관 행렬은 선형 관계를 조사하는 방법입니다\n"
+msgstr "부분 상관 행렬은 선형 관계를 조사하는 방법입니다\n"
 "다른 변수를 통제하는 동안 두 개 이상의 연속형 변수 사이에서\n"
 "변수들"
 
@@ -6436,8 +3717,7 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr ""
-"부분 상관 행렬은 선형 관계를 조사하는 방법입니다\n"
+msgstr "부분 상관 행렬은 선형 관계를 조사하는 방법입니다\n"
 "다른 변수를 통제하는 동안 두 개 이상의 연속형 변수 사이에서\n"
 "변수들\n"
 "\n"
@@ -6465,6 +3745,10 @@ msgstr "부분 η²"
 msgid "partial η²"
 msgstr "부분 η²"
 
+#: linReg/results/models.template/dataSummary/mahal.columns.title
+msgid "Participants (rows) below p-threshold"
+msgstr ""
+
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
 msgstr "경로 모형"
@@ -6483,6 +3767,11 @@ msgstr "피어슨"
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr "숫자가 아닌 값에 대해서는 피어슨 상관 관계를 계산할 수 없습니다"
+
+#: R/conttables.b.R
+#: contTables/options/resP.title
+msgid "Pearson residuals"
+msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6530,8 +3819,7 @@ msgstr "Mann-Whitney U 검정을 실시하다."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "정규성에 대한 샤피로-윌크 검정을 수행합니다. p-값이 작으면 데이터가 정규 "
-"분포에서 가져온 것이 아님을 나타냅니다."
+msgstr "정규성에 대한 샤피로-윌크 검정을 수행합니다. p-값이 작으면 데이터가 정규 분포에서 가져온 것이 아님을 나타냅니다."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -6545,14 +3833,12 @@ msgstr "Fisher's(또는 '정규'라고 할 수 있는) 분산 분석을 수행�
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "Shapiro-Wilk 정규성 검정을 수행합니다. p-값이 작으면 데이터가 정규 분포에서 "
-"가져온 것이 아님을 나타냅니다."
+msgstr "Shapiro-Wilk 정규성 검정을 수행합니다. p-값이 작으면 데이터가 정규 분포에서 가져온 것이 아님을 나타냅니다."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "정규성 검정을 Shapiro-Wilk 검정을 수행합니다. p-값이 작으면 잔차가 정규 "
-"분포를 따르지 않음을 나타냅니다."
+msgstr "정규성 검정을 Shapiro-Wilk 검정을 수행합니다. p-값이 작으면 잔차가 정규 분포를 따르지 않음을 나타냅니다."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -6616,8 +3902,8 @@ msgstr "도표 유형"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
-#: contTables/ui[1][2].label
-#: contTables/ui[1][2][0][0][0].label
+#: contTables/ui[1][3].label
+#: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
 #: descriptives/ui[3].label
 #: descriptives/results/plots.title
@@ -6627,6 +3913,10 @@ msgstr "도표 유형"
 #: ttestPS/results/plots.title
 msgid "Plots"
 msgstr "도표"
+
+#: R/descriptives.b.R
+msgid "Plots are not yet supported for weighted descriptives."
+msgstr ""
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -6639,16 +3929,28 @@ msgstr "다항"
 msgid "Post Hoc Comparisons - {term}"
 msgstr "사후 비교 - {term}"
 
+#: R/conttables.b.R
+msgid "Post Hoc Test"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Post Hoc Test ({title})"
+msgstr ""
+
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
 #: ancova/results/postHoc.title
 #: anova/options/postHoc.title
 #: anova/ui[5].label
 #: anova/results/postHoc.title
+#: anovaNP/ui[1][1].label
 #: anovaOneW/results/postHoc.title
 #: anovaRM/options/postHoc.title
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
+#: contTables/ui[1][2].label
+#: contTables/ui[1][2][0][0][0].label
+#: contTables/results/postHoc.title
 msgid "Post Hoc Tests"
 msgstr "사후 검증"
 
@@ -6830,10 +4132,7 @@ msgstr "각 변수 조합에 대한 피어슨 r을 제공합니다."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
-"잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규분포를 따르는 경우 예상되는 것에 "
-"대한 실제 잔차의 그림을 제공한다. 대각선으로부터 큰 편차는 데이터가 "
-"정규분포를 따르지 않음을 시사한다."
+msgstr "잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규분포를 따르는 경우 예상되는 것에 대한 실제 잔차의 그림을 제공한다. 대각선으로부터 큰 편차는 데이터가 정규분포를 따르지 않음을 시사한다."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -6920,14 +4219,12 @@ msgstr "효과 크기를 제공합니다(Cohen의 d)."
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "분산의 균질성에 대한 Levene 검정을 제공합니다. p-값이 낮다는 것은 그룹의 "
-"분산이 동일하지 않음을 의미합니다."
+msgstr "분산의 균질성에 대한 Levene 검정을 제공합니다. p-값이 낮다는 것은 그룹의 분산이 동일하지 않음을 의미합니다."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "분산의 균질에 대한 Levene의 검정을 제공한다. p-값이 작으면 두 그룹의 분산이 "
-"동일하지 않음을 알 수 있다."
+msgstr "분산의 균질에 대한 Levene의 검정을 제공한다. p-값이 작으면 두 그룹의 분산이 동일하지 않음을 알 수 있다."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -6969,19 +4266,13 @@ msgstr "사후 검사를 하다."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
-"잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규분포를 따르는 경우 예상되는 것에 "
-"대한 실제 잔차의 그림을 제공한다. 대각선으로부터 큰 편차는 데이터가 "
-"정규분포로부터 온 것이 아님을 시사한다."
+msgstr "잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규분포를 따르는 경우 예상되는 것에 대한 실제 잔차의 그림을 제공한다. 대각선으로부터 큰 편차는 데이터가 정규분포로부터 온 것이 아님을 시사한다."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr ""
-"잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규 분포되어 있을 때 예상되는 것에 "
-"대한 실제 잔차의 그림을 제공합니다. 대각선으로부터 큰 편차는 잔차가 정규 "
-"분포를 따르지 않음을 나타냅니다."
+msgstr "잔차의 Q-Q 그림 - 데이터가 *완벽하게* 정규 분포되어 있을 때 예상되는 것에 대한 실제 잔차의 그림을 제공합니다. 대각선으로부터 큰 편차는 잔차가 정규 분포를 따르지 않음을 나타냅니다."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -7116,6 +4407,7 @@ msgstr "R²<sub>T</sub>"
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
+#: linReg/results/models.template/dataSummary/mahal.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
 msgstr "범위"
@@ -7333,10 +4625,6 @@ msgstr "역코딩 문항"
 msgid "Reverse Scaled Items"
 msgstr "역코딩 문항"
 
-#: jamovi/js/anovarm.events.js:8
-msgid "RM Factor {0}"
-msgstr "반복측정 요인 {0}"
-
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
 msgstr "반복측정 요인 1"
@@ -7397,10 +4685,6 @@ msgstr "행"
 #: contTables/options/compare/rows.title
 msgid "rows"
 msgstr "행"
-
-#: contTables/options/xaxis.description.R
-msgid "rows (default), or columns in bar plot X axis"
-msgstr "행(기본값) 또는 막대형 도표 X축의 열"
 
 #: R/conttables.b.R
 msgid "Rows compared"
@@ -7479,6 +4763,7 @@ msgstr "스크리 플롯"
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
@@ -7538,47 +4823,7 @@ msgstr "민감도"
 msgid "septic"
 msgstr ""
 
-#: logRegOrd/options.description.R.usage
-msgid "set.seed(1337)\n"
-"\n"
-"y <- factor(sample(1:3, 100, replace = TRUE))\n"
-"x1 <- rnorm(100)\n"
-"x2 <- rnorm(100)\n"
-"\n"
-"df <- data.frame(y=y, x1=x1, x2=x2)\n"
-"\n"
-"logRegOrd(data = df, dep = y,\n"
-"          covs = vars(x1, x2),\n"
-"          blocks = list(list(\"x1\", \"x2\")))\n"
-"\n"
-"#\n"
-"#  ORDINAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1         218    226    5.68e-4\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE       Z        p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    x1             0.0579    0.193    0.300    0.764\n"
-"#    x2             0.0330    0.172    0.192    0.848\n"
-"#  ────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr ""
-
 #: R/ancova.b.R
-#, fuzzy
 msgid "sextic"
 msgstr "6차"
 
@@ -7590,7 +4835,6 @@ msgid "Shapiro-Wilk"
 msgstr "샤피로-윌크"
 
 #: mancova/results/assump/shapiro.title
-#, fuzzy
 msgid "Shapiro-Wilk Multivariate Normality Test"
 msgstr "샤피로-윌크 다중변수 정규성 검정"
 
@@ -7635,6 +4879,10 @@ msgstr "모의 실험"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
+msgstr ""
+
+#: R/anovarm.b.R
+msgid "Singularity error. Sphericity corrections are not available"
 msgstr ""
 
 #: R/anovarm.b.R
@@ -7705,10 +4953,6 @@ msgstr ""
 msgid "SS Loadings"
 msgstr "제곱합 부하량"
 
-#: contTables/options/bartype.description.R
-msgid "stack or side by side (default), barplot type"
-msgstr ""
-
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
@@ -7760,6 +5004,14 @@ msgstr "표준화 추정값"
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
 msgstr "표준 잔차"
+
+#: R/conttables.b.R
+msgid "Standardized residuals"
+msgstr ""
+
+#: contTables/options/resS.title
+msgid "Standardized residuals (adjusted Pearson)"
+msgstr ""
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -7876,8 +5128,8 @@ msgstr ""
 #: jamovi/js/ancova.events.js:7
 #: jamovi/js/anova.js:45
 #: jamovi/js/anova.js:9
-#: jamovi/js/anovarm.events.js:16
-#: jamovi/js/anovarm.events.js:77
+#: jamovi/js/anovarm.js:15
+#: jamovi/js/anovarm.js:98
 #: jamovi/js/linreg.events.js:10
 #: jamovi/js/linreg.events.js:47
 #: jamovi/js/loglinear.events.js:10
@@ -7940,10 +5192,6 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
-
-#: linReg/options/weights.description.R
-msgid "the (optional) weights from `data` to be used in the fitting process"
 msgstr ""
 
 #: ttestOneS/options/hypothesis.description.ui
@@ -8072,50 +5320,13 @@ msgstr ""
 msgid "the control variables of interest."
 msgstr ""
 
-#: propTestN/options/counts.description.R
-msgid "the counts in `data`"
-msgstr ""
-
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
-
-#: linReg/options/covs.description.R
-msgid "the covariates from `data`"
 msgstr ""
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
 msgstr ""
-
-#: ancova/options/data.description.R
-#: anova/options/data.description.R
-#: anovaNP/options/data.description.R
-#: anovaOneW/options/data.description.R
-#: anovaRM/options/data.description.R
-#: anovaRMNP/options/data.description.R
-#: cfa/options/data.description.R
-#: contTables/options/data.description.R
-#: contTablesPaired/options/data.description.R
-#: corrMatrix/options/data.description.R
-#: corrPart/options/data.description.R
-#: descriptives/options/data.description.R
-#: efa/options/data.description.R
-#: linReg/options/data.description.R
-#: logLinear/options/data.description.R
-#: logRegBin/options/data.description.R
-#: logRegMulti/options/data.description.R
-#: logRegOrd/options/data.description.R
-#: mancova/options/data.description.R
-#: pca/options/data.description.R
-#: propTest2/options/data.description.R
-#: propTestN/options/data.description.R
-#: reliability/options/data.description.R
-#: ttestIS/options/data.description.R
-#: ttestOneS/options/data.description.R
-#: ttestPS/options/data.description.R
-msgid "the data as a data frame"
-msgstr "데이타 프레임 자료"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
@@ -8139,15 +5350,6 @@ msgstr ""
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
 
-#: linReg/options/dep.description.R
-msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
-
-#: ancova/options/dep.description.R
-#: anova/options/dep.description.R
-msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr ""
-
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
 msgstr ""
@@ -8160,10 +5362,6 @@ msgstr ""
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
 
-#: ttestIS/options/vars.description.R
-msgid "the dependent variables (not necessary when using a formula, see the examples)"
-msgstr ""
-
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
 msgstr ""
@@ -8174,15 +5372,6 @@ msgstr ""
 msgid "the error bars to plot on the marginal means."
 msgstr ""
 
-#: ancova/options/covs.description.R
-msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
-msgstr ""
-
-#: ancova/options/factors.description.R
-#: anova/options/factors.description.R
-msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
-msgstr ""
-
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
@@ -8191,17 +5380,9 @@ msgstr ""
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
 
-#: linReg/options/factors.description.R
-msgid "the fixed factors from `data`"
-msgstr ""
-
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
-
-#: ttestIS/options/group.description.R
-msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
 
 #: package/analyses/anovaNP.description
@@ -8285,10 +5466,6 @@ msgid "the repeated measures design."
 msgstr ""
 
 #: R/anovarm.b.R
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
-msgstr ""
-
-#: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
 
@@ -8298,6 +5475,10 @@ msgstr ""
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
+msgstr ""
+
+#: R/utilsreg.R
+msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
 
 #: package/analyses/ttestIS.description
@@ -8398,27 +5579,8 @@ msgstr ""
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
 
-#: propTestN/options/var.description.R
-msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
-msgstr ""
-
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
-
-#: contTables/options/cols.description.R
-#: contTablesPaired/options/cols.description.R
-msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-
-#: contTables/options/counts.description.R
-#: contTablesPaired/options/counts.description.R
-msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-
-#: contTables/options/rows.description.R
-#: contTablesPaired/options/rows.description.R
-msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
 
 #: R/descriptives.b.R
@@ -8432,10 +5594,6 @@ msgstr ""
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
 msgid "the variables of interest."
-msgstr ""
-
-#: contTables/options/layers.description.R
-msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
 
 #: ancova/options/ciWidthEmm.description.ui
@@ -8463,6 +5621,10 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "There were no Mahalanobis distances with a threshold below p < {p}."
 msgstr ""
 
 #: package.description
@@ -8537,10 +5699,6 @@ msgstr ""
 msgid "Total"
 msgstr "전체"
 
-#: contTables/options/yaxisPc.description.R
-msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr ""
-
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
@@ -8591,6 +5749,11 @@ msgstr "고유분산"
 #: mancova/results/univar.title
 msgid "Univariate Tests"
 msgstr "단변량 검증"
+
+#: R/conttables.b.R
+#: contTables/options/resU.title
+msgid "Unstandardized residuals"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -8808,7 +5971,7 @@ msgstr ""
 msgid "Within Subjects Effects"
 msgstr ""
 
-#: contTables/ui[1][2][0][1][1].label
+#: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
 msgstr "X-축"
 
@@ -8816,17 +5979,13 @@ msgstr "X-축"
 msgid "X-axis"
 msgstr "X-축"
 
-#: contTables/ui[1][2][0][1][0].label
+#: contTables/ui[1][3][0][1][0].label
 msgid "Y-Axis"
 msgstr "Y-축"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
 msgstr "Y-축"
-
-#: contTables/options/yaxis.description.R
-msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
-msgstr ""
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -8858,6 +6017,7 @@ msgstr ""
 msgid "ΔR²"
 msgstr ""
 
+#: anovaNP/options/es.title
 #: anovaNP/results/table.columns.title
 msgid "ε²"
 msgstr ""

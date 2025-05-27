@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-02-18 10:02+0000\n"
-"Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
-"Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ca/>\n"
-"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -36,6 +32,7 @@ msgstr "El mètode d'extracció ‘{method}’ s'ha utilitzat en combinació amb
 msgid "'{rotation}' rotation was used"
 msgstr "S'ha utilitzat la rotació ‘{rotation}’"
 
+#: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
 msgstr "'{var}' conté valors negatius. No son permeses ponderacions negatives."
@@ -182,93 +179,6 @@ msgstr "% de columna"
 msgid "% within row"
 msgstr "% de fila"
 
-#: ancova/options/ss.description.R
-#: anova/options/ss.description.R
-msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr "`'1'`, `'2' o `'3'` (predeterminat), la suma de quadrats a utilitzar"
-
-#: anovaRM/options/ss.description.R
-msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr "`'2'` o `'3'` (predeterminat), la suma de quadrats a utilitzar"
-
-#: contTables/options/hypothesis.description.R
-#: ttestIS/options/hypothesis.description.R
-msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr "`'different'` (predeterminat), `'oneGreater'` o `'twoGreater'`, la hipòtesi alternativa; el grup 1 és diferent al grup 2, el grup 1 és més gran que el grup 2 i el grup 2 és més gran que el grup 1 respectivament"
-
-#: ttestPS/options/hypothesis.description.R
-msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
-msgstr "`'different'` (predeterminat), `'oneGreater'` o `'twoGreater'`, la hipòtesi alternativa; mesura 1 diferent de la mesura 2, mesura 1 més gran que la mesura 2 i mesura 2 més gran que la mesura 1 respectivament"
-
-#: ttestOneS/options/hypothesis.description.R
-msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
-msgstr "`'dt'` (predeterminat), `'gt'` o `'lt'`, la hipòtesi alternativa; diferent a `testValue`, més gran que `testValue` i menor que `testValue` respectivament"
-
-#: cfa/options/constrain.description.R
-msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
-msgstr "`'facVar'` o `'facInd'`, com restringir el model; `'facVar'` fixa les variàncies dels factors a un, `'facInd'` fixa cada factor a l'escala del seu primer indicador."
-
-#: cfa/options/miss.description.R
-msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr "`'listwise'` o `'fiml'`, com tractar els valors restants;`'listwise'` exclou una fila de totes les anàlisis si manca una de les seves entrades, `'fiml'` usa un mètode de màxima versemblança de informació completa per a estimar el models."
-
-#: anovaRMNP/options/plotType.description.R
-msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr "` ‘means’` (predeterminat) o `'mitjanans’`, les barres d'error per a utilitzar a la gràfica"
-
-#: efa/options/extraction.description.R
-msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
-msgstr "`'minres'` (predeterminat), `'ml'` o `'pa'` utilitzen respectivament 'residu mínim , 'màxima versemblança’ o ’eix principal' com a mètode d'extracció de factors"
-
-#: ancova/options/emmPlotError.description.R
-#: anova/options/emmPlotError.description.R
-#: anovaRM/options/emmPlotError.description.R
-msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
-msgstr "`'none'`, `'ci'` (predeterminat) o `'se'`, respectivament, no s'utilitzen barres d'error, s'utilitzen intervals de confiança o s'utilitzen errors estàndard a les gràfiques de mitjanes marginals"
-
-#: anovaOneW/options/phMethod.description.R
-msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr "`'none'`, `'gamesHowell'` o `'tukey'`, quines proves post-hoc es proporcionen; `'none'` no mostra proves post-hoc, `'gamesHowell'` mostra proves post-hoc de Games-Howell on no s'assumeix equivalència de variàncies, i `'tukey'` mostra proves post-hoc de Tukey on s'assumeix equivalència de variàncies"
-
-#: pca/options/rotation.description.R
-msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr "`'none'`, `'varimax'` (predeterminat), `'quartimax'`, `'promax'`, `'oblimin'', o `'simlimax'`, la rotació a utilitzar en l'estimació"
-
-#: efa/options/rotation.description.R
-msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
-msgstr "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (predeterminat), o `'simlimax'`, la rotació a utilitzar en l'estimació"
-
-#: propTest2/options/hypothesis.description.R
-msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr "`'notequal'` (predeterminat), `'greater’` o` ‘less’`, la hipòtesi alternativa"
-
-#: efa/options/nFactorMethod.description.R
-#: pca/options/nFactorMethod.description.R
-msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr "` ‘parallel’` (predeterminat), `'eigen'` o` ‘fixed’`, la forma de determinar el nombre de factors"
-
-#: ttestPS/options/miss.description.R
-msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr "`'perAnalysis'` o `'listwise'`, com tractar els valors perduts; 'perAnalysis'` exclou els valors perduts per a les variables dependents individuals,`'listwise'` exclou una fila de totes les anàlisis si una de les seves entrades és perdut"
-
-#: anovaOneW/options/miss.description.R
-#: ttestIS/options/miss.description.R
-#: ttestOneS/options/miss.description.R
-msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr "`'perAnalysis'` o `'listwise'`, com tractar els valors perduts; 'perAnalysis'` exclou els valors perduts per a les variables dependents individuals,`'listwise'` exclou una fila de totes les anàlisis si una de les seves entrades és perdut."
-
-#: linReg/options/intercept.description.R
-msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr "`'refLevel'` (predeterminat) o `'grandMean'`, codificació de la constant. Crea un contrast per tal que la constant representi el nivell de referència o be la mitjana general"
-
-#: descriptives/options/desc.description.R
-msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr "` ‘rows’` o `'columns’` (predeterminat), mostra les variables a les files o a les Columnes (predeterminat)"
-
-#: efa/options/factorScoreMethod.description.R
-msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
-msgstr "`'Thurstone'` (predeterminat), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, o `'Harman'` utilitzar respectivament el mètode 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', o 'Harman' per a estimar les puntuacions dels factors"
-
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
 msgstr "`ANCOVA - ${dep}`"
@@ -276,10 +186,6 @@ msgstr "`ANCOVA - ${dep}`"
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
 msgstr "`ANOVA - ${dep}`"
-
-#: contTables/options/compare.description.R
-msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
-msgstr "`columns` o `rows` (predeterminat), compara Columnes/filas per a diferència de proporcions o riscos relatius (taules 2x2)"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
@@ -294,800 +200,6 @@ msgstr "`Coeficients del model - ${dep}`"
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
 msgstr "`Proporcions - ${var}`"
-
-#: descriptives/options/boxLabelOutliers.description.R
-msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr "`TRUE` (predeterminat) o `FALSE`, afegir etiquetes amb el nombre de columna als valors extrems del gràfic de caixa"
-
-#: ttestIS/options/students.description.R
-#: ttestOneS/options/students.description.R
-#: ttestPS/options/students.description.R
-msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr "`TRUE` (predeterminat) o `FALSE`, realitzar proves t de Student"
-
-#: anovaOneW/options/welchs.description.R
-msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr "`TRUE` (predeterminat) o `FALSE`, realitzar ANOVA unidireccional de Welch que no assumeix variàncies iguals"
-
-#: cfa/options/estTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona els valors ‘Z’ i ‘p’ per a les estimacions del model"
-
-#: cfa/options/modelTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona una Prova khi-quadrat per ajustament exacte, que compara el model amb el model de ajustament perfecte"
-
-#: linReg/options/ciEmm.description.R
-#: logLinear/options/ciEmm.description.R
-#: logRegBin/options/ciEmm.description.R
-#: logRegMulti/options/ciEmm.description.R
-msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona un Interval de Confiança per a les mitjanes marginals estimades"
-
-#: logLinear/options/aic.description.R
-#: logRegBin/options/aic.description.R
-#: logRegMulti/options/aic.description.R
-#: logRegOrd/options/aic.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona el Criterio d'Informació d'Aikaike (AIC) pels models"
-
-#: reliability/options/alphaScale.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la α de Cronbach"
-
-#: ancova/options/emmPlots.description.R
-#: anova/options/emmPlots.description.R
-#: anovaRM/options/emmPlots.description.R
-#: linReg/options/emmPlots.description.R
-#: logLinear/options/emmPlots.description.R
-#: logRegBin/options/emmPlots.description.R
-#: logRegMulti/options/emmPlots.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr "`TRUE” (predeterminat) o `FALSE`, proporciona gràfiques de mitjanes marginals estimades"
-
-#: cfa/options/factCovEst.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona estimacions de les (co)variàncies dels factors"
-
-#: cfa/options/resCovEst.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona estimacions de les (co)variàncies dels residus"
-
-#: anovaOneW/options/phMeanDif.description.R
-msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona diferències mitjanes per a proves post-hoc"
-
-#: corrMatrix/options/pearson.description.R
-#: corrPart/options/pearson.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la R de Pearson"
-
-#: corrMatrix/options/sig.description.R
-#: corrPart/options/sig.description.R
-msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona nivells de significació"
-
-#: anovaOneW/options/phSig.description.R
-msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona nivells de significació de les proves post-hoc"
-
-#: logLinear/options/dev.description.R
-#: logRegBin/options/dev.description.R
-#: logRegMulti/options/dev.description.R
-#: logRegOrd/options/dev.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la desviació (o -2LogLikelihood) pels models"
-
-#: descriptives/options/mean.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la mitjana"
-
-#: descriptives/options/median.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la mediana"
-
-#: linReg/options/modelTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la comparació entre els models i el model NULL"
-
-#: descriptives/options/missing.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona el nombre de valors perduts"
-
-#: descriptives/options/n.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la grandària de la mostra"
-
-#: descriptives/options/sd.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la desviació estàndard"
-
-#: linReg/options/r2.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la mesura estadística `R-quadrada` pels models"
-
-#: linReg/options/r.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona la mesura estadística `R` pels models"
-
-#: contTables/options/chiSq.description.R
-#: contTablesPaired/options/chiSq.description.R
-msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr "`TRUE` (predeterminat) o `FALSE`, proporciona χ²"
-
-#: ancova/options/emmWeights.description.R
-#: anova/options/emmWeights.description.R
-#: anovaRM/options/emmWeights.description.R
-#: linReg/options/emmWeights.description.R
-#: logLinear/options/emmWeights.description.R
-#: logRegBin/options/emmWeights.description.R
-#: logRegMulti/options/emmWeights.description.R
-msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr "`TRUE` (predeterminat) o `FALSE`, pondera cada cel·la per igual o pondera d'acord amb la freqüència de la cel·la"
-
-#: descriptives/options/barCounts.description.R
-msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr "`TRUE` o `FALSE` (predeterminat), afegeix freqüències als gràfics de barres"
-
-#: descriptives/options/boxMean.description.R
-msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), afegeix la mitjana al diagrama de caixes"
-
-#: corrMatrix/options/flag.description.R
-#: corrPart/options/flag.description.R
-msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr "`TRUE` o `FALSE` (predeterminat), marca les correlacions significatives"
-
-#: anovaOneW/options/phFlag.description.R
-msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr "`TRUE` o `FALSE` (predeterminat), marca les comparacions post-hoc significatives"
-
-#: linReg/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar una Prova de Shapiro-Wilk als residuals"
-
-#: anovaOneW/options/fishers.description.R
-msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar ANOVA unidireccional de Fisher, que assumeix variàncies iguals"
-
-#: ancova/options/homo.description.R
-#: anova/options/homo.description.R
-msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves d'homogeneïtat"
-
-#: anovaOneW/options/eqv.description.R
-msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar Prova de Levene d'homogeneïtat de les variàncies"
-
-#: ttestIS/options/eqv.description.R
-msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves de Levene d'homogeneïtat de les variàncies"
-
-#: ttestIS/options/mann.description.R
-msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves U de Mann-Whitney"
-
-#: anovaNP/options/pairs.description.R
-#: anovaRMNP/options/pairs.description.R
-msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar comparacions per parelles"
-
-#: ttestPS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves de normalitat Shapiro-wilk"
-
-#: anovaOneW/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar la Prova de normalitat de Shapiro-Wilk"
-
-#: ancova/options/norm.description.R
-#: anova/options/norm.description.R
-#: ttestIS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves de normalitat de Shapiro-Wilk"
-
-#: ttestOneS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves de normalitat de Shapiro-wilk"
-
-#: anovaRM/options/spherTests.description.R
-msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves de esfericitat"
-
-#: ttestIS/options/welchs.description.R
-msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves t de Welch"
-
-#: ttestOneS/options/wilcoxon.description.R
-#: ttestPS/options/wilcoxon.description.R
-msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), realitzar proves de rang amb signe de Wilcoxon"
-
-#: ancova/options/emmPlotData.description.R
-#: anova/options/emmPlotData.description.R
-#: anovaRM/options/emmPlotData.description.R
-msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr "`TRUE` o `FALSE` (predeterminat), gràfic de les dades a sobre de les mitjanes marginals"
-
-#: logLinear/options/ci.description.R
-#: logRegBin/options/ci.description.R
-#: logRegMulti/options/ci.description.R
-#: logRegOrd/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un Interval de Confiança per a les estimacions dels coeficients del model"
-
-#: logRegBin/options/ciOR.description.R
-#: logRegMulti/options/ciOR.description.R
-#: logRegOrd/options/ciOR.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un Interval de Confiança per a les estimacions del coeficient de la raó de contraris del model"
-
-#: logLinear/options/ciRR.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un Interval de Confiança per a les estimacions de la relació de tasa de coeficient del model"
-
-#: linReg/options/ciStdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un Interval de Confiança per a les estimacions estandaritzades del coeficient del model"
-
-#: linReg/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un Interval de Confiança pels coeficients del model"
-
-#: cfa/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un Interval de Confiança per a les estimacions del model"
-
-#: corrMatrix/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una gràfica de matriu de correlació"
-
-#: reliability/options/corPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una gràfica de correlació"
-
-#: logRegBin/options/cutOffPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una gràfica de tall"
-
-#: anovaRMNP/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una gràfica descriptiva"
-
-#: cfa/options/pathDiagram.description.R
-msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un diagrama de camins del model"
-
-#: logRegBin/options/class.description.R
-msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una taula de classificació prevista (o matriu de confusió)"
-
-#: mancova/options/qqPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una gràfica Q-Q de normalitat multivariant"
-
-#: ancova/options/qq.description.R
-#: anova/options/qq.description.R
-#: anovaOneW/options/qq.description.R
-#: anovaRM/options/qq.description.R
-#: linReg/options/qqPlot.description.R
-#: ttestOneS/options/qq.description.R
-#: ttestPS/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un gràfic Q-Q de residus"
-
-#: logRegBin/options/rocPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona un gràfic de corba ROC de rendiment diagnòstic"
-
-#: linReg/options/stdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una estimació estandarditzada dels coeficients del model"
-
-#: cfa/options/stdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una estimació estandarditzada per a les estimacions del model"
-
-#: contTables/options/zProp.description.R
-msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una Prova z per a les diferències entre dues proporcions"
-
-#: linReg/options/aic.description.R
-msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el Criterio d'Informació d'Aikaike (AIC) pels models"
-
-#: contTablesPaired/options/exact.description.R
-msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona una raó exacta logarítmica d'oportunitats relatives OR (requereix la instal·lació de exact2x2)"
-
-#: descriptives/options/bar.description.R
-msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics de barres (només variables nominals i ordinals)"
-
-#: propTest2/options/bf.description.R
-#: ttestIS/options/bf.description.R
-#: ttestOneS/options/bf.description.R
-#: ttestPS/options/bf.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona factors de Bayes"
-
-#: propTest2/options/ciBayes.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de credibilitat Bayesians"
-
-#: linReg/options/bic.description.R
-#: logLinear/options/bic.description.R
-#: logRegBin/options/bic.description.R
-#: logRegMulti/options/bic.description.R
-#: logRegOrd/options/bic.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el Criterio d'Informació bayesià (BIC) pels models"
-
-#: descriptives/options/box.description.R
-msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona diagrames de caixa (només variables contínues)"
-
-#: logRegBin/options/boxTidwell.description.R
-msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Prova Box-Tidwell per a la linealitat del logit"
-
-#: mancova/options/boxM.description.R
-msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Prova M de Box"
-
-#: ttestOneS/options/effectSize.description.R
-msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona les grandàries d'efecte d de Cohen"
-
-#: contTables/options/pcCol.description.R
-#: contTablesPaired/options/pcCol.description.R
-msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona percentatges de columna"
-
-#: corrMatrix/options/ci.description.R
-#: propTest2/options/ci.description.R
-#: ttestIS/options/ci.description.R
-#: ttestPS/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de Confiança"
-
-#: contTables/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de Confiança per a les mesures comparatives"
-
-#: ttestIS/options/ciES.description.R
-#: ttestOneS/options/ciES.description.R
-#: ttestPS/options/ciES.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de Confiança per a les grandàries de l'efecte"
-
-#: descriptives/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de Confiança per a la mitjana"
-
-#: ttestOneS/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de Confiança per a les diferències de mitjanes"
-
-#: ancova/options/postHocEsCi.description.R
-#: anova/options/postHocEsCi.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Intervals de Confiança per a les grandàries d'efecte post-hoc"
-
-#: corrMatrix/options/plotDens.description.R
-msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona densitats a la gràfica de la matriu de correlació"
-
-#: descriptives/options/dens.description.R
-msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics de densitat (només variables contínues)"
-
-#: anovaOneW/options/descPlot.description.R
-#: ttestIS/options/plots.description.R
-#: ttestOneS/options/plots.description.R
-#: ttestPS/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics descriptius"
-
-#: anovaOneW/options/desc.description.R
-#: anovaRMNP/options/desc.description.R
-#: ttestIS/options/desc.description.R
-#: ttestOneS/options/desc.description.R
-#: ttestPS/options/desc.description.R
-msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona estadístiques descriptives"
-
-#: descriptives/options/dot.description.R
-msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics de punts (només variables contínues)"
-
-#: ttestIS/options/effectSize.description.R
-#: ttestPS/options/effectSize.description.R
-msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona grandàries d'efecte"
-
-#: anovaNP/options/es.description.R
-msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona grandàries d'efecte"
-
-#: ancova/options/emmTables.description.R
-#: anova/options/emmTables.description.R
-#: anovaRM/options/emmTables.description.R
-#: linReg/options/emmTables.description.R
-#: logLinear/options/emmTables.description.R
-#: logRegBin/options/emmTables.description.R
-#: logRegMulti/options/emmTables.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona taules de mitjanes marginals estimades"
-
-#: cfa/options/factInterceptEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona estimacions per a les constants de factors"
-
-#: cfa/options/resInterceptEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona estimacions per a les constants residuals"
-
-#: contTables/options/fisher.description.R
-msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Prova exacta de Fisher"
-
-#: descriptives/options/freq.description.R
-msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona taules de freqüència (només variables nominals i ordinals)"
-
-#: contTables/options/gamma.description.R
-msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gamma"
-
-#: descriptives/options/hist.description.R
-msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona histogrames (només variables contínues)"
-
-#: reliability/options/meanItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona mitjanes de l'element"
-
-#: reliability/options/sdItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona desviacions estàndard de l'element"
-
-#: reliability/options/itemRestCor.description.R
-msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona correlacions amb la resta d'elements"
-
-#: contTables/options/taub.description.R
-#: corrMatrix/options/kendall.description.R
-#: corrPart/options/kendall.description.R
-msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona Tau-b de Kendall"
-
-#: contTables/options/mh.description.R
-msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Prova de Mantel-Haenszel per a la tendència"
-
-#: reliability/options/omegaScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr "`TRUE` or `FALSE` (predeterminat), proporciona la ω de McDonald"
-
-#: ttestOneS/options/meanDiff.description.R
-msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona mitjanes i desviacions estàndard"
-
-#: ttestIS/options/meanDiff.description.R
-#: ttestPS/options/meanDiff.description.R
-msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr "`TRUE` o `FALSO` (predeterminat), proporciona mitjanes i errors estàndard"
-
-#: cfa/options/mi.description.R
-msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona índexs de modificació pels paràmetres no inclosos en el model"
-
-#: descriptives/options/extreme.description.R
-msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona els N valors extrems (més alts i més baixos)"
-
-#: descriptives/options/pc.description.R
-msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona percentils"
-
-#: contTables/options/phiCra.description.R
-msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Phi i la V de Cramer"
-
-#: propTest2/options/postPlots.description.R
-msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics a posteriori"
-
-#: descriptives/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics Q-Q (només variables contínues)"
-
-#: ttestIS/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfics Q-Q de residus"
-
-#: descriptives/options/pcEqGr.description.R
-msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona quantils"
-
-#: linReg/options/resPlots.description.R
-msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
-msgstr "`TRUE` o `FALSO` (predeterminat), proporciona gràfics de residus on la variable dependent i cada covariant es representen contra els residus estandarditzats."
-
-#: linReg/options/durbin.description.R
-msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona els resultats de la Prova de Durbin-Watson per a l'autocorrelació"
-
-#: linReg/options/rmse.description.R
-msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona l'arrel de la mitjana dels errros al quadrat (RMSE) pels models"
-
-#: contTables/options/pcRow.description.R
-#: contTablesPaired/options/pcRow.description.R
-msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona percentatges de fila"
-
-#: descriptives/options/sw.description.R
-msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el valor-p de Shapiro-Wilk"
-
-#: mancova/options/shapiro.description.R
-msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Prova de Shapiro-Wilk"
-
-#: corrMatrix/options/spearman.description.R
-#: corrPart/options/spearman.description.R
-msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la rho de Spearman"
-
-#: corrMatrix/options/plotStats.description.R
-msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona estadístiques a la gràfica de la matriu de correlacions"
-
-#: linReg/options/cooks.description.R
-#: logRegBin/options/cooks.description.R
-msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona estadístiques resumides per a la distància de Cook"
-
-#: anovaOneW/options/phTest.description.R
-msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona els resultats de Prova (valor t i graus de llibertat) per a proves post-hoc"
-
-#: contTables/options/contCoef.description.R
-msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el coeficient de contingència"
-
-#: contTables/options/diffProp.description.R
-msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona les diferències en proporcions (només disponible per a taules 2x2)"
-
-#: contTables/options/exp.description.R
-msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona les freqüències esperades"
-
-#: logRegBin/options/OR.description.R
-#: logRegMulti/options/OR.description.R
-#: logRegOrd/options/OR.description.R
-msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona l'exponencial de l'estimació de raó de log-odds, o la estimació de la raó de contraris (OR)"
-
-#: logLinear/options/RR.description.R
-msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona l'exponencial de la estimació de la raó del log-rate o la estimació de la raó de tases"
-
-#: descriptives/options/iqr.description.R
-msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el rang interquartílic"
-
-#: descriptives/options/kurt.description.R
-msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la curtosi"
-
-#: contTables/options/likeRat.description.R
-msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la raó de versemblança"
-
-#: contTables/options/logOdds.description.R
-msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el logaritme de la raó de contraris (només disponible per a taules 2x2)"
-
-#: descriptives/options/max.description.R
-msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el màxim"
-
-#: reliability/options/meanScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la mitjana"
-
-#: descriptives/options/min.description.R
-msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el mínim"
-
-#: descriptives/options/mode.description.R
-msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la moda"
-
-#: logLinear/options/modelTest.description.R
-#: logRegBin/options/modelTest.description.R
-#: logRegMulti/options/modelTest.description.R
-#: logRegOrd/options/modelTest.description.R
-msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la comparació entre els models i el model NUL"
-
-#: corrMatrix/options/n.description.R
-#: corrPart/options/n.description.R
-msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el nombre de casos"
-
-#: contTables/options/obs.description.R
-msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona les freqüències observades"
-
-#: contTables/options/odds.description.R
-msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la raó de contraris (només disponible per a taules 2x2)"
-
-#: linReg/options/anova.description.R
-msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Prova ANOVA òmnibus pels predictors"
-
-#: logLinear/options/omni.description.R
-#: logRegBin/options/omni.description.R
-#: logRegMulti/options/omni.description.R
-#: logRegOrd/options/omni.description.R
-msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona les proves de raó de versemblança òmnibus pels predictors"
-
-#: logRegBin/options/acc.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la precisió prevista dels resultats agrupats pel valor de tall"
-
-#: logRegBin/options/sens.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la sensibilitat prevista dels resultats agrupats pel valor de tall"
-
-#: logRegBin/options/spec.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la especificitat prevista dels resultats agrupats pel valor de tall"
-
-#: descriptives/options/range.description.R
-msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el rang"
-
-#: logRegBin/options/auc.description.R
-msgid "`TRUE` or `FALSE` (default), provide the area under the ROC curve (AUC)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el valor sota la corba ROC (AUC)"
-
-#: contTables/options/relRisk.description.R
-msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el risc relatiu (només disponible per a taules 2x2)"
-
-#: cfa/options/corRes.description.R
-msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona els residus de la matriu de correlació observada (i.e , la diferència entre la matriu de correlació esperada i la matriu de correlació observada)"
-
-#: descriptives/options/skew.description.R
-msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la asimetria"
-
-#: reliability/options/sdScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la desviació estàndard"
-
-#: descriptives/options/se.description.R
-msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona el error estàndard"
-
-#: linReg/options/r2Adj.description.R
-msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la mesura estadística `R quadrat ajustat` pels models"
-
-#: descriptives/options/sum.description.R
-msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la suma"
-
-#: logRegOrd/options/thres.description.R
-msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona els llindars que s'utilitzen com a puntuacions de tall pels nivells de la variable dependent"
-
-#: descriptives/options/variance.description.R
-msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona la Variància"
-
-#: contTables/options/pcTot.description.R
-msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona percentatges totals"
-
-#: linReg/options/collin.description.R
-#: logRegBin/options/collin.description.R
-msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona estadístiques de tolerància de col·linearitat i VIF"
-
-#: descriptives/options/violin.description.R
-msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona gràfiques de violí (només variables contínues)"
-
-#: reliability/options/alphaItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona quina seria la α de Cronbach si es descartés l'element"
-
-#: reliability/options/omegaItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr "`TRUE` o `FALSO` (predeterminat), proporciona quina seria la ω de McDonald si es descartés l'element"
-
-#: contTables/options/chiSqCorr.description.R
-#: contTablesPaired/options/chiSqCorr.description.R
-msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr "`TRUE` o `FALSE` (predeterminat), proporciona χ² amb correcció de continuïtat"
-
-#: anovaRM/options/groupSumm.description.R
-msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr "`TRUE` o `FALSE` (predeterminat), ofereix un resum pels diferents grups"
-
-#: logRegBin/options/cutOff.description.R
-msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
-msgstr "`TRUE` o `FALSE` (predeterminat), estableix un límit utilitzat per a les prediccions"
-
-#: contTables/options/barplot.description.R
-msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra gràfics de barres"
-
-#: efa/options/bartlett.description.R
-#: pca/options/bartlett.description.R
-msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra els resultats de la Prova de esfericitat de Bartlett"
-
-#: efa/options/eigen.description.R
-#: pca/options/eigen.description.R
-msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra la taula de valors propis"
-
-#: efa/options/factorSummary.description.R
-#: pca/options/factorSummary.description.R
-msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra el resum de factors"
-
-#: efa/options/factorCor.description.R
-#: pca/options/factorCor.description.R
-msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra correlacions entre factors"
-
-#: efa/options/kmo.description.R
-#: pca/options/kmo.description.R
-msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra els resultats de la mesura de adequació de mostra (MSA) de Kaiser-Meyer-Olkin (KMO)"
-
-#: efa/options/modelFit.description.R
-msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra les mesures de ajustament del model i prova"
-
-#: efa/options/screePlot.description.R
-#: pca/options/screePlot.description.R
-msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr "`TRUE` o `FALSE` (predeterminat), mostra la gràfica de sedimentació"
-
-#: efa/options/sortLoadings.description.R
-#: pca/options/sortLoadings.description.R
-msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr "`TRUE` o `FALSO` (predeterminat), ordrea les càrregues dels factors per grandària"
-
-#: anovaRM/options/leveneTest.description.R
-msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
-msgstr "`TRUE` o `FALSE` (predeterminat), Prova d'homogeneïtat de variàncies (i.e., Prova de Levene)"
-
-#: propTest2/options/areCounts.description.R
-msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr "`TRUE` o `FALSE` (predeterminat), les variables son freqüències"
-
-#: propTestN/options/expected.description.R
-msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr "`TRUE` o `FALSE` (predeterminat), si s'han de mostrar les freqüències esperades"
-
-#: ancova/options/modelTest.description.R
-#: anova/options/modelTest.description.R
-msgid "`TRUE` or `FALSE` (default); perform an overall model test"
-msgstr "`TRUE` o `FALSE` (predeterminat); realitzar una Prova de model general"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -1140,10 +252,6 @@ msgstr "25,50,75"
 msgid "a (semi)partial correlation matrix table"
 msgstr "una taula de matriu de correlació (semi)parcial"
 
-#: descriptives/options/pcValues.description.R
-msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr "una llista separada por comas (predeterminat: 25,50,75) especificant els percentils"
-
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
 msgstr "una gràfica de la matriu de correlacions"
@@ -1155,85 +263,6 @@ msgstr "una taula de la matriu de correlacions"
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
 msgstr "una gràfica descriptiva"
-
-#: ancova/options/emMeans.description.R
-#: anova/options/emMeans.description.R
-msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr "una fórmula que conté els termes per a estimar les mitjanes marginals (veure els exemples)"
-
-#: linReg/options/emMeans.description.R
-msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
-msgstr "una fórmula que conté els termes per a estimar les mitjanes marginals, admet fins a tres variables por terme"
-
-#: ancova/options/postHoc.description.R
-#: anova/options/postHoc.description.R
-msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
-msgstr "una fórmula que conté els termes per a realitzar proves post-hoc (veure els exemples)"
-
-#: ancova/options/modelTerms.description.R
-#: anova/options/modelTerms.description.R
-msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
-msgstr "una fórmula que descriu els termes que han d'incloure en el model (no és necessari quan es proporciona una fórmula, veure els exemples)"
-
-#: cfa/options/factors.description.R
-msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
-msgstr "una llista que conté llistes anomenades que defineixen la` etiqueta` del factor i les `vars` que pertanyen a aquest factor"
-
-#: linReg/options/blocks.description.R
-#: logLinear/options/blocks.description.R
-#: logRegBin/options/blocks.description.R
-#: logRegMulti/options/blocks.description.R
-#: logRegOrd/options/blocks.description.R
-msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
-msgstr "una llista que conté vectors de cadenes que anomenen els predictors que s'afegeixen al model. Els elements s'afegeixen al model d'acord amb el seu ordre a la llista"
-
-#: anovaRM/options/bsTerms.description.R
-msgid "a list of character vectors describing the between subjects terms to go into the model"
-msgstr "una llista de vectors de caràcters que descriuen els termes entre subjectes que s'han d'incloure en el model"
-
-#: anovaRM/options/postHoc.description.R
-msgid "a list of character vectors describing the post-hoc tests that need to be computed"
-msgstr "una llista de vectors de caràcters que descriuen les proves post-hoc que han de calcular-se"
-
-#: anovaRM/options/rmTerms.description.R
-msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr "una llista de vectors de caràcters que descriuen els termes de mesures repetides que s'han d'incloure al model"
-
-#: linReg/options/refLevels.description.R
-#: logLinear/options/refLevels.description.R
-#: logRegBin/options/refLevels.description.R
-#: logRegMulti/options/refLevels.description.R
-#: logRegOrd/options/refLevels.description.R
-msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
-msgstr "una llista de llistes especificant els nivells de referència de la variable dependent i tots els factors"
-
-#: ancova/options/contrasts.description.R
-#: anova/options/contrasts.description.R
-msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
-msgstr "una llista de llistes especificant el factor i el tipus de contrast a utilitzar, un de `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` o `'polynomial'`"
-
-#: ttestPS/options/pairs.description.R
-msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr "una llista de llistes especificant els parells de mesures en `data`"
-
-#: cfa/options/resCov.description.R
-msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr "una llista de llistes especificant les covariàncies residuals que han d'estimar-se"
-
-#: anovaRM/options/emMeans.description.R
-#: logLinear/options/emMeans.description.R
-#: logRegBin/options/emMeans.description.R
-#: logRegMulti/options/emMeans.description.R
-msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
-msgstr "una llista de llistes especificant les variables per a les que s'han de calcular les mitjanes marginals estimades. Admet fins a tres variables per terme."
-
-#: anovaRM/options/rmCells.description.R
-msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
-msgstr "una llista de llistes, on cada llista descriu una mesura repetida (com una cadena) de `data` definida com a `measure` i la combinació particular de nivells de `rm` a la que pertany (com un vector de cadenes) definida com a `cell`"
-
-#: anovaRM/options/rm.description.R
-msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
-msgstr "una llista de llistes, on cada llista descriu la` etiqueta` (com una cadena) i els `nivells` (com vector de cadenes) de un factor de mesures repetides en particular"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -1250,129 +279,9 @@ msgstr "Un valor-p baix suggereix una violació del supòsit de normalitat"
 msgid "A nice correlation data set"
 msgstr "Un conjunt de dades amb bona correlació"
 
-#: cfa/options/hlCorRes.description.R
-msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
-msgstr "un nombre (predeterminat: 0,1), destacats els valors a la taula `'corRes'` per sobre d'aquest valor"
-
-#: efa/options/hideLoadings.description.R
-msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr "un nombre (predeterminat: 0,3), ocultar càrregues factorials per sota d'aquest valor"
-
-#: pca/options/hideLoadings.description.R
-msgid "a number (default: 0.3), hide loadings below this value"
-msgstr "un nombre (predeterminat: 0,3), ocultar càrregues per sota d'aquest valor"
-
-#: propTest2/options/testValue.description.R
-msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr "un nombre (predeterminat: 0,5), el valor per a la hipòtesi nul·la"
-
-#: efa/options/minEigen.description.R
-msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
-msgstr "un nombre (predeterminat: 0), el valor-propi mínim per a que un factor s'inclogui al model"
-
-#: propTest2/options/priorA.description.R
-msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr "un nombre (predeterminat: 1), el paràmetre a priori beta 'a'"
-
-#: propTest2/options/priorB.description.R
-msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr "un nombre (predeterminat: 1), el paràmetre a priori beta 'b'"
-
-#: pca/options/minEigen.description.R
-msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr "un nombre (predeterminat: 1), el valor-propi mínim per tal que un component s'inclogui al model"
-
-#: cfa/options/hlMI.description.R
-msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
-msgstr "un nombre (predeterminat: 3), destacats els valors a les taules `'modIndices'` per sobre d'aquest valor"
-
-#: ttestIS/options/bfPrior.description.R
-msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
-"un nombre entre 0,01 i 2 (predeterminat 0,707), l'amplada prèvia per ser "
-"utilitzat en el càlcul dels factors de Bayes"
-
-#: ttestPS/options/bfPrior.description.R
-msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "un nombre entre 0,5 i 2,0 (predeterminat 0,707), l'amplada a priori que s'utilitzarà per a calcular els factors de Bayes"
-
-#: ttestOneS/options/bfPrior.description.R
-msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr "un nombre entre 0,5 i 2,0 (predeterminat 0,707), l'amplada a priori que s'utilitzarà per a calcular els factors de Bayes"
-
-#: linReg/options/ciWidth.description.R
-#: linReg/options/ciWidthStdEst.description.R
-#: logLinear/options/ciWidth.description.R
-#: logLinear/options/ciWidthRR.description.R
-#: logRegBin/options/ciWidth.description.R
-#: logRegBin/options/ciWidthOR.description.R
-#: logRegMulti/options/ciWidth.description.R
-#: logRegMulti/options/ciWidthOR.description.R
-#: logRegOrd/options/ciWidth.description.R
-#: logRegOrd/options/ciWidthOR.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95) especificant l'amplada de l'Interval de Confiança"
-
-#: ancova/options/ciWidthEmm.description.R
-#: anova/options/ciWidthEmm.description.R
-#: anovaRM/options/ciWidthEmm.description.R
-#: linReg/options/ciWidthEmm.description.R
-#: logLinear/options/ciWidthEmm.description.R
-#: logRegBin/options/ciWidthEmm.description.R
-#: logRegMulti/options/ciWidthEmm.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95) especificant l'amplada de l'interval de Confiança per a les mitjanes marginals estimades"
-
-#: cfa/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95) especificant l'amplada de l'interval de Confiança que s'utilitza com a `'ci'`"
-
-#: propTest2/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), l'amplada de l'interval de Confiança"
-
-#: propTest2/options/ciBayesWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), l'amplada de l'interval de Credibilitat"
-
-#: descriptives/options/ciWidth.description.R
-#: ttestIS/options/ciWidth.description.R
-#: ttestOneS/options/ciWidth.description.R
-#: ttestPS/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), l'amplada dels Intervals de Confiança"
-
-#: ttestIS/options/ciWidthES.description.R
-#: ttestOneS/options/ciWidthES.description.R
-#: ttestPS/options/ciWidthES.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), l'amplada dels Intervals de Confiança per a les grandàries de l'efecte"
-
-#: ancova/options/postHocEsCiWidth.description.R
-#: anova/options/postHocEsCiWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), l'amplada dels Intervals de Confiança per a les grandàries de l'efecte post-hoc"
-
-#: corrMatrix/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), l'amplada dels Intervals de Confiança a proporcionar"
-
-#: contTables/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
-msgstr "un nombre entre 50 i 99,9 (predeterminat: 95), amplada dels Intervals de Confiança a proporcionar"
-
-#: ttestOneS/options/testValue.description.R
-msgid "a number specifying the value of the null hypothesis"
-msgstr "un nombre especificant el valor de la hipòtesi nul·la"
-
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
 msgstr "Paràmetre a"
-
-#: ancova/options/postHocES.description.R
-#: anova/options/postHocES.description.R
-msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
-msgstr "un possible valor de `'d'`; proporciona la mesura d de Cohen de la intensitat de l'efecte per a les proves post-hoc"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
@@ -1391,37 +300,6 @@ msgstr "una gràfica Q-Q"
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
 msgstr "Un conjunt de dades per a ANOVA de mesures repetides"
-
-#: anovaRM/options/depLabel.description.R
-msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
-msgstr "una cadena (predeterminada: 'Dependent') que descriu l'etiqueta utilitzada per a la variable dependent al llarg de l'anàlisi"
-
-#: logLinear/options/counts.description.R
-msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr "una cadena que nomena una variable a `data` conté freqüències, o NULL si cada fila representa una sola observació"
-
-#: logRegBin/options/dep.description.R
-#: logRegMulti/options/dep.description.R
-#: logRegOrd/options/dep.description.R
-msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr "una cadena que nomena la variable dependent de `data`, la variable ha de ser un factor"
-
-#: mancova/options/deps.description.R
-msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr "una cadena que nomena la variable dependent de `data`, la variable ha de ser numèrica"
-
-#: anovaNP/options/deps.description.R
-msgid "a string naming the dependent variable in `data`"
-msgstr "una cadena que nomena la variable dependent a `data`"
-
-#: anovaOneW/options/deps.description.R
-msgid "a string naming the dependent variables in `data`"
-msgstr "una cadena que nomena les variables dependents a `data`"
-
-#: anovaNP/options/group.description.R
-#: anovaOneW/options/group.description.R
-msgid "a string naming the grouping or independent variable in `data`"
-msgstr "una cadena que nomena la variable d'agrupació o independent a `data`"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
@@ -1563,6 +441,10 @@ msgstr "una taula de coeficients del model"
 msgid "a table of normality tests"
 msgstr "una taula de proves de normalitat"
 
+#: contTables/results/postHoc.description
+msgid "a table of post-hoc residuals"
+msgstr ""
+
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
 msgstr "una taula de classificació predita"
@@ -1625,66 +507,6 @@ msgstr "una taula de resultats de la prova"
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
 msgstr "una taula de resultats de la Prova de χ²"
-
-#: reliability/options/revItems.description.R
-msgid "a vector containing strings naming the varibales that are reverse scaled"
-msgstr "un vector que conté cadenes que anomenen les variables escalades inversament"
-
-#: propTestN/options/ratio.description.R
-msgid "a vector of numbers: the expected proportions"
-msgstr "un vector de nombres: les proporcions esperades"
-
-#: anovaRM/options/bs.description.R
-msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr "un vector de cadenes que anomenen els factors entre subjectes de `data`"
-
-#: corrPart/options/controls.description.R
-msgid "a vector of strings naming the control variables in `data`"
-msgstr "un vector de cadenes que anomenen les variables de control a `data`"
-
-#: logRegBin/options/covs.description.R
-#: logRegMulti/options/covs.description.R
-#: logRegOrd/options/covs.description.R
-#: mancova/options/covs.description.R
-msgid "a vector of strings naming the covariates from `data`"
-msgstr "un vector de cadenes que anomenen les covariants de `data`"
-
-#: anovaRM/options/cov.description.R
-msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
-msgstr "un vector de cadenes que anomenen les covariants de `data`. Les variables han de ser numèriques"
-
-#: logLinear/options/factors.description.R
-#: mancova/options/factors.description.R
-msgid "a vector of strings naming the factors from `data`"
-msgstr "un vector de cadenes que anomenen els factors de `data`"
-
-#: logRegBin/options/factors.description.R
-#: logRegMulti/options/factors.description.R
-#: logRegOrd/options/factors.description.R
-msgid "a vector of strings naming the fixed factors from `data`"
-msgstr "un vector de cadenes que anomenen els factors fixos de `data`"
-
-#: anovaRMNP/options/measures.description.R
-msgid "a vector of strings naming the repeated measures variables"
-msgstr "un vector de cadenes que anomenen les variables de mesures repetides"
-
-#: descriptives/options/vars.description.R
-#: efa/options/vars.description.R
-#: pca/options/vars.description.R
-#: propTest2/options/vars.description.R
-#: reliability/options/vars.description.R
-#: ttestOneS/options/vars.description.R
-msgid "a vector of strings naming the variables of interest in `data`"
-msgstr "un vector de cadenes que anomenen les variables d'interès a `data`"
-
-#: corrMatrix/options/vars.description.R
-#: corrPart/options/vars.description.R
-msgid "a vector of strings naming the variables to correlate in `data`"
-msgstr "un vector de cadenes que anomenen les variables a correlacionar de `data`"
-
-#: descriptives/options/splitBy.description.R
-msgid "a vector of strings naming the variables used to split `vars`"
-msgstr "un vector de cadenes que anomenen les variables utilitzades per a segmentar `vars`"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -1797,6 +619,7 @@ msgid "an array of model specific results"
 msgstr "una matriu de resultats específics del model"
 
 #: anovaNP/results/comparisons.description
+#: anovaNP/results/comparisonsDunn.description
 msgid "an array of pairwise comparison tables"
 msgstr "una matriu de taules de comparació per parelles"
 
@@ -1835,22 +658,6 @@ msgstr "una imatge que conté el diagrama de camí del model"
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
 msgstr "una imatge que conté gràfics descriptius"
-
-#: pca/options/nFactors.description.R
-msgid "an integer (default: 1), the number of components in the model"
-msgstr "un nombre enter (predeterminat: 1), el nombre de components al model"
-
-#: efa/options/nFactors.description.R
-msgid "an integer (default: 1), the number of factors in the model"
-msgstr "un nombre enter (predeterminat: 1), el nombre de factors al model"
-
-#: descriptives/options/pcNEqGr.description.R
-msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr "un nombre enter (predeterminat: 4) especificant el nombre de grups iguals"
-
-#: descriptives/options/extremeN.description.R
-msgid "an integer (default: 5) specifying the number of extreme values"
-msgstr "un enter (predeterminat: 5) que especifica el nombre de valors extrems"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -1977,7 +784,7 @@ msgid "Bar Plots"
 msgstr "Gràfics de barres"
 
 #: contTables/options/bartype.title
-#: contTables/ui[1][2][0][0][1].label
+#: contTables/ui[1][3][0][0][1].label
 msgid "Bar Type"
 msgstr "Tipus de barres"
 
@@ -2697,242 +1504,10 @@ msgstr "Gràfica de Tall"
 msgid "Cut-off value"
 msgstr "Valor de tall"
 
-#: contTablesPaired/options.description.R.usage
-msgid "dat <- data.frame(\n"
-"    `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),\n"
-"    `2nd survey` = c('Approve', 'Disapprove', 'Approve', 'Disapprove'),\n"
-"    `Counts` = c(794, 150, 86, 570),\n"
-"    check.names=FALSE)\n"
-"\n"
-"contTablesPaired(formula = Counts ~ `1st survey`:`2nd survey`, data = dat)\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ────────────────────────────────────────────────\n"
-"#    1st survey    Approve    Disapprove    Total\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Approve           794           150      944\n"
-"#    Disapprove         86           570      656\n"
-"#    Total             880           720     1600\n"
-"#  ────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  McNemar Test\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#                                Value    df    p\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    χ²                           17.4     1    < .001\n"
-"#    χ² continuity correction     16.8     1    < .001\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Counts`) from the\n"
-"# formula if each row represents a single observation:\n"
-"\n"
-"contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
-msgstr "dat <- data.frame(\n"
-"    `1a enquesta` = c('A favor', 'A favor', 'En contra', 'En contra'),\n"
-"    `2a enquesta` = c('A favor', 'En contra', 'A favor', 'En contra'),\n"
-"    `Counts` = c(794, 150, 86, 570),\n"
-"    check.names=FALSE)\n"
-"\n"
-"contTablesPaired(formula = Counts ~ `1a enquesta`:`2a enquesta`, data = dat)\n"
-"\n"
-"#\n"
-"#  TAULES DE CONTINGÈNCIA PER A MOSTRES EMPARELLADAS\n"
-"#\n"
-"#  Taules de contingència\n"
-"#  ────────────────────────────────────────────────\n"
-"#    1a enquesta    A favor    En contra    Total\n"
-"#  ────────────────────────────────────────────────\n"
-"#    A favor          794         150        944\n"
-"#    En contra         86         570        656\n"
-"#    Total            880         720       1600\n"
-"#  ────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Prova de McNemar\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#                                Valor    g.l.    p\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    χ²                           17,4     1    <  ,001\n"
-"#    χ² correcció continuïtat     16,8     1    <  ,001\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"\n"
-"# Alternativament, ometre la part esquerra de la formula (`Counts`)\n"
-"# si cada fila representa una observació singular:\n"
-"\n"
-"contTablesPaired(formula = ~ `1a enquesta`:`2a enquesta`, data = dat)"
-
-#: propTest2/options.description.R.usage
-msgid "dat <- data.frame(x=c(8, 15))\n"
-"\n"
-"propTest2(dat, vars = x, areCounts = TRUE)\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (2 OUTCOMES)\n"
-"#\n"
-"#  Binomial Test\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#         Level    Count    Total    Proportion    p\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    x    1            8       23         0.348    0.210\n"
-"#         2           15       23         0.652    0.210\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    Note. Hₐ is proportion ≠ 0.5\n"
-"#"
-msgstr "dat <- data.frame(x=c(8, 15))\n"
-"\n"
-"propTest2(dat, vars = x, areCounts = TRUE)\n"
-"\n"
-"#\n"
-"#  TEST DE PROPORCIONS (2 RESULTATS)\n"
-"#\n"
-"#  Prova Binomial\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#         nivell    Casos     Total     Proporció    p\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    x    1            8       23         0,348    0,210\n"
-"#         2           15       23         0,652    0,210\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    Nota. Hₐ és proporció ≠ 0,5\n"
-"#"
-
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
 msgstr "Dades"
-
-#: cfa/options.description.R.usage
-msgid "data <- lavaan::HolzingerSwineford1939\n"
-"\n"
-"jmv::cfa(\n"
-"    data = data,\n"
-"    factors = list(\n"
-"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
-"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
-"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
-"    resCov = NULL)\n"
-"\n"
-"#\n"
-"#  CONFIRMATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Factor     Indicator    Estimate    SE        Z        p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Visual     x1              0.900    0.0832    10.81    < .001\n"
-"#               x2              0.498    0.0808     6.16    < .001\n"
-"#               x3              0.656    0.0776     8.46    < .001\n"
-"#    Textual    x4              0.990    0.0567    17.46    < .001\n"
-"#               x5              1.102    0.0626    17.60    < .001\n"
-"#               x6              0.917    0.0538    17.05    < .001\n"
-"#    Speed      x7              0.619    0.0743     8.34    < .001\n"
-"#               x8              0.731    0.0755     9.68    < .001\n"
-"#               x9              0.670    0.0775     8.64    < .001\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FACTOR ESTIMATES\n"
-"#\n"
-"#  Factor Covariances\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                          Estimate    SE        Z       p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    Visual     Visual      1.000 ᵃ\n"
-"#               Textual     0.459      0.0635    7.22    < .001\n"
-"#               Speed       0.471      0.0862    5.46    < .001\n"
-"#    Textual    Textual     1.000 ᵃ\n"
-"#               Speed       0.283      0.0715    3.96    < .001\n"
-"#    Speed      Speed       1.000 ᵃ\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    ᵃ fixed parameter\n"
-"#\n"
-"#\n"
-"#  MODEL FIT\n"
-"#\n"
-"#  Test for Exact Fit\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    85.3    24    < .001\n"
-"#  ────────────────────────\n"
-"#\n"
-"#\n"
-"#  Fit Measures\n"
-"#  ───────────────────────────────────────────────\n"
-"#    CFI      TLI      RMSEA     Lower     Upper\n"
-"#  ───────────────────────────────────────────────\n"
-"#    0.931    0.896    0.0921    0.0714    0.114\n"
-"#  ───────────────────────────────────────────────\n"
-"#"
-msgstr "data <- lavaan::HolzingerSwineford1939\n"
-"\n"
-"jmv::cfa(\n"
-"    data = data,\n"
-"    factors = list(\n"
-"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
-"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
-"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
-"    resCov = NULL)\n"
-"\n"
-"#\n"
-"#  ANALISI FACTORIAL CONFIRMATORI\n"
-"#\n"
-"#  Càrregues factorials\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Factor    Indicador     Estimació     EE        Z        p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Visual     x1              0,900    0,0832    10,81    < ,001\n"
-"#               x2              0,498    0,0808     6,16    < ,001\n"
-"#               x3              0,656    0,0776     8,46    < ,001\n"
-"#    Textual    x4              0,990    0,0567    17,46    < ,001\n"
-"#               x5              1,102    0,0626    17,60    < ,001\n"
-"#               x6              0,917    0,0538    17,05    < ,001\n"
-"#    Speed      x7              0,619    0,0743     8,34    < ,001\n"
-"#               x8              0,731    0,0755     9,68    < ,001\n"
-"#               x9              0,670    0,0775     8,64    < ,001\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  ESTIMADORS FACTORIALS\n"
-"#\n"
-"#  Covariàncies factorials\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                         Estimació      EE       Z        p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    Visual     Visual      1,000 ᵃ\n"
-"#               Textual     0,459      0,0635    7,22    < ,001\n"
-"#               Speed       0,471      0,0862    5,46    < ,001\n"
-"#    Textual    Textual     1,000 ᵃ\n"
-"#               Speed       0,283      0,0715    3,96    < ,001\n"
-"#    Speed      Speed       1,000 ᵃ\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    ᵃ paràmetre fixat\n"
-"#\n"
-"#\n"
-"#  AJUSTAMENT DEL MODEL\n"
-"#\n"
-"#  Prova ajustament exacte\n"
-"#  ────────────────────────\n"
-"#     χ²     gl      p\n"
-"#  ────────────────────────\n"
-"#    85,3    24    < ,001\n"
-"#  ────────────────────────\n"
-"#\n"
-"#\n"
-"#  Mesures ajustament\n"
-"#  ───────────────────────────────────────────────\n"
-"#     CFI      TLI      RMSEA   Inferior  Superior\n"
-"#  ───────────────────────────────────────────────\n"
-"#    0,931    0,896    0,0921    0,0714    0,114\n"
-"#  ───────────────────────────────────────────────\n"
-"#"
 
 #: package/analyses/pca.menuSubgroup
 #: package/analyses/efa.menuSubgroup
@@ -2949,1192 +1524,6 @@ msgstr "El conjunt de dades no està ponderat actualment"
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
 msgstr "Resum de Dades"
-
-#: logRegBin/options.description.R.usage
-msgid "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            low = factor(birthwt$low),\n"
-"            age = birthwt$age,\n"
-"            bwt = birthwt$bwt)\n"
-"\n"
-"logRegBin(data = dat, dep = low,\n"
-"          covs = vars(age, bwt),\n"
-"          blocks = list(list(\"age\", \"bwt\")),\n"
-"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  BINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1     4.97e-7    6.00     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate      SE          Z           p\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Intercept    2974.73225    218237.2      0.0136    0.989\n"
-"#    age            -0.00653       482.7    -1.35e-5    1.000\n"
-"#    bwt            -1.18532        87.0     -0.0136    0.989\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Note. Estimates represent the log odds of \"low = 1\"\n"
-"#    vs. \"low = 0\"\n"
-"#\n"
-"#"
-msgstr "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            low = factor(birthwt$low),\n"
-"            age = birthwt$age,\n"
-"            bwt = birthwt$bwt)\n"
-"\n"
-"logRegBin(data = dat, dep = low,\n"
-"          covs = vars(age, bwt),\n"
-"          blocks = list(list(\"age\", \"bwt\")),\n"
-"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  REGRESIÓ LOGÍSTICA BINOMIAL\n"
-"#\n"
-"#  Mesures ajustament del model\n"
-"#  ───────────────────────────────────────\n"
-"#    model    Desviació    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1     4,97e-7    6,00     1,000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  RESULTATS ESPECÍFICS DE MODEL\n"
-"#\n"
-"#  Model 1\n"
-"#\n"
-"#  Coeficients del model\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Predictor     Estimació       EE           Z         p\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Constant     2974,73225    218237,2      0,0136    0,989\n"
-"#    age            -0,00653       482,7     -1,35e-5   1,000\n"
-"#    bwt            -1,18532        87,0     -0,0136    0,989\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Nota. Les estimacions representen la raó logarítmica de \"low = 1\"\n"
-"#    vs. \"low = 0\"\n"
-"#\n"
-"#"
-
-#: logRegMulti/options.description.R.usage
-msgid "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            race = factor(birthwt$race),\n"
-"            age = birthwt$age,\n"
-"            low = factor(birthwt$low))\n"
-"\n"
-"logRegMulti(data = dat, dep = race,\n"
-"            covs = age, factors = low,\n"
-"            blocks = list(list(\"age\", \"low\")),\n"
-"            refLevels = list(\n"
-"                list(var=\"race\", ref=\"1\"),\n"
-"                list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  MULTINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ──────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ──────────────────────────────────────\n"
-"#        1         360    372    0.0333\n"
-"#  ──────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    race     Predictor    Estimate    SE        Z         p\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    2 - 1    Intercept      0.8155    1.1186     0.729    0.466\n"
-"#             age           -0.1038    0.0487    -2.131    0.033\n"
-"#             low:\n"
-"#             1 – 0          0.7527    0.4700     1.601    0.109\n"
-"#    3 - 1    Intercept      1.0123    0.7798     1.298    0.194\n"
-"#             age           -0.0663    0.0324    -2.047    0.041\n"
-"#             low:\n"
-"#             1 – 0          0.5677    0.3522     1.612    0.107\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            race = factor(birthwt$race),\n"
-"            age = birthwt$age,\n"
-"            low = factor(birthwt$low))\n"
-"\n"
-"logRegMulti(data = dat, dep = race,\n"
-"            covs = age, factors = low,\n"
-"            blocks = list(list(\"age\", \"low\")),\n"
-"            refLevels = list(\n"
-"                list(var=\"race\", ref=\"1\"),\n"
-"                list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  REGRESIÓ LOGÍSTICA BINOMIAL\n"
-"#\n"
-"#  Mesures ajustament del model\n"
-"#  ───────────────────────────────────────\n"
-"#    model    Desviació   AIC    R²-McF\n"
-"#  ──────────────────────────────────────\n"
-"#        1         360    372    0,0333\n"
-"#  ──────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  RESULTATS ESPECÍFICS DEL MODEL\n"
-"#\n"
-"#  Model 1\n"
-"#\n"
-"#  Coeficients del model\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    race     Predictor    Estimació     EE         Z        p\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    2 - 1    Constant       0,8155    1,1186     0,729    0,466\n"
-"#             age           -0,1038    0,0487    -2,131    0,033\n"
-"#             low:\n"
-"#             1 – 0          0,7527    0,4700     1,601    0,109\n"
-"#    3 - 1    Constant       1,0123    0,7798     1,298    0,194\n"
-"#             age           -0,0663    0,0324    -2,047    0,041\n"
-"#             low:\n"
-"#             1 – 0          0,5677    0,3522     1,612    0,107\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-
-#: anovaRM/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRM(\n"
-"    data = bugs,\n"
-"    rm = list(\n"
-"        list(\n"
-"            label = 'Frightening',\n"
-"            levels = c('Low', 'High'))),\n"
-"    rmCells = list(\n"
-"        list(\n"
-"            measure = 'LDLF',\n"
-"            cell = 'Low'),\n"
-"        list(\n"
-"            measure = 'LDHF',\n"
-"            cell = 'High')),\n"
-"    rmTerms = list(\n"
-"        'Frightening'))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA\n"
-"#\n"
-"#  Within Subjects Effects\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                  Sum of Squares    df    Mean Square    F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Frightening              126     1         126.11    44.2    < .001\n"
-"#    Residual                 257    90           2.85\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#\n"
-"#\n"
-"#\n"
-"#  Between Subjects Effects\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#                Sum of Squares    df    Mean Square    F    p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Residual               954    90           10.6\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#"
-msgstr "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRM(\n"
-"    data = bugs,\n"
-"    rm = list(\n"
-"        list(\n"
-"            label = 'Frightening',\n"
-"            levels = c('Low', 'High'))),\n"
-"    rmCells = list(\n"
-"        list(\n"
-"            measure = 'LDLF',\n"
-"            cell = 'Low'),\n"
-"        list(\n"
-"            measure = 'LDHF',\n"
-"            cell = 'High')),\n"
-"    rmTerms = list(\n"
-"        'Frightening'))\n"
-"\n"
-"#\n"
-"#  ANOVA PER A MESURES REPETIDES\n"
-"#\n"
-"#  Efectes Intra-subjectes\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Suma Quadràtica  gl   Mitjana Quadràtica     F      p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Frightening      126           1        126,11          44,2   < ,001\n"
-"#    residu           257          90          2,85\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Nota. Sumes Quadràtiques tipus 3\n"
-"#\n"
-"#\n"
-"#\n"
-"#  Efectes Inter-subjectes\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                  Suma Quadràtica    gl   Mitjana Quadràtica    F     p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    residu            954            90         10,6\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Nota. Sumes Quadràtiques tipus 3\n"
-"#"
-
-#: anovaRMNP/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Friedman\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    55.8     3    < .001\n"
-"#  ────────────────────────\n"
-"#"
-msgstr "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
-"\n"
-"#\n"
-"#  ANOVA PER A MESURES REPETIDES (NO-PARAMETRIC)\n"
-"#\n"
-"#  Friedman\n"
-"#  ────────────────────────\n"
-"#     χ²     gl       p\n"
-"#  ────────────────────────\n"
-"#    55,8     3    < ,001\n"
-"#  ────────────────────────\n"
-"#"
-
-#: ttestPS/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"ttestPS(bugs, pairs = list(\n"
-"        list(i1 = 'LDLF', i2 = 'LDHF')))\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES T-TEST\n"
-"#\n"
-"#  Paired Samples T-Test\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                                   statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    LDLF    LDHF    Student's t        -6.65    90.0    < .001\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-msgstr "data('bugs', package = 'jmv')\n"
-"\n"
-"ttestPS(bugs, pairs = list(\n"
-"        list(i1 = 'LDLF', i2 = 'LDHF')))\n"
-"\n"
-"#\n"
-"#  PROVA T PER A MOSTRES EMPARELLADES\n"
-"#\n"
-"#  Prova T per a mostres emparellades\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                                   estadístic     gl       p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    LDLF    LDHF    t de Student      -6,65      90,0   < ,001\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-
-#: contTables/options.description.R.usage
-msgid "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"contTables(formula = Freq ~ Hair:Eye, dat)\n"
-"\n"
-"#\n"
-"#  CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Hair     Brown    Blue    Hazel    Green    Total\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Black       68      20       15        5      108\n"
-"#    Brown      119      84       54       29      286\n"
-"#    Red         26      17       14       14       71\n"
-"#    Blond        7      94       10       16      127\n"
-"#    Total      220     215       93       64      592\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Tests\n"
-"#  ───────────────────────────────\n"
-"#          Value    df    p\n"
-"#  ───────────────────────────────\n"
-"#    χ²      138     9    < .001\n"
-"#    N       592\n"
-"#  ───────────────────────────────\n"
-"#\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Freq`) if each row\n"
-"# represents a single observation:\n"
-"\n"
-"contTables(formula = ~ Hair:Eye, dat)"
-msgstr "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"contTables(formula = Freq ~ Hair:Eye, dat)\n"
-"\n"
-"#\n"
-"#  TAULES DE CONTINGÈNCIA\n"
-"#\n"
-"#  Taules de contingència\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Hair     Brown    Blue    Hazel    Green    Total\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Black       68      20       15        5      108\n"
-"#    Brown      119      84       54       29      286\n"
-"#    Red         26      17       14       14       71\n"
-"#    Blond        7      94       10       16      127\n"
-"#    Total      220     215       93       64      592\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Proves χ²\n"
-"#  ───────────────────────────────\n"
-"#          Valor    gl    p\n"
-"#  ───────────────────────────────\n"
-"#    χ²      138     9    < ,001\n"
-"#    N       592\n"
-"#  ───────────────────────────────\n"
-"#\n"
-"\n"
-"# Alternativament, ometre la part esquerra de la formula (`Freq`) si cada fila\n"
-"# representa una observació  singular:\n"
-"\n"
-"contTables(formula = ~ Hair:Eye, dat)"
-
-#: propTestN/options.description.R.usage
-msgid "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (N OUTCOMES)\n"
-"#\n"
-"#  Proportions\n"
-"#  ────────────────────────────────\n"
-"#    Level    Count    Proportion\n"
-"#  ────────────────────────────────\n"
-"#    Brown      220         0.372\n"
-"#    Blue       215         0.363\n"
-"#    Hazel       93         0.157\n"
-"#    Green       64         0.108\n"
-"#  ────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Goodness of Fit\n"
-"#  ───────────────────────\n"
-"#    χ²     df    p\n"
-"#  ───────────────────────\n"
-"#    133     3    < .001\n"
-"#  ───────────────────────\n"
-"#"
-msgstr "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
-"\n"
-"#\n"
-"#  PROVA DE PROPORCIONS (N RESULTATS)\n"
-"#\n"
-"#  Proporcions\n"
-"#  ────────────────────────────────\n"
-"#    nivell    Casos     Proporció\n"
-"#  ────────────────────────────────\n"
-"#    Brown      220        0,372\n"
-"#    Blue       215        0,363\n"
-"#    Hazel       93        0,157\n"
-"#    Green       64        0,108\n"
-"#  ────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Bondat ajustament\n"
-"#  ───────────────────────\n"
-"#     χ²     gl      p\n"
-"#  ───────────────────────\n"
-"#    133     3    < ,001\n"
-"#  ───────────────────────\n"
-"#"
-
-#: efa/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  EXPLORATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ────────────────────────────────────────────────\n"
-"#                    1        2        Uniqueness\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Sepal.Length    0.993                0.10181\n"
-"#    Sepal.Width              0.725       0.42199\n"
-"#    Petal.Length    0.933                0.00483\n"
-"#    Petal.Width     0.897                0.07088\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Note. 'oblimin' rotation was used\n"
-"#"
-msgstr "data('iris')\n"
-"\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  ANàLISI FACTORIAL EXPLORATORI\n"
-"#\n"
-"#  Càrregues factorials\n"
-"#  ────────────────────────────────────────────────\n"
-"#                      1        2        Unicitat\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Sepal.Length    0,993                0,10181\n"
-"#    Sepal.Width              0,725       0,42199\n"
-"#    Petal.Length    0,933                0,00483\n"
-"#    Petal.Width     0,897                0,07088\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Nota. s'ha utilitzat rotació 'oblimin'\n"
-"#"
-
-#: mancova/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"mancova(data = iris,\n"
-"    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
-"    factors = Species)\n"
-"\n"
-"#\n"
-"#  MANCOVA\n"
-"#\n"
-"#  Multivariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#                                     value     F       df1    df2    p\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1.19    53.5      8    290    < .001\n"
-"#               Wilks' Lambda         0.0234     199      8    288    < .001\n"
-"#               Hotelling's Trace       32.5     581      8    286    < .001\n"
-"#               Roy's Largest Root      32.2    1167      4    145    < .001\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Univariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#                 Dependent Variable    Sum of Squares    df     Mean Square    F         p\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#    Species      Sepal.Length                   63.21      2        31.6061     119.3    < .001\n"
-"#                 Sepal.Width                    11.34      2         5.6725      49.2    < .001\n"
-"#                 Petal.Length                  437.10      2       218.5514    1180.2    < .001\n"
-"#                 Petal.Width                    80.41      2        40.2067     960.0    < .001\n"
-"#    Residuals    Sepal.Length                   38.96    147         0.2650\n"
-"#                 Sepal.Width                    16.96    147         0.1154\n"
-"#                 Petal.Length                   27.22    147         0.1852\n"
-"#                 Petal.Width                     6.16    147         0.0419\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#"
-msgstr "data('iris')\n"
-"\n"
-"mancova(data = iris,\n"
-"    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
-"    factors = Species)\n"
-"\n"
-"#\n"
-"#  MANCOVA\n"
-"#\n"
-"#  Proves Multivariable\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#                                      valor     F      gl1    gl2      p\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1,19    53,5      8    290    < ,001\n"
-"#               Wilks' Lambda         0,0234     199      8    288    < ,001\n"
-"#               Hotelling's Trace       32,5     581      8    286    < ,001\n"
-"#               Roy's Largest Root      32,2    1167      4    145    < ,001\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Proves Univariable\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#                Variable dependent     Suma Quadràtica    gl    Mitjana Quadràtica    F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#    Species      Sepal.Length               63,21          2         31,6061        119,3  < ,001\n"
-"#                 Sepal.Width                11,34          2          5,6725         49,2  < ,001\n"
-"#                 Petal.Length              437,10          2        218,5514       1180,2  < ,001\n"
-"#                 Petal.Width                80,41          2         40,2067        960,0  < ,001\n"
-"#    residus      Sepal.Length               38,96        147          0,2650\n"
-"#                 Sepal.Width                16,96        147          0,1154\n"
-"#                 Petal.Length               27,22        147          0,1852\n"
-"#                 Petal.Width                 6,16        147          0,0419\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#"
-
-#: pca/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  PRINCIPAL COMPONENT ANALYSIS\n"
-"#\n"
-"#  Component Loadings\n"
-"#  ────────────────────────────────────────\n"
-"#                    1         Uniqueness\n"
-"#  ────────────────────────────────────────\n"
-"#    Sepal.Length     0.890        0.2076\n"
-"#    Sepal.Width     -0.460        0.7883\n"
-"#    Petal.Length     0.992        0.0168\n"
-"#    Petal.Width      0.965        0.0688\n"
-"#  ────────────────────────────────────────\n"
-"#    Note. 'varimax' rotation was used\n"
-"#"
-msgstr "data('iris')\n"
-"\n"
-"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  ANÀLISI DE COMPONENTS PRINCIPALS\n"
-"#\n"
-"#  Càrregues de components\n"
-"#  ────────────────────────────────────────\n"
-"#                      1          Unicitat\n"
-"#  ────────────────────────────────────────\n"
-"#    Sepal.Length     0,890        0,2076\n"
-"#    Sepal.Width     -0,460        0,7883\n"
-"#    Petal.Length     0,992        0,0168\n"
-"#    Petal.Width      0,965        0,0688\n"
-"#  ────────────────────────────────────────\n"
-"#   Nota. S'ha utilitzat rotació 'varimax'\n"
-"#"
-
-#: reliability/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width'),\n"
-"            omegaScale = TRUE)\n"
-"\n"
-"#\n"
-"#  RELIABILITY ANALYSIS\n"
-"#\n"
-"#  Scale Reliability Statistics\n"
-"#  ─────────────────────────────────────────\n"
-"#             Cronbach's α    McDonald's ω\n"
-"#  ─────────────────────────────────────────\n"
-"#    scale           0.708           0.848\n"
-"#  ─────────────────────────────────────────\n"
-"#"
-msgstr "data('iris')\n"
-"\n"
-"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width'),\n"
-"            omegaScale = TRUE)\n"
-"\n"
-"#\n"
-"#  ANÀLISI DE FIABILITAT\n"
-"#\n"
-"#  Estadístics de Fiabilitat de la escala\n"
-"#  ─────────────────────────────────────────\n"
-"#            α de Cronbach    ω de McDonald\n"
-"#  ─────────────────────────────────────────\n"
-"#    escala      0,708            0,848\n"
-"#  ─────────────────────────────────────────\n"
-"#"
-
-#: corrMatrix/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
-"\n"
-"#\n"
-"#  CORRELATION MATRIX\n"
-"#\n"
-"#  Correlation Matrix\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                           mpg      cyl       disp      hp\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r        —    -0.852    -0.848    -0.776\n"
-"#            p-value            —    < .001    < .001    < .001\n"
-"#\n"
-"#    cyl     Pearson's r                  —     0.902     0.832\n"
-"#            p-value                      —    < .001    < .001\n"
-"#\n"
-"#    disp    Pearson's r                            —     0.791\n"
-"#            p-value                                —    < .001\n"
-"#\n"
-"#    hp      Pearson's r                                      —\n"
-"#            p-value                                          —\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-msgstr "data('mtcars')\n"
-"\n"
-"corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
-"\n"
-"#\n"
-"#  MATRIU DE CORRELACIONS\n"
-"#\n"
-"#  Matriu de correlacions\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                            mpg      cyl      disp       hp\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    mpg     r de Pearson     —     -0,852    -0,848    -0,776\n"
-"#            p-valor          —     < ,001    < ,001    < ,001\n"
-"#\n"
-"#    cyl     r de Pearson              —       0,902     0,832\n"
-"#            p-valor                   —      < ,001    < ,001\n"
-"#\n"
-"#    disp    r de Pearson                        —       0,791\n"
-"#            p-valor                             —      < ,001\n"
-"#\n"
-"#    hp      r de Pearson                                  —\n"
-"#            p-valor                                       —\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-
-#: corrPart/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
-"\n"
-"#\n"
-"#  PARTIAL CORRELATION\n"
-"#\n"
-"#  Partial Correlation\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                           mpg       cyl       disp\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r         —\n"
-"#            p-value             —\n"
-"#\n"
-"#    cyl     Pearson's r    -0.590         —\n"
-"#            p-value        < .001         —\n"
-"#\n"
-"#    disp    Pearson's r    -0.606     0.719        —\n"
-"#            p-value        < .001    < .001        —\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Note. controlling for 'hp'\n"
-"#"
-msgstr "data('mtcars')\n"
-"\n"
-"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
-"\n"
-"#\n"
-"#  CORRELACIÓ PARCIAL\n"
-"#\n"
-"#  Correlació Parcial\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                            mpg       cyl       disp\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    mpg     r de Pearson     —\n"
-"#            p-valor          —\n"
-"#\n"
-"#    cyl     r de Pearson   -0,590      —\n"
-"#            p-valor        < ,001      —\n"
-"#\n"
-"#    disp    r de Pearson   -0,606     0,719       —\n"
-"#            p-valor        < ,001    < ,001       —\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Nota. Controlant per 'hp'\n"
-"#"
-
-#: logLinear/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
-"dat <- as.data.frame(tab)\n"
-"\n"
-"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
-"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
-"          refLevels = list(\n"
-"              list(var=\"gear\", ref=\"3\"),\n"
-"              list(var=\"cyl\", ref=\"4\")))\n"
-"\n"
-"#\n"
-"#  LOG-LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1    4.12e-10    41.4     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Predictor          Estimate     SE          Z            p\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Intercept          -4.71e-16        1.00    -4.71e-16    1.000\n"
-"#    gear:\n"
-"#    4 – 3                  2.079        1.06        1.961    0.050\n"
-"#    5 – 3                  0.693        1.22        0.566    0.571\n"
-"#    cyl:\n"
-"#    6 – 4                  0.693        1.22        0.566    0.571\n"
-"#    8 – 4                  2.485        1.04        2.387    0.017\n"
-"#    gear:cyl:\n"
-"#    (4 – 3):(6 – 4)       -1.386        1.37       -1.012    0.311\n"
-"#    (5 – 3):(6 – 4)       -1.386        1.73       -0.800    0.423\n"
-"#    (4 – 3):(8 – 4)      -26.867    42247.17    -6.36e -4    0.999\n"
-"#    (5 – 3):(8 – 4)       -2.485        1.44       -1.722    0.085\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr "data('mtcars')\n"
-"\n"
-"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
-"dat <- as.data.frame(tab)\n"
-"\n"
-"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
-"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
-"          refLevels = list(\n"
-"              list(var=\"gear\", ref=\"3\"),\n"
-"              list(var=\"cyl\", ref=\"4\")))\n"
-"\n"
-"#\n"
-"#  REGRESSIÓ LOG-LINEAL\n"
-"#\n"
-"#  Mesures ajustament del model\n"
-"#  ───────────────────────────────────────\n"
-"#    model   Desviació    AIC      R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1    4,12e-10    41,4     1,000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  RESULTATS ESPECÍFICS DEL MODEL\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Coeficients de model\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Predictor          Estimació         EE          Z         p\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Constant           -4,71e-16        1,00    -4,71e-16    1,000\n"
-"#    gear:\n"
-"#    4 – 3                  2,079        1,06        1,961    0,050\n"
-"#    5 – 3                  0,693        1,22        0,566    0,571\n"
-"#    cyl:\n"
-"#    6 – 4                  0,693        1,22        0,566    0,571\n"
-"#    8 – 4                  2,485        1,04        2,387    0,017\n"
-"#    gear:cyl:\n"
-"#    (4 – 3):(6 – 4)       -1,386        1,37       -1,012    0,311\n"
-"#    (5 – 3):(6 – 4)       -1,386        1,73       -0,800    0,423\n"
-"#    (4 – 3):(8 – 4)      -26,867    42247,17      6,36e-4    0,999\n"
-"#    (5 – 3):(8 – 4)       -2,485        1,44       -1,722    0,085\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-
-#: descriptives/options.description.R.usage
-msgid "data('mtcars')\n"
-"dat <- mtcars\n"
-"\n"
-"# frequency tables can be provided for factors\n"
-"dat$gear <- as.factor(dat$gear)\n"
-"\n"
-"descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
-"\n"
-"#\n"
-"#  DESCRIPTIVES\n"
-"#\n"
-"#  Descriptives\n"
-"#  ───────────────────────────────────────────\n"
-"#               mpg     cyl     disp    gear\n"
-"#  ───────────────────────────────────────────\n"
-"#    N            32      32      32      32\n"
-"#    Missing       0       0       0       0\n"
-"#    Mean       20.1    6.19     231    3.69\n"
-"#    Median     19.2    6.00     196    4.00\n"
-"#    Minimum    10.4    4.00    71.1       3\n"
-"#    Maximum    33.9    8.00     472       5\n"
-"#  ───────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FREQUENCIES\n"
-"#\n"
-"#  Frequencies of gear\n"
-"#  ────────────────────\n"
-"#    Levels    Counts\n"
-"#  ────────────────────\n"
-"#    3             15\n"
-"#    4             12\n"
-"#    5              5\n"
-"#  ────────────────────\n"
-"#\n"
-"\n"
-"# spliting by a variable\n"
-"descriptives(formula = disp + mpg ~ cyl, dat,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# providing histograms\n"
-"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# splitting by multiple variables\n"
-"descriptives(formula = mpg ~ cyl:gear, dat,\n"
-"    median=F, min=F, max=F, missing=F)"
-msgstr "data('mtcars')\n"
-"dat <- mtcars\n"
-"\n"
-"# Es poden proporcionar taules de freqüència pels factors\n"
-"dat$gear <- as.factor(dat$gear)\n"
-"\n"
-"descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
-"\n"
-"#\n"
-"#  DESCRIPTIUS\n"
-"#\n"
-"#  Descriptius\n"
-"#  ───────────────────────────────────────────\n"
-"#                mpg     cyl     disp   gear\n"
-"#  ───────────────────────────────────────────\n"
-"#    N           32      32       32     32\n"
-"#    Perduts      0       0        0      0\n"
-"#    Mitjana     20,1     6,19   231      3,69\n"
-"#    Mediana     19,2     6,00   196      4,00\n"
-"#    Mínim       10,4     4,00    71,1    3\n"
-"#    Màxim       33,9     8,00   472      5\n"
-"#  ───────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FREQÜÈNCIES\n"
-"#\n"
-"#  Freqüêncies de gear\n"
-"#  ────────────────────\n"
-"#    nivells    Casos\n"
-"#  ────────────────────\n"
-"#    3             15\n"
-"#    4             12\n"
-"#    5              5\n"
-"#  ────────────────────\n"
-"#\n"
-"\n"
-"# Segmentant per una variable\n"
-"descriptives(formula = disp + mpg ~ cyl, dat,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# Proporcionant histogrames\n"
-"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# Segmentant per múltiples variables\n"
-"descriptives(formula = mpg ~ cyl:gear, dat,\n"
-"    median=F, min=F, max=F, missing=F)"
-
-#: linReg/options.description.R.usage
-msgid "data('Prestige', package='carData')\n"
-"\n"
-"linReg(data = Prestige, dep = income,\n"
-"       covs = vars(education, prestige, women),\n"
-"       blocks = list(list('education', 'prestige', 'women')))\n"
-"\n"
-"#\n"
-"#  LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────\n"
-"#    Model    R        R²\n"
-"#  ───────────────────────────\n"
-"#        1    0.802    0.643\n"
-"#  ───────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE         t         p\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
-"#    women           -50.9       8.56    -5.948    < .001\n"
-"#    prestige        141.4      29.91     4.729    < .001\n"
-"#    education       177.2     187.63     0.944     0.347\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#"
-msgstr "data('Prestige', package='carData')\n"
-"\n"
-"linReg(data = Prestige, dep = income,\n"
-"       covs = vars(education, prestige, women),\n"
-"       blocks = list(list('education', 'prestige', 'women')))\n"
-"\n"
-"#\n"
-"#  REGRESSIÓ LINEAL\n"
-"#\n"
-"#  Mesures ajustament del model\n"
-"#  ────────────────────────────\n"
-"#    model      R        R²\n"
-"#  ────────────────────────────\n"
-"#        1    0,802    0,643\n"
-"#  ────────────────────────────\n"
-"#\n"
-"#\n"
-"#  RESULTATS ESPECÍFICS DEL MODEL\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#\n"
-"#  Coeficients de model\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimació     SE         t         p\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Constant       -253,8    1086,16    -0,234     0,816\n"
-"#    women           -50,9       8,56    -5,948    < ,001\n"
-"#    prestige        141,4      29,91     4,729    < ,001\n"
-"#    education       177,2     187,63     0,944     0,347\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#"
-
-#: ancova/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANCOVA\n"
-"#\n"
-"#  ANCOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    supp                    205     1          205.4     11.4     0.001\n"
-"#    dose                   2224     1         2224.3    124.0    < .001\n"
-"#    Residuals              1023    57           17.9\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ancova(\n"
-"    formula = len ~ supp + dose,\n"
-"    data = ToothGrowth,\n"
-"    postHoc = ~ supp,\n"
-"    emMeans = ~ supp)"
-msgstr "data('ToothGrowth')\n"
-"\n"
-"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANCOVA\n"
-"#\n"
-"#  ANCOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                Suma Quadràtica   gl   Mitjana Quadràtica     F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    supp              205          1         205,4          11,4    0,001\n"
-"#    dose             2224          1        2224,3         124,0   < ,001\n"
-"#    residu           1023         57          17,9\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ancova(\n"
-"    formula = len ~ supp + dose,\n"
-"    data = ToothGrowth,\n"
-"    postHoc = ~ supp,\n"
-"    emMeans = ~ supp)"
-
-#: anova/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANOVA\n"
-"#\n"
-"#  ANOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    dose                   2426     2         1213.2    92.00    < .001\n"
-"#    supp                    205     1          205.4    15.57    < .001\n"
-"#    dose:supp               108     2           54.2     4.11     0.022\n"
-"#    Residuals               712    54           13.2\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ANOVA(\n"
-"    formula = len ~ dose * supp,\n"
-"    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
-"    emmPlots = TRUE,              # produce plots of those marginal means\n"
-"    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr "data('ToothGrowth')\n"
-"\n"
-"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANOVA\n"
-"#\n"
-"#  ANOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                Suma Quadràtica   gl   mitjana Quadràtica    F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    dose             2426          2        1213,2         92,00   < ,001\n"
-"#    supp              205          1         205,4         15,57   < ,001\n"
-"#    dose:supp         108          2          54,2          4,11    0,022\n"
-"#    residu            712         54          13,2\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ANOVA(\n"
-"    formula = len ~ dose * supp,\n"
-"    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. mitjanes marginals per a supp i dose:supp\n"
-"    emmPlots = TRUE,              # genera gràfics per a aquestes mitjanes marginals\n"
-"    emmTables = TRUE)             # genera taules per a aquestes mitjanes marginals"
-
-#: anovaNP/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Kruskal-Wallis\n"
-"#  ───────────────────────────────\n"
-"#           χ²      df    p\n"
-"#  ───────────────────────────────\n"
-"#    len    40.7     2    < .001\n"
-"#  ───────────────────────────────\n"
-"#"
-msgstr "data('ToothGrowth')\n"
-"\n"
-"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANOVA UNIDIRECCIONAL (NO-PARAMÈTRIC)\n"
-"#\n"
-"#  Kruskal-Wallis\n"
-"#  ───────────────────────────────\n"
-"#             χ²     gl      p\n"
-"#  ───────────────────────────────\n"
-"#    len    40,7     2    < ,001\n"
-"#  ───────────────────────────────\n"
-"#"
-
-#: ttestIS/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  INDEPENDENT SAMPLES T-TEST\n"
-"#\n"
-"#  Independent Samples T-Test\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                          statistic    df      p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    len    Student's t         1.92    58.0    0.060\n"
-"#  ────────────────────────────────────────────────────\n"
-"#"
-msgstr "data('ToothGrowth')\n"
-"\n"
-"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  PROVA T PER A MOSTRES INDEPENDENTS\n"
-"#\n"
-"#  Prova T per a mostres independents\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                          estadístic     gl      p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    len    t de Student       1,92      58,0   0,060\n"
-"#  ────────────────────────────────────────────────────\n"
-"#"
-
-#: ttestOneS/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
-"\n"
-"#\n"
-"#  ONE SAMPLE T-TEST\n"
-"#\n"
-"#  One Sample T-Test\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#                           statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#    len     Student's t         19.1    59.0    < .001\n"
-"#    dose    Student's t         14.4    59.0    < .001\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#"
-msgstr "data('ToothGrowth')\n"
-"\n"
-"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
-"\n"
-"#\n"
-"#  PROVA-T PER A UNA MOSTRA\n"
-"#\n"
-"#  Prova T per a una mostra\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#                           estadístic     gl      p\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#    len     t de Student       19,1      59,0   < ,001\n"
-"#    dose    t de Student       14,4      59,0   < ,001\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#"
-
-#: anovaOneW/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"dat <- ToothGrowth\n"
-"dat$dose <- factor(dat$dose)\n"
-"\n"
-"anovaOneW(formula = len ~ dose, data = dat)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA\n"
-"#\n"
-"#  One-Way ANOVA (Welch's)\n"
-"#  ────────────────────────────────────────\n"
-"#           F       df1    df2     p\n"
-"#  ────────────────────────────────────────\n"
-"#    len    68.4      2    37.7    < .001\n"
-"#  ────────────────────────────────────────\n"
-"#"
-msgstr "data('ToothGrowth')\n"
-"dat <- ToothGrowth\n"
-"dat$dose <- factor(dat$dose)\n"
-"\n"
-"anovaOneW(formula = len ~ dose, data = dat)\n"
-"\n"
-"#\n"
-"#  ANOVA UNIDIRECCIONAL\n"
-"#\n"
-"#  ANOVA unidireccional (Welch's)\n"
-"#  ────────────────────────────────────────\n"
-"#            F      gl1    gl2       p\n"
-"#  ────────────────────────────────────────\n"
-"#    len    68,4     2     37,7    < ,001\n"
-"#  ────────────────────────────────────────\n"
-"#"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -4267,6 +1656,18 @@ msgstr "Taula de Descriptives"
 msgid "Deviance"
 msgstr "Desviació"
 
+#: R/conttables.b.R
+msgid "Deviance residuals"
+msgstr ""
+
+#: contTables/options/resA.title
+msgid "Deviance residuals (Poisson GLM)"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
+msgstr ""
+
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
@@ -4345,6 +1746,10 @@ msgstr "Dispersió"
 msgid "Distribution"
 msgstr "Distribució"
 
+#: R/descriptives.b.R
+msgid "Does not support weighted data yet."
+msgstr ""
+
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
 msgstr "No assumir iguals (Welch)"
@@ -4373,6 +1778,11 @@ msgstr "arrossegar variables aquí"
 msgid "DSCF pairwise comparisons"
 msgstr "Comparacions per parelles DSCF"
 
+#: anovaNP/options/pairsDunn.title
+#: anovaNP/results/comparisonsDunn.title
+msgid "Dunn's pairwise comparisons"
+msgstr ""
+
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
 msgstr "Prova Durbin-Watson d'Autocorrelació"
@@ -4391,6 +1801,7 @@ msgstr "comparacions per parelles Dwass-Steel-Critchlow-Fligner"
 #: anova/options/effectSize.title
 #: anova/ui[1][1].label
 #: anova/ui[5][1][1].label
+#: anovaNP/ui[1][0].label
 #: anovaRM/options/effectSize.title
 #: anovaRM/ui[1][0][0].label
 #: ttestIS/options/effectSize.title
@@ -4403,7 +1814,6 @@ msgstr "Intensitat de l'efecte"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
-#: anovaNP/options/es.title
 #: ttestIS/ui[1][1][0]/effectSize.label
 #: ttestOneS/options/effectSize.title
 #: ttestOneS/ui[1][1][0]/effectSize.label
@@ -4967,6 +2377,9 @@ msgstr "Oculta ponderacions menors que"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
+#: contTables/options/hlresP.title
+#: contTables/options/hlresS.title
+#: contTables/options/hlresA.title
 msgid "Highlight values above"
 msgstr "Destaca ponderacions més grans que"
 
@@ -5030,10 +2443,6 @@ msgstr "Hipòtesi"
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
 msgstr "Si es descarta l'element"
-
-#: anovaRM/options/contrasts.description.R
-msgid "in development"
-msgstr "en desensenvolupament"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
@@ -5109,6 +2518,10 @@ msgstr "Interval"
 #: descriptives/options/iqr.title
 msgid "IQR"
 msgstr "RIC"
+
+#: R/utilsanova.R
+msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgstr ""
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -5320,6 +2733,36 @@ msgstr "Inferior"
 msgid "lower bound"
 msgstr "límit inferior"
 
+#: R/linreg.b.R
+msgid "Mahalanobis ChiSq"
+msgstr ""
+
+#: linReg/options/mahal.title
+#: linReg/options/mahalOV.title
+msgid "Mahalanobis distance"
+msgstr ""
+
+#: linReg/results/models.template/dataSummary/mahal.title
+#: linReg/results/mahalOV.title
+msgid "Mahalanobis Distance"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance (Chi sq.)"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance (p)"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis p"
+msgstr ""
+
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
 #: mancova/options.title
@@ -5380,6 +2823,7 @@ msgid "Mauchly's W"
 msgstr "W de Mauchly"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
 msgstr "Màx"
@@ -5435,6 +2879,7 @@ msgstr "Prova de McNemar"
 #: descriptives/options/boxMean.title
 #: descriptives/options/mean.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
@@ -5522,6 +2967,7 @@ msgstr "Mesures"
 #: anovaRMNP/results/desc.columns.title
 #: descriptives/options/median.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
@@ -5539,6 +2985,7 @@ msgid "Method"
 msgstr "Mètode"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
 msgstr "Mín"
@@ -5648,6 +3095,10 @@ msgstr "Comparació de models"
 msgid "Model Fit"
 msgstr "Ajustament del Model"
 
+#: R/utilsanova.R
+msgid "Model fit issue detected!"
+msgstr ""
+
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
 #: logRegBin/results/modelFit.title
@@ -5687,6 +3138,13 @@ msgstr "Llindars del Model"
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
 msgstr "Llindars del model"
+
+#: R/linreg.b.R
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Models estimated using sample size of N={n}"
+msgstr ""
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -5844,9 +3302,11 @@ msgstr "Prova de Normalitat (Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
+msgstr "No s'han pogut estimar tots els coeficients (probablement degut a l'ajustament singular)"
+
+#: R/descriptives.b.R
+msgid "Not all statistics support weighted data yet."
 msgstr ""
-"No s'han pogut estimar tots els coeficients (probablement degut a "
-"l'ajustament singular)"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -5953,15 +3413,6 @@ msgstr "Prova Òmnibus"
 msgid "Omnibus Tests"
 msgstr "Proves Òmnibus"
 
-#: corrMatrix/options/hypothesis.description.R
-#: corrPart/options/hypothesis.description.R
-msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
-msgstr "un de `'corr'` (predeterminat), `'pos'`, `'neg'` especificant la hipòtesi alternativa; respectivament, correlacionat, correlacionat positivament, correlacionat negativament."
-
-#: corrPart/options/type.description.R
-msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
-msgstr "un de `'part'` (predeterminat) o `'semi'` especificant el tipus de correlació parcial a calcular; correlació parcial o semi-parcial."
-
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
 msgstr "Un o tots grups no contenen prou observacions"
@@ -5985,40 +3436,6 @@ msgstr "Una o totes variables no contenen prou observacions"
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
 msgstr "Un o més coeficients del model ‘{modelNo}’ no s'ha pogut estimar degut a col·linearitat perfecta."
-
-#: cfa/options/fitMeasures.description.R
-msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
-msgstr "uno o més de `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'` o `'bic'`; respectivament, utilitzar mesures de ajustament del model CFI, TLI, SRMR, RMSEA + Interval de Confiança del 90%, AIC i BIC ajustades,"
-
-#: ancova/options/effectSize.description.R
-#: anova/options/effectSize.description.R
-#: anovaRM/options/effectSize.description.R
-msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
-msgstr "un o més de `'eta'`, `'partEta'` o `'omega'`; respectivament, utilitzar η², η² parcial i ω² grandàries d'efecte"
-
-#: anovaRM/options/spherCorr.description.R
-msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
-msgstr "un o més de `'none'` (predeterminat), `'GG'` o` `HF``; respectivament, utilitzar cap correcció de valor-p, la correcció del valor-p de Greenhouse-Geisser i la correcció de valor-p de Huynh-Feldt per esfericitat"
-
-#: anovaRM/options/postHocCorr.description.R
-msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
-msgstr "un o més de `'none'`, `'tukey'` (predeterminat), `'scheffe'`, `'bonf'` o `'holm'`; respectivament, utilitzar com a correccions post hoc, cap, Tukey, Scheffe, Bonferroni i Holm"
-
-#: ancova/options/postHocCorr.description.R
-#: anova/options/postHocCorr.description.R
-msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
-msgstr "un o més de `'none'`, `'tukey'`, `'scheffe'`, `'bonf'` o `'holm'`; respectivament, proporcionar com a correccions post hoc, cap, Tukey, Scheffe, Bonferroni i Holm"
-
-#: mancova/options/multivar.description.R
-msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
-msgstr "un o més de `'pillai'`, `'wilks'`, `'hotel'` o `'roy'`; respectivament, utilitzar les estadístiques multivariades traça de Pillai, Wilks 'Lambda, traça de Hotelling i arrel més gran de Roy"
-
-#: logLinear/options/pseudoR2.description.R
-#: logRegBin/options/pseudoR2.description.R
-#: logRegMulti/options/pseudoR2.description.R
-#: logRegOrd/options/pseudoR2.description.R
-msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
-msgstr "un o més de `'r2mf'`, `'r2cs'` o `'r2n'`; respectivament, utilitzar McFadden's, Cox & Snell i Nagelkerke pseudo-R²"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -6189,11 +3606,23 @@ msgstr "Prova pel model general"
 msgid "p"
 msgstr "p"
 
+#: linReg/ui[3][0][1][0]/mahal/mahalp.label
+msgid "p <"
+msgstr ""
+
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
 msgstr "valor-p"
+
+#: anovaNP/results/comparisonsDunn.template.columns.title
+msgid "p<sub>(Bonferroni)</sub>"
+msgstr ""
+
+#: anovaNP/results/comparisonsDunn.template.columns.title
+msgid "p<sub>(unadj)</sub>"
+msgstr ""
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -6237,6 +3666,7 @@ msgid "Paired Variables"
 msgstr "Variables Aparellades"
 
 #: anovaNP/results/comparisons.template.title
+#: anovaNP/results/comparisonsDunn.template.title
 msgid "Pairwise comparisons - $key"
 msgstr "Comparacions entre parelles - $key"
 
@@ -6316,6 +3746,10 @@ msgstr "η² parcial"
 msgid "partial η²"
 msgstr "η² parcial"
 
+#: linReg/results/models.template/dataSummary/mahal.columns.title
+msgid "Participants (rows) below p-threshold"
+msgstr ""
+
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
 msgstr "Diagrama de Camí"
@@ -6334,6 +3768,11 @@ msgstr "Pearson"
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr "La correlació de Pearson no pot ser calculada per valors no numèrics"
+
+#: R/conttables.b.R
+#: contTables/options/resP.title
+msgid "Pearson residuals"
+msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -6464,8 +3903,8 @@ msgstr "Tipus de Gràfic"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
-#: contTables/ui[1][2].label
-#: contTables/ui[1][2][0][0][0].label
+#: contTables/ui[1][3].label
+#: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
 #: descriptives/ui[3].label
 #: descriptives/results/plots.title
@@ -6475,6 +3914,10 @@ msgstr "Tipus de Gràfic"
 #: ttestPS/results/plots.title
 msgid "Plots"
 msgstr "Gràfics"
+
+#: R/descriptives.b.R
+msgid "Plots are not yet supported for weighted descriptives."
+msgstr ""
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -6487,16 +3930,28 @@ msgstr "Polinomial"
 msgid "Post Hoc Comparisons - {term}"
 msgstr "Comparacions Post Hoc - {term}"
 
+#: R/conttables.b.R
+msgid "Post Hoc Test"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Post Hoc Test ({title})"
+msgstr ""
+
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
 #: ancova/results/postHoc.title
 #: anova/options/postHoc.title
 #: anova/ui[5].label
 #: anova/results/postHoc.title
+#: anovaNP/ui[1][1].label
 #: anovaOneW/results/postHoc.title
 #: anovaRM/options/postHoc.title
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
+#: contTables/ui[1][2].label
+#: contTables/ui[1][2][0][0][0].label
+#: contTables/results/postHoc.title
 msgid "Post Hoc Tests"
 msgstr "Proves Post Hoc"
 
@@ -6953,6 +4408,7 @@ msgstr "R²<sub>T</sub>"
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
+#: linReg/results/models.template/dataSummary/mahal.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
 msgstr "Recorregut"
@@ -7170,10 +4626,6 @@ msgstr "element escalat inversament"
 msgid "Reverse Scaled Items"
 msgstr "Elements Escalats Inversament"
 
-#: jamovi/js/anovarm.events.js:8
-msgid "RM Factor {0}"
-msgstr "MR Factor {0}"
-
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
 msgstr "MR Factor 1"
@@ -7234,10 +4686,6 @@ msgstr "Files"
 #: contTables/options/compare/rows.title
 msgid "rows"
 msgstr "files"
-
-#: contTables/options/xaxis.description.R
-msgid "rows (default), or columns in bar plot X axis"
-msgstr "files (predeterminat), o columnes en l'eix X del diagrama de barres"
 
 #: R/conttables.b.R
 msgid "Rows compared"
@@ -7316,6 +4764,7 @@ msgstr "Gràfica de sedimentació"
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
@@ -7375,80 +4824,6 @@ msgstr "Sensibilitat"
 msgid "septic"
 msgstr "sèptica"
 
-#: logRegOrd/options.description.R.usage
-msgid "set.seed(1337)\n"
-"\n"
-"y <- factor(sample(1:3, 100, replace = TRUE))\n"
-"x1 <- rnorm(100)\n"
-"x2 <- rnorm(100)\n"
-"\n"
-"df <- data.frame(y=y, x1=x1, x2=x2)\n"
-"\n"
-"logRegOrd(data = df, dep = y,\n"
-"          covs = vars(x1, x2),\n"
-"          blocks = list(list(\"x1\", \"x2\")))\n"
-"\n"
-"#\n"
-"#  ORDINAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1         218    226    5.68e-4\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE       Z        p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    x1             0.0579    0.193    0.300    0.764\n"
-"#    x2             0.0330    0.172    0.192    0.848\n"
-"#  ────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr "set.seed(1337)\n"
-"\n"
-"y <- factor(sample(1:3, 100, replace = TRUE))\n"
-"x1 <- rnorm(100)\n"
-"x2 <- rnorm(100)\n"
-"\n"
-"df <- data.frame(y=y, x1=x1, x2=x2)\n"
-"\n"
-"logRegOrd(data = df, dep = y,\n"
-"          covs = vars(x1, x2),\n"
-"          blocks = list(list(\"x1\", \"x2\")))\n"
-"\n"
-"#\n"
-"#  REGRESSIÓ LOGÍSTICA ORDINAL\n"
-"#\n"
-"#  Mesures ajustament del model\n"
-"#  ───────────────────────────────────────\n"
-"#     model    Desviació   AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1        218      226    5,68e-4\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  RESULTATS ESPECÍFICS DE MODEL\n"
-"#\n"
-"#  Model 1\n"
-"#\n"
-"#  Coeficients de model\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Predictor    Estimació     EE       Z        p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    x1             0,0579    0,193    0,300    0,764\n"
-"#    x2             0,0330    0,172    0,192    0,848\n"
-"#  ────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-
 #: R/ancova.b.R
 msgid "sextic"
 msgstr "sèxtica"
@@ -7506,6 +4881,10 @@ msgstr "Simulacions"
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
 msgstr "S'ha trobat un ajustament singular; una o més variables predictores son una combinació lineal d'altres variables predictores."
+
+#: R/anovarm.b.R
+msgid "Singularity error. Sphericity corrections are not available"
+msgstr ""
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -7575,10 +4954,6 @@ msgstr "SRMR"
 msgid "SS Loadings"
 msgstr "Càrregues SC"
 
-#: contTables/options/bartype.description.R
-msgid "stack or side by side (default), barplot type"
-msgstr "apilada o al costat (predeterminat), tipus de diagrama de barres"
-
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
@@ -7630,6 +5005,14 @@ msgstr "Estimador estandarditzat"
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
 msgstr "Residus Estandarditzats"
+
+#: R/conttables.b.R
+msgid "Standardized residuals"
+msgstr ""
+
+#: contTables/options/resS.title
+msgid "Standardized residuals (adjusted Pearson)"
+msgstr ""
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -7746,8 +5129,8 @@ msgstr "ten Berge"
 #: jamovi/js/ancova.events.js:7
 #: jamovi/js/anova.js:45
 #: jamovi/js/anova.js:9
-#: jamovi/js/anovarm.events.js:16
-#: jamovi/js/anovarm.events.js:77
+#: jamovi/js/anovarm.js:15
+#: jamovi/js/anovarm.js:98
 #: jamovi/js/linreg.events.js:10
 #: jamovi/js/linreg.events.js:47
 #: jamovi/js/loglinear.events.js:10
@@ -7811,10 +5194,6 @@ msgstr "El conjunt de dades ‘iris’ de R"
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
 msgstr "La variable ‘Segmenta per ’{var}’ no conté dades."
-
-#: linReg/options/weights.description.R
-msgid "the (optional) weights from `data` to be used in the fitting process"
-msgstr "les ponderacions (opcionals) de `data` que s'utilitzaran en el procés d'ajustament"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -7980,50 +5359,13 @@ msgstr "les proves a utilitzar."
 msgid "the control variables of interest."
 msgstr "les variables de control d'interès."
 
-#: propTestN/options/counts.description.R
-msgid "the counts in `data`"
-msgstr "les freqüències a `data`"
-
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
 msgstr "les covariants (especificar-les fa que sigui un ANCOVA)"
 
-#: linReg/options/covs.description.R
-msgid "the covariates from `data`"
-msgstr "les covariants de `data`"
-
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
 msgstr "El valor de tall és {}"
-
-#: ancova/options/data.description.R
-#: anova/options/data.description.R
-#: anovaNP/options/data.description.R
-#: anovaOneW/options/data.description.R
-#: anovaRM/options/data.description.R
-#: anovaRMNP/options/data.description.R
-#: cfa/options/data.description.R
-#: contTables/options/data.description.R
-#: contTablesPaired/options/data.description.R
-#: corrMatrix/options/data.description.R
-#: corrPart/options/data.description.R
-#: descriptives/options/data.description.R
-#: efa/options/data.description.R
-#: linReg/options/data.description.R
-#: logLinear/options/data.description.R
-#: logRegBin/options/data.description.R
-#: logRegMulti/options/data.description.R
-#: logRegOrd/options/data.description.R
-#: mancova/options/data.description.R
-#: pca/options/data.description.R
-#: propTest2/options/data.description.R
-#: propTestN/options/data.description.R
-#: reliability/options/data.description.R
-#: ttestIS/options/data.description.R
-#: ttestOneS/options/data.description.R
-#: ttestPS/options/data.description.R
-msgid "the data as a data frame"
-msgstr "les dades com una 'data frame'"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
@@ -8047,15 +5389,6 @@ msgstr "La variable dependent ‘{dep}’ te el següent ordre: {orderedLevels}"
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr "La variable dependent \"{dep}” te només dos nivells, cal considerar fer una regressió logística binomial."
 
-#: linReg/options/dep.description.R
-msgid "the dependent variable from `data`, variable must be numeric"
-msgstr "la variable dependent de` data`, la variable ha de ser numèrica"
-
-#: ancova/options/dep.description.R
-#: anova/options/dep.description.R
-msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr "la variable dependent de` data`, la variable ha de ser numèrica (no és necessari quan es proporciona una fórmula, veure els exemples)"
-
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
 msgstr "la variable dependent. Per a ANCOVA, seran contínues."
@@ -8068,10 +5401,6 @@ msgstr "la variable dependent. Per a ANOVA, seran contínues."
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr "les variables dependents -- es realitza una prova t separada per a cada variable dependent especificada."
 
-#: ttestIS/options/vars.description.R
-msgid "the dependent variables (not necessary when using a formula, see the examples)"
-msgstr "les variables dependents (no és necessari quan s'utilitza una fórmula, veure els exemples)"
-
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
 msgstr "les variables dependents. Per a ANOVA, seran contínues."
@@ -8082,15 +5411,6 @@ msgstr "les variables dependents. Per a ANOVA, seran contínues."
 msgid "the error bars to plot on the marginal means."
 msgstr "les barres d'error a representar sobre les mitjanes marginals."
 
-#: ancova/options/covs.description.R
-msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
-msgstr "las covariants explicatives (no és necessari quan es proporciona una fórmula, veure els exemples)"
-
-#: ancova/options/factors.description.R
-#: anova/options/factors.description.R
-msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
-msgstr "els factors explicatius a `data` (no és necessari quan es proporciona una fórmula, veure els exemples)"
-
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr "la variable explicativa o independent. Per a ANOVA serà categòrica."
@@ -8099,18 +5419,10 @@ msgstr "la variable explicativa o independent. Per a ANOVA serà categòrica."
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr "les variables explicatives o independents. Per a ANOVA, seran categòriques."
 
-#: linReg/options/factors.description.R
-msgid "the fixed factors from `data`"
-msgstr "els factors fixos de `data`"
-
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr "La prova de Friedman s'utilitza per a explorar la relació entre una variable dependent continua i una variable explicativa categòrica, on la variable explicativa és 'entre subjectes' (on múltiples mesures son del mateix subjecte). És anàloga al ANOVA de mesures repetides, pero amb l'avantatge de ser no paramètric, i no requerir els supòsits de normalitat i homogeneïtat de variàncies. Tot i que te la limitació de que només es pot provar una sola variable explicativa a la vegada."
-
-#: ttestIS/options/group.description.R
-msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
-msgstr "la variable d'agrupació amb dos nivells (no és necessari quan s'utilitza una fórmula, veure els exemples)"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
@@ -8155,9 +5467,7 @@ msgstr "las correccions de comparacions múltiples post-hoc que s'utilitzaran."
 
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr ""
-"l'amplada a priori per als factors Bayes de la prova t de Student. Requereix "
-"un valor entre 0,01 i 2,0, per defecte 0,707."
+msgstr "l'amplada a priori per als factors Bayes de la prova t de Student. Requereix un valor entre 0,01 i 2,0, per defecte 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
@@ -8213,10 +5523,6 @@ msgid "the repeated measures design."
 msgstr "el disseny de mesures repetides."
 
 #: R/anovarm.b.R
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
-msgstr "Las mesures repetides tenen només dos nivells. El supòsit d'esfericitat sempre es cumpleix quan les mesures repetides tenen només dos nivells"
-
-#: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr "Las mesures repetides tenen només dos nivells. El supòsit d'esfericitat sempre es cumpleix quan les mesures repetides tenen només dos nivells."
 
@@ -8227,6 +5533,10 @@ msgstr "els amidaments de mesures repetides."
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
 msgstr "els termes de mesures repetides del model."
+
+#: R/utilsreg.R
+msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
+msgstr ""
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -8367,28 +5677,9 @@ msgstr "L'objete `aov` subyacent"
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr "La variable {var} no es pot tractar com a numèrica. Els gràfics que esperen dades numèriques no es generaran per a aquesta variable."
 
-#: propTestN/options/var.description.R
-msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
-msgstr "la variable d'interès a` data` (no és necessari quan s'utilitza una fórmula, veure els exemples)"
-
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
 msgstr "la variable especificant els grups; ha de tenir 2 nivells."
-
-#: contTables/options/cols.description.R
-#: contTablesPaired/options/cols.description.R
-msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "la variable que s'utilitzarà com a columnes a la taula de contingència (no és necessari quan es proporciona una fórmula, veure els exemples)"
-
-#: contTables/options/counts.description.R
-#: contTablesPaired/options/counts.description.R
-msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "la variable que s'utilitzarà com a freqüències a la taula de contingència (no és necessari quan es proporciona una fórmula, veure els exemples)"
-
-#: contTables/options/rows.description.R
-#: contTablesPaired/options/rows.description.R
-msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "la variable que s'utilitzarà com a files a la taula de contingència (no és necessari quan es proporciona una fórmula, veure els exemples)"
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
@@ -8402,10 +5693,6 @@ msgstr "les variables d'interès — es realitza una prova t separada per a cada
 #: corrPart/options/vars.description.ui
 msgid "the variables of interest."
 msgstr "les variables d'interès."
-
-#: contTables/options/layers.description.R
-msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
-msgstr "les variables que s'utilitzaran per a segmentar la taula de contingència (no és necessari quan es proporciona una fórmula, veure els exemples)"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
@@ -8433,6 +5720,10 @@ msgstr "La prova χ² d'associació (que no s'ha de confondre amb la prova χ² 
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
 msgstr "Quantils Teòrics"
+
+#: R/linreg.b.R
+msgid "There were no Mahalanobis distances with a threshold below p < {p}."
+msgstr ""
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -8506,10 +5797,6 @@ msgstr "Dades sobre Creixement de Dents"
 msgid "Total"
 msgstr "Total"
 
-#: contTables/options/yaxisPc.description.R
-msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr "total_pc (predeterminat), column_pc o row_pc. Utilitza respectivament els percentatges respecte \"del total\", \"de Columna\" o \"de Fila\" per a l'eix Y del gràfic de barres."
-
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
@@ -8560,6 +5847,11 @@ msgstr "Unicitat"
 #: mancova/results/univar.title
 msgid "Univariate Tests"
 msgstr "Proves Univariable"
+
+#: R/conttables.b.R
+#: contTables/options/resU.title
+msgid "Unstandardized residuals"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -8734,8 +6026,7 @@ msgstr "Ponderacions (opcional)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
-"Els pesos contenen valors negatius. Els pesos negatius no estan permesos."
+msgstr "Els pesos contenen valors negatius. Els pesos negatius no estan permesos."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
@@ -8778,7 +6069,7 @@ msgstr "de fila"
 msgid "Within Subjects Effects"
 msgstr "Efectes Entre Subjectes"
 
-#: contTables/ui[1][2][0][1][1].label
+#: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
 msgstr "eix X"
 
@@ -8786,17 +6077,13 @@ msgstr "eix X"
 msgid "X-axis"
 msgstr "eix X"
 
-#: contTables/ui[1][2][0][1][0].label
+#: contTables/ui[1][3][0][1][0].label
 msgid "Y-Axis"
 msgstr "eix Y"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
 msgstr "eix Y"
-
-#: contTables/options/yaxis.description.R
-msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
-msgstr "ycounts (predeterminat) o ypc. S'utilitza respectivament \"freqüències\" o \"percentatges\" per a l'eix Y del gràfic de barres"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -8828,6 +6115,7 @@ msgstr "prova z només està disponible per a taules 2x2"
 msgid "ΔR²"
 msgstr "ΔR²"
 
+#: anovaNP/options/es.title
 #: anovaNP/results/table.columns.title
 msgid "ε²"
 msgstr "ε²"

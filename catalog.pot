@@ -32,6 +32,7 @@ msgstr ""
 msgid "'{rotation}' rotation was used"
 msgstr ""
 
+#: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
 msgstr ""
@@ -178,103 +179,12 @@ msgstr ""
 msgid "% within row"
 msgstr ""
 
-#: ancova/options/ss.description.R
-#: anova/options/ss.description.R
-msgid "`'1'`, `'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
-
-#: anovaRM/options/ss.description.R
-msgid "`'2'` or `'3'` (default), the sum of squares to use"
-msgstr ""
-
-#: contTables/options/hypothesis.description.R
-#: ttestIS/options/hypothesis.description.R
-msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; group 1 different to group 2, group 1 greater than group 2, and group 2 greater than group 1 respectively"
-msgstr ""
-
-#: ttestPS/options/hypothesis.description.R
-msgid "`'different'` (default), `'oneGreater'` or `'twoGreater'`, the alternative hypothesis; measure 1 different to measure 2, measure 1 greater than measure 2, and measure 2 greater than measure 1 respectively"
-msgstr ""
-
-#: ttestOneS/options/hypothesis.description.R
-msgid "`'dt'` (default), `'gt'` or `'lt'`, the alternative hypothesis; different to `testValue`, greater than `testValue`, and less than `testValue` respectively"
-msgstr ""
-
-#: cfa/options/constrain.description.R
-msgid "`'facVar'` or `'facInd'`, how to contrain the model; `'facVar'` fixes the factor variances to one, `'facInd'` fixes each factor to the scale of its first indicator."
-msgstr ""
-
-#: cfa/options/miss.description.R
-msgid "`'listwise'` or `'fiml'`, how to handle missing values; `'listwise'` excludes a row from all analyses if one of its entries is missing, `'fiml'` uses a full information maximum likelihood method to estimate the model."
-msgstr ""
-
-#: anovaRMNP/options/plotType.description.R
-msgid "`'means'` (default) or `'medians'`, the error bars to use in the plot"
-msgstr ""
-
-#: efa/options/extraction.description.R
-msgid "`'minres'` (default), `'ml'`, or `'pa'` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
-msgstr ""
-
-#: ancova/options/emmPlotError.description.R
-#: anova/options/emmPlotError.description.R
-#: anovaRM/options/emmPlotError.description.R
-msgid "`'none'`, `'ci'` (default), or `'se'`. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
-msgstr ""
-
-#: anovaOneW/options/phMethod.description.R
-msgid "`'none'`, `'gamesHowell'` or `'tukey'`, which post-hoc tests to provide; `'none'` shows no post-hoc tests, `'gamesHowell'` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and `'tukey'` shows Tukey post-hoc tests where equivalence of variances is assumed"
-msgstr ""
-
-#: pca/options/rotation.description.R
-msgid "`'none'`, `'varimax'` (default), `'quartimax'`, `'promax'`, `'oblimin'`, or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-
-#: efa/options/rotation.description.R
-msgid "`'none'`, `'varimax'`, `'quartimax'`, `'promax'`, `'oblimin'` (default), or `'simplimax'`, the rotation to use in estimation"
-msgstr ""
-
-#: propTest2/options/hypothesis.description.R
-msgid "`'notequal'` (default), `'greater'` or `'less'`, the alternative hypothesis"
-msgstr ""
-
-#: efa/options/nFactorMethod.description.R
-#: pca/options/nFactorMethod.description.R
-msgid "`'parallel'` (default), `'eigen'` or `'fixed'`, the way to determine the number of factors"
-msgstr ""
-
-#: ttestPS/options/miss.description.R
-msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing"
-msgstr ""
-
-#: anovaOneW/options/miss.description.R
-#: ttestIS/options/miss.description.R
-#: ttestOneS/options/miss.description.R
-msgid "`'perAnalysis'` or `'listwise'`, how to handle missing values; `'perAnalysis'` excludes missing values for individual dependent variables, `'listwise'` excludes a row from all analyses if one of its entries is missing."
-msgstr ""
-
-#: linReg/options/intercept.description.R
-msgid "`'refLevel'` (default) or `'grandMean'`, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
-msgstr ""
-
-#: descriptives/options/desc.description.R
-msgid "`'rows'` or `'columns'` (default), display the variables across the rows or across the columns (default)"
-msgstr ""
-
-#: efa/options/factorScoreMethod.description.R
-msgid "`'Thurstone'` (default), `'Bartlett'`, `'tenBerge'`, `'Anderson'`, or `'Harman'` use respectively 'Thurstone', 'Bartlett', 'ten Berge', 'Anderson & Rubin', or 'Harman' method for estimating factor scores"
-msgstr ""
-
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
 msgstr ""
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
-
-#: contTables/options/compare.description.R
-msgid "`columns` or `rows` (default), compare columns/rows in difference of proportions or relative risks (2x2 tables)"
 msgstr ""
 
 #: linReg/results/models.template/coef.title
@@ -289,800 +199,6 @@ msgstr ""
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
-
-#: descriptives/options/boxLabelOutliers.description.R
-msgid "`TRUE` (default) or `FALSE`, add labels with the row number to the outliers in the box plot"
-msgstr ""
-
-#: ttestIS/options/students.description.R
-#: ttestOneS/options/students.description.R
-#: ttestPS/options/students.description.R
-msgid "`TRUE` (default) or `FALSE`, perform Student's t-tests"
-msgstr ""
-
-#: anovaOneW/options/welchs.description.R
-msgid "`TRUE` (default) or `FALSE`, perform Welch's one-way ANOVA which does not assume equal variances"
-msgstr ""
-
-#: cfa/options/estTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide 'Z' and 'p' values for the model estimates"
-msgstr ""
-
-#: cfa/options/modelTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide a chi-square test for exact fit that compares the model with the perfect fitting model"
-msgstr ""
-
-#: linReg/options/ciEmm.description.R
-#: logLinear/options/ciEmm.description.R
-#: logRegBin/options/ciEmm.description.R
-#: logRegMulti/options/ciEmm.description.R
-msgid "`TRUE` (default) or `FALSE`, provide a confidence interval for the estimated marginal means"
-msgstr ""
-
-#: logLinear/options/aic.description.R
-#: logRegBin/options/aic.description.R
-#: logRegMulti/options/aic.description.R
-#: logRegOrd/options/aic.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
-
-#: reliability/options/alphaScale.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Cronbach's α"
-msgstr ""
-
-#: ancova/options/emmPlots.description.R
-#: anova/options/emmPlots.description.R
-#: anovaRM/options/emmPlots.description.R
-#: linReg/options/emmPlots.description.R
-#: logLinear/options/emmPlots.description.R
-#: logRegBin/options/emmPlots.description.R
-#: logRegMulti/options/emmPlots.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimated marginal means plots"
-msgstr ""
-
-#: cfa/options/factCovEst.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimates for the factor (co)variances"
-msgstr ""
-
-#: cfa/options/resCovEst.description.R
-msgid "`TRUE` (default) or `FALSE`, provide estimates for the residual (co)variances"
-msgstr ""
-
-#: anovaOneW/options/phMeanDif.description.R
-msgid "`TRUE` (default) or `FALSE`, provide mean differences for post-hoc tests"
-msgstr ""
-
-#: corrMatrix/options/pearson.description.R
-#: corrPart/options/pearson.description.R
-msgid "`TRUE` (default) or `FALSE`, provide Pearson's R"
-msgstr ""
-
-#: corrMatrix/options/sig.description.R
-#: corrPart/options/sig.description.R
-msgid "`TRUE` (default) or `FALSE`, provide significance levels"
-msgstr ""
-
-#: anovaOneW/options/phSig.description.R
-msgid "`TRUE` (default) or `FALSE`, provide significance levels for post-hoc tests"
-msgstr ""
-
-#: logLinear/options/dev.description.R
-#: logRegBin/options/dev.description.R
-#: logRegMulti/options/dev.description.R
-#: logRegOrd/options/dev.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the deviance (or -2LogLikelihood) for the models"
-msgstr ""
-
-#: descriptives/options/mean.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the mean"
-msgstr ""
-
-#: descriptives/options/median.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the median"
-msgstr ""
-
-#: linReg/options/modelTest.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the model comparison between the models and the NULL model"
-msgstr ""
-
-#: descriptives/options/missing.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the number of missing values"
-msgstr ""
-
-#: descriptives/options/n.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the sample size"
-msgstr ""
-
-#: descriptives/options/sd.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the standard deviation"
-msgstr ""
-
-#: linReg/options/r2.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R-squared` for the models"
-msgstr ""
-
-#: linReg/options/r.description.R
-msgid "`TRUE` (default) or `FALSE`, provide the statistical measure `R` for the models"
-msgstr ""
-
-#: contTables/options/chiSq.description.R
-#: contTablesPaired/options/chiSq.description.R
-msgid "`TRUE` (default) or `FALSE`, provide χ²"
-msgstr ""
-
-#: ancova/options/emmWeights.description.R
-#: anova/options/emmWeights.description.R
-#: anovaRM/options/emmWeights.description.R
-#: linReg/options/emmWeights.description.R
-#: logLinear/options/emmWeights.description.R
-#: logRegBin/options/emmWeights.description.R
-#: logRegMulti/options/emmWeights.description.R
-msgid "`TRUE` (default) or `FALSE`, weigh each cell equally or weigh them according to the cell frequency"
-msgstr ""
-
-#: descriptives/options/barCounts.description.R
-msgid "`TRUE` or `FALSE` (default), add counts to the  bar plots"
-msgstr ""
-
-#: descriptives/options/boxMean.description.R
-msgid "`TRUE` or `FALSE` (default), add mean to box plot"
-msgstr ""
-
-#: corrMatrix/options/flag.description.R
-#: corrPart/options/flag.description.R
-msgid "`TRUE` or `FALSE` (default), flag significant correlations"
-msgstr ""
-
-#: anovaOneW/options/phFlag.description.R
-msgid "`TRUE` or `FALSE` (default), flag significant post-hoc comparisons"
-msgstr ""
-
-#: linReg/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform a Shapiro-Wilk test on the residuals"
-msgstr ""
-
-#: anovaOneW/options/fishers.description.R
-msgid "`TRUE` or `FALSE` (default), perform Fisher's one-way ANOVA which assumes equal variances"
-msgstr ""
-
-#: ancova/options/homo.description.R
-#: anova/options/homo.description.R
-msgid "`TRUE` or `FALSE` (default), perform homogeneity tests"
-msgstr ""
-
-#: anovaOneW/options/eqv.description.R
-msgid "`TRUE` or `FALSE` (default), perform Levene's test for homogeneity of variances"
-msgstr ""
-
-#: ttestIS/options/eqv.description.R
-msgid "`TRUE` or `FALSE` (default), perform Levene's tests for homogeneity of variances"
-msgstr ""
-
-#: ttestIS/options/mann.description.R
-msgid "`TRUE` or `FALSE` (default), perform Mann-Whitney U tests"
-msgstr ""
-
-#: anovaNP/options/pairs.description.R
-#: anovaRMNP/options/pairs.description.R
-msgid "`TRUE` or `FALSE` (default), perform pairwise comparisons"
-msgstr ""
-
-#: ttestPS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk normality tests"
-msgstr ""
-
-#: anovaOneW/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk test of normality"
-msgstr ""
-
-#: ancova/options/norm.description.R
-#: anova/options/norm.description.R
-#: ttestIS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-Wilk tests of normality"
-msgstr ""
-
-#: ttestOneS/options/norm.description.R
-msgid "`TRUE` or `FALSE` (default), perform Shapiro-wilk tests of normality"
-msgstr ""
-
-#: anovaRM/options/spherTests.description.R
-msgid "`TRUE` or `FALSE` (default), perform sphericity tests"
-msgstr ""
-
-#: ttestIS/options/welchs.description.R
-msgid "`TRUE` or `FALSE` (default), perform Welch's t-tests"
-msgstr ""
-
-#: ttestOneS/options/wilcoxon.description.R
-#: ttestPS/options/wilcoxon.description.R
-msgid "`TRUE` or `FALSE` (default), perform Wilcoxon signed rank tests"
-msgstr ""
-
-#: ancova/options/emmPlotData.description.R
-#: anova/options/emmPlotData.description.R
-#: anovaRM/options/emmPlotData.description.R
-msgid "`TRUE` or `FALSE` (default), plot the data on top of the marginal means"
-msgstr ""
-
-#: logLinear/options/ci.description.R
-#: logRegBin/options/ci.description.R
-#: logRegMulti/options/ci.description.R
-#: logRegOrd/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient estimates"
-msgstr ""
-
-#: logRegBin/options/ciOR.description.R
-#: logRegMulti/options/ciOR.description.R
-#: logRegOrd/options/ciOR.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient odds ratio estimates"
-msgstr ""
-
-#: logLinear/options/ciRR.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient rate ratio estimates"
-msgstr ""
-
-#: linReg/options/ciStdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficient standardized estimates"
-msgstr ""
-
-#: linReg/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model coefficients"
-msgstr ""
-
-#: cfa/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide a confidence interval for the model estimates"
-msgstr ""
-
-#: corrMatrix/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide a correlation matrix plot"
-msgstr ""
-
-#: reliability/options/corPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a correlation plot"
-msgstr ""
-
-#: logRegBin/options/cutOffPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a cut-off plot"
-msgstr ""
-
-#: anovaRMNP/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide a descriptive plot"
-msgstr ""
-
-#: cfa/options/pathDiagram.description.R
-msgid "`TRUE` or `FALSE` (default), provide a path diagram of the model"
-msgstr ""
-
-#: logRegBin/options/class.description.R
-msgid "`TRUE` or `FALSE` (default), provide a predicted classification table (or confusion matrix)"
-msgstr ""
-
-#: mancova/options/qqPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of multivariate normality"
-msgstr ""
-
-#: ancova/options/qq.description.R
-#: anova/options/qq.description.R
-#: anovaOneW/options/qq.description.R
-#: anovaRM/options/qq.description.R
-#: linReg/options/qqPlot.description.R
-#: ttestOneS/options/qq.description.R
-#: ttestPS/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide a Q-Q plot of residuals"
-msgstr ""
-
-#: logRegBin/options/rocPlot.description.R
-msgid "`TRUE` or `FALSE` (default), provide a ROC curve plot"
-msgstr ""
-
-#: linReg/options/stdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model coefficients"
-msgstr ""
-
-#: cfa/options/stdEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide a standardized estimate for the model estimates"
-msgstr ""
-
-#: contTables/options/zProp.description.R
-msgid "`TRUE` or `FALSE` (default), provide a z test for differences between two proportions"
-msgstr ""
-
-#: linReg/options/aic.description.R
-msgid "`TRUE` or `FALSE` (default), provide Aikaike's Information Criterion (AIC) for the models"
-msgstr ""
-
-#: contTablesPaired/options/exact.description.R
-msgid "`TRUE` or `FALSE` (default), provide an exact log odds ratio (requires exact2x2 to be installed)"
-msgstr ""
-
-#: descriptives/options/bar.description.R
-msgid "`TRUE` or `FALSE` (default), provide bar plots (nominal, ordinal variables only)"
-msgstr ""
-
-#: propTest2/options/bf.description.R
-#: ttestIS/options/bf.description.R
-#: ttestOneS/options/bf.description.R
-#: ttestPS/options/bf.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayes factors"
-msgstr ""
-
-#: propTest2/options/ciBayes.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayesian credible intervals"
-msgstr ""
-
-#: linReg/options/bic.description.R
-#: logLinear/options/bic.description.R
-#: logRegBin/options/bic.description.R
-#: logRegMulti/options/bic.description.R
-#: logRegOrd/options/bic.description.R
-msgid "`TRUE` or `FALSE` (default), provide Bayesian Information Criterion (BIC) for the models"
-msgstr ""
-
-#: descriptives/options/box.description.R
-msgid "`TRUE` or `FALSE` (default), provide box plots (continuous variables only)"
-msgstr ""
-
-#: logRegBin/options/boxTidwell.description.R
-msgid "`TRUE` or `FALSE` (default), provide Box-Tidwell test for linearity of the logit"
-msgstr ""
-
-#: mancova/options/boxM.description.R
-msgid "`TRUE` or `FALSE` (default), provide Box's M test"
-msgstr ""
-
-#: ttestOneS/options/effectSize.description.R
-msgid "`TRUE` or `FALSE` (default), provide Cohen's d effect sizes"
-msgstr ""
-
-#: contTables/options/pcCol.description.R
-#: contTablesPaired/options/pcCol.description.R
-msgid "`TRUE` or `FALSE` (default), provide column percentages"
-msgstr ""
-
-#: corrMatrix/options/ci.description.R
-#: propTest2/options/ci.description.R
-#: ttestIS/options/ci.description.R
-#: ttestPS/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals"
-msgstr ""
-
-#: contTables/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the comparative measures"
-msgstr ""
-
-#: ttestIS/options/ciES.description.R
-#: ttestOneS/options/ciES.description.R
-#: ttestPS/options/ciES.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the effect-sizes"
-msgstr ""
-
-#: descriptives/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean"
-msgstr ""
-
-#: ttestOneS/options/ci.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the mean difference"
-msgstr ""
-
-#: ancova/options/postHocEsCi.description.R
-#: anova/options/postHocEsCi.description.R
-msgid "`TRUE` or `FALSE` (default), provide confidence intervals for the post-hoc effect sizes"
-msgstr ""
-
-#: corrMatrix/options/plotDens.description.R
-msgid "`TRUE` or `FALSE` (default), provide densities in the correlation matrix plot"
-msgstr ""
-
-#: descriptives/options/dens.description.R
-msgid "`TRUE` or `FALSE` (default), provide density plots (continuous variables only)"
-msgstr ""
-
-#: anovaOneW/options/descPlot.description.R
-#: ttestIS/options/plots.description.R
-#: ttestOneS/options/plots.description.R
-#: ttestPS/options/plots.description.R
-msgid "`TRUE` or `FALSE` (default), provide descriptive plots"
-msgstr ""
-
-#: anovaOneW/options/desc.description.R
-#: anovaRMNP/options/desc.description.R
-#: ttestIS/options/desc.description.R
-#: ttestOneS/options/desc.description.R
-#: ttestPS/options/desc.description.R
-msgid "`TRUE` or `FALSE` (default), provide descriptive statistics"
-msgstr ""
-
-#: descriptives/options/dot.description.R
-msgid "`TRUE` or `FALSE` (default), provide dot plots (continuous variables only)"
-msgstr ""
-
-#: ttestIS/options/effectSize.description.R
-#: ttestPS/options/effectSize.description.R
-msgid "`TRUE` or `FALSE` (default), provide effect sizes"
-msgstr ""
-
-#: anovaNP/options/es.description.R
-msgid "`TRUE` or `FALSE` (default), provide effect-sizes"
-msgstr ""
-
-#: ancova/options/emmTables.description.R
-#: anova/options/emmTables.description.R
-#: anovaRM/options/emmTables.description.R
-#: linReg/options/emmTables.description.R
-#: logLinear/options/emmTables.description.R
-#: logRegBin/options/emmTables.description.R
-#: logRegMulti/options/emmTables.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimated marginal means tables"
-msgstr ""
-
-#: cfa/options/factInterceptEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimates for the factor intercepts"
-msgstr ""
-
-#: cfa/options/resInterceptEst.description.R
-msgid "`TRUE` or `FALSE` (default), provide estimates for the residual intercepts"
-msgstr ""
-
-#: contTables/options/fisher.description.R
-msgid "`TRUE` or `FALSE` (default), provide Fisher's exact test"
-msgstr ""
-
-#: descriptives/options/freq.description.R
-msgid "`TRUE` or `FALSE` (default), provide frequency tables (nominal, ordinal variables only)"
-msgstr ""
-
-#: contTables/options/gamma.description.R
-msgid "`TRUE` or `FALSE` (default), provide gamma"
-msgstr ""
-
-#: descriptives/options/hist.description.R
-msgid "`TRUE` or `FALSE` (default), provide histograms (continuous variables only)"
-msgstr ""
-
-#: reliability/options/meanItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide item means"
-msgstr ""
-
-#: reliability/options/sdItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide item standard deviations"
-msgstr ""
-
-#: reliability/options/itemRestCor.description.R
-msgid "`TRUE` or `FALSE` (default), provide item-rest correlations"
-msgstr ""
-
-#: contTables/options/taub.description.R
-#: corrMatrix/options/kendall.description.R
-#: corrPart/options/kendall.description.R
-msgid "`TRUE` or `FALSE` (default), provide Kendall's tau-b"
-msgstr ""
-
-#: contTables/options/mh.description.R
-msgid "`TRUE` or `FALSE` (default), provide Mantel-Haenszel test for trend"
-msgstr ""
-
-#: reliability/options/omegaScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide McDonald's ω"
-msgstr ""
-
-#: ttestOneS/options/meanDiff.description.R
-msgid "`TRUE` or `FALSE` (default), provide means and standard deviations"
-msgstr ""
-
-#: ttestIS/options/meanDiff.description.R
-#: ttestPS/options/meanDiff.description.R
-msgid "`TRUE` or `FALSE` (default), provide means and standard errors"
-msgstr ""
-
-#: cfa/options/mi.description.R
-msgid "`TRUE` or `FALSE` (default), provide modification indices for the parameters not included in the model"
-msgstr ""
-
-#: descriptives/options/extreme.description.R
-msgid "`TRUE` or `FALSE` (default), provide N most extreme (highest and lowest) values"
-msgstr ""
-
-#: descriptives/options/pc.description.R
-msgid "`TRUE` or `FALSE` (default), provide percentiles"
-msgstr ""
-
-#: contTables/options/phiCra.description.R
-msgid "`TRUE` or `FALSE` (default), provide Phi and Cramer's V"
-msgstr ""
-
-#: propTest2/options/postPlots.description.R
-msgid "`TRUE` or `FALSE` (default), provide posterior plots"
-msgstr ""
-
-#: descriptives/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide Q-Q plots (continuous variables only)"
-msgstr ""
-
-#: ttestIS/options/qq.description.R
-msgid "`TRUE` or `FALSE` (default), provide Q-Q plots of residuals"
-msgstr ""
-
-#: descriptives/options/pcEqGr.description.R
-msgid "`TRUE` or `FALSE` (default), provide quantiles"
-msgstr ""
-
-#: linReg/options/resPlots.description.R
-msgid "`TRUE` or `FALSE` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
-msgstr ""
-
-#: linReg/options/durbin.description.R
-msgid "`TRUE` or `FALSE` (default), provide results of the Durbin- Watson test for autocorrelation"
-msgstr ""
-
-#: linReg/options/rmse.description.R
-msgid "`TRUE` or `FALSE` (default), provide RMSE for the models"
-msgstr ""
-
-#: contTables/options/pcRow.description.R
-#: contTablesPaired/options/pcRow.description.R
-msgid "`TRUE` or `FALSE` (default), provide row percentages"
-msgstr ""
-
-#: descriptives/options/sw.description.R
-msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk p-value"
-msgstr ""
-
-#: mancova/options/shapiro.description.R
-msgid "`TRUE` or `FALSE` (default), provide Shapiro-Wilk test"
-msgstr ""
-
-#: corrMatrix/options/spearman.description.R
-#: corrPart/options/spearman.description.R
-msgid "`TRUE` or `FALSE` (default), provide Spearman's rho"
-msgstr ""
-
-#: corrMatrix/options/plotStats.description.R
-msgid "`TRUE` or `FALSE` (default), provide statistics in the correlation matrix plot"
-msgstr ""
-
-#: linReg/options/cooks.description.R
-#: logRegBin/options/cooks.description.R
-msgid "`TRUE` or `FALSE` (default), provide summary statistics for the Cook's distance"
-msgstr ""
-
-#: anovaOneW/options/phTest.description.R
-msgid "`TRUE` or `FALSE` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
-msgstr ""
-
-#: contTables/options/contCoef.description.R
-msgid "`TRUE` or `FALSE` (default), provide the contingency coefficient"
-msgstr ""
-
-#: contTables/options/diffProp.description.R
-msgid "`TRUE` or `FALSE` (default), provide the differences in proportions (only available for 2x2 tables)"
-msgstr ""
-
-#: contTables/options/exp.description.R
-msgid "`TRUE` or `FALSE` (default), provide the expected counts"
-msgstr ""
-
-#: logRegBin/options/OR.description.R
-#: logRegMulti/options/OR.description.R
-#: logRegOrd/options/OR.description.R
-msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate"
-msgstr ""
-
-#: logLinear/options/RR.description.R
-msgid "`TRUE` or `FALSE` (default), provide the exponential of the log-rate ratio estimate, or the rate ratio estimate"
-msgstr ""
-
-#: descriptives/options/iqr.description.R
-msgid "`TRUE` or `FALSE` (default), provide the interquartile range"
-msgstr ""
-
-#: descriptives/options/kurt.description.R
-msgid "`TRUE` or `FALSE` (default), provide the kurtosis"
-msgstr ""
-
-#: contTables/options/likeRat.description.R
-msgid "`TRUE` or `FALSE` (default), provide the likelihood ratio"
-msgstr ""
-
-#: contTables/options/logOdds.description.R
-msgid "`TRUE` or `FALSE` (default), provide the log odds ratio (only available for 2x2 tables)"
-msgstr ""
-
-#: descriptives/options/max.description.R
-msgid "`TRUE` or `FALSE` (default), provide the maximum"
-msgstr ""
-
-#: reliability/options/meanScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide the mean"
-msgstr ""
-
-#: descriptives/options/min.description.R
-msgid "`TRUE` or `FALSE` (default), provide the minimum"
-msgstr ""
-
-#: descriptives/options/mode.description.R
-msgid "`TRUE` or `FALSE` (default), provide the mode"
-msgstr ""
-
-#: logLinear/options/modelTest.description.R
-#: logRegBin/options/modelTest.description.R
-#: logRegMulti/options/modelTest.description.R
-#: logRegOrd/options/modelTest.description.R
-msgid "`TRUE` or `FALSE` (default), provide the model comparison between the models and the NULL model"
-msgstr ""
-
-#: corrMatrix/options/n.description.R
-#: corrPart/options/n.description.R
-msgid "`TRUE` or `FALSE` (default), provide the number of cases"
-msgstr ""
-
-#: contTables/options/obs.description.R
-msgid "`TRUE` or `FALSE` (default), provide the observed counts"
-msgstr ""
-
-#: contTables/options/odds.description.R
-msgid "`TRUE` or `FALSE` (default), provide the odds ratio (only available for 2x2 tables)"
-msgstr ""
-
-#: linReg/options/anova.description.R
-msgid "`TRUE` or `FALSE` (default), provide the omnibus ANOVA test for the predictors"
-msgstr ""
-
-#: logLinear/options/omni.description.R
-#: logRegBin/options/omni.description.R
-#: logRegMulti/options/omni.description.R
-#: logRegOrd/options/omni.description.R
-msgid "`TRUE` or `FALSE` (default), provide the omnibus likelihood ratio tests for the predictors"
-msgstr ""
-
-#: logRegBin/options/acc.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted accuracy of outcomes grouped by the cut-off value"
-msgstr ""
-
-#: logRegBin/options/sens.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value"
-msgstr ""
-
-#: logRegBin/options/spec.description.R
-msgid "`TRUE` or `FALSE` (default), provide the predicted specificity of outcomes grouped by the cut-off value"
-msgstr ""
-
-#: descriptives/options/range.description.R
-msgid "`TRUE` or `FALSE` (default), provide the range"
-msgstr ""
-
-#: logRegBin/options/auc.description.R
-msgid "`TRUE` or `FALSE` (default), provide the area under the ROC curve (AUC)"
-msgstr ""
-
-#: contTables/options/relRisk.description.R
-msgid "`TRUE` or `FALSE` (default), provide the relative risk (only available for 2x2 tables)"
-msgstr ""
-
-#: cfa/options/corRes.description.R
-msgid "`TRUE` or `FALSE` (default), provide the residuals for the observed correlation matrix (i.e., the difference between the expected correlation matrix and the observed correlation matrix)"
-msgstr ""
-
-#: descriptives/options/skew.description.R
-msgid "`TRUE` or `FALSE` (default), provide the skewness"
-msgstr ""
-
-#: reliability/options/sdScale.description.R
-msgid "`TRUE` or `FALSE` (default), provide the standard deviation"
-msgstr ""
-
-#: descriptives/options/se.description.R
-msgid "`TRUE` or `FALSE` (default), provide the standard error"
-msgstr ""
-
-#: linReg/options/r2Adj.description.R
-msgid "`TRUE` or `FALSE` (default), provide the statistical measure `adjusted R-squared` for the models"
-msgstr ""
-
-#: descriptives/options/sum.description.R
-msgid "`TRUE` or `FALSE` (default), provide the sum"
-msgstr ""
-
-#: logRegOrd/options/thres.description.R
-msgid "`TRUE` or `FALSE` (default), provide the thresholds that are used as cut-off scores for the levels of the dependent variable"
-msgstr ""
-
-#: descriptives/options/variance.description.R
-msgid "`TRUE` or `FALSE` (default), provide the variance"
-msgstr ""
-
-#: contTables/options/pcTot.description.R
-msgid "`TRUE` or `FALSE` (default), provide total percentages"
-msgstr ""
-
-#: linReg/options/collin.description.R
-#: logRegBin/options/collin.description.R
-msgid "`TRUE` or `FALSE` (default), provide VIF and tolerence collinearity statistics"
-msgstr ""
-
-#: descriptives/options/violin.description.R
-msgid "`TRUE` or `FALSE` (default), provide violin plots (continuous variables only)"
-msgstr ""
-
-#: reliability/options/alphaItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide what the Cronbach's α would be if the item was dropped"
-msgstr ""
-
-#: reliability/options/omegaItems.description.R
-msgid "`TRUE` or `FALSE` (default), provide what the McDonald's ω would be if the item was dropped"
-msgstr ""
-
-#: contTables/options/chiSqCorr.description.R
-#: contTablesPaired/options/chiSqCorr.description.R
-msgid "`TRUE` or `FALSE` (default), provide χ² with continuity correction"
-msgstr ""
-
-#: anovaRM/options/groupSumm.description.R
-msgid "`TRUE` or `FALSE` (default), report a summary of the different groups"
-msgstr ""
-
-#: logRegBin/options/cutOff.description.R
-msgid "`TRUE` or `FALSE` (default), set a cut-off used for the predictions"
-msgstr ""
-
-#: contTables/options/barplot.description.R
-msgid "`TRUE` or `FALSE` (default), show barplots"
-msgstr ""
-
-#: efa/options/bartlett.description.R
-#: pca/options/bartlett.description.R
-msgid "`TRUE` or `FALSE` (default), show Bartlett's test of sphericity results"
-msgstr ""
-
-#: efa/options/eigen.description.R
-#: pca/options/eigen.description.R
-msgid "`TRUE` or `FALSE` (default), show eigenvalue table"
-msgstr ""
-
-#: efa/options/factorSummary.description.R
-#: pca/options/factorSummary.description.R
-msgid "`TRUE` or `FALSE` (default), show factor summary"
-msgstr ""
-
-#: efa/options/factorCor.description.R
-#: pca/options/factorCor.description.R
-msgid "`TRUE` or `FALSE` (default), show inter-factor correlations"
-msgstr ""
-
-#: efa/options/kmo.description.R
-#: pca/options/kmo.description.R
-msgid "`TRUE` or `FALSE` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
-msgstr ""
-
-#: efa/options/modelFit.description.R
-msgid "`TRUE` or `FALSE` (default), show model fit measures and test"
-msgstr ""
-
-#: efa/options/screePlot.description.R
-#: pca/options/screePlot.description.R
-msgid "`TRUE` or `FALSE` (default), show scree plot"
-msgstr ""
-
-#: efa/options/sortLoadings.description.R
-#: pca/options/sortLoadings.description.R
-msgid "`TRUE` or `FALSE` (default), sort the factor loadings by size"
-msgstr ""
-
-#: anovaRM/options/leveneTest.description.R
-msgid "`TRUE` or `FALSE` (default), test for homogeneity of variances (i.e., Levene's test)"
-msgstr ""
-
-#: propTest2/options/areCounts.description.R
-msgid "`TRUE` or `FALSE` (default), the variables are counts"
-msgstr ""
-
-#: propTestN/options/expected.description.R
-msgid "`TRUE` or `FALSE` (default), whether expected counts should be displayed"
-msgstr ""
-
-#: ancova/options/modelTest.description.R
-#: anova/options/modelTest.description.R
-msgid "`TRUE` or `FALSE` (default); perform an overall model test"
 msgstr ""
 
 #: ttestIS/results/ttest.columns.title
@@ -1136,10 +252,6 @@ msgstr ""
 msgid "a (semi)partial correlation matrix table"
 msgstr ""
 
-#: descriptives/options/pcValues.description.R
-msgid "a comma-sepated list (default: 25,50,75) specifying the percentiles"
-msgstr ""
-
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
 msgstr ""
@@ -1150,85 +262,6 @@ msgstr ""
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
-
-#: ancova/options/emMeans.description.R
-#: anova/options/emMeans.description.R
-msgid "a formula containing the terms to estimate marginal means for (see the examples)"
-msgstr ""
-
-#: linReg/options/emMeans.description.R
-msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
-msgstr ""
-
-#: ancova/options/postHoc.description.R
-#: anova/options/postHoc.description.R
-msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
-msgstr ""
-
-#: ancova/options/modelTerms.description.R
-#: anova/options/modelTerms.description.R
-msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
-msgstr ""
-
-#: cfa/options/factors.description.R
-msgid "a list containing named lists that define the `label` of the factor and the `vars` that belong to that factor"
-msgstr ""
-
-#: linReg/options/blocks.description.R
-#: logLinear/options/blocks.description.R
-#: logRegBin/options/blocks.description.R
-#: logRegMulti/options/blocks.description.R
-#: logRegOrd/options/blocks.description.R
-msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
-msgstr ""
-
-#: anovaRM/options/bsTerms.description.R
-msgid "a list of character vectors describing the between subjects terms to go into the model"
-msgstr ""
-
-#: anovaRM/options/postHoc.description.R
-msgid "a list of character vectors describing the post-hoc tests that need to be computed"
-msgstr ""
-
-#: anovaRM/options/rmTerms.description.R
-msgid "a list of character vectors describing the repeated measures terms to go into the model"
-msgstr ""
-
-#: linReg/options/refLevels.description.R
-#: logLinear/options/refLevels.description.R
-#: logRegBin/options/refLevels.description.R
-#: logRegMulti/options/refLevels.description.R
-#: logRegOrd/options/refLevels.description.R
-msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
-msgstr ""
-
-#: ancova/options/contrasts.description.R
-#: anova/options/contrasts.description.R
-msgid "a list of lists specifying the factor and type of contrast to use, one of `'deviation'`, `'simple'`, `'difference'`, `'helmert'`, `'repeated'` or `'polynomial'`"
-msgstr ""
-
-#: ttestPS/options/pairs.description.R
-msgid "a list of lists specifying the pairs of measurement in `data`"
-msgstr ""
-
-#: cfa/options/resCov.description.R
-msgid "a list of lists specifying the residual covariances that need to be estimated"
-msgstr ""
-
-#: anovaRM/options/emMeans.description.R
-#: logLinear/options/emMeans.description.R
-#: logRegBin/options/emMeans.description.R
-#: logRegMulti/options/emMeans.description.R
-msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
-msgstr ""
-
-#: anovaRM/options/rmCells.description.R
-msgid "a list of lists, where each list decribes a repeated measure (as a string) from `data` defined as `measure` and the particular combination of levels from `rm` that it belongs to (as a vector of strings) defined as `cell`"
-msgstr ""
-
-#: anovaRM/options/rm.description.R
-msgid "a list of lists, where each list describes the `label` (as a string) and the `levels` (as vector of strings) of a particular repeated measures factor"
 msgstr ""
 
 #: ttestIS/results/assum/eqv.notes.p
@@ -1246,126 +279,8 @@ msgstr ""
 msgid "A nice correlation data set"
 msgstr ""
 
-#: cfa/options/hlCorRes.description.R
-msgid "a number (default: 0.1), highlight values in the `'corRes'` table above this value"
-msgstr ""
-
-#: efa/options/hideLoadings.description.R
-msgid "a number (default: 0.3), hide factor loadings below this value"
-msgstr ""
-
-#: pca/options/hideLoadings.description.R
-msgid "a number (default: 0.3), hide loadings below this value"
-msgstr ""
-
-#: propTest2/options/testValue.description.R
-msgid "a number (default: 0.5), the value for the null hypothesis"
-msgstr ""
-
-#: efa/options/minEigen.description.R
-msgid "a number (default: 0), the minimal eigenvalue for a factor to be included in the model"
-msgstr ""
-
-#: propTest2/options/priorA.description.R
-msgid "a number (default: 1), the beta prior 'a' parameter"
-msgstr ""
-
-#: propTest2/options/priorB.description.R
-msgid "a number (default: 1), the beta prior 'b' parameter"
-msgstr ""
-
-#: pca/options/minEigen.description.R
-msgid "a number (default: 1), the minimal eigenvalue for a component to be included in the model"
-msgstr ""
-
-#: cfa/options/hlMI.description.R
-msgid "a number (default: 3), highlight values in the `'modIndices'` tables above this value"
-msgstr ""
-
-#: ttestIS/options/bfPrior.description.R
-msgid "a number between 0.01 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
-
-#: ttestPS/options/bfPrior.description.R
-msgid "a number between 0.5 and 2 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
-
-#: ttestOneS/options/bfPrior.description.R
-msgid "a number between 0.5 and 2.0 (default 0.707), the prior width to use in calculating Bayes factors"
-msgstr ""
-
-#: linReg/options/ciWidth.description.R
-#: linReg/options/ciWidthStdEst.description.R
-#: logLinear/options/ciWidth.description.R
-#: logLinear/options/ciWidthRR.description.R
-#: logRegBin/options/ciWidth.description.R
-#: logRegBin/options/ciWidthOR.description.R
-#: logRegMulti/options/ciWidth.description.R
-#: logRegMulti/options/ciWidthOR.description.R
-#: logRegOrd/options/ciWidth.description.R
-#: logRegOrd/options/ciWidthOR.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
-msgstr ""
-
-#: ancova/options/ciWidthEmm.description.R
-#: anova/options/ciWidthEmm.description.R
-#: anovaRM/options/ciWidthEmm.description.R
-#: linReg/options/ciWidthEmm.description.R
-#: logLinear/options/ciWidthEmm.description.R
-#: logRegBin/options/ciWidthEmm.description.R
-#: logRegMulti/options/ciWidthEmm.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
-msgstr ""
-
-#: cfa/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width that is used as `'ci'`"
-msgstr ""
-
-#: propTest2/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
-msgstr ""
-
-#: propTest2/options/ciBayesWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
-msgstr ""
-
-#: descriptives/options/ciWidth.description.R
-#: ttestIS/options/ciWidth.description.R
-#: ttestOneS/options/ciWidth.description.R
-#: ttestPS/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals"
-msgstr ""
-
-#: ttestIS/options/ciWidthES.description.R
-#: ttestOneS/options/ciWidthES.description.R
-#: ttestPS/options/ciWidthES.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the effect sizes"
-msgstr ""
-
-#: ancova/options/postHocEsCiWidth.description.R
-#: anova/options/postHocEsCiWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
-msgstr ""
-
-#: corrMatrix/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide"
-msgstr ""
-
-#: contTables/options/ciWidth.description.R
-msgid "a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide"
-msgstr ""
-
-#: ttestOneS/options/testValue.description.R
-msgid "a number specifying the value of the null hypothesis"
-msgstr ""
-
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
-msgstr ""
-
-#: ancova/options/postHocES.description.R
-#: anova/options/postHocES.description.R
-msgid "a possible value of `'d'`; provide cohen's d measure of effect size for the post-hoc tests"
 msgstr ""
 
 #: anovaOneW/results/postHoc.template.description
@@ -1384,37 +299,6 @@ msgstr ""
 
 #: package/datasets/Bugs (Ryan, Wilde & Crist, 2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr ""
-
-#: anovaRM/options/depLabel.description.R
-msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
-msgstr ""
-
-#: logLinear/options/counts.description.R
-msgid "a string naming a variable in `data` containing counts, or NULL if each row represents a single observation"
-msgstr ""
-
-#: logRegBin/options/dep.description.R
-#: logRegMulti/options/dep.description.R
-#: logRegOrd/options/dep.description.R
-msgid "a string naming the dependent variable from `data`, variable must be a factor"
-msgstr ""
-
-#: mancova/options/deps.description.R
-msgid "a string naming the dependent variable from `data`, variable must be numeric"
-msgstr ""
-
-#: anovaNP/options/deps.description.R
-msgid "a string naming the dependent variable in `data`"
-msgstr ""
-
-#: anovaOneW/options/deps.description.R
-msgid "a string naming the dependent variables in `data`"
-msgstr ""
-
-#: anovaNP/options/group.description.R
-#: anovaOneW/options/group.description.R
-msgid "a string naming the grouping or independent variable in `data`"
 msgstr ""
 
 #: anovaRM/results/groupSummary.description
@@ -1557,6 +441,10 @@ msgstr ""
 msgid "a table of normality tests"
 msgstr ""
 
+#: contTables/results/postHoc.description
+msgid "a table of post-hoc residuals"
+msgstr ""
+
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
 msgstr ""
@@ -1618,66 +506,6 @@ msgstr ""
 
 #: contTables/results/chiSq.description
 msgid "a table of χ² test results"
-msgstr ""
-
-#: reliability/options/revItems.description.R
-msgid "a vector containing strings naming the varibales that are reverse scaled"
-msgstr ""
-
-#: propTestN/options/ratio.description.R
-msgid "a vector of numbers: the expected proportions"
-msgstr ""
-
-#: anovaRM/options/bs.description.R
-msgid "a vector of strings naming the between subjects factors from `data`"
-msgstr ""
-
-#: corrPart/options/controls.description.R
-msgid "a vector of strings naming the control variables in `data`"
-msgstr ""
-
-#: logRegBin/options/covs.description.R
-#: logRegMulti/options/covs.description.R
-#: logRegOrd/options/covs.description.R
-#: mancova/options/covs.description.R
-msgid "a vector of strings naming the covariates from `data`"
-msgstr ""
-
-#: anovaRM/options/cov.description.R
-msgid "a vector of strings naming the covariates from `data`. Variables must be numeric"
-msgstr ""
-
-#: logLinear/options/factors.description.R
-#: mancova/options/factors.description.R
-msgid "a vector of strings naming the factors from `data`"
-msgstr ""
-
-#: logRegBin/options/factors.description.R
-#: logRegMulti/options/factors.description.R
-#: logRegOrd/options/factors.description.R
-msgid "a vector of strings naming the fixed factors from `data`"
-msgstr ""
-
-#: anovaRMNP/options/measures.description.R
-msgid "a vector of strings naming the repeated measures variables"
-msgstr ""
-
-#: descriptives/options/vars.description.R
-#: efa/options/vars.description.R
-#: pca/options/vars.description.R
-#: propTest2/options/vars.description.R
-#: reliability/options/vars.description.R
-#: ttestOneS/options/vars.description.R
-msgid "a vector of strings naming the variables of interest in `data`"
-msgstr ""
-
-#: corrMatrix/options/vars.description.R
-#: corrPart/options/vars.description.R
-msgid "a vector of strings naming the variables to correlate in `data`"
-msgstr ""
-
-#: descriptives/options/splitBy.description.R
-msgid "a vector of strings naming the variables used to split `vars`"
 msgstr ""
 
 #: logRegBin/options/acc.title
@@ -1791,6 +619,7 @@ msgid "an array of model specific results"
 msgstr ""
 
 #: anovaNP/results/comparisons.description
+#: anovaNP/results/comparisonsDunn.description
 msgid "an array of pairwise comparison tables"
 msgstr ""
 
@@ -1828,22 +657,6 @@ msgstr ""
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
-
-#: pca/options/nFactors.description.R
-msgid "an integer (default: 1), the number of components in the model"
-msgstr ""
-
-#: efa/options/nFactors.description.R
-msgid "an integer (default: 1), the number of factors in the model"
-msgstr ""
-
-#: descriptives/options/pcNEqGr.description.R
-msgid "an integer (default: 4) specifying the number of equal groups"
-msgstr ""
-
-#: descriptives/options/extremeN.description.R
-msgid "an integer (default: 5) specifying the number of extreme values"
 msgstr ""
 
 #: package/datasets/Tooth Growth.description
@@ -1971,7 +784,7 @@ msgid "Bar Plots"
 msgstr ""
 
 #: contTables/options/bartype.title
-#: contTables/ui[1][2][0][0][1].label
+#: contTables/ui[1][3][0][0][1].label
 msgid "Bar Type"
 msgstr ""
 
@@ -2675,131 +1488,9 @@ msgstr ""
 msgid "Cut-off value"
 msgstr ""
 
-#: contTablesPaired/options.description.R.usage
-msgid "dat <- data.frame(\n"
-"    `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),\n"
-"    `2nd survey` = c('Approve', 'Disapprove', 'Approve', 'Disapprove'),\n"
-"    `Counts` = c(794, 150, 86, 570),\n"
-"    check.names=FALSE)\n"
-"\n"
-"contTablesPaired(formula = Counts ~ `1st survey`:`2nd survey`, data = dat)\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ────────────────────────────────────────────────\n"
-"#    1st survey    Approve    Disapprove    Total\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Approve           794           150      944\n"
-"#    Disapprove         86           570      656\n"
-"#    Total             880           720     1600\n"
-"#  ────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  McNemar Test\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#                                Value    df    p\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    χ²                           17.4     1    < .001\n"
-"#    χ² continuity correction     16.8     1    < .001\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Counts`) from the\n"
-"# formula if each row represents a single observation:\n"
-"\n"
-"contTablesPaired(formula = ~ `1st survey`:`2nd survey`, data = dat)"
-msgstr ""
-
-#: propTest2/options.description.R.usage
-msgid "dat <- data.frame(x=c(8, 15))\n"
-"\n"
-"propTest2(dat, vars = x, areCounts = TRUE)\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (2 OUTCOMES)\n"
-"#\n"
-"#  Binomial Test\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#         Level    Count    Total    Proportion    p\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    x    1            8       23         0.348    0.210\n"
-"#         2           15       23         0.652    0.210\n"
-"#  ───────────────────────────────────────────────────────\n"
-"#    Note. Hₐ is proportion ≠ 0.5\n"
-"#"
-msgstr ""
-
 #: R/pca.b.R
 #: descriptives/options/dot.title
 msgid "Data"
-msgstr ""
-
-#: cfa/options.description.R.usage
-msgid "data <- lavaan::HolzingerSwineford1939\n"
-"\n"
-"jmv::cfa(\n"
-"    data = data,\n"
-"    factors = list(\n"
-"        list(label=\"Visual\", vars=c(\"x1\", \"x2\", \"x3\")),\n"
-"        list(label=\"Textual\", vars=c(\"x4\", \"x5\", \"x6\")),\n"
-"        list(label=\"Speed\", vars=c(\"x7\", \"x8\", \"x9\"))),\n"
-"    resCov = NULL)\n"
-"\n"
-"#\n"
-"#  CONFIRMATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Factor     Indicator    Estimate    SE        Z        p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Visual     x1              0.900    0.0832    10.81    < .001\n"
-"#               x2              0.498    0.0808     6.16    < .001\n"
-"#               x3              0.656    0.0776     8.46    < .001\n"
-"#    Textual    x4              0.990    0.0567    17.46    < .001\n"
-"#               x5              1.102    0.0626    17.60    < .001\n"
-"#               x6              0.917    0.0538    17.05    < .001\n"
-"#    Speed      x7              0.619    0.0743     8.34    < .001\n"
-"#               x8              0.731    0.0755     9.68    < .001\n"
-"#               x9              0.670    0.0775     8.64    < .001\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FACTOR ESTIMATES\n"
-"#\n"
-"#  Factor Covariances\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                          Estimate    SE        Z       p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    Visual     Visual      1.000 ᵃ\n"
-"#               Textual     0.459      0.0635    7.22    < .001\n"
-"#               Speed       0.471      0.0862    5.46    < .001\n"
-"#    Textual    Textual     1.000 ᵃ\n"
-"#               Speed       0.283      0.0715    3.96    < .001\n"
-"#    Speed      Speed       1.000 ᵃ\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    ᵃ fixed parameter\n"
-"#\n"
-"#\n"
-"#  MODEL FIT\n"
-"#\n"
-"#  Test for Exact Fit\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    85.3    24    < .001\n"
-"#  ────────────────────────\n"
-"#\n"
-"#\n"
-"#  Fit Measures\n"
-"#  ───────────────────────────────────────────────\n"
-"#    CFI      TLI      RMSEA     Lower     Upper\n"
-"#  ───────────────────────────────────────────────\n"
-"#    0.931    0.896    0.0921    0.0714    0.114\n"
-"#  ───────────────────────────────────────────────\n"
-"#"
 msgstr ""
 
 #: package/analyses/pca.menuSubgroup
@@ -2816,643 +1507,6 @@ msgstr ""
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
-msgstr ""
-
-#: logRegBin/options.description.R.usage
-msgid "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            low = factor(birthwt$low),\n"
-"            age = birthwt$age,\n"
-"            bwt = birthwt$bwt)\n"
-"\n"
-"logRegBin(data = dat, dep = low,\n"
-"          covs = vars(age, bwt),\n"
-"          blocks = list(list(\"age\", \"bwt\")),\n"
-"          refLevels = list(list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  BINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1     4.97e-7    6.00     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate      SE          Z           p\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Intercept    2974.73225    218237.2      0.0136    0.989\n"
-"#    age            -0.00653       482.7    -1.35e-5    1.000\n"
-"#    bwt            -1.18532        87.0     -0.0136    0.989\n"
-"#  ────────────────────────────────────────────────────────────\n"
-"#    Note. Estimates represent the log odds of \"low = 1\"\n"
-"#    vs. \"low = 0\"\n"
-"#\n"
-"#"
-msgstr ""
-
-#: logRegMulti/options.description.R.usage
-msgid "data('birthwt', package='MASS')\n"
-"\n"
-"dat <- data.frame(\n"
-"            race = factor(birthwt$race),\n"
-"            age = birthwt$age,\n"
-"            low = factor(birthwt$low))\n"
-"\n"
-"logRegMulti(data = dat, dep = race,\n"
-"            covs = age, factors = low,\n"
-"            blocks = list(list(\"age\", \"low\")),\n"
-"            refLevels = list(\n"
-"                list(var=\"race\", ref=\"1\"),\n"
-"                list(var=\"low\", ref=\"0\")))\n"
-"\n"
-"#\n"
-"#  MULTINOMIAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ──────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ──────────────────────────────────────\n"
-"#        1         360    372    0.0333\n"
-"#  ──────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    race     Predictor    Estimate    SE        Z         p\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#    2 - 1    Intercept      0.8155    1.1186     0.729    0.466\n"
-"#             age           -0.1038    0.0487    -2.131    0.033\n"
-"#             low:\n"
-"#             1 – 0          0.7527    0.4700     1.601    0.109\n"
-"#    3 - 1    Intercept      1.0123    0.7798     1.298    0.194\n"
-"#             age           -0.0663    0.0324    -2.047    0.041\n"
-"#             low:\n"
-"#             1 – 0          0.5677    0.3522     1.612    0.107\n"
-"#  ───────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr ""
-
-#: anovaRM/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRM(\n"
-"    data = bugs,\n"
-"    rm = list(\n"
-"        list(\n"
-"            label = 'Frightening',\n"
-"            levels = c('Low', 'High'))),\n"
-"    rmCells = list(\n"
-"        list(\n"
-"            measure = 'LDLF',\n"
-"            cell = 'Low'),\n"
-"        list(\n"
-"            measure = 'LDHF',\n"
-"            cell = 'High')),\n"
-"    rmTerms = list(\n"
-"        'Frightening'))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA\n"
-"#\n"
-"#  Within Subjects Effects\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                  Sum of Squares    df    Mean Square    F       p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Frightening              126     1         126.11    44.2    < .001\n"
-"#    Residual                 257    90           2.85\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#\n"
-"#\n"
-"#\n"
-"#  Between Subjects Effects\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#                Sum of Squares    df    Mean Square    F    p\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Residual               954    90           10.6\n"
-"#  ─────────────────────────────────────────────────────────────────\n"
-"#    Note. Type 3 Sums of Squares\n"
-"#"
-msgstr ""
-
-#: anovaRMNP/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"anovaRMNP(bugs, measures = vars(LDLF, LDHF, HDLF, HDHF))\n"
-"\n"
-"#\n"
-"#  REPEATED MEASURES ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Friedman\n"
-"#  ────────────────────────\n"
-"#    χ²      df    p\n"
-"#  ────────────────────────\n"
-"#    55.8     3    < .001\n"
-"#  ────────────────────────\n"
-"#"
-msgstr ""
-
-#: ttestPS/options.description.R.usage
-msgid "data('bugs', package = 'jmv')\n"
-"\n"
-"ttestPS(bugs, pairs = list(\n"
-"        list(i1 = 'LDLF', i2 = 'LDHF')))\n"
-"\n"
-"#\n"
-"#  PAIRED SAMPLES T-TEST\n"
-"#\n"
-"#  Paired Samples T-Test\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                                   statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    LDLF    LDHF    Student's t        -6.65    90.0    < .001\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: contTables/options.description.R.usage
-msgid "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"contTables(formula = Freq ~ Hair:Eye, dat)\n"
-"\n"
-"#\n"
-"#  CONTINGENCY TABLES\n"
-"#\n"
-"#  Contingency Tables\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Hair     Brown    Blue    Hazel    Green    Total\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#    Black       68      20       15        5      108\n"
-"#    Brown      119      84       54       29      286\n"
-"#    Red         26      17       14       14       71\n"
-"#    Blond        7      94       10       16      127\n"
-"#    Total      220     215       93       64      592\n"
-"#  ─────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Tests\n"
-"#  ───────────────────────────────\n"
-"#          Value    df    p\n"
-"#  ───────────────────────────────\n"
-"#    χ²      138     9    < .001\n"
-"#    N       592\n"
-"#  ───────────────────────────────\n"
-"#\n"
-"\n"
-"# Alternatively, omit the left of the formula (`Freq`) if each row\n"
-"# represents a single observation:\n"
-"\n"
-"contTables(formula = ~ Hair:Eye, dat)"
-msgstr ""
-
-#: propTestN/options.description.R.usage
-msgid "data('HairEyeColor')\n"
-"dat <- as.data.frame(HairEyeColor)\n"
-"\n"
-"propTestN(formula = Freq ~ Eye, data = dat, ratio = c(1,1,1,1))\n"
-"\n"
-"#\n"
-"#  PROPORTION TEST (N OUTCOMES)\n"
-"#\n"
-"#  Proportions\n"
-"#  ────────────────────────────────\n"
-"#    Level    Count    Proportion\n"
-"#  ────────────────────────────────\n"
-"#    Brown      220         0.372\n"
-"#    Blue       215         0.363\n"
-"#    Hazel       93         0.157\n"
-"#    Green       64         0.108\n"
-"#  ────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  χ² Goodness of Fit\n"
-"#  ───────────────────────\n"
-"#    χ²     df    p\n"
-"#  ───────────────────────\n"
-"#    133     3    < .001\n"
-"#  ───────────────────────\n"
-"#"
-msgstr ""
-
-#: efa/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"efa(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  EXPLORATORY FACTOR ANALYSIS\n"
-"#\n"
-"#  Factor Loadings\n"
-"#  ────────────────────────────────────────────────\n"
-"#                    1        2        Uniqueness\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Sepal.Length    0.993                0.10181\n"
-"#    Sepal.Width              0.725       0.42199\n"
-"#    Petal.Length    0.933                0.00483\n"
-"#    Petal.Width     0.897                0.07088\n"
-"#  ────────────────────────────────────────────────\n"
-"#    Note. 'oblimin' rotation was used\n"
-"#"
-msgstr ""
-
-#: mancova/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"mancova(data = iris,\n"
-"    deps = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width),\n"
-"    factors = Species)\n"
-"\n"
-"#\n"
-"#  MANCOVA\n"
-"#\n"
-"#  Multivariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#                                     value     F       df1    df2    p\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#    Species    Pillai's Trace          1.19    53.5      8    290    < .001\n"
-"#               Wilks' Lambda         0.0234     199      8    288    < .001\n"
-"#               Hotelling's Trace       32.5     581      8    286    < .001\n"
-"#               Roy's Largest Root      32.2    1167      4    145    < .001\n"
-"#  ───────────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  Univariate Tests\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#                 Dependent Variable    Sum of Squares    df     Mean Square    F         p\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#    Species      Sepal.Length                   63.21      2        31.6061     119.3    < .001\n"
-"#                 Sepal.Width                    11.34      2         5.6725      49.2    < .001\n"
-"#                 Petal.Length                  437.10      2       218.5514    1180.2    < .001\n"
-"#                 Petal.Width                    80.41      2        40.2067     960.0    < .001\n"
-"#    Residuals    Sepal.Length                   38.96    147         0.2650\n"
-"#                 Sepal.Width                    16.96    147         0.1154\n"
-"#                 Petal.Length                   27.22    147         0.1852\n"
-"#                 Petal.Width                     6.16    147         0.0419\n"
-"#  ───────────────────────────────────────────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: pca/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"pca(iris, vars = vars(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width))\n"
-"\n"
-"#\n"
-"#  PRINCIPAL COMPONENT ANALYSIS\n"
-"#\n"
-"#  Component Loadings\n"
-"#  ────────────────────────────────────────\n"
-"#                    1         Uniqueness\n"
-"#  ────────────────────────────────────────\n"
-"#    Sepal.Length     0.890        0.2076\n"
-"#    Sepal.Width     -0.460        0.7883\n"
-"#    Petal.Length     0.992        0.0168\n"
-"#    Petal.Width      0.965        0.0688\n"
-"#  ────────────────────────────────────────\n"
-"#    Note. 'varimax' rotation was used\n"
-"#"
-msgstr ""
-
-#: reliability/options.description.R.usage
-msgid "data('iris')\n"
-"\n"
-"reliability(iris, vars = c('Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width'),\n"
-"            omegaScale = TRUE)\n"
-"\n"
-"#\n"
-"#  RELIABILITY ANALYSIS\n"
-"#\n"
-"#  Scale Reliability Statistics\n"
-"#  ─────────────────────────────────────────\n"
-"#             Cronbach's α    McDonald's ω\n"
-"#  ─────────────────────────────────────────\n"
-"#    scale           0.708           0.848\n"
-"#  ─────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: corrMatrix/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"corrMatrix(mtcars, vars = vars(mpg, cyl, disp, hp))\n"
-"\n"
-"#\n"
-"#  CORRELATION MATRIX\n"
-"#\n"
-"#  Correlation Matrix\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#                           mpg      cyl       disp      hp\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r        —    -0.852    -0.848    -0.776\n"
-"#            p-value            —    < .001    < .001    < .001\n"
-"#\n"
-"#    cyl     Pearson's r                  —     0.902     0.832\n"
-"#            p-value                      —    < .001    < .001\n"
-"#\n"
-"#    disp    Pearson's r                            —     0.791\n"
-"#            p-value                                —    < .001\n"
-"#\n"
-"#    hp      Pearson's r                                      —\n"
-"#            p-value                                          —\n"
-"#  ──────────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: corrPart/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"corrPart(mtcars, vars = vars(mpg, cyl, disp), controls = vars(hp))\n"
-"\n"
-"#\n"
-"#  PARTIAL CORRELATION\n"
-"#\n"
-"#  Partial Correlation\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                           mpg       cyl       disp\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    mpg     Pearson's r         —\n"
-"#            p-value             —\n"
-"#\n"
-"#    cyl     Pearson's r    -0.590         —\n"
-"#            p-value        < .001         —\n"
-"#\n"
-"#    disp    Pearson's r    -0.606     0.719        —\n"
-"#            p-value        < .001    < .001        —\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Note. controlling for 'hp'\n"
-"#"
-msgstr ""
-
-#: logLinear/options.description.R.usage
-msgid "data('mtcars')\n"
-"\n"
-"tab <- table('gear'=mtcars$gear, 'cyl'=mtcars$cyl)\n"
-"dat <- as.data.frame(tab)\n"
-"\n"
-"logLinear(data = dat, factors = vars(gear, cyl),  counts = Freq,\n"
-"          blocks = list(list(\"gear\", \"cyl\", c(\"gear\", \"cyl\"))),\n"
-"          refLevels = list(\n"
-"              list(var=\"gear\", ref=\"3\"),\n"
-"              list(var=\"cyl\", ref=\"4\")))\n"
-"\n"
-"#\n"
-"#  LOG-LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC     R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1    4.12e-10    41.4     1.000\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Predictor          Estimate     SE          Z            p\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#    Intercept          -4.71e-16        1.00    -4.71e-16    1.000\n"
-"#    gear:\n"
-"#    4 – 3                  2.079        1.06        1.961    0.050\n"
-"#    5 – 3                  0.693        1.22        0.566    0.571\n"
-"#    cyl:\n"
-"#    6 – 4                  0.693        1.22        0.566    0.571\n"
-"#    8 – 4                  2.485        1.04        2.387    0.017\n"
-"#    gear:cyl:\n"
-"#    (4 – 3):(6 – 4)       -1.386        1.37       -1.012    0.311\n"
-"#    (5 – 3):(6 – 4)       -1.386        1.73       -0.800    0.423\n"
-"#    (4 – 3):(8 – 4)      -26.867    42247.17    -6.36e -4    0.999\n"
-"#    (5 – 3):(8 – 4)       -2.485        1.44       -1.722    0.085\n"
-"#  ──────────────────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr ""
-
-#: descriptives/options.description.R.usage
-msgid "data('mtcars')\n"
-"dat <- mtcars\n"
-"\n"
-"# frequency tables can be provided for factors\n"
-"dat$gear <- as.factor(dat$gear)\n"
-"\n"
-"descriptives(dat, vars = vars(mpg, cyl, disp, gear), freq = TRUE)\n"
-"\n"
-"#\n"
-"#  DESCRIPTIVES\n"
-"#\n"
-"#  Descriptives\n"
-"#  ───────────────────────────────────────────\n"
-"#               mpg     cyl     disp    gear\n"
-"#  ───────────────────────────────────────────\n"
-"#    N            32      32      32      32\n"
-"#    Missing       0       0       0       0\n"
-"#    Mean       20.1    6.19     231    3.69\n"
-"#    Median     19.2    6.00     196    4.00\n"
-"#    Minimum    10.4    4.00    71.1       3\n"
-"#    Maximum    33.9    8.00     472       5\n"
-"#  ───────────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  FREQUENCIES\n"
-"#\n"
-"#  Frequencies of gear\n"
-"#  ────────────────────\n"
-"#    Levels    Counts\n"
-"#  ────────────────────\n"
-"#    3             15\n"
-"#    4             12\n"
-"#    5              5\n"
-"#  ────────────────────\n"
-"#\n"
-"\n"
-"# spliting by a variable\n"
-"descriptives(formula = disp + mpg ~ cyl, dat,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# providing histograms\n"
-"descriptives(formula = mpg ~ cyl, dat, hist=T,\n"
-"    median=F, min=F, max=F, n=F, missing=F)\n"
-"\n"
-"# splitting by multiple variables\n"
-"descriptives(formula = mpg ~ cyl:gear, dat,\n"
-"    median=F, min=F, max=F, missing=F)"
-msgstr ""
-
-#: linReg/options.description.R.usage
-msgid "data('Prestige', package='carData')\n"
-"\n"
-"linReg(data = Prestige, dep = income,\n"
-"       covs = vars(education, prestige, women),\n"
-"       blocks = list(list('education', 'prestige', 'women')))\n"
-"\n"
-"#\n"
-"#  LINEAR REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────\n"
-"#    Model    R        R²\n"
-"#  ───────────────────────────\n"
-"#        1    0.802    0.643\n"
-"#  ───────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE         t         p\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#    Intercept      -253.8    1086.16    -0.234     0.816\n"
-"#    women           -50.9       8.56    -5.948    < .001\n"
-"#    prestige        141.4      29.91     4.729    < .001\n"
-"#    education       177.2     187.63     0.944     0.347\n"
-"#  ────────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: ancova/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ancova(formula = len ~ supp + dose, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANCOVA\n"
-"#\n"
-"#  ANCOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    supp                    205     1          205.4     11.4     0.001\n"
-"#    dose                   2224     1         2224.3    124.0    < .001\n"
-"#    Residuals              1023    57           17.9\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ancova(\n"
-"    formula = len ~ supp + dose,\n"
-"    data = ToothGrowth,\n"
-"    postHoc = ~ supp,\n"
-"    emMeans = ~ supp)"
-msgstr ""
-
-#: anova/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ANOVA(formula = len ~ dose * supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ANOVA\n"
-"#\n"
-"#  ANOVA\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#                 Sum of Squares    df    Mean Square    F        p\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#    dose                   2426     2         1213.2    92.00    < .001\n"
-"#    supp                    205     1          205.4    15.57    < .001\n"
-"#    dose:supp               108     2           54.2     4.11     0.022\n"
-"#    Residuals               712    54           13.2\n"
-"#  ───────────────────────────────────────────────────────────────────────\n"
-"#\n"
-"\n"
-"ANOVA(\n"
-"    formula = len ~ dose * supp,\n"
-"    data = ToothGrowth,\n"
-"    emMeans = ~ supp + dose:supp, # est. marginal means for supp and dose:supp\n"
-"    emmPlots = TRUE,              # produce plots of those marginal means\n"
-"    emmTables = TRUE)             # produce tables of those marginal means"
-msgstr ""
-
-#: anovaNP/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"anovaNP(formula = len ~ dose, data=ToothGrowth)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA (NON-PARAMETRIC)\n"
-"#\n"
-"#  Kruskal-Wallis\n"
-"#  ───────────────────────────────\n"
-"#           χ²      df    p\n"
-"#  ───────────────────────────────\n"
-"#    len    40.7     2    < .001\n"
-"#  ───────────────────────────────\n"
-"#"
-msgstr ""
-
-#: ttestIS/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ttestIS(formula = len ~ supp, data = ToothGrowth)\n"
-"\n"
-"#\n"
-"#  INDEPENDENT SAMPLES T-TEST\n"
-"#\n"
-"#  Independent Samples T-Test\n"
-"#  ────────────────────────────────────────────────────\n"
-"#                          statistic    df      p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    len    Student's t         1.92    58.0    0.060\n"
-"#  ────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: ttestOneS/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"\n"
-"ttestOneS(ToothGrowth, vars = vars(len, dose))\n"
-"\n"
-"#\n"
-"#  ONE SAMPLE T-TEST\n"
-"#\n"
-"#  One Sample T-Test\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#                           statistic    df      p\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#    len     Student's t         19.1    59.0    < .001\n"
-"#    dose    Student's t         14.4    59.0    < .001\n"
-"#  ──────────────────────────────────────────────────────\n"
-"#"
-msgstr ""
-
-#: anovaOneW/options.description.R.usage
-msgid "data('ToothGrowth')\n"
-"dat <- ToothGrowth\n"
-"dat$dose <- factor(dat$dose)\n"
-"\n"
-"anovaOneW(formula = len ~ dose, data = dat)\n"
-"\n"
-"#\n"
-"#  ONE-WAY ANOVA\n"
-"#\n"
-"#  One-Way ANOVA (Welch's)\n"
-"#  ────────────────────────────────────────\n"
-"#           F       df1    df2     p\n"
-"#  ────────────────────────────────────────\n"
-"#    len    68.4      2    37.7    < .001\n"
-"#  ────────────────────────────────────────\n"
-"#"
 msgstr ""
 
 #: corrMatrix/options/plotDens.title
@@ -3586,6 +1640,18 @@ msgstr ""
 msgid "Deviance"
 msgstr ""
 
+#: R/conttables.b.R
+msgid "Deviance residuals"
+msgstr ""
+
+#: contTables/options/resA.title
+msgid "Deviance residuals (Poisson GLM)"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
+msgstr ""
+
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
@@ -3664,6 +1730,10 @@ msgstr ""
 msgid "Distribution"
 msgstr ""
 
+#: R/descriptives.b.R
+msgid "Does not support weighted data yet."
+msgstr ""
+
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
 msgstr ""
@@ -3692,6 +1762,11 @@ msgstr ""
 msgid "DSCF pairwise comparisons"
 msgstr ""
 
+#: anovaNP/options/pairsDunn.title
+#: anovaNP/results/comparisonsDunn.title
+msgid "Dunn's pairwise comparisons"
+msgstr ""
+
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
 msgstr ""
@@ -3710,6 +1785,7 @@ msgstr ""
 #: anova/options/effectSize.title
 #: anova/ui[1][1].label
 #: anova/ui[5][1][1].label
+#: anovaNP/ui[1][0].label
 #: anovaRM/options/effectSize.title
 #: anovaRM/ui[1][0][0].label
 #: ttestIS/options/effectSize.title
@@ -3722,7 +1798,6 @@ msgstr ""
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
-#: anovaNP/options/es.title
 #: ttestIS/ui[1][1][0]/effectSize.label
 #: ttestOneS/options/effectSize.title
 #: ttestOneS/ui[1][1][0]/effectSize.label
@@ -4286,6 +2361,9 @@ msgstr ""
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
+#: contTables/options/hlresP.title
+#: contTables/options/hlresS.title
+#: contTables/options/hlresA.title
 msgid "Highlight values above"
 msgstr ""
 
@@ -4348,10 +2426,6 @@ msgstr ""
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr ""
-
-#: anovaRM/options/contrasts.description.R
-msgid "in development"
 msgstr ""
 
 #: anovaRM/options/groupSumm.description.ui
@@ -4427,6 +2501,10 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
 msgid "IQR"
+msgstr ""
+
+#: R/utilsanova.R
+msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
 
 #: R/anovarm.b.R
@@ -4639,6 +2717,36 @@ msgstr ""
 msgid "lower bound"
 msgstr ""
 
+#: R/linreg.b.R
+msgid "Mahalanobis ChiSq"
+msgstr ""
+
+#: linReg/options/mahal.title
+#: linReg/options/mahalOV.title
+msgid "Mahalanobis distance"
+msgstr ""
+
+#: linReg/results/models.template/dataSummary/mahal.title
+#: linReg/results/mahalOV.title
+msgid "Mahalanobis Distance"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance (Chi sq.)"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance (p)"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "Mahalanobis p"
+msgstr ""
+
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
 #: mancova/options.title
@@ -4699,6 +2807,7 @@ msgid "Mauchly's W"
 msgstr ""
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
 msgstr ""
@@ -4754,6 +2863,7 @@ msgstr ""
 #: descriptives/options/boxMean.title
 #: descriptives/options/mean.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/options/meanScale.title
 #: reliability/options/meanItems.title
@@ -4841,6 +2951,7 @@ msgstr ""
 #: anovaRMNP/results/desc.columns.title
 #: descriptives/options/median.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
@@ -4858,6 +2969,7 @@ msgid "Method"
 msgstr ""
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
 msgstr ""
@@ -4967,6 +3079,10 @@ msgstr ""
 msgid "Model Fit"
 msgstr ""
 
+#: R/utilsanova.R
+msgid "Model fit issue detected!"
+msgstr ""
+
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
 #: logRegBin/results/modelFit.title
@@ -5005,6 +3121,13 @@ msgstr ""
 
 #: logRegOrd/options/thres.title
 msgid "Model thresholds"
+msgstr ""
+
+#: R/linreg.b.R
+#: R/logregbin.b.R
+#: R/logregmulti.b.R
+#: R/logregord.b.R
+msgid "Models estimated using sample size of N={n}"
 msgstr ""
 
 #: cfa/results/modelPerformance/modIndices.title
@@ -5165,6 +3288,10 @@ msgstr ""
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr ""
 
+#: R/descriptives.b.R
+msgid "Not all statistics support weighted data yet."
+msgstr ""
+
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
 msgstr ""
@@ -5270,15 +3397,6 @@ msgstr ""
 msgid "Omnibus Tests"
 msgstr ""
 
-#: corrMatrix/options/hypothesis.description.R
-#: corrPart/options/hypothesis.description.R
-msgid "one of `'corr'` (default), `'pos'`, `'neg'` specifying the alernative hypothesis; correlated, correlated positively, correlated negatively respectively."
-msgstr ""
-
-#: corrPart/options/type.description.R
-msgid "one of `'part'` (default) or `'semi'` specifying the type of partial correlation to calculate; partial or semipartial correlation."
-msgstr ""
-
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
 msgstr ""
@@ -5301,40 +3419,6 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr ""
-
-#: cfa/options/fitMeasures.description.R
-msgid "one or more of `'cfi'`, `'tli'`, `'srmr'`, `'rmsea'`, `'aic'`, or `'bic'`; use CFI, TLI, SRMR, RMSEA + 90% confidence interval, adjusted AIC, and BIC model fit measures, respectively"
-msgstr ""
-
-#: ancova/options/effectSize.description.R
-#: anova/options/effectSize.description.R
-#: anovaRM/options/effectSize.description.R
-msgid "one or more of `'eta'`, `'partEta'`, or `'omega'`; use η², partial η², and ω² effect sizes, respectively"
-msgstr ""
-
-#: anovaRM/options/spherCorr.description.R
-msgid "one or more of `'none'` (default), `'GG'`, or ``HF``; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
-msgstr ""
-
-#: anovaRM/options/postHocCorr.description.R
-msgid "one or more of `'none'`, `'tukey'` (default), `'scheffe'`, `'bonf'`, or `'holm'`; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
-msgstr ""
-
-#: ancova/options/postHocCorr.description.R
-#: anova/options/postHocCorr.description.R
-msgid "one or more of `'none'`, `'tukey'`, `'scheffe'`, `'bonf'`, or `'holm'`; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
-msgstr ""
-
-#: mancova/options/multivar.description.R
-msgid "one or more of `'pillai'`, `'wilks'`, `'hotel'`, or `'roy'`; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root multivariate statistics, respectively"
-msgstr ""
-
-#: logLinear/options/pseudoR2.description.R
-#: logRegBin/options/pseudoR2.description.R
-#: logRegMulti/options/pseudoR2.description.R
-#: logRegOrd/options/pseudoR2.description.R
-msgid "one or more of `'r2mf'`, `'r2cs'`, or `'r2n'`; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively"
 msgstr ""
 
 #: package/analyses/propTest2.menuSubgroup
@@ -5506,10 +3590,22 @@ msgstr ""
 msgid "p"
 msgstr ""
 
+#: linReg/ui[3][0][1][0]/mahal/mahalp.label
+msgid "p <"
+msgstr ""
+
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
+msgstr ""
+
+#: anovaNP/results/comparisonsDunn.template.columns.title
+msgid "p<sub>(Bonferroni)</sub>"
+msgstr ""
+
+#: anovaNP/results/comparisonsDunn.template.columns.title
+msgid "p<sub>(unadj)</sub>"
 msgstr ""
 
 #: R/ancova.b.R
@@ -5554,6 +3650,7 @@ msgid "Paired Variables"
 msgstr ""
 
 #: anovaNP/results/comparisons.template.title
+#: anovaNP/results/comparisonsDunn.template.title
 msgid "Pairwise comparisons - $key"
 msgstr ""
 
@@ -5614,6 +3711,10 @@ msgstr ""
 msgid "partial η²"
 msgstr ""
 
+#: linReg/results/models.template/dataSummary/mahal.columns.title
+msgid "Participants (rows) below p-threshold"
+msgstr ""
+
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
 msgstr ""
@@ -5631,6 +3732,11 @@ msgstr ""
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
+msgstr ""
+
+#: R/conttables.b.R
+#: contTables/options/resP.title
+msgid "Pearson residuals"
 msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
@@ -5762,8 +3868,8 @@ msgstr ""
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
-#: contTables/ui[1][2].label
-#: contTables/ui[1][2][0][0][0].label
+#: contTables/ui[1][3].label
+#: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
 #: descriptives/ui[3].label
 #: descriptives/results/plots.title
@@ -5772,6 +3878,10 @@ msgstr ""
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
+msgstr ""
+
+#: R/descriptives.b.R
+msgid "Plots are not yet supported for weighted descriptives."
 msgstr ""
 
 #: ancova/options/contrasts.template/type/polynomial.title
@@ -5785,16 +3895,28 @@ msgstr ""
 msgid "Post Hoc Comparisons - {term}"
 msgstr ""
 
+#: R/conttables.b.R
+msgid "Post Hoc Test"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Post Hoc Test ({title})"
+msgstr ""
+
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
 #: ancova/results/postHoc.title
 #: anova/options/postHoc.title
 #: anova/ui[5].label
 #: anova/results/postHoc.title
+#: anovaNP/ui[1][1].label
 #: anovaOneW/results/postHoc.title
 #: anovaRM/options/postHoc.title
 #: anovaRM/ui[4].label
 #: anovaRM/results/postHoc.title
+#: contTables/ui[1][2].label
+#: contTables/ui[1][2][0][0][0].label
+#: contTables/results/postHoc.title
 msgid "Post Hoc Tests"
 msgstr ""
 
@@ -6251,6 +4373,7 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
+#: linReg/results/models.template/dataSummary/mahal.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
 msgstr ""
@@ -6468,10 +4591,6 @@ msgstr ""
 msgid "Reverse Scaled Items"
 msgstr ""
 
-#: jamovi/js/anovarm.events.js:8
-msgid "RM Factor {0}"
-msgstr ""
-
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
 msgstr ""
@@ -6531,10 +4650,6 @@ msgstr ""
 
 #: contTables/options/compare/rows.title
 msgid "rows"
-msgstr ""
-
-#: contTables/options/xaxis.description.R
-msgid "rows (default), or columns in bar plot X axis"
 msgstr ""
 
 #: R/conttables.b.R
@@ -6614,6 +4729,7 @@ msgstr ""
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
 #: linReg/results/models.template/dataSummary/cooks.columns.title
+#: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
@@ -6673,45 +4789,6 @@ msgstr ""
 msgid "septic"
 msgstr ""
 
-#: logRegOrd/options.description.R.usage
-msgid "set.seed(1337)\n"
-"\n"
-"y <- factor(sample(1:3, 100, replace = TRUE))\n"
-"x1 <- rnorm(100)\n"
-"x2 <- rnorm(100)\n"
-"\n"
-"df <- data.frame(y=y, x1=x1, x2=x2)\n"
-"\n"
-"logRegOrd(data = df, dep = y,\n"
-"          covs = vars(x1, x2),\n"
-"          blocks = list(list(\"x1\", \"x2\")))\n"
-"\n"
-"#\n"
-"#  ORDINAL LOGISTIC REGRESSION\n"
-"#\n"
-"#  Model Fit Measures\n"
-"#  ───────────────────────────────────────\n"
-"#    Model    Deviance    AIC    R²-McF\n"
-"#  ───────────────────────────────────────\n"
-"#        1         218    226    5.68e-4\n"
-"#  ───────────────────────────────────────\n"
-"#\n"
-"#\n"
-"#  MODEL SPECIFIC RESULTS\n"
-"#\n"
-"#  MODEL 1\n"
-"#\n"
-"#  Model Coefficients\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    Predictor    Estimate    SE       Z        p\n"
-"#  ────────────────────────────────────────────────────\n"
-"#    x1             0.0579    0.193    0.300    0.764\n"
-"#    x2             0.0330    0.172    0.192    0.848\n"
-"#  ────────────────────────────────────────────────────\n"
-"#\n"
-"#"
-msgstr ""
-
 #: R/ancova.b.R
 msgid "sextic"
 msgstr ""
@@ -6768,6 +4845,10 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
+msgstr ""
+
+#: R/anovarm.b.R
+msgid "Singularity error. Sphericity corrections are not available"
 msgstr ""
 
 #: R/anovarm.b.R
@@ -6838,10 +4919,6 @@ msgstr ""
 msgid "SS Loadings"
 msgstr ""
 
-#: contTables/options/bartype.description.R
-msgid "stack or side by side (default), barplot type"
-msgstr ""
-
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
@@ -6892,6 +4969,14 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
+msgstr ""
+
+#: R/conttables.b.R
+msgid "Standardized residuals"
+msgstr ""
+
+#: contTables/options/resS.title
+msgid "Standardized residuals (adjusted Pearson)"
 msgstr ""
 
 #: ancova/results/assump/norm.columns.title
@@ -7009,8 +5094,8 @@ msgstr ""
 #: jamovi/js/ancova.events.js:7
 #: jamovi/js/anova.js:45
 #: jamovi/js/anova.js:9
-#: jamovi/js/anovarm.events.js:16
-#: jamovi/js/anovarm.events.js:77
+#: jamovi/js/anovarm.js:15
+#: jamovi/js/anovarm.js:98
 #: jamovi/js/linreg.events.js:10
 #: jamovi/js/linreg.events.js:47
 #: jamovi/js/loglinear.events.js:10
@@ -7073,10 +5158,6 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
-
-#: linReg/options/weights.description.R
-msgid "the (optional) weights from `data` to be used in the fitting process"
 msgstr ""
 
 #: ttestOneS/options/hypothesis.description.ui
@@ -7205,49 +5286,12 @@ msgstr ""
 msgid "the control variables of interest."
 msgstr ""
 
-#: propTestN/options/counts.description.R
-msgid "the counts in `data`"
-msgstr ""
-
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
 msgstr ""
 
-#: linReg/options/covs.description.R
-msgid "the covariates from `data`"
-msgstr ""
-
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
-
-#: ancova/options/data.description.R
-#: anova/options/data.description.R
-#: anovaNP/options/data.description.R
-#: anovaOneW/options/data.description.R
-#: anovaRM/options/data.description.R
-#: anovaRMNP/options/data.description.R
-#: cfa/options/data.description.R
-#: contTables/options/data.description.R
-#: contTablesPaired/options/data.description.R
-#: corrMatrix/options/data.description.R
-#: corrPart/options/data.description.R
-#: descriptives/options/data.description.R
-#: efa/options/data.description.R
-#: linReg/options/data.description.R
-#: logLinear/options/data.description.R
-#: logRegBin/options/data.description.R
-#: logRegMulti/options/data.description.R
-#: logRegOrd/options/data.description.R
-#: mancova/options/data.description.R
-#: pca/options/data.description.R
-#: propTest2/options/data.description.R
-#: propTestN/options/data.description.R
-#: reliability/options/data.description.R
-#: ttestIS/options/data.description.R
-#: ttestOneS/options/data.description.R
-#: ttestPS/options/data.description.R
-msgid "the data as a data frame"
 msgstr ""
 
 #: R/ancova.b.R
@@ -7272,15 +5316,6 @@ msgstr ""
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
 msgstr ""
 
-#: linReg/options/dep.description.R
-msgid "the dependent variable from `data`, variable must be numeric"
-msgstr ""
-
-#: ancova/options/dep.description.R
-#: anova/options/dep.description.R
-msgid "the dependent variable from `data`, variable must be numeric (not necessary when providing a formula, see examples)"
-msgstr ""
-
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
 msgstr ""
@@ -7293,10 +5328,6 @@ msgstr ""
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
 msgstr ""
 
-#: ttestIS/options/vars.description.R
-msgid "the dependent variables (not necessary when using a formula, see the examples)"
-msgstr ""
-
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
 msgstr ""
@@ -7307,15 +5338,6 @@ msgstr ""
 msgid "the error bars to plot on the marginal means."
 msgstr ""
 
-#: ancova/options/covs.description.R
-msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
-msgstr ""
-
-#: ancova/options/factors.description.R
-#: anova/options/factors.description.R
-msgid "the explanatory factors in `data` (not necessary when providing a formula, see examples)"
-msgstr ""
-
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
@@ -7324,17 +5346,9 @@ msgstr ""
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
 
-#: linReg/options/factors.description.R
-msgid "the fixed factors from `data`"
-msgstr ""
-
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
-
-#: ttestIS/options/group.description.R
-msgid "the grouping variable with two levels (not necessary when using a formula, see the examples)"
 msgstr ""
 
 #: package/analyses/anovaNP.description
@@ -7418,10 +5432,6 @@ msgid "the repeated measures design."
 msgstr ""
 
 #: R/anovarm.b.R
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels"
-msgstr ""
-
-#: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr ""
 
@@ -7431,6 +5441,10 @@ msgstr ""
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
+msgstr ""
+
+#: R/utilsreg.R
+msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
 
 #: package/analyses/ttestIS.description
@@ -7531,27 +5545,8 @@ msgstr ""
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
 
-#: propTestN/options/var.description.R
-msgid "the variable of interest in `data` (not necessary when using a formula, see the examples)"
-msgstr ""
-
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
-
-#: contTables/options/cols.description.R
-#: contTablesPaired/options/cols.description.R
-msgid "the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-
-#: contTables/options/counts.description.R
-#: contTablesPaired/options/counts.description.R
-msgid "the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)"
-msgstr ""
-
-#: contTables/options/rows.description.R
-#: contTablesPaired/options/rows.description.R
-msgid "the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
 
 #: R/descriptives.b.R
@@ -7565,10 +5560,6 @@ msgstr ""
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
 msgid "the variables of interest."
-msgstr ""
-
-#: contTables/options/layers.description.R
-msgid "the variables to use to split the contingency table (not necessary when providing a formula, see the examples)"
 msgstr ""
 
 #: ancova/options/ciWidthEmm.description.ui
@@ -7596,6 +5587,10 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
+msgstr ""
+
+#: R/linreg.b.R
+msgid "There were no Mahalanobis distances with a threshold below p < {p}."
 msgstr ""
 
 #: package.description
@@ -7670,10 +5665,6 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: contTables/options/yaxisPc.description.R
-msgid "total_pc (default), column_pc, or row_pc. Use respectively percentages `of total`, `within columns`, or `within rows` for the bar plot y-axis."
-msgstr ""
-
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
@@ -7723,6 +5714,11 @@ msgstr ""
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
+msgstr ""
+
+#: R/conttables.b.R
+#: contTables/options/resU.title
+msgid "Unstandardized residuals"
 msgstr ""
 
 #: R/ancova.b.R
@@ -7941,7 +5937,7 @@ msgstr ""
 msgid "Within Subjects Effects"
 msgstr ""
 
-#: contTables/ui[1][2][0][1][1].label
+#: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
 msgstr ""
 
@@ -7949,16 +5945,12 @@ msgstr ""
 msgid "X-axis"
 msgstr ""
 
-#: contTables/ui[1][2][0][1][0].label
+#: contTables/ui[1][3][0][1][0].label
 msgid "Y-Axis"
 msgstr ""
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
-msgstr ""
-
-#: contTables/options/yaxis.description.R
-msgid "ycounts (default) or ypc. Use respectively `counts` or `percentages` for the bar plot y-axis"
 msgstr ""
 
 #: cfa/results/factorLoadings.columns.title
@@ -7991,6 +5983,7 @@ msgstr ""
 msgid "ΔR²"
 msgstr ""
 
+#: anovaNP/options/es.title
 #: anovaNP/results/table.columns.title
 msgid "ε²"
 msgstr ""
