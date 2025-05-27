@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-05-27 15:01+0000\n"
+"PO-Revision-Date: 2025-05-27 16:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -448,7 +448,7 @@ msgstr "tabela testów normalności"
 
 #: contTables/results/postHoc.description
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "tabela reszt post-hoc"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1661,15 +1661,15 @@ msgstr "Odchylenie"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Reszty odchylenia"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Reszty odchylenia (Poisson OML)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Reszty odchylenia są skorygowanymi resztami z OML Poissona."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1751,7 +1751,7 @@ msgstr "Miary rozkładu"
 
 #: R/descriptives.b.R
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Jeszcze nie obsługuje danych ważonych."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1784,7 +1784,7 @@ msgstr "Porównanie parami metodą DSCF"
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Porównania parami Dunna"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2525,6 +2525,13 @@ msgstr "IQR"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"Wygląda na to, że w modelu występuje problem singularności. Zwykle oznacza "
+"to, że model ma trudności z rozróżnieniem niektórych efektów, ponieważ "
+"niektóre zmienne są zbyt blisko powiązane lub nie ma wystarczającej ilości "
+"danych, aby wiarygodnie oszacować wszystkie efekty. Aby rozwiązać ten "
+"problem, należy rozważyć uproszczenie modelu poprzez usunięcie niektórych "
+"efektów lub sprawdzenie, czy dane pod kątem nadmiarowych lub silnie "
+"skorelowanych zmiennych."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2738,7 +2745,7 @@ msgstr "dolna granica"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Chi kw. Mahalanobisa"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
@@ -5016,7 +5023,7 @@ msgstr "Reszty standaryzowane"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Reszty standaryzowane (skorygowany Pearson)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5542,6 +5549,10 @@ msgstr "składniki powtarzanych pomiarów w modelu."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"Nie znaleziono wskazanego poziomu odniesienia dla następujących zmiennych: "
+"{vars}. Ustawiono domyślnie do pierwszego dostępnego poziomu. Aby użyć "
+"niestandardowego poziomu odniesienia, należy upewnić się, że zdefiniowany "
+"poziom odniesienia jest dostępny w danych."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5728,7 +5739,7 @@ msgstr "Kwantyle teoretyczne"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "Nie odnaleziono odległości Mahalanobisa poniżej progu p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5856,7 +5867,7 @@ msgstr "Testy jednowymiarowe"
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "Reszty niestandaryzowane"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
