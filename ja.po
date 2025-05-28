@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2025-05-28 12:05+0000\n"
+"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -443,7 +447,7 @@ msgstr "正規性検定の表です"
 
 #: contTables/results/postHoc.description
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "事後残差の表"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1655,15 +1659,15 @@ msgstr "逸脱度"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "逸脱残差"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "逸脱残差（ポワソンGLM）"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "逸脱残差はポワソンGLMの調整済み残差です。"
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1745,7 +1749,7 @@ msgstr "分布"
 
 #: R/descriptives.b.R
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "重みづけありデータは未サポートです。"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1778,7 +1782,7 @@ msgstr "多重比較（DSCF法）"
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "ダンの多重比較"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2519,6 +2523,11 @@ msgstr "四分位範囲"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"モデルに「特異性」の問題があるようです。これは通常、いくつかの変数で関連が強"
+"すぎるか、すべての効果を信頼性を保って推定するのに十分なデータがないために、"
+"モデルが効果を区別できないことを意味します。これを解決するには、効果のいくつ"
+"かを除去してモデルを簡素化するか、データに冗長、または強く相関した変数がない"
+"か確認することを検討してください。"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2733,33 +2742,33 @@ msgstr "下限"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "マハラノビスのχ²"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "マハラノビス距離"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "マハラノビス距離"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "マハラノビス距離（χ²）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "マハラノビス距離（p）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
+msgstr "マハラノビス距離は、共変量が2つ以上あるモデルでのみ算出可能です"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "マハラノビスのp"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3095,7 +3104,7 @@ msgstr "モデル適合度"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "モデル適合に問題が検出されました！"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3142,7 +3151,7 @@ msgstr "モデルの閾値"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "N={n} のサンプルによる推定モデル"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3304,7 +3313,7 @@ msgstr "いくつかの係数を推定できませんでした（特異な適合
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "重みづけありデータに未対応の統計手法もあります。"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3606,7 +3615,7 @@ msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3616,11 +3625,11 @@ msgstr "p値"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(ボンフェロニ)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(調整なし)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3740,7 +3749,7 @@ msgstr "偏η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "pが閾値未満の参加者（行）"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3764,7 +3773,7 @@ msgstr "数値でない値ではピアソンの相関係数は計算できませ
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "ピアソン残差"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3909,7 +3918,7 @@ msgstr "グラフ"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "重みづけあり記述統計量は作図に未対応です。"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3924,11 +3933,11 @@ msgstr "多重比較 - {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "事後検定"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "事後検定（{title}）"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4876,7 +4885,7 @@ msgstr "特異適合が発生しました。1つまたは複数の予測変数�
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "特異性エラーです。球面性補正を利用できません"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5000,11 +5009,11 @@ msgstr "標準化残差"
 
 #: R/conttables.b.R
 msgid "Standardized residuals"
-msgstr ""
+msgstr "標準化残差"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "標準化残差（調整済ピアソン）"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5519,6 +5528,9 @@ msgstr "モデルの反復測定項です。"
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"変数{vars}で指定された参照レベルが見つかりませんでした。利用可能な最初のレベ"
+"ルを初期値として使用します。カスタム参照レベルを使用するには、定義された参照"
+"レベルがデータ内で利用可能であることを確認してください。"
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5698,7 +5710,7 @@ msgstr "理論的分位点"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "p < {p} 未満のマハラノビス距離はありません。"
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5826,7 +5838,7 @@ msgstr "単変量検定"
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "非標準化残差"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
