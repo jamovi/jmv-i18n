@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-13 16:01+0000\n"
+"PO-Revision-Date: 2025-06-20 08:01+0000\n"
 "Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.12.1\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -56,7 +56,7 @@ msgstr "{} - ρ(rho) Спирмена"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% ДИКИЙ Низ"
+msgstr "{ciWidth}% CI Нижній"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -64,7 +64,7 @@ msgstr "{ciWidth}% ДИКИЙ средина {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% ДИКИЙ Верх"
+msgstr "{ciWidth}% CI Верхній"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -240,7 +240,7 @@ msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr "1 - Специфичность"
+msgstr "1 - Специфічність"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
@@ -263,7 +263,7 @@ msgstr "графік корреляционной матрицы"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr "графік корреляционной матрицы"
+msgstr "таблиця кореляційної матриці"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
@@ -1163,7 +1163,7 @@ msgstr "Доверительный интервал для середнішій"
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr "Ширина доверительного интервала"
+msgstr "Ширина довірчого інтервалу"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
@@ -1299,22 +1299,22 @@ msgstr "Поправка"
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
 msgid "Correlated"
-msgstr "Коррелирует"
+msgstr "Корельований"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
 msgid "Correlated negatively"
-msgstr "Коррелирует негативно"
+msgstr "Негативно корелює"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
 msgid "Correlated positively"
-msgstr "Коррелирует позитивно"
+msgstr "Позитивно корелює"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
 msgid "Correlation"
-msgstr "Корреляция"
+msgstr "Кореляція"
 
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
@@ -1379,12 +1379,12 @@ msgstr "Матрицы корреляции — це способу дослід
 #: corrMatrix/results.title
 #: corrMatrix/results/matrix.title
 msgid "Correlation Matrix"
-msgstr "Корреляционная матрица"
+msgstr "Кореляційна матриця"
 
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
 msgid "Correlation matrix"
-msgstr "Корреляционная матрица"
+msgstr "Кореляційна матриця"
 
 #: corrPart/ui[1][2].label
 msgid "Correlation Type"
@@ -2191,7 +2191,7 @@ msgstr "Позначити значити порівняння"
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr "Позначити значити корреляции"
+msgstr "Позначення значущих кореляцій"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
@@ -2344,12 +2344,12 @@ msgstr "Группирующая переменная '{a}' не повинна 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is negative correlation"
-msgstr "Hₐ – отрицательная корреляция"
+msgstr "Hₐ – негативна кореляція"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr "Hₐ - позитивна корреляция"
+msgstr "Hₐ – позитивна кореляція"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
@@ -3628,7 +3628,7 @@ msgstr "p <"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr "р-значення"
+msgstr "p-значення"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
@@ -3781,7 +3781,7 @@ msgstr "Пірсон"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr "Кореляцію Пірсона неможливо обчислити для нечислових значень"
+msgstr "Кореляцію Пірсона неможливо розрахувати для нечислових значень"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
@@ -3791,7 +3791,7 @@ msgstr "Залишки Пірсона"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr "r Пірсона"
+msgstr "Пірсона r"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
@@ -3927,7 +3927,7 @@ msgstr "Тип графіка"
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr "Графіки"
+msgstr "Ділянки"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
@@ -4128,7 +4128,7 @@ msgstr "забезпечити довірчий інтервал для різн
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr "надати графік кореляційної матриці."
+msgstr "надайте графік матриці кореляції."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
@@ -4935,7 +4935,7 @@ msgstr "Фактор"
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr "Специфичность"
+msgstr "Специфічність"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
