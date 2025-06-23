@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-23 12:03+0000\n"
+"PO-Revision-Date: 2025-06-23 13:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -121,7 +121,7 @@ msgstr "{varType} של מודל {modelNo} של רגרסיה ליניארית"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, one-tailed"
+msgstr "* p < .05, ** p < .01, *** p < .001, חד זנבי"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -1662,11 +1662,11 @@ msgstr "הנתונים השיוריים של הסטייה"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "הנתונים השיוריים של הסטייה (GLM של פואסון)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "הנתונים השיוריים של הסטייה הם נתונים שיוריים מתוקננים מ־GLM של פואסון."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -2742,33 +2742,33 @@ msgstr "חסם תחתון"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "כי בריבוע של מהלנוביס"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "מרחק מהלנוביס"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "מרחק מהלנוביס"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "מרחק מהלנוביס (כי בריבוע)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "מרחק מהלנוביס (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
+msgstr "ניתן לחשב מרחק מהלנוביס רק עבור מודלים בעלי לפחות שני משתנים נלווים"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "P של מהלנוביס"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3104,7 +3104,7 @@ msgstr "התאמת המודל"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "נמצאה בעיה בהתאמת המודל!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3151,7 +3151,7 @@ msgstr "ספי המודל"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "המודל נאמד בעזרת גודל מדגם של N = {n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3502,12 +3502,12 @@ msgstr "סדר"
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "רגרסיית סדר לוגיסטית"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "תוצאות סדר"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
@@ -3529,7 +3529,7 @@ msgstr "כולל"
 
 #: R/ancova.b.R
 msgid "Overall model"
-msgstr ""
+msgstr "המודל הכולל"
 
 #: linReg/ui[4][0][1][0].label
 #: linReg/results/modelFit.columns.superTitle
@@ -3615,7 +3615,7 @@ msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3625,11 +3625,11 @@ msgstr "ערך p"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(בונפרוני)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(לא מתוקנן)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3748,7 +3748,7 @@ msgstr "η² חלקי"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "המשתתפים (שורות) מתחת לסף ה־p"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3772,7 +3772,7 @@ msgstr "אי אפשר לחשב מתאם פירסון לערכים לא מספר�
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "נתונים שיוריים של פירסון"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3889,7 +3889,7 @@ msgstr "תרשים"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
-msgstr ""
+msgstr "צפיפות התרשים לאורך האלכסון של תרשים מטריצת המתאמים."
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
@@ -3932,11 +3932,11 @@ msgstr "השוואות המשך – {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "מבחן המשך"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "מבחן המשך ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4042,7 +4042,7 @@ msgstr "הציר המרכזי"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "פירוק הציר המרכזי"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -5012,7 +5012,7 @@ msgstr ""
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "נתונים שיוריים מתוקננים (פירסון מתוקנן)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
