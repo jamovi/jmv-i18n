@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-23 14:03+0000\n"
+"PO-Revision-Date: 2025-06-23 15:16+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -1838,7 +1838,7 @@ msgstr "ערכים עצמיים הגדולים מ־"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
-"תאים ריקים במערך בין נבדקי: לפחות לשילוב אחד של רמות הגורם הבין נבדקי יש 0 "
+"תאים ריקים במערך בין נבדקי: לפחות לצירוף אחד של רמות הגורם הבין נבדקי יש 0 "
 "תצפיות"
 
 #: ancova/options/emmWeights.title
@@ -4271,12 +4271,18 @@ msgstr "מבחני ההמשך."
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"תרשימי Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו "
+"המצופים אם הנתונים היו מתפלגים נורמלית באופן *מושלם*. סטייה גדולה מהאלכסון "
+"מרמזת שהנתונים אינם מהתפלגות נורמלית."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
+"תרשמי Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו "
+"המצופים אם הנתונים היו מתפלגים נורמלית באופן *מושלם*. סטייה גדולה מהאלכסון "
+"מרמזת שהנתונים השיוריים אינם מתפלגים נורמלי."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4723,7 +4729,7 @@ msgstr "ניתוח סולם"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
-msgstr ""
+msgstr "גורם הסולם = המחוון הראשון של הסולם"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
@@ -4884,14 +4890,16 @@ msgstr "הדמייה"
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
 msgstr ""
+"נמצאה התאמה בודדת. לפחות משתנה מנבא אחד הוא צירוף לינארי של משתנים מנבאים "
+"אחרים."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "שגיאת סינגולריות. תיקוני הכדוריות אינם זמינים"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr ""
+msgstr "שגיאת סינגולריות. מבחני כדוריות אינם זמינים"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
@@ -4901,7 +4909,7 @@ msgstr "צידוד (Skewness)"
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "סידור הטעינויות לפי גודלם"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
@@ -4913,7 +4921,7 @@ msgstr "ספירמן"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr ""
+msgstr "רו של ספירמן"
 
 #: R/pca.b.R
 msgctxt "specific factor"
@@ -4924,7 +4932,7 @@ msgstr "גורם"
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr ""
+msgstr "סגוליות"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
@@ -4946,7 +4954,7 @@ msgstr "חלוקה לפי"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "מרחק מהלנוביס בריבוע"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
