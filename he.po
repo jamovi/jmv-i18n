@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-16 14:01+0000\n"
+"PO-Revision-Date: 2025-06-23 07:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -60,7 +60,7 @@ msgstr "רווח סמך תחתון {ciWidth}%"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "%{ciWidth} סטיית התקן של הממוצע {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
@@ -121,7 +121,7 @@ msgstr "{varType} של מודל {modelNo} של רגרסיה ליניארית"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, one-tailed"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -240,7 +240,7 @@ msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "סגוליות - 1"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
@@ -358,7 +358,7 @@ msgstr "טבלה המכילה את מבחן כי בריבוע להתאמה מד�
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "טבלה המכילה את סטטיסטיקת שיתוף הישר"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
@@ -448,7 +448,7 @@ msgstr "טבלת מבחני הנורמליות"
 
 #: contTables/results/postHoc.description
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "טבלת הנתונים השיוריים של ניתוחי ההמשך"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1014,12 +1014,12 @@ msgstr "d של כהן"
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
 msgid "Collinearity Statistics"
-msgstr ""
+msgstr "סטטיסטיקת שיתוף הישר"
 
 #: linReg/options/collin.title
 #: logRegBin/options/collin.title
 msgid "Collinearity statistics"
-msgstr ""
+msgstr "סטטיסטיקת שיתוף הישר"
 
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
@@ -3435,7 +3435,7 @@ msgstr "לפחות משתנה אחד אינו מכיל מספיק תצפיות"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "לפחות מקדם אחד במודל ”{modelNo}“ לא ניתן לאמוד עקב קולינאציה מושלמת."
+msgstr "לפחות מקדם אחד במודל ”{modelNo}“ לא ניתן לאמוד עקב שיתוף ישר מושלם."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
