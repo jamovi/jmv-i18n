@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-24 22:05+0000\n"
+"PO-Revision-Date: 2025-06-26 22:06+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -875,7 +875,7 @@ msgstr "BIC"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).name
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr ""
+msgstr "חמשת הגדולים (Dolan, Oort, Stoel & Wicherts, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
@@ -5412,7 +5412,7 @@ msgstr "המשתנים התלויים. בניתוח שונות הם יהיו ר�
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "עמודות השגיאה שישמשו לתרשים שעל הממוצעים השוליים."
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
@@ -5536,6 +5536,9 @@ msgstr "תנאי המדידות החוזרות של המודל."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"רמת הייחוס המסוימת לא נמצאה עבור המשתנים הבאים: {vars}. ברירת המחדל תיקבע על "
+"פי הרמה הראשונה הזמינה. כדי להשתמש ברמת ייחוס מותאמת אישית יש להגדיר רמת "
+"ייחוס הזמינה עבור הנתונים."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5663,7 +5666,7 @@ msgstr "סוג הסכומים הריבועיים לשימוש: סוג 2 או 3."
 #: ancova/results/model.description
 #: anova/results/model.description
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "אובייקט הבסיס `aov`"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
@@ -5715,7 +5718,7 @@ msgstr "שברונים תיאורטיים"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "אין מרחק מהלנוביס בעל סף הנמוך מ־p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5734,7 +5737,7 @@ msgstr "ספים"
 
 #: efa/options/factorScoreMethod/Thurstone.title
 msgid "Thurstone"
-msgstr ""
+msgstr "ת׳רסטון"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
@@ -5749,12 +5752,12 @@ msgstr "מדד טאקר–לואיס (TLI)"
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
 msgid "Tolerance"
-msgstr ""
+msgstr "סבילות"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr ""
+msgstr "התצפיות מעטות (N < 3) מכדי שאפשר יהיה לחשב עליהן את הסטטיסטי"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
@@ -5762,28 +5765,28 @@ msgstr "יש מעט מדי תצפיות כדי לחשב את הסטטיסטי. �
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr ""
+msgstr "המדגמים מעטים מכדי שאפשר יהיה לחשב עליהם את הסטטיסטי (N < {n})"
 
 #: R/ttestis.b.R
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr ""
+msgstr "המדגמים מעטים מכדי שאפשר יהיה לחשב עליהם את הסטטיסטי (N < 3)"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr ""
+msgstr "התצפיות רבות (N > 5000) מכדי שאפשר יהיה לחשב עליהן את הסטטיסטי"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr ""
+msgstr "המדגמים רבים מכדי שאפשר יהיה לחשב עליהם את הסטטיסטי (N > {n})"
 
 #: R/ttestis.b.R
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr ""
+msgstr "המדגמים רבים מכדי שאפשר יהיה לחשב עליהם את הסטטיסטי (N > 5000)"
 
 #: package/datasets/Tooth Growth.name
 msgid "Tooth Growth"
-msgstr ""
+msgstr "צמיחת שיניים"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -5837,16 +5840,16 @@ msgstr "לא ניתן לחלק לפי משתנה רציף"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr ""
+msgstr "ייחודיות"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
-msgstr ""
+msgstr "מבחנים חד־גורמיים"
 
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "נתונים שיוריים לא מתוקננים"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5873,11 +5876,11 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr ""
+msgstr "עליון"
 
 #: R/descriptives.b.R
 msgid "upper bound"
-msgstr ""
+msgstr "חסם עליון"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -5886,7 +5889,7 @@ msgstr ""
 #: contTablesPaired/results/test.columns.title
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
-msgstr ""
+msgstr "ערך"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
@@ -5911,7 +5914,7 @@ msgstr "משתנה"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "המשתנה ”{var}“ אינו מכיל נתונים"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
@@ -5925,7 +5928,7 @@ msgstr "המתנה לא מכיל מספיק תצפיות"
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 msgid "Variable is not numeric"
-msgstr ""
+msgstr "המשתנה אינו מספרי"
 
 #: corrMatrix/options/vars.title
 #: corrPart/options/vars.title
@@ -5988,18 +5991,19 @@ msgstr "כינור"
 #: ttestOneS/results/normality.columns.title
 #: ttestPS/results/norm.columns.title
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
+"שקלול כל תא באופן שווה. (על פי ברירת המחדל תאים משוקללים לפי תדירות התא.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
 msgid "Weight Variable"
-msgstr ""
+msgstr "משתנה משקל"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -6054,11 +6058,11 @@ msgstr "למדה של וילק"
 
 #: contTables/options/yaxisPc/column_pc.title
 msgid "within column"
-msgstr ""
+msgstr "בתוך העמודה"
 
 #: contTables/options/yaxisPc/row_pc.title
 msgid "within rows"
-msgstr ""
+msgstr "בתוך השורות"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
@@ -6092,28 +6096,28 @@ msgstr "ציר Y"
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
-msgstr ""
+msgstr "מבחן z להבדל בין שני יחסים"
 
 #: contTables/options/zProp.title
 msgid "z test for difference in 2 proportions"
-msgstr ""
+msgstr "מבחן z להבדל בין שני יחסים"
 
 #: R/conttables.b.R
 msgid "z test only available for 2x2 tables"
-msgstr ""
+msgstr "מבחן z זמין רק עבור טבלאות 2×2"
 
 #: linReg/results/modelComp.columns.title
 msgid "ΔR²"
-msgstr ""
+msgstr "ΔR²"
 
 #: anovaNP/options/es.title
 #: anovaNP/results/table.columns.title
 msgid "ε²"
-msgstr ""
+msgstr "ε²"
 
 #: ancova/options/effectSize/eta.title
 #: ancova/results/main.columns.title
@@ -6122,21 +6126,21 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²"
-msgstr ""
+msgstr "η²"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>G</sub>"
-msgstr ""
+msgstr "η²<sub>G</sub>"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "η²<sub>p</sub>"
-msgstr ""
+msgstr "η²<sub>p</sub>"
 
 #: ancova/results/main.columns.title
 msgid "η²p"
-msgstr ""
+msgstr "η²p"
 
 #: anovaNP/results/table.columns.title
 #: anovaRMNP/results/table.columns.title
@@ -6163,14 +6167,14 @@ msgstr ""
 #: pca/results/assump/bartlett.columns.title
 #: propTestN/results/tests.columns.title
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
 msgid "χ² continuity correction"
-msgstr ""
+msgstr "תיקון רציפות χ²"
 
 #: propTestN/results/tests.title
 msgid "χ² Goodness of Fit"
@@ -6183,7 +6187,7 @@ msgstr "χ² לטיב התאמה"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
-msgstr ""
+msgstr "מבחן χ²"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
@@ -6192,7 +6196,7 @@ msgstr "χ² לאי תלות"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
-msgstr ""
+msgstr "מבחני χ²"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title
@@ -6201,4 +6205,4 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "ω²"
-msgstr ""
+msgstr "ω²"
