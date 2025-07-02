@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-02 08:01+0000\n"
+"PO-Revision-Date: 2025-07-02 09:03+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "he/>\n"
@@ -3655,14 +3655,14 @@ msgstr "p<sub>טוקי</sub>"
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr "מדגמים תלויים"
+msgstr "מדגמים מזווגים"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
 msgid "Paired Samples Contingency Tables"
-msgstr "טבלאות קריבות למדגמים תלויים"
+msgstr "טבלאות קריבות למדגמים מזווגים"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -4168,7 +4168,7 @@ msgstr "מקדמי בייס למבחני t למדגם יחיד של סטודנט
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "מקדמי בייס למבחני t למדגמים תלויים של סטודנט."
+msgstr "מקדמי בייס למבחני t למדגמים מזווגים של סטודנט."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
@@ -5631,8 +5631,9 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "משתמשים במבחן t של סטודנט למדגמים תלויים (הנקרא לעיתים מבחן\n"
-"t למדגמים מזווגים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
+msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים מזווגים (הנקרא לעיתים מבחן\n"
+"t למדגמים תלויים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
 "שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
 "בין זוגות המדדים שונה מאפס."
 
@@ -5649,12 +5650,13 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "משתמשים במבחן t של סטודנט למדגמים תלויים (הנקרא לעיתים מבחן\n"
-"t למדגמים מזווגים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
+msgstr ""
+"משתמשים במבחן t של סטודנט למדגמים מזווגים (הנקרא לעיתים מבחן\n"
+"t למדגמים תלויים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
 "שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
 "בין זוגות המדדים שונה מאפס.\n"
 "\n"
-"מבחן t של סטודנט למדגמים תלויים מניח שזוגות ההפרשים מתאימים\n"
+"מבחן t של סטודנט למדגמים מזווגים מניח שזוגות ההפרשים מתאימים\n"
 "להתפלגות נורמלית. אם לא מניחים זאת, ניתן להשתמש במקום במבחן הלא\n"
 "פרמטרי – הדרגות המסומנות של וילקוקסון (עם זאת, יש לשים לב שלמבחן\n"
 "הדרגות המסומנות של וילקוקסון השערת אפס שונה במקצת – שקבוצות שני\n"
