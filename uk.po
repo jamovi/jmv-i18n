@@ -1494,12 +1494,12 @@ msgstr "Значення точок відсікання"
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
 msgid "Cut points for"
-msgstr "Точки сегменти для"
+msgstr "Зниження балів для"
 
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
 msgid "Cut-Off"
-msgstr "Отсечка"
+msgstr "Відсікання"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
 msgid "Cut-Off Plot"
@@ -1511,7 +1511,7 @@ msgstr "Графік отсечки"
 
 #: logRegBin/options/cutOff.title
 msgid "Cut-off value"
-msgstr "Пороговое значення"
+msgstr "Порогове значення"
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
@@ -1522,7 +1522,7 @@ msgstr "Дані"
 #: package/analyses/efa.menuSubgroup
 #: package/analyses/cfa.menuSubgroup
 msgid "Data Reduction"
-msgstr "Сжатие даних"
+msgstr "Стиснення даних"
 
 #: weights/results/text.content
 msgid "Data set is currently unweighted"
@@ -1536,7 +1536,7 @@ msgstr "Зведення даних"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
-msgstr "Плотности розподілу для переменных"
+msgstr "Плотности розподілу для змінних"
 
 #: R/proptest2.b.R
 #: descriptives/options/dens.title
@@ -1555,7 +1555,7 @@ msgstr "Залежати"
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr "Залежати переменная"
+msgstr "Залежати змінна"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
@@ -1596,11 +1596,11 @@ msgstr "застарів"
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
-msgstr "Описательный графік"
+msgstr "Описовий графік"
 
 #: anovaRMNP/options/plots.title
 msgid "Descriptive plot"
-msgstr "Описательный графік"
+msgstr "Описовий графік"
 
 #: package/analyses/descriptives.title
 #: package/analyses/descriptives.menuTitle
@@ -1618,41 +1618,44 @@ msgstr "Описательный графік"
 #: ttestPS/ui[1][1][0]/desc.label
 #: ttestPS/results/desc.title
 msgid "Descriptives"
-msgstr "Описательные статистики"
+msgstr "Описові статистики"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "Описательные статистики — це набір зведених статистичних даних і визуализаций, котрі дозволяють дослідити форму і розподіл даних. Хорошою практикою являється вивчення ваших даних з допомогою описательных елементів, перш ніж переходити к понад формальний тестам."
+msgstr ""
+"Описи – це набір узагальнюючих статистичних даних та візуалізацій, які "
+"дозволяють досліджувати форму та розподіл даних. Рекомендується досліджувати "
+"дані за допомогою описів, перш ніж переходити до більш формальних тестів."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
 msgid "descriptives plot"
-msgstr "графік описательных статистик"
+msgstr "графік описових статистик"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
 #: ttestPS/options/plots.title
 msgid "Descriptives Plots"
-msgstr "Описательные графіки"
+msgstr "Описові графіки"
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
 msgid "Descriptives plots"
-msgstr "Описательные графіки"
+msgstr "Описові графіки"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
 msgid "Descriptives Table"
-msgstr "Описательная таблиця"
+msgstr "Описова таблиця"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr "Описательная таблиця"
+msgstr "Описова таблиця"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -1663,7 +1666,7 @@ msgstr "Описательная таблиця"
 #: logRegOrd/options/dev.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "Deviance"
-msgstr "Девиантность"
+msgstr "Девіантність"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
@@ -1749,7 +1752,7 @@ msgstr "Різниця у пропорціях"
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
-msgstr "Дисперсия"
+msgstr "Дисперсія"
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
@@ -1765,7 +1768,7 @@ msgstr "Не припускати рівними (Уэлч)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
-msgstr "перетащите сюди переменную"
+msgstr "перетягніть сюди змінну"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
