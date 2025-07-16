@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-14 21:01+0000\n"
+"PO-Revision-Date: 2025-07-16 06:01+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
@@ -1784,11 +1784,11 @@ msgstr "перетягніть сюди змінну"
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 msgid "drag variables here"
-msgstr "перетащите сюди переменные"
+msgstr "перетягніть змінні сюди"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
-msgstr "Попарные порівняння Двасс-Стил-Кричлоу-Флигнер (DSCF)"
+msgstr "Попарні порівняння DSCF"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
@@ -1797,7 +1797,7 @@ msgstr "Попарні порівняння Данна"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr "Тест Дурбина-Ватсона на автокорреляцию"
+msgstr "Тест Дурбіна-Ватсона на автокореляцію"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
@@ -1805,7 +1805,7 @@ msgstr "Статистика DW"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr "Попарные порівняння Двасс-Стил-Кричлоу-Флигнер (DSCF)"
+msgstr "Попарні порівняння Двасса-Стіла-Крітчлоу-Флігнера"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -1836,16 +1836,16 @@ msgstr "Розмір ефекту"
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
 msgid "Eigenvalue"
-msgstr "Собственное значення"
+msgstr "Власне значення"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr "Собственные значення"
+msgstr "Власні значення"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 msgid "Eigenvalues greater than"
-msgstr "Собственные значення більше, чим"
+msgstr "Власні значення більші за"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
@@ -1899,11 +1899,11 @@ msgstr "Оцінити"
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
 msgid "Estimate (Log Odds Ratio)"
-msgstr "Оцінка (логарифмическое ставлення шансів)"
+msgstr "Оцінка (логарифмічне відношення шансів)"
 
 #: logLinear/ui[4][0][0][1].label
 msgid "Estimate (Log Rate Ratio)"
-msgstr "Оцінка (Логарифм ОР)"
+msgstr "Оцінка (коефіцієнт логарифмічної швидкості)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -1920,7 +1920,7 @@ msgstr "Оцінка (Логарифм ОР)"
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr "Расчетные граничні середні"
+msgstr "Очікувані граничні середні значення"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -1929,7 +1929,7 @@ msgstr "Расчетные граничні середні"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Estimated Marginal Means - {term}"
-msgstr "Расчетные граничні середні - {term}"
+msgstr "Очікувані граничні середні значення - {term}"
 
 #: cfa/ui[3].label
 msgid "Estimates"
@@ -1937,11 +1937,13 @@ msgstr "Оцінки"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr "Оцінки представляють собою логарифмические шанси …"
+msgstr "Оцінки представляють логарифм ймовірності …"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "Оцінки представляють собою логарифмические шанси \"{dep} = {level1}\" по порівнянню з \"{dep} = {level2}\""
+msgstr ""
+"Оцінки представляють логарифм ймовірності \"{dep} = {level1}\" проти "
+"\"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -1964,7 +1966,7 @@ msgstr "Виключити нагоди списком"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
-msgstr "Виключене"
+msgstr "Виключено"
 
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
@@ -2078,11 +2080,11 @@ msgstr "Фактор 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
-msgstr "Факторные корреляции"
+msgstr "Факторні кореляції"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr "Факторные ковариации"
+msgstr "Факторні коваріації"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
@@ -3265,7 +3267,7 @@ msgstr "Фактори не визначені. М-тесту Боксу акт�
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
 msgid "Nominal"
-msgstr "Номинальный"
+msgstr "Номінальний"
 
 #: package/analyses/anovaNP.menuSubgroup
 #: package/analyses/anovaRMNP.menuSubgroup
