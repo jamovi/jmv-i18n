@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-16 09:01+0000\n"
+"PO-Revision-Date: 2025-07-16 10:01+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/uk/>\n"
@@ -3206,7 +3206,7 @@ msgstr "MSA"
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
 msgid "Multinomial"
-msgstr "Полиномиальный"
+msgstr "Поліноміальний"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -3215,21 +3215,24 @@ msgstr "Полиномиальный"
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
 msgid "Multinomial Logistic Regression"
-msgstr "Полиномиальная логистическая регрессия"
+msgstr "Поліноміальна логістична регресія"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "Многофакторный аналізу (ко)дисперсии (MANCOVA) використовує для вивчення взаимосвязи між кількома залежати переменными і одної або кількома категориальными і/або непрерывными незалежними переменными."
+msgstr ""
+"Багатовимірний аналіз (ко)варіантності (MANCOVA) використовується для "
+"дослідження зв'язку між кількома залежними змінними та однією або кількома "
+"категоріальними та/або безперервними пояснювальними змінними."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
-msgstr "Многомерные статистики"
+msgstr "Багатовимірна статистика"
 
 #: mancova/results/multivar.title
 msgid "Multivariate Tests"
-msgstr "Многомерные тести"
+msgstr "Багатовимірні тести"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -3252,7 +3255,7 @@ msgstr "N"
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr "N исходов"
+msgstr "N Результати"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
@@ -3263,7 +3266,7 @@ msgstr "Нагелькерке R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr "Ни один компоненту не має собственного значення большего, ніж {value}"
+msgstr "Жодні компоненти не мають власного значення, більшого за {value}"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
@@ -3285,7 +3288,7 @@ msgstr "Номінальний"
 #: anovaNP/options.menuSubgroup
 #: anovaRMNP/options.menuSubgroup
 msgid "Non-Parametric"
-msgstr "Непараметрический"
+msgstr "Непараметричний"
 
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
@@ -3307,11 +3310,11 @@ msgstr "нi"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr "Нормально масштабируемые елементи"
+msgstr "Звичайні масштабовані елементи"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
-msgstr "Нормальность"
+msgstr "Нормальність"
 
 #: ancova/options/norm.title
 #: anova/options/norm.title
@@ -3321,7 +3324,7 @@ msgstr "Нормальность"
 #: ttestOneS/options/norm.title
 #: ttestPS/options/norm.title
 msgid "Normality test"
-msgstr "Тест на нормальность"
+msgstr "Тест на нормальність"
 
 #: ancova/results/assump/norm.title
 #: anova/results/assump/norm.title
@@ -3331,7 +3334,7 @@ msgstr "Тест на нормальность"
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr "Тест на нормальность (Шапиро-Уилк)"
+msgstr "Тест на нормальність (Шапіро-Вілка)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
@@ -3426,25 +3429,25 @@ msgstr "з всього"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr "Омнибусные тести ANOVA"
+msgstr "Омнібусний дисперсійний тест"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr "Омнибусные тести ставлення правдоподобия"
+msgstr "Омнібусні тести коефіцієнта правдоподібності"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr "Омнибусный тесту"
+msgstr "Всі тести"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
 msgid "Omnibus Tests"
-msgstr "Омнибусные тести"
+msgstr "Омнібусні тести"
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -3452,23 +3455,25 @@ msgstr "Одна або обидві групи не містять достат
 
 #: R/ttestps.b.R
 msgid "One or both variables are not numeric"
-msgstr "Одна або обидві переменные не являються числовыми"
+msgstr "Одна або обидві змінні не є числовими"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain infinite values"
-msgstr "Одна або обидві переменные містять неопределенные значення"
+msgstr "Одна або обидві змінні містять нескінченні значення"
 
 #: R/ttestps.b.R
 msgid "One or both variables contain no observations"
-msgstr "Одна або обидві переменные не містять наглядів"
+msgstr "Одна або обидві змінні не містять спостережень"
 
 #: R/ttestps.b.R
 msgid "One or both variables do not contain enough observations"
-msgstr "Одна або обидві переменные не містять достаточного кількості наглядів"
+msgstr "Одна або обидві змінні не містять достатньої кількості спостережень"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "Не удалось оцінити один або кілька коефіцієнтів у моделі {modelNo} із-за полной коллинеарности."
+msgstr ""
+"Один або декілька коефіцієнтів у моделі '{modelNo}' неможливо оцінити через "
+"ідеальну колінеарність."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -3506,7 +3511,7 @@ msgstr "Односторонній ANOVA (Рибалка)"
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr "Односторонній ANOVA (не параметричний)"
+msgstr "Однофакторний дисперсійний аналіз (непараметричний)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
@@ -3956,7 +3961,7 @@ msgstr "Діаграми ще не підтримуються для зваже�
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
-msgstr "Поліноміальний"
+msgstr "Поліном"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4157,25 +4162,29 @@ msgstr "надати тау-b Кендалла для кожноїкомбіна
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr "надати p-значення для кожногокоефіцієнта корреляции."
+msgstr "надати p-значення для кожногокоефіцієнта кореляції."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr "надати значення r Пирсона для кожноїкомбінації переменных."
+msgstr "надати значення r Пирсона для кожноїкомбінації змінних."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "надати графік Q-Q решт -- графік фактичний решт по порівнянню з тем, що можна було би очікувати, якщо би дані були *ідеально* нормально розподілені. Великий відхилення від диагональной лінії припускають, що дані не мають нормального розподілу."
+msgstr ""
+"надати графік Q-Q решт -- графік фактичний решт по порівнянню з тем, що "
+"можна було би очікувати, якщо би дані були *ідеально* нормально розподілені. "
+"Великий відхилення від діагональної лінії припускають, що дані не мають "
+"нормального розподілу."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "надати ρ Спирмена для кожноїкомбінації переменных."
+msgstr "надати ρ Спирмена для кожноїкомбінації змінних."
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
-msgstr "надати таблицю описательных характеристик для кожної переменной."
+msgstr "надати таблицю описових характеристик для кожної змінної."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
@@ -4189,35 +4198,35 @@ msgstr "надати коефіцієнти Байеса для t-тестів �
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "надати коефіцієнти Байеса для одновыборочных t-критеріїв Стьюдента."
+msgstr "надати коефіцієнти Байеса для одновибіркових t-критеріїв Стьюдента."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "надати коефіцієнти Байеса для t-тестів Стьюдента для парных вибірок."
+msgstr "надати коефіцієнти Байеса для t-тестів Стьюдента для парних вибірок."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
-msgstr "надати доверительные интервалы для r Пирсона."
+msgstr "надати довірчі інтервали для r Пирсона."
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "надати доверительные интервалы для розмірів ефекту"
+msgstr "надати довірчі інтервали для розмірів ефекту"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr "надати доверительные интервалы для различий середніх."
+msgstr "надати довірчі інтервали для различий середніх."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr "представляє доверительные интервалы для розмірів апостериорного ефекту."
+msgstr "представляє довірчі інтервали для розмірів апостериорного ефекту."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr "представляє коефіцієнти корреляции на графіку матрицы корреляции."
+msgstr "представляє коефіцієнти корреляции на графіку матриці кореляції"
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
