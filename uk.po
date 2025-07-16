@@ -4946,7 +4946,7 @@ msgstr "Помилка сингулярності. Корекції сферич
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr "Помилка сингулярності. Тести на сферичність недоступні."
+msgstr "Помилка сингулярності. Тести на сферичність недоступні"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
@@ -4956,19 +4956,19 @@ msgstr "Асиметрія"
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr "Сортировать навантаження по розміру"
+msgstr "Сортувати завантаження за розміром"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
 msgid "Spearman"
-msgstr "Спирмен"
+msgstr "Спірмен"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr "Спирмен ρ(rho)"
+msgstr "Спірмен ρ(rho)"
 
 #: R/pca.b.R
 msgctxt "specific factor"
@@ -4983,16 +4983,16 @@ msgstr "Специфічність"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr "Корекція сферичности"
+msgstr "Корекція сферичності"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr "Корекція сферичности"
+msgstr "Корекції сферичності"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr "Тести на сферичность"
+msgstr "Випробування на сферичність"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
@@ -5001,7 +5001,7 @@ msgstr "Розділити по"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr "Квадратичное відстань Махаланобиса"
+msgstr "Квадрат відстані Махаланобіса"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -5046,12 +5046,12 @@ msgstr "Стандартна помилки"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr "Стандартизированная оцінка"
+msgstr "Стандартизована оцінка"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr "Стандартизированная оцінка"
+msgstr "Стандартизована оцінка"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5062,7 +5062,7 @@ msgstr "Стандартизированная оцінка"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Standardized Residuals"
-msgstr "Стандартизированные решти"
+msgstr "Стандартизовані решти"
 
 #: R/conttables.b.R
 msgid "Standardized residuals"
@@ -5211,7 +5211,7 @@ msgstr "Терм 1"
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
 msgid "Test for Exact Fit"
-msgstr "Тест на точное відповідність"
+msgstr "Тест на точне відповідність"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
@@ -5239,7 +5239,7 @@ msgstr "Тести"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr "Тести сферичности"
+msgstr "Тести сферичності"
 
 #: R/descriptives.b.R
 msgid "th percentile"
@@ -5247,11 +5247,11 @@ msgstr "й процентиль"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr "Набір даних 'Ирисы' з R"
+msgstr "Набір даних «ірис» з R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr "Переменная 'розділити по' '{var}' не містить даних."
+msgstr "Змінна 'розділити по' '{var}' не містить даних."
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -5278,7 +5278,7 @@ msgstr "альтернативна гіпотеза."
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr "альтернативна гіпотеза. Дозволяє проводити односторонние тести."
+msgstr "альтернативна гіпотеза. Дозволяє проводити односторонні перевірки."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
@@ -5287,18 +5287,21 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "Ковариационный аналіз (ANCOVA) використовує для вивчення взаимосвязи\n"
-"між непрерывной залежати переменной, одної або кількома категориальными\n"
-"котрий пояснювати переменными і одної або кількома непрерывными котрий пояснювати переменными\n"
-"(або ковариатами). По суті, це такий ж аналізу, як і ANOVA, але з добавлением ковариатов."
+msgstr ""
+"Аналіз коваріації (ANCOVA) використовується для дослідження зв'язку між "
+"неперервною залежною змінною, однією або кількома категоріальними "
+"пояснювальними змінними та однією або кількома неперервними пояснювальними "
+"змінними (або коваріатами). Це по суті той самий аналіз, що й ANOVA, але з "
+"додаванням коваріацій."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "Дисперсионный аналізу (ANOVA) використовує для вивчення взаимосвязи\n"
-"між непрерывной залежати переменной і одної або кількома категориальными\n"
-"котрий пояснювати переменными."
+msgstr ""
+"Дисперсійний аналіз (ANOVA) використовується для дослідження зв'язку між "
+"неперервною залежною змінною та однією або кількома категоріальними "
+"пояснювальними змінними."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5312,16 +5315,18 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "Дисперсионный аналізу (ANOVA) використовує для вивчення взаимосвязи\n"
-"між непрерывной залежати переменной і одної або кількома категориальными\n"
-"котрий пояснювати переменными.\n"
+msgstr ""
+"Дисперсійний аналіз (ANOVA) використовується для дослідження зв'язку між "
+"неперервною залежною змінною та однією або кількома категоріальними "
+"пояснювальними змінними.\n"
 "\n"
-"ANOVA припускає, що решти розподілені нормально, і що\n"
-"варіації всіх груп рівні. Якщо ви не хочете вважати, що\n"
-"варіації рівні, то вместо цього можна використати тест Уэлча.\n"
-"(Однак тест Уэлча не підтримує понад одного котрий пояснювати фактора).\n"
-"факторів). У якості альтернативи, якщо нi жадоби припускати, що дані\n"
-"нормально розподілені, можна використати непараметрический підхід (наприклад, Kruskal-Wallis)."
+"ANOVA припускає, що залишки розподілені нормально, а дисперсії всіх груп "
+"рівні. Якщо хтось не бажає припускати, що дисперсії рівні, то замість цього "
+"можна використовувати тест Велча.\n"
+"(Однак тест Велча не підтримує більше одного пояснювального\n"
+"фактора). Як варіант, якщо хтось не бажає припускати, що дані розподілені "
+"нормально, можна використовувати непараметричний підхід (наприклад, "
+"Крускела-Уолліса)."
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5330,12 +5335,14 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "Дисперсионный аналіз (ANOVA) використовує для вивчення взаимосвязи\n"
-"між непрерывной залежати переменной і одної або кількома категориальными\n"
-"котрий пояснювати переменными. Цей 'односторонний ANOVA' являється спрощеної версією\n"
-"нормального ANOVA, котрий допускати тільки один котрий пояснювати фактор, однак\n"
-"також забезпечує Welch's ANOVA. Перевага ANOVA Уэлча складається у том, що\n"
-"не потрібно припускати, що дисперсии всіх груп рівні."
+msgstr ""
+"Дисперсійний аналіз (ANOVA) використовується для дослідження зв'язку між "
+"неперервною залежною змінною та однією або кількома категоріальними "
+"пояснювальними змінними. Цей «однофакторний ANOVA» є спрощеною версією "
+"«звичайного» ANOVA, що дозволяє використовувати лише один пояснювальний "
+"фактор, проте\n"
+"також забезпечує ANOVA Велча. ANOVA Велча має перевагу в тому, що\n"
+"він не повинен припускати, що дисперсії всіх груп рівні."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5350,39 +5357,47 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "Дисперсионный аналіз (ANOVA) використовує для вивчення взаимосвязи\n"
-"між непрерывной залежати переменной і одної або кількома категориальными\n"
-"котрий пояснювати переменными. Цей 'односторонний ANOVA' являється спрощеної версією\n"
-"нормального ANOVA, котрий допускати тільки один котрий пояснювати фактор, однак\n"
-"також забезпечує Welch's ANOVA. Перевага ANOVA Уэлча складається у том, що\n"
-"не потрібно припускати, що дисперсии всіх груп рівні.\n"
+msgstr ""
+"Дисперсійний аналіз (ANOVA) використовується для дослідження зв'язку між "
+"неперервною залежною змінною та однією або кількома категоріальними "
+"пояснювальними змінними. Цей «однофакторний ANOVA» є спрощеною версією "
+"«звичайного» ANOVA, що дозволяє використовувати лише один пояснювальний "
+"фактор, проте\n"
+"також забезпечує ANOVA Велча. ANOVA Велча має перевагу в тому, що\n"
+"він не повинен припускати, що дисперсії всіх груп рівні.\n"
 "\n"
-"Для вигоди цейметод дозволяє вказати кілька залежати\n"
-"переменных, що приводить к кільком незалежний тестам.\n"
+"Для зручності цей метод дозволяє вказувати кілька залежних\n"
+"змінних, що призводить до кількох незалежних тестів.\n"
 "\n"
-"Обратите увагу, що ANOVA Уэлча являється такою ж процедурою, що і\n"
-"t-тест для незалежний вибірок ."
+"Зауважте, що ANOVA Велча є такою ж процедурою, як і t-тест Велча для "
+"незалежних вибірок."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr "фактори між суб'єктами (необязательно)."
+msgstr "фактори між суб'єктами (необов'язково)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
-msgstr "межсубъектные умови моделі."
+msgstr "міжсуб'єктні умови моделі."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "Биномиальный тіст використовує для перевірки нульовий гіпотези о тому, що доля наглядів соответствует некоторому очікувати значенню. Якщо p-значення маленьке, це говорить о тому, що нульова гіпотеза ложна, і що истинная пропорція повинна бути якоїсь другой."
+msgstr ""
+"Біноміальний тест використовується для перевірки нульової гіпотези про те, "
+"що частка спостережень відповідає деякому очікуваному значенню. Якщо p-"
+"значення низьке, це говорить про те, що нульова гіпотеза хибна, і що "
+"справжня частка має бути якимось іншим значенням."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr "категориальные котрий пояснювати (або незалежні) переменные."
+msgstr "категоріальні пояснювальні (або незалежні) змінні."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "СІ середнього припускає, що вибіркові засоби слідують t-розподілу з N - 1 ступенями свободи"
+msgstr ""
+"Довірчий інтервал (ДІ) середнього значення припускає, що вибіркові середні "
+"значення відповідають t-розподілу з N - 1 ступенями свободи."
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
