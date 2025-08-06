@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-06 17:02+0000\n"
+"PO-Revision-Date: 2025-08-06 18:01+0000\n"
 "Last-Translator: jpmaroco <jpmaroco@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/pt/>\n"
@@ -55,7 +55,7 @@ msgstr "{} - rho de Spearman"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "Limite inferior do IC a {ciWidth}%"
+msgstr "Lim. Inf. IC {ciWidth}%"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -63,7 +63,7 @@ msgstr "{ciWidth}% IC média {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "Limite superior do IC a {ciWidth}%"
+msgstr "Lim. Sup. IC {ciWidth}%"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -120,7 +120,7 @@ msgstr "{varType} do modelo de regressão linear {modelNo}"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, unicaudal"
+msgstr "* p < .05, ** p < .01, *** p < .001, unilateral"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -153,7 +153,6 @@ msgstr "* p < .05, ** p < .01, *** p < .001, unicaudal"
 #: ttestOneS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
-#, fuzzy
 msgid "%"
 msgstr "%"
 
@@ -263,7 +262,7 @@ msgstr "um gráfico da matriz de correlação"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr "uma tabela da matriz de correlação"
+msgstr "uma tabela de matriz de correlação"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
@@ -984,11 +983,11 @@ msgstr "Quantis Qui-quadrado"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr "CI Inferior"
+msgstr "Lim. Inf. I.C."
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "CI Superior"
+msgstr "Lim. Sup. I.C."
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -1163,7 +1162,7 @@ msgstr "Intervalo de Confiança para a Média"
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr "Amplitude do Intervalo de Confiança"
+msgstr "Largura do intervalo de confiança"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
@@ -2828,7 +2827,6 @@ msgstr "W de Mauchly"
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
-#, fuzzy
 msgid "Max"
 msgstr "Max"
 
@@ -2991,7 +2989,6 @@ msgstr "Método"
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
-#, fuzzy
 msgid "Min"
 msgstr "Min"
 
@@ -4980,7 +4977,7 @@ msgstr "Estimativas Estand."
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr "Desvio-padrão"
+msgstr "Desvio padrão"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
@@ -6038,7 +6035,7 @@ msgstr "Efeito Intra-Sujeitos"
 
 #: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
-msgstr "Eixo-XX"
+msgstr "Eixo-X"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
@@ -6046,7 +6043,7 @@ msgstr "eixo-xx"
 
 #: contTables/ui[1][3][0][1][0].label
 msgid "Y-Axis"
-msgstr "Eixo-YY"
+msgstr "Eixo-Y"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
