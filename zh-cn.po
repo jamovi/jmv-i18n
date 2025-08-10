@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-05 03:01+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"PO-Revision-Date: 2025-08-10 03:24+0000\n"
+"Last-Translator: 柠枺 <3436464181@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
 "Language: zh-cn\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2727,7 +2727,7 @@ msgstr "下限"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "马氏卡方（Mahalanobis ChiSq）"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
@@ -3136,7 +3136,7 @@ msgstr "模型阈值"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "使用样本量 N={n} 估计的模型"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3600,7 +3600,7 @@ msgstr "p值"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3610,11 +3610,11 @@ msgstr "p值"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Bonferroni)</sub>（邦弗罗尼校正后的 p 值）"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>（未校正的 p 值）"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3893,7 +3893,7 @@ msgstr "绘图"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "目前尚不支持对加权描述性统计绘制图表。"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3908,11 +3908,11 @@ msgstr "事后比较- {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "事后检验"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "事后检验（{title}）"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
