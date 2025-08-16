@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-09 18:02+0000\n"
+"PO-Revision-Date: 2025-08-16 06:02+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2035,75 +2035,80 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "'{factor}' എന്ന ഫാക്ടറിന് കുറഞ്ഞത് 2 ലെവലുകൾ വേണം"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' എന്ന ഫാക്ടറിൽ ഡേറ്റയൊന്നുമില്ല (കാലിയായ വരികൾ നീക്കിയതിന് ശേഷം)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' എന്ന ഫാക്ടറിൽ ഒരൊറ്റ ലെവൽ മാത്രമേ ഉള്ളൂ (കാലിയായ വരികൾ നീക്കിയതിന് "
+"ശേഷം)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
 msgstr ""
+"'{factorName}' എന്ന ഫാക്ടറിൽ ഉപയോഗിക്കാത്ത ലെവലുകൾ ഉണ്ട് (കാലിയായ വരികൾ നീക്കിയതിന് "
+"ശേഷം)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
-msgstr ""
+msgstr "ഫാക്‌ടർ {0}"
 
 #: cfa/options/factors.default[0].label
 msgid "Factor 1"
-msgstr ""
+msgstr "ഫാക്‌ടർ 1"
 
 #: efa/options/factorCor.title
 msgid "Factor correlations"
-msgstr ""
+msgstr "ഫാക്ടർ കോറിലേഷനുകൾ"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr ""
+msgstr "ഫാക്ടർ കോവേരിയൻസുകൾ"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
-msgstr ""
+msgstr "ഫാക്ടർ കോവേരിയൻസുകൾ"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr ""
+msgstr "ഫാക്ടർ എസ്റ്റിമേറ്റുകൾ"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "ഫാക്ടർ ഇന്റർസെപ്റ്റുകൾ"
 
 #: cfa/options/factInterceptEst.title
 msgid "Factor intercepts"
-msgstr ""
+msgstr "ഫാക്ടർ ഇന്റർസെപ്റ്റുകൾ"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
 msgid "Factor Loadings"
-msgstr ""
+msgstr "ഫാക്ടർ ലോഡിങ്ങുകൾ"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr ""
+msgstr "ഫാക്ടർ ലോഡിംഗുകൾ - മോഡിഫിക്കേഷൻ സൂചികകൾ"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr ""
+msgstr "ഫാക്ടർ സ്കോറുകൾ"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
-msgstr ""
+msgstr "ഫാക്ടർ സ്റ്റാറ്റിസ്റ്റിക്സ്"
 
 #: efa/options/factorSummary.title
 msgid "Factor summary"
-msgstr ""
+msgstr "ഫാക്ടർ സംഗ്രഹം"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
 msgid "Factor variances = 1"
