@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-25 20:03+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2025-08-19 19:02+0000\n"
+"Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -120,7 +120,7 @@ msgstr "{varType} del modelo de regresión lineal{modelNo}"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, una cola"
+msgstr "* p < 0,05 ; ** p < 0,01 ; *** p < 0,001, una cola"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -1867,7 +1867,7 @@ msgstr "% error"
 #: anova/options/emmPlotError.title
 #: anovaRM/options/emmPlotError.title
 msgid "Error bars"
-msgstr "Barras de error"
+msgstr "Barras de Error"
 
 #: ancova/results/contrasts.template.columns.title
 #: anovaRM/results/contrasts.template.columns.title
@@ -2325,7 +2325,7 @@ msgstr "Resumen de grupo"
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr "Variables de agrupación"
+msgstr "Variable de Agrupación"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
@@ -2830,7 +2830,7 @@ msgstr "W de Mauchly"
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
-msgstr "Max"
+msgstr "Máx."
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
@@ -2992,7 +2992,7 @@ msgstr "Método"
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
-msgstr "Min"
+msgstr "Mín."
 
 #: R/descriptives.b.R
 #: descriptives/options/min.title
@@ -3270,7 +3270,7 @@ msgstr "No Paramétrico"
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
 msgid "None"
-msgstr "Ninguna"
+msgstr "Ninguno"
 
 #: R/pca.b.R
 msgid "none"
@@ -4961,7 +4961,7 @@ msgstr "SC Cargas"
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr "Alineados"
+msgstr "Apilado"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -4977,7 +4977,7 @@ msgstr "Estimador Estándar"
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr "Desviación estándar"
+msgstr "Desviación típica"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
