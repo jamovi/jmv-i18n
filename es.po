@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-19 19:02+0000\n"
+"PO-Revision-Date: 2025-08-25 18:02+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -1662,15 +1662,15 @@ msgstr "Desvianza"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Residuos de la Desviación"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Residuos de la Desviación (Poisson GLM)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Residuos de la Desviación están ajustados a residuos de un Poisson GLM."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1752,7 +1752,7 @@ msgstr "Distribución"
 
 #: R/descriptives.b.R
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Todavía no se aceptan datos ponderados."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1785,7 +1785,7 @@ msgstr "Comparaciones dos a dos DSCF"
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Comparaciones por pares de Dunn"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2526,6 +2526,13 @@ msgstr "RIC"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"Parece que tu modelo tiene un problema de \\\"singularidad\\\". Esto "
+"habitualmente significa que el modelo tiene un problema distinguiendo entre "
+"ciertos efectos porque algunas variables están muy próximamente relacionadas "
+"or porque no hay suficientes datos para estimar toda la confiabilidad de les "
+"efectos. Para resolver esto, considera simplificar el modelo mediante la "
+"eliminación de algunos efectos o comprueba si los datos pueden tener "
+"variables redundantes o altamente correlacionadas."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2739,33 +2746,35 @@ msgstr "límite inferior"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Chi-Cuadrado de Mahalanobis"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Distancia de Mahalanobis"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Distancia de Mahalanobis"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Distancia de Mahalanobis (Chi-Cuadr.)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Distancia de Mahalanobis (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
 msgstr ""
+"La distancia de Mahalanobis puede calcularse únicamente para modelos con dos "
+"o más covariables"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "p de Mahalabobis"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3101,7 +3110,7 @@ msgstr "Ajuste del Modelo"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Detectado un problema de ajuste del modelo !"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3148,7 +3157,7 @@ msgstr "Umbrales del modelo"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "Modelos estimados usando un tamaño de muestra de N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3310,7 +3319,7 @@ msgstr "No se pudieron estimar todos los coeficientes (probablemente debido al a
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "De momento, no todos los estadísticos soportan datos ponderados."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3612,7 +3621,7 @@ msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3622,11 +3631,11 @@ msgstr "valor p"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3752,7 +3761,7 @@ msgstr "η² parcial"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "Participantes (filas) por debajo del umbral de p"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3776,7 +3785,7 @@ msgstr "La correlación de Pearson no puede calcularse para valores no numérico
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "Residuos de Pearson"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3921,7 +3930,7 @@ msgstr "Gráficos"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "De momento, no hay soporte para gráficos con descriptivos ponderados."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3936,11 +3945,11 @@ msgstr "Comparaciones Post Hoc - {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Contraste Post-Hoc"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Prueba Post Hoc ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
