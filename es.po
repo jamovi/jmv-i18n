@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-25 18:02+0000\n"
+"PO-Revision-Date: 2025-08-25 19:02+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -2347,7 +2347,7 @@ msgstr "Hₐ es correlación negativa"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr "Hₐ es correlación positiva"
+msgstr "Hₐ es una correlación positiva"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
@@ -4897,7 +4897,7 @@ msgstr "Se encontró un ajuste singular; una o más variables predictoras son un
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "Error de singularidad. No hay disponibles correcciones de esfericidad"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5021,11 +5021,11 @@ msgstr "Residuos Estandarizados"
 
 #: R/conttables.b.R
 msgid "Standardized residuals"
-msgstr ""
+msgstr "Residuos tipificados"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Residuos tipificados (ajuste de Pearson)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5551,6 +5551,10 @@ msgstr "los términos de medidas repetidas del modelo."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"El nivel (categoria) de referencia no se ha encontrado para la(s) "
+"siguiente(s) variable(s): {vars}. Se pasa por defecto a considerar el primer "
+"nivel disponible. Para usar un nivel de referencia específico, asegurar que "
+"el nivel de referencia definido está disponible en los datos."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5730,7 +5734,7 @@ msgstr "Cuantiles Teóricos"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "No hay distancias de Mahalanobis con un umbral por debajo de p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5858,7 +5862,7 @@ msgstr "Pruebas Univariadas"
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "Residuos no-tipificados"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
