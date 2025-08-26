@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-26 17:02+0000\n"
+"PO-Revision-Date: 2025-08-26 18:02+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ca/>\n"
@@ -55,7 +55,7 @@ msgstr "{} - rho de Spearman"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "IC {ciWidth}% Inferior"
+msgstr "{ciWidth}% IC inferior"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -63,7 +63,7 @@ msgstr "IC {ciWidth}% de la mitjana {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "IC {ciWidth}% Superior"
+msgstr "{ciWidth}% IC superior"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -120,7 +120,7 @@ msgstr "{varType} del model de regressió lineal{modelNo}"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, una cua"
+msgstr "* p < 0,05 ; ** p < 0,01 ; *** p < 0,001, una cua"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -239,7 +239,7 @@ msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
-msgstr "1 - especificitat"
+msgstr "1 - Especificitat"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
@@ -262,7 +262,7 @@ msgstr "una gràfica de la matriu de correlacions"
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr "una taula de la matriu de correlacions"
+msgstr "una taula matriu de correlació"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
@@ -1405,7 +1405,7 @@ msgstr "Freqüència"
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr "Freqüències"
+msgstr "Recompte"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -1413,7 +1413,7 @@ msgstr "Freqüències"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "Freqüències (opcional)"
+msgstr "Recompte (opcional)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -1867,7 +1867,7 @@ msgstr "error %"
 #: anova/options/emmPlotError.title
 #: anovaRM/options/emmPlotError.title
 msgid "Error bars"
-msgstr "Barres d'error"
+msgstr "Barres d'Error"
 
 #: ancova/results/contrasts.template.columns.title
 #: anovaRM/results/contrasts.template.columns.title
@@ -2839,7 +2839,7 @@ msgstr "W de Mauchly"
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Max"
-msgstr "Màx"
+msgstr "Màx."
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
@@ -3001,7 +3001,7 @@ msgstr "Mètode"
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
 msgid "Min"
-msgstr "Mín"
+msgstr "Mín."
 
 #: R/descriptives.b.R
 #: descriptives/options/min.title
@@ -4971,7 +4971,7 @@ msgstr "Càrregues SC"
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr "Apilats"
+msgstr "Apilat"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -4987,7 +4987,7 @@ msgstr "Estimador estàndard"
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
 msgid "Standard deviation"
-msgstr "Desviació estàndard"
+msgstr "Desviació típica"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
@@ -4998,7 +4998,7 @@ msgstr "Error estàndard"
 #: anovaRM/options/emmPlotError/se.title
 #: descriptives/options/se.title
 msgid "Standard error"
-msgstr "Error estàndard"
+msgstr "Error típic"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
@@ -6090,7 +6090,7 @@ msgstr "Efectes Entre Subjectes"
 
 #: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
-msgstr "eix X"
+msgstr "Eix X"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
@@ -6098,7 +6098,7 @@ msgstr "eix X"
 
 #: contTables/ui[1][3][0][1][0].label
 msgid "Y-Axis"
-msgstr "eix Y"
+msgstr "Eix Y"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
