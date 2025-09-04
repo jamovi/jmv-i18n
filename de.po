@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-02 12:02+0000\n"
+"PO-Revision-Date: 2025-09-04 08:02+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "de/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -789,7 +789,6 @@ msgstr "Balkendiagramme"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][3][0][0][1].label
-#, fuzzy
 msgid "Bar Type"
 msgstr "Balkentyp"
 
@@ -1664,15 +1663,15 @@ msgstr "Abweichung"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Abweichungsresiduen"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Abweichungsresiduen (Poisson GLM)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Abweichungsresiduen sind angepasste Residuen aus einem Poisson-GLM."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -2528,6 +2527,14 @@ msgstr "IQR"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"Es scheint, dass Ihr Modell ein „Singularitäts“-Problem hat. Dies bedeutet "
+"in der Regel, dass das Modell Schwierigkeiten hat, zwischen bestimmten "
+"Effekten zu unterscheiden, weil einige Variablen zu eng miteinander "
+"verbunden sind oder nicht genügend Daten vorhanden sind, um alle Effekte "
+"zuverlässig zu schätzen. Um dieses Problem zu lösen, sollten Sie das Modell "
+"vereinfachen, indem Sie einige der Effekte entfernen, oder überprüfen, ob "
+"Ihre Daten möglicherweise redundante oder stark korrelierte Variablen "
+"enthalten."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2741,7 +2748,7 @@ msgstr "untere Grenze"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Mahalanobis ChiSq"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
@@ -3105,7 +3112,7 @@ msgstr "Modellanpassung"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Problem mit dem Modell-Fit!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3314,7 +3321,7 @@ msgstr "Nicht alle Koeffizienten konnten geschätzt werden (wahrscheinlich weil 
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "Noch nicht alle Statistiken unterstützen gewichtete Daten."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3756,7 +3763,7 @@ msgstr "partielles η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "Teilnehmer (Zeilen) unterhalb des p-Schwellenwerts"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3925,7 +3932,7 @@ msgstr "Diagramme"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "Plots unterstützen noch nicht Deskriptivstatistik für gewichtete Daten."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -4893,6 +4900,7 @@ msgstr "Singularität aufgetreten: Eine oder mehrere Prädiktorvariablen sind ei
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
 msgstr ""
+"Fehler mit der Singularität. Sphärizitätskorrekturen sind nicht verfügbar"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5545,6 +5553,10 @@ msgstr "die Modellterme für die Messwiederholungen."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"Das angegebene Referenzniveau wurde für die folgende(n) Variable(n) nicht "
+"gefunden: {vars}. Standardmäßig wird das erste verfügbare Niveau verwendet. "
+"Um ein benutzerdefiniertes Referenzniveau zu verwenden, stellen Sie sicher, "
+"dass das definierte Referenzniveau in den Daten verfügbar ist."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
