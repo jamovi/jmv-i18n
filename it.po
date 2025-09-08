@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-08 13:02+0000\n"
+"PO-Revision-Date: 2025-09-08 14:01+0000\n"
 "Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "it/>\n"
@@ -3762,7 +3762,7 @@ msgstr "η² parziale"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "Partecipanti (righe) sotto la soglia p"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3786,7 +3786,7 @@ msgstr "La correlazione di Pearson non può essere calcolata per valori non nume
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "Residui di Pearson"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3931,7 +3931,7 @@ msgstr "Grafici"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "I grafici non sono ancora supportati per i descrittivi ponderati."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3946,11 +3946,11 @@ msgstr "Confronti Post Hoc - {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Test Post Hoc"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Test Post Hoc ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4898,7 +4898,7 @@ msgstr "Incontrato un adattamento singolare; una o più variabili predittive son
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "Errore di singolarità. Le correzioni di sfericità non sono disponibili"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5022,11 +5022,11 @@ msgstr "Residui Standardizzati"
 
 #: R/conttables.b.R
 msgid "Standardized residuals"
-msgstr ""
+msgstr "Residui Standardizzati"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Residui standardizzati (Pearson aggiustato)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5551,6 +5551,10 @@ msgstr "i termini delle misure ripetute del modello."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"Il livello di riferimento specificato non è stato trovato per le seguenti "
+"variabili: {vars}. Viene utilizzato il primo livello disponibile. Per "
+"utilizzare un livello di riferimento personalizzato, assicurarsi che il "
+"livello di riferimento definito sia disponibile nei dati."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5738,7 +5742,7 @@ msgstr "Quantili teorici"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "Non c'erano distanze di Mahalanobis con una soglia inferiore a p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5866,7 +5870,7 @@ msgstr "Test Univariati"
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "Residui non standardizzati"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
