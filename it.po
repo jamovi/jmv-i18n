@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-08 12:02+0000\n"
+"PO-Revision-Date: 2025-09-08 13:02+0000\n"
 "Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "it/>\n"
@@ -90,7 +90,6 @@ msgid "{item1} and {item2}"
 msgstr "{item1} e {item2}"
 
 #: R/utils.R
-#, fuzzy
 msgid "{list}, {nextItem}"
 msgstr "{list}, {nextItem}"
 
@@ -448,7 +447,7 @@ msgstr "una tabella con i test di normalità"
 
 #: contTables/results/postHoc.description
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "una tabella dei residui post-hoc"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1407,7 +1406,7 @@ msgstr "Frequenza"
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr "Frequenze"
+msgstr "Conteggi"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -1664,15 +1663,15 @@ msgstr "Devianza"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Residui della devianza"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Residui della devianza (Poisson GLM)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "I residui della devianza sono residui aggiustati di un GLM di Poisson."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1754,7 +1753,7 @@ msgstr "Distribuzione"
 
 #: R/descriptives.b.R
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Non supporta ancora i dati ponderati."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1787,7 +1786,7 @@ msgstr "DSCF confronti a coppie"
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Confronto a coppie (Dunn's )"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2528,6 +2527,13 @@ msgstr "Scarto Interquartile (IQR)"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"Sembra che il vostro modello abbia un problema di \"singolarità\". In genere "
+"ciò significa che il modello ha difficoltà a distinguere tra alcuni effetti "
+"perché alcune variabili sono troppo strettamente correlate o non ci sono "
+"abbastanza dati per stimare tutti gli effetti in modo affidabile. Per "
+"risolvere questo problema, si può pensare di semplificare il modello "
+"eliminando alcuni effetti o di verificare se i dati hanno variabili "
+"ridondanti o altamente correlate."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2741,33 +2747,35 @@ msgstr "limite inferiore"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Mahalanobis ChiSq"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Distanza Mahalanobis"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Distanza Mahalanobis"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Distanza Mahalanobis (Chi sq.)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Distanza Mahalanobis (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
 msgstr ""
+"La distanza Mahalanobis può essere calcolata solo per modelli con due o più "
+"covariate"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "Mahalanobis p"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3103,7 +3111,7 @@ msgstr "Adattamento del Modello"
 
 #: R/utilsanova.R
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Individuato un problema di adattamento del modello!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3150,7 +3158,7 @@ msgstr "Soglie del modello"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "Modelli stimati utilizzando una dimensione del campione di N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3312,7 +3320,7 @@ msgstr "Non tutti i coefficienti potrebbero essere stimati (probabilmente a caus
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "Non tutte le statistiche supportano ancora i dati ponderati."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3614,7 +3622,7 @@ msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3624,11 +3632,11 @@ msgstr "valore p"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -4417,7 +4425,7 @@ msgstr "R²<sub>T</sub>"
 #: linReg/results/models.template/dataSummary/mahal.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
 msgid "Range"
-msgstr "Intervallo"
+msgstr "Ampiezza"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
@@ -6078,7 +6086,7 @@ msgstr "Effetti Entro i Sggetti"
 
 #: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
-msgstr "Asse X"
+msgstr "X-Axi"
 
 #: contTables/options/xaxis.title
 msgid "X-axis"
@@ -6086,7 +6094,7 @@ msgstr "Asse X"
 
 #: contTables/ui[1][3][0][1][0].label
 msgid "Y-Axis"
-msgstr "Asse Y"
+msgstr "Asse-Y"
 
 #: contTables/options/yaxis.title
 msgid "Y-axis"
