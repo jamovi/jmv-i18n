@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-12 19:01+0000\n"
+"PO-Revision-Date: 2025-09-12 20:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -626,21 +626,21 @@ msgstr "niz rezultata specifičnih za model"
 #: anovaNP/results/comparisons.description
 #: anovaNP/results/comparisonsDunn.description
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "niz tablica usporedbi parova"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "niz post-hoc tablica"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "niz Q-Q dijagrama"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "niz tablica opisnih dijagrama"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -662,11 +662,11 @@ msgstr ""
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "slika opisnih dijagrama"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "Neinspirativan ANOVA skup podataka"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
@@ -678,15 +678,15 @@ msgstr ""
 #: ancova/ui.title
 #: ancova/results.title
 msgid "ANCOVA"
-msgstr ""
+msgstr "ANCOVA"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
-msgstr "Anderson & Rubin"
+msgstr "Anderson i Rubin"
 
 #: package/datasets/Anderson's Iris Data.name
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "Andersonovi iris podaci"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -713,15 +713,17 @@ msgstr "ANOVA"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr ""
+msgstr "ANOVA test"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
 msgstr ""
+"Budući da ne postoje specificirani faktori između subjekata, ova je "
+"pretpostavka uvijek ispunjena."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
-msgstr ""
+msgstr "Pretpostavi jednako (Fisherovo)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -744,54 +746,54 @@ msgstr ""
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr ""
+msgstr "Provjere pretpostavki"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
 msgid "Assumptions"
-msgstr ""
+msgstr "Pretpostavke"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
-msgstr ""
+msgstr "Barem jedna varijabla mora imati dvije razine"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "AUC"
-msgstr ""
+msgstr "Površina ispod krivulje (AUC)"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
-msgstr ""
+msgstr "Automatska korelacija"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr ""
+msgstr "Test automatske korelacije"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
-msgstr ""
+msgstr "Dostupno samo za tablice 2 × 2"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr ""
+msgstr "b parametar"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
-msgstr ""
+msgstr "Stupčani dijagram"
 
 #: descriptives/options/bar.title
 msgid "Bar plot"
-msgstr "Stupčani grafikon"
+msgstr "Stupčani dijagram"
 
 #: descriptives/ui[3][0][2].label
 msgid "Bar Plots"
-msgstr "Stupčani grafikoni"
+msgstr "Stupčani dijagrami"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][3][0][0][1].label
 msgid "Bar Type"
-msgstr "Vrsta stupca"
+msgstr "Vrsta stupaca"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
@@ -3603,7 +3605,7 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-vrijednost"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
@@ -3883,7 +3885,7 @@ msgstr "Vrsta grafikona"
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr "Grafikoni"
+msgstr "Dijagrami"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
@@ -4891,7 +4893,7 @@ msgstr ""
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr ""
+msgstr "Specifičnost"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
@@ -5801,7 +5803,7 @@ msgstr ""
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
 msgid "Variable"
-msgstr ""
+msgstr "Varijabla"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
