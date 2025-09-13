@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-13 13:01+0000\n"
+"PO-Revision-Date: 2025-09-13 14:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -60,7 +60,7 @@ msgstr "{ciWidth}% CI niži"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}% CI srednji {title}"
+msgstr "{ciWidth}% srednja vrijednost intervala pouzdanosti {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
@@ -210,7 +210,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "±%"
-msgstr ""
+msgstr "±%"
 
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
@@ -232,6 +232,8 @@ msgstr ""
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
 msgstr ""
+"⁻ srednja vrijednost - 1SD, <sup>μ</sup> srednja vrijednost, ⁺ srednja "
+"vrijednost + 1SD"
 
 #: pca/results/loadings.columns.title
 #: pca/results/factorStats/factorCor.columns.title
@@ -318,7 +320,7 @@ msgstr ""
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "tablica koja sadrži procijenjene marginalne srednje vrijednosti"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
@@ -650,7 +652,7 @@ msgstr "niz tablica opisnih dijagrama"
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "niz dijagrama procijenjenih marginalnih srednjih vrijednosti + tablice"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
@@ -1071,7 +1073,8 @@ msgstr "Usporedba"
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr "Usporedbe su zasnovane na procjenama marginalnih aritmetičkih sredina"
+msgstr ""
+"Usporedbe se temelje na procijenjenim marginalnim srednjim vrijednostima"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
@@ -1899,7 +1902,7 @@ msgstr ""
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "Procijenjene mraginalne srednje vrijednost"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -1908,7 +1911,7 @@ msgstr ""
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "Estimated Marginal Means - {term}"
-msgstr ""
+msgstr "Procijenjene mraginalne srednje vrijednost – {term}"
 
 #: cfa/ui[3].label
 msgid "Estimates"
@@ -2250,7 +2253,7 @@ msgstr ""
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
-msgstr ""
+msgstr "Ukupna srednja vrijednost (jednostavno kodiranje)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -2777,7 +2780,7 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Marginal Mean"
-msgstr ""
+msgstr "Marginalna srednja vrijednost"
 
 #: ancova/options/emMeans.title
 #: anova/options/emMeans.title
@@ -2787,7 +2790,7 @@ msgstr ""
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
 msgid "Marginal Means"
-msgstr ""
+msgstr "Marginalne srednje vrijednosti"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -2797,7 +2800,7 @@ msgstr ""
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
 msgid "Marginal means plots"
-msgstr ""
+msgstr "Dijagrami marginalnih srednjih vrijednosti"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -2807,7 +2810,7 @@ msgstr ""
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
 msgid "Marginal means tables"
-msgstr ""
+msgstr "Tablice marginalnih srednjih vrijednosti"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Mauchly's W"
@@ -2886,12 +2889,12 @@ msgstr "Srednja vrijednost"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "Srednja vrijednost ({ciWidth}% interval pouzdanosti)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Mean Difference"
-msgstr ""
+msgstr "Razlika srednje vrijednosti"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -2905,16 +2908,16 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
 msgid "Mean difference"
-msgstr ""
+msgstr "Razlika srednje vrijednosti"
 
 #: descriptives/ui[2][2][1].label
 msgid "Mean Dispersion"
-msgstr ""
+msgstr "Disprezija srednje vrijednosti"
 
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
 msgid "Mean score"
-msgstr ""
+msgstr "Rezultat srednje vrijednosti"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -2922,35 +2925,35 @@ msgstr ""
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
 msgid "Mean Square"
-msgstr ""
+msgstr "Kvadratno odstupanje srednje vrijednosti"
 
 #: anovaRMNP/options/plotType/means.title
 msgid "Means"
-msgstr ""
+msgstr "Srednje vrijednost"
 
 #: R/anovarmnp.b.R
 msgid "Measure"
-msgstr ""
+msgstr "Mjerenje"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
-msgstr ""
+msgstr "Mjerenje 1 − Mjerenje 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "Mjerenje 1 < Mjerenje 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_different.label
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "Mjerenje 1 ≠ Mjerenje 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "Mjerenje 1 > Mjerenje 2"
 
 #: anovaRMNP/options/measures.title
 msgid "Measures"
-msgstr ""
+msgstr "Mjerenja"
 
 #: R/descriptives.b.R
 #: R/ttestis.b.R
@@ -2968,7 +2971,7 @@ msgstr "Medijan"
 
 #: anovaRMNP/options/plotType/medians.title
 msgid "Medians"
-msgstr ""
+msgstr "Medijani"
 
 #: efa/ui[1][0][0].label
 #: pca/ui[1][0][0].label
@@ -3002,7 +3005,7 @@ msgstr ""
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr ""
+msgstr "Nedostaje"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
@@ -3019,12 +3022,12 @@ msgstr "Nedostajuće vrijednosti"
 
 #: anovaOneW/options/miss.title
 msgid "Missing values exclusion method"
-msgstr ""
+msgstr "Metoda isključivanja nedostajućih vrijednosti"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
 msgid "Missing Values Method"
-msgstr ""
+msgstr "Metoda za nedostajuće vrijednosti"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
@@ -3868,6 +3871,7 @@ msgstr ""
 #: anovaRM/options/emmPlotData.description.ui
 msgid "plot the data along with the marginal means."
 msgstr ""
+"prikaži podatke zajedno s procijenjenim marginalnim srednjim vrijednostima."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
@@ -4083,6 +4087,8 @@ msgstr ""
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
+"navedi interval pouzdanosti za razliku između procijenjene srednje "
+"vrijednosti i testne vrijednosti."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -4120,7 +4126,7 @@ msgstr ""
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr ""
+msgstr "navedi tablicu procijenjenih mrginalnih srednjih vrijednosti."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
@@ -4147,7 +4153,7 @@ msgstr ""
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr ""
+msgstr "navedi intervale pouzdanosti za razlike srednje vrijednosti."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
@@ -4203,14 +4209,18 @@ msgstr ""
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
 msgstr ""
+"navedi razlike srednje vrijednosti i standardne greške razlika srednje "
+"vrijednosti."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr ""
+msgstr "navedi razlike srednje vrijednosti s post-hoc testovima."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
 msgstr ""
+"navedi razlike srednje vrijednosti i standardne greške razlika srednje "
+"vrijednost između procijenjene srednje vrijednosti i testne vrijednosti."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4226,7 +4236,7 @@ msgstr ""
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
 msgid "provide plots of the estimated marginal means."
-msgstr ""
+msgstr "priloži dijagrame procijenjenih marginalnih srednjih vrijednosti."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
@@ -4503,7 +4513,7 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr ""
+msgstr "Predstavlja ukupnu srednju vrijednost"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
@@ -4993,11 +5003,11 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr ""
+msgstr "Statistika"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr ""
+msgstr "statistika"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -5006,7 +5016,7 @@ msgstr ""
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
 msgid "Statistics"
-msgstr ""
+msgstr "Statistike"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
