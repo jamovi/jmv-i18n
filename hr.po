@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-19 14:01+0000\n"
+"PO-Revision-Date: 2025-09-19 15:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -56,7 +56,7 @@ msgstr "{} - Spearmanov ro"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% CI niži"
+msgstr "{ciWidth}% donja granica intervala pouzdanosti"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -64,7 +64,7 @@ msgstr "{ciWidth}% srednja vrijednost intervala pouzdanosti {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% CI gornji"
+msgstr "{ciWidth}% gornja granica intervala pouzdanosti"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -269,7 +269,7 @@ msgstr "tablica korelacijske matrice"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr "deskriptivni dijagram"
+msgstr "dijagram deskriptivnih pokazatelja"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
@@ -325,7 +325,7 @@ msgstr "tablica koja sadrži procijenjene marginalne srednje vrijednosti"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "tablica koja sadrži procijenjene faktora kovarijnci"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
-msgstr ""
+msgstr "tablica koja sadrži mjere prilagodbe modela"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
@@ -371,7 +371,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "tablica s deskriptivnim pokazateljima"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
@@ -380,7 +380,7 @@ msgstr ""
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "tablica s deskriptivnim pokazateljima za pojedinačne grupe"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
@@ -480,7 +480,7 @@ msgstr ""
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "tablica statistike deskriptivnih pokazatelja"
 
 #: anovaRMNP/results/table.description
 msgid "a table of the Friedman test results"
@@ -607,7 +607,7 @@ msgstr "niz tablica kontrasta"
 
 #: descriptives/results/plots.description
 msgid "an array of descriptive plots"
-msgstr "niz opisnih dijagrama"
+msgstr "niz dijagrama deskriptivnih pokazatelja"
 
 #: descriptives/results/extremeValues.description
 msgid "an array of extreme values tables"
@@ -647,7 +647,7 @@ msgstr "niz Q-Q dijagrama"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
-msgstr "niz tablica opisnih dijagrama"
+msgstr "niz dijagrama deskriptivnih pokazatelja"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -669,7 +669,7 @@ msgstr ""
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
-msgstr "slika opisnih dijagrama"
+msgstr "slika dijagrama deskriptivnih pokazatelja"
 
 #: package/datasets/Tooth Growth.description
 msgid "An uninspiring ANOVA data set"
@@ -1586,11 +1586,11 @@ msgstr ""
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
-msgstr ""
+msgstr "Dijagram deskriptivnih pokazatelja"
 
 #: anovaRMNP/options/plots.title
 msgid "Descriptive plot"
-msgstr ""
+msgstr "Dijagram deskriptivnih pokazatelja"
 
 #: package/analyses/descriptives.title
 #: package/analyses/descriptives.menuTitle
@@ -1608,7 +1608,7 @@ msgstr ""
 #: ttestPS/ui[1][1][0]/desc.label
 #: ttestPS/results/desc.title
 msgid "Descriptives"
-msgstr ""
+msgstr "Deskriptivni pokazatelji"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
@@ -1619,30 +1619,30 @@ msgstr ""
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
 msgid "descriptives plot"
-msgstr ""
+msgstr "dijagram deskriptivnih pokazatelja"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
 #: ttestPS/options/plots.title
 msgid "Descriptives Plots"
-msgstr ""
+msgstr "Dijagrami deskriptivnih pokazatelja"
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
 msgid "Descriptives plots"
-msgstr ""
+msgstr "Dijagrami deskriptivnih pokazatelja"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
 msgid "Descriptives Table"
-msgstr ""
+msgstr "Tablica deskriptivnih pokazatelja"
 
 #: anovaOneW/options/desc.title
 msgid "Descriptives table"
-msgstr ""
+msgstr "Tablica deskriptivnih pokazatelja"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -2313,7 +2313,7 @@ msgstr "Grupa 2"
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
 msgid "Group Descriptives"
-msgstr "Deskriptive po grupama"
+msgstr "Tablica deskriptivni pokazatelji po grupama"
 
 #: anovaRM/results/groupSummary.title
 msgid "Group Summary"
@@ -2913,7 +2913,7 @@ msgstr "Srednja vrijednost"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr "Srednja vrijednost ({ciWidth}% interval pouzdanosti)"
+msgstr "Srednja vrijednost ({ciWidth}% intervala pouzdanosti)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3924,7 +3924,7 @@ msgstr "Dijagrami"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "Dijagrami još nisu podržani za ponderirane deskriptivne pokazatelje."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -4151,7 +4151,7 @@ msgstr ""
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
-msgstr ""
+msgstr "navedi tablicu deskriptivnih pokazatelja za svaku varijablu."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
@@ -5302,6 +5302,8 @@ msgstr ""
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
 msgstr ""
+"Interval pouzdanosti srednje vrijednosti pretpostavlja da srednje "
+"vrijednosti uzorka slijede t-distribuciju s N - 1 stupnjeva slobode"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
