@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-19 12:01+0000\n"
+"PO-Revision-Date: 2025-09-19 13:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -253,7 +253,7 @@ msgstr "2 ishoda"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
-msgstr ""
+msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
@@ -341,10 +341,12 @@ msgstr ""
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
 msgstr ""
+"tablica koja sadrži indekse modifikacije za kovarijance ostatka koje nisu "
+"uključene u model"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "tablica koja sadrži procjene kovarijanci ostatka"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
@@ -1376,11 +1378,11 @@ msgstr "Tablica korelacija"
 
 #: corrPart/ui[1][2].label
 msgid "Correlation Type"
-msgstr ""
+msgstr "Vrsta korelacije"
 
 #: corrPart/options/type.title
 msgid "Correlation type"
-msgstr ""
+msgstr "Vrsta korelacije"
 
 #: R/conttablespaired.b.R
 #: propTest2/results/table.columns.title
@@ -2748,25 +2750,25 @@ msgstr "donja granica"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Mahalabonisov hi-kvadrat"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Mahalanobisova udaljenost"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Mahalanobisova udaljenost"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Mahalanobisova udaljenost (hi-kvadrat)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Mahalanobisova udaljenost (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
@@ -2774,7 +2776,7 @@ msgstr ""
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "Mahalanobisov p"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3873,12 +3875,12 @@ msgstr ""
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "Koeficijent Phi"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "Pillaiov trag"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -5584,16 +5586,16 @@ msgstr ""
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "vrsta korelacije za izračunavanje"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr ""
+msgstr "vrsta sume kvadrata koja će se koristiti: Vrsta 1, 2 ili 3."
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr ""
+msgstr "vrsta sume kvadrata koja će se koristiti: Vrsta 2 ili 3."
 
 #: ancova/results/model.description
 #: anova/results/model.description
@@ -5730,19 +5732,19 @@ msgstr "Ukupno"
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
 msgid "Tukey"
-msgstr ""
+msgstr "Tukey"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "Tukey (jednake varijance)"
 
 #: R/anovaonew.b.R
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "Tukey post-hoc test – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "Vrsta {ssType} suma kvadrata"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
@@ -5763,11 +5765,11 @@ msgstr "Vrsta 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "Vrsta 3 suma kvadrata"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr ""
+msgstr "Nije moguće podijeliti s kontinuiranom varijablom"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
@@ -5807,7 +5809,7 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Upper"
-msgstr "Gornji"
+msgstr "Gornja"
 
 #: R/descriptives.b.R
 msgid "upper bound"
