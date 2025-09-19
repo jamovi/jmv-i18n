@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-19 10:01+0000\n"
+"PO-Revision-Date: 2025-09-19 11:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -163,11 +163,11 @@ msgstr "% točno"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr "% od ukupnog"
+msgstr "% od ukupnog broja"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr "% od ukupnog"
+msgstr "% od ukupnog broja"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
@@ -186,25 +186,25 @@ msgstr "% unutar reda"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA – ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA – ${dep}`"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`Koeficijenti modela – ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`Koeficijenti modela – ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Proporcije – ${var}`"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -215,17 +215,17 @@ msgstr "±%"
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
 msgid "< Test value"
-msgstr ""
+msgstr "< vrijednosti testa"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ kao vrijednost testa"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
 msgid "> Test value"
-msgstr ""
+msgstr "> vrijednosti testa"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -238,7 +238,7 @@ msgstr ""
 #: pca/results/loadings.columns.title
 #: pca/results/factorStats/factorCor.columns.title
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
@@ -249,7 +249,7 @@ msgstr "1 – specifičnost"
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr ""
+msgstr "2 ishoda"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
@@ -2526,6 +2526,11 @@ msgstr "IQR"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"Čini se da model ima problem sa \\\"singularnošću\\\". To obično znači da "
+"model ima problem razlikovati određene učinke jer su neke varijable previše "
+"usko povezane ili nema dovoljno podataka za pouzdanu procjenu svih učinaka. "
+"Pokušaj pojednostaviti model uklanjanjem nekih učinaka ili provjeri imaju li "
+"tvoji podaci redundantne ili visoko korelirane varijable."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2552,6 +2557,8 @@ msgstr "Stavka '{item}' mora biti numerička"
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
 msgstr ""
+"stavka {item} negativno korelira s ukupnom skalom i vjerojatno bi se trebala "
+"obrnuti"
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
@@ -2564,7 +2571,7 @@ msgstr "Statistika stavki"
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
 msgid "Item-rest correlation"
-msgstr ""
+msgstr "Korelacija stavke s ukupnim rezultatom bez te stavke"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -2573,6 +2580,8 @@ msgstr "Stavke"
 #: R/reliability.b.R
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
 msgstr ""
+"stavke {items} negativno koreliraju s ukupnom skalom i vjerojatno bi se "
+"trebale obrnuti"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
@@ -3177,7 +3186,7 @@ msgstr "MSA"
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
 msgid "Multinomial"
-msgstr ""
+msgstr "Multinomijalno"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -3186,7 +3195,7 @@ msgstr ""
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
 msgid "Multinomial Logistic Regression"
-msgstr ""
+msgstr "Multinomijalna logistička regresija"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
@@ -3216,14 +3225,14 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
 msgid "N Outcomes"
-msgstr ""
+msgstr "N ishoda"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
@@ -4716,15 +4725,15 @@ msgstr "Analiza skale"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
-msgstr "Faktor skale=prvi indikator skale"
+msgstr "Faktor skale = prvi indikator skale"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr "Pokazatelj pouzdanosti skale"
+msgstr "Statistika pouzdanosti skale"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
-msgstr "Parametar skale"
+msgstr "Statistika skale"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
