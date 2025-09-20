@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 14:02+0000\n"
+"PO-Revision-Date: 2025-09-20 15:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -661,7 +661,7 @@ msgstr "niz dijagrama procijenjenih marginalnih srednjih vrijednosti + tablice"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "niz posteriornih dijagrama"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
@@ -863,6 +863,7 @@ msgid "Between Subjects Components"
 msgstr "Između komponenata subjekata"
 
 #: anovaRM/results/bsTable.title
+#, fuzzy
 msgid "Between Subjects Effects"
 msgstr "Između učinaka subjekata"
 
@@ -1735,11 +1736,11 @@ msgstr "Razlika u dviju proporcija"
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
-msgstr ""
+msgstr "Razlika u proporcijama"
 
 #: descriptives/ui[2][2][0].label
 msgid "Dispersion"
-msgstr ""
+msgstr "Disperzija"
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
@@ -1809,7 +1810,7 @@ msgstr "Dwass-Steel-Critchlow-Fligner usporedbe po parovima"
 #: ttestPS/options/effectSize.title
 #: ttestPS/results/ttest.columns.title
 msgid "Effect Size"
-msgstr ""
+msgstr "Veličina učinka"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
@@ -1818,21 +1819,21 @@ msgstr ""
 #: ttestOneS/ui[1][1][0]/effectSize.label
 #: ttestPS/ui[1][1][0]/effectSize.label
 msgid "Effect size"
-msgstr ""
+msgstr "Veličina učinka"
 
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
 msgid "Eigenvalue"
-msgstr ""
+msgstr "Svojstvena vrijednost"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr ""
+msgstr "Svojstvene vrijednosti"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 msgid "Eigenvalues greater than"
-msgstr ""
+msgstr "Svojstvene vrijednosti veće od"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
@@ -3251,7 +3252,7 @@ msgstr "Nagelkerkeov R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr "Nijedna komponenta nema vlastitu vrijednost veću od {value}"
+msgstr "Nijedna komponenta nema svojstvenu vrijednost veću od {value}"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
@@ -3295,7 +3296,7 @@ msgstr "ništa"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr ""
+msgstr "Stavke normalne skale"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
@@ -3337,7 +3338,7 @@ msgstr ""
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "Nema dovoljno stupnjeva slobode za procjenu svih učinaka modela"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -4115,7 +4116,7 @@ msgstr "Test proporcija (N ishoda)"
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
+msgstr "pruži Cohenovu d-mjeru veličine učinka za post-hoc testove."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
@@ -4185,7 +4186,7 @@ msgstr ""
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr ""
+msgstr "pruži intervale pouzdanosti za veličine učinaka"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
@@ -4195,7 +4196,7 @@ msgstr "navedi intervale pouzdanosti za razlike srednje vrijednosti."
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr ""
+msgstr "pruži intervale pouzdanosti za veličine post-hoc učinaka."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
@@ -4225,11 +4226,11 @@ msgstr "izradi dijagrame deskriptivnih pokazatelja."
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr ""
+msgstr "pruži veličine učinka (Cohenov D)."
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr ""
+msgstr "pruži veličine učinka (Cohenov d)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
@@ -4647,13 +4648,13 @@ msgstr "Rezultati"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr ""
+msgstr "stavka obrnute skale"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr ""
+msgstr "Stavka obrnute skale"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
@@ -4695,7 +4696,7 @@ msgstr "Rotacija"
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
-msgstr "Red"
+msgstr "Redak"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
@@ -4771,7 +4772,7 @@ msgstr "Komponenta rezultata"
 
 #: R/pca.b.R
 msgid "Score Factor"
-msgstr "Rezultat faktor"
+msgstr "Faktor razultata"
 
 #: R/pca.b.R
 msgid "Score for component"
@@ -6020,6 +6021,7 @@ msgid "within rows"
 msgstr "unutar redaka"
 
 #: anovaRM/results/rmTable.title
+#, fuzzy
 msgid "Within Subjects Effects"
 msgstr "Efekti unutar sudionika"
 
