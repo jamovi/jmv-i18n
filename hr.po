@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 13:01+0000\n"
+"PO-Revision-Date: 2025-09-20 14:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -633,7 +633,7 @@ msgstr "niz rezultata specifičnih za model"
 #: anovaNP/results/comparisons.description
 #: anovaNP/results/comparisonsDunn.description
 msgid "an array of pairwise comparison tables"
-msgstr "niz tablica usporedbi parova"
+msgstr "niz tablica usporedbi po parovima"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
@@ -1653,7 +1653,7 @@ msgstr "Tablica deskriptivnih pokazatelja"
 #: logRegOrd/options/dev.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "Deviance"
-msgstr ""
+msgstr "Devijacija"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
@@ -1671,7 +1671,7 @@ msgstr "Reziduali devijacije su prilagođeni reziduali iz Poissonovog GLM-a."
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
 msgid "Deviation"
-msgstr ""
+msgstr "Devijacija"
 
 #: R/ancova.b.R
 #: ancova/results/main.columns.title
@@ -1707,31 +1707,31 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
 #: anovaRM/options/contrasts.template/type/difference.title
 msgid "Difference"
-msgstr ""
+msgstr "Razlika"
 
 #: contTables/results/odds.columns.content
 msgid "Difference in 2 proportions"
-msgstr ""
+msgstr "Razlika u dviju proporcija"
 
 #: contTables/options/diffProp.title
 msgid "Difference in proportions"
@@ -1743,19 +1743,19 @@ msgstr ""
 
 #: descriptives/ui[2][3][0].label
 msgid "Distribution"
-msgstr ""
+msgstr "Distribucija"
 
 #: R/descriptives.b.R
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Još ne podržava ponderirane podatke."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr ""
+msgstr "Ne pretpostavljaj jednake varijance (Welch)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
-msgstr ""
+msgstr "povuci varijablu ovamo"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -1771,16 +1771,16 @@ msgstr ""
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 msgid "drag variables here"
-msgstr ""
+msgstr "povuci varijable ovamo"
 
 #: anovaNP/options/pairs.title
 msgid "DSCF pairwise comparisons"
-msgstr ""
+msgstr "DSCF usporedbe po parovima"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Dunnove usporedbe po parovima"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -1788,11 +1788,11 @@ msgstr ""
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr ""
+msgstr "DW statistika"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr ""
+msgstr "Dwass-Steel-Critchlow-Fligner usporedbe po parovima"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -4263,7 +4263,7 @@ msgstr ""
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr ""
+msgstr "navedi mjere veličine učinka; η², parcijalni η² ili ω²."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
@@ -5325,12 +5325,12 @@ msgstr ""
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "širina intervala pouzdanosti za veličine učinka."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "širina intervala pouzdanosti za veličine post-hoc učinka."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
