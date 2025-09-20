@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 22:02+0000\n"
+"PO-Revision-Date: 2025-09-20 23:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -818,12 +818,12 @@ msgstr "Barlettov test sferičnosti"
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
 msgid "Based on eigenvalue"
-msgstr "Zasnovano na svojstvenoj vrijednosti"
+msgstr "Na temelju svojstvene vrijednosti"
 
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr "Zasnovano na paralelnoj analizi"
+msgstr "Na temelju paralelne analize"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -1992,7 +1992,7 @@ msgstr "Istraživanje"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "Istraživačka analiza faktora"
 
 #: efa/options/extraction.title
 msgid "Extraction"
@@ -2000,15 +2000,15 @@ msgstr "Ekstrakcija"
 
 #: descriptives/options/extreme.title
 msgid "Extreme values"
-msgstr ""
+msgstr "Ekstremne vrijednosti"
 
 #: descriptives/results/extremeValues.title
 msgid "Extreme Values"
-msgstr ""
+msgstr "Ekstremne vrijednosti"
 
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Ekstremne vrijednosti od $key"
 
 #: ancova/results/main.columns.title
 #: anovaOneW/results/anova.columns.title
@@ -2021,15 +2021,15 @@ msgstr ""
 #: mancova/results/univar.columns.title
 #: ttestIS/results/assum/eqv.columns.title
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
-msgstr ""
+msgstr "F test"
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
-msgstr ""
+msgstr "F-statistika se nije mogla izračunati"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -2727,7 +2727,7 @@ msgstr ""
 #: logRegMulti/options.menuSubgroup
 #: logRegOrd/options.menuSubgroup
 msgid "Logistic Regression"
-msgstr ""
+msgstr "Logistička regresija"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -3399,7 +3399,7 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "octic"
-msgstr "8. eksponent"
+msgstr "eksponent 8"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
@@ -4387,11 +4387,11 @@ msgstr "Q-Q dijagrami"
 
 #: R/ancova.b.R
 msgid "quadratic"
-msgstr "2. eksponent"
+msgstr "eksponent 2"
 
 #: R/ancova.b.R
 msgid "quartic"
-msgstr "4. eksponent"
+msgstr "eksponent 4"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
@@ -4404,7 +4404,7 @@ msgstr "quartimax"
 
 #: R/ancova.b.R
 msgid "quintic"
-msgstr "5. eksponent"
+msgstr "eksponent 5"
 
 #: linReg/options/r.title
 #: linReg/results/modelFit.columns.title
@@ -4860,11 +4860,11 @@ msgstr "Osjetljivost"
 
 #: R/ancova.b.R
 msgid "septic"
-msgstr "sedmog stupnja"
+msgstr "eksponent 7"
 
 #: R/ancova.b.R
 msgid "sextic"
-msgstr "šestog stupnja"
+msgstr "eksponent 6"
 
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
@@ -5199,7 +5199,7 @@ msgstr "Rezultati testa (t i df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr "Statistika testa"
+msgstr "Statistike testa"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
@@ -5373,10 +5373,13 @@ msgstr "Vrijednost praga je postavljena na {}"
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
+"Skup podataka sadrži 0 redaka (nakon uklanjanja redaka s nedostajućim "
+"vrijednostima)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
+"Skup podataka sadrži 0 redaka (ili svi redci sadrže nedostajuće vrijednosti)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
