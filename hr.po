@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-19 21:01+0000\n"
+"PO-Revision-Date: 2025-09-20 10:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -344,20 +344,20 @@ msgstr ""
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
 msgstr ""
-"tablica koja sadrži indekse modifikacije za kovarijance ostatka koje nisu "
+"tablica koja sadrži indekse modifikacije za kovarijance reziduala koje nisu "
 "uključene u model"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
-msgstr "tablica koja sadrži procjene kovarijanci ostatka"
+msgstr "tablica koja sadrži procjene kovarijanci reziduala"
 
 #: cfa/results/resEst/resIntercept.description
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "tablica koja sadrži procjene presjeka reziduala"
 
 #: cfa/results/modelPerformance/corRes.description
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "tablica koja sadrži reziduale za promatranu matricu korelacija"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
@@ -455,7 +455,7 @@ msgstr ""
 
 #: contTables/results/postHoc.description
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "tablica post-hoc reziduala"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1657,15 +1657,15 @@ msgstr ""
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Reziduali devijacije"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Reziduali devijacije (Poisson GLM)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Reziduali devijacije su prilagođeni reziduali iz Poissonovog GLM-a."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -3011,20 +3011,20 @@ msgstr "Min."
 #: R/descriptives.b.R
 #: descriptives/options/min.title
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 #: R/pca.b.R
 msgid "Minimum residual"
-msgstr ""
+msgstr "Najmanji rezidual"
 
 #: efa/options/extraction/minres.title
 msgid "Minimum residuals"
-msgstr ""
+msgstr "Najmanji reziduali"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
 msgid "Minimum value"
-msgstr ""
+msgstr "Minimalna vrijednost"
 
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
@@ -3778,7 +3778,7 @@ msgstr "Pearsonova korelacija se ne može izračunati za nenumeričke vrijednost
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "Pearsonovi reziduali"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3846,6 +3846,8 @@ msgstr ""
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
+"izvedi Shapiro-Wilkov test normalnosti. Niska p-vrijednost upućuje na to da "
+"reziduali nisu normalno raspodijeljeni."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -4143,6 +4145,10 @@ msgstr ""
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"prikaži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
+"koji bi se očekivali da su podaci *savršeno* normalno raspodijeljeni. Velika "
+"odstupanja od dijagonalne linije upućuju na to da podaci nisu iz normalne "
+"distribucije."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4281,6 +4287,10 @@ msgstr ""
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
+"prikaži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
+"koji bi se očekivali da su podaci *savršeno* normalno raspodijeljeni. Velika "
+"odstupanja od dijagonalne linije upućuju na to da podaci nisu iz normalne "
+"distribucije."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
@@ -5584,8 +5594,8 @@ msgstr ""
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
 msgstr ""
-"uvjeti za određivanje procijenjene marginalne srednje vrijednosti. Ovdje "
-"možeš navesti više uvjeta."
+"pojmovi za koje se trebaju navesti procijenjene marginalne srednje "
+"vrijednosti. Ovdje možeš odrediti više pojmova."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
