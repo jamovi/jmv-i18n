@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 10:01+0000\n"
+"PO-Revision-Date: 2025-09-20 11:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -329,7 +329,7 @@ msgstr "tablica koja sadrži procijenjene faktora kovarijnci"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "tablica koja sadrži procjene presjeka faktora"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
@@ -361,11 +361,11 @@ msgstr "tablica koja sadrži reziduale za promatranu matricu korelacija"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "tablica koja sadrži test chi-kvadrat za točnu prilagodbu"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "tablica koja sadrži statistiku kolinearnosti"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
@@ -375,45 +375,45 @@ msgstr "tablica s deskriptivnim pokazateljima"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "tablica koja sadrži opterećenja faktora"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr "tablica s deskriptivnim pokazateljima za pojedinačne grupe"
+msgstr "tablica s deskriptivni pokazateljima grupa"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "tablica s testovima homogenosti varijanci"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "tablica s rezultatima testa normalnosti"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "tablica s testovima normalnosti"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "tablica s rezultatima Box-Tidwell testa"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "tablica s rezultatima t-test resultatima"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "tablica rezultata analize kovarijanca"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "tablica rezultata analize varijanca"
 
 #: contTables/results/odds.description
 msgid "a table of comparative measures"
@@ -2499,7 +2499,7 @@ msgstr "Korelacije između faktora"
 #: linReg/options/intercept.title
 #: linReg/ui[2][1].label
 msgid "Intercept"
-msgstr "Presretni"
+msgstr "Presjek"
 
 #: cfa/ui[3][1][0]/ci/ciWidth.label
 #: contTables/options/ciWidth.title
@@ -4297,6 +4297,10 @@ msgstr ""
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
+"prikaži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
+"koji bi se očekivali da su podaci *savršeno* normalno raspodijeljeni. Velika "
+"odstupanja od dijagonalne linije upućuju na to da reziduali nisu normalno "
+"raspodijeljeni."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4362,7 +4366,7 @@ msgstr "Q-Q dijagram multivarijatne normalnosti"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "Q-Q dijagram reziduala"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
@@ -4562,42 +4566,44 @@ msgstr ""
 
 #: R/anovarm.b.R
 msgid "Residual"
-msgstr ""
+msgstr "Rezidual"
 
 #: cfa/options/resCov.title
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
 msgid "Residual Covariances"
-msgstr ""
+msgstr "Kovarijance reziduala"
 
 #: cfa/options/resCovEst.title
 msgid "Residual covariances"
-msgstr ""
+msgstr "Kovarijance reziduala"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "Kovarijance reziduala – Indeksi modifikacija"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
-msgstr ""
+msgstr "Procjene reziduala"
 
 #: cfa/results/resEst/resIntercept.title
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "Presjeci reziduala"
 
 #: cfa/options/resInterceptEst.title
 msgid "Residual intercepts"
-msgstr ""
+msgstr "Presjeci reziduala"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
-msgstr ""
+msgstr "Dijagrami reziduala"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
 msgstr ""
+"Zbroj kvadrata reziduala i/ili stupnjevi slobode su jednaki nuli, što "
+"ukazuje na savršenu prilagodbu modela"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4612,15 +4618,15 @@ msgstr ""
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
 msgid "Residuals"
-msgstr ""
+msgstr "Reziduali"
 
 #: cfa/results/modelPerformance/corRes.title
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "Reziduali za promatranu matricu korelacija"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "Reziduali od analize varijanci"
 
 #: cfa/options/corRes.title
 msgid "Residuals observed correlation matrix"
