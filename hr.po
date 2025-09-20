@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 21:01+0000\n"
+"PO-Revision-Date: 2025-09-20 22:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -890,7 +890,7 @@ msgstr "Velikih 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
 msgid "Binomial"
-msgstr "Binomna"
+msgstr "Binomno"
 
 #: package/analyses/logRegBin.title
 #: package/analyses/logRegBin.description
@@ -1480,29 +1480,29 @@ msgstr "Kumulativni %"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
-msgstr ""
+msgstr "Vrijednosti granica"
 
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
 msgid "Cut points for"
-msgstr ""
+msgstr "Granice za"
 
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
 msgid "Cut-Off"
-msgstr ""
+msgstr "Prag"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
 msgid "Cut-Off Plot"
-msgstr ""
+msgstr "Dijagram pragova"
 
 #: logRegBin/options/cutOffPlot.title
 msgid "Cut-off plot"
-msgstr ""
+msgstr "Dijagram pragova"
 
 #: logRegBin/options/cutOff.title
 msgid "Cut-off value"
-msgstr ""
+msgstr "Vrijednost praga"
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
@@ -1536,7 +1536,7 @@ msgstr "Gustoća"
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
-msgstr ""
+msgstr "Zavisno"
 
 #: ancova/options/dep.title
 #: anova/options/dep.title
@@ -1546,27 +1546,31 @@ msgstr ""
 #: logRegOrd/options/dep.title
 #: mancova/results/univar.columns.title
 msgid "Dependent Variable"
-msgstr ""
+msgstr "Zavisna varijabla"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "Zavisna varijabla '{dep}' sadrži beskonačne vrijednosti"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 msgstr ""
+"Zavisna varijabla '{dep}' ne sadrži podatke (nakon uklanjanja redaka s "
+"nedostajućim vrijednostima)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
 msgstr ""
+"Zavisna varijabla '{dep}' sadrži samo jednu jedinstvenu vrijednost (nakon "
+"uklanjanja redaka s nedostajućim vrijednostima)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Zavisna varijabla '{dep}' mora biti kontinuirana"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
-msgstr ""
+msgstr "Oznaka zavisne varijable"
 
 #: anovaNP/options/deps.title
 #: anovaOneW/options/deps.title
@@ -1575,15 +1579,15 @@ msgstr ""
 #: ttestIS/options/vars.title
 #: ttestOneS/options/vars.title
 msgid "Dependent Variables"
-msgstr ""
+msgstr "Zavisne varijable"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Između zavisnih varijabli postoji vrlo visoka korelacija"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
-msgstr ""
+msgstr "zastarjelo"
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
@@ -1615,6 +1619,10 @@ msgstr "Deskriptivni pokazatelji"
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
 msgstr ""
+"Deskriptivni pokazatelji su skup sažetih statistika i vizualizacija koje "
+"omogućuju istraživanje oblika i raspodjele podataka. Dobro je pravilo prvo "
+"istražiti podatke pomoću deskriptivnih pokazatelja prije nastavljanja s "
+"formalnijim testovima."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -1785,7 +1793,7 @@ msgstr "Dunnove usporedbe po parovima"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "Durbin–Watson test za automatsku korelaciju"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
@@ -3391,7 +3399,7 @@ msgstr ""
 
 #: R/ancova.b.R
 msgid "octic"
-msgstr ""
+msgstr "8. eksponent"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
@@ -4379,11 +4387,11 @@ msgstr "Q-Q dijagrami"
 
 #: R/ancova.b.R
 msgid "quadratic"
-msgstr "kvadratni"
+msgstr "2. eksponent"
 
 #: R/ancova.b.R
 msgid "quartic"
-msgstr "kvartični"
+msgstr "4. eksponent"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
@@ -4396,7 +4404,7 @@ msgstr "quartimax"
 
 #: R/ancova.b.R
 msgid "quintic"
-msgstr "kvintični"
+msgstr "5. eksponent"
 
 #: linReg/options/r.title
 #: linReg/results/modelFit.columns.title
@@ -4784,12 +4792,12 @@ msgstr "Rezultat za faktor {i}. Procijenjeno korištenjem '{fsMethod}' method."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
-msgstr "Grafikon osipa"
+msgstr "Dijagram svojstvenih vrijednosti"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
 msgid "Scree plot"
-msgstr "Grafikon osipa"
+msgstr "Dijagram svojstvenih vrijednosti"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -4802,7 +4810,7 @@ msgstr "Grafikon osipa"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "SD"
+msgstr "Standardna devijacija"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4829,16 +4837,16 @@ msgstr "SD"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SE"
-msgstr "SE"
+msgstr "Standardna greška"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "SE difference"
-msgstr "Razlika SE"
+msgstr "Razlika standardne greške"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
-msgstr "Poluparcijalna"
+msgstr "Poluparcijalno"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
@@ -4852,11 +4860,11 @@ msgstr "Osjetljivost"
 
 #: R/ancova.b.R
 msgid "septic"
-msgstr "septički"
+msgstr "sedmog stupnja"
 
 #: R/ancova.b.R
 msgid "sextic"
-msgstr "sekstični"
+msgstr "šestog stupnja"
 
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
@@ -4945,7 +4953,7 @@ msgstr ""
 #: R/pca.b.R
 msgctxt "specific factor"
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
@@ -5359,7 +5367,7 @@ msgstr ""
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "Vrijednost praga je postavljena na {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
