@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 16:01+0000\n"
+"PO-Revision-Date: 2025-09-20 21:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -186,25 +186,25 @@ msgstr "% unutar reda"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
-msgstr "`ANCOVA – ${dep}`"
+msgstr "`ANCOVA − ${dep}`"
 
 #: anova/results/main.title
 msgid "`ANOVA - ${dep}`"
-msgstr "`ANOVA – ${dep}`"
+msgstr "`ANOVA − ${dep}`"
 
 #: linReg/results/models.template/coef.title
 msgid "`Model Coefficients - ${ dep }`"
-msgstr "`Koeficijenti modela – ${ dep }`"
+msgstr "`Koeficijenti modela − ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
 msgid "`Model Coefficients - ${dep}`"
-msgstr "`Koeficijenti modela – ${dep}`"
+msgstr "`Koeficijenti modela − ${dep}`"
 
 #: propTestN/results/props.title
 msgid "`Proportions - ${var}`"
-msgstr "`Proporcije – ${var}`"
+msgstr "`Proporcije − ${var}`"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -232,8 +232,8 @@ msgstr "> vrijednosti testa"
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
 msgstr ""
-"⁻ srednja vrijednost - 1SD, <sup>μ</sup> srednja vrijednost, ⁺ srednja "
-"vrijednost + 1SD"
+"⁻ srednja vrijednost − 1 standardna devijacija, <sup>μ</sup> srednja "
+"vrijednost, ⁺ srednja vrijednost + 1 standardna devijacija"
 
 #: pca/results/loadings.columns.title
 #: pca/results/factorStats/factorCor.columns.title
@@ -1527,7 +1527,7 @@ msgstr "Sažetak podataka"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
-msgstr ""
+msgstr "Gustoće za varijable"
 
 #: R/proptest2.b.R
 #: descriptives/options/dens.title
@@ -4969,7 +4969,7 @@ msgstr ""
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr ""
+msgstr "Rastavi po"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -5195,35 +5195,35 @@ msgstr "Statistika testa"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
-msgstr ""
+msgstr "Vrijednost testa"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
 msgid "Test value"
-msgstr ""
+msgstr "Vrijednost testa"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr ""
+msgstr "Testovi"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "Testovi sferičnosti"
 
 #: R/descriptives.b.R
 msgid "th percentile"
-msgstr ""
+msgstr "percentil"
 
 #: package/datasets/Anderson's Iris Data.description
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "„Iris” skup podataka od R"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
+msgstr "'Rastavi po' varijabla '{var}' ne sadrži podatke."
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
@@ -5795,7 +5795,7 @@ msgstr "Vrsta 3 suma kvadrata"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
-msgstr "Nije moguće podijeliti s kontinuiranom varijablom"
+msgstr "Nije moguće rastaviti po kontinuiranoj varijabli"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
