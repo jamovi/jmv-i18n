@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-21 11:01+0000\n"
+"PO-Revision-Date: 2025-09-21 12:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -1095,7 +1095,7 @@ msgstr "Korelacije komponenti"
 
 #: pca/results/loadings.title
 msgid "Component Loadings"
-msgstr ""
+msgstr "Opterećenja komponenti"
 
 #: pca/options/factorScoresOV.title
 msgid "Component scores"
@@ -1277,13 +1277,13 @@ msgstr "Kontrolirane varijable"
 
 #: R/corrpart.b.R
 msgid "controlling for {items}"
-msgstr ""
+msgstr "kontroliranje za {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
 msgid "Cook's Distance"
-msgstr ""
+msgstr "Cookova udaljenost"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1293,19 +1293,19 @@ msgstr ""
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
 msgid "Cook's distance"
-msgstr ""
+msgstr "Cookova udaljenost"
 
 #: ancova/options/postHocCorr.title
 #: ancova/ui[5][1][0].label
 #: anova/options/postHocCorr.title
 #: anova/ui[5][1][0].label
 msgid "Correction"
-msgstr ""
+msgstr "Korekcija"
 
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[4][1][0].label
 msgid "Corrections"
-msgstr ""
+msgstr "Korekcije"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
@@ -1330,21 +1330,23 @@ msgstr "Koreliracija"
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
 msgid "Correlation Coefficients"
-msgstr ""
+msgstr "Koeficijenti korelacije"
 
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
 msgid "Correlation Heatmap"
-msgstr ""
+msgstr "Toplinski prikaz korelacija"
 
 #: reliability/ui[1][0][1]/corPlot.label
 msgid "Correlation heatmap"
-msgstr ""
+msgstr "Toplinski prikaz korelacija"
 
 #: package/analyses/corrMatrix.description
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr ""
+"Korelacijske matrice su način ispitivanja linearnih odnosa između\n"
+"dviju ili više kontinuiranih varijabli."
 
 #: corrMatrix/options.description.main
 msgid "Correlation matrices are a way to examine linear relationships between\n"
@@ -1392,7 +1394,7 @@ msgstr "Vrsta korelacije"
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
 msgid "Count"
-msgstr ""
+msgstr "Broj"
 
 #: R/conttables.b.R
 #: R/descriptives.b.R
@@ -1401,7 +1403,7 @@ msgstr ""
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr "Broj"
+msgstr "Brojevi"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -1409,21 +1411,21 @@ msgstr "Broj"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "Broj (opcionalno)"
+msgstr "Brojevi (opcionalno)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be infinite"
-msgstr ""
+msgstr "Brojevi ne smiju biti beskonačni"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be negative"
-msgstr ""
+msgstr "Brojevi ne smiju biti negativni"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
-msgstr ""
+msgstr "Brojevi moraju biti ne-negativni i konačni"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
@@ -1437,7 +1439,7 @@ msgstr ""
 #: logRegOrd/ui[0][1].label
 #: mancova/options/covs.title
 msgid "Covariates"
-msgstr "Kovarijante"
+msgstr "Kovarijati"
 
 #: logLinear/options/pseudoR2/r2cs.title
 #: logRegBin/options/pseudoR2/r2cs.title
@@ -3215,18 +3217,18 @@ msgstr "Multinomijalna logistička regresija"
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
 msgstr ""
-"Multivarijantna analiza (ko)varijance (MANCOVA) koristi se za istraživanje "
+"Multivarijatna analiza (ko)varijance (MANCOVA) koristi se za istraživanje "
 "odnosa između više zavisnih varijabli i jedne ili više kategoričkih i/ili "
 "kontinuiranih objašnjavajućih varijabli."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
 msgid "Multivariate Statistics"
-msgstr "Multivarijantna statistika"
+msgstr "Multivarijatne statistike"
 
 #: mancova/results/multivar.title
 msgid "Multivariate Tests"
-msgstr "Multivarijantni testovi"
+msgstr "Multivarijatni testovi"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -3266,7 +3268,7 @@ msgstr "Nijedna komponenta nema svojstvenu vrijednost veću od {value}"
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr "Bez ispravljanja"
+msgstr "Bez korekcije"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
@@ -4276,7 +4278,7 @@ msgstr "navedi mjere veličine učinka; η², parcijalni η² ili ω²."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
-msgstr ""
+msgstr "pruži korekcije p-vrijednosti za sferičnost."
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
@@ -4922,7 +4924,7 @@ msgstr "Singularni model, jedna ili više prediktorskih varijabli su linearna ko
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "Greška singularnosti. Korekcije sferičnosti nisu dostupne"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -4963,12 +4965,12 @@ msgstr "Specifičnost"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
-msgstr ""
+msgstr "Korekcija sferičnosti"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
 msgid "Sphericity corrections"
-msgstr ""
+msgstr "Korekcije sferičnosti"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
@@ -5470,7 +5472,7 @@ msgstr ""
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr ""
+msgstr "korekcije višestrukih post-hoc usporedbi koje se trebaju koristiti."
 
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
