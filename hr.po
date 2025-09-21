@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-21 12:01+0000\n"
+"PO-Revision-Date: 2025-09-21 13:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -2667,6 +2667,8 @@ msgstr "Razina 2"
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
+"Leveneov test je značajan (p < 0,05), što ukazuje na kršenje pretpostavke o "
+"jednakim varijancama"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -3833,31 +3835,35 @@ msgstr "Percentili"
 
 #: ttestIS/options/mann.description.ui
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "izvedi Mann-Whitney U test."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"izvedi Shapiro-Wilkov test normalnosti. Niska p-vrijednost ukazuje na to da "
+"podaci nisu iz normalne distribucije."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
 msgid "perform an overall model test."
-msgstr ""
+msgstr "izvedi cjelokupni test modela."
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
+msgstr "izvedi Fisherove (tzv. „normalne”) ANOVA analize."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
+"izvedi Shapiro-Wilkove testove normalnosti. Niska p-vrijednost ukazuje na to "
+"da podaci nisu iz normalne distribucije."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
-"izvedi Shapiro-Wilkov test normalnosti. Niska p-vrijednost upućuje na to da "
+"izvedi Shapiro-Wilkov test normalnosti. Niska p-vrijednost ukazuje na to da "
 "reziduali nisu normalno raspodijeljeni."
 
 #: ttestIS/options/students.description.ui
@@ -3874,11 +3880,11 @@ msgstr ""
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "izvedi Welchove ANOVA analize."
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "izvedi Welchove testove."
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -5324,7 +5330,7 @@ msgstr ""
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "kategorizirane objašnjavajuće (ili nezavisne) varijable."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
@@ -5353,6 +5359,8 @@ msgstr ""
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
 msgstr ""
+"kontinuirane objašnjavajuće (ili nezavisne) varijable, poznate i kao "
+"kovarijate."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5421,10 +5429,14 @@ msgstr "stupci greške za iscrtavanje na rubnim srednjim vrijednostima."
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
 msgstr ""
+"objašnjavajuća ili nezavisna varijabla. Za ANOVA će ova biti kategorična "
+"varijabla."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
 msgstr ""
+"objašnjavajuće ili nezavisne varijable. Za ANOVA će ove biti kategorične "
+"varijable."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
@@ -5438,7 +5450,7 @@ msgstr ""
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "oznaka koja se koristi za zavisne varijable."
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
@@ -5937,6 +5949,7 @@ msgstr "Varijance"
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
 msgstr ""
+"varijacija iz kontrolnih varijabli se uklanja samo iz varijabli u stupcima"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
