@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-23 17:01+0000\n"
+"PO-Revision-Date: 2025-09-23 18:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -3962,7 +3962,7 @@ msgstr "Polinomski"
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
-msgstr "Post Hoc usporedba – {term}"
+msgstr "Post hoc usporedbe – {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
@@ -5003,7 +5003,7 @@ msgstr "Rastavi po"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "Kvadratna Mahalanobisova udaljenosti"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -5012,7 +5012,7 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr ""
+msgstr "Opterećenja kvadratnih zbrojeva"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
@@ -5026,7 +5026,7 @@ msgstr "Složeno"
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr ""
+msgstr "Standardna procjena"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
@@ -5102,7 +5102,7 @@ msgstr "Standardna devijacija"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "Standardna greška kurtosisa"
 
 #: R/descriptives.b.R
 msgid "Std. error mean"
@@ -5114,24 +5114,24 @@ msgstr "Standardna greška srednje vrijednosti"
 
 #: R/descriptives.b.R
 msgid "Std. error skewness"
-msgstr ""
+msgstr "Standardna greška iskrivljenosti"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
 msgid "Student's"
-msgstr ""
+msgstr "Studentov"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
 msgid "Student's t"
-msgstr ""
+msgstr "Studentov t"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr ""
+msgstr "Studentov test"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
@@ -5183,7 +5183,7 @@ msgstr "t-vrijednost"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
-msgstr ""
+msgstr "ten Berge"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -5264,12 +5264,22 @@ msgid "the alternative and null hypotheses;\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
 msgstr ""
+"alternativne i nulte hipoteze;\n"
+"\n"
+"|              | Alternativa (Hₐ) | Nulta hipoteza (H₀)          |\n"
+"|---------------|--------------------|--------------------|\n"
+"| ≠ Vrijednost testa | Srednja vrijednost ≠ Vrijednost testa | Srednja "
+"vrijednost = Vrijednost testa |\n"
+"| > Vrijednost testa | Srednja vrijednost > Vrijednost testa | Srednja "
+"vrijednost <= Vrijednost testa |\n"
+"| < Vrijednost testa | Srednja vrijednost < Vrijednost testa | Srednja "
+"vrijednost >= Vrijednost testa |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "alternativna hipoteza."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
@@ -5290,6 +5300,9 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
+"Analiza varijance (ANOVA) se koristi za istraživanje odnosa\n"
+"između kontinuirane zavisne varijable i jedne ili više kategoričnih\n"
+"nezavisnih varijabli."
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5331,11 +5344,11 @@ msgstr ""
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "faktori između subjekata (opcionalno)."
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "pojmovi između subjekata modela."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
@@ -5368,7 +5381,7 @@ msgstr "širina intervala pouzdanosti za veličine post-hoc učinka."
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
 msgid "the confidence interval width."
-msgstr ""
+msgstr "širina intervala pouzdanosti."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
@@ -5379,15 +5392,15 @@ msgstr ""
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 msgid "the contrasts to use."
-msgstr ""
+msgstr "kontrasti koji se trebaju koristiti."
 
 #: corrPart/options/controls.description.ui
 msgid "the control variables of interest."
-msgstr ""
+msgstr "kontrolirane varijable od interesa."
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "kovarijate (njihovim navođenjem analiza postaje ANCOVA)"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -5507,11 +5520,15 @@ msgstr "korekcije višestrukih post-hoc usporedbi koje se trebaju koristiti."
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
 msgstr ""
+"širina prijašnje distribucije za Bayesove faktore Studentovog t-testa. "
+"Potrebna je vrijednost između 0,01 i 2,0, zadana vrijednost je 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
+"širina prijašnje distribucije za Bayesove faktore Studentovog t-testa. "
+"Potrebna je vrijednost između 0,01 i 2,0, zadana vrijednost je 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5655,7 +5672,7 @@ msgstr ""
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "testna vrijednost za testiranje (obično nula)."
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
@@ -5673,19 +5690,23 @@ msgstr "vrsta sume kvadrata koja će se koristiti: Vrsta 2 ili 3."
 #: ancova/results/model.description
 #: anova/results/model.description
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "Temeljni `aov` objekt"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
 msgstr ""
+"Varijabla {var} se ne može tretirati kao numerička. Dijagrami koji očekuju "
+"numeričke podatke se neće stvoriti za ovu varijablu."
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "varijabla koja određuje grupe; mora imati 2 razine."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 msgstr ""
+"Varijable {vars} se ne mogu tretirati kao numeričke. Dijagrami koji očekuju "
+"numeričke podatke se neće stvoriti za ove varijable."
 
 #: ttestOneS/options/vars.description.ui
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
@@ -5973,7 +5994,7 @@ msgstr "Varijance"
 #: R/corrpart.b.R
 msgid "variation from the control variables is only removed from the variables in the columns"
 msgstr ""
-"varijacija iz kontrolnih varijabli se uklanja samo iz varijabli u stupcima"
+"varijacija kontroliranih varijabli se uklanja samo iz varijabli u stupcima"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
