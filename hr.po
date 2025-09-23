@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-23 16:01+0000\n"
+"PO-Revision-Date: 2025-09-23 17:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -665,7 +665,7 @@ msgstr "niz posteriornih dijagrama"
 
 #: cfa/results/pathDiagram.description
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "slika koja sadrži dijagram staze modela"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
@@ -677,7 +677,7 @@ msgstr "Neinspirativan ANOVA skup podataka"
 
 #: package.title
 msgid "Analyses bundled with jamovi"
-msgstr ""
+msgstr "Sadržane analize u jamovi paketu"
 
 #: package/analyses/ancova.title
 #: package/analyses/ancova.menuTitle
@@ -956,7 +956,7 @@ msgstr "Box-Tidwell test"
 
 #: logRegBin/results/models.template/assump/boxTidwell.title
 msgid "Box-Tidwell Test for Linearity of the Logit"
-msgstr ""
+msgstr "Box-Tidwellov test linearnosti logita"
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
@@ -1847,6 +1847,8 @@ msgstr "Svojstvene vrijednosti veće od"
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
 msgstr ""
+"Prazne ćelije između dizajna subjekata: barem jedna kombinacija razina "
+"faktora subjekata ima 0 opažanja"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -1856,17 +1858,17 @@ msgstr ""
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
 msgid "Equal cell weights"
-msgstr ""
+msgstr "Jednake težine ćelija"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr ""
+msgstr "jednake grupe"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "error %"
-msgstr ""
+msgstr "greškq %"
 
 #: ancova/options/emmPlotError.title
 #: anova/options/emmPlotError.title
@@ -1939,6 +1941,8 @@ msgstr "Procjene predstavljaju logaritam šansi od …"
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
 msgstr ""
+"Procjene predstavljaju logaritme šansi za \"{dep} = {level1}\" u odnosu na "
+"\"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -1957,7 +1961,7 @@ msgstr "Isključi slučajeve analiza pomoću analiza"
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr ""
+msgstr "Isključi slučajeve prema popisu"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -2600,7 +2604,7 @@ msgstr ""
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr ""
+msgstr "Pomicanje preklapajućih točaka"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -2623,12 +2627,12 @@ msgstr "Kendallov tau-b"
 
 #: pca/results/assump/kmo.title
 msgid "KMO Measure of Sampling Adequacy"
-msgstr ""
+msgstr "KMO mjera prikladnosti uzorkovanja"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
 msgid "KMO measure of sampling adequacy"
-msgstr ""
+msgstr "KMO mjera prikladnosti uzorkovanja"
 
 #: package/analyses/anovaNP.menuSubtitle
 #: anovaNP/options.menuSubtitle
@@ -2788,6 +2792,8 @@ msgstr "Mahalanobisova udaljenost (p)"
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
 msgstr ""
+"Mahalanobisova udaljenost se može izračunati samo za modele s dvije ili više "
+"kovarijati"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3274,18 +3280,20 @@ msgstr "Bez korekcije"
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
 msgstr ""
+"Nema definiranih faktora. Boxov M test je relevantan samo kada model sadrži "
+"faktore."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
 msgid "Nominal"
-msgstr "Nominalna"
+msgstr "Nominalni"
 
 #: package/analyses/anovaNP.menuSubgroup
 #: package/analyses/anovaRMNP.menuSubgroup
 #: anovaNP/options.menuSubgroup
 #: anovaRMNP/options.menuSubgroup
 msgid "Non-Parametric"
-msgstr ""
+msgstr "Neparametrijski"
 
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
@@ -3345,7 +3353,7 @@ msgstr "Sve statistike još ne podržavaju ponderirane podatke."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Nije dostupno zbog prevelikog broja slučajeva (> 5.000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
@@ -3436,7 +3444,7 @@ msgstr "Omnibus ANOVA test"
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "Omnibus testovi omjera vjerojatnosti"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
@@ -3500,22 +3508,22 @@ msgstr "T-test s jednim uzorkom"
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
 msgid "One-Way ANOVA"
-msgstr ""
+msgstr "Jednofaktorska ANOVA analiza"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Fisher's)"
-msgstr ""
+msgstr "Jednofaktorska ANOVA analiza (Fisher)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr ""
+msgstr "Jednofaktorska ANOVA analiza (Neparametrijski)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr ""
+msgstr "Jednofaktorska ANOVA analiza (Welch)"
 
 #: anovaRM/ui[6].label
 #: cfa/ui[2].label
@@ -3958,11 +3966,11 @@ msgstr "Post Hoc usporedba – {term}"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Post hoc test"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Post hoc test ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4001,27 +4009,27 @@ msgstr "Post-Hoc testovi"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr ""
+msgstr "Posteriorne distribucije"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr "Posterioran dijagram"
+msgstr "Dijagram posteriorne distribucije"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr "Posteriorni dijagrami"
+msgstr "Dijagrami posteriorne distribucije"
 
 #: R/logregbin.b.R
 msgid "Predicted"
-msgstr "Predviđeno"
+msgstr "Pretkazano"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr "Predviđena vjerojatnost od … = … (nasuprot … = …)"
+msgstr "Pretkazana vjerojatnost od … = … (nasuprot … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr "Predviđena vjerojatnost od {dep} = {level1} (nasuprot {dep} = {level2})"
+msgstr "Pretkazano vjerojatnost od {dep} = {level1} (nasuprot {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -4029,17 +4037,17 @@ msgstr "Predviđena vjerojatnost od {dep} = {level1} (nasuprot {dep} = {level2})
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
 msgid "Predicted values"
-msgstr "Predviđene vrijednosti"
+msgstr "Pretkazane vrijednosti"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
 msgid "Prediction"
-msgstr "Predviđanje"
+msgstr "Pretkazanje"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
 msgid "Predictive Measures"
-msgstr "Predviđene mjere"
+msgstr "Pretkazane mjere"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -4064,11 +4072,11 @@ msgstr "Prediktori"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
-msgstr ""
+msgstr "Glavna os"
 
 #: R/pca.b.R
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Faktorizacija glavne osi"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -4078,7 +4086,7 @@ msgstr ""
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "Analiza glavne komponente"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -4086,13 +4094,13 @@ msgstr ""
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
 msgid "Prior"
-msgstr ""
+msgstr "Prijašnja distribucija"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
 msgid "Prior width"
-msgstr ""
+msgstr "Širina prijašnje distribucije"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -4102,11 +4110,11 @@ msgstr "Vjerojatnost"
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
 msgid "Promax"
-msgstr ""
+msgstr "Promax"
 
 #: R/pca.b.R
 msgid "promax"
-msgstr ""
+msgstr "promax"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
@@ -4147,17 +4155,17 @@ msgstr "navedi dijagram korelacijske matrice."
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "navedi Kendallov tau-b za svaku kombinaciju varijabli."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "navedi p-vrijednost za svaki koeficijent korelacije."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr ""
+msgstr "navedi Pearsonov r za svaku kombinaciju varijabli."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
@@ -4170,7 +4178,7 @@ msgstr ""
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr ""
+msgstr "navedi Spearmanov rho za svaku kombinaciju varijabli."
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
@@ -4184,7 +4192,7 @@ msgstr "navedi tablicu procijenjenih mrginalnih srednjih vrijednosti."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
+msgstr "navedi Bayesove faktore za Studentove t-testove neovisnih uzoraka."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
@@ -4192,11 +4200,11 @@ msgstr "navedi Bayesove faktore za Studentove t-testove s jednim uzorkom."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr ""
+msgstr "navedi Bayesove faktore za Studentove t-testove sparenih uzoraka."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
-msgstr ""
+msgstr "navedi intervale pouzdanosti za Pearsonov r."
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
@@ -4216,7 +4224,7 @@ msgstr "pruži intervale pouzdanosti za veličine post-hoc učinaka."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr ""
+msgstr "navedi koeficijente korelacije u dijagramu matrice korelacije."
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
@@ -4253,11 +4261,15 @@ msgstr "pruži veličine učinka (Cohenov d)."
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
+"navedi Leveneov test za homogenost varijanci. Niska p-vrijednost sugerira da "
+"grupe imaju nejednake varijance."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
+"navedi Leveneove testove za homogenost varijanci. Niska p-vrijednost "
+"sugerira da grupe imaju nejednake varijance."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4297,7 +4309,7 @@ msgstr "priloži dijagrame procijenjenih marginalnih srednjih vrijednosti."
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
 msgid "provide post-hoc tests."
-msgstr ""
+msgstr "navedi post-hoc testove."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
@@ -4321,20 +4333,22 @@ msgstr ""
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr ""
+msgstr "navedi razine značaja za post-hoc testove."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr ""
+msgstr "navedi testove sferičnosti."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
 msgstr ""
+"navedi rezultate testa (t-vrijednost i stupnjeve slobode) za post-hoc "
+"testove."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
 msgid "provide the number of cases."
-msgstr ""
+msgstr "navedi broj slučajeva."
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -4944,19 +4958,19 @@ msgstr "Iskrivljenost"
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "Razvrstaj opterećenja po veličini"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
 msgid "Spearman"
-msgstr ""
+msgstr "Spearman"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Spearman's rho"
-msgstr ""
+msgstr "Spearmanov rho"
 
 #: R/pca.b.R
 msgctxt "specific factor"
@@ -4980,7 +4994,7 @@ msgstr "Korekcije sferičnosti"
 
 #: anovaRM/options/spherTests.title
 msgid "Sphericity tests"
-msgstr ""
+msgstr "Testovi sferičnosti"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
@@ -4994,7 +5008,7 @@ msgstr ""
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 msgid "SRMR"
-msgstr ""
+msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
