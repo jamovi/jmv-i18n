@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-23 19:01+0000\n"
+"PO-Revision-Date: 2025-09-24 11:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -112,7 +112,7 @@ msgstr "{varName} (obrnuto)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr "{varType} modela binomijalne logističke regresije{modelNo}"
+msgstr "{varType} modela binomne logističke regresije{modelNo}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
@@ -257,7 +257,7 @@ msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr "tablica (semi)parcijalne korelacijske matrice"
+msgstr "tablica (polu)parcijalne korelacijske matrice"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
@@ -3726,7 +3726,7 @@ msgstr "Usporedbe po parovima (Durbin-Conover)"
 
 #: corrPart/options/type/part.title
 msgid "Partial"
-msgstr "Djelomično"
+msgstr "Parcijalno"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -3735,13 +3735,16 @@ msgstr "Djelomično"
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr "Djelomična korelacija"
+msgstr "Parcijalna korelacija"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
+"Matrice parcijalne korelacije predstavljaju način ispitivanja linearnih "
+"odnosa između dvije ili više kontinuiranih varijabli, uz kontrolu drugih "
+"varijabli"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -3766,12 +3769,12 @@ msgstr ""
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
-msgstr "Djelomični η²"
+msgstr "ParcijalnI η²"
 
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
 msgid "partial η²"
-msgstr "djelomični η²"
+msgstr "parcijalnI η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
@@ -4140,37 +4143,37 @@ msgstr "Test proporcija (N ishoda)"
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr "pruži Cohenovu d-mjeru veličine učinka za post-hoc testove."
+msgstr "priloži Cohenovu d-mjeru veličine učinka za post-hoc testove."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
 msgstr ""
-"navedi interval pouzdanosti za razliku između procijenjene srednje "
+"priloži interval pouzdanosti za razliku između procijenjene srednje "
 "vrijednosti i testne vrijednosti."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr "navedi dijagram korelacijske matrice."
+msgstr "priloži dijagram korelacijske matrice."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr "navedi Kendallov tau-b za svaku kombinaciju varijabli."
+msgstr "priloži Kendallov tau-b za svaku kombinaciju varijabli."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr "navedi p-vrijednost za svaki koeficijent korelacije."
+msgstr "priloži p-vrijednost za svaki koeficijent korelacije."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
 msgid "provide a Pearson's r for each combination of variables."
-msgstr "navedi Pearsonov r za svaku kombinaciju varijabli."
+msgstr "priloži Pearsonov r za svaku kombinaciju varijabli."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
-"prikaži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
+"priloži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
 "koji bi se očekivali da su podaci *savršeno* normalno raspodijeljeni. Velika "
 "odstupanja od dijagonalne linije ukazuju na to da podaci nisu iz normalne "
 "distribucije."
@@ -4178,125 +4181,125 @@ msgstr ""
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "navedi Spearmanov rho za svaku kombinaciju varijabli."
+msgstr "priloži Spearmanov rho za svaku kombinaciju varijabli."
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
-msgstr "izradi tablicu deskriptivnih pokazatelja za svaku varijablu."
+msgstr "priloži tablicu deskriptivnih pokazatelja za svaku varijablu."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr "navedi tablicu procijenjenih mrginalnih srednjih vrijednosti."
+msgstr "priloži tablicu procijenjenih mrginalnih srednjih vrijednosti."
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "navedi Bayesove faktore za Studentove t-testove neovisnih uzoraka."
+msgstr "priloži Bayesove faktore za Studentove t-testove neovisnih uzoraka."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "navedi Bayesove faktore za Studentove t-testove s jednim uzorkom."
+msgstr "priloži Bayesove faktore za Studentove t-testove s jednim uzorkom."
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "navedi Bayesove faktore za Studentove t-testove sparenih uzoraka."
+msgstr "priloži Bayesove faktore za Studentove t-testove sparenih uzoraka."
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
-msgstr "navedi intervale pouzdanosti za Pearsonov r."
+msgstr "priloži intervale pouzdanosti za Pearsonov r."
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "pruži intervale pouzdanosti za veličine učinaka"
+msgstr "priloži intervale pouzdanosti za veličine učinaka"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
 msgid "provide confidence intervals for the mean differences."
-msgstr "navedi intervale pouzdanosti za razlike srednje vrijednosti."
+msgstr "priloži intervale pouzdanosti za razlike srednje vrijednosti."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr "pruži intervale pouzdanosti za veličine post-hoc učinaka."
+msgstr "priloži intervale pouzdanosti za veličine post-hoc učinaka."
 
 #: corrMatrix/options/plotStats.description.ui
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr "navedi koeficijente korelacije u dijagramu matrice korelacije."
+msgstr "priloži koeficijente korelacije u dijagramu matrice korelacije."
 
 #: anovaOneW/options/descPlot.description.ui
 msgid "provide descriptive plots for each group."
-msgstr "izradi dijagrame deskriptivnih pokazatelja za svaku grupu."
+msgstr "priloži dijagrame deskriptivnih pokazatelja za svaku grupu."
 
 #: ttestOneS/options/plots.description.ui
 msgid "provide descriptive plots for each variable."
-msgstr "izradi dijagrame deskriptivnih pokazatelja za svaku varijablu."
+msgstr "priloži dijagrame deskriptivnih pokazatelja za svaku varijablu."
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
-msgstr "izradi deskriptivne pokazatelje za svaku grupu ili mjerenja."
+msgstr "priloži deskriptivne pokazatelje za svaku grupu ili mjerenja."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
 msgid "provide descriptives for each group."
-msgstr "izradi deskriptivne pokazatelje za svaku grupu."
+msgstr "priloži deskriptivne pokazatelje za svaku grupu."
 
 #: ttestIS/options/plots.description.ui
 msgid "provide descriptives plots."
-msgstr "izradi dijagrame deskriptivnih pokazatelja."
+msgstr "priloži dijagrame deskriptivnih pokazatelja."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's D)."
-msgstr "pruži veličine učinka (Cohenov D)."
+msgstr "priloži veličine učinka (Cohenov D)."
 
 #: ttestOneS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "pruži veličine učinka (Cohenov d)."
+msgstr "priloži veličine učinka (Cohenov d)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
-"navedi Leveneov test za homogenost varijanci. Niska p-vrijednost sugerira da "
-"grupe imaju nejednake varijance."
+"priloži Leveneov test za homogenost varijanci. Niska p-vrijednost sugerira "
+"da grupe imaju nejednake varijance."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
-"navedi Leveneove testove za homogenost varijanci. Niska p-vrijednost "
+"priloži Leveneove testove za homogenost varijanci. Niska p-vrijednost "
 "sugerira da grupe imaju nejednake varijance."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
 msgstr ""
-"navedi razlike srednje vrijednosti i standardne greške razlika srednje "
+"priloži razlike srednje vrijednosti i standardne greške razlika srednje "
 "vrijednosti."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
-msgstr "navedi razlike srednje vrijednosti s post-hoc testovima."
+msgstr "priloži razlike srednje vrijednosti s post-hoc testovima."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
 msgstr ""
-"navedi razlike srednje vrijednosti i standardne greške razlika srednje "
+"priloži razlike srednje vrijednosti i standardne greške razlika srednje "
 "vrijednost između procijenjene srednje vrijednosti i testne vrijednosti."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr "navedi mjere veličine učinka; η², parcijalni η² ili ω²."
+msgstr "priloži mjere veličine učinka; η², parcijalni η² ili ω²."
 
 #: anovaRM/options/spherCorr.description.ui
 msgid "provide p-value corrections for sphericity."
-msgstr "pruži korekcije p-vrijednosti za sferičnost."
+msgstr "priloži korekcije p-vrijednosti za sferičnost."
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
@@ -4309,14 +4312,14 @@ msgstr "priloži dijagrame procijenjenih marginalnih srednjih vrijednosti."
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
 msgid "provide post-hoc tests."
-msgstr "navedi post-hoc testove."
+msgstr "priloži post-hoc testove."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
-"prikaži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
+"priloži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
 "koji bi se očekivali da su podaci *savršeno* normalno raspodijeljeni. Velika "
 "odstupanja od dijagonalne linije ukazuju na to da podaci nisu iz normalne "
 "distribucije."
@@ -4326,29 +4329,29 @@ msgstr ""
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
-"prikaži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
+"priloži Q-Q dijagram reziduala – dijagram stvarnih reziduala u odnosu na one "
 "koji bi se očekivali da su podaci *savršeno* normalno raspodijeljeni. Velika "
 "odstupanja od dijagonalne linije ukazuju na to da reziduali nisu normalno "
 "raspodijeljeni."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
-msgstr "navedi razine značaja za post-hoc testove."
+msgstr "priloži razine značaja za post-hoc testove."
 
 #: anovaRM/options/spherTests.description.ui
 msgid "provide sphericity tests."
-msgstr "navedi testove sferičnosti."
+msgstr "priloži testove sferičnosti."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
 msgstr ""
-"navedi rezultate testa (t-vrijednost i stupnjeve slobode) za post-hoc "
+"priloži rezultate testa (t-vrijednost i stupnjeve slobode) za post-hoc "
 "testove."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
 msgid "provide the number of cases."
-msgstr "navedi broj slučajeva."
+msgstr "priloži broj slučajeva."
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -5294,6 +5297,11 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
+"Analiza kovarijance (ANCOVA) koristi se za ispitivanje odnosa između "
+"kontinuirane zavisne varijable, jedne ili više kategoriziranih "
+"objašnjavajućih varijabli te jedne ili više kontinuiranih objašnjavajućih "
+"varijabli (ili kovarijata). U suštini, riječ je o istoj analizi kao ANOVA, "
+"ali s dodatkom kovarijata."
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5354,6 +5362,10 @@ msgstr "pojmovi između subjekata modela."
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
+"Binomni test se koristi za testiranje nulte hipoteze da udio opažanja "
+"odgovara nekoj očekivanoj vrijednosti. Ako je p-vrijednost niska, to "
+"sugerira da je nulta hipoteza netočna te da stvarni udio mora biti neka "
+"druga vrijednost."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
@@ -5431,7 +5443,9 @@ msgstr "Zavisna varijabla '{dep}' ima sljedeći redoslijed: {orderedLevels}"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "Zavisna varijabla \"{dep}\" ima samo dvije razine, razmislite o korištenju logističke regresije."
+msgstr ""
+"Zavisna varijabla \"{dep}\" ima samo dvije razine, razmisli o korištenju "
+"binomne logističke regresije."
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -5667,8 +5681,8 @@ msgstr ""
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
 msgstr ""
-"pojmovi za koje se trebaju navesti procijenjene marginalne srednje "
-"vrijednosti. Ovdje možeš odrediti više pojmova."
+"pojmovi za prilaganje procijenjene marginalne srednje vrijednosti. Ovdje "
+"možeš odrediti više pojmova."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
