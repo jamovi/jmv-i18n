@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-19 15:02+0000\n"
+"PO-Revision-Date: 2025-09-25 08:01+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/ml/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -22,11 +22,11 @@ msgstr "'{col}' ൽ ചില മൂല്യങ്ങൾ കാണുന്ന�
 
 #: R/errors.R
 msgid "'{col}' contains only missing values"
-msgstr "'{col}'-ൽ ഇല്ലാത്ത മൂല്ല്യങ്ങൾ മാത്രമേയുള്ളൂ"
+msgstr "'{col}'-ൽ കാലിയായ മൂല്ല്യങ്ങൾ മാത്രമേയുള്ളൂ"
 
 #: R/errors.R
 msgid "'{col}' contains only one unique value"
-msgstr "'{col}'-ൽ സമാനമില്ലാത്ത ഒരു മൂല്യം മാത്രമേ ഉള്ളൂ"
+msgstr "'{col}'-ൽ സമാനങ്ങളില്ലാത്ത ഒരു മൂല്യം മാത്രമേ ഉള്ളൂ"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
@@ -79,11 +79,11 @@ msgstr "{ciWidth}% CI ഉയർന്നത്"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr "{ciWidth}% കോൺഫിഡൻസ് അകലം"
+msgstr "{ciWidth}% കോൺഫിഡൻസ് ഇടവേള"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr "{ciWidth}% കോൺഫിഡൻസ് അകലങ്ങൾ"
+msgstr "{ciWidth}% കോൺഫിഡൻസ് ഇടവേളകൾ"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
@@ -99,7 +99,7 @@ msgstr "{list}, {lastItem} എന്നിവ"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr "{n} ജോഡി മൂല്ല്യങ്ങൾ സമനിലയിലാണ്"
+msgstr "{n} ജോഡി മൂല്ല്യങ്ങൾ ടൈയിലാണ്"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
@@ -107,15 +107,15 @@ msgstr "{vars} വേരിയബിളുകളെ അടിസ്ഥാനമ�
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
-msgstr "{varName} (റിവേഴ്സ്)"
+msgstr "{varName} (reversed)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr "ബൈനോമിയൽ ലോജിസ്റ്റിക് റിഗ്രഷൻ മോഡൽ{modelNo} ന്റെ {varType}"
+msgstr "ബൈനോമിയൽ ലോജിസ്റ്റിക് റിഗ്രഷൻ മോഡൽ {modelNo} ന്റെ {varType}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr "ലീനിയർ റിഗ്രഷൻ മോഡൽ{modelNo} ന്റെ {varType}"
+msgstr "ലീനിയർ റിഗ്രഷൻ മോഡൽ {modelNo} ന്റെ {varType}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -162,16 +162,16 @@ msgstr "% ശരി"
 
 #: R/descriptives.b.R
 msgid "% of Total"
-msgstr "% മൊത്തത്തിന്റെ"
+msgstr "മൊത്തത്തിന്റെ %"
 
 #: R/conttables.b.R
 msgid "% of total"
-msgstr "% മൊത്തത്തിന്റെ"
+msgstr "മൊത്തത്തിന്റെ %"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr "% വേരിയൻസിന്റെ"
+msgstr "വേരിയൻസിന്റെ %"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -181,7 +181,7 @@ msgstr "% നിരയ്ക്കുള്ളിൽ"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "% within row"
-msgstr "വരിക്കുള്ളിൽ %"
+msgstr "% വരിക്കുള്ളിൽ"
 
 #: ancova/results/main.title
 msgid "`ANCOVA - ${dep}`"
@@ -266,7 +266,7 @@ msgstr "ഒരു correlation matrix ടേബിൾ"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
-msgstr ""
+msgstr "ഒരു descriptives പ്ലോട്ട്"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
