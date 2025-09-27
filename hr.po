@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-25 10:01+0000\n"
+"PO-Revision-Date: 2025-09-27 14:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -1366,6 +1366,22 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
+"Matrice korelacije su način ispitivanja linearnih odnosa između dviju ili "
+"više kontinuiranih varijabli.\n"
+"\n"
+"Za svaki par varijabli, Pearsonov koeficijent korelacije r označava jačinu i "
+"smjer odnosa između te dvije varijable. Pozitivna vrijednost ukazuje na "
+"pozitivan odnos (više vrijednosti jedne varijable predviđaju više "
+"vrijednosti druge varijable). Negativna vrijednost Pearsonovog r ukazuje na "
+"negativan odnos (više vrijednosti jedne varijable predviđaju niže "
+"vrijednosti druge varijable i obrnuto). Vrijednost nula ukazuje na odsutnost "
+"odnosa (bez obzira na to je li vrijednost jedne varijable visoka ili niska, "
+"to nam ne govori ništa o vrijednosti druge varijable).\n"
+"\n"
+"Formalnije, moguće je testirati nula-hipotezu da je korelacija jednaka nuli "
+"i izračunati p-vrijednost. Ako je p-vrijednost niska, to sugerira da "
+"koeficijent korelacije nije jednak nuli, odnosno da postoji linearni (ili "
+"složeniji) odnos između dviju varijabli."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -2705,6 +2721,10 @@ msgstr "Linearna regresija"
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 msgstr ""
+"Linearna regresija koristi se za istraživanje odnosa između kontinuirane "
+"zavisne varijable i jedne ili više kontinuiranih i/ili kategoriziranih "
+"objašnjavajućih varijabli. Ostale statističke metode, poput ANOVA-e i ANCOVA-"
+"e, u svojoj su suštini zapravo oblici linearne regresije."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
