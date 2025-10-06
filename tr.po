@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-30 11:04+0000\n"
-"Last-Translator: Musab Ustun <musabyusufustun@outlook.com>\n"
+"PO-Revision-Date: 2025-10-06 20:16+0000\n"
+"Last-Translator: Hamza Yalçin <h.yalcin08@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -55,7 +55,7 @@ msgstr "{} - Spearman rho"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% GA Alt"
+msgstr "%{ciWidth} GA Alt"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -63,7 +63,7 @@ msgstr "{ciWidth}% GA ortalama {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% GA Üst"
+msgstr "%{ciWidth} GA Üst"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -120,7 +120,7 @@ msgstr "Doğrusal(lineer) regresyon modelinin {varType} değeri {modelNo}"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, tek yönlü"
+msgstr "* p < .05, ** p < .01, *** p < .001, tek kuyruklu"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -262,7 +262,7 @@ msgstr ""
 
 #: corrMatrix/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "bir korelasyon matrisi tablosu"
 
 #: anovaRMNP/results/plot.description
 msgid "a descriptives plot"
@@ -983,11 +983,11 @@ msgstr ""
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
-msgstr "CI Alt"
+msgstr "GA Alt"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Upper"
-msgstr "CI Üst"
+msgstr "GA Üst"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -1153,7 +1153,7 @@ msgstr "Güven Aralıkları"
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
 msgid "Confidence interval"
-msgstr "Güven aralıkları"
+msgstr "Güven aralığı"
 
 #: descriptives/ui[2][2][1][0]/ci.label
 msgid "Confidence interval for Mean"
@@ -1298,22 +1298,22 @@ msgstr "Düzeltmeler"
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "Korele"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Negatif korele"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "Pozitif korele"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
 msgid "Correlation"
-msgstr ""
+msgstr "Korelasyon"
 
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
@@ -2173,7 +2173,7 @@ msgstr ""
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Anlamlı korelasyonları işaretle"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
@@ -2326,12 +2326,12 @@ msgstr ""
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ negatif korelasyondur"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ pozitif korelasyondur"
 
 #: R/proptest2.b.R
 msgid "Hₐ is proportion {direction} {testValue}"
@@ -2426,7 +2426,7 @@ msgstr ""
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipotez"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
@@ -2877,7 +2877,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr ""
+msgstr "Ortalama"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -2961,7 +2961,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Median"
-msgstr ""
+msgstr "Medyan"
 
 #: anovaRMNP/options/plotType/medians.title
 msgid "Medians"
@@ -2970,7 +2970,7 @@ msgstr ""
 #: efa/ui[1][0][0].label
 #: pca/ui[1][0][0].label
 msgid "Method"
-msgstr ""
+msgstr "Yöntem"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: linReg/results/models.template/dataSummary/mahal.columns.title
@@ -3200,7 +3200,7 @@ msgstr ""
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
@@ -3602,7 +3602,7 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-değeri"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
@@ -3736,7 +3736,7 @@ msgstr ""
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Pearson korelasyonu sayısal olmayan değerler için hesaplanamaz"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
@@ -3746,7 +3746,7 @@ msgstr ""
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "Pearson's r"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
@@ -3882,7 +3882,7 @@ msgstr "Arsa Tipi"
 #: ttestOneS/results/plots.title
 #: ttestPS/results/plots.title
 msgid "Plots"
-msgstr "Şekiller"
+msgstr "Grafikler"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
@@ -4003,7 +4003,7 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
 msgid "Predictors"
-msgstr ""
+msgstr "Yordayıcılar"
 
 #: efa/options/extraction/pa.title
 msgid "Principal axis"
@@ -4083,7 +4083,7 @@ msgstr ""
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "bir korelasyon matris grafiği sağlar."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
@@ -4787,7 +4787,7 @@ msgstr ""
 #: logRegBin/options/sens.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Sensitivity"
-msgstr ""
+msgstr "Duyarlılık"
 
 #: R/ancova.b.R
 msgid "septic"
@@ -4890,7 +4890,7 @@ msgstr "Faktör"
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr ""
+msgstr "Özgüllük"
 
 #: anovaRM/results/rmTable.columns.title
 msgid "Sphericity Correction"
@@ -5784,7 +5784,7 @@ msgstr ""
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
 msgid "Variable"
-msgstr ""
+msgstr "Değişken"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
