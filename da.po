@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-08 06:01+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"PO-Revision-Date: 2025-10-09 13:07+0000\n"
+"Last-Translator: Maria <maria@mdunbar.dk>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "da/>\n"
 "Language: da\n"
@@ -277,7 +277,7 @@ msgstr "En lav p-værdi antyder et brud på antagelsen om lige varianser"
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr "En lav p-værdi antyder et brud på antagelsen om normalfordeling"
+msgstr "En lav p-værdi antyder et brud på normalfordelingsantagelsen"
 
 #: package/datasets/Big 5 (Dolan, Oort, Stoel & Wicherts, 2009).description
 msgid "A nice correlation data set"
@@ -289,7 +289,7 @@ msgstr "en parameter"
 
 #: anovaOneW/results/postHoc.template.description
 msgid "a post-hoc table"
-msgstr "en post-hoc-tabell"
+msgstr "en post-hoc-tabel"
 
 #: contTablesPaired/results/freqs.description
 msgid "a proportions table"
@@ -353,7 +353,7 @@ msgstr "en tabel med residuene for den observerede korrelationsmatrix"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
-msgstr "en tabel med kjikvadrattesten for eksakt tilpasning"
+msgstr "en tabel med Chi i anden test for eksakt fit"
 
 #: logRegBin/results/models.template/assump/collin.description
 msgid "a table containing the collinearity statistics"
@@ -363,7 +363,7 @@ msgstr "en tabel med kolinearitetsstatistikk"
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
 msgid "a table containing the descriptives"
-msgstr "en tabel med deskriptivstatistikk"
+msgstr "en tabel med deskriptiv statistik"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
@@ -372,7 +372,7 @@ msgstr "en tabel med faktorladinger"
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
 msgid "a table containing the group descriptives"
-msgstr "en tabel med deskriptivstatistikk for grupperne"
+msgstr "en tabel med deskriptiv statistik for grupperne"
 
 #: ttestIS/results/assum/eqv.description
 msgid "a table containing the homogeneity of variances tests"
@@ -5460,7 +5460,7 @@ msgstr "de modeltermer, der indgår i modellen. Som standard sættes op en model
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "måleparrene – en separat t-test gjenneomføres for hvert par målinger."
+msgstr "måleparrene – en separat t-test gennemføres for hvert par målinger."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -5540,6 +5540,9 @@ msgstr "de modeltermer for de gentagne målinger."
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
+"Den angivne refenceniveau blev ikke fundet for følgende variable: {vars}. "
+"Første mulige niveau bliver brugt i stedet. For at vælge referenceniveau, "
+"sørg for at valgte referenceniveau findes i data."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5676,7 +5679,7 @@ msgstr "Variablen {var} kan ikke behandles som numerisk. Diagrammer, der behøve
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr "variablen, der specificerer grupperne; skal have 2 niveauer."
+msgstr "variablen, der specificerer grupperne, skal have 2 niveauer."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
@@ -5700,7 +5703,12 @@ msgstr "bredden på konfidensintervallene."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "χ²-testen for fordeling (goodness-of-fit; skal ikke forveksles med χ²-testen for uafhængighed), tester nulhypotesen, at proportionerne af observationer tilsvarer med forventede proportionerne. Hvis p-værdien er lav, tyder det på at nulhypotesen er usand, og at de observerede proportioner er forskellige fra de forventede."
+msgstr ""
+"χ²-testen for fordeling "
+"(goodness-of-fit; skal ikke forveksles med χ²-testen for uafhængighed), "
+"tester nulhypotesen at de observerede proportioner er lig de forventede. "
+"Hvis p-værdien er lav, tyder det på at nulhypotesen er usand, og at de "
+"observerede proportioner er forskellige fra de forventede."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
@@ -5756,7 +5764,7 @@ msgstr "Tolerance"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr "For få observationer (N < 3) for at beregne statistik"
+msgstr "For få observationer (N < 3) for at kunne beregne statistik"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
@@ -5848,7 +5856,7 @@ msgstr "Univariate tester"
 #: R/conttables.b.R
 #: contTables/options/resU.title
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "Ikke standardiserede residualer"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5913,7 +5921,7 @@ msgstr "Variabel"
 
 #: R/proptest2.b.R
 msgid "Variable '{var}' contains no data"
-msgstr "Variablen »{var}« ikke indeholder data"
+msgstr "Variablen »{var}« indeholder ikke data"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
