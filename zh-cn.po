@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-10 03:24+0000\n"
-"Last-Translator: 柠枺 <3436464181@qq.com>\n"
+"PO-Revision-Date: 2025-10-12 02:11+0000\n"
+"Last-Translator: 玖芋 <czlxy219@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
 "Language: zh-cn\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2514,6 +2514,9 @@ msgstr "四分位数间距"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
+"您的模型似乎存在“奇异性”问题。这通常意味着模型难以区分某些效应，因为某些变量"
+"过于密切相关，或者数据不足以可靠地估计所有效应。要解决此问题，请考虑通过移除"
+"某些效应来简化模型，或者检查您的数据是否具有冗余或高度相关的变量。"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2732,24 +2735,24 @@ msgstr "马氏卡方（Mahalanobis ChiSq）"
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "马氏距离"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "马氏距离"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "马氏距离（Chi-Squared 分布）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "马氏距离（p 值）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
+msgstr "马氏距离仅能针对具有两个或更多协变量的模型进行计算。"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
