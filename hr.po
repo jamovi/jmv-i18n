@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-10-30 04:25+0000\n"
+"PO-Revision-Date: 2025-11-06 17:51+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural="
 "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1970,7 +1970,7 @@ msgstr "Metoda procjene"
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "Isključi slučajeve analiza pomoću analiza"
+msgstr "Isključi slučajeve analize po analizi"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -5380,6 +5380,12 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
+"Analiza varijance (ANOVA) se koristi za istraživanje odnosa između "
+"kontinuirane zavisne varijable i jedne ili više kategorijskih "
+"objašnjavajućih varijabli. Ova „Jednosmjerna ANOVA” je pojednostavljena "
+"verzija od „normalne” ANOVA analize, jer omogućuje samo jedan objašnjavajući "
+"faktor, no također uključuje Welchovu ANOVU. Welchova ANOVA ima prednost jer "
+"ne zahtijeva pretpostavku da su varijance svih grupa jednake."
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5395,6 +5401,18 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
+"Analiza varijance (ANOVA) se koristi za istraživanje odnosa između "
+"kontinuirane zavisne varijable i jedne ili više kategorijskih "
+"objašnjavajućih varijabli. Ova „Jednosmjerna ANOVA” je pojednostavljena "
+"verzija od „normalne” ANOVA analize, jer omogućuje samo jedan objašnjavajući "
+"faktor, no također uključuje Welchovu ANOVU. Welchova ANOVA ima prednost jer "
+"ne zahtijeva pretpostavku da su varijance svih grupa jednake.\n"
+"\n"
+"Radi praktičnosti ova metoda omogućuje specifikaciju više zavisnih "
+"varijabli, što rezultira s više neovisnih testova.\n"
+"\n"
+"Važno je napomenuti da je Welchova ANOVA ista procedura kao i Welchov t-test "
+"za neovisne uzorke."
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
@@ -5533,11 +5551,24 @@ msgstr ""
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Friedmanov test se koristi za istraživanje odnosa između kontinuirane "
+"zavisne varijable i kategorijske objašnjavajuće varijable, pri čemu je "
+"objašnjavajuća varijabla „unutar subjekata” "
+"(gdje su višestruka mjerenja uzeta od istog subjekta). Ovaj test je analogan "
+"ANOVA testu za ponovljena mjerenja, ali s prednošću što je neparametarski, "
+"što znači da ne zahtijeva pretpostavke o normalnosti ili homogenosti "
+"varijanci. Međutim, njegovo ograničenje je da može testirati samo jednu "
+"objašnjavajuću varijablu."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
+"Kruskal-Wallis test se koristi za istraživanje odnosa između kontinuirane "
+"zavisne varijable i kategorijske objašnjavajuće varijable. Test je analogan "
+"ANOVA testu, ali s prednošću što je neparametarski, što znači da ima manje "
+"pretpostavki. Međutim, njegova ograničenje je da može testirati samo jednu "
+"objašnjavajuću varijablu."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -5552,10 +5583,16 @@ msgstr "lavaanova sintaksa korištena za prilagodbu modela"
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"metoda isključenja nedostajućih vrijednosti: „Analiza po analiza“ isključuje "
+"nedostajuće vrijednosti iz svake analize, dok „Listwise“ isključuje cijeli "
+"redak iz svih analiza ako bilo koja njegova vrijednost nedostaje."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
 msgstr ""
+"metoda isključenja nedostajućih vrijednosti: „Analiza po analizi“ isključuje "
+"nedostajuće vrijednosti iz svake varijable, dok „Listwise“ isključuje cijeli "
+"redak iz svih analiza ako bilo koja njegova vrijednost nedostaje."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -5598,6 +5635,15 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
+"ANOVA za ponovljena mjerenja koristi se za istraživanje odnosa između \n"
+"kontinuirane zavisne varijable i jedne ili više kategorijskih "
+"objašnjavajućih \n"
+"varijabli, pri čemu su jedna ili više objašnjavajućih varijabli „unutar "
+"subjekata” \n"
+"(gdje su višestruka mjerenja uzeta od istog subjekta). Osim toga, ova "
+"analiza \n"
+"tako+er omogućuje uključivanje kovarijata, čime se omogućuju i ponovljena \n"
+"mjerenja ANCOVA analiza."
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5794,6 +5840,10 @@ msgstr ""
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
 msgstr ""
+"χ² test povezanosti (ne pobrkaj ga s χ² testom prilagodbe) koristi se za "
+"testiranje je li između dvije kategorijske varijable postoji nezavisnost ili "
+"povezanost. Ako je p-vrijednost niska, to sugerira da varijable nisu "
+"neovisne i da postoji povezanost između tih dviju varijabli."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
