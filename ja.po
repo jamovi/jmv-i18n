@@ -4133,8 +4133,8 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "各変数ペアについてピアソンの相関係数（r）を算出します。"
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "残差Q-Qプロット（データが*完全な*正規分布である場合に期待される値に対する実際の残差のプロット）を作成します。対角線からの乖離が大きい場合、残差が正規分布していないことを示します。"
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "残差Q-Qプロット（データが<i>完全な</i>正規分布である場合に期待される値に対する実際の残差のプロット）を作成します。対角線からの乖離が大きい場合、残差が正規分布していないことを示します。"
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4264,14 +4264,14 @@ msgstr "事後検定を実施します。"
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "残差Q-Qプロット（データが*完全な*正規分布である場合に期待される値に対する実際の残差のプロット）を作成します。対角線からの乖離が大きい場合、残差が正規分布していないことを示しています。"
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "残差Q-Qプロット（データが<i>完全な</i>正規分布である場合に期待される値に対する実際の残差のプロット）を作成します。対角線からの乖離が大きい場合、残差が正規分布していないことを示しています。"
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "残差Q-Qプロット（データが*完全な*正規分布である場合に期待される値に対する実際の残差のプロット）を作成します。対角線からの乖離が大きい場合、残差が正規分布していないことを示しています。"
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgstr "残差Q-Qプロット（データが<i>完全な</i>正規分布である場合に期待される値に対する実際の残差のプロット）を作成します。対角線からの乖離が大きい場合、残差が正規分布していないことを示しています。"
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -5583,7 +5583,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "スチューデントの1標本t検定は、真の平均値が特定の値（通常は0）に等しい\n"
 "という帰無仮説を検定するための分析方法です。低いp値は、帰無仮説が真では\n"
 "ない、つまり真の平均が検定値と異なる可能性を示します。\n"
@@ -5591,7 +5591,7 @@ msgstr "スチューデントの1標本t検定は、真の平均値が特定の�
 "スチューデントの1標本t検定は、データが正規分布であることを仮定して\n"
 "いますが、これを仮定しない場合には、ノンパラメトリック検定である\n"
 "ウィルコクソン符号順位検定を代わりに使用することができます（ただし、\n"
-"ウィルコクソン符号順位検定は「*中央値*が検定値と等しい」という、若干\n"
+"ウィルコクソン符号順位検定は「<i>中央値</i>が検定値と等しい」という、若干\n"
 "異なる帰無仮説を用いる点には注意が必要です）。"
 
 #: package/analyses/ttestPS.description

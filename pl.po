@@ -4143,7 +4143,7 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "podaj r Pearsona dla każdej kombinacji zmiennych."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr "wyświetl wykres K-K dla reszt - wykres rzeczywistych wartości reszt względem sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia od linii ukośnej sugerują, że dane nie przyjmują rozkładu normalnego."
 
 #: corrMatrix/options/spearman.description.ui
@@ -4274,13 +4274,13 @@ msgstr "wykonuje testy post-hoc."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr "wyświetla wykres K-K reszt - wykres rzeczywistych wartości reszt względem sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia od linii ukośnej sugerują, że dane nie pochodzą z rozkładu normalnego."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr "wyświetla wykres K-K reszt - wykres rzeczywistych wartości reszt względem sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia od linii ukośnej sugerują, że reszty nie przyjmują rozkładu normalnego."
 
 #: anovaOneW/options/phSig.description.ui
@@ -5609,7 +5609,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "Test t Studenta dla jednej próby jest używany do testowania hipotezy zerowej\n"
 "wskazującej, że prawdziwa średnia jest równa określonej wartości (zazwyczaj zerowej).\n"
 "Niska wartość p sugeruje, że hipoteza zerowa nie jest prawdziwa, a zatem\n"
@@ -5619,7 +5619,7 @@ msgstr "Test t Studenta dla jednej próby jest używany do testowania hipotezy z
 "z rozkładu normalnego. W przypadku niespełnienia tego założenia\n"
 "można zastosować nieparametryczny test Wilcoxona. (Należy jednakże\n"
 "pamiętać, że test Wilcoxona testuje nieco inną hipotezę zerową, tzn.\n"
-"że *mediana* jest równa testowanej wartości)."
+"że <i>mediana</i> jest równa testowanej wartości)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
