@@ -4136,8 +4136,8 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "forneça um r de Pearson para cada combinação de variáveis."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem <i>perfeitamente</i> normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4267,14 +4267,14 @@ msgstr "fornecer testes post-hoc."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem <i>perfeitamente</i> normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem *perfeitamente* normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgstr "fornece gráficos Q-Q de resíduos - um gráfico dos resíduos observados contra os resíduos esperados se os dados fossem <i>perfeitamente</i> normais. Desvios grandes da linha diagonal sugerem que os dados não provêm de uma distribuição normal."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -5577,10 +5577,10 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "O teste t de Student para uma amostra é usado para testar a hipótese nula de que a verdadeira média é igual a um determinado valor (tipicamente zero). Um p-value pequeno sugere que a hipótese nula não é verdadeira, e\n"
 "a verdadeira média deve diferir do valor do teste.\n"
-"O teste t de Student assume que os dados têm distribuição normal -- se não por possível assumir este pressuposto, o teste não-paramétrico de Wilcoxon pode ser usado em alternativa (Contudo, note que a hipótese nula do teste de Wilcoxon é ligeiramente diferente; que a \"mediana\" é igual ao valor do teste)."
+"O teste t de Student assume que os dados têm distribuição normal -- se não por possível assumir este pressuposto, o teste não-paramétrico de Wilcoxon pode ser usado em alternativa (Contudo, note que a hipótese nula do teste de Wilcoxon é ligeiramente diferente; que a <i>mediana</i> é igual ao valor do teste)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"

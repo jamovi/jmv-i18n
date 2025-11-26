@@ -4118,8 +4118,8 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "izračuna Pearsonov r za vsako kombinacijo spremenljivk."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na pričakovanje *popolnoma* normalno porazdeljenih podatkov. Velika odstopanja od diagonalne črte kažejo, da podatki niso normalno porazdeljeni."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na pričakovanje <i>popolnoma</i> normalno porazdeljenih podatkov. Velika odstopanja od diagonalne črte kažejo, da podatki niso normalno porazdeljeni."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4249,14 +4249,14 @@ msgstr "izvede preizkuse post-hoc."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na pričakovanje *popolnoma* normalno porazdeljenih podatkov. Velika odstopanja od diagonalne črte kažejo, da podatki niso normalno porazdeljeni."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na pričakovanje <i>popolnoma</i> normalno porazdeljenih podatkov. Velika odstopanja od diagonalne črte kažejo, da podatki niso normalno porazdeljeni."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na pričakovanje *popolnoma* normalno porazdeljenih podatkov. Velika odstopanja od diagonalne črte kažejo, da ostanki niso normalno porazdeljeni."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgstr "izriše diagrame Q-Q ostankov – diagram dejanskih ostankov glede na pričakovanje <i>popolnoma</i> normalno porazdeljenih podatkov. Velika odstopanja od diagonalne črte kažejo, da ostanki niso normalno porazdeljeni."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -5566,7 +5566,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "T-Test enega vzorca se uporablja za preverjanje ničelne hipoteze,\n"
 "da je prava srednja vrednost vzorca enaka določeni vrednosti ali\n"
 "konstanti (običajno nič). Nizka p-vrednost kaže, da ničelne hipoteze\n"
@@ -5575,7 +5575,7 @@ msgstr "T-Test enega vzorca se uporablja za preverjanje ničelne hipoteze,\n"
 "T-Test enega vzorca predpostavlja, da so podatki porazdeljeni normalno.\n"
 "Če ta domneva ni mogoča, je na voljo neparametrični Wilcoxonov preizkus\n"
 "predznačenih rangov (upoštevati je treba, da ima ta preizkus nekoliko\n"
-"drugačno ničelno hipotezo – da je *mediana* enaka testni vrednosti)."
+"drugačno ničelno hipotezo – da je <i>mediana</i> enaka testni vrednosti)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"

@@ -4111,7 +4111,7 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "为每一组变量提供Pearson's 相关系数r."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr "提供残差Q-Q图：通过对比实际残差与预期残差判断数据是否完全服从正态分布。偏离对角线较远表明数据不服从正态分布。"
 
 #: corrMatrix/options/spearman.description.ui
@@ -4242,13 +4242,13 @@ msgstr "提供事后检验结果."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr "提供残差Q-Q图：通过对比实际残差与预期残差判断数据是否完全服从正态分布。偏离对角线较远表明数据不服从正态分布。"
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr "提供残差Q-Q图：通过对比实际残差与预期残差判断数据是否完全服从正态分布。偏离对角线较远表明残差不服从正态分布。"
 
 #: anovaOneW/options/phSig.description.ui
@@ -5510,7 +5510,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "单样本t检验用于比较样本均值是否与某个特定的均值相等。如果P值较低（低于检验水准）则拒绝零假设，表明样本均值与特定均值不等。\n"
 "单样本t检验适用前提是假设数据服从正态分布。如果不满足正态性条件，可使用Wilcoxon 符号秩检验。需要注意的是，Wilcoxon 符号秩检验的零假设是样本中位数与某个特定的中位数相等。"
 

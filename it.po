@@ -4146,8 +4146,8 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "fornire una r di Pearson per ogni combinazione di variabili."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "fornire un grafico Q-Q dei residui - un grafico dei residui effettivi contro quello che ci si aspetterebbe se i dati fossero *perfettamente* distribuiti normalmente. Grandi deviazioni dalla linea diagonale suggeriscono che i dati non provengono da una distribuzione normale."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "fornire un grafico Q-Q dei residui - un grafico dei residui effettivi contro quello che ci si aspetterebbe se i dati fossero <i>perfettamente</i> distribuiti normalmente. Grandi deviazioni dalla linea diagonale suggeriscono che i dati non provengono da una distribuzione normale."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4277,14 +4277,14 @@ msgstr "fornisce test post-hoc."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "fornire i grafici Q-Q dei residui - un grafico dei residui effettivi contro quello che ci si aspetterebbe se i dati fossero *perfettamente* distribuiti normalmente. Grandi deviazioni dalla linea diagonale suggeriscono che i dati non provengono da una distribuzione normale."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "fornire i grafici Q-Q dei residui - un grafico dei residui effettivi contro quello che ci si aspetterebbe se i dati fossero <i>perfettamente</i> distribuiti normalmente. Grandi deviazioni dalla linea diagonale suggeriscono che i dati non provengono da una distribuzione normale."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "fornire i grafici Q-Q dei residui - un grafico dei residui effettivi contro quello che ci si aspetterebbe se i dati fossero *perfettamente* distribuiti normalmente. Grandi deviazioni dalla linea diagonale suggeriscono che i residui non sono normalmente distribuiti."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgstr "fornire i grafici Q-Q dei residui - un grafico dei residui effettivi contro quello che ci si aspetterebbe se i dati fossero <i>perfettamente</i> distribuiti normalmente. Grandi deviazioni dalla linea diagonale suggeriscono che i residui non sono normalmente distribuiti."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -5611,7 +5611,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "Il test t di Student a Un Campione, viene utilizzato per verificare\n"
 "l'ipotesi nulla che la vera media è uguale a un valore particolare\n"
 "(tipicamente zero). Un piccolo valore di p, suggerisce che l'ipotesi nulla\n"
@@ -5621,7 +5621,7 @@ msgstr "Il test t di Student a Un Campione, viene utilizzato per verificare\n"
 "distribuzione normale -- nel caso in cui non si voglia assumere questo, il\n"
 "test dei ranghi con segno di Wilcoxon può essere utilizzato al suo posto\n"
 "(tuttavia, si noti che questo test non parametrico di Wilcoxon ha un'ipotesi\n"
-"nulla leggermente diversa, che la *mediana* sia uguale al valore del test)."
+"nulla leggermente diversa, che la <i>mediana</i> sia uguale al valore del test)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"

@@ -4147,8 +4147,8 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "மாறிகள் ஒவ்வொரு கலவைக்கும் ஒரு பியர்சனின் R ஐ வழங்கவும்."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "எச்சங்களின் Q-Q சதித்திட்டத்தை வழங்கவும்-தரவு * சரியாக * பொதுவாக விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் தரவு சாதாரண விநியோகத்திலிருந்து அல்ல என்று கூறுகின்றன."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "எச்சங்களின் Q-Q சதித்திட்டத்தை வழங்கவும்-தரவு <i>சரியாக</i> பொதுவாக விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் தரவு சாதாரண விநியோகத்திலிருந்து அல்ல என்று கூறுகின்றன."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4278,14 +4278,14 @@ msgstr "பிந்தைய தற்காலிக சோதனைகளை 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு * சரியாக * பொதுவாக விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் தரவு ஒரு சாதாரண விநியோகத்திலிருந்து அல்ல என்று கூறுகின்றன."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு <i>சரியாக</i> பொதுவாக விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் தரவு ஒரு சாதாரண விநியோகத்திலிருந்து அல்ல என்று கூறுகின்றன."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு * சரியாக * பொதுவாக விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் எச்சங்கள் பொதுவாக விநியோகிக்கப்படவில்லை என்று கூறுகின்றன."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgstr "எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு <i>சரியாக</i> பொதுவாக விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் எச்சங்கள் பொதுவாக விநியோகிக்கப்படவில்லை என்று கூறுகின்றன."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -5621,7 +5621,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "சுழிய கருதுகோளை சோதிக்க மாணவரின் ஒரு மாதிரி டி-சோதனை பயன்படுத்தப்படுகிறது\n"
 " உண்மையான சராசரி ஒரு குறிப்பிட்ட மதிப்புக்கு சமம் (பொதுவாக பூச்சியம்). ஒரு குறைந்த\n"
 " பி-மதிப்பு சுழிய கருதுகோள் உண்மை இல்லை என்று கூறுகிறது, எனவே\n"
@@ -5631,7 +5631,7 @@ msgstr "சுழிய கருதுகோளை சோதிக்க மா
 " வழங்கல் - ஒருவர் இதை ஏற்க விரும்பவில்லை எனில், தி\n"
 " அளவுரு அல்லாத வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை அதன் இடத்தில் பயன்படுத்தப்படலாம் (இருப்பினும்,\n"
 " வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை சற்று வித்தியாசமான பூச்யத்தைக் கொண்டுள்ளது என்பதை நினைவில் கொள்க\n"
-" கருதுகோள்; * சராசரி * சோதனை மதிப்புக்கு சமம்)."
+" கருதுகோள்; <i>சராசரி</i> சோதனை மதிப்புக்கு சமம்)."
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"

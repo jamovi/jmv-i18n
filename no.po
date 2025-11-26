@@ -4144,8 +4144,8 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "gi ut Pearsons r for hver kombinasjon av variabler."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "gi ut Q-Q-diagram for residuene – diagram viser de faktiske residuene mot hva kunne forventes hvis dataene var *perfekt* normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
+msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "gi ut Q-Q-diagram for residuene – diagram viser de faktiske residuene mot hva kunne forventes hvis dataene var <i>perfekt</i> normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4275,14 +4275,14 @@ msgstr "gi ut post-hoc-tester."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene mot hva kunne forventes hvis dataene hadde vært *perfekt* normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgstr "gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene mot hva kunne forventes hvis dataene hadde vært <i>perfekt</i> normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were *perfectly* normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene mot hva kan forventes hvis dataene hadde vært *perfekt* normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
+msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgstr "gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene mot hva kan forventes hvis dataene hadde vært <i>perfekt</i> normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -5604,7 +5604,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "distribution -- in the case that one is unwilling to assume this, the\n"
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
-"hypothesis; that the *median* is equal to the test value)."
+"hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr "Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
@@ -5613,7 +5613,7 @@ msgstr "Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "Student's t-test for ett utvalg forutsetter at dataene er normalfordelt.\n"
 "Hvis en ikke kan anta dette, kan ikke-parametrisk Wilcoxon-test av\n"
 "fortegnsfordeling brukes istedenfor (men vær oppmerksom på at\n"
-"Wilcoxon-test har en litt annen nullhypotese, nemlig at *median* er\n"
+"Wilcoxon-test har en litt annen nullhypotese, nemlig at <i>median</i> er\n"
 "lik testverdien)."
 
 #: package/analyses/ttestPS.description
