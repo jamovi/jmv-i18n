@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-25 19:02+0000\n"
+"PO-Revision-Date: 2025-12-29 19:00+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1303,7 +1303,7 @@ msgstr "Correlacionada"
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
 msgid "Correlated negatively"
-msgstr "Correlación negativa"
+msgstr "Correlacionado negativamente"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
@@ -3780,7 +3780,7 @@ msgstr "Pearson"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr "La correlación de Pearson no puede calcularse para valores no numéricos"
+msgstr "La correlación de Pearson no puede calcularse para valores no-numéricos"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
@@ -5609,14 +5609,20 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "La prueba t de Student para una muestra se utiliza para probar la hipótesis nula de que\n"
+msgstr ""
+"La prueba t de Student para una muestra se utiliza para probar la hipótesis "
+"nula de que\n"
 "la media real es igual a un valor particular (normalmente cero). Un bajo\n"
 "El valor p sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
 "la media real debe ser diferente del valor de prueba.\n"
 "\n"
-"La prueba t de una muestra de Student asume que los datos provienen de una distribución normal - en el caso de que uno no esté dispuesto a asumir esto, el\n"
-"El rango con signo de Wilcoxon no paramétrico se puede usar en su lugar (Sin embargo,\n"
-"tenga en cuenta que el rango con signo de Wilcoxon tiene un valor nulo ligeramente diferente\n"
+"La prueba t de una muestra de Student asume que los datos provienen de una "
+"distribución\n"
+"normal - en el caso de que uno no esté dispuesto a asumir esto, el\n"
+"El rango con signo de Wilcoxon no paramétrico se puede usar en su lugar (Sin "
+"embargo,\n"
+"tenga en cuenta que el rango con signo de Wilcoxon tiene un valor nulo "
+"ligeramente diferente\n"
 "hipótesis; que la <i>mediana</i> es igual al valor de prueba)."
 
 #: package/analyses/ttestPS.description
