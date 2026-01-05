@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-04 15:01+0000\n"
+"PO-Revision-Date: 2026-01-05 13:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -121,7 +121,7 @@ msgstr "{varType} modela{modelNo} linearne regresije"
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr "* p < .05, ** p < .01, *** p < .001, jednostrano"
+msgstr "* p < ,05, ** p < ,01, *** p <  ,001, jednostrano"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -1224,7 +1224,7 @@ msgstr "Razina pouzdanosti"
 #: cfa/ui.title
 #: cfa/results.title
 msgid "Confirmatory Factor Analysis"
-msgstr "Potvrdna faktorska analiza"
+msgstr "Potvrdna analiza faktora"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
@@ -2227,7 +2227,7 @@ msgstr "Označi značajne korelacije"
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "označi značajne korelacije (p < .05) sa simbolima."
+msgstr "označi značajne korelacije (p < ,05) sa simbolima."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
@@ -2686,7 +2686,7 @@ msgstr "Razina 2"
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
 msgstr ""
-"Leveneov test je značajan (p < 0,05), što ukazuje na kršenje pretpostavke o "
+"Leveneov test je značajan (p < 0,05), što ukazuje na kršenje pretpostavke o "
 "jednakim varijancama"
 
 #: R/proptest2.b.R
@@ -3369,11 +3369,11 @@ msgstr ""
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
-msgstr "Sve statistike još ne podržavaju ponderirane podatke."
+msgstr "Ponderirane podatke još ne podržavaju sve statistike."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr "Nije dostupno zbog prevelikog broja slučajeva (> 5.000)."
+msgstr "Nije dostupno zbog prevelikog broja slučajeva (> 5.000)."
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
@@ -3539,7 +3539,7 @@ msgstr "Jednofaktorska ANOVA analiza (Fisher)"
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr "Jednofaktorska ANOVA analiza (Neparametrijski)"
+msgstr "Jednofaktorska ANOVA analiza (neparametrijski)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
@@ -4603,7 +4603,7 @@ msgstr "ANOVA analiza ponovljenih mjerenja"
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr "ANOVA analiza ponovljenih mjerenja (Neparametrijska)"
+msgstr "ANOVA analiza ponovljenih mjerenja (neparametrijski)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
@@ -5624,7 +5624,7 @@ msgstr ""
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
 msgstr ""
 "širina prijašnje distribucije za Bayesove faktore Studentovog t-testa. "
-"Potrebna je vrijednost između 0,01 i 2,0, zadana vrijednost je 0,707."
+"Potrebna je vrijednost između 0,5 i 2,0, zadana vrijednost je 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -6206,8 +6206,8 @@ msgstr "W"
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
 msgstr ""
-"Ponderiraj svaku ćeliju jednako. (Ćelije se prema zadanim postavkama "
-"ponderiraju prema učestalosti ćelije.)"
+"Ponderiraj svaku ćeliju jednako. (Ćelije se standardno ponderiraju prema "
+"učestalosti ćelije.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
@@ -6216,7 +6216,7 @@ msgstr "Varijabla pondera"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
-msgstr "Ponderirano s '{varName}'"
+msgstr "Ponderirano varijablom '{varName}'"
 
 #: package/analyses/weights.title
 #: package/analyses/weights.menuTitle
