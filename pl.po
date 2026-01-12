@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-11-24 11:52+0000\n"
+"PO-Revision-Date: 2026-01-12 12:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural="
-"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -3778,7 +3778,7 @@ msgstr "r Pearsona"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr "Nie można obliczyć korelacji Pearsona dla wartości nienumerycznych"
+msgstr "Korelacji Pearsona nie może być obliczona dla wartości nienumerycznych"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
@@ -4144,7 +4144,11 @@ msgstr "podaj r Pearsona dla każdej kombinacji zmiennych."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "wyświetl wykres K-K dla reszt - wykres rzeczywistych wartości reszt względem sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia od linii ukośnej sugerują, że dane nie przyjmują rozkładu normalnego."
+msgstr ""
+"wyświetl wykres K-K dla reszt -- wykres rzeczywistych wartości reszt "
+"względem sytuacji, w której reszty miałyby rozkład <i>idealnie</i> normalny. "
+"Duże odchylenia od linii ukośnej sugerują, że dane nie przyjmują rozkładu "
+"normalnego."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4275,13 +4279,21 @@ msgstr "wykonuje testy post-hoc."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "wyświetla wykres K-K reszt - wykres rzeczywistych wartości reszt względem sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia od linii ukośnej sugerują, że dane nie pochodzą z rozkładu normalnego."
+msgstr ""
+"wyświetla wykres K-K reszt -- wykres rzeczywistych wartości reszt względem "
+"sytuacji, w której reszty miałyby rozkład <i>idealnie</i> normalny. Duże "
+"odchylenia od linii ukośnej sugerują, że dane nie pochodzą z rozkładu "
+"normalnego."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "wyświetla wykres K-K reszt - wykres rzeczywistych wartości reszt względem sytuacji, w której reszty miałyby rozkład idealnie normalny. Duże odchylenia od linii ukośnej sugerują, że reszty nie przyjmują rozkładu normalnego."
+msgstr ""
+"wyświetla wykres K-K reszt -- wykres rzeczywistych wartości reszt względem "
+"sytuacji, w której reszty miałyby rozkład <i>idealnie</i> normalny. Duże "
+"odchylenia od linii ukośnej sugerują, że reszty nie przyjmują rozkładu "
+"normalnego."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
