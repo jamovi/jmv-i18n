@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-10-25 13:02+0000\n"
-"Last-Translator: 柠枺 <3436464181@qq.com>\n"
+"PO-Revision-Date: 2026-02-11 07:09+0000\n"
+"Last-Translator: yeyeye <m15658453017@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
 "Language: zh-cn\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2756,7 +2756,7 @@ msgstr "马氏距离仅能针对具有两个或更多协变量的模型进行计
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "马氏 p 值"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3727,7 +3727,7 @@ msgstr "偏 η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "p 值低于阈值的样本（行）"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3751,7 +3751,7 @@ msgstr "对于非数字值不能计算 Pearson 相关性"
 #: R/conttables.b.R
 #: contTables/options/resP.title
 msgid "Pearson residuals"
-msgstr ""
+msgstr "皮尔逊残差"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -4860,7 +4860,7 @@ msgstr "发生奇异拟合：一个或多个预测变量是其他预测变量的
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "奇异性错误：无法进行球形假设校正"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -4984,7 +4984,7 @@ msgstr "标准化残差"
 
 #: R/conttables.b.R
 msgid "Standardized residuals"
-msgstr ""
+msgstr "标准化残差"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
@@ -5616,7 +5616,7 @@ msgstr "理论分位数"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "没有观测值的马氏 p 值低于 < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
