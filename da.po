@@ -1,11 +1,11 @@
+#
 msgid ""
-msgstr ""
+msgstr "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: R/errors.R
@@ -437,8 +437,9 @@ msgid "a table of normality tests"
 msgstr "en tabel med tester på normalfordeling"
 
 #: contTables/results/postHoc.description
+#, fuzzy
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "en tabel over post-hoc-rester"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -1523,8 +1524,9 @@ msgid "Data Summary"
 msgstr "Sammendrag af data"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "degree"
-msgstr ""
+msgstr "grad"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -1658,16 +1660,19 @@ msgid "Deviance"
 msgstr "Afvigelse"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Afledningsrester"
 
 #: contTables/options/resA.title
+#, fuzzy
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Afledningsrester (Poisson GLM)"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Afledningsrester er justerede rester fra en Poisson GLM."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1748,8 +1753,9 @@ msgid "Distribution"
 msgstr "Fordeling"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Understøtter ikke vægtede data endnu."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1781,8 +1787,9 @@ msgstr "Parvise sammenligninger efter DSCF"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
+#, fuzzy
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Dunns parvis sammenligninger"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2508,8 +2515,9 @@ msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr ""
+#, fuzzy
+msgid "It appears that your model has a \\\"singularity\\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgstr "Det ser ud til, at din model har et \\\"singulært\\\" problem. Dette betyder normalt, at modellen har svært ved at skelne mellem visse effekter, fordi nogle variabler er for tæt sammenhængende eller der ikke er nok data til at estimere alle effekterne pålideligt. For at løse dette, overvej at simplificere modellen ved at fjerne nogle af effekterne eller kontrollere, om dine data måske har redundante eller højtkorrelerede variabler."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2722,34 +2730,41 @@ msgid "lower bound"
 msgstr "nedre grænse"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Mahalanobis ChiSq"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
+#, fuzzy
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Mahalanobis-afstand"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
+#, fuzzy
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Mahalanobis-afstand"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Mahalanobis-afstand (Chi sq.)"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Mahalanobis-afstand (p)"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
+msgstr "Mahalanobis-afstand kan kun beregnes for modeller med to eller flere kovariater"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "Mahalanobis p"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3084,8 +3099,9 @@ msgid "Model Fit"
 msgstr "Modeltilpasning"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Modeltilpasningsproblem fundet!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3131,8 +3147,9 @@ msgstr "Modeltærskler"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
+#, fuzzy
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "Modeller estimeret ved hjælp af en stikprøvestørrelse på N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3281,8 +3298,9 @@ msgid "Not all coefficients could be estimated (likely due to singular fit)"
 msgstr "Ikke alle koefficienter kunne estimeres (sandsynligvis fordi resultatmatrixen er singulær)"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "Ikke alle statistikker understøtter vægtede data endnu."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3520,8 +3538,9 @@ msgid "p"
 msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
+#, fuzzy
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3530,12 +3549,14 @@ msgid "p-value"
 msgstr "p-værdi"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
+#, fuzzy
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
+#, fuzzy
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3659,8 +3680,9 @@ msgid "partial η²"
 msgstr "partiel η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
+#, fuzzy
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "Deltagere (rækker) under p-grænseværdi"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3683,8 +3705,9 @@ msgstr "Pearson-korrelation kan ikke beregnes for ikke-numeriske værdier"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
+#, fuzzy
 msgid "Pearson residuals"
-msgstr ""
+msgstr "Pearsons rester"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3828,8 +3851,9 @@ msgid "Plots"
 msgstr "Figurer"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "Plots er endnu ikke understøttet til vægtede beskrivelser."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3838,8 +3862,9 @@ msgid "Polynomial"
 msgstr "Polynomial"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr ""
+msgstr "Polynomer begrænset til grad 6"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3847,12 +3872,14 @@ msgid "Post Hoc Comparisons - {term}"
 msgstr "Post-hoc-sammenlikninger - {term}"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Post Hoc-test"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Post Hoc-test ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4758,14 +4785,16 @@ msgstr "Side-om-side"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
+#, fuzzy
 msgid "Simple (vs. First)"
-msgstr ""
+msgstr "Enkel (vs. Først)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
+#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr ""
+msgstr "Enkel (vs. Sidst)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -4785,8 +4814,9 @@ msgid "Singular fit encountered; one or more predictor variables are a linear co
 msgstr "Det opstod singularitet: En eller flere prediktorvariabler er en lineær kombination af andre prediktorvariabler."
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "Singulær fejl. Sfærisk korrektion er ikke tilgængelig"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -4909,12 +4939,14 @@ msgid "Standardized Residuals"
 msgstr "Standardiserede residuer"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Standardized residuals"
-msgstr ""
+msgstr "Standardiserede rester"
 
 #: contTables/options/resS.title
+#, fuzzy
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Standardiserede rester (justerede Pearson)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5616,8 +5648,9 @@ msgid "Theoretical Quantiles"
 msgstr "Teoretiske kvantiler"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "Der var ingen Mahalanobis-afstande med en grænseværdi under p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."

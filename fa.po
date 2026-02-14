@@ -1,11 +1,11 @@
+#
 msgid ""
-msgstr ""
+msgstr "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #: R/errors.R
@@ -13,53 +13,65 @@ msgid "'{col}' contains infinite values"
 msgstr "'{col}' حاوی مقادیر نامتناهی است"
 
 #: R/errors.R
+#, fuzzy
 msgid "'{col}' contains missing values"
-msgstr ""
+msgstr "'{col}' حاوی مقادیر از دست رفته است"
 
 #: R/errors.R
+#, fuzzy
 msgid "'{col}' contains only missing values"
-msgstr ""
+msgstr "'{col}' فقط شامل مقادیر از دست رفته است"
 
 #: R/errors.R
+#, fuzzy
 msgid "'{col}' contains only one unique value"
-msgstr ""
+msgstr "'{col}' فقط یک مقدار منحصر به فرد دارد"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
+msgstr "روش استخراج '{method}' در ترکیب با یک '{rotation}' چرخش استفاده شد"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "'{rotation}' rotation was used"
-msgstr ""
+msgstr "چرخش '{rotation}' استفاده شد"
 
 #: R/descriptives.b.R
 #: R/linreg.b.R
+#, fuzzy
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "'{var}' شامل مقادیر منفی است. وزن‌های منفی مجاز نیستند"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "{} - Kendall's Tau B"
-msgstr ""
+msgstr "{} - Kendall's Tau B"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "{} - Pearson's r"
-msgstr ""
+msgstr "{} - r pearson"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "{} - Spearman's rho"
-msgstr ""
+msgstr "{} - راندمان اسپیرمن"
 
 #: R/corrmatrix.b.R
+#, fuzzy
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "کمی CI {}% پایین"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "{ciWidth}% CI mean {title}"
-msgstr ""
+msgstr "{ciWidth}% CI میانگین {title}"
 
 #: R/corrmatrix.b.R
+#, fuzzy
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% CI بالایی"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -74,12 +86,14 @@ msgstr ""
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "{ciWidth}% Confidence Interval"
-msgstr ""
+msgstr "{ciWidth}% بازه‌ی اعتماد"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "{ciWidth}% Confidence Intervals"
-msgstr ""
+msgstr "متنASال {ciWidth}%"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
@@ -94,29 +108,35 @@ msgid "{list}, and {lastItem}"
 msgstr "{list}، و {lastItem}"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "{n} pair(s) of values were tied"
-msgstr ""
+msgstr "{n} جفت از مقادیر یکسان بودند"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "امتیاز {type} بر اساس متغیرهای {vars}"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "{varName} (reversed)"
-msgstr ""
+msgstr "{varName} (reversed)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr ""
+msgstr "{varType} مدل رگرسیون لجستیک دوجمله ای {modelNo}"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "{varType} of linear regression model{modelNo}"
-msgstr ""
+msgstr "{varType} مدل رگرسیون خطی {modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
+#, fuzzy
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, یک طرفه"
 
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
@@ -153,16 +173,19 @@ msgid "%"
 msgstr "٪"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "% Correct"
-msgstr ""
+msgstr "% صحیح"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "% of Total"
-msgstr ""
+msgstr "درصد از کل"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "% of total"
-msgstr ""
+msgstr "درصد از کل"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
@@ -171,134 +194,162 @@ msgstr "٪ واریانس"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "% within column"
-msgstr ""
+msgstr "% در ستون"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "% within row"
-msgstr ""
+msgstr "درصد در هر سطر"
 
 #: ancova/results/main.title
+#, fuzzy
 msgid "`ANCOVA - ${dep}`"
-msgstr ""
+msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
+#, fuzzy
 msgid "`ANOVA - ${dep}`"
-msgstr ""
+msgstr "`ANOVA - ${dep}`"
 
 #: linReg/results/models.template/coef.title
+#, fuzzy
 msgid "`Model Coefficients - ${ dep }`"
-msgstr ""
+msgstr "`موثرهای مدل - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
+#, fuzzy
 msgid "`Model Coefficients - ${dep}`"
-msgstr ""
+msgstr "`مختصات مدل - ${dep}`"
 
 #: propTestN/results/props.title
+#, fuzzy
 msgid "`Proportions - ${var}`"
-msgstr ""
+msgstr "`Proportions - ${var}`"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "±%"
-msgstr ""
+msgstr "±%"
 
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
+#, fuzzy
 msgid "< Test value"
-msgstr ""
+msgstr "< Test value"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
+#, fuzzy
 msgid "≠ Test value"
-msgstr ""
+msgstr "ارزش آزمون ≠"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
+#, fuzzy
 msgid "> Test value"
-msgstr ""
+msgstr "> مقدار آزمون"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
+#, fuzzy
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
-msgstr ""
+msgstr "⁻ میانگین - 1SD, <sup>μ</sup> میانگین, ⁺ میانگین + 1SD"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - خاصیت"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
+#, fuzzy
 msgid "2 Outcomes"
-msgstr ""
+msgstr "2 نتیجه"
 
 #: descriptives/options/pcValues.default
+#, fuzzy
 msgid "25,50,75"
-msgstr ""
+msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
+#, fuzzy
 msgid "a (semi)partial correlation matrix table"
-msgstr ""
+msgstr "جدول ماتریس همبستگی (نیمه) جزئی"
 
 #: corrMatrix/results/plot.description
+#, fuzzy
 msgid "a correlation matrix plot"
-msgstr ""
+msgstr "یک نمودار ماتریس همبستگی"
 
 #: corrMatrix/results/matrix.description
+#, fuzzy
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "جدول ماتریس همبستگی"
 
 #: anovaRMNP/results/plot.description
+#, fuzzy
 msgid "a descriptives plot"
-msgstr ""
+msgstr "یک نمودار توصیفی"
 
 #: ttestIS/results/assum/eqv.notes.p
+#, fuzzy
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr ""
+msgstr "مقدار p کم نشان‌دهنده نقض فرض برابری واریانس‌ها است"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
+#, fuzzy
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
+msgstr "یک مقدار p کم نشان دهنده نقض فرض نرمالی بودن است"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
+#, fuzzy
 msgid "A nice correlation data set"
-msgstr ""
+msgstr "یک مجموعه داده همبستگی زیبا"
 
 #: propTest2/ui[2][0][0]/priorA.label
+#, fuzzy
 msgid "a parameter"
-msgstr ""
+msgstr "پارامتر"
 
 #: anovaOneW/results/postHoc.template.description
+#, fuzzy
 msgid "a post-hoc table"
-msgstr ""
+msgstr "a post-hoc table"
 
 #: contTablesPaired/results/freqs.description
+#, fuzzy
 msgid "a proportions table"
-msgstr ""
+msgstr "جدول نسبت‌ها"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
+#, fuzzy
 msgid "a q-q plot"
-msgstr ""
+msgstr "پلات q-q"
 
 #: package/datasets/Bugs(Ryan,Wilde&Crist,2013).description
+#, fuzzy
 msgid "A repeated measures ANOVA data set"
-msgstr ""
+msgstr "یک مجموعه داده ANOVA با اندازه‌گیری‌های تکراری"
 
 #: anovaRM/results/groupSummary.description
+#, fuzzy
 msgid "a summary of the groups"
-msgstr ""
+msgstr "خلاصه‌ای از گروه‌ها"
 
 #: ancova/results/emm.template/emmTable.description
 #: anova/results/emm.template/emmTable.description
@@ -307,201 +358,245 @@ msgstr ""
 #: logLinear/results/models.template/emm.template/emmTable.description
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
+#, fuzzy
 msgid "a table containing estimated marginal means"
-msgstr ""
+msgstr "یک جدول حاوی میانگین های حاشیه ای برآورد شده"
 
 #: cfa/results/factorEst/factorCov.description
+#, fuzzy
 msgid "a table containing factor covariances estimates"
-msgstr ""
+msgstr "جدول حاوی برآورد واریانس‌های عاملی"
 
 #: cfa/results/factorEst/factorIntercept.description
+#, fuzzy
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "جدولی که شامل برآوردهای截ه‌های متغیرهای фактор است"
 
 #: cfa/results/modelFit/fitMeasures.description
+#, fuzzy
 msgid "a table containing fit measures"
-msgstr ""
+msgstr "جدولی حاوی اندازه‌های برازش"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
+#, fuzzy
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr ""
+msgstr "جدولی حاوی شاخص های اصلاح برای بارهای عاملی که در مدل گنجانده نشده اند"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
+#, fuzzy
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr ""
+msgstr "جدول حاوی شاخص‌های اصلاح برای کوواریانس‌های باقی‌مانده که در مدل گنجانده نشده‌اند"
 
 #: cfa/results/resEst/resCov.description
+#, fuzzy
 msgid "a table containing residual covariances estimates"
-msgstr ""
+msgstr "جدولی که شامل برآوردهای کوواریانس باقیمانده است"
 
 #: cfa/results/resEst/resIntercept.description
+#, fuzzy
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "جدولی حاوی برآوردهای تقاطع باقیمانده"
 
 #: cfa/results/modelPerformance/corRes.description
+#, fuzzy
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "یک جدول حاوی باقیمانده ها برای ماتریس همبستگی مشاهده شده"
 
 #: cfa/results/modelFit/test.description
+#, fuzzy
 msgid "a table containing the chi-square test for exact fit"
-msgstr ""
+msgstr "جدولی که شامل آزمون مربع کای برای برازش دقیق است"
 
 #: logRegBin/results/models.template/assump/collin.description
+#, fuzzy
 msgid "a table containing the collinearity statistics"
-msgstr ""
+msgstr "جدول حاوی آمار هم‌خطی"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
+#, fuzzy
 msgid "a table containing the descriptives"
-msgstr ""
+msgstr "یک جدول حاوی توصیفات"
 
 #: cfa/results/factorLoadings.description
+#, fuzzy
 msgid "a table containing the factor loadings"
-msgstr ""
+msgstr "جدول حاوی بارهای عامل"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
+#, fuzzy
 msgid "a table containing the group descriptives"
-msgstr ""
+msgstr "جدولی حاوی توصیفات گروهی"
 
 #: ttestIS/results/assum/eqv.description
+#, fuzzy
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "جدولی حاوی آزمون‌های همگنی واریانس‌ها"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
+#, fuzzy
 msgid "a table containing the normality test results"
-msgstr ""
+msgstr "یک جدول حاوی نتایج آزمون نرمال بودن"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
+#, fuzzy
 msgid "a table containing the normality tests"
-msgstr ""
+msgstr "جدول حاوی آزمون‌های نرمال بودن"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
+#, fuzzy
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr ""
+msgstr "جدولی حاوی نتایج آزمون باکس-تیدوئل"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
+#, fuzzy
 msgid "a table containing the t-test results"
-msgstr ""
+msgstr "جدولی حاوی نتایج آزمون t"
 
 #: ancova/results/main.description
+#, fuzzy
 msgid "a table of ANCOVA results"
-msgstr ""
+msgstr "جدولی از نتایج ANCOVA"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
+#, fuzzy
 msgid "a table of ANOVA results"
-msgstr ""
+msgstr "جدول نتایج ANOVA"
 
 #: contTables/results/odds.description
+#, fuzzy
 msgid "a table of comparative measures"
-msgstr ""
+msgstr "جدول معیارهای مقایسه‌ای"
 
 #: anovaOneW/results/assump/eqv.description
+#, fuzzy
 msgid "a table of homogeneity of variances tests"
-msgstr ""
+msgstr "جدول آزمون‌های همگنی واریانس‌ها"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
+#, fuzzy
 msgid "a table of homogeneity tests"
-msgstr ""
+msgstr "یک جدول از آزمون های همگنی"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
+#, fuzzy
 msgid "a table of likelihood ratio tests"
-msgstr ""
+msgstr "یک جدول از آزمون‌های نسبت احتمال"
 
 #: logRegOrd/results/models.template/thres.description
+#, fuzzy
 msgid "a table of model coefficient thresholds"
-msgstr ""
+msgstr "جدول آستانه‌های ضرایب مدل"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
 #: logRegBin/results/models.template/coef.description
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
+#, fuzzy
 msgid "a table of model coefficients"
-msgstr ""
+msgstr "جدولی از ضرایب مدل"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
+#, fuzzy
 msgid "a table of normality tests"
-msgstr ""
+msgstr "جدول آزمایش های نرمالی"
 
 #: contTables/results/postHoc.description
+#, fuzzy
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "جدولی از باقیمانده‌های پس از آزمون"
 
 #: logRegBin/results/models.template/pred/class.description
+#, fuzzy
 msgid "a table of predicted classifications"
-msgstr ""
+msgstr "جدول طبقه‌بندی‌های پیش‌بینی‌شده"
 
 #: logRegBin/results/models.template/pred/measures.description
+#, fuzzy
 msgid "a table of predictive measures"
-msgstr ""
+msgstr "جدول معیارهای پیش‌بینی"
 
 #: contTables/results/freqs.description
+#, fuzzy
 msgid "a table of proportions"
-msgstr ""
+msgstr "جدول نسبت‌ها"
 
 #: contTablesPaired/results/test.description
+#, fuzzy
 msgid "a table of test results"
-msgstr ""
+msgstr "جدول نتایج آزمون"
 
 #: contTables/results/nom.description
+#, fuzzy
 msgid "a table of the 'nominal' test results"
-msgstr ""
+msgstr "یک جدول از نتایج آزمون 'اسمي'"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
+#, fuzzy
 msgid "a table of the descriptive statistics"
-msgstr ""
+msgstr "یک جدول از آمار توصیفی"
 
 #: anovaRMNP/results/table.description
+#, fuzzy
 msgid "a table of the Friedman test results"
-msgstr ""
+msgstr "جدول نتایج آزمون فریدمن"
 
 #: contTables/results/gamma.description
+#, fuzzy
 msgid "a table of the gamma test results"
-msgstr ""
+msgstr "جدول نتایج آزمون گاما"
 
 #: contTables/results/taub.description
+#, fuzzy
 msgid "a table of the Kendall's tau-b test results"
-msgstr ""
+msgstr "جدولی از نتایج آزمون تاو-b کندال"
 
 #: contTables/results/mh.description
+#, fuzzy
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr ""
+msgstr "جدولی از آزمون منتل-هانزل برای روند"
 
 #: anovaRMNP/results/comp.description
+#, fuzzy
 msgid "a table of the pairwise comparisons"
-msgstr ""
+msgstr "جدولی از مقایسه‌های جفتی"
 
 #: propTestN/results/props.description
+#, fuzzy
 msgid "a table of the proportions"
-msgstr ""
+msgstr "جدول نسبت‌ها"
 
 #: propTest2/results/table.description
+#, fuzzy
 msgid "a table of the proportions and test results"
-msgstr ""
+msgstr "a table of the proportions and test results"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
+#, fuzzy
 msgid "a table of the test results"
-msgstr ""
+msgstr "یک جدول از نتایج تست"
 
 #: contTables/results/chiSq.description
+#, fuzzy
 msgid "a table of χ² test results"
-msgstr ""
+msgstr "a table of χ² test results"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -513,12 +608,14 @@ msgstr "دقت"
 #: logRegBin/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.addButton
+#, fuzzy
 msgid "Add New Block"
-msgstr ""
+msgstr "افزودن بلوک جدید"
 
 #: cfa/ui[0][0]/factors.addButton
+#, fuzzy
 msgid "Add New Factor"
-msgstr ""
+msgstr "افزودن عاملی جدید"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -527,33 +624,38 @@ msgstr ""
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
+#, fuzzy
 msgid "Add New Term"
-msgstr ""
+msgstr "اضافه کردن اصطلاح جدید"
 
 #: corrMatrix/ui[1][1].label
 #: corrPart/ui[1][3].label
 #: reliability/ui[1][0][1].label
+#, fuzzy
 msgid "Additional Options"
-msgstr ""
+msgstr "گزینه‌های اضافی"
 
 #: cfa/ui[5].label
 #: efa/ui[1][1][2].label
 #: pca/ui[1][1][2].label
+#, fuzzy
 msgid "Additional Output"
-msgstr ""
+msgstr "خروجی اضافی"
 
 #: anovaOneW/ui[1][1][0].label
 #: propTest2/ui[1][1][0].label
 #: ttestIS/ui[1][1][0].label
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
+#, fuzzy
 msgid "Additional Statistics"
-msgstr ""
+msgstr "آمار اضافی"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
+#, fuzzy
 msgid "Adjusted R²"
-msgstr ""
+msgstr "R² تنظیم شده"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -567,14 +669,16 @@ msgstr ""
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/options/aic.title
 #: logRegOrd/results/modelFit.columns.title
+#, fuzzy
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "All observations are tied"
-msgstr ""
+msgstr "همه مشاهدات گره‌ای هستند"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -585,52 +689,62 @@ msgstr "فرض متقابل"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
+#, fuzzy
 msgid "an array of contrasts tables"
-msgstr ""
+msgstr "یک آرایه از جداول تقابل"
 
 #: descriptives/results/plots.description
+#, fuzzy
 msgid "an array of descriptive plots"
-msgstr ""
+msgstr "an array of descriptive plots"
 
 #: descriptives/results/extremeValues.description
+#, fuzzy
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "یک آرایه از جداول ارزش های افراطی"
 
 #: descriptives/results/frequencies.description
+#, fuzzy
 msgid "an array of frequency tables"
-msgstr ""
+msgstr " آرایه‌ای از جداول بسامد"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
+#, fuzzy
 msgid "an array of groups of plots"
-msgstr ""
+msgstr "رشته‌ای از گروه‌های نمودارها"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
 #: logRegBin/results/models.description
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
+#, fuzzy
 msgid "an array of model specific results"
-msgstr ""
+msgstr "an array of model specific results"
 
 #: anovaNP/results/comparisons.description
 #: anovaNP/results/comparisonsDunn.description
+#, fuzzy
 msgid "an array of pairwise comparison tables"
-msgstr ""
+msgstr "آرایه ای از جداول مقایسه های جفتی"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
+#, fuzzy
 msgid "an array of post-hoc tables"
-msgstr ""
+msgstr "آرایه‌ای از جداول پس از آزمون"
 
 #: ttestOneS/results/qq.description
+#, fuzzy
 msgid "an array of Q-Q plots"
-msgstr ""
+msgstr "آرایه‌ای از نمودارها Q-Q"
 
 #: ttestPS/results/plots.description
+#, fuzzy
 msgid "an array of the descriptive plots"
-msgstr ""
+msgstr "یک آرایه از نمودار های توصیفی"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -639,28 +753,34 @@ msgstr ""
 #: logLinear/results/models.template/emm.description
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
+#, fuzzy
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "رشته‌ای از نمودار‌های میانگین‌های حاشیه‌ای برآورد شده + جداول"
 
 #: propTest2/results/postPlots.description
+#, fuzzy
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "یک آرایه از نمودارهای پسین"
 
 #: cfa/results/pathDiagram.description
+#, fuzzy
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "تصویری که نمودار مسیر مدل را شامل می‌شود"
 
 #: ttestOneS/results/plots.description
+#, fuzzy
 msgid "an image of the descriptive plots"
-msgstr ""
+msgstr "تصویر از پلات‌های توصیفی"
 
 #: package/datasets/ToothGrowth.description
+#, fuzzy
 msgid "An uninspiring ANOVA data set"
-msgstr ""
+msgstr "یک مجموعه داده ANOVA بی الهام"
 
 #: package.title
+#, fuzzy
 msgid "Analyses bundled with jamovi"
-msgstr ""
+msgstr "تحلیل‌های همراه با جمووی"
 
 #: package/analyses/ancova.title
 #: package/analyses/ancova.menuTitle
@@ -671,12 +791,14 @@ msgid "ANCOVA"
 msgstr "تحلیل کوواریانس"
 
 #: efa/options/factorScoreMethod/Anderson.title
+#, fuzzy
 msgid "Anderson & Rubin"
-msgstr ""
+msgstr "Anderson & Rubin"
 
 #: package/datasets/Anderson'sIrisData.name
+#, fuzzy
 msgid "Anderson's Iris Data"
-msgstr ""
+msgstr "داده‌های آیریز اندرسون"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -706,12 +828,14 @@ msgid "ANOVA test"
 msgstr "آزمون تحلیل واریانس"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr ""
+msgstr "از آنجایی که هیچ عامل بین موضوعات مشخص نشده است، این فرض همیشه برآورده می شود."
 
 #: anovaOneW/options/fishers.title
+#, fuzzy
 msgid "Assume equal (Fisher's)"
-msgstr ""
+msgstr "برابری را فرض کنید (فیشر)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -733,22 +857,26 @@ msgstr ""
 #: ttestIS/ui[1][1][1].label
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
+#, fuzzy
 msgid "Assumption Checks"
-msgstr ""
+msgstr "چک‌های فرض"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
+#, fuzzy
 msgid "Assumptions"
-msgstr ""
+msgstr "فرضیه‌ها"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "At least one variable must have two levels"
-msgstr ""
+msgstr "حداقل یک متغیر باید دو سطح داشته باشد"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
+#, fuzzy
 msgid "AUC"
-msgstr ""
+msgstr "AUC"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
@@ -759,52 +887,63 @@ msgid "Autocorrelation test"
 msgstr "آزمون خودهمبستگی"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Available for 2x2 tables only"
-msgstr ""
+msgstr "فقط برای جداول 2x2 در دسترس است"
 
 #: propTest2/ui[2][0][0]/priorB.label
+#, fuzzy
 msgid "b parameter"
-msgstr ""
+msgstr "پارامتر b"
 
 #: contTables/options/barplot.title
+#, fuzzy
 msgid "Bar Plot"
-msgstr ""
+msgstr "نمودار میله ای"
 
 #: descriptives/options/bar.title
+#, fuzzy
 msgid "Bar plot"
-msgstr ""
+msgstr "نمودار میله ای"
 
 #: descriptives/ui[3][0][2].label
+#, fuzzy
 msgid "Bar Plots"
-msgstr ""
+msgstr "پلات‌های میله‌ای"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][3][0][0][1].label
+#, fuzzy
 msgid "Bar Type"
-msgstr ""
+msgstr "Bar Type"
 
 #: efa/options/factorScoreMethod/Bartlett.title
+#, fuzzy
 msgid "Bartlett"
-msgstr ""
+msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
+#, fuzzy
 msgid "Bartlett's Test of Sphericity"
-msgstr ""
+msgstr "آزمون کرویت بارتلت"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
+#, fuzzy
 msgid "Bartlett's test of sphericity"
-msgstr ""
+msgstr "آزمون کرویت بارتلت"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
+#, fuzzy
 msgid "Based on eigenvalue"
-msgstr ""
+msgstr "بر اساس مقدار ویژه"
 
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
+#, fuzzy
 msgid "Based on parallel analysis"
-msgstr ""
+msgstr "بر основе تحلیل موازی"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -813,39 +952,46 @@ msgstr ""
 #: ttestOneS/ui[1][0][0]/students/bf.label
 #: ttestPS/options/bf.title
 #: ttestPS/ui[1][0][0]/students/bf.label
+#, fuzzy
 msgid "Bayes factor"
-msgstr ""
+msgstr "عامل بیز"
 
 #: propTest2/results/table.columns.title
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
+#, fuzzy
 msgid "Bayes factor₁₀"
-msgstr ""
+msgstr "عامل Bayes₁₀"
 
 #: propTest2/ui[2].label
 msgid "Bayesian Statistics"
 msgstr "آمار بیزی"
 
 #: propTest2/options/priorA.title
+#, fuzzy
 msgid "beta 'a' parameter"
-msgstr ""
+msgstr "پارامتر 'a' بتا"
 
 #: propTest2/options/priorB.title
+#, fuzzy
 msgid "beta 'b' parameter"
-msgstr ""
+msgstr "پارامتر 'b' بتا"
 
 #: anovaRM/options/bs.title
+#, fuzzy
 msgid "Between Subject Factors"
-msgstr ""
+msgstr "عوامل بین موضوعی"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
+#, fuzzy
 msgid "Between Subjects Components"
-msgstr ""
+msgstr "اجزای بین‌موضوعی"
 
 #: anovaRM/results/bsTable.title
+#, fuzzy
 msgid "Between Subjects Effects"
-msgstr ""
+msgstr "Between Subjects Effects"
 
 #: cfa/options/fitMeasures/bic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -860,17 +1006,20 @@ msgstr ""
 #: logRegOrd/options/bic.title
 #: logRegOrd/results/modelFit.columns.title
 #: pca/results/modelFit/fit.columns.title
+#, fuzzy
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).name
+#, fuzzy
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr ""
+msgstr "بزرگ 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
+#, fuzzy
 msgid "Binomial"
-msgstr ""
+msgstr "Binomial"
 
 #: package/analyses/logRegBin.title
 #: package/analyses/logRegBin.description
@@ -882,13 +1031,15 @@ msgid "Binomial Logistic Regression"
 msgstr "رگرسیون لوژیستیک دوجمله‌ای"
 
 #: propTest2/results/table.title
+#, fuzzy
 msgid "Binomial Test"
-msgstr ""
+msgstr "آزمون دوجمله‌ای"
 
 #: package/analyses/propTest2.menuSubtitle
 #: propTest2/options.menuSubtitle
+#, fuzzy
 msgid "Binomial test"
-msgstr ""
+msgstr "آزمون دوجمله‌ای"
 
 #: jamovi/js/linreg.events.js:4
 #: jamovi/js/linreg.events.js:40
@@ -898,79 +1049,95 @@ msgstr ""
 #: jamovi/js/logregbin.events.js:55
 #: jamovi/js/logregord.events.js:38
 #: jamovi/js/logregord.events.js:4
+#, fuzzy
 msgid "Block {0}"
-msgstr ""
+msgstr "بلاک {0}"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logLinear/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logRegBin/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.template/blockName.label
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockName.label
+#, fuzzy
 msgid "Block 1"
-msgstr ""
+msgstr "بلاک 1"
 
 #: linReg/options/blocks.title
 #: logLinear/options/blocks.title
 #: logRegBin/options/blocks.title
 #: logRegMulti/options/blocks.title
 #: logRegOrd/options/blocks.title
+#, fuzzy
 msgid "Blocks"
-msgstr ""
+msgstr "بلوک‌ها"
 
 #: ancova/options/postHocCorr/bonf.title
 #: anova/options/postHocCorr/bonf.title
 #: anovaRM/options/postHocCorr/bonf.title
+#, fuzzy
 msgid "Bonferroni"
-msgstr ""
+msgstr "بونفرونی"
 
 #: descriptives/options/box.title
+#, fuzzy
 msgid "Box plot"
-msgstr ""
+msgstr "پلات باکس"
 
 #: descriptives/ui[3][0][1].label
+#, fuzzy
 msgid "Box Plots"
-msgstr ""
+msgstr "پلات های باکس"
 
 #: logRegBin/options/boxTidwell.title
+#, fuzzy
 msgid "Box-Tidwell test"
-msgstr ""
+msgstr "آزمون باکس-تیدول"
 
 #: logRegBin/results/models.template/assump/boxTidwell.title
+#, fuzzy
 msgid "Box-Tidwell Test for Linearity of the Logit"
-msgstr ""
+msgstr "آزمون باکس-تیدول برای خطی بودن لاجیت"
 
 #: mancova/results/assump/boxM.title
+#, fuzzy
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr ""
+msgstr "آزمون همگنی ماتریس‌های کوواریانس باکس"
 
 #: mancova/ui[1][1][0]/boxM.label
+#, fuzzy
 msgid "Box's M test"
-msgstr ""
+msgstr "آزمون M Box"
 
 #: mancova/options/boxM.title
+#, fuzzy
 msgid "Box's M test for homogeneity of covariance matrices"
-msgstr ""
+msgstr "آزمون M باکس برای همگنی ماتریس‌های کوواریانس"
 
 #: package/datasets/Bugs(Ryan,Wilde&Crist,2013).name
+#, fuzzy
 msgid "Bugs (Ryan, Wilde & Crist, 2013)"
-msgstr ""
+msgstr "عوامل (رایان، وایلد و کریست، 2013)"
 
 #: contTables/ui[1][1].label
+#, fuzzy
 msgid "Cells"
-msgstr ""
+msgstr "سلول ها"
 
 #: descriptives/ui[2][1][0].label
+#, fuzzy
 msgid "Central Tendency"
-msgstr ""
+msgstr "میانگین مرکزی"
 
 #: cfa/options/fitMeasures/cfi.title
 #: cfa/results/modelFit/fitMeasures.columns.title
+#, fuzzy
 msgid "CFI"
-msgstr ""
+msgstr "CFI"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Chi-Square Quantiles"
-msgstr ""
+msgstr "کوانتایل های خی دو"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
@@ -981,16 +1148,19 @@ msgid "CI Upper"
 msgstr "بازهٔ اطمینان بالایی"
 
 #: logRegBin/results/models.template/pred/class.title
+#, fuzzy
 msgid "Classification Table"
-msgstr ""
+msgstr "جدول طبقه‌بندی"
 
 #: logRegBin/options/class.title
+#, fuzzy
 msgid "Classification table"
-msgstr ""
+msgstr "جدول طبقه‌بندی"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Classification Table – {dep}"
-msgstr ""
+msgstr "جدول طبقه‌بندی - {dep}"
 
 #: R/ancova.b.R
 #: ancova/options/postHocES/d.title
@@ -998,54 +1168,65 @@ msgstr ""
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
+#, fuzzy
 msgid "Cohen's d"
-msgstr ""
+msgstr "دی کوئن"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
+#, fuzzy
 msgid "Collinearity Statistics"
-msgstr ""
+msgstr "آمار هم‌خطی"
 
 #: linReg/options/collin.title
 #: logRegBin/options/collin.title
+#, fuzzy
 msgid "Collinearity statistics"
-msgstr ""
+msgstr "آمار هم‌خطی"
 
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
+#, fuzzy
 msgid "Column"
-msgstr ""
+msgstr "ستون"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "Column variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "متغیر ستون '{var}' کمتر از 2 سطح دارد"
 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#, fuzzy
 msgid "Columns"
-msgstr ""
+msgstr "ستون‌ها"
 
 #: contTables/options/compare/columns.title
+#, fuzzy
 msgid "columns"
-msgstr ""
+msgstr "ستون ها"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Columns compared"
-msgstr ""
+msgstr "ستون‌های مقایسه شده"
 
 #: contTables/results/odds.title
+#, fuzzy
 msgid "Comparative Measures"
-msgstr ""
+msgstr "اندازه‌های مقایسه‌ای"
 
 #: contTables/ui[1][0][0][1][0].label
+#, fuzzy
 msgid "Comparative Measures (2x2 only)"
-msgstr ""
+msgstr "اندازه‌های مقایسه‌ای (فقط 2x2)"
 
 #: contTables/options/compare.title
+#, fuzzy
 msgid "Compare"
-msgstr ""
+msgstr "مقایسه"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -1054,52 +1235,63 @@ msgstr ""
 #: logRegBin/results/modelComp.columns.superTitle
 #: logRegMulti/results/modelComp.columns.superTitle
 #: logRegOrd/results/modelComp.columns.superTitle
+#, fuzzy
 msgid "Comparison"
-msgstr ""
+msgstr "Comparison"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Comparisons are based on estimated marginal means"
-msgstr ""
+msgstr "مقایسه‌ها بر اساس میانگین‌های حاشیه‌ای برآورد شده انجام می‌شود"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
+#, fuzzy
 msgid "Component"
-msgstr ""
+msgstr "اجزاء"
 
 #: pca/options/factorCor.title
+#, fuzzy
 msgid "Component correlations"
-msgstr ""
+msgstr "همبستگی‌های مؤلفه"
 
 #: pca/results/loadings.title
+#, fuzzy
 msgid "Component Loadings"
-msgstr ""
+msgstr "بارهای مؤلفه"
 
 #: pca/options/factorScoresOV.title
+#, fuzzy
 msgid "Component scores"
-msgstr ""
+msgstr "امتیازات جزء"
 
 #: pca/results/factorStats.title
+#, fuzzy
 msgid "Component Statistics"
-msgstr ""
+msgstr "آمار جزء"
 
 #: pca/options/factorSummary.title
+#, fuzzy
 msgid "Component summary"
-msgstr ""
+msgstr "خلاصه مؤلفه"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
+#, fuzzy
 msgid "component(s)"
-msgstr ""
+msgstr "اجزاء"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
+#, fuzzy
 msgid "Components"
-msgstr ""
+msgstr "اجزاء"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "components"
-msgstr ""
+msgstr "اجزاء"
 
 #: ancova/options/postHocEsCi.title
 #: anova/options/postHocEsCi.title
@@ -1111,8 +1303,9 @@ msgstr ""
 #: ttestOneS/options/ciES.title
 #: ttestPS/options/ci.title
 #: ttestPS/options/ciES.title
+#, fuzzy
 msgid "Confidence Interval"
-msgstr ""
+msgstr "بازه اطمینان"
 
 #: ancova/options/emmPlotError/ci.title
 #: ancova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
@@ -1143,29 +1336,34 @@ msgstr ""
 #: ttestOneS/ui[1][1][0]/effectSize[0]/ciES.label
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
+#, fuzzy
 msgid "Confidence interval"
-msgstr ""
+msgstr "بازه ی اطمینان"
 
 #: descriptives/ui[2][2][1][0]/ci.label
+#, fuzzy
 msgid "Confidence interval for Mean"
-msgstr ""
+msgstr "بازه اطمینان برای میانگین"
 
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
+#, fuzzy
 msgid "Confidence interval width"
-msgstr ""
+msgstr "پهنای بازه‌ی اعتماد"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
+#, fuzzy
 msgid "Confidence Intervals"
-msgstr ""
+msgstr "Confidence Intervals"
 
 #: contTables/options/ci.title
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
+#, fuzzy
 msgid "Confidence intervals"
-msgstr ""
+msgstr "بازه‌های اطمینان"
 
 #: ancova/options/postHocEsCiWidth.title
 #: ancova/options/ciWidthEmm.title
@@ -1193,8 +1391,9 @@ msgstr ""
 #: ttestOneS/options/ciWidthES.title
 #: ttestPS/options/ciWidth.title
 #: ttestPS/options/ciWidthES.title
+#, fuzzy
 msgid "Confidence level"
-msgstr ""
+msgstr "سطح اطمینان"
 
 #: package/analyses/cfa.title
 #: package/analyses/cfa.menuTitle
@@ -1203,18 +1402,21 @@ msgstr ""
 #: cfa/options.description.main
 #: cfa/ui.title
 #: cfa/results.title
+#, fuzzy
 msgid "Confirmatory Factor Analysis"
-msgstr ""
+msgstr "تجزیه و تحلیل عاملی تاییدی"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
+#, fuzzy
 msgid "Constraints"
-msgstr ""
+msgstr "محدودیت ها"
 
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
+#, fuzzy
 msgid "Contingency coefficient"
-msgstr ""
+msgstr "ضریب تصادفی"
 
 #: package/analyses/contTables.title
 #: package/analyses/contTables.menuSubgroup
@@ -1226,8 +1428,9 @@ msgstr ""
 #: contTables/results/freqs.title
 #: contTablesPaired/options.menuSubgroup
 #: contTablesPaired/results/freqs.title
+#, fuzzy
 msgid "Contingency Tables"
-msgstr ""
+msgstr "جدول‌های تصادفی"
 
 #: ancova/options/contrasts.title
 #: ancova/ui[4].label
@@ -1238,32 +1441,38 @@ msgstr ""
 #: anovaRM/options/contrasts.title
 #: anovaRM/ui[4].label
 #: anovaRM/results/contrasts.title
+#, fuzzy
 msgid "Contrasts"
-msgstr ""
+msgstr "تضادها"
 
 #: ancova/results/contrasts.template.title
 #: anova/results/contrasts.template.title
 #: anovaRM/results/contrasts.template.title
+#, fuzzy
 msgid "Contrasts - $key"
-msgstr ""
+msgstr "تضادها - $key"
 
 #: corrPart/ui/variablesupplier[1].label
+#, fuzzy
 msgid "Control Variables"
-msgstr ""
+msgstr "متغیر های کنترل"
 
 #: corrPart/options/controls.title
+#, fuzzy
 msgid "Control variables"
-msgstr ""
+msgstr "Control variables"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "controlling for {items}"
-msgstr ""
+msgstr "کنترل برای {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
+#, fuzzy
 msgid "Cook's Distance"
-msgstr ""
+msgstr "فاصله کوک"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1272,61 +1481,73 @@ msgstr ""
 #: logRegBin/options/cooks.title
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
+#, fuzzy
 msgid "Cook's distance"
-msgstr ""
+msgstr "Cook's distance"
 
 #: ancova/options/postHocCorr.title
 #: ancova/ui[5][1][0].label
 #: anova/options/postHocCorr.title
 #: anova/ui[5][1][0].label
+#, fuzzy
 msgid "Correction"
-msgstr ""
+msgstr "اصلاح"
 
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[5][1][0].label
+#, fuzzy
 msgid "Corrections"
-msgstr ""
+msgstr "اصلاحات"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
+#, fuzzy
 msgid "Correlated"
-msgstr ""
+msgstr "همبسته"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
+#, fuzzy
 msgid "Correlated negatively"
-msgstr ""
+msgstr "به صورت منفی همبسته"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
+#, fuzzy
 msgid "Correlated positively"
-msgstr ""
+msgstr "همبستگی مثبت"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
+#, fuzzy
 msgid "Correlation"
-msgstr ""
+msgstr "همبستگی"
 
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
+#, fuzzy
 msgid "Correlation Coefficients"
-msgstr ""
+msgstr " ضرایب همبستگی"
 
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
+#, fuzzy
 msgid "Correlation Heatmap"
-msgstr ""
+msgstr "نقشه گرم همبستگی"
 
 #: reliability/ui[1][0][1]/corPlot.label
+#, fuzzy
 msgid "Correlation heatmap"
-msgstr ""
+msgstr "نقشه‌ی گرم همبستگی"
 
 #: package/analyses/corrMatrix.description
+#, fuzzy
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
-msgstr ""
+msgstr "матриس‌های همبستگی راهی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته هستند."
 
 #: corrMatrix/options.description.main
+#, fuzzy
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
@@ -1344,7 +1565,11 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr ""
+msgstr "ماتریس‌های همبستگی روشی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته هستند.\n"
+"\n"
+"برای هر جفت متغیر، مقدار r پیرسون نشان‌دهنده قدرت و جهت رابطه بین آن دو متغیر است. مقدار مثبت نشان‌دهنده رابطه مثبت (مقادیر بالاتر یک متغیر، مقادیر بالاتر متغیر دیگر را پیش‌بینی می‌کند) است. مقدار منفی r پیرسون نشان‌دهنده رابطه منفی (مقادیر بالاتر یک متغیر، مقادیر پایین‌تر متغیر دیگر را پیش‌بینی می‌کند و برعکس) است. مقدار صفر نشان‌دهنده عدم رابطه (چه متغیری بالا یا پایین باشد، به ماnothing نمی‌گوید).\n"
+"\n"
+"به طور رسمی‌تر، می‌توان فرضیه صفر را که همبستگی صفر است، آزمایش کرد و یک مقدار p-value محاسبه کرد. اگر مقدار p-value پایین باشد، نشان می‌دهد که ضریب همبستگی صفر نیست و بین دو متغیر رابطه خطی (یا پیچیده‌تر) وجود دارد."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1352,27 +1577,32 @@ msgstr ""
 #: corrMatrix/ui.title
 #: corrMatrix/results.title
 #: corrMatrix/results/matrix.title
+#, fuzzy
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "ماتریس همبستگی"
 
 #: corrMatrix/options/plots.title
 #: corrMatrix/ui[1][3]/plots.label
+#, fuzzy
 msgid "Correlation matrix"
-msgstr ""
+msgstr "ماتریس همبستگی"
 
 #: corrPart/ui[1][2].label
+#, fuzzy
 msgid "Correlation Type"
-msgstr ""
+msgstr "نوع همبستگی"
 
 #: corrPart/options/type.title
+#, fuzzy
 msgid "Correlation type"
-msgstr ""
+msgstr "نوع همبستگی"
 
 #: R/conttablespaired.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
+#, fuzzy
 msgid "Count"
-msgstr ""
+msgstr "تعداد"
 
 #: R/conttables.b.R
 #: R/descriptives.b.R
@@ -1380,30 +1610,35 @@ msgstr ""
 #: contTables/options/yaxis/ycounts.title
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
+#, fuzzy
 msgid "Counts"
-msgstr ""
+msgstr "تعدادها"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
 #: logLinear/options/counts.title
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
+#, fuzzy
 msgid "Counts (optional)"
-msgstr ""
+msgstr "تعداد (غیر اجباری)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "Counts may not be infinite"
-msgstr ""
+msgstr "شمارها ممکن است نامتناهی نباشند"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "Counts may not be negative"
-msgstr ""
+msgstr "شمارش‌ها نمی‌توانند منفی باشند"
 
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "Counts must be non-negative and finite"
-msgstr ""
+msgstr "شمار باید غیرمنفی و محدود باشد"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
@@ -1416,73 +1651,88 @@ msgstr ""
 #: logRegOrd/options/covs.title
 #: logRegOrd/ui[0][1].label
 #: mancova/options/covs.title
+#, fuzzy
 msgid "Covariates"
-msgstr ""
+msgstr "متغیرهای کنترلی"
 
 #: logLinear/options/pseudoR2/r2cs.title
 #: logRegBin/options/pseudoR2/r2cs.title
 #: logRegMulti/options/pseudoR2/r2cs.title
 #: logRegOrd/options/pseudoR2/r2cs.title
+#, fuzzy
 msgid "Cox & Snell's R²"
-msgstr ""
+msgstr "Cox & Snell's R²"
 
 #: contTables/results/nom.columns.content
+#, fuzzy
 msgid "Cramer's V"
-msgstr ""
+msgstr "V کрамر"
 
 #: propTest2/results/table.columns.superTitle
+#, fuzzy
 msgid "Credible Interval"
-msgstr ""
+msgstr "بازه معتبر"
 
 #: propTest2/options/ciBayes.title
+#, fuzzy
 msgid "Credible intervals"
-msgstr ""
+msgstr "مقیاس های قابل قبول"
 
 #: reliability/options/alphaScale.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
+#, fuzzy
 msgid "Cronbach's α"
-msgstr ""
+msgstr "Cronbach's α"
 
 #: reliability/options/alphaItems.title
+#, fuzzy
 msgid "Cronbach's α (if item is dropped)"
-msgstr ""
+msgstr "آلفای کرونباخ (اگر آیتم حذف شود)"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "cubic"
-msgstr ""
+msgstr "مکعب"
 
 #: R/descriptives.b.R
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
+#, fuzzy
 msgid "Cumulative %"
-msgstr ""
+msgstr "درصد تجمعی"
 
 #: descriptives/options/pcNEqGr.title
+#, fuzzy
 msgid "Cut point values"
-msgstr ""
+msgstr "مقادیر نقطه برش"
 
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
+#, fuzzy
 msgid "Cut points for"
-msgstr ""
+msgstr "Cut points for"
 
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
+#, fuzzy
 msgid "Cut-Off"
-msgstr ""
+msgstr "نقطه برش"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
+#, fuzzy
 msgid "Cut-Off Plot"
-msgstr ""
+msgstr "نمودار برش"
 
 #: logRegBin/options/cutOffPlot.title
+#, fuzzy
 msgid "Cut-off plot"
-msgstr ""
+msgstr "پلات قطع"
 
 #: logRegBin/options/cutOff.title
+#, fuzzy
 msgid "Cut-off value"
-msgstr ""
+msgstr "مقدار برش"
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
@@ -1492,31 +1742,37 @@ msgstr "داده"
 #: package/analyses/pca.menuSubgroup
 #: package/analyses/efa.menuSubgroup
 #: package/analyses/cfa.menuSubgroup
+#, fuzzy
 msgid "Data Reduction"
-msgstr ""
+msgstr "کاهش داده"
 
 #: weights/results/text.content
+#, fuzzy
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "مجموعه داده در حال حاضر بدون وزن است"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
 #: logRegBin/results/models.template/dataSummary.title
+#, fuzzy
 msgid "Data Summary"
-msgstr ""
+msgstr "خلاصه داده‌ها"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "degree"
-msgstr ""
+msgstr "مقدار"
 
 #: corrMatrix/options/plotDens.title
+#, fuzzy
 msgid "Densities for variables"
-msgstr ""
+msgstr "تراکم‌ها برای متغیرها"
 
 #: R/proptest2.b.R
 #: descriptives/options/dens.title
+#, fuzzy
 msgid "Density"
-msgstr ""
+msgstr "تراکم"
 
 #: anovaRM/options/depLabel.default
 msgid "Dependent"
@@ -1533,20 +1789,24 @@ msgid "Dependent Variable"
 msgstr "متغیر وابسته"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "متغیر وابسته '{dep}' شامل مقادیر بی‌نهایت است"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
+msgstr "متغیر وابسته '{dep}' فقط یک مقدار منحصر به فرد دارد (پس از حذف سطرهای دارای مقادیر缺س)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "متغیر وابسته '{dep}' باید پیوسته باشد"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -1562,12 +1822,14 @@ msgid "Dependent Variables"
 msgstr "متغیرهای وابسته"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "متغیرهای وابسته بسیار همبسته هستند"
 
 #: ttestOneS/options/mann.description
+#, fuzzy
 msgid "deprecated"
-msgstr ""
+msgstr "منسوخ شده"
 
 #: anovaRMNP/results/plot.title
 msgid "Descriptive Plot"
@@ -1592,42 +1854,49 @@ msgstr "نمودار توصیفی"
 #: ttestOneS/results/descriptives.title
 #: ttestPS/ui[1][1][0]/desc.label
 #: ttestPS/results/desc.title
+#, fuzzy
 msgid "Descriptives"
-msgstr ""
+msgstr "ویژگی‌های توصیفی"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
+#, fuzzy
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr ""
+msgstr "توصیف کننده ها مجموعه ای از آمار خلاصه و تجسم هایی هستند که امکان探索 شکل و توزیع داده ها را فراهم می کنند. این یک تمرین خوب است که قبل از انجام تست های رسمی، داده ها را با توصیف کننده ها بررسی کنید."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
+#, fuzzy
 msgid "descriptives plot"
-msgstr ""
+msgstr "نقشه توصیفی"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
 #: ttestPS/options/plots.title
+#, fuzzy
 msgid "Descriptives Plots"
-msgstr ""
+msgstr "پلات‌های توصیفی"
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
+#, fuzzy
 msgid "Descriptives plots"
-msgstr ""
+msgstr "نمودارهای توصیفی"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
+#, fuzzy
 msgid "Descriptives Table"
-msgstr ""
+msgstr "جدول توصیفی"
 
 #: anovaOneW/options/desc.title
+#, fuzzy
 msgid "Descriptives table"
-msgstr ""
+msgstr "جدول توصیفی"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -1641,22 +1910,26 @@ msgid "Deviance"
 msgstr "انحرافه"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Deviance residuals"
-msgstr ""
+msgstr "باقیمانده‌های انحراف"
 
 #: contTables/options/resA.title
+#, fuzzy
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "باقیمانده‌های انحراف (GLM پواسون)"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "باقی‌مانده‌های انحراف معیار از مدل GLM پواسون تنظیم می‌شوند."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
+#, fuzzy
 msgid "Deviation"
-msgstr ""
+msgstr "انحراف"
 
 #: R/ancova.b.R
 #: ancova/results/main.columns.title
@@ -1691,56 +1964,67 @@ msgstr ""
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
+#, fuzzy
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
+#, fuzzy
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
 #: anovaRM/options/contrasts.template/type/difference.title
+#, fuzzy
 msgid "Difference"
-msgstr ""
+msgstr "تفاوت"
 
 #: contTables/results/odds.columns.content
+#, fuzzy
 msgid "Difference in 2 proportions"
-msgstr ""
+msgstr "تفاوت در دو نسبت"
 
 #: contTables/options/diffProp.title
+#, fuzzy
 msgid "Difference in proportions"
-msgstr ""
+msgstr "تفاوت در نسبت‌ها"
 
 #: descriptives/ui[2][2][0].label
+#, fuzzy
 msgid "Dispersion"
-msgstr ""
+msgstr "پراکندگی"
 
 #: descriptives/ui[2][3][0].label
+#, fuzzy
 msgid "Distribution"
-msgstr ""
+msgstr "توزیع"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "هنوز از داده‌های وزن‌دار پشتیبانی نمی‌کند."
 
 #: anovaOneW/options/welchs.title
+#, fuzzy
 msgid "Don't assume equal (Welch's)"
-msgstr ""
+msgstr "فرض برابری نکنید (Welch)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
+#, fuzzy
 msgid "drag variable here"
-msgstr ""
+msgstr "متغیر را اینجا بکشید"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -1755,29 +2039,35 @@ msgstr ""
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
+#, fuzzy
 msgid "drag variables here"
-msgstr ""
+msgstr "متغیرها را به这里 بکشید"
 
 #: anovaNP/options/pairs.title
+#, fuzzy
 msgid "DSCF pairwise comparisons"
-msgstr ""
+msgstr "مقایسه های جفتی DSCF"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
+#, fuzzy
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "مقایسه های جفتی دون"
 
 #: linReg/results/models.template/assump/durbin.title
+#, fuzzy
 msgid "Durbin–Watson Test for Autocorrelation"
-msgstr ""
+msgstr "آزمون دوربین-واتسون برای خودهمبستگی"
 
 #: linReg/results/models.template/assump/durbin.columns.title
+#, fuzzy
 msgid "DW Statistic"
-msgstr ""
+msgstr "آماره DW"
 
 #: anovaNP/results/comparisons.title
+#, fuzzy
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
-msgstr ""
+msgstr "مقایسه‌های جفتی Dwass-Steel-Critchlow-Fligner"
 
 #: ancova/options/effectSize.title
 #: ancova/ui[1][1].label
@@ -1793,8 +2083,9 @@ msgstr ""
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/options/effectSize.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "Effect Size"
-msgstr ""
+msgstr "اندازه اثر"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
@@ -1802,26 +2093,31 @@ msgstr ""
 #: ttestOneS/options/effectSize.title
 #: ttestOneS/ui[1][1][0]/effectSize.label
 #: ttestPS/ui[1][1][0]/effectSize.label
+#, fuzzy
 msgid "Effect size"
-msgstr ""
+msgstr "اندازه اثر"
 
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
+#, fuzzy
 msgid "Eigenvalue"
-msgstr ""
+msgstr "مقدار ویژه"
 
 #: pca/results/eigen.title
+#, fuzzy
 msgid "Eigenvalues"
-msgstr ""
+msgstr "مقدار特征"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
+#, fuzzy
 msgid "Eigenvalues greater than"
-msgstr ""
+msgstr "مقدارها بزرگتر از"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
+msgstr "سلول های خالی بین طراحی موضوع: حداقل یک ترکیب از سطوح عامل بین موضوعی ۰ مشاهده دارد"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -1830,24 +2126,28 @@ msgstr ""
 #: logLinear/options/emmWeights.title
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
+#, fuzzy
 msgid "Equal cell weights"
-msgstr ""
+msgstr "وزن های سلولی برابر"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
+#, fuzzy
 msgid "equal groups"
-msgstr ""
+msgstr "گروه‌های برابر"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "error %"
-msgstr ""
+msgstr "خطای %"
 
 #: ancova/options/emmPlotError.title
 #: anova/options/emmPlotError.title
 #: anovaRM/options/emmPlotError.title
+#, fuzzy
 msgid "Error bars"
-msgstr ""
+msgstr "میله های خطا"
 
 #: ancova/results/contrasts.template.columns.title
 #: anovaRM/results/contrasts.template.columns.title
@@ -1864,18 +2164,21 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
+#, fuzzy
 msgid "Estimate"
-msgstr ""
+msgstr "برآورد"
 
 #: logRegBin/ui[5][0][0][1].label
 #: logRegMulti/ui[4][0][0][1].label
 #: logRegOrd/ui[4][0][1][0].label
+#, fuzzy
 msgid "Estimate (Log Odds Ratio)"
-msgstr ""
+msgstr "برآورد (نسبت شانس لاگ)"
 
 #: logLinear/ui[4][0][0][1].label
+#, fuzzy
 msgid "Estimate (Log Rate Ratio)"
-msgstr ""
+msgstr "برآورد (نسبت نرخ لاگ)"
 
 #: ancova/ui[6].label
 #: ancova/results/emm.title
@@ -1891,8 +2194,9 @@ msgstr ""
 #: logRegBin/results/models.template/emm.title
 #: logRegMulti/ui[5].label
 #: logRegMulti/results/models.template/emm.title
+#, fuzzy
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "میانگین های حاشیه ای برآورد شده"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -1900,58 +2204,69 @@ msgstr ""
 #: R/loglinear.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
+#, fuzzy
 msgid "Estimated Marginal Means - {term}"
-msgstr ""
+msgstr "میانگین‌های حاشیه‌ای برآورد شده - {term}"
 
 #: cfa/ui[3].label
+#, fuzzy
 msgid "Estimates"
-msgstr ""
+msgstr "برآورد ها"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Estimates represent the log odds of …"
-msgstr ""
+msgstr "برآورد ها نشان دهنده لگاریتم اودds هستند ..."
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr ""
+msgstr "برآوردها نمایانگر لگاریتم شانس \"{dep} = {level1}\" در مقابل \"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
+#, fuzzy
 msgid "Estimation method"
-msgstr ""
+msgstr "روش برآورد"
 
 #: anovaOneW/ui[1][0][1]/miss_perAnalysis.label
 #: ttestIS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
+#, fuzzy
 msgid "Exclude cases analysis by analysis"
-msgstr ""
+msgstr "مورد های分析 را یک به یک حذف کنید"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
 #: ttestIS/ui[1][0][2]/miss_listwise.label
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
+#, fuzzy
 msgid "Exclude cases listwise"
-msgstr ""
+msgstr "حذف موارد به صورت لیست واری"
 
 #: anovaRM/results/groupSummary.columns.title
+#, fuzzy
 msgid "Excluded"
-msgstr ""
+msgstr "حذف شده"
 
 #: R/conttables.b.R
 #: propTestN/results/props.columns.content
+#, fuzzy
 msgid "Expected"
-msgstr ""
+msgstr "انتظار می‌رود"
 
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
+#, fuzzy
 msgid "Expected counts"
-msgstr ""
+msgstr "شمار انتظاری"
 
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
+#, fuzzy
 msgid "Expected Proportions"
-msgstr ""
+msgstr "نسبت های مورد انتظار"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
@@ -1967,32 +2282,39 @@ msgstr "جست و جو"
 #: efa/ui.title
 #: efa/results.title
 #: efa/results/text.title
+#, fuzzy
 msgid "Exploratory Factor Analysis"
-msgstr ""
+msgstr "تجزیه و تحلیل عاملی اکتشافی"
 
 #: efa/options/extraction.title
+#, fuzzy
 msgid "Extraction"
-msgstr ""
+msgstr "استخراج"
 
 #: descriptives/options/extreme.title
+#, fuzzy
 msgid "Extreme values"
-msgstr ""
+msgstr "مقادیر حدی"
 
 #: descriptives/results/extremeValues.title
+#, fuzzy
 msgid "Extreme Values"
-msgstr ""
+msgstr "ارزش های चरم"
 
 #: descriptives/results/extremeValues.template.title
+#, fuzzy
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "ارزش های حدی $key"
 
 #: linReg/options/modelTest.title
+#, fuzzy
 msgid "F test"
-msgstr ""
+msgstr "آزمون F"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "F-statistic could not be calculated"
-msgstr ""
+msgstr "آمار F نمی تواند محاسبه شود"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -2004,92 +2326,113 @@ msgstr ""
 #: efa/options.menuGroup
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
+#, fuzzy
 msgid "Factor"
-msgstr ""
+msgstr "عامل"
 
 #: R/loglinear.b.R
+#, fuzzy
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
+msgstr "عامل '{factor}' کمتر از دو سطح دارد. عوامل باید حداقل دو سطح داشته باشند"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr ""
+msgstr "عامل '{factor}' باید حداقل 2 سطح داشته باشد"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "Factor '{factorName}' contains no data (after removing rows with missing values)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
+msgstr "عامل '{factorName}' فقط یک سطح دارد (پس از حذف سطرهای دارای مقادیر缺"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
+msgstr "عامل '{factorName}' شامل سطوح استفاده نشده است (پس از حذف سطرهای دارای مقادیر缺"
 
 #: jamovi/js/cfa.events.js:40
+#, fuzzy
 msgid "Factor {0}"
-msgstr ""
+msgstr "عامل {0}"
 
 #: cfa/options/factors.default[0].label
+#, fuzzy
 msgid "Factor 1"
-msgstr ""
+msgstr "عامل ۱"
 
 #: efa/options/factorCor.title
+#, fuzzy
 msgid "Factor correlations"
-msgstr ""
+msgstr "همبستگی‌های عامل"
 
 #: cfa/results/factorEst/factorCov.title
+#, fuzzy
 msgid "Factor Covariances"
-msgstr ""
+msgstr "کوواریانس‌های عاملی"
 
 #: cfa/options/factCovEst.title
+#, fuzzy
 msgid "Factor covariances"
-msgstr ""
+msgstr "کوواریانس های عامل"
 
 #: cfa/results/factorEst.title
+#, fuzzy
 msgid "Factor Estimates"
-msgstr ""
+msgstr "Factor Estimates"
 
 #: cfa/results/factorEst/factorIntercept.title
+#, fuzzy
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "تقاطع عوامل"
 
 #: cfa/options/factInterceptEst.title
+#, fuzzy
 msgid "Factor intercepts"
-msgstr ""
+msgstr "截ه‌های متغیرهای фактор"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
 #: efa/ui[1][1][1].label
 #: pca/ui[1][1][1].label
+#, fuzzy
 msgid "Factor Loadings"
-msgstr ""
+msgstr "بارهای عاملی"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
+#, fuzzy
 msgid "Factor Loadings – Modification Indices"
-msgstr ""
+msgstr "بارگیری عوامل - شاخص‌های اصلاح"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
+#, fuzzy
 msgid "Factor scores"
-msgstr ""
+msgstr "امتیازات عامل"
 
 #: R/efa.b.R
+#, fuzzy
 msgid "Factor Statistics"
-msgstr ""
+msgstr "آمار عوامل"
 
 #: efa/options/factorSummary.title
+#, fuzzy
 msgid "Factor summary"
-msgstr ""
+msgstr "خلاصه عامل"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
+#, fuzzy
 msgid "Factor variances = 1"
-msgstr ""
+msgstr "واریانس‌های عامل = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
+#, fuzzy
 msgid "factor(s)"
-msgstr ""
+msgstr "عامل(ها)"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -2104,21 +2447,25 @@ msgstr ""
 #: logRegOrd/options/factors.title
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
+#, fuzzy
 msgid "Factors"
-msgstr ""
+msgstr "عوامل"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "factors"
-msgstr ""
+msgstr "عوامل"
 
 #: anovaOneW/results/anova.columns.content
+#, fuzzy
 msgid "Fisher's"
-msgstr ""
+msgstr "فیشر"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
+#, fuzzy
 msgid "Fisher's exact test"
-msgstr ""
+msgstr "تست دقیق فیشر"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -2128,44 +2475,53 @@ msgstr ""
 #: logRegBin/ui[4][0][0][0].label
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
+#, fuzzy
 msgid "Fit Measures"
-msgstr ""
+msgstr "اندازه های برازش"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Fitted"
-msgstr ""
+msgstr "برازش شده"
 
 #: ancova/options/factors.title
 #: anova/options/factors.title
+#, fuzzy
 msgid "Fixed Factors"
-msgstr ""
+msgstr "عوامل ثابت"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
+#, fuzzy
 msgid "Fixed number"
-msgstr ""
+msgstr "تعداد ثابت"
 
 #: R/cfa.b.R
+#, fuzzy
 msgid "fixed parameter"
-msgstr ""
+msgstr "پارامتر ثابت"
 
 #: anovaOneW/options/phFlag.title
+#, fuzzy
 msgid "Flag significant comparisons"
-msgstr ""
+msgstr "مقایسه‌های معنی‌دار را علامت‌گذاری کنید"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
+#, fuzzy
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "پرچم همبستگی‌های معنی‌دار"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
+#, fuzzy
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr ""
+msgstr "نشان دادن همبستگی های معنی دار (p < .05) با نمادها"
 
 #: anovaOneW/options/phFlag.description.ui
+#, fuzzy
 msgid "flag significant post-hoc comparisons."
-msgstr ""
+msgstr "مقایسه های پس از آزمون معنی دار را علامت گذاری کنید."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -2178,41 +2534,49 @@ msgstr ""
 #: logLinear/options.menuGroup
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
+#, fuzzy
 msgid "Frequencies"
-msgstr ""
+msgstr "فراوانی‌ها"
 
 #: descriptives/results/frequencies.template.title
+#, fuzzy
 msgid "Frequencies of $key"
-msgstr ""
+msgstr "فراوانی $key"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
+#, fuzzy
 msgid "Frequency tables"
-msgstr ""
+msgstr "جدول های بسامد"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
+#, fuzzy
 msgid "Friedman"
-msgstr ""
+msgstr "فریدمن"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
+#, fuzzy
 msgid "Full information maximum likelihood"
-msgstr ""
+msgstr "به حداکثر likelihood اطلاعات کامل"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
+#, fuzzy
 msgid "Games-Howell (unequal variances)"
-msgstr ""
+msgstr "بازی ها-هاول (واریانس های نامساوی)"
 
 #: R/anovaonew.b.R
+#, fuzzy
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "آزمون پس از آزمون گیمز-هاول - {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
 #: contTables/results/gamma.columns.title
+#, fuzzy
 msgid "Gamma"
-msgstr ""
+msgstr "گاما"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
@@ -2221,182 +2585,216 @@ msgstr ""
 #: logLinear/ui[5][1][0][0].label
 #: logRegBin/ui[6][1][0][0].label
 #: logRegMulti/ui[5][1][0][0].label
+#, fuzzy
 msgid "General Options"
-msgstr ""
+msgstr "گزینه‌های کلی"
 
 #: anovaRM/options/effectSize/ges.title
+#, fuzzy
 msgid "Generalised η²"
-msgstr ""
+msgstr "جنرالیزه η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
+#, fuzzy
 msgid "Grand mean (simple coding)"
-msgstr ""
+msgstr "میانگین کل (کد ساده)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
+#, fuzzy
 msgid "Greenhouse-Geisser"
-msgstr ""
+msgstr "گرینهاوس-گایزر"
 
 #: anovaRM/results/assump/spherTable.columns.title
+#, fuzzy
 msgid "Greenhouse-Geisser ε"
-msgstr ""
+msgstr "گرین هاوس-گیسر ε"
 
 #: ttestIS/results/desc.columns.title
 msgid "Group"
 msgstr "گروه"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Group 1"
-msgstr ""
+msgstr "گروه 1"
 
 #: contTables/options/hypothesis/twoGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_twoGreater.label
 #: ttestIS/options/hypothesis/twoGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_twoGreater.label
+#, fuzzy
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "گروه 1 < گروه 2"
 
 #: contTables/options/hypothesis/different.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_different.label
 #: ttestIS/options/hypothesis/different.title
 #: ttestIS/ui[1][0][1]/hypothesis_different.label
+#, fuzzy
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "گروه ۱ ≠ گروه ۲"
 
 #: contTables/options/hypothesis/oneGreater.title
 #: contTables/ui[1][0][0][0][1]/hypothesis_oneGreater.label
 #: ttestIS/options/hypothesis/oneGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_oneGreater.label
+#, fuzzy
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "گروه ۱ > گروه ۲"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Group 2"
-msgstr ""
+msgstr "گروه 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
+#, fuzzy
 msgid "Group Descriptives"
-msgstr ""
+msgstr "ویژگی‌های توصیفی گروهی"
 
 #: anovaRM/results/groupSummary.title
+#, fuzzy
 msgid "Group Summary"
-msgstr ""
+msgstr "خلاصه گروه"
 
 #: anovaRM/options/groupSumm.title
+#, fuzzy
 msgid "Group summary"
-msgstr ""
+msgstr "خلاصه گروه"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
+#, fuzzy
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Grouping Variable"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
-msgstr ""
+msgstr "متغیر گروه‌بندی '{a}' بعد از حذف مقادیر 缺 کمتر از 2 سطح دارد"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr ""
+msgstr "متغیر گروه‌بندی '{a}' باید دقیقا 2 سطح داشته باشد"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr ""
+msgstr "متغیر گروه‌بندی '{a}' نباید متغیر وابسته نیز باشد"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
+#, fuzzy
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ همبستگی منفی است"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
+#, fuzzy
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ همبستگی مثبت است"
 
 #: R/proptest2.b.R
+#, fuzzy
 msgid "Hₐ is proportion {direction} {testValue}"
-msgstr ""
+msgstr "Hₐ نسبت {direction} {testValue} است"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Haldane-Anscombe correction applied"
-msgstr ""
+msgstr "اصلاح هالدین-انسکومب اعمال شد"
 
 #: efa/options/factorScoreMethod/Harman.title
+#, fuzzy
 msgid "Harman"
-msgstr ""
+msgstr "هارمن"
 
 #: ancova/options/contrasts.template/type/helmert.title
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
+#, fuzzy
 msgid "Helmert"
-msgstr ""
+msgstr "Helmert"
 
 #: package/analyses/empty.menuGroup
 #: package/analyses/weights.menuGroup
 #: empty/options.menuGroup
 #: weights/options.menuGroup
+#, fuzzy
 msgid "hidden"
-msgstr ""
+msgstr "پنهان"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
+#, fuzzy
 msgid "Hide loadings below"
-msgstr ""
+msgstr "بارگیری زیر را پنهان کنید"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
 #: contTables/options/hlresS.title
 #: contTables/options/hlresA.title
+#, fuzzy
 msgid "Highlight values above"
-msgstr ""
+msgstr "ارزش‌های بالاتر از"
 
 #: descriptives/options/hist.title
+#, fuzzy
 msgid "Histogram"
-msgstr ""
+msgstr "هیستوگرام"
 
 #: descriptives/ui[3][0][0][0].label
+#, fuzzy
 msgid "Histograms"
-msgstr ""
+msgstr "هیستوگرام ها"
 
 #: ancova/options/postHocCorr/holm.title
 #: anova/options/postHocCorr/holm.title
 #: anovaRM/options/postHocCorr/holm.title
+#, fuzzy
 msgid "Holm"
-msgstr ""
+msgstr "Holm"
 
 #: ancova/results/assump/homo.title
 #: anova/results/assump/homo.title
 #: anovaOneW/results/assump/eqv.title
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
+#, fuzzy
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr ""
+msgstr "آزمون همگنی واریانس (Levene's)"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
 #: anovaOneW/options/eqv.title
 #: anovaRM/options/leveneTest.title
 #: ttestIS/options/eqv.title
+#, fuzzy
 msgid "Homogeneity test"
-msgstr ""
+msgstr "آزمون همگنی"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
+#, fuzzy
 msgid "Hotelling's Trace"
-msgstr ""
+msgstr "ردیاب هاتلینگ"
 
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
+#, fuzzy
 msgid "Huynh-Feldt"
-msgstr ""
+msgstr "Huynh-Feldt"
 
 #: anovaRM/results/assump/spherTable.columns.title
+#, fuzzy
 msgid "Huynh-Feldt ε"
-msgstr ""
+msgstr "Huynh-Feldt ε"
 
 #: contTables/ui[1][0][0][0][1].label
 #: corrMatrix/options/hypothesis.title
@@ -2408,21 +2806,25 @@ msgstr ""
 #: ttestIS/ui[1][0][1].label
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
+#, fuzzy
 msgid "Hypothesis"
-msgstr ""
+msgstr "فرضیه"
 
 #: reliability/results/items.columns.superTitle
+#, fuzzy
 msgid "If item dropped"
-msgstr ""
+msgstr "در صورت رها کردن آیتم"
 
 #: anovaRM/options/groupSumm.description.ui
+#, fuzzy
 msgid "include a summary of the groups"
-msgstr ""
+msgstr "یک خلاصه از گروه‌ها را شامل می‌شود"
 
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
+#, fuzzy
 msgid "Independent Samples"
-msgstr ""
+msgstr "نمونه های مستقل"
 
 #: package/analyses/ttestIS.title
 #: package/analyses/ttestIS.menuTitle
@@ -2430,29 +2832,35 @@ msgstr ""
 #: ttestIS/ui.title
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
+#, fuzzy
 msgid "Independent Samples T-Test"
-msgstr ""
+msgstr "آزمون تی نمونه‌های مستقل"
 
 #: cfa/results/factorLoadings.columns.title
+#, fuzzy
 msgid "Indicator"
-msgstr ""
+msgstr "نشانه‌گر"
 
 #: pca/results/eigen/initEigen.title
+#, fuzzy
 msgid "Initial Eigenvalues"
-msgstr ""
+msgstr "مقادیر اولیه Eigen"
 
 #: efa/options/eigen.title
 #: pca/options/eigen.title
+#, fuzzy
 msgid "Initial eigenvalues"
-msgstr ""
+msgstr "مقادیر ویژه اولیه"
 
 #: pca/results/factorStats/factorCor.title
+#, fuzzy
 msgid "Inter-Component Correlations"
-msgstr ""
+msgstr "همبستگی‌های بین مؤلفه‌ها"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Inter-Factor Correlations"
-msgstr ""
+msgstr "همبستگی‌های بین‌عامل"
 
 #: R/linreg.b.R
 #: R/loglinear.b.R
@@ -2460,8 +2868,9 @@ msgstr ""
 #: R/logregmulti.b.R
 #: linReg/options/intercept.title
 #: linReg/ui[2][1].label
+#, fuzzy
 msgid "Intercept"
-msgstr ""
+msgstr "اصالت"
 
 #: cfa/ui[3][1][0]/ci/ciWidth.label
 #: contTables/options/ciWidth.title
@@ -2487,144 +2896,175 @@ msgstr "بازه"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
+#, fuzzy
 msgid "IQR"
-msgstr ""
+msgstr "IQR"
 
 #: R/utilsanova.R
-msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr ""
+#, fuzzy
+msgid "It appears that your model has a \\\"singularity\\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgstr "به نظر می رسد مدل شما مشکل \"تکینگی\" دارد. این معمولا به این معنی است که مدل در تشخیص برخی از اثرات به دلیل این که برخی از متغیرها بسیار به هم نزدیک هستند یا داده کافی برای برآورد همه اثرات به طور قابل اعتماد وجود ندارد، مشکل دارد. برای حل این مشکل، در نظر بگیرید که مدل را با حذف برخی از اثرات یا بررسی این که داده های شما ممکن است متغیرهای تکراری یا بسیار همبسته داشته باشد، ساده کنید"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Item '{item}' consists of one level only"
-msgstr ""
+msgstr "آیتم '{item}' فقط شامل یک سطح است"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
+#, fuzzy
 msgid "Item '{item}' contains infinite values"
-msgstr ""
+msgstr "آیتم '{item}' مقادیر بی‌نهایت دارد"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
+#, fuzzy
 msgid "Item '{item}' contains only missing values"
-msgstr ""
+msgstr "Item '{item}' contains only missing values"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "Item '{item}' has no variance"
-msgstr ""
+msgstr "آیتم '{item}' واریانس ندارد"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Item '{item}' needs to be numeric"
-msgstr ""
+msgstr "آیتم '{item}' باید عددی باشد"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr ""
+msgstr "آیتم {item} با مقیاس کل همبستگی منفی دارد و احتمالاً باید معک شود"
 
 #: reliability/results/items.title
+#, fuzzy
 msgid "Item Reliability Statistics"
-msgstr ""
+msgstr "آمار پایایی آیتم‌ها"
 
 #: reliability/ui[1][1][0].label
+#, fuzzy
 msgid "Item Statistics"
-msgstr ""
+msgstr "آمار آیتم‌ها"
 
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
+#, fuzzy
 msgid "Item-rest correlation"
-msgstr ""
+msgstr "همبستگی بین آیتم و بقیه"
 
 #: reliability/options/vars.title
+#, fuzzy
 msgid "Items"
-msgstr ""
+msgstr "آیتم‌ها"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr ""
+msgstr "آیتم‌ها {items} با مقیاس کل به صورت منفی همبستگی دارند و احتمالاً باید معکوس شوند"
 
 #: descriptives/options/dotType/jitter.title
+#, fuzzy
 msgid "Jittered"
-msgstr ""
+msgstr "لرزش"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
+#, fuzzy
 msgid "Kendall's Tau B"
-msgstr ""
+msgstr "تاو B کندال"
 
 #: contTables/results/taub.columns.title
+#, fuzzy
 msgid "Kendall's Tau-B"
-msgstr ""
+msgstr "تاو-ب کندال"
 
 #: contTables/results/taub.title
+#, fuzzy
 msgid "Kendall's Tau-b"
-msgstr ""
+msgstr "تاو-b کندال"
 
 #: contTables/options/taub.title
 #: corrMatrix/options/kendall.title
 #: corrPart/options/kendall.title
+#, fuzzy
 msgid "Kendall's tau-b"
-msgstr ""
+msgstr "Kendall's tau-b"
 
 #: pca/results/assump/kmo.title
+#, fuzzy
 msgid "KMO Measure of Sampling Adequacy"
-msgstr ""
+msgstr "اندازه KMO برای کفایت نمونه برداری"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
+#, fuzzy
 msgid "KMO measure of sampling adequacy"
-msgstr ""
+msgstr "اندازه KMO از کفایت نمونه گیری"
 
 #: package/analyses/anovaNP.menuSubtitle
 #: anovaNP/options.menuSubtitle
 #: anovaNP/results/table.title
+#, fuzzy
 msgid "Kruskal-Wallis"
-msgstr ""
+msgstr "کراسکال-والیس"
 
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
+#, fuzzy
 msgid "Kurtosis"
-msgstr ""
+msgstr "تیوری"
 
 #: descriptives/options/boxLabelOutliers.title
+#, fuzzy
 msgid "Label outliers"
-msgstr ""
+msgstr "برچسب خارج از محدوده"
 
 #: contTables/options/layers.title
+#, fuzzy
 msgid "Layers"
-msgstr ""
+msgstr "لایه‌ها"
 
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
+#, fuzzy
 msgid "Level"
-msgstr ""
+msgstr "سطح"
 
 #: anovaRM/options/rm.default[0].levels[0]
+#, fuzzy
 msgid "Level 1"
-msgstr ""
+msgstr "سطح 1"
 
 #: anovaRM/options/rm.default[0].levels[1]
+#, fuzzy
 msgid "Level 2"
-msgstr ""
+msgstr "سطح 2"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr ""
+msgstr "آزمون لون به طور معنی داری (p < .05) نشان دهنده نقض فرض برابری واریانس ها است"
 
 #: R/proptest2.b.R
+#, fuzzy
 msgid "Likelihood"
-msgstr ""
+msgstr "احتمال"
 
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
+#, fuzzy
 msgid "Likelihood ratio"
-msgstr ""
+msgstr "نسبت احتمال"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
+#, fuzzy
 msgid "Likelihood ratio tests"
-msgstr ""
+msgstr "آزمون های نسبت احتمال"
 
 #: R/utilsanova.R
 msgid "linear"
@@ -2640,18 +3080,21 @@ msgstr "رگرسیون خطی"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
+#, fuzzy
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr ""
+msgstr "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
+#, fuzzy
 msgid "Log odds ratio"
-msgstr ""
+msgstr "لگاریتم اودds"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
+#, fuzzy
 msgid "Log odds ratio exact"
-msgstr ""
+msgstr "نسبت شانس لگاریتمی دقیق"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -2661,8 +3104,9 @@ msgstr ""
 #: logLinear/options.description.main
 #: logLinear/ui.title
 #: logLinear/results.title
+#, fuzzy
 msgid "Log-Linear Regression"
-msgstr ""
+msgstr "رگرسیون لجستیک خطی"
 
 #: package/analyses/logRegBin.menuSubgroup
 #: package/analyses/logRegMulti.menuSubgroup
@@ -2670,8 +3114,9 @@ msgstr ""
 #: logRegBin/options.menuSubgroup
 #: logRegMulti/options.menuSubgroup
 #: logRegOrd/options.menuSubgroup
+#, fuzzy
 msgid "Logistic Regression"
-msgstr ""
+msgstr "رگرسیون لجستیک"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -2697,42 +3142,51 @@ msgstr ""
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "Lower"
-msgstr ""
+msgstr "پایین‌تر"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "lower bound"
-msgstr ""
+msgstr "مرز پایین"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Mahonobis ChiSq"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
+#, fuzzy
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "فاصله ماهالانوبیس"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
+#, fuzzy
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "فاصله ماهالانوبیس"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "فاصله ماهالانوبیس (Chi sq.)"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Mahalanobis distance (p)"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
+msgstr "فاصله Mahalanobis فقط برای مدل‌هایی با دو یا بیشتر کوواریانس قابل محاسبه است"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "Mahalanobis p"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -2744,16 +3198,19 @@ msgstr "تحلیل چندمتغیرهٔ کوواریانس"
 
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
+#, fuzzy
 msgid "Mann-Whitney U"
-msgstr ""
+msgstr "مان-ویتنی U"
 
 #: contTables/options/mh.title
+#, fuzzy
 msgid "Mantel-Haenszel"
-msgstr ""
+msgstr "Mantel-Haenszel"
 
 #: contTables/results/mh.title
+#, fuzzy
 msgid "Mantel-Haenszel Test for Trend"
-msgstr ""
+msgstr "آزمون Mantel-Haenszel برای روند"
 
 #: R/linreg.b.R
 msgid "Marginal Mean"
@@ -2790,14 +3247,16 @@ msgid "Marginal means tables"
 msgstr "جدول‌های میانگین‌های حاشیه‌ای"
 
 #: anovaRM/results/assump/spherTable.columns.title
+#, fuzzy
 msgid "Mauchly's W"
-msgstr ""
+msgstr "W ماکلی"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#, fuzzy
 msgid "Max"
-msgstr ""
+msgstr "حداکثر"
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
@@ -2806,40 +3265,47 @@ msgstr "بیشینه"
 
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
+#, fuzzy
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "احتمال بیشینه"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
+#, fuzzy
 msgid "McDonald's ω"
-msgstr ""
+msgstr "McDonald's ω"
 
 #: reliability/options/omegaItems.title
+#, fuzzy
 msgid "McDonald's ω (if item is dropped)"
-msgstr ""
+msgstr "McDonald's ω (اگر آیتم حذف شود)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
+#, fuzzy
 msgid "McFadden's R²"
-msgstr ""
+msgstr "R² مک فادن"
 
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "McNemar requires a 2x2 table"
-msgstr ""
+msgstr "McNemar به یک جدول 2x2 نیاز دارد"
 
 #: contTablesPaired/results/test.title
+#, fuzzy
 msgid "McNemar Test"
-msgstr ""
+msgstr "تست مک نمار"
 
 #: package/analyses/contTablesPaired.menuSubtitle
 #: package/analyses/contTablesPaired.description
 #: contTablesPaired/options.menuSubtitle
 #: contTablesPaired/options.description.main
+#, fuzzy
 msgid "McNemar test"
-msgstr ""
+msgstr "آزمون مک نمار"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -2865,8 +3331,9 @@ msgstr "میانگین"
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "Mean ({ciWidth}% CI)"
-msgstr ""
+msgstr "میانگین ({ciWidth}% CI)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -2893,8 +3360,9 @@ msgstr "پراکندگی میانگین"
 
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
+#, fuzzy
 msgid "Mean score"
-msgstr ""
+msgstr "Mean score"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
@@ -2909,28 +3377,34 @@ msgid "Means"
 msgstr "میانگین‌ها"
 
 #: R/anovarmnp.b.R
+#, fuzzy
 msgid "Measure"
-msgstr ""
+msgstr "اندازه‌گیری"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "Measure 1 - Measure 2"
-msgstr ""
+msgstr "اندازه 1 - اندازه 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_twoGreater.label
+#, fuzzy
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "اندازه ۱ < اندازه ۲"
 
 #: ttestPS/ui[1][0][1]/hypothesis_different.label
+#, fuzzy
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "Measure 1 ≠ Measure 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_oneGreater.label
+#, fuzzy
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "اندازه ۱ > اندازه ۲"
 
 #: anovaRMNP/options/measures.title
+#, fuzzy
 msgid "Measures"
-msgstr ""
+msgstr "اندازه‌گیری‌ها"
 
 #: R/descriptives.b.R
 #: R/ttestis.b.R
@@ -2958,8 +3432,9 @@ msgstr "روش"
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
+#, fuzzy
 msgid "Min"
-msgstr ""
+msgstr "حداقل"
 
 #: R/descriptives.b.R
 #: descriptives/options/min.title
@@ -2967,26 +3442,31 @@ msgid "Minimum"
 msgstr "کمینه"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Minimum residual"
-msgstr ""
+msgstr "Minimum residual"
 
 #: efa/options/extraction/minres.title
+#, fuzzy
 msgid "Minimum residuals"
-msgstr ""
+msgstr "کمترین باقیمانده"
 
 #: efa/options/minEigen.title
 #: pca/options/minEigen.title
+#, fuzzy
 msgid "Minimum value"
-msgstr ""
+msgstr "حداقل مقدار"
 
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
+#, fuzzy
 msgid "Missing"
-msgstr ""
+msgstr "مفقود"
 
 #: anovaOneW/ui[1][0][1].label
+#, fuzzy
 msgid "Missing Values"
-msgstr ""
+msgstr "مقادیر از دست رفته"
 
 #: ttestIS/options/miss.title
 #: ttestIS/ui[1][0][2].label
@@ -2994,17 +3474,20 @@ msgstr ""
 #: ttestOneS/ui[1][0][2].label
 #: ttestPS/options/miss.title
 #: ttestPS/ui[1][0][2].label
+#, fuzzy
 msgid "Missing values"
-msgstr ""
+msgstr "مقادیر فقدان"
 
 #: anovaOneW/options/miss.title
+#, fuzzy
 msgid "Missing values exclusion method"
-msgstr ""
+msgstr "روش حذف مقادیر گم‌شده"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
+#, fuzzy
 msgid "Missing Values Method"
-msgstr ""
+msgstr "روش مقادیر از دست رفته"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
@@ -3033,8 +3516,9 @@ msgstr "مدل"
 #: logRegBin/ui[1].label
 #: logRegMulti/ui[1].label
 #: logRegOrd/ui[1].label
+#, fuzzy
 msgid "Model Builder"
-msgstr ""
+msgstr "سازنده مدل"
 
 #: linReg/ui[5].label
 #: logLinear/ui[4].label
@@ -3042,16 +3526,18 @@ msgstr ""
 #: logRegBin/ui[5].label
 #: logRegMulti/ui[4].label
 #: logRegOrd/ui[4].label
+#, fuzzy
 msgid "Model Coefficients"
-msgstr ""
+msgstr "مختصات مدل"
 
 #: linReg/results/modelComp.title
 #: logLinear/results/modelComp.title
 #: logRegBin/results/modelComp.title
 #: logRegMulti/results/modelComp.title
 #: logRegOrd/results/modelComp.title
+#, fuzzy
 msgid "Model Comparisons"
-msgstr ""
+msgstr "مقایسه‌های مدل"
 
 #: ancova/ui[1][0].label
 #: anova/ui[1][0].label
@@ -3063,12 +3549,14 @@ msgstr ""
 #: logRegMulti/ui[3].label
 #: logRegOrd/ui[3].label
 #: pca/results/modelFit.title
+#, fuzzy
 msgid "Model Fit"
-msgstr ""
+msgstr "برازش مدل"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "مشکل برازش مدل تشخیص داده شد!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3076,75 +3564,90 @@ msgstr ""
 #: logRegMulti/results/modelFit.title
 #: logRegOrd/results/modelFit.title
 #: pca/results/modelFit/fit.title
+#, fuzzy
 msgid "Model Fit Measures"
-msgstr ""
+msgstr "اندازه های برازش مدل"
 
 #: efa/options/modelFit.title
+#, fuzzy
 msgid "Model fit measures"
-msgstr ""
+msgstr "اندازه‌های برازش مدل"
 
 #: linReg/results/models.title
 #: logLinear/results/models.title
 #: logRegBin/results/models.title
 #: logRegMulti/results/models.title
 #: logRegOrd/results/models.title
+#, fuzzy
 msgid "Model Specific Results"
-msgstr ""
+msgstr "نتایج خاص مدل"
 
 #: ancova/options/modelTerms.title
 #: anova/options/modelTerms.title
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
+#, fuzzy
 msgid "Model Terms"
-msgstr ""
+msgstr "عوامل مدل"
 
 #: pca/results/modelFit/fit.columns.superTitle
+#, fuzzy
 msgid "Model Test"
-msgstr ""
+msgstr "آزمون مدل"
 
 #: logRegOrd/results/models.template/thres.title
+#, fuzzy
 msgid "Model Thresholds"
-msgstr ""
+msgstr "آستانه های مدل"
 
 #: logRegOrd/options/thres.title
+#, fuzzy
 msgid "Model thresholds"
-msgstr ""
+msgstr "آستانه‌های مدل"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
+#, fuzzy
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "مدل‌ها با استفاده از اندازه نمونه N={n} برآورد شده‌اند"
 
 #: cfa/results/modelPerformance/modIndices.title
+#, fuzzy
 msgid "Modification Indices"
-msgstr ""
+msgstr "شاخص‌های اصلاح"
 
 #: cfa/options/mi.title
+#, fuzzy
 msgid "Modification indices"
-msgstr ""
+msgstr "شاخص های اصلاح"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "شبیه سازی مونت کارلو"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
+msgstr "بیش از یک حالت وجود دارد، فقط اولین مورد گزارش می شود"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
+#, fuzzy
 msgid "Most extreme"
-msgstr ""
+msgstr "بیشترین"
 
 #: pca/results/assump/kmo.columns.title
+#, fuzzy
 msgid "MSA"
-msgstr ""
+msgstr "MSA"
 
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
+#, fuzzy
 msgid "Multinomial"
-msgstr ""
+msgstr "Multinomial"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -3152,54 +3655,64 @@ msgstr ""
 #: logRegMulti/options.description.main
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
+#, fuzzy
 msgid "Multinomial Logistic Regression"
-msgstr ""
+msgstr "رگرسیون لجستیک چندوجهی"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
+#, fuzzy
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr ""
+msgstr "تحلیل چندمتغیره واریانس (MANCOVA) برای بررسی رابطه بین متغیرهای وابسته چندگانه و یک یا چند متغیر توضیحی طبقه ای و/یا پیوسته استفاده می شود."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
+#, fuzzy
 msgid "Multivariate Statistics"
-msgstr ""
+msgstr "آمار چند متغیره"
 
 #: mancova/results/multivar.title
+#, fuzzy
 msgid "Multivariate Tests"
-msgstr ""
+msgstr "آزمون های چندمتغیره"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
 #: logRegMulti/options.menuTitle
 #: propTestN/options.menuTitle
+#, fuzzy
 msgid "N Outcomes"
-msgstr ""
+msgstr "نتایج N"
 
 #: logLinear/options/pseudoR2/r2n.title
 #: logRegBin/options/pseudoR2/r2n.title
 #: logRegMulti/options/pseudoR2/r2n.title
 #: logRegOrd/options/pseudoR2/r2n.title
+#, fuzzy
 msgid "Nagelkerke's R²"
-msgstr ""
+msgstr "R² ناگلکرک"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "No components have an eigenvalue greater than {value}"
-msgstr ""
+msgstr "هیچ یک از مؤلفه‌ها دارای مقدار ویژه‌ای بزرگتر از {value} نیست"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
+#, fuzzy
 msgid "No correction"
-msgstr ""
+msgstr "هیچ اصلاحی"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr ""
+msgstr "هیچ عاملی تعریف نشده است. آزمون باکس فقط زمانی مربوط می‌شود که مدل حاوی عوامل باشد."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3210,8 +3723,9 @@ msgstr "اسمی"
 #: package/analyses/anovaRMNP.menuSubgroup
 #: anovaNP/options.menuSubgroup
 #: anovaRMNP/options.menuSubgroup
+#, fuzzy
 msgid "Non-Parametric"
-msgstr ""
+msgstr "غیرپارامتریک"
 
 #: ancova/options/contrasts.template/type/none.title
 #: ancova/options/emmPlotError/none.title
@@ -3224,20 +3738,24 @@ msgstr ""
 #: anovaRM/results/rmTable.columns.content
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "هیچ‌یک"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "none"
-msgstr ""
+msgstr "هیچ"
 
 #: reliability/ui[2]/revItemsSupplier.label
+#, fuzzy
 msgid "Normal Scaled Items"
-msgstr ""
+msgstr "آیتم‌های مقیاس نرمال"
 
 #: descriptives/ui[2][3][1].label
+#, fuzzy
 msgid "Normality"
-msgstr ""
+msgstr "عادی بودن"
 
 #: ancova/options/norm.title
 #: anova/options/norm.title
@@ -3246,8 +3764,9 @@ msgstr ""
 #: ttestIS/options/norm.title
 #: ttestOneS/options/norm.title
 #: ttestPS/options/norm.title
+#, fuzzy
 msgid "Normality test"
-msgstr ""
+msgstr "آزمون نرمالی"
 
 #: ancova/results/assump/norm.title
 #: anova/results/assump/norm.title
@@ -3256,79 +3775,96 @@ msgstr ""
 #: ttestIS/results/assum/norm.title
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
+#, fuzzy
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr ""
+msgstr "آزمون نرمالیتی (شاپیرو-ویلک)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
+msgstr "همه ضرایب نمی توانند برآورد شوند (احتمالاً به دلیل پاسخ منحصر به فرد)"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "همه آمارها هنوز از داده‌های وزن‌دار پشتیبانی نمی‌کنند."
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "در دسترس نیست به دلیل تعداد زیاد موارد (> 5000)."
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "درجه آزادی کافی برای برآورد所有 اثرات مدل وجود ندارد"
 
 #: pca/ui[1][0][1].label
+#, fuzzy
 msgid "Number of Components"
-msgstr ""
+msgstr "تعداد مؤلفه‌ها"
 
 #: pca/options/nFactorMethod.title
+#, fuzzy
 msgid "Number of components"
-msgstr ""
+msgstr "تعداد مولفه‌ها"
 
 #: descriptives/options/extremeN.title
+#, fuzzy
 msgid "Number of extreme values"
-msgstr ""
+msgstr "تعداد مقادیر 极"
 
 #: efa/ui[1][0][1].label
+#, fuzzy
 msgid "Number of Factors"
-msgstr ""
+msgstr "تعداد عوامل"
 
 #: efa/options/nFactorMethod.title
+#, fuzzy
 msgid "Number of factors"
-msgstr ""
+msgstr "تعداد عوامل"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
+msgstr "تعداد مقادیر 极reme درخواستی بالاتر از تعداد سطرهای داده است."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
+#, fuzzy
 msgid "Oblimin"
-msgstr ""
+msgstr "Oblimin"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "oblimin"
-msgstr ""
+msgstr "oblimin"
 
 #: R/conttables.b.R
 #: R/logregbin.b.R
 #: propTestN/results/props.columns.content
+#, fuzzy
 msgid "Observed"
-msgstr ""
+msgstr "مشاهده شده"
 
 #: contTables/options/obs.title
+#, fuzzy
 msgid "Observed counts"
-msgstr ""
+msgstr "شمار مشاهدات"
 
 #: ancova/options/emmPlotData.title
 #: anova/options/emmPlotData.title
 #: anovaRM/options/emmPlotData.title
+#, fuzzy
 msgid "Observed scores"
-msgstr ""
+msgstr "امتیازهای مشاهده شده"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
+#, fuzzy
 msgid "Odds Ratio"
-msgstr ""
+msgstr "نسبت شانس"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -3339,65 +3875,78 @@ msgstr ""
 #: logRegOrd/options/OR.title
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
+#, fuzzy
 msgid "Odds ratio"
-msgstr ""
+msgstr "نسبت شانس"
 
 #: contTables/options/yaxisPc/total_pc.title
+#, fuzzy
 msgid "of total"
-msgstr ""
+msgstr "از کل"
 
 #: linReg/results/models.template/anova.title
+#, fuzzy
 msgid "Omnibus ANOVA Test"
-msgstr ""
+msgstr "تست ANOVA اومنیبوس"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
+#, fuzzy
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr ""
+msgstr "آزمون‌های نسبت احتمال کلی"
 
 #: linReg/ui[5][0][0][0].label
+#, fuzzy
 msgid "Omnibus Test"
-msgstr ""
+msgstr "آزمون اومنیبوس"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
+#, fuzzy
 msgid "Omnibus Tests"
-msgstr ""
+msgstr "آزمون های کلی"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "One or both groups do not contain enough observations"
-msgstr ""
+msgstr "یکی یا هر دو گروه دارای مشاهدات کافی نیستند"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "One or both variables are not numeric"
-msgstr ""
+msgstr "یکی یا هر دو متغیر عددی نیستند"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "One or both variables contain infinite values"
-msgstr ""
+msgstr "یکی یا هر دوی متغیرها شامل مقادیر بی‌نهایت هستند"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "One or both variables contain no observations"
-msgstr ""
+msgstr "یکی یا هر دوی متغیرها هیچ مشاهداتی ندارند"
 
 #: R/ttestps.b.R
+#, fuzzy
 msgid "One or both variables do not contain enough observations"
-msgstr ""
+msgstr "یکی یا هر دو متغیر مشاهدات کافی ندارند"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr ""
+msgstr "یک یا چند ضریب در مدل '{modelNo}' به دلیل همبستگی کامل نمی‌توانند برآورد شوند."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
+#, fuzzy
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "آزمون‌های نسبت نمونه‌ای تک"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -3405,8 +3954,9 @@ msgstr ""
 #: ttestOneS/ui.title
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
+#, fuzzy
 msgid "One Sample T-Test"
-msgstr ""
+msgstr "آزمون t تک نمونه‌ای"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -3416,28 +3966,33 @@ msgstr ""
 #: anovaOneW/ui.title
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
+#, fuzzy
 msgid "One-Way ANOVA"
-msgstr ""
+msgstr "ANOVA یک‌طرفه"
 
 #: R/anovaonew.b.R
+#, fuzzy
 msgid "One-Way ANOVA (Fisher's)"
-msgstr ""
+msgstr "ANOVA یک‌راهه (فیشر)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
+#, fuzzy
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr ""
+msgstr "آزمون واریانس یک‌طرفه (غیرپارامتری)"
 
 #: R/anovaonew.b.R
+#, fuzzy
 msgid "One-Way ANOVA (Welch's)"
-msgstr ""
+msgstr "آنالیز واریانس یک‌طرفه (ولش)"
 
 #: anovaRM/ui[7].label
 #: cfa/ui[2].label
+#, fuzzy
 msgid "Options"
-msgstr ""
+msgstr "گزینه‌ها"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
@@ -3449,17 +4004,20 @@ msgstr "ترتیبی"
 #: logRegOrd/options.description.main
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
+#, fuzzy
 msgid "Ordinal Logistic Regression"
-msgstr ""
+msgstr "رگرسیون لجستیک ترتیب‌دار"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
+#, fuzzy
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "نتایج ترتیبی"
 
 #: descriptives/ui[2][3][2].label
+#, fuzzy
 msgid "Outliers"
-msgstr ""
+msgstr "خروج‌ها"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -3472,12 +4030,14 @@ msgid "Output"
 msgstr "برون‌داد"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Overall"
-msgstr ""
+msgstr "به‌طور کلی"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Overall model"
-msgstr ""
+msgstr "مدل کلی"
 
 #: linReg/ui[4][0][1][0].label
 #: linReg/results/modelFit.columns.superTitle
@@ -3485,8 +4045,9 @@ msgstr ""
 #: logRegBin/results/modelFit.columns.superTitle
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
+#, fuzzy
 msgid "Overall Model Test"
-msgstr ""
+msgstr "آزمون مدل کلی"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -3494,59 +4055,71 @@ msgstr ""
 #: logRegBin/options/modelTest.title
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
+#, fuzzy
 msgid "Overall model test"
-msgstr ""
+msgstr "آزمون مدل کلی"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
+#, fuzzy
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
+#, fuzzy
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
+#, fuzzy
 msgid "p-value"
-msgstr ""
+msgstr "مقدار p"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
+#, fuzzy
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(بونفرونی)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
+#, fuzzy
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "p<sub>bonferroni</sub>"
-msgstr ""
+msgstr "p<sub>بونفرونی</sub>"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "p<sub>holm</sub>"
-msgstr ""
+msgstr "p<sub>holm</sub>"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "p<sub>scheffe</sub>"
-msgstr ""
+msgstr "p<sub>شفه</sub>"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "p<sub>tukey</sub>"
-msgstr ""
+msgstr "p<sub>tukey</sub>"
 
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
+#, fuzzy
 msgid "Paired Samples"
-msgstr ""
+msgstr "Paired Samples"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
+#, fuzzy
 msgid "Paired Samples Contingency Tables"
-msgstr ""
+msgstr "جدول‌های نمونه‌های جفتی"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -3554,29 +4127,35 @@ msgstr ""
 #: ttestPS/ui.title
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
+#, fuzzy
 msgid "Paired Samples T-Test"
-msgstr ""
+msgstr "آزمون تی نمونه‌های جفتی"
 
 #: ttestPS/options/pairs.title
+#, fuzzy
 msgid "Paired Variables"
-msgstr ""
+msgstr "متغیرهای جفتی"
 
 #: anovaNP/results/comparisons.template.title
 #: anovaNP/results/comparisonsDunn.template.title
+#, fuzzy
 msgid "Pairwise comparisons - $key"
-msgstr ""
+msgstr "مقایسه های جفتی - $کلید"
 
 #: anovaRMNP/results/comp.title
+#, fuzzy
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "مقایسه های جفتی (دوربین-کونور)"
 
 #: anovaRMNP/options/pairs.title
+#, fuzzy
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr ""
+msgstr "مقایسه‌های جفتی (دوربین-کانور)"
 
 #: corrPart/options/type/part.title
+#, fuzzy
 msgid "Partial"
-msgstr ""
+msgstr "نقصان"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -3584,16 +4163,19 @@ msgstr ""
 #: corrPart/options.title
 #: corrPart/ui.title
 #: corrPart/results.title
+#, fuzzy
 msgid "Partial Correlation"
-msgstr ""
+msgstr "همبستگی جزئی"
 
 #: package/analyses/corrPart.description
+#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr ""
+msgstr "матриس‌های همبستگی جزئی یک روش برای بررسی روابط خطی بین دو یا چند متغیر پیوسته در حالی که سایر متغیرها کنترل می‌شوند"
 
 #: corrPart/options.description.main
+#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
@@ -3612,171 +4194,211 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr ""
+msgstr "ماتریس های همبستگی جزئی راهی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته درحالی که از سایر متغیرها کنترل می کند\n"
+"\n"
+"برای هر جفت متغیر، یک مقدار r pearson نشان دهنده قدرت و جهت رابطه بین آن دو متغیر است. یک مقدار مثبت نشان دهنده یک رابطه مثبت (ارزش های بالاتر یک متغیر، ارزش های بالاتر متغیر دیگر را پیش بینی می کند) است. یک مقدار منفی pearson r نشان دهنده یک رابطه منفی (ارزش های بالاتر یک متغیر، ارزش های پایین تر متغیر دیگر را پیش بینی می کند و برعکس). یک مقدار صفر نشان دهنده عدم رابطه (چه متغیری بالا یا پایین باشد، چیزی در مورد ارزش متغیر دیگر به ما نمی گوید).\n"
+"\n"
+"به صورت رسمی، امکان تست فرضیه خنثی که همبستگی صفر است و محاسبه یک مقدار p-value وجود دارد. اگر مقدار p-value کم باشد، نشان می دهد که ضریب همبستگی صفر نیست و یک رابطه خطی (یا پیچیده تر) بین دو متغیر وجود دارد."
 
 #: anovaRM/options/effectSize/partEta.title
+#, fuzzy
 msgid "Partial η²"
-msgstr ""
+msgstr "η² جزئی"
 
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
+#, fuzzy
 msgid "partial η²"
-msgstr ""
+msgstr "همبستگی جزئی η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
+#, fuzzy
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "مشارکت‌کنندگان (سطرها) زیر آستانه p"
 
 #: cfa/results/pathDiagram.title
+#, fuzzy
 msgid "Path Diagram"
-msgstr ""
+msgstr "دیاگرام مسیر"
 
 #: cfa/options/pathDiagram.title
+#, fuzzy
 msgid "Path diagram"
-msgstr ""
+msgstr "دیاگرام مسیر"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
 #: corrPart/options/pearson.title
 #: corrPart/ui[1][0]/pearson.label
+#, fuzzy
 msgid "Pearson"
-msgstr ""
+msgstr "پیرسون"
 
 #: R/corrmatrix.b.R
+#, fuzzy
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "همبستگی پیرسون را نمی‌توان برای مقادیر غیر عددی محاسبه کرد"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
+#, fuzzy
 msgid "Pearson residuals"
-msgstr ""
+msgstr "باقیمانده پیرسون"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
+#, fuzzy
 msgid "Pearson's r"
-msgstr ""
+msgstr "رِی پیِرسون"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "Pearson{}Correlation"
-msgstr ""
+msgstr "همبستگی پیرسون"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
+#, fuzzy
 msgid "Percentages"
-msgstr ""
+msgstr "درصد"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Percentages of total"
-msgstr ""
+msgstr "درصد کل"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Percentages within {var}"
-msgstr ""
+msgstr "درصد‌ها внутри {var}"
 
 #: descriptives/options/pc.title
+#, fuzzy
 msgid "Percentile"
-msgstr ""
+msgstr "سانتیل"
 
 #: descriptives/ui[2][0][1].label
+#, fuzzy
 msgid "Percentile Values"
-msgstr ""
+msgstr "ارزش های 百分تی"
 
 #: descriptives/options/pcValues.title
+#, fuzzy
 msgid "Percentile values"
-msgstr ""
+msgstr "مقدار های 百分یل"
 
 #: R/descriptives.b.R
 #: descriptives/ui[2][0][1][1]/pc.label
+#, fuzzy
 msgid "Percentiles"
-msgstr ""
+msgstr " 百分تی ها"
 
 #: ttestIS/options/mann.description.ui
+#, fuzzy
 msgid "perform a Mann-Whitney U test."
-msgstr ""
+msgstr "perform a Mann-Whitney U test."
 
 #: ttestOneS/options/norm.description.ui
+#, fuzzy
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr ""
+msgstr "یک تست شاپیرو-ویلک از نرمالیت را انجام دهید. یک مقدار p کم نشان می دهد که داده ها از توزیع نرمال نیستند."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
+#, fuzzy
 msgid "perform an overall model test."
-msgstr ""
+msgstr "آزمون مدل کلی را انجام دهید"
 
 #: anovaOneW/options/fishers.description.ui
+#, fuzzy
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr ""
+msgstr "تست‌های ANOVA فیشر (یا آنچه ممکن است ANOVAهای 'عادی' نامیده شود) را انجام می‌دهد."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
+#, fuzzy
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr ""
+msgstr "آزمون‌های شپیرو-ویلک را برای نرمال بودن انجام می‌دهد. یک مقدار p-value پایین نشان می‌دهد که داده‌ها از یک توزیع نرمال نیستند."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
+#, fuzzy
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr ""
+msgstr "اجرای آزمون‌های شاپیرو-ویلک برای نرمال بودن. یک مقدار p کم نشان می‌دهد که باقیمانده‌ها توزیع نرمال ندارند"
 
 #: ttestIS/options/students.description.ui
+#, fuzzy
 msgid "perform Student's independent samples t-tests."
-msgstr ""
+msgstr "تست‌های t مستقل استیودنت را انجام می‌دهد."
 
 #: ttestOneS/options/students.description.ui
+#, fuzzy
 msgid "perform Student's one-sample t-tests."
-msgstr ""
+msgstr "perform Student's one-sample t-tests."
 
 #: ttestPS/options/students.description.ui
+#, fuzzy
 msgid "perform Student's paired samples t-tests."
-msgstr ""
+msgstr "آزمون‌های t نمونه‌های جفتی استیودنت را انجام دهید"
 
 #: anovaOneW/options/welchs.description.ui
+#, fuzzy
 msgid "perform Welch's ANOVAs."
-msgstr ""
+msgstr "انجام ANOVAهای Welch"
 
 #: ttestIS/options/welchs.description.ui
+#, fuzzy
 msgid "perform Welch's tests."
-msgstr ""
+msgstr "اجرای آزمون‌های وِلچ"
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
+#, fuzzy
 msgid "perform Wilcoxon signed rank tests."
-msgstr ""
+msgstr "آزمون‌های رتبه‌ای امضا شده ویلکاکسون را انجام دهید."
 
 #: contTables/options/phiCra.title
+#, fuzzy
 msgid "Phi and Cramer's V"
-msgstr ""
+msgstr "فی و کرمر V"
 
 #: contTables/results/nom.columns.content
+#, fuzzy
 msgid "Phi-coefficient"
-msgstr ""
+msgstr "ضریب فی"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
+#, fuzzy
 msgid "Pillai's Trace"
-msgstr ""
+msgstr "ردیاب پیلای"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
 #: anovaRM/ui[6][1][1][0].label
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
+#, fuzzy
 msgid "Plot"
-msgstr ""
+msgstr "نمودار"
 
 #: corrMatrix/options/plotDens.description.ui
+#, fuzzy
 msgid "plot densities along the diagonal of the correlation matrix plot."
-msgstr ""
+msgstr "ترسیم چگالی‌ها به طول قطر ماتریس همبستگی"
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
+#, fuzzy
 msgid "plot the data along with the marginal means."
-msgstr ""
+msgstr "داده‌ها را به همراه میانگین‌های حاشیه‌ای رسم کنید."
 
 #: anovaRMNP/options/plotType.title
+#, fuzzy
 msgid "Plot Type"
-msgstr ""
+msgstr "نوع پلات"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -3793,31 +4415,37 @@ msgid "Plots"
 msgstr "نمودارها"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "نمودارهای توصیفی برای توصیف‌های وزنی هنوز پشتیبانی نمی‌شوند."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
+#, fuzzy
 msgid "Polynomial"
-msgstr ""
+msgstr "چندجمله ای"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr ""
+msgstr "چندجمله ای ها تا درجه 6 محدود شده اند"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Post Hoc Comparisons - {term}"
-msgstr ""
+msgstr "مقایسه های پس از آزمون - {term}"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "آزمون پس از آزمون"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "آزمون پس از آزمون ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -3833,68 +4461,82 @@ msgstr ""
 #: contTables/ui[1][2].label
 #: contTables/ui[1][2][0][0][0].label
 #: contTables/results/postHoc.title
+#, fuzzy
 msgid "Post Hoc Tests"
-msgstr ""
+msgstr "آزمون‌های پس از آن"
 
 #: anovaOneW/results/postHoc.template.title
+#, fuzzy
 msgid "Post Hoc Tests – $key"
-msgstr ""
+msgstr "آزمون‌های پس از آزمون – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
+#, fuzzy
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "عملکرد مدل پس از آزمون"
 
 #: anovaOneW/ui[2][0][0][0].label
+#, fuzzy
 msgid "Post-Hoc Test"
-msgstr ""
+msgstr "آزمون پس از آزمون"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
+#, fuzzy
 msgid "Post-Hoc Tests"
-msgstr ""
+msgstr "آزمون‌های پس از آن"
 
 #: R/proptest2.b.R
+#, fuzzy
 msgid "Posterior"
-msgstr ""
+msgstr "پیشین"
 
 #: propTest2/options/postPlots.title
+#, fuzzy
 msgid "Posterior plot"
-msgstr ""
+msgstr "پلات پسین"
 
 #: propTest2/results/postPlots.title
+#, fuzzy
 msgid "Posterior Plots"
-msgstr ""
+msgstr "پلات‌های پسین"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Predicted"
-msgstr ""
+msgstr "پیش‌بینی‌شده"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr ""
+msgstr "احتمال پیش بینی … = … (در مقابل … = …)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
+msgstr "احتمال پیش‌بینی {dep} = {level1} (در مقابل {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
 #: linReg/results/predictOV.title
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
+#, fuzzy
 msgid "Predicted values"
-msgstr ""
+msgstr "ارزش‌های پیش‌بینی‌شده"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
+#, fuzzy
 msgid "Prediction"
-msgstr ""
+msgstr "پیش‌بینی"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
+#, fuzzy
 msgid "Predictive Measures"
-msgstr ""
+msgstr "اندازه‌های پیش‌بینی"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -3906,24 +4548,28 @@ msgstr ""
 #: logRegMulti/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/lrt.columns.title
 #: logRegOrd/results/models.template/coef.columns.title
+#, fuzzy
 msgid "Predictor"
-msgstr ""
+msgstr "پیش‌بین"
 
 #: linReg/ui[1]/modelSupplier.label
 #: logLinear/ui[1]/modelSupplier.label
 #: logRegBin/ui[1]/modelSupplier.label
 #: logRegMulti/ui[1]/modelSupplier.label
 #: logRegOrd/ui[1]/modelSupplier.label
+#, fuzzy
 msgid "Predictors"
-msgstr ""
+msgstr "پیش‌بینی‌کننده‌ها"
 
 #: efa/options/extraction/pa.title
+#, fuzzy
 msgid "Principal axis"
-msgstr ""
+msgstr "محور اصلی"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "عامل گذاری محور اصلی"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -3932,243 +4578,291 @@ msgstr ""
 #: pca/options.description.main
 #: pca/ui.title
 #: pca/results.title
+#, fuzzy
 msgid "Principal Component Analysis"
-msgstr ""
+msgstr "تحلیل مؤلفه‌های اصلی"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
 #: ttestIS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
+#, fuzzy
 msgid "Prior"
-msgstr ""
+msgstr "پیشین"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
+#, fuzzy
 msgid "Prior width"
-msgstr ""
+msgstr "عرض قبلی"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
+#, fuzzy
 msgid "Probability"
-msgstr ""
+msgstr "احتمال"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
+#, fuzzy
 msgid "Promax"
-msgstr ""
+msgstr "پرومکس"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "promax"
-msgstr ""
+msgstr "پرومکس"
 
 #: R/proptest2.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
+#, fuzzy
 msgid "Proportion"
-msgstr ""
+msgstr "نسبت"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
+#, fuzzy
 msgid "Proportion Test (2 Outcomes)"
-msgstr ""
+msgstr "آزمون نسبت (2 نتیجه)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
+#, fuzzy
 msgid "Proportion Test (N Outcomes)"
-msgstr ""
+msgstr "آزمون نسبت (N نتیجه)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
+#, fuzzy
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
+msgstr "اندازه کون د کوهن را برای اندازه اثر در آزمون‌های پس از آزمون فراهم کند."
 
 #: ttestOneS/options/ci.description.ui
+#, fuzzy
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr ""
+msgstr "بازه اطمینان برای اختلاف بین برآورد میانگین و مقدار آزمون را فراهم کنید."
 
 #: corrMatrix/options/plots.description.ui
+#, fuzzy
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "یک ماتریس همبستگی را ارائه می دهد."
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
+#, fuzzy
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr ""
+msgstr "تاو-ب کندال را برای هر ترکیب متغیرها فراهم کنید."
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
+#, fuzzy
 msgid "provide a p-value for each correlation co-efficient."
-msgstr ""
+msgstr "ارائه مقدار p برای هر ضرایب همبستگی"
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
+#, fuzzy
 msgid "provide a Pearson's r for each combination of variables."
-msgstr ""
+msgstr "ارائه r پیرسون برای هر ترکیب از متغیرها"
 
 #: ttestOneS/options/qq.description.ui
+#, fuzzy
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
+msgstr "نمودار Q-Q باقیمانده‌ها را فراهم می‌کند - نمودار باقیمانده‌های واقعی در برابر آنچه در صورت توزیع <i>کامل</i> نرمال انتظار می‌رود. انحرافات بزرگ از خط دیاگونال نشان می‌دهد که داده‌ها از توزیع نرمال نیستند."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
+#, fuzzy
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr ""
+msgstr "ارائه rho اسپیرمن برای هر ترکیب از متغیرها"
 
 #: ttestOneS/options/desc.description.ui
+#, fuzzy
 msgid "provide a table of descriptives for each variable."
-msgstr ""
+msgstr "provide a table of descriptives for each variable."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
+#, fuzzy
 msgid "provide a table of the estimated marginal means."
-msgstr ""
+msgstr "ارائه یک جدول از میانگین های حاشیه ای برآورد شده"
 
 #: ttestIS/options/bf.description.ui
+#, fuzzy
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
+msgstr "عوامل بیز برای آزمون های t نمونه های مستقل دانش آموز را فراهم کند."
 
 #: ttestOneS/options/bf.description.ui
+#, fuzzy
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr ""
+msgstr "عوامل بیزی را برای آزمون‌های t یک نمونه دانش‌آموز فراهم کنید."
 
 #: ttestPS/options/bf.description.ui
+#, fuzzy
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr ""
+msgstr "عوامل بیز برای آزمون های t نمونه های جفتی دانش آموز را فراهم کند."
 
 #: corrMatrix/options/ci.description.ui
+#, fuzzy
 msgid "provide confidence intervals for Pearson's r."
-msgstr ""
+msgstr "فاصله‌های اطمینان برای r پیرسون را فراهم می‌کند"
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
+#, fuzzy
 msgid "provide confidence intervals for the effect-sizes"
-msgstr ""
+msgstr "بازه‌های اطمینان را برای اندازه‌های اثر فراهم کند"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
+#, fuzzy
 msgid "provide confidence intervals for the mean differences."
-msgstr ""
+msgstr "بازه‌های اعتماد برای میانگین‌های تفاوت‌ها را فراهم کند."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
+#, fuzzy
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr ""
+msgstr "فاصله‌های اطمینان برای اندازه‌های اثر پس از آزمون را فراهم می‌کند"
 
 #: corrMatrix/options/plotStats.description.ui
+#, fuzzy
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr ""
+msgstr "ارائه ضرایب همبستگی در نمودار ماتریس همبستگی"
 
 #: anovaOneW/options/descPlot.description.ui
+#, fuzzy
 msgid "provide descriptive plots for each group."
-msgstr ""
+msgstr "provide descriptive plots for each group."
 
 #: ttestOneS/options/plots.description.ui
+#, fuzzy
 msgid "provide descriptive plots for each variable."
-msgstr ""
+msgstr "نمودارهای توصیفی برای هر متغیر را فراهم کنید."
 
 #: ttestPS/options/plots.description.ui
+#, fuzzy
 msgid "provide descriptives for each group of measurements."
-msgstr ""
+msgstr "توصیفات را برای هر گروه از اندازه‌گیری‌ها فراهم کند."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
+#, fuzzy
 msgid "provide descriptives for each group."
-msgstr ""
+msgstr "ارائه ویژگی‌های توصیفی برای هر گروه"
 
 #: ttestIS/options/plots.description.ui
+#, fuzzy
 msgid "provide descriptives plots."
-msgstr ""
+msgstr "نمودار های توصیفی را فراهم کند."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestOneS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
+#, fuzzy
 msgid "provide effect-sizes (Cohen's d)."
-msgstr ""
+msgstr "اندازه های اثر (دکوهن) را فراهم کند."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
+#, fuzzy
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr ""
+msgstr "تست لوین برای همگنی واریانس ها را ارائه می دهد. یک مقدار p کم نشان می دهد که گروه ها واریانس های نامساوی دارند."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
+#, fuzzy
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr ""
+msgstr "آزمون‌های لون را برای همگنی واریانس‌ها فراهم کند. یک مقدار p کم نشان‌دهنده این است که گروه‌ها واریانس‌های نابرابری دارند."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
+#, fuzzy
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr ""
+msgstr "میانگین های تفاوت ها و خطاهای استاندارد تفاوت های میانگین را ارائه دهید."
 
 #: anovaOneW/options/phMeanDif.description.ui
+#, fuzzy
 msgid "provide mean differences with the post-hoc tests."
-msgstr ""
+msgstr "میانگین‌های تفاوت‌ها را با آزمون‌های پس از آزمون فراهم کنید."
 
 #: ttestOneS/options/meanDiff.description.ui
+#, fuzzy
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr ""
+msgstr "میانگین های تفاوت ها و خطاهای استاندارد تفاوت های میانگین را بین برآورد میانگین و مقدار آزمایشی ارائه دهید."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
+#, fuzzy
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr ""
+msgstr "اندازه‌های اثر را فراهم می‌کند؛ η²، η² جزئی، یا ω²."
 
 #: anovaRM/options/spherCorr.description.ui
+#, fuzzy
 msgid "provide p-value corrections for sphericity."
-msgstr ""
+msgstr "ارائه اصلاحات برای مقدار p برای کروی بودن"
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
+#, fuzzy
 msgid "provide plots of the estimated marginal means."
-msgstr ""
+msgstr "نمودارهای میانگین‌های حاشیه‌ای برآورد شده را فراهم کند."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
+#, fuzzy
 msgid "provide post-hoc tests."
-msgstr ""
+msgstr "provide post-hoc tests."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
+#, fuzzy
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
+msgstr "ارائه نمودار Q-Q از باقیمانده‌ها - نمودار باقیمانده‌های واقعی در برابر آنچه انتظار می‌رود اگر داده‌ها به‌طور کامل توزیع نرمال باشند. انحرافات بزرگ از خط مورب نشان‌دهنده این است که داده‌ها از توزیع نرمال نیستند."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
+#, fuzzy
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr ""
+msgstr "پلات‌های Q-Q باقیمانده‌ها را ارائه می‌دهد - پلاتی از باقیمانده‌های واقعی در برابر آنچه انتظار می‌رود اگر داده‌ها به طور کامل نرمال توزیع شوند. انحرافات بزرگ از خط مورب نشان می‌دهد که باقیمانده‌ها توزیع نرمال ندارند."
 
 #: anovaOneW/options/phSig.description.ui
+#, fuzzy
 msgid "provide significance levels for the post-hoc tests."
-msgstr ""
+msgstr "سطح های معنی داری را برای آزمایش های پس از hoc ارائه دهید."
 
 #: anovaRM/options/spherTests.description.ui
+#, fuzzy
 msgid "provide sphericity tests."
-msgstr ""
+msgstr "تست‌های کرویت را ارائه می‌دهد."
 
 #: anovaOneW/options/phTest.description.ui
+#, fuzzy
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr ""
+msgstr "نتایج آزمون (مقدار t و درجه آزادی) را برای آزمون‌های پس از آزمون فراهم می‌کند"
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
+#, fuzzy
 msgid "provide the number of cases."
-msgstr ""
+msgstr "تعداد موارد را ارائه می‌دهد."
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -4178,12 +4872,14 @@ msgstr ""
 #: logRegMulti/ui[3][0][1]/pseudoR2.label
 #: logRegOrd/options/pseudoR2.title
 #: logRegOrd/ui[3][0][1]/pseudoR2.label
+#, fuzzy
 msgid "Pseudo R²"
-msgstr ""
+msgstr "R² اسمی"
 
 #: descriptives/ui[3][0][0][1]/qq.label
+#, fuzzy
 msgid "Q-Q"
-msgstr ""
+msgstr "Q-Q"
 
 #: ancova/options/qq.title
 #: ancova/results/assump/qq.title
@@ -4195,8 +4891,9 @@ msgstr ""
 #: linReg/results/models.template/assump/qqPlot.title
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
+#, fuzzy
 msgid "Q-Q Plot"
-msgstr ""
+msgstr "نقشه Q-Q"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -4204,114 +4901,136 @@ msgstr ""
 #: ttestIS/results/plots.template/qq.description
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
+#, fuzzy
 msgid "Q-Q plot"
-msgstr ""
+msgstr "نقشه‌ی Q-Q"
 
 #: mancova/results/assump/qqPlot.title
+#, fuzzy
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "برآورد Q-Q برای ارزیابی نرمالیت چندمتغیره"
 
 #: mancova/options/qqPlot.title
+#, fuzzy
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "نمودار Q-Q از نرمالی چند متغیره"
 
 #: linReg/options/qqPlot.title
+#, fuzzy
 msgid "Q-Q plot of residuals"
-msgstr ""
+msgstr "نمودار Q-Q باقی مانده"
 
 #: descriptives/ui[3][0][0][1].label
+#, fuzzy
 msgid "Q-Q Plots"
-msgstr ""
+msgstr "نمودارهای Q-Q"
 
 #: ttestOneS/results/qq.title
+#, fuzzy
 msgid "Q-Q plots"
-msgstr ""
+msgstr "نقشه Q-Q"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "quadratic"
-msgstr ""
+msgstr "مربعی"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "quartic"
-msgstr ""
+msgstr "quartic"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
+#, fuzzy
 msgid "Quartimax"
-msgstr ""
+msgstr "Quartimax"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "quartimax"
-msgstr ""
+msgstr "quartimax"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
+#, fuzzy
 msgid "R²"
-msgstr ""
+msgstr "R²"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
+#, fuzzy
 msgid "R²<sub>CS</sub>"
-msgstr ""
+msgstr "R²<sub>CS</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
+#, fuzzy
 msgid "R²<sub>McF</sub>"
-msgstr ""
+msgstr "R²<sub>McF</sub>"
 
 #: logLinear/results/modelFit.columns.title
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
+#, fuzzy
 msgid "R²<sub>N</sub>"
-msgstr ""
+msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
+#, fuzzy
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
 #: linReg/results/models.template/dataSummary/mahal.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
+#, fuzzy
 msgid "Range"
-msgstr ""
+msgstr "محدوده"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
+#, fuzzy
 msgid "Rank biserial correlation"
-msgstr ""
+msgstr "همبستگی رتبه‌ای بیزریال"
 
 #: logLinear/ui[4][0][1][0].label
+#, fuzzy
 msgid "Rate Ratio"
-msgstr ""
+msgstr "نسبت نرخ"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
+#, fuzzy
 msgid "Rate ratio"
-msgstr ""
+msgstr "نسبت نرخ"
 
 #: propTestN/ui[2]/ratio.columns.label
+#, fuzzy
 msgid "Ratio"
-msgstr ""
+msgstr "نسبت"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
 #: logRegBin/ui[2]/refLevels.columns.label
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
+#, fuzzy
 msgid "Reference Level"
-msgstr ""
+msgstr "سطح مرجع"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
+#, fuzzy
 msgid "Reference level (dummy coding)"
-msgstr ""
+msgstr "سطح مرجع (کدگذاری dummy)"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -4323,8 +5042,9 @@ msgstr ""
 #: logRegMulti/ui[2].label
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
+#, fuzzy
 msgid "Reference Levels"
-msgstr ""
+msgstr "سطح های مرجع"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -4338,13 +5058,15 @@ msgstr ""
 #: logRegBin/options.menuGroup
 #: logRegMulti/options.menuGroup
 #: logRegOrd/options.menuGroup
+#, fuzzy
 msgid "Regression"
-msgstr ""
+msgstr "رگرسیون"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
+#, fuzzy
 msgid "Relative risk"
-msgstr ""
+msgstr "ریسک نسبی"
 
 #: package/analyses/reliability.title
 #: package/analyses/reliability.menuTitle
@@ -4353,14 +5075,16 @@ msgstr ""
 #: reliability/options.description.main
 #: reliability/ui.title
 #: reliability/results.title
+#, fuzzy
 msgid "Reliability Analysis"
-msgstr ""
+msgstr "تجزیه و تحلیل پایایی"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
 #: anovaRM/options/contrasts.template/type/repeated.title
+#, fuzzy
 msgid "Repeated"
-msgstr ""
+msgstr "تکراری"
 
 #: package/analyses/anovaRM.title
 #: package/analyses/anovaRM.menuTitle
@@ -4369,81 +5093,98 @@ msgstr ""
 #: anovaRM/ui.title
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
+#, fuzzy
 msgid "Repeated Measures ANOVA"
-msgstr ""
+msgstr "ANOVA اندازه‌گیری‌های تکراری"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
+#, fuzzy
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr ""
+msgstr "آنالیز واریانس اندازه‌گیری‌های تکراری (غیرپارامتریک)"
 
 #: anovaRM/options/rmCells.title
+#, fuzzy
 msgid "Repeated Measures Cells"
-msgstr ""
+msgstr "سلول‌های اندازه‌گیری مکرر"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
+#, fuzzy
 msgid "Repeated Measures Components"
-msgstr ""
+msgstr "اجزای اندازه گیری مکرر"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
+#, fuzzy
 msgid "Repeated Measures Factors"
-msgstr ""
+msgstr "Repeated Measures Factors"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
+#, fuzzy
 msgid "Report significance"
-msgstr ""
+msgstr "گزارش معنی‌داری"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Represents grand mean"
-msgstr ""
+msgstr "نماینده میانگین کل"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Represents reference level"
-msgstr ""
+msgstr "سطح مرجع را نشان می دهد"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Residual"
-msgstr ""
+msgstr "باقیمانده"
 
 #: cfa/options/resCov.title
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
+#, fuzzy
 msgid "Residual Covariances"
-msgstr ""
+msgstr "کовариانس باقی‌مانده"
 
 #: cfa/options/resCovEst.title
+#, fuzzy
 msgid "Residual covariances"
-msgstr ""
+msgstr "کواریانس‌های باقیمانده"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
+#, fuzzy
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "کوواریانس‌های باقیمانده – شاخص‌های اصلاح"
 
 #: cfa/results/resEst.title
+#, fuzzy
 msgid "Residual Estimates"
-msgstr ""
+msgstr "Residual Estimates"
 
 #: cfa/results/resEst/resIntercept.title
+#, fuzzy
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "تقاطع های باقیمانده"
 
 #: cfa/options/resInterceptEst.title
+#, fuzzy
 msgid "Residual intercepts"
-msgstr ""
+msgstr "میان‌رسته‌های باقیمانده"
 
 #: linReg/options/resPlots.title
+#, fuzzy
 msgid "Residual plots"
-msgstr ""
+msgstr "نمودارهای باقی‌مانده"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
+msgstr "جمع مربع باقیمانده و/یا درجه آزادی صفر است، نشان‌دهنده یک برازش کامل"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4457,24 +5198,29 @@ msgstr ""
 #: linReg/results/residsOV.title
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
+#, fuzzy
 msgid "Residuals"
-msgstr ""
+msgstr "باقیمانده"
 
 #: cfa/results/modelPerformance/corRes.title
+#, fuzzy
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "Residuals for Observed Correlation Matrix"
 
 #: R/anova.b.R
+#, fuzzy
 msgid "Residuals from ANOVA"
-msgstr ""
+msgstr "باقیمانده‌های ANOVA"
 
 #: cfa/options/corRes.title
+#, fuzzy
 msgid "Residuals observed correlation matrix"
-msgstr ""
+msgstr "ماتریس همبستگی باقی مانده مشاهده شده"
 
 #: linReg/results/models.template/assump/resPlots.title
+#, fuzzy
 msgid "Residuals Plots"
-msgstr ""
+msgstr "پلات‌های باقیمانده"
 
 #: package/analyses/empty.title
 #: package/analyses/empty.menuTitle
@@ -4486,88 +5232,106 @@ msgid "Results"
 msgstr "نتیجه‌ها"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "reverse scaled item"
-msgstr ""
+msgstr "مقیاس معکوس شده"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
+#, fuzzy
 msgid "Reverse Scaled Items"
-msgstr ""
+msgstr "آیتم های مقیاس معکوس"
 
 #: anovaRM/options/rm.default[0].label
+#, fuzzy
 msgid "RM Factor 1"
-msgstr ""
+msgstr "عامل RM 1"
 
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
+#, fuzzy
 msgid "RMSE"
-msgstr ""
+msgstr "RMSE"
 
 #: cfa/options/fitMeasures/rmsea.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
+#, fuzzy
 msgid "RMSEA"
-msgstr ""
+msgstr "RMSEA"
 
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
+#, fuzzy
 msgid "RMSEA 90% CI"
-msgstr ""
+msgstr "RMSEA 90% CI"
 
 #: logRegBin/ui[7][0][2][0].label
+#, fuzzy
 msgid "ROC"
-msgstr ""
+msgstr "ROC"
 
 #: logRegBin/results/models.template/pred/rocPlot.title
+#, fuzzy
 msgid "ROC Curve"
-msgstr ""
+msgstr "منحنی ROC"
 
 #: logRegBin/options/rocPlot.title
+#, fuzzy
 msgid "ROC curve"
-msgstr ""
+msgstr "منحنی ROC"
 
 #: efa/options/rotation.title
 #: pca/options/rotation.title
+#, fuzzy
 msgid "Rotation"
-msgstr ""
+msgstr "چرخش"
 
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
+#, fuzzy
 msgid "Row"
-msgstr ""
+msgstr "سطر"
 
 #: descriptives/results/extremeValues.template.columns.title
+#, fuzzy
 msgid "Row number"
-msgstr ""
+msgstr "شماره سطر"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#, fuzzy
 msgid "Row variable '{var}' contains fewer than 2 levels"
-msgstr ""
+msgstr "متغیر سطر '{var}' کمتر از 2 سطح دارد"
 
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#, fuzzy
 msgid "Rows"
-msgstr ""
+msgstr "سطرها"
 
 #: contTables/options/compare/rows.title
+#, fuzzy
 msgid "rows"
-msgstr ""
+msgstr "سطرها"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Rows compared"
-msgstr ""
+msgstr "سطرهای مقایسه شده"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
+#, fuzzy
 msgid "Roy's Largest Root"
-msgstr ""
+msgstr "بزرگ‌ترین ریشه Roy"
 
 #: descriptives/ui[2][0][0].label
+#, fuzzy
 msgid "Sample Size"
-msgstr ""
+msgstr "اندازه نمونه"
 
 #: ancova/ui[7].label
 #: anova/ui[7].label
@@ -4576,59 +5340,72 @@ msgstr ""
 #: logRegBin/ui[8].label
 #: pca/ui[2].label
 #: reliability/ui[3].label
+#, fuzzy
 msgid "Save"
-msgstr ""
+msgstr "ذخیره"
 
 #: reliability/results/scale.columns.content
+#, fuzzy
 msgid "scale"
-msgstr ""
+msgstr "مقیاس"
 
 #: package/analyses/reliability.menuSubgroup
+#, fuzzy
 msgid "Scale Analysis"
-msgstr ""
+msgstr "تجزیه و تحلیل مقیاس"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
+#, fuzzy
 msgid "Scale factor = scale first indicator"
-msgstr ""
+msgstr "فاکتور مقیاس = نشانگر مقیاس اول"
 
 #: reliability/results/scale.title
+#, fuzzy
 msgid "Scale Reliability Statistics"
-msgstr ""
+msgstr "آمار پایایی مقیاس"
 
 #: reliability/ui[1][0][0].label
+#, fuzzy
 msgid "Scale Statistics"
-msgstr ""
+msgstr "آمار مقیاس"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
+#, fuzzy
 msgid "Scheffe"
-msgstr ""
+msgstr "شفه"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score Component"
-msgstr ""
+msgstr "اجزای امتیاز"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score Factor"
-msgstr ""
+msgstr "عامل امتیاز"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score for component"
-msgstr ""
+msgstr "امتیاز برای جزء"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr ""
+msgstr "امتیاز عامل {i}. با استفاده از روش '{fsMethod}' برآورد شده است."
 
 #: pca/results/eigen/screePlot.title
+#, fuzzy
 msgid "Scree Plot"
-msgstr ""
+msgstr "پلات اسکری"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
+#, fuzzy
 msgid "Scree plot"
-msgstr ""
+msgstr "پلات اسکری"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -4640,8 +5417,9 @@ msgstr ""
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
+#, fuzzy
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4667,164 +5445,198 @@ msgstr ""
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
+#, fuzzy
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "SE difference"
-msgstr ""
+msgstr "تفاوت SE"
 
 #: corrPart/options/type/semi.title
+#, fuzzy
 msgid "Semipartial"
-msgstr ""
+msgstr "نیمه‌جزئی"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "Semipartial Correlation"
-msgstr ""
+msgstr "همبستگی نیمه‌جزئی"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
 #: logRegBin/results/models.template/pred/measures.columns.title
+#, fuzzy
 msgid "Sensitivity"
-msgstr ""
+msgstr "حساسیت"
 
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
+#, fuzzy
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 #: mancova/results/assump/shapiro.title
+#, fuzzy
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr ""
+msgstr "آزمون چند متغیره عادی بودن شاپیرو-ویلک"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Shapiro-Wilk p"
-msgstr ""
+msgstr "Shapiro-Wilk p"
 
 #: mancova/ui[1][1][0]/shapiro.label
+#, fuzzy
 msgid "Shapiro-Wilk test"
-msgstr ""
+msgstr "آزمون Shapiro-Wilk"
 
 #: mancova/options/shapiro.title
+#, fuzzy
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr ""
+msgstr "آزمون شاپیرو-ویلک برای نرمال بودن چندمتغیره"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Shapiro-Wilk W"
-msgstr ""
+msgstr "شapiro-ویルク W"
 
 #: contTables/options/bartype/dodge.title
+#, fuzzy
 msgid "Side by side"
-msgstr ""
+msgstr "کنار هم"
 
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
+#, fuzzy
 msgid "Simple (vs. First)"
-msgstr ""
+msgstr "ساده (در مقابل اول)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
+#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr ""
+msgstr "ساده (در مقابل آخرین)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
+#, fuzzy
 msgid "Simplimax"
-msgstr ""
+msgstr "Simplimax"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "simplimax"
-msgstr ""
+msgstr "سیمپلی‌مکس"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Simulations"
-msgstr ""
+msgstr "شبیه‌سازی‌ها"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr ""
+msgstr "پاسخ منحصر به فرد؛ یک یا چند متغیر پیش بینی کننده ترکیب خطی متغیرهای پیش بینی کننده دیگر هستند."
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "خطای تکینگی. اصلاحات کروی در دسترس نیست"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Singularity error. Sphericity tests are not available"
-msgstr ""
+msgstr "خطای تکینگی. آزمون‌های کرویت در دسترس نیستند"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
+#, fuzzy
 msgid "Skewness"
-msgstr ""
+msgstr "خمش"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
+#, fuzzy
 msgid "Sort loadings by size"
-msgstr ""
+msgstr "بارگیری را بر اساس اندازه مرتب کنید"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
+#, fuzzy
 msgid "Spearman"
-msgstr ""
+msgstr "Spearman"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
+#, fuzzy
 msgid "Spearman's rho"
-msgstr ""
+msgstr "رو هو اسپیرمن"
 
 #: R/pca.b.R
+#, fuzzy
 msgctxt "specific factor"
 msgid "Factor"
-msgstr ""
+msgstr "عامل"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
+#, fuzzy
 msgid "Specificity"
-msgstr ""
+msgstr "ویژگی"
 
 #: anovaRM/results/rmTable.columns.title
+#, fuzzy
 msgid "Sphericity Correction"
-msgstr ""
+msgstr "اصلاح کروی"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
+#, fuzzy
 msgid "Sphericity corrections"
-msgstr ""
+msgstr "اصلاحات کرویت"
 
 #: anovaRM/options/spherTests.title
+#, fuzzy
 msgid "Sphericity tests"
-msgstr ""
+msgstr "تست‌های کرویت"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
+#, fuzzy
 msgid "Split by"
-msgstr ""
+msgstr "تقسیم شده توسط"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Squared Mahalanobis Distance"
-msgstr ""
+msgstr "فاصله مربع ماهالانوبیس"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
+#, fuzzy
 msgid "SRMR"
-msgstr ""
+msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
+#, fuzzy
 msgid "SS Loadings"
-msgstr ""
+msgstr "بارهای SS"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
+#, fuzzy
 msgid "Stacked"
-msgstr ""
+msgstr "چندلایه"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -4832,20 +5644,23 @@ msgstr ""
 #: cfa/results/resEst/resCov.columns.title
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
+#, fuzzy
 msgid "Stand. Estimate"
-msgstr ""
+msgstr "برآورد استاندارد"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
+#, fuzzy
 msgid "Standard deviation"
-msgstr ""
+msgstr "انحراف معیار"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
+#, fuzzy
 msgid "Standard Error"
-msgstr ""
+msgstr "خطای معیار"
 
 #: ancova/options/emmPlotError/se.title
 #: anovaRM/options/emmPlotError/se.title
@@ -4854,13 +5669,15 @@ msgid "Standard error"
 msgstr "خطای معیار"
 
 #: linReg/ui[5][0][1][0].label
+#, fuzzy
 msgid "Standardized Estimate"
-msgstr ""
+msgstr "برآورد استاندارد"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
+#, fuzzy
 msgid "Standardized estimate"
-msgstr ""
+msgstr "برآورد استاندارد"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -4870,16 +5687,19 @@ msgstr ""
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "باقیمانده های استاندارد شده"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Standardized residuals"
-msgstr ""
+msgstr "باقیمانده های استاندارد شده"
 
 #: contTables/options/resS.title
+#, fuzzy
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Standardized residuals (adjusted Pearson)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -4887,12 +5707,14 @@ msgstr ""
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "Statistic"
-msgstr ""
+msgstr "آماره"
 
 #: ttestPS/results/ttest.columns.title
+#, fuzzy
 msgid "statistic"
-msgstr ""
+msgstr "آمار"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -4900,78 +5722,93 @@ msgstr ""
 #: corrMatrix/options/plotStats.title
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
+#, fuzzy
 msgid "Statistics"
-msgstr ""
+msgstr "آماره ها"
 
 #: descriptives/ui[2][2][0][0]/sd.label
+#, fuzzy
 msgid "Std. deviation"
-msgstr ""
+msgstr "انحراف معیار"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Std. error kurtosis"
-msgstr ""
+msgstr "خطای استاندارد کرتوزیس"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Std. error mean"
-msgstr ""
+msgstr "خطای استاندارد میانگین"
 
 #: descriptives/ui[2][2][1][0]/se.label
+#, fuzzy
 msgid "Std. error of Mean"
-msgstr ""
+msgstr "خطای استاندارد میانگین"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Std. error skewness"
-msgstr ""
+msgstr "خطای استاندارد انحراف از نرمالی"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
+#, fuzzy
 msgid "Student's"
-msgstr ""
+msgstr "استیودنت"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
+#, fuzzy
 msgid "Student's t"
-msgstr ""
+msgstr "t دانشجو"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
+#, fuzzy
 msgid "Student's test"
-msgstr ""
+msgstr "آزمون دانش آموز"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
 #: descriptives/options/sum.title
+#, fuzzy
 msgid "Sum"
-msgstr ""
+msgstr "مجموع"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
+#, fuzzy
 msgid "Sum of Squares"
-msgstr ""
+msgstr "مجموع مربع‌ها"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
+#, fuzzy
 msgid "Sum of squares"
-msgstr ""
+msgstr "مجموع مربع‌ها"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
+#, fuzzy
 msgid "Sum score"
-msgstr ""
+msgstr "امتیاز جمع"
 
 #: pca/results/factorStats/factorSummary.title
+#, fuzzy
 msgid "Summary"
-msgstr ""
+msgstr "خلاصه"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: package/analyses/ttestIS.menuGroup
 #: package/analyses/ttestPS.menuGroup
@@ -4979,16 +5816,19 @@ msgstr ""
 #: ttestIS/options.menuGroup
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
+#, fuzzy
 msgid "T-Tests"
-msgstr ""
+msgstr "آزمون‌های t"
 
 #: anovaOneW/results/postHoc.template.columns.content
+#, fuzzy
 msgid "t-value"
-msgstr ""
+msgstr "مقدار t"
 
 #: efa/options/factorScoreMethod/tenBerge.title
+#, fuzzy
 msgid "ten Berge"
-msgstr ""
+msgstr "تن برژ"
 
 #: jamovi/js/ancova.events.js:51
 #: jamovi/js/ancova.events.js:7
@@ -5002,8 +5842,9 @@ msgstr ""
 #: jamovi/js/loglinear.events.js:52
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
+#, fuzzy
 msgid "Term {0}"
-msgstr ""
+msgstr "اصطلاح {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5012,55 +5853,67 @@ msgstr ""
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
+#, fuzzy
 msgid "Term 1"
-msgstr ""
+msgstr "عامل 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
+#, fuzzy
 msgid "Test for Exact Fit"
-msgstr ""
+msgstr "آزمون برازش دقیق"
 
 #: anovaOneW/options/phTest.title
+#, fuzzy
 msgid "Test results (t and df)"
-msgstr ""
+msgstr "نتایج آزمون (t و df)"
 
 #: cfa/options/estTest.title
+#, fuzzy
 msgid "Test statistics"
-msgstr ""
+msgstr "آمار آزمون"
 
 #: ttestOneS/options/testValue.title
+#, fuzzy
 msgid "Test Value"
-msgstr ""
+msgstr "مقدار آزمایشی"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
+#, fuzzy
 msgid "Test value"
-msgstr ""
+msgstr "مقدار تست"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
+#, fuzzy
 msgid "Tests"
-msgstr ""
+msgstr "تست ها"
 
 #: anovaRM/results/assump/spherTable.title
+#, fuzzy
 msgid "Tests of Sphericity"
-msgstr ""
+msgstr "آزمون‌های کرویت"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "th percentile"
-msgstr ""
+msgstr "صدمین"
 
 #: package/datasets/Anderson'sIrisData.description
+#, fuzzy
 msgid "The 'iris' data set from R"
-msgstr ""
+msgstr "داده های 'iris' از R"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr ""
+msgstr "متغیر 'split by' '{var}' حاوی هیچ داده‌ای نیست."
 
 #: ttestOneS/options/hypothesis.description.ui
+#, fuzzy
 msgid "the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
@@ -5068,35 +5921,48 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr ""
+msgstr "فرضیه های جایگزین و خالی;\n"
+"\n"
+"|              | جایگزین (Hₐ)  | خالی (H₀)          |\n"
+"|--------------|-------------------|--------------------|\n"
+"| ≠ ارزش تست | میانگین ≠ ارزش تست | میانگین = ارزش تست  |\n"
+"| > ارزش تست | میانگین > ارزش تست | میانگین <= ارزش تست |\n"
+"| < ارزش تست | میانگین < ارزش تست | میانگین >= ارزش تست |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
+#, fuzzy
 msgid "the alternative hypothesis."
-msgstr ""
+msgstr "فرضیه جایگزین"
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
+#, fuzzy
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr ""
+msgstr "فرضیه جایگزین. اجازه می دهد تا آزمون های یک طرفه انجام شود"
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
+#, fuzzy
 msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr ""
+msgstr "تجزیه و تحلیل کوواریانس (ANCOVA) برای khám phá رابطه بین یک متغیر وابسته پیوسته، یک یا چند متغیر توضیحی طبقه بندی شده و یک یا چند متغیر توضیحی پیوسته (یا کوواریانس) استفاده می شود. این تجزیه و تحلیل در واقع مشابه ANOVA است، اما با افزودن کوواریانس."
 
 #: package/analyses/anova.description
+#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr ""
+msgstr "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+"between a continuous dependent variable, and one or more categorical\n"
+"explanatory variables."
 
 #: anova/options.description.main
+#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
@@ -5108,18 +5974,22 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr ""
+msgstr "تحلیل واریانس (ANOVA) برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی دسته‌ای استفاده می‌شود.\n"
+"\n"
+"ANOVA فرض می‌کند که باقیمانده‌ها توزیع نرمال دارند و واریانس‌های همه گروه‌ها برابر هستند. اگر کسی نمی‌خواهد فرض کند که واریانس‌ها برابر هستند، می‌تواند از آزمون Welch استفاده کند (با این حال، آزمون Welch از بیش از یک عامل توضیحی پشتیبانی نمی‌کند). به عنوان جایگزین، اگر کسی نمی‌خواهد فرض کند که داده‌ها توزیع نرمال دارند، می‌توان از یک روش غیرپارامتریک (مانند کراسکال-والیس) استفاده کرد."
 
 #: package/analyses/anovaOneW.description
+#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr ""
+msgstr "تجزیه و تحلیل واریانس (ANOVA) برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی طبقه‌بندی شده استفاده می‌شود. این 'ANOVA یک‌طرفه' نسخه‌ای ساده‌شده از 'ANOVA معمولی' است که فقط یک عامل توضیحی را مجاز می‌داند، اما همچنین از ANOVA Welch نیز پشتیبانی می‌کند. ANOVA Welch این مزیت را دارد که نیازی به فرض برابری واریانس‌های所有 گروه‌ها ندارد."
 
 #: anovaOneW/options.description.main
+#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
@@ -5132,186 +6002,236 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr ""
+msgstr "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+"between a continuous dependent variable, and one or more categorical\n"
+"explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
+"the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
+"also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
+"it need not assume that the variances of all groups are equal.\n"
+"\n"
+"For convenience, this method allows specifying multiple dependent\n"
+"variables, resulting in multiple independent tests.\n"
+"\n"
+"Note that the Welch's ANOVA is the same procedure as the Welch's\n"
+"independent samples t-test."
 
 #: anovaRM/options/bs.description.ui
+#, fuzzy
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "the between subjects factors (optional)."
 
 #: anovaRM/options/bsTerms.description.ui
+#, fuzzy
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "مفاهیم بین‌موضوعی مدل"
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
+#, fuzzy
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr ""
+msgstr "آزمون باینومی برای آزمایش فرضیه خنثی استفاده می‌شود که نسبت مشاهدات با یک مقدار مورد انتظار مطابقت دارد. اگر مقدار p-value پایین باشد، این نشان می‌دهد که فرضیه خنثی نادرست است و بنابراین نسبت واقعی باید یک مقدار دیگر باشد."
 
 #: ancova/options/factors.description.ui
+#, fuzzy
 msgid "the categorical explanatory (or independent) variables."
-msgstr ""
+msgstr "متغیرهای توضیحی (یا مستقل) دسته‌بندی شده."
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
+msgstr "CI میانگین فرض می کند که میانگین های نمونه از توزیع t با N - 1 درجه آزادی پیروی می کند"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
+#, fuzzy
 msgid "the confidence interval width for the effect-sizes."
-msgstr ""
+msgstr "پهناوری بازه اطمینان برای اندازه‌های اثر"
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
+#, fuzzy
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr ""
+msgstr "عرض فاصله اطمینان برای اندازه های اثر پس از آزمایش"
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
+#, fuzzy
 msgid "the confidence interval width."
-msgstr ""
+msgstr "عرض فاصله اطمینان"
 
 #: ancova/options/covs.description.ui
+#, fuzzy
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr ""
+msgstr "متغیرهای توضیحی پیوسته (یا مستقل)، که به عنوان کوواریانس نیز شناخته می‌شوند."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 #: anovaRM/options/contrasts.description.ui
+#, fuzzy
 msgid "the contrasts to use."
-msgstr ""
+msgstr "تقابل ها را استفاده می کند."
 
 #: corrPart/options/controls.description.ui
+#, fuzzy
 msgid "the control variables of interest."
-msgstr ""
+msgstr "متغیرهای کنترل مورد نظر"
 
 #: anovaRM/options/cov.description.ui
+#, fuzzy
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "کوواریانس‌ها (مشخص کردن این‌ها使 آن را به ANCOVA تبدیل می‌کند)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "The cut-off value is set to {}"
-msgstr ""
+msgstr "مقدار برش به {} تنظیم شده است"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
+msgstr "داده ها ۰ سطر را شامل می شود (بعد از حذف سطرهایی با مقادیر از دست رفته)"
 
 #: R/loglinear.b.R
+#, fuzzy
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "داده ها ۰ سطر دارد (یا همه سطرها مقادیر از دست رفته دارند)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr ""
+msgstr "متغیر وابسته '{}' بیش از دو سطح دارد. رگرسیون لجستیک دوجمله ای فقط می تواند روی متغیرهای وابسته با دو سطح انجام شود."
 
 #: R/logregord.b.R
+#, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr ""
+msgstr "The dependent variable '{dep}' has the following order: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
+#, fuzzy
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr ""
+msgstr "متغیر وابسته \"{dep}\" فقط دو سطح دارد، در نظر بگیرید که یک رگرسیون لجستیک باینری انجام دهید"
 
 #: ancova/options/dep.description.ui
+#, fuzzy
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr ""
+msgstr "متغیر وابسته. برای ANCOVA، این ها پیوسته خواهند بود."
 
 #: anova/options/dep.description.ui
+#, fuzzy
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "متغیر وابسته. برای ANOVA، این متغیرها پیوسته هستند."
 
 #: ttestIS/options/vars.description.ui
+#, fuzzy
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr ""
+msgstr "متغیرهای وابسته -- یک آزمون t جداگانه برای هر متغیر وابسته مشخص شده انجام می شود."
 
 #: anovaOneW/options/deps.description.ui
+#, fuzzy
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
+msgstr "متغیرهای وابسته. برای ANOVA، این متغیرها پیوسته هستند."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
+#, fuzzy
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "میله‌های خطای را برای میانگین‌های حاشیه‌ای رسم کنید."
 
 #: anovaOneW/options/group.description.ui
+#, fuzzy
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr ""
+msgstr "متغیر توضیحی یا مستقل. برای ANOVA این متغیر باید طبقه‌ای باشد"
 
 #: anova/options/factors.description.ui
+#, fuzzy
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr ""
+msgstr "متغیرهای توضیحی یا مستقل. برای ANOVA، اینها طبقه‌بندی می‌شوند."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
+#, fuzzy
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
+msgstr "آزمون فریدمن برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک متغیر توضیحی طبقه ای استفاده می شود، جایی که متغیر توضیحی 'در درون موضوعات' است (جایی که چندین اندازه گیری از یک موضوع گرفته می شود). این آزمون مشابه ANOVA با تکرار اندازه گیری است، اما با مزیت غیرپارامتریک بودن و عدم نیاز به فرضیه های نرمال بودن یا همگنی واریانس ها. با این حال، این آزمون محدودیت دارد که فقط می تواند یک متغیر توضیحی را در یک زمان آزمایش کند."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
+#, fuzzy
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
+msgstr "آزمون کراسکال-والیس برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک متغیر توضیحی طبقه ای استفاده می شود. این آزمون مشابه با ANOVA است، اما مزیت آن این است که پارامتریک نیست و فرض کمتری دارد. با این حال، این آزمون محدودیت دارد که فقط می تواند یک متغیر توضیحی را در یک زمان آزمایش کند."
 
 #: anovaRM/options/depLabel.description.ui
+#, fuzzy
 msgid "the label to use for the dependent variable."
-msgstr ""
+msgstr "برچسبی که برای متغیر وابسته استفاده می‌شود."
 
 #: cfa/results/modelSyntax.description
+#, fuzzy
 msgid "the lavaan syntax used to fit the model"
-msgstr ""
+msgstr "نحوه استفاده از lavaan برای برازش مدل"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
+#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
+msgstr "روش حذف مقدار گم‌شده. `تحلیل به تحلیل` مقادیر گم‌شده را از هر تحلیل حذف می‌کند. `لیست‌وار` یک سطر را از همه تحلیل‌ها حذف می‌کند اگر یکی از مقادیر آن گم‌شده باشد"
 
 #: ttestOneS/options/miss.description.ui
+#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
+msgstr "روش حذف مقدار 缺 برای تجزیه و تحلیل. `تجزیه و تحلیل به ازای هر تجزیه و تحلیل` مقادیر 缺 را از هر متغیر حذف می کند. `لیست‌وار` یک سطر را از همه تجزیه و تحلیل‌ها حذف می کند اگر یکی از مقادیر آن 缺 باشد."
 
 #: ancova/options/modelTerms.description.ui
+#, fuzzy
 msgid "the model terms which make up the model."
-msgstr ""
+msgstr "پایانه‌های مدل که مدل را تشکیل می‌دهند"
 
 #: anova/options/modelTerms.description.ui
+#, fuzzy
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr ""
+msgstr "عبارات مدل که مدل را تشکیل می‌دهند. به طور پیش‌فرض، یک مدل факторیل کامل ایجاد می‌شود، اما در اینجا می‌توان عبارات دقیق تشکیل‌دهنده مدل را تنظیم کرد."
 
 #: ttestPS/options/pairs.description.ui
+#, fuzzy
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
+msgstr "جفت های اندازه گیری -- یک آزمون t جداگانه برای هر جفت اندازه گیری انجام می شود."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
+#, fuzzy
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr ""
+msgstr "اصلاحات مقایسه‌های چندگانه پس از آزمون را استفاده کنید"
 
 #: ttestIS/options/bfPrior.description.ui
+#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr ""
+msgstr "پهنای پیشین برای عوامل بیزین آزمون تی استیودنت. نیاز به مقداری بین 0.01 و 2.0 دارد، مقدار پیش‌فرض 0.707"
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
+#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr ""
+msgstr "پهنای پیشین برای عوامل بیز توزیع t دانش آموز. نیازمند یک مقدار بین 0.5 و 2.0، پیش فرض 0.707."
 
 #: package/analyses/anovaRM.description
+#, fuzzy
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr ""
+msgstr "ANOVA اندازه‌های مکرر برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی طبقه‌بندی شده استفاده می‌شود، که یکی یا چند متغیر توضیحی 'درون افراد' (جایی که چندین اندازه‌گیری از یک فرد گرفته می‌شود) هستند. علاوه بر این، این تحلیل شامل متغیرهای کنترلی می‌شود و بنابراین امکان انجام ANCOVAهای اندازه‌های مکرر را نیز فراهم می‌کند."
 
 #: anovaRM/options.description.main
+#, fuzzy
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
@@ -5326,36 +6246,47 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr ""
+msgstr "تحلیل واریانس تکراری برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی دسته‌ای استفاده می‌شود، جایی که یکی یا چند از متغیرهای توضیحی 'درون افراد' (جایی که چندین اندازه‌گیری از یک فرد است) هستند. علاوه بر این، این تحلیل امکان 포함 کوواریانس‌ها را نیز فراهم می‌کند و بنابراین امکان انجام تحلیل واریانس تکراری ANCOVA را نیز می‌دهد.\n"
+"\n"
+"این تحلیل نیاز دارد که داده‌ها در فرمت 'عریض' باشند، جایی که هر سطر یک فرد (برخلاف فرمت طولانی، جایی که هر اندازه‌گیری از متغیر وابسته به عنوان یک سطر نشان داده می‌شود) را نشان می‌دهد.\n"
+"\n"
+"یک معادل غیرپارامتریک از تحلیل واریانس تکراری نیز وجود دارد؛ آزمون فریدمن. با این حال، محدودیت آن فقط این است که只能 یک عامل را آزمایش کند."
 
 #: anovaRM/options/rm.description.ui
+#, fuzzy
 msgid "the repeated measures design."
-msgstr ""
+msgstr "طراحی اندازه‌گیری مکرر"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr ""
+msgstr "اندازه‌گیری‌های تکراری فقط دو سطح دارد. فرض کرویت همیشه وقتی اندازه‌گیری‌های تکراری فقط دو سطح دارد برآورده می‌شود."
 
 #: anovaRM/options/rmCells.description.ui
+#, fuzzy
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "اندازه‌گیری‌های معادلات"
 
 #: anovaRM/options/rmTerms.description.ui
+#, fuzzy
 msgid "the repeated measures terms of the model."
-msgstr ""
+msgstr "پایانه‌های اندازه‌گیری تکراری مدل"
 
 #: R/utilsreg.R
+#, fuzzy
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr ""
+msgstr "سطح مرجع مشخص شده برای متغیرهای زیر یافت نشد: {vars}. به طور پیش فرض به اولین سطح در دسترس متوسل می شویم. برای استفاده از سطح مرجع سفارشی، اطمینان حاصل کنید که سطح مرجع تعریف شده در داده ها موجود است"
 
 #: package/analyses/ttestIS.description
+#, fuzzy
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr ""
+msgstr "آزمون t نمونه های مستقل دانشجو (ometimes به عنوان آزمون دو نمونه ای t نامیده می شود) برای آزمایش فرضیه ی خنثی که دو گروه میانگین یکسانی دارند، استفاده می شود. مقدار p کم نشان می دهد که فرضیه ی خنثی درست نیست و در نتیجه میانگین های گروه ها متفاوت هستند."
 
 #: ttestIS/options.description.main
+#, fuzzy
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
@@ -5369,16 +6300,20 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr ""
+msgstr "آزمون تی مستقل دانش آموز (گاهی اوقات به عنوان آزمون تی دو نمونه‌ای نامیده می‌شود) برای آزمایش فرضیه خنثی استفاده می‌شود که دو گروه میانگین یکسانی دارند. یک مقدار p-value پایین نشان می‌دهد که فرضیه خنثی درست نیست و بنابراین میانگین‌های گروه‌ها متفاوت هستند.\n"
+"\n"
+"آزمون تی مستقل دانش آموز فرض می‌کند که داده‌های هر گروه از یک توزیع نرمال هستند و واریانس‌های این گروه‌ها برابر هستند. اگر کسی نمی‌خواهد فرض کند که گروه‌ها واریانس‌های برابر دارند، می‌تواند از آزمون Welch استفاده کند. اگر کسی علاوه بر این نمی‌خواهد فرض کند که داده‌های هر گروه از یک توزیع نرمال هستند، می‌توان از آزمون غیرپارامتریک من-ویتنی یو استفاده کرد (با این حال، توجه داشته باشید که آزمون من-ویتنی یو فرضیه خنثی略اً متفاوتی دارد؛ اینکه توزیع‌های هر گروه برابر هستند)."
 
 #: package/analyses/ttestOneS.description
+#, fuzzy
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr ""
+msgstr "آزمون t تک نمونه دانش آموز برای آزمایش فرضیه صفر استفاده می‌شود که می‌گوید متوسط واقعی برابر با یک مقدار خاص (معمولا صفر) است. یک مقدار p کم نشان می‌دهد که فرضیه صفر درست نیست و بنابراین متوسط واقعی باید با مقدار آزمون متفاوت باشد."
 
 #: ttestOneS/options.description.main
+#, fuzzy
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
@@ -5389,17 +6324,21 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr ""
+msgstr "تست t تک نمونه دانش آموز برای آزمایش فرضیه خالی استفاده می شود که میانگین واقعی برابر با یک مقدار خاص (معمولاً صفر) است. یک مقدار p کم نشان می دهد که فرضیه خالی درست نیست و بنابراین میانگین واقعی باید با مقدار تست متفاوت باشد.\n"
+"\n"
+"test t تک نمونه دانش آموز فرض می کند که داده ها از توزیع نرمال هستند - در صورتی که کسی تمایل به فرض این ندارد، تست رتبه ای ویلکاکسون را می توان به جای آن استفاده کرد (با این حال، توجه داشته باشید که تست رتبه ای ویلکاکسون فرضیه خالی کمی متفاوت دارد؛ اینکه میانگین برابر با مقدار تست است)."
 
 #: package/analyses/ttestPS.description
+#, fuzzy
 msgid "The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr ""
+msgstr "تست t نمونه های جفتی دانش آموز (که گاهی اوقات تست نمونه های وابسته نامیده می شود) برای آزمایش فرضیه خالی استفاده می شود که تفاوت بین جفت اندازه گیری ها برابر با صفر است. یک مقدار p کم نشان می دهد که فرضیه خالی درست نیست و تفاوت بین جفت اندازه گیری ها برابر با صفر نیست."
 
 #: ttestPS/options.description.main
+#, fuzzy
 msgid "The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
@@ -5412,72 +6351,88 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr ""
+msgstr "آزمون t نمونه‌های جفتی دانش‌آموزان (که گاهی اوقات آزمون نمونه‌های وابسته نامیده می‌شود) برای آزمایش فرضیه صفر استفاده می‌شود که تفاوت بین جفت‌های اندازه‌گیری برابر با صفر است. یک مقدار p کم نشان می‌دهد که فرضیه صفر درست نیست و تفاوت بین جفت‌های اندازه‌گیری صفر نیست.\n"
+"\n"
+"آزمون t نمونه‌های جفتی دانش‌آموزان فرض می‌کند که تفاوت‌های جفت‌ها از توزیع نرمال پیروی می‌کنند - در صورتی که کسی نخواهد این فرض را داشته باشد، می‌توان از آزمون رتبه‌ای امضا شده ویلکاکسون به جای آن استفاده کرد (با این حال، توجه داشته باشید که آزمون رتبه‌ای امضا شده ویلکاکسون فرضیه صفر متفاوتی دارد؛ اینکه دو گروه از اندازه‌گیری‌ها از همان توزیع پیروی می‌کنند)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
+#, fuzzy
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr ""
+msgstr "اصطلاحاتی که می‌خواهید میانگین‌های حاشیه‌ای برآورد شده را برای آنها فراهم کنید. در اینجا می‌توانید چندین اصطلاح را مشخص کنید."
 
 #: ttestOneS/options/testValue.description.ui
+#, fuzzy
 msgid "the test value to test against (typically zero)."
-msgstr ""
+msgstr "مقدار آزمون برای مقایسه (معمولاً صفر)"
 
 #: corrPart/options/type.description.ui
+#, fuzzy
 msgid "the type of correlation to calculate"
-msgstr ""
+msgstr "نوع همبستگی برای محاسبه"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
+#, fuzzy
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr ""
+msgstr "نوع جمع مجذورات را برای استفاده انتخاب کنید؛ نوع 1، 2، یا 3."
 
 #: anovaRM/options/ss.description.ui
+#, fuzzy
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr ""
+msgstr "نوع مجموع مربعات برای استفاده؛ نوع 2 یا 3"
 
 #: ancova/results/model.description
 #: anova/results/model.description
+#, fuzzy
 msgid "The underlying `aov` object"
-msgstr ""
+msgstr "شیء `aov` زیرین"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr ""
+msgstr "متغیر {var} را نمی‌توان به عنوان عددی 처리 کرد. نمودارهایی که انتظار می‌رود داده‌های عددی داشته باشند، برای این متغیر ایجاد نخواهد شد."
 
 #: ttestIS/options/group.description.ui
+#, fuzzy
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr ""
+msgstr "متغیر مشخص‌کننده گروه‌ها؛ باید 2 سطح داشته باشد."
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr ""
+msgstr "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
 
 #: ttestOneS/options/vars.description.ui
+#, fuzzy
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr ""
+msgstr "متغیرهای مورد نظر -- یک تست t جداگانه برای هر متغیری که مشخص شده است، انجام می شود"
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
+#, fuzzy
 msgid "the variables of interest."
-msgstr ""
+msgstr "متغیرهای مورد علاقه"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
+#, fuzzy
 msgid "the width for the Confidence intervals."
-msgstr ""
+msgstr "پهنای بازه‌های اطمینان."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
+#, fuzzy
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr ""
+msgstr "آزمون خوبی‌تناسب χ² (که نباید با آزمون استقلال χ² اشتباه گرفته شود)، فرضیه صفر را آزمایش می‌کند که نسبت مشاهدات با نسبت‌های مورد انتظار مطابقت دارد. اگر مقدار p کم باشد، این نشان می‌دهد که فرضیه صفر गलत است و نسبت‌های واقعی با آنچه آزمایش می‌شود متفاوت است."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
+#, fuzzy
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr ""
+msgstr "آزمون χ² برای ارتباط (که نباید با χ² برای برازش خوب اشتباه شود) برای بررسی این که آیا دو متغیر طبقه‌بندی شده مستقل هستند یا مرتبط، استفاده می‌شود. اگر مقدار p-value پایین باشد، این نشان می‌دهد که متغیرها مستقل نیستند و بین دو متغیر رابطه‌ای وجود دارد."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5487,140 +6442,170 @@ msgstr ""
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "کوانتایل های نظری"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "هیچ فاصله ماهالانوبیس با آستانه‌ای کمتر از p < {p} وجود نداشت"
 
 #: package.description
+#, fuzzy
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr ""
+msgstr "این ماژول نمایانگر تجزیه و تحلیل های موجود در jamovi است. شامل بسیاری از تجزیه و تحلیل های رایج (مانند تست های t، ANOVA، رگرسیون، ماتریس های همبستگی، تست های نسبت، جداول تصادفی، تجزیه و تحلیل عامل و غیره) است."
 
 #: logRegOrd/results/models.template/thres.columns.title
+#, fuzzy
 msgid "Threshold"
-msgstr ""
+msgstr "آستانه"
 
 #: logRegOrd/ui[4][0][0][1].label
+#, fuzzy
 msgid "Thresholds"
-msgstr ""
+msgstr "آستانه‌ها"
 
 #: efa/options/factorScoreMethod/Thurstone.title
+#, fuzzy
 msgid "Thurstone"
-msgstr ""
+msgstr "تورستون"
 
 #: logRegBin/options/pseudoR2/r2t.title
+#, fuzzy
 msgid "Tjur's R²"
-msgstr ""
+msgstr "Tjur's R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
+#, fuzzy
 msgid "TLI"
-msgstr ""
+msgstr "TLI"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
+#, fuzzy
 msgid "Tolerance"
-msgstr ""
+msgstr "تحمل"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr ""
+msgstr "نمرات کم (N < 3) برای محاسبه آمار"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr ""
+msgstr "اندازه مشاهده‌ها برای محاسبه آماره کافی نیست. هر (زیر)گروه باید حداقل به همان تعداد مشاهدات به عنوان متغیرهای وابسته داشته باشد."
 
 #: R/anovaonew.b.R
+#, fuzzy
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr ""
+msgstr "اندازه نمونه‌ها برای محاسبه آماره کافی نیست (N < {n})"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr ""
+msgstr "نمونه های کم برای محاسبه آمار (N < 3)"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
+#, fuzzy
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr ""
+msgstr "Too many observations (N > 5000) to compute statistic"
 
 #: R/anovaonew.b.R
+#, fuzzy
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr ""
+msgstr "نمونه‌های بیش از حد برای محاسبه آمار (N > {n})"
 
 #: R/ttestis.b.R
+#, fuzzy
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr ""
+msgstr "نمونه های بسیار زیاد برای محاسبه آماره (N > 5000)"
 
 #: package/datasets/ToothGrowth.name
+#, fuzzy
 msgid "Tooth Growth"
-msgstr ""
+msgstr "Tooth Growth"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
+#, fuzzy
 msgid "Total"
-msgstr ""
+msgstr "کل"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
+#, fuzzy
 msgid "Tukey"
-msgstr ""
+msgstr "Tukey"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
+#, fuzzy
 msgid "Tukey (equal variances)"
-msgstr ""
+msgstr "Tukey (equal variances)"
 
 #: R/anovaonew.b.R
+#, fuzzy
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr ""
+msgstr "آزمون پس از hoc توکی – {dep}"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Type {ssType} Sums of Squares"
-msgstr ""
+msgstr "انواع {ssType} مجموع مربع‌ها"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
+#, fuzzy
 msgid "Type 1"
-msgstr ""
+msgstr "نوع 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
+#, fuzzy
 msgid "Type 2"
-msgstr ""
+msgstr "نوع 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
+#, fuzzy
 msgid "Type 3"
-msgstr ""
+msgstr "نوع 3"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Type 3 sum of squares"
-msgstr ""
+msgstr "مجموع مربع‌ها نوع 3"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Unable to split by a continuous variable"
-msgstr ""
+msgstr "نمی توان با یک متغیر پیوسته تقسیم کرد"
 
 #: pca/results/loadings.columns.title
+#, fuzzy
 msgid "Uniqueness"
-msgstr ""
+msgstr "یکتایی"
 
 #: mancova/results/univar.title
+#, fuzzy
 msgid "Univariate Tests"
-msgstr ""
+msgstr "آزمون‌های تک‌متغیره"
 
 #: R/conttables.b.R
 #: contTables/options/resU.title
+#, fuzzy
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "باقیمانده های غیراستاندارد شده"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5650,8 +6635,9 @@ msgid "Upper"
 msgstr "بالایی"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "upper bound"
-msgstr ""
+msgstr "مرز بالایی"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -5659,20 +6645,24 @@ msgstr ""
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
 #: descriptives/results/extremeValues.template.columns.title
+#, fuzzy
 msgid "Value"
-msgstr ""
+msgstr "مقدار"
 
 #: mancova/results/multivar.columns.title
+#, fuzzy
 msgid "value"
-msgstr ""
+msgstr "مقدار"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+#, fuzzy
 msgid "values"
-msgstr ""
+msgstr "مقدارها"
 
 #: propTest2/options/areCounts.title
+#, fuzzy
 msgid "Values are counts"
-msgstr ""
+msgstr "ارزش‌ها به صورت شمارش انجام می‌شوند"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -5680,26 +6670,31 @@ msgstr ""
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
+#, fuzzy
 msgid "Variable"
-msgstr ""
+msgstr "متغیر"
 
 #: R/proptest2.b.R
+#, fuzzy
 msgid "Variable '{var}' contains no data"
-msgstr ""
+msgstr "متغیر '{var}' حاوی هیچ داده‌ای نیست"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
+#, fuzzy
 msgid "Variable contains infinite values"
-msgstr ""
+msgstr "متغیر شامل مقادیر بی‌نهایت است"
 
 #: R/ttestones.b.R
+#, fuzzy
 msgid "Variable does not contain enough observations"
-msgstr ""
+msgstr "متغیرobservations کافی ندارد"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
+#, fuzzy
 msgid "Variable is not numeric"
-msgstr ""
+msgstr "متغیر عددی نیست"
 
 #: corrMatrix/options/vars.title
 #: corrPart/options/vars.title
@@ -5713,66 +6708,80 @@ msgid "Variables"
 msgstr "متغیرها"
 
 #: descriptives/options/desc/columns.title
+#, fuzzy
 msgid "Variables across columns"
-msgstr ""
+msgstr "متغیرها در ستون‌ها"
 
 #: descriptives/options/desc/rows.title
+#, fuzzy
 msgid "Variables across rows"
-msgstr ""
+msgstr "متغیرها در سراسر سطرها"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Variables must have at least two levels"
-msgstr ""
+msgstr "متغیرها باید حداقل دو سطح داشته باشند"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
+#, fuzzy
 msgid "Variance"
-msgstr ""
+msgstr "واریانس"
 
 #: anovaOneW/ui[1][0][0].label
+#, fuzzy
 msgid "Variances"
-msgstr ""
+msgstr "واریانس ها"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "variation from the control variables is only removed from the variables in the columns"
-msgstr ""
+msgstr "تنوع از متغیرهای کنترل فقط از متغیرهای ستون حذف می‌شود"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
+#, fuzzy
 msgid "Varimax"
-msgstr ""
+msgstr "Varimax"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "varimax"
-msgstr ""
+msgstr "varimax"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
+#, fuzzy
 msgid "VIF"
-msgstr ""
+msgstr "VIF"
 
 #: descriptives/options/violin.title
+#, fuzzy
 msgid "Violin"
-msgstr ""
+msgstr "ویولن"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
+#, fuzzy
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr ""
+msgstr "هربکسل را به طور مساوی وزن دهیم. (به طور پیش فرض، سلول ها بر اساس بسامد سلول وزن می شوند.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
+#, fuzzy
 msgid "Weight Variable"
-msgstr ""
+msgstr "متغیر وزن"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Weighted by '{varName}'"
-msgstr ""
+msgstr "با '{varName}' وزن‌دهی شده"
 
 #: package/analyses/weights.title
 #: package/analyses/weights.menuTitle
@@ -5783,83 +6792,101 @@ msgid "Weights"
 msgstr "وزن‌ها"
 
 #: linReg/options/weights.title
+#, fuzzy
 msgid "Weights (optional)"
-msgstr ""
+msgstr "وزن ها (اختیاری)"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
+#, fuzzy
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Weights contains negative values. Negative weights are not permitted."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
+#, fuzzy
 msgid "Welch's"
-msgstr ""
+msgstr "Welch"
 
 #: ttestIS/results/ttest.columns.content
+#, fuzzy
 msgid "Welch's t"
-msgstr ""
+msgstr "Welch's t"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
+#, fuzzy
 msgid "Wilcoxon rank"
-msgstr ""
+msgstr "رتبه ویلکاکسون"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
+#, fuzzy
 msgid "Wilcoxon signed rank test"
-msgstr ""
+msgstr "آزمون رتبه امضا شده ویلکاکسون"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
+#, fuzzy
 msgid "Wilcoxon W"
-msgstr ""
+msgstr "W Wilcoxon"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
+#, fuzzy
 msgid "Wilks' Lambda"
-msgstr ""
+msgstr "لامبدای ویلکس"
 
 #: contTables/options/yaxisPc/column_pc.title
+#, fuzzy
 msgid "within column"
-msgstr ""
+msgstr "در ستون"
 
 #: contTables/options/yaxisPc/row_pc.title
+#, fuzzy
 msgid "within rows"
-msgstr ""
+msgstr "در سطرها"
 
 #: anovaRM/results/rmTable.title
+#, fuzzy
 msgid "Within Subjects Effects"
-msgstr ""
+msgstr "اثرات درون موضوعات"
 
 #: contTables/ui[1][3][0][1][1].label
+#, fuzzy
 msgid "X-Axis"
-msgstr ""
+msgstr "محور X"
 
 #: contTables/options/xaxis.title
+#, fuzzy
 msgid "X-axis"
-msgstr ""
+msgstr "محور x"
 
 #: contTables/ui[1][3][0][1][0].label
+#, fuzzy
 msgid "Y-Axis"
-msgstr ""
+msgstr "محور Y"
 
 #: contTables/options/yaxis.title
+#, fuzzy
 msgid "Y-axis"
-msgstr ""
+msgstr "Y-axis"
 
 #: contTables/results/chiSq.columns.content
+#, fuzzy
 msgid "z test difference in 2 proportions"
-msgstr ""
+msgstr "آزمون z برای تفاوت در دو نسبت"
 
 #: contTables/options/zProp.title
+#, fuzzy
 msgid "z test for difference in 2 proportions"
-msgstr ""
+msgstr "آزمون z برای تفاوت در دو نسبت"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "z test only available for 2x2 tables"
-msgstr ""
+msgstr "آزمون z فقط برای جداول 2x2 در دسترس است"
 
 #: linReg/results/modelComp.columns.title
 msgid "ΔR²"
@@ -5881,13 +6908,15 @@ msgstr "η²"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
+#, fuzzy
 msgid "η²<sub>G</sub>"
-msgstr ""
+msgstr "η²<sub>G</sub>"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
+#, fuzzy
 msgid "η²<sub>p</sub>"
-msgstr ""
+msgstr "η²<sub>p</sub>"
 
 #: ancova/results/main.columns.title
 msgid "η²p"
@@ -5897,30 +6926,36 @@ msgstr "η²p"
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
+#, fuzzy
 msgid "χ² continuity correction"
-msgstr ""
+msgstr "χ² تصحیح پیوسته"
 
 #: propTestN/results/tests.title
+#, fuzzy
 msgid "χ² Goodness of Fit"
-msgstr ""
+msgstr "χ² برازش‌پذیری"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
+#, fuzzy
 msgid "χ² Goodness of fit"
-msgstr ""
+msgstr "χ² برازش"
 
 #: cfa/options/modelTest.title
+#, fuzzy
 msgid "χ² test"
-msgstr ""
+msgstr "χ² تست"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
+#, fuzzy
 msgid "χ² test of association"
-msgstr ""
+msgstr "آزمون χ² برای ارتباط"
 
 #: contTables/results/chiSq.title
+#, fuzzy
 msgid "χ² Tests"
-msgstr ""
+msgstr "χ² تست‌ها"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title

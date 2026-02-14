@@ -1,11 +1,11 @@
+#
 msgid ""
-msgstr ""
+msgstr "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Language: sl\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 
 #: R/errors.R
@@ -98,8 +98,9 @@ msgid "{n} pair(s) of values were tied"
 msgstr "{n} par(ov) vrednosti je povezanih"
 
 #: R/reliability.b.R
+#, fuzzy
 msgid "{type} score based on the variables {vars}"
-msgstr ""
+msgstr "{type} rezultat, ki temelji na spremenljivkah {vars}"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
@@ -315,32 +316,37 @@ msgid "a table containing factor covariances estimates"
 msgstr "razpredelnica z napovedjo kovarianc faktorja"
 
 #: cfa/results/factorEst/factorIntercept.description
+#, fuzzy
 msgid "a table containing factor intercept estimates"
-msgstr ""
+msgstr "tabela vsebuje ocene faktorskih presekov"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
 msgstr "razpredelnica z izračuni skladnosti"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
+#, fuzzy
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr ""
+msgstr "tabela, ki vsebuje modificirane indekse za faktorske obremenitve, ki niso vključene v model"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
+#, fuzzy
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr ""
+msgstr "tabela, ki vsebuje modificirane indekse za ostanke kovarianc, ki niso vključene v model"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
 msgstr "razpredelnica z napovedjo kovarianc ostankov"
 
 #: cfa/results/resEst/resIntercept.description
+#, fuzzy
 msgid "a table containing residual intercept estimates"
-msgstr ""
+msgstr "tabela, ki vsebuje ocene presekov rezidualov"
 
 #: cfa/results/modelPerformance/corRes.description
+#, fuzzy
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr ""
+msgstr "tabela vsebuje ostanke za opazovano koracijsko matriko"
 
 #: cfa/results/modelFit/test.description
 msgid "a table containing the chi-square test for exact fit"
@@ -366,8 +372,9 @@ msgid "a table containing the group descriptives"
 msgstr "razpredelnica z izračuni opisne statistike skupine"
 
 #: ttestIS/results/assum/eqv.description
+#, fuzzy
 msgid "a table containing the homogeneity of variances tests"
-msgstr ""
+msgstr "tabela vsebuje teste homogenosti varianc"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
@@ -399,8 +406,9 @@ msgid "a table of ANOVA results"
 msgstr "razpredelnica z rezultati analize ANOVA"
 
 #: contTables/results/odds.description
+#, fuzzy
 msgid "a table of comparative measures"
-msgstr ""
+msgstr "tabela primerjalnih mer"
 
 #: anovaOneW/results/assump/eqv.description
 msgid "a table of homogeneity of variances tests"
@@ -437,16 +445,19 @@ msgid "a table of normality tests"
 msgstr "razpredelnica z rezultati preizkusov normalnosti"
 
 #: contTables/results/postHoc.description
+#, fuzzy
 msgid "a table of post-hoc residuals"
-msgstr ""
+msgstr "tabela zaostankov post-hoc"
 
 #: logRegBin/results/models.template/pred/class.description
+#, fuzzy
 msgid "a table of predicted classifications"
-msgstr ""
+msgstr "tabela napovedanih klasifikacij"
 
 #: logRegBin/results/models.template/pred/measures.description
+#, fuzzy
 msgid "a table of predictive measures"
-msgstr ""
+msgstr "tabela predvidnih mer"
 
 #: contTables/results/freqs.description
 msgid "a table of proportions"
@@ -593,8 +604,9 @@ msgid "an array of descriptive plots"
 msgstr "izris diagramov opisne statistike"
 
 #: descriptives/results/extremeValues.description
+#, fuzzy
 msgid "an array of extreme values tables"
-msgstr ""
+msgstr "polje tabel ekstremnih vrednosti"
 
 #: descriptives/results/frequencies.description
 msgid "an array of frequency tables"
@@ -610,8 +622,9 @@ msgstr "izris skupin diagramov"
 #: logRegBin/results/models.description
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
+#, fuzzy
 msgid "an array of model specific results"
-msgstr ""
+msgstr "polje rezultatov, specifičnih za model"
 
 #: anovaNP/results/comparisons.description
 #: anovaNP/results/comparisonsDunn.description
@@ -639,16 +652,19 @@ msgstr "izris diagramov opisne statistike"
 #: logLinear/results/models.template/emm.description
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
+#, fuzzy
 msgid "an array of the estimated marginal means plots + tables"
-msgstr ""
+msgstr "polje ocenjenih mejnih povprečij + tabel"
 
 #: propTest2/results/postPlots.description
+#, fuzzy
 msgid "an array of the posterior plots"
-msgstr ""
+msgstr "polje zadnjih grafov"
 
 #: cfa/results/pathDiagram.description
+#, fuzzy
 msgid "an image containing the model path diagram"
-msgstr ""
+msgstr "slika, ki vsebuje diagram poti modela"
 
 #: ttestOneS/results/plots.description
 msgid "an image of the descriptive plots"
@@ -1077,8 +1093,9 @@ msgid "Component Loadings"
 msgstr "Uteži komponente"
 
 #: pca/options/factorScoresOV.title
+#, fuzzy
 msgid "Component scores"
-msgstr ""
+msgstr "Komponentne ocene"
 
 #: pca/results/factorStats.title
 msgid "Component Statistics"
@@ -1089,8 +1106,9 @@ msgid "Component summary"
 msgstr "Povzetek komponent"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
+#, fuzzy
 msgid "component(s)"
-msgstr ""
+msgstr "komponente"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
@@ -1256,8 +1274,9 @@ msgid "Control variables"
 msgstr "Kontrolne spremenljivke"
 
 #: R/corrpart.b.R
+#, fuzzy
 msgid "controlling for {items}"
-msgstr ""
+msgstr "nadzor nad {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
@@ -1446,12 +1465,14 @@ msgid "Cramer's V"
 msgstr "Cramerjev V"
 
 #: propTest2/results/table.columns.superTitle
+#, fuzzy
 msgid "Credible Interval"
-msgstr ""
+msgstr "Zanesljiv interval"
 
 #: propTest2/options/ciBayes.title
+#, fuzzy
 msgid "Credible intervals"
-msgstr ""
+msgstr "Zanesljivi intervali"
 
 #: reliability/options/alphaScale.title
 #: reliability/results/scale.columns.title
@@ -1464,8 +1485,9 @@ msgid "Cronbach's α (if item is dropped)"
 msgstr "Cronbach α (če je predmet izpuščen)"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "cubic"
-msgstr ""
+msgstr "kubično"
 
 #: R/descriptives.b.R
 #: pca/results/factorStats/factorSummary.columns.title
@@ -1511,8 +1533,9 @@ msgid "Data Reduction"
 msgstr "Zmanjšanje podatkov"
 
 #: weights/results/text.content
+#, fuzzy
 msgid "Data set is currently unweighted"
-msgstr ""
+msgstr "Podatkovna skupina je še trenutno neuteženi"
 
 #: linReg/ui[3][0][1][0].label
 #: linReg/results/models.template/dataSummary.title
@@ -1521,8 +1544,9 @@ msgid "Data Summary"
 msgstr "Povzetek podatkov"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "degree"
-msgstr ""
+msgstr "stopnja"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -1548,20 +1572,24 @@ msgid "Dependent Variable"
 msgstr "Odvisna spremenljivka"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr ""
+msgstr "Odvisna spremenljivka '{dep}' vsebuje neskončne vrednosti"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "Odvisna spremenljivka '{dep}' ne vsebuje podatkov (po odstranitvi vrstic z manjkajočimi vrednostmi)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr ""
+msgstr "Odvisna spremenljivka '{dep}' vsebuje samo eno edinstveno vrednost (po odstranitvi vrstic z manjkajočimi vrednostmi)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Dependent variable '{dep}' must be continuous"
-msgstr ""
+msgstr "Odvisna spremenljivka '{dep}' mora biti kontinuiralna"
 
 #: anovaRM/ui[1][1][0].label
 msgid "Dependent Variable Label"
@@ -1577,8 +1605,9 @@ msgid "Dependent Variables"
 msgstr "Odvisne spremenljivke"
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Dependent variables are very highly correlated"
-msgstr ""
+msgstr "Odvisne spremenljivke so zelo visoko korelirane"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -1656,16 +1685,19 @@ msgid "Deviance"
 msgstr "Odklonskost"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Deviance residuals"
-msgstr ""
+msgstr "Ostali devianci"
 
 #: contTables/options/resA.title
+#, fuzzy
 msgid "Deviance residuals (Poisson GLM)"
-msgstr ""
+msgstr "Ostanek devianc (Poissonov GLM)"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr ""
+msgstr "Ostanek devianc so prilagojeni ostaneki iz Poissonovega GLM"
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1746,8 +1778,9 @@ msgid "Distribution"
 msgstr "Porazdelitev"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Does not support weighted data yet."
-msgstr ""
+msgstr "Še ne podpira tehtanih podatkov."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1779,8 +1812,9 @@ msgstr "Parna primerjava DSCF"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
+#, fuzzy
 msgid "Dunn's pairwise comparisons"
-msgstr ""
+msgstr "Dunnovi parni primerjavi"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -1835,8 +1869,9 @@ msgid "Eigenvalues greater than"
 msgstr "Lastne vrednosti večje od"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
+msgstr "Prazne celice v medsubjektovnem dizajnu: vsaj ena kombinacija medsubjektovnih faktorjev nima opazovanj"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -1990,16 +2025,19 @@ msgid "Extraction"
 msgstr "Ekstrakcija"
 
 #: descriptives/options/extreme.title
+#, fuzzy
 msgid "Extreme values"
-msgstr ""
+msgstr "Ekstremne vrednosti"
 
 #: descriptives/results/extremeValues.title
+#, fuzzy
 msgid "Extreme Values"
-msgstr ""
+msgstr "Ekstremne vrednosti"
 
 #: descriptives/results/extremeValues.template.title
+#, fuzzy
 msgid "Extreme values of $key"
-msgstr ""
+msgstr "Ekstremne vrednosti $key"
 
 #: linReg/options/modelTest.title
 msgid "F test"
@@ -2023,24 +2061,28 @@ msgid "Factor"
 msgstr "Faktor"
 
 #: R/loglinear.b.R
+#, fuzzy
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr ""
+msgstr "Faktor '{factor}' ima manj kot dve ravni. Faktorji morajo imeti vsaj dve ravni"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Faktor »{factor}« zahteva vsaj 2 ravni"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr ""
+msgstr "Faktor '{factorName}' ne vsebuje podatkov (po odstranitvi vrstic z manjkajočimi vrednostmi)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr ""
+msgstr "Faktor '{factorName}' vsebuje samo eno ravno (po odstranitvi vrstic z manjkajočimi vrednostmi)"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr ""
+msgstr "Faktor '{factorName}' vsebuje neuporabljene ravni (po odstranitvi vrstic z manjkajočimi vrednostmi)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2067,12 +2109,14 @@ msgid "Factor Estimates"
 msgstr "Napovedi faktorja"
 
 #: cfa/results/factorEst/factorIntercept.title
+#, fuzzy
 msgid "Factor Intercepts"
-msgstr ""
+msgstr "Faktorski preseki"
 
 #: cfa/options/factInterceptEst.title
+#, fuzzy
 msgid "Factor intercepts"
-msgstr ""
+msgstr "Faktorski preseki"
 
 #: R/efa.b.R
 #: cfa/results/factorLoadings.title
@@ -2087,8 +2131,9 @@ msgstr "Uteži faktorjev – indeksi sprememb"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
+#, fuzzy
 msgid "Factor scores"
-msgstr ""
+msgstr "Faktorski rezultati"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
@@ -2212,8 +2257,9 @@ msgid "Friedman"
 msgstr "Friedmanov test"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
+#, fuzzy
 msgid "Full information maximum likelihood"
-msgstr ""
+msgstr "Maksimalna verjetnost z izpolnjenimi informacijami"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
@@ -2353,8 +2399,9 @@ msgstr "Helmertov model‧"
 #: package/analyses/weights.menuGroup
 #: empty/options.menuGroup
 #: weights/options.menuGroup
+#, fuzzy
 msgid "hidden"
-msgstr ""
+msgstr "skrito"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
@@ -2427,8 +2474,9 @@ msgid "Hypothesis"
 msgstr "Hipoteza"
 
 #: reliability/results/items.columns.superTitle
+#, fuzzy
 msgid "If item dropped"
-msgstr ""
+msgstr "Če je element izpuščen"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
@@ -2506,8 +2554,9 @@ msgid "IQR"
 msgstr "Interkvartilni razmik (IQR)"
 
 #: R/utilsanova.R
-msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr ""
+#, fuzzy
+msgid "It appears that your model has a \\\"singularity\\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgstr "Zdi se, da ima vaš model težave s \"singulatnostjo\". To običajno pomeni, da model ima težave pri ločanju določenih učinkov, ker so nekatere spremenljivke preveč povezane ali ker ni dovolj podatkov za zanesljivo oceno vseh učinkov. Da bi to razrešili, razmislite o poenostavitvi modela z odstranitvijo nekaterih učinkov ali preverite, ali vaši podatki vsebujejo redundantne ali visoko korelirane spremenljivke."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2545,8 +2594,9 @@ msgstr "Statistika postavk"
 
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
+#, fuzzy
 msgid "Item-rest correlation"
-msgstr ""
+msgstr "Korelacija med elementom in preostalim"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -2600,8 +2650,9 @@ msgid "Kurtosis"
 msgstr "Sploščenost"
 
 #: descriptives/options/boxLabelOutliers.title
+#, fuzzy
 msgid "Label outliers"
-msgstr ""
+msgstr "Označi izpadajoče vrednosti"
 
 #: contTables/options/layers.title
 msgid "Layers"
@@ -2720,34 +2771,41 @@ msgid "lower bound"
 msgstr "spodnja meja"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis ChiSq"
-msgstr ""
+msgstr "Mahalanobis ChiSq"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
+#, fuzzy
 msgid "Mahalanobis distance"
-msgstr ""
+msgstr "Mahalanobisova razdalja"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
+#, fuzzy
 msgid "Mahalanobis Distance"
-msgstr ""
+msgstr "Mahalanobisova razdalja"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr ""
+msgstr "Mahalanobisova razdalja (Chi sq.)"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance (p)"
-msgstr ""
+msgstr "Mahalanobisova razdalja (p)"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
+msgstr "Mahalanobisova razdalja se lahko izračuna samo za modele z dvema ali več kovariatnimi spremenljivkami"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "Mahalanobis p"
-msgstr ""
+msgstr "Mahalanobisovo p"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -3082,8 +3140,9 @@ msgid "Model Fit"
 msgstr "Skladnost modela"
 
 #: R/utilsanova.R
+#, fuzzy
 msgid "Model fit issue detected!"
-msgstr ""
+msgstr "Zaznan je problem z fitom modela!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3129,28 +3188,33 @@ msgstr "Pragi modela"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
+#, fuzzy
 msgid "Models estimated using sample size of N={n}"
-msgstr ""
+msgstr "Modeli so bili ocenjeni z vzorčno velikostjo N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
+#, fuzzy
 msgid "Modification Indices"
-msgstr ""
+msgstr "Modifikacijski indeksi"
 
 #: cfa/options/mi.title
+#, fuzzy
 msgid "Modification indices"
-msgstr ""
+msgstr "Modifikacijski indeksi"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Monte Carlo simulation"
-msgstr ""
+msgstr "Monte Carlo simulacija"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
 msgstr "Obstaja več kot en modus, podana je le prva vrednost"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
+#, fuzzy
 msgid "Most extreme"
-msgstr ""
+msgstr "Najbolj ekstremno"
 
 #: pca/results/assump/kmo.columns.title
 msgid "MSA"
@@ -3275,20 +3339,24 @@ msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Normalnost (Shapiro-Wilksov preizkus)"
 
 #: R/logregbin.b.R
+#, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
+msgstr "Niso bile ocenjene vse koeficienti (verjetno zaradi singularnega fita)"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Not all statistics support weighted data yet."
-msgstr ""
+msgstr "Ne vse statistike še podpirajo teženo podatke še."
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr ""
+msgstr "Ni na voljo zaradi prevelikega števila primerov (> 5000)."
 
 #: R/mancova.b.R
+#, fuzzy
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr ""
+msgstr "Ni dovolj stopnj svobody za oceno vseh modelskih efektov"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -3299,8 +3367,9 @@ msgid "Number of components"
 msgstr "Število komponent"
 
 #: descriptives/options/extremeN.title
+#, fuzzy
 msgid "Number of extreme values"
-msgstr ""
+msgstr "Število ekstremnih vrednosti"
 
 #: efa/ui[1][0][1].label
 msgid "Number of Factors"
@@ -3311,8 +3380,9 @@ msgid "Number of factors"
 msgstr "Število faktorjev"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
+msgstr "Število zahtevanih ekstremnih vrednosti je večje kot število vrstic v podatkih."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -3336,8 +3406,9 @@ msgstr "Opazovani števci"
 #: ancova/options/emmPlotData.title
 #: anova/options/emmPlotData.title
 #: anovaRM/options/emmPlotData.title
+#, fuzzy
 msgid "Observed scores"
-msgstr ""
+msgstr "Opazovane ocene"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
@@ -3411,8 +3482,9 @@ msgstr "Enega ali več koeficientov modela »{modelNo}« ni mogoče oceniti zara
 #: package/analyses/propTestN.menuSubgroup
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
+#, fuzzy
 msgid "One Sample Proportion Tests"
-msgstr ""
+msgstr "Eno vzorčno preskušno preskušanje"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -3469,12 +3541,14 @@ msgstr "Ordinalna logistična regresija"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
+#, fuzzy
 msgid "Ordinal Outcomes"
-msgstr ""
+msgstr "Redne izide"
 
 #: descriptives/ui[2][3][2].label
+#, fuzzy
 msgid "Outliers"
-msgstr ""
+msgstr "Izstopajoče vrednosti"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -3518,8 +3592,9 @@ msgid "p"
 msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
+#, fuzzy
 msgid "p <"
-msgstr ""
+msgstr "p <"
 
 #: anovaOneW/results/postHoc.template.columns.content
 #: corrMatrix/results/matrix.columns.content
@@ -3528,12 +3603,14 @@ msgid "p-value"
 msgstr "p-vrednost"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
+#, fuzzy
 msgid "p<sub>(Bonferroni)</sub>"
-msgstr ""
+msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
+#, fuzzy
 msgid "p<sub>(unadj)</sub>"
-msgstr ""
+msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3645,8 +3722,9 @@ msgid "partial η²"
 msgstr "delni η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
+#, fuzzy
 msgid "Participants (rows) below p-threshold"
-msgstr ""
+msgstr "Udeleženci (vrstice) pod p-pragom"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3664,13 +3742,15 @@ msgid "Pearson"
 msgstr "Pearsonova korelacija"
 
 #: R/corrmatrix.b.R
+#, fuzzy
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Pearsonova korelacija ne more biti izračuna za neniškovne vrednosti"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
+#, fuzzy
 msgid "Pearson residuals"
-msgstr ""
+msgstr "Pearsonove reziduale"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3814,8 +3894,9 @@ msgid "Plots"
 msgstr "Diagrami"
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
+msgstr "Grafi še za uteženi deskriptivne statistike še še ne podprejo"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3824,8 +3905,9 @@ msgid "Polynomial"
 msgstr "Polinomska‧"
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr ""
+msgstr "Polinomi so omejeni na stopnjo 6"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3833,12 +3915,14 @@ msgid "Post Hoc Comparisons - {term}"
 msgstr "Primerjave Post Hoc – {term}"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Post Hoc Test"
-msgstr ""
+msgstr "Post Hoc Test"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Post Hoc Test ({title})"
-msgstr ""
+msgstr "Post Hoc Test ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -3863,8 +3947,9 @@ msgstr "Testi Post Hoc – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
+#, fuzzy
 msgid "Post-Hoc Model Performance"
-msgstr ""
+msgstr "Post-hoc delovanje modela"
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
@@ -3876,16 +3961,19 @@ msgid "Post-Hoc Tests"
 msgstr "Testi Post-Hoc"
 
 #: R/proptest2.b.R
+#, fuzzy
 msgid "Posterior"
-msgstr ""
+msgstr "Posteriorska verjetnost"
 
 #: propTest2/options/postPlots.title
+#, fuzzy
 msgid "Posterior plot"
-msgstr ""
+msgstr "Posteriorski graf"
 
 #: propTest2/results/postPlots.title
+#, fuzzy
 msgid "Posterior Plots"
-msgstr ""
+msgstr "Posteriorski grafi"
 
 #: R/logregbin.b.R
 msgid "Predicted"
@@ -3914,8 +4002,9 @@ msgstr "Napoved"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
+#, fuzzy
 msgid "Predictive Measures"
-msgstr ""
+msgstr "Predvidne mere"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -3943,8 +4032,9 @@ msgid "Principal axis"
 msgstr "Glavna os"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Principal axis factoring"
-msgstr ""
+msgstr "Faktorizacija glavnih osi"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -3961,14 +4051,16 @@ msgstr "Analiza glavnih komponent (PCA)"
 #: ttestIS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestOneS/ui[1][0][0]/students/bf/bfPrior.label
 #: ttestPS/ui[1][0][0]/students/bf/bfPrior.label
+#, fuzzy
 msgid "Prior"
-msgstr ""
+msgstr "Predhodni"
 
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
+#, fuzzy
 msgid "Prior width"
-msgstr ""
+msgstr "Širina predhodnega"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -3988,8 +4080,9 @@ msgstr "promax"
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
+#, fuzzy
 msgid "Proportion"
-msgstr ""
+msgstr "Delež"
 
 #: package/analyses/propTest2.title
 #: propTest2/options.title
@@ -4229,12 +4322,14 @@ msgid "Q-Q plot"
 msgstr "Diagram Q-Q"
 
 #: mancova/results/assump/qqPlot.title
+#, fuzzy
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr ""
+msgstr "Q-Q graf za oceno multivarijacne normalnosti"
 
 #: mancova/options/qqPlot.title
+#, fuzzy
 msgid "Q-Q plot of multivariate normality"
-msgstr ""
+msgstr "Q-Q graf mnogorazsežne normalnosti"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
@@ -4292,8 +4387,9 @@ msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
+#, fuzzy
 msgid "R²<sub>T</sub>"
-msgstr ""
+msgstr "R²<sub>T</sub>"
 
 #: R/descriptives.b.R
 #: descriptives/options/range.title
@@ -4443,28 +4539,32 @@ msgid "Residual covariances"
 msgstr "Kovariance ostankov"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
+#, fuzzy
 msgid "Residual Covariances – Modification Indices"
-msgstr ""
+msgstr "Kovarianca ostankov – Modifikacijski indeksi"
 
 #: cfa/results/resEst.title
 msgid "Residual Estimates"
 msgstr "Napovedi ostankov"
 
 #: cfa/results/resEst/resIntercept.title
+#, fuzzy
 msgid "Residual Intercepts"
-msgstr ""
+msgstr "Preseki ostanjkov"
 
 #: cfa/options/resInterceptEst.title
+#, fuzzy
 msgid "Residual intercepts"
-msgstr ""
+msgstr "Ostanek presekov"
 
 #: linReg/options/resPlots.title
 msgid "Residual plots"
 msgstr "Diagrami ostankov"
 
 #: R/ancova.b.R
+#, fuzzy
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr ""
+msgstr "Ostali seštev kvadratov in/ali stopnje svobode so enaki 0, kar pomeni popoln fit"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4482,16 +4582,18 @@ msgid "Residuals"
 msgstr "Ostanki"
 
 #: cfa/results/modelPerformance/corRes.title
+#, fuzzy
 msgid "Residuals for Observed Correlation Matrix"
-msgstr ""
+msgstr "Ostanek za opazovano korelačno matriko"
 
 #: R/anova.b.R
 msgid "Residuals from ANOVA"
 msgstr "Ostanki analize ANOVA"
 
 #: cfa/options/corRes.title
+#, fuzzy
 msgid "Residuals observed correlation matrix"
-msgstr ""
+msgstr "Ostanki opazovane koracijske matrike"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
@@ -4517,8 +4619,9 @@ msgid "Reverse Scaled Items"
 msgstr "Obrnjene lestvice"
 
 #: anovaRM/options/rm.default[0].label
+#, fuzzy
 msgid "RM Factor 1"
-msgstr ""
+msgstr "RM Faktor 1"
 
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
@@ -4559,8 +4662,9 @@ msgid "Row"
 msgstr "Vrstica"
 
 #: descriptives/results/extremeValues.template.columns.title
+#, fuzzy
 msgid "Row number"
-msgstr ""
+msgstr "Številka vrstice"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -4609,8 +4713,9 @@ msgid "Scale Analysis"
 msgstr "Analiza lestvice"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
+#, fuzzy
 msgid "Scale factor = scale first indicator"
-msgstr ""
+msgstr "Faktor meritev = meritev prvega kazalca"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
@@ -4627,20 +4732,24 @@ msgid "Scheffe"
 msgstr "Scheffejev test"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score Component"
-msgstr ""
+msgstr "Komponenta rezultata"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score Factor"
-msgstr ""
+msgstr "Faktor rezultata"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score for component"
-msgstr ""
+msgstr "Ocena za komponento"
 
 #: R/pca.b.R
+#, fuzzy
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr ""
+msgstr "Rezultat za faktor {i}. Ocena z metodo '{fsMethod}'."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
@@ -4744,14 +4853,16 @@ msgstr "Stran ob strani"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
+#, fuzzy
 msgid "Simple (vs. First)"
-msgstr ""
+msgstr "Preprosta (vs. Prva)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
+#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr ""
+msgstr "Preprosti (vs. Zadnji)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -4771,8 +4882,9 @@ msgid "Singular fit encountered; one or more predictor variables are a linear co
 msgstr "Zaznano je singularno prileganje; ena ali več vzročnih spremenljivk so linearne kombinacije drugih napovednih spremenljivk."
 
 #: R/anovarm.b.R
+#, fuzzy
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
+msgstr "Napaka singularitete. Popravila sferične korelacije niso na voljo"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -4839,8 +4951,9 @@ msgid "SRMR"
 msgstr "Ostanek SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
+#, fuzzy
 msgid "SS Loadings"
-msgstr ""
+msgstr "Nagruzitve SS"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
@@ -4895,12 +5008,14 @@ msgid "Standardized Residuals"
 msgstr "Standardizirani ostanki"
 
 #: R/conttables.b.R
+#, fuzzy
 msgid "Standardized residuals"
-msgstr ""
+msgstr "Standardizirani reziduali"
 
 #: contTables/options/resS.title
+#, fuzzy
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr ""
+msgstr "Standardizirani ostaneki (prilagojeni Pearson)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -4983,8 +5098,9 @@ msgstr "Vsota kvadratov"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
+#, fuzzy
 msgid "Sum score"
-msgstr ""
+msgstr "Vsota ocen"
 
 #: pca/results/factorStats/factorSummary.title
 msgid "Summary"
@@ -5082,6 +5198,7 @@ msgid "The 'split by' variable '{var}' contains no data."
 msgstr "»Razdelitvena« spremenljivka »{var}« je brez podatkov."
 
 #: ttestOneS/options/hypothesis.description.ui
+#, fuzzy
 msgid "the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
@@ -5089,7 +5206,13 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr ""
+msgstr "alternativna in nulta hipoteza;\n"
+"\n"
+"|              | Alternativna (Hₐ)  | Nulta (H₀)          |\n"
+"|--------------|-------------------|--------------------|\n"
+"| ≠ Testna vrednost | Povprečje ≠ Testna vrednost | Povprečje = Testna vrednost  |\n"
+"| > Testna vrednost | Povprečje > Testna vrednost | Povprečje <= Testna vrednost |\n"
+"| < Testna vrednost | Povprečje < Testna vrednost | Povprečje >= Testna vrednost |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
@@ -5186,12 +5309,14 @@ msgstr "Analiza variance (ANOVA) se uporablja za raziskovanje razmerja med\n"
 "za neodvisne vzorce."
 
 #: anovaRM/options/bs.description.ui
+#, fuzzy
 msgid "the between subjects factors (optional)."
-msgstr ""
+msgstr "medsektorske faktorje (neobvezen)"
 
 #: anovaRM/options/bsTerms.description.ui
+#, fuzzy
 msgid "the between subjects terms of the model."
-msgstr ""
+msgstr "medsebnih členov modela"
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
@@ -5203,8 +5328,9 @@ msgid "the categorical explanatory (or independent) variables."
 msgstr "kategorične pojasnjevalne (ali neodvisne) spremenljivke."
 
 #: R/descriptives.b.R
+#, fuzzy
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
+msgstr "Interval zaupanja za povprečje predpostavlja, da vzorčne povprečje sledijo t-razdelitvi s stopnjami svobody N - 1"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -5235,12 +5361,14 @@ msgid "the contrasts to use."
 msgstr "kontrasti za uporabo."
 
 #: corrPart/options/controls.description.ui
+#, fuzzy
 msgid "the control variables of interest."
-msgstr ""
+msgstr "kontrolne spremenljivke"
 
 #: anovaRM/options/cov.description.ui
+#, fuzzy
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr ""
+msgstr "kovariatne spremenljivke (specifikacija teh spremenljivk dela to v ANCOVA)"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -5248,12 +5376,14 @@ msgstr "Vrednost točke prereza je nastavljena na {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
+msgstr "Podatkovna zbirka vsebuje 0 vrstic (po odstranitvi vrstic z manjkajočimi vrednostmi)"
 
 #: R/loglinear.b.R
+#, fuzzy
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr ""
+msgstr "Podatkovna zbirka vsebuje 0 vrstic (ali vse vrstice vsebujejo manjkajoče vrednosti)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
@@ -5287,8 +5417,9 @@ msgstr "odvisne spremenljivke – za analizo ANOVA so te zvezne."
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
+#, fuzzy
 msgid "the error bars to plot on the marginal means."
-msgstr ""
+msgstr "napake, ki se zapisujejo v mejnih povprečjih."
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
@@ -5313,18 +5444,21 @@ msgid "the label to use for the dependent variable."
 msgstr "oznaka, uporabljena za odvisno spremenljivko."
 
 #: cfa/results/modelSyntax.description
+#, fuzzy
 msgid "the lavaan syntax used to fit the model"
-msgstr ""
+msgstr "lavaanov sintaks, uporabljen za prilagajanje modela"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
+#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
+msgstr "metoda izključevanja manjkajočih vrednosti. `Analiza po analizi` izključuje manjkajoče vrednosti iz vsake analize. `Seznam` izključuje vrstico iz vseh analiz, če je ena od njegovih vrednosti manjkajoča."
 
 #: ttestOneS/options/miss.description.ui
+#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr ""
+msgstr "metoda izključitve manjkajočih vrednosti. `Analiza po analizi` izključuje manjkajoče vrednosti iz vsake spremenljivke. `Seznamsko` izključuje vrstico iz vseh analiz, če je ena od njih manjkajoča"
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -5335,23 +5469,27 @@ msgid "the model terms which make up the model. By default a full factorial mode
 msgstr "pogoji modela, ki oblikujejo model. Privzeto je ustvarjen polni faktorski model, vendar je mogoče natančne pogoje, ki določajo model, prilagoditi."
 
 #: ttestPS/options/pairs.description.ui
+#, fuzzy
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
+msgstr "pari meritve - ločen t-test se izvede za vsak par meritve"
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
+#, fuzzy
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr ""
+msgstr "popravke za čisteve primerjave"
 
 #: ttestIS/options/bfPrior.description.ui
+#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr ""
+msgstr "prirejeno širino za Bayesove faktorje Studentovega t-testa. Zahteva vrednost med 0,01 in 2,0, privzeto 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
+#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr ""
+msgstr "širina za Bayesov faktor Studentovega t-testa. Zahteva vrednost med 0,5 in 2,0, privzeta vrednost 0,707."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5397,24 +5535,27 @@ msgstr "Analiza ANOVA ponavljajočih meritev se uporablja za raziskovanje\n"
 "meritev – Friedmanov test, a je omejen na preizkus le enega dejavnika."
 
 #: anovaRM/options/rm.description.ui
+#, fuzzy
 msgid "the repeated measures design."
-msgstr ""
+msgstr "ponavljajoča meritev"
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
 msgstr "Ponavljajoče meritve imajo le dve ravni. Predpostavka sferičnosti je izpolnjena vedno, ko ima ponavljajoča meritev le dve ravni."
 
 #: anovaRM/options/rmCells.description.ui
+#, fuzzy
 msgid "the repeated measures measurements."
-msgstr ""
+msgstr "ponavljajoča meritev"
 
 #: anovaRM/options/rmTerms.description.ui
 msgid "the repeated measures terms of the model."
 msgstr "pogoji ponovljenih meritev modela."
 
 #: R/utilsreg.R
+#, fuzzy
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr ""
+msgstr "Navedena referenčna raven ni bila najdena za spodnje spremenljivke: {vars}. Privzeto se uporablja prva dostopna raven. Za uporabo prilagojene referenčne ravni se zagotovi, da je določena referenčna raven na voljo v podatkih."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5557,13 +5698,15 @@ msgid "The variables {vars} cannot be treated as numeric. Plots that expect nume
 msgstr "Vrednosti spremenljivk {var} ni mogoče obravnavati kot številke. Izrisi diagramov, ki zahtevajo številske vrednosti, bodo izpuščeni."
 
 #: ttestOneS/options/vars.description.ui
+#, fuzzy
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr ""
+msgstr "spremenljivke interesa - ločen t-test se izvede za vsako določeno spremenljivko"
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
+#, fuzzy
 msgid "the variables of interest."
-msgstr ""
+msgstr "spremenljivke, ki nas zanimajo."
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
@@ -5593,8 +5736,9 @@ msgid "Theoretical Quantiles"
 msgstr "Teoretični kvantili"
 
 #: R/linreg.b.R
+#, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr ""
+msgstr "Ni bilo Mahalanobisovih razdalj z prago pod p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5613,8 +5757,9 @@ msgid "Thurstone"
 msgstr "Thurstonenova lestvica"
 
 #: logRegBin/options/pseudoR2/r2t.title
+#, fuzzy
 msgid "Tjur's R²"
-msgstr ""
+msgstr "Tjur's R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -5624,8 +5769,9 @@ msgstr "Tucker-Lewisov indeks (TLI)"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
+#, fuzzy
 msgid "Tolerance"
-msgstr ""
+msgstr "Toleranca"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
@@ -5721,8 +5867,9 @@ msgstr "Univariatne analize"
 
 #: R/conttables.b.R
 #: contTables/options/resU.title
+#, fuzzy
 msgid "Unstandardized residuals"
-msgstr ""
+msgstr "Nestandardizirani ostaneki"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5769,8 +5916,9 @@ msgid "value"
 msgstr "vrednost"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
+#, fuzzy
 msgid "values"
-msgstr ""
+msgstr "vrednosti"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
@@ -5869,8 +6017,9 @@ msgstr "enaka uteženost celic (privzeto so celice utežene glede na frekvenco.)
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
+#, fuzzy
 msgid "Weight Variable"
-msgstr ""
+msgstr "Težačna spremenljivka"
 
 #: R/linreg.b.R
 msgid "Weighted by '{varName}'"
@@ -5881,8 +6030,9 @@ msgstr "Uteženo po spremenljivki »{varName}«"
 #: weights/options.title
 #: weights/ui.title
 #: weights/results.title
+#, fuzzy
 msgid "Weights"
-msgstr ""
+msgstr "Teža"
 
 #: linReg/options/weights.title
 msgid "Weights (optional)"
@@ -5891,8 +6041,9 @@ msgstr "Uteži (izbirno)"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
+#, fuzzy
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
+msgstr "Težave vsebujejo negativne vrednosti. Negativne težave niso dovoljene"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
