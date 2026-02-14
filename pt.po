@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-06 19:01+0000\n"
-"Last-Translator: jpmaroco <jpmaroco@gmail.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/jamovi/"
-"jmv-i18n/pt/>\n"
-"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: pt\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -126,7 +122,7 @@ msgstr "* p < .05, ** p < .01, *** p < .001, unilateral"
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
 #: anova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: anova/ui[6][1][0][1]/ciWidthEmm.suffix
-#: anovaRM/ui[5][1][0][1]/ciWidthEmm.suffix
+#: anovaRM/ui[6][1][0][1]/ciWidthEmm.suffix
 #: cfa/ui[3][1][0]/ci/ciWidth.suffix
 #: contTables/ui[1][0][0][1][0]/ci/ciWidth.suffix
 #: corrMatrix/ui[1][1]/ci/ciWidth.suffix
@@ -231,11 +227,6 @@ msgstr "> valor a testar"
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
 msgstr "⁻ média - 1SD, <sup>μ</sup> média, ⁺ média + 1SD"
-
-#: pca/results/loadings.columns.title
-#: pca/results/factorStats/factorCor.columns.title
-msgid "1"
-msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
@@ -531,7 +522,7 @@ msgstr "Adicionar Fator Novo"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -1130,7 +1121,7 @@ msgstr "Intervalo de Confiança"
 #: anova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
 #: anova/ui[6][1][0][1]/ciWidthEmm.label
 #: anovaRM/options/emmPlotError/ci.title
-#: anovaRM/ui[5][1][0][1]/ciWidthEmm.label
+#: anovaRM/ui[6][1][0][1]/ciWidthEmm.label
 #: cfa/options/ci.title
 #: linReg/options/ci.title
 #: linReg/options/ciStdEst.title
@@ -1245,6 +1236,7 @@ msgstr "Tabelas de Contingência"
 #: anova/ui[4].label
 #: anova/results/contrasts.title
 #: anovaRM/options/contrasts.title
+#: anovaRM/ui[4].label
 #: anovaRM/results/contrasts.title
 msgid "Contrasts"
 msgstr "Contrastes"
@@ -1291,7 +1283,7 @@ msgid "Correction"
 msgstr "Correção"
 
 #: anovaRM/options/postHocCorr.title
-#: anovaRM/ui[4][1][0].label
+#: anovaRM/ui[5][1][0].label
 msgid "Corrections"
 msgstr "Correções"
 
@@ -1461,7 +1453,7 @@ msgstr "α de Cronbach"
 msgid "Cronbach's α (if item is dropped)"
 msgstr "α de Cronbach (se o item for eliminado)"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "cubic"
 msgstr "cúbico"
 
@@ -1517,6 +1509,10 @@ msgstr "O conjunto de dados não está atualmente ponderado"
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
 msgstr "Sumário de Dados"
+
+#: R/utilsanova.R
+msgid "degree"
+msgstr ""
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -1753,7 +1749,7 @@ msgstr "arraste a variável para aqui"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: cfa/ui[0][0]/factors.template/blockList.ghostText
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -1890,7 +1886,7 @@ msgstr "Estimativa (Logaritmo do rácio das taxas )"
 #: ancova/results/emm.title
 #: anova/ui[6].label
 #: anova/results/emm.title
-#: anovaRM/ui[5].label
+#: anovaRM/ui[6].label
 #: anovaRM/results/emm.title
 #: linReg/ui[6].label
 #: linReg/results/models.template/emm.title
@@ -1994,19 +1990,6 @@ msgstr "Valores extremos"
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
 msgstr "Valores extremos de $key"
-
-#: ancova/results/main.columns.title
-#: anovaOneW/results/anova.columns.title
-#: anovaRM/results/rmTable.columns.title
-#: anovaRM/results/bsTable.columns.title
-#: linReg/results/modelFit.columns.title
-#: linReg/results/modelComp.columns.title
-#: linReg/results/models.template/anova.columns.title
-#: mancova/results/multivar.columns.title
-#: mancova/results/univar.columns.title
-#: ttestIS/results/assum/eqv.columns.title
-msgid "F"
-msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
@@ -2238,7 +2221,7 @@ msgstr "Gama"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
-#: anovaRM/ui[5][1][0][1].label
+#: anovaRM/ui[6][1][0][1].label
 #: linReg/ui[6][1][0][0].label
 #: logLinear/ui[5][1][0][0].label
 #: logRegBin/ui[6][1][0][0].label
@@ -2515,13 +2498,6 @@ msgstr "AIQ"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
-"Parece que o seu modelo tem um problema de \\\"singularidade\\\". Isto "
-"geralmente significa que o modelo está a ter dificuldades em distinguir "
-"entre certos efeitos porque algumas variáveis estão demasiado "
-"correlacionadas ou porque não há dados suficientes para estimar todos os "
-"efeitos de forma fiável. Para resolver este problema, considere simplificar "
-"o modelo, removendo alguns dos efeitos, ou verifique se os seus dados contêm "
-"variáveis redundantes ou altamente correlacionadas."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2655,7 +2631,7 @@ msgstr "Rácio de verosimilhança"
 msgid "Likelihood ratio tests"
 msgstr "Testes do rácio de verosimilhanças"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "linear"
 msgstr "linear"
 
@@ -2757,9 +2733,7 @@ msgstr "Distância de Mahalanobis (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
-"Distância de Mahalanobis pode apenas ser calculada para modelos com 2 ou "
-"mais covariáveis"
+msgstr "Distância de Mahalanobis pode apenas ser calculada para modelos com 2 ou mais covariáveis"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3201,19 +3175,6 @@ msgid "Multivariate Tests"
 msgstr "Testes multivariados"
 
 #: R/descriptives.b.R
-#: anovaOneW/results/desc.columns.title
-#: anovaRM/results/groupSummary.columns.title
-#: contTables/results/chiSq.columns.content
-#: contTablesPaired/results/test.columns.content
-#: corrMatrix/options/n.title
-#: corrMatrix/results/matrix.columns.content
-#: corrPart/options/n.title
-#: corrPart/results/matrix.columns.content
-#: descriptives/options/n.title
-#: ttestIS/results/desc.columns.title
-#: ttestOneS/results/descriptives.columns.title
-#: ttestPS/results/desc.columns.title
-#, fuzzy
 msgid "N"
 msgstr "N"
 
@@ -3368,10 +3329,6 @@ msgstr "Contagens observadas"
 msgid "Observed scores"
 msgstr "Valores observados"
 
-#: R/ancova.b.R
-msgid "octic"
-msgstr "ótico"
-
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
@@ -3482,7 +3439,7 @@ msgstr "ANOVA a um fator (não-paramétrica)"
 msgid "One-Way ANOVA (Welch's)"
 msgstr "ANOVA a um fator (Welch)"
 
-#: anovaRM/ui[6].label
+#: anovaRM/ui[7].label
 #: cfa/ui[2].label
 msgid "Options"
 msgstr "Opções"
@@ -3511,7 +3468,7 @@ msgstr "Anómalos"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
-#: anovaRM/ui[5][1][0][0].label
+#: anovaRM/ui[6][1][0][0].label
 #: linReg/ui[6][1][1][0].label
 #: logLinear/ui[5][1][1][0].label
 #: logRegBin/ui[6][1][1][0].label
@@ -3547,65 +3504,6 @@ msgstr "Teste de modelo global"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
-#: ancova/results/main.columns.title
-#: ancova/results/assump/norm.columns.title
-#: ancova/results/contrasts.template.columns.title
-#: anovaNP/results/table.columns.title
-#: anovaNP/results/comparisons.template.columns.title
-#: anovaOneW/results/anova.columns.title
-#: anovaOneW/results/assump/norm.columns.title
-#: anovaRM/results/rmTable.columns.title
-#: anovaRM/results/bsTable.columns.title
-#: anovaRM/results/assump/spherTable.columns.title
-#: anovaRM/results/contrasts.template.columns.title
-#: anovaRMNP/results/table.columns.title
-#: anovaRMNP/results/comp.columns.title
-#: cfa/results/factorLoadings.columns.title
-#: cfa/results/factorEst/factorCov.columns.title
-#: cfa/results/factorEst/factorIntercept.columns.title
-#: cfa/results/resEst/resCov.columns.title
-#: cfa/results/resEst/resIntercept.columns.title
-#: cfa/results/modelFit/test.columns.title
-#: contTables/results/chiSq.columns.title
-#: contTables/results/taub.columns.title
-#: contTables/results/mh.columns.title
-#: contTablesPaired/results/test.columns.title
-#: linReg/results/modelFit.columns.title
-#: linReg/results/modelComp.columns.title
-#: linReg/results/models.template/anova.columns.title
-#: linReg/results/models.template/coef.columns.title
-#: linReg/results/models.template/assump/durbin.columns.title
-#: linReg/results/models.template/assump/norm.columns.title
-#: logLinear/results/modelFit.columns.title
-#: logLinear/results/modelComp.columns.title
-#: logLinear/results/models.template/lrt.columns.title
-#: logLinear/results/models.template/coef.columns.title
-#: logRegBin/results/modelFit.columns.title
-#: logRegBin/results/modelComp.columns.title
-#: logRegBin/results/models.template/lrt.columns.title
-#: logRegBin/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/assump/boxTidwell.columns.title
-#: logRegMulti/results/modelFit.columns.title
-#: logRegMulti/results/modelComp.columns.title
-#: logRegMulti/results/models.template/lrt.columns.title
-#: logRegMulti/results/models.template/coef.columns.title
-#: logRegOrd/results/modelFit.columns.title
-#: logRegOrd/results/modelComp.columns.title
-#: logRegOrd/results/models.template/lrt.columns.title
-#: logRegOrd/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/thres.columns.title
-#: mancova/results/multivar.columns.title
-#: mancova/results/univar.columns.title
-#: mancova/results/assump/boxM.columns.title
-#: mancova/results/assump/shapiro.columns.title
-#: pca/results/modelFit/fit.columns.title
-#: pca/results/assump/bartlett.columns.title
-#: propTest2/results/table.columns.title
-#: propTestN/results/tests.columns.title
-#: ttestIS/results/ttest.columns.title
-#: ttestIS/results/assum/norm.columns.title
-#: ttestOneS/results/ttest.columns.title
-#: ttestPS/results/ttest.columns.title
 msgid "p"
 msgstr "p"
 
@@ -3884,7 +3782,7 @@ msgstr "Traço de Pillai"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
-#: anovaRM/ui[5][1][1][0].label
+#: anovaRM/ui[6][1][1][0].label
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
@@ -3920,14 +3818,17 @@ msgstr "Gráficos"
 
 #: R/descriptives.b.R
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr ""
-"Gráficos ainda não são suportados para estatísticas descritivas ponderadas."
+msgstr "Gráficos ainda não são suportados para estatísticas descritivas ponderadas."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
 msgid "Polynomial"
 msgstr "Polinomial"
+
+#: R/anovarm.b.R
+msgid "Polynomials limited to degree 6"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3951,7 +3852,7 @@ msgstr "Teste post-hoc ({title})"
 #: anovaNP/ui[1][1].label
 #: anovaOneW/results/postHoc.title
 #: anovaRM/options/postHoc.title
-#: anovaRM/ui[4].label
+#: anovaRM/ui[5].label
 #: anovaRM/results/postHoc.title
 #: contTables/ui[1][2].label
 #: contTables/ui[1][2][0][0][0].label
@@ -4350,11 +4251,11 @@ msgstr "Gráficos Q-Q"
 msgid "Q-Q plots"
 msgstr "Gráficos Q-Q"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "quadratic"
 msgstr "quadrático"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "quartic"
 msgstr "quátrico"
 
@@ -4366,15 +4267,6 @@ msgstr "Quartimax"
 #: R/pca.b.R
 msgid "quartimax"
 msgstr "quartimax"
-
-#: R/ancova.b.R
-msgid "quintic"
-msgstr "quintico"
-
-#: linReg/options/r.title
-#: linReg/results/modelFit.columns.title
-msgid "R"
-msgstr "R"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
@@ -4821,14 +4713,6 @@ msgstr "Correlação semiparcial"
 msgid "Sensitivity"
 msgstr "Sensibilidade"
 
-#: R/ancova.b.R
-msgid "septic"
-msgstr "séptico"
-
-#: R/ancova.b.R
-msgid "sextic"
-msgstr "sextico"
-
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
@@ -4863,8 +4747,14 @@ msgstr "Lado a lado"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-msgid "Simple"
-msgstr "Simples"
+msgid "Simple (vs. First)"
+msgstr ""
+
+#: ancova/options/contrasts.template/type/simple_k.title
+#: anova/options/contrasts.template/type/simple_k.title
+#: anovaRM/options/contrasts.template/type/simple_k.title
+msgid "Simple (vs. Last)"
+msgstr ""
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -4885,8 +4775,7 @@ msgstr "Ajustamento singular encontrado; uma ou mais variáveis preditoras são 
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr ""
-"Erro de singularidade. As correções de esfericidade não estão disponíveis"
+msgstr "Erro de singularidade. As correções de esfericidade não estão disponíveis"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5105,8 +4994,6 @@ msgid "Summary"
 msgstr "Sumário"
 
 #: R/ancova.b.R
-#: contTables/results/taub.columns.title
-#: linReg/results/models.template/coef.columns.title
 msgid "t"
 msgstr "t"
 
@@ -5144,7 +5031,7 @@ msgstr "Termo {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5354,6 +5241,7 @@ msgstr "as variáveis explicativas contínuas (ou independentes), também conhec
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
+#: anovaRM/options/contrasts.description.ui
 msgid "the contrasts to use."
 msgstr "os contrastes a usar."
 
@@ -5529,11 +5417,7 @@ msgstr "os termos de medidas repetidas do modelo."
 
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr ""
-"O nível de referência especificado não foi encontrado para a(s) "
-"variável(eis): {vars}. Foi usado por defeito o primeiro nível disponível. "
-"Para utilizar um nível de referência personalizado, certifique-se de que o "
-"nível definido está presente nos dados."
+msgstr "O nível de referência especificado não foi encontrado para a(s) variável(eis): {vars}. Foi usado por defeito o primeiro nível disponível. Para utilizar um nível de referência personalizado, certifique-se de que o nível definido está presente nos dados."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5949,11 +5833,6 @@ msgid "Violin"
 msgstr "Violino"
 
 #: R/descriptives.b.R
-#: anovaOneW/results/assump/norm.columns.title
-#: mancova/results/assump/shapiro.columns.title
-#: ttestIS/results/assum/norm.columns.title
-#: ttestOneS/results/normality.columns.title
-#: ttestPS/results/norm.columns.title
 msgid "W"
 msgstr "W"
 
@@ -6047,20 +5926,6 @@ msgstr "Eixo-Y"
 msgid "Y-axis"
 msgstr "eixo-yy"
 
-#: cfa/results/factorLoadings.columns.title
-#: cfa/results/factorEst/factorCov.columns.title
-#: cfa/results/factorEst/factorIntercept.columns.title
-#: cfa/results/resEst/resCov.columns.title
-#: cfa/results/resEst/resIntercept.columns.title
-#: logLinear/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/assump/boxTidwell.columns.title
-#: logRegMulti/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/thres.columns.title
-msgid "Z"
-msgstr "Z"
-
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
 msgstr "Teste z para diferença de 2 proporções"
@@ -6104,33 +5969,6 @@ msgstr "η²<sub>p</sub>"
 #: ancova/results/main.columns.title
 msgid "η²p"
 msgstr "η²p"
-
-#: anovaNP/results/table.columns.title
-#: anovaRMNP/results/table.columns.title
-#: cfa/results/modelFit/test.columns.title
-#: contTables/options/chiSq.title
-#: contTables/results/chiSq.columns.content
-#: contTables/results/mh.columns.title
-#: contTablesPaired/options/chiSq.title
-#: contTablesPaired/results/test.columns.content
-#: logLinear/results/modelFit.columns.title
-#: logLinear/results/modelComp.columns.title
-#: logLinear/results/models.template/lrt.columns.title
-#: logRegBin/results/modelFit.columns.title
-#: logRegBin/results/modelComp.columns.title
-#: logRegBin/results/models.template/lrt.columns.title
-#: logRegMulti/results/modelFit.columns.title
-#: logRegMulti/results/modelComp.columns.title
-#: logRegMulti/results/models.template/lrt.columns.title
-#: logRegOrd/results/modelFit.columns.title
-#: logRegOrd/results/modelComp.columns.title
-#: logRegOrd/results/models.template/lrt.columns.title
-#: mancova/results/assump/boxM.columns.title
-#: pca/results/modelFit/fit.columns.title
-#: pca/results/assump/bartlett.columns.title
-#: propTestN/results/tests.columns.title
-msgid "χ²"
-msgstr "χ²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content

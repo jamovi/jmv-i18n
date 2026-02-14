@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-19 18:02+0000\n"
-"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/jamovi/jmv-i18n/ta/"
-">\n"
-"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: ta\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -126,7 +122,7 @@ msgstr "* ப <.05, ** ப <.01, *** ப <.001, ஒரு வால்"
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
 #: anova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: anova/ui[6][1][0][1]/ciWidthEmm.suffix
-#: anovaRM/ui[5][1][0][1]/ciWidthEmm.suffix
+#: anovaRM/ui[6][1][0][1]/ciWidthEmm.suffix
 #: cfa/ui[3][1][0]/ci/ciWidth.suffix
 #: contTables/ui[1][0][0][1][0]/ci/ciWidth.suffix
 #: corrMatrix/ui[1][1]/ci/ciWidth.suffix
@@ -231,11 +227,6 @@ msgstr "> சோதனை மதிப்பு"
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
 msgstr "⁻ சராசரி - 1 எச்.டி, <sup> μ </sup> சராசரி, ⁺ சராசரி + 1 எச்.டி."
-
-#: pca/results/loadings.columns.title
-#: pca/results/factorStats/factorCor.columns.title
-msgid "1"
-msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
@@ -531,7 +522,7 @@ msgstr "புதிய காரணியைச் சேர்க்கவு�
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -1130,7 +1121,7 @@ msgstr "நம்பிக்கை இடைவெளி"
 #: anova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
 #: anova/ui[6][1][0][1]/ciWidthEmm.label
 #: anovaRM/options/emmPlotError/ci.title
-#: anovaRM/ui[5][1][0][1]/ciWidthEmm.label
+#: anovaRM/ui[6][1][0][1]/ciWidthEmm.label
 #: cfa/options/ci.title
 #: linReg/options/ci.title
 #: linReg/options/ciStdEst.title
@@ -1245,6 +1236,7 @@ msgstr "தற்செயல் அட்டவணைகள்"
 #: anova/ui[4].label
 #: anova/results/contrasts.title
 #: anovaRM/options/contrasts.title
+#: anovaRM/ui[4].label
 #: anovaRM/results/contrasts.title
 msgid "Contrasts"
 msgstr "முரண்பாடுகள்"
@@ -1291,7 +1283,7 @@ msgid "Correction"
 msgstr "திருத்தம்"
 
 #: anovaRM/options/postHocCorr.title
-#: anovaRM/ui[4][1][0].label
+#: anovaRM/ui[5][1][0].label
 msgid "Corrections"
 msgstr "திருத்தங்கள்"
 
@@ -1473,7 +1465,7 @@ msgstr "க்ரோன்பேக்கின் α"
 msgid "Cronbach's α (if item is dropped)"
 msgstr "க்ரோன்பேக்கின் α (உருப்படி கைவிடப்பட்டால்)"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "cubic"
 msgstr "கன"
 
@@ -1529,6 +1521,10 @@ msgstr "தரவு தொகுப்பு தற்போது கவனி
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
 msgstr "தரவு சுருக்கம்"
+
+#: R/utilsanova.R
+msgid "degree"
+msgstr ""
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -1765,7 +1761,7 @@ msgstr "இழுவை மாறி இங்கே"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: cfa/ui[0][0]/factors.template/blockList.ghostText
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -1902,7 +1898,7 @@ msgstr "மதிப்பீடு (பதிவு வீத விகித�
 #: ancova/results/emm.title
 #: anova/ui[6].label
 #: anova/results/emm.title
-#: anovaRM/ui[5].label
+#: anovaRM/ui[6].label
 #: anovaRM/results/emm.title
 #: linReg/ui[6].label
 #: linReg/results/models.template/emm.title
@@ -1934,9 +1930,7 @@ msgstr "மதிப்பீடுகள் பதிவு முரண்ப�
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr ""
-"மதிப்பீடுகள் \"{dep} = {level1}\" எதிர் \"{dep} = {level2}\" இன் பதிவு "
-"முரண்பாடுகளைக் குறிக்கின்றன"
+msgstr "மதிப்பீடுகள் \"{dep} = {level1}\" எதிர் \"{dep} = {level2}\" இன் பதிவு முரண்பாடுகளைக் குறிக்கின்றன"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -2008,19 +2002,6 @@ msgstr "தீவிர மதிப்புகள்"
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
 msgstr "$ விசையின் தீவிர மதிப்புகள்"
-
-#: ancova/results/main.columns.title
-#: anovaOneW/results/anova.columns.title
-#: anovaRM/results/rmTable.columns.title
-#: anovaRM/results/bsTable.columns.title
-#: linReg/results/modelFit.columns.title
-#: linReg/results/modelComp.columns.title
-#: linReg/results/models.template/anova.columns.title
-#: mancova/results/multivar.columns.title
-#: mancova/results/univar.columns.title
-#: ttestIS/results/assum/eqv.columns.title
-msgid "F"
-msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
@@ -2252,7 +2233,7 @@ msgstr "காமா"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
-#: anovaRM/ui[5][1][0][1].label
+#: anovaRM/ui[6][1][0][1].label
 #: linReg/ui[6][1][0][0].label
 #: logLinear/ui[5][1][0][0].label
 #: logRegBin/ui[6][1][0][0].label
@@ -2529,12 +2510,6 @@ msgstr "Iqr"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
-"உங்கள் மாதிரியில் \\ \"ஒருமைப்பாடு \\\" சிக்கல் இருப்பதாகத் தெரிகிறது. இது வழக்கமாக "
-"மாதிரியானது சில விளைவுகளுக்கு இடையில் வேறுபடுவதில் சிக்கல் உள்ளது, ஏனெனில் சில "
-"மாறிகள் மிகவும் நெருக்கமாக தொடர்புடையவை அல்லது அனைத்து விளைவுகளையும் நம்பத்தகுந்த "
-"முறையில் மதிப்பிடுவதற்கு போதுமான தரவு இல்லை. இதைத் தீர்க்க, சில விளைவுகளை அகற்றுவதன் "
-"மூலம் மாதிரியை எளிதாக்குவதைக் கவனியுங்கள் அல்லது உங்கள் தரவுகளில் தேவையற்ற அல்லது மிகவும்"
-" தொடர்புடைய மாறிகள் இருக்கக்கூடும்."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2668,7 +2643,7 @@ msgstr "நிகழ்தகவு விகிதம்"
 msgid "Likelihood ratio tests"
 msgstr "நிகழ்தகவு விகித சோதனைகள்"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "linear"
 msgstr "நேரியல்"
 
@@ -2770,9 +2745,7 @@ msgstr "மஅலானோபிச் தூரம் (பி)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr ""
-"மஅலானோபிச் தூரத்தை இரண்டு அல்லது அதற்கு மேற்பட்ட கோவாரியட்டுகள் கொண்ட மாதிரிகளுக்கு "
-"மட்டுமே கணக்கிட முடியும்"
+msgstr "மஅலானோபிச் தூரத்தை இரண்டு அல்லது அதற்கு மேற்பட்ட கோவாரியட்டுகள் கொண்ட மாதிரிகளுக்கு மட்டுமே கணக்கிட முடியும்"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3214,18 +3187,6 @@ msgid "Multivariate Tests"
 msgstr "பன்முக சோதனைகள்"
 
 #: R/descriptives.b.R
-#: anovaOneW/results/desc.columns.title
-#: anovaRM/results/groupSummary.columns.title
-#: contTables/results/chiSq.columns.content
-#: contTablesPaired/results/test.columns.content
-#: corrMatrix/options/n.title
-#: corrMatrix/results/matrix.columns.content
-#: corrPart/options/n.title
-#: corrPart/results/matrix.columns.content
-#: descriptives/options/n.title
-#: ttestIS/results/desc.columns.title
-#: ttestOneS/results/descriptives.columns.title
-#: ttestPS/results/desc.columns.title
 msgid "N"
 msgstr "N"
 
@@ -3380,10 +3341,6 @@ msgstr "கவனிக்கப்பட்ட எண்ணிக்கைக�
 msgid "Observed scores"
 msgstr "கவனிக்கப்பட்ட மதிப்பெண்கள்"
 
-#: R/ancova.b.R
-msgid "octic"
-msgstr "மறைமுக"
-
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
@@ -3494,7 +3451,7 @@ msgstr "ஒரு வழி ANOVA (அளவுரு அல்லாத)"
 msgid "One-Way ANOVA (Welch's)"
 msgstr "ஒரு வழி ANOVA (வெல்ச்ச்)"
 
-#: anovaRM/ui[6].label
+#: anovaRM/ui[7].label
 #: cfa/ui[2].label
 msgid "Options"
 msgstr "விருப்பங்கள்"
@@ -3523,7 +3480,7 @@ msgstr "வெளிநாட்டவர்கள்"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
-#: anovaRM/ui[5][1][0][0].label
+#: anovaRM/ui[6][1][0][0].label
 #: linReg/ui[6][1][1][0].label
 #: logLinear/ui[5][1][1][0].label
 #: logRegBin/ui[6][1][1][0].label
@@ -3559,65 +3516,6 @@ msgstr "ஒட்டுமொத்த மாதிரி சோதனை"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
-#: ancova/results/main.columns.title
-#: ancova/results/assump/norm.columns.title
-#: ancova/results/contrasts.template.columns.title
-#: anovaNP/results/table.columns.title
-#: anovaNP/results/comparisons.template.columns.title
-#: anovaOneW/results/anova.columns.title
-#: anovaOneW/results/assump/norm.columns.title
-#: anovaRM/results/rmTable.columns.title
-#: anovaRM/results/bsTable.columns.title
-#: anovaRM/results/assump/spherTable.columns.title
-#: anovaRM/results/contrasts.template.columns.title
-#: anovaRMNP/results/table.columns.title
-#: anovaRMNP/results/comp.columns.title
-#: cfa/results/factorLoadings.columns.title
-#: cfa/results/factorEst/factorCov.columns.title
-#: cfa/results/factorEst/factorIntercept.columns.title
-#: cfa/results/resEst/resCov.columns.title
-#: cfa/results/resEst/resIntercept.columns.title
-#: cfa/results/modelFit/test.columns.title
-#: contTables/results/chiSq.columns.title
-#: contTables/results/taub.columns.title
-#: contTables/results/mh.columns.title
-#: contTablesPaired/results/test.columns.title
-#: linReg/results/modelFit.columns.title
-#: linReg/results/modelComp.columns.title
-#: linReg/results/models.template/anova.columns.title
-#: linReg/results/models.template/coef.columns.title
-#: linReg/results/models.template/assump/durbin.columns.title
-#: linReg/results/models.template/assump/norm.columns.title
-#: logLinear/results/modelFit.columns.title
-#: logLinear/results/modelComp.columns.title
-#: logLinear/results/models.template/lrt.columns.title
-#: logLinear/results/models.template/coef.columns.title
-#: logRegBin/results/modelFit.columns.title
-#: logRegBin/results/modelComp.columns.title
-#: logRegBin/results/models.template/lrt.columns.title
-#: logRegBin/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/assump/boxTidwell.columns.title
-#: logRegMulti/results/modelFit.columns.title
-#: logRegMulti/results/modelComp.columns.title
-#: logRegMulti/results/models.template/lrt.columns.title
-#: logRegMulti/results/models.template/coef.columns.title
-#: logRegOrd/results/modelFit.columns.title
-#: logRegOrd/results/modelComp.columns.title
-#: logRegOrd/results/models.template/lrt.columns.title
-#: logRegOrd/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/thres.columns.title
-#: mancova/results/multivar.columns.title
-#: mancova/results/univar.columns.title
-#: mancova/results/assump/boxM.columns.title
-#: mancova/results/assump/shapiro.columns.title
-#: pca/results/modelFit/fit.columns.title
-#: pca/results/assump/bartlett.columns.title
-#: propTest2/results/table.columns.title
-#: propTestN/results/tests.columns.title
-#: ttestIS/results/ttest.columns.title
-#: ttestIS/results/assum/norm.columns.title
-#: ttestOneS/results/ttest.columns.title
-#: ttestPS/results/ttest.columns.title
 msgid "p"
 msgstr "ப"
 
@@ -3896,7 +3794,7 @@ msgstr "பிள்ளையின் சுவடு"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
-#: anovaRM/ui[5][1][1][0].label
+#: anovaRM/ui[6][1][1][0].label
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
@@ -3940,6 +3838,10 @@ msgstr "எடையுள்ள விளக்கங்களுக்கு �
 msgid "Polynomial"
 msgstr "அடுக்குக்கோவை"
 
+#: R/anovarm.b.R
+msgid "Polynomials limited to degree 6"
+msgstr ""
+
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
@@ -3962,7 +3864,7 @@ msgstr "பிந்தைய தற்காலிக சோதனை ({title})
 #: anovaNP/ui[1][1].label
 #: anovaOneW/results/postHoc.title
 #: anovaRM/options/postHoc.title
-#: anovaRM/ui[4].label
+#: anovaRM/ui[5].label
 #: anovaRM/results/postHoc.title
 #: contTables/ui[1][2].label
 #: contTables/ui[1][2][0][0][0].label
@@ -4361,11 +4263,11 @@ msgstr "Q-Q அடுக்கு"
 msgid "Q-Q plots"
 msgstr "Q-Q அடுக்கு"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "quadratic"
 msgstr "இருபடி"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "quartic"
 msgstr "நான்கார்டிக்"
 
@@ -4377,15 +4279,6 @@ msgstr "குவார்டிமேக்ச்"
 #: R/pca.b.R
 msgid "quartimax"
 msgstr "குவார்டிமேக்ச்"
-
-#: R/ancova.b.R
-msgid "quintic"
-msgstr "ஐந்தொகை"
-
-#: linReg/options/r.title
-#: linReg/results/modelFit.columns.title
-msgid "R"
-msgstr "R"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
@@ -4832,14 +4725,6 @@ msgstr "அரைகுறை தொடர்பு"
 msgid "Sensitivity"
 msgstr "உணர்திறன்"
 
-#: R/ancova.b.R
-msgid "septic"
-msgstr "செப்டிக்"
-
-#: R/ancova.b.R
-msgid "sextic"
-msgstr "செக்ச்டிக்"
-
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
@@ -4874,8 +4759,14 @@ msgstr "அருகருகே"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-msgid "Simple"
-msgstr "எளிய"
+msgid "Simple (vs. First)"
+msgstr ""
+
+#: ancova/options/contrasts.template/type/simple_k.title
+#: anova/options/contrasts.template/type/simple_k.title
+#: anovaRM/options/contrasts.template/type/simple_k.title
+msgid "Simple (vs. Last)"
+msgstr ""
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -5115,8 +5006,6 @@ msgid "Summary"
 msgstr "சுருக்கம்"
 
 #: R/ancova.b.R
-#: contTables/results/taub.columns.title
-#: linReg/results/models.template/coef.columns.title
 msgid "t"
 msgstr "டி"
 
@@ -5154,7 +5043,7 @@ msgstr "சொல் {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5364,6 +5253,7 @@ msgstr "தொடர்ச்சியான விளக்கமளிக்�
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
+#: anovaRM/options/contrasts.description.ui
 msgid "the contrasts to use."
 msgstr "பயன்படுத்த முரண்பாடுகள்."
 
@@ -5434,13 +5324,7 @@ msgstr "விளக்கமளிக்கும் அல்லது சு�
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
-"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒரு வகைப்படுத்தப்பட்ட விளக்க மாறி ஆகியவற்றுக்கு இடையிலா"
-"ன உறவை ஆராய ப்ரீட்மேன் சோதனை பயன்படுத்தப்படுகிறது, அங்கு விளக்கமளிக்கும் மாறி "
-"'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே பாடத்திலிருந்து). இது மறுநிகழ்வு நடவடிக்கைகளுக்கு "
-"அனோவா, ஆனால் அளவுரு அல்லாதவராக இருப்பதன் நன்மையுடன், மற்றும் மாறுபாடுகளின் இயல்பான "
-"அல்லது ஒருமைப்பாடு ஆகியவற்றின் அனுமானங்கள் தேவையில்லை. இருப்பினும், இது ஒரு நேரத்தில் "
-"ஒரு விளக்க மாறியை மட்டுமே சோதிக்க முடியும் என்ற வரம்பைக் கொண்டுள்ளது."
+msgstr "தொடர்ச்சியான சார்பு மாறி மற்றும் ஒரு வகைப்படுத்தப்பட்ட விளக்க மாறி ஆகியவற்றுக்கு இடையிலான உறவை ஆராய ப்ரீட்மேன் சோதனை பயன்படுத்தப்படுகிறது, அங்கு விளக்கமளிக்கும் மாறி 'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே பாடத்திலிருந்து). இது மறுநிகழ்வு நடவடிக்கைகளுக்கு அனோவா, ஆனால் அளவுரு அல்லாதவராக இருப்பதன் நன்மையுடன், மற்றும் மாறுபாடுகளின் இயல்பான அல்லது ஒருமைப்பாடு ஆகியவற்றின் அனுமானங்கள் தேவையில்லை. இருப்பினும், இது ஒரு நேரத்தில் ஒரு விளக்க மாறியை மட்டுமே சோதிக்க முடியும் என்ற வரம்பைக் கொண்டுள்ளது."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
@@ -5499,8 +5383,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr ""
-"உறவை ஆராய அனோவா மறுநிகழ்வு நடவடிக்கைகள் பயன்படுத்தப்படுகின்றன\n"
+msgstr "உறவை ஆராய அனோவா மறுநிகழ்வு நடவடிக்கைகள் பயன்படுத்தப்படுகின்றன\n"
 " தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தலுக்கு இடையில்\n"
 " விளக்கமளிக்கும் மாறிகள், ஒன்று அல்லது அதற்கு மேற்பட்ட விளக்க மாறிகள்\n"
 " 'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே மாதிரியாக இருக்கும்\n"
@@ -5522,8 +5405,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr ""
-"உறவை ஆராய அனோவா மறுநிகழ்வு நடவடிக்கைகள் பயன்படுத்தப்படுகின்றன\n"
+msgstr "உறவை ஆராய அனோவா மறுநிகழ்வு நடவடிக்கைகள் பயன்படுத்தப்படுகின்றன\n"
 " தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தலுக்கு இடையில்\n"
 " விளக்கமளிக்கும் மாறிகள், ஒன்று அல்லது அதற்கு மேற்பட்ட விளக்க மாறிகள்\n"
 " 'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே மாதிரியாக இருக்கும்\n"
@@ -5544,9 +5426,7 @@ msgstr "மறுநிகழ்வு நடவடிக்கைகள் வ�
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr ""
-"மறுநிகழ்வு நடவடிக்கைகள் இரண்டு நிலைகள் மட்டுமே உள்ளன. மறுநிகழ்வு நடவடிக்கைகளுக்கு இரண்டு"
-" நிலைகள் மட்டுமே இருக்கும்போது கோளத்தின் அனுமானம் எப்போதும் நிறைவு செய்யப்படுகிறது."
+msgstr "மறுநிகழ்வு நடவடிக்கைகள் இரண்டு நிலைகள் மட்டுமே உள்ளன. மறுநிகழ்வு நடவடிக்கைகளுக்கு இரண்டு நிலைகள் மட்டுமே இருக்கும்போது கோளத்தின் அனுமானம் எப்போதும் நிறைவு செய்யப்படுகிறது."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
@@ -5558,10 +5438,7 @@ msgstr "மாதிரியின் தொடர்ச்சியான ந�
 
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr ""
-"பின்வரும் மாறி (கள்) க்கு குறிப்பிட்ட குறிப்பு நிலை காணப்படவில்லை: {vars}. கிடைக்கக்கூடி"
-"ய முதல் நிலைக்கு இயல்புநிலை. தனிப்பயன் குறிப்பு மட்டத்தைப் பயன்படுத்த, வரையறுக்கப்பட்ட "
-"குறிப்பு நிலை தரவுகளில் கிடைக்கிறது என்பதை உறுதிப்படுத்தவும்."
+msgstr "பின்வரும் மாறி (கள்) க்கு குறிப்பிட்ட குறிப்பு நிலை காணப்படவில்லை: {vars}. கிடைக்கக்கூடிய முதல் நிலைக்கு இயல்புநிலை. தனிப்பயன் குறிப்பு மட்டத்தைப் பயன்படுத்த, வரையறுக்கப்பட்ட குறிப்பு நிலை தரவுகளில் கிடைக்கிறது என்பதை உறுதிப்படுத்தவும்."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -6013,11 +5890,6 @@ msgid "Violin"
 msgstr "வயலின்"
 
 #: R/descriptives.b.R
-#: anovaOneW/results/assump/norm.columns.title
-#: mancova/results/assump/shapiro.columns.title
-#: ttestIS/results/assum/norm.columns.title
-#: ttestOneS/results/normality.columns.title
-#: ttestPS/results/norm.columns.title
 msgid "W"
 msgstr "W"
 
@@ -6111,20 +5983,6 @@ msgstr "Y- அச்சு"
 msgid "Y-axis"
 msgstr "Y- அச்சு"
 
-#: cfa/results/factorLoadings.columns.title
-#: cfa/results/factorEst/factorCov.columns.title
-#: cfa/results/factorEst/factorIntercept.columns.title
-#: cfa/results/resEst/resCov.columns.title
-#: cfa/results/resEst/resIntercept.columns.title
-#: logLinear/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/assump/boxTidwell.columns.title
-#: logRegMulti/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/thres.columns.title
-msgid "Z"
-msgstr "சட்"
-
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
 msgstr "சட் சோதனை வேறுபாடு 2 விகிதாச்சாரத்தில்"
@@ -6168,33 +6026,6 @@ msgstr "η² <sub> ப </sub>"
 #: ancova/results/main.columns.title
 msgid "η²p"
 msgstr "ம"
-
-#: anovaNP/results/table.columns.title
-#: anovaRMNP/results/table.columns.title
-#: cfa/results/modelFit/test.columns.title
-#: contTables/options/chiSq.title
-#: contTables/results/chiSq.columns.content
-#: contTables/results/mh.columns.title
-#: contTablesPaired/options/chiSq.title
-#: contTablesPaired/results/test.columns.content
-#: logLinear/results/modelFit.columns.title
-#: logLinear/results/modelComp.columns.title
-#: logLinear/results/models.template/lrt.columns.title
-#: logRegBin/results/modelFit.columns.title
-#: logRegBin/results/modelComp.columns.title
-#: logRegBin/results/models.template/lrt.columns.title
-#: logRegMulti/results/modelFit.columns.title
-#: logRegMulti/results/modelComp.columns.title
-#: logRegMulti/results/models.template/lrt.columns.title
-#: logRegOrd/results/modelFit.columns.title
-#: logRegOrd/results/modelComp.columns.title
-#: logRegOrd/results/models.template/lrt.columns.title
-#: mancova/results/assump/boxM.columns.title
-#: pca/results/modelFit/fit.columns.title
-#: pca/results/assump/bartlett.columns.title
-#: propTestN/results/tests.columns.title
-msgid "χ²"
-msgstr "X²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content

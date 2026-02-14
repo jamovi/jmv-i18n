@@ -1,17 +1,12 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-24 08:00+0000\n"
-"Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
-"Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"he/>\n"
-"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.15.1\n"
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+"Language: he\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -127,7 +122,7 @@ msgstr "* p < .05, ** p < .01, *** p < .001, חד זנבי"
 #: ancova/ui[6][1][0][1]/ciWidthEmm.suffix
 #: anova/ui[5][1][1]/postHocES_d[0]/postHocEsCi/postHocEsCiWidth.suffix
 #: anova/ui[6][1][0][1]/ciWidthEmm.suffix
-#: anovaRM/ui[5][1][0][1]/ciWidthEmm.suffix
+#: anovaRM/ui[6][1][0][1]/ciWidthEmm.suffix
 #: cfa/ui[3][1][0]/ci/ciWidth.suffix
 #: contTables/ui[1][0][0][1][0]/ci/ciWidth.suffix
 #: corrMatrix/ui[1][1]/ci/ciWidth.suffix
@@ -232,11 +227,6 @@ msgstr "> ערך המבחן"
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
 msgstr "⁻ ממוצע - 1ס״ת, <sup>μ</sup> ממוצע, ⁺ ממוצע + 1ס״ת"
-
-#: pca/results/loadings.columns.title
-#: pca/results/factorStats/factorCor.columns.title
-msgid "1"
-msgstr "1"
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
@@ -532,7 +522,7 @@ msgstr "הסופת גורם חדש"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -1131,7 +1121,7 @@ msgstr "רווח סמך"
 #: anova/ui[5][1][1]/postHocES_d[0]/postHocEsCi.label
 #: anova/ui[6][1][0][1]/ciWidthEmm.label
 #: anovaRM/options/emmPlotError/ci.title
-#: anovaRM/ui[5][1][0][1]/ciWidthEmm.label
+#: anovaRM/ui[6][1][0][1]/ciWidthEmm.label
 #: cfa/options/ci.title
 #: linReg/options/ci.title
 #: linReg/options/ciStdEst.title
@@ -1246,6 +1236,7 @@ msgstr "טבלאות קריבות"
 #: anova/ui[4].label
 #: anova/results/contrasts.title
 #: anovaRM/options/contrasts.title
+#: anovaRM/ui[4].label
 #: anovaRM/results/contrasts.title
 msgid "Contrasts"
 msgstr "קונטרסטים"
@@ -1292,7 +1283,7 @@ msgid "Correction"
 msgstr "תיקון"
 
 #: anovaRM/options/postHocCorr.title
-#: anovaRM/ui[4][1][0].label
+#: anovaRM/ui[5][1][0].label
 msgid "Corrections"
 msgstr "תיקונים"
 
@@ -1468,7 +1459,7 @@ msgstr "α של קרונבך"
 msgid "Cronbach's α (if item is dropped)"
 msgstr "α של קרונבך (אם פריט מושמט)"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "cubic"
 msgstr "קובייתי"
 
@@ -1524,6 +1515,10 @@ msgstr "מערך הנתונים לא משוקלל כרגע"
 #: logRegBin/results/models.template/dataSummary.title
 msgid "Data Summary"
 msgstr "סיכום הנתונים"
+
+#: R/utilsanova.R
+msgid "degree"
+msgstr ""
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -1760,7 +1755,7 @@ msgstr "יש לגרור לכאן משתנה"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
 #: cfa/ui[0][0]/factors.template/blockList.ghostText
 #: linReg/ui[1]/modelSupplier[0]/blocks.template/blockList.ghostText
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockList.ghostText
@@ -1837,9 +1832,7 @@ msgstr "ערכים עצמיים הגדולים מ־"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr ""
-"תאים ריקים במערך בין נבדקי: לפחות לצירוף אחד של רמות הגורם הבין נבדקי יש 0 "
-"תצפיות"
+msgstr "תאים ריקים במערך בין נבדקי: לפחות לצירוף אחד של רמות הגורם הבין נבדקי יש 0 תצפיות"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -1899,7 +1892,7 @@ msgstr "אומדן (לוג יחס השיעורים)"
 #: ancova/results/emm.title
 #: anova/ui[6].label
 #: anova/results/emm.title
-#: anovaRM/ui[5].label
+#: anovaRM/ui[6].label
 #: anovaRM/results/emm.title
 #: linReg/ui[6].label
 #: linReg/results/models.template/emm.title
@@ -2003,19 +1996,6 @@ msgstr "ערכים קיצוניים"
 #: descriptives/results/extremeValues.template.title
 msgid "Extreme values of $key"
 msgstr "ערכים קיצוניים של $key"
-
-#: ancova/results/main.columns.title
-#: anovaOneW/results/anova.columns.title
-#: anovaRM/results/rmTable.columns.title
-#: anovaRM/results/bsTable.columns.title
-#: linReg/results/modelFit.columns.title
-#: linReg/results/modelComp.columns.title
-#: linReg/results/models.template/anova.columns.title
-#: mancova/results/multivar.columns.title
-#: mancova/results/univar.columns.title
-#: ttestIS/results/assum/eqv.columns.title
-msgid "F"
-msgstr "F"
 
 #: linReg/options/modelTest.title
 msgid "F test"
@@ -2247,7 +2227,7 @@ msgstr "גמה"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
-#: anovaRM/ui[5][1][0][1].label
+#: anovaRM/ui[6][1][0][1].label
 #: linReg/ui[6][1][0][0].label
 #: logLinear/ui[5][1][0][0].label
 #: logRegBin/ui[6][1][0][0].label
@@ -2524,11 +2504,6 @@ msgstr "טווח בין רבעוני"
 #: R/utilsanova.R
 msgid "It appears that your model has a \\"singularity\\" problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
 msgstr ""
-"נראה שלמודל יש בעיית /\"סינגולריות/\". לרוב המשמעות היא שלמודל קשה להבחין "
-"בין אפקטים מסוימים מכיוון שכמה משתנים קשורים זה לזה קשר הדוק או שאין די "
-"נתונים כדי לאמוד נאמנה את כל האפקטים. כדי לפתור זאת, יש לשקול את פישוט המודל "
-"בעזרת הסרת כמה מהאפקטים או בעזרת בדיקה אם בנתונים יש משתנים מיותרים או כאלה "
-"הקשורים בהדיקות זה לזה."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2662,7 +2637,7 @@ msgstr "יחס הנראות"
 msgid "Likelihood ratio tests"
 msgstr "מבחני יחס הנראות"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "linear"
 msgstr "ליניארי"
 
@@ -2677,10 +2652,7 @@ msgstr "רגרסיה ליניארית"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr ""
-"משתמשים ברגרסיה ליניארית כדי לבחון את הקשר שבין משתנה תלוי רציף ולפחות משתנה "
-"מסביר רציף ו/או איכותי אחד. שיטות סטטיסטיות אחרות, כמו ניתוח שונות וניתוח "
-"שונות משותפת, הן למעשה שיטות שונות של רגרסיה ליניארית."
+msgstr "משתמשים ברגרסיה ליניארית כדי לבחון את הקשר שבין משתנה תלוי רציף ולפחות משתנה מסביר רציף ו/או איכותי אחד. שיטות סטטיסטיות אחרות, כמו ניתוח שונות וניתוח שונות משותפת, הן למעשה שיטות שונות של רגרסיה ליניארית."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -3197,9 +3169,7 @@ msgstr "רגרסיה לוגיסטית מולטינומית"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr ""
-"משתמשים בניתוח שונות (משותפת) רבת משתנים (MANCOVA) כדי לבחון את הקשר בין כמה "
-"משתנים תלויים ולפחות משתנה מסביר איכותי ו/או רציף אחד."
+msgstr "משתמשים בניתוח שונות (משותפת) רבת משתנים (MANCOVA) כדי לבחון את הקשר בין כמה משתנים תלויים ולפחות משתנה מסביר איכותי ו/או רציף אחד."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3211,18 +3181,6 @@ msgid "Multivariate Tests"
 msgstr "מבחנים רבי משתנים"
 
 #: R/descriptives.b.R
-#: anovaOneW/results/desc.columns.title
-#: anovaRM/results/groupSummary.columns.title
-#: contTables/results/chiSq.columns.content
-#: contTablesPaired/results/test.columns.content
-#: corrMatrix/options/n.title
-#: corrMatrix/results/matrix.columns.content
-#: corrPart/options/n.title
-#: corrPart/results/matrix.columns.content
-#: descriptives/options/n.title
-#: ttestIS/results/desc.columns.title
-#: ttestOneS/results/descriptives.columns.title
-#: ttestPS/results/desc.columns.title
 msgid "N"
 msgstr "N"
 
@@ -3377,10 +3335,6 @@ msgstr "ספירות נצפות"
 msgid "Observed scores"
 msgstr "ציונים נצפים"
 
-#: R/ancova.b.R
-msgid "octic"
-msgstr "אוקטי"
-
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
@@ -3491,7 +3445,7 @@ msgstr "ניתוח שונות חד כיווני (לא פרמטרי)"
 msgid "One-Way ANOVA (Welch's)"
 msgstr "ניתוח שונות חד כיווני (של ולץ׳)"
 
-#: anovaRM/ui[6].label
+#: anovaRM/ui[7].label
 #: cfa/ui[2].label
 msgid "Options"
 msgstr "אפשרויות"
@@ -3520,7 +3474,7 @@ msgstr "חריגות"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
-#: anovaRM/ui[5][1][0][0].label
+#: anovaRM/ui[6][1][0][0].label
 #: linReg/ui[6][1][1][0].label
 #: logLinear/ui[5][1][1][0].label
 #: logRegBin/ui[6][1][1][0].label
@@ -3556,65 +3510,6 @@ msgstr "בדיקה כוללת של המודל"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
-#: ancova/results/main.columns.title
-#: ancova/results/assump/norm.columns.title
-#: ancova/results/contrasts.template.columns.title
-#: anovaNP/results/table.columns.title
-#: anovaNP/results/comparisons.template.columns.title
-#: anovaOneW/results/anova.columns.title
-#: anovaOneW/results/assump/norm.columns.title
-#: anovaRM/results/rmTable.columns.title
-#: anovaRM/results/bsTable.columns.title
-#: anovaRM/results/assump/spherTable.columns.title
-#: anovaRM/results/contrasts.template.columns.title
-#: anovaRMNP/results/table.columns.title
-#: anovaRMNP/results/comp.columns.title
-#: cfa/results/factorLoadings.columns.title
-#: cfa/results/factorEst/factorCov.columns.title
-#: cfa/results/factorEst/factorIntercept.columns.title
-#: cfa/results/resEst/resCov.columns.title
-#: cfa/results/resEst/resIntercept.columns.title
-#: cfa/results/modelFit/test.columns.title
-#: contTables/results/chiSq.columns.title
-#: contTables/results/taub.columns.title
-#: contTables/results/mh.columns.title
-#: contTablesPaired/results/test.columns.title
-#: linReg/results/modelFit.columns.title
-#: linReg/results/modelComp.columns.title
-#: linReg/results/models.template/anova.columns.title
-#: linReg/results/models.template/coef.columns.title
-#: linReg/results/models.template/assump/durbin.columns.title
-#: linReg/results/models.template/assump/norm.columns.title
-#: logLinear/results/modelFit.columns.title
-#: logLinear/results/modelComp.columns.title
-#: logLinear/results/models.template/lrt.columns.title
-#: logLinear/results/models.template/coef.columns.title
-#: logRegBin/results/modelFit.columns.title
-#: logRegBin/results/modelComp.columns.title
-#: logRegBin/results/models.template/lrt.columns.title
-#: logRegBin/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/assump/boxTidwell.columns.title
-#: logRegMulti/results/modelFit.columns.title
-#: logRegMulti/results/modelComp.columns.title
-#: logRegMulti/results/models.template/lrt.columns.title
-#: logRegMulti/results/models.template/coef.columns.title
-#: logRegOrd/results/modelFit.columns.title
-#: logRegOrd/results/modelComp.columns.title
-#: logRegOrd/results/models.template/lrt.columns.title
-#: logRegOrd/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/thres.columns.title
-#: mancova/results/multivar.columns.title
-#: mancova/results/univar.columns.title
-#: mancova/results/assump/boxM.columns.title
-#: mancova/results/assump/shapiro.columns.title
-#: pca/results/modelFit/fit.columns.title
-#: pca/results/assump/bartlett.columns.title
-#: propTest2/results/table.columns.title
-#: propTestN/results/tests.columns.title
-#: ttestIS/results/ttest.columns.title
-#: ttestIS/results/assum/norm.columns.title
-#: ttestOneS/results/ttest.columns.title
-#: ttestPS/results/ttest.columns.title
 msgid "p"
 msgstr "p"
 
@@ -3886,7 +3781,7 @@ msgstr "מסלול פילאי"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
-#: anovaRM/ui[5][1][1][0].label
+#: anovaRM/ui[6][1][1][0].label
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
@@ -3930,6 +3825,10 @@ msgstr "תרשימים עדיין אינם תומכים במידע תיאורי 
 msgid "Polynomial"
 msgstr "רב־איבר"
 
+#: R/anovarm.b.R
+msgid "Polynomials limited to degree 6"
+msgstr ""
+
 #: R/ancova.b.R
 #: R/anovarm.b.R
 msgid "Post Hoc Comparisons - {term}"
@@ -3952,7 +3851,7 @@ msgstr "מבחן המשך ({title})"
 #: anovaNP/ui[1][1].label
 #: anovaOneW/results/postHoc.title
 #: anovaRM/options/postHoc.title
-#: anovaRM/ui[4].label
+#: anovaRM/ui[5].label
 #: anovaRM/results/postHoc.title
 #: contTables/ui[1][2].label
 #: contTables/ui[1][2][0][0][0].label
@@ -4138,10 +4037,7 @@ msgstr "r של פירסון עבור כל צירוף של משתנים."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
-"תרשים Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו "
-"המצופים אם הנתונים היו מתפלגים נורמלית באופן <i>מושל</i>. סטייה גדולה מהאלכסון "
-"מרמזת שהנתונים אינם מהתפלגות נורמלית."
+msgstr "תרשים Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו המצופים אם הנתונים היו מתפלגים נורמלית באופן <i>מושל</i>. סטייה גדולה מהאלכסון מרמזת שהנתונים אינם מהתפלגות נורמלית."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4272,19 +4168,13 @@ msgstr "מבחני ההמשך."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr ""
-"תרשימי Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו "
-"המצופים אם הנתונים היו מתפלגים נורמלית באופן <i>מושלם</i>. סטייה גדולה מהאלכסון "
-"מרמזת שהנתונים אינם מהתפלגות נורמלית."
+msgstr "תרשימי Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו המצופים אם הנתונים היו מתפלגים נורמלית באופן <i>מושלם</i>. סטייה גדולה מהאלכסון מרמזת שהנתונים אינם מהתפלגות נורמלית."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr ""
-"תרשמי Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו "
-"המצופים אם הנתונים היו מתפלגים נורמלית באופן <i>מושלם</i>. סטייה גדולה מהאלכסון "
-"מרמזת שהנתונים השיוריים אינם מתפלגים נורמלי."
+msgstr "תרשמי Q-Q של הנתונים השיוריים – תרשים של הנתונים השיוריים האמתיים מול אלו המצופים אם הנתונים היו מתפלגים נורמלית באופן <i>מושלם</i>. סטייה גדולה מהאלכסון מרמזת שהנתונים השיוריים אינם מתפלגים נורמלי."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4360,11 +4250,11 @@ msgstr "תרשימי Q-Q"
 msgid "Q-Q plots"
 msgstr "תרשימי Q-Q"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "quadratic"
 msgstr "ריבועי"
 
-#: R/ancova.b.R
+#: R/utilsanova.R
 msgid "quartic"
 msgstr "בחזקת ארבע"
 
@@ -4376,15 +4266,6 @@ msgstr "Quartimax"
 #: R/pca.b.R
 msgid "quartimax"
 msgstr "quartimax"
-
-#: R/ancova.b.R
-msgid "quintic"
-msgstr "בחזקת חמש"
-
-#: linReg/options/r.title
-#: linReg/results/modelFit.columns.title
-msgid "R"
-msgstr "R"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
@@ -4831,14 +4712,6 @@ msgstr "מתאם חלק"
 msgid "Sensitivity"
 msgstr "רגישות"
 
-#: R/ancova.b.R
-msgid "septic"
-msgstr "ממעלה שביעית"
-
-#: R/ancova.b.R
-msgid "sextic"
-msgstr "ממעלה שישית"
-
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
@@ -4873,8 +4746,14 @@ msgstr "זה לצד זה"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-msgid "Simple"
-msgstr "פשוט"
+msgid "Simple (vs. First)"
+msgstr ""
+
+#: ancova/options/contrasts.template/type/simple_k.title
+#: anova/options/contrasts.template/type/simple_k.title
+#: anovaRM/options/contrasts.template/type/simple_k.title
+msgid "Simple (vs. Last)"
+msgstr ""
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -4891,9 +4770,7 @@ msgstr "הדמייה"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr ""
-"נמצאה התאמה בודדת. לפחות משתנה מנבא אחד הוא צירוף לינארי של משתנים מנבאים "
-"אחרים."
+msgstr "נמצאה התאמה בודדת. לפחות משתנה מנבא אחד הוא צירוף לינארי של משתנים מנבאים אחרים."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
@@ -5116,8 +4993,6 @@ msgid "Summary"
 msgstr "סיכום"
 
 #: R/ancova.b.R
-#: contTables/results/taub.columns.title
-#: linReg/results/models.template/coef.columns.title
 msgid "t"
 msgstr "t"
 
@@ -5155,7 +5030,7 @@ msgstr "תנאי {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
-#: anovaRM/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
+#: anovaRM/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: linReg/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5216,8 +5091,7 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr ""
-"ההשערה החלופית והשערת האפס;\n"
+msgstr "ההשערה החלופית והשערת האפס;\n"
 "\n"
 "|             | חלופית (Hₐ)       | אפס (H₀)           |\n"
 "|-------------|-------------------|--------------------|\n"
@@ -5243,8 +5117,7 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr ""
-"משתמשים בניתוח שונות משותפת (ANCOVA) כדי לבחון את הקשר שבין משתנה\n"
+msgstr "משתמשים בניתוח שונות משותפת (ANCOVA) כדי לבחון את הקשר שבין משתנה\n"
 "תלוי רציף, לפחות משתנה מסביר איכותי אחד ולפחות משתנה מסביר רציף אחד,\n"
 "(או משתנים נלווים). בעיקרון הניתוח זהה לניתוח שונות, מלבד התוספת של\n"
 "המשתנים הנלווים."
@@ -5253,8 +5126,7 @@ msgstr ""
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+msgstr "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
 "שבין משתנה תלוי רציף ולפחות משתנה מסביר איכותי אחד."
 
 #: anova/options.description.main
@@ -5269,8 +5141,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+msgstr "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
 "שבין משתנה תלוי רציף ולפחות משתנה מסביר איכותי אחד.\n"
 "\n"
 "ניתוח שונות מניח שהנתונים השיוריים מתפלגים נורמלית ושהשונויות\n"
@@ -5286,8 +5157,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+msgstr "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
 "שבין משתנה תלוי רציף ולפחות משתנה מסביר איכותי אחד.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ה”רגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
@@ -5307,8 +5177,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr ""
-"משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
+msgstr "משתמשים בניתוח השונות (ANOVA) כדי לבחון את הקשר\n"
 "שבין משתנה תלוי רציף ולפחות משתנה מסביר איכותי אחד.\n"
 "ניתוח השונות למדגם יחיד זה הוא פישוט של ניתוח השונות ”הרגיל“,\n"
 "שבו ניתן להשתמש רק בגורם מסביר אחד. אולם הוא גם מאפשר את\n"
@@ -5332,9 +5201,7 @@ msgstr "התנאים הבין נבדקיים של המודל."
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr ""
-"משתמשים במבחן הבינומי לבחינת השערת האפס שיחסי התצפיות מתאימים לערך מצופה "
-"כלשהו. ערך ה־p נמוך מעיד שהשערת האפס אינה נכונה ושהיחסים האמיתיים הם ערך אחר."
+msgstr "משתמשים במבחן הבינומי לבחינת השערת האפס שיחסי התצפיות מתאימים לערך מצופה כלשהו. ערך ה־p נמוך מעיד שהשערת האפס אינה נכונה ושהיחסים האמיתיים הם ערך אחר."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
@@ -5342,8 +5209,7 @@ msgstr "המשתנים המסבירים (או הבלתי תלויים) האיכ�
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr ""
-"רווחה הסמך של הממוצע מניח שממוצע המדגם מתאים להתפלגות t בעלת N - 1 דרגות חופש"
+msgstr "רווחה הסמך של הממוצע מניח שממוצע המדגם מתאים להתפלגות t בעלת N - 1 דרגות חופש"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -5369,6 +5235,7 @@ msgstr "המשתנים המסבירים (או התלויים) הרציפים. מ
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
+#: anovaRM/options/contrasts.description.ui
 msgid "the contrasts to use."
 msgstr "הקונטרסטים בהם יש להשתמש."
 
@@ -5439,20 +5306,12 @@ msgstr "המשתנים המסבירים או הבלתי תלויים. בניתו
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
-"משתמשים במבחן פרידמן כדי לבחון את הקשר שבין משתנה תלוי רציף ומשתנה מסביר "
-"איכותי כשהמשתנה המסביר הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד). הוא "
-"מקביל לניתוח שונות למדידות חוזרות, אבל יש לו יתרונות שהוא לא פרמטרי ושאין לו "
-"צורך בהנחות נורמליות ושוויון שונויות. עם זאת, יש לו מגבלה שהוא אינו יכול "
-"לבחון יותר ממשתנה מסביר אחד בכל פעם."
+msgstr "משתמשים במבחן פרידמן כדי לבחון את הקשר שבין משתנה תלוי רציף ומשתנה מסביר איכותי כשהמשתנה המסביר הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד). הוא מקביל לניתוח שונות למדידות חוזרות, אבל יש לו יתרונות שהוא לא פרמטרי ושאין לו צורך בהנחות נורמליות ושוויון שונויות. עם זאת, יש לו מגבלה שהוא אינו יכול לבחון יותר ממשתנה מסביר אחד בכל פעם."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr ""
-"משתמשים במבחן קראסקל–ואליס כדי לבחון את הקשר שבין משתנה תלוי רציף ומשתנה "
-"מסביר איכותי. הוא מקביל לניתוח שונות, אבל יש לו יתרונות שהוא לא פרמטרי ושיש "
-"לו פחות הנחות. עם זאת, הוא מוגבל לבחינת משתנה מסביר אחד בכל פעם."
+msgstr "משתמשים במבחן קראסקל–ואליס כדי לבחון את הקשר שבין משתנה תלוי רציף ומשתנה מסביר איכותי. הוא מקביל לניתוח שונות, אבל יש לו יתרונות שהוא לא פרמטרי ושיש לו פחות הנחות. עם זאת, הוא מוגבל לבחינת משתנה מסביר אחד בכל פעם."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -5506,8 +5365,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr ""
-"משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
+msgstr "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
 "תלוי רציף ולפחות משתנה מסביר איכותי אחד, כאשר לפחות אחד\n"
 "מהמשתנים המסבירים הם ”תוך נבדקיים“ (ישנם כמה מדדים למשתתף יחיד).\n"
 "בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
@@ -5528,8 +5386,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr ""
-"משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
+msgstr "משתמשים בניתוח שונות למדידות חוזרות כדי לבחון את הקשר שבין משתנה\n"
 "תלוי רציף ולפחות משתנה מסביר איכותי אחד, כאשר לפחות משתנה מסביר\n"
 "אחד הוא ”תוך נבדקי“ (ישנם כמה מדדים למשתתף יחיד).\n"
 "בנוסף, ניתוח זה מאפשר להשתמש במשתנים נלווים כך שניתן לבצע גם\n"
@@ -5559,10 +5416,7 @@ msgstr "תנאי המדידות החוזרות של המודל."
 
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr ""
-"רמת הייחוס המסוימת לא נמצאה עבור המשתנים הבאים: {vars}. ברירת המחדל תיקבע על "
-"פי הרמה הראשונה הזמינה. כדי להשתמש ברמת ייחוס מותאמת אישית יש להגדיר רמת "
-"ייחוס הזמינה עבור הנתונים."
+msgstr "רמת הייחוס המסוימת לא נמצאה עבור המשתנים הבאים: {vars}. ברירת המחדל תיקבע על פי הרמה הראשונה הזמינה. כדי להשתמש ברמת ייחוס מותאמת אישית יש להגדיר רמת ייחוס הזמינה עבור הנתונים."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5620,8 +5474,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr ""
-"משתמשים במבחן t של סטודנט למדגם יחיד לבחינת השערת האפס\n"
+msgstr "משתמשים במבחן t של סטודנט למדגם יחיד לבחינת השערת האפס\n"
 "שהממוצע האמיתי שווה לערך מסוים (לרוב 0). ערך p נמוך מעיד על אי נכונותה\n"
 "של השערת האפס ולכן על הממוצע האמיתי להיות שונה מערך המבחן.\n"
 "\n"
@@ -5636,8 +5489,7 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr ""
-"משתמשים במבחן t של סטודנט למדגמים מזווגים (הנקרא לעיתים מבחן\n"
+msgstr "משתמשים במבחן t של סטודנט למדגמים מזווגים (הנקרא לעיתים מבחן\n"
 "t למדגמים תלויים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
 "שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
 "בין זוגות המדדים שונה מאפס."
@@ -5655,8 +5507,7 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr ""
-"משתמשים במבחן t של סטודנט למדגמים מזווגים (הנקרא לעיתים מבחן\n"
+msgstr "משתמשים במבחן t של סטודנט למדגמים מזווגים (הנקרא לעיתים מבחן\n"
 "t למדגמים תלויים) לבחינת השערת האפס שההפרש בין זוגות מדדים\n"
 "שווה לאפס. ערך p נמוך מעיד על אי נכונותה של השערת האפס ושההפרש\n"
 "בין זוגות המדדים שונה מאפס.\n"
@@ -5749,10 +5600,7 @@ msgstr "אין מרחק מהלנוביס בעל סף הנמוך מ־p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr ""
-"מודול זה מייצג את הניתוחים הכלולים ב־jamovi. הוא מכיל הרבה ניתוחים שכיחים ("
-"כמו מבחני t, ניתוחי שונות, רגרסיה, מטריצות מתאם, מבחני יחסים, טבלאות קריבות, "
-"ניתוח גורמים וכו׳)."
+msgstr "מודול זה מייצג את הניתוחים הכלולים ב־jamovi. הוא מכיל הרבה ניתוחים שכיחים (כמו מבחני t, ניתוחי שונות, רגרסיה, מטריצות מתאם, מבחני יחסים, טבלאות קריבות, ניתוח גורמים וכו׳)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
@@ -6012,11 +5860,6 @@ msgid "Violin"
 msgstr "כינור"
 
 #: R/descriptives.b.R
-#: anovaOneW/results/assump/norm.columns.title
-#: mancova/results/assump/shapiro.columns.title
-#: ttestIS/results/assum/norm.columns.title
-#: ttestOneS/results/normality.columns.title
-#: ttestPS/results/norm.columns.title
 msgid "W"
 msgstr "W"
 
@@ -6024,8 +5867,7 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr ""
-"שקלול כל תא באופן שווה. (על פי ברירת המחדל תאים משוקללים לפי תדירות התא.)"
+msgstr "שקלול כל תא באופן שווה. (על פי ברירת המחדל תאים משוקללים לפי תדירות התא.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
@@ -6111,20 +5953,6 @@ msgstr "ציר Y"
 msgid "Y-axis"
 msgstr "ציר Y"
 
-#: cfa/results/factorLoadings.columns.title
-#: cfa/results/factorEst/factorCov.columns.title
-#: cfa/results/factorEst/factorIntercept.columns.title
-#: cfa/results/resEst/resCov.columns.title
-#: cfa/results/resEst/resIntercept.columns.title
-#: logLinear/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/coef.columns.title
-#: logRegBin/results/models.template/assump/boxTidwell.columns.title
-#: logRegMulti/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/coef.columns.title
-#: logRegOrd/results/models.template/thres.columns.title
-msgid "Z"
-msgstr "Z"
-
 #: contTables/results/chiSq.columns.content
 msgid "z test difference in 2 proportions"
 msgstr "מבחן z להבדל בין שני יחסים"
@@ -6168,33 +5996,6 @@ msgstr "η²<sub>p</sub>"
 #: ancova/results/main.columns.title
 msgid "η²p"
 msgstr "η²p"
-
-#: anovaNP/results/table.columns.title
-#: anovaRMNP/results/table.columns.title
-#: cfa/results/modelFit/test.columns.title
-#: contTables/options/chiSq.title
-#: contTables/results/chiSq.columns.content
-#: contTables/results/mh.columns.title
-#: contTablesPaired/options/chiSq.title
-#: contTablesPaired/results/test.columns.content
-#: logLinear/results/modelFit.columns.title
-#: logLinear/results/modelComp.columns.title
-#: logLinear/results/models.template/lrt.columns.title
-#: logRegBin/results/modelFit.columns.title
-#: logRegBin/results/modelComp.columns.title
-#: logRegBin/results/models.template/lrt.columns.title
-#: logRegMulti/results/modelFit.columns.title
-#: logRegMulti/results/modelComp.columns.title
-#: logRegMulti/results/models.template/lrt.columns.title
-#: logRegOrd/results/modelFit.columns.title
-#: logRegOrd/results/modelComp.columns.title
-#: logRegOrd/results/models.template/lrt.columns.title
-#: mancova/results/assump/boxM.columns.title
-#: pca/results/modelFit/fit.columns.title
-#: pca/results/assump/bartlett.columns.title
-#: propTestN/results/tests.columns.title
-msgid "χ²"
-msgstr "χ²"
 
 #: contTables/options/chiSqCorr.title
 #: contTables/results/chiSq.columns.content
