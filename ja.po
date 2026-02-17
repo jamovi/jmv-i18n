@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-17 01:09+0000\n"
+"PO-Revision-Date: 2026-02-17 02:09+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ja/>\n"
@@ -2509,9 +2509,14 @@ msgid "IQR"
 msgstr "四分位範囲"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "モデルに「シングュラリティ」の開じがあるよます。本意は、モデルにすべに影響な極片があるよます、までになる値があるのです。この旧には、モデルを纗気するよます、影響ののドータに定義しているる幸に終介なフェイラブル・最高気野のプアイアとの一致ができるるのです。"
+msgstr ""
+"モデルに「特異性（singularity）の問題」があるようです。これは通常、いくつかの"
+"変数が強く関連しすぎている、あるいは、すべての効果について信頼性のある推定を"
+"するのに十分なデータがないために、特定の効果をうまく区別できていないことを意"
+"味します。この問題を解決するには、いくつかの効果を削除してモデルを単純化する"
+"か、データ内に冗長な変数や高い相関をもつ変数が含まれていないか確認することを"
+"検討してください。"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -3836,9 +3841,8 @@ msgid "Polynomial"
 msgstr "多項式"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr "6グリー以上の楼文"
+msgstr "多項式は6次までに制限されています"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4757,16 +4761,14 @@ msgstr "横並び"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "終りな (vs. 最初の)"
+msgstr "単純比較（第1水準を基準）"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "終りな (vs. 最後の)"
+msgstr "単純比較（最終水準を基準）"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
