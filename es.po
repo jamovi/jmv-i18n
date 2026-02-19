@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-19 18:09+0000\n"
+"PO-Revision-Date: 2026-02-19 19:09+0000\n"
 "Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -1829,11 +1829,11 @@ msgstr "Tamaño del efecto"
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
 msgid "Eigenvalue"
-msgstr "Valor Propio"
+msgstr "Valor propio"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr "Valores Propios"
+msgstr "Valores propios"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
@@ -2209,7 +2209,7 @@ msgstr "Frequencias de $key"
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
 msgid "Frequency tables"
-msgstr "Tabla de frecuencias"
+msgstr "Tablas de frecuencias"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2512,9 +2512,15 @@ msgid "IQR"
 msgstr "RIC"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Parece que su modelo tiene un problema de 'singularidad'. Esto suele significar que el modelo está teniendo problemas para distinguir entre ciertos efectos porque algunas variables están demasiado relacionadas o no hay suficientes datos para estimar todos los efectos de manera fiable. Para resolver esto, considere simplificar el modelo eliminando algunos de los efectos o verificando si sus datos podrían tener variables redundantes o altamente correlacionadas."
+msgstr ""
+"Parece que su modelo tiene un problema de 'singularidad'. Esto suele "
+"significar que el modelo está teniendo problemas para distinguir entre "
+"ciertos efectos porque algunas variables están demasiado relacionadas o no "
+"hay suficientes datos para estimar todos los efectos de manera fiable. Para "
+"resolver esto, considere simplificar el modelo retirar algunos de los "
+"efectos o verificando si sus datos podrían tener variables redundantes o "
+"altamente correlacionadas."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -3818,7 +3824,7 @@ msgstr "trazar los datos junto con las medias marginales."
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
-msgstr "Tipo de gráfico"
+msgstr "Tipo de Trama"
 
 #: anovaOneW/results/plots.title
 #: cfa/ui[5][1][0].label
@@ -3876,7 +3882,7 @@ msgstr "Prueba Post Hoc ({title})"
 #: contTables/ui[1][2][0][0][0].label
 #: contTables/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr "Pruebas Post Hoc"
+msgstr "Pruebas post hoc"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
@@ -3975,7 +3981,7 @@ msgstr "Factorización según el eje principal"
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr "Análisis de Componentes Principales"
+msgstr "Análisis de Componente Principal"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -4247,7 +4253,7 @@ msgstr "Gráfica Q-Q"
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr "Gráfica Q-Q"
+msgstr "Trama Q-Q"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
@@ -4665,12 +4671,12 @@ msgstr "Puntuación del factor {i}. Estimado usando el método '{fsMethod}'."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
-msgstr "Gráfica de Sedimentación"
+msgstr "Trama de Cresta"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
 msgid "Scree plot"
-msgstr "Gráfica de sedimentación"
+msgstr "Trama de Scree"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -4861,12 +4867,12 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr "SC Cargas"
+msgstr "Cargas de SS"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr "Apilado"
+msgstr "Apilados"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -4930,7 +4936,7 @@ msgstr "Residuos tipificados (ajuste de Pearson)"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr "Estadístico"
+msgstr "Estadística"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
