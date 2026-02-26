@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-26 16:09+0000\n"
+"PO-Revision-Date: 2026-02-26 17:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -265,21 +265,19 @@ msgid "a descriptives plot"
 msgstr "描述統計圖"
 
 #: ttestIS/results/assum/eqv.notes.p
-#, fuzzy
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr "低p值表明等變異數假設被違反"
+msgstr "低 p 值表示可能違反了變異數同質性的假設"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
-#, fuzzy
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr "低p值表明违反了正态性假设"
+msgstr "低 p 值表示可能違反了常態性假設"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
 msgid "A nice correlation data set"
-msgstr "還不錯的相關資料集"
+msgstr "良好的相關性資料集"
 
 #: propTest2/ui[2][0][0]/priorA.label
 msgid "a parameter"
@@ -315,49 +313,40 @@ msgstr "群組的摘要"
 #: logLinear/results/models.template/emm.template/emmTable.description
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
-#, fuzzy
 msgid "a table containing estimated marginal means"
-msgstr "一個包含估計的邊緣均值的表格"
+msgstr "一個包含估計的邊緣平均數的表格"
 
 #: cfa/results/factorEst/factorCov.description
-#, fuzzy
 msgid "a table containing factor covariances estimates"
-msgstr "包含因素協方差估計的表"
+msgstr "包含因子共變異數估計值的表格"
 
 #: cfa/results/factorEst/factorIntercept.description
-#, fuzzy
 msgid "a table containing factor intercept estimates"
-msgstr "包含额素依起值的表格"
+msgstr "包含因子截距估計值的表格"
 
 #: cfa/results/modelFit/fitMeasures.description
-#, fuzzy
 msgid "a table containing fit measures"
-msgstr "包含適合度量的表"
+msgstr "包含適配度指標的表格"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
-#, fuzzy
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "一個包含修改指數的表格，該指數不包含在模型中"
+msgstr "包含模型中未納入之因子負荷量修正指標的表格"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
-#, fuzzy
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "包含模型中未包含的残差协方差修改指数的表"
+msgstr "包含模型中未納入之殘差共變異數修正指標的表格"
 
 #: cfa/results/resEst/resCov.description
-#, fuzzy
 msgid "a table containing residual covariances estimates"
-msgstr "包含残差协方差估计的表"
+msgstr "包含殘差共變異數估計值的表格"
 
 #: cfa/results/resEst/resIntercept.description
-#, fuzzy
 msgid "a table containing residual intercept estimates"
-msgstr "包含殘差截距估計的表格"
+msgstr "包含殘差截距估計值的表格"
 
 #: cfa/results/modelPerformance/corRes.description
-#, fuzzy
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr "包含观测相关矩阵残差的表"
+msgstr "包含觀測相關矩陣殘差的表格"
 
 #: cfa/results/modelFit/test.description
 #, fuzzy
@@ -365,27 +354,23 @@ msgid "a table containing the chi-square test for exact fit"
 msgstr "包含精確適合度的卡方檢驗表"
 
 #: logRegBin/results/models.template/assump/collin.description
-#, fuzzy
 msgid "a table containing the collinearity statistics"
-msgstr "包含共線性統計的表"
+msgstr "包含共線性統計量的表格"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
-#, fuzzy
 msgid "a table containing the descriptives"
-msgstr "包含描述性統計的表"
+msgstr "包含描述性統計的表格"
 
 #: cfa/results/factorLoadings.description
-#, fuzzy
 msgid "a table containing the factor loadings"
-msgstr "包含因子载荷的表"
+msgstr "包含因子負荷量的表格"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
-#, fuzzy
 msgid "a table containing the group descriptives"
-msgstr "包含群組描述性統計的表"
+msgstr "包含組別描述性統計的表格"
 
 #: ttestIS/results/assum/eqv.description
 #, fuzzy
@@ -395,12 +380,12 @@ msgstr "包含同質性檢驗的表格"
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
 msgid "a table containing the normality test results"
-msgstr "常態性檢定結果表"
+msgstr "包含常態性檢定結果的表格"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
 msgid "a table containing the normality tests"
-msgstr "常態性檢定表"
+msgstr "包含常態性檢定的表格"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 #, fuzzy
@@ -415,15 +400,13 @@ msgid "a table containing the t-test results"
 msgstr "包含 t 檢驗結果的表格"
 
 #: ancova/results/main.description
-#, fuzzy
 msgid "a table of ANCOVA results"
-msgstr "ANCOVA 結果的表格"
+msgstr "共變數分析結果表"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
-#, fuzzy
 msgid "a table of ANOVA results"
-msgstr "ANOVA結果表"
+msgstr "變異數分析結果表"
 
 #: contTables/results/odds.description
 #, fuzzy
@@ -763,7 +746,7 @@ msgstr "Anderson Iris 資料"
 #: anovaRMNP/options.menuGroup
 #: mancova/options.menuGroup
 msgid "ANOVA"
-msgstr "ANOVA"
+msgstr "變異數分析"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
@@ -853,7 +836,7 @@ msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr "Bartlett球形(Sphericity)檢定"
+msgstr "巴氏球形檢定"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
@@ -1937,7 +1920,7 @@ msgstr "error %"
 #: anova/options/emmPlotError.title
 #: anovaRM/options/emmPlotError.title
 msgid "Error bars"
-msgstr "誤差線"
+msgstr "誤差長條"
 
 #: ancova/results/contrasts.template.columns.title
 #: anovaRM/results/contrasts.template.columns.title
@@ -2392,7 +2375,7 @@ msgstr "分組摘要"
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr "組別變項"
+msgstr "分組變數"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
