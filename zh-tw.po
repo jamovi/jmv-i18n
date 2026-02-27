@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 10:09+0000\n"
+"PO-Revision-Date: 2026-02-27 11:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -3820,13 +3820,12 @@ msgstr "進行 Welch 的變異數分析。"
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr "執行 Welch檢定。"
+msgstr "執行 Welch 檢定。"
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
-#, fuzzy
 msgid "perform Wilcoxon signed rank tests."
-msgstr "進行Wilcoxon配對排名檢驗。"
+msgstr "執行 Wilcoxon 符號等級檢定。"
 
 #: contTables/options/phiCra.title
 #, fuzzy
@@ -3834,15 +3833,13 @@ msgid "Phi and Cramer's V"
 msgstr "Phi 和 Cramer's V"
 
 #: contTables/results/nom.columns.content
-#, fuzzy
 msgid "Phi-coefficient"
-msgstr "Phi-编号"
+msgstr "Phi-係數"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Pillai's Trace"
-msgstr "私別的计算"
+msgstr "Pillai 跡"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -3853,16 +3850,14 @@ msgid "Plot"
 msgstr "圖"
 
 #: corrMatrix/options/plotDens.description.ui
-#, fuzzy
 msgid "plot densities along the diagonal of the correlation matrix plot."
-msgstr "显示应网统图片中的高量图"
+msgstr "在相關矩陣圖的對角線上繪製密度圖。"
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
 #: anovaRM/options/emmPlotData.description.ui
-#, fuzzy
 msgid "plot the data along with the marginal means."
-msgstr "图像数据与分布数据。"
+msgstr "繪製資料並附帶邊際平均數。"
 
 #: anovaRMNP/options/plotType.title
 msgid "Plot Type"
@@ -3883,21 +3878,18 @@ msgid "Plots"
 msgstr "圖"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr "加權描述統計的繪圖尚未支援。"
+msgstr "加權描述性統計尚未支援繪圖功能。"
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
 #: anovaRM/options/contrasts.template/type/polynomial.title
-#, fuzzy
 msgid "Polynomial"
 msgstr "多項式"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr "多項式最高限度為6度"
+msgstr "多項式次數限制為 6 次"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3905,14 +3897,12 @@ msgid "Post Hoc Comparisons - {term}"
 msgstr "事後比較 - {term}"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Post Hoc Test"
-msgstr "事後檢驗"
+msgstr "事後檢定"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Post Hoc Test ({title})"
-msgstr "事后检验（{title}）"
+msgstr "事後檢定（{title}）"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -3937,7 +3927,6 @@ msgstr "事後檢定 – $key"
 
 #: cfa/ui[5][0][0].label
 #: cfa/results/modelPerformance.title
-#, fuzzy
 msgid "Post-Hoc Model Performance"
 msgstr "事後模型性能"
 
@@ -3951,55 +3940,46 @@ msgid "Post-Hoc Tests"
 msgstr "事後檢定"
 
 #: R/proptest2.b.R
-#, fuzzy
 msgid "Posterior"
-msgstr "后续值"
+msgstr "事後機率"
 
 #: propTest2/options/postPlots.title
-#, fuzzy
 msgid "Posterior plot"
-msgstr "后究图"
+msgstr "事後機率圖"
 
 #: propTest2/results/postPlots.title
-#, fuzzy
 msgid "Posterior Plots"
-msgstr "後驗繪圖"
+msgstr "事後機率圖"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "Predicted"
-msgstr "預測"
+msgstr "預測值"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "Predicted probability of … = … (vs … = …)"
-msgstr "預測的 … 的概率 = …（與 … = …）"
+msgstr "預測的 … 的機率 = …（與 … = …）"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr "預測 {dep} = {level1}（與 {dep} = {level2} 相比）的概率"
+msgstr "預測 {dep} = {level1}（與 {dep} = {level2} 相比）的機率"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
 #: linReg/results/predictOV.title
 #: logRegBin/options/predictOV.title
 #: logRegBin/results/predictOV.title
-#, fuzzy
 msgid "Predicted values"
 msgstr "預測值"
 
 #: logRegBin/ui[7].label
 #: logRegBin/results/models.template/pred.title
-#, fuzzy
 msgid "Prediction"
-msgstr "预测"
+msgstr "預測"
 
 #: logRegBin/ui[7][0][1][0].label
 #: logRegBin/results/models.template/pred/measures.title
-#, fuzzy
 msgid "Predictive Measures"
-msgstr "预测测度"
+msgstr "預測指標"
 
 #: linReg/results/models.template/coef.columns.title
 #: logLinear/results/models.template/lrt.columns.title
@@ -4023,14 +4003,12 @@ msgid "Predictors"
 msgstr "預測變項"
 
 #: efa/options/extraction/pa.title
-#, fuzzy
 msgid "Principal axis"
-msgstr "主行線"
+msgstr "主軸"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Principal axis factoring"
-msgstr "主要軸因素分析"
+msgstr "主軸因子法"
 
 #: package/analyses/pca.title
 #: package/analyses/pca.menuTitle
@@ -4060,9 +4038,8 @@ msgstr "先驗寬度"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
-#, fuzzy
 msgid "Probability"
-msgstr "对法润"
+msgstr "機率"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
@@ -4077,7 +4054,6 @@ msgstr "promax"
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
-#, fuzzy
 msgid "Proportion"
 msgstr "比例"
 
@@ -4085,28 +4061,24 @@ msgstr "比例"
 #: propTest2/options.title
 #: propTest2/ui.title
 #: propTest2/results.title
-#, fuzzy
 msgid "Proportion Test (2 Outcomes)"
-msgstr "比例標種 (2 类果结果)"
+msgstr "比例檢定（2 種結果）"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
-#, fuzzy
 msgid "Proportion Test (N Outcomes)"
-msgstr "比例检验（N结果）"
+msgstr "比例檢定（N 種結果）"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
-#, fuzzy
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr "提供一个 Cohen 的 d 效应大小测试。"
+msgstr "提供事後比較檢定的效果量 Cohen's d 測量值。"
 
 #: ttestOneS/options/ci.description.ui
-#, fuzzy
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "為均值估計與測試值之間的差異提供信賴區間。"
+msgstr "提供平均數估計值與檢定值之間差異的信賴區間。"
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -4114,212 +4086,182 @@ msgstr "提供相關矩陣圖。"
 
 #: corrMatrix/options/kendall.description.ui
 #: corrPart/options/kendall.description.ui
-#, fuzzy
 msgid "provide a Kendall's tau-b for each combination of variables."
-msgstr "提供一个债寸比不起于一个取多高值和盈规之间的寸比"
+msgstr "提供每組變項組合的 Kendall's tau-b 值。"
 
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
-#, fuzzy
 msgid "provide a p-value for each correlation co-efficient."
-msgstr "為每個相關係數提供 p 值。"
+msgstr "提供每個相關係數的 p 值。"
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
-#, fuzzy
 msgid "provide a Pearson's r for each combination of variables."
-msgstr "提供不过三个取量和一个種说取量的 Pearson 的 r 值"
+msgstr "提供每組變項組合的 Pearson's r 值。"
 
 #: ttestOneS/options/qq.description.ui
-#, fuzzy
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "提供一个 Q-Q 图片中包含定上的复杀和对比不起于一个测试结果"
+msgstr ""
+"提供殘差的 Q-Q 圖—將實際殘差與資料為<i>完美</i>常態分配時之預期值進行比較的圖"
+"形。若點明顯偏離對角線，則表示資料非常態分配。"
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
-#, fuzzy
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "提供每個變數組合的斯皮爾曼相關係數。"
+msgstr "提供每組變項組合的Spearman rho值。"
 
 #: ttestOneS/options/desc.description.ui
-#, fuzzy
 msgid "provide a table of descriptives for each variable."
-msgstr "提供一个测试结果中包含一个和盈规之间的值"
+msgstr "提供每個變項的描述性統計表。"
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
-#, fuzzy
 msgid "provide a table of the estimated marginal means."
-msgstr "提供估計的邊緣均值表"
+msgstr "提供估計的邊緣平均數表"
 
 #: ttestIS/options/bf.description.ui
-#, fuzzy
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "提供学生独立样本t检验的贝叶斯因子。"
+msgstr "提供 Student 獨立樣本 t 檢定的貝氏因子。"
 
 #: ttestOneS/options/bf.description.ui
-#, fuzzy
 msgid "provide Bayes factors for the Student's one-sample t-tests."
 msgstr "提供 Student 的單樣本 t 檢驗的 Bayes 因子"
 
 #: ttestPS/options/bf.description.ui
-#, fuzzy
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "為Student配對樣本t檢驗提供貝葉斯因子。"
+msgstr "提供 Student 成對樣本 t 檢定的貝氏因子。"
 
 #: corrMatrix/options/ci.description.ui
-#, fuzzy
 msgid "provide confidence intervals for Pearson's r."
-msgstr "提供 Pearson 的 r 定义關。"
+msgstr "提供Pearson r 的信賴區間。"
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
-#, fuzzy
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "提供一个优允间不起于一个测试结果"
+msgstr "提供效果量的信賴區間。"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
-#, fuzzy
 msgid "provide confidence intervals for the mean differences."
-msgstr "提供定义關中的宽度。"
+msgstr "提供平均數差異的信賴區間。"
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
-#, fuzzy
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr "提供事後效應尺寸的信賴區間"
+msgstr "提供事後比較效果量的信賴區間。"
 
 #: corrMatrix/options/plotStats.description.ui
-#, fuzzy
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr "提供和约系统中的和约系数。"
+msgstr "在相關矩陣圖中提供相關係數。"
 
 #: anovaOneW/options/descPlot.description.ui
-#, fuzzy
 msgid "provide descriptive plots for each group."
-msgstr "提供一个测试结果中包含一个和盈规之间的值"
+msgstr "提供每個組別的描述性圖。"
 
 #: ttestOneS/options/plots.description.ui
-#, fuzzy
 msgid "provide descriptive plots for each variable."
 msgstr "為每個變數提供描述性圖。"
 
 #: ttestPS/options/plots.description.ui
-#, fuzzy
 msgid "provide descriptives for each group of measurements."
-msgstr "為每個測量群提供描述性統計。"
+msgstr "提供每個測量組別的描述性統計。"
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
-#, fuzzy
 msgid "provide descriptives for each group."
-msgstr "提供每個群組的描述性統計。"
+msgstr "提供每個組別的描述性統計。"
 
 #: ttestIS/options/plots.description.ui
-#, fuzzy
 msgid "provide descriptives plots."
-msgstr "提供描述性圖"
+msgstr "提供描述性圖。"
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestOneS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
-#, fuzzy
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "提供效應大小（Cohen's d）。"
+msgstr "提供效果量（Cohen's d）。"
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
-#, fuzzy
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "提供 Levene 的方差同質性檢驗。低 p 值表明群體具有不等的方差。"
+msgstr "提供變異數同質性 Levene 檢定。p 值低表示各組變異數不相等。"
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
-#, fuzzy
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "提供 Levene 的變異數均勻性檢驗。低 p 值表明群組具有不均勻的變異數。"
+msgstr "提供變異數同質性 Levene 檢定。p 值低表示各組變異數不相等。"
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
-#, fuzzy
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr "提供均值差異和均值差異的標準誤差。"
+msgstr "提供平均數差異與平均數差異的標準誤。"
 
 #: anovaOneW/options/phMeanDif.description.ui
-#, fuzzy
 msgid "provide mean differences with the post-hoc tests."
-msgstr "提供均值差異和事後檢驗。"
+msgstr "提供事後比較檢定的平均數差異。"
 
 #: ttestOneS/options/meanDiff.description.ui
-#, fuzzy
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "提供平均差異和平均差異的標準誤差，之間的平均估計值和檢定值。"
+msgstr "提供平均數估計值與檢定值之間的平均數差異，以及平均數差異的標準誤。"
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
-#, fuzzy
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr "提供效應大小；η²、部分η²或ω²。"
+msgstr "提供效應量；η²、偏η²或ω²。"
 
 #: anovaRM/options/spherCorr.description.ui
-#, fuzzy
 msgid "provide p-value corrections for sphericity."
-msgstr "提供 p-值改行为圆形性。"
+msgstr "提供球形檢定的 p 值校正。"
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
-#, fuzzy
 msgid "provide plots of the estimated marginal means."
-msgstr "显示应网统图片中包含一个测试结果"
+msgstr "提供估計邊際平均數圖。"
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
-#, fuzzy
 msgid "provide post-hoc tests."
-msgstr "提供事後檢驗。"
+msgstr "提供事後檢定。"
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-#, fuzzy
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "提供殘差的Q-Q圖 - 實際殘差與如果數據完美符合常態分布的殘差之間的圖。從對角線的大偏差表明數據不是常態分布。"
+msgstr ""
+"提供殘差的 Q-Q 圖——將實際殘差與資料為<i>完美</i>常態分配時之預期值進行比較的"
+"圖形。若點明顯偏離對角線，則表示資料非常態分配。"
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-#, fuzzy
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "提供殘差的 Q-Q 圖 -- 實際殘差與如果數據是 <i> 完美 </i> 正常分布的預期值的圖。與對角線的偏差表明殘差不是正常分布。"
+msgstr ""
+"提供殘差的 Q-Q 圖 -- 實際殘差與如果數據是 <i> 完美 </i> 正常分布的預期值的圖"
+"。與對角線的偏差表明殘差不是正常分布。"
 
 #: anovaOneW/options/phSig.description.ui
-#, fuzzy
 msgid "provide significance levels for the post-hoc tests."
-msgstr "提供事後檢驗的顯著性水平。"
+msgstr "提供事後檢定的顯著性水準。"
 
 #: anovaRM/options/spherTests.description.ui
-#, fuzzy
 msgid "provide sphericity tests."
-msgstr "提供一个测试结果"
+msgstr "提供球形檢定。"
 
 #: anovaOneW/options/phTest.description.ui
-#, fuzzy
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "提供事後測試的測試結果（t值和自由度）"
+msgstr "提供事後比較的檢定結果（t 值與自由度）。"
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
-#, fuzzy
 msgid "provide the number of cases."
-msgstr "提供案例數量"
+msgstr "提供觀察值個數。"
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -4360,9 +4302,8 @@ msgid "Q-Q plot"
 msgstr "Q-Q 圖"
 
 #: mancova/results/assump/qqPlot.title
-#, fuzzy
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr "評估多變量正態性的 Q-Q 圖"
+msgstr "評估多變量常態性之 Q-Q 圖"
 
 #: mancova/options/qqPlot.title
 #, fuzzy
@@ -4382,12 +4323,10 @@ msgid "Q-Q plots"
 msgstr "分位圖(Q-Q plots)"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "quadratic"
 msgstr "二次方"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "quartic"
 msgstr "四次方"
 
@@ -4447,23 +4386,19 @@ msgstr "全距"
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
-#, fuzzy
 msgid "Rank biserial correlation"
-msgstr "等級相關係數"
+msgstr "等級雙序列相關"
 
 #: logLinear/ui[4][0][1][0].label
-#, fuzzy
 msgid "Rate Ratio"
-msgstr "比率"
+msgstr "比率比"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
-#, fuzzy
 msgid "Rate ratio"
 msgstr "比率比"
 
 #: propTestN/ui[2]/ratio.columns.label
-#, fuzzy
 msgid "Ratio"
 msgstr "比率"
 
@@ -4472,14 +4407,12 @@ msgstr "比率"
 #: logRegBin/ui[2]/refLevels.columns.label
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
-#, fuzzy
 msgid "Reference Level"
-msgstr "參考層級"
+msgstr "參照層級"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
-#, fuzzy
 msgid "Reference level (dummy coding)"
-msgstr "參考層級 (虛擬編碼)"
+msgstr "參照層級 (虛擬編碼)"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -4491,9 +4424,8 @@ msgstr "參考層級 (虛擬編碼)"
 #: logRegMulti/ui[2].label
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
-#, fuzzy
 msgid "Reference Levels"
-msgstr "应具端等"
+msgstr "參照層級"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -4512,7 +4444,6 @@ msgstr "回歸"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
-#, fuzzy
 msgid "Relative risk"
 msgstr "相對風險"
 
@@ -4523,14 +4454,12 @@ msgstr "相對風險"
 #: reliability/options.description.main
 #: reliability/ui.title
 #: reliability/results.title
-#, fuzzy
 msgid "Reliability Analysis"
-msgstr "免起润计算"
+msgstr "信度分析"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
 #: anovaRM/options/contrasts.template/type/repeated.title
-#, fuzzy
 msgid "Repeated"
 msgstr "重複"
 
@@ -4541,50 +4470,42 @@ msgstr "重複"
 #: anovaRM/ui.title
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
-#, fuzzy
 msgid "Repeated Measures ANOVA"
-msgstr "重覆測量ANOVA"
+msgstr "重複測量變異數分析"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
-#, fuzzy
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr "重複測量變異數分析（非參數）"
+msgstr "重複測量變異數分析（無母數）"
 
 #: anovaRM/options/rmCells.title
-#, fuzzy
 msgid "Repeated Measures Cells"
-msgstr "重複測量單元"
+msgstr "重複測量細格"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
-#, fuzzy
 msgid "Repeated Measures Components"
-msgstr "重覆測量元件"
+msgstr "重複測量成分"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
-#, fuzzy
 msgid "Repeated Measures Factors"
-msgstr "重覆測量因子"
+msgstr "重複測量因子"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
-#, fuzzy
 msgid "Report significance"
 msgstr "報告顯著性"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Represents grand mean"
 msgstr "代表總均值"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Represents reference level"
-msgstr "代表參考層級"
+msgstr "代表參照層級"
 
 #: R/anovarm.b.R
 msgid "Residual"
@@ -4594,14 +4515,12 @@ msgstr "殘差"
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
-#, fuzzy
 msgid "Residual Covariances"
-msgstr "殘差協方差"
+msgstr "殘差共變數"
 
 #: cfa/options/resCovEst.title
-#, fuzzy
 msgid "Residual covariances"
-msgstr "殘差協方差"
+msgstr "殘差共變數"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
 #, fuzzy
