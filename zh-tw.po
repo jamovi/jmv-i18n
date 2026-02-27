@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 02:09+0000\n"
+"PO-Revision-Date: 2026-02-27 03:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -314,7 +314,7 @@ msgstr "群組的摘要"
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr "一個包含估計的邊緣平均數的表格"
+msgstr "包含估計的邊緣平均數的表格"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
@@ -581,7 +581,7 @@ msgstr "額外輸出"
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
 msgid "Additional Statistics"
-msgstr "其他統計值"
+msgstr "其他統計量"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
@@ -715,7 +715,7 @@ msgstr "Jamovi內建分析"
 #: ancova/ui.title
 #: ancova/results.title
 msgid "ANCOVA"
-msgstr "ANCOVA"
+msgstr "共變數分析"
 
 #: efa/options/factorScoreMethod/Anderson.title
 msgid "Anderson & Rubin"
@@ -723,7 +723,7 @@ msgstr "Anderson & Rubin"
 
 #: package/datasets/Anderson'sIrisData.name
 msgid "Anderson's Iris Data"
-msgstr "Anderson Iris 資料"
+msgstr "Anderson的鳶尾花資料"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -750,11 +750,11 @@ msgstr "變異數分析"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr "ANOVA檢定"
+msgstr "變異數分析檢定"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "因未指定組間因子，本假設永遠成立。"
+msgstr "由於未指定受試者間因子，此假設始終成立。"
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -811,7 +811,7 @@ msgstr "僅適用 2x2 表格"
 
 #: propTest2/ui[2][0][0]/priorB.label
 msgid "b parameter"
-msgstr "b parameter"
+msgstr "b 參數"
 
 #: contTables/options/barplot.title
 msgid "Bar Plot"
@@ -819,11 +819,11 @@ msgstr "長條圖"
 
 #: descriptives/options/bar.title
 msgid "Bar plot"
-msgstr "直條圖"
+msgstr "長條圖"
 
 #: descriptives/ui[3][0][2].label
 msgid "Bar Plots"
-msgstr "直條圖"
+msgstr "長條圖"
 
 #: contTables/options/bartype.title
 #: contTables/ui[1][3][0][0][1].label
@@ -836,22 +836,22 @@ msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr "巴氏球形檢定"
+msgstr "Bartlett球形檢定"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr "Bartlett球形(Sphericity)檢定"
+msgstr "Bartlett球形檢定"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
 msgid "Based on eigenvalue"
-msgstr "根據特徵值(eigenvalue)"
+msgstr "根據特徵值"
 
 #: efa/options/nFactorMethod/parallel.title
 #: pca/ui[1][0][1]/nFactorMethod_parallel.label
 msgid "Based on parallel analysis"
-msgstr "根據平行分析(parallel analysis)"
+msgstr "根據平行分析"
 
 #: propTest2/options/bf.title
 #: ttestIS/options/bf.title
@@ -890,7 +890,7 @@ msgstr "受試者間因子"
 
 #: anovaRM/ui[2]/bscModelSupplier.label
 msgid "Between Subjects Components"
-msgstr "受試者間變項"
+msgstr "受試者間成分"
 
 #: anovaRM/results/bsTable.title
 msgid "Between Subjects Effects"
@@ -979,7 +979,7 @@ msgstr "箱形圖"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
-msgstr "箱型圖(Box plot)"
+msgstr "箱型圖"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
@@ -1025,7 +1025,7 @@ msgstr "CFI"
 
 #: R/mancova.b.R
 msgid "Chi-Square Quantiles"
-msgstr "卡方分位數(Chi-Square Quantiles)"
+msgstr "卡方分位數"
 
 #: corrMatrix/results/matrix.columns.content
 msgid "CI Lower"
@@ -1059,12 +1059,12 @@ msgstr "Cohen's d"
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
 msgid "Collinearity Statistics"
-msgstr "共線性指標"
+msgstr "共線性統計量"
 
 #: linReg/options/collin.title
 #: logRegBin/options/collin.title
 msgid "Collinearity statistics"
-msgstr "共線性指標"
+msgstr "共線性統計量"
 
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
@@ -1092,11 +1092,11 @@ msgstr "比較欄位"
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
-msgstr "比較方式"
+msgstr "比較指標"
 
 #: contTables/ui[1][0][0][1][0].label
 msgid "Comparative Measures (2x2 only)"
-msgstr "比較方式 (僅限2x2)"
+msgstr "比較指標 (僅限2x2表格)"
 
 #: contTables/options/compare.title
 msgid "Compare"
@@ -1114,47 +1114,47 @@ msgstr "比較"
 
 #: R/ancova.b.R
 msgid "Comparisons are based on estimated marginal means"
-msgstr "基於估計邊際平均(estimated marginal mean)的比較"
+msgstr "基於估計邊際平均數的比較"
 
 #: R/pca.b.R
 #: pca/results/loadings.columns.superTitle
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Component"
-msgstr "主成分(component)"
+msgstr "成分"
 
 #: pca/options/factorCor.title
 msgid "Component correlations"
-msgstr "主成分間相關(Component correlations)"
+msgstr "成分間相關"
 
 #: pca/results/loadings.title
 msgid "Component Loadings"
-msgstr "主成分負荷量"
+msgstr "成分負荷量"
 
 #: pca/options/factorScoresOV.title
 msgid "Component scores"
-msgstr "主成分分數"
+msgstr "成分分數"
 
 #: pca/results/factorStats.title
 msgid "Component Statistics"
-msgstr "主成分統計數據"
+msgstr "成分統計量"
 
 #: pca/options/factorSummary.title
 msgid "Component summary"
-msgstr "主成分摘要"
+msgstr "成分摘要"
 
 #: pca/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "component(s)"
-msgstr "主成分"
+msgstr "成分"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
 msgid "Components"
-msgstr "主成分"
+msgstr "成分"
 
 #: R/pca.b.R
 msgid "components"
-msgstr "主成分"
+msgstr "成分"
 
 #: ancova/options/postHocEsCi.title
 #: anova/options/postHocEsCi.title
@@ -1269,7 +1269,7 @@ msgstr "參數估計限制性"
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
 msgid "Contingency coefficient"
-msgstr "列聯係數(Contingency coefficient)"
+msgstr "列聯係數"
 
 #: package/analyses/contTables.title
 #: package/analyses/contTables.menuSubgroup
@@ -1318,7 +1318,7 @@ msgstr "控制 {items} 變項"
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
 msgid "Cook's Distance"
-msgstr "庫克距離(Cook's Distance)"
+msgstr "庫克(Cook)距離"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1328,7 +1328,7 @@ msgstr "庫克距離(Cook's Distance)"
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
 msgid "Cook's distance"
-msgstr "庫克距離(Cook's Distance)"
+msgstr "庫克(Cook)距離"
 
 #: ancova/options/postHocCorr.title
 #: ancova/ui[5][1][0].label
@@ -1465,7 +1465,7 @@ msgstr "計數可能不是無限大值"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Counts may not be negative"
-msgstr "計數可能不是負數"
+msgstr "計數不得為負數"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1498,11 +1498,11 @@ msgstr "Cramér's V"
 
 #: propTest2/results/table.columns.superTitle
 msgid "Credible Interval"
-msgstr "置信區間"
+msgstr "可信區間"
 
 #: propTest2/options/ciBayes.title
 msgid "Credible intervals"
-msgstr "置信區間"
+msgstr "可信區間"
 
 #: reliability/options/alphaScale.title
 #: reliability/results/scale.columns.title
@@ -1526,12 +1526,12 @@ msgstr "累計 %"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
-msgstr "切截分數"
+msgstr "分割點數值"
 
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
 msgid "Cut points for"
-msgstr "切截為"
+msgstr "分割點用於"
 
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
@@ -1631,7 +1631,7 @@ msgstr "依變項"
 
 #: R/mancova.b.R
 msgid "Dependent variables are very highly correlated"
-msgstr "依變項間相關非常高"
+msgstr "依變項間高度相關"
 
 #: ttestOneS/options/mann.description
 msgid "deprecated"
@@ -1727,7 +1727,7 @@ msgstr "偏差残差是来自泊松广义线性模型的调整残差。"
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
 msgid "Deviation"
-msgstr "Deviation"
+msgstr "偏離度"
 
 #: R/ancova.b.R
 #: ancova/results/main.columns.title
@@ -1763,27 +1763,27 @@ msgstr "Deviation"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr "df"
+msgstr "自由度"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df1"
-msgstr "df1"
+msgstr "自由度1"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
 #: linReg/results/modelComp.columns.title
 #: mancova/results/multivar.columns.title
 msgid "df2"
-msgstr "df2"
+msgstr "自由度2"
 
 #: ancova/options/contrasts.template/type/difference.title
 #: anova/options/contrasts.template/type/difference.title
 #: anovaRM/options/contrasts.template/type/difference.title
 msgid "Difference"
-msgstr "Difference"
+msgstr "差異"
 
 #: contTables/results/odds.columns.content
 msgid "Difference in 2 proportions"
@@ -1808,7 +1808,7 @@ msgstr "尚不支援加權數據。"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
-msgstr "假設不相同 (Welch's)"
+msgstr "未假設相等 (Welch's)"
 
 #: anovaRM/ui/variablesupplier[1]/rmCells.template[0].ghostText
 msgid "drag variable here"
@@ -1846,7 +1846,7 @@ msgstr "Durbin–Watson 殘差自我相關檢定"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "DW Statistic"
-msgstr "DW統計數據"
+msgstr "DW統計量"
 
 #: anovaNP/results/comparisons.title
 msgid "Dwass-Steel-Critchlow-Fligner pairwise comparisons"
@@ -1885,7 +1885,7 @@ msgstr "特徵值"
 
 #: pca/results/eigen.title
 msgid "Eigenvalues"
-msgstr "特徵值(Eigenvalues)"
+msgstr "特徵值"
 
 #: efa/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
 #: pca/ui[1][0][1]/nFactorMethod_eigen/minEigen.label
@@ -1908,7 +1908,7 @@ msgstr "每組的權重相同"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr "個相同的群組"
+msgstr "相同的群組"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -1982,11 +1982,11 @@ msgstr "估計值"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of …"
-msgstr "係數為下列的對數勝算(log odds)：…"
+msgstr "係數為下列的對數勝算：…"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "係數為下列的對數勝算(log odds)： \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgstr "係數為下列的對數勝算： \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -1997,7 +1997,7 @@ msgstr "參數估計法"
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "依個別分析排除"
+msgstr "依個別分析排除觀察值"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -2019,7 +2019,7 @@ msgstr "預期的"
 #: contTables/options/exp.title
 #: propTestN/options/expected.title
 msgid "Expected counts"
-msgstr "計數期望值"
+msgstr "期望次數"
 
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
@@ -2375,7 +2375,7 @@ msgstr "分組摘要"
 #: anovaOneW/ui[0][1].label
 #: ttestIS/options/group.title
 msgid "Grouping Variable"
-msgstr "分組變數"
+msgstr "分組變項"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
@@ -3368,7 +3368,7 @@ msgstr "不定义任務器"
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
 msgid "Nominal"
-msgstr "名義變項"
+msgstr "名義"
 
 #: package/analyses/anovaNP.menuSubgroup
 #: package/analyses/anovaRMNP.menuSubgroup
