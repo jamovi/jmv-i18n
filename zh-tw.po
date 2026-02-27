@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 09:09+0000\n"
+"PO-Revision-Date: 2026-02-27 10:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -3134,31 +3134,27 @@ msgid "Model Fit Measures"
 msgstr "模型適配指標"
 
 #: efa/options/modelFit.title
-#, fuzzy
 msgid "Model fit measures"
-msgstr "模型適合度衡量"
+msgstr "模型適配指標"
 
 #: linReg/results/models.title
 #: logLinear/results/models.title
 #: logRegBin/results/models.title
 #: logRegMulti/results/models.title
 #: logRegOrd/results/models.title
-#, fuzzy
 msgid "Model Specific Results"
-msgstr "模型特定結果"
+msgstr "模型設定結果"
 
 #: ancova/options/modelTerms.title
 #: anova/options/modelTerms.title
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
-#, fuzzy
 msgid "Model Terms"
-msgstr "模型取量"
+msgstr "模型項"
 
 #: pca/results/modelFit/fit.columns.superTitle
-#, fuzzy
 msgid "Model Test"
-msgstr "模型檢驗"
+msgstr "模型檢定"
 
 #: logRegOrd/results/models.template/thres.title
 #, fuzzy
@@ -3179,14 +3175,12 @@ msgid "Models estimated using sample size of N={n}"
 msgstr "使用樣本大小 N={n} 估計的模型"
 
 #: cfa/results/modelPerformance/modIndices.title
-#, fuzzy
 msgid "Modification Indices"
-msgstr "修改指数"
+msgstr "修正指標"
 
 #: cfa/options/mi.title
-#, fuzzy
 msgid "Modification indices"
-msgstr "修改組料"
+msgstr "修正指標"
 
 #: R/conttables.b.R
 #, fuzzy
@@ -3194,9 +3188,8 @@ msgid "Monte Carlo simulation"
 msgstr "蒙地卡羅模擬"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "More than one mode exists, only the first is reported"
-msgstr "多个模式应网统图片中包含一个测试结果"
+msgstr "存在多個眾數，僅回報第一個。"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
@@ -3209,9 +3202,8 @@ msgstr "MSA"
 
 #: package/analyses/logRegMulti.menuSubtitle
 #: logRegMulti/options.menuSubtitle
-#, fuzzy
 msgid "Multinomial"
-msgstr "多种汇测"
+msgstr "多項"
 
 #: package/analyses/logRegMulti.title
 #: package/analyses/logRegMulti.description
@@ -3219,15 +3211,15 @@ msgstr "多种汇测"
 #: logRegMulti/options.description.main
 #: logRegMulti/ui.title
 #: logRegMulti/results.title
-#, fuzzy
 msgid "Multinomial Logistic Regression"
-msgstr "多选选择標種流行"
+msgstr "多項邏輯斯迴歸"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
-#, fuzzy
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "多取多和分析化 (MANCOVA) 用于找回多个依赖取多和一个或共和盈规取多和优允取多和盈规"
+msgstr ""
+"多變量共變異數分析 (MANCOVA) 用於探討多個依變項與一個或多個類別及/或連續解釋"
+"變項之間的關係。"
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3254,9 +3246,8 @@ msgstr "結果數"
 #: logRegBin/options/pseudoR2/r2n.title
 #: logRegMulti/options/pseudoR2/r2n.title
 #: logRegOrd/options/pseudoR2/r2n.title
-#, fuzzy
 msgid "Nagelkerke's R²"
-msgstr "Nagelkerke 的 R ◦"
+msgstr "Nagelkerke 的 R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
@@ -3269,9 +3260,8 @@ msgid "No correction"
 msgstr "不校正"
 
 #: R/mancova.b.R
-#, fuzzy
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "不定义任務器"
+msgstr "未定義因子。Box's M 檢定僅在模型包含因子時適用。"
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3304,9 +3294,8 @@ msgid "none"
 msgstr "無"
 
 #: reliability/ui[2]/revItemsSupplier.label
-#, fuzzy
 msgid "Normal Scaled Items"
-msgstr "标准化项目"
+msgstr "常態尺度項目"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
@@ -3333,24 +3322,20 @@ msgid "Normality Test (Shapiro-Wilk)"
 msgstr "常態性檢定(Shapiro-Wilk)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr "并非所有系数都可以被估计（可能是由于奇异拟合）"
+msgstr "無法估計所有係數（可能因奇異適配所致）"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Not all statistics support weighted data yet."
-msgstr "不能用作于权带数据"
+msgstr "並非所有統計量皆支援加權資料。"
 
 #: R/mancova.b.R
-#, fuzzy
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr "不可用。原因是数据体个数很多 (过于 5000)。"
+msgstr "因觀察值過多（> 5000）而無法使用。"
 
 #: R/mancova.b.R
-#, fuzzy
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr "沒有足夠的自由度來估計所有模型效果"
+msgstr "自由度不足，無法估計所有模型效應"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
@@ -3373,9 +3358,8 @@ msgid "Number of factors"
 msgstr "因素數量"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr "請求的極值數量超過數據中的行數。"
+msgstr "請求的極端值數量大於資料中的列數。"
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -3389,28 +3373,24 @@ msgstr "oblimin"
 #: R/conttables.b.R
 #: R/logregbin.b.R
 #: propTestN/results/props.columns.content
-#, fuzzy
 msgid "Observed"
-msgstr "现量"
+msgstr "觀察值"
 
 #: contTables/options/obs.title
-#, fuzzy
 msgid "Observed counts"
-msgstr "观察计数"
+msgstr "觀察次數"
 
 #: ancova/options/emmPlotData.title
 #: anova/options/emmPlotData.title
 #: anovaRM/options/emmPlotData.title
-#, fuzzy
 msgid "Observed scores"
-msgstr "觀察到的分數"
+msgstr "觀察分數"
 
 #: logRegBin/ui[5][0][1][0].label
 #: logRegMulti/ui[4][0][1][0].label
 #: logRegOrd/ui[4][0][1][1].label
-#, fuzzy
 msgid "Odds Ratio"
-msgstr "对比率"
+msgstr "勝算比"
 
 #: contTables/options/odds.title
 #: contTables/results/odds.columns.content
@@ -3421,9 +3401,8 @@ msgstr "对比率"
 #: logRegOrd/options/OR.title
 #: logRegOrd/results/models.template/coef.columns.title
 #: logRegOrd/results/models.template/thres.columns.title
-#, fuzzy
 msgid "Odds ratio"
-msgstr "比值比"
+msgstr "勝算比"
 
 #: contTables/options/yaxisPc/total_pc.title
 #, fuzzy
@@ -3431,60 +3410,50 @@ msgid "of total"
 msgstr "總計的"
 
 #: linReg/results/models.template/anova.title
-#, fuzzy
 msgid "Omnibus ANOVA Test"
-msgstr "全方位ANOVA測試"
+msgstr "整體 ANOVA 檢定"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
-#, fuzzy
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr "找图润试结果"
+msgstr "整體概似比檢定"
 
 #: linReg/ui[5][0][0][0].label
-#, fuzzy
 msgid "Omnibus Test"
-msgstr "扱歡测试"
+msgstr "整體檢定"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
-#, fuzzy
 msgid "Omnibus Tests"
-msgstr "全域檢定"
+msgstr "整體檢定"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "One or both groups do not contain enough observations"
-msgstr "一組或兩組數據不包含足夠的觀察值"
+msgstr "一個或兩個組別觀察值不足"
 
 #: R/ttestps.b.R
-#, fuzzy
 msgid "One or both variables are not numeric"
-msgstr "一個或兩個變數不是數值"
+msgstr "一個或兩個變項非數值"
 
 #: R/ttestps.b.R
-#, fuzzy
 msgid "One or both variables contain infinite values"
-msgstr "一个或歡个取量包含有限值"
+msgstr "一個或兩個變項包含無限值"
 
 #: R/ttestps.b.R
-#, fuzzy
 msgid "One or both variables contain no observations"
-msgstr "一個或多個變數不包含任何觀察值"
+msgstr "一個或兩個變項無觀察值"
 
 #: R/ttestps.b.R
-#, fuzzy
 msgid "One or both variables do not contain enough observations"
-msgstr "一个或两个取多高值不包含过多的盈规"
+msgstr "一個或兩個變項觀察值不足"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "模型 '{modelNo}' 中的一個或多個係數無法估計，因為它們是完全共線的。"
+msgstr "模型 '{modelNo}' 中有一個或多個係數因完全共線性而無法估計。"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -3511,27 +3480,23 @@ msgstr "單一樣本T檢定"
 #: anovaOneW/ui.title
 #: anovaOneW/results.title
 #: anovaOneW/results/anova.title
-#, fuzzy
 msgid "One-Way ANOVA"
-msgstr "一端 ANOVA"
+msgstr "單因子變異數分析"
 
 #: R/anovaonew.b.R
-#, fuzzy
 msgid "One-Way ANOVA (Fisher's)"
-msgstr "一级分析化 (Fisher的)"
+msgstr "單因子變異數分析 (Fisher's)"
 
 #: package/analyses/anovaNP.title
 #: anovaNP/options.title
 #: anovaNP/ui.title
 #: anovaNP/results.title
-#, fuzzy
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr "一端 ANOVA (民包汇测)"
+msgstr "單因子變異數分析（無母數）"
 
 #: R/anovaonew.b.R
-#, fuzzy
 msgid "One-Way ANOVA (Welch's)"
-msgstr "單向變異數分析（韋爾奇法）"
+msgstr "單因子變異數分析（Welch's）"
 
 #: anovaRM/ui[7].label
 #: cfa/ui[2].label
@@ -3548,15 +3513,13 @@ msgstr "次序"
 #: logRegOrd/options.description.main
 #: logRegOrd/ui.title
 #: logRegOrd/results.title
-#, fuzzy
 msgid "Ordinal Logistic Regression"
-msgstr "顺序性润试"
+msgstr "次序邏輯斯迴歸"
 
 #: package/analyses/logRegOrd.menuTitle
 #: logRegOrd/options.menuTitle
-#, fuzzy
 msgid "Ordinal Outcomes"
-msgstr "順序結果"
+msgstr "次序結果"
 
 #: descriptives/ui[2][3][2].label
 msgid "Outliers"
@@ -3587,9 +3550,8 @@ msgstr "整體模型"
 #: logRegBin/results/modelFit.columns.superTitle
 #: logRegMulti/results/modelFit.columns.superTitle
 #: logRegOrd/results/modelFit.columns.superTitle
-#, fuzzy
 msgid "Overall Model Test"
-msgstr "数据格式標種"
+msgstr "整體模型檢定"
 
 #: ancova/options/modelTest.title
 #: anova/options/modelTest.title
@@ -3597,9 +3559,8 @@ msgstr "数据格式標種"
 #: logRegBin/options/modelTest.title
 #: logRegMulti/options/modelTest.title
 #: logRegOrd/options/modelTest.title
-#, fuzzy
 msgid "Overall model test"
-msgstr "整體模型檢驗"
+msgstr "整體模型檢定"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -3652,9 +3613,8 @@ msgstr "成對樣本"
 #: contTablesPaired/options.title
 #: contTablesPaired/ui.title
 #: contTablesPaired/results.title
-#, fuzzy
 msgid "Paired Samples Contingency Tables"
-msgstr "牒姣测试扰据表"
+msgstr "成對樣本列聯表"
 
 #: package/analyses/ttestPS.title
 #: package/analyses/ttestPS.menuTitle
@@ -3671,19 +3631,16 @@ msgstr "配對變項"
 
 #: anovaNP/results/comparisons.template.title
 #: anovaNP/results/comparisonsDunn.template.title
-#, fuzzy
 msgid "Pairwise comparisons - $key"
 msgstr "配對比較 - $key"
 
 #: anovaRMNP/results/comp.title
-#, fuzzy
 msgid "Pairwise Comparisons (Durbin-Conover)"
-msgstr "配對比較（杜賓-康諾弗）"
+msgstr "成對比較 (Durbin-Conover)"
 
 #: anovaRMNP/options/pairs.title
-#, fuzzy
 msgid "Pairwise comparisons (Durbin-Conover)"
-msgstr "配對比較（杜賓-康諾弗）"
+msgstr "配對比較 (Durbin-Conover)"
 
 #: corrPart/options/type/part.title
 #, fuzzy
@@ -3696,19 +3653,18 @@ msgstr "部分"
 #: corrPart/options.title
 #: corrPart/ui.title
 #: corrPart/results.title
-#, fuzzy
 msgid "Partial Correlation"
-msgstr "部分相關"
+msgstr "淨相關"
 
 #: package/analyses/corrPart.description
-#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "部分相關矩陣是一種檢查兩個或多個連續變數之間線性關係的方法，同时控制其他變數"
+msgstr ""
+"淨相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
+"。"
 
 #: corrPart/options.description.main
-#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
@@ -3727,37 +3683,38 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "部分相關矩陣是一種檢查兩個或多個連續變數之間線性關係的方法，同时控制其他變數\n"
+msgstr ""
+"淨相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
+"。\n"
 "\n"
-"對於每一對變數，Pearson 的 r 值表示兩個變數之間關係的強度和方向。正值表示正關係 (一個變數的高值預測另一個變數的高值)。負的 Pearson 的 r 表示負關係 (一個變數的高值預測另一個變數的低值，反之亦然)。零值表示沒有關係 (無論變數是高還是低，都不能告訴我們另一個變數的值)。\n"
+"對於每對變項，Pearson's r 值表示該兩個變項之間關係的強度與方向。正值表示正向"
+"關係（一個變項的值較高，可預測另一個變項的值也較高）。負的 Pearson's r 表示負"
+"向關係（一個變項的值較高，可預測另一個變項的值較低，反之亦然）。值為零則表示"
+"無關（一個變項的高低，無法提供關於另一個變項值的任何資訊）。\n"
 "\n"
-"更正式地， 可以測試零假設，即相關係數為零，並計算 p 值。如果 p 值很低，則表明相關係數不是零，並且兩個變數之間存在線性 (或更複雜) 關係。"
+"更正式地說，可以檢定相關係數為零的虛無假設，並計算 p 值。若 p 值低，則表示相"
+"關係數不為零，兩個變項之間存在線性（或更複雜的）關係。"
 
 #: anovaRM/options/effectSize/partEta.title
-#, fuzzy
 msgid "Partial η²"
-msgstr "部分η²"
+msgstr "偏η²"
 
 #: ancova/options/effectSize/partEta.title
 #: anova/options/effectSize/partEta.title
-#, fuzzy
 msgid "partial η²"
-msgstr "部分 η²"
+msgstr "偏 η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
-#, fuzzy
 msgid "Participants (rows) below p-threshold"
-msgstr "P閾值以下的參與者（行）"
+msgstr "低於 p 閾值的參與者（列）"
 
 #: cfa/results/pathDiagram.title
-#, fuzzy
 msgid "Path Diagram"
 msgstr "路徑圖"
 
 #: cfa/options/pathDiagram.title
-#, fuzzy
 msgid "Path diagram"
-msgstr "路径图"
+msgstr "路徑圖"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
@@ -3772,9 +3729,8 @@ msgstr "無法為非數值計算Pearson相關"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
-#, fuzzy
 msgid "Pearson residuals"
-msgstr "皮尔森残差"
+msgstr "Pearson殘差"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3783,9 +3739,8 @@ msgid "Pearson's r"
 msgstr "皮爾森相關係數"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "Pearson{}Correlation"
-msgstr "Pearson 縮说標種"
+msgstr "Pearson{}相關"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -3821,62 +3776,51 @@ msgid "Percentiles"
 msgstr "百分位數"
 
 #: ttestIS/options/mann.description.ui
-#, fuzzy
 msgid "perform a Mann-Whitney U test."
-msgstr "执行曼-惠特尼U检验。"
+msgstr "執行Mann-Whitney U 檢定。"
 
 #: ttestOneS/options/norm.description.ui
-#, fuzzy
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "執行斯皮爾曼相關係數的正態性檢定。低p值表示數據不符合正態分佈。"
+msgstr "執行常態性 Shapiro-Wilk 檢定。p 值低表示資料非常態分配。"
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
-#, fuzzy
 msgid "perform an overall model test."
-msgstr "執行整體模型檢定"
+msgstr "執行整體模型檢定。"
 
 #: anovaOneW/options/fishers.description.ui
-#, fuzzy
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr "執行費舍爾（或稱'正常'）ANOVA。"
+msgstr "執行Fisher（或稱「正常」）變異數分析。"
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
-#, fuzzy
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "执行计算测试结果中包含一个和盈规之间的值"
+msgstr "執行常態性 Shapiro-Wilk 檢定。p 值低表示資料非常態分配。"
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
-#, fuzzy
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "执行 Shapiro-Wilk 消量常性標種。 低 p-值 推定不常性常性的体验例。"
+msgstr "執行常態性 Shapiro-Wilk 檢定。p 值低表示殘差非常態分配。"
 
 #: ttestIS/options/students.description.ui
-#, fuzzy
 msgid "perform Student's independent samples t-tests."
-msgstr "执行学生的独立样本t检验。"
+msgstr "執行Student獨立樣本 t 檢定。"
 
 #: ttestOneS/options/students.description.ui
-#, fuzzy
 msgid "perform Student's one-sample t-tests."
-msgstr "执行学生的一样本t检验。"
+msgstr "執行Student單一樣本 t 檢定。"
 
 #: ttestPS/options/students.description.ui
-#, fuzzy
 msgid "perform Student's paired samples t-tests."
-msgstr "执行 Student的对队测试。"
+msgstr "執行Student成對樣本 t 檢定。"
 
 #: anovaOneW/options/welchs.description.ui
-#, fuzzy
 msgid "perform Welch's ANOVAs."
-msgstr "進行 Welch 的 ANOVA。"
+msgstr "進行 Welch 的變異數分析。"
 
 #: ttestIS/options/welchs.description.ui
-#, fuzzy
 msgid "perform Welch's tests."
-msgstr "執行韋爾奇檢驗。"
+msgstr "執行 Welch檢定。"
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -5866,9 +5810,8 @@ msgstr "χ² 突然用于测试一个突然中的一个取量是一致。低的 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "Theoretical Quantiles"
-msgstr "理论分位数"
+msgstr "理論分位數"
 
 #: R/linreg.b.R
 #, fuzzy
