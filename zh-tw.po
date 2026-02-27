@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 20:09+0000\n"
+"PO-Revision-Date: 2026-02-27 21:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -2121,7 +2121,7 @@ msgstr "因素"
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
 msgid "Factors"
-msgstr "因子(因素)"
+msgstr "因子"
 
 #: R/pca.b.R
 msgid "factors"
@@ -2242,11 +2242,11 @@ msgstr "一般選項"
 
 #: anovaRM/options/effectSize/ges.title
 msgid "Generalised η²"
-msgstr "Generalised η²"
+msgstr "廣義 η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
 msgid "Grand mean (simple coding)"
-msgstr "總平均數（簡單編碼）"
+msgstr "總平均數 (簡單編碼)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -2741,11 +2741,11 @@ msgstr "馬氏距離"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr "馬氏距離（χ²）"
+msgstr "馬氏距離 (卡方)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr "馬氏距離（p）"
+msgstr "馬氏距離 (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
@@ -2887,7 +2887,7 @@ msgstr "平均數"
 #: R/ttestis.b.R
 #: R/ttestps.b.R
 msgid "Mean ({ciWidth}% CI)"
-msgstr "平均數 ({ciWidth}% CI)"
+msgstr "平均數 ({ciWidth}% 信賴區間)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -3256,7 +3256,7 @@ msgstr "無"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr "常態尺度項目"
+msgstr "正常計分項目"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
@@ -3284,7 +3284,7 @@ msgstr "常態性檢定(Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr "無法估計所有係數（可能因奇異適配所致）"
+msgstr "無法估計所有係數 (可能因奇異適配所致)"
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
@@ -3292,7 +3292,7 @@ msgstr "並非所有統計量皆支援加權資料。"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr "因觀察值過多（> 5000）而無法使用。"
+msgstr "因觀察值過多 (> 5000) 而無法使用。"
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
@@ -3371,7 +3371,7 @@ msgstr "總計的"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr "整體 ANOVA 檢定"
+msgstr "整體變異數分析檢定"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
@@ -3451,11 +3451,11 @@ msgstr "單因子變異數分析 (Fisher's)"
 #: anovaNP/ui.title
 #: anovaNP/results.title
 msgid "One-Way ANOVA (Non-parametric)"
-msgstr "單因子變異數分析（無母數）"
+msgstr "單因子變異數分析 (無母數)"
 
 #: R/anovaonew.b.R
 msgid "One-Way ANOVA (Welch's)"
-msgstr "單因子變異數分析（Welch's）"
+msgstr "單因子變異數分析 (Welch's)"
 
 #: anovaRM/ui[7].label
 #: cfa/ui[2].label
@@ -3608,13 +3608,13 @@ msgstr "偏"
 #: corrPart/ui.title
 #: corrPart/results.title
 msgid "Partial Correlation"
-msgstr "淨相關"
+msgstr "偏相關"
 
 #: package/analyses/corrPart.description
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "淨相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
+msgstr "偏相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -3636,7 +3636,7 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
-"淨相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
+"偏相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
 "。\n"
 "\n"
 "對於每對變項，Pearson's r 值表示該兩個變項之間關係的強度與方向。正值表示正向"
@@ -3658,7 +3658,7 @@ msgstr "偏 η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 msgid "Participants (rows) below p-threshold"
-msgstr "低於 p 閾值的參與者（列）"
+msgstr "低於 p 閾值的參與者 (列)"
 
 #: cfa/results/pathDiagram.title
 msgid "Path Diagram"
@@ -3739,7 +3739,7 @@ msgstr "執行整體模型檢定。"
 
 #: anovaOneW/options/fishers.description.ui
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr "執行Fisher（或稱「正常」）變異數分析。"
+msgstr "執行Fisher (或稱「正常」) 變異數分析。"
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
@@ -3850,7 +3850,7 @@ msgstr "事後檢定"
 
 #: R/conttables.b.R
 msgid "Post Hoc Test ({title})"
-msgstr "事後檢定（{title}）"
+msgstr "事後檢定 ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -3889,15 +3889,15 @@ msgstr "事後檢定"
 
 #: R/proptest2.b.R
 msgid "Posterior"
-msgstr "事後機率"
+msgstr "後驗機率"
 
 #: propTest2/options/postPlots.title
 msgid "Posterior plot"
-msgstr "事後機率圖"
+msgstr "後驗機率圖"
 
 #: propTest2/results/postPlots.title
 msgid "Posterior Plots"
-msgstr "事後機率圖"
+msgstr "後驗機率圖"
 
 #: R/logregbin.b.R
 msgid "Predicted"
@@ -4008,14 +4008,14 @@ msgstr "比例"
 #: propTest2/ui.title
 #: propTest2/results.title
 msgid "Proportion Test (2 Outcomes)"
-msgstr "比例檢定（2 種結果）"
+msgstr "比例檢定 (2 種結果)"
 
 #: package/analyses/propTestN.title
 #: propTestN/options.title
 #: propTestN/ui.title
 #: propTestN/results.title
 msgid "Proportion Test (N Outcomes)"
-msgstr "比例檢定（N 種結果）"
+msgstr "比例檢定 (N 種結果)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
@@ -4127,7 +4127,7 @@ msgstr "提供描述性圖。"
 #: ttestOneS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "提供效果量（Cohen's d）。"
+msgstr "提供效果量 (Cohen's d)。"
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
@@ -4202,7 +4202,7 @@ msgstr "提供球形檢定。"
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "提供事後比較的檢定結果（t 值與自由度）。"
+msgstr "提供事後比較的檢定結果 (t 值與自由度)。"
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -4421,7 +4421,7 @@ msgstr "重複測量變異數分析"
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr "重複測量變異數分析（無母數）"
+msgstr "重複測量變異數分析 (無母數)"
 
 #: anovaRM/options/rmCells.title
 msgid "Repeated Measures Cells"
@@ -4531,13 +4531,13 @@ msgstr "分析結果"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr "反向計分尺度項目"
+msgstr "反向計分項目"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr "反向計分尺度項目"
+msgstr "反向計分項目"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
@@ -4588,7 +4588,7 @@ msgstr "列號"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
-msgstr "行變數 '{var}' 含有少於2個層級"
+msgstr "行變項 '{var}' 含有少於2個層級"
 
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
@@ -4725,7 +4725,7 @@ msgstr "半偏"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
-msgstr "半偏相關性"
+msgstr "半偏相關"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
@@ -4768,13 +4768,13 @@ msgstr "並排"
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
 msgid "Simple (vs. First)"
-msgstr "簡單（對比第一個）"
+msgstr "簡單 (對比第一個)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
 msgid "Simple (vs. Last)"
-msgstr "簡單（對比最後一個）"
+msgstr "簡單 (對比最後一個)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -4923,7 +4923,7 @@ msgstr "標準化殘差"
 
 #: contTables/options/resS.title
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr "標準化殘差（調整後Pearson）"
+msgstr "標準化殘差 (調整後Pearson)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5140,15 +5140,15 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
-"共變數分析（ANCOVA）用於探索連續的依賴變數、一個或多個分類的解釋變項以及一個"
-"或多個連續的解釋變項（或共變數）之間的關係。它本質上與ANOVA相同，但增加了共變"
+"共變數分析 (ANCOVA) 用於探索連續的依賴變數、一個或多個分類的解釋變項以及一個"
+"或多個連續的解釋變項 (或共變數) 之間的關係。它本質上與ANOVA相同，但增加了共變"
 "項。"
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "變異數分析（ANOVA）用於探索連續的依變項與一個或多個分類的解釋變項之間的關係。"
+msgstr "變異數分析 (ANOVA) 用於探索連續的依變項與一個或多個分類的解釋變項之間的關係。"
 
 #: anova/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5163,11 +5163,11 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
 msgstr ""
-"變異數分析（ANOVA）用於探索連續依變項與一個或多個類別解釋變項之間的關係。\n"
+"變異數分析 (ANOVA) 用於探索連續依變項與一個或多個類別解釋變項之間的關係。\n"
 "\n"
 "ANOVA假設殘差是常態分佈的，且所有組的變異數相等。如果不願意假設變異數相等，可"
-"以使用Welch的測試（但是，Welch的測試不支援超過一個解釋變數）。或者，如果不願"
-"意假設數據是常態分佈的，可以使用非參數方法（例如Kruskal-Wallis）。"
+"以使用Welch的測試 (但是，Welch的測試不支援超過一個解釋變數)。或者，如果不願意"
+"假設數據是常態分佈的，可以使用非參數方法 (例如Kruskal-Wallis)。"
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5195,7 +5195,7 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
 msgstr ""
-"變異數分析（ANOVA）用於探索連續的依賴變項與一個或多個分類的解釋變項之間的關係"
+"變異數分析 (ANOVA) 用於探索連續的依賴變項與一個或多個分類的解釋變項之間的關係"
 "。這種「單因子ANOVA」是「正常」ANOVA的簡化版本，只允許單一解釋因素，但也提供"
 "了 Welch ANOVA。 Welch ANOVA具有不需要假設所有群體的變異數都相等的優點。\n"
 "\n"
@@ -5205,7 +5205,7 @@ msgstr ""
 
 #: anovaRM/options/bs.description.ui
 msgid "the between subjects factors (optional)."
-msgstr "受試者間因子（可選）。"
+msgstr "受試者間因子 (可選)。"
 
 #: anovaRM/options/bsTerms.description.ui
 msgid "the between subjects terms of the model."
@@ -5220,7 +5220,7 @@ msgstr ""
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
-msgstr "類別解釋（或自）變項。"
+msgstr "類別解釋 (或自) 變項。"
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
@@ -5246,7 +5246,7 @@ msgstr "信賴區間寬度。"
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "連續解釋（或自）變項，亦稱共變項。"
+msgstr "連續解釋 (或自) 變項，亦稱共變項。"
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5260,7 +5260,7 @@ msgstr "感興趣的控制變項。"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr "共變項（指定此項將使分析變為共變異數分析）。"
+msgstr "共變項 (指定此項將使分析變為共變異數分析)。"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -5269,7 +5269,7 @@ msgstr "截斷值設為 {}"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "資料集包含 0 列（已移除含有缺失值的列後）"
+msgstr "資料集包含 0 列 (已移除含有缺失值的列後)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
@@ -5454,7 +5454,7 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
-"Student 獨立樣本 t 檢定（有時稱為雙樣本 t 檢定）用於檢定兩個組別具有相同平均"
+"Student 獨立樣本 t 檢定 (有時稱為雙樣本 t 檢定) 用於檢定兩個組別具有相同平均"
 "數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。"
 
 #: ttestIS/options.description.main
@@ -5472,13 +5472,13 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
-"Student 獨立樣本 t 檢定（有時稱為雙樣本 t 檢定）用於檢定兩個組別具有相同平均"
+"Student 獨立樣本 t 檢定 (有時稱為雙樣本 t 檢定) 用於檢定兩個組別具有相同平均"
 "數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。\n"
 "\n"
 "Student 獨立樣本 t 檢定假設每組資料來自常態分配，且各組變異數相等。若不想假設"
 "各組變異數相等，可改用 Welch t 檢定。若進一步不想假設每組資料來自常態分配，則"
-"可使用無母數的Mann-Whitney U 檢定（但請注意，Mann-Whitney U 檢定的虛無假設略"
-"有不同，即檢定各組的分配是否相同）。"
+"可使用無母數的Mann-Whitney U 檢定 (但請注意，Mann-Whitney U 檢定的虛無假設略"
+"有不同，即檢定各組的分配是否相同)。"
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -5486,7 +5486,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
-"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值（通常為零）」之虛無假"
+"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值 (通常為零）」之虛無假"
 "設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。"
 
 #: ttestOneS/options.description.main
@@ -5501,12 +5501,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr ""
-"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值（通常為零）」之虛無假"
+"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值 (通常為零)」之虛無假"
 "設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。\n"
 "\n"
 "Student 單一樣本 t 檢定假設資料來自常態分配——若不想假設此條件，可改用無母數"
-"的 Wilcoxon 符號等級檢定（但請注意， Wilcoxon 符號等級檢定的虛無假設略有不同"
-"，即檢定<i>中位數</i>是否等於檢定值）。"
+"的 Wilcoxon 符號等級檢定 (但請注意， Wilcoxon 符號等級檢定的虛無假設略有不同"
+"，即檢定<i>中位數</i>是否等於檢定值)。"
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -5515,7 +5515,7 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
-"Student 成對樣本 t 檢定（有時稱為相依樣本 t 檢定）用於檢定「成對測量值之間的"
+"Student 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間的"
 "差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不為"
 "零。"
 
@@ -5533,13 +5533,13 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
-"Student 成對樣本 t 檢定（有時稱為相依樣本 t 檢定）用於檢定「成對測量值之間的"
+"Student 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間的"
 "差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不為"
 "零。\n"
 "\n"
 "Student 成對樣本 t 檢定假設成對差異服從常態分配——若不想假設此條件，可改用無母"
-"數的 Wilcoxon 符號等級檢定（但請注意，Wilcoxon 符號等級檢定的虛無假設略有不同"
-"，即檢定兩組測量值是否服從相同分配）。"
+"數的 Wilcoxon 符號等級檢定 (但請注意，Wilcoxon 符號等級檢定的虛無假設略有不同"
+"，即檢定兩組測量值是否服從相同分配)。"
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
@@ -5549,7 +5549,7 @@ msgstr "要為其提供估計邊際平均數的項。您可以在此處指定多
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
-msgstr "用於檢定的對比值（通常為零）。"
+msgstr "用於檢定的對比值 (通常為零)。"
 
 #: corrPart/options/type.description.ui
 msgid "the type of correlation to calculate"
@@ -5661,7 +5661,7 @@ msgstr "容忍度"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr "樣本過少(N < 3)無法計算統計值"
+msgstr "樣本過少 (N < 3)無 法計算統計值"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
