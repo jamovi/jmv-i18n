@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 01:09+0000\n"
+"PO-Revision-Date: 2026-02-27 11:09+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -1529,7 +1529,6 @@ msgid "Data Summary"
 msgstr "Сводка данных"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "degree"
 msgstr "степень"
 
@@ -1861,7 +1860,7 @@ msgstr "Равные веса ячеек"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
-msgstr "равные группы"
+msgstr "равных групп"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
@@ -2517,9 +2516,15 @@ msgid "IQR"
 msgstr "Межквартильное расстояние"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Похоже, что ваша модель имеет проблему 'singularity'. Это обычно означает, что модель испытывает трудности в различении определенных эффектов, потому что некоторые переменные слишком тесно связаны или не хватает данных для надежной оценки всех эффектов. Чтобы решить эту проблему, рассмотрите возможность упрощения модели путем удаления некоторых эффектов или проверки того, не содержат ли ваши данные избыточные или сильно коррелированные переменные."
+msgstr ""
+"Похоже, что ваша модель имеет проблему 'singularity'. Это обычно означает, "
+"что модель испытывает трудности в различении определенных эффектов, потому "
+"что некоторые переменные слишком тесно связаны или не хватает данных для "
+"надежной оценки всех эффектов. Чтобы решить эту проблему, рассмотрите "
+"возможность упрощения модели путем удаления некоторых эффектов или проверки "
+"того, не содержат ли ваши данные избыточные или сильно коррелированные "
+"переменные."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -3843,7 +3848,6 @@ msgid "Polynomial"
 msgstr "Полиномиальный"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
 msgstr "Полиномы ограничены степенью 6"
 
@@ -4764,14 +4768,12 @@ msgstr "Бок о бок"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
 msgstr "Простой (в сравнении с первым)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
 msgstr "Простой (в сравнении с последним)"
 
