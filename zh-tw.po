@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 13:09+0000\n"
+"PO-Revision-Date: 2026-02-27 14:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -80,11 +80,11 @@ msgstr "{ciWidth}% 信賴區間上界"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "{ciWidth}% Confidence Interval"
-msgstr "{ciWidth}% 信賴區間(CI)"
+msgstr "{ciWidth}% 信賴區間"
 
 #: R/conttables.b.R
 msgid "{ciWidth}% Confidence Intervals"
-msgstr "{ciWidth}% 信賴區間(CI)"
+msgstr "{ciWidth}% 信賴區間"
 
 #: R/utils.R
 msgid "{item1} and {item2}"
@@ -2228,7 +2228,7 @@ msgstr "Games-Howell 事後檢定 – {dep}"
 #: contTables/results/gamma.title
 #: contTables/results/gamma.columns.title
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
@@ -2828,7 +2828,7 @@ msgstr "最大值"
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
 msgid "Maximum likelihood"
-msgstr "最大概似法(ML)"
+msgstr "最大概似法"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
@@ -3152,7 +3152,7 @@ msgstr "蒙地卡羅模擬"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr "存在多個眾數，僅回報第一個。"
+msgstr "存在多個眾數，僅回報第一個"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
@@ -3598,9 +3598,8 @@ msgid "Pairwise comparisons (Durbin-Conover)"
 msgstr "配對比較 (Durbin-Conover)"
 
 #: corrPart/options/type/part.title
-#, fuzzy
 msgid "Partial"
-msgstr "部分"
+msgstr "偏"
 
 #: R/corrpart.b.R
 #: package/analyses/corrPart.title
@@ -3615,9 +3614,7 @@ msgstr "淨相關"
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr ""
-"淨相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
-"。"
+msgstr "淨相關矩陣是一種在控制其他變項的同時，檢視兩個或多個連續變項間線性關係的方法"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -4067,7 +4064,7 @@ msgstr "提供每個變項的描述性統計表。"
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
 msgid "provide a table of the estimated marginal means."
-msgstr "提供估計的邊緣平均數表"
+msgstr "提供估計的邊緣平均數表。"
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
@@ -4075,7 +4072,7 @@ msgstr "提供 Student 獨立樣本 t 檢定的貝氏因子。"
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "提供 Student 的單樣本 t 檢驗的 Bayes 因子"
+msgstr "提供 Student 的單樣本 t 檢驗的 Bayes 因子。"
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
@@ -4089,7 +4086,7 @@ msgstr "提供Pearson r 的信賴區間。"
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "提供效果量的信賴區間。"
+msgstr "提供效果量的信賴區間"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
@@ -4192,8 +4189,8 @@ msgstr ""
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
-"提供殘差的 Q-Q 圖 -- 實際殘差與如果數據是 <i> 完美 </i> 正常分布的預期值的圖"
-"。與對角線的偏差表明殘差不是正常分布。"
+"提供殘差的 Q-Q 圖 -- 實際殘差與如果數據是<i>完美</i>正常分布的預期值的圖。與"
+"對角線的偏差表明殘差不是正常分布。"
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4490,7 +4487,7 @@ msgstr "殘差圖"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "殘差平方和及/或自由度為零，表示模型完美適配。"
+msgstr "殘差平方和及/或自由度為零，表示模型完美適配"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4798,11 +4795,11 @@ msgstr "遭遇奇異適配；一個或多個預測變項為其他預測變項的
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr "奇異性錯誤。無法進行球形檢定校正。"
+msgstr "奇異性錯誤。無法進行球形檢定校正"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
-msgstr "奇異性錯誤。無法進行球形檢定。"
+msgstr "奇異性錯誤。無法進行球形檢定"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
@@ -4829,7 +4826,7 @@ msgstr "Spearman's rho"
 #: R/pca.b.R
 msgctxt "specific factor"
 msgid "Factor"
-msgstr "因素"
+msgstr "因子"
 
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
@@ -5227,7 +5224,7 @@ msgstr "類別解釋（或自）變項。"
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "平均數的信賴區間假設樣本平均數服從自由度為 N - 1 的 t 分配。"
+msgstr "平均數的信賴區間假設樣本平均數服從自由度為 N - 1 的 t 分配"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -5313,7 +5310,7 @@ msgstr "依變項。用於變異數分析時，此變項應為連續變項。"
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
 msgid "the error bars to plot on the marginal means."
-msgstr "要繪製的邊際平均數誤差條"
+msgstr "要繪製的邊際平均數誤差條。"
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
@@ -5346,7 +5343,7 @@ msgstr "用於依變項的標籤。"
 
 #: cfa/results/modelSyntax.description
 msgid "the lavaan syntax used to fit the model"
-msgstr "用於適配模型的 lavaan 語法。"
+msgstr "用於適配模型的 lavaan 語法"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
@@ -5509,7 +5506,7 @@ msgstr ""
 "\n"
 "Student 單一樣本 t 檢定假設資料來自常態分配——若不想假設此條件，可改用無母數"
 "的 Wilcoxon 符號等級檢定（但請注意， Wilcoxon 符號等級檢定的虛無假設略有不同"
-"，即檢定<i>中位數</i>是否等於檢定值）"
+"，即檢定<i>中位數</i>是否等於檢定值）。"
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -5608,9 +5605,10 @@ msgstr ""
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
-#, fuzzy
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "χ² 突然用于测试一个突然中的一个取量是一致。低的 p-值推定不一个突然不是真的。敢路不一个突然。"
+msgstr ""
+"關聯性卡方檢定（勿與卡方適配度檢定混淆）用於檢定兩個類別變項是否獨立或相關聯"
+"。若 p 值低，表示變項間不獨立，即兩個變項之間存在關係。"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5624,14 +5622,14 @@ msgid "Theoretical Quantiles"
 msgstr "理論分位數"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr "沒有 Mahalanobis 距離的閾值低於 p < {p}。"
+msgstr "沒有任何馬氏距離的閾值低於 p < {p}。"
 
 #: package.description
-#, fuzzy
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "本模組代表jamovi中包含的分析。它包含許多常見的分析（如t檢定、ANOVA、迴歸、相關矩陣、比例測試、連續表、因素分析等）。"
+msgstr ""
+"此模組包含 jamovi 內建的分析，提供多種常見統計分析功能（如 t 檢定、變異數分析"
+"、迴歸、相關矩陣、比例檢定、列聯表、因素分析等）。"
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
@@ -5646,9 +5644,8 @@ msgid "Thurstone"
 msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
-#, fuzzy
 msgid "Tjur's R²"
-msgstr "Tjur的R²"
+msgstr "Tjur 的 R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -5658,7 +5655,6 @@ msgstr "TLI"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
-#, fuzzy
 msgid "Tolerance"
 msgstr "容忍度"
 
@@ -5757,9 +5753,8 @@ msgstr "單變量檢定"
 
 #: R/conttables.b.R
 #: contTables/options/resU.title
-#, fuzzy
 msgid "Unstandardized residuals"
-msgstr "未标准体验值"
+msgstr "未標準化殘差"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5810,9 +5805,8 @@ msgid "values"
 msgstr "值"
 
 #: propTest2/options/areCounts.title
-#, fuzzy
 msgid "Values are counts"
-msgstr "值是計數"
+msgstr "數值為計數資料"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
@@ -5874,9 +5868,8 @@ msgid "Variances"
 msgstr "變異數"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "variation from the control variables is only removed from the variables in the columns"
-msgstr "控制變數的變異只從欄位中的變數中去除"
+msgstr "僅從欄中的變項移除控制變項的變異"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -5904,20 +5897,17 @@ msgstr "W"
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
-#, fuzzy
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "使用一个和盈规之间的值"
+msgstr "對每個細格賦予相同權重。（預設情況下，細格會根據其次數加權。）"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
-#, fuzzy
 msgid "Weight Variable"
-msgstr "權重變數"
+msgstr "權重變項"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Weighted by '{varName}'"
-msgstr "加權 '{varName}'"
+msgstr "已依 '{varName}' 加權"
 
 #: package/analyses/weights.title
 #: package/analyses/weights.menuTitle
@@ -5928,16 +5918,14 @@ msgid "Weights"
 msgstr "權重"
 
 #: linReg/options/weights.title
-#, fuzzy
 msgid "Weights (optional)"
 msgstr "權重（可選）"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-#, fuzzy
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr "權重包含負值。負權重不被允許。"
+msgstr "權重包含負值，不允許使用負權重。"
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
@@ -5955,15 +5943,13 @@ msgstr "Wilcoxon 等級"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
-#, fuzzy
 msgid "Wilcoxon signed rank test"
-msgstr "瑞利约序约比轉测"
+msgstr "Wilcoxon 符號等級檢定"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
-#, fuzzy
 msgid "Wilcoxon W"
-msgstr "威爾科遜W"
+msgstr "Wilcoxon W"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
@@ -5971,14 +5957,12 @@ msgid "Wilks' Lambda"
 msgstr "Wilks' Lambda"
 
 #: contTables/options/yaxisPc/column_pc.title
-#, fuzzy
 msgid "within column"
-msgstr "列内"
+msgstr "直行內"
 
 #: contTables/options/yaxisPc/row_pc.title
-#, fuzzy
 msgid "within rows"
-msgstr "在行內"
+msgstr "橫列內"
 
 #: anovaRM/results/rmTable.title
 msgid "Within Subjects Effects"
@@ -6001,19 +5985,16 @@ msgid "Y-axis"
 msgstr "Y軸"
 
 #: contTables/results/chiSq.columns.content
-#, fuzzy
 msgid "z test difference in 2 proportions"
-msgstr "z检验两比例差"
+msgstr "兩個比例差異的 z 檢定"
 
 #: contTables/options/zProp.title
-#, fuzzy
 msgid "z test for difference in 2 proportions"
-msgstr "z 测试于 2 润动和盈规之间的值"
+msgstr "兩個比例差異的 z 檢定"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "z test only available for 2x2 tables"
-msgstr "z 测试一个只能用于 2x2 表"
+msgstr "z 檢定僅適用於 2x2 表格"
 
 #: linReg/results/modelComp.columns.title
 msgid "ΔR²"
@@ -6051,20 +6032,17 @@ msgstr "η²p"
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
-#, fuzzy
 msgid "χ² continuity correction"
 msgstr "χ² 連續性修正"
 
 #: propTestN/results/tests.title
-#, fuzzy
 msgid "χ² Goodness of Fit"
-msgstr "χ² 苹果式"
+msgstr "χ² 適配度檢定"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
-#, fuzzy
 msgid "χ² Goodness of fit"
-msgstr "χ² 好都性测试"
+msgstr "χ² 適配度檢定"
 
 #: cfa/options/modelTest.title
 msgid "χ² test"
@@ -6072,9 +6050,8 @@ msgstr "χ² 檢定"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
-#, fuzzy
 msgid "χ² test of association"
-msgstr "χ²相關性檢驗"
+msgstr "χ² 關聯性檢定"
 
 #: contTables/results/chiSq.title
 msgid "χ² Tests"
