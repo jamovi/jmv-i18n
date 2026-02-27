@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 12:09+0000\n"
+"PO-Revision-Date: 2026-02-27 13:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -4489,9 +4489,8 @@ msgid "Residual plots"
 msgstr "殘差圖"
 
 #: R/ancova.b.R
-#, fuzzy
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "Residual 和汇量和汇度一起突然为 0 。表示一个定义的匹配。"
+msgstr "殘差平方和及/或自由度為零，表示模型完美適配。"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4509,19 +4508,16 @@ msgid "Residuals"
 msgstr "殘差"
 
 #: cfa/results/modelPerformance/corRes.title
-#, fuzzy
 msgid "Residuals for Observed Correlation Matrix"
-msgstr "现量縮说標種的体验值"
+msgstr "觀察相關矩陣之殘差"
 
 #: R/anova.b.R
-#, fuzzy
 msgid "Residuals from ANOVA"
-msgstr "ANOVA 的体验值"
+msgstr "變異數分析之殘差"
 
 #: cfa/options/corRes.title
-#, fuzzy
 msgid "Residuals observed correlation matrix"
-msgstr "残差观测相关矩阵"
+msgstr "觀察相關矩陣之殘差"
 
 #: linReg/results/models.template/assump/resPlots.title
 msgid "Residuals Plots"
@@ -4537,19 +4533,16 @@ msgid "Results"
 msgstr "分析結果"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "reverse scaled item"
-msgstr "反向縮放項目"
+msgstr "反向計分尺度項目"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
-#, fuzzy
 msgid "Reverse Scaled Items"
-msgstr "反向刻度項目"
+msgstr "反向計分尺度項目"
 
 #: anovaRM/options/rm.default[0].label
-#, fuzzy
 msgid "RM Factor 1"
 msgstr "RM因子1"
 
@@ -4592,13 +4585,11 @@ msgid "Row"
 msgstr "列"
 
 #: descriptives/results/extremeValues.template.columns.title
-#, fuzzy
 msgid "Row number"
-msgstr "行號"
+msgstr "列號"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
-#, fuzzy
 msgid "Row variable '{var}' contains fewer than 2 levels"
 msgstr "行變數 '{var}' 含有少於2個層級"
 
@@ -4609,18 +4600,15 @@ msgid "Rows"
 msgstr "列"
 
 #: contTables/options/compare/rows.title
-#, fuzzy
 msgid "rows"
-msgstr "行"
+msgstr "列"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Rows compared"
-msgstr "比較的行"
+msgstr "比較的列"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Roy's Largest Root"
 msgstr "Roy 最大根"
 
@@ -4639,29 +4627,24 @@ msgid "Save"
 msgstr "儲存"
 
 #: reliability/results/scale.columns.content
-#, fuzzy
 msgid "scale"
-msgstr "尺度"
+msgstr "量表"
 
 #: package/analyses/reliability.menuSubgroup
-#, fuzzy
 msgid "Scale Analysis"
-msgstr "置统分析化"
+msgstr "量表分析"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
-#, fuzzy
 msgid "Scale factor = scale first indicator"
-msgstr "置统分值器 = 置统一个值"
+msgstr "量表因子 = 量表第一個指標"
 
 #: reliability/results/scale.title
-#, fuzzy
 msgid "Scale Reliability Statistics"
-msgstr "尺度可靠性統計"
+msgstr "量表信度統計量"
 
 #: reliability/ui[1][0][0].label
-#, fuzzy
 msgid "Scale Statistics"
-msgstr "尺度统计"
+msgstr "量表統計量"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
@@ -4670,22 +4653,18 @@ msgid "Scheffe"
 msgstr "Scheffe"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score Component"
-msgstr "分數組件"
+msgstr "分數成分"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score Factor"
-msgstr "分值器"
+msgstr "分數因子"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score for component"
-msgstr "分值器于一个测试结果"
+msgstr "成分分數"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
 msgstr "因素{i}的分數。使用'{fsMethod}'方法估計。"
 
@@ -4744,12 +4723,10 @@ msgid "SE difference"
 msgstr "差異標準誤"
 
 #: corrPart/options/type/semi.title
-#, fuzzy
 msgid "Semipartial"
-msgstr "一切部分析化"
+msgstr "半偏"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "Semipartial Correlation"
 msgstr "半偏相關性"
 
@@ -4793,47 +4770,39 @@ msgstr "並排"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "简单 (又于 第一)"
+msgstr "簡單（對比第一個）"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "簡單（與最後）"
+msgstr "簡單（對比最後一個）"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
-#, fuzzy
 msgid "Simplimax"
 msgstr "Simplimax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "simplimax"
 msgstr "simplimax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Simulations"
-msgstr "计算"
+msgstr "模擬"
 
 #: R/ancova.b.R
-#, fuzzy
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "单独扰据例对达。 一个或歡个预论取量群是其他预论取量的纵细和。"
+msgstr "遭遇奇異適配；一個或多個預測變項為其他預測變項的線性組合。"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr "奇異性錯誤。球面性糾正無法使用"
+msgstr "奇異性錯誤。無法進行球形檢定校正。"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Singularity error. Sphericity tests are not available"
-msgstr "单独计算解。 圆形性標種不可用。"
+msgstr "奇異性錯誤。無法進行球形檢定。"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
@@ -4842,9 +4811,8 @@ msgstr "偏態"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
-#, fuzzy
 msgid "Sort loadings by size"
-msgstr "根據大小排序"
+msgstr "依數值大小排序負荷量"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
@@ -4859,7 +4827,6 @@ msgid "Spearman's rho"
 msgstr "Spearman's rho"
 
 #: R/pca.b.R
-#, fuzzy
 msgctxt "specific factor"
 msgid "Factor"
 msgstr "因素"
@@ -4871,20 +4838,17 @@ msgid "Specificity"
 msgstr "特異性"
 
 #: anovaRM/results/rmTable.columns.title
-#, fuzzy
 msgid "Sphericity Correction"
-msgstr "球面度修正"
+msgstr "球形校正"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
-#, fuzzy
 msgid "Sphericity corrections"
-msgstr "球面度修正"
+msgstr "球形校正"
 
 #: anovaRM/options/spherTests.title
-#, fuzzy
 msgid "Sphericity tests"
-msgstr "球面測試"
+msgstr "球形檢定"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
@@ -4892,9 +4856,8 @@ msgid "Split by"
 msgstr "分組依照"
 
 #: R/mancova.b.R
-#, fuzzy
 msgid "Squared Mahalanobis Distance"
-msgstr "基于 Mahalanobis 距私突然"
+msgstr "馬氏距離平方"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -4958,14 +4921,12 @@ msgid "Standardized Residuals"
 msgstr "標準化殘差"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Standardized residuals"
 msgstr "標準化殘差"
 
 #: contTables/options/resS.title
-#, fuzzy
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr "標準化殘差（調整皮爾森）"
+msgstr "標準化殘差（調整後Pearson）"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5073,7 +5034,6 @@ msgid "t-value"
 msgstr "t值"
 
 #: efa/options/factorScoreMethod/tenBerge.title
-#, fuzzy
 msgid "ten Berge"
 msgstr "ten Berge"
 
@@ -5089,9 +5049,8 @@ msgstr "ten Berge"
 #: jamovi/js/loglinear.events.js:52
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
-#, fuzzy
 msgid "Term {0}"
-msgstr "術語 {0}"
+msgstr "項 {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5100,15 +5059,13 @@ msgstr "術語 {0}"
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
-#, fuzzy
 msgid "Term 1"
-msgstr "期额 1"
+msgstr "項 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
-#, fuzzy
 msgid "Test for Exact Fit"
-msgstr "精確擬合的檢驗"
+msgstr "精確適配檢定"
 
 #: anovaOneW/options/phTest.title
 msgid "Test results (t and df)"
@@ -5135,26 +5092,22 @@ msgid "Tests"
 msgstr "測試"
 
 #: anovaRM/results/assump/spherTable.title
-#, fuzzy
 msgid "Tests of Sphericity"
-msgstr "球面檢驗"
+msgstr "球面檢定"
 
 #: R/descriptives.b.R
 msgid "th percentile"
 msgstr "th 百分位數"
 
 #: package/datasets/Anderson'sIrisData.description
-#, fuzzy
 msgid "The 'iris' data set from R"
-msgstr "R语言中的'iris'数据集"
+msgstr "R 語言的「iris」資料集"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr "分割变量'{var}'不包含数据。"
+msgstr "「分割依據」變項 '{var}' 不含資料。"
 
 #: ttestOneS/options/hypothesis.description.ui
-#, fuzzy
 msgid "the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
@@ -5162,9 +5115,10 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "替代假設和虛無假設；\n"
+msgstr ""
+"對立假設和虛無假設；\n"
 "\n"
-"|              | 替代（H₁）  | 虛無（H₀）          |\n"
+"|              | 對立（H₁）  | 虛無（H₀）          |\n"
 "|--------------|-------------------|--------------------|\n"
 "| ≠ 測試值 | 均值 ≠ 測試值 | 均值 = 測試值  |\n"
 "| > 測試值 | 均值 > 測試值 | 均值 ≤ 測試值 |\n"
@@ -5173,35 +5127,33 @@ msgstr "替代假設和虛無假設；\n"
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
-#, fuzzy
 msgid "the alternative hypothesis."
-msgstr "還迟碑具中的一个可能的碑具。"
+msgstr "對立假設。"
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
-#, fuzzy
 msgid "the alternative hypothesis. Allows for one-tailed tests."
-msgstr "不縮最一个逊中常性。 允许一个角的標種。"
+msgstr "對立假設。允許單尾檢定。"
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
-#, fuzzy
 msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "共變數分析（ANCOVA）用於探索連續的依賴變數、一個或多個分類的解釋變數以及一個或多個連續的解釋變數（或共變數）之間的關係。它本質上與ANOVA相同，但增加了共變數。"
+msgstr ""
+"共變數分析（ANCOVA）用於探索連續的依賴變數、一個或多個分類的解釋變項以及一個"
+"或多個連續的解釋變項（或共變數）之間的關係。它本質上與ANOVA相同，但增加了共變"
+"項。"
 
 #: package/analyses/anova.description
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "變異數分析（ANOVA）用於探索連續的依賴變數與一個或多個分類的解釋變數之間的關係。"
+msgstr "變異數分析（ANOVA）用於探索連續的依變項與一個或多個分類的解釋變項之間的關係。"
 
 #: anova/options.description.main
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
@@ -5213,22 +5165,26 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "變異數分析（ANOVA）用於探索連續依變數與一個或多個類別解釋變數之間的關係。\n"
+msgstr ""
+"變異數分析（ANOVA）用於探索連續依變項與一個或多個類別解釋變項之間的關係。\n"
 "\n"
-"ANOVA假設殘差是常態分佈的，且所有組的變異數相等。如果不願意假設變異數相等，可以使用Welch的測試（但是，Welch的測試不支援超過一個解釋變數）。或者，如果不願意假設數據是常態分佈的，可以使用非參數方法（例如Kruskal-Wallis）。"
+"ANOVA假設殘差是常態分佈的，且所有組的變異數相等。如果不願意假設變異數相等，可"
+"以使用Welch的測試（但是，Welch的測試不支援超過一個解釋變數）。或者，如果不願"
+"意假設數據是常態分佈的，可以使用非參數方法（例如Kruskal-Wallis）。"
 
 #: package/analyses/anovaOneW.description
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "分析债切法 (第一角 ANOVA)用于找异。纯整代限取量和一个或歡个分类種说取量之间的三道繁糙。 此。“一角 ANOVA” 是“比例” ANOVA、只允许一个種说取量、不过也提供了 Welch 的 ANOVA 。 Welch 的 ANOVA 有一个优势、认为不需要预论三个群的影响都縮一致。"
+msgstr ""
+"變異數分析用於探討一個連續依變項與一個或多個類別解釋變項之間的關係。此「單因"
+"子變異數分析」是「一般」變異數分析的簡化版本，僅允許單一解釋因子，但也提供了 "
+"Welch變異數分析。 Welch變異數分析的優點在於無需假設各組變異數相等。"
 
 #: anovaOneW/options.description.main
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
@@ -5241,229 +5197,213 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "變異數分析（ANOVA）用於探索連續的依賴變數與一個或多個分類的解釋變數之間的關係。這種'單向ANOVA'是'正常'ANOVA的簡化版本，只允許單一解釋因素，但也提供了韋爾奇ANOVA。韋爾奇ANOVA具有不需要假設所有群體的變異數都相等的優點。\n"
+msgstr ""
+"變異數分析（ANOVA）用於探索連續的依賴變項與一個或多個分類的解釋變項之間的關係"
+"。這種「單因子ANOVA」是「正常」ANOVA的簡化版本，只允許單一解釋因素，但也提供"
+"了 Welch ANOVA。 Welch ANOVA具有不需要假設所有群體的變異數都相等的優點。\n"
 "\n"
-"為了方便，這種方法允許指定多個依賴變數，從而產生多個獨立的測試。\n"
+"為了方便，這種方法允許指定多個依變項，從而產生多個獨立的測試。\n"
 "\n"
-"請注意，韋爾奇ANOVA是相同的程序，如韋爾奇獨立樣本t檢驗。"
+"請注意， Welch變異數分析與 Welch獨立樣本 t 檢定為相同程序。"
 
 #: anovaRM/options/bs.description.ui
-#, fuzzy
 msgid "the between subjects factors (optional)."
-msgstr "不定义任務器"
+msgstr "受試者間因子（可選）。"
 
 #: anovaRM/options/bsTerms.description.ui
-#, fuzzy
 msgid "the between subjects terms of the model."
-msgstr "模型的間主題項"
+msgstr "模型的受試者間項。"
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
-#, fuzzy
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "二項檢驗用於測試虛無假設，即觀察到的比例是否與預期值相符。如果p值很低，則表明虛無假設是錯誤的，真實比例必須是其他值。"
+msgstr ""
+"二項式檢定用於檢定「觀察值比例符合某期望值」之虛無假設。若 p 值低，表示虛無假"
+"設可能為假，真實比例應為其他數值。"
 
 #: ancova/options/factors.description.ui
-#, fuzzy
 msgid "the categorical explanatory (or independent) variables."
-msgstr "分類解釋 (或獨立) 變數"
+msgstr "類別解釋（或自）變項。"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "均值的信賴區間假設樣本均值遵循具有N - 1自由度的t分佈"
+msgstr "平均數的信賴區間假設樣本平均數服從自由度為 N - 1 的 t 分配。"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
-#, fuzzy
 msgid "the confidence interval width for the effect-sizes."
-msgstr "效應大小的信賴區間寬度。"
+msgstr "效果量的信賴區間寬度。"
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
-#, fuzzy
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr "事後效應尺寸的信賴區間寬度"
+msgstr "事後比較效果量的信賴區間寬度。"
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
-#, fuzzy
 msgid "the confidence interval width."
-msgstr "定义關中的宽度。"
+msgstr "信賴區間寬度。"
 
 #: ancova/options/covs.description.ui
-#, fuzzy
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "纯整種说取量、不过也发生为取量。"
+msgstr "連續解釋（或自）變項，亦稱共變項。"
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 #: anovaRM/options/contrasts.description.ui
-#, fuzzy
 msgid "the contrasts to use."
-msgstr "比例和盈规之间的值"
+msgstr "要使用的對比。"
 
 #: corrPart/options/controls.description.ui
-#, fuzzy
 msgid "the control variables of interest."
-msgstr "控制變數。"
+msgstr "感興趣的控制變項。"
 
 #: anovaRM/options/cov.description.ui
-#, fuzzy
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr "協變量（指定這些使其成為ANCOVA）"
+msgstr "共變項（指定此項將使分析變為共變異數分析）。"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "The cut-off value is set to {}"
-msgstr "分开值被设置为 {}"
+msgstr "截斷值設為 {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
-#, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "数据集中包含 0 行 (后结一行中包含空值)"
+msgstr "資料集包含 0 列（已移除含有缺失值的列後）"
 
 #: R/loglinear.b.R
-#, fuzzy
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr "資料集包含 0 列 (或所有列包含缺失值)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "因變數 '{}' 有超過兩個層級；二元邏輯斯迴歸只能在具有兩個層級的因變數上進行。"
+msgstr ""
+"依變項 '{}' 具有兩個以上水準；二元邏輯斯迴歸僅能在具有兩個水準的依變項上執行"
+"。"
 
 #: R/logregord.b.R
-#, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr "依賴變數'{dep}'的順序如下：{orderedLevels}"
+msgstr "依變項'{dep}'的順序如下：{orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-#, fuzzy
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "因變數 \"{dep}\" 僅有兩個級別，建議進行二元邏輯回歸。"
+msgstr "依變項 \"{dep}\" 僅有兩個水準，建議進行二元邏輯斯迴歸。"
 
 #: ancova/options/dep.description.ui
-#, fuzzy
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr "代持取量。在 ANCOVA 中、这个定义就是纯纯的。"
+msgstr "依變項。用於共變異數分析時，此變項應為連續變項。"
 
 #: anova/options/dep.description.ui
-#, fuzzy
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr "依赖取多和盈规之间的值"
+msgstr "依變項。用於變異數分析時，此變項應為連續變項。"
 
 #: ttestIS/options/vars.description.ui
-#, fuzzy
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "自变量 -- 对每个指定的自变量执行单独的t检验。"
+msgstr "依變項——將為每個指定的依變項分別執行 t 檢定。"
 
 #: anovaOneW/options/deps.description.ui
-#, fuzzy
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr "代限取量。 二值分析中、这些应该为纯整。"
+msgstr "依變項。用於變異數分析時，此變項應為連續變項。"
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
-#, fuzzy
 msgid "the error bars to plot on the marginal means."
-msgstr "要繪製的邊緣均值誤差條"
+msgstr "要繪製的邊際平均數誤差條"
 
 #: anovaOneW/options/group.description.ui
-#, fuzzy
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr "解釋變數或自變數。對於ANOVA，這將是類別變數。"
+msgstr "解釋或自變項。用於變異數分析時，此變項應為類別變項。"
 
 #: anova/options/factors.description.ui
-#, fuzzy
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr "解释变量或自变量。对于ANOVA，这些将是分类的。"
+msgstr "解釋或自變項。用於變異數分析時，此變項應為類別變項。"
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
-#, fuzzy
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "弗里德曼檢定用於探索連續的依賴變數與分類的解釋變數之間的關係，其中解釋變數是“內部主題”（其中多次測量來自相同的主題）。它與重覆測量ANOVA相似，但具有非參數化的優勢，不需要正態性或變異數的同質性假設。然而，它只能一次測試一個解釋變數。"
+msgstr ""
+"Friedman 檢定用於探討一個連續依變項與一個類別解釋變項之間的關係，其中解釋變項"
+"為「受試者內」（即對同一受試者進行多次測量）。此檢定類似於重複測量變異數分析"
+"，但其優點為無母數，且不要求常態性或變異數同質性假設。然而，其限制在於一次只"
+"能檢定一個解釋變項。"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
-#, fuzzy
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "克魯斯卡爾-華利斯檢驗用於探索連續性因變數與類別性解釋變數之間的關係。它與ANOVA相似，但具有非參數性且假設較少的優點。然而，它的限制是只能一次測試一個解釋變數。"
+msgstr ""
+"克-瓦二氏單因子變異數等級檢定用於探討一個連續依變項與一個類別解釋變項之間的關"
+"係。此檢定類似於變異數分析，但其優點為無母數，假設較少。然而，其限制在於一次"
+"只能檢定一個解釋變項。"
 
 #: anovaRM/options/depLabel.description.ui
-#, fuzzy
 msgid "the label to use for the dependent variable."
-msgstr "用於依變數的標籤。"
+msgstr "用於依變項的標籤。"
 
 #: cfa/results/modelSyntax.description
-#, fuzzy
 msgid "the lavaan syntax used to fit the model"
-msgstr "用於適合模型的 lavaan 語法"
+msgstr "用於適配模型的 lavaan 語法。"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
-#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "缺失值排除方法。 `逐一分析`從每個分析中排除缺失值。 `列聯`如果其值之一缺失，則從所有分析中排除整行。"
+msgstr ""
+"缺失值排除方法。「逐分析排除」會從各個分析中排除缺失值。「完全排除」則會將含"
+"有任何缺失值的整列資料從所有分析中排除。"
 
 #: ttestOneS/options/miss.description.ui
-#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "缺值中心族法。 `Analysis by analysis` 中心为一个取量的缺值。 `Listwise` 中心为一行数据为一个缺值。"
+msgstr ""
+"缺失值排除方法。「逐分析排除」會從各個變項中排除缺失值。「完全排除」則會將含"
+"有任何缺失值的整列資料從所有分析中排除。"
 
 #: ancova/options/modelTerms.description.ui
-#, fuzzy
 msgid "the model terms which make up the model."
-msgstr "組成模型的模型項。"
+msgstr "構成模型的模型項。"
 
 #: anova/options/modelTerms.description.ui
-#, fuzzy
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "組成模型的模型項。預設情況下會建立一個全因素模型，但是在這裡可以調整模型的確切項。"
+msgstr ""
+"組成模型的模型項。預設情況下會建立一個全因素模型，但是在這裡可以調整模型的確"
+"切項。"
 
 #: ttestPS/options/pairs.description.ui
-#, fuzzy
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "測量的配對 -- 每一對測量都進行單獨的 t 檢驗"
+msgstr "成對的測量值——將為每對測量值分別執行 t 檢定。"
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
-#, fuzzy
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr "后究版本中的多个比轉执行。"
+msgstr "要使用的事後多重比較校正方法。"
 
 #: ttestIS/options/bfPrior.description.ui
-#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "学生的 t-標種的 Bayes 式算法中的前绍応值。 要求一个值之间 0.01 和 2.0 之间、默认 0.707。"
+msgstr "Student t 檢定之貝氏因子的先驗寬度。須為 0.01 至 2.0 之間的值，預設為 0.707。"
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
-#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "学生t检验的贝叶斯因子的先验宽度。需要0.5至2.0之间的值，缺省值为0.707。"
+msgstr "Student t 檢定之貝氏因子的先驗寬度。須為 0.5 至 2.0 之間的值，預設為 0.707。"
 
 #: package/analyses/anovaRM.description
-#, fuzzy
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "重复测量方差分析用于探索连续因变量与一个或多个分类解释变量之间的关系，其中一个或多个解释变量为“内在变量”（同一主体的多次测量）。此外，该分析还允许包含协变量，从而实现重复测量ANCOVA。"
+msgstr ""
+"重複測量變異數分析用於探討一個連續依變項與一個或多個類別解釋變項之間的關係，"
+"其中一個或多個解釋變項為「受試者內」（即對同一受試者進行多次測量）。此外，此"
+"分析允許納入共變項，因此也能進行重複測量共變異數分析。"
 
 #: anovaRM/options.description.main
-#, fuzzy
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
@@ -5478,43 +5418,49 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "呢行测试债切法用于找异。纯整代限取量和一个或歡个分类種说取量之间的三道繁糙。 这个分析需要数据在 。“嫨格」、比例一个对象、还有一个测试。 一个不常性的呢行测试债切法也存在。 不过、有一个限定、只能测试一个额素。"
+msgstr ""
+"重複測量變異數分析用於探討一個連續依變項與一個或多個類別解釋變項之間的關係，"
+"其中一個或多個解釋變項為「受試者內」（即對同一受試者進行多次測量）。此外，此"
+"分析允許納入共變項，因此也能進行重複測量共變異數分析。\n"
+"\n"
+"此分析要求資料為「寬格式」，即每一列代表一個受試者（相對於「長格式」，其中依"
+"變項的每次測量值都單獨列為一列）。\n"
+"\n"
+"重複測量變異數分析也存在無母數的對應方法——弗里德曼檢定。但其限制在於只能檢定"
+"單一因子。"
 
 #: anovaRM/options/rm.description.ui
-#, fuzzy
 msgid "the repeated measures design."
-msgstr "重复测试计算"
+msgstr "重複測量設計。"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "重複測量只有兩個層級。球面假設在重複測量只有兩個層級時始終成立。"
+msgstr "重複測量僅有兩個水準。當重複測量僅有兩個水準時，球形檢定假設始終成立。"
 
 #: anovaRM/options/rmCells.description.ui
-#, fuzzy
 msgid "the repeated measures measurements."
-msgstr "齿迻比轉测试。"
+msgstr "重複測量值。"
 
 #: anovaRM/options/rmTerms.description.ui
-#, fuzzy
 msgid "the repeated measures terms of the model."
-msgstr "呢行测试的模型中的重复测试项目"
+msgstr "模型的重複測量項。"
 
 #: R/utilsreg.R
-#, fuzzy
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "未找到以下變數（{vars}）的指定參考級別。預設為第一個可用級別。要使用自訂參考級別，請確保定義的參考級別在數據中可用。"
+msgstr ""
+"下列變項中未找到指定的參照水準：{vars}。將使用第一個可用的水準作為預設。若要"
+"使用自訂參照水準，請確保資料中包含您定義的參照水準。"
 
 #: package/analyses/ttestIS.description
-#, fuzzy
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "学生的其它比轉测试 (比较个比轉测试) 用于测试一个不一个突然中的一个取量是一致。低的 p-值推定不一个突然不是真的。敢路不一个突然。"
+msgstr ""
+"Student 獨立樣本 t 檢定（有時稱為雙樣本 t 檢定）用於檢定兩個組別具有相同平均"
+"數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。"
 
 #: ttestIS/options.description.main
-#, fuzzy
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
@@ -5528,20 +5474,25 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "学生的其它比轉测试 (比较个比轉测试) 用于测试一个突然中的一个取量是一致。低的 p-值推定不一个突然不是真的。敢路不一个突然。\n"
+msgstr ""
+"Student 獨立樣本 t 檢定（有時稱為雙樣本 t 檢定）用於檢定兩個組別具有相同平均"
+"數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。\n"
 "\n"
-"学生的其它比轉测试计警作为一个突然中的一个取量是一致。低的 p-值推定不一个突然不是真的。敢路不一个突然。如果不许为一个突然中的一个取量是一致。可以使用 Welch 的 t-测试。如果不许为一个突然中的一个取量是一致。可以使用 Mann-Whitney U 测试。"
+"Student 獨立樣本 t 檢定假設每組資料來自常態分配，且各組變異數相等。若不想假設"
+"各組變異數相等，可改用 Welch t 檢定。若進一步不想假設每組資料來自常態分配，則"
+"可使用無母數的Mann-Whitney U 檢定（但請注意，Mann-Whitney U 檢定的虛無假設略"
+"有不同，即檢定各組的分配是否相同）。"
 
 #: package/analyses/ttestOneS.description
-#, fuzzy
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "使用單樣本t檢定來檢測原假設，即真實均值等於某個特定值（通常是零）。低p值表明原假設不成立，因此真實均值必須與測試值不同"
+msgstr ""
+"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值（通常為零）」之虛無假"
+"設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。"
 
 #: ttestOneS/options.description.main
-#, fuzzy
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
@@ -5552,21 +5503,26 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "單樣本t檢驗用於測試虛無假設，即真實均值是否等於某個特定值（通常為零）。低p值表明虛無假設不成立，因此真實均值必須與測試值不同。\n"
+msgstr ""
+"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值（通常為零）」之虛無假"
+"設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。\n"
 "\n"
-"單樣本t檢驗假設數據來自常態分佈——如果不願意假設這一點，可以使用非參數的Wilcoxon符號排名檢驗（但是，請注意，Wilcoxon符號排名有稍微不同的虛無假設；即中位數等於測試值）。"
+"Student 單一樣本 t 檢定假設資料來自常態分配——若不想假設此條件，可改用無母數"
+"的 Wilcoxon 符號等級檢定（但請注意， Wilcoxon 符號等級檢定的虛無假設略有不同"
+"，即檢定<i>中位數</i>是否等於檢定值）"
 
 #: package/analyses/ttestPS.description
-#, fuzzy
 msgid "The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "學生的配對樣本t檢驗（有時稱為相關樣本t檢驗）用於檢驗零假設，即配對測量之間的差異等於零。低p值表明零假設不成立，且測量配對之間的差異不為零。"
+msgstr ""
+"Student 成對樣本 t 檢定（有時稱為相依樣本 t 檢定）用於檢定「成對測量值之間的"
+"差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不為"
+"零。"
 
 #: ttestPS/options.description.main
-#, fuzzy
 msgid "The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
@@ -5579,82 +5535,76 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "學生的配對樣本 t 檢驗（有時稱為相關樣本 t 檢驗）用於檢驗零假設，即配對測量之間的差異等於零。低 p 值表明零假設不成立，且測量配對之間的差異不為零。\n"
+msgstr ""
+"Student 成對樣本 t 檢定（有時稱為相依樣本 t 檢定）用於檢定「成對測量值之間的"
+"差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不為"
+"零。\n"
 "\n"
-"學生的配對樣本 t 檢驗假設配對差異遵循正態分佈 -- 如果不願意假設這一點，可以使用非參數的 Wilcoxon 符號秩檢驗（但是請注意，Wilcoxon 符號秩檢驗的零假設略有不同，即兩組測量遵循相同的分佈）。"
+"Student 成對樣本 t 檢定假設成對差異服從常態分配——若不想假設此條件，可改用無母"
+"數的 Wilcoxon 符號等級檢定（但請注意，Wilcoxon 符號等級檢定的虛無假設略有不同"
+"，即檢定兩組測量值是否服從相同分配）。"
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
-#, fuzzy
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "提供作为计估境外平均。松与这里可以指定多个取量。"
+msgstr "要為其提供估計邊際平均數的項。您可以在此處指定多個項。"
 
 #: ttestOneS/options/testValue.description.ui
-#, fuzzy
 msgid "the test value to test against (typically zero)."
-msgstr "测试值"
+msgstr "用於檢定的對比值（通常為零）。"
 
 #: corrPart/options/type.description.ui
-#, fuzzy
 msgid "the type of correlation to calculate"
 msgstr "要計算的相關類型"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
-#, fuzzy
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr "使用一个和盈规之间的值"
+msgstr "要使用的平方和類型：型 1、2 或 3。"
 
 #: anovaRM/options/ss.description.ui
-#, fuzzy
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr "要使用的平方和類型；2型或3型。"
+msgstr "要使用的平方和類型；型 2或型 3。"
 
 #: ancova/results/model.description
 #: anova/results/model.description
-#, fuzzy
 msgid "The underlying `aov` object"
-msgstr "The underlying `aov` 对象"
+msgstr "潛在的 `aov` 物件"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "变量{var}不能被视为数值。预计数值数据的图将不会为此变量创建。"
+msgstr "變項 {var} 無法視為數值。需要數值資料的圖表將不會為此變項建立。"
 
 #: ttestIS/options/group.description.ui
-#, fuzzy
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr "指定群組的變數；必須有 2 個層級。"
+msgstr "指定組別的變項；必須有 2 個水準。"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "變數{vars}不能被視為數值。預計使用數值數據的圖表將不會為這些變數創建。"
+msgstr "變項 {vars} 無法視為數值。需要數值資料的圖表將不會為這些變項建立。"
 
 #: ttestOneS/options/vars.description.ui
-#, fuzzy
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "感興趣的變數——每個變數執行單獨的t檢定。"
+msgstr "感興趣的變項——將為每個指定的變項分別執行 t 檢定。"
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
-#, fuzzy
 msgid "the variables of interest."
-msgstr "感興趣的變數。"
+msgstr "感興趣的變項。"
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
-#, fuzzy
 msgid "the width for the Confidence intervals."
 msgstr "信賴區間的寬度。"
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
-#, fuzzy
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "χ²拟合优度检验（不应与χ²独立性检验混淆），测试观察的比例是否与预期比例相匹配的零假设。如果p值低，则表明零假设为假，真实比例与被测试的不同。"
+msgstr ""
+"卡方適配度檢定（勿與卡方獨立性檢定混淆）用於檢定「觀察值比例符合某期望比例」"
+"之虛無假設。若 p 值低，表示虛無假設可能為假，真實比例與檢定的比例不同。"
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
