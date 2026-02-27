@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 03:09+0000\n"
+"PO-Revision-Date: 2026-02-27 04:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -2024,7 +2024,7 @@ msgstr "期望次數"
 #: propTestN/options/ratio.title
 #: propTestN/ui[2].label
 msgid "Expected Proportions"
-msgstr "比例期望值"
+msgstr "期望比例"
 
 #: package/analyses/descriptives.menuGroup
 #: descriptives/options.menuGroup
@@ -2041,7 +2041,7 @@ msgstr "探索"
 #: efa/results.title
 #: efa/results/text.title
 msgid "Exploratory Factor Analysis"
-msgstr "探索性因素分析(EFA)"
+msgstr "探索性因素分析"
 
 #: efa/options/extraction.title
 msgid "Extraction"
@@ -2065,7 +2065,7 @@ msgstr "F檢定"
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
-msgstr "無法計算F統計值"
+msgstr "無法計算F統計量"
 
 #: R/efa.b.R
 #: package/analyses/reliability.menuGroup
@@ -2122,7 +2122,7 @@ msgstr "因素間共變數"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
-msgstr "因素係數"
+msgstr "因素估計值"
 
 #: cfa/results/factorEst/factorIntercept.title
 msgid "Factor Intercepts"
@@ -2141,16 +2141,16 @@ msgstr "因素負荷量"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
 msgid "Factor Loadings – Modification Indices"
-msgstr "因素負荷量 - 修正指標(Modification Indices)"
+msgstr "因素負荷量 - 修正指標"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
 msgid "Factor scores"
-msgstr "因素計分"
+msgstr "因素分數"
 
 #: R/efa.b.R
 msgid "Factor Statistics"
-msgstr "因素統計結果"
+msgstr "因素統計量"
 
 #: efa/options/factorSummary.title
 msgid "Factor summary"
@@ -2191,7 +2191,7 @@ msgstr "Fisher's"
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr "費雪正確機率檢定(Fisher's exact test)"
+msgstr "Fisher正確機率檢定"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -2476,7 +2476,7 @@ msgstr "同質性檢定"
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
 msgid "Hotelling's Trace"
-msgstr "Hotelling's Trace"
+msgstr "Hotelling's 跡"
 
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
@@ -2498,7 +2498,7 @@ msgstr "Huynh-Feldt ε"
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
 msgid "Hypothesis"
-msgstr "檢定假說"
+msgstr "檢定假設"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
@@ -2539,7 +2539,7 @@ msgstr "初始特徵值"
 
 #: pca/results/factorStats/factorCor.title
 msgid "Inter-Component Correlations"
-msgstr "主成分間相關"
+msgstr "成分間相關"
 
 #: R/pca.b.R
 msgid "Inter-Factor Correlations"
@@ -2953,7 +2953,7 @@ msgstr "McDonald's ω (項目刪除)"
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
 msgid "McFadden's R²"
-msgstr "McDonald's ω (if item is dropped)"
+msgstr "McFadden's R²"
 
 #: R/conttablespaired.b.R
 #, fuzzy
@@ -2992,7 +2992,7 @@ msgstr "McNemar 標種"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "Mean"
-msgstr "平均值"
+msgstr "平均數"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
@@ -3040,7 +3040,7 @@ msgstr "均方"
 
 #: anovaRMNP/options/plotType/means.title
 msgid "Means"
-msgstr "平均值"
+msgstr "平均數"
 
 #: R/anovarmnp.b.R
 #, fuzzy
@@ -3332,7 +3332,7 @@ msgstr "多變量檢定"
 
 #: R/descriptives.b.R
 msgid "N"
-msgstr "樣本數(N)"
+msgstr "樣本數"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
@@ -3352,13 +3352,13 @@ msgstr "Nagelkerke 的 R ◦"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr "沒有特徵值超過{value}的主成分"
+msgstr "沒有特徵值超過{value}的成分"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
 #: anovaRM/options/postHocCorr/none.title
 msgid "No correction"
-msgstr "無相關"
+msgstr "不校正"
 
 #: R/mancova.b.R
 #, fuzzy
@@ -3446,11 +3446,11 @@ msgstr "沒有足夠的自由度來估計所有模型效果"
 
 #: pca/ui[1][0][1].label
 msgid "Number of Components"
-msgstr "主成分數"
+msgstr "成分數"
 
 #: pca/options/nFactorMethod.title
 msgid "Number of components"
-msgstr "主成分數"
+msgstr "成分數"
 
 #: descriptives/options/extremeN.title
 msgid "Number of extreme values"
@@ -3632,7 +3632,7 @@ msgstr "選項"
 
 #: contTables/ui[1][0][1][1][0].label
 msgid "Ordinal"
-msgstr "次序變項"
+msgstr "次序"
 
 #: package/analyses/logRegOrd.title
 #: package/analyses/logRegOrd.description
@@ -3739,7 +3739,7 @@ msgstr "p<sub>tukey</sub>"
 #: package/analyses/contTablesPaired.menuTitle
 #: contTablesPaired/options.menuTitle
 msgid "Paired Samples"
-msgstr "相依樣本"
+msgstr "成對樣本"
 
 #: package/analyses/contTablesPaired.title
 #: contTablesPaired/options.title
@@ -3756,11 +3756,11 @@ msgstr "牒姣测试扰据表"
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr "相依樣本T檢定"
+msgstr "成對樣本T檢定"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
-msgstr "配對相依變項"
+msgstr "配對變項"
 
 #: anovaNP/results/comparisons.template.title
 #: anovaNP/results/comparisonsDunn.template.title
@@ -4859,7 +4859,7 @@ msgstr "RMSEA"
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "RMSEA 90% CI"
-msgstr "RMSEA 90% CI"
+msgstr "RMSEA 90% 信賴區間"
 
 #: logRegBin/ui[7][0][2][0].label
 msgid "ROC"
@@ -4984,12 +4984,12 @@ msgstr "因素{i}的分數。使用'{fsMethod}'方法估計。"
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
-msgstr "陡坡圖(Scree plot)"
+msgstr "陡坡圖"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
 msgid "Scree plot"
-msgstr "陡坡圖(Scree plot)"
+msgstr "陡坡圖"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -5002,7 +5002,7 @@ msgstr "陡坡圖(Scree plot)"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "標準差(SD)"
+msgstr "標準差"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5029,12 +5029,12 @@ msgstr "標準差(SD)"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SE"
-msgstr "標準誤(SE)"
+msgstr "標準誤"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "SE difference"
-msgstr "平均數差異標準誤"
+msgstr "差異標準誤"
 
 #: corrPart/options/type/semi.title
 #, fuzzy
@@ -5196,7 +5196,7 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr "SS負荷量"
+msgstr "負荷量SS"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
@@ -5210,7 +5210,7 @@ msgstr "重疊顯示"
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
 msgid "Stand. Estimate"
-msgstr "標準化係數"
+msgstr "標準化估計值"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
@@ -5232,12 +5232,12 @@ msgstr "標準誤"
 
 #: linReg/ui[5][0][1][0].label
 msgid "Standardized Estimate"
-msgstr "標準化係數"
+msgstr "標準化估計值"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
 msgid "Standardized estimate"
-msgstr "標準化係數"
+msgstr "標準化估計值"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5267,11 +5267,11 @@ msgstr "標準化殘差（調整皮爾森）"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr "統計值"
+msgstr "統計量"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
-msgstr "統計值"
+msgstr "統計量"
 
 #: anovaOneW/ui[2][0][1][0].label
 #: cfa/ui[3][1][0].label
@@ -5280,11 +5280,11 @@ msgstr "統計值"
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
 msgid "Statistics"
-msgstr "統計值"
+msgstr "統計量"
 
 #: descriptives/ui[2][2][0][0]/sd.label
 msgid "Std. deviation"
-msgstr "標準差(SD)"
+msgstr "標準差"
 
 #: R/descriptives.b.R
 msgid "Std. error kurtosis"
@@ -5409,7 +5409,7 @@ msgstr "檢定結果 (t 及 df)"
 
 #: cfa/options/estTest.title
 msgid "Test statistics"
-msgstr "檢定統計"
+msgstr "檢定統計量"
 
 #: ttestOneS/options/testValue.title
 msgid "Test Value"
@@ -6064,28 +6064,28 @@ msgstr "Tukey 事後檢定 – {dep}"
 
 #: R/anovarm.b.R
 msgid "Type {ssType} Sums of Squares"
-msgstr "Type {ssType} Sums of Squares"
+msgstr "第 {ssType} 類平方和"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
 msgid "Type 1"
-msgstr "Type 1"
+msgstr "型 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
 msgid "Type 2"
-msgstr "Type 2"
+msgstr "型 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
 msgid "Type 3"
-msgstr "Type 3"
+msgstr "型 3"
 
 #: R/linreg.b.R
 msgid "Type 3 sum of squares"
-msgstr "Type 3 sum of squares"
+msgstr "型 3 平方和"
 
 #: R/descriptives.b.R
 msgid "Unable to split by a continuous variable"
@@ -6093,7 +6093,7 @@ msgstr "無法被連續變項切分"
 
 #: pca/results/loadings.columns.title
 msgid "Uniqueness"
-msgstr "Uniqueness"
+msgstr "唯一性"
 
 #: mancova/results/univar.title
 msgid "Univariate Tests"
@@ -6143,15 +6143,15 @@ msgstr "上界"
 #: contTablesPaired/results/test.columns.title
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Value"
-msgstr "Value"
+msgstr "值"
 
 #: mancova/results/multivar.columns.title
 msgid "value"
-msgstr "value"
+msgstr "值"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
 msgid "values"
-msgstr "個資料"
+msgstr "值"
 
 #: propTest2/options/areCounts.title
 #, fuzzy
@@ -6238,7 +6238,7 @@ msgstr "VIF"
 
 #: descriptives/options/violin.title
 msgid "Violin"
-msgstr "小提琴圖(Violin)"
+msgstr "小提琴圖"
 
 #: R/descriptives.b.R
 #, fuzzy
@@ -6295,7 +6295,7 @@ msgstr "Welch's t"
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
 msgid "Wilcoxon rank"
-msgstr "Wilcoxon rank"
+msgstr "Wilcoxon 等級"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
