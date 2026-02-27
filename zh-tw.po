@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 04:09+0000\n"
+"PO-Revision-Date: 2026-02-27 05:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -56,7 +56,7 @@ msgstr "{} - Spearman rho"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% 信賴區間下界(CI Lower)"
+msgstr "{ciWidth}% 信賴區間下界"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
@@ -64,7 +64,7 @@ msgstr "{ciWidth}% 平均數信賴區間 {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% 信賴區間上界(CI Upper)"
+msgstr "{ciWidth}% 信賴區間上界"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -395,9 +395,8 @@ msgstr "包含 Box-Tidwell 檢驗結果的表格"
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
-#, fuzzy
 msgid "a table containing the t-test results"
-msgstr "包含 t 檢驗結果的表格"
+msgstr "包含 t 檢定結果的表格"
 
 #: ancova/results/main.description
 msgid "a table of ANCOVA results"
@@ -414,23 +413,20 @@ msgid "a table of comparative measures"
 msgstr "比較衡量表"
 
 #: anovaOneW/results/assump/eqv.description
-#, fuzzy
 msgid "a table of homogeneity of variances tests"
-msgstr "同質性檢驗表"
+msgstr "變異數同質性檢定表格"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
-#, fuzzy
 msgid "a table of homogeneity tests"
-msgstr "同質性檢驗表"
+msgstr "同質性檢定表格"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
-#, fuzzy
 msgid "a table of likelihood ratio tests"
-msgstr "似然比檢驗表"
+msgstr "似然比檢定表"
 
 #: logRegOrd/results/models.template/thres.description
 #, fuzzy
@@ -442,9 +438,8 @@ msgstr "模型係數閾值表"
 #: logRegBin/results/models.template/coef.description
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
-#, fuzzy
 msgid "a table of model coefficients"
-msgstr "模型係數的表格"
+msgstr "模型係數表"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
@@ -453,9 +448,8 @@ msgid "a table of normality tests"
 msgstr "常態性檢定表"
 
 #: contTables/results/postHoc.description
-#, fuzzy
 msgid "a table of post-hoc residuals"
-msgstr "事後殘差表"
+msgstr "事後比較殘差表"
 
 #: logRegBin/results/models.template/pred/class.description
 #, fuzzy
@@ -463,50 +457,41 @@ msgid "a table of predicted classifications"
 msgstr "預測分類表"
 
 #: logRegBin/results/models.template/pred/measures.description
-#, fuzzy
 msgid "a table of predictive measures"
-msgstr "預測措施的表格"
+msgstr "預測指標表"
 
 #: contTables/results/freqs.description
-#, fuzzy
 msgid "a table of proportions"
-msgstr "一个比例表"
+msgstr "比例表"
 
 #: contTablesPaired/results/test.description
-#, fuzzy
 msgid "a table of test results"
-msgstr "检验结果表"
+msgstr "檢定結果表"
 
 #: contTables/results/nom.description
-#, fuzzy
 msgid "a table of the 'nominal' test results"
-msgstr "一个「原姐」標種结果的表格"
+msgstr "「名義」檢定結果表"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
-#, fuzzy
 msgid "a table of the descriptive statistics"
-msgstr "描述性統計的表格"
+msgstr "描述性統計表"
 
 #: anovaRMNP/results/table.description
-#, fuzzy
 msgid "a table of the Friedman test results"
-msgstr "Friedman檢驗結果表"
+msgstr "Friedman檢定結果表"
 
 #: contTables/results/gamma.description
-#, fuzzy
 msgid "a table of the gamma test results"
-msgstr "Gamma測試結果表"
+msgstr "Gamma 檢定結果表"
 
 #: contTables/results/taub.description
-#, fuzzy
 msgid "a table of the Kendall's tau-b test results"
-msgstr "肯德尔tau-b检验结果表"
+msgstr "Kendall's tau-b 檢定結果表"
 
 #: contTables/results/mh.description
-#, fuzzy
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr "一个作为 Mantel-Haenszel 测试中的表"
+msgstr "Mantel-Haenszel 趨勢檢定表"
 
 #: anovaRMNP/results/comp.description
 #, fuzzy
@@ -519,21 +504,18 @@ msgid "a table of the proportions"
 msgstr "比例表"
 
 #: propTest2/results/table.description
-#, fuzzy
 msgid "a table of the proportions and test results"
-msgstr "一个表格中包含一个测试结果"
+msgstr "比例與檢定結果表"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
-#, fuzzy
 msgid "a table of the test results"
-msgstr "檢驗結果的表格"
+msgstr "檢定結果表"
 
 #: contTables/results/chiSq.description
-#, fuzzy
 msgid "a table of χ² test results"
-msgstr "一个表格中包含 χ² 测试结果"
+msgstr "卡方檢定結果表"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -618,9 +600,8 @@ msgstr "對立假設"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
-#, fuzzy
 msgid "an array of contrasts tables"
-msgstr "一个表格中包含一个测试结果"
+msgstr "對比表格陣列"
 
 #: descriptives/results/plots.description
 #, fuzzy
@@ -633,37 +614,32 @@ msgid "an array of extreme values tables"
 msgstr "極端值表陣列"
 
 #: descriptives/results/frequencies.description
-#, fuzzy
 msgid "an array of frequency tables"
-msgstr "一个比轉表的数组"
+msgstr "次數分配表陣列"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
-#, fuzzy
 msgid "an array of groups of plots"
-msgstr "一个数组中包含一个测试结果"
+msgstr "圖表群組陣列"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
 #: logRegBin/results/models.description
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
-#, fuzzy
 msgid "an array of model specific results"
-msgstr "特定模型的结果数组"
+msgstr "模型特定結果陣列"
 
 #: anovaNP/results/comparisons.description
 #: anovaNP/results/comparisonsDunn.description
-#, fuzzy
 msgid "an array of pairwise comparison tables"
-msgstr "配对比较表数组"
+msgstr "成對比較表格陣列"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
-#, fuzzy
 msgid "an array of post-hoc tables"
-msgstr "事後表陣列"
+msgstr "事後比較表格陣列"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
@@ -681,9 +657,8 @@ msgstr "描述性圖表的陣列"
 #: logLinear/results/models.template/emm.description
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
-#, fuzzy
 msgid "an array of the estimated marginal means plots + tables"
-msgstr "一个作为计估境外平均图片 + 表的数组"
+msgstr "估計邊際平均數圖與表陣列"
 
 #: propTest2/results/postPlots.description
 #, fuzzy
@@ -1345,17 +1320,17 @@ msgstr "校正"
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
 msgid "Correlated"
-msgstr "有相關"
+msgstr "相關"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
 msgid "Correlated negatively"
-msgstr "有負相關"
+msgstr "負相關"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
 msgid "Correlated positively"
-msgstr "有正相關"
+msgstr "正相關"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
@@ -2232,9 +2207,8 @@ msgstr "標記顯著比較"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
-#, fuzzy
 msgid "Flag significant correlations"
-msgstr "標記顯著相關性"
+msgstr "標記顯著相關"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
@@ -2326,7 +2300,7 @@ msgstr "Greenhouse-Geisser ε"
 
 #: ttestIS/results/desc.columns.title
 msgid "Group"
-msgstr "群組"
+msgstr "組別"
 
 #: R/conttables.b.R
 msgid "Group 1"
@@ -2391,15 +2365,13 @@ msgstr "組別變項 '{a}' 不能同時是依變項"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
-#, fuzzy
 msgid "Hₐ is negative correlation"
-msgstr "Hₐ 是 过多和盈规"
+msgstr "對立假設為負相關"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
-#, fuzzy
 msgid "Hₐ is positive correlation"
-msgstr "Hₐ 是 润动和盈规"
+msgstr "對立假設為正相關"
 
 #: R/proptest2.b.R
 #, fuzzy
@@ -5201,7 +5173,7 @@ msgstr "負荷量SS"
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
 msgid "Stacked"
-msgstr "重疊顯示"
+msgstr "堆疊"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
