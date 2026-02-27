@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 00:15+0000\n"
+"PO-Revision-Date: 2026-02-27 01:09+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
-msgstr "'{col}' содержит неопределенное количество значений"
+msgstr "'{col}' содержит неопределенные значения"
 
 #: R/errors.R
 msgid "'{col}' contains missing values"
@@ -61,7 +61,7 @@ msgstr "{ciWidth}% ДИ нижний"
 
 #: R/descriptives.b.R
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}% ДИ средина {title}"
+msgstr "{ciWidth}% ДИ среднее {title}"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Upper"
@@ -787,7 +787,7 @@ msgstr "Столбиковые графики"
 #: contTables/options/bartype.title
 #: contTables/ui[1][3][0][0][1].label
 msgid "Bar Type"
-msgstr "Тип бара"
+msgstr "Тип Столбца"
 
 #: efa/options/factorScoreMethod/Bartlett.title
 msgid "Bartlett"
@@ -1558,7 +1558,7 @@ msgstr "Зависимая переменная"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains infinite values"
-msgstr "Зависимая переменная '{dep}' содержит неопределенное количество значений"
+msgstr "Зависимая переменная '{dep}' содержит неопределенные значения"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
@@ -1845,7 +1845,9 @@ msgstr "Собственные значения более"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "Пустые клетки между предметом дизайна: по крайней мере одно сочетание между уровнями фактора предмета имеет 0 наблюдений"
+msgstr ""
+"Пустые ячейки в межсубъектном плане: по крайней мере одно сочетание между "
+"уровнями фактора предмета имеет 0 наблюдений"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2526,7 +2528,7 @@ msgstr "Элемент '{item}' содержит только один уров�
 #: R/anovarm.b.R
 #: R/reliability.b.R
 msgid "Item '{item}' contains infinite values"
-msgstr "Элемент '{item}' содержит неопределенное количество значений"
+msgstr "Элемент '{item}' содержит неопределенные значения"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
@@ -3250,7 +3252,7 @@ msgstr "Непараметрический"
 #: efa/options/rotation/none.title
 #: pca/options/rotation/none.title
 msgid "None"
-msgstr "Никто"
+msgstr "Отсутствует"
 
 #: R/pca.b.R
 msgid "none"
@@ -4235,7 +4237,7 @@ msgstr "Q-Q"
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr "Q-Q График"
+msgstr "Q-Q график"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -4628,11 +4630,11 @@ msgstr "Масштабный анализ"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
-msgstr "Масштабный коэффициент = первый индикатор масштаба"
+msgstr "Приравнять масштаб к первому индикатору"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
-msgstr "Статистики надежности весов"
+msgstr "Статистики шкалы надежности"
 
 #: reliability/ui[1][0][0].label
 msgid "Scale Statistics"
@@ -5021,7 +5023,7 @@ msgstr "t"
 #: ttestOneS/options.menuGroup
 #: ttestPS/options.menuGroup
 msgid "T-Tests"
-msgstr "Т-тесты"
+msgstr "Т-Критерии"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
@@ -5804,7 +5806,7 @@ msgstr "значения"
 
 #: propTest2/options/areCounts.title
 msgid "Values are counts"
-msgstr "Значения и счетчики"
+msgstr "Значения являются частотами"
 
 #: linReg/ui[2]/refLevels.columns.label
 #: logLinear/ui[2]/refLevels.columns.label
