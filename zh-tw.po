@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 07:09+0000\n"
+"PO-Revision-Date: 2026-02-27 08:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -1675,9 +1675,8 @@ msgid "Deviance"
 msgstr "離差(Deviance)"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Deviance residuals"
-msgstr "轉差应承。"
+msgstr "離差殘差"
 
 #: contTables/options/resA.title
 #, fuzzy
@@ -1685,9 +1684,8 @@ msgid "Deviance residuals (Poisson GLM)"
 msgstr "偏差殘差（Poisson GLM）"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr "偏差残差是来自泊松广义线性模型的调整残差。"
+msgstr "離差殘差是來自卜瓦松廣義線性模型的調整後殘差。"
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1768,9 +1766,8 @@ msgid "Distribution"
 msgstr "分布"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Does not support weighted data yet."
-msgstr "尚不支援加權數據。"
+msgstr "尚不支援加權資料。"
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1802,9 +1799,8 @@ msgstr "DSCF 成對比較"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
-#, fuzzy
 msgid "Dunn's pairwise comparisons"
-msgstr "邓恩配对比较"
+msgstr "Dunn 成對比較"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -2182,9 +2178,8 @@ msgstr "固定因素"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
-#, fuzzy
 msgid "Fixed number"
-msgstr "固定數"
+msgstr "固定數目"
 
 #: R/cfa.b.R
 #, fuzzy
@@ -2203,14 +2198,12 @@ msgstr "標記顯著相關"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
-#, fuzzy
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "標種不縮三个群的影响不縮一致。 p < .05、使用符号推定。"
+msgstr "使用符號標記顯著相關 (p < .05)。"
 
 #: anovaOneW/options/phFlag.description.ui
-#, fuzzy
 msgid "flag significant post-hoc comparisons."
-msgstr "標記顯著的事後比較"
+msgstr "標記顯著的事後比較。"
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -2227,9 +2220,8 @@ msgid "Frequencies"
 msgstr "次數"
 
 #: descriptives/results/frequencies.template.title
-#, fuzzy
 msgid "Frequencies of $key"
-msgstr "關鍵字的頻率"
+msgstr "$key 的次數"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
@@ -2243,9 +2235,8 @@ msgid "Friedman"
 msgstr "Friedman"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
-#, fuzzy
 msgid "Full information maximum likelihood"
-msgstr "完整信息最大似然"
+msgstr "完整信息最大似然法"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
 msgid "Games-Howell (unequal variances)"
@@ -2276,9 +2267,8 @@ msgid "Generalised η²"
 msgstr "Generalised η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
-#, fuzzy
 msgid "Grand mean (simple coding)"
-msgstr "總均值（簡單編碼）"
+msgstr "總平均數（簡單編碼）"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -2365,14 +2355,12 @@ msgid "Hₐ is positive correlation"
 msgstr "對立假設為正相關"
 
 #: R/proptest2.b.R
-#, fuzzy
 msgid "Hₐ is proportion {direction} {testValue}"
-msgstr "Hₐ 是 {direction} {testValue} 的比例"
+msgstr "對立假設為比例 {direction} {testValue}"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Haldane-Anscombe correction applied"
-msgstr "Haldane-Anscombe 改行应用"
+msgstr "已應用 Haldane-Anscombe 校正"
 
 #: efa/options/factorScoreMethod/Harman.title
 msgid "Harman"
@@ -2393,9 +2381,8 @@ msgstr "隱藏"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
-#, fuzzy
 msgid "Hide loadings below"
-msgstr "隱藏下載數據"
+msgstr "隱藏低於此值之負荷量"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -3628,9 +3615,8 @@ msgid "Output"
 msgstr "輸出"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Overall"
-msgstr "總體"
+msgstr "整體"
 
 #: R/ancova.b.R
 #, fuzzy
@@ -5120,7 +5106,7 @@ msgstr "因素"
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Specificity"
-msgstr "特異度(Specificity)"
+msgstr "特異性"
 
 #: anovaRM/results/rmTable.columns.title
 #, fuzzy
