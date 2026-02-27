@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 19:09+0000\n"
+"PO-Revision-Date: 2026-02-27 20:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -100,11 +100,11 @@ msgstr "{list}, 及 {lastItem}"
 
 #: R/ttestps.b.R
 msgid "{n} pair(s) of values were tied"
-msgstr "{n} 對數值為同值(tied)"
+msgstr "{n} 對數值為同值（tied）"
 
 #: R/reliability.b.R
 msgid "{type} score based on the variables {vars}"
-msgstr "{vars} 資料變數的 {type} 分數"
+msgstr "基於 {vars} 變項的 {type} 分數"
 
 #: R/reliability.b.R
 msgid "{varName} (reversed)"
@@ -112,11 +112,11 @@ msgstr "{varName} (反向)"
 
 #: R/logregbin.b.R
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr "二元變項邏輯斯迴歸(binomial logistic regression)模型{modelNo}的{varType}"
+msgstr "二元邏輯斯迴歸模型{modelNo}的{varType}"
 
 #: R/linreg.b.R
 msgid "{varType} of linear regression model{modelNo}"
-msgstr "線性迴歸(linear regression)模型{modelNo}的{varType}"
+msgstr "線性迴歸模型{modelNo}的{varType}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -242,7 +242,7 @@ msgstr "1 - 特異性"
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
 msgid "2 Outcomes"
-msgstr "二元變項"
+msgstr "二元結果"
 
 #: descriptives/options/pcValues.default
 msgid "25,50,75"
@@ -250,7 +250,7 @@ msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
 msgid "a (semi)partial correlation matrix table"
-msgstr "(半)淨相關矩陣表"
+msgstr "(半)偏相關矩陣表"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
@@ -299,7 +299,7 @@ msgstr "分位圖(Q-Q plot)"
 
 #: package/datasets/Bugs(Ryan,Wilde&Crist,2013).description
 msgid "A repeated measures ANOVA data set"
-msgstr "重複測量ANOVA資料集"
+msgstr "重複量數變異數分析資料集"
 
 #: anovaRM/results/groupSummary.description
 msgid "a summary of the groups"
@@ -386,7 +386,7 @@ msgstr "包含常態性檢定的表格"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
 msgid "a table containing the results from the Box-Tidwell test"
-msgstr "包含 Box-Tidwell 檢驗結果的表格"
+msgstr "包含 Box-Tidwell 檢定結果的表格"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
@@ -519,7 +519,7 @@ msgstr "準確率(Accuracy)"
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.addButton
 msgid "Add New Block"
-msgstr "增加新區集(block)"
+msgstr "增加新區集 (block)"
 
 #: cfa/ui[0][0]/factors.addButton
 msgid "Add New Factor"
@@ -579,7 +579,7 @@ msgstr "AIC"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr "所有觀察值皆相同(tied)"
+msgstr "所有觀察值皆相同 (tied)"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -744,7 +744,7 @@ msgstr "前提假設檢驗"
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
 msgid "Assumptions"
-msgstr "假設"
+msgstr "假定"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
@@ -761,7 +761,7 @@ msgstr "序列相關(Autocorrelation)"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr "序列相關(Autocorrelation)檢定"
+msgstr "序列相關 (Autocorrelation) 檢定"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
@@ -870,7 +870,7 @@ msgstr "BIC"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).name
 msgid "Big 5 (Dolan, Oort, Stoel & Wicherts, 2009)"
-msgstr "大五人格（Dolan, Oort, Stoel & Wicherts, 2009）"
+msgstr "大五人格 (Dolan, Oort, Stoel & Wicherts, 2009)"
 
 #: package/analyses/logRegBin.menuSubtitle
 #: logRegBin/options.menuSubtitle
@@ -884,7 +884,7 @@ msgstr "二項式"
 #: logRegBin/ui.title
 #: logRegBin/results.title
 msgid "Binomial Logistic Regression"
-msgstr "二元羅吉斯迴歸"
+msgstr "二元邏輯斯迴歸"
 
 #: propTest2/results/table.title
 msgid "Binomial Test"
@@ -954,7 +954,7 @@ msgstr "Box's M 檢定"
 
 #: mancova/options/boxM.title
 msgid "Box's M test for homogeneity of covariance matrices"
-msgstr "Box M 共變數矩陣同質性檢定"
+msgstr "Box's M 共變數矩陣同質性檢定"
 
 #: package/datasets/Bugs(Ryan,Wilde&Crist,2013).name
 msgid "Bugs (Ryan, Wilde & Crist, 2013)"
@@ -1034,7 +1034,7 @@ msgstr "直行"
 
 #: contTables/options/compare/columns.title
 msgid "columns"
-msgstr "直欄"
+msgstr "直行"
 
 #: R/conttables.b.R
 msgid "Columns compared"
@@ -1268,7 +1268,7 @@ msgstr "控制 {items} 變項"
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
 msgid "Cook's Distance"
-msgstr "庫克(Cook)距離"
+msgstr "庫克 (Cook) 距離"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
@@ -1278,7 +1278,7 @@ msgstr "庫克(Cook)距離"
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
 msgid "Cook's distance"
-msgstr "庫克(Cook)距離"
+msgstr "庫克 (Cook) 距離"
 
 #: ancova/options/postHocCorr.title
 #: ancova/ui[5][1][0].label
@@ -1405,7 +1405,7 @@ msgstr "次數"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "次數（可選）"
+msgstr "次數 (可選)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -1554,11 +1554,11 @@ msgstr "'{dep}'依變項中包含無限大數值"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "'{dep}'依變項未包含資料(移除缺漏值之後)"
+msgstr "'{dep}'依變項未包含資料 (移除缺漏值之後)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "'{dep}'依變項僅包含一種數值(移除缺漏值後)"
+msgstr "'{dep}'依變項僅包含一種數值 (移除缺漏值後)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -1654,7 +1654,7 @@ msgstr "描述統計表"
 #: logRegOrd/options/dev.title
 #: logRegOrd/results/modelFit.columns.title
 msgid "Deviance"
-msgstr "離差(Deviance)"
+msgstr "離差 (Deviance)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals"
@@ -1662,7 +1662,7 @@ msgstr "離差殘差"
 
 #: contTables/options/resA.title
 msgid "Deviance residuals (Poisson GLM)"
-msgstr "偏差殘差（Poisson GLM）"
+msgstr "偏差殘差 (Poisson GLM)"
 
 #: R/conttables.b.R
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
@@ -4731,7 +4731,7 @@ msgstr "半偏相關性"
 #: logRegBin/options/sens.title
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Sensitivity"
-msgstr "敏感度(Sensitivity)"
+msgstr "敏感性"
 
 #: R/descriptives.b.R
 #: ancova/results/assump/norm.columns.content
