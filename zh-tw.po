@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-28 07:09+0000\n"
+"PO-Revision-Date: 2026-02-28 08:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -313,7 +313,7 @@ msgstr "群組的摘要"
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
 msgid "a table containing estimated marginal means"
-msgstr "包含估計的邊緣平均數的表格"
+msgstr "包含估計的邊際平均數的表格"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
@@ -708,7 +708,7 @@ msgstr "變異數分析"
 
 #: linReg/options/anova.title
 msgid "ANOVA test"
-msgstr "變異數分析檢定"
+msgstr "ANOVA 檢定"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
@@ -1019,7 +1019,7 @@ msgstr "共線性統計量"
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
 msgid "Column"
-msgstr "欄位"
+msgstr "直行"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -1038,7 +1038,7 @@ msgstr "直行"
 
 #: R/conttables.b.R
 msgid "Columns compared"
-msgstr "比較欄位"
+msgstr "直行比較"
 
 #: contTables/results/odds.title
 msgid "Comparative Measures"
@@ -1847,7 +1847,7 @@ msgstr "受試者間設計包含空的組合(cell)：至少一個以上的受試
 #: logRegBin/options/emmWeights.title
 #: logRegMulti/options/emmWeights.title
 msgid "Equal cell weights"
-msgstr "每組的權重相同"
+msgstr "每細格的權重相同"
 
 #: descriptives/ui[2][0][1][0]/pcEqGr/pcNEqGr.suffix
 msgid "equal groups"
@@ -3117,7 +3117,7 @@ msgstr "模型設定結果"
 #: anovaRM/options/rmTerms.title
 #: anovaRM/options/bsTerms.title
 msgid "Model Terms"
-msgstr "模型項"
+msgstr "模型項目"
 
 #: pca/results/modelFit/fit.columns.superTitle
 msgid "Model Test"
@@ -3208,7 +3208,7 @@ msgstr "N 個結果"
 #: logRegMulti/options/pseudoR2/r2n.title
 #: logRegOrd/options/pseudoR2/r2n.title
 msgid "Nagelkerke's R²"
-msgstr "Nagelkerke 的 R²"
+msgstr "Nagelkerke's R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
@@ -3371,7 +3371,7 @@ msgstr "總計的"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr "整體變異數分析檢定"
+msgstr "整體 ANOVA 檢定"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
@@ -3867,7 +3867,7 @@ msgstr "事後檢定 ({title})"
 #: contTables/ui[1][2][0][0][0].label
 #: contTables/results/postHoc.title
 msgid "Post Hoc Tests"
-msgstr "事後比較"
+msgstr "事後檢定"
 
 #: anovaOneW/results/postHoc.template.title
 msgid "Post Hoc Tests – $key"
@@ -4351,11 +4351,11 @@ msgstr "比率"
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 msgid "Reference Level"
-msgstr "參照層級"
+msgstr "參照基準"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
 msgid "Reference level (dummy coding)"
-msgstr "參照層級 (虛擬編碼)"
+msgstr "參照基準 (虛擬編碼)"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -4368,7 +4368,7 @@ msgstr "參照層級 (虛擬編碼)"
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
 msgid "Reference Levels"
-msgstr "參照層級"
+msgstr "參照基準組"
 
 #: package/analyses/corrMatrix.menuGroup
 #: package/analyses/corrPart.menuGroup
@@ -4444,11 +4444,11 @@ msgstr "報告顯著性"
 
 #: R/linreg.b.R
 msgid "Represents grand mean"
-msgstr "代表總均值"
+msgstr "代表總平均數"
 
 #: R/linreg.b.R
 msgid "Represents reference level"
-msgstr "代表參照層級"
+msgstr "代表參照基準組"
 
 #: R/anovarm.b.R
 msgid "Residual"
@@ -4579,7 +4579,7 @@ msgstr "旋轉"
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
 msgid "Row"
-msgstr "列"
+msgstr "橫列"
 
 #: descriptives/results/extremeValues.template.columns.title
 msgid "Row number"
@@ -4594,15 +4594,15 @@ msgstr "行變項 '{var}' 含有少於2個層級"
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
 msgid "Rows"
-msgstr "列"
+msgstr "橫列"
 
 #: contTables/options/compare/rows.title
 msgid "rows"
-msgstr "列"
+msgstr "橫列"
 
 #: R/conttables.b.R
 msgid "Rows compared"
-msgstr "比較的列"
+msgstr "橫列比較"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
@@ -5047,7 +5047,7 @@ msgstr "ten Berge"
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
 msgid "Term {0}"
-msgstr "項 {0}"
+msgstr "項目 {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5057,7 +5057,7 @@ msgstr "項 {0}"
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 msgid "Term 1"
-msgstr "項 1"
+msgstr "項目 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
@@ -5449,7 +5449,7 @@ msgstr "模型的重複測量項。"
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
 msgstr ""
-"下列變項中未找到指定的參照水準：{vars}。將使用第一個可用的水準作為預設。若要"
+"下列變項中未找到指定的參照基準：{vars}。將使用第一個可用的水準作為預設。若要"
 "使用自訂參照水準，請確保資料中包含您定義的參照水準。"
 
 #: package/analyses/ttestIS.description
@@ -5649,7 +5649,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr "Tjur 的 R²"
+msgstr "Tjur's R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -5902,7 +5902,7 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "對每個細格賦予相同權重。（預設情況下，細格會根據其次數加權。）"
+msgstr "對每個細格賦予相同權重。(預設情況下，細格會根據其次數加權。)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
