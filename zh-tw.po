@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-28 06:09+0000\n"
+"PO-Revision-Date: 2026-02-28 07:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -295,7 +295,7 @@ msgstr "比例表"
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
 msgid "a q-q plot"
-msgstr "分位圖(Q-Q plot)"
+msgstr "分位圖 (q-q圖)"
 
 #: package/datasets/Bugs(Ryan,Wilde&Crist,2013).description
 msgid "A repeated measures ANOVA data set"
@@ -631,7 +631,7 @@ msgstr "事後比較表格陣列"
 
 #: ttestOneS/results/qq.description
 msgid "an array of Q-Q plots"
-msgstr "分位圖(Q-Q plots)陣列"
+msgstr "分位圖 (Q-Q 圖) 陣列"
 
 #: ttestPS/results/plots.description
 msgid "an array of the descriptive plots"
@@ -946,7 +946,7 @@ msgstr "Logit 線性之 Box-Tidwell 檢定"
 
 #: mancova/results/assump/boxM.title
 msgid "Box's Homogeneity of Covariance Matrices Test"
-msgstr "Box 共變數矩陣同質性檢定"
+msgstr "Box's 共變數矩陣同質性檢定"
 
 #: mancova/ui[1][1][0]/boxM.label
 msgid "Box's M test"
@@ -1433,7 +1433,7 @@ msgstr "計數必須是非負數或是非無限大"
 #: logRegOrd/ui[0][1].label
 #: mancova/options/covs.title
 msgid "Covariates"
-msgstr "共變項"
+msgstr "共變量"
 
 #: logLinear/options/pseudoR2/r2cs.title
 #: logRegBin/options/pseudoR2/r2cs.title
@@ -1940,7 +1940,7 @@ msgstr "參數估計法"
 #: ttestOneS/ui[1][0][2]/miss_perAnalysis.label
 #: ttestPS/ui[1][0][2]/miss_perAnalysis.label
 msgid "Exclude cases analysis by analysis"
-msgstr "依個別分析排除觀察值"
+msgstr "在成對分析中排除 (成對排除)"
 
 #: anovaOneW/ui[1][0][1]/miss_listwise.label
 #: cfa/ui[2][0][0]/miss_listwise.label
@@ -1948,7 +1948,7 @@ msgstr "依個別分析排除觀察值"
 #: ttestOneS/ui[1][0][2]/miss_listwise.label
 #: ttestPS/ui[1][0][2]/miss_listwise.label
 msgid "Exclude cases listwise"
-msgstr "在所有分析中排除"
+msgstr "在所有分析中排除 (完全排除)"
 
 #: anovaRM/results/groupSummary.columns.title
 msgid "Excluded"
@@ -2167,17 +2167,17 @@ msgstr "固定參數"
 
 #: anovaOneW/options/phFlag.title
 msgid "Flag significant comparisons"
-msgstr "標記顯著比較"
+msgstr "標記顯著的比較"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
 msgid "Flag significant correlations"
-msgstr "標記顯著相關"
+msgstr "標記顯著的相關"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "使用符號標記顯著相關 (p < .05)。"
+msgstr "使用符號標記顯著的相關 (p < .05)。"
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
@@ -2425,7 +2425,7 @@ msgstr "Huynh-Feldt ε"
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
 msgid "Hypothesis"
-msgstr "檢定假設"
+msgstr "假設"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
@@ -2749,7 +2749,7 @@ msgstr "馬氏距離 (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "馬氏距離僅能於包含兩個或以上共變項的模型中計算"
+msgstr "馬氏距離僅能於包含兩個或以上共變量的模型中計算"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -2935,19 +2935,19 @@ msgstr "測量"
 
 #: R/ttestps.b.R
 msgid "Measure 1 - Measure 2"
-msgstr "測量值 1 - 測量值 2"
+msgstr "測量 1 - 測量 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_twoGreater.label
 msgid "Measure 1 < Measure 2"
-msgstr "測量值 1 < 測量值 2"
+msgstr "測量 1 < 測量 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_different.label
 msgid "Measure 1 ≠ Measure 2"
-msgstr "測量值 1 ≠ 測量值 2"
+msgstr "測量 1 ≠ 測量 2"
 
 #: ttestPS/ui[1][0][1]/hypothesis_oneGreater.label
 msgid "Measure 1 > Measure 2"
-msgstr "測量值 1 > 測量值 2"
+msgstr "測量 1 > 測量 2"
 
 #: anovaRMNP/options/measures.title
 msgid "Measures"
@@ -3280,7 +3280,7 @@ msgstr "常態性檢定"
 #: ttestOneS/results/normality.title
 #: ttestPS/results/norm.title
 msgid "Normality Test (Shapiro-Wilk)"
-msgstr "常態性檢定(Shapiro-Wilk)"
+msgstr "常態性檢定 (Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
@@ -3753,23 +3753,23 @@ msgstr "執行常態性 Shapiro-Wilk 檢定。p 值低表示殘差非常態分�
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
-msgstr "執行Student獨立樣本 t 檢定。"
+msgstr "執行 Student's 獨立樣本 t 檢定。"
 
 #: ttestOneS/options/students.description.ui
 msgid "perform Student's one-sample t-tests."
-msgstr "執行Student單一樣本 t 檢定。"
+msgstr "執行 Student's 單一樣本 t 檢定。"
 
 #: ttestPS/options/students.description.ui
 msgid "perform Student's paired samples t-tests."
-msgstr "執行Student成對樣本 t 檢定。"
+msgstr "執行 Student's 成對樣本 t 檢定。"
 
 #: anovaOneW/options/welchs.description.ui
 msgid "perform Welch's ANOVAs."
-msgstr "進行 Welch 的變異數分析。"
+msgstr "進行 Welch's 變異數分析。"
 
 #: ttestIS/options/welchs.description.ui
 msgid "perform Welch's tests."
-msgstr "執行 Welch 檢定。"
+msgstr "執行 Welch's 檢定。"
 
 #: ttestOneS/options/wilcoxon.description.ui
 #: ttestPS/options/wilcoxon.description.ui
@@ -4054,7 +4054,7 @@ msgstr ""
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "提供每組變項組合的Spearman rho值。"
+msgstr "提供每組變項組合的Spearman's rho值。"
 
 #: ttestOneS/options/desc.description.ui
 msgid "provide a table of descriptives for each variable."
@@ -4068,15 +4068,15 @@ msgstr "提供估計的邊緣平均數表。"
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "提供 Student 獨立樣本 t 檢定的貝氏因子。"
+msgstr "提供 Student 's 獨立樣本 t 檢定的貝氏因子。"
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "提供 Student 的單樣本 t 檢驗的貝氏因子。"
+msgstr "提供 Student's 的單樣本 t 檢驗的貝氏因子。"
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "提供 Student 成對樣本 t 檢定的貝氏因子。"
+msgstr "提供 Student's 成對樣本 t 檢定的貝氏因子。"
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
@@ -4133,12 +4133,12 @@ msgstr "提供效果量 (Cohen's d)。"
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "提供變異數同質性 Levene 檢定。p 值低表示各組變異數不相等。"
+msgstr "提供變異數同質性 Levene's 檢定。p 值低表示各組變異數不相等。"
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "提供變異數同質性 Levene 檢定。p 值低表示各組變異數不相等。"
+msgstr "提供變異數同質性 Levene's 檢定。p 值低表示各組變異數不相等。"
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4235,7 +4235,7 @@ msgstr "Q-Q"
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
 msgid "Q-Q Plot"
-msgstr "分位圖(Q-Q plots)"
+msgstr "分位圖 (Q-Q 圖)"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -4244,7 +4244,7 @@ msgstr "分位圖(Q-Q plots)"
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
 msgid "Q-Q plot"
-msgstr "Q-Q 圖"
+msgstr "分位圖 (Q-Q 圖)"
 
 #: mancova/results/assump/qqPlot.title
 msgid "Q-Q Plot Assessing Multivariate Normality"
@@ -4256,15 +4256,15 @@ msgstr "多變量常態性 Q-Q 圖"
 
 #: linReg/options/qqPlot.title
 msgid "Q-Q plot of residuals"
-msgstr "殘差分位圖(Q-Q plots)"
+msgstr "殘差分位圖 (Q-Q 圖)"
 
 #: descriptives/ui[3][0][0][1].label
 msgid "Q-Q Plots"
-msgstr "分位圖(Q-Q Plots)"
+msgstr "分位圖 (Q-Q 圖)"
 
 #: ttestOneS/results/qq.title
 msgid "Q-Q plots"
-msgstr "分位圖(Q-Q plots)"
+msgstr "分位圖 (Q-Q 圖)"
 
 #: R/utilsanova.R
 msgid "quadratic"
@@ -4721,11 +4721,11 @@ msgstr "差異標準誤"
 
 #: corrPart/options/type/semi.title
 msgid "Semipartial"
-msgstr "半偏"
+msgstr "半偏 (部分)"
 
 #: R/corrpart.b.R
 msgid "Semipartial Correlation"
-msgstr "半偏相關"
+msgstr "半偏 (部分) 相關"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
@@ -4742,7 +4742,7 @@ msgstr "Shapiro-Wilk"
 
 #: mancova/results/assump/shapiro.title
 msgid "Shapiro-Wilk Multivariate Normality Test"
-msgstr "Shapiro-Wilk 多變量常態檢定"
+msgstr "Shapiro-Wilk 多變量常態性檢定"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
@@ -5141,7 +5141,7 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "with the addition of covariates."
 msgstr ""
 "共變數分析 (ANCOVA) 用於探索連續的依賴變數、一個或多個分類的解釋變項以及一個"
-"或多個連續的解釋變項 (或共變數) 之間的關係。它本質上與ANOVA相同，但增加了共變"
+"或多個連續的解釋變項 (或共變量) 之間的關係。它本質上與ANOVA相同，但增加了共變"
 "項。"
 
 #: package/analyses/anova.description
@@ -5246,7 +5246,7 @@ msgstr "信賴區間寬度。"
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "連續解釋 (或自) 變項，亦稱共變項。"
+msgstr "連續解釋 (或自) 變項，亦稱共變量。"
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5260,7 +5260,7 @@ msgstr "感興趣的控制變項。"
 
 #: anovaRM/options/cov.description.ui
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr "共變項 (指定此項將使分析變為共變異數分析)。"
+msgstr "共變量 (指定此項將使分析變為共變數分析)。"
 
 #: R/logregbin.b.R
 msgid "The cut-off value is set to {}"
@@ -5381,12 +5381,16 @@ msgstr "要使用的事後多重比較校正方法。"
 
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "Student t 檢定之貝氏因子的先驗寬度。須為 0.01 至 2.0 之間的值，預設為 0.707。"
+msgstr ""
+"Student's t 檢定之貝氏因子的先驗寬度。須為 0.01 至 2.0 之間的值，預設為 0.707"
+"。"
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "Student t 檢定之貝氏因子的先驗寬度。須為 0.5 至 2.0 之間的值，預設為 0.707。"
+msgstr ""
+"Student's t 檢定之貝氏因子的先驗寬度。須為 0.5 至 2.0 之間的值，預設為 0.707"
+"。"
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5398,7 +5402,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 msgstr ""
 "重複測量變異數分析用於探討一個連續依變項與一個或多個類別解釋變項之間的關係，"
 "其中一個或多個解釋變項為「受試者內」（即對同一受試者進行多次測量）。此外，此"
-"分析允許納入共變項，因此也能進行重複測量共變異數分析。"
+"分析允許納入共變量，因此也能進行重複測量共變數分析。"
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5418,7 +5422,7 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 msgstr ""
 "重複測量變異數分析用於探討一個連續依變項與一個或多個類別解釋變項之間的關係，"
 "其中一個或多個解釋變項為「受試者內」（即對同一受試者進行多次測量）。此外，此"
-"分析允許納入共變項，因此也能進行重複測量共變異數分析。\n"
+"分析允許納入共變量，因此也能進行重複測量共變數分析。\n"
 "\n"
 "此分析要求資料為「寬格式」，即每一列代表一個受試者（相對於「長格式」，其中依"
 "變項的每次測量值都單獨列為一列）。\n"
@@ -5454,8 +5458,8 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
-"Student 獨立樣本 t 檢定 (有時稱為雙樣本 t 檢定) 用於檢定兩個組別具有相同平均"
-"數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。"
+"Student's 獨立樣本 t 檢定 (有時稱為雙樣本 t 檢定) 用於檢定兩個組別具有相同平"
+"均數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。"
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5472,13 +5476,13 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
-"Student 獨立樣本 t 檢定 (有時稱為雙樣本 t 檢定) 用於檢定兩個組別具有相同平均"
-"數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。\n"
+"Student's 獨立樣本 t 檢定 (有時稱為雙樣本 t 檢定) 用於檢定兩個組別具有相同平"
+"均數的虛無假設。p 值低表示虛無假設不成立，因此組別平均數不同。\n"
 "\n"
-"Student 獨立樣本 t 檢定假設每組資料來自常態分配，且各組變異數相等。若不想假設"
-"各組變異數相等，可改用 Welch t 檢定。若進一步不想假設每組資料來自常態分配，則"
-"可使用無母數的Mann-Whitney U 檢定 (但請注意，Mann-Whitney U 檢定的虛無假設略"
-"有不同，即檢定各組的分配是否相同)。"
+"Student's  獨立樣本 t 檢定假設每組資料來自常態分配，且各組變異數相等。若不想"
+"假設各組變異數相等，可改用 Welch's t 檢定。若進一步不想假設每組資料來自常態分"
+"配，則可使用無母數的Mann-Whitney U 檢定 (但請注意，Mann-Whitney U 檢定的虛無"
+"假設略有不同，即檢定各組的分配是否相同)。"
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -5486,8 +5490,8 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
-"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值 (通常為零）」之虛無假"
-"設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。"
+"Student's 單一樣本 t 檢定用於檢定「真實平均數等於特定數值 (通常為零）」之虛無"
+"假設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。"
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -5501,10 +5505,10 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr ""
-"Student 單一樣本 t 檢定用於檢定「真實平均數等於特定數值 (通常為零)」之虛無假"
-"設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。\n"
+"Student's 單一樣本 t 檢定用於檢定「真實平均數等於特定數值 (通常為零)」之虛無"
+"假設。p 值低表示虛無假設可能為假，因此真實平均數必定與檢定值不同。\n"
 "\n"
-"Student 單一樣本 t 檢定假設資料來自常態分配——若不想假設此條件，可改用無母數"
+"Student's 單一樣本 t 檢定假設資料來自常態分配——若不想假設此條件，可改用無母數"
 "的 Wilcoxon 符號等級檢定 (但請注意， Wilcoxon 符號等級檢定的虛無假設略有不同"
 "，即檢定<i>中位數</i>是否等於檢定值)。"
 
@@ -5515,9 +5519,9 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
-"Student 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間的"
-"差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不為"
-"零。"
+"Student's 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間"
+"的差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不"
+"為零。"
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -5533,13 +5537,13 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
-"Student 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間的"
-"差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不為"
-"零。\n"
+"Student's 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間"
+"的差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不"
+"為零。\n"
 "\n"
-"Student 成對樣本 t 檢定假設成對差異服從常態分配——若不想假設此條件，可改用無母"
-"數的 Wilcoxon 符號等級檢定 (但請注意，Wilcoxon 符號等級檢定的虛無假設略有不同"
-"，即檢定兩組測量值是否服從相同分配)。"
+"Student's 成對樣本 t 檢定假設成對差異服從常態分配——若不想假設此條件，可改用無"
+"母數的 Wilcoxon 符號等級檢定 (但請注意，Wilcoxon 符號等級檢定的虛無假設略有不"
+"同，即檢定兩組測量值是否服從相同分配)。"
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
