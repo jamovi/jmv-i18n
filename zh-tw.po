@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-28 08:09+0000\n"
+"PO-Revision-Date: 2026-02-28 09:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -317,11 +317,11 @@ msgstr "包含估計的邊際平均數的表格"
 
 #: cfa/results/factorEst/factorCov.description
 msgid "a table containing factor covariances estimates"
-msgstr "包含因子共變異數估計值的表格"
+msgstr "包含因素共變數估計值的表格"
 
 #: cfa/results/factorEst/factorIntercept.description
 msgid "a table containing factor intercept estimates"
-msgstr "包含因子截距估計值的表格"
+msgstr "包含因素截距估計值的表格"
 
 #: cfa/results/modelFit/fitMeasures.description
 msgid "a table containing fit measures"
@@ -329,7 +329,7 @@ msgstr "包含適配度指標的表格"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "包含模型中未納入之因子負荷量修正指標的表格"
+msgstr "包含模型中未納入之因素負荷量修正指標的表格"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
@@ -363,7 +363,7 @@ msgstr "包含描述性統計的表格"
 
 #: cfa/results/factorLoadings.description
 msgid "a table containing the factor loadings"
-msgstr "包含因子負荷量的表格"
+msgstr "包含因素負荷量的表格"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
@@ -794,12 +794,12 @@ msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr "Bartlett球形檢定"
+msgstr "Bartlett 球形檢定"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr "Bartlett球形檢定"
+msgstr "Bartlett 球形檢定"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
@@ -2021,7 +2021,7 @@ msgstr "無法計算F統計量"
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "因子"
+msgstr "因素"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
@@ -2057,11 +2057,11 @@ msgstr "因素間相關"
 
 #: cfa/results/factorEst/factorCov.title
 msgid "Factor Covariances"
-msgstr "因素間共變數"
+msgstr "因素共變數"
 
 #: cfa/options/factCovEst.title
 msgid "Factor covariances"
-msgstr "因素間共變數"
+msgstr "因素共變數"
 
 #: cfa/results/factorEst.title
 msgid "Factor Estimates"
@@ -2105,7 +2105,7 @@ msgstr "因素變異數 = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
-msgstr "因素"
+msgstr "因子"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -2154,7 +2154,7 @@ msgstr "預測值"
 #: ancova/options/factors.title
 #: anova/options/factors.title
 msgid "Fixed Factors"
-msgstr "固定因素"
+msgstr "固定因子"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
@@ -2360,7 +2360,7 @@ msgstr "隱藏"
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
 msgid "Hide loadings below"
-msgstr "隱藏低於此值之負荷量"
+msgstr "隱藏負荷量低於"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -2368,7 +2368,7 @@ msgstr "隱藏低於此值之負荷量"
 #: contTables/options/hlresS.title
 #: contTables/options/hlresA.title
 msgid "Highlight values above"
-msgstr "突顯高於此值之數值"
+msgstr "突顯高於數值"
 
 #: descriptives/options/hist.title
 msgid "Histogram"
@@ -3420,7 +3420,7 @@ msgstr "模型 '{modelNo}' 中有一個或多個係數因完全共線性而無�
 #: propTest2/options.menuSubgroup
 #: propTestN/options.menuSubgroup
 msgid "One Sample Proportion Tests"
-msgstr "單樣本比例檢定"
+msgstr "單一樣本比例檢定"
 
 #: package/analyses/ttestOneS.title
 #: package/analyses/ttestOneS.menuTitle
@@ -3782,7 +3782,7 @@ msgstr "Phi 和 Cramer's V"
 
 #: contTables/results/nom.columns.content
 msgid "Phi-coefficient"
-msgstr "Phi-係數"
+msgstr "Phi 係數"
 
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
@@ -4633,7 +4633,7 @@ msgstr "量表分析"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
 msgid "Scale factor = scale first indicator"
-msgstr "量表因子 = 量表第一個指標"
+msgstr "量表因素 = 量表的第一個指標"
 
 #: reliability/results/scale.title
 msgid "Scale Reliability Statistics"
@@ -4651,11 +4651,11 @@ msgstr "Scheffe"
 
 #: R/pca.b.R
 msgid "Score Component"
-msgstr "分數成分"
+msgstr "成分分數"
 
 #: R/pca.b.R
 msgid "Score Factor"
-msgstr "分數因子"
+msgstr "因子分數"
 
 #: R/pca.b.R
 msgid "Score for component"
@@ -4809,7 +4809,7 @@ msgstr "偏態"
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
 msgid "Sort loadings by size"
-msgstr "依數值大小排序負荷量"
+msgstr "依負荷量大小排序"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
