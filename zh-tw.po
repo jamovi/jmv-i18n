@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-27 22:09+0000\n"
+"PO-Revision-Date: 2026-02-28 06:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -1462,7 +1462,7 @@ msgstr "Cronbach's α"
 
 #: reliability/options/alphaItems.title
 msgid "Cronbach's α (if item is dropped)"
-msgstr "Cronbach's α (刪題後)"
+msgstr "Cronbach's α (若刪除此題項)"
 
 #: R/utilsanova.R
 msgid "cubic"
@@ -2312,15 +2312,15 @@ msgstr "分組變項"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
-msgstr "組別變項 '{a}' 在排除缺失值後少於兩個水準"
+msgstr "分組變項 '{a}' 在排除缺失值後少於兩個水準"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr "組別變項 '{a}' 必須剛好包含兩個水準"
+msgstr "分組變項 '{a}' 必須剛好包含兩個水準"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr "組別變項 '{a}' 不能同時是依變項"
+msgstr "分組變項 '{a}' 不能同時是依變項"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -2429,7 +2429,7 @@ msgstr "檢定假設"
 
 #: reliability/results/items.columns.superTitle
 msgid "If item dropped"
-msgstr "如刪除項目"
+msgstr "若刪除此題項"
 
 #: anovaRM/options/groupSumm.description.ui
 msgid "include a summary of the groups"
@@ -2447,7 +2447,7 @@ msgstr "獨立樣本"
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
 msgid "Independent Samples T-Test"
-msgstr "獨立樣本T檢定"
+msgstr "獨立樣本 T 檢定"
 
 #: cfa/results/factorLoadings.columns.title
 msgid "Indicator"
@@ -2537,15 +2537,15 @@ msgstr "項目'{item}'需要是數值"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr "項目 {item} 與總量表呈負相關，可能需要反向計分"
+msgstr "題項 {item} 與總量表呈負相關，可能需要反向計分"
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
-msgstr "項目信度統計"
+msgstr "題項信度統計"
 
 #: reliability/ui[1][1][0].label
 msgid "Item Statistics"
-msgstr "項目統計"
+msgstr "題項統計"
 
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
@@ -2558,7 +2558,7 @@ msgstr "項目"
 
 #: R/reliability.b.R
 msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr "項目 {items} 與總量表呈負相關，可能需要反向計分"
+msgstr "題項 {items} 與總量表呈負相關，可能需要反向計分"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
@@ -2838,7 +2838,7 @@ msgstr "McDonald's ω"
 
 #: reliability/options/omegaItems.title
 msgid "McDonald's ω (if item is dropped)"
-msgstr "McDonald's ω (項目刪除)"
+msgstr "McDonald's ω (若刪除此題項)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
@@ -3256,7 +3256,7 @@ msgstr "無"
 
 #: reliability/ui[2]/revItemsSupplier.label
 msgid "Normal Scaled Items"
-msgstr "正常計分項目"
+msgstr "正向題"
 
 #: descriptives/ui[2][3][1].label
 msgid "Normality"
@@ -3429,7 +3429,7 @@ msgstr "單樣本比例檢定"
 #: ttestOneS/results.title
 #: ttestOneS/results/ttest.title
 msgid "One Sample T-Test"
-msgstr "單一樣本T檢定"
+msgstr "單一樣本 T 檢定"
 
 #: package/analyses/anovaOneW.title
 #: package/analyses/anovaOneW.menuTitle
@@ -3578,7 +3578,7 @@ msgstr "成對樣本列聯表"
 #: ttestPS/results.title
 #: ttestPS/results/ttest.title
 msgid "Paired Samples T-Test"
-msgstr "成對樣本T檢定"
+msgstr "成對樣本 T 檢定"
 
 #: ttestPS/options/pairs.title
 msgid "Paired Variables"
@@ -3687,7 +3687,7 @@ msgstr "Pearson殘差"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr "Pearson 相關係數"
+msgstr "Pearson's r 相關係數"
 
 #: R/reliability.b.R
 msgid "Pearson{}Correlation"
@@ -4072,7 +4072,7 @@ msgstr "提供 Student 獨立樣本 t 檢定的貝氏因子。"
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "提供 Student 的單樣本 t 檢驗的 Bayes 因子。"
+msgstr "提供 Student 的單樣本 t 檢驗的貝氏因子。"
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
@@ -4080,7 +4080,7 @@ msgstr "提供 Student 成對樣本 t 檢定的貝氏因子。"
 
 #: corrMatrix/options/ci.description.ui
 msgid "provide confidence intervals for Pearson's r."
-msgstr "提供Pearson r 的信賴區間。"
+msgstr "提供Pearson's r 的信賴區間。"
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
@@ -4108,7 +4108,7 @@ msgstr "提供每個組別的描述性圖。"
 
 #: ttestOneS/options/plots.description.ui
 msgid "provide descriptive plots for each variable."
-msgstr "為每個變數提供描述性圖。"
+msgstr "為每個變項提供描述性圖。"
 
 #: ttestPS/options/plots.description.ui
 msgid "provide descriptives for each group of measurements."
@@ -4531,13 +4531,13 @@ msgstr "分析結果"
 
 #: R/reliability.b.R
 msgid "reverse scaled item"
-msgstr "反向計分項目"
+msgstr "反向題"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
 msgid "Reverse Scaled Items"
-msgstr "反向計分項目"
+msgstr "反向題"
 
 #: anovaRM/options/rm.default[0].label
 msgid "RM Factor 1"
@@ -4850,7 +4850,7 @@ msgstr "球形檢定"
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
 msgid "Split by"
-msgstr "分組依照"
+msgstr "分組"
 
 #: R/mancova.b.R
 msgid "Squared Mahalanobis Distance"
@@ -5102,7 +5102,7 @@ msgstr "R 語言的「iris」資料集"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
-msgstr "「分割依據」變項 '{var}' 不含資料。"
+msgstr "「分組」變項 '{var}' 不含資料。"
 
 #: ttestOneS/options/hypothesis.description.ui
 msgid "the alternative and null hypotheses;\n"
