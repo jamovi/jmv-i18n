@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-28 13:09+0000\n"
+"PO-Revision-Date: 2026-03-01 06:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -748,7 +748,7 @@ msgstr "前提假設"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
-msgstr "至少應有一個包含兩種水準(level)的資料變數"
+msgstr "至少應有一個包含二種水準的資料變數"
 
 #: logRegBin/options/auc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
@@ -1024,7 +1024,7 @@ msgstr "直行"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Column variable '{var}' contains fewer than 2 levels"
-msgstr "欄位'{var}'的資料少於2個水準(level)"
+msgstr "欄位'{var}'的資料少於 2 個水準"
 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
@@ -1837,7 +1837,7 @@ msgstr "特徵值大於"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "受試者間設計包含空的組合(cell)：至少一個以上的受試者間變數組合包含0個觀察值"
+msgstr "受試者間設計包含空的組合(cell)：至少一個以上的受試者間變項組合包含 0 個觀察值"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2025,11 +2025,11 @@ msgstr "因素"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "'{factor}' 因子少於兩個水準。因子必須至少包含兩個水準"
+msgstr "'{factor}' 因子少於二個水準。因子必須至少包含二個水準"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
-msgstr "'{factor}'因子至少需要兩個水準(level)"
+msgstr "'{factor}'因子至少需要 2 個水準"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
@@ -2041,7 +2041,7 @@ msgstr "'{factorName}'因子只包含單一水準(移除含缺失值的資料列
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "'{factorName}'因子包含未使用的水準(在移除含缺失值的資料列後)"
+msgstr "'{factorName}'因子包含未使用的水準 (在移除含缺失值的資料列後)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2199,7 +2199,7 @@ msgstr "頻率"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
-msgstr "$key 的次數"
+msgstr "$key 的頻率"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
@@ -2312,11 +2312,11 @@ msgstr "分組變項"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
-msgstr "分組變項 '{a}' 在排除缺失值後少於兩個水準"
+msgstr "分組變項 '{a}' 在排除缺失值後少於 2 個水準"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr "分組變項 '{a}' 必須剛好包含兩個水準"
+msgstr "分組變項 '{a}' 必須剛好包含 2 個水準"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must not also be a dependent variable"
@@ -4583,7 +4583,7 @@ msgstr "列號"
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 msgid "Row variable '{var}' contains fewer than 2 levels"
-msgstr "行變項 '{var}' 含有少於2個層級"
+msgstr "列變項 '{var}' 含有少於 2 個水準"
 
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
@@ -5854,7 +5854,7 @@ msgstr "列變項"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
-msgstr "變項至少須包含兩個水準"
+msgstr "變項至少須包含二個水準"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
