@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-01 08:09+0000\n"
+"PO-Revision-Date: 2026-03-01 09:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -579,7 +579,7 @@ msgstr "AIC"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "All observations are tied"
-msgstr "所有觀察值皆相同 (tied)"
+msgstr "所有觀察值皆相同"
 
 #: contTables/options/hypothesis.title
 #: ttestIS/options/hypothesis.title
@@ -3292,7 +3292,7 @@ msgstr "並非所有統計量皆支援加權資料。"
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
-msgstr "因觀察值過多 (> 5000) 而無法使用。"
+msgstr "因案例過多 (> 5000) 而無法使用。"
 
 #: R/mancova.b.R
 msgid "Not enough degrees of freedom to estimate all the model effects"
@@ -4207,7 +4207,7 @@ msgstr "提供事後比較的檢定結果 (t 值與自由度)。"
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
 msgid "provide the number of cases."
-msgstr "提供觀察值個數。"
+msgstr "提供案例個數。"
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -5660,11 +5660,11 @@ msgstr "容忍度"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too few observations (N < 3) to compute statistic"
-msgstr "樣本過少 (N < 3) 無法計算統計值"
+msgstr "觀察值過少 (N < 3) 無法計算統計值"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "樣本過少無法計算統計值。每一組樣本數需大於或等於依變項數。"
+msgstr "觀察值過少無法計算統計值。每一組觀察值數需大於或等於依變項數。"
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
@@ -5677,7 +5677,7 @@ msgstr "樣本過少無法計算統計值 (N < 3)"
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Too many observations (N > 5000) to compute statistic"
-msgstr "樣本過多 (N > 5000) 無法計算統計值"
+msgstr "觀察值過多 (N > 5000) 無法計算統計值"
 
 #: R/anovaonew.b.R
 msgid "Too many samples to compute statistic (N > {n})"
