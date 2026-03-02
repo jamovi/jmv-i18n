@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-02 10:09+0000\n"
+"PO-Revision-Date: 2026-03-02 11:09+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
@@ -931,11 +931,11 @@ msgstr "Bonferroni"
 
 #: descriptives/options/box.title
 msgid "Box plot"
-msgstr "Box dijagram"
+msgstr "Kutijasti dijagram"
 
 #: descriptives/ui[3][0][1].label
 msgid "Box Plots"
-msgstr "Box dijagrami"
+msgstr "Kutijasti dijagrami"
 
 #: logRegBin/options/boxTidwell.title
 msgid "Box-Tidwell test"
@@ -2502,9 +2502,14 @@ msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Čini se da vaš model ima problem 'singulariteta'. To obično znači da model ima poteškoća u razlikovanju između određenih učinka jer su neke varijable previše povezane ili nema dovoljno podataka za pouzdano procjenu svih učinka. Da biste riješili ovaj problem, razmotrite pojednostavljenje modela tako da uklonite neke učinke ili provjerite ima li vaših podataka suvišnih ili visoko koreliranih varijabli."
+msgstr ""
+"Čini se da tvoj model ima problem „singulariteta”. To obično znači da model "
+"ima poteškoća razlikovati između određenih učinka jer su neke varijable "
+"previše usko povezane ili nema dovoljno podataka za pouzdanu procjenu svih "
+"učinka. Riješi ovaj problem pojednostavljenjem modela uklanjanjem nekih "
+"učinka ili provjeri postoje li redundantni podaci ili visoko korelirane "
+"varijable."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -3831,7 +3836,6 @@ msgid "Polynomial"
 msgstr "Polinomski"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
 msgstr "Polinomi ograničeni na stupanj 6"
 
@@ -4121,7 +4125,7 @@ msgstr "priloži dijagrame deskriptivnih pokazatelja."
 #: ttestOneS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "priloži veličine učinka (Cohenov d)."
+msgstr "priloži veličine učinaka (Cohenov d)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
@@ -4752,16 +4756,14 @@ msgstr "Jedan pored drugog"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "Jednostavan (vs. Prvi)"
+msgstr "Jednostavan (nasuprot Prvi)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "Jednostavan (vs. Zadnji)"
+msgstr "Jednostavan (nasuprot Zadnji)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -5212,12 +5214,12 @@ msgstr "Interval pouzdanosti srednje vrijednosti pretpostavlja da srednje vrijed
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
 msgid "the confidence interval width for the effect-sizes."
-msgstr "širina intervala pouzdanosti za veličine učinka."
+msgstr "širina intervala pouzdanosti za veličine učinaka."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr "širina intervala pouzdanosti za veličine post-hoc učinka."
+msgstr "širina intervala pouzdanosti za veličine post-hoc učinaka."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
