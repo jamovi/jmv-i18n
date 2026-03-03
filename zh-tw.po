@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-02 16:09+0000\n"
+"PO-Revision-Date: 2026-03-03 15:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -716,7 +716,7 @@ msgstr "由於未指定受試者間因子，此假設始終成立。"
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
-msgstr "假設相同 (Fisher's)"
+msgstr "假設相等 (Fisher's)"
 
 #: ancova/ui[3].label
 #: ancova/results/assump.title
@@ -757,11 +757,11 @@ msgstr "AUC"
 
 #: linReg/results/models.template/assump/durbin.columns.title
 msgid "Autocorrelation"
-msgstr "序列相關(Autocorrelation)"
+msgstr "自我相關"
 
 #: linReg/options/durbin.title
 msgid "Autocorrelation test"
-msgstr "序列相關 (Autocorrelation) 檢定"
+msgstr "自我相關檢定"
 
 #: R/conttables.b.R
 msgid "Available for 2x2 tables only"
@@ -1672,7 +1672,7 @@ msgstr "離差殘差是來自卜瓦松廣義線性模型的調整後殘差。"
 #: anova/options/contrasts.template/type/deviation.title
 #: anovaRM/options/contrasts.template/type/deviation.title
 msgid "Deviation"
-msgstr "偏離度"
+msgstr "離差"
 
 #: R/ancova.b.R
 #: ancova/results/main.columns.title
@@ -2004,7 +2004,7 @@ msgstr "$key 的極端值"
 
 #: linReg/options/modelTest.title
 msgid "F test"
-msgstr "F檢定"
+msgstr "F 檢定"
 
 #: R/ttestis.b.R
 msgid "F-statistic could not be calculated"
@@ -3136,7 +3136,7 @@ msgstr "模型閾值"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Models estimated using sample size of N={n}"
-msgstr "使用樣本大小 N={n} 估計的模型"
+msgstr "使用樣本數 N={n} 估計的模型"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3787,7 +3787,7 @@ msgstr "Phi 係數"
 #: mancova/options/multivar/pillai.title
 #: mancova/results/multivar.columns.content
 msgid "Pillai's Trace"
-msgstr "Pillai 跡"
+msgstr "Pillai's 跡"
 
 #: ancova/ui[6][1][1][0].label
 #: anova/ui[6][1][1][0].label
@@ -4602,7 +4602,7 @@ msgstr "橫列比較"
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
 msgid "Roy's Largest Root"
-msgstr "Roy 最大根"
+msgstr "Roy's 最大根"
 
 #: descriptives/ui[2][0][0].label
 msgid "Sample Size"
@@ -5081,7 +5081,7 @@ msgstr "檢定值"
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
 msgid "Tests"
-msgstr "測試"
+msgstr "檢定"
 
 #: anovaRM/results/assump/spherTable.title
 msgid "Tests of Sphericity"
