@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-03 16:09+0000\n"
+"PO-Revision-Date: 2026-03-04 03:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -2504,7 +2504,7 @@ msgstr "區間"
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
 msgid "IQR"
-msgstr "四分位距 (IQR)"
+msgstr "四分位距"
 
 #: R/utilsanova.R
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
@@ -2562,7 +2562,7 @@ msgstr "題項 {items} 與總量表呈負相關，可能需要反向計分"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr "抖動顯示(Jittered)"
+msgstr "散布"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3003,7 +3003,7 @@ msgstr "最小值"
 #: R/descriptives.b.R
 #: descriptives/options/missing.title
 msgid "Missing"
-msgstr "缺失資料數"
+msgstr "缺失"
 
 #: anovaOneW/ui[1][0][1].label
 msgid "Missing Values"
@@ -3152,7 +3152,7 @@ msgstr "蒙地卡羅模擬"
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr "存在多個眾數，僅回報第一個"
+msgstr "存在多個眾數，僅報告第一個"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
@@ -4763,13 +4763,13 @@ msgstr "並排"
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
 msgid "Simple (vs. First)"
-msgstr "簡單 (對比第一個)"
+msgstr "簡單 (與第一組對比)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
 msgid "Simple (vs. Last)"
-msgstr "簡單 (對比最後一個)"
+msgstr "簡單 (與最末組對比)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -5850,11 +5850,11 @@ msgstr "變項"
 
 #: descriptives/options/desc/columns.title
 msgid "Variables across columns"
-msgstr "欄變項"
+msgstr "變項跨直行"
 
 #: descriptives/options/desc/rows.title
 msgid "Variables across rows"
-msgstr "列變項"
+msgstr "變項跨橫列"
 
 #: R/conttables.b.R
 msgid "Variables must have at least two levels"
