@@ -1,12 +1,18 @@
 #
 msgid ""
-msgstr "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2026-03-18 15:09+0000\n"
+"Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
+"Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1517,7 +1523,6 @@ msgid "Data Summary"
 msgstr "סיכום הנתונים"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "degree"
 msgstr "דרגה"
 
@@ -2359,7 +2364,6 @@ msgid "Hide loadings below"
 msgstr "הסתרת הטעינויות הקטנות מ־"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Highest"
 msgstr "הגבוה ביותר"
 
@@ -2508,9 +2512,13 @@ msgid "IQR"
 msgstr "טווח בין רבעוני"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "נראה שלמודל שלך יש בעיה של 'סינגולריות'. הדבר הזה בדרך כלל משמעו שהמודל מתקשה להבחין בין אפקטים מסוימים, כיוון שמשתנים מסוימים קרובים מדי זה לזה, או שאין מספיק נתונים כדי לאמד את כל האפקטים באופן אמין. כדי לפתור את זה, שקלו לפשט את המודל על ידי הסרת חלק מהאפקטים, או בדיקה אם הנתונים שלך עשויים להיות נתונים מיותרים או משתנים משותפים במידה רבה."
+msgstr ""
+"נראה שלמודל יש בעיית סינגולריות. לרוב הכוונה שהמודל מתקשה להבחין בין אפקטים "
+"מסוימים, כיוון שכמה משתנים קשורים מדי זה לזה, או שאין מספיק נתונים כדי לאמוד "
+"את כל האפקטים באופן אמין. כדי לפתור את זה, יש לשקול את פישוט המודל בעזרת "
+"הסרת חלק מהאפקטים, או בעזרת בדיקה אם יש בנתונים משתנים מיותרים או משתנים "
+"הקשורים בקשר הדוק זה בזה."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2723,7 +2731,6 @@ msgid "lower bound"
 msgstr "חסם תחתון"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Lowest"
 msgstr "הנמוך ביותר"
 
@@ -3838,9 +3845,8 @@ msgid "Polynomial"
 msgstr "רב־איבר"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr "פולינומים מוגבלים לדרגה 6"
+msgstr ""
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4761,14 +4767,14 @@ msgstr "זה לצד זה"
 #: anovaRM/options/contrasts.template/type/simple.title
 #, fuzzy
 msgid "Simple (vs. First)"
-msgstr "פשוט (נגד ראשון)"
+msgstr "פשוט (מול ראשון)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
 #, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "פשוט (נגד אחרון)"
+msgstr "פשוט (מול אחרון)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
