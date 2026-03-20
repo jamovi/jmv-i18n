@@ -1,12 +1,17 @@
 #
 msgid ""
-msgstr "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
+msgstr ""
+"POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
+"PO-Revision-Date: 2026-03-20 17:09+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1523,9 +1528,8 @@ msgid "Data Summary"
 msgstr "தரவு சுருக்கம்"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "degree"
-msgstr "படி"
+msgstr "பட்டம்"
 
 #: corrMatrix/options/plotDens.title
 msgid "Densities for variables"
@@ -2365,9 +2369,8 @@ msgid "Hide loadings below"
 msgstr "கீழே ஏற்றங்களை மறைக்கவும்"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Highest"
-msgstr "அதிகபட்சம்"
+msgstr "மிக உயர்ந்தது"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -2514,9 +2517,14 @@ msgid "IQR"
 msgstr "Iqr"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "உங்கள் மாதிரியில் 'தனித்துவம்' பிரச்சனை இருப்பது போலத் தெரிகிறது. இது பொதுவாக, மாதிரி சில விளைவுகளுக்கு இடையே வேறுபாடுகளைக் கண்டறிய சிரமப்படுகிறது. ஏனெனில் சில மாறிகள் மிக நெருக்கமாக தொடர்புடையவை அல்லது அனைத்து விளைவுகளையும் நம்பகமாக மதிப்பிடுவதற்கு போதுமான தரவு இல்லை. இதைத் தீர்க்க, சில விளைவுகளை அகற்றுவதன் மூலம் மாதிரியை எளிமைப்படுத்துவதைக் கருத்தில் கொள்ளுங்கள் அல்லது உங்கள் தரவு மற்றும் அதிகமாக ஒத்திசைவு அல்லது அதிகமாக ஒத்திசைவு பெற்ற மாறிகளைக் கொண்டிருக்கலாம் என்பதைக் கவனியுங்கள்"
+msgstr ""
+"உங்கள் மாடலுக்கு 'சிங்குலாரிட்டி' சிக்கல் இருப்பது போல் தெரிகிறது. சில மாறிகள் மிகவும் "
+"நெருங்கிய தொடர்புடையவை அல்லது அனைத்து விளைவுகளையும் நம்பகத்தன்மையுடன் மதிப்பிடுவதற்கு "
+"போதுமான தரவு இல்லாததால், சில விளைவுகளை வேறுபடுத்துவதில் மாதிரி சிக்கலை எதிர்கொள்கிறது "
+"என்பதே இதன் பொருள். இதைத் தீர்க்க, சில விளைவுகளை அகற்றுவதன் மூலம் மாதிரியை எளிதாக்குவதைக் "
+"கவனியுங்கள் அல்லது உங்கள் தரவு தேவையற்ற அல்லது அதிக தொடர்புள்ள மாறிகள் உள்ளதா என்பதைச் "
+"சரிபார்க்கவும்."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2729,9 +2737,8 @@ msgid "lower bound"
 msgstr "கீழ் எல்லை"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Lowest"
-msgstr "குறைந்தபட்சம்"
+msgstr "குறைந்த"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
@@ -3200,7 +3207,7 @@ msgstr "பன்முக சோதனைகள்"
 
 #: R/descriptives.b.R
 msgid "N"
-msgstr "N"
+msgstr "என்"
 
 #: package/analyses/logRegMulti.menuTitle
 #: package/analyses/propTestN.menuTitle
@@ -3851,9 +3858,8 @@ msgid "Polynomial"
 msgstr "அடுக்குக்கோவை"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr "6 வரை படியை வரையறுத்த பல்லுறுப்புக்கோவைகள்"
+msgstr "பல்லுறுப்புக்கோவைகள் பட்டம் 6 வரை வரையறுக்கப்பட்டுள்ளது"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4772,16 +4778,14 @@ msgstr "அருகருகே"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "எளிமையான (முதல் அல்லது)"
+msgstr "எளிய (எதிர். முதல்)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "எளிமையான (கடைசி அல்லது)"
+msgstr "எளிமையானது (கடைசிக்கு எதிராக)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -5906,7 +5910,7 @@ msgstr "வயலின்"
 
 #: R/descriptives.b.R
 msgid "W"
-msgstr "W"
+msgstr "டபிள்யூ"
 
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
@@ -6078,4 +6082,4 @@ msgstr "χ² சோதனைகள்"
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 msgid "ω²"
-msgstr "ω²"
+msgstr "o²"
