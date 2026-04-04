@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-04 02:09+0000\n"
+"PO-Revision-Date: 2026-04-04 03:09+0000\n"
 "Last-Translator: konno_he <h3114931694@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
@@ -2749,7 +2749,7 @@ msgstr "马氏距离（p 值）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "马氏距离仅能针对具有两个或更多协变量的模型进行计算。"
+msgstr "马氏距离仅能对至少具有两个及以上协变量的模型进行计算"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3786,7 +3786,7 @@ msgstr "Pillai's Trace法"
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
 msgid "Plot"
-msgstr "绘图"
+msgstr "图"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
@@ -3827,9 +3827,8 @@ msgid "Polynomial"
 msgstr "多项式"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
-msgstr "多项式限制为6度"
+msgstr "多项式限制为6点"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -4039,7 +4038,9 @@ msgstr "为每一组变量提供Pearson's 相关系数r."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "提供残差Q-Q图：通过对比实际残差与预期残差判断数据是否完全服从正态分布。偏离对角线较远表明数据不服从正态分布。"
+msgstr ""
+"提供残差Q-Q图：通过对比实际残差与 <i>完全正太分布</i>残差判断数据是否完全符合"
+"正态分布。偏离对角线较远则表明数据不符合正态分布。"
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4170,13 +4171,17 @@ msgstr "提供事后检验结果."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "提供残差Q-Q图：通过对比实际残差与预期残差判断数据是否完全服从正态分布。偏离对角线较远表明数据不服从正态分布。"
+msgstr ""
+"提供残差Q-Q图：通过对比实际残差与 <i>完全正太分布</i>残差判断数据是否完全符合"
+"正态分布。偏离对角线较远则表明数据不符合正态分布。"
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "提供残差Q-Q图：通过对比实际残差与预期残差判断数据是否完全服从正态分布。偏离对角线较远表明残差不服从正态分布。"
+msgstr ""
+"提供残差Q-Q图：通过对比实际残差与 <i>完全正太分布</i>残差判断数据是否完全符合"
+"正态分布。偏离对角线较远则表明数据不符合正态分布。"
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4748,7 +4753,6 @@ msgstr "并排"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
 msgstr "简单（与首次相比）"
 
@@ -5251,7 +5255,7 @@ msgstr "因变量“{dep}”的顺序如下：{orderedLevels}"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "因变量“{DEP}”只有两个水平，因此可考虑使用二分类Logistic回归。"
+msgstr "因变量“{DEP}”仅有两个水平，建议使用二分类 Logistic 回归。"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
