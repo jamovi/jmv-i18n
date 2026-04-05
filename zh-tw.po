@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-05 08:09+0000\n"
+"PO-Revision-Date: 2026-04-05 09:12+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -44,7 +44,7 @@ msgstr "'{var}' 包含負數值。無法接受負的加權值。"
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
-msgstr "{} - Kendall's Tau b"
+msgstr "{} - Kendall's Tau B"
 
 #: R/corrpart.b.R
 msgid "{} - Pearson's r"
@@ -52,7 +52,7 @@ msgstr "{} - Pearson's r 相關係數"
 
 #: R/corrpart.b.R
 msgid "{} - Spearman's rho"
-msgstr "{} - Spearman rho"
+msgstr "{} - Spearman's rho 等級相關"
 
 #: R/corrmatrix.b.R
 msgid "{ciWidth}% CI Lower"
@@ -681,7 +681,7 @@ msgstr "Anderson & Rubin"
 
 #: package/datasets/Anderson'sIrisData.name
 msgid "Anderson's Iris Data"
-msgstr "Anderson的鳶尾花資料"
+msgstr "Anderson 之鳶尾花資料"
 
 #: R/anova.b.R
 #: package/analyses/anovaOneW.menuGroup
@@ -794,12 +794,12 @@ msgstr "Bartlett"
 
 #: pca/results/assump/bartlett.title
 msgid "Bartlett's Test of Sphericity"
-msgstr "Bartlett 球形檢定"
+msgstr "Bartlett's 球形檢定"
 
 #: efa/options/bartlett.title
 #: pca/options/bartlett.title
 msgid "Bartlett's test of sphericity"
-msgstr "Bartlett 球形檢定"
+msgstr "Bartlett's 球形檢定"
 
 #: efa/options/nFactorMethod/eigen.title
 #: pca/ui[1][0][1]/nFactorMethod_eigen.label
@@ -2135,7 +2135,7 @@ msgstr "Fisher's"
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr "Fisher's 正確機率檢定"
+msgstr "Fisher's 精確機率檢定"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -2567,7 +2567,7 @@ msgstr "題項 {items} 與總量表呈負相關，可能需要反向計分"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
-msgstr "散佈"
+msgstr "散布"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -2632,7 +2632,7 @@ msgstr "水準 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levene 檢定結果顯著 (p < .05)，表示可能違反變異數同質性假設"
+msgstr "Levene's F 檢定結果顯著 (p < .05)，表示可能違反變異數同質性假設"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -4077,11 +4077,11 @@ msgstr "提供估計的邊緣平均數表。"
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "提供 Student 's 獨立樣本 t 檢定的貝氏因子。"
+msgstr "提供 Student's 獨立樣本 t 檢定的貝氏因子。"
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "提供 Student's 的單樣本 t 檢定的貝氏因子。"
+msgstr "提供 Student's 單樣本 t 檢定的貝氏因子。"
 
 #: ttestPS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's paired samples t-tests."
@@ -4142,12 +4142,12 @@ msgstr "提供效果量 (Cohen's d)。"
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "提供變異數同質性 Levene's 檢定。p 值低表示各組變異數不相等。"
+msgstr "提供變異數同質性 Levene's F 檢定。p 值低表示各組變異數不相等。"
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "提供變異數同質性 Levene's 檢定。p 值低表示各組變異數不相等。"
+msgstr "提供變異數同質性 Levene's F 檢定。p 值低表示各組變異數不相等。"
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4986,7 +4986,7 @@ msgstr "Student's t"
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
 msgid "Student's test"
-msgstr "Student's t 檢定"
+msgstr "Student's 檢定"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
@@ -5509,12 +5509,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr ""
-"Student's 單一樣本 t 檢定用於檢定「真實平均數\n"
+"Student 之單一樣本 t 檢定用於檢定「真實平均數\n"
 "等於特定數值 (通常為零)」之虛無假設。p 值低\n"
 "表示虛無假設可能為假，因此真實平均數必定與\n"
 "檢定值不同。\n"
 "\n"
-"Student's 單一樣本 t 檢定假設資料來自常態分布\n"
+"Student 之單一樣本 t 檢定假設資料來自常態分布\n"
 "——若不想假設此條件，可改用無母數的 Wilcoxon\n"
 "符號等級檢定 (但請注意， Wilcoxon 符號等級檢定\n"
 "的虛無假設略有不同，即檢定<i>中位數</i>是否\n"
@@ -5527,7 +5527,7 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
 msgstr ""
-"Student's 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間"
+"Student 之成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間"
 "的差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不"
 "為零。"
 
@@ -5545,11 +5545,11 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
 msgstr ""
-"Student's 成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間"
+"Student 之成對樣本 t 檢定 (有時稱為相依樣本 t 檢定) 用於檢定「成對測量值之間"
 "的差異為零」之虛無假設。p 值低表示虛無假設可能為假，即成對測量值之間的差異不"
 "為零。\n"
 "\n"
-"Student's 成對樣本 t 檢定假設成對差異服從常態分布——若不想假設此條件，可改用無"
+"Student 之成對樣本 t 檢定假設成對差異服從常態分布——若不想假設此條件，可改用無"
 "母數的 Wilcoxon 符號等級檢定 (但請注意，Wilcoxon 符號等級檢定的虛無假設略有不"
 "同，即檢定兩組測量值是否服從相同分布)。"
 
@@ -5657,7 +5657,7 @@ msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
 msgid "Tjur's R²"
-msgstr "Tjur's R²"
+msgstr "Tjur 之 R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -5944,7 +5944,7 @@ msgstr "Welch's"
 
 #: ttestIS/results/ttest.columns.content
 msgid "Welch's t"
-msgstr "Welch's t"
+msgstr "Welch 之 t"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
