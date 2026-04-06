@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-06 09:09+0000\n"
+"PO-Revision-Date: 2026-04-06 12:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -266,14 +266,14 @@ msgstr "描述統計圖"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr "低 p 值表示可能違反了變異數同質性的假設"
+msgstr "低 p 值表示可能違反了變異數同質性的假定"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr "低 p 值表示可能違反了常態性假設"
+msgstr "低 p 值表示可能違反了常態性假定"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
 msgid "A nice correlation data set"
@@ -712,7 +712,7 @@ msgstr "ANOVA 檢定"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "由於未指定受試者間因子，此假設始終成立。"
+msgstr "由於未指定受試者間因子，此假定始終成立。"
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -739,12 +739,12 @@ msgstr "假設相等 (Fisher's)"
 #: ttestOneS/ui[1][1][1].label
 #: ttestPS/ui[1][1][1].label
 msgid "Assumption Checks"
-msgstr "前提假設檢定"
+msgstr "前提假定檢驗"
 
 #: anovaRM/results/assump.title
 #: ttestIS/results/assum.title
 msgid "Assumptions"
-msgstr "前提假設"
+msgstr "前提假定"
 
 #: R/conttables.b.R
 msgid "At least one variable must have two levels"
@@ -2632,7 +2632,7 @@ msgstr "水準 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levene's F 檢定結果顯著 (p < .05)，表示可能違反變異數同質性假設"
+msgstr "Levene's F 檢定結果顯著 (p < .05)，表示可能違反變異數同質性假定"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -5330,7 +5330,7 @@ msgid "The Friedman test is used to explore the relationship between a continuou
 msgstr ""
 "Friedman 檢定用於探討一個連續依變項與一個類別解釋變項之間的關係，其中解釋變項"
 "為「受試者內」（即對同一受試者進行多次測量）。此檢定類似於重複測量變異數分析"
-"，但其優點為無母數，且不要求常態性或變異數同質性假設。然而，其限制在於一次只"
+"，但其優點為無母數，且不要求常態性或變異數同質性假定。然而，其限制在於一次只"
 "能檢定一個解釋變項。"
 
 #: package/analyses/anovaNP.description
@@ -5338,7 +5338,7 @@ msgstr ""
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
 msgstr ""
 "克-瓦二氏單因子變異數等級檢定用於探討一個連續依變項與一個類別解釋變項之間的關"
-"係。此檢定類似於變異數分析，但其優點為無母數，假設較少。然而，其限制在於一次"
+"係。此檢定類似於變異數分析，但其優點為無母數，假定較少。然而，其限制在於一次"
 "只能檢定一個解釋變項。"
 
 #: anovaRM/options/depLabel.description.ui
