@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-20 22:11+0000\n"
-"Last-Translator: Patryk <patryk230206@gmail.com>\n"
+"PO-Revision-Date: 2026-04-14 17:09+0000\n"
+"Last-Translator: Carp300 <picmat9@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "pl/>\n"
 "Language: pl\n"
@@ -2515,9 +2515,15 @@ msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Wygląda na to, że Twój model ma problem z 'singularnością\\$. Zwykle oznacza to, że model ma trudności z odróżnieniem pewnych efektów, ponieważ niektóre zmienne są zbyt ściśle powiązane lub nie ma wystarczających danych, aby oszacować wszystkie efekty w sposób niezawodny. Aby rozwiązać ten problem, rozważ uproszczenie modelu przez usunięcie niektórych efektów lub sprawdzenie, czy Twoje dane nie zawierają zmiennych redundantnych lub wysoko skorelowanych."
+msgstr ""
+"Wygląda na to, że Twój model ma problem z 'osobliwością' (singularity). "
+"Zwykle oznacza to, że model ma trudności z odróżnieniem pewnych efektów, "
+"ponieważ niektóre zmienne są zbyt ściśle powiązane lub nie ma "
+"wystarczających danych, aby wiarygodnie oszacować wszystkie efekty. Aby "
+"rozwiązać ten problem, rozważ uproszczenie modelu przez usunięcie niektórych "
+"efektów lub sprawdzenie, czy Twoje dane nie zawierają zmiennych nadmiarowych "
+"lub silnie skorelowanych."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2730,7 +2736,6 @@ msgid "lower bound"
 msgstr "dolna granica"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Lowest"
 msgstr "Najniższy"
 
@@ -3552,11 +3557,11 @@ msgstr "p<sub>(unadj)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
-msgstr "p<sub> Bonferroni</sub>"
+msgstr "p<sub>Bonferroni</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>holm</sub>"
-msgstr "p<sub> Holm</sub>"
+msgstr "p<sub>Holm</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>scheffe</sub>"
@@ -3851,7 +3856,6 @@ msgid "Polynomial"
 msgstr "Wielomian"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
 msgstr "Wielomiany ograniczone do stopnia 6"
 
@@ -4772,14 +4776,12 @@ msgstr "Obok siebie"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
 msgstr "Proste (vs. Pierwsze)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
 msgstr "Proste (vs. Ostatnie)"
 
