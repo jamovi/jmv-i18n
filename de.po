@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-18 11:09+0000\n"
-"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"PO-Revision-Date: 2026-04-23 12:09+0000\n"
+"Last-Translator: FabiRich <fabian.richters@online.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "de/>\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2517,9 +2517,15 @@ msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Es scheint, dass Ihr Modell ein 'Singulärheits'-Problem hat. Dies bedeutet normalerweise, dass das Modell Schwierigkeiten hat, zwischen bestimmten Effekten zu unterscheiden, weil einige Variablen zu eng miteinander verbunden sind oder es nicht genug Daten gibt, um alle Effekte zuverlässig zu schätzen. Um dies zu beheben, sollten Sie das Modell vereinfachen, indem Sie einige Effekte entfernen oder prüfen, ob Ihre Daten redundant oder hoch korrelierte Variablen enthalten."
+msgstr ""
+"Es scheint, dass Ihr Modell ein 'Singulärheits'-Problem hat. Dies bedeutet "
+"normalerweise, dass das Modell Schwierigkeiten hat, zwischen bestimmten "
+"Effekten zu unterscheiden, weil einige Variablen zu eng miteinander "
+"verbunden sind oder es nicht genug Daten gibt, um alle Effekte zuverlässig "
+"zu schätzen. Um dies zu beheben, sollten Sie das Modell vereinfachen, indem "
+"Sie einige Effekte entfernen oder prüfen, ob Ihre Daten redundant oder hoch "
+"korrelierte Variablen enthalten."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
