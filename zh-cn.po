@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-17 03:09+0000\n"
+"PO-Revision-Date: 2026-05-23 12:11+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1515,7 +1515,6 @@ msgid "Data Summary"
 msgstr "数据摘要"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "degree"
 msgstr "度"
 
@@ -2342,7 +2341,7 @@ msgstr "Harman 法"
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
 msgid "Helmert"
-msgstr "Helmert"
+msgstr "Helmert（与后续平均相比）"
 
 #: package/analyses/empty.menuGroup
 #: package/analyses/weights.menuGroup
@@ -2357,7 +2356,6 @@ msgid "Hide loadings below"
 msgstr "隐藏低于此值的因子载荷"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Highest"
 msgstr "最高"
 
@@ -2506,9 +2504,11 @@ msgid "IQR"
 msgstr "四分位数间距"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "您的模型似乎存在\"奇点\"问题。这通常意味着模型在区分某些影响方面遇到困难，因为某些变量关系太密切，或者没有足够的数据来可靠地估计所有影响。为了解决这个问题，请考虑通过删除一些影响或检查数据是否包含冗余或高度相关的变量来简化模型。"
+msgstr ""
+"您的模型似乎存在\"奇点\"问题。这通常意味着模型在区分某些影响方面遇到困难，因"
+"为某些变量关系太密切，或者没有足够的数据来可靠地估计所有影响。为了解决这个问"
+"题，请考虑通过删除一些影响或检查数据是否包含冗余或高度相关的变量来简化模型。"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2616,11 +2616,11 @@ msgstr "水平"
 
 #: anovaRM/options/rm.default[0].levels[0]
 msgid "Level 1"
-msgstr "水平1"
+msgstr "水平 1"
 
 #: anovaRM/options/rm.default[0].levels[1]
 msgid "Level 2"
-msgstr "水平2"
+msgstr "水平 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
@@ -2721,7 +2721,6 @@ msgid "lower bound"
 msgstr "下限"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Lowest"
 msgstr "最低"
 
@@ -3369,25 +3368,25 @@ msgstr "合计"
 
 #: linReg/results/models.template/anova.title
 msgid "Omnibus ANOVA Test"
-msgstr "Omnibus方差检验"
+msgstr "整体方差检验"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr "Omnibus似然比检验"
+msgstr "整体似然比检验"
 
 #: linReg/ui[5][0][0][0].label
 msgid "Omnibus Test"
-msgstr "Omnibus检验"
+msgstr "整体检验"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
 msgid "Omnibus Tests"
-msgstr "Omnibus检验"
+msgstr "整体检验"
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -4754,14 +4753,13 @@ msgstr "并排"
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
 msgid "Simple (vs. First)"
-msgstr "简单（与首次相比）"
+msgstr "简单（与第一组相比）"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "简单（与最后相比）"
+msgstr "简单（与最后组相比）"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
