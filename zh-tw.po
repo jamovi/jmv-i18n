@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-05-23 08:13+0000\n"
+"PO-Revision-Date: 2026-05-23 09:11+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hant/>\n"
@@ -1555,11 +1555,11 @@ msgstr "'{dep}' 依變項中包含無限大數值"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "'{dep}' 依變項未包含資料 (移除缺漏值之後)"
+msgstr "'{dep}' 依變項未包含資料 (刪除缺失值的列後)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "'{dep}' 依變項僅包含一種數值 (移除缺漏值後)"
+msgstr "'{dep}' 依變項僅包含一種數值 (刪除缺失值的列後)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -2034,15 +2034,15 @@ msgstr "'{factor}' 因子至少需要 2 個水準"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "'{factorName}' 因子並未包含任何資料（刪除遺漏值的列之後）"
+msgstr "'{factorName}' 因子並未包含任何資料 (刪除缺失值的列後)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr "'{factorName}' 因子只包含單一水準 (刪除遺漏值的列之後)"
+msgstr "'{factorName}' 因子只包含單一水準 (刪除缺失值的列之後)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "'{factorName}' 因子包含未使用的水準 (移除含缺失值的資料列後)"
+msgstr "'{factorName}' 因子包含未使用的水準 (刪除缺失值的列之後)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2520,12 +2520,12 @@ msgstr ""
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
-msgstr "項目'{item}'只包含一個水準"
+msgstr "項目 '{item}' 只包含一個水準"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
 msgid "Item '{item}' contains infinite values"
-msgstr "項目'{item}'包含無窮大值"
+msgstr "項目 '{item}' 包含無窮大值"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
@@ -2538,7 +2538,7 @@ msgstr "項目 '{item}' 無變異數"
 
 #: R/anovarm.b.R
 msgid "Item '{item}' needs to be numeric"
-msgstr "項目'{item}'需要是數值"
+msgstr "項目 '{item}' 需要是數值"
 
 #: R/reliability.b.R
 msgid "item {item} correlates negatively with the total scale and probably should be reversed"
@@ -3221,7 +3221,7 @@ msgstr "Nagelkerke's R²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr "沒有特徵值超過{value}的成分"
+msgstr "沒有特徵值超過 {value} 的成分"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
@@ -3542,7 +3542,7 @@ msgstr "p <"
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
 msgid "p-value"
-msgstr "p值"
+msgstr "p 值"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(Bonferroni)</sub>"
@@ -3550,7 +3550,7 @@ msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
 msgid "p<sub>(unadj)</sub>"
-msgstr "p<sub>(unadj)</sub>"
+msgstr "p<sub>(未調整)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3714,7 +3714,7 @@ msgstr "總百分比"
 
 #: R/conttables.b.R
 msgid "Percentages within {var}"
-msgstr "百分比在{var}中"
+msgstr "百分比在 {var} 中"
 
 #: descriptives/options/pc.title
 msgid "Percentile"
@@ -4667,7 +4667,7 @@ msgstr "成分分數"
 
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr "因素{i}的分數。使用'{fsMethod}'方法估計。"
+msgstr "因素 {i} 的分數。使用 '{fsMethod}' 方法估計。"
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
@@ -4867,7 +4867,7 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr "負荷量SS"
+msgstr "負荷量 SS"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
@@ -5032,7 +5032,7 @@ msgstr "T 檢定"
 
 #: anovaOneW/results/postHoc.template.columns.content
 msgid "t-value"
-msgstr "t值"
+msgstr "t 值"
 
 #: efa/options/factorScoreMethod/tenBerge.title
 msgid "ten Berge"
@@ -5102,7 +5102,7 @@ msgstr "th 百分位數"
 
 #: package/datasets/Anderson'sIrisData.description
 msgid "The 'iris' data set from R"
-msgstr "R 語言的「iris」資料集"
+msgstr "R 語言的「iris」(鳶尾花) 資料集"
 
 #: R/descriptives.b.R
 msgid "The 'split by' variable '{var}' contains no data."
@@ -5273,7 +5273,7 @@ msgstr "截斷值設為 {}"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "資料集包含 0 列 (已移除含有缺失值的列後)"
+msgstr "資料集包含 0 列 (刪除缺失值的列後)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
@@ -5574,7 +5574,7 @@ msgstr "要使用的平方和類型：型 1、2 或 3。"
 
 #: anovaRM/options/ss.description.ui
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr "要使用的平方和類型；型 2或型 3。"
+msgstr "要使用的平方和類型；型 2 或型 3。"
 
 #: ancova/results/model.description
 #: anova/results/model.description
