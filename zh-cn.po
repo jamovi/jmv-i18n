@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-05-23 12:11+0000\n"
+"PO-Revision-Date: 2026-05-24 01:11+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
@@ -2740,11 +2740,11 @@ msgstr "马氏距离"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr "马氏距离（Chi-Squared 分布）"
+msgstr "马哈拉诺比斯距离（卡方）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance (p)"
-msgstr "马氏距离（p 值）"
+msgstr "马哈拉诺比斯距离（p值）"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
@@ -2752,7 +2752,7 @@ msgstr "马氏距离仅能对至少具有两个及以上协变量的模型进行
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
-msgstr "马氏 p 值"
+msgstr "马哈拉诺比斯 p 值"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
@@ -4038,7 +4038,7 @@ msgstr "为每一组变量提供Pearson's 相关系数r."
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
-"提供残差Q-Q图：通过对比实际残差与 <i>完全正太分布</i>残差判断数据是否完全符合"
+"提供残差Q-Q图：通过对比实际残差与 <i>完全</i>正态分布残差判断数据是否完全符合"
 "正态分布。偏离对角线较远则表明数据不符合正态分布。"
 
 #: corrMatrix/options/spearman.description.ui
@@ -4171,7 +4171,7 @@ msgstr "提供事后检验结果."
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
 msgstr ""
-"提供残差Q-Q图：通过对比实际残差与 <i>完全正太分布</i>残差判断数据是否完全符合"
+"提供残差Q-Q图：通过对比实际残差与 <i>完全</i>正态分布残差判断数据是否完全符合"
 "正态分布。偏离对角线较远则表明数据不符合正态分布。"
 
 #: ancova/options/qq.description.ui
@@ -4179,7 +4179,7 @@ msgstr ""
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
 msgstr ""
-"提供残差Q-Q图：通过对比实际残差与 <i>完全正太分布</i>残差判断数据是否完全符合"
+"提供残差Q-Q图：通过对比实际残差与 <i>完全</i>正态分布残差判断数据是否完全符合"
 "正态分布。偏离对角线较远则表明数据不符合正态分布。"
 
 #: anovaOneW/options/phSig.description.ui
@@ -4780,7 +4780,7 @@ msgstr "发生奇异拟合：一个或多个预测变量是其他预测变量的
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr "奇异性错误：无法进行球形假设校正"
+msgstr "奇异性错误。球形度校正不可用"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5253,7 +5253,7 @@ msgstr "因变量“{dep}”的顺序如下：{orderedLevels}"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "因变量“{DEP}”仅有两个水平，建议使用二分类 Logistic 回归。"
+msgstr "因变量“{dep}”仅有两个水平，建议使用二分类 Logistic 回归。"
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -5535,7 +5535,7 @@ msgstr "理论分位数"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr "没有观测值的马氏 p 值低于 < {p}."
+msgstr "没有观测值的马哈拉诺比斯距离 p 值低于 < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
