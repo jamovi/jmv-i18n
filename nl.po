@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-21 21:09+0000\n"
-"Last-Translator: Marielle Winarto <mwinarto@gmail.com>\n"
+"PO-Revision-Date: 2026-06-05 04:22+0000\n"
+"Last-Translator: Jonathon Love <jon@thon.cc>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "nl/>\n"
 "Language: nl\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -31,7 +31,9 @@ msgstr "'{col}' bevat slechts één unieke waarde"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "Extractiemethode '{method}' is gebruikt in combinatie met rotatie '{rotation}'"
+msgstr ""
+"Extractiemethode '{method}' is gebruikt in combinatie met rotatie '{rotation}"
+"'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -40,7 +42,8 @@ msgstr "Rotatie '{rotation}' is gebruikt"
 #: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr "'{var}' bevat negatieve waarden. Negatieve gewichten zijn niet toegestaan."
+msgstr ""
+"'{var}' bevat negatieve waarden. Negatieve gewichten zijn niet toegestaan."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
@@ -232,7 +235,8 @@ msgstr "> toetswaarde"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
-msgstr "⁻ gemiddelde - 1 st.afw., <sup>μ</sup> gemiddelde, ⁺ gemiddelde + 1 st.afw."
+msgstr ""
+"⁻ gemiddelde - 1 st.afw., <sup>μ</sup> gemiddelde, ⁺ gemiddelde + 1 st.afw."
 
 #: R/logregbin.b.R
 msgid "1 - Specificity"
@@ -1602,11 +1606,15 @@ msgstr "Afhankelijke variabele '{dep}' bevat waarden die oneindig zijn"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "Afhankelijke variabele '{dep}' bevat geen gegevens (na het verwijderen van rijen met ontbrekende waarden)"
+msgstr ""
+"Afhankelijke variabele '{dep}' bevat geen gegevens (na het verwijderen van "
+"rijen met ontbrekende waarden)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "Afhankelijke variabele '{dep}' bevat slechts één unieke waarde (na het verwijderen van rijen met ontbrekende waarden)"
+msgstr ""
+"Afhankelijke variabele '{dep}' bevat slechts één unieke waarde (na het "
+"verwijderen van rijen met ontbrekende waarden)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -1662,7 +1670,11 @@ msgstr "Beschrijvende statistiek"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "Onder beschrijvende statistiek valt een breed scala aan samenvattende statistieken en visualisaties waarmee u de vorm en spreiding van gegevens kunt verkennen. Het is verstandig om uw gegevens te verkennen middels beschrijvende statistieken voordat u doorgaat naar geavanceerdere toetsen."
+msgstr ""
+"Onder beschrijvende statistiek valt een breed scala aan samenvattende "
+"statistieken en visualisaties waarmee u de vorm en spreiding van gegevens "
+"kunt verkennen. Het is verstandig om uw gegevens te verkennen middels "
+"beschrijvende statistieken voordat u doorgaat naar geavanceerdere toetsen."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -4008,7 +4020,8 @@ msgstr "Verwachte waarschijnlijkheid van … = … (versus … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr "Verwachte waarschijnlijkheid van {dep} = {level1} (versus {dep} = {level2})"
+msgstr ""
+"Verwachte waarschijnlijkheid van {dep} = {level1} (versus {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -5244,7 +5257,8 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "de alternatieve en nulhypothesen;\n"
+msgstr ""
+"de alternatieve en nulhypothesen;\n"
 "\n"
 "|               | Alternatief (Hₐ)   | Nul (H₀)            |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5305,7 +5319,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "Variantieanalyse (vaak ANOVA) wordt gebruikt om de verhouding tussen\n"
+msgstr ""
+"Variantieanalyse (vaak ANOVA) wordt gebruikt om de verhouding tussen\n"
 "een continue afhankelijke variabele en één of meerdere categorische\n"
 "variabelen. Deze 'eenzijdige ANOVA' is een versimpelde versie van de\n"
 "'normale' ANOVA die maar één categorische variabele toestaat, maar die\n"
@@ -5343,7 +5358,11 @@ msgstr "de modeltermen die van toepassing zijn tussen elementen."
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "De binomiale toets wordt gebruikt om de nulhypothese, dat de steekproefproportie overeenkomt met een verwachte waarde, te toetsen. Een lage p-waarde duidt erop dat de nulhypothese onjuist is. De ware proportie moet dan gelijk zijn aan een andere waarde."
+msgstr ""
+"De binomiale toets wordt gebruikt om de nulhypothese, dat de "
+"steekproefproportie overeenkomt met een verwachte waarde, te toetsen. Een "
+"lage p-waarde duidt erop dat de nulhypothese onjuist is. De ware proportie "
+"moet dan gelijk zijn aan een andere waarde."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
@@ -5401,7 +5420,8 @@ msgstr "De afsnijdwaarde is {}"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "De dataset bevat 0 rijen (na verwijderen van rijen met ontbrekende waarden)"
+msgstr ""
+"De dataset bevat 0 rijen (na verwijderen van rijen met ontbrekende waarden)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
@@ -5409,7 +5429,10 @@ msgstr "De dataset bevat 0 rijen (of alle rijen bevatten ontbrekende waarden)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "De afhankelijke variabele '{}' heeft meer dan twee niveaus. Binomiale logistische regressie kan alleen worden toegepast op afhankelijke variabelen die binomiaal zijn (twee niveaus hebben)."
+msgstr ""
+"De afhankelijke variabele '{}' heeft meer dan twee niveaus. Binomiale "
+"logistische regressie kan alleen worden toegepast op afhankelijke variabelen "
+"die binomiaal zijn (twee niveaus hebben)."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
@@ -5418,7 +5441,9 @@ msgstr "De afhankelijke variabele '{dep}' heeft als volgorde: {orderedLevels}"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "De afhankelijke variabele '{dep}' heeft slechts twee niveaus. Overweeg een binomiale logistische regressie toe te passen."
+msgstr ""
+"De afhankelijke variabele '{dep}' heeft slechts twee niveaus. Overweeg een "
+"binomiale logistische regressie toe te passen."
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -5430,7 +5455,9 @@ msgstr "de afhankelijke variabele. Voor ANOVA moet deze continu zijn."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "de afhankelijke variabelen -- een losse t-toets wordt uitgevoerd voor elke opgegeven afhankelijke variabele."
+msgstr ""
+"de afhankelijke variabelen -- een losse t-toets wordt uitgevoerd voor elke "
+"opgegeven afhankelijke variabele."
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
@@ -5526,9 +5553,11 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "De 'ANOVA voor herhaalde metingen' wordt gebruikt om de verhouding\n"
+msgstr ""
+"De 'ANOVA voor herhaalde metingen' wordt gebruikt om de verhouding\n"
 "tussen een continue afhankelijke variabele en één of meerdere categorische\n"
-"variabelen te verkennen, waarbij minstens één van de categorische variabelen\n"
+"variabelen te verkennen, waarbij minstens één van de categorische "
+"variabelen\n"
 "'binnen onderwerpen' zijn (meerdere metingen van hetzelfde onderwerp).\n"
 "Bij deze analyse kunnen covariaten worden ingesloten, wat 'ANOVA voor\n"
 "herhaalde metingen' toestaat."
@@ -5724,12 +5753,21 @@ msgstr "de breedte voor de betrouwbaarheidsintervallen."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "De χ²-goodness-of-fittoets (niet te verwarren met de χ²-onafhankelijkheidstoets) toetst de nulhypothese dat de steekproefproporties overeenkomen met de verwachte proporties. Een lage p-waarde suggereert dat deze nulhypothese onjuist is en dat de ware proporties dus afwijken van de getoetste proporties."
+msgstr ""
+"De χ²-goodness-of-fittoets (niet te verwarren met de χ²-"
+"onafhankelijkheidstoets) toetst de nulhypothese dat de steekproefproporties "
+"overeenkomen met de verwachte proporties. Een lage p-waarde suggereert dat "
+"deze nulhypothese onjuist is en dat de ware proporties dus afwijken van de "
+"getoetste proporties."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "De χ²-toets voor afhankelijkheid (niet te verwarren met de χ²-goodness-of-fit) wordt gebruikt om na te gaan of twee categorische variabelen afhankelijk dan wel onafhankelijk zijn. Een lage p-waarde suggereert dat er een verband is tussen de variabelen en dat ze dus niet onafhankelijk zijn."
+msgstr ""
+"De χ²-toets voor afhankelijkheid (niet te verwarren met de χ²-goodness-of-"
+"fit) wordt gebruikt om na te gaan of twee categorische variabelen "
+"afhankelijk dan wel onafhankelijk zijn. Een lage p-waarde suggereert dat er "
+"een verband is tussen de variabelen en dat ze dus niet onafhankelijk zijn."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
