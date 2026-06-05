@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-05-24 01:11+0000\n"
-"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
+"PO-Revision-Date: 2026-06-05 04:18+0000\n"
+"Last-Translator: Jonathon Love <jon@thon.cc>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jmv-i18n/zh_Hans/>\n"
 "Language: zh-cn\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1349,11 +1349,14 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "相关矩阵是检验两个或多个连续变量之间线性关系的一种方法。\n"
+msgstr ""
+"相关矩阵是检验两个或多个连续变量之间线性关系的一种方法。\n"
 "对于每一对变量，Pearson's相关系数r值表示两个变量之间关系的强度和方向。\n"
 "正值表示正相关(一个值随着另一个值的增加而增加)。\n"
 "负值表示负相关(一个值随着另一个值的增加而减小，反之亦然)。\n"
-"通常，通过检验相关系数是否为0的原假设来判断相关系数是否具有统计学意义(计算P值)。如果p值较低(低于检验水准)，则表明相关系数不为零，两个变量之间存在线性(或更复杂)的关系。"
+"通常，通过检验相关系数是否为0的原假设来判断相关系数是否具有统计学意义(计算P"
+"值)。如果p值较低(低于检验水准)，则表明相关系数不为零，两个变量之间存在线性(或"
+"更复杂)的关系。"
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1607,7 +1610,9 @@ msgstr "描述"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "统计描述是对数据进行分类和可视化的过程，以探索数据的形状和分布。在进行更正式的数据分析之前，最好先对数据进行统计学描述。"
+msgstr ""
+"统计描述是对数据进行分类和可视化的过程，以探索数据的形状和分布。在进行更正式"
+"的数据分析之前，最好先对数据进行统计学描述。"
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -2657,7 +2662,9 @@ msgstr "线性回归"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "线性回归用于探索一个连续性因变量与一个或多个连续和/或分类变量之间的关系。其他统计方法，如方差分析和协方差分析，其本质也是线性回归。"
+msgstr ""
+"线性回归用于探索一个连续性因变量与一个或多个连续和/或分类变量之间的关系。其他"
+"统计方法，如方差分析和协方差分析，其本质也是线性回归。"
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -3178,7 +3185,9 @@ msgstr "无序多分类Logistic回归"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "多元（协）方差分析（MANCOVA）用于探索多个因变量与一个或多个分类和/或连续变量之间的关系。"
+msgstr ""
+"多元（协）方差分析（MANCOVA）用于探索多个因变量与一个或多个分类和/或连续变量"
+"之间的关系。"
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3611,7 +3620,9 @@ msgstr "偏相关"
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "偏相关矩阵是一种在控制其他变量影响的情况下，检验两个或多个连续性变量之间线性关系的方法"
+msgstr ""
+"偏相关矩阵是一种在控制其他变量影响的情况下，检验两个或多个连续性变量之间线性"
+"关系的方法"
 
 #: corrPart/options.description.main
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
@@ -3632,10 +3643,16 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "偏相关矩阵是一种在控制其他变量影响的情况下，检验两个或多个连续性变量之间线性关系的方法。\n"
-"对于每一对变量，Pearson's相关系数r值表示这两个变量之间关系的强度和方向。正值表示正相关(一个值随着另一个值的增加而增加)。负值表示负相关(一个值随着另一个值的增加而减小，反之亦然)。\n"
+msgstr ""
+"偏相关矩阵是一种在控制其他变量影响的情况下，检验两个或多个连续性变量之间线性"
+"关系的方法。\n"
+"对于每一对变量，Pearson's相关系数r值表示这两个变量之间关系的强度和方向。正值"
+"表示正相关(一个值随着另一个值的增加而增加)。负值表示负相关(一个值随着另一个值"
+"的增加而减小，反之亦然)。\n"
 "零表示不存在相关关系(无论一个变量如何改变，另一个变量均不会随之发生变化)。\n"
-"通常，通过检验相关系数是否为0的原假设来判断相关系数是否具有统计学意义(计算P值)。如果p值较低(低于检验水准)，则表明相关系数不为零，两个变量之间存在线性(或更复杂)的关系。"
+"通常，通过检验相关系数是否为0的原假设来判断相关系数是否具有统计学意义(计算P"
+"值)。如果p值较低(低于检验水准)，则表明相关系数不为零，两个变量之间存在线性(或"
+"更复杂)的关系。"
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
@@ -5097,7 +5114,8 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "备择假设和零假设;\n"
+msgstr ""
+"备择假设和零假设;\n"
 "\n"
 "|              | 备择假设 (Hₐ)  | 零假设 (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5123,7 +5141,9 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "协方差分析（ANCOVA）用于探索一个连续性因变量与一个或多个分类变量或连续性变量（或协变量）之间的关系。其本质与方差分析相同，只是增加了协变量。"
+msgstr ""
+"协方差分析（ANCOVA）用于探索一个连续性因变量与一个或多个分类变量或连续性变量"
+"（或协变量）之间的关系。其本质与方差分析相同，只是增加了协变量。"
 
 #: package/analyses/anova.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5143,8 +5163,11 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "方差分析（ANOVA）用于探索一个连续性因变量与一个或多个分类变量之间的关系。\n"
-"方差分析假设残差为正态分布，且所有组的方差相等。如果不满足方差齐性，可使用Welch's 检验（但是Welch's 检验不能用于分析因素≥2的情况）。如果正态性和方差齐性都不满足，可以使用非参数检验（如Kruskal-Wallis检验）。"
+msgstr ""
+"方差分析（ANOVA）用于探索一个连续性因变量与一个或多个分类变量之间的关系。\n"
+"方差分析假设残差为正态分布，且所有组的方差相等。如果不满足方差齐性，可使用"
+"Welch's 检验（但是Welch's 检验不能用于分析因素≥2的情况）。如果正态性和方差齐"
+"性都不满足，可以使用非参数检验（如Kruskal-Wallis检验）。"
 
 #: package/analyses/anovaOneW.description
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5153,7 +5176,10 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "方差分析（ANOVA）用于探索一个连续性因变量与一个或多个分类变量之间的关系。单因素方差分析是方差分析中最简单的一种，只有一个分组因素，但也提供了Welch's校正法。Welch's校正法不需要假设所有组的方差相等。"
+msgstr ""
+"方差分析（ANOVA）用于探索一个连续性因变量与一个或多个分类变量之间的关系。单因"
+"素方差分析是方差分析中最简单的一种，只有一个分组因素，但也提供了Welch's校正法"
+"。Welch's校正法不需要假设所有组的方差相等。"
 
 #: anovaOneW/options.description.main
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
@@ -5168,7 +5194,10 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "方差分析（ANOVA）用于探索一个连续性因变量与一个或多个分类变量之间的关系。单因素方差分析是方差分析中最简单的一种，只有一个分组因素，但也提供了Welch's校正法。Welch's校正法不需要假设所有组的方差相等。\n"
+msgstr ""
+"方差分析（ANOVA）用于探索一个连续性因变量与一个或多个分类变量之间的关系。单因"
+"素方差分析是方差分析中最简单的一种，只有一个分组因素，但也提供了Welch's校正法"
+"。Welch's校正法不需要假设所有组的方差相等。\n"
 "为方便起见，该方法允许选择多个因变量，分别开展分析。\n"
 "需要注意的是，Welch's方差分析与Welch's独立样本t检验的过程相同。"
 
@@ -5183,7 +5212,9 @@ msgstr "模型的组间项."
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "二项分布检验用于检验某观察比例是否与某个期望比例相同。如果P值较低（低于检验水准）则拒绝原假设，表明观察比例与期望比例不同。"
+msgstr ""
+"二项分布检验用于检验某观察比例是否与某个期望比例相同。如果P值较低（低于检验水"
+"准）则拒绝原假设，表明观察比例与期望比例不同。"
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
@@ -5288,12 +5319,20 @@ msgstr "解释性变量或自变量. 对方差分析必须是分类变量."
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Friedman检验用于探索连续性因变量和分类变量之间的关系，其特点为这些连续性因变量的数值都是来自相同个体。Friedman检验具有非参数检验的优点，相比重复测量方差分析，不需要数据满足正态性和方差齐性的条件。但是，该方法只能用于探索一个分类变量与因变量之间的关系。"
+msgstr ""
+"Friedman检验用于探索连续性因变量和分类变量之间的关系，其特点为这些连续性因变"
+"量的数值都是来自相同个体。Friedman检验具有非参数检验的优点，相比重复测量方差"
+"分析，不需要数据满足正态性和方差齐性的条件。但是，该方法只能用于探索一个分类"
+"变量与因变量之间的关系。"
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Kruskal-Wallis检验用于探索一个连续性因变量和分类变量之间的关系。Kruskal-Wallis检验具有非参数检验方法的优点，相比方差分析，适用条件更为宽松，不需要数据满足正态性和方差齐性的条件。但是，该方法只能用于探索一个分类变量与因变量之间的关系。"
+msgstr ""
+"Kruskal-Wallis检验用于探索一个连续性因变量和分类变量之间的关系。Kruskal-"
+"Wallis检验具有非参数检验方法的优点，相比方差分析，适用条件更为宽松，不需要数"
+"据满足正态性和方差齐性的条件。但是，该方法只能用于探索一个分类变量与因变量之"
+"间的关系。"
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -5307,11 +5346,15 @@ msgstr "用于拟合模型的lavaan语法"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "缺失值处理方法。`Analysis by analysis` 为每次分析时删除缺失值。`Listwise`为所有分析过程中删除有缺失值的行."
+msgstr ""
+"缺失值处理方法。`Analysis by analysis` 为每次分析时删除缺失值。`Listwise`为所"
+"有分析过程中删除有缺失值的行."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "缺失值处理方法。`Analysis by analysis` 为删除每个变量的缺失值。`Listwise`为所有分析过程中删除有缺失值的行."
+msgstr ""
+"缺失值处理方法。`Analysis by analysis` 为删除每个变量的缺失值。`Listwise`为所"
+"有分析过程中删除有缺失值的行."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -5347,7 +5390,10 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "重复测量方差分析用于探索连续性因变量和一个或多个分类变量之间的关系，其特点为这些连续性因变量的数值都是来自相同个体。此外，该分析模块下可以纳入协变量，即可开展重复测量协方差分析。"
+msgstr ""
+"重复测量方差分析用于探索连续性因变量和一个或多个分类变量之间的关系，其特点为"
+"这些连续性因变量的数值都是来自相同个体。此外，该分析模块下可以纳入协变量，即"
+"可开展重复测量协方差分析。"
 
 #: anovaRM/options.description.main
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5364,9 +5410,14 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "重复测量方差分析用于探索连续性因变量和一个或多个分类变量之间的关系，其特点为这些连续性因变量的数值都是来自相同个体。此外，该分析模块下可以纳入协变量，即可开展重复测量协方差分析。\n"
-"该分析要求数据采用“宽格式”，其中每行代表一个受试对象（与长格式相反，在长格式中，因变量的每个测量值代表一行）。\n"
-"Friedman检验是重复测量方差分析的非参数检验方法，只不过该方法只能用于探索一个分类变量与因变量之间的关系。"
+msgstr ""
+"重复测量方差分析用于探索连续性因变量和一个或多个分类变量之间的关系，其特点为"
+"这些连续性因变量的数值都是来自相同个体。此外，该分析模块下可以纳入协变量，即"
+"可开展重复测量协方差分析。\n"
+"该分析要求数据采用“宽格式”，其中每行代表一个受试对象（与长格式相反，在长格式"
+"中，因变量的每个测量值代表一行）。\n"
+"Friedman检验是重复测量方差分析的非参数检验方法，只不过该方法只能用于探索一个"
+"分类变量与因变量之间的关系。"
 
 #: anovaRM/options/rm.description.ui
 msgid "the repeated measures design."
@@ -5386,14 +5437,18 @@ msgstr "模型中的重复测量项."
 
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "未找到以下变量指定的参考水平：{vars}。系统将默认使用第一个可用的水平。若要使用自定义参考水平，请确保所定义的参考水平在数据中存在。"
+msgstr ""
+"未找到以下变量指定的参考水平：{vars}。系统将默认使用第一个可用的水平。若要使"
+"用自定义参考水平，请确保所定义的参考水平在数据中存在。"
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "独立样本t检验（有时也称为两样本t检验）用于检验两组均值是否相同。如果P值较低（低于检验水准）则拒绝原假设，表明两组均值不同。"
+msgstr ""
+"独立样本t检验（有时也称为两样本t检验）用于检验两组均值是否相同。如果P值较低（"
+"低于检验水准）则拒绝原假设，表明两组均值不同。"
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5409,15 +5464,21 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "独立样本t检验（有时也称为两样本t检验）用于检验两组均值是否相同。如果P值较低（低于检验水准）则拒绝零假设，表明两组均值不同。\n"
-"独立样本t检验适用前提是假设数据服从正态分布，且两组方差相等。如果不满足方差齐性条件，可使用Welch's t检验。如果正态性和方差齐性都不满足可使用非参数Mann-Whitney U检验。需要注意的是，Mann-Whitney U检验的零假设是两组的分布相同。"
+msgstr ""
+"独立样本t检验（有时也称为两样本t检验）用于检验两组均值是否相同。如果P值较低（"
+"低于检验水准）则拒绝零假设，表明两组均值不同。\n"
+"独立样本t检验适用前提是假设数据服从正态分布，且两组方差相等。如果不满足方差齐"
+"性条件，可使用Welch's t检验。如果正态性和方差齐性都不满足可使用非参数Mann-"
+"Whitney U检验。需要注意的是，Mann-Whitney U检验的零假设是两组的分布相同。"
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "单样本t检验用于比较样本均值是否与某个特定的均值相等。如果P值较低（低于检验水准）则拒绝零假设，表明样本均值与特定均值不等。"
+msgstr ""
+"单样本t检验用于比较样本均值是否与某个特定的均值相等。如果P值较低（低于检验水"
+"准）则拒绝零假设，表明样本均值与特定均值不等。"
 
 #: ttestOneS/options.description.main
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
@@ -5430,8 +5491,12 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "单样本t检验用于比较样本均值是否与某个特定的均值相等。如果P值较低（低于检验水准）则拒绝零假设，表明样本均值与特定均值不等。\n"
-"单样本t检验适用前提是假设数据服从正态分布。如果不满足正态性条件，可使用Wilcoxon 符号秩检验。需要注意的是，Wilcoxon 符号秩检验的零假设是样本中位数与某个特定的中位数相等。"
+msgstr ""
+"单样本t检验用于比较样本均值是否与某个特定的均值相等。如果P值较低（低于检验水"
+"准）则拒绝零假设，表明样本均值与特定均值不等。\n"
+"单样本t检验适用前提是假设数据服从正态分布。如果不满足正态性条件，可使用"
+"Wilcoxon 符号秩检验。需要注意的是，Wilcoxon 符号秩检验的零假设是样本中位数与"
+"某个特定的中位数相等。"
 
 #: package/analyses/ttestPS.description
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -5439,7 +5504,9 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "配对样本t检验（有时也称为相关样本t检验）用于比较配对样本差值是否为0。如果P值较低（低于检验水准）则拒绝零假设，表明配对样本差值不为0。"
+msgstr ""
+"配对样本t检验（有时也称为相关样本t检验）用于比较配对样本差值是否为0。如果P值"
+"较低（低于检验水准）则拒绝零假设，表明配对样本差值不为0。"
 
 #: ttestPS/options.description.main
 msgid "The Student's paired samples t-test (sometimes called a\n"
@@ -5454,8 +5521,12 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "配对样本t检验（有时也称为相关样本t检验）用于比较配对样本差值是否为0。如果P值较低（低于检验水准）则拒绝零假设，表明配对样本差值不为0。\n"
-"配对样本t检验适用前提是假设差值服从正态分布。如果不满足正态性条件，可使用Wilcoxon 符号秩检验。需要注意的是，Wilcoxon 符号秩检验的零假设是两配对样本具有相同的分布。"
+msgstr ""
+"配对样本t检验（有时也称为相关样本t检验）用于比较配对样本差值是否为0。如果P值"
+"较低（低于检验水准）则拒绝零假设，表明配对样本差值不为0。\n"
+"配对样本t检验适用前提是假设差值服从正态分布。如果不满足正态性条件，可使用"
+"Wilcoxon 符号秩检验。需要注意的是，Wilcoxon 符号秩检验的零假设是两配对样本具"
+"有相同的分布。"
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
@@ -5515,12 +5586,16 @@ msgstr "置信区间宽度."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "拟合优度χ²检验（要与独立χ²检验相区别）用于检验某观察值的比例是否与预期比例相同。如果P值较低（低于检验水准）则拒绝零假设，表明观察值的比例与预期比例不同。"
+msgstr ""
+"拟合优度χ²检验（要与独立χ²检验相区别）用于检验某观察值的比例是否与预期比例相"
+"同。如果P值较低（低于检验水准）则拒绝零假设，表明观察值的比例与预期比例不同。"
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "关联χ²检验（要与拟合优度χ²检验相区别）用于检验两个分类变量是否具有关联。如果P值较低（低于检验水准），表明两个分类变量不独立，具有相关性。"
+msgstr ""
+"关联χ²检验（要与拟合优度χ²检验相区别）用于检验两个分类变量是否具有关联。如果P"
+"值较低（低于检验水准），表明两个分类变量不独立，具有相关性。"
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5539,7 +5614,9 @@ msgstr "没有观测值的马哈拉诺比斯距离 p 值低于 < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "此模块罗列了jamovi中包含的分析方法。包含许多常见分析（如t检验、方差分析、回归、相关矩阵、比例检验、列联表、因子分析等）。"
+msgstr ""
+"此模块罗列了jamovi中包含的分析方法。包含许多常见分析（如t检验、方差分析、回归"
+"、相关矩阵、比例检验、列联表、因子分析等）。"
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
