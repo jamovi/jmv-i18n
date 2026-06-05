@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-16 02:09+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"PO-Revision-Date: 2026-06-05 04:18+0000\n"
+"Last-Translator: Jonathon Love <jon@thon.cc>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/jamovi/"
 "jmv-i18n/nb_NO/>\n"
 "Language: no\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -31,7 +31,9 @@ msgstr "«{col}» inneholder bare én unik verdi"
 
 #: R/pca.b.R
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "Ekstraksjonsmetoden «{method}» ble brukt i kombinasjon med en «{rotasjon}»-rotasjon"
+msgstr ""
+"Ekstraksjonsmetoden «{method}» ble brukt i kombinasjon med en «{rotasjon}»-"
+"rotasjon"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -329,11 +331,15 @@ msgstr "en tabelle med mål for modelltilpassing"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "en tabell med modifikasjonsindekser for faktorladingene som ikke er inkludert i modellen"
+msgstr ""
+"en tabell med modifikasjonsindekser for faktorladingene som ikke er "
+"inkludert i modellen"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "en tabell med modifikasjonsindekser for de residuale kovariansene som ikke er inkludert i modellen"
+msgstr ""
+"en tabell med modifikasjonsindekser for de residuale kovariansene som ikke "
+"er inkludert i modellen"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
@@ -645,7 +651,8 @@ msgstr "en matrise med deskriptivstatistiske diagrammer"
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
 msgid "an array of the estimated marginal means plots + tables"
-msgstr "en array med diagrammer og tabeller som viser de estimerte gjennomsnittene"
+msgstr ""
+"en array med diagrammer og tabeller som viser de estimerte gjennomsnittene"
 
 #: propTest2/results/postPlots.description
 msgid "an array of the posterior plots"
@@ -712,7 +719,9 @@ msgstr "ANOVA-test"
 
 #: R/anovarm.b.R
 msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "Siden det ikke er noen mellomsubjekt-faktorer spesifisert, er forutsetningen alltid oppfylt."
+msgstr ""
+"Siden det ikke er noen mellomsubjekt-faktorer spesifisert, er forutsetningen "
+"alltid oppfylt."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -1329,7 +1338,8 @@ msgstr "Korrelasjons-Heatmap"
 #: package/analyses/corrMatrix.description
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
-msgstr "Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom\n"
+msgstr ""
+"Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom\n"
 "to eller flere kontinuerlige variabler."
 
 #: corrMatrix/options.description.main
@@ -1350,7 +1360,8 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom\n"
+msgstr ""
+"Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom\n"
 "to eller flere kontinuerlige variabler.\n"
 "\n"
 "For hvert par av variabler angir en Pearsons r-verdi styrken\n"
@@ -1360,7 +1371,8 @@ msgstr "Korrelasjonsmatriser tillater å undersøke lineære sammenhenger mellom
 "negativt Pearsons r angir en negativ relasjon (høyere verdier av den første\n"
 "variabelen samsvarer med lavere verdier for den andre variabelen, og\n"
 "omvendt). Hvis verdien av r er nær null, så består ingen relasjon (om den\n"
-"første variabelen er høy eller lav, forteller oss ikke noe om verdien av den\n"
+"første variabelen er høy eller lav, forteller oss ikke noe om verdien av "
+"den\n"
 "andre variabelen).\n"
 "\n"
 "Mer formelt er det mulig å teste nullhypotesen om at\n"
@@ -1561,11 +1573,15 @@ msgstr "Den avhengige variabelen '{dep}' inneholder uendelige verdier"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "Den avhengige variabelen '{dep}' inneholder ingen data (etter å ha fjernet rader med manglende verdier)"
+msgstr ""
+"Den avhengige variabelen '{dep}' inneholder ingen data (etter å ha fjernet "
+"rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "Den avhengige variabelen '{dep}' inneholder bare én unik verdi (etter å ha fjernet rader med manglende verdier)"
+msgstr ""
+"Den avhengige variabelen '{dep}' inneholder bare én unik verdi (etter å ha "
+"fjernet rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -1621,7 +1637,11 @@ msgstr "Deskriptivstatistikk"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "Deskriptivstatistikk er et utvalg av oppsummerende statistikker og visualiseringer som gjør det mulig å utforske formen og fordelingen av data. Det er lurt å utforske dataene deskriptivstatistisk før en går videre til inferensstatistiske tester."
+msgstr ""
+"Deskriptivstatistikk er et utvalg av oppsummerende statistikker og "
+"visualiseringer som gjør det mulig å utforske formen og fordelingen av data. "
+"Det er lurt å utforske dataene deskriptivstatistisk før en går videre til "
+"inferensstatistiske tester."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -1844,7 +1864,9 @@ msgstr "Eigenverdier større enn"
 
 #: R/anovarm.b.R
 msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "Tomme celler i mellomsubjekt-design: minst én kombinasjon av nivåer på mellomsubjekt-faktorene har 0 observasjoner"
+msgstr ""
+"Tomme celler i mellomsubjekt-design: minst én kombinasjon av nivåer på "
+"mellomsubjekt-faktorene har 0 observasjoner"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -1936,7 +1958,9 @@ msgstr "Estimater representerer log-odds-ratioer for …"
 
 #: R/logregbin.b.R
 msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "Estimater representerer log-odds-ratioer for «{dep} = {level1}» vs. «{dep} = {level2}»"
+msgstr ""
+"Estimater representerer log-odds-ratioer for «{dep} = {level1}» vs. «{dep} = "
+"{level2}»"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -2032,7 +2056,8 @@ msgstr "Faktor"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "Faktor '{faktor}' har mindre enn to nivåer. Faktorer må ha minst to nivåer"
+msgstr ""
+"Faktor '{faktor}' har mindre enn to nivåer. Faktorer må ha minst to nivåer"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
@@ -2040,15 +2065,21 @@ msgstr "Faktor «{faktor}» må ha minst 2 nivåer"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "Faktor '{factorName}' inneholder ingen data (etter å ha fjernet rader med manglende verdier)"
+msgstr ""
+"Faktor '{factorName}' inneholder ingen data (etter å ha fjernet rader med "
+"manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr "Faktor '{factorName}' inneholder bare ett faktornivå (etter å ha fjernet rader med manglende verdier)"
+msgstr ""
+"Faktor '{factorName}' inneholder bare ett faktornivå (etter å ha fjernet "
+"rader med manglende verdier)"
 
 #: R/ancova.b.R
 msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "Faktor «{factorName}» inneholder faktornivåer som blir ikke brukt (etter å ha fjernet rader med manglende verdier)"
+msgstr ""
+"Faktor «{factorName}» inneholder faktornivåer som blir ikke brukt (etter å "
+"ha fjernet rader med manglende verdier)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2319,7 +2350,9 @@ msgstr "Grupperingsvariabel"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
-msgstr "Grupperingsvariabelen «{a}» har mindre enn 2 nivåer etter at manglende verdier er ekskludert"
+msgstr ""
+"Grupperingsvariabelen «{a}» har mindre enn 2 nivåer etter at manglende "
+"verdier er ekskludert"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
@@ -2637,7 +2670,9 @@ msgstr "Nivå 2"
 
 #: R/ttestis.b.R
 msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levenes test er signifikant (p < 0,05), noe som tyder på et brudd på antakelsen om like varianser"
+msgstr ""
+"Levenes test er signifikant (p < 0,05), noe som tyder på et brudd på "
+"antakelsen om like varianser"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -2670,7 +2705,11 @@ msgstr "Lineær regresjon"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "Lineær regresjon brukes til å utforske forholdet mellom en kontinuerlig avhengig variabel, og en eller flere kontinuerlige og/eller kategoriske forklarende variabler. Andre statistiske metoder, som ANOVA og ANCOVA, er i realiteten bare former for lineær regresjon."
+msgstr ""
+"Lineær regresjon brukes til å utforske forholdet mellom en kontinuerlig "
+"avhengig variabel, og en eller flere kontinuerlige og/eller kategoriske "
+"forklarende variabler. Andre statistiske metoder, som ANOVA og ANCOVA, er i "
+"realiteten bare former for lineær regresjon."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -2762,7 +2801,9 @@ msgstr "Mahalanobis-avstand (p)"
 
 #: R/linreg.b.R
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "Mahalanobis-avstanden kan bare beregnes for modeller med to eller flere kovariater"
+msgstr ""
+"Mahalanobis-avstanden kan bare beregnes for modeller med to eller flere "
+"kovariater"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3192,7 +3233,10 @@ msgstr "Multinomisk logistisk regresjon"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "Den multivariate kovariansanalysen (MANCOVA) brukes til å utforske sammenhenger mellom flere avhengige variabler, og en eller flere kategoriske og/eller kontinuerlige forklaringsvariabler."
+msgstr ""
+"Den multivariate kovariansanalysen (MANCOVA) brukes til å utforske "
+"sammenhenger mellom flere avhengige variabler, og en eller flere kategoriske "
+"og/eller kontinuerlige forklaringsvariabler."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3233,7 +3277,9 @@ msgstr "Ingen korreksjon"
 
 #: R/mancova.b.R
 msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "Ingen faktorer er definert. Box's M-test er bare relevant når modellen inneholder faktorer."
+msgstr ""
+"Ingen faktorer er definert. Box's M-test er bare relevant når modellen "
+"inneholder faktorer."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3295,7 +3341,9 @@ msgstr "Test på normalfordeling (Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr "Ikke alle koeffisienter kunne estimeres (sannsynligvis fordi resultatmatrisen er singulær)"
+msgstr ""
+"Ikke alle koeffisienter kunne estimeres (sannsynligvis fordi "
+"resultatmatrisen er singulær)"
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
@@ -3424,7 +3472,9 @@ msgstr "Minst én variable inneholder ikke nok observasjoner"
 
 #: R/logregbin.b.R
 msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "Minst én koeffisient i modellen '{modelNo}' kunne ikke estimeres på grunn av perfekt kollinearitet."
+msgstr ""
+"Minst én koeffisient i modellen '{modelNo}' kunne ikke estimeres på grunn av "
+"perfekt kollinearitet."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -3625,7 +3675,8 @@ msgstr "Partiell korrelasjon"
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "Partielle korrelasjoner er en måte å undersøke lineære relasjoner mellom\n"
+msgstr ""
+"Partielle korrelasjoner er en måte å undersøke lineære relasjoner mellom\n"
 "to eller flere kontinuerlige variabler mens en kontrollerer for andre\n"
 "variabler"
 
@@ -3648,22 +3699,28 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Partielle korrelasjoner er en måte å undersøke lineære relasjoner mellom\n"
+msgstr ""
+"Partielle korrelasjoner er en måte å undersøke lineære relasjoner mellom\n"
 "to eller flere kontinuerlige variabler mens en kontrollerer for andre\n"
 "variabler.\n"
 "\n"
 "For hvert par av variabler angir en Pearsons r-koeffisient styrken og\n"
 "retningen for forholdet mellom disse to variablene. En positiv verdi\n"
-"indikerer en positiv relasjon (hvor høyere verdier av én variabelen predikerer\n"
+"indikerer en positiv relasjon (hvor høyere verdier av én variabelen "
+"predikerer\n"
 "høye verdier for den andre variabelen). Et negativt Pearsons r-koeffisient\n"
 "angir en negativ relasjon (hvor høyere verdier av én variabelen predikerer\n"
-"lave verdier for den andre variabelen, og omvendt). Verdien null angir ingen\n"
-"relasjon (om en variabel er høy eller lav, forteller oss ikke noe om verdien\n"
+"lave verdier for den andre variabelen, og omvendt). Verdien null angir "
+"ingen\n"
+"relasjon (om en variabel er høy eller lav, forteller oss ikke noe om "
+"verdien\n"
 "av den andre variabelen).\n"
 "\n"
 "Det er mulig å teste nullhypotesen om at korrelasjonen er null og beregner\n"
-"en p-verdi. Hvis p-verdien er lav, antyder det at samvirkeeffektiv korrelasjon\n"
-"ikke er null, og at det er en lineær (eller mer kompleks) relasjon mellom de\n"
+"en p-verdi. Hvis p-verdien er lav, antyder det at samvirkeeffektiv "
+"korrelasjon\n"
+"ikke er null, og at det er en lineær (eller mer kompleks) relasjon mellom "
+"de\n"
 "to variablene."
 
 #: anovaRM/options/effectSize/partEta.title
@@ -3749,7 +3806,9 @@ msgstr "gjennomfør Mann-Whitney U-test."
 
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "gjennomfør Shapiro-Wilk-test på normalfordeling. En lav p-verdi antyder at dataene ikke kommer fra en normalfordeling."
+msgstr ""
+"gjennomfør Shapiro-Wilk-test på normalfordeling. En lav p-verdi antyder at "
+"dataene ikke kommer fra en normalfordeling."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -3763,12 +3822,16 @@ msgstr "gjennomfør Fishers (eller hva kan kalles «vanlige») ANOVAer."
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi antyder at dataene ikke kommer fra en normalfordeling."
+msgstr ""
+"gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi antyder at "
+"dataene ikke kommer fra en normalfordeling."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi antyder at residuene ikke kommer fra en normalfordeling."
+msgstr ""
+"gjennomfør Shapiro-Wilk-tester på normalfordeling. En lav p-verdi antyder at "
+"residuene ikke kommer fra en normalfordeling."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -3818,7 +3881,8 @@ msgstr "Diagram"
 
 #: corrMatrix/options/plotDens.description.ui
 msgid "plot densities along the diagonal of the correlation matrix plot."
-msgstr "gi ut tetthetsdiagrammer langs hoveddiagonalen i korrelasjonsdiagrammet."
+msgstr ""
+"gi ut tetthetsdiagrammer langs hoveddiagonalen i korrelasjonsdiagrammet."
 
 #: ancova/options/emmPlotData.description.ui
 #: anova/options/emmPlotData.description.ui
@@ -4044,7 +4108,9 @@ msgstr "gi ut effektstørrelsene (Cohens d) for post-hoc tester."
 
 #: ttestOneS/options/ci.description.ui
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "gi ut konfidensintervaller for forskjellen mellom de gjennomsnittsestimatene og testverdien."
+msgstr ""
+"gi ut konfidensintervaller for forskjellen mellom de gjennomsnittsestimatene "
+"og testverdien."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -4067,7 +4133,11 @@ msgstr "gi ut Pearsons r for hver kombinasjon av variabler."
 
 #: ttestOneS/options/qq.description.ui
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "gi ut Q-Q-diagram for residuene – diagram viser de faktiske residuene mot hva kunne forventes hvis dataene var <i>perfekt</i> normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
+msgstr ""
+"gi ut Q-Q-diagram for residuene – diagram viser de faktiske residuene mot "
+"hva kunne forventes hvis dataene var <i>perfekt</i> normalfordelt. Store "
+"avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en "
+"normalfordeling."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4151,12 +4221,16 @@ msgstr "gi ut effektstørrelser (Cohens d)."
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "gjennomfør Levenes test for varianshomogenitet. En lav p-verdi antyder at gruppene har ulik varians."
+msgstr ""
+"gjennomfør Levenes test for varianshomogenitet. En lav p-verdi antyder at "
+"gruppene har ulik varians."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "gjennomfør Levenes test for varianshomogenitet. En lav p-verdi antyder at gruppene har ulik varians."
+msgstr ""
+"gjennomfør Levenes test for varianshomogenitet. En lav p-verdi antyder at "
+"gruppene har ulik varians."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4169,7 +4243,9 @@ msgstr "gi ut de gjennomsnittlige differansene med post-hoc-testene."
 
 #: ttestOneS/options/meanDiff.description.ui
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "gi ut de gjennomsnittlige differansene mellom gjennomsnittsestimatet og testverdien og i tillegg standardfeilen for denne differansen."
+msgstr ""
+"gi ut de gjennomsnittlige differansene mellom gjennomsnittsestimatet og "
+"testverdien og i tillegg standardfeilen for denne differansen."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4198,13 +4274,21 @@ msgstr "gi ut post-hoc-tester."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene mot hva kunne forventes hvis dataene hadde vært <i>perfekt</i> normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
+msgstr ""
+"gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene "
+"mot hva kunne forventes hvis dataene hadde vært <i>perfekt</i> "
+"normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke "
+"kommer fra en normalfordeling."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene mot hva kan forventes hvis dataene hadde vært <i>perfekt</i> normalfordelt. Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en normalfordeling."
+msgstr ""
+"gi ut Q-Q-diagrammer for residuene – diagrammet viser de faktiske residuene "
+"mot hva kan forventes hvis dataene hadde vært <i>perfekt</i> normalfordelt. "
+"Store avvik fra den diagonale linjen tyder på at dataene ikke kommer fra en "
+"normalfordeling."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4216,7 +4300,8 @@ msgstr "gi ut sfærisitetstester."
 
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "gi ut testresultater (t-verdi og frihetsgrader) for de post-hoc-testene."
+msgstr ""
+"gi ut testresultater (t-verdi og frihetsgrader) for de post-hoc-testene."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -4496,7 +4581,9 @@ msgstr "Diagrammer av residuene"
 
 #: R/ancova.b.R
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "Kvadratsummen på residuene og/eller frihetsgrader er null, som indikerer perfekt modelltilpassing"
+msgstr ""
+"Kvadratsummen på residuene og/eller frihetsgrader er null, som indikerer "
+"perfekt modelltilpassing"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4802,7 +4889,9 @@ msgstr "Simulasjoner"
 
 #: R/ancova.b.R
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "Det oppsto singularitet: Én eller flere prediktorvariabler er en lineær kombinasjon av andre prediktorvariabler."
+msgstr ""
+"Det oppsto singularitet: Én eller flere prediktorvariabler er en lineær "
+"kombinasjon av andre prediktorvariabler."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
@@ -5123,7 +5212,8 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "Alternativ- og nullhypothesen;\n"
+msgstr ""
+"Alternativ- og nullhypothesen;\n"
 "\n"
 "|             | Alternativhypotese (Hₐ)  | Nullhypotese (H₀)         |\n"
 "|-------------|--------------------------|---------------------------|\n"
@@ -5149,7 +5239,8 @@ msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "Kovariansanalyse (ANCOVA) brukes til å utforske sammenhengene\n"
+msgstr ""
+"Kovariansanalyse (ANCOVA) brukes til å utforske sammenhengene\n"
 "mellom en kontinuerlig avhengig variabel, én eller flere kategoriske\n"
 "uavhengige variabler og én eller flere kontinuerlige uavhengige variabler\n"
 "(også kalt kovariater). Det er egentlig den samme analysen som ANOVA, men\n"
@@ -5159,7 +5250,8 @@ msgstr "Kovariansanalyse (ANCOVA) brukes til å utforske sammenhengene\n"
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "Variansanalysen (ANOVA) brukes til å utforske sammenhengene\n"
+msgstr ""
+"Variansanalysen (ANOVA) brukes til å utforske sammenhengene\n"
 "mellom en kontinuerlig avhengig variabel, og en eller flere kategoriske\n"
 "uavhengige variabler."
 
@@ -5175,7 +5267,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom\n"
+msgstr ""
+"Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom\n"
 "en kontinuerlig avhengig variabel, og én eller flere kategoriske\n"
 "uavhengige variabler.\n"
 "\n"
@@ -5193,7 +5286,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
+msgstr ""
+"Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
 "kontinuerlig avhengig variabel, og én eller flere kategoriske uavhengige\n"
 "variabler. Denne «ANOVA med èn faktor» er en forenklet versjon av den\n"
 "«vanlige» ANOVA, som bare tillater èn faktor som uavhengig variable. I\n"
@@ -5213,7 +5307,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
+msgstr ""
+"Variansanalysen (ANOVA) brukes til å undersøke relasjonen mellom en\n"
 "kontinuerlig avhengig variabel, og én eller flere kategoriske uavhengige\n"
 "variabler. Denne «ANOVA med én faktor» er en foreklet versjon av den\n"
 "«vanlige» ANOVA, slik at tillater bare én faktor som uavhengig variabel.\n"
@@ -5237,7 +5332,11 @@ msgstr "mellomsubjekt-termene for modellen."
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "Binomialtesten brukes til å teste nullhypotesen at andelen av observasjoner samsvarer med en bestemt forventet verdi. Hvis p-verdien er lav, tyder dette på at nullhypotesen er usann, og at den observerte andelen avviker fra den forventete andelen."
+msgstr ""
+"Binomialtesten brukes til å teste nullhypotesen at andelen av observasjoner "
+"samsvarer med en bestemt forventet verdi. Hvis p-verdien er lav, tyder dette "
+"på at nullhypotesen er usann, og at den observerte andelen avviker fra den "
+"forventete andelen."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
@@ -5245,7 +5344,9 @@ msgstr "de kategoriske prediktor- (eller uavhengige) variablene."
 
 #: R/descriptives.b.R
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "Konfidensintervall av gjennomsnittet antar at gjennomsnitt i stikkprøve følger en t-fordeling med N - 1 frihetsgrader"
+msgstr ""
+"Konfidensintervall av gjennomsnittet antar at gjennomsnitt i stikkprøve "
+"følger en t-fordeling med N - 1 frihetsgrader"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -5267,7 +5368,9 @@ msgstr "bredden på konfidensintervall."
 
 #: ancova/options/covs.description.ui
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "de kontinuerlige prediktor- (eller uavhengige) variablene, også kalt kovariater."
+msgstr ""
+"de kontinuerlige prediktor- (eller uavhengige) variablene, også kalt "
+"kovariater."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5290,24 +5393,32 @@ msgstr "Cut-off-verdien er satt til {}"
 #: R/ancova.b.R
 #: R/mancova.b.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "Datasettet inneholder 0 rader (etter å ha fjernet rader med manglende verdier)"
+msgstr ""
+"Datasettet inneholder 0 rader (etter å ha fjernet rader med manglende "
+"verdier)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr "Datasettet inneholder 0 rader (eller alle rader inneholder manglende verdier)"
+msgstr ""
+"Datasettet inneholder 0 rader (eller alle rader inneholder manglende verdier)"
 
 #: R/logregbin.b.R
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "Den avhengige variabelen «{}» har mer enn to nivåer; binomial logistisk regresjon kan bare gjennomføres med avhengige variabler med to nivåer."
+msgstr ""
+"Den avhengige variabelen «{}» har mer enn to nivåer; binomial logistisk "
+"regresjon kan bare gjennomføres med avhengige variabler med to nivåer."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
-msgstr "Den avhengige variabelen «{dep}» har følgende rekkefølge: {orderedLevels}"
+msgstr ""
+"Den avhengige variabelen «{dep}» har følgende rekkefølge: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "Den avhengige variabelen «{dep}» har bare to nivåer, vurder å gjennomføre en binomial logistisk regresjon."
+msgstr ""
+"Den avhengige variabelen «{dep}» har bare to nivåer, vurder å gjennomføre en "
+"binomial logistisk regresjon."
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -5319,7 +5430,9 @@ msgstr "den avhengige variabelen. For en ANOVA må denne være kontinuerlig."
 
 #: ttestIS/options/vars.description.ui
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "de avhengige variablene – for hver avhengig variabel som er angitt gjennomføres en separat t-test."
+msgstr ""
+"de avhengige variablene – for hver avhengig variabel som er angitt "
+"gjennomføres en separat t-test."
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
@@ -5333,21 +5446,37 @@ msgstr "feilstolpene som vises med de estimerte gjennomsnittene."
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr "den prediktor- eller uavhengige variabelen. For en ANOVA må denne være kategorisk."
+msgstr ""
+"den prediktor- eller uavhengige variabelen. For en ANOVA må denne være "
+"kategorisk."
 
 #: anova/options/factors.description.ui
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr "de prediktor- eller uavhengige variablene. For en ANOVA må disse være kategoriske."
+msgstr ""
+"de prediktor- eller uavhengige variablene. For en ANOVA må disse være "
+"kategoriske."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Friedman-testen brukes til å undersøke forholdet mellom en kontinuerlig avhengig variabel og en kategorisk uavhengig variabel, der den uavhengige variabelen er innenfor deltakere (dvs. flere målinger er tatt fra samme deltakeren). Det er analog for til ANOVA for gjentatte målinger, men det er ikke-parametrisk, og derfor ikke krever at dataene er normalfordelt eller varianser må være homogent. Samtidig har testen begrensningen at den bare kan teste én enkelt faktor som uavhengig variabel om gangen."
+msgstr ""
+"Friedman-testen brukes til å undersøke forholdet mellom en kontinuerlig "
+"avhengig variabel og en kategorisk uavhengig variabel, der den uavhengige "
+"variabelen er innenfor deltakere (dvs. flere målinger er tatt fra samme "
+"deltakeren). Det er analog for til ANOVA for gjentatte målinger, men det er "
+"ikke-parametrisk, og derfor ikke krever at dataene er normalfordelt eller "
+"varianser må være homogent. Samtidig har testen begrensningen at den bare "
+"kan teste én enkelt faktor som uavhengig variabel om gangen."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Kruskal-Wallis-testen brukes til å undersøke sammenhengen mellom en kontinuerlig avhengig variabel, og en kategorisk uavhengig variabel. Det er analogt med ANOVA, men det er ikke-parametrisk og derfor ha færre forutsetninger. Samtidig har testen begrensningen at den bare kan teste en faktor som uavhengig variabel om gangen."
+msgstr ""
+"Kruskal-Wallis-testen brukes til å undersøke sammenhengen mellom en "
+"kontinuerlig avhengig variabel, og en kategorisk uavhengig variabel. Det er "
+"analogt med ANOVA, men det er ikke-parametrisk og derfor ha færre "
+"forutsetninger. Samtidig har testen begrensningen at den bare kan teste en "
+"faktor som uavhengig variabel om gangen."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -5361,11 +5490,17 @@ msgstr "lavaan-syntaksen som ble brukt for å tilpasse modellen"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "metoden for å ekskludere manglende verdier. `Analysis by analysis` ekskluderer manglende verdier per analyse. `Listwise` ekskluderer hele raden fra alle analyser hvis en av verdiene mangler."
+msgstr ""
+"metoden for å ekskludere manglende verdier. `Analysis by analysis` "
+"ekskluderer manglende verdier per analyse. `Listwise` ekskluderer hele raden "
+"fra alle analyser hvis en av verdiene mangler."
 
 #: ttestOneS/options/miss.description.ui
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "metoden for å ekskludere manglende verdier. `Analysis by analysis` ekskluderer manglende verdier per analyse. `Listwise` ekskluderer hele raden fra alle analyser hvis en av verdiene mangler."
+msgstr ""
+"metoden for å ekskludere manglende verdier. `Analysis by analysis` "
+"ekskluderer manglende verdier per analyse. `Listwise` ekskluderer hele raden "
+"fra alle analyser hvis en av verdiene mangler."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
@@ -5373,7 +5508,9 @@ msgstr "de modelltermene som inngår i modellen."
 
 #: anova/options/modelTerms.description.ui
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "de modelltermene som inngår i modellen. Som standard settes opp en modell med alle faktorer men de modelltermene kan bli tilpasset."
+msgstr ""
+"de modelltermene som inngår i modellen. Som standard settes opp en modell "
+"med alle faktorer men de modelltermene kan bli tilpasset."
 
 #: ttestPS/options/pairs.description.ui
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
@@ -5383,16 +5520,22 @@ msgstr "måleparene – en separat t-test gjenneomføres for hvert par målinger
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr "korreksjonene som skal brukes for de multiple sammenligningene i post-hoc-testene."
+msgstr ""
+"korreksjonene som skal brukes for de multiple sammenligningene i post-hoc-"
+"testene."
 
 #: ttestIS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "bredden på prior for Bayes-faktorer i Students t-test. Krever en verdi mellom 0.01 og 2.0 (standard: 0.707)."
+msgstr ""
+"bredden på prior for Bayes-faktorer i Students t-test. Krever en verdi "
+"mellom 0.01 og 2.0 (standard: 0.707)."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "bredden på prior for de Bayes-faktorene i Students t-testen. Krever en verdi mellom 0.5 og 2.0 (standard: 0.707)."
+msgstr ""
+"bredden på prior for de Bayes-faktorene i Students t-testen. Krever en verdi "
+"mellom 0.5 og 2.0 (standard: 0.707)."
 
 #: package/analyses/anovaRM.description
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
@@ -5401,7 +5544,8 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "ANOVA for gjentatte målinger brukes til å undersøke forholdet mellom en\n"
+msgstr ""
+"ANOVA for gjentatte målinger brukes til å undersøke forholdet mellom en\n"
 "kontinuerlig avhengig variabel og én eller flere kategoriske uavhengige\n"
 "variabler, der én eller flere av de avhengig variablene er målt «innenfor\n"
 "deltakerne» (dvs. det er flere målinger fra samme deltaker). I tillegg\n"
@@ -5423,7 +5567,8 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "ANOVA for gjentatte målinger brukes til å utforske forholdet\n"
+msgstr ""
+"ANOVA for gjentatte målinger brukes til å utforske forholdet\n"
 "mellom en kontinuerlig avhengig variabel og én eller flere kategoriske\n"
 "uavhengige variabler, der én eller flere av de uavhengige variablene\n"
 "er «innenfor deltaker» (der flere målinger er fra samme\n"
@@ -5431,10 +5576,12 @@ msgstr "ANOVA for gjentatte målinger brukes til å utforske forholdet\n"
 "kovariater, noe som også gir mulighet for ANCOVAer for gjentatte målinger.\n"
 "\n"
 "Denne analysen krever at dataene er i «bredt format», hvor hver linje\n"
-"representerer en deltaker / målesubjekt (i motsetning til langt format, hvor\n"
+"representerer en deltaker / målesubjekt (i motsetning til langt format, "
+"hvor\n"
 "hver måling av den avhengige variabelen representeres som en rad).\n"
 "\n"
-"Det finnes også en ikke-parametrisk ekvivalent til ANOVAen for gjentatte målinger\n"
+"Det finnes også en ikke-parametrisk ekvivalent til ANOVAen for gjentatte "
+"målinger\n"
 "som heter Friedman-testen. Den har imidlertid begrensningen av bare å kunne\n"
 "teste en enkelt faktor."
 
@@ -5444,7 +5591,9 @@ msgstr "det designet for de gjentatte målingene."
 
 #: R/anovarm.b.R
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "Det er bare to gjentatte målinger. Antakelsen om sfæriskhet er alltid gitt når faktoren for gjentatte målinger har bare to nivåer."
+msgstr ""
+"Det er bare to gjentatte målinger. Antakelsen om sfæriskhet er alltid gitt "
+"når faktoren for gjentatte målinger har bare to nivåer."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
@@ -5456,16 +5605,23 @@ msgstr "de modelltermene for de gjentatte målingene."
 
 #: R/utilsreg.R
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "Det angitte referansenivået ble ikke funnet for følgende variabel(er): {vars}. Som standardverdie blir det første tilgjengelige nivået brukt. Hvis du vil bruke et egendefinert referansenivå, må du kontrollere at det definerte referansenivået er tilgjengelig i dataene."
+msgstr ""
+"Det angitte referansenivået ble ikke funnet for følgende variabel(er): {vars}"
+". Som standardverdie blir det første tilgjengelige nivået brukt. Hvis du vil "
+"bruke et egendefinert referansenivå, må du kontrollere at det definerte "
+"referansenivået er tilgjengelig i dataene."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "Students uavhengig t-test (noen ganger kalt uparet t-test) brukes til å teste\n"
+msgstr ""
+"Students uavhengig t-test (noen ganger kalt uparet t-test) brukes til å "
+"teste\n"
 "nullhypotesen om at to grupper har samme gjennomsnitt. En lav p-verdi\n"
-"antyder at nullhypotesen ikke er sann, og at gruppemidlene derfor er forskjellige."
+"antyder at nullhypotesen ikke er sann, og at gruppemidlene derfor er "
+"forskjellige."
 
 #: ttestIS/options.description.main
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5481,23 +5637,32 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "Students uavhengig t-test (noen ganger kalt uparet t-test) brukes til å teste\n"
+msgstr ""
+"Students uavhengig t-test (noen ganger kalt uparet t-test) brukes til å "
+"teste\n"
 "nullhypotesen om at to grupper har samme gjennomsnitt. En lav p-verdi\n"
-"antyder at nullhypotesen ikke er sann, og at gruppemidlene derfor er forskjellige.\n"
+"antyder at nullhypotesen ikke er sann, og at gruppemidlene derfor er "
+"forskjellige.\n"
 "\n"
-"Students uavhengig t-test forutsetter at dataene fra hver gruppe er normalfordelt,\n"
-"og at variansene for disse gruppene er like. Hvis du ikke kan anta at gruppene har\n"
-"like varianser, kan Welchs t-test brukes istedenfor. Hvis en i tillegg ikke kan anta at\n"
-"dataene i hver gruppe er normalfordelt, kan den ikke-parametriske Mann-Whitney\n"
+"Students uavhengig t-test forutsetter at dataene fra hver gruppe er "
+"normalfordelt,\n"
+"og at variansene for disse gruppene er like. Hvis du ikke kan anta at "
+"gruppene har\n"
+"like varianser, kan Welchs t-test brukes istedenfor. Hvis en i tillegg ikke "
+"kan anta at\n"
+"dataene i hver gruppe er normalfordelt, kan den ikke-parametriske Mann-"
+"Whitney\n"
 "U-testen brukes (men vær oppmerksom på at Mann-Whitney U-testen har en litt\n"
-"annen nullhypotese, nemlig at fordelingene / rangfølge for hver gruppe er like)."
+"annen nullhypotese, nemlig at fordelingene / rangfølge for hver gruppe er "
+"like)."
 
 #: package/analyses/ttestOneS.description
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
+msgstr ""
+"Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien."
@@ -5513,7 +5678,8 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
+msgstr ""
+"Student's t-test for ett utvalg brukes til å teste nullhypotesen\n"
 "gjennomsnittet i populasjonen er lik en bestemt verdi (vanligvis null).\n"
 "En lav p-verdi antyder at nullhypotesen ikke er sann, og at gjennomsnittet\n"
 "er forskjellig fra testverdien.\n"
@@ -5530,7 +5696,8 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+msgstr ""
+"Students paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
 "teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
 "lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
 "forskjellen mellom måleparene / gjentatte målingene er ikke null."
@@ -5548,12 +5715,14 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "Student's paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
+msgstr ""
+"Student's paret t-test (noen ganger kalt en avhengig t-test) brukes til å\n"
 "teste nullhypotesen at forskjellen mellom par av gjentatte målinger er\n"
 "lik null. En lav p-verdi antyder at nullhypotesen ikke er sann, og at\n"
 "forskjellen mellom måleparene / gjentatte målingene er ikke null.\n"
 "\n"
-"Student's paret t-test forutsetter at parforskjeller er normalfordelt. I tilfelle\n"
+"Student's paret t-test forutsetter at parforskjeller er normalfordelt. I "
+"tilfelle\n"
 "en kan ikke anta dette kan den ikke-parametriske Wilcoxon-test av\n"
 "fortegnsfordeling brukes (men vær oppmerksom på at Wilcoxon-test har\n"
 "en litt annen nullhypotese, nemlig at de to målingsparene har samme\n"
@@ -5563,7 +5732,9 @@ msgstr "Student's paret t-test (noen ganger kalt en avhengig t-test) brukes til 
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "termene for å beregne de estimerte gjennomsnittene (det kan angis flere termer)."
+msgstr ""
+"termene for å beregne de estimerte gjennomsnittene (det kan angis flere "
+"termer)."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
@@ -5589,7 +5760,9 @@ msgstr "Det underliggende `aov`-objektet"
 
 #: R/descriptives.b.R
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "Variabelen {var} kan ikke behandles som numerisk. Diagrammer som trenger numeriske data, kan ikke lages for denne variabelen."
+msgstr ""
+"Variabelen {var} kan ikke behandles som numerisk. Diagrammer som trenger "
+"numeriske data, kan ikke lages for denne variabelen."
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
@@ -5597,11 +5770,15 @@ msgstr "variabelen som spesifiserer gruppene; må ha 2 nivåer."
 
 #: R/descriptives.b.R
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "Variablene {vars} kan ikke behandles som numeriske. Diagrammer som trenger numeriske data kan ikke lages for disse variablene."
+msgstr ""
+"Variablene {vars} kan ikke behandles som numeriske. Diagrammer som trenger "
+"numeriske data kan ikke lages for disse variablene."
 
 #: ttestOneS/options/vars.description.ui
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "variablene av interesse – en separat t-test gjennomføres for hver spesifisert variabel."
+msgstr ""
+"variablene av interesse – en separat t-test gjennomføres for hver "
+"spesifisert variabel."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -5617,12 +5794,21 @@ msgstr "bredden på konfidensintervallene."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "χ²-testen for fordeling (goodness-of-fit; må ikke forveksles med χ²-testen for uavhengighet), tester nullhypotesen at proporsjonene av observasjoner samsvarer med forventete proporsjonene. Hvis p-verdien er lav, tyder det på at nullhypotesen er usann, og at de observerte proporsjonene er forskjellige fra de forventete."
+msgstr ""
+"χ²-testen for fordeling (goodness-of-fit; må ikke forveksles med χ²-testen "
+"for uavhengighet), tester nullhypotesen at proporsjonene av observasjoner "
+"samsvarer med forventete proporsjonene. Hvis p-verdien er lav, tyder det på "
+"at nullhypotesen er usann, og at de observerte proporsjonene er forskjellige "
+"fra de forventete."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "χ²-testen for uavhengighet (må ikke forveksles med χ²-testen for fordeling) brukes til å teste om to kategoriske variabler er uavhengige eller assosierte. Hvis p-verdien er lav, tyder det på at variablene ikke er uavhengige, og at det er en sammenheng mellom de to variablene."
+msgstr ""
+"χ²-testen for uavhengighet (må ikke forveksles med χ²-testen for fordeling) "
+"brukes til å teste om to kategoriske variabler er uavhengige eller "
+"assosierte. Hvis p-verdien er lav, tyder det på at variablene ikke er "
+"uavhengige, og at det er en sammenheng mellom de to variablene."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5641,7 +5827,10 @@ msgstr "Det var ingen Mahalanobis-avstander med en terskel under p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "Denne modulen inneholder analysene som er inkludert i jamovi. Den omfatter mange analyser som brukes ofte (for eksempel t-test, ANOVA, regresjon, korrelasjon, frekvensanalyse, faktoranalyse, osv.)."
+msgstr ""
+"Denne modulen inneholder analysene som er inkludert i jamovi. Den omfatter "
+"mange analyser som brukes ofte (for eksempel t-test, ANOVA, regresjon, "
+"korrelasjon, frekvensanalyse, faktoranalyse, osv.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
@@ -5677,7 +5866,9 @@ msgstr "For få observasjoner (N < 3) for å beregne statistikk"
 
 #: R/mancova.b.R
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "For få observasjoner for å beregne statistikk. Hver (under)gruppe må ha minst like mange observasjoner som det finnes avhengige variabler."
+msgstr ""
+"For få observasjoner for å beregne statistikk. Hver (under)gruppe må ha "
+"minst like mange observasjoner som det finnes avhengige variabler."
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
@@ -5908,7 +6099,9 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "vei hver celle likt (som standard veies cellene i henhold til cellefrekvensen)."
+msgstr ""
+"vei hver celle likt (som standard veies cellene i henhold til "
+"cellefrekvensen)."
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
