@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-06-08 12:01+0000\n"
-"Last-Translator: José Ángel Iranzo Sanz <joseani@unizar.es>\n"
+"PO-Revision-Date: 2026-06-29 18:01+0000\n"
+"Last-Translator: Miguel L <miguellb@unizar.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -174,7 +174,7 @@ msgstr "% del total"
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "% of Variance"
-msgstr "% de Varianza"
+msgstr "% de varianza"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
@@ -1407,7 +1407,7 @@ msgstr "Tipo de correlación"
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
 msgid "Count"
-msgstr "Recuento"
+msgstr "Frecuencia"
 
 #: R/conttables.b.R
 #: R/descriptives.b.R
@@ -1491,7 +1491,7 @@ msgstr "cúbico"
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
-msgstr "% Acumulativo"
+msgstr "% acumulado"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -1735,7 +1735,7 @@ msgstr "Desviación"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "df"
-msgstr "df"
+msgstr "gl"
 
 #: anovaOneW/results/anova.columns.title
 #: linReg/results/modelFit.columns.title
@@ -2052,7 +2052,7 @@ msgstr "El estadístico F no se pudo calcular"
 #: pca/options.menuGroup
 #: reliability/options.menuGroup
 msgid "Factor"
-msgstr "Factor"
+msgstr "Variable"
 
 #: R/loglinear.b.R
 msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
@@ -2267,7 +2267,7 @@ msgstr "Prueba Post-Hoc de Games-Howell – {dep}"
 #: contTables/results/gamma.title
 #: contTables/results/gamma.columns.title
 msgid "Gamma"
-msgstr "Gama"
+msgstr "Gamma"
 
 #: ancova/ui[6][1][0][1].label
 #: anova/ui[6][1][0][1].label
@@ -2501,7 +2501,7 @@ msgstr "Indicador"
 
 #: pca/results/eigen/initEigen.title
 msgid "Initial Eigenvalues"
-msgstr "Valores Propios Iniciales"
+msgstr "Valores propios iniciales"
 
 #: efa/options/eigen.title
 #: pca/options/eigen.title
@@ -2830,7 +2830,7 @@ msgstr "MANCOVA"
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr "Mann-Whitney U"
+msgstr "U de Mann-Whitney"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
@@ -3766,8 +3766,7 @@ msgstr "Pearson"
 
 #: R/corrmatrix.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
-"La correlación de Pearson no puede ser calculada para valores no-numéricos"
+msgstr "La correlación de Pearson no puede calcularse para valores no numéricos"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
@@ -4064,7 +4063,7 @@ msgstr "Factorización según el eje principal"
 #: pca/ui.title
 #: pca/results.title
 msgid "Principal Component Analysis"
-msgstr "Análisis de Componente Principal"
+msgstr "Análisis de componentes principales"
 
 #: R/proptest2.b.R
 #: propTest2/ui[2][0][0].label
@@ -4809,7 +4808,7 @@ msgstr "Gráfico de sedimentación"
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
 msgid "SD"
-msgstr "DE"
+msgstr "DT"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -4989,7 +4988,7 @@ msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
 msgid "SS Loadings"
-msgstr "Cargas de SS"
+msgstr "Suma de cargas al cuadrado"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
@@ -5058,7 +5057,7 @@ msgstr "Residuos tipificados (ajuste de Pearson)"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
 msgid "Statistic"
-msgstr "Estadística"
+msgstr "Estadístico"
 
 #: ttestPS/results/ttest.columns.title
 msgid "statistic"
@@ -5866,7 +5865,7 @@ msgstr ""
 #: R/ttestones.b.R
 #: R/ttestps.b.R
 msgid "Theoretical Quantiles"
-msgstr "Cuantiles Teóricos"
+msgstr "Cuantiles teóricos"
 
 #: R/linreg.b.R
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
