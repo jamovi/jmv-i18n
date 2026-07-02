@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-07-02 08:01+0000\n"
+"PO-Revision-Date: 2026-07-02 09:03+0000\n"
 "Last-Translator: Miguel L <miguellb@unizar.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "es/>\n"
@@ -268,14 +268,14 @@ msgstr "la gráfica descriptiva"
 
 #: ttestIS/results/assum/eqv.notes.p
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr "Un valor p bajo sugiere una violación del supuesto de varianzas iguales"
+msgstr "Un p-valor bajo sugiere una violación del supuesto de varianzas iguales"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr "Un valor p bajo sugiere una violación del supuesto de normalidad"
+msgstr "Un p-valor bajo sugiere una violación del supuesto de normalidad"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
 msgid "A nice correlation data set"
@@ -3731,7 +3731,7 @@ msgstr ""
 "variable).\n"
 "\n"
 "Más formalmente, es posible probar la hipótesis nula de que la\n"
-"correlación es cero y calcular un valor p. Si el valor p es bajo,\n"
+"correlación es cero y calcular un p-valor. Si el p-valor es bajo,\n"
 "sugiere que el coeficiente de correlación no es cero, y hay una relación "
 "lineal\n"
 "(o más compleja) entre las dos variables."
@@ -3820,7 +3820,7 @@ msgstr "realizar una prueba U de Mann-Whitney."
 #: ttestOneS/options/norm.description.ui
 msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
 msgstr ""
-"realice una prueba de normalidad de Shapiro-Wilk. Un valor p bajo sugiere "
+"realice una prueba de normalidad de Shapiro-Wilk. Un p-valor bajo sugiere "
 "que los datos no provienen de una distribución normal."
 
 #: ancova/options/modelTest.description.ui
@@ -3843,7 +3843,7 @@ msgstr ""
 #: anova/options/norm.description.ui
 msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
 msgstr ""
-"realizar pruebas de normalidad de Shapiro-Wilk. Un valor p bajo sugiere que "
+"realizar pruebas de normalidad de Shapiro-Wilk. Un p-valor bajo sugiere que "
 "los residuos no están distribuidos normalmente."
 
 #: ttestIS/options/students.description.ui
@@ -4139,7 +4139,7 @@ msgstr "proporciona un tau-b de Kendall para cada combinación de variables."
 #: corrMatrix/options/sig.description.ui
 #: corrPart/options/sig.description.ui
 msgid "provide a p-value for each correlation co-efficient."
-msgstr "proporciona un valor p para cada coeficiente de correlación."
+msgstr "proporciona un p-valor para cada coeficiente de correlación."
 
 #: corrMatrix/options/pearson.description.ui
 #: corrPart/options/pearson.description.ui
@@ -4246,8 +4246,8 @@ msgstr "proporcionar tamaños de efecto (d de Cohen)."
 #: anovaRM/options/leveneTest.description.ui
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
 msgstr ""
-"proporciona la prueba de Levene para la homogeneidad de las varianzas. Un "
-"valor p bajo sugiere que los grupos tienen varianzas desiguales."
+"proporciona la prueba de Levene para la homogeneidad de las varianzas. Un p-"
+"valor bajo sugiere que los grupos tienen varianzas desiguales."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
@@ -4869,7 +4869,7 @@ msgstr "Prueba de Normalidad Multivariante de Shapiro-Wilk"
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk p"
-msgstr "Valor p de Shapiro-Wilk"
+msgstr "p-valor de Shapiro-Wilk"
 
 #: mancova/ui[1][1][0]/shapiro.label
 msgid "Shapiro-Wilk test"
@@ -5365,7 +5365,7 @@ msgstr "los términos entre sujetos del modelo."
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
 msgstr ""
 "La prueba binomial se usa para probar la hipótesis nula de que la proporción "
-"de observaciones coincide con algún valor esperado. Si el valor p es bajo, "
+"de observaciones coincide con algún valor esperado. Si el p-valor es bajo, "
 "esto sugiere que la hipótesis nula es falsa y que la proporción verdadera "
 "debe ser algún otro valor."
 
@@ -5655,7 +5655,7 @@ msgstr ""
 "muestras\n"
 "t-test) se utiliza para probar la hipótesis nula de que dos grupos tienen "
 "el\n"
-"misma media. Un valor p bajo sugiere que la hipótesis nula no es cierta,\n"
+"misma media. Un p-valor bajo sugiere que la hipótesis nula no es cierta,\n"
 "y por tanto las medias del grupo son diferentes."
 
 #: ttestIS/options.description.main
@@ -5677,7 +5677,7 @@ msgstr ""
 "muestras\n"
 "t-test) se utiliza para probar la hipótesis nula de que dos grupos tienen "
 "el\n"
-"misma media. Un valor p bajo sugiere que la hipótesis nula no es cierta,\n"
+"misma media. Un p-valor bajo sugiere que la hipótesis nula no es cierta,\n"
 "y por lo tanto las medias del grupo son diferentes.\n"
 "\n"
 "La prueba t independiente de Student asume que los datos de cada grupo\n"
@@ -5699,7 +5699,7 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 msgstr ""
 "La prueba t de Student para una muestra se utiliza para probar la hipótesis "
 "nula de que\n"
-"la media real es igual a un valor particular (normalmente cero). Un valor p "
+"la media real es igual a un valor particular (normalmente cero). Un p-valor "
 "bajo sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
 "la media real debe ser diferente del valor de prueba."
 
@@ -5718,7 +5718,7 @@ msgstr ""
 "La prueba t de Student para una muestra se utiliza para probar la hipótesis "
 "nula de que\n"
 "la media real es igual a un valor particular (normalmente cero). Un bajo\n"
-"El valor p sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
+"El p-valor sugiere que la hipótesis nula no es cierta y, por lo tanto,\n"
 "la media real debe ser diferente del valor de prueba.\n"
 "\n"
 "La prueba t de una muestra de Student asume que los datos provienen de una "
