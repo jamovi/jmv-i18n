@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-06-05 04:16+0000\n"
-"Last-Translator: Jonathon Love <jon@thon.cc>\n"
+"PO-Revision-Date: 2026-08-12 00:45+0000\n"
+"Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ca/>\n"
 "Language: ca\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -1538,7 +1538,6 @@ msgid "Data Summary"
 msgstr "Resum de Dades"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "degree"
 msgstr "grau"
 
@@ -2546,9 +2545,15 @@ msgid "IQR"
 msgstr "RIC"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Sembla que el teu model té un problema de 'singularitat'. Això sol significar que el model està tenint problemes per distingir entre certs efectes perquè algunes variables estan massa relacionades o no hi ha prou dades per estimar tots els efectes de manera fiable. Per resoldre això, considera simplificar el model suprimint alguns dels efectes o comprovar si les teves dades poden tenir variables redundants o altament correlacionades."
+msgstr ""
+"Sembla que el vostre model té un problema de \"singularitat\". Això "
+"normalment significa que el model té problemes per distingir entre certs "
+"efectes perquè algunes variables estan massa relacionades o no hi ha prou "
+"dades per estimar tots els efectes de manera fiable. Per resoldre-ho, "
+"considereu la possibilitat de simplificar el model eliminant alguns dels "
+"efectes o comprovant si les vostres dades poden tenir variables redundants o "
+"altament correlacionades."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -3913,7 +3918,6 @@ msgid "Polynomial"
 msgstr "Polinomial"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
 msgstr "Polinomis limitats al grau 6"
 
@@ -4869,16 +4873,14 @@ msgstr "Al costat"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "Senzilla (vs. First)"
+msgstr "Simple (vs. Primer)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "Senzilla (vs. Last)"
+msgstr "Simple (vs. Darrer)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
