@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-06-05 04:19+0000\n"
-"Last-Translator: Jonathon Love <jon@thon.cc>\n"
+"PO-Revision-Date: 2026-10-14 03:51+0000\n"
+"Last-Translator: Jonatan Nyberg <nickwick@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "sv/>\n"
 "Language: sv\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2402,7 +2402,6 @@ msgid "Hide loadings below"
 msgstr "Dölj ladinger under"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Highest"
 msgstr "Högst"
 
@@ -2778,7 +2777,6 @@ msgid "lower bound"
 msgstr "nedre gräns"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Lowest"
 msgstr "Lägst"
 
@@ -2793,27 +2791,24 @@ msgstr "Mahalanobis avstånd"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
-#, fuzzy
 msgid "Mahalanobis Distance"
-msgstr "Mahalanobis Avstånd"
+msgstr "Mahalanobis avstånd"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr "Mahalanobis avstånd (Chi sq.)"
+msgstr "Mahalanobis avstånd (chi-två)"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance (p)"
 msgstr "Mahalanobis avstånd (p)"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "Mahalanobis avstånd kan bara beräknas för modeller med två eller flera kovariabler"
+msgstr ""
+"Mahalanobis avstånd kan bara beräknas för modeller med två eller flera "
+"kovariater"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis p"
 msgstr "Mahalanobis p"
 
@@ -3150,9 +3145,8 @@ msgid "Model Fit"
 msgstr "Modellanpassning"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "Model fit issue detected!"
-msgstr "Modellpassningsproblem upptäckt!"
+msgstr "Problem med modellanpassningen upptäckt!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3198,9 +3192,8 @@ msgstr "Modelltrösklar"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-#, fuzzy
 msgid "Models estimated using sample size of N={n}"
-msgstr "Modeller uppskattade med en urvalsstorlek på N={n}"
+msgstr "Modellerna skattades med stickprovsstorleken N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3356,9 +3349,8 @@ msgstr ""
 "är singulær)"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Not all statistics support weighted data yet."
-msgstr "Inte alla statistik stöder viktade data ännu"
+msgstr "Alla statistiska mått stöder ännu inte viktade data."
 
 #: R/mancova.b.R
 msgid "Not available due to too large number of cases (> 5000)."
@@ -3598,7 +3590,6 @@ msgid "p"
 msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
-#, fuzzy
 msgid "p <"
 msgstr "p <"
 
@@ -3609,12 +3600,10 @@ msgid "p-value"
 msgstr "p-värde"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
-#, fuzzy
 msgid "p<sub>(Bonferroni)</sub>"
 msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
-#, fuzzy
 msgid "p<sub>(unadj)</sub>"
 msgstr "p<sub>(unadj)</sub>"
 
@@ -3746,7 +3735,6 @@ msgid "partial η²"
 msgstr "partiell η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
-#, fuzzy
 msgid "Participants (rows) below p-threshold"
 msgstr "Deltagare (rader) under p-tröskeln"
 
@@ -3771,9 +3759,8 @@ msgstr "Pearson-korrelation kan inte beräknas för ikke-numeriske värden"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
-#, fuzzy
 msgid "Pearson residuals"
-msgstr "Pearsons restdelar"
+msgstr "Pearsonresidualer"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3923,9 +3910,8 @@ msgid "Plots"
 msgstr "Diagram"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Plots are not yet supported for weighted descriptives."
-msgstr "Diagram stöds inte ännu för viktade deskriptiva"
+msgstr "Diagram stöds ännu inte för viktad deskriptiv statistik."
 
 #: ancova/options/contrasts.template/type/polynomial.title
 #: anova/options/contrasts.template/type/polynomial.title
@@ -3934,7 +3920,6 @@ msgid "Polynomial"
 msgstr "Polynomial"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
 msgstr "Polynom begränsade till grad 6"
 
@@ -3944,14 +3929,12 @@ msgid "Post Hoc Comparisons - {term}"
 msgstr "Post-hoc-jämförelser - {term}"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Post Hoc Test"
-msgstr "Post Hoc Test"
+msgstr "Post hoc-test"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Post Hoc Test ({title})"
-msgstr "Post Hoc Test ({title})"
+msgstr "Post hoc-test ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4879,16 +4862,14 @@ msgstr "Sida-vid-sida"
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "Enkel (vs. Första)"
+msgstr "Enkel (jämfört med första)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "Enkel (vs. Sista)"
+msgstr "Enkel (jämfört med sista)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
@@ -4910,9 +4891,8 @@ msgstr ""
 "kombination av andra prediktorvariabler."
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr "Singulärt fel. Sfäriska korrektioner är inte tillgängliga"
+msgstr "Singularitetsfel. Sfäricitetskorrigeringar är inte tillgängliga"
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity tests are not available"
@@ -5035,14 +5015,12 @@ msgid "Standardized Residuals"
 msgstr "Standardiserade residuer"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Standardized residuals"
-msgstr "Standardiserade restdelar"
+msgstr "Standardiserade residualer"
 
 #: contTables/options/resS.title
-#, fuzzy
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr "Standardiserade rester (justerad Pearson)"
+msgstr "Standardiserade residualer (justerade Pearsonresidualer)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5629,9 +5607,11 @@ msgid "the repeated measures terms of the model."
 msgstr "de modelltermerna för de upprepade mätningarna."
 
 #: R/utilsreg.R
-#, fuzzy
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "Den angivna referensnivån hittades inte för följande variabel(er): {vars}. Standardvärdet är den första tillgängliga nivån. För att använda en anpassad referensnivå, se till att den definierade referensnivån finns i data."
+msgstr ""
+"Den angivna referensnivån hittades inte för följande variabler: {vars}. Den "
+"första tillgängliga nivån används i stället. Om du vill använda en egen "
+"referensnivå måste den finnas i dina data."
 
 #: package/analyses/ttestIS.description
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
@@ -5849,9 +5829,8 @@ msgid "Theoretical Quantiles"
 msgstr "Teoretiska kvantiler"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr "Det fanns inga Mahalanobis avstånd med en tröskel under p < {p}"
+msgstr "Inga Mahalanobisavstånd hade p-värden under gränsen p < {p}."
 
 #: package.description
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
@@ -5983,9 +5962,8 @@ msgstr "Univariate tester"
 
 #: R/conttables.b.R
 #: contTables/options/resU.title
-#, fuzzy
 msgid "Unstandardized residuals"
-msgstr "Ojusterade restdelar"
+msgstr "Ostandardiserade residualer"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
