@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-06-05 04:18+0000\n"
-"Last-Translator: Jonathon Love <jon@thon.cc>\n"
+"PO-Revision-Date: 2026-10-14 03:51+0000\n"
+"Last-Translator: Michal Várady <majkl82@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "cs/>\n"
 "Language: cs\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -210,37 +210,31 @@ msgstr "`Proporce - ${var}`"
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "±%"
 msgstr "±%"
 
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
-#, fuzzy
 msgid "< Test value"
-msgstr "< Hodnota testu"
+msgstr "< Testovací hodnota"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
-#, fuzzy
 msgid "≠ Test value"
-msgstr "≠ Testovací hodnota"
+msgstr "≠ Testovaná hodnota"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
-#, fuzzy
 msgid "> Test value"
-msgstr "> Testová hodnota"
+msgstr "> Testovací hodnota"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
-#, fuzzy
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
 msgstr "⁻ průměr - 1SD, <sup>μ</sup> průměr, ⁺ průměr + 1SD"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "1 - Specificity"
 msgstr "1 - Specifita"
 
@@ -248,19 +242,16 @@ msgstr "1 - Specifita"
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
-#, fuzzy
 msgid "2 Outcomes"
-msgstr "2 výsledky"
+msgstr "2 výsledné kategorie"
 
 #: descriptives/options/pcValues.default
-#, fuzzy
 msgid "25,50,75"
 msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
-#, fuzzy
 msgid "a (semi)partial correlation matrix table"
-msgstr "tabulka (semi)parciální korelační matice"
+msgstr "tabulka matice (semi)parciálních korelací"
 
 #: corrMatrix/results/plot.description
 msgid "a correlation matrix plot"
@@ -456,9 +447,8 @@ msgid "a table of normality tests"
 msgstr "tabulka testů normality"
 
 #: contTables/results/postHoc.description
-#, fuzzy
 msgid "a table of post-hoc residuals"
-msgstr "tabulka post-hoc reziduí"
+msgstr "tabulka reziduí pro post-hoc testy"
 
 #: logRegBin/results/models.template/pred/class.description
 msgid "a table of predicted classifications"
@@ -987,7 +977,6 @@ msgstr "Střední tendence"
 
 #: cfa/options/fitMeasures/cfi.title
 #: cfa/results/modelFit/fitMeasures.columns.title
-#, fuzzy
 msgid "CFI"
 msgstr "CFI"
 
@@ -996,14 +985,12 @@ msgid "Chi-Square Quantiles"
 msgstr "Kvantily chí-kvadrátu"
 
 #: corrMatrix/results/matrix.columns.content
-#, fuzzy
 msgid "CI Lower"
-msgstr "Dolní mez CI"
+msgstr "Dolní mez intervalu spolehlivosti"
 
 #: corrMatrix/results/matrix.columns.content
-#, fuzzy
 msgid "CI Upper"
-msgstr "CI Horní"
+msgstr "Horní mez CI"
 
 #: logRegBin/results/models.template/pred/class.title
 msgid "Classification Table"
@@ -1028,37 +1015,31 @@ msgstr "Cohenova d"
 
 #: linReg/results/models.template/assump/collin.title
 #: logRegBin/results/models.template/assump/collin.title
-#, fuzzy
 msgid "Collinearity Statistics"
 msgstr "Statistiky kolinearity"
 
 #: linReg/options/collin.title
 #: logRegBin/options/collin.title
-#, fuzzy
 msgid "Collinearity statistics"
-msgstr "Kolinearitní statistiky"
+msgstr "Statistiky kolinearity"
 
 #: contTables/options/pcCol.title
 #: contTablesPaired/options/pcCol.title
-#, fuzzy
 msgid "Column"
 msgstr "Sloupec"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
-#, fuzzy
 msgid "Column variable '{var}' contains fewer than 2 levels"
-msgstr "Sloupec '{var}' obsahuje méně než 2 úrovně"
+msgstr "Sloupcová proměnná '{var}' obsahuje méně než 2 úrovně"
 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
-#, fuzzy
 msgid "Columns"
 msgstr "Sloupce"
 
 #: contTables/options/compare/columns.title
-#, fuzzy
 msgid "columns"
 msgstr "sloupce"
 
@@ -1096,32 +1077,26 @@ msgstr "Srovnání jsou založena na odhadovaných mezních průměrech"
 #: pca/results/loadings.columns.superTitle
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
-#, fuzzy
 msgid "Component"
-msgstr "Komponent"
+msgstr "Komponenta"
 
 #: pca/options/factorCor.title
-#, fuzzy
 msgid "Component correlations"
 msgstr "Korelace komponent"
 
 #: pca/results/loadings.title
-#, fuzzy
 msgid "Component Loadings"
-msgstr "Zatížení komponent"
+msgstr "Komponentní zátěže"
 
 #: pca/options/factorScoresOV.title
-#, fuzzy
 msgid "Component scores"
-msgstr "Skóre komponent"
+msgstr "Komponentní skóre"
 
 #: pca/results/factorStats.title
-#, fuzzy
 msgid "Component Statistics"
 msgstr "Statistiky komponent"
 
 #: pca/options/factorSummary.title
-#, fuzzy
 msgid "Component summary"
 msgstr "Souhrn komponent"
 
@@ -1131,12 +1106,10 @@ msgstr "komponent(y)"
 
 #: ancova/ui[2]/modelSupplier.label
 #: anova/ui[2]/modelSupplier.label
-#, fuzzy
 msgid "Components"
 msgstr "Komponenty"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "components"
 msgstr "komponenty"
 
@@ -1150,7 +1123,6 @@ msgstr "komponenty"
 #: ttestOneS/options/ciES.title
 #: ttestPS/options/ci.title
 #: ttestPS/options/ciES.title
-#, fuzzy
 msgid "Confidence Interval"
 msgstr "Interval spolehlivosti"
 
@@ -1183,24 +1155,20 @@ msgstr "Interval spolehlivosti"
 #: ttestOneS/ui[1][1][0]/effectSize[0]/ciES.label
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci.label
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES.label
-#, fuzzy
 msgid "Confidence interval"
 msgstr "Interval spolehlivosti"
 
 #: descriptives/ui[2][2][1][0]/ci.label
-#, fuzzy
 msgid "Confidence interval for Mean"
 msgstr "Interval spolehlivosti pro průměr"
 
 #: anova/options/ciWidthEmm.title
 #: corrMatrix/options/ciWidth.title
-#, fuzzy
 msgid "Confidence interval width"
 msgstr "Šířka intervalu spolehlivosti"
 
 #: contTables/results/odds.columns.superTitle
 #: contTables/results/gamma.columns.superTitle
-#, fuzzy
 msgid "Confidence Intervals"
 msgstr "Intervaly spolehlivosti"
 
@@ -1208,7 +1176,6 @@ msgstr "Intervaly spolehlivosti"
 #: corrMatrix/options/ci.title
 #: corrMatrix/ui[1][1]/ci.label
 #: propTest2/options/ci.title
-#, fuzzy
 msgid "Confidence intervals"
 msgstr "Intervaly spolehlivosti"
 
@@ -1238,7 +1205,6 @@ msgstr "Intervaly spolehlivosti"
 #: ttestOneS/options/ciWidthES.title
 #: ttestPS/options/ciWidth.title
 #: ttestPS/options/ciWidthES.title
-#, fuzzy
 msgid "Confidence level"
 msgstr "Úroveň spolehlivosti"
 
@@ -1249,19 +1215,16 @@ msgstr "Úroveň spolehlivosti"
 #: cfa/options.description.main
 #: cfa/ui.title
 #: cfa/results.title
-#, fuzzy
 msgid "Confirmatory Factor Analysis"
-msgstr "Potvrzující faktorová analýza"
+msgstr "Konfirmační faktorová analýza"
 
 #: cfa/options/constrain.title
 #: cfa/ui[2][1][0].label
-#, fuzzy
 msgid "Constraints"
 msgstr "Omezení"
 
 #: contTables/options/contCoef.title
 #: contTables/results/nom.columns.content
-#, fuzzy
 msgid "Contingency coefficient"
 msgstr "Koeficient kontingence"
 
@@ -1275,7 +1238,6 @@ msgstr "Koeficient kontingence"
 #: contTables/results/freqs.title
 #: contTablesPaired/options.menuSubgroup
 #: contTablesPaired/results/freqs.title
-#, fuzzy
 msgid "Contingency Tables"
 msgstr "Kontingenční tabulky"
 
@@ -1288,36 +1250,30 @@ msgstr "Kontingenční tabulky"
 #: anovaRM/options/contrasts.title
 #: anovaRM/ui[4].label
 #: anovaRM/results/contrasts.title
-#, fuzzy
 msgid "Contrasts"
 msgstr "Kontrasty"
 
 #: ancova/results/contrasts.template.title
 #: anova/results/contrasts.template.title
 #: anovaRM/results/contrasts.template.title
-#, fuzzy
 msgid "Contrasts - $key"
-msgstr "Kontrasty - $klíč"
+msgstr "Kontrasty – $key"
 
 #: corrPart/ui/variablesupplier[1].label
-#, fuzzy
 msgid "Control Variables"
-msgstr "Kontrolní proměné"
+msgstr "Kontrolní proměnné"
 
 #: corrPart/options/controls.title
-#, fuzzy
 msgid "Control variables"
 msgstr "Kontrolní proměnné"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "controlling for {items}"
-msgstr "kontrola {items}"
+msgstr "při kontrole {items}"
 
 #: linReg/results/models.template/dataSummary/cooks.title
 #: linReg/results/cooksOV.title
 #: logRegBin/results/models.template/dataSummary/cooks.title
-#, fuzzy
 msgid "Cook's Distance"
 msgstr "Cookova vzdálenost"
 
@@ -1328,7 +1284,6 @@ msgstr "Cookova vzdálenost"
 #: logRegBin/options/cooks.title
 #: logRegBin/options/cooksOV.title
 #: logRegBin/results/cooksOV.title
-#, fuzzy
 msgid "Cook's distance"
 msgstr "Cookova vzdálenost"
 
@@ -1336,56 +1291,47 @@ msgstr "Cookova vzdálenost"
 #: ancova/ui[5][1][0].label
 #: anova/options/postHocCorr.title
 #: anova/ui[5][1][0].label
-#, fuzzy
 msgid "Correction"
 msgstr "Korekce"
 
 #: anovaRM/options/postHocCorr.title
 #: anovaRM/ui[5][1][0].label
-#, fuzzy
 msgid "Corrections"
 msgstr "Korekce"
 
 #: corrMatrix/options/hypothesis/corr.title
 #: corrPart/options/hypothesis/corr.title
-#, fuzzy
 msgid "Correlated"
 msgstr "Korelováno"
 
 #: corrMatrix/options/hypothesis/neg.title
 #: corrPart/options/hypothesis/neg.title
-#, fuzzy
 msgid "Correlated negatively"
-msgstr "Negativné korelováno"
+msgstr "Korelováno záporně"
 
 #: corrMatrix/options/hypothesis/pos.title
 #: corrPart/options/hypothesis/pos.title
-#, fuzzy
 msgid "Correlated positively"
-msgstr "Koreloval pozitivně"
+msgstr "Korelováno kladně"
 
 #: R/corrpart.b.R
 #: corrPart/results/matrix.title
-#, fuzzy
 msgid "Correlation"
 msgstr "Korelace"
 
 #: corrMatrix/ui[1][0].label
 #: corrPart/ui[1][0].label
-#, fuzzy
 msgid "Correlation Coefficients"
 msgstr "Koeficienty korelace"
 
 #: reliability/options/corPlot.title
 #: reliability/results/corPlot.title
-#, fuzzy
 msgid "Correlation Heatmap"
-msgstr "Korelační heatmap"
+msgstr "Korelační heatmapa"
 
 #: reliability/ui[1][0][1]/corPlot.label
-#, fuzzy
 msgid "Correlation heatmap"
-msgstr "Teploměr korelace"
+msgstr "Korelační heatmapa"
 
 #: package/analyses/corrMatrix.description
 msgid "Correlation matrices are a way to examine linear relationships between\n"
@@ -1395,7 +1341,6 @@ msgstr ""
 "nebo více kontinuálních proměnných."
 
 #: corrMatrix/options.description.main
-#, fuzzy
 msgid "Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
@@ -1413,11 +1358,21 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Matice korelace jsou způsobem, jak prozkoumat lineární vztahy mezi dvěma nebo více kontinuálními proměnnými.\n"
+msgstr ""
+"Matice korelací umožňují zkoumat lineární vztahy mezi dvěma nebo více "
+"spojitými proměnnými.\n"
 "\n"
-"Pro každou пару proměnných, Pearsonův korelační koeficient (r) indikuje sílu a směr vztahu mezi těmito dvěma proměnnými. Kladná hodnota indikuje kladný vztah (vyšší hodnoty jedné proměnné předpovídají vyšší hodnoty druhé proměnné). Záporná hodnota Pearsonova korelačního koeficientu (r) indikuje záporný vztah (vyšší hodnoty jedné proměnné předpovídají nižší hodnoty druhé proměnné a naopak). Hodnota nula indikuje žádný vztah (zda je proměnná vysoká nebo nízká, nic neříká o hodnotě druhé proměnné).\n"
+"Pro každý pár proměnných udává Pearsonův korelační koeficient r sílu a směr "
+"vztahu mezi těmito dvěma proměnnými. Kladná hodnota značí kladný vztah "
+"(vyšší hodnoty jedné proměnné předpovídají vyšší hodnoty druhé proměnné). "
+"Záporná hodnota Pearsonova korelačního koeficientu r značí záporný vztah "
+"(vyšší hodnoty jedné proměnné předpovídají nižší hodnoty druhé proměnné a "
+"naopak). Hodnota nula značí, že vztah neexistuje (to, zda je proměnná vysoká "
+"či nízká, nevypovídá nic o hodnotě druhé proměnné).\n"
 "\n"
-"Formálněji, je možné otestovat nulovou hypotézu, že korelace je nulová, a vypočítat p-hodnotu. Pokud je p-hodnota nízká, naznačuje to, že korelační koeficient není nulový, a existuje lineární (nebo složitější) vztah mezi dvěma proměnnými."
+"Formálněji lze testovat nulovou hypotézu, že korelace je nulová, a vypočítat "
+"p-hodnotu. Je-li p-hodnota nízká, naznačuje to, že korelační koeficient není "
+"nulový a mezi oběma proměnnými existuje lineární (nebo složitější) vztah."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1444,7 +1399,6 @@ msgstr "Typ korelace"
 #: R/conttablespaired.b.R
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
-#, fuzzy
 msgid "Count"
 msgstr "Počet"
 
@@ -1505,14 +1459,12 @@ msgid "Cramer's V"
 msgstr "Cramerovo V"
 
 #: propTest2/results/table.columns.superTitle
-#, fuzzy
 msgid "Credible Interval"
-msgstr "Důvěryhodný interval"
+msgstr "Kredibilní interval"
 
 #: propTest2/options/ciBayes.title
-#, fuzzy
 msgid "Credible intervals"
-msgstr "Důvěryhodné intervaly"
+msgstr "Kredibilní intervaly"
 
 #: reliability/options/alphaScale.title
 #: reliability/results/scale.columns.title
@@ -1535,36 +1487,30 @@ msgid "Cumulative %"
 msgstr "Kumulativní %"
 
 #: descriptives/options/pcNEqGr.title
-#, fuzzy
 msgid "Cut point values"
-msgstr "Hodnoty řezné body"
+msgstr "Počet dělicích bodů"
 
 #: descriptives/options/pcEqGr.title
 #: descriptives/ui[2][0][1][0]/pcEqGr.label
-#, fuzzy
 msgid "Cut points for"
-msgstr "Bod pro"
+msgstr "Dělicí body pro"
 
 #: R/logregbin.b.R
 #: logRegBin/ui[7][0][0][0].label
-#, fuzzy
 msgid "Cut-Off"
-msgstr "Ořez"
+msgstr "Práh"
 
 #: logRegBin/results/models.template/pred/cutOffPlot.title
-#, fuzzy
 msgid "Cut-Off Plot"
-msgstr "Graf ořezu"
+msgstr "Graf prahové hodnoty"
 
 #: logRegBin/options/cutOffPlot.title
-#, fuzzy
 msgid "Cut-off plot"
-msgstr "Graf ořezu"
+msgstr "Graf prahové hodnoty"
 
 #: logRegBin/options/cutOff.title
-#, fuzzy
 msgid "Cut-off value"
-msgstr "Práhová hodnota"
+msgstr "Prahová hodnota"
 
 #: R/pca.b.R
 #: descriptives/options/dot.title
@@ -1578,7 +1524,6 @@ msgid "Data Reduction"
 msgstr "Redukce dat"
 
 #: weights/results/text.content
-#, fuzzy
 msgid "Data set is currently unweighted"
 msgstr "Datová sada je aktuálně nevážená"
 
@@ -1589,7 +1534,6 @@ msgid "Data Summary"
 msgstr "Souhrn dat"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "degree"
 msgstr "stupeň"
 
@@ -1658,14 +1602,12 @@ msgid "deprecated"
 msgstr "zastaralý"
 
 #: anovaRMNP/results/plot.title
-#, fuzzy
 msgid "Descriptive Plot"
-msgstr "Popisný graf"
+msgstr "Graf deskriptivních statistik"
 
 #: anovaRMNP/options/plots.title
-#, fuzzy
 msgid "Descriptive plot"
-msgstr "Popisný graf"
+msgstr "Graf deskriptivních statistik"
 
 #: package/analyses/descriptives.title
 #: package/analyses/descriptives.menuTitle
@@ -1696,36 +1638,31 @@ msgstr ""
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
 #: ttestPS/results/plots.template/desc.description
-#, fuzzy
 msgid "descriptives plot"
-msgstr "Graf popisných statistik"
+msgstr "Graf deskriptivních statistik"
 
 #: ttestIS/options/plots.title
 #: ttestOneS/options/plots.title
 #: ttestPS/options/plots.title
-#, fuzzy
 msgid "Descriptives Plots"
-msgstr "Grafy popisných statistik"
+msgstr "Grafy deskriptivních statistik"
 
 #: anovaOneW/options/descPlot.title
 #: ttestIS/ui[1][1][0]/plots.label
 #: ttestOneS/ui[1][1][0]/plots.label
 #: ttestPS/ui[1][1][0]/plots.label
-#, fuzzy
 msgid "Descriptives plots"
-msgstr "Popisné grafy"
+msgstr "Deskriptivní grafy"
 
 #: ttestIS/options/desc.title
 #: ttestOneS/options/desc.title
 #: ttestPS/options/desc.title
-#, fuzzy
 msgid "Descriptives Table"
-msgstr "Tabulka popisných statistik"
+msgstr "Tabulka deskriptivních statistik"
 
 #: anovaOneW/options/desc.title
-#, fuzzy
 msgid "Descriptives table"
-msgstr "Tabulka popisných statistik"
+msgstr "Tabulka deskriptivních statistik"
 
 #: logLinear/options/dev.title
 #: logLinear/results/modelFit.columns.title
@@ -1739,19 +1676,16 @@ msgid "Deviance"
 msgstr "Odchylka"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Deviance residuals"
-msgstr "Reziduální odchylky"
+msgstr "Deviance rezidua"
 
 #: contTables/options/resA.title
-#, fuzzy
 msgid "Deviance residuals (Poisson GLM)"
-msgstr "Zbytkové odchylky (Poisson GLM)"
+msgstr "Deviance rezidua (Poissonův GLM)"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Deviance residuals are adjusted residuals from a Poisson GLM."
-msgstr "Reziduální deviance jsou upravená rezidua z Poissonova GLM."
+msgstr "Deviance rezidua jsou upravená rezidua z Poissonova GLM."
 
 #: ancova/options/contrasts.template/type/deviation.title
 #: anova/options/contrasts.template/type/deviation.title
@@ -1828,14 +1762,12 @@ msgid "Dispersion"
 msgstr "Variabilita"
 
 #: descriptives/ui[2][3][0].label
-#, fuzzy
 msgid "Distribution"
 msgstr "Rozdělení"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Does not support weighted data yet."
-msgstr "Ješté nepodporuje vážená data."
+msgstr "Dosud nepodporuje vážená data."
 
 #: anovaOneW/options/welchs.title
 msgid "Don't assume equal (Welch's)"
@@ -1867,9 +1799,8 @@ msgstr "DSCF párové porovnání"
 
 #: anovaNP/options/pairsDunn.title
 #: anovaNP/results/comparisonsDunn.title
-#, fuzzy
 msgid "Dunn's pairwise comparisons"
-msgstr "Dunnovy párové srovnání"
+msgstr "Dunnova párová srovnání"
 
 #: linReg/results/models.template/assump/durbin.title
 msgid "Durbin–Watson Test for Autocorrelation"
@@ -1897,9 +1828,8 @@ msgstr "Párová srovnání Dwass-Steel-Critchlow-Fligner"
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/options/effectSize.title
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "Effect Size"
-msgstr "Velikost efektu"
+msgstr "Velikost účinku"
 
 #: ancova/options/postHocES.title
 #: anova/options/postHocES.title
@@ -1907,9 +1837,8 @@ msgstr "Velikost efektu"
 #: ttestOneS/options/effectSize.title
 #: ttestOneS/ui[1][1][0]/effectSize.label
 #: ttestPS/ui[1][1][0]/effectSize.label
-#, fuzzy
 msgid "Effect size"
-msgstr "Velikost účinku"
+msgstr "Velikost efektu"
 
 #: R/pca.b.R
 #: pca/results/eigen/initEigen.columns.title
@@ -2185,30 +2114,25 @@ msgid "Factor Loadings"
 msgstr "Zatížení faktorů"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.title
-#, fuzzy
 msgid "Factor Loadings – Modification Indices"
-msgstr "Faktorové zatížení – Modifikační indexy"
+msgstr "Faktorová zatížení – modifikační indexy"
 
 #: efa/options/factorScoresOV.title
 #: pca/results/factorScoresOV.title
-#, fuzzy
 msgid "Factor scores"
-msgstr "Faktorové skóre"
+msgstr "Faktorová skóre"
 
 #: R/efa.b.R
-#, fuzzy
 msgid "Factor Statistics"
-msgstr "Statistiky faktoru"
+msgstr "Statistiky faktorů"
 
 #: efa/options/factorSummary.title
-#, fuzzy
 msgid "Factor summary"
-msgstr "Souhrn faktoru"
+msgstr "Souhrn faktorů"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
-#, fuzzy
 msgid "Factor variances = 1"
-msgstr "Faktorové variance = 1"
+msgstr "Rozptyly faktorů = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
 msgid "factor(s)"
@@ -2251,26 +2175,22 @@ msgstr "Fisherův exaktní test"
 #: logRegBin/ui[4][0][0][0].label
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
-#, fuzzy
 msgid "Fit Measures"
-msgstr "Míry fitu"
+msgstr "Míry shody modelu"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Fitted"
-msgstr "Přizpůsobený"
+msgstr "Predikované"
 
 #: ancova/options/factors.title
 #: anova/options/factors.title
-#, fuzzy
 msgid "Fixed Factors"
-msgstr "Pečené faktory"
+msgstr "Pevné faktory"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
-#, fuzzy
 msgid "Fixed number"
-msgstr "Pečené číslo"
+msgstr "Pevný počet"
 
 #: R/cfa.b.R
 msgid "fixed parameter"
@@ -2287,9 +2207,8 @@ msgstr "Označení významných korelací"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
-#, fuzzy
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "označit významné korelace (p < .05) symboly"
+msgstr "označit významné korelace (p < .05) pomocí symbolů."
 
 #: anovaOneW/options/phFlag.description.ui
 msgid "flag significant post-hoc comparisons."
@@ -2325,14 +2244,12 @@ msgid "Friedman"
 msgstr "Friedman"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
-#, fuzzy
 msgid "Full information maximum likelihood"
-msgstr "Maximum likelihood s úplnými informacemi"
+msgstr "Maximální věrohodnost s využitím všech informací"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
-#, fuzzy
 msgid "Games-Howell (unequal variances)"
-msgstr "Games-Howell (nerovné variance)"
+msgstr "Games-Howell (nerovné rozptyly)"
 
 #: R/anovaonew.b.R
 msgid "Games-Howell Post-Hoc Test – {dep}"
@@ -2359,9 +2276,8 @@ msgid "Generalised η²"
 msgstr "Zobecněné η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
-#, fuzzy
 msgid "Grand mean (simple coding)"
-msgstr "Velký průměr (jednoduché kódování)"
+msgstr "Celkový průměr (jednoduché kódování)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
@@ -2407,14 +2323,12 @@ msgstr "Skupina 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
-#, fuzzy
 msgid "Group Descriptives"
-msgstr "Popisné statistiky skupin"
+msgstr "Deskriptivní statistiky skupin"
 
 #: anovaRM/results/groupSummary.title
-#, fuzzy
 msgid "Group Summary"
-msgstr "Souhrn skupiny"
+msgstr "Souhrn skupin"
 
 #: anovaRM/options/groupSumm.title
 msgid "Group summary"
@@ -2434,14 +2348,12 @@ msgstr ""
 "úrovně"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "Grouping variable '{a}' must have exactly 2 levels"
 msgstr "Seskupovací proměnná '{a}' musí mít přesně 2 úrovně"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr "Skupinová proměnná '{a}' nesmí být také závislou proměnnou"
+msgstr "Seskupovací proměnná '{a}' nesmí být zároveň závislou proměnnou"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
@@ -2458,7 +2370,6 @@ msgid "Hₐ is proportion {direction} {testValue}"
 msgstr "Hₐ je poměr {směr} {hodnota testu}"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Haldane-Anscombe correction applied"
 msgstr "Byla použita Haldane-Anscombeova korekce"
 
@@ -2476,15 +2387,13 @@ msgstr "Helmert"
 #: package/analyses/weights.menuGroup
 #: empty/options.menuGroup
 #: weights/options.menuGroup
-#, fuzzy
 msgid "hidden"
 msgstr "skrytý"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
-#, fuzzy
 msgid "Hide loadings below"
-msgstr "Skrýt zatížení pod"
+msgstr "Skrýt zatížení menší než"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -2526,9 +2435,8 @@ msgstr "Test homogenity"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Hotelling's Trace"
-msgstr "Hotellingův stop"
+msgstr "Hotellingova stopa"
 
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
@@ -2601,9 +2509,8 @@ msgstr "Korelace mezi faktory"
 #: R/logregmulti.b.R
 #: linReg/options/intercept.title
 #: linReg/ui[2][1].label
-#, fuzzy
 msgid "Intercept"
-msgstr "Průnik"
+msgstr "Konstanta"
 
 #: cfa/ui[3][1][0]/ci/ciWidth.label
 #: contTables/options/ciWidth.title
@@ -2629,14 +2536,18 @@ msgstr "Interval"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
-#, fuzzy
 msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Zdá se, že váš model má problém se „singulárností”. To obvykle znamená, že model má potíže s rozlišováním mezi určitými účinky, protože některé proměnné jsou příliš úzce spojeny nebo není dostatek dat k spolehlivému odhadu všech účinků. K vyřešení tohoto problému zvažte zjednodušení modelu odstraněním některých účinků nebo zkontrolujte, zda vaše data nemají redundantní nebo vysoce korelované proměnné."
+msgstr ""
+"Zdá se, že váš model má problém se „singularitou“. To obvykle znamená, že "
+"model má potíže s rozlišováním mezi určitými účinky, protože některé "
+"proměnné spolu příliš úzce souvisejí nebo není dostatek dat ke spolehlivému "
+"odhadu všech účinků. K vyřešení tohoto problému zvažte zjednodušení modelu "
+"odstraněním některých účinků nebo zkontrolujte, zda vaše data neobsahují "
+"redundantní či vysoce korelované proměnné."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2676,9 +2587,8 @@ msgstr "Statistiky položek"
 
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
-#, fuzzy
 msgid "Item-rest correlation"
-msgstr "Korelace položky a zbytku"
+msgstr "Korelace položky se zbytkem"
 
 #: reliability/options/vars.title
 msgid "Items"
@@ -2691,9 +2601,8 @@ msgstr ""
 "být obráceny"
 
 #: descriptives/options/dotType/jitter.title
-#, fuzzy
 msgid "Jittered"
-msgstr "Jittered"
+msgstr "Rozptýlený"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -2715,15 +2624,13 @@ msgid "Kendall's tau-b"
 msgstr "Kendallovo tau-b"
 
 #: pca/results/assump/kmo.title
-#, fuzzy
 msgid "KMO Measure of Sampling Adequacy"
-msgstr "KMO míra dostatečnosti výběru"
+msgstr "KMO míra adekvátnosti výběru"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
-#, fuzzy
 msgid "KMO measure of sampling adequacy"
-msgstr "KMO míra vhodnosti výběru"
+msgstr "KMO míra adekvátnosti výběru"
 
 #: package/analyses/anovaNP.menuSubtitle
 #: anovaNP/options.menuSubtitle
@@ -2741,24 +2648,20 @@ msgid "Label outliers"
 msgstr "Označení odlehlých hodnot"
 
 #: contTables/options/layers.title
-#, fuzzy
 msgid "Layers"
 msgstr "Vrstvy"
 
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
-#, fuzzy
 msgid "Level"
 msgstr "Úroveň"
 
 #: anovaRM/options/rm.default[0].levels[0]
-#, fuzzy
 msgid "Level 1"
 msgstr "Úroveň 1"
 
 #: anovaRM/options/rm.default[0].levels[1]
-#, fuzzy
 msgid "Level 2"
 msgstr "Úroveň 2"
 
@@ -2812,9 +2715,8 @@ msgstr "Logaritmický poměr pravděpodobnosti"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
-#, fuzzy
 msgid "Log odds ratio exact"
-msgstr "Logaritmický poměr šancí přesně"
+msgstr "Přesný logaritmus poměru šancí"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -2868,39 +2770,34 @@ msgid "lower bound"
 msgstr "dolní mez"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis ChiSq"
-msgstr "Mahalanobis ChiSq"
+msgstr "Mahalanobisovo χ²"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
-#, fuzzy
 msgid "Mahalanobis distance"
 msgstr "Mahalanobisova vzdálenost"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
-#, fuzzy
 msgid "Mahalanobis Distance"
 msgstr "Mahalanobisova vzdálenost"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr "Mahalanobisova vzdálenost (Chi sq.)"
+msgstr "Mahalanobisova vzdálenost (χ²)"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance (p)"
 msgstr "Mahalanobisova vzdálenost (p)"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "Mahalanobisova vzdálenost může být vypočtena pouze pro modely s dvěma nebo více kovariátami"
+msgstr ""
+"Mahalanobisovu vzdálenost lze vypočítat pouze pro modely se dvěma nebo více "
+"kovariátami"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis p"
 msgstr "Mahalanobis p"
 
@@ -2936,9 +2833,8 @@ msgstr "Mezní průměr"
 #: logLinear/options/emMeans.title
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
-#, fuzzy
 msgid "Marginal Means"
-msgstr "Okrajové průměry"
+msgstr "Marginální průměry"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -2947,7 +2843,6 @@ msgstr "Okrajové průměry"
 #: logLinear/options/emmPlots.title
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
-#, fuzzy
 msgid "Marginal means plots"
 msgstr "Grafy marginálních průměrů"
 
@@ -2958,7 +2853,6 @@ msgstr "Grafy marginálních průměrů"
 #: logLinear/options/emmTables.title
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
-#, fuzzy
 msgid "Marginal means tables"
 msgstr "Tabulky marginálních průměrů"
 
@@ -3032,7 +2926,6 @@ msgstr "McNemarův test"
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
-#, fuzzy
 msgid "Mean"
 msgstr "Průměr"
 
@@ -3067,26 +2960,22 @@ msgstr "Průměrný rozptyl"
 
 #: reliability/options/meanScoreOV.title
 #: reliability/results/meanScoreOV.title
-#, fuzzy
 msgid "Mean score"
-msgstr "Průměrný skór"
+msgstr "Průměrné skóre"
 
 #: ancova/results/main.columns.title
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
-#, fuzzy
 msgid "Mean Square"
 msgstr "Průměrný čtverec"
 
 #: anovaRMNP/options/plotType/means.title
-#, fuzzy
 msgid "Means"
 msgstr "Průměry"
 
 #: R/anovarmnp.b.R
-#, fuzzy
 msgid "Measure"
 msgstr "Měření"
 
@@ -3181,15 +3070,13 @@ msgstr "Metoda imputaci chybějících hodnot"
 
 #: cfa/options/miss.title
 #: cfa/ui[2][0][0].label
-#, fuzzy
 msgid "Missing Values Method"
-msgstr "Metoda chybějících hodnot"
+msgstr "Metoda pro chybějící hodnoty"
 
 #: R/descriptives.b.R
 #: descriptives/options/mode.title
-#, fuzzy
 msgid "Mode"
-msgstr "Režim"
+msgstr "Modus"
 
 #: R/logregbin.b.R
 #: ancova/ui[2].label
@@ -3205,7 +3092,6 @@ msgstr "Režim"
 #: logRegMulti/results/modelComp.columns.title
 #: logRegOrd/results/modelFit.columns.title
 #: logRegOrd/results/modelComp.columns.title
-#, fuzzy
 msgid "Model"
 msgstr "Model"
 
@@ -3223,7 +3109,6 @@ msgstr "Konstruktér modelů"
 #: logRegBin/ui[5].label
 #: logRegMulti/ui[4].label
 #: logRegOrd/ui[4].label
-#, fuzzy
 msgid "Model Coefficients"
 msgstr "Modelové koeficienty"
 
@@ -3249,9 +3134,8 @@ msgid "Model Fit"
 msgstr "Vhodnost modelu"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "Model fit issue detected!"
-msgstr "Byla detekována problém s přizpůsobením modelu!"
+msgstr "Zjištěn problém s přizpůsobením modelu!"
 
 #: linReg/results/modelFit.title
 #: logLinear/results/modelFit.title
@@ -3297,9 +3181,8 @@ msgstr "Prahové hodnoty modelů"
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-#, fuzzy
 msgid "Models estimated using sample size of N={n}"
-msgstr "Modely odhadnuté pomocí velikosti vzorku N={n}"
+msgstr "Modely odhadnuté na základě výběru o velikosti N={n}"
 
 #: cfa/results/modelPerformance/modIndices.title
 msgid "Modification Indices"
@@ -3310,7 +3193,6 @@ msgid "Modification indices"
 msgstr "Modifikační indexy"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Monte Carlo simulation"
 msgstr "Monte Carlo simulace"
 
@@ -3426,9 +3308,8 @@ msgid "Normal Scaled Items"
 msgstr "Položky s normálním měřítkem"
 
 #: descriptives/ui[2][3][1].label
-#, fuzzy
 msgid "Normality"
-msgstr "Normálnost"
+msgstr "Normalita"
 
 #: ancova/options/norm.title
 #: anova/options/norm.title
@@ -3451,12 +3332,12 @@ msgid "Normality Test (Shapiro-Wilk)"
 msgstr "Test normality (Shapiroův-Wilkův)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr "Nemohly být odhadnuty všechny koeficienty (pravděpodobně kvůli singulárnímu fitu)"
+msgstr ""
+"Nelze odhadnout všechny koeficienty (pravděpodobně kvůli singulárnímu "
+"přizpůsobení)"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Not all statistics support weighted data yet."
 msgstr "Ne všechny statistiky zatím podporují vážená data."
 
@@ -3540,30 +3421,26 @@ msgid "of total"
 msgstr "z celkového počtu"
 
 #: linReg/results/models.template/anova.title
-#, fuzzy
 msgid "Omnibus ANOVA Test"
-msgstr "Omnibus ANOVA Test"
+msgstr "Souhrnný test ANOVA"
 
 #: logLinear/results/models.template/lrt.title
 #: logRegBin/results/models.template/lrt.title
 #: logRegMulti/results/models.template/lrt.title
 #: logRegOrd/results/models.template/lrt.title
-#, fuzzy
 msgid "Omnibus Likelihood Ratio Tests"
-msgstr "Omnibus testy věrohodnosti"
+msgstr "Souhrnné testy poměru věrohodnosti"
 
 #: linReg/ui[5][0][0][0].label
-#, fuzzy
 msgid "Omnibus Test"
-msgstr "Omnibus Test"
+msgstr "Souhrnný test"
 
 #: logLinear/ui[4][0][0][0].label
 #: logRegBin/ui[5][0][0][0].label
 #: logRegMulti/ui[4][0][0][0].label
 #: logRegOrd/ui[4][0][0][0].label
-#, fuzzy
 msgid "Omnibus Tests"
-msgstr "Omnibus testy"
+msgstr "Souhrnné testy"
 
 #: R/ttestis.b.R
 msgid "One or both groups do not contain enough observations"
@@ -3657,9 +3534,8 @@ msgid "Ordinal Outcomes"
 msgstr "Řadové výsledky"
 
 #: descriptives/ui[2][3][2].label
-#, fuzzy
 msgid "Outliers"
-msgstr "Outliery"
+msgstr "Odlehlé hodnoty"
 
 #: ancova/ui[6][1][0][0].label
 #: anova/ui[6][1][0][0].label
@@ -3703,7 +3579,6 @@ msgid "p"
 msgstr "p"
 
 #: linReg/ui[3][0][1][0]/mahal/mahalp.label
-#, fuzzy
 msgid "p <"
 msgstr "p <"
 
@@ -3714,14 +3589,12 @@ msgid "p-value"
 msgstr "p-hodnota"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
-#, fuzzy
 msgid "p<sub>(Bonferroni)</sub>"
 msgstr "p<sub>(Bonferroni)</sub>"
 
 #: anovaNP/results/comparisonsDunn.template.columns.title
-#, fuzzy
 msgid "p<sub>(unadj)</sub>"
-msgstr "p<sub>(nepřizpůsobeno)</sub>"
+msgstr "p<sub>(bez korekce)</sub>"
 
 #: R/ancova.b.R
 msgid "p<sub>bonferroni</sub>"
@@ -3791,14 +3664,15 @@ msgid "Partial Correlation"
 msgstr "Částečná korelace"
 
 #: package/analyses/corrPart.description
-#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "Matice částečné korelace jsou způsobem, jak prozkoumat lineární vztahy mezi dvěma nebo více nepřetržitými proměnnými při kontrole ostatních proměnných"
+msgstr ""
+"Matice parciálních korelací umožňují zkoumat lineární vztahy mezi\n"
+"dvěma nebo více spojitými proměnnými při kontrole dalších\n"
+"proměnných"
 
 #: corrPart/options.description.main
-#, fuzzy
 msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
@@ -3817,11 +3691,21 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Parciální korelační matice jsou zpúbsobem prozkoumat lineární vztahy mezi dvéma nebo více kontinuálními proměnými, při čtomnosti ovlivňujících jiných proměných.\n"
+msgstr ""
+"Matice parciálních korelací umožňují zkoumat lineární vztahy mezi dvěma nebo "
+"více spojitými proměnnými při kontrole dalších proměnných.\n"
 "\n"
-"Pro každou dvojici proměných, Pearsonů koeficient r udává silu a smér vztahu mezi témito dvéma proměnými. Kladná hodnota udává kladný vztah (vyšší hodnoty jednoho proměné predikují vyšší hodnoty druhého proměné). Negativní Pearsonů koeficient udává negativní vztah (vyšší hodnoty jednoho proměné predikují nižší hodnoty druhého proměné, a naopak). Hodnota nula udává žádný vztah (zda je proměná vyšší nebo nižší, neřícá nic o hodnoté druhého proměné).\n"
+"Pro každý pár proměnných udává Pearsonův korelační koeficient r sílu a směr "
+"vztahu mezi těmito dvěma proměnnými. Kladná hodnota značí kladný vztah "
+"(vyšší hodnoty jedné proměnné předpovídají vyšší hodnoty druhé proměnné). "
+"Záporná hodnota Pearsonova korelačního koeficientu r značí záporný vztah "
+"(vyšší hodnoty jedné proměnné předpovídají nižší hodnoty druhé proměnné a "
+"naopak). Hodnota nula značí, že vztah neexistuje (to, zda je proměnná vysoká "
+"či nízká, nevypovídá nic o hodnotě druhé proměnné).\n"
 "\n"
-"Formálnéji, je možná testovat nulovou hypotézu, ž e korelace je nula, a výpočet p-hodnotu. Pokud je p-hodnota nízká, naznačuje to, ž e korelační koeficient né nula, a ž e existuje lineární (nebo složitéjší) vztah mezi dvéma proměnými."
+"Formálněji lze testovat nulovou hypotézu, že korelace je nulová, a vypočítat "
+"p-hodnotu. Je-li p-hodnota nízká, naznačuje to, že korelační koeficient není "
+"nulový a mezi oběma proměnnými existuje lineární (nebo složitější) vztah."
 
 #: anovaRM/options/effectSize/partEta.title
 msgid "Partial η²"
@@ -3833,19 +3717,16 @@ msgid "partial η²"
 msgstr "Dílčí η²"
 
 #: linReg/results/models.template/dataSummary/mahal.columns.title
-#, fuzzy
 msgid "Participants (rows) below p-threshold"
-msgstr "Účastníci (řádky) pod p-prahem"
+msgstr "Účastníci (řádky) pod prahovou hodnotou p"
 
 #: cfa/results/pathDiagram.title
-#, fuzzy
 msgid "Path Diagram"
-msgstr "Cesta diagram"
+msgstr "Diagram cesty"
 
 #: cfa/options/pathDiagram.title
-#, fuzzy
 msgid "Path diagram"
-msgstr "Schéma cesty"
+msgstr "Diagram cesty"
 
 #: corrMatrix/options/pearson.title
 #: corrMatrix/ui[1][0]/pearson.label
@@ -3860,9 +3741,8 @@ msgstr "Pearsonovu korelaci nelze vypočítat pro nečíselné hodnoty"
 
 #: R/conttables.b.R
 #: contTables/options/resP.title
-#, fuzzy
 msgid "Pearson residuals"
-msgstr "Pearsonovy rezidua"
+msgstr "Pearsonova rezidua"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
@@ -3980,7 +3860,6 @@ msgstr "Pillaiova stopa"
 #: anovaRM/ui[6][1][1][0].label
 #: corrMatrix/ui[1][3].label
 #: corrMatrix/results/plot.title
-#, fuzzy
 msgid "Plot"
 msgstr "Graf"
 
@@ -3995,7 +3874,6 @@ msgid "plot the data along with the marginal means."
 msgstr "vykreslit data spolu s mezním průměrem."
 
 #: anovaRMNP/options/plotType.title
-#, fuzzy
 msgid "Plot Type"
 msgstr "Typ grafu"
 
@@ -4014,7 +3892,6 @@ msgid "Plots"
 msgstr "Grafy"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Plots are not yet supported for weighted descriptives."
 msgstr "Grafy nejsou dosud podporovány pro vážené popisné statistiky."
 
@@ -4025,7 +3902,6 @@ msgid "Polynomial"
 msgstr "Polynomiální"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Polynomials limited to degree 6"
 msgstr "Polynomy omezené na stupeň 6"
 
@@ -4035,14 +3911,12 @@ msgid "Post Hoc Comparisons - {term}"
 msgstr "Post Hoc srovnání - {term}"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Post Hoc Test"
-msgstr "Post Hoc Test"
+msgstr "Post-hoc test"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Post Hoc Test ({title})"
-msgstr "Post Hoc Test ({title})"
+msgstr "Post-hoc test ({title})"
 
 #: ancova/options/postHoc.title
 #: ancova/ui[5].label
@@ -4080,19 +3954,16 @@ msgid "Post-Hoc Tests"
 msgstr "Post-Hoc testy"
 
 #: R/proptest2.b.R
-#, fuzzy
 msgid "Posterior"
 msgstr "Posteriorní"
 
 #: propTest2/options/postPlots.title
-#, fuzzy
 msgid "Posterior plot"
 msgstr "Posteriorní graf"
 
 #: propTest2/results/postPlots.title
-#, fuzzy
 msgid "Posterior Plots"
-msgstr "Grafy posterioru"
+msgstr "Posteriorní grafy"
 
 #: R/logregbin.b.R
 msgid "Predicted"
@@ -4176,9 +4047,8 @@ msgstr "Předchozí"
 #: ttestIS/options/bfPrior.title
 #: ttestOneS/options/bfPrior.title
 #: ttestPS/options/bfPrior.title
-#, fuzzy
 msgid "Prior width"
-msgstr "Šířka předchozí distribuce"
+msgstr "Šířka apriorního rozdělení"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
@@ -4187,12 +4057,10 @@ msgstr "Pravděpodobnost"
 
 #: efa/options/rotation/promax.title
 #: pca/options/rotation/promax.title
-#, fuzzy
 msgid "Promax"
 msgstr "Promax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "promax"
 msgstr "promax"
 
@@ -4219,14 +4087,14 @@ msgstr "Poměrový test (výsledky N)"
 
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
-#, fuzzy
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr "poskytnout Cohenovu míru velikosti účinku pro post-hoc testy."
+msgstr "poskytnout míru velikosti účinku Cohenovo d pro post-hoc testy."
 
 #: ttestOneS/options/ci.description.ui
-#, fuzzy
 msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "poskytnout interval spolehlivosti pro rozdíly mezi odhadem průměru a testovací hodnotou."
+msgstr ""
+"poskytnout interval spolehlivosti pro rozdíl mezi odhadem průměru a "
+"testovací hodnotou."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -4248,195 +4116,182 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "poskytnout Pearsonovo r pro každou kombinaci proměnných."
 
 #: ttestOneS/options/qq.description.ui
-#, fuzzy
 msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "poskytnout Q-Q graf reziduí -- graf skutečných reziduí proti tomu, co by se očekávalo, kdyby data byla <i>dokonale</i> normálně rozložena. Velké odchylky od diagonální čáry naznačují, že data nejsou z normálního rozložení."
+msgstr ""
+"poskytnout Q-Q graf reziduí – graf skutečných reziduí oproti tomu, co by se "
+"očekávalo, kdyby data byla <i>dokonale</i> normálně rozložena. Velké "
+"odchylky od diagonální čáry naznačují, že data nepocházejí z normálního "
+"rozložení."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
-#, fuzzy
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "Poskytnout Spearmanův rho pro každou kombinaci proměnných."
+msgstr "poskytnout Spearmanovo rho pro každou kombinaci proměnných."
 
 #: ttestOneS/options/desc.description.ui
-#, fuzzy
 msgid "provide a table of descriptives for each variable."
-msgstr "poskytují tabulku popisných statistik pro každou proměnnou"
+msgstr "poskytnout tabulku popisných statistik pro každou proměnnou."
 
 #: ancova/options/emmTables.description.ui
 #: anova/options/emmTables.description.ui
 #: anovaRM/options/emmTables.description.ui
-#, fuzzy
 msgid "provide a table of the estimated marginal means."
 msgstr "poskytnout tabulku odhadovaných marginálních průměrů."
 
 #: ttestIS/options/bf.description.ui
-#, fuzzy
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr "poskytnout Bayesovy faktory pro Studentovy nezávislé vzorkové t-testy."
+msgstr ""
+"poskytnout Bayesovy faktory pro Studentovy t-testy pro nezávislé výběry."
 
 #: ttestOneS/options/bf.description.ui
-#, fuzzy
 msgid "provide Bayes factors for the Student's one-sample t-tests."
-msgstr "poskytují Bayesovy faktory pro Studentovy jednovýběrové t-testy"
+msgstr "poskytnout Bayesovy faktory pro Studentovy jednovýběrové t-testy."
 
 #: ttestPS/options/bf.description.ui
-#, fuzzy
 msgid "provide Bayes factors for the Student's paired samples t-tests."
-msgstr "poskytnout Bayesovy faktory pro Studentův párový vzorkový t-test."
+msgstr "poskytnout Bayesovy faktory pro Studentovy párové t-testy."
 
 #: corrMatrix/options/ci.description.ui
-#, fuzzy
 msgid "provide confidence intervals for Pearson's r."
-msgstr "poskytují intervaly spolehlivosti pro Pearsonův korelační koeficient (r)"
+msgstr ""
+"poskytnout intervaly spolehlivosti pro Pearsonův korelační koeficient (r)."
 
 #: ttestIS/options/ciES.description.ui
 #: ttestOneS/options/ciES.description.ui
 #: ttestPS/options/ciES.description.ui
-#, fuzzy
 msgid "provide confidence intervals for the effect-sizes"
-msgstr "poskytnout intervaly spolehlivosti pro efektové velikosti"
+msgstr "poskytnout intervaly spolehlivosti pro velikosti účinku"
 
 #: ttestIS/options/ci.description.ui
 #: ttestPS/options/ci.description.ui
-#, fuzzy
 msgid "provide confidence intervals for the mean differences."
 msgstr "poskytnout intervaly spolehlivosti pro rozdíly průměrů."
 
 #: ancova/options/postHocEsCi.description.ui
 #: anova/options/postHocEsCi.description.ui
-#, fuzzy
 msgid "provide confidence intervals for the post-hoc effect sizes."
-msgstr "poskytují intervaly spolehlivosti pro post-hoc velikosti efektů"
+msgstr "poskytnout intervaly spolehlivosti pro post-hoc velikosti efektů."
 
 #: corrMatrix/options/plotStats.description.ui
-#, fuzzy
 msgid "provide correlation co-efficients in the correlation matrix plot."
-msgstr "poskytnout korelační koeficienty v korelační matici grafu."
+msgstr "poskytnout korelační koeficienty v grafu korelační matice."
 
 #: anovaOneW/options/descPlot.description.ui
-#, fuzzy
 msgid "provide descriptive plots for each group."
-msgstr "poskytnout popisné grafy pro každou skupinu."
+msgstr "poskytnout deskriptivní grafy pro každou skupinu."
 
 #: ttestOneS/options/plots.description.ui
-#, fuzzy
 msgid "provide descriptive plots for each variable."
-msgstr "poskytnout popisné grafy pro každou proměnnou."
+msgstr "poskytnout deskriptivní grafy pro každou proměnnou."
 
 #: ttestPS/options/plots.description.ui
-#, fuzzy
 msgid "provide descriptives for each group of measurements."
-msgstr "poskytnout popisné statistiky pro každou skupinu měření."
+msgstr "poskytnout deskriptivní statistiky pro každou skupinu měření."
 
 #: anovaOneW/options/desc.description.ui
 #: ttestIS/options/desc.description.ui
-#, fuzzy
 msgid "provide descriptives for each group."
-msgstr "poskytnou popisné informace pro každou skupinu."
+msgstr "poskytnout popisné statistiky pro každou skupinu."
 
 #: ttestIS/options/plots.description.ui
-#, fuzzy
 msgid "provide descriptives plots."
-msgstr "poskytnout popisné grafy."
+msgstr "poskytnout deskriptivní grafy."
 
 #: ttestIS/options/effectSize.description.ui
 #: ttestOneS/options/effectSize.description.ui
 #: ttestPS/options/effectSize.description.ui
-#, fuzzy
 msgid "provide effect-sizes (Cohen's d)."
-msgstr "poskytují velikosti efektů (Cohenův d)"
+msgstr "poskytne velikosti efektu (Cohenovo d)."
 
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
-#, fuzzy
 msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "poskytnout Leveneho test pro homogenitu variancí. Nízká p-hodnota naznačuje, že skupiny mají nerovné variancy."
+msgstr ""
+"poskytnout Leveneho test homogenity rozptylů. Nízká p-hodnota naznačuje, že "
+"skupiny mají nestejné rozptyly."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
-#, fuzzy
 msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "poskytují Leveneho testy pro homogenitu variancí. Nízká p-hodnota naznačuje, že skupiny mají nerovné variance."
+msgstr ""
+"poskytnout Leveneho testy homogenity rozptylů. Nízká p-hodnota naznačuje, že "
+"skupiny mají nestejné rozptyly."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
-#, fuzzy
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr "poskytnou prúměrý rozdíly a standardní chyby prúměrých rozdílù."
+msgstr "poskytnout rozdíly průměrů a jejich standardní chyby."
 
 #: anovaOneW/options/phMeanDif.description.ui
-#, fuzzy
 msgid "provide mean differences with the post-hoc tests."
-msgstr "poskytnout průměrné rozdíly s post-hoc testy."
+msgstr "poskytnout rozdíly průměrů s post-hoc testy."
 
 #: ttestOneS/options/meanDiff.description.ui
-#, fuzzy
 msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "Poskytnout rozdíly průměrů a standardní chyby rozdílů průměrů mezi odhadem průměru a testovací hodnotou."
+msgstr ""
+"poskytnout rozdíly průměrů a standardní chyby rozdílů průměrů mezi odhadem "
+"průměru a testovací hodnotou."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
 #: anovaRM/options/effectSize.description.ui
-#, fuzzy
 msgid "provide measures of effect size; η², partial η², or ω²."
-msgstr "poskytnout míry efektové velikosti; η², částečná η², nebo ω²."
+msgstr "poskytnout míry velikosti účinku; η², parciální η² nebo ω²."
 
 #: anovaRM/options/spherCorr.description.ui
-#, fuzzy
 msgid "provide p-value corrections for sphericity."
-msgstr "poskytují p-hodnoty oprav pro sférickost"
+msgstr "poskytnout korekce p-hodnot pro sférickost."
 
 #: ancova/options/emmPlots.description.ui
 #: anova/options/emmPlots.description.ui
 #: anovaRM/options/emmPlots.description.ui
-#, fuzzy
 msgid "provide plots of the estimated marginal means."
-msgstr "poskytnou grafy odhadnutých marginálních prúměrů."
+msgstr "poskytnout grafy odhadovaných marginálních průměrů."
 
 #: ancova/options/postHoc.description.ui
 #: anova/options/postHoc.description.ui
 #: anovaOneW/options/phMethod.description.ui
 #: anovaRM/options/postHoc.description.ui
-#, fuzzy
 msgid "provide post-hoc tests."
 msgstr "poskytnout post-hoc testy."
 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-#, fuzzy
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "poskytnout Q-Q grafy residuí - graf skutečných residuí proti tomu, co by se očekávalo, kdyby data byla <i>dokonale</i> normálně rozložena. Velké odchylky od diagonální linie naznačují, že data nepocházejí z normálního rozložení."
+msgstr ""
+"poskytnout Q-Q grafy reziduí – graf skutečných reziduí oproti tomu, co by se "
+"očekávalo, kdyby data byla <i>dokonale</i> normálně rozložena. Velké "
+"odchylky od diagonální čáry naznačují, že data nepocházejí z normálního "
+"rozložení."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-#, fuzzy
 msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "poskytnout Q-Q grafy reziduí -- graf skutečných reziduí proti tomu, co by se očekávalo, kdyby data byla <i>dokonale</i> normálně rozložena. Velké odchylky od diagonální linie naznačují, že rezidua nejsou normálně rozložena."
+msgstr ""
+"poskytnout Q-Q grafy reziduí – graf skutečných reziduí oproti tomu, co by se "
+"očekávalo, kdyby data byla <i>dokonale</i> normálně rozložena. Velké "
+"odchylky od diagonální čáry naznačují, že rezidua nejsou normálně rozložena."
 
 #: anovaOneW/options/phSig.description.ui
-#, fuzzy
 msgid "provide significance levels for the post-hoc tests."
 msgstr "poskytnout hladiny významnosti pro post-hoc testy."
 
 #: anovaRM/options/spherTests.description.ui
-#, fuzzy
 msgid "provide sphericity tests."
-msgstr "poskytují testy sférickosti"
+msgstr "poskytnout testy sférickosti"
 
 #: anovaOneW/options/phTest.description.ui
-#, fuzzy
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "poskytnout výsledky testů (hodnota t a stupně volnosti) pro post-hoc testy."
+msgstr ""
+"poskytnout výsledky testů (hodnota t a stupně volnosti) pro post-hoc testy."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
-#, fuzzy
 msgid "provide the number of cases."
-msgstr "zadejte počet případů."
+msgstr "poskytnout počet případů."
 
 #: logLinear/options/pseudoR2.title
 #: logLinear/ui[3][0][1]/pseudoR2.label
@@ -4446,12 +4301,10 @@ msgstr "zadejte počet případů."
 #: logRegMulti/ui[3][0][1]/pseudoR2.label
 #: logRegOrd/options/pseudoR2.title
 #: logRegOrd/ui[3][0][1]/pseudoR2.label
-#, fuzzy
 msgid "Pseudo R²"
 msgstr "Pseudo R²"
 
 #: descriptives/ui[3][0][0][1]/qq.label
-#, fuzzy
 msgid "Q-Q"
 msgstr "Q-Q"
 
@@ -4465,9 +4318,8 @@ msgstr "Q-Q"
 #: linReg/results/models.template/assump/qqPlot.title
 #: ttestOneS/options/qq.title
 #: ttestPS/options/qq.title
-#, fuzzy
 msgid "Q-Q Plot"
-msgstr "Q-Q Graf"
+msgstr "Q-Q graf"
 
 #: anovaOneW/results/plots.template/qq.description
 #: descriptives/options/qq.title
@@ -4475,59 +4327,48 @@ msgstr "Q-Q Graf"
 #: ttestIS/results/plots.template/qq.description
 #: ttestOneS/results/qq.template.description
 #: ttestPS/results/plots.template/qq.description
-#, fuzzy
 msgid "Q-Q plot"
 msgstr "Q-Q graf"
 
 #: mancova/results/assump/qqPlot.title
-#, fuzzy
 msgid "Q-Q Plot Assessing Multivariate Normality"
-msgstr "Q-Q Graf pro hodnocení multivariátní normality"
+msgstr "Q-Q graf pro hodnocení multivariátní normality"
 
 #: mancova/options/qqPlot.title
-#, fuzzy
 msgid "Q-Q plot of multivariate normality"
 msgstr "Q-Q graf multivariační normality"
 
 #: linReg/options/qqPlot.title
-#, fuzzy
 msgid "Q-Q plot of residuals"
 msgstr "Q-Q graf reziduí"
 
 #: descriptives/ui[3][0][0][1].label
-#, fuzzy
 msgid "Q-Q Plots"
 msgstr "Q-Q grafy"
 
 #: ttestOneS/results/qq.title
-#, fuzzy
 msgid "Q-Q plots"
 msgstr "Q-Q grafy"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "quadratic"
 msgstr "kvadratický"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "quartic"
 msgstr "kvartický"
 
 #: efa/options/rotation/quartimax.title
 #: pca/options/rotation/quartimax.title
-#, fuzzy
 msgid "Quartimax"
 msgstr "Quartimax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "quartimax"
 msgstr "kvartimax"
 
 #: linReg/options/r2.title
 #: linReg/results/modelFit.columns.title
-#, fuzzy
 msgid "R²"
 msgstr "R²"
 
@@ -4535,7 +4376,6 @@ msgstr "R²"
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
-#, fuzzy
 msgid "R²<sub>CS</sub>"
 msgstr "R²<sub>CS</sub>"
 
@@ -4543,7 +4383,6 @@ msgstr "R²<sub>CS</sub>"
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
-#, fuzzy
 msgid "R²<sub>McF</sub>"
 msgstr "R²<sub>McF</sub>"
 
@@ -4551,12 +4390,10 @@ msgstr "R²<sub>McF</sub>"
 #: logRegBin/results/modelFit.columns.title
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/results/modelFit.columns.title
-#, fuzzy
 msgid "R²<sub>N</sub>"
 msgstr "R²<sub>N</sub>"
 
 #: logRegBin/results/modelFit.columns.title
-#, fuzzy
 msgid "R²<sub>T</sub>"
 msgstr "R²<sub>T</sub>"
 
@@ -4565,30 +4402,25 @@ msgstr "R²<sub>T</sub>"
 #: linReg/results/models.template/dataSummary/cooks.columns.superTitle
 #: linReg/results/models.template/dataSummary/mahal.columns.superTitle
 #: logRegBin/results/models.template/dataSummary/cooks.columns.superTitle
-#, fuzzy
 msgid "Range"
 msgstr "Rozsah"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
-#, fuzzy
 msgid "Rank biserial correlation"
-msgstr "Korelace řadová biseriální"
+msgstr "Pořadová biseriální korelace"
 
 #: logLinear/ui[4][0][1][0].label
-#, fuzzy
 msgid "Rate Ratio"
-msgstr "Pomér četnosti"
+msgstr "Poměr četnosti"
 
 #: logLinear/options/RR.title
 #: logLinear/results/models.template/coef.columns.title
-#, fuzzy
 msgid "Rate ratio"
-msgstr "Poměr rychlosti"
+msgstr "Poměr četnosti"
 
 #: propTestN/ui[2]/ratio.columns.label
-#, fuzzy
 msgid "Ratio"
 msgstr "Poměr"
 
@@ -4597,14 +4429,12 @@ msgstr "Poměr"
 #: logRegBin/ui[2]/refLevels.columns.label
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
-#, fuzzy
 msgid "Reference Level"
 msgstr "Referenční úroveň"
 
 #: linReg/ui[2][1]/intercept_refLevel.label
-#, fuzzy
 msgid "Reference level (dummy coding)"
-msgstr "Referenční úroveň (dummy kódování)"
+msgstr "Referenční úroveň (indikátorové kódování)"
 
 #: linReg/options/refLevels.title
 #: linReg/ui[2].label
@@ -4616,7 +4446,6 @@ msgstr "Referenční úroveň (dummy kódování)"
 #: logRegMulti/ui[2].label
 #: logRegOrd/options/refLevels.title
 #: logRegOrd/ui[2].label
-#, fuzzy
 msgid "Reference Levels"
 msgstr "Referenční úrovně"
 
@@ -4637,7 +4466,6 @@ msgstr "Regrese"
 
 #: contTables/options/relRisk.title
 #: contTables/results/odds.columns.content
-#, fuzzy
 msgid "Relative risk"
 msgstr "Relativní riziko"
 
@@ -4648,14 +4476,12 @@ msgstr "Relativní riziko"
 #: reliability/options.description.main
 #: reliability/ui.title
 #: reliability/results.title
-#, fuzzy
 msgid "Reliability Analysis"
 msgstr "Analýza spolehlivosti"
 
 #: ancova/options/contrasts.template/type/repeated.title
 #: anova/options/contrasts.template/type/repeated.title
 #: anovaRM/options/contrasts.template/type/repeated.title
-#, fuzzy
 msgid "Repeated"
 msgstr "Opakované"
 
@@ -4666,53 +4492,44 @@ msgstr "Opakované"
 #: anovaRM/ui.title
 #: anovaRM/results.title
 #: anovaRMNP/options.menuTitle
-#, fuzzy
 msgid "Repeated Measures ANOVA"
-msgstr "Opakovaná ANOVA"
+msgstr "ANOVA s opakovanými měřeními"
 
 #: package/analyses/anovaRMNP.title
 #: anovaRMNP/options.title
 #: anovaRMNP/ui.title
 #: anovaRMNP/results.title
-#, fuzzy
 msgid "Repeated Measures ANOVA (Non-parametric)"
-msgstr "Opakované měření ANOVA (neparametrické)"
+msgstr "ANOVA s opakovanými měřeními (neparametrická)"
 
 #: anovaRM/options/rmCells.title
-#, fuzzy
 msgid "Repeated Measures Cells"
-msgstr "Opakované měření buněk"
+msgstr "Buňky opakovaných měření"
 
 #: anovaRM/ui[2]/rmcModelSupplier.label
-#, fuzzy
 msgid "Repeated Measures Components"
-msgstr "Opakované měření komponent"
+msgstr "Komponenty opakovaných měření"
 
 #: anovaRM/options/rm.title
 #: anovaRM/ui/variablesupplier/rm.label
-#, fuzzy
 msgid "Repeated Measures Factors"
-msgstr "Opakované měření faktorů"
+msgstr "Faktory opakovaných měření"
 
 #: anovaOneW/options/phSig.title
 #: corrMatrix/options/sig.title
 #: corrPart/options/sig.title
-#, fuzzy
 msgid "Report significance"
-msgstr "Zpráva o významnosti"
+msgstr "Uvádět hladiny významnosti"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Represents grand mean"
-msgstr "Reprezentuje průměr skupiny"
+msgstr "Reprezentuje celkový průměr"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Represents reference level"
 msgstr "Reprezentuje referenční úroveň"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Residual"
 msgstr "Reziduum"
 
@@ -4720,44 +4537,38 @@ msgstr "Reziduum"
 #: cfa/ui[1].label
 #: cfa/ui[1]/resCovSupplier[0].label
 #: cfa/results/resEst/resCov.title
-#, fuzzy
 msgid "Residual Covariances"
 msgstr "Reziduální kovariance"
 
 #: cfa/options/resCovEst.title
-#, fuzzy
 msgid "Residual covariances"
-msgstr "Kovarianční rezidua"
+msgstr "Reziduální kovariance"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.title
-#, fuzzy
 msgid "Residual Covariances – Modification Indices"
-msgstr "Reziduální kovariance – Modifikační indexy"
+msgstr "Reziduální kovariance – modifikační indexy"
 
 #: cfa/results/resEst.title
-#, fuzzy
 msgid "Residual Estimates"
-msgstr "Odhad reziduí"
+msgstr "Odhady reziduí"
 
 #: cfa/results/resEst/resIntercept.title
-#, fuzzy
 msgid "Residual Intercepts"
-msgstr "Reziduální průniky"
+msgstr "Reziduální konstanty"
 
 #: cfa/options/resInterceptEst.title
-#, fuzzy
 msgid "Residual intercepts"
-msgstr "Reziduální průniky"
+msgstr "Reziduální konstanty"
 
 #: linReg/options/resPlots.title
-#, fuzzy
 msgid "Residual plots"
-msgstr "Reziduální grafy"
+msgstr "Grafy reziduí"
 
 #: R/ancova.b.R
-#, fuzzy
 msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "Součet čtverců reziduí a/nebo stupňů volnosti jsou nulové, což naznačuje dokonalé přizpůsobení"
+msgstr ""
+"Součet čtverců reziduí a/nebo počet stupňů volnosti je nulový, což naznačuje "
+"dokonalé přizpůsobení"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4771,27 +4582,22 @@ msgstr "Součet čtverců reziduí a/nebo stupňů volnosti jsou nulové, což n
 #: linReg/results/residsOV.title
 #: logRegBin/options/residsOV.title
 #: logRegBin/results/residsOV.title
-#, fuzzy
 msgid "Residuals"
 msgstr "Rezidua"
 
 #: cfa/results/modelPerformance/corRes.title
-#, fuzzy
 msgid "Residuals for Observed Correlation Matrix"
-msgstr "Rezidua pro pozorovanou matici korelace"
+msgstr "Rezidua pro pozorovanou korelační matici"
 
 #: R/anova.b.R
-#, fuzzy
 msgid "Residuals from ANOVA"
 msgstr "Rezidua z ANOVA"
 
 #: cfa/options/corRes.title
-#, fuzzy
 msgid "Residuals observed correlation matrix"
-msgstr "Korelační matice reziduí"
+msgstr "Rezidua pro pozorovanou korelační matici"
 
 #: linReg/results/models.template/assump/resPlots.title
-#, fuzzy
 msgid "Residuals Plots"
 msgstr "Grafy reziduí"
 
@@ -4805,76 +4611,63 @@ msgid "Results"
 msgstr "Výsledek"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "reverse scaled item"
-msgstr "obrácená škála položky"
+msgstr "položka s obráceným skórováním"
 
 #: reliability/options/revItems.title
 #: reliability/ui[2].label
 #: reliability/ui[2]/revItemsSupplier[0].label
-#, fuzzy
 msgid "Reverse Scaled Items"
-msgstr "Obrácené škálované položky"
+msgstr "Položky s obráceným skórováním"
 
 #: anovaRM/options/rm.default[0].label
-#, fuzzy
 msgid "RM Factor 1"
-msgstr "RM Faktor 1"
+msgstr "Faktor opakovaných měření 1"
 
 #: linReg/options/rmse.title
 #: linReg/results/modelFit.columns.title
-#, fuzzy
 msgid "RMSE"
 msgstr "RMSE"
 
 #: cfa/options/fitMeasures/rmsea.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
-#, fuzzy
 msgid "RMSEA"
 msgstr "RMSEA"
 
 #: cfa/results/modelFit/fitMeasures.columns.superTitle
 #: pca/results/modelFit/fit.columns.superTitle
-#, fuzzy
 msgid "RMSEA 90% CI"
-msgstr "RMSEA 90% CI"
+msgstr "90% interval spolehlivosti RMSEA"
 
 #: logRegBin/ui[7][0][2][0].label
-#, fuzzy
 msgid "ROC"
 msgstr "ROC"
 
 #: logRegBin/results/models.template/pred/rocPlot.title
-#, fuzzy
 msgid "ROC Curve"
 msgstr "ROC křivka"
 
 #: logRegBin/options/rocPlot.title
-#, fuzzy
 msgid "ROC curve"
 msgstr "ROC křivka"
 
 #: efa/options/rotation.title
 #: pca/options/rotation.title
-#, fuzzy
 msgid "Rotation"
 msgstr "Rotace"
 
 #: contTables/options/pcRow.title
 #: contTablesPaired/options/pcRow.title
-#, fuzzy
 msgid "Row"
-msgstr "Śrádek"
+msgstr "Řádek"
 
 #: descriptives/results/extremeValues.template.columns.title
-#, fuzzy
 msgid "Row number"
 msgstr "Číslo řádku"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
-#, fuzzy
 msgid "Row variable '{var}' contains fewer than 2 levels"
 msgstr "Řádková proměnná '{var}' obsahuje méně než 2 úrovně"
 
@@ -4885,23 +4678,19 @@ msgid "Rows"
 msgstr "Řádky/ů"
 
 #: contTables/options/compare/rows.title
-#, fuzzy
 msgid "rows"
 msgstr "řádky"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Rows compared"
-msgstr "Porovnává se řádky"
+msgstr "Porovnávané řádky"
 
 #: mancova/options/multivar/roy.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Roy's Largest Root"
-msgstr "Royova největší kořen"
+msgstr "Royův největší kořen"
 
 #: descriptives/ui[2][0][0].label
-#, fuzzy
 msgid "Sample Size"
 msgstr "Velikost vzorku"
 
@@ -4916,67 +4705,55 @@ msgid "Save"
 msgstr "Uložit"
 
 #: reliability/results/scale.columns.content
-#, fuzzy
 msgid "scale"
 msgstr "škála"
 
 #: package/analyses/reliability.menuSubgroup
-#, fuzzy
 msgid "Scale Analysis"
-msgstr "Škálová analýza"
+msgstr "Analýza škály"
 
 #: cfa/ui[2][1][0]/constrain_facInd.label
-#, fuzzy
 msgid "Scale factor = scale first indicator"
-msgstr "Faktor škálování = škálovat první indikátor"
+msgstr "Škálovací faktor = škálování prvního indikátoru"
 
 #: reliability/results/scale.title
-#, fuzzy
 msgid "Scale Reliability Statistics"
-msgstr "Škálové statistiky spolehlivosti"
+msgstr "Statistiky spolehlivosti škály"
 
 #: reliability/ui[1][0][0].label
-#, fuzzy
 msgid "Scale Statistics"
-msgstr "Škálové statistiky"
+msgstr "Statistiky škály"
 
 #: ancova/options/postHocCorr/scheffe.title
 #: anova/options/postHocCorr/scheffe.title
 #: anovaRM/options/postHocCorr/scheffe.title
-#, fuzzy
 msgid "Scheffe"
-msgstr "Scheffe"
+msgstr "Scheffého"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score Component"
-msgstr "Složka skóre"
+msgstr "Skóre komponenty"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score Factor"
-msgstr "Faktor skóre"
+msgstr "Skóre faktoru"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score for component"
-msgstr "Skóre pro komponentu"
+msgstr "Komponentní skóre"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
-msgstr "Skóre pro faktor {i}. Odhadnuto metodou '{fsMethod}'."
+msgstr "Faktorové skóre {i}. Odhadnuto metodou '{fsMethod}'."
 
 #: pca/results/eigen/screePlot.title
-#, fuzzy
 msgid "Scree Plot"
-msgstr "Scree graf"
+msgstr "Sutinový graf"
 
 #: efa/options/screePlot.title
 #: pca/options/screePlot.title
-#, fuzzy
 msgid "Scree plot"
-msgstr "Graf Scree"
+msgstr "Sutinový graf"
 
 #: R/descriptives.b.R
 #: anovaOneW/results/desc.columns.title
@@ -4988,9 +4765,8 @@ msgstr "Graf Scree"
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
-#, fuzzy
 msgid "SD"
-msgstr "SM"
+msgstr "SD"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -5016,30 +4792,25 @@ msgstr "SM"
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
-#, fuzzy
 msgid "SE"
 msgstr "SE"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "SE difference"
-msgstr "SE rozdíl"
+msgstr "SE rozdílu"
 
 #: corrPart/options/type/semi.title
-#, fuzzy
 msgid "Semipartial"
-msgstr "Semipartial"
+msgstr "Semiparciální"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "Semipartial Correlation"
-msgstr "Semipartialní korelace"
+msgstr "Semiparciální korelace"
 
 #: R/logregbin.b.R
 #: logRegBin/options/sens.title
 #: logRegBin/results/models.template/pred/measures.columns.title
-#, fuzzy
 msgid "Sensitivity"
 msgstr "Citlivost"
 
@@ -5047,113 +4818,95 @@ msgstr "Citlivost"
 #: ancova/results/assump/norm.columns.content
 #: descriptives/options/sw.title
 #: linReg/results/models.template/assump/norm.columns.content
-#, fuzzy
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 #: mancova/results/assump/shapiro.title
-#, fuzzy
 msgid "Shapiro-Wilk Multivariate Normality Test"
 msgstr "Shapiro-Wilkův multivariační test normality"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Shapiro-Wilk p"
 msgstr "Shapiro-Wilk p"
 
 #: mancova/ui[1][1][0]/shapiro.label
-#, fuzzy
 msgid "Shapiro-Wilk test"
 msgstr "Shapiro-Wilkův test"
 
 #: mancova/options/shapiro.title
-#, fuzzy
 msgid "Shapiro-Wilk test for multivariate normality"
-msgstr "Shapiro-Wilkův test pro multivariační normalitu"
+msgstr "Shapiro-Wilkův test multivariační normality"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Shapiro-Wilk W"
 msgstr "Shapiro-Wilk W"
 
 #: contTables/options/bartype/dodge.title
-#, fuzzy
 msgid "Side by side"
 msgstr "Vedle sebe"
 
 #: ancova/options/contrasts.template/type/simple.title
 #: anova/options/contrasts.template/type/simple.title
 #: anovaRM/options/contrasts.template/type/simple.title
-#, fuzzy
 msgid "Simple (vs. First)"
-msgstr "Jednoduché (vs. První)"
+msgstr "Jednoduché (oproti první úrovni)"
 
 #: ancova/options/contrasts.template/type/simple_k.title
 #: anova/options/contrasts.template/type/simple_k.title
 #: anovaRM/options/contrasts.template/type/simple_k.title
-#, fuzzy
 msgid "Simple (vs. Last)"
-msgstr "Jednoduchý (vs. Poslední)"
+msgstr "Jednoduché (oproti poslední úrovni)"
 
 #: efa/options/rotation/simplimax.title
 #: pca/options/rotation/simplimax.title
-#, fuzzy
 msgid "Simplimax"
 msgstr "Simplimax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "simplimax"
 msgstr "simplimax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Simulations"
 msgstr "Simulace"
 
 #: R/ancova.b.R
-#, fuzzy
 msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "Byl nalezen singulární fit; jedna nebo více prediktorových proměnných jsou lineární kombinací ostatních prediktorových proměnných."
+msgstr ""
+"Došlo k singulárnímu přizpůsobení; jedna nebo více prediktorových proměnných "
+"je lineární kombinací jiných prediktorových proměnných."
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Singularity error. Sphericity corrections are not available"
-msgstr "Chyba singulárnosti. Sférické korekce nejsou k dispozici"
+msgstr "Chyba singularity. Korekce sféricity nejsou k dispozici"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Singularity error. Sphericity tests are not available"
 msgstr "Chyba singularity. Testy sféricity nejsou k dispozici"
 
 #: R/descriptives.b.R
 #: descriptives/options/skew.title
-#, fuzzy
 msgid "Skewness"
 msgstr "Šikmost"
 
 #: efa/options/sortLoadings.title
 #: pca/options/sortLoadings.title
-#, fuzzy
 msgid "Sort loadings by size"
-msgstr "Seřadit zatížení podle velikosti"
+msgstr "Seřadit zátěže podle velikosti"
 
 #: corrMatrix/options/spearman.title
 #: corrMatrix/ui[1][0]/spearman.label
 #: corrPart/options/spearman.title
 #: corrPart/ui[1][0]/spearman.label
-#, fuzzy
 msgid "Spearman"
 msgstr "Spearman"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
-#, fuzzy
 msgid "Spearman's rho"
-msgstr "Spearmanův rho"
+msgstr "Spearmanovo rho"
 
 #: R/pca.b.R
-#, fuzzy
 msgctxt "specific factor"
 msgid "Factor"
 msgstr "Faktor"
@@ -5161,53 +4914,44 @@ msgstr "Faktor"
 #: R/logregbin.b.R
 #: logRegBin/options/spec.title
 #: logRegBin/results/models.template/pred/measures.columns.title
-#, fuzzy
 msgid "Specificity"
 msgstr "Specifita"
 
 #: anovaRM/results/rmTable.columns.title
-#, fuzzy
 msgid "Sphericity Correction"
 msgstr "Korekce sféricity"
 
 #: anovaRM/options/spherCorr.title
 #: anovaRM/ui[3][1][0].label
-#, fuzzy
 msgid "Sphericity corrections"
-msgstr "Korekce sférickosti"
+msgstr "Korekce sféricity"
 
 #: anovaRM/options/spherTests.title
-#, fuzzy
 msgid "Sphericity tests"
 msgstr "Testy sféricity"
 
 #: descriptives/options/splitBy.title
 #: descriptives/ui[0][1].label
-#, fuzzy
 msgid "Split by"
 msgstr "Rozdělit podle"
 
 #: R/mancova.b.R
-#, fuzzy
 msgid "Squared Mahalanobis Distance"
-msgstr "Druhá Mahalanobisova vzdálenost"
+msgstr "Čtverec Mahalanobisovy vzdálenosti"
 
 #: cfa/options/fitMeasures/srmr.title
 #: cfa/results/modelFit/fitMeasures.columns.title
-#, fuzzy
 msgid "SRMR"
 msgstr "SRMR"
 
 #: pca/results/factorStats/factorSummary.columns.title
-#, fuzzy
 msgid "SS Loadings"
-msgstr "Zatížení SS"
+msgstr "Součet čtverců zátěží"
 
 #: contTables/options/bartype/stack.title
 #: descriptives/options/dotType/stack.title
-#, fuzzy
 msgid "Stacked"
-msgstr "Zasazený"
+msgstr "Skládaný"
 
 #: cfa/results/factorLoadings.columns.title
 #: cfa/results/factorEst/factorCov.columns.title
@@ -5215,21 +4959,18 @@ msgstr "Zasazený"
 #: cfa/results/resEst/resCov.columns.title
 #: cfa/results/resEst/resIntercept.columns.title
 #: linReg/results/models.template/coef.columns.title
-#, fuzzy
 msgid "Stand. Estimate"
-msgstr "Standardní odhad"
+msgstr "Standardizovaný odhad"
 
 #: R/descriptives.b.R
 #: descriptives/options/sd.title
 #: reliability/options/sdScale.title
 #: reliability/options/sdItems.title
-#, fuzzy
 msgid "Standard deviation"
 msgstr "Směrodatná odchylka"
 
 #: anova/options/emmPlotError/se.title
 #: contTables/results/gamma.columns.title
-#, fuzzy
 msgid "Standard Error"
 msgstr "Standardní chyba"
 
@@ -5240,13 +4981,11 @@ msgid "Standard error"
 msgstr "Směrodatná odchylka"
 
 #: linReg/ui[5][0][1][0].label
-#, fuzzy
 msgid "Standardized Estimate"
 msgstr "Standardizovaný odhad"
 
 #: cfa/options/stdEst.title
 #: linReg/options/stdEst.title
-#, fuzzy
 msgid "Standardized estimate"
 msgstr "Standardizovaný odhad"
 
@@ -5258,19 +4997,16 @@ msgstr "Standardizovaný odhad"
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "Standardized Residuals"
 msgstr "Standardizovaná rezidua"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Standardized residuals"
-msgstr "Standardizované reziduální hodnoty"
+msgstr "Standardizovaná rezidua"
 
 #: contTables/options/resS.title
-#, fuzzy
 msgid "Standardized residuals (adjusted Pearson)"
-msgstr "Standardizovaná rezidua (upravená Pearsonova)"
+msgstr "Standardizovaná rezidua (upravená Pearsonova rezidua)"
 
 #: ancova/results/assump/norm.columns.title
 #: anovaRMNP/results/comp.columns.title
@@ -5278,12 +5014,10 @@ msgstr "Standardizovaná rezidua (upravená Pearsonova)"
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "Statistic"
 msgstr "Statistika"
 
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "statistic"
 msgstr "statistika"
 
@@ -5293,59 +5027,49 @@ msgstr "statistika"
 #: corrMatrix/options/plotStats.title
 #: descriptives/ui[2].label
 #: propTest2/ui[2][1][0].label
-#, fuzzy
 msgid "Statistics"
 msgstr "Statistiky"
 
 #: descriptives/ui[2][2][0][0]/sd.label
-#, fuzzy
 msgid "Std. deviation"
-msgstr "Std. odchylka"
+msgstr "Směrodatná odchylka"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Std. error kurtosis"
-msgstr "Std. chyba kurtózy"
+msgstr "Směrodatná chyba kurtózy"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Std. error mean"
-msgstr "Std. chyba průměru"
+msgstr "Směrodatná chyba průměru"
 
 #: descriptives/ui[2][2][1][0]/se.label
-#, fuzzy
 msgid "Std. error of Mean"
-msgstr "Std. chyba průměru"
+msgstr "Směrodatná chyba průměru"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Std. error skewness"
-msgstr "Std. chyba šikmosti"
+msgstr "Směrodatná chyba šikmosti"
 
 #: ttestIS/options/students.title
 #: ttestOneS/ui[1][0][0]/students.label
 #: ttestPS/ui[1][0][0]/students.label
-#, fuzzy
 msgid "Student's"
-msgstr "Studentova"
+msgstr "Studentův"
 
 #: ttestIS/results/ttest.columns.content
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
-#, fuzzy
 msgid "Student's t"
 msgstr "Studentův t"
 
 #: ttestOneS/options/students.title
 #: ttestPS/options/students.title
-#, fuzzy
 msgid "Student's test"
-msgstr "Studentův test"
+msgstr "Studentův t-test"
 
 #: R/descriptives.b.R
 #: R/reliability.b.R
 #: descriptives/options/sum.title
-#, fuzzy
 msgid "Sum"
 msgstr "Součet"
 
@@ -5354,30 +5078,25 @@ msgstr "Součet"
 #: anovaRM/results/bsTable.columns.title
 #: linReg/results/models.template/anova.columns.title
 #: mancova/results/univar.columns.title
-#, fuzzy
 msgid "Sum of Squares"
 msgstr "Součet čtverců"
 
 #: ancova/options/ss.title
 #: anova/options/ss.title
 #: anovaRM/options/ss.title
-#, fuzzy
 msgid "Sum of squares"
 msgstr "Součet čtverců"
 
 #: reliability/options/sumScoreOV.title
 #: reliability/results/sumScoreOV.title
-#, fuzzy
 msgid "Sum score"
-msgstr "Součet skóre"
+msgstr "Součtové skóre"
 
 #: pca/results/factorStats/factorSummary.title
-#, fuzzy
 msgid "Summary"
 msgstr "Souhrn"
 
 #: R/ancova.b.R
-#, fuzzy
 msgid "t"
 msgstr "t"
 
@@ -5391,12 +5110,10 @@ msgid "T-Tests"
 msgstr "T-Testy"
 
 #: anovaOneW/results/postHoc.template.columns.content
-#, fuzzy
 msgid "t-value"
-msgstr "t-hodnota"
+msgstr "hodnota t"
 
 #: efa/options/factorScoreMethod/tenBerge.title
-#, fuzzy
 msgid "ten Berge"
 msgstr "ten Berge"
 
@@ -5412,9 +5129,8 @@ msgstr "ten Berge"
 #: jamovi/js/loglinear.events.js:52
 #: jamovi/js/logregbin.events.js:10
 #: jamovi/js/logregbin.events.js:61
-#, fuzzy
 msgid "Term {0}"
-msgstr "Položka {0}"
+msgstr "Termín {0}"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
@@ -5423,67 +5139,55 @@ msgstr "Položka {0}"
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.template/blockName.label
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.template/blockName.label
-#, fuzzy
 msgid "Term 1"
-msgstr "Termín 1"
+msgstr "Člen 1"
 
 #: cfa/ui[4][0][0][0].label
 #: cfa/results/modelFit/test.title
-#, fuzzy
 msgid "Test for Exact Fit"
 msgstr "Test přesné shody"
 
 #: anovaOneW/options/phTest.title
-#, fuzzy
 msgid "Test results (t and df)"
 msgstr "Výsledky testu (t a df)"
 
 #: cfa/options/estTest.title
-#, fuzzy
 msgid "Test statistics"
 msgstr "Testové statistiky"
 
 #: ttestOneS/options/testValue.title
-#, fuzzy
 msgid "Test Value"
-msgstr "Testovací hodnota"
+msgstr "Testovaná hodnota"
 
 #: propTest2/options/testValue.title
 #: ttestOneS/ui[1][0][1][0]/testValue.label
-#, fuzzy
 msgid "Test value"
-msgstr "Testová hodnota"
+msgstr "Testovací hodnota"
 
 #: contTables/ui[1][0][0][0][0].label
 #: ttestIS/ui[1][0][0].label
 #: ttestOneS/ui[1][0][0].label
 #: ttestPS/ui[1][0][0].label
-#, fuzzy
 msgid "Tests"
 msgstr "Testy"
 
 #: anovaRM/results/assump/spherTable.title
-#, fuzzy
 msgid "Tests of Sphericity"
-msgstr "Testy sférickosti"
+msgstr "Testy sféricity"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "th percentile"
-msgstr "percentil"
+msgstr ". percentil"
 
 #: package/datasets/Anderson'sIrisData.description
-#, fuzzy
 msgid "The 'iris' data set from R"
 msgstr "Datová sada 'iris' z R"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The 'split by' variable '{var}' contains no data."
 msgstr "Proměnná '{var}' pro rozdělení neobsahuje žádná data."
 
 #: ttestOneS/options/hypothesis.description.ui
-#, fuzzy
 msgid "the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
@@ -5491,46 +5195,52 @@ msgid "the alternative and null hypotheses;\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "alternativní a nulová hypotéza;\n"
-"\n"
-"|              | Alternativní (Hₐ)  | Nulová (H₀)          |\n"
-"|--------------|-------------------|--------------------|\n"
-"| ≠ Test hodnota | Průměr ≠ Test hodnota | Průměr = Test hodnota  |\n"
-"| > Test hodnota | Průměr > Test hodnota | Průměr <= Test hodnota |\n"
-"| < Test hodnota | Průměr < Test hodnota | Průměr >= Test hodnota |"
+msgstr ""
+"alternativní a nulová hypotéza;\r\n"
+"\r\n"
+"|              | Alternativní (Hₐ)  | Nulová (H₀)          |\r\n"
+"|--------------|-------------------|--------------------|\r\n"
+"| ≠ Testovací hodnota | Průměr ≠ Testovací hodnota | Průměr = Testovací "
+"hodnota  |\r\n"
+"| > Testovací hodnota | Průměr > Testovací hodnota | Průměr <= Testovací "
+"hodnota |\r\n"
+"| < Testovací hodnota | Průměr < Testovací hodnota | Průměr >= Testovací "
+"hodnota |"
 
 #: contTables/options/hypothesis.description.ui
 #: ttestIS/options/hypothesis.description.ui
 #: ttestPS/options/hypothesis.description.ui
-#, fuzzy
 msgid "the alternative hypothesis."
-msgstr "alternativní hypotéza"
+msgstr "alternativní hypotézu."
 
 #: corrMatrix/options/hypothesis.description.ui
 #: corrPart/options/hypothesis.description.ui
-#, fuzzy
 msgid "the alternative hypothesis. Allows for one-tailed tests."
 msgstr "alternativní hypotéza. Povoluje jednostranné testy."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
-#, fuzzy
 msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "Analýza kovariancí (ANCOVA) se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou, jednou nebo více kategorickými vysvětlovacími proměnnými a jednou nebo více kontinuálními vysvětlovacími proměnnými (nebo kovariáty). Je to v podstatě stejná analýza jako ANOVA, ale s přidáním kovariátů."
+msgstr ""
+"Analýza kovariance (ANCOVA) se používá ke zkoumání vztahu mezi spojitou "
+"závislou proměnnou, jednou nebo více kategoriálními vysvětlujícími "
+"proměnnými a jednou nebo více spojitými vysvětlujícími proměnnými (neboli "
+"kovariátami). V podstatě jde o stejnou analýzu jako ANOVA, ale s přidáním "
+"kovariát."
 
 #: package/analyses/anova.description
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "Analýza rozptylu (ANOVA) se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou a jednou nebo více kategorickými vysvětlovacími proměnnými."
+msgstr ""
+"Analýza rozptylu (ANOVA) se používá ke zkoumání vztahu mezi spojitou "
+"závislou proměnnou a jednou či více kategoriálními vysvětlujícími proměnnými."
 
 #: anova/options.description.main
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
@@ -5542,22 +5252,33 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "Analýza variance (ANOVA) se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou a jednou nebo více kategorickými vysvětlovacími proměnnými.\n"
-"\n"
-"ANOVA předpokládá, že rezidua jsou normálně rozdělena a že variance všech skupin jsou stejné. Pokud někdo není ochoten předpokládat, že variance jsou stejné, lze místo toho použít Welchův test (Nicméně, Welchův test nepodporuje více než jeden vysvětlovací faktor). Alternativně, pokud někdo není ochoten předpokládat, že data jsou normálně rozdělena, lze použít neparametrický přístup (jako je Kruskal-Wallis)."
+msgstr ""
+"Analýza rozptylu (ANOVA) se používá ke zkoumání vztahu mezi spojitou "
+"závislou proměnnou a jednou nebo více kategoriálními vysvětlujícími "
+"proměnnými.\r\n"
+"\r\n"
+"ANOVA předpokládá, že rezidua mají normální rozdělení a že rozptyly všech "
+"skupin jsou stejné. Pokud tento předpoklad o shodnosti rozptylů nechceme "
+"učinit, lze použít Welchův test (ten však nepodporuje více než jeden "
+"vysvětlující faktor). Pokud naopak nechceme předpokládat normální rozdělení "
+"dat, lze použít neparametrický přístup (například Kruskalův–Wallisův test)."
 
 #: package/analyses/anovaOneW.description
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "Analýza rozptylu (ANOVA) se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou a jednou nebo více kategorickými vysvětlovacími proměnnými. Tato 'jednocestná ANOVA' je zjednodušená verze 'normální' ANOVA, která umožňuje pouze jeden vysvětlovací faktor, ale také poskytuje Welchovu ANOVA. Welchova ANOVA má výhodu, že nemusí předpokládat, že variance všech skupin jsou rovné."
+msgstr ""
+"Analýza rozptylu (ANOVA) se používá ke zkoumání vztahu mezi spojitou "
+"závislou proměnnou a jednou nebo více kategoriálními vysvětlujícími "
+"proměnnými. Tato jednofaktorová ANOVA je zjednodušenou verzí běžné ANOVA, "
+"která umožňuje pouze jeden vysvětlující faktor, ale poskytuje také Welchovu "
+"ANOVU. Welchova ANOVA má tu výhodu, že nevyžaduje předpoklad shodnosti "
+"rozptylů všech skupin."
 
 #: anovaOneW/options.description.main
-#, fuzzy
 msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
@@ -5570,229 +5291,239 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "Analýza rozptylu (ANOVA) se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou a jednou nebo více kategoriálními vysvětlovacími proměnnými. Tato 'jednoduchá' ANOVA je zjednodušená verze 'normální' ANOVA, která umožňuje pouze jednu vysvětlovací faktoru, ale také poskytuje Welchovu ANOVA. Welchova ANOVA má výhodu, že nemusí předpokládat, že varience všech skupin jsou stejné.\n"
+msgstr ""
+"Analýza rozptylu (ANOVA) se používá ke zkoumání vztahu mezi kontinuální "
+"závislou proměnnou a jednou nebo více kategoriálními vysvětlujícími "
+"proměnnými. Tato „jednofaktorová ANOVA“ je zjednodušenou verzí „běžné“ "
+"ANOVA: umožňuje pouze jeden vysvětlující faktor, ale zároveň nabízí Welchovu "
+"ANOVA. Výhodou Welchovy ANOVA je, že nevyžaduje předpoklad shodných rozptylů "
+"ve všech skupinách.\n"
 "\n"
-"Pro удобnost, tato metoda umožňuje specifikovat více závislých proměnných, což vede k více nezávislým testům.\n"
+"Pro usnadnění umožňuje tato metoda zadat více závislých proměnných, což vede "
+"k několika nezávislým testům.\n"
 "\n"
-"Poznámka: Welchova ANOVA je stejný postup jako Welchův nezávislý vzorek t-test."
+"Welchova ANOVA je stejný postup jako Welchův t-test pro nezávislé výběry."
 
 #: anovaRM/options/bs.description.ui
-#, fuzzy
 msgid "the between subjects factors (optional)."
-msgstr "mezi subjekty faktory (nepovinné)."
+msgstr "faktory mezi subjekty (nepovinné)."
 
 #: anovaRM/options/bsTerms.description.ui
-#, fuzzy
 msgid "the between subjects terms of the model."
-msgstr "mezi subjekty podmínky modelu"
+msgstr "členy modelu mezi subjekty."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
-#, fuzzy
 msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "Binomický test se používá k testování nulové hypotézy, že podíl pozorování odpovídá nějakému očekávanému hodnotě. Pokud je p-hodnota nízká, naznačuje to, že nulová hypotéza je nepravdivá a že skutečný podíl musí být nějaká jiná hodnota."
+msgstr ""
+"Binomický test se používá k testování nulové hypotézy, že podíl pozorování "
+"odpovídá nějaké očekávané hodnotě. Pokud je p-hodnota nízká, naznačuje to, "
+"že nulová hypotéza neplatí a skutečný podíl má jinou hodnotu."
 
 #: ancova/options/factors.description.ui
-#, fuzzy
 msgid "the categorical explanatory (or independent) variables."
-msgstr "kategorické vysvětlovací (nebo nezávislé) proměnné."
+msgstr "kategoriální vysvětlující (nebo nezávislé) proměnné."
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "Interval spolehlivosti průměru předpokládá, že vzorkové průměry následují t-distribuci s N - 1 stupni volnosti"
+msgstr ""
+"Interval spolehlivosti průměru předpokládá, že výběrové průměry mají t-"
+"rozdělení s N - 1 stupni volnosti"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
 #: ttestPS/options/ciWidthES.description.ui
-#, fuzzy
 msgid "the confidence interval width for the effect-sizes."
-msgstr "šířka intervalu spolehlivosti pro efektové velikosti"
+msgstr "šířka intervalu spolehlivosti pro velikosti efektu."
 
 #: ancova/options/postHocEsCiWidth.description.ui
 #: anova/options/postHocEsCiWidth.description.ui
-#, fuzzy
 msgid "the confidence interval width for the post-hoc effect sizes."
-msgstr "šířka intervalu spolehlivosti pro efekt velikosti post-hoc."
+msgstr "šířka intervalu spolehlivosti pro post-hoc velikosti efektů."
 
 #: corrMatrix/options/ciWidth.description.ui
 #: ttestIS/options/ciWidth.description.ui
 #: ttestOneS/options/ciWidth.description.ui
 #: ttestPS/options/ciWidth.description.ui
-#, fuzzy
 msgid "the confidence interval width."
-msgstr "šířka intervalu spolehlivosti"
+msgstr "šířka intervalu spolehlivosti."
 
 #: ancova/options/covs.description.ui
-#, fuzzy
 msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "kontinuální vysvětlovací (nebo nezávislé) proměnné, také nazývané kovariáty."
+msgstr ""
+"spojité vysvětlující (nebo nezávislé) proměnné, také známé jako kovariáty."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
 #: anovaRM/options/contrasts.description.ui
-#, fuzzy
 msgid "the contrasts to use."
-msgstr "kontrasty k použití."
+msgstr "kontrasty, které se mají použít."
 
 #: corrPart/options/controls.description.ui
-#, fuzzy
 msgid "the control variables of interest."
-msgstr "kontrolní proměnné zájmu."
+msgstr "kontrolní proměnné, které nás zajímají."
 
 #: anovaRM/options/cov.description.ui
-#, fuzzy
 msgid "the covariates (specifying these makes this an ANCOVA)"
-msgstr "kovariáty (specifikace těchto proměnných činí z tohoto ANCOVA)"
+msgstr "kovariáty (jejich zadáním se z této analýzy stane ANCOVA)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "The cut-off value is set to {}"
-msgstr "Hodnota cut-off je nastavena na {}"
+msgstr "Prahová hodnota je nastavena na {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
-#, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr "Datová sada obsahuje 0 řádků (po odebrání řádků s chybějícími hodnotami)"
+msgstr ""
+"Datová sada obsahuje 0 řádků (po odebrání řádků s chybějícími hodnotami)"
 
 #: R/loglinear.b.R
-#, fuzzy
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr "Datová sada obsahuje 0 řádků (nebo všechny řádky obsahují chybějící hodnoty)"
+msgstr ""
+"Datová sada obsahuje 0 řádků (nebo všechny řádky obsahují chybějící hodnoty)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "Závislá proměnná '{}' má více než dvě úrovně; binomická logistická regrese může být provedena pouze na závislých proměnných s dvěma úrovněmi."
+msgstr ""
+"Závislá proměnná '{}' má více než dvě úrovně; binomickou logistickou regresi "
+"lze provést pouze pro závislé proměnné se dvěma úrovněmi."
 
 #: R/logregord.b.R
-#, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "Závislá proměnná '{dep}' má následující pořadí: {orderedLevels}"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-#, fuzzy
 msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "Závislá proměnná \"{dep}\" má pouze dvě úrovně, zvažte provedení binomické logistické regrese."
+msgstr ""
+"Závislá proměnná \"{dep}\" má pouze dvě úrovně, zvažte provedení binomické "
+"logistické regrese."
 
 #: ancova/options/dep.description.ui
-#, fuzzy
 msgid "the dependent variable. For ANCOVA, these will be continuous."
-msgstr "závislá proměnná. Pro ANCOVA, tyto budou kontinuální."
+msgstr "závislá proměnná. Pro ANCOVA bude kontinuální."
 
 #: anova/options/dep.description.ui
-#, fuzzy
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr "závislá proměnná. Pro ANOVA to budou kontinuální proměnné."
+msgstr "závislá proměnná. V případě ANOVA bude spojitá."
 
 #: ttestIS/options/vars.description.ui
-#, fuzzy
 msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "závislé proměnné - pro každou závislou proměnnou je proveden samostatný t-test"
+msgstr "závislé proměnné — pro každou z nich se provede samostatný t-test."
 
 #: anovaOneW/options/deps.description.ui
-#, fuzzy
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr "závislé proměnné. Pro ANOVA budou tyto kontinuální."
+msgstr "závislé proměnné. V případě ANOVA budou spojité."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
 #: anovaRM/options/emmPlotError.description.ui
-#, fuzzy
 msgid "the error bars to plot on the marginal means."
-msgstr "chyby měření pro marginální průměry."
+msgstr "chybové úsečky pro marginální průměry."
 
 #: anovaOneW/options/group.description.ui
-#, fuzzy
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr "vysvětlující nebo nezávislá proměnná. Pro ANOVA to bude kategorická."
+msgstr ""
+"vysvětlující nebo nezávislá proměnná. V případě ANOVA bude kategoriální."
 
 #: anova/options/factors.description.ui
-#, fuzzy
 msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr "vysvětlivé nebo nezávislé proměné. Pro ANOVA budou tyto kategorizované."
+msgstr "vysvětlující nebo nezávislé proměnné. Pro ANOVA budou kategoriální."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
-#, fuzzy
 msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Friedmanů test se používá k prozkoumání vztahu mezi kontinuálnímí závislý mím proměným a kategorizovaným vysvětlivým proměným, kde je vysvětlivý proměný 'uvníř' (kde jsou mnohokráté špatné od jednoho subjektu). Je analogií k opakované ANOVA, ale s výhodou, ž e je ne-parametrický a nevyźduje předpoklady normality nebo homogenity variancí. Avšak, má omezení, ž e múzete testovat pouze jeden vysvětlivý proměný najednou."
+msgstr ""
+"Friedmanův test se používá ke zkoumání vztahu mezi kontinuální závislou "
+"proměnnou a kategoriální vysvětlující proměnnou, přičemž vysvětlující "
+"proměnná je „v rámci subjektů“ (tj. z téhož subjektu pochází více měření). "
+"Jde o neparametrický analog ANOVA s opakovanými měřeními, který nevyžaduje "
+"předpoklad normality ani homogenity rozptylů. Je však omezen na testování "
+"pouze jedné vysvětlující proměnné současně."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
-#, fuzzy
 msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Kruskal-Wallisův test se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou a kategoriální vysvětlovací proměnnou. Je analogický k ANOVA, ale s výhodou, že je neparametrický a má méně předpokladů. Nicméně, má omezení, že může testovat pouze jednu vysvětlovací proměnnou najednou."
+msgstr ""
+"Kruskalův–Wallisův test se používá ke zkoumání vztahu mezi spojitou závislou "
+"proměnnou a kategoriální vysvětlující proměnnou. Je obdobou ANOVA, ale je "
+"neparametrický a má méně předpokladů. Jeho omezením však je, že umožňuje "
+"testovat pouze jednu vysvětlující proměnnou najednou."
 
 #: anovaRM/options/depLabel.description.ui
-#, fuzzy
 msgid "the label to use for the dependent variable."
-msgstr "popis, který se má použít pro závislou proměnnou."
+msgstr "popisek, který se má použít pro závislou proměnnou."
 
 #: cfa/results/modelSyntax.description
-#, fuzzy
 msgid "the lavaan syntax used to fit the model"
-msgstr "syntaxe lavaan použité pro přizpůsobení modelu"
+msgstr "syntaxi lavaan použité k přizpůsobení modelu"
 
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
-#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "metodu vyloučení chybějících hodnot. `Analýza po analýze` vylučuje chybějící hodnoty z každé analýzy. `Listwise` vylučuje řádek ze všech analýz, pokud jedna z jeho hodnot chybí."
+msgstr ""
+"metodu vyloučení chybějících hodnot. `Analýza po analýze` vylučuje chybějící "
+"hodnoty z každé analýzy. `Vyloučení případů podle seznamu` vylučuje řádek ze "
+"všech analýz, pokud jedna z jeho hodnot chybí."
 
 #: ttestOneS/options/miss.description.ui
-#, fuzzy
 msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "metoda vyloučení chybějících hodnot. `Analýza po analýze` vylučuje chybějící hodnoty z každé proměnné. `Listwise` vylučuje řádek ze všech analýz, pokud jedna z jeho hodnot chybí."
+msgstr ""
+"metoda vyloučení chybějících hodnot. `Analýza po analýze` vylučuje chybějící "
+"hodnoty z každé proměnné. `Vyloučení případů podle seznamu` vylučuje řádek "
+"ze všech analýz, pokud jedna z jeho hodnot chybí."
 
 #: ancova/options/modelTerms.description.ui
-#, fuzzy
 msgid "the model terms which make up the model."
-msgstr "termíny modelu, které tvoří model."
+msgstr "členy modelu, z nichž se model skládá."
 
 #: anova/options/modelTerms.description.ui
-#, fuzzy
 msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "modelové podmínky, které tvoří model. Ve výchozím nastavení je vytvořen plný faktoriál model, ale zde lze upravit přesné podmínky, které tvoří model."
+msgstr ""
+"členy modelu, z nichž se model skládá. Ve výchozím nastavení se vytvoří plný "
+"faktoriální model, zde však lze upravit přesné členy, z nichž se model "
+"skládá."
 
 #: ttestPS/options/pairs.description.ui
-#, fuzzy
 msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "páry měření -- je proveden samostatný t-test pro každé měření."
+msgstr "páry měření — pro každý pár měření se provede samostatný t-test."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
 #: anovaRM/options/postHocCorr.description.ui
-#, fuzzy
 msgid "the post-hoc multiple comparisons corrections to use."
-msgstr "post-hoc multiple comparisons korekce pro použití."
+msgstr "korekce pro vícenásobná post-hoc porovnání, které se mají použít."
 
 #: ttestIS/options/bfPrior.description.ui
-#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "šířka předchozí hodnoty pro Bayesovy faktory Studentova t-testu. Vyžaduje hodnotu mezi 0,01 a 2,0, výchozí 0,707."
+msgstr ""
+"šířka apriorního rozdělení pro Bayesovy faktory Studentova t-testu. Vyžaduje "
+"hodnotu mezi 0,01 a 2,0, výchozí hodnota je 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
-#, fuzzy
 msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "šířka předchozí distribuce pro Bayesovy faktory Studentova t-testu. Vyžaduje hodnotu mezi 0,5 a 2,0, výchozí 0,707."
+msgstr ""
+"šířka apriorního rozdělení pro Bayesovy faktory Studentova t-testu. Vyžaduje "
+"hodnotu mezi 0,5 a 2,0, výchozí hodnota je 0,707."
 
 #: package/analyses/anovaRM.description
-#, fuzzy
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "Zopakováné ANOVA se používá k prozkoumání vztahu mezi kontinuálnímí závislý mím proměným a jednim nebo více kategorizovanými vysvětlivými proměnými, kde jeden nebo více vysvětlivých proměných jsou 'uvníř' (kde jsou mnohokráté špatné od jednoho subjektu). Navíc tato analýza umožnuje zahrnout korekční proměné, čímž je možno provádét opakované ANCOVY."
+msgstr ""
+"ANOVA s opakovanými měřeními se používá ke zkoumání vztahu mezi kontinuální "
+"závislou proměnnou a jednou nebo více kategoriálními vysvětlujícími "
+"proměnnými, přičemž jedna nebo více vysvětlujících proměnných je „v rámci "
+"subjektů“ (tj. z téhož subjektu pochází více měření). Tato analýza navíc "
+"umožňuje zahrnout kovariáty a provádět tak také analýzy ANCOVA s opakovanými "
+"měřeními."
 
 #: anovaRM/options.description.main
-#, fuzzy
 msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
@@ -5807,47 +5538,58 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "Zopakované ANOVA měření se používá k prozkoumání vztahu mezi kontinuální závislou proměnnou a jednou nebo více kategorickými vysvětlovacími proměnnými, kde jedna nebo více vysvětlovacích proměnných jsou \"v rámci subjektů\" (kde jsou více měření z téhož subjektu). Kromě toho tato analýza umožňuje zahrnout kovariáty, což umožňuje opakovaná měření ANCOVAs.\n"
+msgstr ""
+"ANOVA s opakovanými měřeními se používá ke zkoumání vztahu mezi kontinuální "
+"závislou proměnnou a jednou nebo více kategoriálními vysvětlujícími "
+"proměnnými, přičemž jedna nebo více vysvětlujících proměnných je „v rámci "
+"subjektů“ (tj. z téhož subjektu pochází více měření). Tato analýza navíc "
+"umožňuje zahrnout kovariáty a provádět tak také analýzy ANCOVA s opakovanými "
+"měřeními.\n"
 "\n"
-"Tato analýza vyžaduje, aby data byla v \"širokém formátu\", kde každá řádková položka představuje subjekt (na rozdíl od dlouhého formátu, kde je každá měření závislé proměnné reprezentována jako řádková položka).\n"
+"Tato analýza vyžaduje data v „širokém formátu“, v němž každý řádek "
+"představuje subjekt (na rozdíl od dlouhého formátu, v němž každý řádek "
+"představuje jedno měření závislé proměnné).\n"
 "\n"
-"Ne-parametrická ekvivalentní opakovaná měření ANOVA také existuje; Friedmanův test. Nicméně, má omezení pouze jednoho faktoru."
+"Existuje také neparametrický ekvivalent ANOVA s opakovanými měřeními, "
+"Friedmanův test. Ten je však omezen na testování jediného faktoru."
 
 #: anovaRM/options/rm.description.ui
-#, fuzzy
 msgid "the repeated measures design."
-msgstr "opakované méření designu"
+msgstr "uspořádání s opakovanými měřeními."
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "Opakovaná měření mají pouze dvě úrovně. Předpoklad sféricity je vždy splněn, když opakovaná měření mají pouze dvě úrovně."
+msgstr ""
+"Opakovaná měření mají pouze dvě úrovně. Předpoklad sféricity je vždy splněn, "
+"když opakovaná měření mají pouze dvě úrovně."
 
 #: anovaRM/options/rmCells.description.ui
-#, fuzzy
 msgid "the repeated measures measurements."
 msgstr "opakovaná měření."
 
 #: anovaRM/options/rmTerms.description.ui
-#, fuzzy
 msgid "the repeated measures terms of the model."
-msgstr "opakovaně měřené členy modelu."
+msgstr "členy modelu pro opakovaná měření."
 
 #: R/utilsreg.R
-#, fuzzy
 msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "Specifikovaná referenční úroveň nebyla nalezena pro následující proměnné(s): {vars}. Výchozí hodnota je první dostupná úroveň. Chcete-li použít vlastní referenční úroveň, zajistěte, aby definovaná referenční úroveň byla dostupná v datech."
+msgstr ""
+"Zadaná referenční úroveň nebyla nalezena pro následující proměnné: {vars}. "
+"Použije se první dostupná úroveň. Chcete-li použít vlastní referenční "
+"úroveň, ověřte, že je v datech dostupná."
 
 #: package/analyses/ttestIS.description
-#, fuzzy
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "Studentův nezávislý vzorkový t-test (někdy nazývaný dvou-vzorkový t-test) se používá k testování nulové hypotézy, že dvě skupiny mají stejný průměr. Nízká hodnota p naznačuje, že nulová hypotéza není pravdivá, a proto průměry skupin jsou odlišné."
+msgstr ""
+"Studentův t-test pro nezávislé výběry (někdy nazývaný dvouvýběrový t-test) "
+"se používá k testování nulové hypotézy, že dvě skupiny mají stejný průměr. "
+"Nízká p-hodnota naznačuje, že nulová hypotéza neplatí, a průměry skupin se "
+"proto liší."
 
 #: ttestIS/options.description.main
-#, fuzzy
 msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
@@ -5861,22 +5603,32 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "Studentův nezávislý vzorkový t-test (někdy nazývaný dvou-vzorkový t-test) se používá k testování nulové hypotézy, že dvě skupiny mají stejný průměr. Nízká p-hodnota naznačuje, že nulová hypotéza není pravdivá, a tedyže průměry skupin jsou různé.\n"
-"\n"
-"Studentův nezávislý t-test předpokládá, že data z každé skupiny jsou z normálního rozdělení, a že variancy těchto skupin jsou stejné. Pokud není ochoten předpokládat, že skupiny mají stejné variancy, lze použít Welchův t-test. Pokud navíc není ochoten předpokládat, že data z každé skupiny jsou z normálního rozdělení, lze použít neparametrický Mann-Whitney U test (Nicméně, je třeba poznamenat, že Mann-Whitney U test má mírně odlišnou nulovou hypotézu; že rozdělení každé skupiny je stejné)."
+msgstr ""
+"Studentův t-test pro nezávislé výběry (někdy nazývaný dvouvýběrový t-test) "
+"se používá k testování nulové hypotézy, že dvě skupiny mají stejný průměr. "
+"Nízká p-hodnota naznačuje, že nulová hypotéza neplatí, a průměry skupin se "
+"proto liší.\r\n"
+"\r\n"
+"Studentův t-test pro nezávislé výběry předpokládá, že data z každé skupiny "
+"pocházejí z normálního rozdělení a že rozptyly těchto skupin jsou stejné. "
+"Pokud nechceme předpokládat shodnost rozptylů, lze místo něj použít Welchův "
+"t-test. Pokud navíc nechceme předpokládat normální rozdělení dat v "
+"jednotlivých skupinách, lze použít neparametrický Mannův–Whitneyův U test "
+"(ten má však poněkud odlišnou nulovou hypotézu: rozdělení v obou skupinách "
+"jsou stejná)."
 
 #: package/analyses/ttestOneS.description
-#, fuzzy
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "Studentův jednovzorkový t-test se používá k testování nulové hypotézy, že \n"
-"pravý průměr je roven určité hodnotě (obvykle nule). Nízká \n"
-"p-hodnota naznačuje, že nulová hypotéza není pravdivá a tudíž pravý průměr musí být jiný než testovací hodnota."
+msgstr ""
+"Studentův jednovýběrový t-test se používá k testování nulové hypotézy, že "
+"skutečný průměr se rovná určité hodnotě (obvykle nule). Nízká p-hodnota "
+"naznačuje, že nulová hypotéza neplatí, a skutečný průměr se proto liší od "
+"testované hodnoty."
 
 #: ttestOneS/options.description.main
-#, fuzzy
 msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
@@ -5887,25 +5639,31 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "Studentův jedenovýběrový t-test se používá k testování nulové hypotézy, že\n"
-"pravá hodnota průměru je rovna určité hodnotě (obvykle nule). Nízká\n"
-"hodnota p naznačuje, že nulová hypotéza není pravdivá, a proto\n"
-"pravá hodnota průměru musí být odlišná od testované hodnoty.\n"
+msgstr ""
+"Studentův jednovýběrový t-test se používá k testování nulové hypotézy, že\n"
+"skutečný průměr se rovná určité hodnotě (obvykle nule). Nízká p-hodnota\n"
+"naznačuje, že nulová hypotéza neplatí, a skutečný průměr se proto liší\n"
+"od testované hodnoty.\n"
 "\n"
-"Studentův jedenovýběrový t-test předpokládá, že data pocházejí z normálního\n"
-"distribučního rozložení -- v případě, že někdo není ochoten předpokládat toto, lze místo něj použít neparametrický Wilcoxonův signed-rank test (Nicméně, je třeba poznamenat, že Wilcoxonův signed-rank test má mírně odlišnou nulovou hypotézu; že <i>medián</i> je roven testované hodnotě)."
+"Studentův jednovýběrový t-test předpokládá, že data mají normální\n"
+"rozdělení – pokud tento předpoklad nechceme učinit, lze místo něj použít\n"
+"neparametrický Wilcoxonův test se znaménkovými pořadími (ten má\n"
+"však poněkud odlišnou nulovou hypotézu: <i>medián</i> se rovná\n"
+"testované hodnotě)."
 
 #: package/analyses/ttestPS.description
-#, fuzzy
 msgid "The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "Studentův párový t-test (někdy nazývaný závislý t-test) se používá k testování nulové hypotézy, že rozdíl mezi páry měření je roven nule. Nízká p-hodnota naznačuje, že nulová hypotéza není pravdivá a že rozdíl mezi měřenými páry není nulový."
+msgstr ""
+"Studentův párový t-test (někdy nazývaný t-test pro závislé výběry) se "
+"používá k testování nulové hypotézy, že rozdíl mezi dvojicemi měření je "
+"roven nule. Nízká p-hodnota naznačuje, že nulová hypotéza neplatí a rozdíl "
+"mezi dvojicemi měření není nulový."
 
 #: ttestPS/options.description.main
-#, fuzzy
 msgid "The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
@@ -5918,88 +5676,97 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "Studentův párový t-test (někdy nazývaný závislý t-test) se používá k testování nulové hypotézy, že rozdíl mezi páry měření je roven nule. Nízká hodnota p naznačuje, že nulová hypotéza není pravdivá a že rozdíl mezi měřicími páry není nulový.\n"
-"\n"
-"Studentův párový t-test předpokládá, že rozdíly párů následují normální distribuci - v případě, že někdo není ochoten předpokládat toto, lze místo toho použít neparametrický Wilcoxonův test se znaménkem (Nicméně, je třeba poznamenat, že Wilcoxonův test se znaménkem má slightly odlišnou nulovou hypotézu; že dvě skupiny měření následují stejnou distribuci)."
+msgstr ""
+"Studentův párový t-test (někdy nazývaný t-test pro závislé výběry) se "
+"používá k testování nulové hypotézy, že rozdíl mezi dvojicemi měření je "
+"roven nule. Nízká p-hodnota naznačuje, že nulová hypotéza neplatí a rozdíl "
+"mezi dvojicemi měření není nulový.\r\n"
+"\r\n"
+"Studentův párový t-test předpokládá, že rozdíly mezi páry mají normální "
+"rozdělení – pokud tento předpoklad nechceme učinit, lze místo něj použít "
+"neparametrický Wilcoxonův test se znaménkovými pořadími (ten má však poněkud "
+"odlišnou nulovou hypotézu: obě skupiny měření mají stejné rozdělení)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
-#, fuzzy
 msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "termíny, pro které mají být poskytnuty odhadované marginální průměry. Zde můžete určit více termínů."
+msgstr ""
+"členy, pro které se mají uvést odhadované marginální průměry. Zde lze určit "
+"více členů."
 
 #: ttestOneS/options/testValue.description.ui
-#, fuzzy
 msgid "the test value to test against (typically zero)."
-msgstr "testovací hodnota k testování (obvykle nula)."
+msgstr "testovací hodnota, vůči které se testuje (obvykle nula)."
 
 #: corrPart/options/type.description.ui
-#, fuzzy
 msgid "the type of correlation to calculate"
-msgstr "typ korelace, která má být vypočtena"
+msgstr "typ korelace, který se má vypočítat"
 
 #: ancova/options/ss.description.ui
 #: anova/options/ss.description.ui
-#, fuzzy
 msgid "the type of sums of squares to use; Type 1, 2, or 3."
-msgstr "typ součtů čtverců, které se mají použít; Typ 1, 2 nebo 3."
+msgstr "typ součtů čtverců, který se má použít: typ 1, 2 nebo 3."
 
 #: anovaRM/options/ss.description.ui
-#, fuzzy
 msgid "the type of sums of squares to use; Type 2, or 3."
-msgstr "typ součet čtverců, které se mají použít; Typ 2 nebo 3."
+msgstr "typ součtů čtverců, který se má použít: typ 2 nebo 3."
 
 #: ancova/results/model.description
 #: anova/results/model.description
-#, fuzzy
 msgid "The underlying `aov` object"
 msgstr "Základní `aov` objekt"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "Proměnná {var} nemůže být považována za numerickou. Grafy, které očekávají numerická data, nebudou pro tuto proměnnou vytvořeny."
+msgstr ""
+"Proměnnou {var} nelze považovat za numerickou. Grafy vyžadující numerická "
+"data se pro tuto proměnnou nevytvoří."
 
 #: ttestIS/options/group.description.ui
-#, fuzzy
 msgid "the variable specifying the groups; must have 2 levels."
-msgstr "proměnná specifikující skupiny; musí mít 2 úrovně."
+msgstr "proměnná určující skupiny; musí mít dvě úrovně."
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "Proměnné {vars} nemohou být považovány za numerické. Grafy, které očekávají numerická data, nebudou pro tyto proměnné vytvořeny."
+msgstr ""
+"Proměnné {vars} nelze považovat za numerické. Grafy vyžadující numerická "
+"data se pro tyto proměnné nevytvoří."
 
 #: ttestOneS/options/vars.description.ui
-#, fuzzy
 msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "proměnné zájmu -- pro každou proměnnou je proveden samostatný t-test."
+msgstr ""
+"proměnné, které nás zajímají – pro každou zadanou proměnnou se provede "
+"samostatný t-test."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
-#, fuzzy
 msgid "the variables of interest."
-msgstr "proměnné zájmu"
+msgstr "proměnné, které nás zajímají."
 
 #: ancova/options/ciWidthEmm.description.ui
 #: anova/options/ciWidthEmm.description.ui
 #: anovaRM/options/ciWidthEmm.description.ui
-#, fuzzy
 msgid "the width for the Confidence intervals."
-msgstr "šířka pro intervaly spolehlivosti."
+msgstr "šířka intervalů spolehlivosti."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
-#, fuzzy
 msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "Test χ² goodness of fit (nelze zaměnit s testem χ² nezávislosti), testuje nulovou hypotézu, že poměr pozorování odpovídá očekávaným poměrům. Pokud je p-hodnota nízká, naznačuje to, že nulová hypotéza je chybná a že skutečné poměry se liší od testovaných."
+msgstr ""
+"Test dobré shody χ² (nezaměňovat s testem nezávislosti χ²) testuje nulovou "
+"hypotézu, že podíly pozorování odpovídají očekávaným podílům. Je-li p-"
+"hodnota nízká, naznačuje to, že nulová hypotéza neplatí a skutečné podíly se "
+"liší od testovaných."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
-#, fuzzy
 msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "Test χ² asociace (který by neměl být zaměněn s χ² goodness of fit) se používá k testování, zda jsou dvě kategorické proměnné nezávislé nebo spojené. Pokud je hodnota p nízká, naznačuje to, že proměnné nejsou nezávislé a že existuje vztah mezi dvěma proměnnými."
+msgstr ""
+"Test asociace χ² (nezaměňovat s testem dobré shody χ²) se používá k ověření, "
+"zda jsou dvě kategoriální proměnné nezávislé, nebo spolu souvisejí. Je-li p-"
+"hodnota nízká, naznačuje to, že proměnné nejsou nezávislé a že mezi nimi "
+"existuje vztah."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6009,92 +5776,80 @@ msgstr "Test χ² asociace (který by neměl být zaměněn s χ² goodness of f
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "Theoretical Quantiles"
 msgstr "Teoretické kvantily"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr "Nebyly nalezeny žádné Mahalanobisovy vzdálenosti s prahovou hodnotou pod p < {p}."
+msgstr "Nebyly nalezeny žádné Mahalanobisovy vzdálenosti s p < {p}."
 
 #: package.description
-#, fuzzy
 msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "Tento modul představuje analýzy zahrnuté v jamovi. Obsahuje mnoho běžných analýz (jako jsou t-testy, ANOVA, regrese, korelační matice, testy proporcionality, kontingenční tabulky, faktorová analýza atd.)."
+msgstr ""
+"Tento modul představuje analýzy zahrnuté v jamovi. Obsahuje mnoho běžných "
+"analýz (například t-testy, ANOVY, regrese, korelační matice, testy podílů, "
+"kontingenční tabulky, faktorová analýza atd.)."
 
 #: logRegOrd/results/models.template/thres.columns.title
-#, fuzzy
 msgid "Threshold"
-msgstr "Práh"
+msgstr "Prahová hodnota"
 
 #: logRegOrd/ui[4][0][0][1].label
-#, fuzzy
 msgid "Thresholds"
-msgstr "Práhové hodnoty"
+msgstr "Prahové hodnoty"
 
 #: efa/options/factorScoreMethod/Thurstone.title
-#, fuzzy
 msgid "Thurstone"
 msgstr "Thurstone"
 
 #: logRegBin/options/pseudoR2/r2t.title
-#, fuzzy
 msgid "Tjur's R²"
-msgstr "Tjurů R²"
+msgstr "Tjurovo R²"
 
 #: cfa/options/fitMeasures/tli.title
 #: cfa/results/modelFit/fitMeasures.columns.title
 #: pca/results/modelFit/fit.columns.title
-#, fuzzy
 msgid "TLI"
 msgstr "TLI"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
-#, fuzzy
 msgid "Tolerance"
 msgstr "Tolerance"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "Too few observations (N < 3) to compute statistic"
 msgstr "Příliš málo pozorování (N < 3) pro výpočet statistiky"
 
 #: R/mancova.b.R
-#, fuzzy
 msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "Příliš málo pozorování pro výpočet statistiky. Každá (sub)skupina musí mít aspoň tolik pozorování, kolik je tam závislých proměných."
+msgstr ""
+"Příliš málo pozorování pro výpočet statistiky. Každá (pod)skupina musí mít "
+"alespoň tolik pozorování, kolik je závislých proměnných."
 
 #: R/anovaonew.b.R
-#, fuzzy
 msgid "Too few samples to compute statistic (N < {n})"
-msgstr "Příliš málo vzorků pro výpočet statistiky (N < {n})"
+msgstr "Příliš málo pozorování pro výpočet statistiky (N < {n})"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "Too few samples to compute statistic (N < 3)"
-msgstr "Příliš málo vzorků pro výpočet statistiky (N < 3)"
+msgstr "Příliš málo pozorování pro výpočet statistiky (N < 3)"
 
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "Too many observations (N > 5000) to compute statistic"
 msgstr "Příliš mnoho pozorování (N > 5000) pro výpočet statistiky"
 
 #: R/anovaonew.b.R
-#, fuzzy
 msgid "Too many samples to compute statistic (N > {n})"
-msgstr "Příliš mnoho vzorků pro výpočet statistiky (N > {n})"
+msgstr "Příliš mnoho pozorování pro výpočet statistiky (N > {n})"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "Too many samples to compute statistic (N > 5000)"
-msgstr "Příliš mnoho vzorků pro výpočet statistiky (N > 5000)"
+msgstr "Příliš mnoho pozorování pro výpočet statistiky (N > 5000)"
 
 #: package/datasets/ToothGrowth.name
-#, fuzzy
 msgid "Tooth Growth"
 msgstr "Růst zubů"
 
@@ -6102,77 +5857,64 @@ msgstr "Růst zubů"
 #: R/conttablespaired.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
-#, fuzzy
 msgid "Total"
 msgstr "Celkem"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
 #: anovaRM/options/postHocCorr/tukey.title
-#, fuzzy
 msgid "Tukey"
-msgstr "Tukey"
+msgstr "Tukeyho"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_tukey.label
-#, fuzzy
 msgid "Tukey (equal variances)"
-msgstr "Tukey (rovné variance)"
+msgstr "Tukey (stejné rozptyly)"
 
 #: R/anovaonew.b.R
-#, fuzzy
 msgid "Tukey Post-Hoc Test – {dep}"
-msgstr "Tukey Post-Hoc Test – {dep}"
+msgstr "Tukeyův post-hoc test – {dep}"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Type {ssType} Sums of Squares"
-msgstr "Typ {ssType} součtu čtveré"
+msgstr "Součty čtverců typu {ssType}"
 
 #: ancova/options/ss/1.title
 #: anova/options/ss/1.title
-#, fuzzy
 msgid "Type 1"
 msgstr "Typ 1"
 
 #: ancova/options/ss/2.title
 #: anova/options/ss/2.title
 #: anovaRM/options/ss/2.title
-#, fuzzy
 msgid "Type 2"
 msgstr "Typ 2"
 
 #: ancova/options/ss/3.title
 #: anova/options/ss/3.title
 #: anovaRM/options/ss/3.title
-#, fuzzy
 msgid "Type 3"
 msgstr "Typ 3"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Type 3 sum of squares"
-msgstr "Typ 3 součet čtverců"
+msgstr "Součet čtverců typu 3"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "Unable to split by a continuous variable"
-msgstr "Nelze rozdělit podle kontinuální proměnné"
+msgstr "Nelze rozdělit podle spojité proměnné"
 
 #: pca/results/loadings.columns.title
-#, fuzzy
 msgid "Uniqueness"
 msgstr "Jedinečnost"
 
 #: mancova/results/univar.title
-#, fuzzy
 msgid "Univariate Tests"
-msgstr "Jednovýběrové testy"
+msgstr "Jednorozměrné testy"
 
 #: R/conttables.b.R
 #: contTables/options/resU.title
-#, fuzzy
 msgid "Unstandardized residuals"
-msgstr "Nestandardizované zbytky"
+msgstr "Nestandardizovaná rezidua"
 
 #: R/ancova.b.R
 #: R/descriptives.b.R
@@ -6202,9 +5944,8 @@ msgid "Upper"
 msgstr "Horní"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "upper bound"
-msgstr "horní hranice"
+msgstr "horní mez"
 
 #: R/anovarmnp.b.R
 #: contTables/results/chiSq.columns.title
@@ -6212,22 +5953,18 @@ msgstr "horní hranice"
 #: contTables/results/nom.columns.title
 #: contTablesPaired/results/test.columns.title
 #: descriptives/results/extremeValues.template.columns.title
-#, fuzzy
 msgid "Value"
 msgstr "Hodnota"
 
 #: mancova/results/multivar.columns.title
-#, fuzzy
 msgid "value"
 msgstr "hodnota"
 
 #: descriptives/ui[2][3][2][0]/extreme/extremeN.suffix
-#, fuzzy
 msgid "values"
 msgstr "hodnoty"
 
 #: propTest2/options/areCounts.title
-#, fuzzy
 msgid "Values are counts"
 msgstr "Hodnoty jsou počty"
 
@@ -6237,29 +5974,24 @@ msgstr "Hodnoty jsou počty"
 #: logRegMulti/ui[2]/refLevels.columns.label
 #: logRegOrd/ui[2]/refLevels.columns.label
 #: propTestN/options/var.title
-#, fuzzy
 msgid "Variable"
 msgstr "Proměnná"
 
 #: R/proptest2.b.R
-#, fuzzy
 msgid "Variable '{var}' contains no data"
 msgstr "Proměnná '{var}' neobsahuje žádná data"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
-#, fuzzy
 msgid "Variable contains infinite values"
 msgstr "Proměnná obsahuje nekonečné hodnoty"
 
 #: R/ttestones.b.R
-#, fuzzy
 msgid "Variable does not contain enough observations"
 msgstr "Proměnná neobsahuje dostatek pozorování"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
-#, fuzzy
 msgid "Variable is not numeric"
 msgstr "Proměnná není numerická"
 
@@ -6275,78 +6007,68 @@ msgid "Variables"
 msgstr "Proměnné"
 
 #: descriptives/options/desc/columns.title
-#, fuzzy
 msgid "Variables across columns"
-msgstr "Proměné napříč sloupců"
+msgstr "Proměnné ve sloupcích"
 
 #: descriptives/options/desc/rows.title
-#, fuzzy
 msgid "Variables across rows"
-msgstr "Proměné vřady"
+msgstr "Proměnné v řádcích"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Variables must have at least two levels"
 msgstr "Proměnné musí mít alespoň dvě úrovně"
 
 #: R/descriptives.b.R
 #: descriptives/options/variance.title
-#, fuzzy
 msgid "Variance"
-msgstr "Variace"
+msgstr "Rozptyl"
 
 #: anovaOneW/ui[1][0][0].label
-#, fuzzy
 msgid "Variances"
-msgstr "Disperze"
+msgstr "Rozptyly"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "variation from the control variables is only removed from the variables in the columns"
-msgstr "Variace z kontrolních proměnných je odstraněna pouze z proměnných ve sloupcích"
+msgstr ""
+"Variabilita vlivem kontrolních proměnných se odstraňuje pouze z proměnných "
+"ve sloupcích"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
-#, fuzzy
 msgid "Varimax"
 msgstr "Varimax"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "varimax"
 msgstr "varimax"
 
 #: linReg/results/models.template/assump/collin.columns.title
 #: logRegBin/results/models.template/assump/collin.columns.title
-#, fuzzy
 msgid "VIF"
 msgstr "VIF"
 
 #: descriptives/options/violin.title
-#, fuzzy
 msgid "Violin"
-msgstr "Housenka"
+msgstr "Houslový graf"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "W"
 msgstr "W"
 
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
-#, fuzzy
 msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "vážit každou buňku stejně. (Buňky jsou váženy podle frekvence buňky ve výchozím nastavení.)"
+msgstr ""
+"vážit každou buňku stejnou vahou. (Ve výchozím nastavení se buňky váží podle "
+"četnosti buněk.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
-#, fuzzy
 msgid "Weight Variable"
-msgstr "Hmotnostní proměnná"
+msgstr "Váhová proměnná"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Weighted by '{varName}'"
 msgstr "Váženo podle '{varName}'"
 
@@ -6359,73 +6081,61 @@ msgid "Weights"
 msgstr "Váhy"
 
 #: linReg/options/weights.title
-#, fuzzy
 msgid "Weights (optional)"
-msgstr "Hmotnosti (nepovinné)"
+msgstr "Váhy (nepovinné)"
 
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-#, fuzzy
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr "Váhy obsahují negativní hodnoty. Negativní váhy nejsou povoleny."
+msgstr "Váhy obsahují záporné hodnoty. Záporné váhy nejsou povoleny."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title
-#, fuzzy
 msgid "Welch's"
 msgstr "Welchův"
 
 #: ttestIS/results/ttest.columns.content
-#, fuzzy
 msgid "Welch's t"
 msgstr "Welchův t"
 
 #: ttestOneS/ui[1][0][0]/wilcoxon.label
 #: ttestPS/ui[1][0][0]/wilcoxon.label
-#, fuzzy
 msgid "Wilcoxon rank"
-msgstr "Wilcoxonovo pořadí"
+msgstr "Wilcoxonův test"
 
 #: ttestOneS/options/wilcoxon.title
 #: ttestPS/options/wilcoxon.title
-#, fuzzy
 msgid "Wilcoxon signed rank test"
-msgstr "Wilcoxonův signed-rank test"
+msgstr "Wilcoxonův pořadový test se znaménky"
 
 #: ttestOneS/results/ttest.columns.content
 #: ttestPS/results/ttest.columns.content
-#, fuzzy
 msgid "Wilcoxon W"
-msgstr "Wilcoxon W"
+msgstr "Wilcoxonovo W"
 
 #: mancova/options/multivar/wilks.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Wilks' Lambda"
-msgstr "Wilksův lambda"
+msgstr "Wilksova lambda"
 
 #: contTables/options/yaxisPc/column_pc.title
-#, fuzzy
 msgid "within column"
 msgstr "v rámci sloupce"
 
 #: contTables/options/yaxisPc/row_pc.title
-#, fuzzy
 msgid "within rows"
 msgstr "v rámci řádků"
 
 #: anovaRM/results/rmTable.title
-#, fuzzy
 msgid "Within Subjects Effects"
-msgstr "Vnitřní účinky subjektů"
+msgstr "Efekty v rámci subjektů"
 
 #: contTables/ui[1][3][0][1][1].label
 msgid "X-Axis"
 msgstr "Osa X"
 
 #: contTables/options/xaxis.title
-#, fuzzy
 msgid "X-axis"
 msgstr "Osa X"
 
@@ -6434,33 +6144,27 @@ msgid "Y-Axis"
 msgstr "Osa Y"
 
 #: contTables/options/yaxis.title
-#, fuzzy
 msgid "Y-axis"
-msgstr "Osá y"
+msgstr "Osa y"
 
 #: contTables/results/chiSq.columns.content
-#, fuzzy
 msgid "z test difference in 2 proportions"
-msgstr "z test rozdílu ve 2 proporcích"
+msgstr "z-test rozdílu dvou podílů"
 
 #: contTables/options/zProp.title
-#, fuzzy
 msgid "z test for difference in 2 proportions"
-msgstr "z-test pro rozdílnost ve 2 proporcích"
+msgstr "z-test rozdílu dvou podílů"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "z test only available for 2x2 tables"
-msgstr "z test je k dispozici pouze pro 2x2 tabulky"
+msgstr "z-test je k dispozici pouze pro tabulky 2 × 2"
 
 #: linReg/results/modelComp.columns.title
-#, fuzzy
 msgid "ΔR²"
 msgstr "ΔR²"
 
 #: anovaNP/options/es.title
 #: anovaNP/results/table.columns.title
-#, fuzzy
 msgid "ε²"
 msgstr "ε²"
 
@@ -6470,24 +6174,20 @@ msgstr "ε²"
 #: anovaRM/options/effectSize/eta.title
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
-#, fuzzy
 msgid "η²"
 msgstr "η²"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
-#, fuzzy
 msgid "η²<sub>G</sub>"
 msgstr "η²<sub>G</sub>"
 
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
-#, fuzzy
 msgid "η²<sub>p</sub>"
 msgstr "η²<sub>p</sub>"
 
 #: ancova/results/main.columns.title
-#, fuzzy
 msgid "η²p"
 msgstr "η²p"
 
@@ -6495,36 +6195,30 @@ msgstr "η²p"
 #: contTables/results/chiSq.columns.content
 #: contTablesPaired/options/chiSqCorr.title
 #: contTablesPaired/results/test.columns.content
-#, fuzzy
 msgid "χ² continuity correction"
-msgstr "κ² kontinuitní korekce"
+msgstr "χ² korekce kontinuity"
 
 #: propTestN/results/tests.title
-#, fuzzy
 msgid "χ² Goodness of Fit"
-msgstr "χ² dobré přizpůsobení"
+msgstr "χ² test dobré shody"
 
 #: package/analyses/propTestN.menuSubtitle
 #: propTestN/options.menuSubtitle
-#, fuzzy
 msgid "χ² Goodness of fit"
-msgstr "χ² dobré přizpůsobení"
+msgstr "χ² test dobré shody"
 
 #: cfa/options/modelTest.title
-#, fuzzy
 msgid "χ² test"
-msgstr "χ² test"
+msgstr "Test chí-kvadrát"
 
 #: package/analyses/contTables.menuSubtitle
 #: contTables/options.menuSubtitle
-#, fuzzy
 msgid "χ² test of association"
-msgstr "χ² test asociace"
+msgstr "Test chí-kvadrát asociace"
 
 #: contTables/results/chiSq.title
-#, fuzzy
 msgid "χ² Tests"
-msgstr "χ² testy"
+msgstr "Testy chí-kvadrát"
 
 #: ancova/options/effectSize/omega.title
 #: ancova/results/main.columns.title
@@ -6532,6 +6226,5 @@ msgstr "χ² testy"
 #: anovaRM/options/effectSize/omega.title
 #: anovaRM/results/rmTable.columns.title
 #: anovaRM/results/bsTable.columns.title
-#, fuzzy
 msgid "ω²"
 msgstr "ω²"
