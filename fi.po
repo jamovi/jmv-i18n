@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-06-05 04:18+0000\n"
-"Last-Translator: Jonathon Love <jon@thon.cc>\n"
+"PO-Revision-Date: 2026-10-14 03:51+0000\n"
+"Last-Translator: Arto Luoma <arto@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "fi/>\n"
 "Language: fi\n"
@@ -11,73 +11,62 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 #: R/errors.R
-#, fuzzy
 msgid "'{col}' contains infinite values"
 msgstr "'{col}' sisältää äärettömiä arvoja"
 
 #: R/errors.R
-#, fuzzy
 msgid "'{col}' contains missing values"
-msgstr "'{col}' sisältää puutteellisia arvoja"
+msgstr "'{col}' sisältää puuttuvia arvoja"
 
 #: R/errors.R
-#, fuzzy
 msgid "'{col}' contains only missing values"
 msgstr "'{col}' sisältää vain puuttuvia arvoja"
 
 #: R/errors.R
-#, fuzzy
 msgid "'{col}' contains only one unique value"
-msgstr "'{col}' sisältä vain yhden yksilöllisen arvon"
+msgstr "'{col}' sisältää vain yhden yksikäsitteisen arvon"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "'{method}' -eristysmenetelmää käytettiin yhdessä '{rotation}' -kiertomenetelmän kanssa"
+msgstr ""
+"'{method}' -faktorointimenetelmää käytettiin yhdessä '{rotation}' -"
+"kiertomenetelmän kanssa"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "'{rotation}' rotation was used"
-msgstr "'{rotation}' rotaatio käytettiin"
+msgstr "'{rotation}' -kiertoa käytettiin"
 
 #: R/descriptives.b.R
 #: R/linreg.b.R
-#, fuzzy
 msgid "'{var}' contains negative values. Negative weights are not permitted."
 msgstr "'{var}' sisältää negatiivisia arvoja. Negatiivisia painoja ei sallita."
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "{} - Kendall's Tau B"
 msgstr "{} - Kendallin Tau B"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "{} - Pearson's r"
 msgstr "{} - Pearsonin r"
 
 #: R/corrpart.b.R
-#, fuzzy
 msgid "{} - Spearman's rho"
 msgstr "{} - Spearmanin rho"
 
 #: R/corrmatrix.b.R
-#, fuzzy
 msgid "{ciWidth}% CI Lower"
-msgstr "{ciWidth}% alempi CI"
+msgstr "{ciWidth} % lv:n alaraja"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "{ciWidth}% CI mean {title}"
-msgstr "{ciWidth}%: n luottamusväli keskiarvolle {title}"
+msgstr "{ciWidth} %:n luottamusväli keskiarvolle {title}"
 
 #: R/corrmatrix.b.R
-#, fuzzy
 msgid "{ciWidth}% CI Upper"
-msgstr "{ciWidth}% CI Ylempi"
+msgstr "{ciWidth } % lv:n yläraja"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
@@ -92,58 +81,47 @@ msgstr "{ciWidth}% CI Ylempi"
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "{ciWidth}% Confidence Interval"
-msgstr "{ciWidth}% luottamusväli"
+msgstr "{ciWidth} %:n luottamusväli"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "{ciWidth}% Confidence Intervals"
-msgstr "{ciWidth}% luottamusväli"
+msgstr "{ciWidth} %:n luottamusvälit"
 
 #: R/utils.R
-#, fuzzy
 msgid "{item1} and {item2}"
 msgstr "{item1} ja {item2}"
 
 #: R/utils.R
-#, fuzzy
 msgid "{list}, {nextItem}"
 msgstr "{list}, {nextItem}"
 
 #: R/utils.R
-#, fuzzy
 msgid "{list}, and {lastItem}"
-msgstr "{list}, ja {lastItem}"
+msgstr "{list} ja {lastItem}"
 
 #: R/ttestps.b.R
-#, fuzzy
 msgid "{n} pair(s) of values were tied"
 msgstr "{n} paria arvoja oli sidottu"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "{type} score based on the variables {vars}"
-msgstr "{type} pisteytys muuttujien {vars} perusteella"
+msgstr "{type} muuttujista {vars}"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "{varName} (reversed)"
 msgstr "{varName} (käännetty)"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "{varType} of binomial logistic regression model{modelNo}"
-msgstr "{varType} binomiaalisen logistisen regressiomallin {modelNo}"
+msgstr "{varType} binomilogistiselle regressiomallille{modelNo}"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "{varType} of linear regression model{modelNo}"
-msgstr "{varType} lineaarisen regressiomallin {modelNo}"
+msgstr "{varType} lineaariselle regressiomallille{modelNo}"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
-#, fuzzy
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
 msgstr "* p < .05, ** p < .01, *** p < .001, yksipuolinen"
 
@@ -178,187 +156,157 @@ msgstr "* p < .05, ** p < .01, *** p < .001, yksipuolinen"
 #: ttestOneS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
 #: ttestPS/ui[1][1][0]/meanDiff[0]/ci/ciWidth.suffix
 #: ttestPS/ui[1][1][0]/effectSize[0]/ciES/ciWidthES.suffix
-#, fuzzy
 msgid "%"
 msgstr "%"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "% Correct"
-msgstr "Oikein %"
+msgstr "% oikein"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "% of Total"
-msgstr "Yhteensä %"
+msgstr "% kokonaismäärästä"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "% of total"
 msgstr "% kokonaismäärästä"
 
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
-#, fuzzy
 msgid "% of Variance"
-msgstr "Varianssin osuus"
+msgstr "% varianssista"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
-#, fuzzy
 msgid "% within column"
-msgstr "% sarakkeen mukaan"
+msgstr "% sarakkeittain"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
-#, fuzzy
 msgid "% within row"
-msgstr "% rivin mukaan"
+msgstr "% riveittäin"
 
 #: ancova/results/main.title
-#, fuzzy
 msgid "`ANCOVA - ${dep}`"
 msgstr "`ANCOVA - ${dep}`"
 
 #: anova/results/main.title
-#, fuzzy
 msgid "`ANOVA - ${dep}`"
 msgstr "`ANOVA - ${dep}`"
 
 #: linReg/results/models.template/coef.title
-#, fuzzy
 msgid "`Model Coefficients - ${ dep }`"
 msgstr "`Mallin kertoimet - ${ dep }`"
 
 #: logRegBin/results/models.template/coef.title
 #: logRegMulti/results/models.template/coef.title
 #: logRegOrd/results/models.template/coef.title
-#, fuzzy
 msgid "`Model Coefficients - ${dep}`"
 msgstr "`Mallin kertoimet - ${dep}`"
 
 #: propTestN/results/props.title
-#, fuzzy
 msgid "`Proportions - ${var}`"
-msgstr "`Prosentit - ${var}`"
+msgstr "`Suhteelliset osuudet - ${var}`"
 
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "±%"
 msgstr "±%"
 
 #: propTest2/ui[1][0][1]/hypothesis_less.label
 #: ttestOneS/ui[1][0][1]/hypothesis_lt.label
-#, fuzzy
 msgid "< Test value"
-msgstr "< Testiarvo"
+msgstr "< testiarvo"
 
 #: propTest2/ui[1][0][1]/hypothesis_notequal.label
 #: ttestOneS/ui[1][0][1]/hypothesis_dt.label
-#, fuzzy
 msgid "≠ Test value"
-msgstr "≠ Testiarvo"
+msgstr "≠ testiarvo"
 
 #: propTest2/ui[1][0][1]/hypothesis_greater.label
 #: ttestOneS/ui[1][0][1]/hypothesis_gt.label
-#, fuzzy
 msgid "> Test value"
-msgstr "> Testiarvo"
+msgstr "> testiarvo"
 
 #: R/linreg.b.R
 #: R/logregbin.b.R
 #: R/logregmulti.b.R
-#, fuzzy
 msgid "⁻ mean - 1SD, <sup>μ</sup> mean, ⁺ mean + 1SD"
-msgstr "⁻ keskiarvo - 1SD, <sup>μ</sup> keskiarvo, ⁺ keskiarvo + 1SD"
+msgstr "⁻ keskiarvo - 1s, <sup>μ</sup> keskiarvo, ⁺ keskiarvo + 1s"
 
 #: R/logregbin.b.R
-#, fuzzy
 msgid "1 - Specificity"
-msgstr "1 - Spesifisyyden"
+msgstr "1 - spesifisyys"
 
 #: package/analyses/logRegBin.menuTitle
 #: package/analyses/propTest2.menuTitle
 #: logRegBin/options.menuTitle
 #: propTest2/options.menuTitle
-#, fuzzy
 msgid "2 Outcomes"
 msgstr "2 tulosta"
 
 #: descriptives/options/pcValues.default
-#, fuzzy
 msgid "25,50,75"
 msgstr "25,50,75"
 
 #: corrPart/results/matrix.description
-#, fuzzy
 msgid "a (semi)partial correlation matrix table"
-msgstr "(semi)osittainen korrelaatiomatriisin taulukko"
+msgstr "(semi)osittaiskorrelaatiomatriisin taulukko"
 
 #: corrMatrix/results/plot.description
-#, fuzzy
 msgid "a correlation matrix plot"
-msgstr "korrelaatiomatriisin kaavio"
+msgstr "korrelaatiomatriisikuvio"
 
 #: corrMatrix/results/matrix.description
-#, fuzzy
 msgid "a correlation matrix table"
-msgstr "korrelaatiomatriisin taulukko"
+msgstr "korrelaatiomatriisitaulukko"
 
 #: anovaRMNP/results/plot.description
-#, fuzzy
 msgid "a descriptives plot"
-msgstr "kuvaileva kaavio"
+msgstr "kuvailevien tunnuslukujen kuvio"
 
 #: ttestIS/results/assum/eqv.notes.p
-#, fuzzy
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr "Pieni p-arvo osoittaa yhdenmukaisuuden oletuksen rikkomista"
+msgstr ""
+"Pieni p-arvo viittaa siihen, ettei oletus yhtäsuurista variansseista pidä "
+"paikkaansa"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
-#, fuzzy
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr "Pieni p-arvo viittaa normaaliuden oletuksen rikkomiseen"
+msgstr ""
+"Pieni p-arvo viittaa siihen, ettei oletus normaalisuudesta pidä paikkaansa"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
-#, fuzzy
 msgid "A nice correlation data set"
-msgstr "Kaunis korrelaatiotietojoukko"
+msgstr "Mukava korrelaatioaineisto"
 
 #: propTest2/ui[2][0][0]/priorA.label
-#, fuzzy
 msgid "a parameter"
 msgstr "parametri"
 
 #: anovaOneW/results/postHoc.template.description
-#, fuzzy
 msgid "a post-hoc table"
-msgstr "jälkikoe-taulukko"
+msgstr "jälkikäteisten testien taulukko"
 
 #: contTablesPaired/results/freqs.description
-#, fuzzy
 msgid "a proportions table"
 msgstr "suhteiden taulukko"
 
 #: ancova/results/assump/qq.description
 #: anova/results/assump/qq.description
 #: anovaRM/results/assump/qq.description
-#, fuzzy
 msgid "a q-q plot"
-msgstr "q-q kaavio"
+msgstr "q-q-kuvio"
 
 #: package/datasets/Bugs(Ryan,Wilde&Crist,2013).description
-#, fuzzy
 msgid "A repeated measures ANOVA data set"
-msgstr "Toistuvan mittauksen ANOVA-tietojoukko"
+msgstr "Toistomittaus-ANOVA-aineisto"
 
 #: anovaRM/results/groupSummary.description
-#, fuzzy
 msgid "a summary of the groups"
 msgstr "ryhmien yhteenveto"
 
@@ -369,265 +317,222 @@ msgstr "ryhmien yhteenveto"
 #: logLinear/results/models.template/emm.template/emmTable.description
 #: logRegBin/results/models.template/emm.template/emmTable.description
 #: logRegMulti/results/models.template/emm.template/emmTable.description
-#, fuzzy
 msgid "a table containing estimated marginal means"
-msgstr "taulukko, joka sisältää arviot marginaalisista keskiarvoista"
+msgstr "taulukko, joka sisältää estimoidut reunaodotusarvot"
 
 #: cfa/results/factorEst/factorCov.description
-#, fuzzy
 msgid "a table containing factor covariances estimates"
-msgstr "taulukko, joka sisältää tekijöiden kovarianssiarviot"
+msgstr "taulukko, joka sisältää faktorien kovarianssien estimaatit"
 
 #: cfa/results/factorEst/factorIntercept.description
-#, fuzzy
 msgid "a table containing factor intercept estimates"
-msgstr "taulukko, joka sisältää tekijän leikkausarviot"
+msgstr "taulukko, joka sisältää faktorien vakiotermien estimaatit"
 
 #: cfa/results/modelFit/fitMeasures.description
-#, fuzzy
 msgid "a table containing fit measures"
-msgstr "taulukko, joka sisältää sovitusmitat"
+msgstr "taulukko, joka sisältää yhteensopivuusmitat"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
-#, fuzzy
 msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "taulukko, joka sisältää muutosindeksejä kuormituksille, jotka eivät sisälydy malliin"
+msgstr ""
+"taulukko, joka sisältää muutosindeksit faktorilatauksille, jotka eivät "
+"sisälly malliin"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
-#, fuzzy
 msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "taulukko, joka sisältää muokkausindeksejä jäännöskovariansseista, joita ei ole sisällytetty malliin"
+msgstr ""
+"taulukko, joka sisältää muutosindeksit jäännöskovariansselle, jotka eivät "
+"sisälly malliin"
 
 #: cfa/results/resEst/resCov.description
-#, fuzzy
 msgid "a table containing residual covariances estimates"
-msgstr "taulukko, joka sisältää residuaalikovarianssien arviot"
+msgstr "taulukko, joka sisältää jäännöskovarianssien estimaatit"
 
 #: cfa/results/resEst/resIntercept.description
-#, fuzzy
 msgid "a table containing residual intercept estimates"
-msgstr "taulukko, joka sisältä jännitysleikkauskäärkeä"
+msgstr "taulukko, joka sisältää jäännösvakiotermien estimaatit"
 
 #: cfa/results/modelPerformance/corRes.description
-#, fuzzy
 msgid "a table containing residuals for the observed correlation matrix"
-msgstr "taulukko, joka sisältää residuaalit havaitun korrelaatiomatriisin"
+msgstr "taulukko, joka sisältää havaitun korrelaatiomatriisin jäännökset"
 
 #: cfa/results/modelFit/test.description
-#, fuzzy
 msgid "a table containing the chi-square test for exact fit"
-msgstr "taulukko, joka sisältää chi-jaon tarkistuksen täsmääräisyydestä"
+msgstr "taulukko, joka sisältää khiin neliö -testin tarkalle yhteensopivuudelle"
 
 #: logRegBin/results/models.template/assump/collin.description
-#, fuzzy
 msgid "a table containing the collinearity statistics"
-msgstr "taulukko moninkertaisuustilastot"
+msgstr "taulukko, joka sisältää kollineaarisuuden tunnusluvut"
 
 #: anovaRMNP/results/desc.description
 #: ttestOneS/results/descriptives.description
 #: ttestPS/results/desc.description
-#, fuzzy
 msgid "a table containing the descriptives"
-msgstr "kuvailevan taulukon sisältävä taulukko"
+msgstr "taulukko, joka sisältää kuvailevat tunnusluvut"
 
 #: cfa/results/factorLoadings.description
-#, fuzzy
 msgid "a table containing the factor loadings"
-msgstr "taulukko tekijäkuormituksista"
+msgstr "taulukko, joka sisältää faktorilataukset"
 
 #: anovaOneW/results/desc.description
 #: ttestIS/results/desc.description
-#, fuzzy
 msgid "a table containing the group descriptives"
-msgstr "taulukko, joka sisältää ryhmän kuvaukset"
+msgstr "taulukko, joka sisältää ryhmien kuvailevat tunnusluvut"
 
 #: ttestIS/results/assum/eqv.description
-#, fuzzy
 msgid "a table containing the homogeneity of variances tests"
-msgstr "taulukko, joka sisältää varianssin yhdenmukaisuustestit"
+msgstr "taulukko, joka sisältää testit varianssien yhtäsuuruudelle"
 
 #: ttestOneS/results/normality.description
 #: ttestPS/results/norm.description
-#, fuzzy
 msgid "a table containing the normality test results"
-msgstr "taulukko, joka sisältää normaalisuustestitulokset"
+msgstr "taulukko, joka sisältää normaalisuustestin tulokset"
 
 #: anovaOneW/results/assump/norm.description
 #: ttestIS/results/assum/norm.description
-#, fuzzy
 msgid "a table containing the normality tests"
 msgstr "taulukko, joka sisältää normaalisuustestit"
 
 #: logRegBin/results/models.template/assump/boxTidwell.description
-#, fuzzy
 msgid "a table containing the results from the Box-Tidwell test"
 msgstr "taulukko, joka sisältää Box-Tidwellin testin tulokset"
 
 #: ttestIS/results/ttest.description
 #: ttestOneS/results/ttest.description
 #: ttestPS/results/ttest.description
-#, fuzzy
 msgid "a table containing the t-test results"
 msgstr "taulukko t-testin tuloksista"
 
 #: ancova/results/main.description
-#, fuzzy
 msgid "a table of ANCOVA results"
 msgstr "ANCOVA-tulosten taulukko"
 
 #: anova/results/main.description
 #: linReg/results/models.template/anova.description
-#, fuzzy
 msgid "a table of ANOVA results"
 msgstr "ANOVA-tulosten taulukko"
 
 #: contTables/results/odds.description
-#, fuzzy
 msgid "a table of comparative measures"
-msgstr "vertailumittausten taulukko"
+msgstr "vertailumittojen taulukko"
 
 #: anovaOneW/results/assump/eqv.description
-#, fuzzy
 msgid "a table of homogeneity of variances tests"
-msgstr "homogeenisten varianssien testitaulukko"
+msgstr "varianssien yhtäsuuruustestien taulukko"
 
 #: ancova/results/assump/homo.description
 #: anova/results/assump/homo.description
-#, fuzzy
 msgid "a table of homogeneity tests"
-msgstr "taulukko yhdenmukaisuustesteistä"
+msgstr "homogeenisuustestien taulukko"
 
 #: logLinear/results/models.template/lrt.description
 #: logRegBin/results/models.template/lrt.description
 #: logRegMulti/results/models.template/lrt.description
 #: logRegOrd/results/models.template/lrt.description
-#, fuzzy
 msgid "a table of likelihood ratio tests"
-msgstr "taulukko todennäköisyys suhde testistä"
+msgstr "uskottavuussuhdetestien taulukko"
 
 #: logRegOrd/results/models.template/thres.description
-#, fuzzy
 msgid "a table of model coefficient thresholds"
-msgstr "mallin kertoimien kynnysarvotaulukko"
+msgstr "mallin kynnysarvojen taulukko"
 
 #: linReg/results/models.template/coef.description
 #: logLinear/results/models.template/coef.description
 #: logRegBin/results/models.template/coef.description
 #: logRegMulti/results/models.template/coef.description
 #: logRegOrd/results/models.template/coef.description
-#, fuzzy
 msgid "a table of model coefficients"
 msgstr "mallin kertoimien taulukko"
 
 #: ancova/results/assump/norm.description
 #: anova/results/assump/norm.description
 #: linReg/results/models.template/assump/norm.description
-#, fuzzy
 msgid "a table of normality tests"
-msgstr "Taulukko normaaliuskuustesteistä"
+msgstr "normaalisuustestien taulukko"
 
 #: contTables/results/postHoc.description
-#, fuzzy
 msgid "a table of post-hoc residuals"
-msgstr "taulukko jälkikäteen laskettujen jäännösten keskinäisistä eroista"
+msgstr "jälkikäteen laskettujen jäännösten taulukko"
 
 #: logRegBin/results/models.template/pred/class.description
-#, fuzzy
 msgid "a table of predicted classifications"
-msgstr "taulukko ennustetuista luokitteluista"
+msgstr "ennustettujen luokitteluiden taulukko"
 
 #: logRegBin/results/models.template/pred/measures.description
-#, fuzzy
 msgid "a table of predictive measures"
-msgstr "ennustemittauksien taulukko"
+msgstr "ennustemittojen taulukko"
 
 #: contTables/results/freqs.description
-#, fuzzy
 msgid "a table of proportions"
-msgstr "suhteiden taulukko"
+msgstr "suhteellisten osuuksien taulukko"
 
 #: contTablesPaired/results/test.description
-#, fuzzy
 msgid "a table of test results"
 msgstr "testitulosten taulukko"
 
 #: contTables/results/nom.description
-#, fuzzy
 msgid "a table of the 'nominal' test results"
-msgstr "taulukko 'nominaleista' testituloksista"
+msgstr "taulukko luokitteluasteikollisista testituloksista"
 
 #: descriptives/results/descriptives.description
 #: descriptives/results/descriptivesT.description
-#, fuzzy
 msgid "a table of the descriptive statistics"
-msgstr "kuvailevien tilastojen taulukko"
+msgstr "kuvailevien tunnuslukujen taulukko"
 
 #: anovaRMNP/results/table.description
-#, fuzzy
 msgid "a table of the Friedman test results"
 msgstr "Friedmanin testin tulokset"
 
 #: contTables/results/gamma.description
-#, fuzzy
 msgid "a table of the gamma test results"
-msgstr "taulukko gamman testin tuloksista"
+msgstr "taulukko Goodmanin ja Kruskalin gamman testituloksista"
 
 #: contTables/results/taub.description
-#, fuzzy
 msgid "a table of the Kendall's tau-b test results"
-msgstr "Kendallin tau-b testin tulokset"
+msgstr "Kendallin tau-b -testin tulokset"
 
 #: contTables/results/mh.description
-#, fuzzy
 msgid "a table of the Mantel-Haenszel test for trend"
-msgstr "taulukko Mantel-Haenszelin testistä trendeistä"
+msgstr "taulukko Mantelin-Haenszelin trenditestistä"
 
 #: anovaRMNP/results/comp.description
-#, fuzzy
 msgid "a table of the pairwise comparisons"
-msgstr "parittaiset vertailutaulukko"
+msgstr "parittaisten vertailujen taulukko"
 
 #: propTestN/results/props.description
-#, fuzzy
 msgid "a table of the proportions"
-msgstr "prosenttien taulukko"
+msgstr "suhteellisten osuuksien taulukko"
 
 #: propTest2/results/table.description
-#, fuzzy
 msgid "a table of the proportions and test results"
-msgstr "taulukko osuuksista ja testituloksista"
+msgstr "suhteellisten osuuksien ja testitulosten taulukko"
 
 #: anovaNP/results/table.description
 #: anovaOneW/results/anova.description
 #: propTestN/results/tests.description
-#, fuzzy
 msgid "a table of the test results"
-msgstr "taulukko testin tuloksista"
+msgstr "testitulosten taulukko"
 
 #: contTables/results/chiSq.description
-#, fuzzy
 msgid "a table of χ² test results"
-msgstr "χ² -testitulosten taulukko"
+msgstr "χ²-testin tulosten taulukko"
 
 #: logRegBin/options/acc.title
 #: logRegBin/results/models.template/pred/measures.columns.title
-#, fuzzy
 msgid "Accuracy"
-msgstr "Täsmää"
+msgstr "Tarkkuus"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegBin/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegMulti/ui[1]/modelSupplier[0]/blocks.addButton
 #: logRegOrd/ui[1]/modelSupplier[0]/blocks.addButton
-#, fuzzy
 msgid "Add New Block"
 msgstr "Lisää uusi lohko"
 
 #: cfa/ui[0][0]/factors.addButton
-#, fuzzy
 msgid "Add New Factor"
-msgstr "Lisää uusi tekijä"
+msgstr "Lisää uusi faktori"
 
 #: ancova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: anova/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
@@ -636,21 +541,18 @@ msgstr "Lisää uusi tekijä"
 #: logLinear/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegBin/ui[6][0]/emMeansSupplier[0]/emMeans.addButton
 #: logRegMulti/ui[5][0]/emMeansSupplier[0]/emMeans.addButton
-#, fuzzy
 msgid "Add New Term"
 msgstr "Lisää uusi termi"
 
 #: corrMatrix/ui[1][1].label
 #: corrPart/ui[1][3].label
 #: reliability/ui[1][0][1].label
-#, fuzzy
 msgid "Additional Options"
 msgstr "Lisäasetukset"
 
 #: cfa/ui[5].label
 #: efa/ui[1][1][2].label
 #: pca/ui[1][1][2].label
-#, fuzzy
 msgid "Additional Output"
 msgstr "Lisätulokset"
 
@@ -659,15 +561,13 @@ msgstr "Lisätulokset"
 #: ttestIS/ui[1][1][0].label
 #: ttestOneS/ui[1][1][0].label
 #: ttestPS/ui[1][1][0].label
-#, fuzzy
 msgid "Additional Statistics"
-msgstr "Lisätilastot"
+msgstr "Lisätunnusluvut"
 
 #: linReg/options/r2Adj.title
 #: linReg/results/modelFit.columns.title
-#, fuzzy
 msgid "Adjusted R²"
-msgstr "Säädetty R²"
+msgstr "Muokattu R²"
 
 #: cfa/options/fitMeasures/aic.title
 #: cfa/results/modelFit/fitMeasures.columns.title
@@ -681,14 +581,12 @@ msgstr "Säädetty R²"
 #: logRegMulti/results/modelFit.columns.title
 #: logRegOrd/options/aic.title
 #: logRegOrd/results/modelFit.columns.title
-#, fuzzy
 msgid "AIC"
 msgstr "AIC"
 
 #: R/ttestis.b.R
 #: R/ttestones.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "All observations are tied"
 msgstr "Kaikki havainnot ovat sidottuja"
 
@@ -696,68 +594,57 @@ msgstr "Kaikki havainnot ovat sidottuja"
 #: ttestIS/options/hypothesis.title
 #: ttestOneS/options/hypothesis.title
 #: ttestPS/options/hypothesis.title
-#, fuzzy
 msgid "Alternative hypothesis"
 msgstr "Vaihtoehtoinen hypoteesi"
 
 #: ancova/results/contrasts.description
 #: anova/results/contrasts.description
-#, fuzzy
 msgid "an array of contrasts tables"
 msgstr "kontrastitaulukoiden taulukko"
 
 #: descriptives/results/plots.description
-#, fuzzy
 msgid "an array of descriptive plots"
-msgstr "kuvailevien kaavioiden taulukko"
+msgstr "kuvailevien kuvioiden taulukko"
 
 #: descriptives/results/extremeValues.description
-#, fuzzy
 msgid "an array of extreme values tables"
-msgstr "äritysarvojen taulukoiden taulukko"
+msgstr "ääriarvotaulukkojen taulukko"
 
 #: descriptives/results/frequencies.description
-#, fuzzy
 msgid "an array of frequency tables"
-msgstr "taulukko, joka sisältää taajuuksia"
+msgstr "frekvenssitaulukkojen taulukko"
 
 #: anovaOneW/results/plots.description
 #: ttestIS/results/plots.description
-#, fuzzy
 msgid "an array of groups of plots"
-msgstr "taulukko ryhmiteltyjä kaavioita"
+msgstr "kuvioryhmien taulukko"
 
 #: linReg/results/models.description
 #: logLinear/results/models.description
 #: logRegBin/results/models.description
 #: logRegMulti/results/models.description
 #: logRegOrd/results/models.description
-#, fuzzy
 msgid "an array of model specific results"
 msgstr "taulukko mallikohtaisista tuloksista"
 
 #: anovaNP/results/comparisons.description
 #: anovaNP/results/comparisonsDunn.description
-#, fuzzy
 msgid "an array of pairwise comparison tables"
-msgstr "parillisten vertailujen taulukkojen taulukko"
+msgstr "parittaisten vertailujen taulukkojen taulukko"
 
 #: ancova/results/postHoc.description
 #: anova/results/postHoc.description
 #: anovaOneW/results/postHoc.description
-#, fuzzy
 msgid "an array of post-hoc tables"
-msgstr "joukko jälkikäteen tehtyjä taulukoita"
+msgstr "taulukko jälkikäteisten testien taulukoista"
 
 #: ttestOneS/results/qq.description
-#, fuzzy
 msgid "an array of Q-Q plots"
-msgstr "Q-Q -kaavioiden taulukko"
+msgstr "Q-Q-kuvioiden taulukko"
 
 #: ttestPS/results/plots.description
-#, fuzzy
 msgid "an array of the descriptive plots"
-msgstr "kuvailevien kuvien taulukko"
+msgstr "kuvailevien kuvioiden taulukko"
 
 #: ancova/results/emm.description
 #: anova/results/emm.description
@@ -766,19 +653,16 @@ msgstr "kuvailevien kuvien taulukko"
 #: logLinear/results/models.template/emm.description
 #: logRegBin/results/models.template/emm.description
 #: logRegMulti/results/models.template/emm.description
-#, fuzzy
 msgid "an array of the estimated marginal means plots + tables"
-msgstr "arvioitujen marginaalisten keskiarvojen kaavioita ja taulukoita"
+msgstr "taulukko estimoitujen reunaodotusarvojen kuvioista ja taulukoista"
 
 #: propTest2/results/postPlots.description
-#, fuzzy
 msgid "an array of the posterior plots"
-msgstr "joukko posterioriplothia"
+msgstr "posteriorikuvioiden taulukko"
 
 #: cfa/results/pathDiagram.description
-#, fuzzy
 msgid "an image containing the model path diagram"
-msgstr "kuva, joka sisältää mallin polku kaavion"
+msgstr "kuva, joka sisältää mallin polkukaavion"
 
 #: ttestOneS/results/plots.description
 #, fuzzy
