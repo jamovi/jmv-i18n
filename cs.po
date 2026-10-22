@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-10-14 03:51+0000\n"
+"PO-Revision-Date: 2026-10-30 22:51+0000\n"
 "Last-Translator: Michal Várady <majkl82@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -525,7 +525,9 @@ msgstr "Přesnost"
 #: jamovi/js/proptestn.events.js:68
 msgid "Active filters have excluded one level"
 msgid_plural "Active filters have excluded {n} levels"
-msgstr[0] ""
+msgstr[0] "Aktivní filtry vyloučily jednu úroveň"
+msgstr[1] "Aktivní filtry vyloučily {n} úrovně"
+msgstr[2] "Aktivní filtry vyloučily {n} úrovní"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -1448,7 +1450,7 @@ msgstr "Počty nesmí být záporné"
 #: R/conttables.b.R
 #: R/proptestn.b.R
 msgid "Counts may not contain missing values"
-msgstr ""
+msgstr "Počty nesmějí obsahovat chybějící hodnoty"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1509,7 +1511,7 @@ msgstr "Kumulativní %"
 
 #: descriptives/options/freqCumPc.title
 msgid "Cumulative percentage"
-msgstr ""
+msgstr "Kumulativní procenta"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -2102,6 +2104,10 @@ msgid ""
 "removed due to missing values. To run the analysis, remove these unused "
 "levels from the factor."
 msgstr ""
+"Faktor '{factorName}' obsahuje úrovně bez pozorování: {levels}. To může "
+"nastat, pokud jsou všechna pozorování určité úrovně vyloučena filtry nebo "
+"odstraněna kvůli chybějícím hodnotám. Pro spuštění analýzy odstraňte z "
+"faktoru tyto nepoužité úrovně."
 
 #: R/ancova.b.R
 msgid ""
@@ -2125,6 +2131,9 @@ msgid ""
 "happen when all observations of a level are excluded by filters or removed "
 "due to missing values."
 msgstr ""
+"Faktor '{varName}' má méně než dvě úrovně s pozorováními. To může nastat, "
+"pokud jsou všechna pozorování určité úrovně vyloučena filtry nebo odstraněna "
+"kvůli chybějícím hodnotám."
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2291,7 +2300,7 @@ msgstr "Tabulky četností"
 
 #: descriptives/ui[3].label
 msgid "Frequency Tables"
-msgstr ""
+msgstr "Tabulky četností"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2392,7 +2401,7 @@ msgstr "Souhrn skupiny"
 
 #: descriptives/options/freqGroupTotals.title
 msgid "Group totals"
-msgstr ""
+msgstr "Součty za skupiny"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -2459,7 +2468,7 @@ msgstr "Skrýt zatížení menší než"
 
 #: R/descriptives.b.R
 msgid "Highest"
-msgstr ""
+msgstr "Nejvyšší"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -2853,7 +2862,7 @@ msgstr "dolní mez"
 
 #: R/descriptives.b.R
 msgid "Lowest"
-msgstr ""
+msgstr "Nejnižší"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
@@ -3854,7 +3863,7 @@ msgstr "Pearsonova{}korelace"
 
 #: descriptives/options/freqPc.title
 msgid "Percentage of total"
-msgstr ""
+msgstr "Procenta z celkového počtu"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -5543,6 +5552,9 @@ msgid ""
 "observations. This can happen when all observations of a level are excluded "
 "by filters or removed due to missing values."
 msgstr ""
+"Závislá proměnná '{varName}' má méně než dvě úrovně s pozorováními. To může "
+"nastat, pokud jsou všechna pozorování určité úrovně vyloučena filtry nebo "
+"odstraněna kvůli chybějícím hodnotám."
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
@@ -6081,7 +6093,7 @@ msgstr "Celkem"
 
 #: descriptives/options/freqTotal.title
 msgid "Total row"
-msgstr ""
+msgstr "Řádek Celkem"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
