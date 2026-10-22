@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-10-14 03:51+0000\n"
+"PO-Revision-Date: 2026-10-30 22:51+0000\n"
 "Last-Translator: Watchman89 <watchman89@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Dutch "
-"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -531,7 +531,8 @@ msgstr "Nauwkeurigheid"
 #: jamovi/js/proptestn.events.js:68
 msgid "Active filters have excluded one level"
 msgid_plural "Active filters have excluded {n} levels"
-msgstr[0] ""
+msgstr[0] "Actieve filters hebben één niveau uitgesloten"
+msgstr[1] "Actieve filters hebben {n} niveaus uitgesloten"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -1458,7 +1459,7 @@ msgstr "Aantallen mogen niet negatief zijn"
 #: R/conttables.b.R
 #: R/proptestn.b.R
 msgid "Counts may not contain missing values"
-msgstr ""
+msgstr "Aantallen mogen geen ontbrekende waarden bevatten"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1519,7 +1520,7 @@ msgstr "Cumulatief %"
 
 #: descriptives/options/freqCumPc.title
 msgid "Cumulative percentage"
-msgstr ""
+msgstr "Cumulatief percentage"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -2113,6 +2114,10 @@ msgid ""
 "removed due to missing values. To run the analysis, remove these unused "
 "levels from the factor."
 msgstr ""
+"Factor '{factorName}' bevat niveaus zonder observaties: {levels}. Dit kan "
+"gebeuren als alle observaties in een niveaus worden uitgesloten door een "
+"filter of zijn verwijderd vanwege ontbrekende waarden. Om de analyse uit te "
+"voeren, verwijder deze ongebruikte niveaus uit de factor."
 
 #: R/ancova.b.R
 msgid ""
@@ -2136,6 +2141,9 @@ msgid ""
 "happen when all observations of a level are excluded by filters or removed "
 "due to missing values."
 msgstr ""
+"Factor '{varName}' heeft minder dan twee niveaus met observaties. Dit kan "
+"gebeuren als alle observaties in een niveau worden uitgesloten door filters "
+"of zijn verwijderd vanwege ontbrekende waarden."
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2302,7 +2310,7 @@ msgstr "Frequentietabellen"
 
 #: descriptives/ui[3].label
 msgid "Frequency Tables"
-msgstr ""
+msgstr "Frequentietabellen"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2403,7 +2411,7 @@ msgstr "Groepsamenvatting"
 
 #: descriptives/options/freqGroupTotals.title
 msgid "Group totals"
-msgstr ""
+msgstr "Gegroepeerde totalen"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -2470,7 +2478,7 @@ msgstr "Ladingen verbergen die lager zijn dan"
 
 #: R/descriptives.b.R
 msgid "Highest"
-msgstr ""
+msgstr "Hoogste"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
@@ -2865,7 +2873,7 @@ msgstr "ondergrens"
 
 #: R/descriptives.b.R
 msgid "Lowest"
-msgstr ""
+msgstr "Laagste"
 
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
@@ -3873,7 +3881,7 @@ msgstr "Pearson{}correlatie"
 
 #: descriptives/options/freqPc.title
 msgid "Percentage of total"
-msgstr ""
+msgstr "Percentage van totaal"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -5574,6 +5582,9 @@ msgid ""
 "observations. This can happen when all observations of a level are excluded "
 "by filters or removed due to missing values."
 msgstr ""
+"De afhankelijke variabele '{varName}' heeft minder dan twee niveaus mt "
+"observaties. Dit kan gebeuren als alle observaties in een niveau worden "
+"uitgesloten door filters of zijn verwijderd vanwege ontbrekende waarden."
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
@@ -6155,7 +6166,7 @@ msgstr "Totaal"
 
 #: descriptives/options/freqTotal.title
 msgid "Total row"
-msgstr ""
+msgstr "Totalenrij"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
