@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-10-20 23:21+0000\n"
 "Last-Translator: Arto Luoma <arto@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"fi/>\n"
+"Language-Team: Finnish "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -30,10 +29,12 @@ msgid "'{col}' contains only one unique value"
 msgstr "'{col}' sisältää vain yhden yksikäsitteisen arvon"
 
 #: R/pca.b.R
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
 msgstr ""
-"'{method}' -faktorointimenetelmää käytettiin yhdessä '{rotation}' -"
-"kiertomenetelmän kanssa"
+"'{method}' -faktorointimenetelmää käytettiin yhdessä '{rotation}' "
+"-kiertomenetelmän kanssa"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -277,8 +278,7 @@ msgstr ""
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
-"Pieni p-arvo viittaa siihen, ettei oletus normaalisuudesta pidä paikkaansa"
+msgstr "Pieni p-arvo viittaa siihen, ettei oletus normaalisuudesta pidä paikkaansa"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
 msgid "A nice correlation data set"
@@ -333,13 +333,17 @@ msgid "a table containing fit measures"
 msgstr "taulukko, joka sisältää yhteensopivuusmitat"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
-msgid "a table containing modification indices for the factor loadings not included in the model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
 msgstr ""
 "taulukko, joka sisältää muutosindeksit faktorilatauksille, jotka eivät "
 "sisälly malliin"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
-msgid "a table containing modification indices for the residual covariances not included in the model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
 msgstr ""
 "taulukko, joka sisältää muutosindeksit jäännöskovariansselle, jotka eivät "
 "sisälly malliin"
@@ -521,6 +525,11 @@ msgstr "χ²-testin tulosten taulukko"
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
 msgstr "Tarkkuus"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -720,7 +729,9 @@ msgid "ANOVA test"
 msgstr "ANOVA-testi"
 
 #: R/anovarm.b.R
-msgid "As there are no between subjects factors specified this assumption is always met."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
 msgstr ""
 "Koska yksilöiden välisiä tekijöitä ei ole määritelty, tämä oletus on aina "
 "voimassa."
@@ -790,7 +801,7 @@ msgstr "Pylväskuvio"
 msgid "Bar plot"
 msgstr "Pylväskuvio"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 msgid "Bar Plots"
 msgstr "Pylväskuviot"
 
@@ -943,7 +954,7 @@ msgstr "Bonferroni"
 msgid "Box plot"
 msgstr "Laatikkokaavio"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 msgid "Box Plots"
 msgstr "Laatikkokuviot"
 
@@ -1040,6 +1051,7 @@ msgstr "Sarakemuuttujalla ' {var} ' on vähemmän kuin 2 tasoa"
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 msgid "Columns"
 msgstr "Sarakkeet"
 
@@ -1370,13 +1382,17 @@ msgstr "Korrelaatiolämpö"
 
 #: package/analyses/corrMatrix.description
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
-msgstr "Korrelaatiomatriisit ovat tapa tarkastella lineaarisia suhteita kahden tai useamman jatkuvan muuttujan välillä."
+msgstr ""
+"Korrelaatiomatriisit ovat tapa tarkastella lineaarisia suhteita kahden tai "
+"useamman jatkuvan muuttujan välillä."
 
 #: corrMatrix/options.description.main
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1393,13 +1409,23 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Korrelaatiomatriisit ovat tapa tutkia lineaarisia suhteita kahden tai useamman jatkuvan muuttujan välillä.\n"
+msgstr ""
+"Korrelaatiomatriisit ovat tapa tutkia lineaarisia suhteita kahden tai "
+"useamman jatkuvan muuttujan välillä.\n"
 "\n"
-"Jokaiselle muuttujaparille Pearsonin r-arvo kertoo suhteen voimakkuuden ja suunnan. Positiivinen arvo kertoo positiivisesta suhteesta (yksi muuttuja ennustaa toisen muuttujan arvoa). Negatiivinen Pearsonin r-arvo kertoo negatiivisesta suhteesta (yksi muuttuja ennustaa toisen muuttujan arvon pienenemistä).\n"
+"Jokaiselle muuttujaparille Pearsonin r-arvo kertoo suhteen voimakkuuden ja "
+"suunnan. Positiivinen arvo kertoo positiivisesta suhteesta (yksi muuttuja "
+"ennustaa toisen muuttujan arvoa). Negatiivinen Pearsonin r-arvo kertoo "
+"negatiivisesta suhteesta (yksi muuttuja ennustaa toisen muuttujan arvon "
+"pienenemistä).\n"
 "\n"
-"Arvo nolla kertoo siitä, ettei suhdetta ole (yksi muuttuja ei kerro mitään toisen muuttujan arvosta).\n"
+"Arvo nolla kertoo siitä, ettei suhdetta ole (yksi muuttuja ei kerro mitään "
+"toisen muuttujan arvosta).\n"
 "\n"
-"Muodollisemmin on mahdollista testata nollahypoteesi, jonka mukaan korrelaatio on nolla, ja laskea p-arvo. Jos p-arvo on pieni, se viittaa siihen, että korrelaatiokerroin ei ole nolla, ja on lineaarinen (tai monimutkaisempi) suhde kahden muuttujan välillä."
+"Muodollisemmin on mahdollista testata nollahypoteesi, jonka mukaan "
+"korrelaatio on nolla, ja laskea p-arvo. Jos p-arvo on pieni, se viittaa "
+"siihen, että korrelaatiokerroin ei ole nolla, ja on lineaarinen (tai "
+"monimutkaisempi) suhde kahden muuttujan välillä."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1454,15 +1480,22 @@ msgstr "Määrät (valinnainen)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be infinite"
 msgstr "Määrät eivät voi olla äärettömiä"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be negative"
 msgstr "Määrät eivät voi olla negatiivisia"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 #, fuzzy
@@ -1530,6 +1563,10 @@ msgstr "kuutio"
 #, fuzzy
 msgid "Cumulative %"
 msgstr "Kumulatiivinen %"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 #, fuzzy
@@ -1626,13 +1663,21 @@ msgstr "Riippuvainen muuttuja '{dep}' sisältää ääretön arvon"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "Riippuvainen muuttuja '{dep}' ei sisällä tietoja (poistettuin rivit, joissa on puutteellisia arvoja)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
+msgstr ""
+"Riippuvainen muuttuja '{dep}' ei sisällä tietoja (poistettuin rivit, joissa "
+"on puutteellisia arvoja)"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "Riippuvainen muuttuja '{dep}' sisältää vain yhden yksilöllisen arvon (poistettuina riveinä, joissa on puutteellisia arvoja)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
+msgstr ""
+"Riippuvainen muuttuja '{dep}' sisältää vain yhden yksilöllisen arvon "
+"(poistettuina riveinä, joissa on puutteellisia arvoja)"
 
 #: R/ancova.b.R
 #, fuzzy
@@ -1696,8 +1741,15 @@ msgstr "Kuvailevat tiedot"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 #, fuzzy
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "Kuvailijat ovat joukko tilastollisia ja visualisoivia menetelmiä, joilla voidaan tutkia aineiston muotoa ja jakautumaa. On hyvä käytäntö tutkia aineistoa kuvailijoiden avulla ennen siirtymistä muodollisempiin testeihin."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
+msgstr ""
+"Kuvailijat ovat joukko tilastollisia ja visualisoivia menetelmiä, joilla "
+"voidaan tutkia aineiston muotoa ja jakautumaa. On hyvä käytäntö tutkia "
+"aineistoa kuvailijoiden avulla ennen siirtymistä muodollisempiin testeihin."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -1952,8 +2004,12 @@ msgstr "Ominaisarvot suuremmat kuin"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "Tyhjiä soluja välikohteen suunnittelussa: vähintään yhden välikohteen tasojen yhdistelmällä on 0 havaintoa"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
+msgstr ""
+"Tyhjiä soluja välikohteen suunnittelussa: vähintään yhden välikohteen "
+"tasojen yhdistelmällä on 0 havaintoa"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2056,7 +2112,9 @@ msgstr "Arviot edustavat log-oddsia …"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
 msgstr "Arviot edustavat log-oddsia \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
@@ -2168,28 +2226,48 @@ msgstr "Tekijä"
 
 #: R/loglinear.b.R
 #, fuzzy
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "Tekijä '{factor}' on vähemmän kuin kaksi tasoa. Tekijöillä on oltava vähintään kaksi tasoa"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
+msgstr ""
+"Tekijä '{factor}' on vähemmän kuin kaksi tasoa. Tekijöillä on oltava "
+"vähintään kaksi tasoa"
 
 #: R/linreg.b.R
 #, fuzzy
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Tekijä '{factor}' tarvitsee vähintään 2 tasoa"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "Tekijä '{factorName}' ei sisällä tietoja (poistettuin rivejä, joissa on puutteellisia arvoja)"
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
+msgstr ""
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
+msgstr ""
+"Tekijä '{factorName}' ei sisällä tietoja (poistettuin rivejä, joissa on "
+"puutteellisia arvoja)"
+
+#: R/ancova.b.R
+#, fuzzy
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr "Tekijä '{factorName}' sisältää vain yhden tason (poistettu puuttuvat rivit)"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "Tekijä '{factorName}' sisältää käyttämättömiä tasoja (poistettuina rivit puutteellisilla arvoilla)"
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 #, fuzzy
@@ -2385,6 +2463,10 @@ msgstr "Avaimen $key tiheydet"
 msgid "Frequency tables"
 msgstr "Taajuuksuustaulukot"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2501,6 +2583,10 @@ msgstr "Ryhmän yhteenveto"
 msgid "Group summary"
 msgstr "Ryhmän yhteenveto"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2510,7 +2596,9 @@ msgstr "Ryhmittelymuuttuja"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
 msgstr "Ryhmämuuttuja '{a}' on vähemmän kuin 2 tasoa puuttuvien arvojen jälkeen"
 
 #: R/ttestis.b.R
@@ -2571,6 +2659,10 @@ msgstr "piilotettu"
 msgid "Hide loadings below"
 msgstr "Piilota lataukset alle"
 
+#: R/descriptives.b.R
+msgid "Highest"
+msgstr ""
+
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
@@ -2585,7 +2677,7 @@ msgstr "Korosta arvot yläpuolella"
 msgid "Histogram"
 msgstr "Jakauma"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 #, fuzzy
 msgid "Histograms"
 msgstr "Jakaumakaaviot"
@@ -2739,8 +2831,20 @@ msgstr "IQR"
 
 #: R/utilsanova.R
 #, fuzzy
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Mallissasi on \"singulaarisuus\" -ongelma. Tämä tarkoittaa yleensä, että malli kärsii vaikeuksista erottaa tiettyjä vaikutuksia toisistaan, koska jotkut muuttujat ovat liian läheisiä tai malli ei pysty arvioimaan kaikkia vaikutuksia luotettavasti. Ratkaisuksi voit yksinkertaistaa mallia poistamalla joitain vaikutuksia tai tarkistaa, onko datassasi turhia tai voimakkaasti korreloivia muuttujia."
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
+msgstr ""
+"Mallissasi on \"singulaarisuus\" -ongelma. Tämä tarkoittaa yleensä, että "
+"malli kärsii vaikeuksista erottaa tiettyjä vaikutuksia toisistaan, koska "
+"jotkut muuttujat ovat liian läheisiä tai malli ei pysty arvioimaan kaikkia "
+"vaikutuksia luotettavasti. Ratkaisuksi voit yksinkertaistaa mallia "
+"poistamalla joitain vaikutuksia tai tarkistaa, onko datassasi turhia tai "
+"voimakkaasti korreloivia muuttujia."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -2771,8 +2875,12 @@ msgstr "Kohde '{item}' on oltava numeerinen"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr "Kohde {item} korreloi negatiivisesti kokonais mittarin kanssa ja sen tulisi todennäköisesti olla käänteinen"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"Kohde {item} korreloi negatiivisesti kokonais mittarin kanssa ja sen tulisi "
+"todennäköisesti olla käänteinen"
 
 #: reliability/results/items.title
 #, fuzzy
@@ -2797,8 +2905,12 @@ msgstr "Kohdat"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr "kohteet {items} korreloivat negatiivisesti kokonaisasteikolla ja ne tulisi luultavasti kääntää"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"kohteet {items} korreloivat negatiivisesti kokonaisasteikolla ja ne tulisi "
+"luultavasti kääntää"
 
 #: descriptives/options/dotType/jitter.title
 #, fuzzy
@@ -2881,8 +2993,12 @@ msgstr "Taso 2"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levenen testi on merkitsevä (p < .05), mikä osoittaa yhdenmukaisuuden oletuksen rikkomista"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
+msgstr ""
+"Levenen testi on merkitsevä (p < .05), mikä osoittaa yhdenmukaisuuden "
+"oletuksen rikkomista"
 
 #: R/proptest2.b.R
 #, fuzzy
@@ -2920,8 +3036,16 @@ msgstr "Lineaari regressio"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 #, fuzzy
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "Lineaariset regressioanalyysit käytetään jatkuvan riippuvan muuttujan ja yhden tai useamman jatkuvan ja/tai kategorisen selittävän muuttujan välisen suhteen tutkimiseen. Muut tilastomenetelmät, kuten ANOVA ja ANCOVA, ovat itse asiassa lineaarisen regressioanalyysin muotoja."
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
+msgstr ""
+"Lineaariset regressioanalyysit käytetään jatkuvan riippuvan muuttujan ja "
+"yhden tai useamman jatkuvan ja/tai kategorisen selittävän muuttujan välisen "
+"suhteen tutkimiseen. Muut tilastomenetelmät, kuten ANOVA ja ANCOVA, ovat "
+"itse asiassa lineaarisen regressioanalyysin muotoja."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -2990,6 +3114,10 @@ msgstr "Alempi"
 msgid "lower bound"
 msgstr "alempi raja"
 
+#: R/descriptives.b.R
+msgid "Lowest"
+msgstr ""
+
 #: R/linreg.b.R
 #, fuzzy
 msgid "Mahalanobis ChiSq"
@@ -3019,8 +3147,12 @@ msgstr "Mahalanobis-etäisyys (p)"
 
 #: R/linreg.b.R
 #, fuzzy
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "Mahalanobis-etäisyys voidaan laskea vain malleilla, joissa on kaksi tai useampi kovaariabbeli"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
+msgstr ""
+"Mahalanobis-etäisyys voidaan laskea vain malleilla, joissa on kaksi tai "
+"useampi kovaariabbeli"
 
 #: R/linreg.b.R
 #, fuzzy
@@ -3519,8 +3651,14 @@ msgstr "Moninomiaalinen logistinen regressio"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 #, fuzzy
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "Monimuuttujan (ko)varianssianalyysi (MANCOVA) käytetään useiden riippuvien muuttujien ja yhden tai useamman luokittavan ja/tai jatkuvan selittävän muuttujan välisen suhteen tutkimiseen."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
+msgstr ""
+"Monimuuttujan (ko)varianssianalyysi (MANCOVA) käytetään useiden riippuvien "
+"muuttujien ja yhden tai useamman luokittavan ja/tai jatkuvan selittävän "
+"muuttujan välisen suhteen tutkimiseen."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3568,8 +3706,12 @@ msgstr "Ei korjausta"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "Ei ole määritetty tekijöitä. Boxin M-testi on relevantti vain, kun malli sisältää tekijöitä."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
+msgstr ""
+"Ei ole määritetty tekijöitä. Boxin M-testi on relevantti vain, kun malli "
+"sisältää tekijöitä."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3640,7 +3782,9 @@ msgstr "Normaaliuskojen testi (Shapiro-Wilk)"
 #: R/logregbin.b.R
 #, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr "Kaikkia kertoimia ei voitu arvioida (todennäköisesti johtuen singulaarista sopimuksesta)"
+msgstr ""
+"Kaikkia kertoimia ei voitu arvioida (todennäköisesti johtuen singulaarista "
+"sopimuksesta)"
 
 #: R/descriptives.b.R
 #, fuzzy
@@ -3684,7 +3828,9 @@ msgstr "Tekijöiden lukumäärä"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
 msgstr "Pyrittyjen ääriarvojen lukumäära on suurempi kuin rivien lukumäära tiedoissa."
 
 #: efa/options/rotation/oblimin.title
@@ -3795,8 +3941,12 @@ msgstr "Yksi tai molemmat muuttujat eivät sisällä riittävästi havaintoja"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "Yksi tai useampi mallin '{modelNo}' kertoimista ei voitu arvioida täydellisen kollineariteetin vuoksi."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
+msgstr ""
+"Yksi tai useampi mallin '{modelNo}' kertoimista ei voitu arvioida "
+"täydellisen kollineariteetin vuoksi."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -4029,14 +4179,19 @@ msgstr "Osittainen korrelaatio"
 
 #: package/analyses/corrPart.description
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "Osittaiskorrelaatiomatriisit ovat tapa tarkastella lineaarisia suhteita kahden tai useamman jatkuvan muuttujan välillä, kun muut muuttujat pidetään vakiona"
+msgstr ""
+"Osittaiskorrelaatiomatriisit ovat tapa tarkastella lineaarisia suhteita "
+"kahden tai useamman jatkuvan muuttujan välillä, kun muut muuttujat pidetään "
+"vakiona"
 
 #: corrPart/options.description.main
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -4054,12 +4209,23 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Osittaiset korrelaatiomatriisit ovat tapa tarkastella lineaarisia suhteita kahden tai useamman jatkuvan muuttujan välillä, kontrolloida muita muuttujia.\n"
+msgstr ""
+"Osittaiset korrelaatiomatriisit ovat tapa tarkastella lineaarisia suhteita "
+"kahden tai useamman jatkuvan muuttujan välillä, kontrolloida muita "
+"muuttujia.\n"
 "\n"
-"Kunkin muuttujaparin kohdalla, Pearsonin r-arvo ilmaisee suhteen voimakkuuden ja suunnan kyseisten kahden muuttujan välillä. Positiivinen arvo ilmaisee positiivisen suhteen (yksi muuttuja ennustaa toisen muuttujan korkeampia arvoja). Negatiivinen Pearsonin r-arvo ilmaisee negatiivisen suhteen (yksi muuttuja ennustaa toisen muuttujan matalampia arvoja, ja vastaavasti).\n"
-"Arvo nolla ilmaisee, että muuttujien välillä ei ole suhdetta (muuttujan arvon perusteella ei voida tehdä johtopäätöksä toisen muuttujan arvosta).\n"
+"Kunkin muuttujaparin kohdalla, Pearsonin r-arvo ilmaisee suhteen "
+"voimakkuuden ja suunnan kyseisten kahden muuttujan välillä. Positiivinen "
+"arvo ilmaisee positiivisen suhteen (yksi muuttuja ennustaa toisen muuttujan "
+"korkeampia arvoja). Negatiivinen Pearsonin r-arvo ilmaisee negatiivisen "
+"suhteen (yksi muuttuja ennustaa toisen muuttujan matalampia arvoja, ja "
+"vastaavasti).\n"
+"Arvo nolla ilmaisee, että muuttujien välillä ei ole suhdetta (muuttujan "
+"arvon perusteella ei voida tehdä johtopäätöksä toisen muuttujan arvosta).\n"
 "\n"
-"Muodollisemmin, voidaan testata nollayhteys ja laskea p-arvo. Jos p-arvo on alhainen, se viittaa siihen, että korrelaatiokerroin ei ole nolla, ja kahden muuttujan välillä on lineaarinen (tai monimutkaisempi) suhde."
+"Muodollisemmin, voidaan testata nollayhteys ja laskea p-arvo. Jos p-arvo on "
+"alhainen, se viittaa siihen, että korrelaatiokerroin ei ole nolla, ja kahden "
+"muuttujan välillä on lineaarinen (tai monimutkaisempi) suhde."
 
 #: anovaRM/options/effectSize/partEta.title
 #, fuzzy
@@ -4117,6 +4283,10 @@ msgstr "Pearsonin r"
 msgid "Pearson{}Correlation"
 msgstr "Pearson{}-korrelaatio"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -4161,8 +4331,12 @@ msgstr "suorittaa Mann-Whitneyn U-testin."
 
 #: ttestOneS/options/norm.description.ui
 #, fuzzy
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "suorita Shapiro-Wilkin normaaliuden testi. Matala p-arvo viittaa siihen, että tiedot eivät ole peräisin normaalijakautumasta."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"suorita Shapiro-Wilkin normaaliuden testi. Matala p-arvo viittaa siihen, "
+"että tiedot eivät ole peräisin normaalijakautumasta."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -4178,14 +4352,22 @@ msgstr "suorittaa Fisherin (tai niin sanotut 'normaalit') ANOVA:t."
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "suorita Shapiro-Wilkin normaaliuden testit. Matala p-arvo viittaa siihen, että data ei ole normaalijakautunutta."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"suorita Shapiro-Wilkin normaaliuden testit. Matala p-arvo viittaa siihen, "
+"että data ei ole normaalijakautunutta."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "suorita Shapiro-Wilkin normaalisuustestit. Pieni p-arvo osoittaa, etteivät residut ole normaalisti jakaantuneita."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
+msgstr ""
+"suorita Shapiro-Wilkin normaalisuustestit. Pieni p-arvo osoittaa, etteivät "
+"residut ole normaalisti jakaantuneita."
 
 #: ttestIS/options/students.description.ui
 #, fuzzy
@@ -4264,7 +4446,7 @@ msgstr "Kaaviotyyppi"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4507,7 +4689,9 @@ msgstr "tarjoa Cohenin d -mitta efekti koko post-hoc -testeissä"
 
 #: ttestOneS/options/ci.description.ui
 #, fuzzy
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
 msgstr "tarjoaa luottamusvälin keskiarvon ja testiarvon väliselle erolle"
 
 #: corrMatrix/options/plots.description.ui
@@ -4535,8 +4719,16 @@ msgstr "tarjoavat Pearsonin r-arvon kullekin muuttujaparille."
 
 #: ttestOneS/options/qq.description.ui
 #, fuzzy
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "tarjoaa Q-Q -kaavion jäännöksistä - kaavion, jossa on todelliset jäännökset verrattuna siihen, mitä olisi odotettavissa, jos tiedot olisivat <i>täydellisesti</i> normaalisti jakautuneita. Suuret poikkeamat vinoriviltä viittaavat siihen, että tiedot eivät ole peräisin normaalijakaumasta."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"tarjoaa Q-Q -kaavion jäännöksistä - kaavion, jossa on todelliset jäännökset "
+"verrattuna siihen, mitä olisi odotettavissa, jos tiedot olisivat "
+"<i>täydellisesti</i> normaalisti jakautuneita. Suuret poikkeamat vinoriviltä "
+"viittaavat siihen, että tiedot eivät ole peräisin normaalijakaumasta."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4637,14 +4829,22 @@ msgstr "tarjoavat vaikutuskoollisuuksia (Cohenin d)."
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 #, fuzzy
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "tarjoavat Levenen testin varianssien homogeenisuudelle. Pieni p-arvo viittaa siihen, että ryhmien varianssit eivät ole yhtäsuuret."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
+msgstr ""
+"tarjoavat Levenen testin varianssien homogeenisuudelle. Pieni p-arvo viittaa "
+"siihen, että ryhmien varianssit eivät ole yhtäsuuret."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 #, fuzzy
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "tarjoavat Levenen testit varianssien homogeenisuudelle. Pieni p-arvo viittaa siihen, että ryhmien varianssit eivät ole yhtä suuret."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
+msgstr ""
+"tarjoavat Levenen testit varianssien homogeenisuudelle. Pieni p-arvo viittaa "
+"siihen, että ryhmien varianssit eivät ole yhtä suuret."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4659,8 +4859,12 @@ msgstr "tarjoaa keskiarvoeron post-hoc testeillä."
 
 #: ttestOneS/options/meanDiff.description.ui
 #, fuzzy
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "tarjoa keskiarvoerot ja keskiarvoerojen standardipoikkeamat, keskiarvon arviosta ja testiarvosta."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
+msgstr ""
+"tarjoa keskiarvoerot ja keskiarvoerojen standardipoikkeamat, keskiarvon "
+"arviosta ja testiarvosta."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4693,15 +4897,31 @@ msgstr "tarjoavat jälkikäsittelytestit."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "tarjoavat Q-Q-kaaviot jäännöksistä - kaavion, jossa on todelliset jäännökset verrattuna siihen, mitä olisi odotettavissa, jos data olisi täydellisesti normaalisti jakautunut. Suuret poikkeamat vinoriviin viittaavat siihen, että data ei ole peräisin normaalijakautumasta."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"tarjoavat Q-Q-kaaviot jäännöksistä - kaavion, jossa on todelliset jäännökset "
+"verrattuna siihen, mitä olisi odotettavissa, jos data olisi täydellisesti "
+"normaalisti jakautunut. Suuret poikkeamat vinoriviin viittaavat siihen, että "
+"data ei ole peräisin normaalijakautumasta."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "tarjoaa Q-Q -kaaviot jäännöksistä - todellisten jäännösten kaavio siitä, mitä odotettaisiin, jos tiedot olisivat täydellisesti normaalisti jakautuneita. Suuret poikkeamat vinorivista viittaavat siihen, että jäännökset eivät ole normaalisti jakautuneita."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
+msgstr ""
+"tarjoaa Q-Q -kaaviot jäännöksistä - todellisten jäännösten kaavio siitä, "
+"mitä odotettaisiin, jos tiedot olisivat täydellisesti normaalisti "
+"jakautuneita. Suuret poikkeamat vinorivista viittaavat siihen, että "
+"jäännökset eivät ole normaalisti jakautuneita."
 
 #: anovaOneW/options/phSig.description.ui
 #, fuzzy
@@ -4736,7 +4956,7 @@ msgstr "tarjoavat tapausten lukumäärän."
 msgid "Pseudo R²"
 msgstr "Pseudo R²"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 #, fuzzy
 msgid "Q-Q"
 msgstr "Q-Q"
@@ -4780,7 +5000,7 @@ msgstr "Moniulotteisen normaalisuuden Q-Q -kaaviokuva"
 msgid "Q-Q plot of residuals"
 msgstr "Q-Q-kaavio jäännöksistä"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 #, fuzzy
 msgid "Q-Q Plots"
 msgstr "Q-Q -kaaviot"
@@ -5043,8 +5263,12 @@ msgstr "Jäännöskuvat"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "Jäännössumma ja/tai vapausasteet ovat nolla, mikä osoittaa täydellisen sovituksen"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
+msgstr ""
+"Jäännössumma ja/tai vapausasteet ovat nolla, mikä osoittaa täydellisen "
+"sovituksen"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -5169,6 +5393,7 @@ msgstr "Rivimuuttuja '{var}' sisältää vähemmän kuin 2 tasoa"
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 #, fuzzy
 msgid "Rows"
 msgstr "Rivit"
@@ -5403,8 +5628,12 @@ msgstr "Simulaatiot"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "Havaittu yksittäinen sopimus; yksi tai useampi ennustemalli on muiden ennustemallien lineaarinen yhdiste."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
+msgstr ""
+"Havaittu yksittäinen sopimus; yksi tai useampi ennustemalli on muiden "
+"ennustemallien lineaarinen yhdiste."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -5776,14 +6005,16 @@ msgstr " 'jakoa' -muuttuja '{var}' ei sisällä tietoja."
 
 #: ttestOneS/options/hypothesis.description.ui
 #, fuzzy
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "vaihtoehtoiset ja nollihypoteesit;\n"
+msgstr ""
+"vaihtoehtoiset ja nollihypoteesit;\n"
 "\n"
 "|              | Vaihtoehtoinen (Hₐ)  | Nollihypoteesi (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5807,23 +6038,33 @@ msgstr "vastaväittämä. Sallii yksipuoliset testit."
 #: package/analyses/ancova.description
 #: ancova/options.description.main
 #, fuzzy
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "Kovarianssianalyysi (ANCOVA) käytetään jatkuvan riippuvaisen muuttujan, yhden tai useamman kategorisen selittävän muuttujan ja yhden tai useamman jatkuvan selittävän muuttujan (tai kovariaattien) välisen suhteen tutkimiseen. Se on käytännössä sama analyysi kuin ANOVA, mutta kovariaattien kanssa."
+msgstr ""
+"Kovarianssianalyysi (ANCOVA) käytetään jatkuvan riippuvaisen muuttujan, "
+"yhden tai useamman kategorisen selittävän muuttujan ja yhden tai useamman "
+"jatkuvan selittävän muuttujan (tai kovariaattien) välisen suhteen "
+"tutkimiseen. Se on käytännössä sama analyysi kuin ANOVA, mutta kovariaattien "
+"kanssa."
 
 #: package/analyses/anova.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "Varianssianalyysi (ANOVA) käytetään jatkuvan riippuvan muuttujan ja yhden tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen."
+msgstr ""
+"Varianssianalyysi (ANOVA) käytetään jatkuvan riippuvan muuttujan ja yhden "
+"tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen."
 
 #: anova/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -5834,23 +6075,39 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "Varianssin analyysi (ANOVA) käytetään tutkimaan jatkuvan riippuvan muuttujan ja yhden tai useamman kategorisen selittävän muuttujan välistä suhdetta.\n"
+msgstr ""
+"Varianssin analyysi (ANOVA) käytetään tutkimaan jatkuvan riippuvan muuttujan "
+"ja yhden tai useamman kategorisen selittävän muuttujan välistä suhdetta.\n"
 "\n"
-"ANOVA olettaa, että jäännökset ovat normaalisti jakautuneita, ja että kaikkien ryhmien varianssit ovat yhtä suuret. Jos joku ei halua olettaa, että varianssit ovat yhtä suuret, voidaan käyttää Welch-testiä sen sijaan (Kuitenkin Welch-testi ei tue useampaa kuin yhtä selittävää tekijää). Vaihtoehtoisesti, jos joku ei halua olettaa, että tiedot ovat normaalisti jakautuneita, voidaan käyttää non-parametrista lähestymistapaa (kuten Kruskal-Wallis)."
+"ANOVA olettaa, että jäännökset ovat normaalisti jakautuneita, ja että "
+"kaikkien ryhmien varianssit ovat yhtä suuret. Jos joku ei halua olettaa, "
+"että varianssit ovat yhtä suuret, voidaan käyttää Welch-testiä sen sijaan "
+"(Kuitenkin Welch-testi ei tue useampaa kuin yhtä selittävää tekijää). "
+"Vaihtoehtoisesti, jos joku ei halua olettaa, että tiedot ovat normaalisti "
+"jakautuneita, voidaan käyttää non-parametrista lähestymistapaa (kuten "
+"Kruskal-Wallis)."
 
 #: package/analyses/anovaOneW.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "Varianssianalyysi (ANOVA) käytetään jatkuvan riippuvan muuttujan ja yhden tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen. Tämä 'Yksisuuntainen ANOVA' on yksinkertaistettu versio 'normaalista' ANOVA:sta, joka sallii vain yhden selittävän tekijän, mutta tarjoaa myös Welch'in ANOVA:n. Welch'in ANOVA:ssa on etu, että se ei oleta, että kaikkien ryhmien varianssit ovat yhtä suuria."
+msgstr ""
+"Varianssianalyysi (ANOVA) käytetään jatkuvan riippuvan muuttujan ja yhden "
+"tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen. "
+"Tämä 'Yksisuuntainen ANOVA' on yksinkertaistettu versio 'normaalista' "
+"ANOVA:sta, joka sallii vain yhden selittävän tekijän, mutta tarjoaa myös "
+"Welch'in ANOVA:n. Welch'in ANOVA:ssa on etu, että se ei oleta, että kaikkien "
+"ryhmien varianssit ovat yhtä suuria."
 
 #: anovaOneW/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5862,11 +6119,19 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "Varianssianalyysi (ANOVA) käytetään jatkuvan riippuvan muuttujan ja yhden tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen. Tämä 'Yksisuuntainen ANOVA' on yksinkertaistettu versio 'normaalista' ANOVA:sta, joka sallii vain yhden selittävän tekijän, mutta tarjoaa myös Welch'in ANOVA:n. Welch'in ANOVA:ssa on etu, että se ei oleta, että kaikkien ryhmien varianssit ovat yhtä suuria.\n"
+msgstr ""
+"Varianssianalyysi (ANOVA) käytetään jatkuvan riippuvan muuttujan ja yhden "
+"tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen. "
+"Tämä 'Yksisuuntainen ANOVA' on yksinkertaistettu versio 'normaalista' "
+"ANOVA:sta, joka sallii vain yhden selittävän tekijän, mutta tarjoaa myös "
+"Welch'in ANOVA:n. Welch'in ANOVA:ssa on etu, että se ei oleta, että kaikkien "
+"ryhmien varianssit ovat yhtä suuria.\n"
 "\n"
-"Tässä menetelmässä voidaan määrittää useita riippuvia muuttujia, mikä johtaa useisiin itsenäisiin testeihin.\n"
+"Tässä menetelmässä voidaan määrittää useita riippuvia muuttujia, mikä johtaa "
+"useisiin itsenäisiin testeihin.\n"
 "\n"
-"Huomaa, että Welch'in ANOVA on sama menetelmä kuin Welch'in riippumattomat otoset-testi."
+"Huomaa, että Welch'in ANOVA on sama menetelmä kuin Welch'in riippumattomat "
+"otoset-testi."
 
 #: anovaRM/options/bs.description.ui
 #, fuzzy
@@ -5881,8 +6146,16 @@ msgstr "mallin välistä testiä"
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 #, fuzzy
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "Binomiaalinen testi käytetään nollihypoteesin testaamiseen, jonka mukaan havaintojen osuus vastaa jotain odotettua arvoa. Jos p-arvo on alhainen, se viittaa siihen, että nollihypoteesi on väärä, ja että todellinen osuus on jokin toinen arvo."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
+msgstr ""
+"Binomiaalinen testi käytetään nollihypoteesin testaamiseen, jonka mukaan "
+"havaintojen osuus vastaa jotain odotettua arvoa. Jos p-arvo on alhainen, se "
+"viittaa siihen, että nollihypoteesi on väärä, ja että todellinen osuus on "
+"jokin toinen arvo."
 
 #: ancova/options/factors.description.ui
 #, fuzzy
@@ -5891,8 +6164,12 @@ msgstr "johdannaisia selittäviä muuttujia."
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "Keskiarvon luottamusvälin laskemisessa oletetaan, että otoksen keskiarvot noudattavat t-jakautumaa, jonka vapausasteita on N - 1"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
+msgstr ""
+"Keskiarvon luottamusvälin laskemisessa oletetaan, että otoksen keskiarvot "
+"noudattavat t-jakautumaa, jonka vapausasteita on N - 1"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -5917,8 +6194,12 @@ msgstr "luottamusvälin leveys."
 
 #: ancova/options/covs.description.ui
 #, fuzzy
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "jatkuvat selittävät (tai riippumattomat) muuttujat, jotka tunnetaan myös kovalenteina."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
+msgstr ""
+"jatkuvat selittävät (tai riippumattomat) muuttujat, jotka tunnetaan myös "
+"kovalenteina."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5944,6 +6225,7 @@ msgstr "Leikkausarvo on asetettu {}:ksi"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 #, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr "Tietojoukko sisältää 0 riviä (poistettu rivit puutteellisilla arvoilla)"
@@ -5951,23 +6233,41 @@ msgstr "Tietojoukko sisältää 0 riviä (poistettu rivit puutteellisilla arvoil
 #: R/loglinear.b.R
 #, fuzzy
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
-msgstr "Tietokanta sisältää 0 riviä (tai kaikki rivit sisältävät puutteellisia arvoja)"
+msgstr ""
+"Tietokanta sisältää 0 riviä (tai kaikki rivit sisältävät puutteellisia "
+"arvoja)"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "Riippuvan muuttujan '{}' on enemmän kuin kaksi tasoa; binomiaalinen logistinen regressio voidaan suorittaa vain riippuvilla muuttujilla, joilla on kaksi tasoa."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
+msgstr ""
+"Riippuvan muuttujan '{}' on enemmän kuin kaksi tasoa; binomiaalinen "
+"logistinen regressio voidaan suorittaa vain riippuvilla muuttujilla, joilla "
+"on kaksi tasoa."
 
 #: R/logregord.b.R
 #, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "Riippuvainen muuttuja '{dep}' on seuraavassa järjestyksessä: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 #, fuzzy
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "Riippuvan muuttujan \"{dep}\" on vain kaksi tasoa, harkitse binomiaalisen logistisen regressio suorittamista."
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
+msgstr ""
+"Riippuvan muuttujan \"{dep}\" on vain kaksi tasoa, harkitse binomiaalisen "
+"logistisen regressio suorittamista."
 
 #: ancova/options/dep.description.ui
 #, fuzzy
@@ -5981,8 +6281,12 @@ msgstr "riippuvainen muuttuja. ANOVA:ssa nämä ovat jatkuvia."
 
 #: ttestIS/options/vars.description.ui
 #, fuzzy
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "riippuvat muuttujat -- erillinen t-testi suoritetaan kullekin määritellylle riippuvaiselle muuttujalle."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
+msgstr ""
+"riippuvat muuttujat -- erillinen t-testi suoritetaan kullekin määritellylle "
+"riippuvaiselle muuttujalle."
 
 #: anovaOneW/options/deps.description.ui
 #, fuzzy
@@ -6003,20 +6307,46 @@ msgstr "selittävä tai riippumaton muuttuja. ANOVA:ssa tämä on luokittainen."
 
 #: anova/options/factors.description.ui
 #, fuzzy
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
 msgstr "selittävät tai riippumattomat muuttujat. ANOVA:ssa nämä ovat kategorisia."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 #, fuzzy
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Friedmanin testi käytetään tutkimaan jatkuvan riippuvan muuttujan ja luokittelevan selittävän muuttujan välistä suhdetta, jossa selittävä muuttuja on 'sisäinen' (jossa useat mittaukset ovat samalta kohteelta). Se on analoginen toistuvan mittauksen ANOVA:lle, mutta sillä on etu, että se on epäparametrinen eikä edellytä normaaliuden tai varianssin homogeenisuuden oletuksia. Sen sijaan sillä on rajoitus, että se voi testata vain yhden selittävän muuttujan kerrallaan."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
+msgstr ""
+"Friedmanin testi käytetään tutkimaan jatkuvan riippuvan muuttujan ja "
+"luokittelevan selittävän muuttujan välistä suhdetta, jossa selittävä "
+"muuttuja on 'sisäinen' (jossa useat mittaukset ovat samalta kohteelta). Se "
+"on analoginen toistuvan mittauksen ANOVA:lle, mutta sillä on etu, että se on "
+"epäparametrinen eikä edellytä normaaliuden tai varianssin homogeenisuuden "
+"oletuksia. Sen sijaan sillä on rajoitus, että se voi testata vain yhden "
+"selittävän muuttujan kerrallaan."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 #, fuzzy
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Kruskal-Wallis testiä käytetään jatkuvan riippuvan muuttujan ja luokittelevan selittävän muuttujan suhteen tutkimiseen. Se on analoginen ANOVA:lle, mutta sillä on etu, että se on epäparametrinen ja sillä on vähemmän oletuksia. Sen rajoitus on kuitenkin se, että se voi testata vain yhden selittävän muuttujan kerrallaan."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
+msgstr ""
+"Kruskal-Wallis testiä käytetään jatkuvan riippuvan muuttujan ja "
+"luokittelevan selittävän muuttujan suhteen tutkimiseen. Se on analoginen "
+"ANOVA:lle, mutta sillä on etu, että se on epäparametrinen ja sillä on "
+"vähemmän oletuksia. Sen rajoitus on kuitenkin se, että se voi testata vain "
+"yhden selittävän muuttujan kerrallaan."
 
 #: anovaRM/options/depLabel.description.ui
 #, fuzzy
@@ -6032,13 +6362,25 @@ msgstr "Lavaan-syntaksi, jota käytetään mallin sovittamiseen"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "puuttuvien arvojen poistomenetelmä. `Analyysi kohden` poistaa puuttuvat arvot kustakin analyysistä. `Listwise` poistaa rivin kaikista analyyseistä, jos yksi sen arvoista on puuttuva."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"puuttuvien arvojen poistomenetelmä. `Analyysi kohden` poistaa puuttuvat "
+"arvot kustakin analyysistä. `Listwise` poistaa rivin kaikista analyyseistä, "
+"jos yksi sen arvoista on puuttuva."
 
 #: ttestOneS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "puuttuvien arvojen poissulkemismenetelmä. `Analyysi kerran` poistaa puuttuvat arvot kustakin muuttujasta. `Listwise` poistaa rivin kaikista analyyseista, jos yksi sen arvoista on puuttuva."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"puuttuvien arvojen poissulkemismenetelmä. `Analyysi kerran` poistaa "
+"puuttuvat arvot kustakin muuttujasta. `Listwise` poistaa rivin kaikista "
+"analyyseista, jos yksi sen arvoista on puuttuva."
 
 #: ancova/options/modelTerms.description.ui
 #, fuzzy
@@ -6047,13 +6389,22 @@ msgstr "mallin termit, jotka muodostavat mallin."
 
 #: anova/options/modelTerms.description.ui
 #, fuzzy
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "mallin termejä, jotka muodostavat mallin. Oletuksena luodaan täysi faktoriaalimalli, mutta tässä voidaan säätää tarkasti malleja, jotka muodostavat mallin."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
+msgstr ""
+"mallin termejä, jotka muodostavat mallin. Oletuksena luodaan täysi "
+"faktoriaalimalli, mutta tässä voidaan säätää tarkasti malleja, jotka "
+"muodostavat mallin."
 
 #: ttestPS/options/pairs.description.ui
 #, fuzzy
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "mittauksien parit - erillinen t-testi suoritetaan kussakin mittauksen parissa."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
+msgstr ""
+"mittauksien parit - erillinen t-testi suoritetaan kussakin mittauksen "
+"parissa."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -6064,28 +6415,43 @@ msgstr "jälkikäteen tehtävien monirajaisuuksien korjaukset, joita käytetää
 
 #: ttestIS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "Edellinen leveys Studentin t-testin Bayes-tekijöille. Vaaditaan arvo 0,01 ja 2,0 välillä, oletusarvo 0,707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
+msgstr ""
+"Edellinen leveys Studentin t-testin Bayes-tekijöille. Vaaditaan arvo 0,01 ja "
+"2,0 välillä, oletusarvo 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "ennen Studentin t-testin Bayes-kertoimien leveyttä. Vaatii arvon 0,5 ja 2,0 välillä, oletusarvo 0,707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
+msgstr ""
+"ennen Studentin t-testin Bayes-kertoimien leveyttä. Vaatii arvon 0,5 ja 2,0 "
+"välillä, oletusarvo 0,707."
 
 #: package/analyses/anovaRM.description
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "Toistuvat mittaukset ANOVA käytetään jatkuvan riippuvan muuttujan ja yhden tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen, jossa yksi tai useampi selittävä muuttuja on 'kohteen sisäinen' (jossa useat mittaukset ovat samalta kohteelta). Tämä analyysi sallii myös covariaattien sisällyttämisen, mikä mahdollistaa toistuvat mittaukset ANCOVA."
+msgstr ""
+"Toistuvat mittaukset ANOVA käytetään jatkuvan riippuvan muuttujan ja yhden "
+"tai useamman luokittavan selittävän muuttujan välisen suhteen tutkimiseen, "
+"jossa yksi tai useampi selittävä muuttuja on 'kohteen sisäinen' (jossa useat "
+"mittaukset ovat samalta kohteelta). Tämä analyysi sallii myös covariaattien "
+"sisällyttämisen, mikä mahdollistaa toistuvat mittaukset ANCOVA."
 
 #: anovaRM/options.description.main
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -6099,11 +6465,20 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "Toistuvien mittauksien ANOVA: n käytetään jatkuvan riippuvan muuttujan ja yhden tai useamman luokittelevan selittävän muuttujan suhteen tutkimiseen, jossa yksi tai useampi selittävä muuttuja on 'samasta kohteesta' (jossa useat mittaukset ovat samalta kohteelta). Lisäksi tämä analyysi sallii kovariabelien mukaan ottamisen, mikä mahdollistaa toistuvien mittauksien ANCOVAn tekemisen.\n"
+msgstr ""
+"Toistuvien mittauksien ANOVA: n käytetään jatkuvan riippuvan muuttujan ja "
+"yhden tai useamman luokittelevan selittävän muuttujan suhteen tutkimiseen, "
+"jossa yksi tai useampi selittävä muuttuja on 'samasta kohteesta' (jossa "
+"useat mittaukset ovat samalta kohteelta). Lisäksi tämä analyysi sallii "
+"kovariabelien mukaan ottamisen, mikä mahdollistaa toistuvien mittauksien "
+"ANCOVAn tekemisen.\n"
 "\n"
-"Tämä analyysi edellyttää, että data on 'laajassa muodossa', jossa jokainen rivi edustaa kohtetta (toisin kuin pitkä muoto, jossa jokainen riippuvan muuttujan mittaus esitetään rivinä).\n"
+"Tämä analyysi edellyttää, että data on 'laajassa muodossa', jossa jokainen "
+"rivi edustaa kohtetta (toisin kuin pitkä muoto, jossa jokainen riippuvan "
+"muuttujan mittaus esitetään rivinä).\n"
 "\n"
-"Toistuvien mittauksien ANOVA: n ei-parametrinen vastine on olemassa; Friedmanin testi. Se kuitenkin rajoittuu vain yhden tekijän testaamiseen."
+"Toistuvien mittauksien ANOVA: n ei-parametrinen vastine on olemassa; "
+"Friedmanin testi. Se kuitenkin rajoittuu vain yhden tekijän testaamiseen."
 
 #: anovaRM/options/rm.description.ui
 #, fuzzy
@@ -6112,8 +6487,12 @@ msgstr "toistuvat mittaukset."
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "Toistuvat mittaukset ovat vain kahdella tasolla. Sfärisyys-oletus on aina täytetty, kun toistuvat mittaukset ovat vain kahdella tasolla."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
+msgstr ""
+"Toistuvat mittaukset ovat vain kahdella tasolla. Sfärisyys-oletus on aina "
+"täytetty, kun toistuvat mittaukset ovat vain kahdella tasolla."
 
 #: anovaRM/options/rmCells.description.ui
 #, fuzzy
@@ -6127,20 +6506,32 @@ msgstr "toistuvien mittauksien termin malli."
 
 #: R/utilsreg.R
 #, fuzzy
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "Määritelty viitearvo ei löydy seuraaville muuttujille: {vars}. Oletusarvo ensimmäiseen saatavilla olevaan taso. Käytä mukautettua viitearvoa, varmista, että määritelty viitearvo on saatavilla tiedoissa."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
+msgstr ""
+"Määritelty viitearvo ei löydy seuraaville muuttujille: {vars}. Oletusarvo "
+"ensimmäiseen saatavilla olevaan taso. Käytä mukautettua viitearvoa, "
+"varmista, että määritelty viitearvo on saatavilla tiedoissa."
 
 #: package/analyses/ttestIS.description
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "Studentin riippumattoman otoksen t-testi (jota kutsutaan myös kahden otoksen t-testiksi) käytetään nollihypoteesin testaamiseen, jonka mukaan kaksi ryhmää ovat keskiarvoltaan samanlaisia. Matala p-arvo viittaa siihen, että nollihypoteesi ei ole tosi, ja että ryhmien keskiarvot ovat erilaiset."
+msgstr ""
+"Studentin riippumattoman otoksen t-testi (jota kutsutaan myös kahden otoksen "
+"t-testiksi) käytetään nollihypoteesin testaamiseen, jonka mukaan kaksi "
+"ryhmää ovat keskiarvoltaan samanlaisia. Matala p-arvo viittaa siihen, että "
+"nollihypoteesi ei ole tosi, ja että ryhmien keskiarvot ovat erilaiset."
 
 #: ttestIS/options.description.main
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -6153,21 +6544,38 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "Studentin riippumattomat otokset -testi (jota kutsutaan toisinaan kahden otoksen t-testiksi) käytetää testaamaan nollihypoteesiä, jonka mukaan kaksi ryhmää ovat keskimäärin samanlaisia. Pieni p-arvo viittaa siihen, ettei nollihypoteesi pidä paikkaansa, ja siten ryhmien keskiarvot ovat erilaiset.\n"
+msgstr ""
+"Studentin riippumattomat otokset -testi (jota kutsutaan toisinaan kahden "
+"otoksen t-testiksi) käytetää testaamaan nollihypoteesiä, jonka mukaan kaksi "
+"ryhmää ovat keskimäärin samanlaisia. Pieni p-arvo viittaa siihen, ettei "
+"nollihypoteesi pidä paikkaansa, ja siten ryhmien keskiarvot ovat erilaiset.\n"
 "\n"
-"Studentin riippumattomat t-testit olettaa, että kunkin ryhmän tiedot ovat normaalijakaumasta, ja että näiden ryhmien varianssit ovat yhtäläiset. Jos ei halua olettaa, että ryhmät ovat yhtäläisiä, voidaan käyttää Welch-in t-testiä sen sijaan. Jos ei myöskään halua olettaa, että kunkin ryhmän tiedot ovat normaalijakaumasta, voidaan käyttää non-parametrinen Mann-Whitney U -testiä (vaikka huomataan, että Mann-Whitney U -testillä on hieman erilainen nollihypoteesi, jonka mukaan kunkin ryhmän jakaumat ovat yhtäläiset)"
+"Studentin riippumattomat t-testit olettaa, että kunkin ryhmän tiedot ovat "
+"normaalijakaumasta, ja että näiden ryhmien varianssit ovat yhtäläiset. Jos "
+"ei halua olettaa, että ryhmät ovat yhtäläisiä, voidaan käyttää Welch-in "
+"t-testiä sen sijaan. Jos ei myöskään halua olettaa, että kunkin ryhmän "
+"tiedot ovat normaalijakaumasta, voidaan käyttää non-parametrinen "
+"Mann-Whitney U -testiä (vaikka huomataan, että Mann-Whitney U -testillä on "
+"hieman erilainen nollihypoteesi, jonka mukaan kunkin ryhmän jakaumat ovat "
+"yhtäläiset)"
 
 #: package/analyses/ttestOneS.description
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "Opiskelijan yhden otoksen t-testi käytetään testaamaan nollihypoteesia, jonka mukaan todellinen keskiarvo on tietyn arvon (yleensä nolla) verran. Pieni p-arvo viittaa siihen, että nollihypoteesi ei ole tosi, ja siksi todellinen keskiarvo on erilainen kuin testiarvo"
+msgstr ""
+"Opiskelijan yhden otoksen t-testi käytetään testaamaan nollihypoteesia, "
+"jonka mukaan todellinen keskiarvo on tietyn arvon (yleensä nolla) verran. "
+"Pieni p-arvo viittaa siihen, että nollihypoteesi ei ole tosi, ja siksi "
+"todellinen keskiarvo on erilainen kuin testiarvo"
 
 #: ttestOneS/options.description.main
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -6177,22 +6585,36 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "Studentin yhden otoksen t-testiä käytetään testaamaan nollihypoteesi, jonka mukaan todellinen keskiarvo on tietyn arvon (tyypillisesti nolla) verran. Matala p-arvo viittaa siihen, että nollihypoteesi ei pidä paikkaansa, ja siksi todellinen keskiarvo on erilainen kuin testiarvo.\n"
+msgstr ""
+"Studentin yhden otoksen t-testiä käytetään testaamaan nollihypoteesi, jonka "
+"mukaan todellinen keskiarvo on tietyn arvon (tyypillisesti nolla) verran. "
+"Matala p-arvo viittaa siihen, että nollihypoteesi ei pidä paikkaansa, ja "
+"siksi todellinen keskiarvo on erilainen kuin testiarvo.\n"
 "\n"
-"Studentin yhden otoksen t-testi olettaa, että tiedot ovat normaalijakautuneita - tapauksessa, jossa ei haluta olettaa tätä, voidaan käyttää sen sijaan non-parametrinen Wilcoxonin allekirjoitustesti (kuitenkin huomata, että Wilcoxonin allekirjoitustestillä on hieman erilainen nollihypoteesi; keskiarvon sijaan mediaani on testiarvo)."
+"Studentin yhden otoksen t-testi olettaa, että tiedot ovat "
+"normaalijakautuneita - tapauksessa, jossa ei haluta olettaa tätä, voidaan "
+"käyttää sen sijaan non-parametrinen Wilcoxonin allekirjoitustesti (kuitenkin "
+"huomata, että Wilcoxonin allekirjoitustestillä on hieman erilainen "
+"nollihypoteesi; keskiarvon sijaan mediaani on testiarvo)."
 
 #: package/analyses/ttestPS.description
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "Oppilaiden parittainen t-testi (jota kutsutaan toisinaan riippuvaksi otoksista t-testiksi) käytetään testaamaan nollihypoteesia, jonka mukaan parien mittausero on nolla. Pieni p-arvo viittaa siihen, että nollihypoteesi ei pidä paikkaansa, ja että mittausparien välinen ero ei ole nolla."
+msgstr ""
+"Oppilaiden parittainen t-testi (jota kutsutaan toisinaan riippuvaksi "
+"otoksista t-testiksi) käytetään testaamaan nollihypoteesia, jonka mukaan "
+"parien mittausero on nolla. Pieni p-arvo viittaa siihen, että nollihypoteesi "
+"ei pidä paikkaansa, ja että mittausparien välinen ero ei ole nolla."
 
 #: ttestPS/options.description.main
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -6204,16 +6626,29 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "Opiskelijan parillisten otosten t-testi (jota kutsutaan joskus riippuvien otosten t-testiksi) käytetään testaamaan nollihypoteesia, jonka mukaan mittauksien pariin liittyvät erot ovat nolla. Pieni p-arvo viittaa siihen, että nollihypoteesi ei ole tosi, ja että mittauksien pariin liittyvät erot eivät ole nolla.\n"
+msgstr ""
+"Opiskelijan parillisten otosten t-testi (jota kutsutaan joskus riippuvien "
+"otosten t-testiksi) käytetään testaamaan nollihypoteesia, jonka mukaan "
+"mittauksien pariin liittyvät erot ovat nolla. Pieni p-arvo viittaa siihen, "
+"että nollihypoteesi ei ole tosi, ja että mittauksien pariin liittyvät erot "
+"eivät ole nolla.\n"
 "\n"
-"Opiskelijan parillisten otosten t-testi olettaa, että parien erot seuraavat normaalijakautuma - tapauksessa, jossa ei haluta olettaa tätä, voidaan sen sijaan käyttää non-parametrinen Wilcoxon allekirjoitustesti (Vaikka huomata, että Wilcoxon allekirjoitustestillä on hieman erilainen nollihypoteesi, jonka mukaan kaksi mittausryhmää seuraavat samaa jakautuma)"
+"Opiskelijan parillisten otosten t-testi olettaa, että parien erot seuraavat "
+"normaalijakautuma - tapauksessa, jossa ei haluta olettaa tätä, voidaan sen "
+"sijaan käyttää non-parametrinen Wilcoxon allekirjoitustesti (Vaikka huomata, "
+"että Wilcoxon allekirjoitustestillä on hieman erilainen nollihypoteesi, "
+"jonka mukaan kaksi mittausryhmää seuraavat samaa jakautuma)"
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 #, fuzzy
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "termit, joiden arvioiduille marginaalisille keskiarvoille tarjotaan. Voit määrittää useita termejä."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
+msgstr ""
+"termit, joiden arvioiduille marginaalisille keskiarvoille tarjotaan. Voit "
+"määrittää useita termejä."
 
 #: ttestOneS/options/testValue.description.ui
 #, fuzzy
@@ -6244,8 +6679,12 @@ msgstr "Taustalla oleva `aov`-olio"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "Muuttuja {var} ei voida käsitellä numeerisena. Kaaviot, jotka odottavat numeerista dataa, eivät luoda tätä muuttujaa varten."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
+msgstr ""
+"Muuttuja {var} ei voida käsitellä numeerisena. Kaaviot, jotka odottavat "
+"numeerista dataa, eivät luoda tätä muuttujaa varten."
 
 #: ttestIS/options/group.description.ui
 #, fuzzy
@@ -6254,13 +6693,21 @@ msgstr "muuttuja, joka määrittää ryhmät; täytyy olla 2 tasoa."
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "Muuttujat {vars} eivät voida käsitellä numeerisina. Kuvaajia, jotka odottavat numeerisia tietoja, ei luoda näille muuttujille."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
+msgstr ""
+"Muuttujat {vars} eivät voida käsitellä numeerisina. Kuvaajia, jotka "
+"odottavat numeerisia tietoja, ei luoda näille muuttujille."
 
 #: ttestOneS/options/vars.description.ui
 #, fuzzy
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "mielenkiintoisia muuttujia - kullekin määritellylle muuttujalle suoritetaan erillinen t-testi"
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
+msgstr ""
+"mielenkiintoisia muuttujia - kullekin määritellylle muuttujalle suoritetaan "
+"erillinen t-testi"
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -6278,14 +6725,32 @@ msgstr "luottamusvälien leveys."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 #, fuzzy
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "Chi² sopivuustesti (jota ei tule sekoittaa chi² riippumattomuustestiin), testaa nollihypoteesia, jonka mukaan havaintojen suhteet vastaavat odotettuja suhteita. Jos p-arvo on alhainen, se viittaa siihen, että nollihypoteesi on väärä, ja että todelliset suhteet eroavat testatuista suhteista."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
+msgstr ""
+"Chi² sopivuustesti (jota ei tule sekoittaa chi² riippumattomuustestiin), "
+"testaa nollihypoteesia, jonka mukaan havaintojen suhteet vastaavat "
+"odotettuja suhteita. Jos p-arvo on alhainen, se viittaa siihen, että "
+"nollihypoteesi on väärä, ja että todelliset suhteet eroavat testatuista "
+"suhteista."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 #, fuzzy
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "χ² -yhdistymisen testi (jota ei tule sekoittaa χ² -soveltuvuuden testiin) käytetään testaamaan, ovatko kaksi luokittelevaa muuttujaa riippumattomia vai yhdistettyjä. Jos p-arvo on matala, se viittaa siihen, että muuttujat eivät ole riippumattomia, ja että niiden välillä on suhde."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
+msgstr ""
+"χ² -yhdistymisen testi (jota ei tule sekoittaa χ² -soveltuvuuden testiin) "
+"käytetään testaamaan, ovatko kaksi luokittelevaa muuttujaa riippumattomia "
+"vai yhdistettyjä. Jos p-arvo on matala, se viittaa siihen, että muuttujat "
+"eivät ole riippumattomia, ja että niiden välillä on suhde."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6306,8 +6771,15 @@ msgstr "Ei löydy Mahalanobisin etäisyyksiä, joiden kynnysarvo on alle p < {p}
 
 #: package.description
 #, fuzzy
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "Tämä moduuli edustaa jamovissa mukana tulevia analyysejä. Se sisältää monia yleisiä analyysejä (kuten t-testit, ANOVA:t, regressio, korrelaatiomatriisit, suhteiden testit, kontingenssitaulukot, tekijäanalyysi jne)."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
+msgstr ""
+"Tämä moduuli edustaa jamovissa mukana tulevia analyysejä. Se sisältää monia "
+"yleisiä analyysejä (kuten t-testit, ANOVA:t, regressio, "
+"korrelaatiomatriisit, suhteiden testit, kontingenssitaulukot, tekijäanalyysi "
+"jne)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 #, fuzzy
@@ -6350,8 +6822,12 @@ msgstr "Liian vähän havaintoja (N < 3) tilastollisen laskelman suorittamiseksi
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "Havaintoja on liian vähän laskemaan tilastoa. Kussakin (alaryhmässä) on oltava vähintään yhtä monta havaintoa kuin on riippuvia muuttujia."
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
+msgstr ""
+"Havaintoja on liian vähän laskemaan tilastoa. Kussakin (alaryhmässä) on "
+"oltava vähintään yhtä monta havaintoa kuin on riippuvia muuttujia."
 
 #: R/anovaonew.b.R
 #, fuzzy
@@ -6386,11 +6862,16 @@ msgstr "Hampaiden kasvu"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 #, fuzzy
 msgid "Total"
 msgstr "Yhteensä"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6589,7 +7070,9 @@ msgstr "Varianssit"
 
 #: R/corrpart.b.R
 #, fuzzy
-msgid "variation from the control variables is only removed from the variables in the columns"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
 msgstr "vaihtelu kontrollimuuttujista poistetaan vain sarakkeiden muuttujista"
 
 #: efa/options/rotation/varimax.title
@@ -6622,8 +7105,12 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 #, fuzzy
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "painotetaan kunkin solun kesken. (Solut painotetaan solun taajuuksien mukaan oletusarvoisesti.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
+msgstr ""
+"painotetaan kunkin solun kesken. (Solut painotetaan solun taajuuksien mukaan "
+"oletusarvoisesti.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label

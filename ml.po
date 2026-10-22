@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:17+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/jmv-"
-"i18n/ml/>\n"
+"Language-Team: Malayalam "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/ml/>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -30,9 +29,10 @@ msgid "'{col}' contains only one unique value"
 msgstr "'{col}'-ൽ സമാനങ്ങളില്ലാത്ത ഒരു മൂല്യം മാത്രമേ ഉള്ളൂ"
 
 #: R/pca.b.R
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr ""
-"ഒരു '{rotation}' റൊട്ടേഷന്റെ കൂടെ '{method}' എക്സ്ട്രാക്ഷൻ രീതി ഉപയോഗിച്ചു"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
+msgstr "ഒരു '{rotation}' റൊട്ടേഷന്റെ കൂടെ '{method}' എക്സ്ട്രാക്ഷൻ രീതി ഉപയോഗിച്ചു"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -41,8 +41,7 @@ msgstr "'{rotation}' റൊട്ടേഷൻ ഉപയോഗിച്ചു"
 #: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
-"'{var}'-ൽ നെഗറ്റീവ് മൂല്ല്യങ്ങൾ കാണുന്നു. നെഗറ്റീവ് വെയ്റ്റുകൾ അനുവദനീയമല്ല."
+msgstr "'{var}'-ൽ നെഗറ്റീവ് മൂല്ല്യങ്ങൾ കാണുന്നു. നെഗറ്റീവ് വെയ്റ്റുകൾ അനുവദനീയമല്ല."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
@@ -269,7 +268,9 @@ msgstr "ഒരു descriptives പ്ലോട്ട്"
 #: ttestIS/results/assum/eqv.notes.p
 #, fuzzy
 msgid "A low p-value suggests a violation of the assumption of equal variances"
-msgstr "ഒരു താഴ്ന്ന പി-മൂല്യം തുല്യ വേരിയൻസുകളുടെ സ്വീകാര്യതയുടെ ലംഘനം സൂചിപ്പിക്കുന്നു"
+msgstr ""
+"ഒരു താഴ്ന്ന പി-മൂല്യം തുല്യ വേരിയൻസുകളുടെ സ്വീകാര്യതയുടെ ലംഘനം "
+"സൂചിപ്പിക്കുന്നു"
 
 #: anovaOneW/results/assump/norm.notes.p
 #: ttestIS/results/assum/norm.notes.p
@@ -336,13 +337,21 @@ msgstr "a table containing fit measures"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 #, fuzzy
-msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "മോഡൽ ഉൾപ്പെടുത്തിയിട്ടില്ലാത്ത ഘടക ലോഡുകൾക്കായുള്ള മോഡിഫിക്കേഷൻ സൂചികകൾ അടങ്ങിയിരിക്കുന്ന ഒരു പട്ടിക"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
+msgstr ""
+"മോഡൽ ഉൾപ്പെടുത്തിയിട്ടില്ലാത്ത ഘടക ലോഡുകൾക്കായുള്ള മോഡിഫിക്കേഷൻ സൂചികകൾ "
+"അടങ്ങിയിരിക്കുന്ന ഒരു പട്ടിക"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 #, fuzzy
-msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "a table containing modification indices for the residual covariances not included in the model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
+msgstr ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
 
 #: cfa/results/resEst/resCov.description
 #, fuzzy
@@ -542,6 +551,11 @@ msgstr "χ² ടെസ്റ്റ് ഫലങ്ങളുടെ ഒരു ട�
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
 msgstr "കൃത്യത"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -755,8 +769,12 @@ msgstr "ANOVA ടെസ്റ്റ്"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "ഇടയിലുള്ള വിഷയങ്ങളെ സംബന്ധിക്കുന്ന ഘടകങ്ങൾ നിർദ്ദേശിച്ചിട്ടില്ല, ഈ ഊഹം എല്ലായ്പ്പോഴും നേടിയെടുക്കുന്നു."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
+msgstr ""
+"ഇടയിലുള്ള വിഷയങ്ങളെ സംബന്ധിക്കുന്ന ഘടകങ്ങൾ നിർദ്ദേശിച്ചിട്ടില്ല, ഈ ഊഹം "
+"എല്ലായ്പ്പോഴും നേടിയെടുക്കുന്നു."
 
 #: anovaOneW/options/fishers.title
 #, fuzzy
@@ -832,7 +850,7 @@ msgstr "ബാർ പ്ലോട്ട്"
 msgid "Bar plot"
 msgstr "ബാർ പ്ലോട്ട്"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 msgid "Bar Plots"
 msgstr "ബാർ പ്ലോട്ടുകൾ"
 
@@ -989,7 +1007,7 @@ msgstr "ബോൺഫെറോണി"
 msgid "Box plot"
 msgstr "ബോക്സ് പ്ലോട്ട്"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 #, fuzzy
 msgid "Box Plots"
 msgstr "ബോക്സ് പ്ലോട്ടുകൾ"
@@ -1103,6 +1121,7 @@ msgstr "Column variable '{var}' contains fewer than 2 levels"
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 msgid "Columns"
 msgstr "നിരകൾ"
 
@@ -1417,13 +1436,17 @@ msgstr "വപ്ച്പ് ച്ച്പ്"
 
 #: package/analyses/corrMatrix.description
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
-msgstr "ബഹുമുഖ വേരിയബിളുകൾക്കിടയിലുള്ള രേഖീയ ബന്ധങ്ങൾ പരിശോധിക്കാനുള്ള ഒരു മാർഗമാണ് കോറിലേഷൻ മാട്രിക്സുകൾ."
+msgstr ""
+"ബഹുമുഖ വേരിയബിളുകൾക്കിടയിലുള്ള രേഖീയ ബന്ധങ്ങൾ പരിശോധിക്കാനുള്ള ഒരു മാർഗമാണ് "
+"കോറിലേഷൻ മാട്രിക്സുകൾ."
 
 #: corrMatrix/options.description.main
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1440,7 +1463,9 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "ബഹുമുഖ വിശകലനത്തിന് ഒരു മാർഗമാണ് കോറിലേഷൻ മാട്രിക്സുകൾ, രണ്ടോ അതിലധികമോ തുടർച്ചയായ ചാരങ്ങളുടെ ഇടയിലുള്ള രേഖീയ ബന്ധങ്ങൾ പരിശോധിക്കാൻ."
+msgstr ""
+"ബഹുമുഖ വിശകലനത്തിന് ഒരു മാർഗമാണ് കോറിലേഷൻ മാട്രിക്സുകൾ, രണ്ടോ അതിലധികമോ "
+"തുടർച്ചയായ ചാരങ്ങളുടെ ഇടയിലുള്ള രേഖീയ ബന്ധങ്ങൾ പരിശോധിക്കാൻ."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1491,13 +1516,20 @@ msgstr "എണ്ണങ്ങൾ (ഓപ്ഷണൽ)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be infinite"
 msgstr "എണ്ണങ്ങൾ അനന്തമായിരിക്കില്ല"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be negative"
 msgstr "എണ്ണങ്ങൾ നെഗറ്റീവ് ആകരുത്"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1555,6 +1587,10 @@ msgstr "ക്യൂബിക്"
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
 msgstr "സഞ്ചിത %"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -1645,13 +1681,21 @@ msgstr "ആശ്രിത വേരിയബിൾ '{dep}' അനന്ത വ�
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "അനുബന്ധ ചരം '{dep}' അടങ്ങിയിരിക്കുന്നില്ല (ഇല്ലാത്ത മൂല്യങ്ങൾ നീക്കംചെയ്ത ശേഷം)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
+msgstr ""
+"അനുബന്ധ ചരം '{dep}' അടങ്ങിയിരിക്കുന്നില്ല (ഇല്ലാത്ത മൂല്യങ്ങൾ നീക്കംചെയ്ത "
+"ശേഷം)"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "അടിസ്ഥാന ചരം '{dep}' തുടർച്ചയായി ഒരു യൂണിക് മൂല്യം മാത്രമാണ് (ഇടയ്ക്കുള്ള വിലുകൾ നീക്കംചെയ്ത ശേഷം)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
+msgstr ""
+"അടിസ്ഥാന ചരം '{dep}' തുടർച്ചയായി ഒരു യൂണിക് മൂല്യം മാത്രമാണ് (ഇടയ്ക്കുള്ള "
+"വിലുകൾ നീക്കംചെയ്ത ശേഷം)"
 
 #: R/ancova.b.R
 #, fuzzy
@@ -1715,8 +1759,16 @@ msgstr "വിവരണാത്മകം"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 #, fuzzy
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "വിവരണാത്മകമായത് ഒരു ശേഖരം സംഗ്രഹണ സംഖ്യകളും കാഴ്ചപ്പാടുകളുമാണ്, ഇത് ഡാറ്റയുടെ രൂപവും വിതരണവും ആരായുന്നതിന് അനുവദിക്കുന്നു. ഔപചാരിക പരീക്ഷണങ്ങളിലേക്ക് കടക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ഡാറ്റ വിവരണാത്മകമായി പര്യവേക്ഷണം ചെയ്യുന്നത് നല്ലതാണ്."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
+msgstr ""
+"വിവരണാത്മകമായത് ഒരു ശേഖരം സംഗ്രഹണ സംഖ്യകളും കാഴ്ചപ്പാടുകളുമാണ്, ഇത് "
+"ഡാറ്റയുടെ രൂപവും വിതരണവും ആരായുന്നതിന് അനുവദിക്കുന്നു. ഔപചാരിക "
+"പരീക്ഷണങ്ങളിലേക്ക് കടക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ഡാറ്റ വിവരണാത്മകമായി "
+"പര്യവേക്ഷണം ചെയ്യുന്നത് നല്ലതാണ്."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -1953,10 +2005,12 @@ msgid "Eigenvalues greater than"
 msgstr "എയ്ഗൻമൂല്യം ഗ്രേറ്റർ ദാൻ"
 
 #: R/anovarm.b.R
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
 msgstr ""
-"between subject ഡിസൈനിൽ ശൂന്യമായ സെല്ലുകൾ: between subject ഫാക്ടർ ലെവലുകളിൽ കുറഞ്ഞത് ഒരു "
-"കോമ്പിനേഷനെങ്കിലും 0 നിരീക്ഷണങ്ങളാണ്"
+"between subject ഡിസൈനിൽ ശൂന്യമായ സെല്ലുകൾ: between subject ഫാക്ടർ ലെവലുകളിൽ "
+"കുറഞ്ഞത് ഒരു കോമ്പിനേഷനെങ്കിലും 0 നിരീക്ഷണങ്ങളാണ്"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2047,9 +2101,12 @@ msgid "Estimates represent the log odds of …"
 msgstr "… ന്റെ log odds കാണിക്കുന്ന എസ്റ്റിമേറ്റുകൾ"
 
 #: R/logregbin.b.R
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
 msgstr ""
-"\"{dep} = {level1}\" vs. \"{dep} = {level2}\" log odds കാണിക്കുന്ന എസ്റ്റിമേറ്റുകൾ"
+"\"{dep} = {level1}\" vs. \"{dep} = {level2}\" log odds കാണിക്കുന്ന "
+"എസ്റ്റിമേറ്റുകൾ"
 
 #: efa/options/factorScoreMethod.title
 msgid "Estimation method"
@@ -2144,28 +2201,47 @@ msgid "Factor"
 msgstr "ഫാക്ടർ"
 
 #: R/loglinear.b.R
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
 msgstr ""
-"'{factor}' എന്ന ഫാക്ടറിന് രണ്ടിൽ താഴെ ലെവലുകളാണുള്ളത്. ഫാക്ടറുൾക്ക് കുറഞ്ഞത് രണ്ട് ലെവലെങ്കിലും വേണം"
+"'{factor}' എന്ന ഫാക്ടറിന് രണ്ടിൽ താഴെ ലെവലുകളാണുള്ളത്. ഫാക്ടറുൾക്ക് കുറഞ്ഞത് "
+"രണ്ട് ലെവലെങ്കിലും വേണം"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "'{factor}' എന്ന ഫാക്ടറിന് കുറഞ്ഞത് 2 ലെവലുകൾ വേണം"
 
-#: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
 msgstr ""
-"'{factorName}' എന്ന ഫാക്ടറിൽ ഡേറ്റയൊന്നുമില്ല (കാലിയായ വരികൾ നീക്കിയതിന് ശേഷം)"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
 msgstr ""
-"'{factorName}' എന്ന ഫാക്ടറിൽ ഒരൊറ്റ ലെവൽ മാത്രമേ ഉള്ളൂ (കാലിയായ വരികൾ നീക്കിയതിന് ശേഷം)"
+"'{factorName}' എന്ന ഫാക്ടറിൽ ഡേറ്റയൊന്നുമില്ല (കാലിയായ വരികൾ നീക്കിയതിന് "
+"ശേഷം)"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr ""
-"'{factorName}' എന്ന ഫാക്ടറിൽ ഉപയോഗിക്കാത്ത ലെവലുകൾ ഉണ്ട് (കാലിയായ വരികൾ നീക്കിയതിന് ശേഷം)"
+"'{factorName}' എന്ന ഫാക്ടറിൽ ഒരൊറ്റ ലെവൽ മാത്രമേ ഉള്ളൂ (കാലിയായ വരികൾ "
+"നീക്കിയതിന് ശേഷം)"
+
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2311,7 +2387,9 @@ msgstr "Flag significant correlations"
 #: corrPart/options/flag.description.ui
 #, fuzzy
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "പ്രതീകങ്ങളുടെ സംകേതങ്ങളുമായി p <.05 ഉള്ള പ്രധാനപ്പെട്ട ബന്ധങ്ങൾ ഫ്ലാഗ് ചെയ്യുക"
+msgstr ""
+"പ്രതീകങ്ങളുടെ സംകേതങ്ങളുമായി p <.05 ഉള്ള പ്രധാനപ്പെട്ട ബന്ധങ്ങൾ ഫ്ലാഗ് "
+"ചെയ്യുക"
 
 #: anovaOneW/options/phFlag.description.ui
 #, fuzzy
@@ -2342,6 +2420,10 @@ msgstr "$key ന്റെ ഫ്രീക്വൻസികൾ"
 #, fuzzy
 msgid "Frequency tables"
 msgstr "Frequency tables"
+
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2458,6 +2540,10 @@ msgstr "ഗ്രൂപ്പ് സംഗ്രഹം"
 msgid "Group summary"
 msgstr "Group summary"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2467,7 +2553,9 @@ msgstr "ഗ്രൂപ്പിങ്ങ് വേരിയബിൾ"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
 msgstr "ഗ്രൂപ്പിംഗ് ചരം '{a}' ഇല്ലാതാക്കിയ ശേഷം 2 നേക്കാൾ കുറവ് തലങ്ങൾ ഉണ്ട്"
 
 #: R/ttestis.b.R
@@ -2528,6 +2616,10 @@ msgstr "മറഞ്ഞിരിക്കുന്നത്"
 msgid "Hide loadings below"
 msgstr "ലോഡുകൾ മറയ്ക്കുക"
 
+#: R/descriptives.b.R
+msgid "Highest"
+msgstr ""
+
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
@@ -2542,7 +2634,7 @@ msgstr "മുകളിലുള്ള വിലകൾ ഹൈലൈറ്റ് 
 msgid "Histogram"
 msgstr "Histogram"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 #, fuzzy
 msgid "Histograms"
 msgstr "ഹിസ്റ്റോഗ്രാമുകൾ"
@@ -2694,8 +2786,21 @@ msgstr "ഐക്യർ"
 
 #: R/utilsanova.R
 #, fuzzy
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "നിങ്ങളുടെ മാതൃകയ്ക്ക് ഒരു 'സിംഗുലാരിറ്റി' പ്രശ്നമുണ്ടെന്ന് തോന്നുന്നു. ഇത് സാധാരണയായി മാതൃക ചില ഫലങ്ങളെ വിശ്വസനീയമായി കണക്കാക്കാൻ ബുദ്ധിമുട്ടുന്നു, ചില മാറികളും വളരെ അടുത്ത് ബന്ധപ്പെട്ടിരിക്കുന്നു, അല്ലെങ്കിൽ എല്ലാ ഫലങ്ങളും വിശ്വസനീയമായി കണക്കാക്കാൻ മതിയായ ഡാറ്റ ഇല്ല. ഇത് പരിഹരിക്കാൻ, മാതൃക ലഘൂകരിക്കാൻ ചില ഫലങ്ങൾ നീക്കം ചെയ്തോ അല്ലെങ്കിൽ നിങ്ങളുടെ ഡാറ്റയ്ക്ക് അധികമായി ആവർത്തിച്ചുള്ള അല്ലെങ്കിൽ ഉയർന്ന കോറിലേറ്റഡ് മാറികളുണ്ടോയെന്ന് പരിശോധിക്കാൻ കഴിയും"
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
+msgstr ""
+"നിങ്ങളുടെ മാതൃകയ്ക്ക് ഒരു 'സിംഗുലാരിറ്റി' പ്രശ്നമുണ്ടെന്ന് തോന്നുന്നു. ഇത് "
+"സാധാരണയായി മാതൃക ചില ഫലങ്ങളെ വിശ്വസനീയമായി കണക്കാക്കാൻ ബുദ്ധിമുട്ടുന്നു, ചില "
+"മാറികളും വളരെ അടുത്ത് ബന്ധപ്പെട്ടിരിക്കുന്നു, അല്ലെങ്കിൽ എല്ലാ ഫലങ്ങളും "
+"വിശ്വസനീയമായി കണക്കാക്കാൻ മതിയായ ഡാറ്റ ഇല്ല. ഇത് പരിഹരിക്കാൻ, മാതൃക "
+"ലഘൂകരിക്കാൻ ചില ഫലങ്ങൾ നീക്കം ചെയ്തോ അല്ലെങ്കിൽ നിങ്ങളുടെ ഡാറ്റയ്ക്ക് "
+"അധികമായി ആവർത്തിച്ചുള്ള അല്ലെങ്കിൽ ഉയർന്ന കോറിലേറ്റഡ് മാറികളുണ്ടോയെന്ന് "
+"പരിശോധിക്കാൻ കഴിയും"
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -2726,8 +2831,12 @@ msgstr "ഐറ്റം '{item}' സംഖ്യാപരമായിരിക�
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr "item {item} correlates negatively with the total scale and probably should be reversed"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
 
 #: reliability/results/items.title
 #, fuzzy
@@ -2752,8 +2861,12 @@ msgstr "ഇനങ്ങൾ"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr "മൊത്തത്തിന് വിപരീതമായി {items} ഇനങ്ങൾ ബന്ധപ്പെട്ടിരിക്കുന്നു, പ്രത്യേകിച്ചും അവ തിരിച്ചറിയപ്പെടണം"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"മൊത്തത്തിന് വിപരീതമായി {items} ഇനങ്ങൾ ബന്ധപ്പെട്ടിരിക്കുന്നു, പ്രത്യേകിച്ചും "
+"അവ തിരിച്ചറിയപ്പെടണം"
 
 #: descriptives/options/dotType/jitter.title
 #, fuzzy
@@ -2835,8 +2948,12 @@ msgstr "Level 2"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
+msgstr ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
 
 #: R/proptest2.b.R
 #, fuzzy
@@ -2874,8 +2991,16 @@ msgstr "Linear Regression"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 #, fuzzy
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "ഒരു തുടർച്ചയായ ആശ്രിത ചരവും ഒന്നോ അതിലധികമോ തുടർച്ചയായതും / വർഗീകരണ വിശദീകരണ ചരങ്ങൾക്കും ഇടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ലീനിയർ റെഗ്രഷൻ ഉപയോഗിക്കുന്നു. മറ്റ് സ്ഥിതിവിവരക്കണക്ക് രീതികൾ, അവയവങ്ങൾ, എന്നിവ യാഥാർത്ഥ്യത്തിൽ ലീനിയർ റെഗ്രഷന്റെ രൂപങ്ങളാണ്."
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
+msgstr ""
+"ഒരു തുടർച്ചയായ ആശ്രിത ചരവും ഒന്നോ അതിലധികമോ തുടർച്ചയായതും / വർഗീകരണ വിശദീകരണ "
+"ചരങ്ങൾക്കും ഇടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ലീനിയർ റെഗ്രഷൻ "
+"ഉപയോഗിക്കുന്നു. മറ്റ് സ്ഥിതിവിവരക്കണക്ക് രീതികൾ, അവയവങ്ങൾ, എന്നിവ "
+"യാഥാർത്ഥ്യത്തിൽ ലീനിയർ റെഗ്രഷന്റെ രൂപങ്ങളാണ്."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -2944,6 +3069,10 @@ msgstr "Lower"
 msgid "lower bound"
 msgstr "താഴ്ന്ന പരിധി"
 
+#: R/descriptives.b.R
+msgid "Lowest"
+msgstr ""
+
 #: R/linreg.b.R
 #, fuzzy
 msgid "Mahalanobis ChiSq"
@@ -2973,8 +3102,12 @@ msgstr "മഹാലനോബിസ് ദൂരം (p)"
 
 #: R/linreg.b.R
 #, fuzzy
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "മഹാലനോബിസ് ദൂരം രണ്ടോ അതിലധികമോ സഹവിശിഷ്ടവകുപ്പുകളുള്ള മോഡലുകൾക്കായി മാത്രമായി കണക്കാക്കാൻ കഴിയും"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
+msgstr ""
+"മഹാലനോബിസ് ദൂരം രണ്ടോ അതിലധികമോ സഹവിശിഷ്ടവകുപ്പുകളുള്ള മോഡലുകൾക്കായി "
+"മാത്രമായി കണക്കാക്കാൻ കഴിയും"
 
 #: R/linreg.b.R
 #, fuzzy
@@ -3470,8 +3603,14 @@ msgstr "മൾട്ടിനോമിയൽ ലോജിസ്റ്റിക�
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 #, fuzzy
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "ഒന്നിലധികം ആശ്രിത ചാരങ്ങളുടെയും ഒന്നോ അതിലധികമോ വർഗീകരണ വും തുടർച്ചയായ വിശദീകരണ ചാരങ്ങളുടെയും ബന്ധം പരിശോധിക്കാൻ (MANCOVA) ബഹുമുഖ വിശകലനം (Co) വേരിയൻസ് ഉപയോഗിക്കുന്നു."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
+msgstr ""
+"ഒന്നിലധികം ആശ്രിത ചാരങ്ങളുടെയും ഒന്നോ അതിലധികമോ വർഗീകരണ വും തുടർച്ചയായ "
+"വിശദീകരണ ചാരങ്ങളുടെയും ബന്ധം പരിശോധിക്കാൻ (MANCOVA) ബഹുമുഖ വിശകലനം (Co) "
+"വേരിയൻസ് ഉപയോഗിക്കുന്നു."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3519,8 +3658,12 @@ msgstr "പരിഹരിക്കാത്തത്"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "No factors defined. Box's M test is only relevant when model contains factors."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
+msgstr ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3633,8 +3776,12 @@ msgstr "Number of factors"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr "Number of requested extreme values is higher than the number of rows in the data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
+msgstr ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -3744,8 +3891,12 @@ msgstr "One or both variables do not contain enough observations"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "മോഡൽ '{modelNo}' ലെ ഒന്നോ അതിലധികമോ ഗുണങ്ങളും കണക്കാക്കാൻ കഴിഞ്ഞില്ല. പരിപൂർണ കോലിനിയാരിറ്റി കാരണം"
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
+msgstr ""
+"മോഡൽ '{modelNo}' ലെ ഒന്നോ അതിലധികമോ ഗുണങ്ങളും കണക്കാക്കാൻ കഴിഞ്ഞില്ല. "
+"പരിപൂർണ കോലിനിയാരിറ്റി കാരണം"
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -3975,14 +4126,16 @@ msgstr "Partial Correlation"
 
 #: package/analyses/corrPart.description
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr "വപ്ച്പ് വപ്ച്ത് വപ്ച്പ് വപ്ച്പ് വപ്ച്ത് വപ്ച്പ് വപ്ച്ത്ച്പ് വപ്ച്പ്"
 
 #: corrPart/options.description.main
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -4000,11 +4153,24 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "ഭാഗിക ബന്ധപ്പെട്ട മാത്രികകൾ രണ്ടോ അതിലധികമോ തുടർച്ചയായ വേരിയബിളുകൾ തമ്മിലുള്ള രേഖീയ ബന്ധങ്ങൾ പരിശോധിക്കാനുള്ള ഒരു മാർഗമാണ്, മറ്റ് വേരിയബിളുകൾ നിയന്ത്രിക്കുമ്പോൾ\n"
+msgstr ""
+"ഭാഗിക ബന്ധപ്പെട്ട മാത്രികകൾ രണ്ടോ അതിലധികമോ തുടർച്ചയായ വേരിയബിളുകൾ "
+"തമ്മിലുള്ള രേഖീയ ബന്ധങ്ങൾ പരിശോധിക്കാനുള്ള ഒരു മാർഗമാണ്, മറ്റ് വേരിയബിളുകൾ "
+"നിയന്ത്രിക്കുമ്പോൾ\n"
 "\n"
-"ഓരോ ജോടി വേരിയബിളുകൾക്കും വേണ്ടിയുള്ള പീയർസന്റെ r വില ആ രണ്ട് വേരിയബിളുകൾ തമ്മിലുള്ള ബന്ധത്തിന്റെ ശക്തിയും ദിശയും സൂചിപ്പിക്കുന്നു. ഒരു സാനുകൂല വില ഒരു സാനുകൂല ബന്ധത്തെ (ഒരു വേരിയബിളിന്റെ ഉയർന്ന മൂല്യങ്ങൾ മറ്റൊരു വേരിയബിളിന്റെ ഉയർന്ന മൂല്യങ്ങൾ പ്രവചിക്കുന്നു) സൂചിപ്പിക്കുന്നു. ഒരു പ്രതികൂല പീയർസൺസ് r ഒരു പ്രതികൂല ബന്ധത്തെ (ഒരു വേരിയബിളിന്റെ ഉയർന്ന മൂല്യങ്ങൾ മറ്റൊന്നിന്റെ താഴ്ന്ന മൂല്യങ്ങൾ പ്രവചിക്കുന്നു, തിരിച്ചും) സൂചിപ്പിക്കുന്നു. ഒരു വില ഒരു ബന്ധമില്ലാത്തതിനെ (ഒരു വേരിയബിൾ ഉയർന്നതോ താഴ്ന്നതോ ആയാലും, മറ്റേ വേരിയബിളിന്റെ വില എന്തെങ്കിലും പ്രവചിക്കാൻ കഴിയില്ല) \n"
+"ഓരോ ജോടി വേരിയബിളുകൾക്കും വേണ്ടിയുള്ള പീയർസന്റെ r വില ആ രണ്ട് വേരിയബിളുകൾ "
+"തമ്മിലുള്ള ബന്ധത്തിന്റെ ശക്തിയും ദിശയും സൂചിപ്പിക്കുന്നു. ഒരു സാനുകൂല വില "
+"ഒരു സാനുകൂല ബന്ധത്തെ (ഒരു വേരിയബിളിന്റെ ഉയർന്ന മൂല്യങ്ങൾ മറ്റൊരു "
+"വേരിയബിളിന്റെ ഉയർന്ന മൂല്യങ്ങൾ പ്രവചിക്കുന്നു) സൂചിപ്പിക്കുന്നു. ഒരു "
+"പ്രതികൂല പീയർസൺസ് r ഒരു പ്രതികൂല ബന്ധത്തെ (ഒരു വേരിയബിളിന്റെ ഉയർന്ന "
+"മൂല്യങ്ങൾ മറ്റൊന്നിന്റെ താഴ്ന്ന മൂല്യങ്ങൾ പ്രവചിക്കുന്നു, തിരിച്ചും) "
+"സൂചിപ്പിക്കുന്നു. ഒരു വില ഒരു ബന്ധമില്ലാത്തതിനെ (ഒരു വേരിയബിൾ ഉയർന്നതോ "
+"താഴ്ന്നതോ ആയാലും, മറ്റേ വേരിയബിളിന്റെ വില എന്തെങ്കിലും പ്രവചിക്കാൻ കഴിയില്ല) "
 "\n"
-"കൂടുതൽ ഔപചാരികമായി, ബന്ധം പൂജ്യമല്ലെന്ന സുന്നത്ത പ്രസ്താവന പരീക്ഷിക്കാനും ഒരു p-വില കണക്കാക്കാനും കഴിയും. പി വില കുറവായതിനാൽ, ബന്ധപ്പെട്ട ഗുണകം പൂജ്യമല്ല, രണ്ട് വേരിയബിളുകൾ തമ്മിൽ രേഖീയമോ കൂടുതൽ സങ്കീർണ്ണമോ ആയ ബന്ധമുണ്ട്"
+"\n"
+"കൂടുതൽ ഔപചാരികമായി, ബന്ധം പൂജ്യമല്ലെന്ന സുന്നത്ത പ്രസ്താവന പരീക്ഷിക്കാനും "
+"ഒരു p-വില കണക്കാക്കാനും കഴിയും. പി വില കുറവായതിനാൽ, ബന്ധപ്പെട്ട ഗുണകം "
+"പൂജ്യമല്ല, രണ്ട് വേരിയബിളുകൾ തമ്മിൽ രേഖീയമോ കൂടുതൽ സങ്കീർണ്ണമോ ആയ ബന്ധമുണ്ട്"
 
 #: anovaRM/options/effectSize/partEta.title
 #, fuzzy
@@ -4060,6 +4226,10 @@ msgstr "പിയേഴ്സൺ r"
 msgid "Pearson{}Correlation"
 msgstr "Pearson{}Correlation"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -4104,8 +4274,12 @@ msgstr "ഒരു മാൻ-വിറ്റ്നി യു പരീക്ഷ �
 
 #: ttestOneS/options/norm.description.ui
 #, fuzzy
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -4121,14 +4295,23 @@ msgstr "ഫിഷർസിന്റെ (അല്ലെങ്കിൽ 'സാ�
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "സാധാരണതയുടെ ശാപിറോ-വിൽക്ക് പരീക്ഷണങ്ങൾ നടത്തുക. ഒരു താഴ്ന്ന p-മൂല്യം ഡാറ്റ ഒരു സാധാരണ വിതരണത്തിൽ നിന്ന് ലഭിക്കില്ലെന്ന് സൂചിപ്പിക്കുന്നു."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"സാധാരണതയുടെ ശാപിറോ-വിൽക്ക് പരീക്ഷണങ്ങൾ നടത്തുക. ഒരു താഴ്ന്ന p-മൂല്യം ഡാറ്റ "
+"ഒരു സാധാരണ വിതരണത്തിൽ നിന്ന് ലഭിക്കില്ലെന്ന് സൂചിപ്പിക്കുന്നു."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "അവശേഷിപ്പിക്കുന്ന സാധാരണതയുടെ ശാപിറോ-വിൽക്ക് പരീക്ഷകൾ നടത്തുക. ഒരു താഴ്ന്ന p-മൂല്യം അവശേഷിപ്പിക്കൽ സാധാരണമായി വിതരണം ചെയ്യപ്പെടില്ലെന്ന് സൂചിപ്പിക്കുന്നു"
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
+msgstr ""
+"അവശേഷിപ്പിക്കുന്ന സാധാരണതയുടെ ശാപിറോ-വിൽക്ക് പരീക്ഷകൾ നടത്തുക. ഒരു താഴ്ന്ന "
+"p-മൂല്യം അവശേഷിപ്പിക്കൽ സാധാരണമായി വിതരണം ചെയ്യപ്പെടില്ലെന്ന് "
+"സൂചിപ്പിക്കുന്നു"
 
 #: ttestIS/options/students.description.ui
 #, fuzzy
@@ -4208,7 +4391,7 @@ msgstr "പ്ലോട്ട് തരം"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4318,7 +4501,9 @@ msgstr "പ്രതീക്ഷിക്കുന്ന സാധ്യത … 
 #: R/logregbin.b.R
 #, fuzzy
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr "{dep} = {level1} (vs {dep} = {level2}) എന്നതിനുള്ള {dep} എന്നതിന്റെ പ്രതീക്ഷിച്ച സാധ്യത"
+msgstr ""
+"{dep} = {level1} (vs {dep} = {level2}) എന്നതിനുള്ള {dep} എന്നതിന്റെ "
+"പ്രതീക്ഷിച്ച സാധ്യത"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -4450,8 +4635,12 @@ msgstr "പോസ്റ്റ്-ഹോക്ക് പരീക്ഷണങ്�
 
 #: ttestOneS/options/ci.description.ui
 #, fuzzy
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "ശരാശരി കണക്കുകൂട്ടലിനും പരീക്ഷാ മൂല്യത്തിനുമിടയിലുള്ള വ്യത്യാസത്തിന് വിശ്വാസ ഇടവേള നൽകുക."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
+msgstr ""
+"ശരാശരി കണക്കുകൂട്ടലിനും പരീക്ഷാ മൂല്യത്തിനുമിടയിലുള്ള വ്യത്യാസത്തിന് വിശ്വാസ "
+"ഇടവേള നൽകുക."
 
 #: corrMatrix/options/plots.description.ui
 #, fuzzy
@@ -4478,8 +4667,16 @@ msgstr "ചരങ്ങൾക്കിടയിലുള്ള ഓരോ കൂ�
 
 #: ttestOneS/options/qq.description.ui
 #, fuzzy
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "അവശേഷിപ്പിക്കൽ - യഥാർത്ഥ അവശേഷിപ്പിക്കൽ യാഥാർത്ഥികമായി സാധാരണമായി വിതരണം ചെയ്യുന്ന ഡാറ്റയുമായി താരതമ്യപ്പെടുത്തുന്ന ഒരു Q-Q പ്ലോട്ട് നൽകുക. വക്രരേഖയിൽ നിന്നുള്ള വലിയ വ്യതിയാനങ്ങൾ ഡാറ്റ ഒരു സാധാരണ വിതരണത്തിൽ നിന്ന് വരുന്നില്ലെന്ന് സൂചിപ്പിക്കുന്നു"
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"അവശേഷിപ്പിക്കൽ - യഥാർത്ഥ അവശേഷിപ്പിക്കൽ യാഥാർത്ഥികമായി സാധാരണമായി വിതരണം "
+"ചെയ്യുന്ന ഡാറ്റയുമായി താരതമ്യപ്പെടുത്തുന്ന ഒരു Q-Q പ്ലോട്ട് നൽകുക. "
+"വക്രരേഖയിൽ നിന്നുള്ള വലിയ വ്യതിയാനങ്ങൾ ഡാറ്റ ഒരു സാധാരണ വിതരണത്തിൽ നിന്ന് "
+"വരുന്നില്ലെന്ന് സൂചിപ്പിക്കുന്നു"
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4580,14 +4777,20 @@ msgstr "ഫലമായ വലിപ്പങ്ങൾ (കോഹൻസ് ഡ�
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 #, fuzzy
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
 msgstr "വപ്ച്പ് വപ്ച്ത് വപ്ച്പ് ക് വപ്ച്പ് വപ്ച്ത്ച്പ് വപ്ച്പ് വപ്ച്ത്ച്പ്"
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 #, fuzzy
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
+msgstr ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4602,8 +4805,12 @@ msgstr "provide mean differences with the post-hoc tests."
 
 #: ttestOneS/options/meanDiff.description.ui
 #, fuzzy
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "ശരാശരി വ്യത്യാസങ്ങൾ, മുതലാളിത്ത വ്യത്യാസങ്ങളുടെ ശരാശരി പൊരുത്തങ്ങൾ, മാതൃകാ കണക്ക്, പരീക്ഷാ മൂല്യം എന്നിവയ്ക്കിടയിൽ നൽകുക"
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
+msgstr ""
+"ശരാശരി വ്യത്യാസങ്ങൾ, മുതലാളിത്ത വ്യത്യാസങ്ങളുടെ ശരാശരി പൊരുത്തങ്ങൾ, മാതൃകാ "
+"കണക്ക്, പരീക്ഷാ മൂല്യം എന്നിവയ്ക്കിടയിൽ നൽകുക"
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4636,15 +4843,31 @@ msgstr "പോസ്റ്റ്-ഹോക്ക് പരീക്ഷകൾ ന
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
+msgstr ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
 
 #: anovaOneW/options/phSig.description.ui
 #, fuzzy
@@ -4659,7 +4882,9 @@ msgstr "ഗോളകങ്ങൾ നൽകുക."
 #: anovaOneW/options/phTest.description.ui
 #, fuzzy
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "പോസ്റ്റ്-ഹോക് പരീക്ഷകളുടെ പരീക്ഷാ ഫലങ്ങൾ (t-വിലും സ്വാതന്ത്ര്യത്തിന്റെ ഡിഗ്രീകളും) നൽകുക."
+msgstr ""
+"പോസ്റ്റ്-ഹോക് പരീക്ഷകളുടെ പരീക്ഷാ ഫലങ്ങൾ (t-വിലും സ്വാതന്ത്ര്യത്തിന്റെ "
+"ഡിഗ്രീകളും) നൽകുക."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -4679,7 +4904,7 @@ msgstr "കേസുകളുടെ എണ്ണം നൽകുക."
 msgid "Pseudo R²"
 msgstr "Pseudo R²"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 #, fuzzy
 msgid "Q-Q"
 msgstr "ക്യു-ക്യു"
@@ -4723,7 +4948,7 @@ msgstr "ബഹുമുഖ നോർമൽത്വത്തിന്റെ ക�
 msgid "Q-Q plot of residuals"
 msgstr "അവശിഷ്ടങ്ങളുടെ Q-Q ഗ്രാഫ്"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 #, fuzzy
 msgid "Q-Q Plots"
 msgstr "ക്യു-ക്യു പ്ലോട്ടുകൾ"
@@ -4985,8 +5210,12 @@ msgstr "ശേഷിക്കുന്ന ഗ്രാഫുകൾ"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
+msgstr ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -5109,6 +5338,7 @@ msgstr "വരി ചരം '{var}' 2 നേക്കാൾ കുറവ് ത�
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 msgid "Rows"
 msgstr "വരികൾ"
 
@@ -5336,8 +5566,12 @@ msgstr "സിമുലേഷനുകൾ"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "ഒരു പ്രതിരോധക ചരം മറ്റൊരു പ്രതിരോധക ചരങ്ങളുടെ രേഖീയ സംയോജനമാണ്; ഒന്നോ അതിലധികമോ പ്രതിരോധക ചരങ്ങൾ ഒരു പ്രശ്നമാണ്."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
+msgstr ""
+"ഒരു പ്രതിരോധക ചരം മറ്റൊരു പ്രതിരോധക ചരങ്ങളുടെ രേഖീയ സംയോജനമാണ്; ഒന്നോ "
+"അതിലധികമോ പ്രതിരോധക ചരങ്ങൾ ഒരു പ്രശ്നമാണ്."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -5706,14 +5940,16 @@ msgstr "The 'split by' variable '{var}' contains no data."
 
 #: ttestOneS/options/hypothesis.description.ui
 #, fuzzy
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "the alternative and null hypotheses;\n"
+msgstr ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5737,23 +5973,33 @@ msgstr "വപ്ച് വപ്ച്പ് വപ്ച്ത് വപ്ച
 #: package/analyses/ancova.description
 #: ancova/options.description.main
 #, fuzzy
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "കോവാരിയൻസ് (ANCOVA) നിരീക്ഷണം ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒന്നോ അതിലധികമോ വർഗീകരണ വിശദീകരണ ചരങ്ങൾ, ഒന്നോ അതിലധികമോ തുടർച്ചയായ വിശദീകരണ ചരങ്ങൾ (അല്ലെങ്കിൽ കോവാരിയന്റുകൾ) എന്നിവയ്ക്കിടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു. ഇത് കോവാരിയന്റുകളുടെ ചേർക്കലോടെ ANOVA യുടെ അതേ വിശകലനമാണ്."
+msgstr ""
+"കോവാരിയൻസ് (ANCOVA) നിരീക്ഷണം ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒന്നോ അതിലധികമോ "
+"വർഗീകരണ വിശദീകരണ ചരങ്ങൾ, ഒന്നോ അതിലധികമോ തുടർച്ചയായ വിശദീകരണ ചരങ്ങൾ "
+"(അല്ലെങ്കിൽ കോവാരിയന്റുകൾ) എന്നിവയ്ക്കിടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ "
+"ഉപയോഗിക്കുന്നു. ഇത് കോവാരിയന്റുകളുടെ ചേർക്കലോടെ ANOVA യുടെ അതേ വിശകലനമാണ്."
 
 #: package/analyses/anova.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "വേരിയൻസ് (ANOVA) നിരീക്ഷണം ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒന്നോ അതിലധികമോ വർഗീകരണ വിശദീകരണ ചരങ്ങൾ എന്നിവയ്ക്കിടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു."
+msgstr ""
+"വേരിയൻസ് (ANOVA) നിരീക്ഷണം ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒന്നോ അതിലധികമോ "
+"വർഗീകരണ വിശദീകരണ ചരങ്ങൾ എന്നിവയ്ക്കിടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ "
+"ഉപയോഗിക്കുന്നു."
 
 #: anova/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -5764,23 +6010,38 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "വിശലേഖനം (ANOVA) ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒരു തരം വിശദീകരണാത്മക ചരങ്ങളുടെ ഇടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു.\n"
+msgstr ""
+"വിശലേഖനം (ANOVA) ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒരു തരം വിശദീകരണാത്മക "
+"ചരങ്ങളുടെ ഇടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു.\n"
 "\n"
-"ANOVA അവശേഷിപ്പിക്കൽ സാധാരണമായി വിതരണം ചെയ്യപ്പെടുന്നു, കൂടാതെ എല്ലാ ഗ്രൂപ്പുകളുടെയും വ്യതിയാനങ്ങൾ തുല്യമാണ്. വാരിയൻസുകൾ തുല്യമാണെന്ന് ഒരാൾക്ക് ഊഹിക്കാൻ കഴിയില്ലെങ്കിൽ, ഒരു Welch's പരീക്ഷ ഉപയോഗിക്കാം (എന്നാൽ Welch's പരീക്ഷ ഒരു വിശദീകരണ ഘടകത്തെ മാത്രം പിന്തുണയ്ക്കുന്നില്ല). ബദലായി, ഡാറ്റ സാധാരണമായി വിതരണം ചെയ്യപ്പെടുന്നില്ലെന്ന് ഒരാൾക്ക് ഊഹിക്കാൻ കഴിയില്ലെങ്കിൽ, ഒരു അപരാമെട്രിക് സമീപനം (ഉദാഹരണത്തിന് Kruskal-Wallis) ഉപയോഗിക്കാം"
+"ANOVA അവശേഷിപ്പിക്കൽ സാധാരണമായി വിതരണം ചെയ്യപ്പെടുന്നു, കൂടാതെ എല്ലാ "
+"ഗ്രൂപ്പുകളുടെയും വ്യതിയാനങ്ങൾ തുല്യമാണ്. വാരിയൻസുകൾ തുല്യമാണെന്ന് ഒരാൾക്ക് "
+"ഊഹിക്കാൻ കഴിയില്ലെങ്കിൽ, ഒരു Welch's പരീക്ഷ ഉപയോഗിക്കാം (എന്നാൽ Welch's "
+"പരീക്ഷ ഒരു വിശദീകരണ ഘടകത്തെ മാത്രം പിന്തുണയ്ക്കുന്നില്ല). ബദലായി, ഡാറ്റ "
+"സാധാരണമായി വിതരണം ചെയ്യപ്പെടുന്നില്ലെന്ന് ഒരാൾക്ക് ഊഹിക്കാൻ കഴിയില്ലെങ്കിൽ, "
+"ഒരു അപരാമെട്രിക് സമീപനം (ഉദാഹരണത്തിന് Kruskal-Wallis) ഉപയോഗിക്കാം"
 
 #: package/analyses/anovaOneW.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "വിശലേഖനം (ANOVA) ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒരു തരം വിശദീകരണാത്മക ചരങ്ങളുടെ ഇടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു. 'വൺ-വേ ANOVA' എന്നത് 'നോർമൽ' ANOVA യുടെ ഒരു ലഘൂകരിച്ച പതിപ്പാണ്, ഒരു വിശദീകരണ ഘടകം മാത്രമേ അനുവദിക്കൂ, എന്നാൽ ഒരു Welch's ANOVA ഉം നൽകുന്നു. Welch's ANOVA യുടെ ഒരു പ്രയോജനം ഉണ്ട്, അത് എല്ലാ ഗ്രൂപ്പുകളുടെയും വ്യതിയാനങ്ങൾ തുല്യമാണെന്ന് അനുമാനിക്കുന്നില്ല"
+msgstr ""
+"വിശലേഖനം (ANOVA) ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരം, ഒരു തരം വിശദീകരണാത്മക "
+"ചരങ്ങളുടെ ഇടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു. 'വൺ-വേ ANOVA' "
+"എന്നത് 'നോർമൽ' ANOVA യുടെ ഒരു ലഘൂകരിച്ച പതിപ്പാണ്, ഒരു വിശദീകരണ ഘടകം മാത്രമേ "
+"അനുവദിക്കൂ, എന്നാൽ ഒരു Welch's ANOVA ഉം നൽകുന്നു. Welch's ANOVA യുടെ ഒരു "
+"പ്രയോജനം ഉണ്ട്, അത് എല്ലാ ഗ്രൂപ്പുകളുടെയും വ്യതിയാനങ്ങൾ തുല്യമാണെന്ന് "
+"അനുമാനിക്കുന്നില്ല"
 
 #: anovaOneW/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5792,11 +6053,19 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "വ്യതിയാനത്തിന്റെ വിശകലനം (എഎൻഒവിഎ) ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരത്തിനും ഒന്നോ അതിലധികമോ വിവരണാത്മക വിശദീകരണ ചരങ്ങൾക്കുമിടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു. ഈ 'വൺ-വേ എഎൻഒവിഎ' എന്നത് 'സാധാരണ' എഎൻഒവിഎയുടെ ഒരു ലഘൂകരിച്ച പതിപ്പാണ്, ഒരു വിശദീകരണ ഘടകം മാത്രമേ അനുവദിക്കൂ, എന്നാൽ ഒരു വെൽച്ച്സ് എഎൻഒവിഎയും നൽകുന്നു. വെൽച്ച്സ് എഎൻഒവിഎയ്ക്ക് എല്ലാ ഗ്രൂപ്പുകളുടെയും വ്യതിയാനങ്ങൾ തുല്യമാണെന്ന് അനുമാനിക്കേണ്ട ആവശ്യമില്ലാത്തതാണ് പ്രയോജനം.\n"
+msgstr ""
+"വ്യതിയാനത്തിന്റെ വിശകലനം (എഎൻഒവിഎ) ഒരു തുടർച്ചയായ അടിസ്ഥാന ചരത്തിനും ഒന്നോ "
+"അതിലധികമോ വിവരണാത്മക വിശദീകരണ ചരങ്ങൾക്കുമിടയിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ "
+"ഉപയോഗിക്കുന്നു. ഈ 'വൺ-വേ എഎൻഒവിഎ' എന്നത് 'സാധാരണ' എഎൻഒവിഎയുടെ ഒരു ലഘൂകരിച്ച "
+"പതിപ്പാണ്, ഒരു വിശദീകരണ ഘടകം മാത്രമേ അനുവദിക്കൂ, എന്നാൽ ഒരു വെൽച്ച്സ് "
+"എഎൻഒവിഎയും നൽകുന്നു. വെൽച്ച്സ് എഎൻഒവിഎയ്ക്ക് എല്ലാ ഗ്രൂപ്പുകളുടെയും "
+"വ്യതിയാനങ്ങൾ തുല്യമാണെന്ന് അനുമാനിക്കേണ്ട ആവശ്യമില്ലാത്തതാണ് പ്രയോജനം.\n"
 "\n"
-"സൗകര്യത്തിനായി, ഈ രീതി ഒന്നിലധികം അടിസ്ഥാന ചരങ്ങൾ നിർദ്ദേശിക്കാൻ അനുവദിക്കുന്നു, ഇത് ഒന്നിലധികം സ്വതന്ത്ര പരീക്ഷണങ്ങളിലേക്ക് നയിക്കുന്നു.\n"
+"സൗകര്യത്തിനായി, ഈ രീതി ഒന്നിലധികം അടിസ്ഥാന ചരങ്ങൾ നിർദ്ദേശിക്കാൻ "
+"അനുവദിക്കുന്നു, ഇത് ഒന്നിലധികം സ്വതന്ത്ര പരീക്ഷണങ്ങളിലേക്ക് നയിക്കുന്നു.\n"
 "\n"
-"വെൽച്ച്സ് എഎൻഒവിഎ വെൽച്ച്സ് സ്വതന്ത്ര മാതൃക ടി-പരീക്ഷണം എന്ന പ്രക്രിയ തന്നെയാണ്."
+"വെൽച്ച്സ് എഎൻഒവിഎ വെൽച്ച്സ് സ്വതന്ത്ര മാതൃക ടി-പരീക്ഷണം എന്ന പ്രക്രിയ "
+"തന്നെയാണ്."
 
 #: anovaRM/options/bs.description.ui
 #, fuzzy
@@ -5811,8 +6080,16 @@ msgstr "മോഡൽ നിന്നുള്ള വിഷയങ്ങൾക്�
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 #, fuzzy
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "ബൈനോമിയൽ പരീക്ഷണം ഒരു നിഷ്പക്ഷപാത സിദ്ധാന്തം പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു, നിരീക്ഷണങ്ങളുടെ അനുപാതം ചില പ്രതീക്ഷിച്ച മൂല്യത്തെ പിന്തുടരുന്നു. p-മൂല്യം കുറവായതിനാൽ, ഇത് നിഷ്പക്ഷപാത സിദ്ധാന്തം തിരസ്കരിക്കപ്പെടുന്നു, യഥാർത്ഥ അനുപാതം മറ്റൊരു മൂല്യമായിരിക്കും."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
+msgstr ""
+"ബൈനോമിയൽ പരീക്ഷണം ഒരു നിഷ്പക്ഷപാത സിദ്ധാന്തം പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു, "
+"നിരീക്ഷണങ്ങളുടെ അനുപാതം ചില പ്രതീക്ഷിച്ച മൂല്യത്തെ പിന്തുടരുന്നു. p-മൂല്യം "
+"കുറവായതിനാൽ, ഇത് നിഷ്പക്ഷപാത സിദ്ധാന്തം തിരസ്കരിക്കപ്പെടുന്നു, യഥാർത്ഥ "
+"അനുപാതം മറ്റൊരു മൂല്യമായിരിക്കും."
 
 #: ancova/options/factors.description.ui
 #, fuzzy
@@ -5821,7 +6098,9 @@ msgstr "വിവരണാത്മക (അല്ലെങ്കിൽ സ്വ
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
 msgstr "വപ്ച്പ് CI വപ്ച്പ് വപ്ച്ത്ച്പ് വപ്ച്പ് വപ്ച്ത്ച്പ് N - 1 ച്ച്പ്"
 
 #: ttestIS/options/ciWidthES.description.ui
@@ -5847,8 +6126,12 @@ msgstr "വിശ്വാസ ഇടവേള വീതി"
 
 #: ancova/options/covs.description.ui
 #, fuzzy
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "the continuous explanatory (or independent) variables, also known as covariates."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
+msgstr ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5874,6 +6157,7 @@ msgstr "കട്ട്-ഓഫ് മൂല്യം {} ആയി സെറ്�
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 #, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr "The dataset contains 0 rows (after removing rows with missing values)"
@@ -5885,19 +6169,34 @@ msgstr "The dataset contains 0 rows (or all rows contain missing values)"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "അനുബന്ധ ചരം '{}' രണ്ടിലധികം തലങ്ങൾ ഉണ്ട്; ബൈനോമിയൽ ലോജിസ്റ്റിക് റെഗ്രെഷൻ രണ്ട് തലങ്ങളുള്ള അനുബന്ധ ചരങ്ങളിൽ മാത്രമായി നടത്താം."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
+msgstr ""
+"അനുബന്ധ ചരം '{}' രണ്ടിലധികം തലങ്ങൾ ഉണ്ട്; ബൈനോമിയൽ ലോജിസ്റ്റിക് റെഗ്രെഷൻ "
+"രണ്ട് തലങ്ങളുള്ള അനുബന്ധ ചരങ്ങളിൽ മാത്രമായി നടത്താം."
 
 #: R/logregord.b.R
 #, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "The dependent variable '{dep}' has the following order: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 #, fuzzy
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
+msgstr ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
 
 #: ancova/options/dep.description.ui
 #, fuzzy
@@ -5911,8 +6210,12 @@ msgstr "അനുബന്ധ ചരം. ANOVA-യ്ക്കായി, ഈ ഇ
 
 #: ttestIS/options/vars.description.ui
 #, fuzzy
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "അടിസ്ഥാന ചരങ്ങൾ - നിർദ്ദേശിച്ച ഓരോ അടിസ്ഥാന ചരത്തിനും വേണ്ടിയുള്ള ഒരു t-പരീക്ഷണം നടത്തുന്നു."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
+msgstr ""
+"അടിസ്ഥാന ചരങ്ങൾ - നിർദ്ദേശിച്ച ഓരോ അടിസ്ഥാന ചരത്തിനും വേണ്ടിയുള്ള ഒരു "
+"t-പരീക്ഷണം നടത്തുന്നു."
 
 #: anovaOneW/options/deps.description.ui
 #, fuzzy
@@ -5933,20 +6236,48 @@ msgstr "the explanatory or independent variable. For ANOVA this will be categori
 
 #: anova/options/factors.description.ui
 #, fuzzy
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr "the explanatory or independent variables. For ANOVA these will be categorical."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
+msgstr ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 #, fuzzy
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
+msgstr ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 #, fuzzy
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "ക്രുസ്കാൽ-വാലിസ് പരീക്ഷണം ഒരു തുടർച്ചയായ ആശ്രയിക്കുന്ന വേരിയബിൾ, ഒരു വിവരണാത്മക വിശദീകരണ ചരം എന്നിവയ്ക്കിടയിലുള്ള ബന്ധം ആരായുന്നതിന് ഉപയോഗിക്കുന്നു. ഇത് എഎൻഒവിഎയ്ക്ക് സമാനമാണ്, പക്ഷേ അതിന് നോൺ-പാരാമെട്രിക് ആയതിനാൽ നല്ല പ്രയോജനം ഉണ്ട്, കുറഞ്ഞ അനുമാനങ്ങളുണ്ട്. എന്നിരുന്നാലും, അതിന് ഒരു പരിമിതി ഉണ്ട്, അത് ഒരേസമയം ഒരു വിശദീകരണ ചരത്തെ മാത്രമേ പരീക്ഷിക്കാൻ കഴിയൂ"
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
+msgstr ""
+"ക്രുസ്കാൽ-വാലിസ് പരീക്ഷണം ഒരു തുടർച്ചയായ ആശ്രയിക്കുന്ന വേരിയബിൾ, ഒരു "
+"വിവരണാത്മക വിശദീകരണ ചരം എന്നിവയ്ക്കിടയിലുള്ള ബന്ധം ആരായുന്നതിന് "
+"ഉപയോഗിക്കുന്നു. ഇത് എഎൻഒവിഎയ്ക്ക് സമാനമാണ്, പക്ഷേ അതിന് നോൺ-പാരാമെട്രിക് "
+"ആയതിനാൽ നല്ല പ്രയോജനം ഉണ്ട്, കുറഞ്ഞ അനുമാനങ്ങളുണ്ട്. എന്നിരുന്നാലും, അതിന് "
+"ഒരു പരിമിതി ഉണ്ട്, അത് ഒരേസമയം ഒരു വിശദീകരണ ചരത്തെ മാത്രമേ പരീക്ഷിക്കാൻ കഴിയൂ"
 
 #: anovaRM/options/depLabel.description.ui
 #, fuzzy
@@ -5962,13 +6293,24 @@ msgstr "മോഡൽ ഉൾപ്പെടുത്താൻ ഉപയോഗി�
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "ഇല്ലാത്ത വില ഒഴിവാക്കൽ രീതി. `വിശകലനം പ്രകാരം` എന്നത് ഓരോ വിശകലനത്തിൽ നിന്നും ഇല്ലാത്ത വിലകൾ ഒഴിവാക്കുന്നു. `ലിസ്റ്റ്‌വൈസ്` എന്നത് ഒരു വില ഇല്ലാത്താൽ എല്ലാ വിശകലനങ്ങളിൽ നിന്നും ഒരു വരി ഒഴിവാക്കുന്നു."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"ഇല്ലാത്ത വില ഒഴിവാക്കൽ രീതി. `വിശകലനം പ്രകാരം` എന്നത് ഓരോ വിശകലനത്തിൽ "
+"നിന്നും ഇല്ലാത്ത വിലകൾ ഒഴിവാക്കുന്നു. `ലിസ്റ്റ്‌വൈസ്` എന്നത് ഒരു വില "
+"ഇല്ലാത്താൽ എല്ലാ വിശകലനങ്ങളിൽ നിന്നും ഒരു വരി ഒഴിവാക്കുന്നു."
 
 #: ttestOneS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "വപ്ച് വപ്ച്പ് വപ്ച്ത് വപ്ച്പ് വപ്ച്പ് `Analysis by analysis` വപ്ച്പ് വപ്ച്ത് വപ്ച്പ് വപ്ച്ത് `Listwise` വപ്ച്പ് വപ്ച്പ് വപ്ച്ത്ച്പ് വപ്ച്പ് വപ്ച്ത്ച്പ്"
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"വപ്ച് വപ്ച്പ് വപ്ച്ത് വപ്ച്പ് വപ്ച്പ് `Analysis by analysis` വപ്ച്പ് വപ്ച്ത് "
+"വപ്ച്പ് വപ്ച്ത് `Listwise` വപ്ച്പ് വപ്ച്പ് വപ്ച്ത്ച്പ് വപ്ച്പ് വപ്ച്ത്ച്പ്"
 
 #: ancova/options/modelTerms.description.ui
 #, fuzzy
@@ -5977,13 +6319,22 @@ msgstr "മോഡൽ ഘടകങ്ങൾ"
 
 #: anova/options/modelTerms.description.ui
 #, fuzzy
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "മോഡൽ പദങ്ങൾ, മോഡൽ രൂപപ്പെടുത്തുന്നവ. പ്രാഥമികമായി ഒരു പൂർണ്ണ ഫാക്ടോറിയൽ മോഡൽ സൃഷ്ടിക്കപ്പെടുന്നു, എന്നാൽ ഇവിടെ മോഡൽ രൂപപ്പെടുത്തുന്ന ആവശ്യമുള്ള പദങ്ങൾ ക്രമീകരിക്കാം."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
+msgstr ""
+"മോഡൽ പദങ്ങൾ, മോഡൽ രൂപപ്പെടുത്തുന്നവ. പ്രാഥമികമായി ഒരു പൂർണ്ണ ഫാക്ടോറിയൽ മോഡൽ "
+"സൃഷ്ടിക്കപ്പെടുന്നു, എന്നാൽ ഇവിടെ മോഡൽ രൂപപ്പെടുത്തുന്ന ആവശ്യമുള്ള പദങ്ങൾ "
+"ക്രമീകരിക്കാം."
 
 #: ttestPS/options/pairs.description.ui
 #, fuzzy
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "അളവുകൾക്കിടയിലുള്ള ജോടികൾ - അളവുകൾക്കിടയിലുള്ള ഓരോ ജോടിക്കും വേണ്ടിയുള്ള ഒരു പ്രത്യേക t-പരീക്ഷണം നടത്തുന്നു."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
+msgstr ""
+"അളവുകൾക്കിടയിലുള്ള ജോടികൾ - അളവുകൾക്കിടയിലുള്ള ഓരോ ജോടിക്കും വേണ്ടിയുള്ള ഒരു "
+"പ്രത്യേക t-പരീക്ഷണം നടത്തുന്നു."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -5994,28 +6345,43 @@ msgstr "the post-hoc multiple comparisons corrections to use."
 
 #: ttestIS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "സ്റ്റുഡന്റ്സ് t-പരീക്ഷണത്തിന്റെ ബേസ് ഘടകങ്ങൾക്കായുള്ള മുമ്പത്തെ വീതി. 0.01 നും 2.0 നും ഇടയിലുള്ള ഒരു മൂല്യം ആവശ്യമാണ്, സാധാരണയായി 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
+msgstr ""
+"സ്റ്റുഡന്റ്സ് t-പരീക്ഷണത്തിന്റെ ബേസ് ഘടകങ്ങൾക്കായുള്ള മുമ്പത്തെ വീതി. 0.01 "
+"നും 2.0 നും ഇടയിലുള്ള ഒരു മൂല്യം ആവശ്യമാണ്, സാധാരണയായി 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "സ്റ്റുഡന്റ്സ് t-പരീക്ഷയ്ക്കായുള്ള മുൻഗണന വീതി, ഒരു മൂല്യം 0.5 നും 2.0 നും ഇടയിൽ ആവശ്യമാണ്, സ്വതേ 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
+msgstr ""
+"സ്റ്റുഡന്റ്സ് t-പരീക്ഷയ്ക്കായുള്ള മുൻഗണന വീതി, ഒരു മൂല്യം 0.5 നും 2.0 നും "
+"ഇടയിൽ ആവശ്യമാണ്, സ്വതേ 0.707."
 
 #: package/analyses/anovaRM.description
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "ഒരു തുടർച്ചയായി ആവർത്തിക്കുന്ന അനോവ ഒരു നിരന്തര ആശ്രിത ചരവും ഒന്നോ അതിലധികമോ വിവരണാത്മക ചരങ്ങൾ തമ്മിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു, അവയിൽ ഒന്നോ അതിലധികമോ 'വിഷയങ്ങൾക്കിടയിൽ' (ഒരേ വിഷയത്തിൽ നിന്ന് പല അളവുകൾ ഉണ്ട്) ആണ്. കൂടാതെ, ഈ വിശകലനം കോവാരിയേറ്റുകളുടെ ഉൾപ്പെടുത്തലിന് അനുവദിക്കുന്നു, ഇത് ആവർത്തിച്ചുള്ള അളവുകൾ അന്‌കോവാകളും അനുവദിക്കുന്നു."
+msgstr ""
+"ഒരു തുടർച്ചയായി ആവർത്തിക്കുന്ന അനോവ ഒരു നിരന്തര ആശ്രിത ചരവും ഒന്നോ അതിലധികമോ "
+"വിവരണാത്മക ചരങ്ങൾ തമ്മിലുള്ള ബന്ധം പര്യവേക്ഷണം ചെയ്യാൻ ഉപയോഗിക്കുന്നു, അവയിൽ "
+"ഒന്നോ അതിലധികമോ 'വിഷയങ്ങൾക്കിടയിൽ' (ഒരേ വിഷയത്തിൽ നിന്ന് പല അളവുകൾ ഉണ്ട്) "
+"ആണ്. കൂടാതെ, ഈ വിശകലനം കോവാരിയേറ്റുകളുടെ ഉൾപ്പെടുത്തലിന് അനുവദിക്കുന്നു, ഇത് "
+"ആവർത്തിച്ചുള്ള അളവുകൾ അന്‌കോവാകളും അനുവദിക്കുന്നു."
 
 #: anovaRM/options.description.main
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -6029,7 +6395,8 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgstr ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -6051,8 +6418,12 @@ msgstr "ആവർത്തിച്ചുള്ള രൂപകൽപ്പന"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
+msgstr ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
 
 #: anovaRM/options/rmCells.description.ui
 #, fuzzy
@@ -6066,20 +6437,33 @@ msgstr "മോഡലിന്റെ ആവർത്തിച്ചുള്ള �
 
 #: R/utilsreg.R
 #, fuzzy
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "താഴെപ്പറയുന്ന ചരങ്ങളുടെ കൂടെ {vars} പറഞ്ഞ റഫറൻസ് തലം കണ്ടെത്തിയില്ല: . ആദ്യത്തെ ലഭ്യമായ തലത്തിലേക്ക് ഡിഫോൾട്ട് ചെയ്യുന്നു. ഒരു കസ്റ്റം റഫറൻസ് തലം ഉപയോഗിക്കാൻ, നിർവചിച്ച റഫറൻസ് തലം ഡാറ്റയിൽ ലഭ്യമാണെന്ന് ഉറപ്പാക്കുക."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
+msgstr ""
+"താഴെപ്പറയുന്ന ചരങ്ങളുടെ കൂടെ {vars} പറഞ്ഞ റഫറൻസ് തലം കണ്ടെത്തിയില്ല: . "
+"ആദ്യത്തെ ലഭ്യമായ തലത്തിലേക്ക് ഡിഫോൾട്ട് ചെയ്യുന്നു. ഒരു കസ്റ്റം റഫറൻസ് തലം "
+"ഉപയോഗിക്കാൻ, നിർവചിച്ച റഫറൻസ് തലം ഡാറ്റയിൽ ലഭ്യമാണെന്ന് ഉറപ്പാക്കുക."
 
 #: package/analyses/ttestIS.description
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "സ്റ്റുഡന്റ്സ് ഇൻഡിപെൻഡന്റ് സാമ്പിൾസ് ടി-ടെസ്റ്റ് (ചിലപ്പോൾ രണ്ട് സാമ്പിൾസ് ടി-ടെസ്റ്റ് എന്ന് വിളിക്കുന്നു) രണ്ട് ഗ്രൂപ്പുകൾക്ക് ഒരേ ശരാശരി ഉണ്ടെന്ന നൽ ഹൈപ്പോതെസിസ് പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു കുറഞ്ഞ പി-വിലുയർത്തൽ നൽ ഹൈപ്പോതെസിസ് ശരിയല്ലെന്നും അതിനാൽ ഗ്രൂപ്പ് ശരാശരികൾ വ്യത്യസ്തമാണെന്നും സൂചിപ്പിക്കുന്നു."
+msgstr ""
+"സ്റ്റുഡന്റ്സ് ഇൻഡിപെൻഡന്റ് സാമ്പിൾസ് ടി-ടെസ്റ്റ് (ചിലപ്പോൾ രണ്ട് സാമ്പിൾസ് "
+"ടി-ടെസ്റ്റ് എന്ന് വിളിക്കുന്നു) രണ്ട് ഗ്രൂപ്പുകൾക്ക് ഒരേ ശരാശരി ഉണ്ടെന്ന നൽ "
+"ഹൈപ്പോതെസിസ് പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു കുറഞ്ഞ പി-വിലുയർത്തൽ നൽ "
+"ഹൈപ്പോതെസിസ് ശരിയല്ലെന്നും അതിനാൽ ഗ്രൂപ്പ് ശരാശരികൾ വ്യത്യസ്തമാണെന്നും "
+"സൂചിപ്പിക്കുന്നു."
 
 #: ttestIS/options.description.main
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -6092,24 +6476,40 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "സ്റ്റുഡന്റ്സ് ഇൻഡിപെൻഡന്റ് സാമ്പിൾസ് ടി-ടെസ്റ്റ് (ചിലപ്പോൾ രണ്ട് സാമ്പിൾസ് ടി-ടെസ്റ്റ് എന്ന് വിളിക്കുന്നു) രണ്ട് ഗ്രൂപ്പുകൾക്ക് ഒരേ ശരാശരി ഉണ്ടെന്ന നൽ ഹൈപ്പോതെസിസ് പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു കുറഞ്ഞ പി-വിലുയർത്തൽ നൽ ഹൈപ്പോതെസിസ് ശരിയല്ലെന്നും അതിനാൽ ഗ്രൂപ്പ് ശരാശരികൾ വ്യത്യസ്തമാണെന്നും സൂചിപ്പിക്കുന്നു.\n"
+msgstr ""
+"സ്റ്റുഡന്റ്സ് ഇൻഡിപെൻഡന്റ് സാമ്പിൾസ് ടി-ടെസ്റ്റ് (ചിലപ്പോൾ രണ്ട് സാമ്പിൾസ് "
+"ടി-ടെസ്റ്റ് എന്ന് വിളിക്കുന്നു) രണ്ട് ഗ്രൂപ്പുകൾക്ക് ഒരേ ശരാശരി ഉണ്ടെന്ന നൽ "
+"ഹൈപ്പോതെസിസ് പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു കുറഞ്ഞ പി-വിലുയർത്തൽ നൽ "
+"ഹൈപ്പോതെസിസ് ശരിയല്ലെന്നും അതിനാൽ ഗ്രൂപ്പ് ശരാശരികൾ വ്യത്യസ്തമാണെന്നും "
+"സൂചിപ്പിക്കുന്നു.\n"
 "\n"
-"സ്റ്റുഡന്റ്സ് ഇൻഡിപെൻഡന്റ് ടി-ടെസ്റ്റ് ഓരോ ഗ്രൂപ്പിന്റെയും ഡാറ്റ ഒരു നോർമൽ വിതരണത്തിൽ നിന്ന് വരുന്നുവെന്നും ഇത്തരം ഗ്രൂപ്പുകളുടെ വിശാലതകൾ തുല്യമാണെന്നും അനുമാനിക്കുന്നു. ഗ്രൂപ്പുകൾക്ക് തുല്യ വിശാലതകൾ ഉണ്ടെന്ന് കരുതാൻ ഞാൻ വിസമ്മതിക്കുകയാണെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് വെൽച്ചിന്റെ ടി-ടെസ്റ്റ് ഉപയോഗിക്കാം. ഒരു ഗ്രൂപ്പിൽ നിന്നുള്ള ഡാറ്റ ഒരു നോർമൽ വിതരണത്തിൽ നിന്ന് വരുന്നുവെന്നും കരുതാൻ ഞാൻ വിസമ്മതിക്കുകയാണെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് നോൺ-പാരാമെട്രിക് മാൻ-വിറ്റ്നി യു ടെസ്റ്റ് ഉപയോഗിക്കാം (എന്നാൽ മാൻ-വിറ്റ്നി യു ടെസ്റ്റിന് അല്പം വ്യത്യസ്തമായ നൽ ഹൈപ്പോതെസിസ് ഉണ്ടെന്ന് ശ്രദ്ധിക്കുക; ഓരോ ഗ്രൂപ്പിന്റെയും വിതരണങ്ങൾ തുല്യമാണ്)."
+"സ്റ്റുഡന്റ്സ് ഇൻഡിപെൻഡന്റ് ടി-ടെസ്റ്റ് ഓരോ ഗ്രൂപ്പിന്റെയും ഡാറ്റ ഒരു നോർമൽ "
+"വിതരണത്തിൽ നിന്ന് വരുന്നുവെന്നും ഇത്തരം ഗ്രൂപ്പുകളുടെ വിശാലതകൾ "
+"തുല്യമാണെന്നും അനുമാനിക്കുന്നു. ഗ്രൂപ്പുകൾക്ക് തുല്യ വിശാലതകൾ ഉണ്ടെന്ന് "
+"കരുതാൻ ഞാൻ വിസമ്മതിക്കുകയാണെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് വെൽച്ചിന്റെ ടി-ടെസ്റ്റ് "
+"ഉപയോഗിക്കാം. ഒരു ഗ്രൂപ്പിൽ നിന്നുള്ള ഡാറ്റ ഒരു നോർമൽ വിതരണത്തിൽ നിന്ന് "
+"വരുന്നുവെന്നും കരുതാൻ ഞാൻ വിസമ്മതിക്കുകയാണെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് "
+"നോൺ-പാരാമെട്രിക് മാൻ-വിറ്റ്നി യു ടെസ്റ്റ് ഉപയോഗിക്കാം (എന്നാൽ മാൻ-വിറ്റ്നി "
+"യു ടെസ്റ്റിന് അല്പം വ്യത്യസ്തമായ നൽ ഹൈപ്പോതെസിസ് ഉണ്ടെന്ന് ശ്രദ്ധിക്കുക; ഓരോ "
+"ഗ്രൂപ്പിന്റെയും വിതരണങ്ങൾ തുല്യമാണ്)."
 
 #: package/analyses/ttestOneS.description
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgstr ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 
 #: ttestOneS/options.description.main
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -6119,22 +6519,38 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "ഒരു നമൂനയ്ക്കുള്ള സ്റ്റുഡന്റ്സ് ടി-പരീക്ഷ ഒരു നിശ്ചിത മൂല്യത്തിന് (സാധാരണയായി പൂജ്യം) തുല്യമായ യഥാർത്ഥ മൂല്യമാണെന്ന സുന്നി സിദ്ധാന്തത്തെ പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു താഴ്ന്ന p-മൂല്യം സുന്നി സിദ്ധാന്തം ശരിയല്ലെന്നും അതിനാൽ യഥാർത്ഥ മൂല്യം പരീക്ഷാ മൂല്യത്തിൽ നിന്ന് വ്യത്യസ്തമാണെന്നും സൂചിപ്പിക്കുന്നു. \n"
+msgstr ""
+"ഒരു നമൂനയ്ക്കുള്ള സ്റ്റുഡന്റ്സ് ടി-പരീക്ഷ ഒരു നിശ്ചിത മൂല്യത്തിന് "
+"(സാധാരണയായി പൂജ്യം) തുല്യമായ യഥാർത്ഥ മൂല്യമാണെന്ന സുന്നി സിദ്ധാന്തത്തെ "
+"പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു താഴ്ന്ന p-മൂല്യം സുന്നി സിദ്ധാന്തം "
+"ശരിയല്ലെന്നും അതിനാൽ യഥാർത്ഥ മൂല്യം പരീക്ഷാ മൂല്യത്തിൽ നിന്ന് "
+"വ്യത്യസ്തമാണെന്നും സൂചിപ്പിക്കുന്നു. \n"
 "\n"
-"ഒരു നമൂനയ്ക്കുള്ള വിദ്യാർത്ഥിയുടെ t-പരീക്ഷ ഡാറ്റ ഒരു സാധാരണ വിതരണത്തിൽ നിന്ന് വരുന്നുവെന്ന് അനുമാനിക്കുന്നു - ഒരാൾ ഈ കാര്യം അനുമാനിക്കാൻ തയ്യാറല്ലെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് നോൺ-പാരാമെട്രിക് വിൽകോക്സൺ സൈൻഡ്-റാങ്ക് ഉപയോഗിക്കാം (എന്നാൽ വിൽകോക്സൺ സൈൻഡ്-റാങ്ക് വ്യത്യസ്തമായ ഒരു നിശ്ചിത സിദ്ധാന്തം ഉണ്ടെന്ന് ശ്രദ്ധിക്കുക; പരീക്ഷാ മൂല്യത്തിന് തുല്യമായ മധ്യമയാണ്)."
+"ഒരു നമൂനയ്ക്കുള്ള വിദ്യാർത്ഥിയുടെ t-പരീക്ഷ ഡാറ്റ ഒരു സാധാരണ വിതരണത്തിൽ "
+"നിന്ന് വരുന്നുവെന്ന് അനുമാനിക്കുന്നു - ഒരാൾ ഈ കാര്യം അനുമാനിക്കാൻ "
+"തയ്യാറല്ലെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് നോൺ-പാരാമെട്രിക് വിൽകോക്സൺ സൈൻഡ്-റാങ്ക് "
+"ഉപയോഗിക്കാം (എന്നാൽ വിൽകോക്സൺ സൈൻഡ്-റാങ്ക് വ്യത്യസ്തമായ ഒരു നിശ്ചിത "
+"സിദ്ധാന്തം ഉണ്ടെന്ന് ശ്രദ്ധിക്കുക; പരീക്ഷാ മൂല്യത്തിന് തുല്യമായ മധ്യമയാണ്)."
 
 #: package/analyses/ttestPS.description
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "സ്റ്റുഡന്റ്സ് ജോഡിയാക്കിയ നമൂനകളുടെ t-പരീക്ഷ (ചിലപ്പോൾ ആശ്രിത നമൂനകളുടെ t-പരീക്ഷ എന്ന് വിളിക്കുന്നു) ജോഡികളായുള്ള അളവുകളുടെ വ്യത്യാസം പൂജ്യത്തിന് തുല്യമാണെന്ന നിഷ്പക്ഷപാതം പരിശോധിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു താഴ്ന്ന p-മൂല്യം നിഷ്പക്ഷപാതം ശരിയല്ല, അതുകൊണ്ട് അളവുകളുടെ ജോഡികളുടെ വ്യത്യാസം പൂജ്യമല്ല എന്ന് സൂചിപ്പിക്കുന്നു."
+msgstr ""
+"സ്റ്റുഡന്റ്സ് ജോഡിയാക്കിയ നമൂനകളുടെ t-പരീക്ഷ (ചിലപ്പോൾ ആശ്രിത നമൂനകളുടെ "
+"t-പരീക്ഷ എന്ന് വിളിക്കുന്നു) ജോഡികളായുള്ള അളവുകളുടെ വ്യത്യാസം പൂജ്യത്തിന് "
+"തുല്യമാണെന്ന നിഷ്പക്ഷപാതം പരിശോധിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു താഴ്ന്ന p-മൂല്യം "
+"നിഷ്പക്ഷപാതം ശരിയല്ല, അതുകൊണ്ട് അളവുകളുടെ ജോഡികളുടെ വ്യത്യാസം പൂജ്യമല്ല "
+"എന്ന് സൂചിപ്പിക്കുന്നു."
 
 #: ttestPS/options.description.main
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -6146,16 +6562,30 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "സ്റ്റുഡന്റ്സ് ജോടിയായ മാതൃകകളുടെ t-പരീക്ഷ (ചിലപ്പോൾ ആശ്രിത മാതൃകകളുടെ t-പരീക്ഷ എന്ന് വിളിക്കുന്നു) ജോഡികളായി അളവുകൾക്കിടയിലുള്ള വ്യത്യാസം പൂജ്യത്തിന് തുല്യമാണെന്ന നിഷ്പക്ഷപാത സിദ്ധാന്തം പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. ഒരു താഴ്ന്ന p-മൂല്യം നിഷ്പക്ഷപാത സിദ്ധാന്തം ശരിയല്ലെന്നും അളവ് ജോടികൾ തമ്മിലുള്ള വ്യത്യാസം പൂജ്യമല്ലെന്നും സൂചിപ്പിക്കുന്നു.\n"
+msgstr ""
+"സ്റ്റുഡന്റ്സ് ജോടിയായ മാതൃകകളുടെ t-പരീക്ഷ (ചിലപ്പോൾ ആശ്രിത മാതൃകകളുടെ "
+"t-പരീക്ഷ എന്ന് വിളിക്കുന്നു) ജോഡികളായി അളവുകൾക്കിടയിലുള്ള വ്യത്യാസം "
+"പൂജ്യത്തിന് തുല്യമാണെന്ന നിഷ്പക്ഷപാത സിദ്ധാന്തം പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. "
+"ഒരു താഴ്ന്ന p-മൂല്യം നിഷ്പക്ഷപാത സിദ്ധാന്തം ശരിയല്ലെന്നും അളവ് ജോടികൾ "
+"തമ്മിലുള്ള വ്യത്യാസം പൂജ്യമല്ലെന്നും സൂചിപ്പിക്കുന്നു.\n"
 "\n"
-"സ്റ്റുഡന്റ്സ് ജോടിയായ മാതൃകകളുടെ t-പരീക്ഷ അനുമാനിക്കുന്നു, ജോടി വ്യത്യാസങ്ങൾ ഒരു സാധാരണ വിതരണത്തെ പിന്തുടരുന്നു - ഇത് അനുമാനിക്കാൻ ഒരാൾ അപ്രമാദകരമാണെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് നോൺ-പാരാമെട്രിക് വിൽക്കോക്സൺ സൈന്ഡ്-റാങ്ക് ഉപയോഗിക്കാം (എന്നാൽ, വിൽകോക്സൺ സൈന്ഡ്-റാങ്കിന് അപ്പുറം, വ്യത്യസ്തമായ നിഷ്പക്ഷപാത സിദ്ധാന്തമുണ്ടെന്ന് ശ്രദ്ധിക്കുക; രണ്ട് മാതൃകകളുടെ കൂട്ടങ്ങൾ ഒരേ വിതരണം പിന്തുടരുന്നു)."
+"സ്റ്റുഡന്റ്സ് ജോടിയായ മാതൃകകളുടെ t-പരീക്ഷ അനുമാനിക്കുന്നു, ജോടി വ്യത്യാസങ്ങൾ "
+"ഒരു സാധാരണ വിതരണത്തെ പിന്തുടരുന്നു - ഇത് അനുമാനിക്കാൻ ഒരാൾ "
+"അപ്രമാദകരമാണെങ്കിൽ, അതിന്റെ സ്ഥാനത്ത് നോൺ-പാരാമെട്രിക് വിൽക്കോക്സൺ "
+"സൈന്ഡ്-റാങ്ക് ഉപയോഗിക്കാം (എന്നാൽ, വിൽകോക്സൺ സൈന്ഡ്-റാങ്കിന് അപ്പുറം, "
+"വ്യത്യസ്തമായ നിഷ്പക്ഷപാത സിദ്ധാന്തമുണ്ടെന്ന് ശ്രദ്ധിക്കുക; രണ്ട് മാതൃകകളുടെ "
+"കൂട്ടങ്ങൾ ഒരേ വിതരണം പിന്തുടരുന്നു)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 #, fuzzy
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "the terms to provide estimated marginal means for. Here you can specify multiple terms."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
+msgstr ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
 
 #: ttestOneS/options/testValue.description.ui
 #, fuzzy
@@ -6186,8 +6616,12 @@ msgstr "The underlying `aov` object"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
+msgstr ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
 
 #: ttestIS/options/group.description.ui
 #, fuzzy
@@ -6196,13 +6630,21 @@ msgstr "ഗ്രൂപ്പുകൾ നിർണ്ണയിക്കുന�
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
+msgstr ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
 
 #: ttestOneS/options/vars.description.ui
 #, fuzzy
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "the variables of interest -- a separate t-test is performed for each variable specified."
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
+msgstr ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -6220,14 +6662,32 @@ msgstr "വപ്ച് വപ്ച ക് വപ്ച്പ്ച്ത്ച
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 #, fuzzy
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
+msgstr ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 #, fuzzy
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "χ² അസോസിയേഷൻ പരീക്ഷ (അസോസിയേഷന്റെ χ² ഫിറ്റ്നെസ് പരീക്ഷയുമായി ആശയക്കുഴപ്പത്തിലാകരുത്) രണ്ട് വർഗീകൃത ചരങ്ങൾ സ്വതന്ത്രമോ അല്ലയോ എന്ന് പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. p-മൂല്യം കുറവായതിനാൽ, ചരങ്ങൾ സ്വതന്ത്രമല്ല, രണ്ട് ചരങ്ങൾക്കിടയിൽ ബന്ധമുണ്ടെന്ന് സൂചിപ്പിക്കുന്നു."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
+msgstr ""
+"χ² അസോസിയേഷൻ പരീക്ഷ (അസോസിയേഷന്റെ χ² ഫിറ്റ്നെസ് പരീക്ഷയുമായി "
+"ആശയക്കുഴപ്പത്തിലാകരുത്) രണ്ട് വർഗീകൃത ചരങ്ങൾ സ്വതന്ത്രമോ അല്ലയോ എന്ന് "
+"പരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്നു. p-മൂല്യം കുറവായതിനാൽ, ചരങ്ങൾ സ്വതന്ത്രമല്ല, "
+"രണ്ട് ചരങ്ങൾക്കിടയിൽ ബന്ധമുണ്ടെന്ന് സൂചിപ്പിക്കുന്നു."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6244,12 +6704,21 @@ msgstr "Theoretical Quantiles"
 #: R/linreg.b.R
 #, fuzzy
 msgid "There were no Mahalanobis distances with a threshold below p < {p}."
-msgstr "p < {p} ന് താഴെയുള്ള പ്രവേശന താഴ്ന്ന മഹാലനോബിസ് ദൂരത്തോടെ ഒരു മഹാലനോബിസ് ദൂരവും ഇല്ല."
+msgstr ""
+"p < {p} ന് താഴെയുള്ള പ്രവേശന താഴ്ന്ന മഹാലനോബിസ് ദൂരത്തോടെ ഒരു മഹാലനോബിസ് "
+"ദൂരവും ഇല്ല."
 
 #: package.description
 #, fuzzy
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "ഈ മോഡ്യൂൾ ജമോവിയിൽ ഉൾപ്പെടുത്തിയിരിക്കുന്ന വിശകലനങ്ങളെ പ്രതിനിധീകരിക്കുന്നു. ഇതിൽ പല സാധാരണ വിശകലനങ്ങളും (ഉദാഹരണത്തിന് t-പരീക്ഷണങ്ങൾ, എഎൻഒവിഎകൾ, റീഗ്രെഷൻ, കോറിലേഷൻ മാട്രിക്സുകൾ, അനുപാത പരീക്ഷണങ്ങൾ, തന്നിമിത്ത പട്ടികകൾ, ഘടക വിശകലനം മുതലായവ) ഉൾപ്പെടുന്നു."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
+msgstr ""
+"ഈ മോഡ്യൂൾ ജമോവിയിൽ ഉൾപ്പെടുത്തിയിരിക്കുന്ന വിശകലനങ്ങളെ പ്രതിനിധീകരിക്കുന്നു. "
+"ഇതിൽ പല സാധാരണ വിശകലനങ്ങളും (ഉദാഹരണത്തിന് t-പരീക്ഷണങ്ങൾ, എഎൻഒവിഎകൾ, "
+"റീഗ്രെഷൻ, കോറിലേഷൻ മാട്രിക്സുകൾ, അനുപാത പരീക്ഷണങ്ങൾ, തന്നിമിത്ത പട്ടികകൾ, "
+"ഘടക വിശകലനം മുതലായവ) ഉൾപ്പെടുന്നു."
 
 #: logRegOrd/results/models.template/thres.columns.title
 #, fuzzy
@@ -6292,8 +6761,13 @@ msgstr "സംഖ്യാപരമായി കണക്കാക്കാൻ �
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "സംഖ്യാപരമായ കണക്കുകൂട്ടലിന് തക്കതിനേക്കാൾ കുറവ് നിരീക്ഷണങ്ങൾ. ഓരോ (ഉപ) ഗ്രൂപ്പിലും ഏറ്റവും കുറഞ്ഞത് ആശ്രയിക്കുന്ന വേരിയബിൾസ് എത്രയോ നിരീക്ഷണങ്ങൾ ഉണ്ടായിരിക്കണം"
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
+msgstr ""
+"സംഖ്യാപരമായ കണക്കുകൂട്ടലിന് തക്കതിനേക്കാൾ കുറവ് നിരീക്ഷണങ്ങൾ. ഓരോ (ഉപ) "
+"ഗ്രൂപ്പിലും ഏറ്റവും കുറഞ്ഞത് ആശ്രയിക്കുന്ന വേരിയബിൾസ് എത്രയോ നിരീക്ഷണങ്ങൾ "
+"ഉണ്ടായിരിക്കണം"
 
 #: R/anovaonew.b.R
 #, fuzzy
@@ -6328,11 +6802,16 @@ msgstr "വപ്ച്പ് വപ്ച്ത്"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 #, fuzzy
 msgid "Total"
 msgstr "മൊത്തം"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6529,8 +7008,12 @@ msgstr "Variances"
 
 #: R/corrpart.b.R
 #, fuzzy
-msgid "variation from the control variables is only removed from the variables in the columns"
-msgstr "നിയന്ത്രണ ചരങ്ങൾക്കിടയിലുള്ള വ്യതിയാനം നിലവിൽ കോളങ്ങളിലെ ചരങ്ങൾക്ക് മാത്രമായി നീക്കം ചെയ്യപ്പെടുന്നു"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
+msgstr ""
+"നിയന്ത്രണ ചരങ്ങൾക്കിടയിലുള്ള വ്യതിയാനം നിലവിൽ കോളങ്ങളിലെ ചരങ്ങൾക്ക് "
+"മാത്രമായി നീക്കം ചെയ്യപ്പെടുന്നു"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -6563,8 +7046,12 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 #, fuzzy
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "ഓരോ കോശത്തെയും തുല്യമായി തൂക്കിക്കൊടുക്കുക. (ഡിഫോൾട്ടായി, കോശങ്ങൾ കോശ ഫ്രീക്വൻസി പ്രകാരം തൂക്കിക്കൊടുക്കുന്നു)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
+msgstr ""
+"ഓരോ കോശത്തെയും തുല്യമായി തൂക്കിക്കൊടുക്കുക. (ഡിഫോൾട്ടായി, കോശങ്ങൾ കോശ "
+"ഫ്രീക്വൻസി പ്രകാരം തൂക്കിക്കൊടുക്കുന്നു)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label

@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:18+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ar/>\n"
+"Language-Team: Arabic "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -31,7 +30,9 @@ msgid "'{col}' contains only one unique value"
 msgstr "'{col}' يحتوي علي قيمة فريدة واحدة فقط"
 
 #: R/pca.b.R
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
 msgstr "تم استخدام طريقة الاستخراج \"{method}\" مع الدوران \"{rotation}\""
 
 #: R/pca.b.R
@@ -373,12 +374,16 @@ msgstr "جدول يحتوي على قياسات الالتحام"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 #, fuzzy
-msgid "a table containing modification indices for the factor loadings not included in the model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
 msgstr "جداول تحتوي على مؤشرات تعديل لتحميل العوامل غير المضمنة في النموذج"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 #, fuzzy
-msgid "a table containing modification indices for the residual covariances not included in the model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
 msgstr "جدول يحتوي على مؤشرات التعديل للانحرافات المتبقية غير المدرجة في النموذج"
 
 #: cfa/results/resEst/resCov.description
@@ -597,6 +602,11 @@ msgstr "جدول من نتائج اختبار χ²"
 #, fuzzy
 msgid "Accuracy"
 msgstr "الدقة"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -827,8 +837,12 @@ msgstr "اختبار ANOVA"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "نظرًا لأن هناك keine عوامل موضوعية بينها محددة، فإن هذا الافتراض يتم الوفاء به دائمًا."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
+msgstr ""
+"نظرًا لأن هناك keine عوامل موضوعية بينها محددة، فإن هذا الافتراض يتم الوفاء "
+"به دائمًا."
 
 #: anovaOneW/options/fishers.title
 #, fuzzy
@@ -906,7 +920,7 @@ msgstr "مخطط الشريط"
 msgid "Bar plot"
 msgstr "مخطط الشريط"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 #, fuzzy
 msgid "Bar Plots"
 msgstr "مخططات الشريط"
@@ -1084,7 +1098,7 @@ msgstr "بونفيروني"
 msgid "Box plot"
 msgstr "مخطط الصندوق"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 #, fuzzy
 msgid "Box Plots"
 msgstr "مخططات 箱"
@@ -1202,6 +1216,7 @@ msgstr "متغير العمود '{var}' يحتوي على أقل من مستوي
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 #, fuzzy
 msgid "Columns"
 msgstr "الأعمدة"
@@ -1545,13 +1560,15 @@ msgstr "خريطة حرارة الارتباط"
 
 #: package/analyses/corrMatrix.description
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr "تمثل مصفوفات الارتباط طريقة لفحص العلاقات الخطية بين متغيرين أو أكثر متصلين."
 
 #: corrMatrix/options.description.main
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1568,11 +1585,22 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Корреляционные матрицы - это способ изучения линейных отношений между двумя или более непрерывными переменными.\n"
+msgstr ""
+"Корреляционные матрицы - это способ изучения линейных отношений между двумя "
+"или более непрерывными переменными.\n"
 "\n"
-"Для каждой пары переменных значение Пирсона r указывает на силу и направление отношения между этими двумя переменными. Положительное значение указывает на положительное отношение (более высокие значения одной переменной предсказывают более высокие значения другой переменной). Отрицательное значение Пирсона указывает на отрицательное отношение (более высокие значения одной переменной предсказывают более низкие значения другой переменной и наоборот).\n"
+"Для каждой пары переменных значение Пирсона r указывает на силу и "
+"направление отношения между этими двумя переменными. Положительное значение "
+"указывает на положительное отношение (более высокие значения одной "
+"переменной предсказывают более высокие значения другой переменной). "
+"Отрицательное значение Пирсона указывает на отрицательное отношение (более "
+"высокие значения одной переменной предсказывают более низкие значения другой "
+"переменной и наоборот).\n"
 "\n"
-"Более формально, возможно проверить нулевую гипотезу, что корреляция равна нулю, и рассчитать p-значение. Если p-значение низкое, это предполагает, что коэффициент корреляции не равен нулю, и существует линейная (или более сложная) связь между двумя переменными."
+"Более формально, возможно проверить нулевую гипотезу, что корреляция равна "
+"нулю, и рассчитать p-значение. Если p-значение низкое, это предполагает, что "
+"коэффициент корреляции не равен нулю, и существует линейная (или более "
+"сложная) связь между двумя переменными."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1626,15 +1654,22 @@ msgstr "العد (اختياري)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be infinite"
 msgstr "العدات قد لا تكون لانهائية"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be negative"
 msgstr "العد لا يمكن أن يكون سالبًا"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 #, fuzzy
@@ -1702,6 +1737,10 @@ msgstr "مكعب"
 #, fuzzy
 msgid "Cumulative %"
 msgstr "النسبة المئوية التراكمية"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 #, fuzzy
@@ -1798,13 +1837,21 @@ msgstr "المتغير التابع '{dep}' يحتوي على قيم غير مح
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "يحتوي المتغير التابع '{dep}' على بيانات بدون قيم (بعد إزالة الصفوف ذات القيم المفقودة)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
+msgstr ""
+"يحتوي المتغير التابع '{dep}' على بيانات بدون قيم (بعد إزالة الصفوف ذات القيم "
+"المفقودة)"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "تодерж المتغير التابع '{dep}' قيمة فريدة واحدة فقط (بعد إزالة الصفوف ذات القيم المفقودة)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
+msgstr ""
+"تодерж المتغير التابع '{dep}' قيمة فريدة واحدة فقط (بعد إزالة الصفوف ذات "
+"القيم المفقودة)"
 
 #: R/ancova.b.R
 #, fuzzy
@@ -1868,8 +1915,15 @@ msgstr "الوصف"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 #, fuzzy
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "الوصفات هي مجموعة من الإحصاءات الملخصة، والتصورات التي تسمح بفحص شكل وتوزيع البيانات. من الجيد استكشاف بياناتك مع الوصفات قبل المضي قدما في اختبارات أكثر رسمية."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
+msgstr ""
+"الوصفات هي مجموعة من الإحصاءات الملخصة، والتصورات التي تسمح بفحص شكل وتوزيع "
+"البيانات. من الجيد استكشاف بياناتك مع الوصفات قبل المضي قدما في اختبارات "
+"أكثر رسمية."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -2124,8 +2178,12 @@ msgstr "القيم الخاصة الأكبر من"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "خلايا فارغة بين تصميم الموضوع: على الأقل مزيج واحد من مستويات العامل بين الموضوع له ملاحظات 0"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
+msgstr ""
+"خلايا فارغة بين تصميم الموضوع: على الأقل مزيج واحد من مستويات العامل بين "
+"الموضوع له ملاحظات 0"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2228,8 +2286,12 @@ msgstr "التقديرات تمثل لوغاريتم الاحتمالات ل..."
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "تمثل التقديرات لوغاريتمات الاحتمالات ل \"{dep} = {level1}\" مقابل \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
+msgstr ""
+"تمثل التقديرات لوغاريتمات الاحتمالات ل \"{dep} = {level1}\" مقابل \"{dep} = "
+"{level2}\""
 
 #: efa/options/factorScoreMethod.title
 #, fuzzy
@@ -2340,28 +2402,48 @@ msgstr "عامل"
 
 #: R/loglinear.b.R
 #, fuzzy
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "المعامل '{factor}' يحتوي على مستوى أقل من مستويين. يجب أن يكون للمعاملات مستويين على الأقل"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
+msgstr ""
+"المعامل '{factor}' يحتوي على مستوى أقل من مستويين. يجب أن يكون للمعاملات "
+"مستويين على الأقل"
 
 #: R/linreg.b.R
 #, fuzzy
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "المعامل '{factor}' يحتاج إلى أن يكون له مستويان على الأقل"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "عامل '{factorName}' يحتوي على بيانات غير موجودة (بعد إزالة الصفوف مع قيم مفقودة)"
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
+msgstr ""
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
+msgstr ""
+"عامل '{factorName}' يحتوي على بيانات غير موجودة (بعد إزالة الصفوف مع قيم "
+"مفقودة)"
+
+#: R/ancova.b.R
+#, fuzzy
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr "عامل '{factorName}' يحتوي على مستوى واحد فقط (بعد إزالة الصفوف مع قيم مفقودة)"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "المرتبة '{factorName}' تحتوي على مستويات غير مستخدمة (بعد إزالة الصفوف ذات القيم المفقودة)"
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 #, fuzzy
@@ -2557,6 +2639,10 @@ msgstr "ترددات $key"
 msgid "Frequency tables"
 msgstr "جداول التردد"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2672,6 +2758,10 @@ msgstr "ملخص المجموعة"
 msgid "Group summary"
 msgstr "ملخص المجموعة"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2681,7 +2771,9 @@ msgstr "متغير التجميع"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
 msgstr "متغير التجميع '{a}' يحتوي على مستوى أقل من مستويين بعد استبعاد القيم الفارغة"
 
 #: R/ttestis.b.R
@@ -2742,6 +2834,10 @@ msgstr "مخفي"
 msgid "Hide loadings below"
 msgstr "إخفاء التحميلات أقل من"
 
+#: R/descriptives.b.R
+msgid "Highest"
+msgstr ""
+
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
@@ -2756,7 +2852,7 @@ msgstr "تسطير القيم أعلى"
 msgid "Histogram"
 msgstr "مخطط التوزيع"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 #, fuzzy
 msgid "Histograms"
 msgstr "مخططات التوزيع"
@@ -2909,8 +3005,18 @@ msgstr "IQR"
 
 #: R/utilsanova.R
 #, fuzzy
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "يبدو أن نموذجك يعاني من مشكلة \"الانفراج\". هذا يعني عادة أن النموذج يعاني من تحديد تأثيرات معينة بسبب قرب متغيرات معينة أو عدم كفاية البيانات لتقدير جميع التأثيرات بشكل موثوق. لحل هذه المشكلة، قم بتبسيط النموذج عن طريق إزالة بعض التأثيرات أو التحقق من وجود متغيرات زائدة أو مت关رة بشكل كبير في بياناتك."
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
+msgstr ""
+"يبدو أن نموذجك يعاني من مشكلة \"الانفراج\". هذا يعني عادة أن النموذج يعاني "
+"من تحديد تأثيرات معينة بسبب قرب متغيرات معينة أو عدم كفاية البيانات لتقدير "
+"جميع التأثيرات بشكل موثوق. لحل هذه المشكلة، قم بتبسيط النموذج عن طريق إزالة "
+"بعض التأثيرات أو التحقق من وجود متغيرات زائدة أو مت关رة بشكل كبير في بياناتك."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -2941,7 +3047,9 @@ msgstr "يجب أن يكون عنصر '{item}' رقميًا"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
 msgstr "العنصر {item} يرتبط سلباً مع مقياس الإجمالي وربما يجب عكسه"
 
 #: reliability/results/items.title
@@ -2967,7 +3075,9 @@ msgstr "العناصر"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
 msgstr "عناصر {items} تتماشى سلبيًا مع المقياس الإجمالي وربما يجب عكسها"
 
 #: descriptives/options/dotType/jitter.title
@@ -3051,8 +3161,12 @@ msgstr "المستوى 2"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "اختبار ليفين يظهر نتائج ذات دلالة إحصائية (p < .05)، مما يشير إلى انتهاك افتراض المساواة في التباين"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
+msgstr ""
+"اختبار ليفين يظهر نتائج ذات دلالة إحصائية (p < .05)، مما يشير إلى انتهاك "
+"افتراض المساواة في التباين"
 
 #: R/proptest2.b.R
 #, fuzzy
@@ -3090,8 +3204,15 @@ msgstr "الانحدار الخطي"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 #, fuzzy
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "يستخدم الانحدار الخطي لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو أكثر من المتغيرات التوضيحية المستمرة و / أو التصنيفية. وتعتبر الطرق الإحصائية الأخرى، مثل ANOVA و ANCOVA، في الواقع أشكالا من الانحدار الخطي"
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
+msgstr ""
+"يستخدم الانحدار الخطي لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو أكثر "
+"من المتغيرات التوضيحية المستمرة و / أو التصنيفية. وتعتبر الطرق الإحصائية "
+"الأخرى، مثل ANOVA و ANCOVA، في الواقع أشكالا من الانحدار الخطي"
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -3160,6 +3281,10 @@ msgstr "الأدنى"
 msgid "lower bound"
 msgstr "нижняя граница"
 
+#: R/descriptives.b.R
+msgid "Lowest"
+msgstr ""
+
 #: R/linreg.b.R
 #, fuzzy
 msgid "Mahalanobis ChiSq"
@@ -3189,8 +3314,12 @@ msgstr "Расстояние Махаланобиса (p)"
 
 #: R/linreg.b.R
 #, fuzzy
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "مسافة ماهالانوبيس يمكن أن يتم حسابها فقط للنماذج التي تحتوي على متغيرين أو أكثر"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
+msgstr ""
+"مسافة ماهالانوبيس يمكن أن يتم حسابها فقط للنماذج التي تحتوي على متغيرين أو "
+"أكثر"
 
 #: R/linreg.b.R
 #, fuzzy
@@ -3688,8 +3817,13 @@ msgstr "الانحدار اللوجستي المتعدد"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 #, fuzzy
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "التحليل المتعدد المتغيرات للتنوع (MANCOVA) يستخدم لاستكشاف العلاقة بين متغيرات تابعة متعددة، ومتغيرات توضيحية فئوية و/ أو متواصلة."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
+msgstr ""
+"التحليل المتعدد المتغيرات للتنوع (MANCOVA) يستخدم لاستكشاف العلاقة بين "
+"متغيرات تابعة متعددة، ومتغيرات توضيحية فئوية و/ أو متواصلة."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3737,7 +3871,9 @@ msgstr "لا تصحيح"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
 msgstr "لم يتم تعريف عوامل. اختبار بوكس م فقط ذو صلة عند وجود عوامل في النموذج."
 
 #: contTables/ui[1][0][1][0][0].label
@@ -3852,7 +3988,9 @@ msgstr "عدد العوامل"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
 msgstr "عدد القيم المتطرفة المطلوبة أعلى من عدد الصفوف في البيانات."
 
 #: efa/options/rotation/oblimin.title
@@ -3963,8 +4101,12 @@ msgstr "एक أو كلا المتغيرين لا يحتويان على ملا�
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "لا يمكن تقدير واحد أو أكثر من المعاملات في النموذج '{modelNo}' بسبب التلازم الكامل."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
+msgstr ""
+"لا يمكن تقدير واحد أو أكثر من المعاملات في النموذج '{modelNo}' بسبب التلازم "
+"الكامل."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -4197,14 +4339,18 @@ msgstr "الارتباط الجزئي"
 
 #: package/analyses/corrPart.description
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "مصفوفات الارتباط الجزئي هي طريقة لفحص العلاقات الخطية بين متغيرين أو أكثر متواصلين أثناء مراقبة متغيرات أخرى"
+msgstr ""
+"مصفوفات الارتباط الجزئي هي طريقة لفحص العلاقات الخطية بين متغيرين أو أكثر "
+"متواصلين أثناء مراقبة متغيرات أخرى"
 
 #: corrPart/options.description.main
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -4222,11 +4368,20 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "تمثل مصفوفات الارتباط الجزئية طريقة لاستكشاف العلاقات الخطية بين متغيرين مستمرين أو أكثر مع التحكم في متغيرات أخرى \n"
+msgstr ""
+"تمثل مصفوفات الارتباط الجزئية طريقة لاستكشاف العلاقات الخطية بين متغيرين "
+"مستمرين أو أكثر مع التحكم في متغيرات أخرى \n"
 "\n"
-"对于 كل زوج من المتغيرات ، يشير قيمة بيرسون r إلى قوة واتجاه العلاقة بين تلك المتغيرات. يشير القيمة الإيجابية إلى علاقة إيجابية (قيم أعلى لمتغير تنبأ بقيم أعلى لمتغير آخر). يشير قيمة بيرسون r السلبية إلى علاقة سلبية (قيم أعلى لمتغير تنبأ بقيم أقل لمتغير آخر ، والعكس صحيح). تشير القيمة صفر إلى عدم وجود علاقة (سواء كان المتغير مرتفعًا أو منخفضًا ، لا يخبرنا بشيء عن قيمة المتغير الآخر). \n"
+"对于 كل زوج من المتغيرات ، يشير قيمة بيرسون r إلى قوة واتجاه العلاقة بين تلك "
+"المتغيرات. يشير القيمة الإيجابية إلى علاقة إيجابية (قيم أعلى لمتغير تنبأ "
+"بقيم أعلى لمتغير آخر). يشير قيمة بيرسون r السلبية إلى علاقة سلبية (قيم أعلى "
+"لمتغير تنبأ بقيم أقل لمتغير آخر ، والعكس صحيح). تشير القيمة صفر إلى عدم وجود "
+"علاقة (سواء كان المتغير مرتفعًا أو منخفضًا ، لا يخبرنا بشيء عن قيمة المتغير "
+"الآخر). \n"
 "\n"
-" بشكل正式 ، من الممكن اختبار الفرضية الصفرية التي يكون فيها الارتباط صفرًا وحساب قيمة p. إذا كانت قيمة p منخفضة ، فإنها تشير إلى أن معامل الارتباط ليس صفرًا ، وهناك علاقة خطية (أو أكثر تعقيدًا) بين المتغيرين."
+" بشكل正式 ، من الممكن اختبار الفرضية الصفرية التي يكون فيها الارتباط صفرًا "
+"وحساب قيمة p. إذا كانت قيمة p منخفضة ، فإنها تشير إلى أن معامل الارتباط ليس "
+"صفرًا ، وهناك علاقة خطية (أو أكثر تعقيدًا) بين المتغيرين."
 
 #: anovaRM/options/effectSize/partEta.title
 #, fuzzy
@@ -4284,6 +4439,10 @@ msgstr "ر بييرسون"
 msgid "Pearson{}Correlation"
 msgstr "ارتباط بيرسون"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -4328,8 +4487,12 @@ msgstr "провести тест Манна-Уитни."
 
 #: ttestOneS/options/norm.description.ui
 #, fuzzy
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "أداء اختبار شابيرو-ويلك لاختبار العادية. قيمة p منخفضة تشير إلى أن البيانات ليست من توزيع عادي."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"أداء اختبار شابيرو-ويلك لاختبار العادية. قيمة p منخفضة تشير إلى أن البيانات "
+"ليست من توزيع عادي."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -4345,14 +4508,22 @@ msgstr "إجراء تحليل التباين العادي"
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "أداء اختبارات شابيرو-ويلك للاختبار الطبيعي. يشير قيمة p منخفضة إلى أن البيانات ليست من توزيع طبيعي"
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"أداء اختبارات شابيرو-ويلك للاختبار الطبيعي. يشير قيمة p منخفضة إلى أن "
+"البيانات ليست من توزيع طبيعي"
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "إجراء اختبارات شابيرو-ويلك للاختبار الطبيعي. يشير قيمة p منخفضة إلى أن المتبقيات غير موزعة بشكل طبيعي"
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
+msgstr ""
+"إجراء اختبارات شابيرو-ويلك للاختبار الطبيعي. يشير قيمة p منخفضة إلى أن "
+"المتبقيات غير موزعة بشكل طبيعي"
 
 #: ttestIS/options/students.description.ui
 #, fuzzy
@@ -4431,7 +4602,7 @@ msgstr "نوع المخطط"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4674,8 +4845,12 @@ msgstr " предоставьте меру Коэна d размера эффе�
 
 #: ttestOneS/options/ci.description.ui
 #, fuzzy
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "предоставьте доверительный интервал для разности между средней оценкой и тестовым значением."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
+msgstr ""
+"предоставьте доверительный интервал для разности между средней оценкой и "
+"тестовым значением."
 
 #: corrMatrix/options/plots.description.ui
 #, fuzzy
@@ -4702,8 +4877,15 @@ msgstr "توفير معامل ارتباط بيرسون لجميع组ات الم
 
 #: ttestOneS/options/qq.description.ui
 #, fuzzy
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "قدم مخطط Q-Q للبقايا - مخطط للبقايا الفعلية مقابل ما كان متوقعًا إذا كانت البيانات موزعة بشكل مثالي. الانحرافات الكبيرة عن الخط الأيمن تشير إلى أن البيانات ليست من توزيع طبيعي."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"قدم مخطط Q-Q للبقايا - مخطط للبقايا الفعلية مقابل ما كان متوقعًا إذا كانت "
+"البيانات موزعة بشكل مثالي. الانحرافات الكبيرة عن الخط الأيمن تشير إلى أن "
+"البيانات ليست من توزيع طبيعي."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4804,14 +4986,22 @@ msgstr "توفير أحجام التأثير (د كوهين)."
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 #, fuzzy
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "تقديم اختبار ليفين لاختبار التباين المتساوي. قيمة p منخفضة تشير إلى أن المجموعات لها تباين غير متساوي."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
+msgstr ""
+"تقديم اختبار ليفين لاختبار التباين المتساوي. قيمة p منخفضة تشير إلى أن "
+"المجموعات لها تباين غير متساوي."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 #, fuzzy
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "تقديم اختبارات ليفين ل đồng nhất التباين. يشير قيمة p منخفضة إلى أن المجموعات لها تباين غير متساو"
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
+msgstr ""
+"تقديم اختبارات ليفين ل đồng nhất التباين. يشير قيمة p منخفضة إلى أن "
+"المجموعات لها تباين غير متساو"
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4826,8 +5016,12 @@ msgstr "توفير فروق المتوسط مع الاختبارات الثان�
 
 #: ttestOneS/options/meanDiff.description.ui
 #, fuzzy
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "تقديم متوسطات الفروق ، وأخطاء معيارية للفروق المتوسطة ، بين تقدير المتوسط ، وقيمة الاختبار."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
+msgstr ""
+"تقديم متوسطات الفروق ، وأخطاء معيارية للفروق المتوسطة ، بين تقدير المتوسط ، "
+"وقيمة الاختبار."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4860,15 +5054,29 @@ msgstr "تقديم اختبارات ما بعد الحقبة."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "توفير مخططات Q-Q للبقايا - مخطط للبقايا الفعلية مقابل ما كان متوقعًا إذا كانت البيانات موزعة بشكل مثالي بشكل طبيعي. تشير الانحرافات الكبيرة عن الخط المتقطع إلى أن البيانات ليست من توزيع طبيعي."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"توفير مخططات Q-Q للبقايا - مخطط للبقايا الفعلية مقابل ما كان متوقعًا إذا "
+"كانت البيانات موزعة بشكل مثالي بشكل طبيعي. تشير الانحرافات الكبيرة عن الخط "
+"المتقطع إلى أن البيانات ليست من توزيع طبيعي."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "يقدم مخططات Q-Q للمخلفات -- مخطط للمخلفات الفعلية مقابل ما كان متوقعًا إذا كانت البيانات موزعة بشكل مثالي. الانحرافات الكبيرة عن الخط المتقطع تشير إلى أن المخلفات ليست موزعة بشكل طبيعي."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
+msgstr ""
+"يقدم مخططات Q-Q للمخلفات -- مخطط للمخلفات الفعلية مقابل ما كان متوقعًا إذا "
+"كانت البيانات موزعة بشكل مثالي. الانحرافات الكبيرة عن الخط المتقطع تشير إلى "
+"أن المخلفات ليست موزعة بشكل طبيعي."
 
 #: anovaOneW/options/phSig.description.ui
 #, fuzzy
@@ -4903,7 +5111,7 @@ msgstr "تقديم عدد الحالات"
 msgid "Pseudo R²"
 msgstr "R² الزائف"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 #, fuzzy
 msgid "Q-Q"
 msgstr "Q-Q"
@@ -4947,7 +5155,7 @@ msgstr "مخطط Q-Q لل_normality المتعددة"
 msgid "Q-Q plot of residuals"
 msgstr "مخطط Q-Q للبقايا"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 #, fuzzy
 msgid "Q-Q Plots"
 msgstr "مخططات Q-Q"
@@ -5210,7 +5418,9 @@ msgstr "مخططات متبقية"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
 msgstr "مجموع المخلفات ومربع درجات الحرية يساوي صفر، مما يشير إلى تطابق مثالي"
 
 #: R/ancova.b.R
@@ -5336,6 +5546,7 @@ msgstr "متغير الصف '{var}' يحتوي على أقل من مستويين
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 #, fuzzy
 msgid "Rows"
 msgstr "الصفوف"
@@ -5570,8 +5781,12 @@ msgstr "المحاكاة"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "تم العثور على تثبيت منفرد؛ واحدة أو أكثر من متغيرات التنبؤ هي مزيج خطي من متغيرات التنبؤ الأخرى."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
+msgstr ""
+"تم العثور على تثبيت منفرد؛ واحدة أو أكثر من متغيرات التنبؤ هي مزيج خطي من "
+"متغيرات التنبؤ الأخرى."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -5942,14 +6157,16 @@ msgstr "متغير 'الانقسام' '{var}' لا يحتوي على بيانا�
 
 #: ttestOneS/options/hypothesis.description.ui
 #, fuzzy
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "الفرضيات البديلة والصفرية؛\n"
+msgstr ""
+"الفرضيات البديلة والصفرية؛\n"
 "\n"
 "| | الفرضية البديلة (Hₐ) | الفرضية الصفرية (H₀) |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5973,23 +6190,32 @@ msgstr "الفرضية البديلة. يسمح بإجراء اختبارات ذ
 #: package/analyses/ancova.description
 #: ancova/options.description.main
 #, fuzzy
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "تستخدم تحليل التباين (ANCOVA) لاستكشاف العلاقة بين متغير تابع مستمر ومتغيرات توضيحية فئوية واحدة أو أكثر ومتغيرات توضيحية مستمرة أو أكثر (أو متغيرات مرافقة). إنه基本ًا نفس التحليل مثل تحليل التباين (ANOVA) ، ولكن مع إضافة متغيرات مرافقة."
+msgstr ""
+"تستخدم تحليل التباين (ANCOVA) لاستكشاف العلاقة بين متغير تابع مستمر ومتغيرات "
+"توضيحية فئوية واحدة أو أكثر ومتغيرات توضيحية مستمرة أو أكثر (أو متغيرات "
+"مرافقة). إنه基本ًا نفس التحليل مثل تحليل التباين (ANOVA) ، ولكن مع إضافة "
+"متغيرات مرافقة."
 
 #: package/analyses/anova.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "تحليل التباين (ANOVA) يستخدم لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو أكثر توضيحي категорي."
+msgstr ""
+"تحليل التباين (ANOVA) يستخدم لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو "
+"أكثر توضيحي категорي."
 
 #: anova/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -6000,23 +6226,35 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "يستخدم تحليل التباين (ANOVA) لاستكشاف العلاقة بين متغير تابع متصل ومتغير أو أكثر من المتغيرات التوضيحية الفئوية.\n"
+msgstr ""
+"يستخدم تحليل التباين (ANOVA) لاستكشاف العلاقة بين متغير تابع متصل ومتغير أو "
+"أكثر من المتغيرات التوضيحية الفئوية.\n"
 "\n"
-"يفرض تحليل التباين أن المخلفات موزعة بشكل طبيعي، وأن تباين جميع المجموعات متساوٍ. إذا كان شخص ما غير راغب في افتراض أن التباين متساوٍ، فيمكن استخدام اختبار ويلش بدلاً منه (مع ذلك، فإن اختبار ويلش لا يدعم أكثر من عامل توضيحي). بديلًا، إذا كان شخص ما غير راغب في افتراض أن البيانات تتبع توزيعًا طبيعيًا، فيمكن استخدام نهج غير معلمي (مثل اختبار كروسكال-ووليس)"
+"يفرض تحليل التباين أن المخلفات موزعة بشكل طبيعي، وأن تباين جميع المجموعات "
+"متساوٍ. إذا كان شخص ما غير راغب في افتراض أن التباين متساوٍ، فيمكن استخدام "
+"اختبار ويلش بدلاً منه (مع ذلك، فإن اختبار ويلش لا يدعم أكثر من عامل توضيحي). "
+"بديلًا، إذا كان شخص ما غير راغب في افتراض أن البيانات تتبع توزيعًا طبيعيًا، "
+"فيمكن استخدام نهج غير معلمي (مثل اختبار كروسكال-ووليس)"
 
 #: package/analyses/anovaOneW.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "تستخدم تحليل التباين (ANOVA) لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو أكثر تفسيري تصنيفي. هذا 'ANOVA ذو اتجاه واحد' هو نسخة مبسطة من 'ANOVA العادي'، ويسمح فقط بمعامل تفسيري واحد، ومع ذلك يوفر أيضًا ANOVA لويتش. ANOVA لويتش لها ميزة أن لا تحتاج إلى افتراض أن تباينات جميع المجموعات متساوية."
+msgstr ""
+"تستخدم تحليل التباين (ANOVA) لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو "
+"أكثر تفسيري تصنيفي. هذا 'ANOVA ذو اتجاه واحد' هو نسخة مبسطة من 'ANOVA "
+"العادي'، ويسمح فقط بمعامل تفسيري واحد، ومع ذلك يوفر أيضًا ANOVA لويتش. ANOVA "
+"لويتش لها ميزة أن لا تحتاج إلى افتراض أن تباينات جميع المجموعات متساوية."
 
 #: anovaOneW/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -6028,11 +6266,18 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "يستخدم تحليل التباين لاستكشاف العلاقة بين متغير تابع مستمر وواحد أو أكثر من متغيرات توضيحية فئوية. هذا 'تحليل التباين باتجاه واحد' هو نسخة مبسطة من 'تحليل التباين العادي'، ويسمح فقط بمعامل توضيحي واحد، ومع ذلك يوفر أيضًا تحليل تباين ويلش. تحليل تباين ويلش له ميزة أنه لا يحتاج إلى افتراض أن التباين لكل المجموعات متساوٍ.\n"
+msgstr ""
+"يستخدم تحليل التباين لاستكشاف العلاقة بين متغير تابع مستمر وواحد أو أكثر من "
+"متغيرات توضيحية فئوية. هذا 'تحليل التباين باتجاه واحد' هو نسخة مبسطة من "
+"'تحليل التباين العادي'، ويسمح فقط بمعامل توضيحي واحد، ومع ذلك يوفر أيضًا "
+"تحليل تباين ويلش. تحليل تباين ويلش له ميزة أنه لا يحتاج إلى افتراض أن "
+"التباين لكل المجموعات متساوٍ.\n"
 "\n"
-"لمزيد من الراحة، يسمح هذا الأسلوب بتحديد متغيرات تابعة متعددة، مما يؤدي إلى اختبارات مستقلة متعددة.\n"
+"لمزيد من الراحة، يسمح هذا الأسلوب بتحديد متغيرات تابعة متعددة، مما يؤدي إلى "
+"اختبارات مستقلة متعددة.\n"
 "\n"
-"لاحظ أن تحليل تباين ويلش هو نفس الإجراء الذي يتبعه اختبار تي لsamples المستقلة لويلش."
+"لاحظ أن تحليل تباين ويلش هو نفس الإجراء الذي يتبعه اختبار تي لsamples "
+"المستقلة لويلش."
 
 #: anovaRM/options/bs.description.ui
 #, fuzzy
@@ -6047,8 +6292,15 @@ msgstr "المصطلحات بين الموضوعات في النموذج."
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 #, fuzzy
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "يستخدم اختبار البينومي لاختبار الفرضية الصفرية التي تتطابق فيها نسبة الملاحظات مع بعض القيمة المتوقعة. إذا كان قيمة p منخفضة، يشير ذلك إلى أن الفرضية الصفرية خاطئة، وأن النسبة الحقيقية يجب أن تكون قيمة أخرى"
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
+msgstr ""
+"يستخدم اختبار البينومي لاختبار الفرضية الصفرية التي تتطابق فيها نسبة "
+"الملاحظات مع بعض القيمة المتوقعة. إذا كان قيمة p منخفضة، يشير ذلك إلى أن "
+"الفرضية الصفرية خاطئة، وأن النسبة الحقيقية يجب أن تكون قيمة أخرى"
 
 #: ancova/options/factors.description.ui
 #, fuzzy
@@ -6057,7 +6309,9 @@ msgstr "المتغيرات التوضيحية الفئوية (أو المستق�
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
 msgstr "ت假设 فترة الثقة للمتوسط أنها تتبع توزيع تي مع درجات حرية N - 1"
 
 #: ttestIS/options/ciWidthES.description.ui
@@ -6083,7 +6337,9 @@ msgstr "عرض فترة الثقة"
 
 #: ancova/options/covs.description.ui
 #, fuzzy
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
 msgstr "المتغيرات التوضيحية المستمرة (أو المستقلة) ، والمعروفة أيضًا باسم المتنبئات."
 
 #: ancova/options/contrasts.description.ui
@@ -6110,6 +6366,7 @@ msgstr "قيمة القطع معينة هي {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 #, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr "يحتوي المجموعة البيانات على 0 صف (بعد إزالة الصفوف ذات القيم المفقودة)"
@@ -6121,19 +6378,34 @@ msgstr "يحتوي المجموعة البيانية على 0 صفوف (أو ج�
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "المتغير التابع '{}' يحتوي على أكثر من مستويين؛ يمكن إجراء الانحدار اللوجستي الثنائي فقط على متغيرات تابعة ذات مستويين."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
+msgstr ""
+"المتغير التابع '{}' يحتوي على أكثر من مستويين؛ يمكن إجراء الانحدار اللوجستي "
+"الثنائي فقط على متغيرات تابعة ذات مستويين."
 
 #: R/logregord.b.R
 #, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "المتغير التابع '{dep}' له الترتيب التالي: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 #, fuzzy
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "المتغير التابع \"{dep}\" له مستويان فقط، فكر في القيام بتحليل انحدار لوجستي ثنائي"
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
+msgstr ""
+"المتغير التابع \"{dep}\" له مستويان فقط، فكر في القيام بتحليل انحدار لوجستي "
+"ثنائي"
 
 #: ancova/options/dep.description.ui
 #, fuzzy
@@ -6147,7 +6419,9 @@ msgstr "المتغير التابع.对于 تحليل التباين، سيكو�
 
 #: ttestIS/options/vars.description.ui
 #, fuzzy
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
 msgstr "المتغيرات التابعة -- يتم أداء اختبار تي منفصل لكل متغير تابع محدد."
 
 #: anovaOneW/options/deps.description.ui
@@ -6169,20 +6443,43 @@ msgstr "المتغير التوضيحي أو المستقل.对于 تحليل ا
 
 #: anova/options/factors.description.ui
 #, fuzzy
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
 msgstr "المتغيرات التفسيرية أو المستقلة. بالنسبة لتحليل التباين، ستكون هذه فئوية."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 #, fuzzy
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "يستخدم اختبار فريدمان لاستكشاف العلاقة بين متغير تابع مستمر ومتغير توضيحي категорي، حيث يكون المتغير التوضيحي \"داخل الموضوعات\" (حيث تكون القياسات المتعددة من نفس الموضوع). وهو مشابه لتحليل التباين المتكرر، ولكن مع ميزة كونه غير معلم، ولا يتطلب افتراضات التوزيع الطبيعي أو تجانس التباين. ومع ذلك، فإن لديه حداً هو أنه يمكنه اختبار متغير توضيحي واحد في الوقت نفسه."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
+msgstr ""
+"يستخدم اختبار فريدمان لاستكشاف العلاقة بين متغير تابع مستمر ومتغير توضيحي "
+"категорي، حيث يكون المتغير التوضيحي \"داخل الموضوعات\" (حيث تكون القياسات "
+"المتعددة من نفس الموضوع). وهو مشابه لتحليل التباين المتكرر، ولكن مع ميزة "
+"كونه غير معلم، ولا يتطلب افتراضات التوزيع الطبيعي أو تجانس التباين. ومع ذلك، "
+"فإن لديه حداً هو أنه يمكنه اختبار متغير توضيحي واحد في الوقت نفسه."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 #, fuzzy
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "اختبار كروسكال واليس يستخدم لاستكشاف العلاقة بين متغير تابع مستمر ومتغير توضيحي категорي. وهو مشابه لتحليل التباين، ولكن مع ميزة كونه غير 매араметري وله افتراضات أقل. ومع ذلك، فإن له hạnة أنه يمكنه اختبار متغير توضيحي واحد فقط في كل مرة."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
+msgstr ""
+"اختبار كروسكال واليس يستخدم لاستكشاف العلاقة بين متغير تابع مستمر ومتغير "
+"توضيحي категорي. وهو مشابه لتحليل التباين، ولكن مع ميزة كونه غير 매араметري "
+"وله افتراضات أقل. ومع ذلك، فإن له hạnة أنه يمكنه اختبار متغير توضيحي واحد "
+"فقط في كل مرة."
 
 #: anovaRM/options/depLabel.description.ui
 #, fuzzy
@@ -6198,13 +6495,23 @@ msgstr "صياغة lavaan المستخدمة لتقديم النموذج"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "طريقة استبعاد القيم المفقودة. `تحليل إلى تحليل` يستبعد القيم المفقودة من كل تحليل. `قائمة الحكمة` يستبعد صفًا من جميع التحليلات إذا كان أحد قيمه مفقودًا."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"طريقة استبعاد القيم المفقودة. `تحليل إلى تحليل` يستبعد القيم المفقودة من كل "
+"تحليل. `قائمة الحكمة` يستبعد صفًا من جميع التحليلات إذا كان أحد قيمه مفقودًا."
 
 #: ttestOneS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "طريقة استبعاد القيم المفقودة. `التحليل بالتحليل` يستبعد القيم المفقودة من كل متغير. `قائمة الحكمة` يستبعد صفًا من جميع التحليلات إذا كان أحد قيمه مفقودًا."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"طريقة استبعاد القيم المفقودة. `التحليل بالتحليل` يستبعد القيم المفقودة من كل "
+"متغير. `قائمة الحكمة` يستبعد صفًا من جميع التحليلات إذا كان أحد قيمه مفقودًا."
 
 #: ancova/options/modelTerms.description.ui
 #, fuzzy
@@ -6213,12 +6520,18 @@ msgstr "المصطلحات التي يتكون منها النموذج."
 
 #: anova/options/modelTerms.description.ui
 #, fuzzy
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "شروط النموذج التي تشكل النموذج. افتراضيًا ، يتم إنشاء نموذج因عي ، ولكن هنا يمكن تعديل الشروط الدقيقة التي تشكل النموذج."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
+msgstr ""
+"شروط النموذج التي تشكل النموذج. افتراضيًا ، يتم إنشاء نموذج因عي ، ولكن هنا "
+"يمكن تعديل الشروط الدقيقة التي تشكل النموذج."
 
 #: ttestPS/options/pairs.description.ui
 #, fuzzy
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
 msgstr "الأزواج من القياسات - يتم إجراء اختبار تي منفصل لكل زوج من القياسات."
 
 #: ancova/options/postHocCorr.description.ui
@@ -6230,28 +6543,41 @@ msgstr "المقارنات المتعددة بعد الحدث للاستخدام
 
 #: ttestIS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
 msgstr "عرض السابقة للاختبار تي للطالب. يتطلب قيمة بين 0.01 و 2.0، افتراضيًا 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "عرض البايزي السابق للعوامل البايزية لتجربة تي الطالب. يتطلب قيمة بين 0.5 و 2.0 ، افتراضيًا 0.707"
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
+msgstr ""
+"عرض البايزي السابق للعوامل البايزية لتجربة تي الطالب. يتطلب قيمة بين 0.5 و "
+"2.0 ، افتراضيًا 0.707"
 
 #: package/analyses/anovaRM.description
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "يستخدم تحليل ANOVA المتكرر لاستكشاف العلاقة بين متغير تابع مستمر ومتغيرات erklätere فئوية واحدة أو أكثر، حيث يكون أحد أو أكثر من متغيرات erklätere 'داخل الأشخاص' (حيث تكون القياسات المتعددة من نفس الفرد). بالإضافة إلى ذلك، يسمح هذا التحليل بإدراج متغيرات مساعدة، مما يسمح بالتحليلات المتكررة لتحليل التباين مع متغيرات مساعدة."
+msgstr ""
+"يستخدم تحليل ANOVA المتكرر لاستكشاف العلاقة بين متغير تابع مستمر ومتغيرات "
+"erklätere فئوية واحدة أو أكثر، حيث يكون أحد أو أكثر من متغيرات erklätere "
+"'داخل الأشخاص' (حيث تكون القياسات المتعددة من نفس الفرد). بالإضافة إلى ذلك، "
+"يسمح هذا التحليل بإدراج متغيرات مساعدة، مما يسمح بالتحليلات المتكررة لتحليل "
+"التباين مع متغيرات مساعدة."
 
 #: anovaRM/options.description.main
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -6265,7 +6591,12 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "تستخدم تحليل التباين المتكرر لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو أكثر من المتغيرات التوضيحية الفئوية، حيث يكون أحد أو أكثر من المتغيرات التوضيحية \"داخل الموضوع\" (حيث يتم أخذ قياسات متعددة من نفس الموضوع). بالإضافة إلى ذلك، يسمح هذا التحليل بإدراج المتغيرات المُسيطرة، مما يسمح بإجراء تحليلات متكررة لمقاطع العرض cũng."
+msgstr ""
+"تستخدم تحليل التباين المتكرر لاستكشاف العلاقة بين متغير تابع مستمر ومتغير أو "
+"أكثر من المتغيرات التوضيحية الفئوية، حيث يكون أحد أو أكثر من المتغيرات "
+"التوضيحية \"داخل الموضوع\" (حيث يتم أخذ قياسات متعددة من نفس الموضوع). "
+"بالإضافة إلى ذلك، يسمح هذا التحليل بإدراج المتغيرات المُسيطرة، مما يسمح "
+"بإجراء تحليلات متكررة لمقاطع العرض cũng."
 
 #: anovaRM/options/rm.description.ui
 #, fuzzy
@@ -6274,8 +6605,12 @@ msgstr "تصميم القياسات المتكررة."
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "Повторяющиеся измерения имеют только два уровня. Предположение сферичности всегда выполняется, когда повторяющиеся измерения имеют только два уровня."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
+msgstr ""
+"Повторяющиеся измерения имеют только два уровня. Предположение сферичности "
+"всегда выполняется, когда повторяющиеся измерения имеют только два уровня."
 
 #: anovaRM/options/rmCells.description.ui
 #, fuzzy
@@ -6289,20 +6624,31 @@ msgstr "المصطلحات المتكررة في النموذج."
 
 #: R/utilsreg.R
 #, fuzzy
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "لم يتم العثور على مستوى المرجع المحدد للمتغيرات التالية: {vars}. افتراضيًا إلى أول مستوى متاح. لاستخدام مستوى مرجع مخصص ، تأكد من أن مستوى المرجع المحدد متاح في البيانات."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
+msgstr ""
+"لم يتم العثور على مستوى المرجع المحدد للمتغيرات التالية: {vars}. افتراضيًا "
+"إلى أول مستوى متاح. لاستخدام مستوى مرجع مخصص ، تأكد من أن مستوى المرجع "
+"المحدد متاح في البيانات."
 
 #: package/analyses/ttestIS.description
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "تستخدم اختبار تي المستقل (أو اختبار تي لعينتين) لاختبار الفرضية الصفرية التي يكون فيها متوسطان متساويان. تشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست صحيحة ، وبالتالي فإن متوسطات المجموعة مختلفة."
+msgstr ""
+"تستخدم اختبار تي المستقل (أو اختبار تي لعينتين) لاختبار الفرضية الصفرية التي "
+"يكون فيها متوسطان متساويان. تشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست "
+"صحيحة ، وبالتالي فإن متوسطات المجموعة مختلفة."
 
 #: ttestIS/options.description.main
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -6315,21 +6661,35 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "يستخدم اختبار تي المستقل للعينات ( đôiًا ما يسمى اختبار تي لعينتين) لاختبار الفرضية الصفرية التي تشير إلى أن مجموعتين لهما متوسط متساوٍ. قيمة p منخفضة تشير إلى أن الفرضية الصفرية ليست صحيحة، وبالتالي فإن متوسطات المجموعة مختلفة.\n"
+msgstr ""
+"يستخدم اختبار تي المستقل للعينات ( đôiًا ما يسمى اختبار تي لعينتين) لاختبار "
+"الفرضية الصفرية التي تشير إلى أن مجموعتين لهما متوسط متساوٍ. قيمة p منخفضة "
+"تشير إلى أن الفرضية الصفرية ليست صحيحة، وبالتالي فإن متوسطات المجموعة "
+"مختلفة.\n"
 "\n"
-"يفترض اختبار تي المستقل أن البيانات من كل مجموعة تأتي من توزيع طبيعي، وأن التباينات لهذه المجموعات متساوية. إذا كنت غير راغب في افتراض أن المجموعات لها تباينات متساوية، يمكن استخدام اختبار ويلش بدلاً منه. إذا كنت غير راغب أيضًا في افتراض أن البيانات من كل مجموعة تأتي من توزيع طبيعي، يمكن استخدام اختبار مان-ويتني يو غير المعلم بدلاً منه (مع ملاحظة أن اختبار مان-ويتني يو له فرضية صفرية مختلفة قليلاً؛ أن توزيعات كل مجموعة متساوية)."
+"يفترض اختبار تي المستقل أن البيانات من كل مجموعة تأتي من توزيع طبيعي، وأن "
+"التباينات لهذه المجموعات متساوية. إذا كنت غير راغب في افتراض أن المجموعات "
+"لها تباينات متساوية، يمكن استخدام اختبار ويلش بدلاً منه. إذا كنت غير راغب "
+"أيضًا في افتراض أن البيانات من كل مجموعة تأتي من توزيع طبيعي، يمكن استخدام "
+"اختبار مان-ويتني يو غير المعلم بدلاً منه (مع ملاحظة أن اختبار مان-ويتني يو "
+"له فرضية صفرية مختلفة قليلاً؛ أن توزيعات كل مجموعة متساوية)."
 
 #: package/analyses/ttestOneS.description
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "اختبار تي لستودنت لاختبار الفرضية الصفرية أن المتوسط الحقيقي يساوي قيمة معينة (عادة الصفر). قيمة پ منخفضة تشير إلى أن الفرضية الصفرية ليست صحيحة، وبالتالي المتوسط الحقيقي يجب أن يختلف عن قيمة الاختبار."
+msgstr ""
+"اختبار تي لستودنت لاختبار الفرضية الصفرية أن المتوسط الحقيقي يساوي قيمة "
+"معينة (عادة الصفر). قيمة پ منخفضة تشير إلى أن الفرضية الصفرية ليست صحيحة، "
+"وبالتالي المتوسط الحقيقي يجب أن يختلف عن قيمة الاختبار."
 
 #: ttestOneS/options.description.main
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -6339,22 +6699,34 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "يستخدم اختبار تي للعينة الواحدة لاختبار الفرضية الصفرية بأن متوسط الحقيقي يساوي قيمة معينة (عادةً الصفر). يُشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست صحيحة، وبالتالي يجب أن يكون المتوسط الحقيقي مختلفًا عن قيمة الاختبار.\n"
+msgstr ""
+"يستخدم اختبار تي للعينة الواحدة لاختبار الفرضية الصفرية بأن متوسط الحقيقي "
+"يساوي قيمة معينة (عادةً الصفر). يُشير قيمة p منخفضة إلى أن الفرضية الصفرية "
+"ليست صحيحة، وبالتالي يجب أن يكون المتوسط الحقيقي مختلفًا عن قيمة الاختبار.\n"
 "\n"
-"يفرض اختبار تي للعينة الواحدة أن البيانات来自 توزيع طبيعي -- في حالة عدم الرغبة في افتراض ذلك، يمكن استخدام اختبار ويلكوكسون غير المعلم مكانها (مع ذلك، lưuظ أن اختبار ويلكوكسون له فرضية صفرية مختلفة قليلاً؛ أن المتوسط هو يساوي قيمة الاختبار)."
+"يفرض اختبار تي للعينة الواحدة أن البيانات来自 توزيع طبيعي -- في حالة عدم "
+"الرغبة في افتراض ذلك، يمكن استخدام اختبار ويلكوكسون غير المعلم مكانها (مع "
+"ذلك، lưuظ أن اختبار ويلكوكسون له فرضية صفرية مختلفة قليلاً؛ أن المتوسط هو "
+"يساوي قيمة الاختبار)."
 
 #: package/analyses/ttestPS.description
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "يستخدم اختبار تي للعينات المرتبطة (أحيانا يسمى اختبار تي للعينات التابعة) لاختبار الفرضية الصفرية التي تفترض أن الفرق بين أزواج القياسات يساوي صفرا. يشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست صحيحة، وأن الفرق بين أزواج القياسات ليس صفرا"
+msgstr ""
+"يستخدم اختبار تي للعينات المرتبطة (أحيانا يسمى اختبار تي للعينات التابعة) "
+"لاختبار الفرضية الصفرية التي تفترض أن الفرق بين أزواج القياسات يساوي صفرا. "
+"يشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست صحيحة، وأن الفرق بين أزواج "
+"القياسات ليس صفرا"
 
 #: ttestPS/options.description.main
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -6366,15 +6738,25 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "يستخدم اختبار تي للعينات المرتبطة (أحيانا يسمى اختبار تي للعينات التابعة) لاختبار الفرضية الصفرية التي تفترض أن الفرق بين أزواج القياسات يساوي صفرا. يشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست صحيحة، وأن الفرق بين أزواج القياسات ليس صفرا.\n"
+msgstr ""
+"يستخدم اختبار تي للعينات المرتبطة (أحيانا يسمى اختبار تي للعينات التابعة) "
+"لاختبار الفرضية الصفرية التي تفترض أن الفرق بين أزواج القياسات يساوي صفرا. "
+"يشير قيمة p منخفضة إلى أن الفرضية الصفرية ليست صحيحة، وأن الفرق بين أزواج "
+"القياسات ليس صفرا.\n"
 "\n"
-"ي假فترض اختبار تي للعينات المرتبطة أن فروق الأزواج تتبع توزيعا طبيعيا - في حالة عدم رغبة في افتراض ذلك، يمكن استخدام اختبار ويلكوكسون لترتيب الإشارات غير المعلمة بدلا منه (على الرغم من ذلك، يرجى ملاحظة أن اختبار ويلكوكسون لترتيب الإشارات لديه فرضية صفرية مختلفة قليلا؛ أن مجموعتي القياسات تتبعان نفس التوزيع)"
+"ي假فترض اختبار تي للعينات المرتبطة أن فروق الأزواج تتبع توزيعا طبيعيا - في "
+"حالة عدم رغبة في افتراض ذلك، يمكن استخدام اختبار ويلكوكسون لترتيب الإشارات "
+"غير المعلمة بدلا منه (على الرغم من ذلك، يرجى ملاحظة أن اختبار ويلكوكسون "
+"لترتيب الإشارات لديه فرضية صفرية مختلفة قليلا؛ أن مجموعتي القياسات تتبعان "
+"نفس التوزيع)"
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 #, fuzzy
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
 msgstr "المصطلحات لتوفير متوسطات حدة مقدرة. هنا يمكنك تحديد مصطلحات متعددة."
 
 #: ttestOneS/options/testValue.description.ui
@@ -6406,8 +6788,12 @@ msgstr "كائن `aov` الأساسي"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "لا يمكن معاملة المتغير {var} على أنه رقمي. لن يتم إنشاء المخططات التي تتوقع بيانات رقمية لهذا المتغير."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
+msgstr ""
+"لا يمكن معاملة المتغير {var} على أنه رقمي. لن يتم إنشاء المخططات التي تتوقع "
+"بيانات رقمية لهذا المتغير."
 
 #: ttestIS/options/group.description.ui
 #, fuzzy
@@ -6416,12 +6802,18 @@ msgstr "المتغير الذي يحدد المجموعات. يجب أن يكو�
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "لا يمكن التعامل مع المتغيرات {vars} كبيانات رقمية. المخططات التي تتوقع بيانات رقمية لن يتم إنشاؤها لهذه المتغيرات."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
+msgstr ""
+"لا يمكن التعامل مع المتغيرات {vars} كبيانات رقمية. المخططات التي تتوقع "
+"بيانات رقمية لن يتم إنشاؤها لهذه المتغيرات."
 
 #: ttestOneS/options/vars.description.ui
 #, fuzzy
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
 msgstr "المتغيرات ذات الصلة - يتم أداء اختبار تي منفصل لكل متغير محدد."
 
 #: corrMatrix/options/vars.description.ui
@@ -6440,14 +6832,30 @@ msgstr "العرض لفترات الثقة."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 #, fuzzy
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "Тест χ² на пригодность (не следует путать с тестом χ² на независимость) проверяет нулевую гипотезу, что доли наблюдений соответствуют некоторым ожидаемым долям. Если p-значение низкое, это предполагает, что нулевая гипотеза неверна, и что истинные доли отличаются от проверяемых."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
+msgstr ""
+"Тест χ² на пригодность (не следует путать с тестом χ² на независимость) "
+"проверяет нулевую гипотезу, что доли наблюдений соответствуют некоторым "
+"ожидаемым долям. Если p-значение низкое, это предполагает, что нулевая "
+"гипотеза неверна, и что истинные доли отличаются от проверяемых."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 #, fuzzy
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "يستخدم اختبار χ² للاستدلال (ليس هناك خلط بينه وبين χ² جيدة للتناسب) لاختبار ما إذا كانت متغيرين تصنيفيين مستقلين أو مرتبطين. إذا كان قيمة p منخفضة، يشير ذلك إلى أن المتغيرات غير مستقلة، وأن هناك علاقة بين المتغيرين."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
+msgstr ""
+"يستخدم اختبار χ² للاستدلال (ليس هناك خلط بينه وبين χ² جيدة للتناسب) لاختبار "
+"ما إذا كانت متغيرين تصنيفيين مستقلين أو مرتبطين. إذا كان قيمة p منخفضة، يشير "
+"ذلك إلى أن المتغيرات غير مستقلة، وأن هناك علاقة بين المتغيرين."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6468,8 +6876,14 @@ msgstr "لم تكن هناك مسافات ماهالانوبيس بأقل من �
 
 #: package.description
 #, fuzzy
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "يمثل هذا المكون التحليلات المضمنة مع jamovi. إنه يحتوي على العديد من التحليلات الشائعة (مثل اختبارات t، ANOVAs، الانحدار، مصفوفات الارتباط، اختبارات النسبة، جداول التبعية، تحليل العوامل، إلخ)."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
+msgstr ""
+"يمثل هذا المكون التحليلات المضمنة مع jamovi. إنه يحتوي على العديد من "
+"التحليلات الشائعة (مثل اختبارات t، ANOVAs، الانحدار، مصفوفات الارتباط، "
+"اختبارات النسبة، جداول التبعية، تحليل العوامل، إلخ)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 #, fuzzy
@@ -6512,8 +6926,12 @@ msgstr "ملاحظات قليلة جداً (N < 3) لحساب الإحصائية
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "عدد الملاحظات قليل جدا لحساب الإحصائية. يجب أن يكون كل مجموعة فرعية على الأقل نفس عدد الملاحظات الذي يوجد به متغيرات تابعة."
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
+msgstr ""
+"عدد الملاحظات قليل جدا لحساب الإحصائية. يجب أن يكون كل مجموعة فرعية على "
+"الأقل نفس عدد الملاحظات الذي يوجد به متغيرات تابعة."
 
 #: R/anovaonew.b.R
 #, fuzzy
@@ -6548,11 +6966,16 @@ msgstr "نمو الأسنان"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 #, fuzzy
 msgid "Total"
 msgstr "المجموع"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6750,7 +7173,9 @@ msgstr "Дисперсии"
 
 #: R/corrpart.b.R
 #, fuzzy
-msgid "variation from the control variables is only removed from the variables in the columns"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
 msgstr "الانحراف عن متغيرات التحكم يتم إزالته فقط من المتغيرات في الأعمدة"
 
 #: efa/options/rotation/varimax.title
@@ -6783,7 +7208,9 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 #, fuzzy
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
 msgstr "موزان كل خلية بالتساوي. (توزن الخلايا وفقًا لتردد الخلية افتراضيًا)"
 
 #: weights/options/weights.title

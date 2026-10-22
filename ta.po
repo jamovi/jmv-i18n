@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:21+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ta/>\n"
+"Language-Team: Tamil "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -30,7 +29,9 @@ msgid "'{col}' contains only one unique value"
 msgstr "'{col}' ஒரு தனித்துவமான மதிப்பைக் கொண்டுள்ளது"
 
 #: R/pca.b.R
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
 msgstr ""
 "'{method}' பிரித்தெடுத்தல் முறை ஒரு '{rotation}' சுழற்சியுடன் இணைந்து "
 "பயன்படுத்தப்பட்டது"
@@ -42,8 +43,7 @@ msgstr "'{rotation}' சுழற்சி பயன்படுத்தப்�
 #: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
-"'{var}' எதிர்மறை மதிப்புகளைக் கொண்டுள்ளது. எதிர்மறை எடைகள் அனுமதிக்கப்படாது."
+msgstr "'{var}' எதிர்மறை மதிப்புகளைக் கொண்டுள்ளது. எதிர்மறை எடைகள் அனுமதிக்கப்படாது."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
@@ -331,14 +331,20 @@ msgid "a table containing fit measures"
 msgstr "பொருத்தம் நடவடிக்கைகளைக் கொண்ட அட்டவணை"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
-msgid "a table containing modification indices for the factor loadings not included in the model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
 msgstr ""
-"மாதிரியில் சேர்க்கப்படாத காரணி ஏற்றங்களுக்கான மாற்றும் குறியீடுகளைக் கொண்ட அட்டவணை"
+"மாதிரியில் சேர்க்கப்படாத காரணி ஏற்றங்களுக்கான மாற்றும் குறியீடுகளைக் கொண்ட "
+"அட்டவணை"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
-msgid "a table containing modification indices for the residual covariances not included in the model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
 msgstr ""
-"மாதிரியில் சேர்க்கப்படாத மீதமுள்ள கோவாரன்களுக்கான மாற்றியமைக்கும் குறியீடுகளைக் கொண்ட அட்டவணை"
+"மாதிரியில் சேர்க்கப்படாத மீதமுள்ள கோவாரன்களுக்கான மாற்றியமைக்கும் "
+"குறியீடுகளைக் கொண்ட அட்டவணை"
 
 #: cfa/results/resEst/resCov.description
 msgid "a table containing residual covariances estimates"
@@ -517,6 +523,11 @@ msgstr "χ² சோதனை முடிவுகளின் அட்டவ�
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
 msgstr "துல்லியம்"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -716,10 +727,12 @@ msgid "ANOVA test"
 msgstr "ANOVA சோதனை"
 
 #: R/anovarm.b.R
-msgid "As there are no between subjects factors specified this assumption is always met."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
 msgstr ""
-"குறிப்பிடப்பட்ட பாட காரணிகளுக்கு இடையில் எதுவும் இல்லை என்பதால் இந்த அனுமானம் எப்போதும் "
-"நிறைவு செய்யப்படுகிறது."
+"குறிப்பிடப்பட்ட பாட காரணிகளுக்கு இடையில் எதுவும் இல்லை என்பதால் இந்த "
+"அனுமானம் எப்போதும் நிறைவு செய்யப்படுகிறது."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -786,7 +799,7 @@ msgstr "பார் சூழ்ச்சி"
 msgid "Bar plot"
 msgstr "பார் சூழ்ச்சி"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 msgid "Bar Plots"
 msgstr "பார் அடுக்கு"
 
@@ -939,7 +952,7 @@ msgstr "போன்பெரோரோனி"
 msgid "Box plot"
 msgstr "பெட்டி வரைபடம்"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 msgid "Box Plots"
 msgstr "பெட்டி அடுக்கு"
 
@@ -1036,6 +1049,7 @@ msgstr "நெடுவரிசை மாறி '{var}' 2 நிலைகளு
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 msgid "Columns"
 msgstr "நெடுவரிசைகள்"
 
@@ -1334,14 +1348,16 @@ msgid "Correlation heatmap"
 msgstr "தொடர்பு ஈட்மேப்"
 
 #: package/analyses/corrMatrix.description
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr ""
 "தொடர்பு மெட்ரிக்குகள் இடையிலான நேரியல் உறவுகளை ஆராய ஒரு வழியாகும்\n"
 " இரண்டு அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான மாறிகள்."
 
 #: corrMatrix/options.description.main
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1368,14 +1384,16 @@ msgstr ""
 " மாறி மற்ற மாறியின் உயர் மதிப்புகளை கணிக்கவும்). ஒரு எதிர்மறை\n"
 " பியர்சனின் ஆர் எதிர்மறை உறவைக் குறிக்கிறது (ஒன்றின் உயர் மதிப்புகள்\n"
 " மாறி மற்ற மாறியின் குறைந்த மதிப்புகளை கணிக்கவும், மற்றும் நேர்மாறாகவும்).\n"
-" பூச்சியத்தின் மதிப்பு எந்த உறவையும் குறிக்கவில்லை (ஒரு மாறி அதிகமாக இருந்தாலும் சரி\n"
+" பூச்சியத்தின் மதிப்பு எந்த உறவையும் குறிக்கவில்லை (ஒரு மாறி அதிகமாக "
+"இருந்தாலும் சரி\n"
 " அல்லது குறைவாக, மற்றவரின் மதிப்பைப் பற்றி எங்களுக்கு எதுவும் சொல்லவில்லை\n"
 " மாறி).\n"
 "\n"
 " இன்னும் முறையாக, சுழிய கருதுகோளை சோதிக்க முடியும்\n"
-" தொடர்பு பூச்சியமாகும் மற்றும் ஒரு பி-மதிப்பைக் கணக்கிடுங்கள். பி-மதிப்பு குறைவாக இருந்தால், "
-"அது\n"
-" தொடர்பு இணை செயல்திறன் பூச்சியமல்ல, ஒரு நேரியல் உள்ளது என்று அறிவுறுத்துகிறது\n"
+" தொடர்பு பூச்சியமாகும் மற்றும் ஒரு பி-மதிப்பைக் கணக்கிடுங்கள். பி-மதிப்பு "
+"குறைவாக இருந்தால், அது\n"
+" தொடர்பு இணை செயல்திறன் பூச்சியமல்ல, ஒரு நேரியல் உள்ளது என்று "
+"அறிவுறுத்துகிறது\n"
 " (அல்லது மிகவும் சிக்கலானது) இரண்டு மாறிகள் இடையே உறவு."
 
 #: package/analyses/corrMatrix.title
@@ -1425,13 +1443,20 @@ msgstr "எண்ணிக்கைகள் (விரும்பினால�
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be infinite"
 msgstr "எண்ணிக்கைகள் எல்லையற்றதாக இருக்காது"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be negative"
 msgstr "எண்ணிக்கைகள் எதிர்மறையாக இருக்காது"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1489,6 +1514,10 @@ msgstr "கன"
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
 msgstr "ஒட்டுமொத்த %"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -1569,16 +1598,20 @@ msgid "Dependent variable '{dep}' contains infinite values"
 msgstr "சார்பு மாறி '{dep}' எல்லையற்ற மதிப்புகளைக் கொண்டுள்ளது"
 
 #: R/ancova.b.R
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
 msgstr ""
-"சார்பு மாறி '{dep}' எந்த தரவையும் கொண்டிருக்கவில்லை (காணாமல் போன மதிப்புகளுடன் வரிசைகளை "
-"அகற்றிய பிறகு)"
+"சார்பு மாறி '{dep}' எந்த தரவையும் கொண்டிருக்கவில்லை (காணாமல் போன "
+"மதிப்புகளுடன் வரிசைகளை அகற்றிய பிறகு)"
 
 #: R/ancova.b.R
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
 msgstr ""
-"சார்பு மாறி '{dep}' ஒரு தனித்துவமான மதிப்பைக் கொண்டுள்ளது (காணாமல் போன மதிப்புகளுடன் "
-"வரிசைகளை அகற்றிய பிறகு)"
+"சார்பு மாறி '{dep}' ஒரு தனித்துவமான மதிப்பைக் கொண்டுள்ளது (காணாமல் போன "
+"மதிப்புகளுடன் வரிசைகளை அகற்றிய பிறகு)"
 
 #: R/ancova.b.R
 msgid "Dependent variable '{dep}' must be continuous"
@@ -1633,11 +1666,16 @@ msgstr "விளக்கமான"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
 msgstr ""
-"விளக்கங்கள் என்பது புள்ளிவிவரங்களை சுருக்கமாகக் கூறும் ஒரு வகைப்படுத்தலாகும், மேலும் "
-"தரவுகளின் வடிவம் மற்றும் விநியோகத்தை ஆராய அனுமதிக்கும் காட்சிப்படுத்தல்கள். மேலும் முறையான "
-"சோதனைகளுக்குச் செல்வதற்கு முன், உங்கள் தரவை விளக்கங்களுடன் ஆராய்வது நல்ல நடைமுறை."
+"விளக்கங்கள் என்பது புள்ளிவிவரங்களை சுருக்கமாகக் கூறும் ஒரு "
+"வகைப்படுத்தலாகும், மேலும் தரவுகளின் வடிவம் மற்றும் விநியோகத்தை ஆராய "
+"அனுமதிக்கும் காட்சிப்படுத்தல்கள். மேலும் முறையான சோதனைகளுக்குச் செல்வதற்கு "
+"முன், உங்கள் தரவை விளக்கங்களுடன் ஆராய்வது நல்ல நடைமுறை."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -1859,10 +1897,12 @@ msgid "Eigenvalues greater than"
 msgstr "ஈசென்வெல்யூச் விட அதிகமாக"
 
 #: R/anovarm.b.R
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
 msgstr ""
-"பொருள் வடிவமைப்பிற்கு இடையில் வெற்று செல்கள்: பொருள் காரணி நிலைகளுக்கு இடையில் குறைந்தது "
-"ஒரு கலவையானது 0 அவதானிப்புகள் உள்ளன"
+"பொருள் வடிவமைப்பிற்கு இடையில் வெற்று செல்கள்: பொருள் காரணி நிலைகளுக்கு "
+"இடையில் குறைந்தது ஒரு கலவையானது 0 அவதானிப்புகள் உள்ளன"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -1953,7 +1993,9 @@ msgid "Estimates represent the log odds of …"
 msgstr "மதிப்பீடுகள் பதிவு முரண்பாடுகளைக் குறிக்கின்றன…"
 
 #: R/logregbin.b.R
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
 msgstr ""
 "மதிப்பீடுகள் \"{dep} = {level1}\" எதிர் \"{dep} = {level2}\" இன் பதிவு "
 "முரண்பாடுகளைக் குறிக்கின்றன"
@@ -2051,32 +2093,47 @@ msgid "Factor"
 msgstr "காரணி"
 
 #: R/loglinear.b.R
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
 msgstr ""
-"காரணி '{factor}' இரண்டு நிலைகளுக்கு குறைவாக உள்ளது. காரணிகள் குறைந்தது இரண்டு "
-"நிலைகளைக் கொண்டிருக்க வேண்டும்"
+"காரணி '{factor}' இரண்டு நிலைகளுக்கு குறைவாக உள்ளது. காரணிகள் குறைந்தது "
+"இரண்டு நிலைகளைக் கொண்டிருக்க வேண்டும்"
 
 #: R/linreg.b.R
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "காரணி '{factor}' குறைந்தது 2 நிலைகளைக் கொண்டிருக்க வேண்டும்"
 
-#: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
 msgstr ""
-"காரணி '{factorName}' எந்த தரவையும் கொண்டிருக்கவில்லை (காணாமல் போன மதிப்புகளுடன் "
-"வரிசைகளை அகற்றிய பிறகு)"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
 msgstr ""
-"காரணி '{factorName}' ஒரு மட்டத்தை மட்டுமே கொண்டுள்ளது (காணாமல் போன மதிப்புகளுடன் "
-"வரிசைகளை அகற்றிய பிறகு)"
+"காரணி '{factorName}' எந்த தரவையும் கொண்டிருக்கவில்லை (காணாமல் போன "
+"மதிப்புகளுடன் வரிசைகளை அகற்றிய பிறகு)"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr ""
-"காரணி '{factorName}' பயன்படுத்தப்படாத அளவுகளைக் கொண்டுள்ளது (காணாமல் போன மதிப்புகளுடன் "
-"வரிசைகளை அகற்றிய பிறகு)"
+"காரணி '{factorName}' ஒரு மட்டத்தை மட்டுமே கொண்டுள்ளது (காணாமல் போன "
+"மதிப்புகளுடன் வரிசைகளை அகற்றிய பிறகு)"
+
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2241,6 +2298,10 @@ msgstr "$ விசையின் அதிர்வெண்கள்"
 msgid "Frequency tables"
 msgstr "அதிர்வெண் அட்டவணைகள்"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2338,6 +2399,10 @@ msgstr "குழு சுருக்கம்"
 msgid "Group summary"
 msgstr "குழு சுருக்கம்"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2346,9 +2411,12 @@ msgid "Grouping Variable"
 msgstr "தொகுத்தல் மாறி"
 
 #: R/ttestis.b.R
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
 msgstr ""
-"இல்லாத மதிப்புகள் விலக்கப்பட்ட பிறகு '{a}' ஐ 2 நிலைகளுக்கு குறைவாகக் கொண்டுள்ளது"
+"இல்லாத மதிப்புகள் விலக்கப்பட்ட பிறகு '{a}' ஐ 2 நிலைகளுக்கு குறைவாகக் "
+"கொண்டுள்ளது"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
@@ -2414,7 +2482,7 @@ msgstr "மேலே உள்ள மதிப்புகளை முன்ன
 msgid "Histogram"
 msgstr "செவ்வகப்படம்"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 msgid "Histograms"
 msgstr "இச்டோகிராம்கள்"
 
@@ -2547,13 +2615,20 @@ msgid "IQR"
 msgstr "Iqr"
 
 #: R/utilsanova.R
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
 msgstr ""
-"உங்கள் மாடலுக்கு 'சிங்குலாரிட்டி' சிக்கல் இருப்பது போல் தெரிகிறது. சில மாறிகள் மிகவும் "
-"நெருங்கிய தொடர்புடையவை அல்லது அனைத்து விளைவுகளையும் நம்பகத்தன்மையுடன் மதிப்பிடுவதற்கு "
-"போதுமான தரவு இல்லாததால், சில விளைவுகளை வேறுபடுத்துவதில் மாதிரி சிக்கலை எதிர்கொள்கிறது "
-"என்பதே இதன் பொருள். இதைத் தீர்க்க, சில விளைவுகளை அகற்றுவதன் மூலம் மாதிரியை எளிதாக்குவதைக் "
-"கவனியுங்கள் அல்லது உங்கள் தரவு தேவையற்ற அல்லது அதிக தொடர்புள்ள மாறிகள் உள்ளதா என்பதைச் "
+"உங்கள் மாடலுக்கு 'சிங்குலாரிட்டி' சிக்கல் இருப்பது போல் தெரிகிறது. சில "
+"மாறிகள் மிகவும் நெருங்கிய தொடர்புடையவை அல்லது அனைத்து விளைவுகளையும் "
+"நம்பகத்தன்மையுடன் மதிப்பிடுவதற்கு போதுமான தரவு இல்லாததால், சில விளைவுகளை "
+"வேறுபடுத்துவதில் மாதிரி சிக்கலை எதிர்கொள்கிறது என்பதே இதன் பொருள். இதைத் "
+"தீர்க்க, சில விளைவுகளை அகற்றுவதன் மூலம் மாதிரியை எளிதாக்குவதைக் கவனியுங்கள் "
+"அல்லது உங்கள் தரவு தேவையற்ற அல்லது அதிக தொடர்புள்ள மாறிகள் உள்ளதா என்பதைச் "
 "சரிபார்க்கவும்."
 
 #: R/anovarm.b.R
@@ -2579,10 +2654,12 @@ msgid "Item '{item}' needs to be numeric"
 msgstr "உருப்படி '{item}' எண்ணாக இருக்க வேண்டும்"
 
 #: R/reliability.b.R
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
 msgstr ""
-"உருப்படி {item} மொத்த அளவோடு எதிர்மறையாக தொடர்புபடுத்துகிறது மற்றும் தலைகீழாக மாற்றப்பட "
-"வேண்டும்"
+"உருப்படி {item} மொத்த அளவோடு எதிர்மறையாக தொடர்புபடுத்துகிறது மற்றும் "
+"தலைகீழாக மாற்றப்பட வேண்டும்"
 
 #: reliability/results/items.title
 msgid "Item Reliability Statistics"
@@ -2602,10 +2679,12 @@ msgid "Items"
 msgstr "உருப்படிகள்"
 
 #: R/reliability.b.R
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
 msgstr ""
-"உருப்படிகள் {items} மொத்த அளவோடு எதிர்மறையாக தொடர்புபடுத்தவும், அநேகமாக தலைகீழாக மாற்றப்பட "
-"வேண்டும்"
+"உருப்படிகள் {items} மொத்த அளவோடு எதிர்மறையாக தொடர்புபடுத்தவும், அநேகமாக "
+"தலைகீழாக மாற்றப்பட வேண்டும்"
 
 #: descriptives/options/dotType/jitter.title
 msgid "Jittered"
@@ -2673,10 +2752,12 @@ msgid "Level 2"
 msgstr "நிலை 2"
 
 #: R/ttestis.b.R
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
 msgstr ""
-"லெவனின் சோதனை குறிப்பிடத்தக்கது (ப <.05), இது சம மாறுபாடுகளின் அனுமானத்தை மீறுவதைக் "
-"குறிக்கிறது"
+"லெவனின் சோதனை குறிப்பிடத்தக்கது (ப <.05), இது சம மாறுபாடுகளின் அனுமானத்தை "
+"மீறுவதைக் குறிக்கிறது"
 
 #: R/proptest2.b.R
 msgid "Likelihood"
@@ -2708,12 +2789,16 @@ msgstr "நேரியல் பின்னடைவு"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
 msgstr ""
-"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான மற்றும்/அல்லது "
-"வகைப்படுத்தப்பட்ட விளக்க மாறிகள் ஆகியவற்றுக்கு இடையிலான உறவை ஆராய நேரியல் பின்னடைவு "
-"பயன்படுத்தப்படுகிறது. ANOVA மற்றும் ANCOVA போன்ற பிற புள்ளிவிவர முறைகள் உண்மையில் "
-"நேரியல் பின்னடைவின் வடிவங்கள்."
+"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான "
+"மற்றும்/அல்லது வகைப்படுத்தப்பட்ட விளக்க மாறிகள் ஆகியவற்றுக்கு இடையிலான உறவை "
+"ஆராய நேரியல் பின்னடைவு பயன்படுத்தப்படுகிறது. ANOVA மற்றும் ANCOVA போன்ற பிற "
+"புள்ளிவிவர முறைகள் உண்மையில் நேரியல் பின்னடைவின் வடிவங்கள்."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -2803,10 +2888,12 @@ msgid "Mahalanobis distance (p)"
 msgstr "மஅலானோபிச் தூரம் (பி)"
 
 #: R/linreg.b.R
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
 msgstr ""
-"மஅலானோபிச் தூரத்தை இரண்டு அல்லது அதற்கு மேற்பட்ட கோவாரியட்டுகள் கொண்ட மாதிரிகளுக்கு மட்டுமே "
-"கணக்கிட முடியும்"
+"மஅலானோபிச் தூரத்தை இரண்டு அல்லது அதற்கு மேற்பட்ட கோவாரியட்டுகள் கொண்ட "
+"மாதிரிகளுக்கு மட்டுமே கணக்கிட முடியும்"
 
 #: R/linreg.b.R
 msgid "Mahalanobis p"
@@ -3209,8 +3296,7 @@ msgstr "மான்டே கார்லோ உருவகப்படுத�
 
 #: R/descriptives.b.R
 msgid "More than one mode exists, only the first is reported"
-msgstr ""
-"ஒன்றுக்கு மேற்பட்ட பயன்முறைகள் உள்ளன, முதலாவது மட்டுமே தெரிவிக்கப்படுகிறது"
+msgstr "ஒன்றுக்கு மேற்பட்ட பயன்முறைகள் உள்ளன, முதலாவது மட்டுமே தெரிவிக்கப்படுகிறது"
 
 #: descriptives/ui[2][3][2][0]/extreme.label
 msgid "Most extreme"
@@ -3236,11 +3322,15 @@ msgstr "பன்முக லாசிச்டிக் பின்னடை�
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
 msgstr ""
-"(CO) மாறுபாட்டின் (MANCOVA) பன்முக பகுப்பாய்வு பல சார்பு மாறிகள் மற்றும் ஒன்று அல்லது அதற்கு "
-"மேற்பட்ட வகைப்படுத்தப்பட்ட மற்றும்/அல்லது தொடர்ச்சியான விளக்கமளிக்கும் மாறிகள் ஆகியவற்றுக்கு "
-"இடையிலான உறவை ஆராய பயன்படுத்தப்படுகிறது."
+"(CO) மாறுபாட்டின் (MANCOVA) பன்முக பகுப்பாய்வு பல சார்பு மாறிகள் மற்றும் "
+"ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தப்பட்ட மற்றும்/அல்லது தொடர்ச்சியான "
+"விளக்கமளிக்கும் மாறிகள் ஆகியவற்றுக்கு இடையிலான உறவை ஆராய "
+"பயன்படுத்தப்படுகிறது."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3271,8 +3361,7 @@ msgstr "நெயில்கெர்கேவின் r²"
 
 #: R/pca.b.R
 msgid "No components have an eigenvalue greater than {value}"
-msgstr ""
-"எந்தவொரு கூறுகளும் {மதிப்பு besosk ஐ விட அதிகமான மதிப்பைக் கொண்டிருக்கவில்லை"
+msgstr "எந்தவொரு கூறுகளும் {மதிப்பு besosk ஐ விட அதிகமான மதிப்பைக் கொண்டிருக்கவில்லை"
 
 #: ancova/options/postHocCorr/none.title
 #: anova/options/postHocCorr/none.title
@@ -3281,10 +3370,12 @@ msgid "No correction"
 msgstr "திருத்தம் இல்லை"
 
 #: R/mancova.b.R
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
 msgstr ""
-"எந்த காரணிகளும் வரையறுக்கப்படவில்லை. மாதிரிகள் காரணிகளைக் கொண்டிருக்கும்போது மட்டுமே "
-"பெட்டியின் எம் சோதனை பொருத்தமானது."
+"எந்த காரணிகளும் வரையறுக்கப்படவில்லை. மாதிரிகள் காரணிகளைக் கொண்டிருக்கும்போது "
+"மட்டுமே பெட்டியின் எம் சோதனை பொருத்தமானது."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3346,8 +3437,7 @@ msgstr "இயல்பான சோதனை (சாபிரோ-வில்�
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
-"எல்லா குணகங்களையும் மதிப்பிட முடியாது (ஒற்றை பொருத்தம் காரணமாக இருக்கலாம்)"
+msgstr "எல்லா குணகங்களையும் மதிப்பிட முடியாது (ஒற்றை பொருத்தம் காரணமாக இருக்கலாம்)"
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
@@ -3382,10 +3472,12 @@ msgid "Number of factors"
 msgstr "காரணிகளின் எண்ணிக்கை"
 
 #: R/descriptives.b.R
-msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
 msgstr ""
-"கோரப்பட்ட தீவிர மதிப்புகளின் எண்ணிக்கை தரவுகளில் உள்ள வரிசைகளின் எண்ணிக்கையை விட அதிகமாக "
-"உள்ளது."
+"கோரப்பட்ட தீவிர மதிப்புகளின் எண்ணிக்கை தரவுகளில் உள்ள வரிசைகளின் எண்ணிக்கையை "
+"விட அதிகமாக உள்ளது."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -3477,10 +3569,12 @@ msgid "One or both variables do not contain enough observations"
 msgstr "ஒன்று அல்லது இரண்டு மாறிகள் போதுமான அவதானிப்புகள் இல்லை"
 
 #: R/logregbin.b.R
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
 msgstr ""
-"மாதிரியில் ஒன்று அல்லது அதற்கு மேற்பட்ட குணகங்கள் '{modelNo}' சரியான கூட்டுறவு காரணமாக "
-"மதிப்பிட முடியாது."
+"மாதிரியில் ஒன்று அல்லது அதற்கு மேற்பட்ட குணகங்கள் '{modelNo}' சரியான "
+"கூட்டுறவு காரணமாக மதிப்பிட முடியாது."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -3678,16 +3772,19 @@ msgid "Partial Correlation"
 msgstr "பகுதி தொடர்பு"
 
 #: package/analyses/corrPart.description
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
 "பகுதி தொடர்பு மெட்ரிக்குகள் நேரியல் உறவுகளை ஆராய ஒரு வழியாகும்\n"
-" மற்றவர்களைக் கட்டுப்படுத்தும் போது இரண்டு அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான மாறிகள் இடையே\n"
+" மற்றவர்களைக் கட்டுப்படுத்தும் போது இரண்டு அல்லது அதற்கு மேற்பட்ட "
+"தொடர்ச்சியான மாறிகள் இடையே\n"
 " மாறிகள்"
 
 #: corrPart/options.description.main
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -3707,7 +3804,8 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "(or more complex) relationship between the two variables."
 msgstr ""
 "பகுதி தொடர்பு மெட்ரிக்குகள் நேரியல் உறவுகளை ஆராய ஒரு வழியாகும்\n"
-" மற்றவர்களைக் கட்டுப்படுத்தும் போது இரண்டு அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான மாறிகள் இடையே\n"
+" மற்றவர்களைக் கட்டுப்படுத்தும் போது இரண்டு அல்லது அதற்கு மேற்பட்ட "
+"தொடர்ச்சியான மாறிகள் இடையே\n"
 " மாறிகள்\n"
 "\n"
 " ஒவ்வொரு இணை மாறிகளுக்கும், ஒரு பியர்சனின் ஆர் மதிப்பு வலிமையைக் குறிக்கிறது\n"
@@ -3716,14 +3814,16 @@ msgstr ""
 " மாறி மற்ற மாறியின் உயர் மதிப்புகளை கணிக்கவும்). ஒரு எதிர்மறை\n"
 " பியர்சனின் ஆர் எதிர்மறை உறவைக் குறிக்கிறது (ஒன்றின் உயர் மதிப்புகள்\n"
 " மாறி மற்ற மாறியின் குறைந்த மதிப்புகளை கணிக்கவும், மற்றும் நேர்மாறாகவும்).\n"
-" பூச்சியத்தின் மதிப்பு எந்த உறவையும் குறிக்கவில்லை (ஒரு மாறி அதிகமாக இருந்தாலும் சரி\n"
+" பூச்சியத்தின் மதிப்பு எந்த உறவையும் குறிக்கவில்லை (ஒரு மாறி அதிகமாக "
+"இருந்தாலும் சரி\n"
 " அல்லது குறைவாக, மற்றவரின் மதிப்பைப் பற்றி எங்களுக்கு எதுவும் சொல்லவில்லை\n"
 " மாறி).\n"
 "\n"
 " இன்னும் முறையாக, சுழிய கருதுகோளை சோதிக்க முடியும்\n"
-" தொடர்பு பூச்சியமாகும் மற்றும் ஒரு பி-மதிப்பைக் கணக்கிடுங்கள். பி-மதிப்பு குறைவாக இருந்தால், "
-"அது\n"
-" தொடர்பு இணை செயல்திறன் பூச்சியமல்ல, ஒரு நேரியல் உள்ளது என்று அறிவுறுத்துகிறது\n"
+" தொடர்பு பூச்சியமாகும் மற்றும் ஒரு பி-மதிப்பைக் கணக்கிடுங்கள். பி-மதிப்பு "
+"குறைவாக இருந்தால், அது\n"
+" தொடர்பு இணை செயல்திறன் பூச்சியமல்ல, ஒரு நேரியல் உள்ளது என்று "
+"அறிவுறுத்துகிறது\n"
 " (அல்லது மிகவும் சிக்கலானது) இரண்டு மாறிகள் இடையே உறவு."
 
 #: anovaRM/options/effectSize/partEta.title
@@ -3772,6 +3872,10 @@ msgstr "பியர்சனின் ஆர்"
 msgid "Pearson{}Correlation"
 msgstr "பியர்சன் {} தொடர்பு"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -3808,10 +3912,12 @@ msgid "perform a Mann-Whitney U test."
 msgstr "மான்-விட்னி யு சோதனையைச் செய்யுங்கள்."
 
 #: ttestOneS/options/norm.description.ui
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 msgstr ""
-"இயல்பான ஒரு சாபிரோ-வில்க் சோதனை செய்யுங்கள். குறைந்த பி-மதிப்பு தரவு ஒரு சாதாரண "
-"விநியோகத்திலிருந்து அல்ல என்று அறிவுறுத்துகிறது."
+"இயல்பான ஒரு சாபிரோ-வில்க் சோதனை செய்யுங்கள். குறைந்த பி-மதிப்பு தரவு ஒரு "
+"சாதாரண விநியோகத்திலிருந்து அல்ல என்று அறிவுறுத்துகிறது."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -3824,17 +3930,21 @@ msgstr "ஃபிசரின் (அல்லது 'இயல்பான' எ
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 msgstr ""
-"இயல்பான சாபிரோ-வில்க் சோதனைகளைச் செய்யுங்கள். குறைந்த பி-மதிப்பு தரவு ஒரு சாதாரண "
-"விநியோகத்திலிருந்து அல்ல என்று அறிவுறுத்துகிறது."
+"இயல்பான சாபிரோ-வில்க் சோதனைகளைச் செய்யுங்கள். குறைந்த பி-மதிப்பு தரவு ஒரு "
+"சாதாரண விநியோகத்திலிருந்து அல்ல என்று அறிவுறுத்துகிறது."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
 msgstr ""
-"இயல்பான சாபிரோ-வில்க் சோதனைகளைச் செய்யுங்கள். குறைந்த பி-மதிப்பு எஞ்சியவை பொதுவாக "
-"விநியோகிக்கப்படுவதில்லை என்று கூறுகிறது."
+"இயல்பான சாபிரோ-வில்க் சோதனைகளைச் செய்யுங்கள். குறைந்த பி-மதிப்பு எஞ்சியவை "
+"பொதுவாக விநியோகிக்கப்படுவதில்லை என்று கூறுகிறது."
 
 #: ttestIS/options/students.description.ui
 msgid "perform Student's independent samples t-tests."
@@ -3901,7 +4011,7 @@ msgstr "வரைபட வகை"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4105,14 +4215,15 @@ msgstr "விகிதாச்சார சோதனை (n விளைவு�
 #: ancova/options/postHocES.description.ui
 #: anova/options/postHocES.description.ui
 msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
-msgstr ""
-"பிந்தைய தற்காலிக சோதனைகளுக்கு ஒரு கோஅனின் டி அளவீட்டு விளைவு அளவை வழங்கவும்."
+msgstr "பிந்தைய தற்காலிக சோதனைகளுக்கு ஒரு கோஅனின் டி அளவீட்டு விளைவு அளவை வழங்கவும்."
 
 #: ttestOneS/options/ci.description.ui
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
 msgstr ""
-"சராசரி மதிப்பீட்டிற்கும் சோதனை மதிப்புக்கும் இடையிலான வேறுபாட்டிற்கு நம்பிக்கை இடைவெளியை "
-"வழங்கவும்."
+"சராசரி மதிப்பீட்டிற்கும் சோதனை மதிப்புக்கும் இடையிலான வேறுபாட்டிற்கு "
+"நம்பிக்கை இடைவெளியை வழங்கவும்."
 
 #: corrMatrix/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -4134,11 +4245,16 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "மாறிகள் ஒவ்வொரு கலவைக்கும் ஒரு பியர்சனின் R ஐ வழங்கவும்."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 msgstr ""
-"எச்சங்களின் Q-Q சதித்திட்டத்தை வழங்கவும்-தரவு <i>சரியாக</i> பொதுவாக விநியோகிக்கப்பட்டால் "
-"எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் "
-"தரவு சாதாரண விநியோகத்திலிருந்து அல்ல என்று கூறுகின்றன."
+"எச்சங்களின் Q-Q சதித்திட்டத்தை வழங்கவும்-தரவு <i>சரியாக</i> பொதுவாக "
+"விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. "
+"மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் தரவு சாதாரண விநியோகத்திலிருந்து அல்ல "
+"என்று கூறுகின்றன."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4157,8 +4273,7 @@ msgstr "மதிப்பிடப்பட்ட விளிம்பு வ�
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
-"மாணவர்களின் சுயாதீன மாதிரிகள் டி-சோதனைகளுக்கு பேய்ச் காரணிகளை வழங்குதல்."
+msgstr "மாணவர்களின் சுயாதீன மாதிரிகள் டி-சோதனைகளுக்கு பேய்ச் காரணிகளை வழங்குதல்."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
@@ -4222,33 +4337,38 @@ msgstr "விளைவு அளவுகளை வழங்குதல் (�
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
 msgstr ""
-"மாறுபாடுகளின் ஒருமைப்பாட்டிற்கான லெவனின் சோதனையை வழங்கவும். குறைந்த பி-மதிப்பு "
-"குழுக்களுக்கு சமமற்ற மாறுபாடுகள் இருப்பதாகக் கூறுகிறது."
+"மாறுபாடுகளின் ஒருமைப்பாட்டிற்கான லெவனின் சோதனையை வழங்கவும். குறைந்த "
+"பி-மதிப்பு குழுக்களுக்கு சமமற்ற மாறுபாடுகள் இருப்பதாகக் கூறுகிறது."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
 msgstr ""
-"மாறுபாடுகளின் ஒருமைப்பாட்டிற்கு லெவனின் சோதனைகளை வழங்கவும். குறைந்த பி-மதிப்பு "
-"குழுக்களுக்கு சமமற்ற மாறுபாடுகள் இருப்பதாகக் கூறுகிறது."
+"மாறுபாடுகளின் ஒருமைப்பாட்டிற்கு லெவனின் சோதனைகளை வழங்கவும். குறைந்த "
+"பி-மதிப்பு குழுக்களுக்கு சமமற்ற மாறுபாடுகள் இருப்பதாகக் கூறுகிறது."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
 msgid "provide mean differences and standard errors of the mean differences."
-msgstr ""
-"சராசரி வேறுபாடுகளின் சராசரி வேறுபாடுகள் மற்றும் நிலையான பிழைகளை வழங்குதல்."
+msgstr "சராசரி வேறுபாடுகளின் சராசரி வேறுபாடுகள் மற்றும் நிலையான பிழைகளை வழங்குதல்."
 
 #: anovaOneW/options/phMeanDif.description.ui
 msgid "provide mean differences with the post-hoc tests."
 msgstr "பிந்தைய தற்காலிக சோதனைகளுடன் சராசரி வேறுபாடுகளை வழங்குதல்."
 
 #: ttestOneS/options/meanDiff.description.ui
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
 msgstr ""
-"சராசரி மதிப்பீட்டிற்கும் சோதனை மதிப்புக்கும் இடையில் சராசரி வேறுபாடுகள் மற்றும் சராசரி "
-"வேறுபாடுகளின் நிலையான பிழைகளை வழங்குதல்."
+"சராசரி மதிப்பீட்டிற்கும் சோதனை மதிப்புக்கும் இடையில் சராசரி வேறுபாடுகள் "
+"மற்றும் சராசரி வேறுபாடுகளின் நிலையான பிழைகளை வழங்குதல்."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4276,20 +4396,30 @@ msgstr "பிந்தைய தற்காலிக சோதனைகளை 
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 msgstr ""
-"எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு <i>சரியாக</i> பொதுவாக விநியோகிக்கப்பட்டால் "
-"எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் "
-"தரவு ஒரு சாதாரண விநியோகத்திலிருந்து அல்ல என்று கூறுகின்றன."
+"எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு <i>சரியாக</i> பொதுவாக "
+"விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. "
+"மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் தரவு ஒரு சாதாரண விநியோகத்திலிருந்து "
+"அல்ல என்று கூறுகின்றன."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
 msgstr ""
-"எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு <i>சரியாக</i> பொதுவாக விநியோகிக்கப்பட்டால் "
-"எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் "
-"எச்சங்கள் பொதுவாக விநியோகிக்கப்படவில்லை என்று கூறுகின்றன."
+"எச்சங்களின் Q-Q அடுக்குகளை வழங்குதல்-தரவு <i>சரியாக</i> பொதுவாக "
+"விநியோகிக்கப்பட்டால் எதிர்பார்க்கப்படும் உண்மையான எச்சங்களின் சூழ்ச்சி. "
+"மூலைவிட்ட வரியிலிருந்து பெரிய விலகல்கள் எச்சங்கள் பொதுவாக "
+"விநியோகிக்கப்படவில்லை என்று கூறுகின்றன."
 
 #: anovaOneW/options/phSig.description.ui
 msgid "provide significance levels for the post-hoc tests."
@@ -4302,8 +4432,8 @@ msgstr "கோள சோதனைகளை வழங்குதல்."
 #: anovaOneW/options/phTest.description.ui
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
 msgstr ""
-"பிந்தைய தற்காலிக சோதனைகளுக்கு சோதனை முடிவுகளை (டி-மதிப்பு மற்றும் சுதந்திரத்தின் "
-"டிகிரி) வழங்கவும்."
+"பிந்தைய தற்காலிக சோதனைகளுக்கு சோதனை முடிவுகளை (டி-மதிப்பு மற்றும் "
+"சுதந்திரத்தின் டிகிரி) வழங்கவும்."
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -4321,7 +4451,7 @@ msgstr "வழக்குகளின் எண்ணிக்கையை வ�
 msgid "Pseudo R²"
 msgstr "போலி r²"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 msgid "Q-Q"
 msgstr "Q-q"
 
@@ -4359,7 +4489,7 @@ msgstr "பன்முக இயல்புநிலையின் Q-Q சூ
 msgid "Q-Q plot of residuals"
 msgstr "Q-Q எச்சங்களின் சூழ்ச்சி"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 msgid "Q-Q Plots"
 msgstr "Q-Q அடுக்கு"
 
@@ -4582,10 +4712,12 @@ msgid "Residual plots"
 msgstr "மீதமுள்ள அடுக்கு"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
 msgstr ""
-"மீதமுள்ள சதுரங்கள் மற்றும்/அல்லது சுதந்திரத்தின் அளவுகள் பூச்சியமாகும், இது சரியான "
-"பொருத்தத்தைக் குறிக்கிறது"
+"மீதமுள்ள சதுரங்கள் மற்றும்/அல்லது சுதந்திரத்தின் அளவுகள் பூச்சியமாகும், இது "
+"சரியான பொருத்தத்தைக் குறிக்கிறது"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -4691,6 +4823,7 @@ msgstr "வரிசை மாறி '{var}' 2 நிலைகளுக்கு
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 msgid "Rows"
 msgstr "வரிசைகள்"
 
@@ -4762,7 +4895,8 @@ msgstr "கூறுக்கான மதிப்பெண்"
 #: R/pca.b.R
 msgid "Score for factor {i}. Estimated using the '{fsMethod}' method."
 msgstr ""
-"காரணிக்கான மதிப்பெண் {i}. '{fsMethod}' முறையைப் பயன்படுத்தி மதிப்பிடப்பட்டுள்ளது."
+"காரணிக்கான மதிப்பெண் {i}. '{fsMethod}' முறையைப் பயன்படுத்தி "
+"மதிப்பிடப்பட்டுள்ளது."
 
 #: pca/results/eigen/screePlot.title
 msgid "Scree Plot"
@@ -4889,10 +5023,12 @@ msgid "Simulations"
 msgstr "உருவகப்படுத்துதல்கள்"
 
 #: R/ancova.b.R
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
 msgstr ""
-"ஒற்றை பொருத்தம் ஏற்பட்டது; ஒன்று அல்லது அதற்கு மேற்பட்ட முன்கணிப்பு மாறிகள் மற்ற முன்கணிப்பு "
-"மாறிகளின் நேரியல் கலவையாகும்."
+"ஒற்றை பொருத்தம் ஏற்பட்டது; ஒன்று அல்லது அதற்கு மேற்பட்ட முன்கணிப்பு மாறிகள் "
+"மற்ற முன்கணிப்பு மாறிகளின் நேரியல் கலவையாகும்."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
@@ -5206,7 +5342,8 @@ msgid "The 'split by' variable '{var}' contains no data."
 msgstr "'பிளவுபட்டது' மாறி '{var}' எந்த தரவையும் கொண்டிருக்கவில்லை."
 
 #: ttestOneS/options/hypothesis.description.ui
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5235,29 +5372,36 @@ msgstr "மாற்று கருதுகோள். ஒரு வால் �
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
 msgstr ""
 "உறவை ஆராய கோவாரன்ச் (ANCOVA) பகுப்பாய்வு பயன்படுத்தப்படுகிறது\n"
-" தொடர்ச்சியான சார்பு மாறிக்கு இடையில், ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தல்\n"
-" விளக்கமளிக்கும் மாறிகள், மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான விளக்க மாறிகள்\n"
-" (அல்லது கோவாரியட்டுகள்). இது அடிப்படையில் ANOVA இன் அதே பகுப்பாய்வு ஆகும், ஆனால்\n"
+" தொடர்ச்சியான சார்பு மாறிக்கு இடையில், ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தல்\n"
+" விளக்கமளிக்கும் மாறிகள், மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான "
+"விளக்க மாறிகள்\n"
+" (அல்லது கோவாரியட்டுகள்). இது அடிப்படையில் ANOVA இன் அதே பகுப்பாய்வு ஆகும், "
+"ஆனால்\n"
 " கோவாரியட்டுகள் கூடுதலாக."
 
 #: package/analyses/anova.description
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
 "உறவை ஆராய மாறுபாட்டின் பகுப்பாய்வு (ANOVA) பயன்படுத்தப்படுகிறது\n"
-" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தல்\n"
+" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தல்\n"
 " விளக்கமளிக்கும் மாறிகள்."
 
 #: anova/options.description.main
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -5270,19 +5414,23 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "can be used."
 msgstr ""
 "உறவை ஆராய மாறுபாட்டின் பகுப்பாய்வு (ANOVA) பயன்படுத்தப்படுகிறது\n"
-" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தல்\n"
+" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தல்\n"
 " விளக்கமளிக்கும் மாறிகள்.\n"
 "\n"
 " எஞ்சியவை பொதுவாக விநியோகிக்கப்படுகின்றன, மற்றும் அந்த\n"
-" அனைத்து குழுக்களின் மாறுபாடுகளும் சமம். ஒருவர் அதை கருத விரும்பவில்லை என்றால்\n"
+" அனைத்து குழுக்களின் மாறுபாடுகளும் சமம். ஒருவர் அதை கருத விரும்பவில்லை "
+"என்றால்\n"
 " மாறுபாடுகள் சமம், பின்னர் வெல்ச்சின் சோதனையை பயன்படுத்தலாம்\n"
 " (இருப்பினும், வெல்ச்சின் சோதனை ஒன்றுக்கு மேற்பட்ட விளக்கங்களை ஆதரிக்கவில்லை\n"
 " காரணி). மாற்றாக, தரவு என்று ஒருவர் கருத விரும்பவில்லை என்றால்\n"
-" பொதுவாக விநியோகிக்கப்படுகிறது, அளவுரு அல்லாத அணுகுமுறை (க்ருச்கல்-வாலிச் போன்றவை)\n"
+" பொதுவாக விநியோகிக்கப்படுகிறது, அளவுரு அல்லாத அணுகுமுறை (க்ருச்கல்-வாலிச் "
+"போன்றவை)\n"
 " பயன்படுத்தலாம்."
 
 #: package/analyses/anovaOneW.description
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5290,14 +5438,17 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "it need not assume that the variances of all groups are equal."
 msgstr ""
 "உறவை ஆராய மாறுபாட்டின் பகுப்பாய்வு (ANOVA) பயன்படுத்தப்படுகிறது\n"
-" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தல்\n"
-" விளக்கமளிக்கும் மாறிகள். இந்த 'ஒரு வழி ANOVA' இன் எளிமைப்படுத்தப்பட்ட பதிப்பாகும்\n"
+" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தல்\n"
+" விளக்கமளிக்கும் மாறிகள். இந்த 'ஒரு வழி ANOVA' இன் எளிமைப்படுத்தப்பட்ட "
+"பதிப்பாகும்\n"
 " இருப்பினும், 'சாதாரண' ANOVA, ஒரு விளக்க காரணி மட்டுமே அனுமதிக்கிறது\n"
 " வெல்ச்சின் ANOVA ஐ வழங்கும். வெல்ச்சின் ANOVA க்கு நன்மை உண்டு\n"
 " அனைத்து குழுக்களின் மாறுபாடுகளும் சமம் என்று கருத தேவையில்லை."
 
 #: anovaOneW/options.description.main
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5311,8 +5462,10 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "independent samples t-test."
 msgstr ""
 "உறவை ஆராய மாறுபாட்டின் பகுப்பாய்வு (ANOVA) பயன்படுத்தப்படுகிறது\n"
-" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தல்\n"
-" விளக்கமளிக்கும் மாறிகள். இந்த 'ஒரு வழி ANOVA' இன் எளிமைப்படுத்தப்பட்ட பதிப்பாகும்\n"
+" தொடர்ச்சியான சார்பு மாறி, மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தல்\n"
+" விளக்கமளிக்கும் மாறிகள். இந்த 'ஒரு வழி ANOVA' இன் எளிமைப்படுத்தப்பட்ட "
+"பதிப்பாகும்\n"
 " இருப்பினும், 'சாதாரண' ANOVA, ஒரு விளக்க காரணி மட்டுமே அனுமதிக்கிறது\n"
 " வெல்ச்சின் ANOVA ஐ வழங்கும். வெல்ச்சின் ANOVA க்கு நன்மை உண்டு\n"
 " அனைத்து குழுக்களின் மாறுபாடுகளும் சமம் என்று கருத தேவையில்லை.\n"
@@ -5333,22 +5486,28 @@ msgstr "மாதிரியின் பாடங்களுக்கு இ�
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
 msgstr ""
-"அவதானிப்புகளின் விகிதம் சில எதிர்பார்க்கப்படும் மதிப்புடன் பொருந்துகிறது என்ற சுழிய "
-"கருதுகோளை சோதிக்க பைனோமியல் சோதனை பயன்படுத்தப்படுகிறது. பி-மதிப்பு குறைவாக இருந்தால், "
-"இது சுழிய கருதுகோள் தவறானது என்றும், உண்மையான விகிதம் வேறு சில மதிப்பாக இருக்க வேண்டும் "
-"என்றும் இது அறிவுறுத்துகிறது."
+"அவதானிப்புகளின் விகிதம் சில எதிர்பார்க்கப்படும் மதிப்புடன் பொருந்துகிறது "
+"என்ற சுழிய கருதுகோளை சோதிக்க பைனோமியல் சோதனை பயன்படுத்தப்படுகிறது. "
+"பி-மதிப்பு குறைவாக இருந்தால், இது சுழிய கருதுகோள் தவறானது என்றும், உண்மையான "
+"விகிதம் வேறு சில மதிப்பாக இருக்க வேண்டும் என்றும் இது அறிவுறுத்துகிறது."
 
 #: ancova/options/factors.description.ui
 msgid "the categorical explanatory (or independent) variables."
 msgstr "வகைப்படுத்தப்பட்ட விளக்கமளிக்கும் (அல்லது சுயாதீனமான) மாறிகள்."
 
 #: R/descriptives.b.R
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
 msgstr ""
-"சராசரியின் தொஒ என்பது மாதிரியைக் கருதுகிறது என்றால் n - 1 டிகிரி சுதந்திரத்துடன் ஒரு "
-"டி -விநியோகத்தைப் பின்பற்றுங்கள்"
+"சராசரியின் தொஒ என்பது மாதிரியைக் கருதுகிறது என்றால் n - 1 டிகிரி "
+"சுதந்திரத்துடன் ஒரு டி -விநியோகத்தைப் பின்பற்றுங்கள்"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -5369,10 +5528,12 @@ msgid "the confidence interval width."
 msgstr "நம்பிக்கை இடைவெளி அகலம்."
 
 #: ancova/options/covs.description.ui
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
 msgstr ""
-"தொடர்ச்சியான விளக்கமளிக்கும் (அல்லது சுயாதீனமான) மாறிகள், கோவாரியட்டுகள் என்றும் "
-"அழைக்கப்படுகின்றன."
+"தொடர்ச்சியான விளக்கமளிக்கும் (அல்லது சுயாதீனமான) மாறிகள், கோவாரியட்டுகள் "
+"என்றும் அழைக்கப்படுகின்றன."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5394,32 +5555,45 @@ msgstr "கட்-ஆஃப் மதிப்பு {} என அமைக்�
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr ""
-"தரவுத்தொகுப்பில் 0 வரிசைகள் உள்ளன (காணாமல் போன மதிப்புகளுடன் வரிசைகளை அகற்றிய பிறகு)"
+"தரவுத்தொகுப்பில் 0 வரிசைகள் உள்ளன (காணாமல் போன மதிப்புகளுடன் வரிசைகளை "
+"அகற்றிய பிறகு)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr ""
-"தரவுத்தொகுப்பில் 0 வரிசைகள் உள்ளன (அல்லது அனைத்து வரிசைகளும் காணாமல் போன மதிப்புகளைக் "
-"கொண்டுள்ளன)"
+"தரவுத்தொகுப்பில் 0 வரிசைகள் உள்ளன (அல்லது அனைத்து வரிசைகளும் காணாமல் போன "
+"மதிப்புகளைக் கொண்டுள்ளன)"
 
 #: R/logregbin.b.R
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
 msgstr ""
-"சார்பு மாறி '{}' இரண்டு நிலைகளுக்கு மேல் உள்ளது; பைனோமியல் லாசிச்டிக் பின்னடைவு இரண்டு "
-"நிலைகளுடன் சார்பு மாறிகள் மீது மட்டுமே செய்ய முடியும்."
+"சார்பு மாறி '{}' இரண்டு நிலைகளுக்கு மேல் உள்ளது; பைனோமியல் லாசிச்டிக் "
+"பின்னடைவு இரண்டு நிலைகளுடன் சார்பு மாறிகள் மீது மட்டுமே செய்ய முடியும்."
 
 #: R/logregord.b.R
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "சார்பு மாறி '{dep}' பின்வரும் வரிசையைக் கொண்டுள்ளது: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
 msgstr ""
-"சார்பு மாறி \"{dep}\" இரண்டு நிலைகளை மட்டுமே கொண்டுள்ளது, ஒரு பைனோமியல் லாசிச்டிக் "
-"பின்னடைவைச் செய்வதைக் கவனியுங்கள்."
+"சார்பு மாறி \"{dep}\" இரண்டு நிலைகளை மட்டுமே கொண்டுள்ளது, ஒரு பைனோமியல் "
+"லாசிச்டிக் பின்னடைவைச் செய்வதைக் கவனியுங்கள்."
 
 #: ancova/options/dep.description.ui
 msgid "the dependent variable. For ANCOVA, these will be continuous."
@@ -5430,9 +5604,12 @@ msgid "the dependent variable. For ANOVA, these will be continuous."
 msgstr "சார்பு மாறி. ANOVA ஐப் பொறுத்தவரை, இவை தொடர்ச்சியாக இருக்கும்."
 
 #: ttestIS/options/vars.description.ui
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
 msgstr ""
-"சார்பு மாறிகள்-குறிப்பிடப்பட்ட ஒவ்வொரு சார்பு மாறிக்கும் ஒரு தனி டி-சோதனை செய்யப்படுகிறது."
+"சார்பு மாறிகள்-குறிப்பிடப்பட்ட ஒவ்வொரு சார்பு மாறிக்கும் ஒரு தனி டி-சோதனை "
+"செய்யப்படுகிறது."
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
@@ -5449,29 +5626,45 @@ msgid "the explanatory or independent variable. For ANOVA this will be categoric
 msgstr "விளக்கமளிக்கும் அல்லது சுயாதீன மாறி. ANOVA க்கு இது வகைப்படுத்தப்படும்."
 
 #: anova/options/factors.description.ui
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr ""
-"விளக்கமளிக்கும் அல்லது சுயாதீன மாறிகள். ANOVA க்கு இவை வகைப்படுத்தப்படும்."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
+msgstr "விளக்கமளிக்கும் அல்லது சுயாதீன மாறிகள். ANOVA க்கு இவை வகைப்படுத்தப்படும்."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
 msgstr ""
-"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒரு வகைப்படுத்தப்பட்ட விளக்க மாறி ஆகியவற்றுக்கு இடையிலான "
-"உறவை ஆராய ப்ரீட்மேன் சோதனை பயன்படுத்தப்படுகிறது, அங்கு விளக்கமளிக்கும் மாறி 'பாடங்களுக்குள்' "
-"(பல அளவீடுகள் ஒரே பாடத்திலிருந்து). இது மறுநிகழ்வு நடவடிக்கைகளுக்கு அனோவா, ஆனால் அளவுரு "
-"அல்லாதவராக இருப்பதன் நன்மையுடன், மற்றும் மாறுபாடுகளின் இயல்பான அல்லது ஒருமைப்பாடு ஆகியவற்றின் "
-"அனுமானங்கள் தேவையில்லை. இருப்பினும், இது ஒரு நேரத்தில் ஒரு விளக்க மாறியை மட்டுமே சோதிக்க "
-"முடியும் என்ற வரம்பைக் கொண்டுள்ளது."
+"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒரு வகைப்படுத்தப்பட்ட விளக்க மாறி "
+"ஆகியவற்றுக்கு இடையிலான உறவை ஆராய ப்ரீட்மேன் சோதனை பயன்படுத்தப்படுகிறது, "
+"அங்கு விளக்கமளிக்கும் மாறி 'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே "
+"பாடத்திலிருந்து). இது மறுநிகழ்வு நடவடிக்கைகளுக்கு அனோவா, ஆனால் அளவுரு "
+"அல்லாதவராக இருப்பதன் நன்மையுடன், மற்றும் மாறுபாடுகளின் இயல்பான அல்லது "
+"ஒருமைப்பாடு ஆகியவற்றின் அனுமானங்கள் தேவையில்லை. இருப்பினும், இது ஒரு "
+"நேரத்தில் ஒரு விளக்க மாறியை மட்டுமே சோதிக்க முடியும் என்ற வரம்பைக் "
+"கொண்டுள்ளது."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
 msgstr ""
-"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒரு வகைப்படுத்தப்பட்ட விளக்கமளிக்கும் மாறிக்கு இடையிலான உறவை "
-"ஆராய க்ருச்கல்-வாலிச் சோதனை பயன்படுத்தப்படுகிறது. இது ANOVA க்கு அனலாகச் ஆகும், ஆனால் "
-"அளவுரு அல்லாதவர்களாகவும், குறைவான அனுமானங்களைக் கொண்டிருப்பதாலும். இருப்பினும், இது ஒரு "
-"நேரத்தில் ஒரு விளக்க மாறியை மட்டுமே சோதிக்க முடியும் என்ற வரம்பைக் கொண்டுள்ளது."
+"தொடர்ச்சியான சார்பு மாறி மற்றும் ஒரு வகைப்படுத்தப்பட்ட விளக்கமளிக்கும் "
+"மாறிக்கு இடையிலான உறவை ஆராய க்ருச்கல்-வாலிச் சோதனை பயன்படுத்தப்படுகிறது. இது "
+"ANOVA க்கு அனலாகச் ஆகும், ஆனால் அளவுரு அல்லாதவர்களாகவும், குறைவான "
+"அனுமானங்களைக் கொண்டிருப்பதாலும். இருப்பினும், இது ஒரு நேரத்தில் ஒரு விளக்க "
+"மாறியை மட்டுமே சோதிக்க முடியும் என்ற வரம்பைக் கொண்டுள்ளது."
 
 #: anovaRM/options/depLabel.description.ui
 msgid "the label to use for the dependent variable."
@@ -5484,33 +5677,47 @@ msgstr "மாதிரிக்கு ஏற்ற லாவான் தொட
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
 msgstr ""
 "காணாமல் போன மதிப்பு விலக்கு முறை. `பகுப்பாய்வு மூலம் பகுப்பாய்வு` ஒவ்வொரு "
-"பகுப்பாய்விலிருந்தும் காணாமல் போன மதிப்புகளை விலக்குகிறது. `Listvise` அதன் மதிப்புகளில் "
-"ஒன்று காணவில்லை என்றால் அனைத்து பகுப்பாய்வுகளிலிருந்தும் ஒரு வரிசையை விலக்குகிறது."
+"பகுப்பாய்விலிருந்தும் காணாமல் போன மதிப்புகளை விலக்குகிறது. `Listvise` அதன் "
+"மதிப்புகளில் ஒன்று காணவில்லை என்றால் அனைத்து பகுப்பாய்வுகளிலிருந்தும் ஒரு "
+"வரிசையை விலக்குகிறது."
 
 #: ttestOneS/options/miss.description.ui
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
 msgstr ""
-"காணாமல் போன மதிப்பு விலக்கு முறை. `பகுப்பாய்வு மூலம் பகுப்பாய்வு` ஒவ்வொரு மாறியிலிருந்தும் "
-"காணாமல் போன மதிப்புகளை விலக்குகிறது. `Listvise` அதன் மதிப்புகளில் ஒன்று காணவில்லை என்றால் "
-"அனைத்து பகுப்பாய்வுகளிலிருந்தும் ஒரு வரிசையை விலக்குகிறது."
+"காணாமல் போன மதிப்பு விலக்கு முறை. `பகுப்பாய்வு மூலம் பகுப்பாய்வு` ஒவ்வொரு "
+"மாறியிலிருந்தும் காணாமல் போன மதிப்புகளை விலக்குகிறது. `Listvise` அதன் "
+"மதிப்புகளில் ஒன்று காணவில்லை என்றால் அனைத்து பகுப்பாய்வுகளிலிருந்தும் ஒரு "
+"வரிசையை விலக்குகிறது."
 
 #: ancova/options/modelTerms.description.ui
 msgid "the model terms which make up the model."
 msgstr "மாதிரியை உருவாக்கும் மாதிரி விதிமுறைகள்."
 
 #: anova/options/modelTerms.description.ui
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
 "மாதிரியை உருவாக்கும் மாதிரி விதிமுறைகள். இயல்பாக ஒரு முழு காரணியாலான மாதிரி "
-"உருவாக்கப்பட்டது, ஆனால் இங்கே மாதிரியை உருவாக்கும் சரியான சொற்களை சரிசெய்ய முடியும்."
+"உருவாக்கப்பட்டது, ஆனால் இங்கே மாதிரியை உருவாக்கும் சரியான சொற்களை சரிசெய்ய "
+"முடியும்."
 
 #: ttestPS/options/pairs.description.ui
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
 msgstr ""
-"அளவீடுகளின் சோடிகள்-ஒவ்வொரு இணை அளவீடுகளுக்கும் ஒரு தனி டி-சோதனை செய்யப்படுகிறது."
+"அளவீடுகளின் சோடிகள்-ஒவ்வொரு இணை அளவீடுகளுக்கும் ஒரு தனி டி-சோதனை "
+"செய்யப்படுகிறது."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -5519,20 +5726,25 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr "பிந்தைய தற்காலிக பல ஒப்பீட்டு திருத்தங்கள் பயன்படுத்த."
 
 #: ttestIS/options/bfPrior.description.ui
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
 msgstr ""
-"மாணவரின் டி-டெச்டின் பேயச் காரணிகளுக்கான முந்தைய அகலம். 0.01 மற்றும் 2.0 க்கு இடையில் "
-"மதிப்பு தேவை, இயல்புநிலை 0.707."
+"மாணவரின் டி-டெச்டின் பேயச் காரணிகளுக்கான முந்தைய அகலம். 0.01 மற்றும் 2.0 "
+"க்கு இடையில் மதிப்பு தேவை, இயல்புநிலை 0.707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
 msgstr ""
-"மாணவரின் டி-டெச்டின் பேயச் காரணிகளுக்கான முந்தைய அகலம். 0.5 முதல் 2.0 வரை மதிப்பு தேவை, "
-"இயல்புநிலை 0.707."
+"மாணவரின் டி-டெச்டின் பேயச் காரணிகளுக்கான முந்தைய அகலம். 0.5 முதல் 2.0 வரை "
+"மதிப்பு தேவை, இயல்புநிலை 0.707."
 
 #: package/analyses/anovaRM.description
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -5540,14 +5752,16 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
 msgstr ""
 "உறவை ஆராய அனோவா மறுநிகழ்வு நடவடிக்கைகள் பயன்படுத்தப்படுகின்றன\n"
-" தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தலுக்கு இடையில்\n"
+" தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தலுக்கு இடையில்\n"
 " விளக்கமளிக்கும் மாறிகள், ஒன்று அல்லது அதற்கு மேற்பட்ட விளக்க மாறிகள்\n"
 " 'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே மாதிரியாக இருக்கும்\n"
 " பொருள்). கூடுதலாக, இந்தப் பகுப்பாய்வு சேர்க்க அனுமதிக்கிறது\n"
 " கோவாரியட்டுகள், மறுநிகழ்வு நடவடிக்கைகளை அனுமதிக்கிறது."
 
 #: anovaRM/options.description.main
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -5563,7 +5777,8 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "test a single factor."
 msgstr ""
 "உறவை ஆராய அனோவா மறுநிகழ்வு நடவடிக்கைகள் பயன்படுத்தப்படுகின்றன\n"
-" தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட வகைப்படுத்தலுக்கு இடையில்\n"
+" தொடர்ச்சியான சார்பு மாறி மற்றும் ஒன்று அல்லது அதற்கு மேற்பட்ட "
+"வகைப்படுத்தலுக்கு இடையில்\n"
 " விளக்கமளிக்கும் மாறிகள், ஒன்று அல்லது அதற்கு மேற்பட்ட விளக்க மாறிகள்\n"
 " 'பாடங்களுக்குள்' (பல அளவீடுகள் ஒரே மாதிரியாக இருக்கும்\n"
 " பொருள்). கூடுதலாக, இந்தப் பகுப்பாய்வு சேர்க்க அனுமதிக்கிறது\n"
@@ -5574,7 +5789,8 @@ msgstr ""
 " சார்பு மாறியின் அளவீட்டு ஒரு வரிசையாகக் குறிப்பிடப்படுகிறது).\n"
 "\n"
 " அனோவா மறுநிகழ்வு நடவடிக்கைகளுக்கு அளவுரு அல்லாத சமமானதாகும்;\n"
-" ப்ரீட்மேன் சோதனை. இருப்பினும், இது மட்டுமே முடியும் என்பதற்கான வரம்பைக் கொண்டுள்ளது\n"
+" ப்ரீட்மேன் சோதனை. இருப்பினும், இது மட்டுமே முடியும் என்பதற்கான வரம்பைக் "
+"கொண்டுள்ளது\n"
 " ஒரு காரணியைச் சோதிக்கவும்."
 
 #: anovaRM/options/rm.description.ui
@@ -5582,10 +5798,13 @@ msgid "the repeated measures design."
 msgstr "மறுநிகழ்வு நடவடிக்கைகள் வடிவமைப்பு."
 
 #: R/anovarm.b.R
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
 msgstr ""
-"மறுநிகழ்வு நடவடிக்கைகள் இரண்டு நிலைகள் மட்டுமே உள்ளன. மறுநிகழ்வு நடவடிக்கைகளுக்கு "
-"இரண்டு நிலைகள் மட்டுமே இருக்கும்போது கோளத்தின் அனுமானம் எப்போதும் நிறைவு செய்யப்படுகிறது."
+"மறுநிகழ்வு நடவடிக்கைகள் இரண்டு நிலைகள் மட்டுமே உள்ளன. மறுநிகழ்வு "
+"நடவடிக்கைகளுக்கு இரண்டு நிலைகள் மட்டுமே இருக்கும்போது கோளத்தின் அனுமானம் "
+"எப்போதும் நிறைவு செய்யப்படுகிறது."
 
 #: anovaRM/options/rmCells.description.ui
 msgid "the repeated measures measurements."
@@ -5596,26 +5815,33 @@ msgid "the repeated measures terms of the model."
 msgstr "மாதிரியின் தொடர்ச்சியான நடவடிக்கைகள் விதிமுறைகள்."
 
 #: R/utilsreg.R
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
 msgstr ""
-"பின்வரும் மாறி (கள்) க்கு குறிப்பிட்ட குறிப்பு நிலை காணப்படவில்லை: {vars}. கிடைக்கக்கூடிய "
-"முதல் நிலைக்கு இயல்புநிலை. தனிப்பயன் குறிப்பு மட்டத்தைப் பயன்படுத்த, வரையறுக்கப்பட்ட "
-"குறிப்பு நிலை தரவுகளில் கிடைக்கிறது என்பதை உறுதிப்படுத்தவும்."
+"பின்வரும் மாறி (கள்) க்கு குறிப்பிட்ட குறிப்பு நிலை காணப்படவில்லை: {vars}. "
+"கிடைக்கக்கூடிய முதல் நிலைக்கு இயல்புநிலை. தனிப்பயன் குறிப்பு மட்டத்தைப் "
+"பயன்படுத்த, வரையறுக்கப்பட்ட குறிப்பு நிலை தரவுகளில் கிடைக்கிறது என்பதை "
+"உறுதிப்படுத்தவும்."
 
 #: package/analyses/ttestIS.description
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
 "மாணவரின் சுயாதீன மாதிரிகள் டி-சோதனை (சில நேரங்களில் இரண்டு-மாதிரிகள் என்று "
 "அழைக்கப்படுகிறது\n"
-" டி-டெச்ட்) இரண்டு குழுக்களைக் கொண்டிருக்கும் சுழிய கருதுகோளை சோதிக்கப் பயன்படுகிறது\n"
+" டி-டெச்ட்) இரண்டு குழுக்களைக் கொண்டிருக்கும் சுழிய கருதுகோளை சோதிக்கப் "
+"பயன்படுகிறது\n"
 " அதே சராசரி. குறைந்த பி-மதிப்பு சுழிய கருதுகோள் உண்மை இல்லை என்று கூறுகிறது,\n"
 " எனவே குழு பொருள் வேறுபட்டது."
 
 #: ttestIS/options.description.main
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -5631,32 +5857,38 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 msgstr ""
 "மாணவரின் சுயாதீன மாதிரிகள் டி-சோதனை (சில நேரங்களில் இரண்டு-மாதிரிகள் என்று "
 "அழைக்கப்படுகிறது\n"
-" டி-டெச்ட்) இரண்டு குழுக்களைக் கொண்டிருக்கும் சுழிய கருதுகோளை சோதிக்கப் பயன்படுகிறது\n"
+" டி-டெச்ட்) இரண்டு குழுக்களைக் கொண்டிருக்கும் சுழிய கருதுகோளை சோதிக்கப் "
+"பயன்படுகிறது\n"
 " அதே சராசரி. குறைந்த பி-மதிப்பு சுழிய கருதுகோள் உண்மை இல்லை என்று கூறுகிறது,\n"
 " எனவே குழு பொருள் வேறுபட்டது.\n"
 "\n"
 " ஒவ்வொரு குழுவிலிருந்தும் தரவு என்று மாணவரின் சுயாதீன டி-சோதனை கருதுகிறது\n"
 " ஒரு சாதாரண விநியோகத்திலிருந்து, மற்றும் இந்த குழுக்களின் மாறுபாடுகள்\n"
-" சமமானவை. குழுக்களுக்கு சம மாறுபாடுகள் இருப்பதாக கருத விரும்பவில்லை என்றால், தி\n"
+" சமமானவை. குழுக்களுக்கு சம மாறுபாடுகள் இருப்பதாக கருத விரும்பவில்லை என்றால், "
+"தி\n"
 " வெல்ச்சின் டி-டெச்டை அதன் இடத்தில் பயன்படுத்தலாம். ஒன்று கூடுதலாக இருந்தால்\n"
 " ஒவ்வொரு குழுவிலிருந்தும் தரவு ஒரு சாதாரணமானது என்று கருத விரும்பவில்லை\n"
 " வழங்கல், அளவுரு அல்லாத மான்-விட்னி யு சோதனையை அதற்கு பதிலாக பயன்படுத்தலாம்\n"
-" (இருப்பினும், மான்-விட்னி யு சோதனை சற்று வித்தியாசமானது என்பதை நினைவில் கொள்க\n"
+" (இருப்பினும், மான்-விட்னி யு சோதனை சற்று வித்தியாசமானது என்பதை நினைவில் "
+"கொள்க\n"
 " சுழிய கருதுகோள்; ஒவ்வொரு குழுவின் விநியோகங்களும் சமம்)."
 
 #: package/analyses/ttestOneS.description
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
 msgstr ""
 "சுழிய கருதுகோளை சோதிக்க மாணவரின் ஒரு மாதிரி டி-சோதனை பயன்படுத்தப்படுகிறது\n"
-" உண்மையான சராசரி ஒரு குறிப்பிட்ட மதிப்புக்கு சமம் (பொதுவாக பூச்சியம்). ஒரு குறைந்த\n"
+" உண்மையான சராசரி ஒரு குறிப்பிட்ட மதிப்புக்கு சமம் (பொதுவாக பூச்சியம்). ஒரு "
+"குறைந்த\n"
 " பி-மதிப்பு சுழிய கருதுகோள் உண்மை இல்லை என்று கூறுகிறது, எனவே\n"
 " உண்மையான சராசரி சோதனை மதிப்பிலிருந்து வேறுபட்டதாக இருக்க வேண்டும்."
 
 #: ttestOneS/options.description.main
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -5668,20 +5900,22 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "hypothesis; that the <i>median</i> is equal to the test value)."
 msgstr ""
 "சுழிய கருதுகோளை சோதிக்க மாணவரின் ஒரு மாதிரி டி-சோதனை பயன்படுத்தப்படுகிறது\n"
-" உண்மையான சராசரி ஒரு குறிப்பிட்ட மதிப்புக்கு சமம் (பொதுவாக பூச்சியம்). ஒரு குறைந்த\n"
+" உண்மையான சராசரி ஒரு குறிப்பிட்ட மதிப்புக்கு சமம் (பொதுவாக பூச்சியம்). ஒரு "
+"குறைந்த\n"
 " பி-மதிப்பு சுழிய கருதுகோள் உண்மை இல்லை என்று கூறுகிறது, எனவே\n"
 " உண்மையான சராசரி சோதனை மதிப்பிலிருந்து வேறுபட்டதாக இருக்க வேண்டும்.\n"
 "\n"
 " மாணவரின் ஒரு மாதிரி டி-டெச்ட் தரவு ஒரு சாதாரணமானது என்று கருதுகிறது\n"
 " வழங்கல் - ஒருவர் இதை ஏற்க விரும்பவில்லை எனில், தி\n"
-" அளவுரு அல்லாத வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை அதன் இடத்தில் பயன்படுத்தப்படலாம் "
-"(இருப்பினும்,\n"
-" வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை சற்று வித்தியாசமான பூச்யத்தைக் கொண்டுள்ளது என்பதை "
-"நினைவில் கொள்க\n"
+" அளவுரு அல்லாத வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை அதன் இடத்தில் "
+"பயன்படுத்தப்படலாம் (இருப்பினும்,\n"
+" வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை சற்று வித்தியாசமான பூச்யத்தைக் "
+"கொண்டுள்ளது என்பதை நினைவில் கொள்க\n"
 " கருதுகோள்; <i>சராசரி</i> சோதனை மதிப்புக்கு சமம்)."
 
 #: package/analyses/ttestPS.description
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -5689,12 +5923,14 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 msgstr ""
 "மாணவரின் இணை மாதிரிகள் டி-சோதனை (சில நேரங்களில் a என்று அழைக்கப்படுகிறது\n"
 " சார்பு-மாதிரிகள் டி-டெச்ட்) சுழிய கருதுகோளை சோதிக்கப் பயன்படுகிறது\n"
-" சோடிகளின் அளவீடுகளுக்கு இடையிலான வேறுபாடு பூச்சியத்திற்கு சமம். குறைந்த பி-மதிப்பு\n"
+" சோடிகளின் அளவீடுகளுக்கு இடையிலான வேறுபாடு பூச்சியத்திற்கு சமம். குறைந்த "
+"பி-மதிப்பு\n"
 " சுழிய கருதுகோள் உண்மை இல்லை என்றும், மற்றும்\n"
 " அளவீட்டு சோடிகளுக்கு இடையிலான வேறுபாடு பூச்சியமல்ல."
 
 #: ttestPS/options.description.main
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -5709,25 +5945,30 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 msgstr ""
 "மாணவரின் இணை மாதிரிகள் டி-சோதனை (சில நேரங்களில் a என்று அழைக்கப்படுகிறது\n"
 " சார்பு-மாதிரிகள் டி-டெச்ட்) சுழிய கருதுகோளை சோதிக்கப் பயன்படுகிறது\n"
-" சோடிகளின் அளவீடுகளுக்கு இடையிலான வேறுபாடு பூச்சியத்திற்கு சமம். குறைந்த பி-மதிப்பு\n"
+" சோடிகளின் அளவீடுகளுக்கு இடையிலான வேறுபாடு பூச்சியத்திற்கு சமம். குறைந்த "
+"பி-மதிப்பு\n"
 " சுழிய கருதுகோள் உண்மை இல்லை என்றும், மற்றும்\n"
 " அளவீட்டு சோடிகளுக்கு இடையிலான வேறுபாடு பூச்சியமல்ல.\n"
 "\n"
-" மாணவரின் இணை மாதிரிகள் டி-டெச்ட் இணை வேறுபாடுகள் பின்பற்றப்படும் என்று கருதுகிறது\n"
+" மாணவரின் இணை மாதிரிகள் டி-டெச்ட் இணை வேறுபாடுகள் பின்பற்றப்படும் என்று "
+"கருதுகிறது\n"
 " ஒரு சாதாரண வழங்கல் - ஒருவர் கருத விரும்பவில்லை எனில்\n"
-" இது, அளவுரு அல்லாத வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை அதன் இடத்தில் பயன்படுத்தப்படலாம்\n"
-" (இருப்பினும், வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை சற்று வித்தியாசமானது என்பதை நினைவில் "
-"கொள்க\n"
+" இது, அளவுரு அல்லாத வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை அதன் இடத்தில் "
+"பயன்படுத்தப்படலாம்\n"
+" (இருப்பினும், வில்காக்சன் கையொப்பமிடப்பட்ட தரவரிசை சற்று வித்தியாசமானது "
+"என்பதை நினைவில் கொள்க\n"
 " சுழிய கருதுகோள்; அளவீடுகளின் இரண்டு குழுக்கள் ஒரே மாதிரியாக இருக்கின்றன\n"
 " விநியோகம்)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
 msgstr ""
-"மதிப்பிடப்பட்ட விளிம்பு வழிமுறைகளை வழங்குவதற்கான விதிமுறைகள். இங்கே நீங்கள் பல சொற்களைக் "
-"குறிப்பிடலாம்."
+"மதிப்பிடப்பட்ட விளிம்பு வழிமுறைகளை வழங்குவதற்கான விதிமுறைகள். இங்கே நீங்கள் "
+"பல சொற்களைக் குறிப்பிடலாம்."
 
 #: ttestOneS/options/testValue.description.ui
 msgid "the test value to test against (typically zero)."
@@ -5752,25 +5993,32 @@ msgid "The underlying `aov` object"
 msgstr "அடிப்படை `aov` பொருள்"
 
 #: R/descriptives.b.R
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
 msgstr ""
-"மாறி {var} எண் என கருத முடியாது. இந்த மாறிக்கு எண் தரவு உருவாக்கப்படாது என்று எதிர்பார்க்கும் "
-"அடுக்கு."
+"மாறி {var} எண் என கருத முடியாது. இந்த மாறிக்கு எண் தரவு உருவாக்கப்படாது "
+"என்று எதிர்பார்க்கும் அடுக்கு."
 
 #: ttestIS/options/group.description.ui
 msgid "the variable specifying the groups; must have 2 levels."
 msgstr "குழுக்களைக் குறிப்பிடும் மாறி; 2 நிலைகளைக் கொண்டிருக்க வேண்டும்."
 
 #: R/descriptives.b.R
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
 msgstr ""
-"{vars} மாறிகள் எண் எனக் கருத முடியாது. இந்த மாறிகளுக்கு எண் தரவு உருவாக்கப்படாது என்று "
-"எதிர்பார்க்கும் இடங்கள்."
+"{vars} மாறிகள் எண் எனக் கருத முடியாது. இந்த மாறிகளுக்கு எண் தரவு "
+"உருவாக்கப்படாது என்று எதிர்பார்க்கும் இடங்கள்."
 
 #: ttestOneS/options/vars.description.ui
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
 msgstr ""
-"ஆர்வத்தின் மாறிகள்-குறிப்பிடப்பட்ட ஒவ்வொரு மாறிக்கும் ஒரு தனி டி-சோதனை செய்யப்படுகிறது."
+"ஆர்வத்தின் மாறிகள்-குறிப்பிடப்பட்ட ஒவ்வொரு மாறிக்கும் ஒரு தனி டி-சோதனை "
+"செய்யப்படுகிறது."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -5785,22 +6033,31 @@ msgstr "நம்பிக்கை இடைவெளிகளுக்கா�
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
 msgstr ""
 "FIT சோதனையின் χ² நன்மை (சுதந்திரத்தின் χ² சோதனையுடன் குழப்பமடையக்கூடாது), "
-"அவதானிப்புகளின் விகிதாச்சாரம் சில எதிர்பார்க்கப்படும் விகிதாச்சாரத்துடன் பொருந்துகிறது என்ற "
-"சுழிய கருதுகோளை சோதிக்கிறது. பி-மதிப்பு குறைவாக இருந்தால், இது சுழிய கருதுகோள் "
-"தவறானது என்றும், உண்மையான விகிதாச்சாரங்கள் சோதிக்கப்பட்டவர்களுக்கு வேறுபட்டவை என்றும் இது "
-"அறிவுறுத்துகிறது."
+"அவதானிப்புகளின் விகிதாச்சாரம் சில எதிர்பார்க்கப்படும் விகிதாச்சாரத்துடன் "
+"பொருந்துகிறது என்ற சுழிய கருதுகோளை சோதிக்கிறது. பி-மதிப்பு குறைவாக "
+"இருந்தால், இது சுழிய கருதுகோள் தவறானது என்றும், உண்மையான விகிதாச்சாரங்கள் "
+"சோதிக்கப்பட்டவர்களுக்கு வேறுபட்டவை என்றும் இது அறிவுறுத்துகிறது."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
 msgstr ""
-"The χ² தேர்வு of association (not பெறுநர் be confused with the χ² goodness of "
-"fit) is used பெறுநர் தேர்வு whether two categorical மாறிகள் அரே தனிப்பட்ட or "
-"associated. பி-மதிப்பு குறைவாக இருந்தால், மாறிகள் சுயாதீனமாக இல்லை என்றும், இரண்டு மாறிகள் "
-"இடையே ஒரு உறவு இருப்பதாகவும் இது அறிவுறுத்துகிறது."
+"The χ² தேர்வு of association (not பெறுநர் be confused with the χ² goodness "
+"of fit) is used பெறுநர் தேர்வு whether two categorical மாறிகள் அரே தனிப்பட்ட "
+"or associated. பி-மதிப்பு குறைவாக இருந்தால், மாறிகள் சுயாதீனமாக இல்லை "
+"என்றும், இரண்டு மாறிகள் இடையே ஒரு உறவு இருப்பதாகவும் இது அறிவுறுத்துகிறது."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -5818,11 +6075,15 @@ msgid "There were no Mahalanobis distances with a threshold below p < {p}."
 msgstr "P <{p than க்குக் கீழே ஒரு வாசலுடன் மஆலனோபிச் தூரங்கள் இல்லை."
 
 #: package.description
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
-"இந்த தொகுதி சாமோவியுடன் சேர்க்கப்பட்ட பகுப்பாய்வுகளைக் குறிக்கிறது. இது பல பொதுவான "
-"பகுப்பாய்வுகளைக் கொண்டுள்ளது (டி-சோதனைகள், ANOVA கள், பின்னடைவு, தொடர்பு மெட்ரிக்குகள், "
-"விகிதாச்சார சோதனைகள், தற்செயல் அட்டவணைகள், காரணி பகுப்பாய்வு போன்றவை)."
+"இந்த தொகுதி சாமோவியுடன் சேர்க்கப்பட்ட பகுப்பாய்வுகளைக் குறிக்கிறது. இது பல "
+"பொதுவான பகுப்பாய்வுகளைக் கொண்டுள்ளது (டி-சோதனைகள், ANOVA கள், பின்னடைவு, "
+"தொடர்பு மெட்ரிக்குகள், விகிதாச்சார சோதனைகள், தற்செயல் அட்டவணைகள், காரணி "
+"பகுப்பாய்வு போன்றவை)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 msgid "Threshold"
@@ -5857,10 +6118,13 @@ msgid "Too few observations (N < 3) to compute statistic"
 msgstr "புள்ளிவிவரத்தைக் கணக்கிட மிகக் குறைவான அவதானிப்புகள் (n <3)"
 
 #: R/mancova.b.R
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
 msgstr ""
-"புள்ளிவிவரத்தைக் கணக்கிட மிகக் குறைவான அவதானிப்புகள். ஒவ்வொரு (துணை) குழுவிலும் சார்பு "
-"மாறிகள் இருப்பதால் குறைந்தது பல அவதானிப்புகள் இருக்க வேண்டும்."
+"புள்ளிவிவரத்தைக் கணக்கிட மிகக் குறைவான அவதானிப்புகள். ஒவ்வொரு (துணை) "
+"குழுவிலும் சார்பு மாறிகள் இருப்பதால் குறைந்தது பல அவதானிப்புகள் இருக்க "
+"வேண்டும்."
 
 #: R/anovaonew.b.R
 msgid "Too few samples to compute statistic (N < {n})"
@@ -5889,10 +6153,15 @@ msgstr "பல் வளர்ச்சி"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
 msgstr "மொத்தம்"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6062,10 +6331,12 @@ msgid "Variances"
 msgstr "மாறுபாடுகள்"
 
 #: R/corrpart.b.R
-msgid "variation from the control variables is only removed from the variables in the columns"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
 msgstr ""
-"கட்டுப்பாட்டு மாறிகள் இருந்து மாறுபாடு நெடுவரிசைகளில் உள்ள மாறிகளிலிருந்து மட்டுமே "
-"அகற்றப்படுகிறது"
+"கட்டுப்பாட்டு மாறிகள் இருந்து மாறுபாடு நெடுவரிசைகளில் உள்ள மாறிகளிலிருந்து "
+"மட்டுமே அகற்றப்படுகிறது"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -6092,10 +6363,12 @@ msgstr "டபிள்யூ"
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
 msgstr ""
-"ஒவ்வொரு கலத்தையும் சமமாக எடை போடுங்கள். (செல்கள் இயல்புநிலையாக செல் அதிர்வெண்ணுக்கு ஏற்ப "
-"எடைபோடப்படுகின்றன.)"
+"ஒவ்வொரு கலத்தையும் சமமாக எடை போடுங்கள். (செல்கள் இயல்புநிலையாக செல் "
+"அதிர்வெண்ணுக்கு ஏற்ப எடைபோடப்படுகின்றன.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
@@ -6122,8 +6395,7 @@ msgstr "எடைகள் (விரும்பினால்)"
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 msgid "Weights contains negative values. Negative weights are not permitted."
-msgstr ""
-"எடைகள் எதிர்மறை மதிப்புகளைக் கொண்டுள்ளன. எதிர்மறை எடைகள் அனுமதிக்கப்படாது."
+msgstr "எடைகள் எதிர்மறை மதிப்புகளைக் கொண்டுள்ளன. எதிர்மறை எடைகள் அனுமதிக்கப்படாது."
 
 #: anovaOneW/results/anova.columns.content
 #: ttestIS/options/welchs.title

@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:18+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Romanian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"ro/>\n"
+"Language-Team: Romanian "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -36,8 +35,12 @@ msgstr "'{col}' conține doar o valoare unică"
 
 #: R/pca.b.R
 #, fuzzy
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
-msgstr "Metoda de extragere '{method}' a fost utilizată în combinație cu o rotire '{rotation}'"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
+msgstr ""
+"Metoda de extragere '{method}' a fost utilizată în combinație cu o rotire "
+"'{rotation}'"
 
 #: R/pca.b.R
 #, fuzzy
@@ -391,13 +394,21 @@ msgstr "o tabelă conținănd măsurile de potrivire"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 #, fuzzy
-msgid "a table containing modification indices for the factor loadings not included in the model"
-msgstr "o tabelă conţinănd indici de modificare pentru âncărcările factorilor care nu sunt incluse ân model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
+msgstr ""
+"o tabelă conţinănd indici de modificare pentru âncărcările factorilor care "
+"nu sunt incluse ân model"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 #, fuzzy
-msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "o tabelă conținând indici de modificare pentru covarianțele reziduale care nu sunt incluse în model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
+msgstr ""
+"o tabelă conținând indici de modificare pentru covarianțele reziduale care "
+"nu sunt incluse în model"
 
 #: cfa/results/resEst/resCov.description
 #, fuzzy
@@ -615,6 +626,11 @@ msgstr "o tabelă cu rezultatele testului χ²"
 #, fuzzy
 msgid "Accuracy"
 msgstr "Acurateţe"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -845,8 +861,12 @@ msgstr "Test ANOVA"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "Deoarece nu există factori între subiecți specificați, această ipoteză este întotdeauna îndeplinită."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
+msgstr ""
+"Deoarece nu există factori între subiecți specificați, această ipoteză este "
+"întotdeauna îndeplinită."
 
 #: anovaOneW/options/fishers.title
 #, fuzzy
@@ -924,7 +944,7 @@ msgstr "Plot de bare"
 msgid "Bar plot"
 msgstr "Plot de bare"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 #, fuzzy
 msgid "Bar Plots"
 msgstr "Grafice cu bare"
@@ -1103,7 +1123,7 @@ msgstr "Bonferroni"
 msgid "Box plot"
 msgstr "Diagramă de cutie"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 #, fuzzy
 msgid "Box Plots"
 msgstr "Diagrame de cutii"
@@ -1221,6 +1241,7 @@ msgstr "Variabila coloană '{var}' conține mai puțin de 2 niveluri"
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 #, fuzzy
 msgid "Columns"
 msgstr "Coloane"
@@ -1564,13 +1585,17 @@ msgstr "Hartă de ămpăturare a corelațiilor"
 
 #: package/analyses/corrMatrix.description
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
-msgstr "Matricele de corelație sunt o modalitate de a examina relațiile liniare între două sau mai multe variabile continue"
+msgstr ""
+"Matricele de corelație sunt o modalitate de a examina relațiile liniare "
+"între două sau mai multe variabile continue"
 
 #: corrMatrix/options.description.main
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1587,11 +1612,23 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Matricele de corelație reprezintă o modalitate de a examina relațiile liniare între două sau mai multe variabile continue.\n"
+msgstr ""
+"Matricele de corelație reprezintă o modalitate de a examina relațiile "
+"liniare între două sau mai multe variabile continue.\n"
 "\n"
-"Pentru fiecare pereche de variabile, o valoare Pearson's r indică puterea și direcția relației dintre aceste două variabile. O valoare pozitivă indică o relație pozitivă (valori mai mari ale unei variabile prezic valori mai mari ale celeilalte variabile). O valoare negativă a lui Pearson's r indică o relație negativă (valori mai mari ale unei variabile prezic valori mai mici ale celeilalte variabile și invers). O valoare de zero indică lipsa unei relații (indiferent dacă o variabilă este mare sau mică, nu ne spune nimic despre valoarea celeilalte variabile).\n"
+"Pentru fiecare pereche de variabile, o valoare Pearson's r indică puterea și "
+"direcția relației dintre aceste două variabile. O valoare pozitivă indică o "
+"relație pozitivă (valori mai mari ale unei variabile prezic valori mai mari "
+"ale celeilalte variabile). O valoare negativă a lui Pearson's r indică o "
+"relație negativă (valori mai mari ale unei variabile prezic valori mai mici "
+"ale celeilalte variabile și invers). O valoare de zero indică lipsa unei "
+"relații (indiferent dacă o variabilă este mare sau mică, nu ne spune nimic "
+"despre valoarea celeilalte variabile).\n"
 "\n"
-"Mai formal, este posibilă testarea ipotezei nule că corelația este zero și calcularea unei valori p. Dacă valoarea p este scăzută, sugerează că coeficientul de corelație nu este zero și că există o relație liniară (sau mai complexă) între cele două variabile."
+"Mai formal, este posibilă testarea ipotezei nule că corelația este zero și "
+"calcularea unei valori p. Dacă valoarea p este scăzută, sugerează că "
+"coeficientul de corelație nu este zero și că există o relație liniară (sau "
+"mai complexă) între cele două variabile."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1647,15 +1684,22 @@ msgstr "Numărători (opțional)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be infinite"
 msgstr "Numărările nu pot fi infinite"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be negative"
 msgstr "Numărătorii nu pot fi negative"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 #, fuzzy
@@ -1723,6 +1767,10 @@ msgstr "cubic"
 #, fuzzy
 msgid "Cumulative %"
 msgstr "Procent cumulat"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 #, fuzzy
@@ -1820,13 +1868,21 @@ msgstr "Variabila dependentă '{dep}' conține valori infinite"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "Variabila dependentă '{dep}' nu conţine date (după ce s-au șters răndurile cu valori lipsă)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
+msgstr ""
+"Variabila dependentă '{dep}' nu conţine date (după ce s-au șters răndurile "
+"cu valori lipsă)"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "Variabila dependentă '{dep}' conține doar o valoare unică (după eliminarea rândurilor cu valori lipsă)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
+msgstr ""
+"Variabila dependentă '{dep}' conține doar o valoare unică (după eliminarea "
+"rândurilor cu valori lipsă)"
 
 #: R/ancova.b.R
 #, fuzzy
@@ -1890,8 +1946,15 @@ msgstr "Descriptive"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 #, fuzzy
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "Descrierile sunt o colecţie de statistici care rezumă şi vizualizări care permit explorarea formei şi distribuţiei datelor. Este o bună practică să exploraţi datele cu descrieri înainte de a trece la teste mai formale."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
+msgstr ""
+"Descrierile sunt o colecţie de statistici care rezumă şi vizualizări care "
+"permit explorarea formei şi distribuţiei datelor. Este o bună practică să "
+"exploraţi datele cu descrieri înainte de a trece la teste mai formale."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -2146,8 +2209,12 @@ msgstr "Valori proprii mai mari de"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "Celule goale între proiectarea cu subiecți: cel puțin una dintre combinații nivelurilor factorilor între subiecți are 0 observații"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
+msgstr ""
+"Celule goale între proiectarea cu subiecți: cel puțin una dintre combinații "
+"nivelurilor factorilor între subiecți are 0 observații"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2250,8 +2317,12 @@ msgstr "Estimările reprezintă logaritmul odds-ului …"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "Estimările reprezintă șansele logaritmice ale \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
+msgstr ""
+"Estimările reprezintă șansele logaritmice ale \"{dep} = {level1}\" vs. "
+"\"{dep} = {level2}\""
 
 #: efa/options/factorScoreMethod.title
 #, fuzzy
@@ -2363,28 +2434,50 @@ msgstr "Factor"
 
 #: R/loglinear.b.R
 #, fuzzy
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
-msgstr "Factorul '{factor}' are mai puțin două niveluri. Factorii trebuie să aibă cel puțin două niveluri"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
+msgstr ""
+"Factorul '{factor}' are mai puțin două niveluri. Factorii trebuie să aibă "
+"cel puțin două niveluri"
 
 #: R/linreg.b.R
 #, fuzzy
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Factorul '{factor}' trebuie să aibă cel puțin 2 niveluri"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "Factorul '{factorName}' nu conține date (după eliminarea liniilor cu valori lipsă)"
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
+msgstr ""
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
-msgstr "Factorul '{factorName}' conține doar un singur nivel (după eliminarea rândurilor cu valori lipsă)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
+msgstr ""
+"Factorul '{factorName}' nu conține date (după eliminarea liniilor cu valori "
+"lipsă)"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "Factorul '{factorName}' conţine niveluri neutilizate (după eliminarea rândurilor cu valori lipsă)"
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
+msgstr ""
+"Factorul '{factorName}' conține doar un singur nivel (după eliminarea "
+"rândurilor cu valori lipsă)"
+
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 #, fuzzy
@@ -2580,6 +2673,10 @@ msgstr "Frecvențe ale $key"
 msgid "Frequency tables"
 msgstr "Tabele de frecvență"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2696,6 +2793,10 @@ msgstr "Rezumat grup"
 msgid "Group summary"
 msgstr "Rezumatul grupului"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2706,8 +2807,12 @@ msgstr "Variabilă de grupare"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
-msgstr "Variabila de grupare '{a}' are mai puțin 2 niveluri după excluderea valorilor lipsă"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
+msgstr ""
+"Variabila de grupare '{a}' are mai puțin 2 niveluri după excluderea "
+"valorilor lipsă"
 
 #: R/ttestis.b.R
 #, fuzzy
@@ -2767,6 +2872,10 @@ msgstr "ascuns"
 msgid "Hide loadings below"
 msgstr "Ascunde încărcările sub"
 
+#: R/descriptives.b.R
+msgid "Highest"
+msgstr ""
+
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
@@ -2781,7 +2890,7 @@ msgstr "Evidențiați valorile de peste"
 msgid "Histogram"
 msgstr "Histogramă"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 #, fuzzy
 msgid "Histograms"
 msgstr "Histrograme"
@@ -2935,8 +3044,21 @@ msgstr "IQR"
 
 #: R/utilsanova.R
 #, fuzzy
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Se pare că modelul dvs. are o problemă de \"singularitate\". Acest lucru înseamnă, de obicei, că modelul are dificultăţi în a distinge între anumite efecte, deoarece unele variabile sunt prea strâns legate sau nu există suficiente date pentru a estima toate efectele în mod fiabil. Pentru a rezolva această problemă, luaţi în considerare simplificarea modelului prin eliminarea unor efecte sau verificarea dacă datele dvs. ar putea avea variabile redundante sau puternic corelate."
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
+msgstr ""
+"Se pare că modelul dvs. are o problemă de \"singularitate\". Acest lucru "
+"înseamnă, de obicei, că modelul are dificultăţi în a distinge între anumite "
+"efecte, deoarece unele variabile sunt prea strâns legate sau nu există "
+"suficiente date pentru a estima toate efectele în mod fiabil. Pentru a "
+"rezolva această problemă, luaţi în considerare simplificarea modelului prin "
+"eliminarea unor efecte sau verificarea dacă datele dvs. ar putea avea "
+"variabile redundante sau puternic corelate."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -2967,8 +3089,12 @@ msgstr "Elementul '{item}' trebuie să fie numeric"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
-msgstr "elementul {item} se corelează negativ cu scala totală și probabil ar trebui să fie inversat"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"elementul {item} se corelează negativ cu scala totală și probabil ar trebui "
+"să fie inversat"
 
 #: reliability/results/items.title
 #, fuzzy
@@ -2993,8 +3119,12 @@ msgstr "Elemente"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr "elementele {items} se corelează negativ cu scala totală și probabil ar trebui inversate"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"elementele {items} se corelează negativ cu scala totală și probabil ar "
+"trebui inversate"
 
 #: descriptives/options/dotType/jitter.title
 #, fuzzy
@@ -3077,8 +3207,12 @@ msgstr "Nivelul 2"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
-msgstr "Testul lui Levene este semnificativ (p < .05), sugerând o încălcare a ipotezei de varianțe egale"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
+msgstr ""
+"Testul lui Levene este semnificativ (p < .05), sugerând o încălcare a "
+"ipotezei de varianțe egale"
 
 #: R/proptest2.b.R
 #, fuzzy
@@ -3116,8 +3250,16 @@ msgstr "Regresie liniară"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 #, fuzzy
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "Regressia liniară este utilizată pentru a explora relația dintre o variabilă dependentă continuă și una sau mai multe variabile explicative continue și/sau categorice. Alte metode statistice, cum ar fi ANOVA și ANCOVA, sunt, în realitate, forme de regresie liniară"
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
+msgstr ""
+"Regressia liniară este utilizată pentru a explora relația dintre o variabilă "
+"dependentă continuă și una sau mai multe variabile explicative continue "
+"și/sau categorice. Alte metode statistice, cum ar fi ANOVA și ANCOVA, sunt, "
+"în realitate, forme de regresie liniară"
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -3186,6 +3328,10 @@ msgstr "Inferior"
 msgid "lower bound"
 msgstr "limită inferioară"
 
+#: R/descriptives.b.R
+msgid "Lowest"
+msgstr ""
+
 #: R/linreg.b.R
 #, fuzzy
 msgid "Mahalanobis ChiSq"
@@ -3215,8 +3361,12 @@ msgstr "Distanță Mahalanobis (p)"
 
 #: R/linreg.b.R
 #, fuzzy
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
-msgstr "Distanţa Mahalanobis poate fi calculată numai pentru modele cu două sau mai multe covariabile"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
+msgstr ""
+"Distanţa Mahalanobis poate fi calculată numai pentru modele cu două sau mai "
+"multe covariabile"
 
 #: R/linreg.b.R
 #, fuzzy
@@ -3715,8 +3865,14 @@ msgstr "Regresie logistică multinomială"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 #, fuzzy
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "Analiza multivariată a (co)varianței (MANCOVA) este utilizată pentru a explora relația dintre mai multe variabile dependente și una sau mai multe variabile explicative categorice și/sau continue."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
+msgstr ""
+"Analiza multivariată a (co)varianței (MANCOVA) este utilizată pentru a "
+"explora relația dintre mai multe variabile dependente și una sau mai multe "
+"variabile explicative categorice și/sau continue."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3764,8 +3920,12 @@ msgstr "Fără corecție"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "Nu sunt definite factori. Testul lui Box este relevant numai atunci cănd modelul conţine factori."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
+msgstr ""
+"Nu sunt definite factori. Testul lui Box este relevant numai atunci cănd "
+"modelul conţine factori."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3836,7 +3996,9 @@ msgstr "Test de normalitate (Shapiro-Wilk)"
 #: R/logregbin.b.R
 #, fuzzy
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr "Nu toate coeficienţii au putut fi estimaţi (probabil din cauza potrivirii singulare)"
+msgstr ""
+"Nu toate coeficienţii au putut fi estimaţi (probabil din cauza potrivirii "
+"singulare)"
 
 #: R/descriptives.b.R
 #, fuzzy
@@ -3851,7 +4013,9 @@ msgstr "Nu este disponibil din cauza numărului prea mare de cazuri (> 5000)."
 #: R/mancova.b.R
 #, fuzzy
 msgid "Not enough degrees of freedom to estimate all the model effects"
-msgstr "Nu există grade de libertate suficiente pentru a estima toate efectele modelului"
+msgstr ""
+"Nu există grade de libertate suficiente pentru a estima toate efectele "
+"modelului"
 
 #: pca/ui[1][0][1].label
 #, fuzzy
@@ -3880,8 +4044,12 @@ msgstr "Număr de factori"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr "Numărul de valori extreme solicitate este mai mare decăt numărul de rănduri din date."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
+msgstr ""
+"Numărul de valori extreme solicitate este mai mare decăt numărul de rănduri "
+"din date."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -3991,8 +4159,12 @@ msgstr "Una sau ambele variabile nu conțin suficiente observații"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "Unul sau mai multe coeficienți din modelul '{modelNo}' nu au putut fi estimați din cauza colinearității perfecte."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
+msgstr ""
+"Unul sau mai multe coeficienți din modelul '{modelNo}' nu au putut fi "
+"estimați din cauza colinearității perfecte."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -4225,14 +4397,19 @@ msgstr "Corelație parțială"
 
 #: package/analyses/corrPart.description
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "Matricele de corelație parțială sunt o modalitate de a examina relațiile liniare între două sau mai multe variabile continue, controlând pentru alte variabile"
+msgstr ""
+"Matricele de corelație parțială sunt o modalitate de a examina relațiile "
+"liniare între două sau mai multe variabile continue, controlând pentru alte "
+"variabile"
 
 #: corrPart/options.description.main
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -4250,13 +4427,26 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "Matricele de corelație parțială sunt o modalitate de a examina relațiile liniare între două sau mai multe variabile continue, îtănd cont de alte variabile \n"
+msgstr ""
+"Matricele de corelație parțială sunt o modalitate de a examina relațiile "
+"liniare între două sau mai multe variabile continue, îtănd cont de alte "
+"variabile \n"
 "\n"
-"Pentru fiecare pereche de variabile, o valoare Pearson indică puterea și direcția relației dintre aceste două variabile. O valoare pozitivă indică o relație pozitivă (valorile mai mari ale unei variabile prevăd valorile mai mari ale celeilalte variabile). O valoare negativă a lui Pearson indică o relație negativă (valorile mai mari ale unei variabile prevăd valorile mai mici ale celeilalte variabile și viceversa). \n"
+"Pentru fiecare pereche de variabile, o valoare Pearson indică puterea și "
+"direcția relației dintre aceste două variabile. O valoare pozitivă indică o "
+"relație pozitivă (valorile mai mari ale unei variabile prevăd valorile mai "
+"mari ale celeilalte variabile). O valoare negativă a lui Pearson indică o "
+"relație negativă (valorile mai mari ale unei variabile prevăd valorile mai "
+"mici ale celeilalte variabile și viceversa). \n"
 "\n"
-"O valoare de zero indică lipsa unei relații (indiferent dacă o variabilă este mare sau mică, nu ne spune nimic despre valoarea celeilalte variabile). \n"
+"O valoare de zero indică lipsa unei relații (indiferent dacă o variabilă "
+"este mare sau mică, nu ne spune nimic despre valoarea celeilalte variabile). "
 "\n"
-"Mai formal, este posibil să se testeze ipoteza nulă că corelația este zero și să se calculeze o valoare p. Dacă valoarea p este mică, sugerează că coeficientul de corelație nu este zero și că există o relație liniară (sau mai complexă) între cele două variabile."
+"\n"
+"Mai formal, este posibil să se testeze ipoteza nulă că corelația este zero "
+"și să se calculeze o valoare p. Dacă valoarea p este mică, sugerează că "
+"coeficientul de corelație nu este zero și că există o relație liniară (sau "
+"mai complexă) între cele două variabile."
 
 #: anovaRM/options/effectSize/partEta.title
 #, fuzzy
@@ -4314,6 +4504,10 @@ msgstr "R Pearson"
 msgid "Pearson{}Correlation"
 msgstr "Corelație Pearson"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -4359,8 +4553,12 @@ msgstr "efectuați un test Mann-Whitney U."
 
 #: ttestOneS/options/norm.description.ui
 #, fuzzy
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "efectuați un test Shapiro-Wilk de normalitate. O valoare p mică sugerează că datele nu provin dintr-o distribuție normală."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"efectuați un test Shapiro-Wilk de normalitate. O valoare p mică sugerează că "
+"datele nu provin dintr-o distribuție normală."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -4376,14 +4574,22 @@ msgstr "efectuaţi ANOVA Fisher (sau ceea ce se poate numi 'normal')"
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "efectuează teste Shapiro-Wilk de normalitate. O valoare p mică sugerează că datele nu provin dintr-o distribuție normală."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"efectuează teste Shapiro-Wilk de normalitate. O valoare p mică sugerează că "
+"datele nu provin dintr-o distribuție normală."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "efectuați teste Shapiro-Wilk de normalitate. O valoare p mică sugerează că reziduurile nu sunt distribuite normal."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
+msgstr ""
+"efectuați teste Shapiro-Wilk de normalitate. O valoare p mică sugerează că "
+"reziduurile nu sunt distribuite normal."
 
 #: ttestIS/options/students.description.ui
 #, fuzzy
@@ -4463,7 +4669,7 @@ msgstr "Tip de reprezentare grafică"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4706,8 +4912,12 @@ msgstr "oferă o măsură Cohen's d a dimensiunii efectului pentru testele post-
 
 #: ttestOneS/options/ci.description.ui
 #, fuzzy
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
-msgstr "oferiţi un interval de încredere pentru diferenţa dintre estimarea medie şi valoarea de test."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
+msgstr ""
+"oferiţi un interval de încredere pentru diferenţa dintre estimarea medie şi "
+"valoarea de test."
 
 #: corrMatrix/options/plots.description.ui
 #, fuzzy
@@ -4734,14 +4944,24 @@ msgstr "furnizați o valoare Pearson's r pentru fiecare combinație de variabile
 
 #: ttestOneS/options/qq.description.ui
 #, fuzzy
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "furnizează un grafic Q-Q al reziduurilor -- un grafic al reziduurilor reale împotriva a ceea ce ar fi aşteptat dacă datele ar fi distribuite ân mod <i>perfect</i> normal. Abaterile mari de la linia diagonală sugerează că datele nu provin dintr-o distribuţie normală."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"furnizează un grafic Q-Q al reziduurilor -- un grafic al reziduurilor reale "
+"împotriva a ceea ce ar fi aşteptat dacă datele ar fi distribuite ân mod "
+"<i>perfect</i> normal. Abaterile mari de la linia diagonală sugerează că "
+"datele nu provin dintr-o distribuţie normală."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
 #, fuzzy
 msgid "provide a Spearman's rho for each combination of variables."
-msgstr "furnizează o valoare rho a lui Spearman pentru fiecare combinație de variabile."
+msgstr ""
+"furnizează o valoare rho a lui Spearman pentru fiecare combinație de "
+"variabile."
 
 #: ttestOneS/options/desc.description.ui
 #, fuzzy
@@ -4836,14 +5056,22 @@ msgstr "oferiți mărimi efectelor (d lui Cohen)."
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 #, fuzzy
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "oferă testul Levene pentru omogenitatea varianțelor. O valoare p mică sugerează că grupurile au varianțe inegale."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
+msgstr ""
+"oferă testul Levene pentru omogenitatea varianțelor. O valoare p mică "
+"sugerează că grupurile au varianțe inegale."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 #, fuzzy
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "oferă teste Levene pentru omogenitatea varianţelor. Un p-valoare mică sugerează că grupele au varianţe inegale."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
+msgstr ""
+"oferă teste Levene pentru omogenitatea varianţelor. Un p-valoare mică "
+"sugerează că grupele au varianţe inegale."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4858,8 +5086,12 @@ msgstr "oferă diferenţe medii cu testele post-hoc."
 
 #: ttestOneS/options/meanDiff.description.ui
 #, fuzzy
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "oferiți diferențele medii și erorile standard ale diferențelor medii, ținele estimatei și valorii de test."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
+msgstr ""
+"oferiți diferențele medii și erorile standard ale diferențelor medii, ținele "
+"estimatei și valorii de test."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4892,15 +5124,31 @@ msgstr "furnizează teste post-hoc."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "furnizează diagrame Q-Q ale reziduurilor -- o diagramă a reziduurilor reale âmpotriva a ceea ce ar fi ânăscut dacă datele ar fi distribuite <i>perfect normal</i>. Abaterile mari de la linia diagonală sugerează că datele nu sunt dintr-o distribuție normală."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"furnizează diagrame Q-Q ale reziduurilor -- o diagramă a reziduurilor reale "
+"âmpotriva a ceea ce ar fi ânăscut dacă datele ar fi distribuite <i>perfect "
+"normal</i>. Abaterile mari de la linia diagonală sugerează că datele nu sunt "
+"dintr-o distribuție normală."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "furnizează diagrame Q-Q ale reziduurilor -- o diagramă a reziduurilor reale împotriva a ceea ce ar fi așteptat dacă datele ar fi <i>perfect</i> distribuite normal. Abaterile mari de la linia diagonală sugerează că reziduurile nu sunt distribuite normal."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
+msgstr ""
+"furnizează diagrame Q-Q ale reziduurilor -- o diagramă a reziduurilor reale "
+"împotriva a ceea ce ar fi așteptat dacă datele ar fi <i>perfect</i> "
+"distribuite normal. Abaterile mari de la linia diagonală sugerează că "
+"reziduurile nu sunt distribuite normal."
 
 #: anovaOneW/options/phSig.description.ui
 #, fuzzy
@@ -4915,7 +5163,9 @@ msgstr "furnizează teste de sfericitate."
 #: anovaOneW/options/phTest.description.ui
 #, fuzzy
 msgid "provide test results (t-value and degrees of freedom) for post-hoc tests."
-msgstr "oferă rezultatele testelor (valoarea t și grade de libertate) pentru teste post-hoc"
+msgstr ""
+"oferă rezultatele testelor (valoarea t și grade de libertate) pentru teste "
+"post-hoc"
 
 #: corrMatrix/options/n.description.ui
 #: corrPart/options/n.description.ui
@@ -4935,7 +5185,7 @@ msgstr "oferă numărul de cazuri."
 msgid "Pseudo R²"
 msgstr "Pseudo R²"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 #, fuzzy
 msgid "Q-Q"
 msgstr "Q-Q"
@@ -4979,7 +5229,7 @@ msgstr "Diagrama Q-Q a normalității multivariate"
 msgid "Q-Q plot of residuals"
 msgstr "Grafic Q-Q al reziduurilor"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 #, fuzzy
 msgid "Q-Q Plots"
 msgstr "Grafice Q-Q"
@@ -5242,8 +5492,12 @@ msgstr "Grafice reziduale"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
-msgstr "Suma pătratelor reziduale și/sau gradele de libertate sunt zero, indicănd o potrivire perfectă"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
+msgstr ""
+"Suma pătratelor reziduale și/sau gradele de libertate sunt zero, indicănd o "
+"potrivire perfectă"
 
 #: R/ancova.b.R
 #: R/linreg.b.R
@@ -5368,6 +5622,7 @@ msgstr "Variabila ‘{var}’ conţine mai puţin de 2 niveluri"
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 #, fuzzy
 msgid "Rows"
 msgstr "Rănduri"
@@ -5602,8 +5857,12 @@ msgstr "Simulări"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "A fost întâlnită o potrivire singulară; una sau mai multe variabile predictor sunt o combinaţie liniară a altor variabile predictor."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
+msgstr ""
+"A fost întâlnită o potrivire singulară; una sau mai multe variabile "
+"predictor sunt o combinaţie liniară a altor variabile predictor."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -5975,14 +6234,16 @@ msgstr "Variabila 'divizat după' '{var}' nu conţine date."
 
 #: ttestOneS/options/hypothesis.description.ui
 #, fuzzy
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "ipotezele alternativă ũi nulă;\n"
+msgstr ""
+"ipotezele alternativă ũi nulă;\n"
 "\n"
 "|              | Alternativă (Hₐ)  | Nulă (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -6006,24 +6267,34 @@ msgstr "ipoteza alternativă. Permite efectuarea de teste cu o coadă."
 #: package/analyses/ancova.description
 #: ancova/options.description.main
 #, fuzzy
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "Analiza covarianței (ANCOVA) este utilizată pentru a explora relația dintre o variabilă dependentă continuă, una sau mai multe variabile explicative categorice și una sau mai multe variabile explicative continue (sau covariabile). Este, în esență, aceeași analiză ca ANOVA, dar cu adăugarea de covariabile"
+msgstr ""
+"Analiza covarianței (ANCOVA) este utilizată pentru a explora relația dintre "
+"o variabilă dependentă continuă, una sau mai multe variabile explicative "
+"categorice și una sau mai multe variabile explicative continue (sau "
+"covariabile). Este, în esență, aceeași analiză ca ANOVA, dar cu adăugarea de "
+"covariabile"
 
 #: package/analyses/anova.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "Analiza varianței (ANOVA) se utilizează pentru a explora relația \n"
-"dintre o variabilă dependentă continuă și una sau mai multe variabile explicative categorice.\n"
+msgstr ""
+"Analiza varianței (ANOVA) se utilizează pentru a explora relația \n"
+"dintre o variabilă dependentă continuă și una sau mai multe variabile "
+"explicative categorice.\n"
 
 #: anova/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -6034,23 +6305,39 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "Analiza varianței (ANOVA) este utilizată pentru a explora relația dintre o variabilă dependentă continuă și una sau mai multe variabile explicative categorice.\n"
+msgstr ""
+"Analiza varianței (ANOVA) este utilizată pentru a explora relația dintre o "
+"variabilă dependentă continuă și una sau mai multe variabile explicative "
+"categorice.\n"
 "\n"
-"ANOVA presupune că reziduurile sunt distribuite normal și că variantele tuturor grupurilor sunt egale. Dacă nu sunteți dispus să presupuneți că variantele sunt egale, atunci se poate utiliza testul lui Welch (Cu toate acestea, testul lui Welch nu suportă mai mult de un factor explicativ). Alternativ, dacă nu sunteți dispus să presupuneți că datele sunt distribuite normal, se poate utiliza o abordare neparametrică (cum ar fi Kruskal-Wallis)."
+"ANOVA presupune că reziduurile sunt distribuite normal și că variantele "
+"tuturor grupurilor sunt egale. Dacă nu sunteți dispus să presupuneți că "
+"variantele sunt egale, atunci se poate utiliza testul lui Welch (Cu toate "
+"acestea, testul lui Welch nu suportă mai mult de un factor explicativ). "
+"Alternativ, dacă nu sunteți dispus să presupuneți că datele sunt distribuite "
+"normal, se poate utiliza o abordare neparametrică (cum ar fi Kruskal-Wallis)."
 
 #: package/analyses/anovaOneW.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "Analiza varianței (ANOVA) este utilizată pentru a explora relația dintre o variabilă dependentă continuă și una sau mai multe variabile explicative categorice. Această “ANOVA cu o cale” este o versiune simplificată a “ANOVA obișnuit”, permițănd doar un singur factor explicativ, dar oferind și o ANOVA Welch. ANOVA Welch are avantajul că nu trebuie să presupună că toate grupurile au varianțe egală."
+msgstr ""
+"Analiza varianței (ANOVA) este utilizată pentru a explora relația dintre o "
+"variabilă dependentă continuă și una sau mai multe variabile explicative "
+"categorice. Această “ANOVA cu o cale” este o versiune simplificată a “ANOVA "
+"obișnuit”, permițănd doar un singur factor explicativ, dar oferind și o "
+"ANOVA Welch. ANOVA Welch are avantajul că nu trebuie să presupună că toate "
+"grupurile au varianțe egală."
 
 #: anovaOneW/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -6062,11 +6349,19 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "Analiza varianței (ANOVA) este utilizată pentru a explora relația dintre o variabilă dependentă continuă și una sau mai multe variabile explicative categorice. Această 'ANOVA cu o cale' este o versiune simplificată a 'ANOVA normal', care permite doar un singur factor explicativ, dar oferă și o ANOVA Welch. ANOVA Welch are avantajul că nu necesită să se presupună că varianțele tuturor grupurilor sunt egale.\n"
+msgstr ""
+"Analiza varianței (ANOVA) este utilizată pentru a explora relația dintre o "
+"variabilă dependentă continuă și una sau mai multe variabile explicative "
+"categorice. Această 'ANOVA cu o cale' este o versiune simplificată a 'ANOVA "
+"normal', care permite doar un singur factor explicativ, dar oferă și o ANOVA "
+"Welch. ANOVA Welch are avantajul că nu necesită să se presupună că "
+"varianțele tuturor grupurilor sunt egale.\n"
 "\n"
-"Pentru conveniență, această metodă permite specificarea mai multor variabile dependente, rezultând teste independente multiple.\n"
+"Pentru conveniență, această metodă permite specificarea mai multor variabile "
+"dependente, rezultând teste independente multiple.\n"
 "\n"
-"Notați că ANOVA Welch este aceeași procedură ca testul t independent al lui Welch."
+"Notați că ANOVA Welch este aceeași procedură ca testul t independent al lui "
+"Welch."
 
 #: anovaRM/options/bs.description.ui
 #, fuzzy
@@ -6081,8 +6376,16 @@ msgstr "termenii ântre subiecţi ai modelului."
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 #, fuzzy
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "Testul binomial este utilizat pentru a testa ipoteza nulă că proporția observațiilor corespunde unei valori așteptate. Dacă valoarea p este mică, aceasta sugerează că ipoteza nulă este falsă și că adevărata proporție trebuie să fie o altă valoare."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
+msgstr ""
+"Testul binomial este utilizat pentru a testa ipoteza nulă că proporția "
+"observațiilor corespunde unei valori așteptate. Dacă valoarea p este mică, "
+"aceasta sugerează că ipoteza nulă este falsă și că adevărata proporție "
+"trebuie să fie o altă valoare."
 
 #: ancova/options/factors.description.ui
 #, fuzzy
@@ -6091,8 +6394,12 @@ msgstr "variabilele explicative categorice (sau independente)."
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "Intervalul de încredere al mediei presupune că mediile eşantioanelor urmează o distribuție t cu N - 1 grade de libertate"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
+msgstr ""
+"Intervalul de încredere al mediei presupune că mediile eşantioanelor urmează "
+"o distribuție t cu N - 1 grade de libertate"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -6117,8 +6424,12 @@ msgstr "lățimea intervalului de încredere."
 
 #: ancova/options/covs.description.ui
 #, fuzzy
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr "variabilele explicative continue (sau independente), cunoscute şi sub numele de covariabile."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
+msgstr ""
+"variabilele explicative continue (sau independente), cunoscute şi sub numele "
+"de covariabile."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -6144,6 +6455,7 @@ msgstr "Valoarea de decupare este setată la {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 #, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr "Setul de date conţine 0 rânduri (după eliminarea rândurilor cu valori lipsă)"
@@ -6155,19 +6467,34 @@ msgstr "Setul de date conține 0 rânduri (sau toate rândurile conțin valori l
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "Variabila dependentă '{}' are mai mult de două niveluri; regresia logistică binomială poate fi efectuată doar pe variabile dependente cu două niveluri."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
+msgstr ""
+"Variabila dependentă '{}' are mai mult de două niveluri; regresia logistică "
+"binomială poate fi efectuată doar pe variabile dependente cu două niveluri."
 
 #: R/logregord.b.R
 #, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "Variabila dependentă '{dep}' are următoarea ordine: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 #, fuzzy
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "Variabila dependentă \"{dep}\" are doar două niveluri, luați în considerare efectuarea unei regresii logistice binomiale."
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
+msgstr ""
+"Variabila dependentă \"{dep}\" are doar două niveluri, luați în considerare "
+"efectuarea unei regresii logistice binomiale."
 
 #: ancova/options/dep.description.ui
 #, fuzzy
@@ -6181,8 +6508,12 @@ msgstr "variabila dependentă. Pentru ANOVA, acestea vor fi variabile continue."
 
 #: ttestIS/options/vars.description.ui
 #, fuzzy
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "variabilele dependente -- se efectuează un test t separat pentru fiecare variabilă dependentă specificată."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
+msgstr ""
+"variabilele dependente -- se efectuează un test t separat pentru fiecare "
+"variabilă dependentă specificată."
 
 #: anovaOneW/options/deps.description.ui
 #, fuzzy
@@ -6199,24 +6530,54 @@ msgstr "barele de eroare care se reprezintă pe medii marginale"
 #: anovaOneW/options/group.description.ui
 #, fuzzy
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr "variabila explicativă sau independentă. Pentru ANOVA, aceasta va fi categorică."
+msgstr ""
+"variabila explicativă sau independentă. Pentru ANOVA, aceasta va fi "
+"categorică."
 
 #: anova/options/factors.description.ui
 #, fuzzy
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
-msgstr "variabilele explicative sau independente. Pentru ANOVA, acestea vor fi categorice."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
+msgstr ""
+"variabilele explicative sau independente. Pentru ANOVA, acestea vor fi "
+"categorice."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 #, fuzzy
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Testul Friedman este utilizat pentru a explora relația dintre o variabilă dependentă continuă și o variabilă explicativă categorică, unde variabila explicativă este 'în cadrul subiecților' (unde multiple măsurători sunt din același subiect). Este analog cu ANOVA cu măsurători repetate, dar are avantajul de a fi neparametric și de a nu necesita ipotezele de normalitate sau omogenitate a varianțelor. Cu toate acestea, are limitarea că poate testa doar o singură variabilă explicativă la un moment dat."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
+msgstr ""
+"Testul Friedman este utilizat pentru a explora relația dintre o variabilă "
+"dependentă continuă și o variabilă explicativă categorică, unde variabila "
+"explicativă este 'în cadrul subiecților' (unde multiple măsurători sunt din "
+"același subiect). Este analog cu ANOVA cu măsurători repetate, dar are "
+"avantajul de a fi neparametric și de a nu necesita ipotezele de normalitate "
+"sau omogenitate a varianțelor. Cu toate acestea, are limitarea că poate "
+"testa doar o singură variabilă explicativă la un moment dat."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 #, fuzzy
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "Testul Kruskal-Wallis este utilizat pentru a explora relația dintre o variabilă dependentă continuă și o variabilă explicativă categorică. Este analog cu ANOVA, dar are avantajul de a fi neparametric și de a avea mai puține ipoteze. Cu toate acestea, are limitarea că poate testa doar o singură variabilă explicativă la un moment dat."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
+msgstr ""
+"Testul Kruskal-Wallis este utilizat pentru a explora relația dintre o "
+"variabilă dependentă continuă și o variabilă explicativă categorică. Este "
+"analog cu ANOVA, dar are avantajul de a fi neparametric și de a avea mai "
+"puține ipoteze. Cu toate acestea, are limitarea că poate testa doar o "
+"singură variabilă explicativă la un moment dat."
 
 #: anovaRM/options/depLabel.description.ui
 #, fuzzy
@@ -6232,13 +6593,25 @@ msgstr "sintaxa lavaan utilizată pentru ajustarea modelului"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "metoda de excludere a valorilor lipsă. `Analiza pe analiză` exclude valorile lipsă din fiecare analiză. `Listwise` exclude o linie din toate analizele dacă una dintre valorile sale este lipsă."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"metoda de excludere a valorilor lipsă. `Analiza pe analiză` exclude valorile "
+"lipsă din fiecare analiză. `Listwise` exclude o linie din toate analizele "
+"dacă una dintre valorile sale este lipsă."
 
 #: ttestOneS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "metoda de excludere a valorilor lipsă. `Analiză pe analiză` exclude valorile lipsă din fiecare variabilă. `Listwise` exclude o linie din toate analizele dacă una dintre valorile sale este lipsă."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"metoda de excludere a valorilor lipsă. `Analiză pe analiză` exclude valorile "
+"lipsă din fiecare variabilă. `Listwise` exclude o linie din toate analizele "
+"dacă una dintre valorile sale este lipsă."
 
 #: ancova/options/modelTerms.description.ui
 #, fuzzy
@@ -6247,13 +6620,22 @@ msgstr "termenii modelului care alcătuiesc modelul."
 
 #: anova/options/modelTerms.description.ui
 #, fuzzy
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "termenii modelului care alcătuiesc modelul. Implicit, se creează un model factorial complet, dar aici pot fi ajustați exact termenii care alcătuiesc modelul."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
+msgstr ""
+"termenii modelului care alcătuiesc modelul. Implicit, se creează un model "
+"factorial complet, dar aici pot fi ajustați exact termenii care alcătuiesc "
+"modelul."
 
 #: ttestPS/options/pairs.description.ui
 #, fuzzy
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "perechile de măsurători -- se efectuează un test t separat pentru fiecare pereche de măsurători."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
+msgstr ""
+"perechile de măsurători -- se efectuează un test t separat pentru fiecare "
+"pereche de măsurători."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -6264,28 +6646,44 @@ msgstr "corecții pentru compararea multiplă post-hoc."
 
 #: ttestIS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "lăţimea anterioară pentru factorii Bayes ai testului t cu Student. Necesită o valoare între 0,01 şi 2,0, implicit 0,707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
+msgstr ""
+"lăţimea anterioară pentru factorii Bayes ai testului t cu Student. Necesită "
+"o valoare între 0,01 şi 2,0, implicit 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "lățimea anterioară pentru factorii Bayes ai testului t Student. Necesită o valoare între 0,5 și 2,0, implicit 0,707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
+msgstr ""
+"lățimea anterioară pentru factorii Bayes ai testului t Student. Necesită o "
+"valoare între 0,5 și 2,0, implicit 0,707."
 
 #: package/analyses/anovaRM.description
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "ANOVA cu măsurători repetitive este utilizată pentru a explora relaţia dintre o variabilă dependentă continuă și una sau mai multe variabile explicative categorice, unde una sau mai multe dintre variabilele explicative sunt 'în cadrul subiecţilor' (unde mai multe măsurători sunt din același subiect). În plus, această analiză permite includerea covariatelor, permiţând astfel efectuarea de ANCOVA cu măsurători repetitive."
+msgstr ""
+"ANOVA cu măsurători repetitive este utilizată pentru a explora relaţia "
+"dintre o variabilă dependentă continuă și una sau mai multe variabile "
+"explicative categorice, unde una sau mai multe dintre variabilele "
+"explicative sunt 'în cadrul subiecţilor' (unde mai multe măsurători sunt din "
+"același subiect). În plus, această analiză permite includerea covariatelor, "
+"permiţând astfel efectuarea de ANCOVA cu măsurători repetitive."
 
 #: anovaRM/options.description.main
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -6299,11 +6697,21 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "ANOVA măsurători repetitive este utilizată pentru a explora relația dintre o variabilă dependentă continuă și una sau mai multe variabile explicative categorice, unde una sau mai multe variabile explicative sunt 'în cadrul subiecților' (unde mai multe măsurători provin de la același subiect). În plus, această analiză permite includerea covariatelor, permițând măsurători repetitive ANCOVA. \n"
+msgstr ""
+"ANOVA măsurători repetitive este utilizată pentru a explora relația dintre o "
+"variabilă dependentă continuă și una sau mai multe variabile explicative "
+"categorice, unde una sau mai multe variabile explicative sunt 'în cadrul "
+"subiecților' (unde mai multe măsurători provin de la același subiect). În "
+"plus, această analiză permite includerea covariatelor, permițând măsurători "
+"repetitive ANCOVA. \n"
 "\n"
-"Această analiză necesită ca datele să fie în format 'larg', unde fiecare rând reprezintă un subiect (în opoziție cu formatul 'îngust', unde fiecare măsurătoare a variabilei dependente este reprezentată ca un rând). \n"
+"Această analiză necesită ca datele să fie în format 'larg', unde fiecare "
+"rând reprezintă un subiect (în opoziție cu formatul 'îngust', unde fiecare "
+"măsurătoare a variabilei dependente este reprezentată ca un rând). \n"
 "\n"
-"Un echivalent non-parametric al ANOVA măsurători repetitive există; testul Friedman. Cu toate acestea, are limitarea de a putea testa doar un singur factor."
+"Un echivalent non-parametric al ANOVA măsurători repetitive există; testul "
+"Friedman. Cu toate acestea, are limitarea de a putea testa doar un singur "
+"factor."
 
 #: anovaRM/options/rm.description.ui
 #, fuzzy
@@ -6312,8 +6720,13 @@ msgstr "proiectarea cu măsurători repetiți."
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "Măsurătorile repetate au doar două niveluri. Presupunerea sfericității este întotdeauna îndeplinită atunci când măsurătorile repetate au doar două niveluri."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
+msgstr ""
+"Măsurătorile repetate au doar două niveluri. Presupunerea sfericității este "
+"întotdeauna îndeplinită atunci când măsurătorile repetate au doar două "
+"niveluri."
 
 #: anovaRM/options/rmCells.description.ui
 #, fuzzy
@@ -6327,20 +6740,33 @@ msgstr "termenii de măsurători repetate ai modelului."
 
 #: R/utilsreg.R
 #, fuzzy
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "Nivelul de referință specificat nu a fost găsit pentru următoarele variabile: {vars}. Se folosește implicit primul nivel disponibil. Pentru a utiliza un nivel de referință personalizat, asigurați-vă că nivelul de referință definit este disponibil în date."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
+msgstr ""
+"Nivelul de referință specificat nu a fost găsit pentru următoarele "
+"variabile: {vars}. Se folosește implicit primul nivel disponibil. Pentru a "
+"utiliza un nivel de referință personalizat, asigurați-vă că nivelul de "
+"referință definit este disponibil în date."
 
 #: package/analyses/ttestIS.description
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "Testul t independent al lui Student (uneori numit test t cu două probe) este utilizat pentru a testa ipoteza nulă că două grupuri au aceeaşi medie. O valoare mică a lui p sugerează că ipoteza nulă nu este adevărată, şi, prin urmare, mediile grupurilor sunt diferite."
+msgstr ""
+"Testul t independent al lui Student (uneori numit test t cu două probe) este "
+"utilizat pentru a testa ipoteza nulă că două grupuri au aceeaşi medie. O "
+"valoare mică a lui p sugerează că ipoteza nulă nu este adevărată, şi, prin "
+"urmare, mediile grupurilor sunt diferite."
 
 #: ttestIS/options.description.main
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -6353,21 +6779,38 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "Testul t independent al lui Student (cunoscut și sub numele de test t cu două eşantioane) este utilizat pentru a testa ipoteza nulă potrivit căreia două grupuri au aceeași medie. O valoare mică a lui p sugerează că ipoteza nulă nu este adevărată, iar, prin urmare, mediile grupurilor sunt diferite.\n"
+msgstr ""
+"Testul t independent al lui Student (cunoscut și sub numele de test t cu "
+"două eşantioane) este utilizat pentru a testa ipoteza nulă potrivit căreia "
+"două grupuri au aceeași medie. O valoare mică a lui p sugerează că ipoteza "
+"nulă nu este adevărată, iar, prin urmare, mediile grupurilor sunt diferite.\n"
 "\n"
-"Testul t independent al lui Student presupune că datele din fiecare grup provin dintr-o distribuție normală și că varianțele acestor grupuri sunt egale. Dacă nu sunteți dispus să presupuneți că grupurile au varianțe egale, testul t al lui Welch poate fi utilizat în locul său. Dacă, în plus, nu sunteți dispus să presupuneți că datele din fiecare grup provin dintr-o distribuție normală, testul ne-parametric Mann-Whitney U poate fi utilizat în schimb (Cu toate acestea, trebuie remarcat că testul Mann-Whitney U are o ipoteză nulă ușor diferită; că distribuțiile fiecărui grup sunt egale)."
+"Testul t independent al lui Student presupune că datele din fiecare grup "
+"provin dintr-o distribuție normală și că varianțele acestor grupuri sunt "
+"egale. Dacă nu sunteți dispus să presupuneți că grupurile au varianțe egale, "
+"testul t al lui Welch poate fi utilizat în locul său. Dacă, în plus, nu "
+"sunteți dispus să presupuneți că datele din fiecare grup provin dintr-o "
+"distribuție normală, testul ne-parametric Mann-Whitney U poate fi utilizat "
+"în schimb (Cu toate acestea, trebuie remarcat că testul Mann-Whitney U are o "
+"ipoteză nulă ușor diferită; că distribuțiile fiecărui grup sunt egale)."
 
 #: package/analyses/ttestOneS.description
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "Testul t cu un eşantion al lui Student este utilizat pentru a testa ipoteza nulă că media adevărată este egală cu o valoare particulară (de obicei zero). O valoare mică a lui p sugerează că ipoteza nulă nu este adevărată, iar media adevărată trebuie să fie diferită de valoarea de test."
+msgstr ""
+"Testul t cu un eşantion al lui Student este utilizat pentru a testa ipoteza "
+"nulă că media adevărată este egală cu o valoare particulară (de obicei "
+"zero). O valoare mică a lui p sugerează că ipoteza nulă nu este adevărată, "
+"iar media adevărată trebuie să fie diferită de valoarea de test."
 
 #: ttestOneS/options.description.main
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -6377,22 +6820,38 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "Testul t cu un şantion al lui Student este folosit pentru a testa ipoteza nulă că media adevărată este egală cu o valoare anume (de obicei zero). O valoare p mică sugerează că ipoteza nulă nu este adevărată, și prin urmare media adevărată trebuie să fie diferită de valoarea de test.\n"
+msgstr ""
+"Testul t cu un şantion al lui Student este folosit pentru a testa ipoteza "
+"nulă că media adevărată este egală cu o valoare anume (de obicei zero). O "
+"valoare p mică sugerează că ipoteza nulă nu este adevărată, și prin urmare "
+"media adevărată trebuie să fie diferită de valoarea de test.\n"
 "\n"
-"Testul t cu un şantion al lui Student presupune că datele provin dintr-o distribuție normală - îning cazul îning care nu se dorește a se face această presupunere, testul non-parametric Wilcoxon cu ranguri poate fi folosit îning loc (Cu toate acestea, se observă că testul Wilcoxon cu ranguri are o ipoteză nulă ușor diferită; că <i>mediana</i> este egală cu valoarea de test)."
+"Testul t cu un şantion al lui Student presupune că datele provin dintr-o "
+"distribuție normală - îning cazul îning care nu se dorește a se face această "
+"presupunere, testul non-parametric Wilcoxon cu ranguri poate fi folosit "
+"îning loc (Cu toate acestea, se observă că testul Wilcoxon cu ranguri are o "
+"ipoteză nulă ușor diferită; că <i>mediana</i> este egală cu valoarea de "
+"test)."
 
 #: package/analyses/ttestPS.description
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "Testul t cu probe pereche al lui Student (uneori numit test t cu probe dependente) este utilizat pentru a testa ipoteza nulă că diferența dintre perechile de măsurători este egală cu zero. O valoare mică a lui p sugerează că ipoteza nulă nu este adevărată și că diferența dintre perechile de măsurători nu este zero."
+msgstr ""
+"Testul t cu probe pereche al lui Student (uneori numit test t cu probe "
+"dependente) este utilizat pentru a testa ipoteza nulă că diferența dintre "
+"perechile de măsurători este egală cu zero. O valoare mică a lui p sugerează "
+"că ipoteza nulă nu este adevărată și că diferența dintre perechile de "
+"măsurători nu este zero."
 
 #: ttestPS/options.description.main
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -6404,16 +6863,30 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "Testul t pentru eşantioane pereche al lui Student (uneori numit test t pentru eşantioane dependente) este utilizat pentru a testa ipoteza nulă că diferenţa dintre perechile de măsurători este egală cu zero. O valoare mică a lui p sugerează că ipoteza nulă nu este adevărată, iar diferenţa dintre perechile de măsurători nu este zero.\n"
+msgstr ""
+"Testul t pentru eşantioane pereche al lui Student (uneori numit test t "
+"pentru eşantioane dependente) este utilizat pentru a testa ipoteza nulă că "
+"diferenţa dintre perechile de măsurători este egală cu zero. O valoare mică "
+"a lui p sugerează că ipoteza nulă nu este adevărată, iar diferenţa dintre "
+"perechile de măsurători nu este zero.\n"
 "\n"
-"Testul t pentru eşantioane pereche al lui Student presupune că diferenţele perechilor urmează o distribuţie normală -- în cazul în care nu se doreşte a se face această presupunere, se poate utiliza testul ne-parametric Wilcoxon cu ranguri semnate (Cu toate acestea, trebuie remarcat că testul Wilcoxon cu ranguri semnate are o ipoteză nulă uşor diferită; că cele două grupuri de măsurători urmează aceeaşi distribuţie)."
+"Testul t pentru eşantioane pereche al lui Student presupune că diferenţele "
+"perechilor urmează o distribuţie normală -- în cazul în care nu se doreşte a "
+"se face această presupunere, se poate utiliza testul ne-parametric Wilcoxon "
+"cu ranguri semnate (Cu toate acestea, trebuie remarcat că testul Wilcoxon cu "
+"ranguri semnate are o ipoteză nulă uşor diferită; că cele două grupuri de "
+"măsurători urmează aceeaşi distribuţie)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 #, fuzzy
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "termenii pentru care se furnizează medii marginale estimate. Aici puteți specifica mai mulți termeni."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
+msgstr ""
+"termenii pentru care se furnizează medii marginale estimate. Aici puteți "
+"specifica mai mulți termeni."
 
 #: ttestOneS/options/testValue.description.ui
 #, fuzzy
@@ -6444,8 +6917,12 @@ msgstr "Obiectul `aov` subiacent"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "Variabila {var} nu poate fi tratată ca numerică. Graficele care se așteaptă să conţină date numerice nu vor fi create pentru această variabilă."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
+msgstr ""
+"Variabila {var} nu poate fi tratată ca numerică. Graficele care se așteaptă "
+"să conţină date numerice nu vor fi create pentru această variabilă."
 
 #: ttestIS/options/group.description.ui
 #, fuzzy
@@ -6454,13 +6931,21 @@ msgstr "variabila care specifică grupurile; trebuie să aibă 2 niveluri"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "Variabilele {vars} nu pot fi tratate ca numerice. Graficele care așteaptă date numerice nu vor fi create pentru aceste variabile."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
+msgstr ""
+"Variabilele {vars} nu pot fi tratate ca numerice. Graficele care așteaptă "
+"date numerice nu vor fi create pentru aceste variabile."
 
 #: ttestOneS/options/vars.description.ui
 #, fuzzy
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "variabilele de interes -- se efectuează un test t separat pentru fiecare variabilă specificată."
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
+msgstr ""
+"variabilele de interes -- se efectuează un test t separat pentru fiecare "
+"variabilă specificată."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -6478,14 +6963,32 @@ msgstr "lățimea pentru intervalele de încredere."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 #, fuzzy
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "Testul de ajustare al pătratului χ² (care nu trebuie confundat cu testul de independență χ²), testează ipoteza nulă că proporțiile observațiilor corespund unor proporții așteptate. Dacă valoarea p este mică, aceasta sugerează că ipoteza nulă este falsă și că adevăratele proporții sunt diferite de cele testate."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
+msgstr ""
+"Testul de ajustare al pătratului χ² (care nu trebuie confundat cu testul de "
+"independență χ²), testează ipoteza nulă că proporțiile observațiilor "
+"corespund unor proporții așteptate. Dacă valoarea p este mică, aceasta "
+"sugerează că ipoteza nulă este falsă și că adevăratele proporții sunt "
+"diferite de cele testate."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 #, fuzzy
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "Testul χ² de asociere (să nu fie confundat cu testul χ² de potrivire) este folosit pentru a testa dacă două variabile categorice sunt independente sau asociate. Dacă valoarea p este mică, sugerează că variabilele nu sunt independente și că există o relație între cele două variabile."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
+msgstr ""
+"Testul χ² de asociere (să nu fie confundat cu testul χ² de potrivire) este "
+"folosit pentru a testa dacă două variabile categorice sunt independente sau "
+"asociate. Dacă valoarea p este mică, sugerează că variabilele nu sunt "
+"independente și că există o relație între cele două variabile."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6506,8 +7009,14 @@ msgstr "Nu au existat distanțe Mahalanobis cu un prag sub p < {p}."
 
 #: package.description
 #, fuzzy
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "Acest modul reprezintă analizele incluse în jamovi. Conţine multe analize comune (cum ar fi testele t, ANOVA, regresia, matricea de corelaţie, teste de proporţie, tabele de contingencă, analiza factorială etc)."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
+msgstr ""
+"Acest modul reprezintă analizele incluse în jamovi. Conţine multe analize "
+"comune (cum ar fi testele t, ANOVA, regresia, matricea de corelaţie, teste "
+"de proporţie, tabele de contingencă, analiza factorială etc)."
 
 #: logRegOrd/results/models.template/thres.columns.title
 #, fuzzy
@@ -6550,8 +7059,12 @@ msgstr "Prea puține observații (N < 3) pentru a calcula statisticile"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "Prea puține observații pentru a calcula statisticile. Fiecare (sub)grup trebuie să aibă cel puțin atâtea observații câte variabile dependente există"
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
+msgstr ""
+"Prea puține observații pentru a calcula statisticile. Fiecare (sub)grup "
+"trebuie să aibă cel puțin atâtea observații câte variabile dependente există"
 
 #: R/anovaonew.b.R
 #, fuzzy
@@ -6586,11 +7099,16 @@ msgstr "Creşterea dinților"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 #, fuzzy
 msgid "Total"
 msgstr "Total"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6790,8 +7308,12 @@ msgstr "Varianțe"
 
 #: R/corrpart.b.R
 #, fuzzy
-msgid "variation from the control variables is only removed from the variables in the columns"
-msgstr "variaţia de la variabilele de control este eliminată doar de la variabilele din coloane"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
+msgstr ""
+"variaţia de la variabilele de control este eliminată doar de la variabilele "
+"din coloane"
 
 #: efa/options/rotation/varimax.title
 #: pca/options/rotation/varimax.title
@@ -6824,8 +7346,12 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 #, fuzzy
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "puneţi greutate egală pe fiecare celulă. (Celulele sunt ponderate în funcţie de frecvenţa celulei, în mod implicit.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
+msgstr ""
+"puneţi greutate egală pe fiecare celulă. (Celulele sunt ponderate în funcţie "
+"de frecvenţa celulei, în mod implicit.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label

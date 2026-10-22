@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:20+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/jmv-"
-"i18n/uk/>\n"
+"Language-Team: Ukrainian "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -31,10 +30,12 @@ msgid "'{col}' contains only one unique value"
 msgstr "'{col}' містить лише одне унікальне значення"
 
 #: R/pca.b.R
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
 msgstr ""
-"Метод видобутку '{method}' було використано у поєднанні з обертанням '"
-"{rotation}'"
+"Метод видобутку '{method}' було використано у поєднанні з обертанням "
+"'{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -43,8 +44,7 @@ msgstr "Було використане обертання '{rotation}'"
 #: R/descriptives.b.R
 #: R/linreg.b.R
 msgid "'{var}' contains negative values. Negative weights are not permitted."
-msgstr ""
-"'{var}' містить отрицательные значення. Отрицательные веса не допускають."
+msgstr "'{var}' містить отрицательные значення. Отрицательные веса не допускають."
 
 #: R/corrpart.b.R
 msgid "{} - Kendall's Tau B"
@@ -332,13 +332,17 @@ msgid "a table containing fit measures"
 msgstr "таблиця, котрий містити міри відповідності"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
-msgid "a table containing modification indices for the factor loadings not included in the model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
 msgstr ""
 "таблиця, котрий містити індекси модифікації для факторных навантажень, не "
 "включених у модель"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
-msgid "a table containing modification indices for the residual covariances not included in the model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
 msgstr ""
 "таблиця, котрий містити індекси модифікації для остаточных ковариаций, не "
 "включених у модель"
@@ -520,6 +524,11 @@ msgstr "таблиця результатів тесту χ²"
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
 msgstr "Точність"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -719,9 +728,10 @@ msgid "ANOVA test"
 msgstr "Дисперсионный аналізу"
 
 #: R/anovarm.b.R
-msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr ""
-"Оскільки між суб'єктами не вказані фактори, це допущение завжди виконується."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
+msgstr "Оскільки між суб'єктами не вказані фактори, це допущение завжди виконується."
 
 #: anovaOneW/options/fishers.title
 msgid "Assume equal (Fisher's)"
@@ -788,7 +798,7 @@ msgstr "Столбиковый графік"
 msgid "Bar plot"
 msgstr "Столбиковый графік"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 msgid "Bar Plots"
 msgstr "Столбиковые графіки"
 
@@ -941,7 +951,7 @@ msgstr "Бонферрони"
 msgid "Box plot"
 msgstr "Коробчатый графік"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 msgid "Box Plots"
 msgstr "Коробчатый графік"
 
@@ -1038,6 +1048,7 @@ msgstr "Переменная шпальти '{var}' містить менее 2 
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 msgid "Columns"
 msgstr "Шпальти"
 
@@ -1336,14 +1347,16 @@ msgid "Correlation heatmap"
 msgstr "Теплова карта корреляции"
 
 #: package/analyses/corrMatrix.description
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr ""
 "Кореляційні матриці – це спосіб дослідження лінійних зв'язків між двома або "
 "більше неперервними змінними."
 
 #: corrMatrix/options.description.main
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1427,13 +1440,20 @@ msgstr "Кількість (необов'язково)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be infinite"
 msgstr "Лічильник не можучи бути неопределенным"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be negative"
 msgstr "Лічильник не можучи бути отрицательным"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1491,6 +1511,10 @@ msgstr "кубічний"
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
 msgstr "Накопленный %"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -1572,13 +1596,17 @@ msgid "Dependent variable '{dep}' contains infinite values"
 msgstr "Залежна змінна '{dep}' містить нескінченні значення"
 
 #: R/ancova.b.R
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
 msgstr ""
 "Залежна змінна '{dep}' не містить даних (після видалення рядків з відсутніми "
 "значеннями)"
 
 #: R/ancova.b.R
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
 msgstr ""
 "Залежна змінна '{dep}' містить тільки одне неповторюване значення (після "
 "видалення рядків з відсутніми значеннями)"
@@ -1636,7 +1664,11 @@ msgstr "Описові статистики"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
 msgstr ""
 "Описи – це набір узагальнюючих статистичних даних та візуалізацій, які "
 "дозволяють досліджувати форму та розподіл даних. Рекомендується досліджувати "
@@ -1862,7 +1894,9 @@ msgid "Eigenvalues greater than"
 msgstr "Власні значення більші за"
 
 #: R/anovarm.b.R
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
 msgstr ""
 "Порожні клітинки між предметом дизайну: принаймні одне поєднання між рівнями "
 "фактора має 0 спостережень"
@@ -1956,7 +1990,9 @@ msgid "Estimates represent the log odds of …"
 msgstr "Оцінки представляють логарифм ймовірності …"
 
 #: R/logregbin.b.R
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
 msgstr ""
 "Оцінки представляють логарифм ймовірності \"{dep} = {level1}\" проти \"{dep} "
 "= {level2}\""
@@ -2054,7 +2090,9 @@ msgid "Factor"
 msgstr "Фактор"
 
 #: R/loglinear.b.R
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
 msgstr ""
 "Фактор '{factor}' має менше двох рівнів. Фактори повинні мати не менше двох "
 "рівнів"
@@ -2063,23 +2101,36 @@ msgstr ""
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Фактор '{factor}' повинен мати як мінімум 2 рівня"
 
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
+msgstr ""
+
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
 msgstr ""
 "Фактор '{factorName}' не містить даних (після видалення рядків з відсутніми "
 "значеннями)"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr ""
 "Фактор '{factorName}' містить тільки один рівень (після видалення рядків з "
 "відсутніми значеннями)"
 
-#: R/ancova.b.R
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
 msgstr ""
-"Фактор '{factorName}' містить невикористані рівні (після видалення рядків з "
-"відсутніми значеннями)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2244,6 +2295,10 @@ msgstr "Частоти $key"
 msgid "Frequency tables"
 msgstr "Таблиці частот"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2341,6 +2396,10 @@ msgstr "Резюме групи"
 msgid "Group summary"
 msgstr "Резюме групи"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2349,9 +2408,10 @@ msgid "Grouping Variable"
 msgstr "Групування змінних"
 
 #: R/ttestis.b.R
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
-msgstr ""
-"Змінна групування '{a}' має менше 2 рівнів після виключення відсутніх значень"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
+msgstr "Змінна групування '{a}' має менше 2 рівнів після виключення відсутніх значень"
 
 #: R/ttestis.b.R
 msgid "Grouping variable '{a}' must have exactly 2 levels"
@@ -2418,7 +2478,7 @@ msgstr "Виділити значення вище"
 msgid "Histogram"
 msgstr "Гістограма"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 msgid "Histograms"
 msgstr "Гістограми"
 
@@ -2552,8 +2612,20 @@ msgstr "Міжквартильне відстань"
 
 #: R/utilsanova.R
 #, fuzzy
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "Здається, що ваша модель має проблему 'особливості'. Це зазвичай означає, що модель має труднощі з розрізненням між певними ефектами, оскільки деякі змінні надто тісно пов'язані або даних недостатньо, щоб надійно оцінити всі ефекти. Щоб вирішити цю проблему, розгляньте спрощення моделі шляхом видалення деяких ефектів або перевірки того, чи можуть ваші дані мати зайві або високо корельовані змінні."
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
+msgstr ""
+"Здається, що ваша модель має проблему 'особливості'. Це зазвичай означає, що "
+"модель має труднощі з розрізненням між певними ефектами, оскільки деякі "
+"змінні надто тісно пов'язані або даних недостатньо, щоб надійно оцінити всі "
+"ефекти. Щоб вирішити цю проблему, розгляньте спрощення моделі шляхом "
+"видалення деяких ефектів або перевірки того, чи можуть ваші дані мати зайві "
+"або високо корельовані змінні."
 
 #: R/anovarm.b.R
 msgid "Item '{item}' consists of one level only"
@@ -2578,7 +2650,9 @@ msgid "Item '{item}' needs to be numeric"
 msgstr "Елемент '{item}' має бути числовим"
 
 #: R/reliability.b.R
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
 msgstr ""
 "елемент {item} негативно корелює із загальною шкалою і, ймовірно, має бути "
 "зворотним"
@@ -2601,7 +2675,9 @@ msgid "Items"
 msgstr "Елементи"
 
 #: R/reliability.b.R
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
 msgstr ""
 "елементи {items} негативно корелюють із загальною шкалою і, ймовірно, "
 "повинні бути протилежно"
@@ -2672,7 +2748,9 @@ msgid "Level 2"
 msgstr "Рівень 2"
 
 #: R/ttestis.b.R
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
 msgstr ""
 "Критерій Левена є значущим (p < 0,05), що свідчить про порушення припущення "
 "про рівність дисперсій"
@@ -2707,7 +2785,11 @@ msgstr "Лінійна регресія"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
 msgstr ""
 "Лінійна регресія використовується для дослідження зв'язку між неперервною "
 "залежною змінною та однією або кількома неперервними та/або категоріальними "
@@ -2803,7 +2885,9 @@ msgid "Mahalanobis distance (p)"
 msgstr "Відстань Махаланобіса ( p )"
 
 #: R/linreg.b.R
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
 msgstr ""
 "Відстань Махаланобіса можна розрахувати лише для моделей з двома або більше "
 "коваріатами"
@@ -3235,7 +3319,10 @@ msgstr "Поліноміальна логістична регресія"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
 msgstr ""
 "Багатовимірний аналіз (ко)варіантності (MANCOVA) використовується для "
 "дослідження зв'язку між кількома залежними змінними та однією або кількома "
@@ -3279,7 +3366,9 @@ msgid "No correction"
 msgstr "Без поправок"
 
 #: R/mancova.b.R
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
 msgstr ""
 "Фактори не визначені. М-тесту Боксу актуален тільки тоді, коли модель "
 "містить фактори."
@@ -3379,7 +3468,9 @@ msgid "Number of factors"
 msgstr "Кількість факторів"
 
 #: R/descriptives.b.R
-msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
 msgstr ""
 "Кількість запитуваних екстремальних значень перевищує кількість рядків у "
 "даних."
@@ -3474,7 +3565,9 @@ msgid "One or both variables do not contain enough observations"
 msgstr "Одна або обидві змінні не містять достатньої кількості спостережень"
 
 #: R/logregbin.b.R
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
 msgstr ""
 "Один або декілька коефіцієнтів у моделі '{modelNo}' неможливо оцінити через "
 "ідеальну колінеарність."
@@ -3675,7 +3768,8 @@ msgid "Partial Correlation"
 msgstr "Часткова кореляція"
 
 #: package/analyses/corrPart.description
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
@@ -3684,7 +3778,8 @@ msgstr ""
 "змінними"
 
 #: corrPart/options.description.main
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -3768,6 +3863,10 @@ msgstr "Пірсона r"
 msgid "Pearson{}Correlation"
 msgstr "Пірсонова{}Кореляція"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -3804,7 +3903,9 @@ msgid "perform a Mann-Whitney U test."
 msgstr "виконати тест Манна-Вітні Ю."
 
 #: ttestOneS/options/norm.description.ui
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 msgstr ""
 "виконати тест на нормальність Шапіро-Вілка. Низьке p-значення говорить про "
 "те, що дані не з нормального розподілу."
@@ -3820,14 +3921,18 @@ msgstr "Виконати тест ANOVA Фішера (або те, що можн
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 msgstr ""
 "виконати тест Шапіро-Вілка на нормальність. Низьке значення p означає, що "
 "дані не належать до нормального розподілу."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
 msgstr ""
 "виконати тест Шапіро-Вілка на нормальність. Низьке значення p означає, що "
 "залишки розподілені ненормально."
@@ -3897,7 +4002,7 @@ msgstr "Тип графіка"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4105,7 +4210,9 @@ msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
 msgstr "надайте міру розміру ефекту Коена's для post-hoc тестів."
 
 #: ttestOneS/options/ci.description.ui
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
 msgstr ""
 "забезпечити довірчий інтервал для різниці між середньою оцінкою та тестовим "
 "значенням."
@@ -4130,7 +4237,11 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "надати значення r Пирсона для кожноїкомбінації змінних."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 msgstr ""
 "надати графік Q-Q решт -- графік фактичний решт по порівнянню з тем, що "
 "можна було би очікувати, якщо би дані були <i>ідеально</i> нормально "
@@ -4154,8 +4265,7 @@ msgstr "надати таблицю расчетных граничних сер
 
 #: ttestIS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's independent samples t-tests."
-msgstr ""
-"надати коефіцієнти Байеса для t-тестів Стьюдента для незалежний вибірок."
+msgstr "надати коефіцієнти Байеса для t-тестів Стьюдента для незалежний вибірок."
 
 #: ttestOneS/options/bf.description.ui
 msgid "provide Bayes factors for the Student's one-sample t-tests."
@@ -4219,14 +4329,18 @@ msgstr "представляє розміри ефекту (d Коена)."
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
 msgstr ""
 "наведіть тест Левена на однорідність дисперсій. Низьке значення p свідчить "
 "про те, що групи мають нерівні дисперсії."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
 msgstr ""
 "наведіть тести Левена на однорідність дисперсій. Низьке p-значення свідчить "
 "про те, що групи мають нерівні дисперсії."
@@ -4241,7 +4355,9 @@ msgid "provide mean differences with the post-hoc tests."
 msgstr "наведіть середні різниці з постфактумними тестами."
 
 #: ttestOneS/options/meanDiff.description.ui
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
 msgstr ""
 "надайте середні різниці та стандартні помилки середніх різниць між оцінкою "
 "середнього значення та тестовим значенням."
@@ -4272,7 +4388,11 @@ msgstr "представляє апостеріорні тести."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 msgstr ""
 "надайте Q-Q графіки залишків – графік фактичних залишків порівняно з тим, що "
 "очікувалося б, якби дані були <i>ідеально</i> нормально розподілені. Великі "
@@ -4282,7 +4402,11 @@ msgstr ""
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
 msgstr ""
 "надайте Q-Q графіки залишків – графік фактичних залишків порівняно з тим, що "
 "очікувалося б, якби дані були <i>ідеально</i> нормально розподілені. Великі "
@@ -4319,7 +4443,7 @@ msgstr "Представляє кількість нагод."
 msgid "Pseudo R²"
 msgstr "Псевдо R²"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 msgid "Q-Q"
 msgstr "Q-Q"
 
@@ -4357,7 +4481,7 @@ msgstr "Q-Q-графік багатовимірної нормальності"
 msgid "Q-Q plot of residuals"
 msgstr "Q-Q графік решт"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 msgid "Q-Q Plots"
 msgstr "Q-Q Графіки"
 
@@ -4580,7 +4704,9 @@ msgid "Residual plots"
 msgstr "Графіки решт"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
 msgstr ""
 "Залишкова сума квадратів і/або ступенів свободи дорівнює нулю, що вказує на "
 "ідеальну відповідність"
@@ -4689,6 +4815,7 @@ msgstr "Змінна рядка '{var}' містить менше ніж 2 рі�
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 msgid "Rows"
 msgstr "Рядки"
 
@@ -4888,10 +5015,12 @@ msgid "Simulations"
 msgstr "Симуляції"
 
 #: R/ancova.b.R
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
 msgstr ""
-"Зустрічається сингулярна відповідність; одна або декілька змінних-"
-"предикторів є лінійною комбінацією інших змінних-предикторів."
+"Зустрічається сингулярна відповідність; одна або декілька "
+"змінних-предикторів є лінійною комбінацією інших змінних-предикторів."
 
 #: R/anovarm.b.R
 msgid "Singularity error. Sphericity corrections are not available"
@@ -5205,7 +5334,8 @@ msgid "The 'split by' variable '{var}' contains no data."
 msgstr "Змінна 'розділити по' '{var}' не містить даних."
 
 #: ttestOneS/options/hypothesis.description.ui
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5234,7 +5364,8 @@ msgstr "альтернативна гіпотеза. Дозволяє прово
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
@@ -5247,7 +5378,8 @@ msgstr ""
 "додаванням коваріацій."
 
 #: package/analyses/anova.description
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
@@ -5256,7 +5388,8 @@ msgstr ""
 "пояснювальними змінними."
 
 #: anova/options.description.main
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -5277,11 +5410,12 @@ msgstr ""
 "можна використовувати тест Велча.\n"
 "(Однак тест Велча не підтримує більше одного пояснювального\n"
 "фактора). Як варіант, якщо хтось не бажає припускати, що дані розподілені "
-"нормально, можна використовувати непараметричний підхід (наприклад, Крускела-"
-"Уолліса)."
+"нормально, можна використовувати непараметричний підхід (наприклад, "
+"Крускела-Уолліса)."
 
 #: package/analyses/anovaOneW.description
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5290,14 +5424,15 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 msgstr ""
 "Дисперсійний аналіз (ANOVA) використовується для дослідження зв'язку між "
 "неперервною залежною змінною та однією або кількома категоріальними "
-"пояснювальними змінними. Цей «однофакторний ANOVA» є спрощеною версією «"
-"звичайного» ANOVA, що дозволяє використовувати лише один пояснювальний "
+"пояснювальними змінними. Цей «однофакторний ANOVA» є спрощеною версією "
+"«звичайного» ANOVA, що дозволяє використовувати лише один пояснювальний "
 "фактор, проте\n"
 "також забезпечує ANOVA Велча. ANOVA Велча має перевагу в тому, що\n"
 "він не повинен припускати, що дисперсії всіх груп рівні."
 
 #: anovaOneW/options.description.main
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5312,8 +5447,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 msgstr ""
 "Дисперсійний аналіз (ANOVA) використовується для дослідження зв'язку між "
 "неперервною залежною змінною та однією або кількома категоріальними "
-"пояснювальними змінними. Цей «однофакторний ANOVA» є спрощеною версією «"
-"звичайного» ANOVA, що дозволяє використовувати лише один пояснювальний "
+"пояснювальними змінними. Цей «однофакторний ANOVA» є спрощеною версією "
+"«звичайного» ANOVA, що дозволяє використовувати лише один пояснювальний "
 "фактор, проте\n"
 "також забезпечує ANOVA Велча. ANOVA Велча має перевагу в тому, що\n"
 "він не повинен припускати, що дисперсії всіх груп рівні.\n"
@@ -5334,11 +5469,15 @@ msgstr "міжсуб'єктні умови моделі."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
 msgstr ""
 "Біноміальний тест використовується для перевірки нульової гіпотези про те, "
-"що частка спостережень відповідає деякому очікуваному значенню. Якщо p-"
-"значення низьке, це говорить про те, що нульова гіпотеза хибна, і що "
+"що частка спостережень відповідає деякому очікуваному значенню. Якщо "
+"p-значення низьке, це говорить про те, що нульова гіпотеза хибна, і що "
 "справжня частка має бути якимось іншим значенням."
 
 #: ancova/options/factors.description.ui
@@ -5346,7 +5485,9 @@ msgid "the categorical explanatory (or independent) variables."
 msgstr "категоріальні пояснювальні (або незалежні) змінні."
 
 #: R/descriptives.b.R
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
 msgstr ""
 "Довірчий інтервал (ДІ) середнього значення припускає, що вибіркові середні "
 "значення відповідають t-розподілу з N - 1 ступенями свобод"
@@ -5370,9 +5511,10 @@ msgid "the confidence interval width."
 msgstr "ширина довірчого інтервалу."
 
 #: ancova/options/covs.description.ui
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr ""
-"неперервні пояснювальні (або незалежні) змінні, також відомі як коваріати."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
+msgstr "неперервні пояснювальні (або незалежні) змінні, також відомі як коваріати."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5394,16 +5536,18 @@ msgstr "Граничне значення встановлено на {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"Набір даних містить 0 рядків (після видалення рядків з відсутніми значеннями)"
+msgstr "Набір даних містить 0 рядків (після видалення рядків з відсутніми значеннями)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr "Набір даних містить 0 рядків (або всі рядки містять відсутні значення)"
 
 #: R/logregbin.b.R
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
 msgstr ""
 "Залежна змінна '{}' має більше двох рівнів; біноміальну логістичну регресію "
 "можна виконати лише для залежних змінних з двома рівнями."
@@ -5412,9 +5556,18 @@ msgstr ""
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "Залежна змінна '{dep}' має такий порядок: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
 msgstr ""
 "Залежна змінна \"{dep}\" має лише два рівні, розглянемо біноміальну "
 "логістичну регресію."
@@ -5425,19 +5578,19 @@ msgstr "залежна змінна. Для ANCOVA вони будуть неп�
 
 #: anova/options/dep.description.ui
 msgid "the dependent variable. For ANOVA, these will be continuous."
-msgstr ""
-"залежна змінна. Для дисперсійного аналізу (ANOVA) вони будуть неперервними."
+msgstr "залежна змінна. Для дисперсійного аналізу (ANOVA) вони будуть неперервними."
 
 #: ttestIS/options/vars.description.ui
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
 msgstr ""
 "залежні змінні -- для кожної зазначеної залежної змінної виконується окремий "
 "t-тест."
 
 #: anovaOneW/options/deps.description.ui
 msgid "the dependent variables. For ANOVA, these will be continuous."
-msgstr ""
-"залежні змінні. Для дисперсійного аналізу (ANOVA) вони будуть неперервними."
+msgstr "залежні змінні. Для дисперсійного аналізу (ANOVA) вони будуть неперервними."
 
 #: ancova/options/emmPlotError.description.ui
 #: anova/options/emmPlotError.description.ui
@@ -5447,18 +5600,26 @@ msgstr "смуги похибок для побудови графіків на 
 
 #: anovaOneW/options/group.description.ui
 msgid "the explanatory or independent variable. For ANOVA this will be categorical."
-msgstr ""
-"пояснювальна або незалежна змінна. Для ANOVA це буде категоріальною змінною."
+msgstr "пояснювальна або незалежна змінна. Для ANOVA це буде категоріальною змінною."
 
 #: anova/options/factors.description.ui
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
 msgstr ""
 "пояснювальні або незалежні змінні. Для дисперсійного аналізу (ANOVA) вони "
 "будуть категоріальними."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
 msgstr ""
 "Тест Фрідмана використовується для дослідження зв'язку між неперервною "
 "залежною змінною та категоріальною пояснювальною змінною, де пояснювальна "
@@ -5470,7 +5631,12 @@ msgstr ""
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
 msgstr ""
 "Тест Краскела-Уолліса використовується для дослідження зв'язку між "
 "неперервною залежною змінною та категоріальною пояснювальною змінною. Він "
@@ -5489,14 +5655,20 @@ msgstr "синтаксис lavaan, використовувати для под�
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
 msgstr ""
 "Метод виключення відсутніх значень. Метод «Аналіз за аналізом» виключає "
 "відсутні значення з кожного аналізу. Метод «Списковий» виключає рядок з усіх "
 "аналізів, якщо одне з його значень відсутнє."
 
 #: ttestOneS/options/miss.description.ui
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
 msgstr ""
 "Метод виключення відсутніх значень. `Аналіз за аналізом` виключає відсутні "
 "значення з кожної змінної. `Списковий` виключає рядок з усіх аналізів, якщо "
@@ -5507,16 +5679,19 @@ msgid "the model terms which make up the model."
 msgstr "терміни моделі, з яких складається модель."
 
 #: anova/options/modelTerms.description.ui
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
 "члени моделі, з яких вона складається. За замовчуванням створюється повна "
 "факторіальна модель, але тут можна налаштувати точні члени, з яких "
 "складається модель."
 
 #: ttestPS/options/pairs.description.ui
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr ""
-"пари вимірювань -- для кожної пари вимірювань виконується окремий t-тест."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
+msgstr "пари вимірювань -- для кожної пари вимірювань виконується окремий t-тест."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -5527,20 +5702,25 @@ msgstr ""
 "використовувати."
 
 #: ttestIS/options/bfPrior.description.ui
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
 msgstr ""
 "априорна ширина для байєсівських факторів t-критерію Стьюдента. Потрібне "
 "значення від 0,01 до 2,0, за замовчуванням 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
 msgstr ""
 "априорна ширина для байєсівських факторів t-критерію Стьюдента. Потрібне "
 "значення від 0,5 до 2,0, за замовчуванням 0,707."
 
 #: package/analyses/anovaRM.description
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -5556,7 +5736,8 @@ msgstr ""
 "вимірюваннями."
 
 #: anovaRM/options.description.main
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -5593,7 +5774,9 @@ msgid "the repeated measures design."
 msgstr "дизайн повторних вимірювань."
 
 #: R/anovarm.b.R
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
 msgstr ""
 "Повторний виміри мають тільки два рівня. Припущення о сферичности завжди "
 "виконується, коли котрий повторюватися виміри мають тільки два рівня."
@@ -5607,7 +5790,10 @@ msgid "the repeated measures terms of the model."
 msgstr "члени моделі з повторними вимірюваннями."
 
 #: R/utilsreg.R
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
 msgstr ""
 "Зазначений опорний рівень не знайдено для наступних змінних: {vars}. За "
 "замовчуванням встановлено перший доступний рівень. Щоб використати власний "
@@ -5615,19 +5801,21 @@ msgstr ""
 "у даних."
 
 #: package/analyses/ttestIS.description
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
 msgstr ""
-"T-критерій Стьюдента для незалежних вибірок (іноді його називають t-"
-"критерієм для двох вибірок) використовується для перевірки нульової гіпотези "
-"про те, що дві групи мають однакове середнє значення. Низьке значення p "
-"свідчить про те, що нульова гіпотеза не є правильною, і тому середні "
-"значення груп різні."
+"T-критерій Стьюдента для незалежних вибірок (іноді його називають "
+"t-критерієм для двох вибірок) використовується для перевірки нульової "
+"гіпотези про те, що дві групи мають однакове середнє значення. Низьке "
+"значення p свідчить про те, що нульова гіпотеза не є правильною, і тому "
+"середні значення груп різні."
 
 #: ttestIS/options.description.main
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -5641,9 +5829,9 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
 msgstr ""
-"t-критерій Стьюдента для незалежних вибірок (іноді його називають t-"
-"критерієм для двох вибірок) використовується для перевірки нульової гіпотези "
-"про те, що дві групи мають\n"
+"t-критерій Стьюдента для незалежних вибірок (іноді його називають "
+"t-критерієм для двох вибірок) використовується для перевірки нульової "
+"гіпотези про те, що дві групи мають\n"
 "однакове середнє значення. Низьке значення p свідчить про те, що нульова "
 "гіпотеза не є правильною,\n"
 "і тому середні значення груп різні.\n"
@@ -5659,7 +5847,8 @@ msgstr ""
 "нульову гіпотезу; що розподіли кожної групи рівні)."
 
 #: package/analyses/ttestOneS.description
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
@@ -5671,7 +5860,8 @@ msgstr ""
 "істинне середнє значення має відрізнятися від тестового значення."
 
 #: ttestOneS/options.description.main
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -5696,7 +5886,8 @@ msgstr ""
 "гіпотезу; що <i>медіана</i> дорівнює тестовому значенню)."
 
 #: package/analyses/ttestPS.description
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -5709,7 +5900,8 @@ msgstr ""
 "дорівнює нулю."
 
 #: ttestPS/options.description.main
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -5740,7 +5932,9 @@ msgstr ""
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
 msgstr ""
 "терміни, для яких слід отримати оцінені граничні середні значення. Тут ви "
 "можете вказати кілька термінів."
@@ -5768,7 +5962,9 @@ msgid "The underlying `aov` object"
 msgstr "Базовий об'єкт `aov`"
 
 #: R/descriptives.b.R
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
 msgstr ""
 "Змінну {var} не можна розглядати як числову. Для цієї змінної не будуть "
 "створені графіки, які очікують числові дані."
@@ -5778,16 +5974,20 @@ msgid "the variable specifying the groups; must have 2 levels."
 msgstr "змінна, що визначає групи; повинна мати 2 рівні."
 
 #: R/descriptives.b.R
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
 msgstr ""
 "Змінні {vars} не можна розглядати як числові. Для цих змінних не будуть "
 "створені графіки, які очікують числові дані."
 
 #: ttestOneS/options/vars.description.ui
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
 msgstr ""
-"змінні, що цікавлять -- для кожної зазначеної змінної виконується окремий t-"
-"тест."
+"змінні, що цікавлять -- для кожної зазначеної змінної виконується окремий "
+"t-тест."
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -5802,7 +6002,12 @@ msgstr "ширина довірчих інтервалів."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
 msgstr ""
 "Тест на відповідність χ² (не плутати з тестом на незалежність χ²) перевіряє "
 "нульову гіпотезу про те, що пропорції спостережень відповідають деяким "
@@ -5811,7 +6016,11 @@ msgstr ""
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
 msgstr ""
 "χ²-тест асоціації (не плутати з χ²-тестом наближеності) використовується для "
 "перевірки того, чи є дві категоріальні змінні незалежними чи асоційованими. "
@@ -5834,7 +6043,10 @@ msgid "There were no Mahalanobis distances with a threshold below p < {p}."
 msgstr "Не було виявлено відстаней Махаланобіса з порогом нижче p < {p}."
 
 #: package.description
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
 "Цей модуль представляє аналізи, що входять до складу jamovi. Він містить "
 "багато поширених аналізів (таких як t-тести, дисперсійні аналізи, регресія, "
@@ -5874,7 +6086,9 @@ msgid "Too few observations (N < 3) to compute statistic"
 msgstr "Замало наглядів (N < 3) для розрахунку статистики"
 
 #: R/mancova.b.R
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
 msgstr ""
 "Замало спостережень для обчислення статистики. Кожна (під)група повинна мати "
 "щонайменше стільки ж спостережень, скільки залежних змінних."
@@ -5906,10 +6120,15 @@ msgstr "Ріст зубів"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
 msgstr "Всього"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6079,7 +6298,9 @@ msgid "Variances"
 msgstr "Дисперсії"
 
 #: R/corrpart.b.R
-msgid "variation from the control variables is only removed from the variables in the columns"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
 msgstr "варіація від контрольних змінних видаляється лише зі змінних у стовпцях"
 
 #: efa/options/rotation/varimax.title
@@ -6107,7 +6328,9 @@ msgstr "W"
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
 msgstr ""
 "зважте кожну клітинку однаково. (За замовчуванням клітинки зважуються "
 "відповідно до частоти клітинок.)"

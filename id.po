@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:21+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jamovi/jmv-"
-"i18n/id/>\n"
+"Language-Team: Indonesian "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -30,10 +29,12 @@ msgid "'{col}' contains only one unique value"
 msgstr "'{col}' hanya berisi satu nilai unik"
 
 #: R/pca.b.R
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
 msgstr ""
-"Metode ekstraksi '{method}' digunakan dalam kombinasi dengan rotasi '"
-"{rotation}'"
+"Metode ekstraksi '{method}' digunakan dalam kombinasi dengan rotasi "
+"'{rotation}'"
 
 #: R/pca.b.R
 msgid "'{rotation}' rotation was used"
@@ -277,8 +278,7 @@ msgstr ""
 #: ttestOneS/results/normality.notes.p
 #: ttestPS/results/norm.notes.p
 msgid "A low p-value suggests a violation of the assumption of normality"
-msgstr ""
-"Nilai p yang rendah menunjukkan adanya pelanggaran terhadap asumsi normalitas"
+msgstr "Nilai p yang rendah menunjukkan adanya pelanggaran terhadap asumsi normalitas"
 
 #: package/datasets/Big5(Dolan,Oort,Stoel&Wicherts,2009).description
 msgid "A nice correlation data set"
@@ -333,13 +333,17 @@ msgid "a table containing fit measures"
 msgstr "tabel yang berisi ukuran kecocokan"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
-msgid "a table containing modification indices for the factor loadings not included in the model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
 msgstr ""
 "tabel yang berisi indeks modifikasi untuk factor loading yang tidak "
 "disertakan dalam model"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
-msgid "a table containing modification indices for the residual covariances not included in the model"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
 msgstr ""
 "tabel yang berisi indeks modifikasi untuk kovarians residual yang tidak "
 "disertakan dalam model"
@@ -521,6 +525,11 @@ msgstr "tabel hasil uji χ²"
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
 msgstr "Akurasi"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -720,7 +729,9 @@ msgid "ANOVA test"
 msgstr "Uji ANOVA"
 
 #: R/anovarm.b.R
-msgid "As there are no between subjects factors specified this assumption is always met."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
 msgstr ""
 "Karena tidak ada faktor antar subjek yang ditentukan, asumsi ini selalu "
 "terpenuhi."
@@ -790,7 +801,7 @@ msgstr "Plot Batang"
 msgid "Bar plot"
 msgstr "Plot bar"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 msgid "Bar Plots"
 msgstr "Plot Batang"
 
@@ -943,7 +954,7 @@ msgstr "Bonferroni"
 msgid "Box plot"
 msgstr "Box plot"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 msgid "Box Plots"
 msgstr "Box plot"
 
@@ -1040,6 +1051,7 @@ msgstr "Variabel kolom '{var}' berisi kurang dari 2 level"
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 msgid "Columns"
 msgstr "Kolom"
 
@@ -1338,14 +1350,16 @@ msgid "Correlation heatmap"
 msgstr "Heatmap korelasi"
 
 #: package/analyses/corrMatrix.description
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
 msgstr ""
 "Matriks korelasi adalah cara untuk memeriksa hubungan linier antara dua atau "
 "lebih variabel kontinu."
 
 #: corrMatrix/options.description.main
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1427,13 +1441,20 @@ msgstr "Frekuensi (opsional)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be infinite"
 msgstr "Frekuensi tidak boleh tak hingga"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 msgid "Counts may not be negative"
 msgstr "Frekuensi tidak boleh negatif"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1491,6 +1512,10 @@ msgstr "kubik"
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
 msgstr "% Kumulatif"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -1571,13 +1596,17 @@ msgid "Dependent variable '{dep}' contains infinite values"
 msgstr "Variabel terikat '{dep}' berisi nilai tak hingga"
 
 #: R/ancova.b.R
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
 msgstr ""
 "Variabel terikat '{dep}' tidak memiliki data (setelah menghapus baris dengan "
 "nilai yang hilang)"
 
 #: R/ancova.b.R
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
 msgstr ""
 "Variabel terikat '{dep}' hanya berisi satu nilai unik (setelah menghapus "
 "baris dengan nilai yang hilang)"
@@ -1635,7 +1664,11 @@ msgstr "Statistik Deskriptif"
 
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
 msgstr ""
 "Statistik deskriptif adalah kumpulan statistik ringkas dan visualisasi yang "
 "memungkinkan mengeksplorasi bentuk dan distribusi data. Sangat disarankan "
@@ -1862,7 +1895,9 @@ msgid "Eigenvalues greater than"
 msgstr "Eigenvalue lebih besar dari"
 
 #: R/anovarm.b.R
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
 msgstr ""
 "Sel kosong dalam desain antar subjek: setidaknya satu kombinasi level faktor "
 "antar subjek memiliki 0 pengamatan"
@@ -1956,7 +1991,9 @@ msgid "Estimates represent the log odds of …"
 msgstr "Estimasi merepresentasikan log odds dari …"
 
 #: R/logregbin.b.R
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
 msgstr ""
 "Estimasi merepresentasikan log odds dari \"{dep} = {level1}\" vs. \"{dep} = "
 "{level2}\""
@@ -2054,7 +2091,9 @@ msgid "Factor"
 msgstr "Faktor"
 
 #: R/loglinear.b.R
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
 msgstr ""
 "Faktor '{factor}' memiliki kurang dari dua level. Faktor harus memiliki "
 "setidaknya dua level"
@@ -2063,23 +2102,36 @@ msgstr ""
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "Faktor '{factor}' perlu memiliki setidaknya 2 level"
 
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
+msgstr ""
+
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
 msgstr ""
 "Faktor '{factorName}' tidak memiliki data (setelah menghapus baris dengan "
 "nilai yang hilang)"
 
 #: R/ancova.b.R
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr ""
 "Faktor '{factorName}' hanya berisi satu level (setelah menghapus baris "
 "dengan nilai yang hilang)"
 
-#: R/ancova.b.R
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
 msgstr ""
-"Faktor '{factorName}' memiliki level yang tidak terpakai (setelah menghapus "
-"baris dengan nilai yang hilang)"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2244,6 +2296,10 @@ msgstr "Frekuensi dari $key"
 msgid "Frequency tables"
 msgstr "Tabel frekuensi"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2341,6 +2397,10 @@ msgstr "Ringkasan kelompok"
 msgid "Group summary"
 msgstr "Ringkasan kelompok"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2349,7 +2409,9 @@ msgid "Grouping Variable"
 msgstr "Variabel pengelompokan"
 
 #: R/ttestis.b.R
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
 msgstr ""
 "Variabel pengelompokan '{a}' memiliki kurang dari 2 level setelah nilai yang "
 "hilang dikeluarkan"
@@ -2402,6 +2464,10 @@ msgstr "tersembunyi"
 msgid "Hide loadings below"
 msgstr "Sembunyikan loadings di bawah"
 
+#: R/descriptives.b.R
+msgid "Highest"
+msgstr ""
+
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
@@ -2414,7 +2480,7 @@ msgstr "Sorot nilai di atas"
 msgid "Histogram"
 msgstr "Histogram"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 msgid "Histograms"
 msgstr "Histogram"
 
@@ -2547,7 +2613,13 @@ msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
 msgstr ""
 "Tampaknya model Anda mengalami masalah 'singularitas'. Hal ini biasanya "
 "berarti model mengalami kesulitan membedakan antara efek‑efek tertentu "
@@ -2580,7 +2652,9 @@ msgid "Item '{item}' needs to be numeric"
 msgstr "Item '{item}' harus berupa numerik"
 
 #: R/reliability.b.R
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
 msgstr ""
 "Item {item} berkorelasi negatif dengan skala total dan kemungkinan besar "
 "perlu dibalik"
@@ -2603,7 +2677,9 @@ msgid "Items"
 msgstr "Item"
 
 #: R/reliability.b.R
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
 msgstr ""
 "Item {items} berkorelasi negatif dengan skala total dan kemungkinan besar "
 "perlu dibalik"
@@ -2674,7 +2750,9 @@ msgid "Level 2"
 msgstr "Level 2"
 
 #: R/ttestis.b.R
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
 msgstr ""
 "Uji Levene signifikan (p < .05), menyarankan adanya pelanggaran asumsi "
 "kesamaan varians"
@@ -2709,7 +2787,11 @@ msgstr "Regresi Linear"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
 msgstr ""
 "Regresi linear digunakan untuk mengeksplorasi hubungan antara variabel "
 "terikat kontinu, dan satu atau lebih variabel penjelas kontinu dan/atau "
@@ -2777,6 +2859,10 @@ msgstr "Bawah"
 msgid "lower bound"
 msgstr "Batas bawah"
 
+#: R/descriptives.b.R
+msgid "Lowest"
+msgstr ""
+
 #: R/linreg.b.R
 msgid "Mahalanobis ChiSq"
 msgstr "Chi kuadrat Mahalanobis"
@@ -2800,7 +2886,9 @@ msgid "Mahalanobis distance (p)"
 msgstr "Jarak Mahalanobis (p)"
 
 #: R/linreg.b.R
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
 msgstr ""
 "Jarak Mahalanobis hanya dapat dihitung untuk model dengan dua atau lebih "
 "kovariat"
@@ -3232,7 +3320,10 @@ msgstr "Multinomial Logistic Regression"
 
 #: package/analyses/mancova.description
 #: mancova/options.description.main
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
 msgstr ""
 "Multivariate Analysis of (Co)Variance (MANCOVA) digunakan untuk "
 "mengeksplorasi hubungan antara banyak variabel dependen, dan satu atau lebih "
@@ -3276,7 +3367,9 @@ msgid "No correction"
 msgstr "Tidak ada koreksi"
 
 #: R/mancova.b.R
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
 msgstr ""
 "Tidak ada faktor yang didefinisikan. Uji Box's M hanya relevan ketika model "
 "berisi faktor."
@@ -3341,8 +3434,7 @@ msgstr "Normality Test (Shapiro-Wilk)"
 
 #: R/logregbin.b.R
 msgid "Not all coefficients could be estimated (likely due to singular fit)"
-msgstr ""
-"Tidak semua koefisien dapat diperkirakan (kemungkinan karena singular fit)"
+msgstr "Tidak semua koefisien dapat diperkirakan (kemungkinan karena singular fit)"
 
 #: R/descriptives.b.R
 msgid "Not all statistics support weighted data yet."
@@ -3377,9 +3469,10 @@ msgid "Number of factors"
 msgstr "Jumlah faktor"
 
 #: R/descriptives.b.R
-msgid "Number of requested extreme values is higher than the number of rows in the data."
-msgstr ""
-"Jumlah nilai ekstrem yang diminta lebih besar dari jumlah baris dalam data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
+msgstr "Jumlah nilai ekstrem yang diminta lebih besar dari jumlah baris dalam data."
 
 #: efa/options/rotation/oblimin.title
 #: pca/options/rotation/oblimin.title
@@ -3471,7 +3564,9 @@ msgid "One or both variables do not contain enough observations"
 msgstr "Satu atau kedua variabel tidak memiliki cukup pengamatan"
 
 #: R/logregbin.b.R
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
 msgstr ""
 "Satu atau lebih koefisien dalam model '{modelNo}' tidak dapat diestimasi "
 "karena kolinearitas sempurna."
@@ -3672,7 +3767,8 @@ msgid "Partial Correlation"
 msgstr "Korelasi Parsial"
 
 #: package/analyses/corrPart.description
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
 msgstr ""
@@ -3680,7 +3776,8 @@ msgstr ""
 "antara dua atau lebih variabel kontinu sambil mengontrol variabel lain"
 
 #: corrPart/options.description.main
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -3762,6 +3859,10 @@ msgstr "r Pearson"
 msgid "Pearson{}Correlation"
 msgstr "Pearson{}Korelasi"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -3798,7 +3899,9 @@ msgid "perform a Mann-Whitney U test."
 msgstr "lakukan uji Mann‑Whitney U."
 
 #: ttestOneS/options/norm.description.ui
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 msgstr ""
 "lakukan uji normalitas Shapiro‑Wilk. Nilai p yang rendah menunjukkan data "
 "bukan berasal dari distribusi normal."
@@ -3814,14 +3917,18 @@ msgstr "lakukan ANOVA Fisher (atau yang mungkin disebut ANOVA “normal”)."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
 msgstr ""
 "lakukan uji Shapiro‑Wilk tentang normalitas. Nilai p yang rendah menunjukkan "
 "data bukan berasal dari distribusi normal."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
 msgstr ""
 "lakukan uji Shapiro‑Wilk tentang normalitas. Nilai p yang rendah menunjukkan "
 "residual tidak berdistribusi normal."
@@ -3891,7 +3998,7 @@ msgstr "Jenis Plot"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -3984,8 +4091,7 @@ msgstr "Probabilitas yang diprediksi dari … = … (vs … = …)"
 
 #: R/logregbin.b.R
 msgid "Predicted probability of {dep} = {level1} (vs {dep} = {level2})"
-msgstr ""
-"Probabilitas yang diprediksi dari {dep} = {level1} (vs {dep} = {level2})"
+msgstr "Probabilitas yang diprediksi dari {dep} = {level1} (vs {dep} = {level2})"
 
 #: R/linreg.b.R
 #: linReg/options/predictOV.title
@@ -4099,7 +4205,9 @@ msgid "provide a Cohen's d measure of effect size for the post-hoc tests."
 msgstr "berikan ukuran ukuran efek Cohen’s d untuk uji post‑hoc."
 
 #: ttestOneS/options/ci.description.ui
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
 msgstr ""
 "berikan interval kepercayaan untuk perbedaan antara estimasi mean dan nilai "
 "uji."
@@ -4124,7 +4232,11 @@ msgid "provide a Pearson's r for each combination of variables."
 msgstr "berikan r Pearson untuk setiap kombinasi variabel."
 
 #: ttestOneS/options/qq.description.ui
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 msgstr ""
 "berikan plot Q‑Q dari residual – plot residual aktual terhadap yang "
 "diharapkan jika data <i>sempurna</i> berdistribusi normal. Penyimpangan "
@@ -4212,14 +4324,18 @@ msgstr "berikan ukuran efek (Cohen’s d)."
 #: ancova/options/homo.description.ui
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
 msgstr ""
 "berikan uji Levene untuk homogenitas varian. Nilai p yang rendah menunjukkan "
 "kelompok memiliki varians yang tidak sama."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
 msgstr ""
 "berikan uji Levene untuk homogenitas varians. Nilai p yang rendah "
 "menunjukkan kelompok memiliki varians yang tidak sama."
@@ -4234,7 +4350,9 @@ msgid "provide mean differences with the post-hoc tests."
 msgstr "berikan perbedaan mean dengan uji post‑hoc."
 
 #: ttestOneS/options/meanDiff.description.ui
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
 msgstr ""
 "berikan perbedaan mean, dan standar error dari perbedaan mean, antara "
 "estimasi mean dan nilai uji."
@@ -4265,7 +4383,11 @@ msgstr "berikan uji post‑hoc."
 #: anovaOneW/options/qq.description.ui
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
 msgstr ""
 "berikan plot Q‑Q dari residual – plot residual aktual terhadap yang "
 "diharapkan jika data <i>sempurna</i> berdistribusi normal. Penyimpangan "
@@ -4275,7 +4397,11 @@ msgstr ""
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
 msgstr ""
 "berikan plot Q‑Q dari residual – plot residual aktual terhadap yang "
 "diharapkan jika data <i>sempurna</i> berdistribusi normal. Penyimpangan "
@@ -4309,7 +4435,7 @@ msgstr "berikan jumlah kasus."
 msgid "Pseudo R²"
 msgstr "Pseudo R²"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 msgid "Q-Q"
 msgstr "Q‑Q"
 
@@ -4347,7 +4473,7 @@ msgstr "Q‑Q plot normalitas multivariat"
 msgid "Q-Q plot of residuals"
 msgstr "Q‑Q plot residual"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 msgid "Q-Q Plots"
 msgstr "Q‑Q Plot"
 
@@ -4570,7 +4696,9 @@ msgid "Residual plots"
 msgstr "Plot residual"
 
 #: R/ancova.b.R
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
 msgstr ""
 "Jumlah kuadrat residual dan/atau derajat kebebasan adalah nol, menunjukkan "
 "kecocokan sempurna"
@@ -4679,6 +4807,7 @@ msgstr "Variabel baris '{var}' berisi kurang dari 2 level"
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 msgid "Rows"
 msgstr "Baris"
 
@@ -4876,7 +5005,9 @@ msgid "Simulations"
 msgstr "Simulasi"
 
 #: R/ancova.b.R
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
 msgstr ""
 "Ditemukan model singular; satu atau lebih variabel prediktor merupakan "
 "kombinasi linier dari variabel prediktor lain."
@@ -5193,7 +5324,8 @@ msgid "The 'split by' variable '{var}' contains no data."
 msgstr "Variabel 'split by' '{var}' tidak memiliki data."
 
 #: ttestOneS/options/hypothesis.description.ui
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5222,7 +5354,8 @@ msgstr "hipotesis alternatif. Memungkinkan uji satu arah."
 
 #: package/analyses/ancova.description
 #: ancova/options.description.main
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
@@ -5235,7 +5368,8 @@ msgstr ""
 "penambahan kovariat."
 
 #: package/analyses/anova.description
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 msgstr ""
@@ -5243,7 +5377,8 @@ msgstr ""
 "variabel dependen kontinu, dan satu atau lebih variabel penjelas kategorikal."
 
 #: anova/options.description.main
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -5263,11 +5398,12 @@ msgstr ""
 "semua kelompok sama. Jika tidak bersedia mengasumsikan bahwa varians sama, "
 "maka uji Welch dapat digunakan sebagai gantinya (namun uji Welch tidak "
 "mendukung lebih dari satu faktor penjelas). Alternatifnya, jika tidak "
-"bersedia mengasumsikan bahwa data berdistribusi normal, pendekatan non‑"
-"parametrik (seperti Kruskal‑Wallis) dapat digunakan."
+"bersedia mengasumsikan bahwa data berdistribusi normal, pendekatan "
+"non‑parametrik (seperti Kruskal‑Wallis) dapat digunakan."
 
 #: package/analyses/anovaOneW.description
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5282,7 +5418,8 @@ msgstr ""
 "mengasumsikan bahwa varians semua kelompok sama."
 
 #: anovaOneW/options.description.main
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -5318,7 +5455,11 @@ msgstr "term antar subjek dari model."
 
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
 msgstr ""
 "Uji Binomial digunakan untuk menguji hipotesis nol bahwa proporsi pengamatan "
 "sesuai dengan nilai yang diharapkan. Jika nilai p rendah, hal ini "
@@ -5329,7 +5470,9 @@ msgid "the categorical explanatory (or independent) variables."
 msgstr "variabel penjelas (atau independen) kategorikal."
 
 #: R/descriptives.b.R
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
 msgstr ""
 "CI mean mengasumsikan mean sampel mengikuti distribusi t dengan derajat "
 "kebebasan N - 1"
@@ -5353,9 +5496,10 @@ msgid "the confidence interval width."
 msgstr "lebar interval kepercayaan."
 
 #: ancova/options/covs.description.ui
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
-msgstr ""
-"variabel penjelas kontinu (atau independen), juga dikenal sebagai kovariat."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
+msgstr "variabel penjelas kontinu (atau independen), juga dikenal sebagai kovariat."
 
 #: ancova/options/contrasts.description.ui
 #: anova/options/contrasts.description.ui
@@ -5377,16 +5521,18 @@ msgstr "Nilai batas ambang ditetapkan ke {}"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
-msgstr ""
-"Dataset berisi 0 baris (setelah menghapus baris dengan nilai yang hilang)"
+msgstr "Dataset berisi 0 baris (setelah menghapus baris dengan nilai yang hilang)"
 
 #: R/loglinear.b.R
 msgid "The dataset contains 0 rows (or all rows contain missing values)"
 msgstr "Dataset berisi 0 baris (atau semua baris berisi nilai yang hilang)"
 
 #: R/logregbin.b.R
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
 msgstr ""
 "Variabel dependen '{}' memiliki lebih dari dua level; regresi logistik "
 "binomial hanya dapat dilakukan pada variabel dependen dengan dua level."
@@ -5395,9 +5541,18 @@ msgstr ""
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "Variabel dependen '{dep}' memiliki urutan berikut: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
 msgstr ""
 "Variabel dependen \"{dep}\" hanya memiliki dua level, pertimbangkan "
 "melakukan regresi logistik binomial."
@@ -5411,7 +5566,9 @@ msgid "the dependent variable. For ANOVA, these will be continuous."
 msgstr "variabel dependen. Untuk ANOVA, ini akan kontinu."
 
 #: ttestIS/options/vars.description.ui
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
 msgstr ""
 "variabel dependen — uji t terpisah dilakukan untuk setiap variabel dependen "
 "yang ditentukan."
@@ -5431,12 +5588,21 @@ msgid "the explanatory or independent variable. For ANOVA this will be categoric
 msgstr "variabel penjelas atau independen. Untuk ANOVA ini akan kategorikal."
 
 #: anova/options/factors.description.ui
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
 msgstr "variabel penjelas atau independen. Untuk ANOVA ini akan kategorikal."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
 msgstr ""
 "Uji Friedman digunakan untuk mengeksplorasi hubungan antara variabel "
 "dependen kontinu dan variabel penjelas kategorikal, di mana variabel "
@@ -5448,7 +5614,12 @@ msgstr ""
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
 msgstr ""
 "Uji Kruskal‑Wallis digunakan untuk mengeksplorasi hubungan antara variabel "
 "dependen kontinu, dan variabel penjelas kategorikal. Uji ini analog dengan "
@@ -5467,14 +5638,20 @@ msgstr "sintaks lavaan yang digunakan untuk menyesuaikan model."
 #: anovaOneW/options/miss.description.ui
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
 msgstr ""
 "metode pengecualian nilai yang hilang. `Analysis by analysis` mengecualikan "
 "nilai hilang dari setiap analisis. `Listwise` mengecualikan baris dari semua "
 "analisis jika salah satu nilainya hilang."
 
 #: ttestOneS/options/miss.description.ui
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
 msgstr ""
 "metode pengecualian nilai yang hilang. `Analysis by analysis` mengecualikan "
 "nilai hilang dari setiap variabel. `Listwise` mengecualikan baris dari semua "
@@ -5485,13 +5662,17 @@ msgid "the model terms which make up the model."
 msgstr "term model yang membentuk model."
 
 #: anova/options/modelTerms.description.ui
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
 msgstr ""
 "term model yang membentuk model. Secara bawaan model faktor lengkap dibuat, "
 "tetapi di sini term yang tepat pembentuk model dapat disesuaikan."
 
 #: ttestPS/options/pairs.description.ui
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
 msgstr ""
 "pasangan pengukuran — uji t terpisah dilakukan untuk setiap pasangan "
 "pengukuran."
@@ -5503,20 +5684,25 @@ msgid "the post-hoc multiple comparisons corrections to use."
 msgstr "koreksi perbandingan berganda post‑hoc yang akan digunakan."
 
 #: ttestIS/options/bfPrior.description.ui
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
 msgstr ""
 "lebar prior untuk faktor Bayes uji t Student. Memerlukan nilai antara 0,01 "
 "dan 2,0, bawaan 0,707."
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
 msgstr ""
 "lebar prior untuk faktor Bayes uji t Student. Memerlukan nilai antara 0,5 "
 "dan 2,0, bawaan 0,707."
 
 #: package/analyses/anovaRM.description
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -5527,11 +5713,12 @@ msgstr ""
 "variabel dependen kontinu dan satu atau lebih variabel penjelas kategorikal, "
 "di mana satu atau lebih variabel penjelas bersifat 'within subjects' (di "
 "mana beberapa pengukuran berasal dari subjek yang sama). Selain itu, "
-"analisis ini memungkinkan penyertaan kovariat, sehingga memungkinkan repeated"
-"‑measures ANCOVA."
+"analisis ini memungkinkan penyertaan kovariat, sehingga memungkinkan "
+"repeated‑measures ANCOVA."
 
 #: anovaRM/options.description.main
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -5550,8 +5737,8 @@ msgstr ""
 "variabel dependen kontinu dan satu atau lebih variabel penjelas kategorikal, "
 "di mana satu atau lebih variabel penjelas bersifat 'within subjects' (di "
 "mana beberapa pengukuran berasal dari subjek yang sama). Selain itu, "
-"analisis ini memungkinkan penyertaan kovariat, sehingga memungkinkan repeated"
-"‑measures ANCOVA.\n"
+"analisis ini memungkinkan penyertaan kovariat, sehingga memungkinkan "
+"repeated‑measures ANCOVA.\n"
 "\n"
 "Analisis ini memerlukan data dalam 'format lebar', di mana setiap baris "
 "mewakili satu subjek (berlawanan dengan format panjang, di mana setiap "
@@ -5566,7 +5753,9 @@ msgid "the repeated measures design."
 msgstr "desain pengukuran berulang."
 
 #: R/anovarm.b.R
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
 msgstr ""
 "Pengukuran berulang hanya memiliki dua level. Asumsi sferisitas selalu "
 "terpenuhi ketika pengukuran berulang hanya memiliki dua level."
@@ -5580,7 +5769,10 @@ msgid "the repeated measures terms of the model."
 msgstr "term pengukuran berulang dari model."
 
 #: R/utilsreg.R
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
 msgstr ""
 "Level referensi yang ditentukan tidak ditemukan untuk variabel berikut: "
 "{vars}. Menggunakan level pertama yang tersedia sebagai gantinya. Untuk "
@@ -5588,7 +5780,8 @@ msgstr ""
 "tersedia dalam data."
 
 #: package/analyses/ttestIS.description
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
@@ -5599,7 +5792,8 @@ msgstr ""
 "mean kelompok berbeda."
 
 #: ttestIS/options.description.main
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -5628,7 +5822,8 @@ msgstr ""
 "hipotesis nol; bahwa distribusi masing‑masing kelompok sama)."
 
 #: package/analyses/ttestOneS.description
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
@@ -5639,7 +5834,8 @@ msgstr ""
 "berbeda dari nilai uji."
 
 #: ttestOneS/options.description.main
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -5658,11 +5854,12 @@ msgstr ""
 "Uji t satu sampel Student mengasumsikan bahwa data berasal dari distribusi "
 "normal — jika tidak bersedia mengasumsikan hal ini, uji Wilcoxon signed‑rank "
 "non‑parametrik dapat digunakan sebagai penggantinya (namun, perhatikan bahwa "
-"Wilcoxon signed‑rank memiliki sedikit perbedaan hipotesis nol; bahwa <i>"
-"median</i> sama dengan nilai uji)."
+"Wilcoxon signed‑rank memiliki sedikit perbedaan hipotesis nol; bahwa "
+"<i>median</i> sama dengan nilai uji)."
 
 #: package/analyses/ttestPS.description
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -5674,7 +5871,8 @@ msgstr ""
 "nol tidak benar, sehingga perbedaan antara pasangan pengukuran bukan nol."
 
 #: ttestPS/options.description.main
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -5702,7 +5900,9 @@ msgstr ""
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
 msgstr ""
 "term untuk menyediakan mean marginal terestimasi. Di sini Anda dapat "
 "menentukan beberapa term."
@@ -5730,7 +5930,9 @@ msgid "The underlying `aov` object"
 msgstr "Objek `aov` dasar."
 
 #: R/descriptives.b.R
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
 msgstr ""
 "Variabel {var} tidak dapat diperlakukan sebagai numerik. Plot yang "
 "mengharapkan data numerik tidak akan dibuat untuk variabel ini."
@@ -5740,13 +5942,17 @@ msgid "the variable specifying the groups; must have 2 levels."
 msgstr "Variabel yang menentukan kelompok; harus memiliki 2 level."
 
 #: R/descriptives.b.R
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
 msgstr ""
 "Variabel {vars} tidak dapat diperlakukan sebagai numerik. Plot yang "
 "mengharapkan data numerik tidak akan dibuat untuk variabel‑variabel ini."
 
 #: ttestOneS/options/vars.description.ui
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
 msgstr ""
 "Variabel yang menjadi fokus — uji t terpisah dilakukan untuk setiap variabel "
 "yang ditentukan."
@@ -5764,7 +5970,12 @@ msgstr "Lebar untuk interval kepercayaan."
 
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
 msgstr ""
 "Uji χ² goodness of fit (jangan disamakan dengan uji χ² independensi) menguji "
 "hipotesis nol bahwa proporsi pengamatan sesuai dengan proporsi yang "
@@ -5773,7 +5984,11 @@ msgstr ""
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
 msgstr ""
 "Uji χ² hubungan (jangan disamakan dengan goodness of fit χ²) digunakan untuk "
 "menguji apakah dua variabel kategorikal independen atau saling terkait. Jika "
@@ -5796,7 +6011,10 @@ msgid "There were no Mahalanobis distances with a threshold below p < {p}."
 msgstr "Tidak ada jarak Mahalanobis dengan ambang di bawah p < {p}."
 
 #: package.description
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
 msgstr ""
 "Modul ini mewakili analisis yang disertakan dengan jamovi. Modul ini berisi "
 "banyak analisis umum (seperti uji t, ANOVA, regresi, matriks korelasi, uji "
@@ -5835,7 +6053,9 @@ msgid "Too few observations (N < 3) to compute statistic"
 msgstr "Terlalu sedikit pengamatan (N < 3) untuk menghitung statistik"
 
 #: R/mancova.b.R
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
 msgstr ""
 "Terlalu sedikit pengamatan untuk menghitung statistik. Setiap (sub)kelompok "
 "harus memiliki setidaknya sebanyak pengamatan seperti jumlah variabel "
@@ -5868,10 +6088,15 @@ msgstr "Pertumbuhan Gigi (Tooth Growth)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
 msgstr "Total"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6041,7 +6266,9 @@ msgid "Variances"
 msgstr "Varians"
 
 #: R/corrpart.b.R
-msgid "variation from the control variables is only removed from the variables in the columns"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
 msgstr "Variasi dari variabel kontrol hanya dihapus dari variabel dalam kolom"
 
 #: efa/options/rotation/varimax.title
@@ -6069,7 +6296,9 @@ msgstr "W"
 #: ancova/options/emmWeights.description.ui
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
 msgstr ""
 "memperhitungkan setiap sel secara merata. (Secara bawaan sel diperhitungkan "
 "menurut frekuensi sel.)"

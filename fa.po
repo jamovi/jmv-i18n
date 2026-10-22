@@ -1,11 +1,10 @@
-#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2026-06-05 04:20+0000\n"
 "Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Persian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
-"fa/>\n"
+"Language-Team: Persian "
+"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -34,7 +33,9 @@ msgstr "'{col}' فقط یک مقدار منحصر به فرد دارد"
 
 #: R/pca.b.R
 #, fuzzy
-msgid "'{method}' extraction method was used in combination with a '{rotation}' rotation"
+msgid ""
+"'{method}' extraction method was used in combination with a '{rotation}' "
+"rotation"
 msgstr "روش استخراج '{method}' در ترکیب با یک '{rotation}' چرخش استفاده شد"
 
 #: R/pca.b.R
@@ -384,13 +385,19 @@ msgstr "جدولی حاوی اندازه‌های برازش"
 
 #: cfa/results/modelPerformance/modIndices/factorLoadingsMod.description
 #, fuzzy
-msgid "a table containing modification indices for the factor loadings not included in the model"
+msgid ""
+"a table containing modification indices for the factor loadings not included "
+"in the model"
 msgstr "جدولی حاوی شاخص های اصلاح برای بارهای عاملی که در مدل گنجانده نشده اند"
 
 #: cfa/results/modelPerformance/modIndices/resCovMod.description
 #, fuzzy
-msgid "a table containing modification indices for the residual covariances not included in the model"
-msgstr "جدول حاوی شاخص‌های اصلاح برای کوواریانس‌های باقی‌مانده که در مدل گنجانده نشده‌اند"
+msgid ""
+"a table containing modification indices for the residual covariances not "
+"included in the model"
+msgstr ""
+"جدول حاوی شاخص‌های اصلاح برای کوواریانس‌های باقی‌مانده که در مدل گنجانده "
+"نشده‌اند"
 
 #: cfa/results/resEst/resCov.description
 #, fuzzy
@@ -607,6 +614,11 @@ msgstr "a table of χ² test results"
 #: logRegBin/results/models.template/pred/measures.columns.title
 msgid "Accuracy"
 msgstr "دقت"
+
+#: jamovi/js/proptestn.events.js:68
+msgid "Active filters have excluded one level"
+msgid_plural "Active filters have excluded {n} levels"
+msgstr[0] ""
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -834,8 +846,12 @@ msgstr "آزمون تحلیل واریانس"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "As there are no between subjects factors specified this assumption is always met."
-msgstr "از آنجایی که هیچ عامل بین موضوعات مشخص نشده است، این فرض همیشه برآورده می شود."
+msgid ""
+"As there are no between subjects factors specified this assumption is always "
+"met."
+msgstr ""
+"از آنجایی که هیچ عامل بین موضوعات مشخص نشده است، این فرض همیشه برآورده می "
+"شود."
 
 #: anovaOneW/options/fishers.title
 #, fuzzy
@@ -911,7 +927,7 @@ msgstr "نمودار میله ای"
 msgid "Bar plot"
 msgstr "نمودار میله ای"
 
-#: descriptives/ui[3][0][2].label
+#: descriptives/ui[4][0][2].label
 #, fuzzy
 msgid "Bar Plots"
 msgstr "پلات‌های میله‌ای"
@@ -1088,7 +1104,7 @@ msgstr "بونفرونی"
 msgid "Box plot"
 msgstr "پلات باکس"
 
-#: descriptives/ui[3][0][1].label
+#: descriptives/ui[4][0][1].label
 #, fuzzy
 msgid "Box Plots"
 msgstr "پلات های باکس"
@@ -1204,6 +1220,7 @@ msgstr "متغیر ستون '{var}' کمتر از 2 سطح دارد"
 #: contTables/options/cols.title
 #: contTables/options/xaxis/xcols.title
 #: contTablesPaired/options/cols.title
+#: descriptives/ui[3][0][0].label
 #, fuzzy
 msgid "Columns"
 msgstr "ستون‌ها"
@@ -1547,13 +1564,17 @@ msgstr "نقشه‌ی گرم همبستگی"
 
 #: package/analyses/corrMatrix.description
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables."
-msgstr "матриس‌های همبستگی راهی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته هستند."
+msgstr ""
+"матриس‌های همبستگی راهی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته "
+"هستند."
 
 #: corrMatrix/options.description.main
 #, fuzzy
-msgid "Correlation matrices are a way to examine linear relationships between\n"
+msgid ""
+"Correlation matrices are a way to examine linear relationships between\n"
 "two or more continuous variables.\n"
 "\n"
 "For each pair of variables, a Pearson's r value indicates the strength\n"
@@ -1570,11 +1591,20 @@ msgid "Correlation matrices are a way to examine linear relationships between\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "ماتریس‌های همبستگی روشی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته هستند.\n"
+msgstr ""
+"ماتریس‌های همبستگی روشی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته "
+"هستند.\n"
 "\n"
-"برای هر جفت متغیر، مقدار r پیرسون نشان‌دهنده قدرت و جهت رابطه بین آن دو متغیر است. مقدار مثبت نشان‌دهنده رابطه مثبت (مقادیر بالاتر یک متغیر، مقادیر بالاتر متغیر دیگر را پیش‌بینی می‌کند) است. مقدار منفی r پیرسون نشان‌دهنده رابطه منفی (مقادیر بالاتر یک متغیر، مقادیر پایین‌تر متغیر دیگر را پیش‌بینی می‌کند و برعکس) است. مقدار صفر نشان‌دهنده عدم رابطه (چه متغیری بالا یا پایین باشد، به ماnothing نمی‌گوید).\n"
+"برای هر جفت متغیر، مقدار r پیرسون نشان‌دهنده قدرت و جهت رابطه بین آن دو "
+"متغیر است. مقدار مثبت نشان‌دهنده رابطه مثبت (مقادیر بالاتر یک متغیر، مقادیر "
+"بالاتر متغیر دیگر را پیش‌بینی می‌کند) است. مقدار منفی r پیرسون نشان‌دهنده "
+"رابطه منفی (مقادیر بالاتر یک متغیر، مقادیر پایین‌تر متغیر دیگر را پیش‌بینی "
+"می‌کند و برعکس) است. مقدار صفر نشان‌دهنده عدم رابطه (چه متغیری بالا یا پایین "
+"باشد، به ماnothing نمی‌گوید).\n"
 "\n"
-"به طور رسمی‌تر، می‌توان فرضیه صفر را که همبستگی صفر است، آزمایش کرد و یک مقدار p-value محاسبه کرد. اگر مقدار p-value پایین باشد، نشان می‌دهد که ضریب همبستگی صفر نیست و بین دو متغیر رابطه خطی (یا پیچیده‌تر) وجود دارد."
+"به طور رسمی‌تر، می‌توان فرضیه صفر را که همبستگی صفر است، آزمایش کرد و یک "
+"مقدار p-value محاسبه کرد. اگر مقدار p-value پایین باشد، نشان می‌دهد که ضریب "
+"همبستگی صفر نیست و بین دو متغیر رابطه خطی (یا پیچیده‌تر) وجود دارد."
 
 #: package/analyses/corrMatrix.title
 #: package/analyses/corrMatrix.menuTitle
@@ -1630,15 +1660,22 @@ msgstr "تعداد (غیر اجباری)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be infinite"
 msgstr "شمارها ممکن است نامتناهی نباشند"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/proptestn.b.R
 #, fuzzy
 msgid "Counts may not be negative"
 msgstr "شمارش‌ها نمی‌توانند منفی باشند"
+
+#: R/conttables.b.R
+#: R/proptestn.b.R
+msgid "Counts may not contain missing values"
+msgstr ""
 
 #: R/conttablespaired.b.R
 #, fuzzy
@@ -1706,6 +1743,10 @@ msgstr "مکعب"
 #, fuzzy
 msgid "Cumulative %"
 msgstr "درصد تجمعی"
+
+#: descriptives/options/freqCumPc.title
+msgid "Cumulative percentage"
+msgstr ""
 
 #: descriptives/options/pcNEqGr.title
 #, fuzzy
@@ -1800,13 +1841,21 @@ msgstr "متغیر وابسته '{dep}' شامل مقادیر بی‌نهایت 
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
-msgstr "Dependent variable '{dep}' contains no data (after removing rows with missing values)"
+msgid ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
+msgstr ""
+"Dependent variable '{dep}' contains no data (after removing rows with "
+"missing values)"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Dependent variable '{dep}' contains only one unique value (after removing rows with missing values)"
-msgstr "متغیر وابسته '{dep}' فقط یک مقدار منحصر به فرد دارد (پس از حذف سطرهای دارای مقادیر缺س)"
+msgid ""
+"Dependent variable '{dep}' contains only one unique value (after removing "
+"rows with missing values)"
+msgstr ""
+"متغیر وابسته '{dep}' فقط یک مقدار منحصر به فرد دارد (پس از حذف سطرهای دارای "
+"مقادیر缺س)"
 
 #: R/ancova.b.R
 #, fuzzy
@@ -1866,8 +1915,15 @@ msgstr "ویژگی‌های توصیفی"
 #: package/analyses/descriptives.description
 #: descriptives/options.description.main
 #, fuzzy
-msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
-msgstr "توصیف کننده ها مجموعه ای از آمار خلاصه و تجسم هایی هستند که امکان探索 شکل و توزیع داده ها را فراهم می کنند. این یک تمرین خوب است که قبل از انجام تست های رسمی، داده ها را با توصیف کننده ها بررسی کنید."
+msgid ""
+"Descriptives are an assortment of summarising statistics, and visualizations "
+"which allow exploring the shape and distribution of data. It is good "
+"practice to explore your data with descriptives before proceeding to more "
+"formal tests."
+msgstr ""
+"توصیف کننده ها مجموعه ای از آمار خلاصه و تجسم هایی هستند که امکان探索 شکل و "
+"توزیع داده ها را فراهم می کنند. این یک تمرین خوب است که قبل از انجام تست های "
+"رسمی، داده ها را با توصیف کننده ها بررسی کنید."
 
 #: anovaOneW/results/plots.template/desc.description
 #: ttestIS/results/plots.template/desc.description
@@ -2121,8 +2177,12 @@ msgstr "مقدارها بزرگتر از"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "Empty cells in between subject design: at least one combination of between subject factor levels has 0 observations"
-msgstr "سلول های خالی بین طراحی موضوع: حداقل یک ترکیب از سطوح عامل بین موضوعی ۰ مشاهده دارد"
+msgid ""
+"Empty cells in between subject design: at least one combination of between "
+"subject factor levels has 0 observations"
+msgstr ""
+"سلول های خالی بین طراحی موضوع: حداقل یک ترکیب از سطوح عامل بین موضوعی ۰ "
+"مشاهده دارد"
 
 #: ancova/options/emmWeights.title
 #: anova/options/emmWeights.title
@@ -2225,8 +2285,12 @@ msgstr "برآورد ها نشان دهنده لگاریتم اودds هستند
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = {level2}\""
-msgstr "برآوردها نمایانگر لگاریتم شانس \"{dep} = {level1}\" در مقابل \"{dep} = {level2}\""
+msgid ""
+"Estimates represent the log odds of \"{dep} = {level1}\" vs. \"{dep} = "
+"{level2}\""
+msgstr ""
+"برآوردها نمایانگر لگاریتم شانس \"{dep} = {level1}\" در مقابل \"{dep} = "
+"{level2}\""
 
 #: efa/options/factorScoreMethod.title
 #, fuzzy
@@ -2337,7 +2401,9 @@ msgstr "عامل"
 
 #: R/loglinear.b.R
 #, fuzzy
-msgid "Factor '{factor}' has less than two levels. Factors must have at least two levels"
+msgid ""
+"Factor '{factor}' has less than two levels. Factors must have at least two "
+"levels"
 msgstr "عامل '{factor}' کمتر از دو سطح دارد. عوامل باید حداقل دو سطح داشته باشند"
 
 #: R/linreg.b.R
@@ -2345,20 +2411,36 @@ msgstr "عامل '{factor}' کمتر از دو سطح دارد. عوامل با�
 msgid "Factor '{factor}' needs to have at least 2 levels"
 msgstr "عامل '{factor}' باید حداقل 2 سطح داشته باشد"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains no data (after removing rows with missing values)"
-msgstr "Factor '{factorName}' contains no data (after removing rows with missing values)"
+#: R/utilsanova.R
+msgid ""
+"Factor '{factorName}' contains levels with no observations: {levels}. This "
+"can happen when all observations of a level are excluded by filters or "
+"removed due to missing values. To run the analysis, remove these unused "
+"levels from the factor."
+msgstr ""
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Factor '{factorName}' contains only a single level (after removing rows with missing values)"
+msgid ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
+msgstr ""
+"Factor '{factorName}' contains no data (after removing rows with missing "
+"values)"
+
+#: R/ancova.b.R
+#, fuzzy
+msgid ""
+"Factor '{factorName}' contains only a single level (after removing rows with "
+"missing values)"
 msgstr "عامل '{factorName}' فقط یک سطح دارد (پس از حذف سطرهای دارای مقادیر缺"
 
-#: R/ancova.b.R
-#, fuzzy
-msgid "Factor '{factorName}' contains unused levels (after removing rows with missing values)"
-msgstr "عامل '{factorName}' شامل سطوح استفاده نشده است (پس از حذف سطرهای دارای مقادیر缺"
+#: R/utilsreg.R
+msgid ""
+"Factor '{varName}' has fewer than two levels with observations. This can "
+"happen when all observations of a level are excluded by filters or removed "
+"due to missing values."
+msgstr ""
 
 #: jamovi/js/cfa.events.js:40
 #, fuzzy
@@ -2554,6 +2636,10 @@ msgstr "فراوانی $key"
 msgid "Frequency tables"
 msgstr "جدول های بسامد"
 
+#: descriptives/ui[3].label
+msgid "Frequency Tables"
+msgstr ""
+
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
@@ -2669,6 +2755,10 @@ msgstr "خلاصه گروه"
 msgid "Group summary"
 msgstr "خلاصه گروه"
 
+#: descriptives/options/freqGroupTotals.title
+msgid "Group totals"
+msgstr ""
+
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
 #: anovaOneW/ui[0][1].label
@@ -2679,7 +2769,9 @@ msgstr "Grouping Variable"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Grouping variable '{a}' has less than 2 levels after missing values are excluded"
+msgid ""
+"Grouping variable '{a}' has less than 2 levels after missing values are "
+"excluded"
 msgstr "متغیر گروه‌بندی '{a}' بعد از حذف مقادیر 缺 کمتر از 2 سطح دارد"
 
 #: R/ttestis.b.R
@@ -2740,6 +2832,10 @@ msgstr "پنهان"
 msgid "Hide loadings below"
 msgstr "بارگیری زیر را پنهان کنید"
 
+#: R/descriptives.b.R
+msgid "Highest"
+msgstr ""
+
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
@@ -2754,7 +2850,7 @@ msgstr "ارزش‌های بالاتر از"
 msgid "Histogram"
 msgstr "هیستوگرام"
 
-#: descriptives/ui[3][0][0][0].label
+#: descriptives/ui[4][0][0][0].label
 #, fuzzy
 msgid "Histograms"
 msgstr "هیستوگرام ها"
@@ -2907,8 +3003,20 @@ msgstr "IQR"
 
 #: R/utilsanova.R
 #, fuzzy
-msgid "It appears that your model has a 'singularity' problem. This usually means that the model is having trouble distinguishing between certain effects because some variables are too closely related or there isn't enough data to estimate all the effects reliably. To resolve this, consider simplifying the model by removing some of the effects or checking if your data might have redundant or highly correlated variables."
-msgstr "به نظر می رسد مدل شما مشکل \"تکینگی\" دارد. این معمولا به این معنی است که مدل در تشخیص برخی از اثرات به دلیل این که برخی از متغیرها بسیار به هم نزدیک هستند یا داده کافی برای برآورد همه اثرات به طور قابل اعتماد وجود ندارد، مشکل دارد. برای حل این مشکل، در نظر بگیرید که مدل را با حذف برخی از اثرات یا بررسی این که داده های شما ممکن است متغیرهای تکراری یا بسیار همبسته داشته باشد، ساده کنید"
+msgid ""
+"It appears that your model has a 'singularity' problem. This usually means "
+"that the model is having trouble distinguishing between certain effects "
+"because some variables are too closely related or there isn't enough data to "
+"estimate all the effects reliably. To resolve this, consider simplifying the "
+"model by removing some of the effects or checking if your data might have "
+"redundant or highly correlated variables."
+msgstr ""
+"به نظر می رسد مدل شما مشکل \"تکینگی\" دارد. این معمولا به این معنی است که "
+"مدل در تشخیص برخی از اثرات به دلیل این که برخی از متغیرها بسیار به هم نزدیک "
+"هستند یا داده کافی برای برآورد همه اثرات به طور قابل اعتماد وجود ندارد، مشکل "
+"دارد. برای حل این مشکل، در نظر بگیرید که مدل را با حذف برخی از اثرات یا "
+"بررسی این که داده های شما ممکن است متغیرهای تکراری یا بسیار همبسته داشته "
+"باشد، ساده کنید"
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -2939,7 +3047,9 @@ msgstr "آیتم '{item}' باید عددی باشد"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "item {item} correlates negatively with the total scale and probably should be reversed"
+msgid ""
+"item {item} correlates negatively with the total scale and probably should "
+"be reversed"
 msgstr "آیتم {item} با مقیاس کل همبستگی منفی دارد و احتمالاً باید معک شود"
 
 #: reliability/results/items.title
@@ -2965,8 +3075,12 @@ msgstr "آیتم‌ها"
 
 #: R/reliability.b.R
 #, fuzzy
-msgid "items {items} correlate negatively with the total scale and probably should be reversed"
-msgstr "آیتم‌ها {items} با مقیاس کل به صورت منفی همبستگی دارند و احتمالاً باید معکوس شوند"
+msgid ""
+"items {items} correlate negatively with the total scale and probably should "
+"be reversed"
+msgstr ""
+"آیتم‌ها {items} با مقیاس کل به صورت منفی همبستگی دارند و احتمالاً باید معکوس "
+"شوند"
 
 #: descriptives/options/dotType/jitter.title
 #, fuzzy
@@ -3049,7 +3163,9 @@ msgstr "سطح 2"
 
 #: R/ttestis.b.R
 #, fuzzy
-msgid "Levene's test is significant (p < .05), suggesting a violation of the assumption of equal variances"
+msgid ""
+"Levene's test is significant (p < .05), suggesting a violation of the "
+"assumption of equal variances"
 msgstr "آزمون لون به طور معنی داری (p < .05) نشان دهنده نقض فرض برابری واریانس ها است"
 
 #: R/proptest2.b.R
@@ -3086,8 +3202,16 @@ msgstr "رگرسیون خطی"
 #: package/analyses/linReg.description
 #: linReg/options.description.main
 #, fuzzy
-msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
-msgstr "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
+msgid ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
+msgstr ""
+"Linear regression is used to explore the relationship between a continuous "
+"dependent variable, and one or more continuous and/or categorical "
+"explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
+"are in reality just forms of linear regression."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
@@ -3156,6 +3280,10 @@ msgstr "پایین‌تر"
 msgid "lower bound"
 msgstr "مرز پایین"
 
+#: R/descriptives.b.R
+msgid "Lowest"
+msgstr ""
+
 #: R/linreg.b.R
 #, fuzzy
 msgid "Mahalanobis ChiSq"
@@ -3185,7 +3313,9 @@ msgstr "Mahalanobis distance (p)"
 
 #: R/linreg.b.R
 #, fuzzy
-msgid "Mahalanobis distance can only be calculated for models with two or more covariates"
+msgid ""
+"Mahalanobis distance can only be calculated for models with two or more "
+"covariates"
 msgstr "فاصله Mahalanobis فقط برای مدل‌هایی با دو یا بیشتر کوواریانس قابل محاسبه است"
 
 #: R/linreg.b.R
@@ -3667,8 +3797,13 @@ msgstr "رگرسیون لجستیک چندوجهی"
 #: package/analyses/mancova.description
 #: mancova/options.description.main
 #, fuzzy
-msgid "Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the relationship between multiple dependent variables, and one or more categorical and/or continuous explanatory variables."
-msgstr "تحلیل چندمتغیره واریانس (MANCOVA) برای بررسی رابطه بین متغیرهای وابسته چندگانه و یک یا چند متغیر توضیحی طبقه ای و/یا پیوسته استفاده می شود."
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
+msgstr ""
+"تحلیل چندمتغیره واریانس (MANCOVA) برای بررسی رابطه بین متغیرهای وابسته "
+"چندگانه و یک یا چند متغیر توضیحی طبقه ای و/یا پیوسته استفاده می شود."
 
 #: mancova/options/multivar.title
 #: mancova/ui[1][0][0].label
@@ -3716,8 +3851,12 @@ msgstr "هیچ اصلاحی"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "No factors defined. Box's M test is only relevant when model contains factors."
-msgstr "هیچ عاملی تعریف نشده است. آزمون باکس فقط زمانی مربوط می‌شود که مدل حاوی عوامل باشد."
+msgid ""
+"No factors defined. Box's M test is only relevant when model contains "
+"factors."
+msgstr ""
+"هیچ عاملی تعریف نشده است. آزمون باکس فقط زمانی مربوط می‌شود که مدل حاوی "
+"عوامل باشد."
 
 #: contTables/ui[1][0][1][0][0].label
 #: contTables/results/nom.title
@@ -3831,7 +3970,9 @@ msgstr "تعداد عوامل"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "Number of requested extreme values is higher than the number of rows in the data."
+msgid ""
+"Number of requested extreme values is higher than the number of rows in the "
+"data."
 msgstr "تعداد مقادیر 极reme درخواستی بالاتر از تعداد سطرهای داده است."
 
 #: efa/options/rotation/oblimin.title
@@ -3942,8 +4083,12 @@ msgstr "یکی یا هر دو متغیر مشاهدات کافی ندارند"
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "One or more coefficients in model '{modelNo}' could not be estimated due to perfect collinearity."
-msgstr "یک یا چند ضریب در مدل '{modelNo}' به دلیل همبستگی کامل نمی‌توانند برآورد شوند."
+msgid ""
+"One or more coefficients in model '{modelNo}' could not be estimated due to "
+"perfect collinearity."
+msgstr ""
+"یک یا چند ضریب در مدل '{modelNo}' به دلیل همبستگی کامل نمی‌توانند برآورد "
+"شوند."
 
 #: package/analyses/propTest2.menuSubgroup
 #: package/analyses/propTestN.menuSubgroup
@@ -4174,14 +4319,18 @@ msgstr "همبستگی جزئی"
 
 #: package/analyses/corrPart.description
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables"
-msgstr "матриس‌های همبستگی جزئی یک روش برای بررسی روابط خطی بین دو یا چند متغیر پیوسته در حالی که سایر متغیرها کنترل می‌شوند"
+msgstr ""
+"матриس‌های همبستگی جزئی یک روش برای بررسی روابط خطی بین دو یا چند متغیر "
+"پیوسته در حالی که سایر متغیرها کنترل می‌شوند"
 
 #: corrPart/options.description.main
 #, fuzzy
-msgid "Partial correlation matrices are a way to examine linear relationships\n"
+msgid ""
+"Partial correlation matrices are a way to examine linear relationships\n"
 "between two or more continuous variables while controlling for other\n"
 "variables\n"
 "\n"
@@ -4199,11 +4348,20 @@ msgid "Partial correlation matrices are a way to examine linear relationships\n"
 "correlation is zero and calculate a p-value. If the p-value is low, it\n"
 "suggests the correlation co-efficient is not zero, and there is a linear\n"
 "(or more complex) relationship between the two variables."
-msgstr "ماتریس های همبستگی جزئی راهی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته درحالی که از سایر متغیرها کنترل می کند\n"
+msgstr ""
+"ماتریس های همبستگی جزئی راهی برای بررسی روابط خطی بین دو یا چند متغیر پیوسته "
+"درحالی که از سایر متغیرها کنترل می کند\n"
 "\n"
-"برای هر جفت متغیر، یک مقدار r pearson نشان دهنده قدرت و جهت رابطه بین آن دو متغیر است. یک مقدار مثبت نشان دهنده یک رابطه مثبت (ارزش های بالاتر یک متغیر، ارزش های بالاتر متغیر دیگر را پیش بینی می کند) است. یک مقدار منفی pearson r نشان دهنده یک رابطه منفی (ارزش های بالاتر یک متغیر، ارزش های پایین تر متغیر دیگر را پیش بینی می کند و برعکس). یک مقدار صفر نشان دهنده عدم رابطه (چه متغیری بالا یا پایین باشد، چیزی در مورد ارزش متغیر دیگر به ما نمی گوید).\n"
+"برای هر جفت متغیر، یک مقدار r pearson نشان دهنده قدرت و جهت رابطه بین آن دو "
+"متغیر است. یک مقدار مثبت نشان دهنده یک رابطه مثبت (ارزش های بالاتر یک متغیر، "
+"ارزش های بالاتر متغیر دیگر را پیش بینی می کند) است. یک مقدار منفی pearson r "
+"نشان دهنده یک رابطه منفی (ارزش های بالاتر یک متغیر، ارزش های پایین تر متغیر "
+"دیگر را پیش بینی می کند و برعکس). یک مقدار صفر نشان دهنده عدم رابطه (چه "
+"متغیری بالا یا پایین باشد، چیزی در مورد ارزش متغیر دیگر به ما نمی گوید).\n"
 "\n"
-"به صورت رسمی، امکان تست فرضیه خنثی که همبستگی صفر است و محاسبه یک مقدار p-value وجود دارد. اگر مقدار p-value کم باشد، نشان می دهد که ضریب همبستگی صفر نیست و یک رابطه خطی (یا پیچیده تر) بین دو متغیر وجود دارد."
+"به صورت رسمی، امکان تست فرضیه خنثی که همبستگی صفر است و محاسبه یک مقدار "
+"p-value وجود دارد. اگر مقدار p-value کم باشد، نشان می دهد که ضریب همبستگی "
+"صفر نیست و یک رابطه خطی (یا پیچیده تر) بین دو متغیر وجود دارد."
 
 #: anovaRM/options/effectSize/partEta.title
 #, fuzzy
@@ -4261,6 +4419,10 @@ msgstr "رِی پیِرسون"
 msgid "Pearson{}Correlation"
 msgstr "همبستگی پیرسون"
 
+#: descriptives/options/freqPc.title
+msgid "Percentage of total"
+msgstr ""
+
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
 #: contTablesPaired/ui[2][0].label
@@ -4306,8 +4468,12 @@ msgstr "perform a Mann-Whitney U test."
 
 #: ttestOneS/options/norm.description.ui
 #, fuzzy
-msgid "perform a Shapiro-Wilk test of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "یک تست شاپیرو-ویلک از نرمالیت را انجام دهید. یک مقدار p کم نشان می دهد که داده ها از توزیع نرمال نیستند."
+msgid ""
+"perform a Shapiro-Wilk test of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"یک تست شاپیرو-ویلک از نرمالیت را انجام دهید. یک مقدار p کم نشان می دهد که "
+"داده ها از توزیع نرمال نیستند."
 
 #: ancova/options/modelTest.description.ui
 #: anova/options/modelTest.description.ui
@@ -4318,19 +4484,29 @@ msgstr "آزمون مدل کلی را انجام دهید"
 #: anovaOneW/options/fishers.description.ui
 #, fuzzy
 msgid "perform Fisher's (or what might be call 'normal') ANOVAs."
-msgstr "تست‌های ANOVA فیشر (یا آنچه ممکن است ANOVAهای 'عادی' نامیده شود) را انجام می‌دهد."
+msgstr ""
+"تست‌های ANOVA فیشر (یا آنچه ممکن است ANOVAهای 'عادی' نامیده شود) را انجام "
+"می‌دهد."
 
 #: ttestIS/options/norm.description.ui
 #: ttestPS/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the data is not from a normal distribution."
-msgstr "آزمون‌های شپیرو-ویلک را برای نرمال بودن انجام می‌دهد. یک مقدار p-value پایین نشان می‌دهد که داده‌ها از یک توزیع نرمال نیستند."
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the data is "
+"not from a normal distribution."
+msgstr ""
+"آزمون‌های شپیرو-ویلک را برای نرمال بودن انجام می‌دهد. یک مقدار p-value پایین "
+"نشان می‌دهد که داده‌ها از یک توزیع نرمال نیستند."
 
 #: ancova/options/norm.description.ui
 #: anova/options/norm.description.ui
 #, fuzzy
-msgid "perform Shapiro-Wilk tests of normality. A low p-value suggests the residuals are not normally distributed."
-msgstr "اجرای آزمون‌های شاپیرو-ویلک برای نرمال بودن. یک مقدار p کم نشان می‌دهد که باقیمانده‌ها توزیع نرمال ندارند"
+msgid ""
+"perform Shapiro-Wilk tests of normality. A low p-value suggests the "
+"residuals are not normally distributed."
+msgstr ""
+"اجرای آزمون‌های شاپیرو-ویلک برای نرمال بودن. یک مقدار p کم نشان می‌دهد که "
+"باقیمانده‌ها توزیع نرمال ندارند"
 
 #: ttestIS/options/students.description.ui
 #, fuzzy
@@ -4410,7 +4586,7 @@ msgstr "نوع پلات"
 #: contTables/ui[1][3].label
 #: contTables/ui[1][3][0][0][0].label
 #: contTables/results/barplot.title
-#: descriptives/ui[3].label
+#: descriptives/ui[4].label
 #: descriptives/results/plots.title
 #: propTest2/ui[2][0][1].label
 #: ttestIS/results/plots.title
@@ -4652,7 +4828,9 @@ msgstr "اندازه کون د کوهن را برای اندازه اثر در �
 
 #: ttestOneS/options/ci.description.ui
 #, fuzzy
-msgid "provide a confidence interval for the difference between the mean estimate and the test value."
+msgid ""
+"provide a confidence interval for the difference between the mean estimate "
+"and the test value."
 msgstr "بازه اطمینان برای اختلاف بین برآورد میانگین و مقدار آزمون را فراهم کنید."
 
 #: corrMatrix/options/plots.description.ui
@@ -4680,8 +4858,15 @@ msgstr "ارائه r پیرسون برای هر ترکیب از متغیرها"
 
 #: ttestOneS/options/qq.description.ui
 #, fuzzy
-msgid "provide a Q-Q plot of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "نمودار Q-Q باقیمانده‌ها را فراهم می‌کند - نمودار باقیمانده‌های واقعی در برابر آنچه در صورت توزیع <i>کامل</i> نرمال انتظار می‌رود. انحرافات بزرگ از خط دیاگونال نشان می‌دهد که داده‌ها از توزیع نرمال نیستند."
+msgid ""
+"provide a Q-Q plot of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"نمودار Q-Q باقیمانده‌ها را فراهم می‌کند - نمودار باقیمانده‌های واقعی در "
+"برابر آنچه در صورت توزیع <i>کامل</i> نرمال انتظار می‌رود. انحرافات بزرگ از "
+"خط دیاگونال نشان می‌دهد که داده‌ها از توزیع نرمال نیستند."
 
 #: corrMatrix/options/spearman.description.ui
 #: corrPart/options/spearman.description.ui
@@ -4782,14 +4967,22 @@ msgstr "اندازه های اثر (دکوهن) را فراهم کند."
 #: anova/options/homo.description.ui
 #: anovaRM/options/leveneTest.description.ui
 #, fuzzy
-msgid "provide Levene's test for homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "تست لوین برای همگنی واریانس ها را ارائه می دهد. یک مقدار p کم نشان می دهد که گروه ها واریانس های نامساوی دارند."
+msgid ""
+"provide Levene's test for homogeneity of variances. A low p-value suggests "
+"the groups have unequal variances."
+msgstr ""
+"تست لوین برای همگنی واریانس ها را ارائه می دهد. یک مقدار p کم نشان می دهد که "
+"گروه ها واریانس های نامساوی دارند."
 
 #: anovaOneW/options/eqv.description.ui
 #: ttestIS/options/eqv.description.ui
 #, fuzzy
-msgid "provide Levene's tests for the homogeneity of variances. A low p-value suggests the groups have unequal variances."
-msgstr "آزمون‌های لون را برای همگنی واریانس‌ها فراهم کند. یک مقدار p کم نشان‌دهنده این است که گروه‌ها واریانس‌های نابرابری دارند."
+msgid ""
+"provide Levene's tests for the homogeneity of variances. A low p-value "
+"suggests the groups have unequal variances."
+msgstr ""
+"آزمون‌های لون را برای همگنی واریانس‌ها فراهم کند. یک مقدار p کم نشان‌دهنده "
+"این است که گروه‌ها واریانس‌های نابرابری دارند."
 
 #: ttestIS/options/meanDiff.description.ui
 #: ttestPS/options/meanDiff.description.ui
@@ -4804,8 +4997,12 @@ msgstr "میانگین‌های تفاوت‌ها را با آزمون‌های 
 
 #: ttestOneS/options/meanDiff.description.ui
 #, fuzzy
-msgid "provide mean differences, and standard errors of the mean differences, between the mean estimate, and the test value."
-msgstr "میانگین های تفاوت ها و خطاهای استاندارد تفاوت های میانگین را بین برآورد میانگین و مقدار آزمایشی ارائه دهید."
+msgid ""
+"provide mean differences, and standard errors of the mean differences, "
+"between the mean estimate, and the test value."
+msgstr ""
+"میانگین های تفاوت ها و خطاهای استاندارد تفاوت های میانگین را بین برآورد "
+"میانگین و مقدار آزمایشی ارائه دهید."
 
 #: ancova/options/effectSize.description.ui
 #: anova/options/effectSize.description.ui
@@ -4838,15 +5035,29 @@ msgstr "provide post-hoc tests."
 #: ttestIS/options/qq.description.ui
 #: ttestPS/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the data is not from a normal distribution."
-msgstr "ارائه نمودار Q-Q از باقیمانده‌ها - نمودار باقیمانده‌های واقعی در برابر آنچه انتظار می‌رود اگر داده‌ها به‌طور کامل توزیع نرمال باشند. انحرافات بزرگ از خط مورب نشان‌دهنده این است که داده‌ها از توزیع نرمال نیستند."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the data is not "
+"from a normal distribution."
+msgstr ""
+"ارائه نمودار Q-Q از باقیمانده‌ها - نمودار باقیمانده‌های واقعی در برابر آنچه "
+"انتظار می‌رود اگر داده‌ها به‌طور کامل توزیع نرمال باشند. انحرافات بزرگ از خط "
+"مورب نشان‌دهنده این است که داده‌ها از توزیع نرمال نیستند."
 
 #: ancova/options/qq.description.ui
 #: anova/options/qq.description.ui
 #: anovaRM/options/qq.description.ui
 #, fuzzy
-msgid "provide Q-Q plots of residuals -- a plot of the actual residuals against what would be expected if the data were <i>perfectly</i> normally distributed. Large deviations from the diagonal line suggest the residuals are not normally distributed."
-msgstr "پلات‌های Q-Q باقیمانده‌ها را ارائه می‌دهد - پلاتی از باقیمانده‌های واقعی در برابر آنچه انتظار می‌رود اگر داده‌ها به طور کامل نرمال توزیع شوند. انحرافات بزرگ از خط مورب نشان می‌دهد که باقیمانده‌ها توزیع نرمال ندارند."
+msgid ""
+"provide Q-Q plots of residuals -- a plot of the actual residuals against "
+"what would be expected if the data were <i>perfectly</i> normally "
+"distributed. Large deviations from the diagonal line suggest the residuals "
+"are not normally distributed."
+msgstr ""
+"پلات‌های Q-Q باقیمانده‌ها را ارائه می‌دهد - پلاتی از باقیمانده‌های واقعی در "
+"برابر آنچه انتظار می‌رود اگر داده‌ها به طور کامل نرمال توزیع شوند. انحرافات "
+"بزرگ از خط مورب نشان می‌دهد که باقیمانده‌ها توزیع نرمال ندارند."
 
 #: anovaOneW/options/phSig.description.ui
 #, fuzzy
@@ -4881,7 +5092,7 @@ msgstr "تعداد موارد را ارائه می‌دهد."
 msgid "Pseudo R²"
 msgstr "R² اسمی"
 
-#: descriptives/ui[3][0][0][1]/qq.label
+#: descriptives/ui[4][0][0][1]/qq.label
 #, fuzzy
 msgid "Q-Q"
 msgstr "Q-Q"
@@ -4925,7 +5136,7 @@ msgstr "نمودار Q-Q از نرمالی چند متغیره"
 msgid "Q-Q plot of residuals"
 msgstr "نمودار Q-Q باقی مانده"
 
-#: descriptives/ui[3][0][0][1].label
+#: descriptives/ui[4][0][0][1].label
 #, fuzzy
 msgid "Q-Q Plots"
 msgstr "نمودارهای Q-Q"
@@ -5188,7 +5399,9 @@ msgstr "نمودارهای باقی‌مانده"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Residual sum of squares and/or degrees of freedom are zero, indicating a perfect fit"
+msgid ""
+"Residual sum of squares and/or degrees of freedom are zero, indicating a "
+"perfect fit"
 msgstr "جمع مربع باقیمانده و/یا درجه آزادی صفر است، نشان‌دهنده یک برازش کامل"
 
 #: R/ancova.b.R
@@ -5313,6 +5526,7 @@ msgstr "متغیر سطر '{var}' کمتر از 2 سطح دارد"
 #: contTables/options/rows.title
 #: contTables/options/xaxis/xrows.title
 #: contTablesPaired/options/rows.title
+#: descriptives/ui[3][1][0].label
 #, fuzzy
 msgid "Rows"
 msgstr "سطرها"
@@ -5547,8 +5761,12 @@ msgstr "شبیه‌سازی‌ها"
 
 #: R/ancova.b.R
 #, fuzzy
-msgid "Singular fit encountered; one or more predictor variables are a linear combination of other predictor variables."
-msgstr "پاسخ منحصر به فرد؛ یک یا چند متغیر پیش بینی کننده ترکیب خطی متغیرهای پیش بینی کننده دیگر هستند."
+msgid ""
+"Singular fit encountered; one or more predictor variables are a linear "
+"combination of other predictor variables."
+msgstr ""
+"پاسخ منحصر به فرد؛ یک یا چند متغیر پیش بینی کننده ترکیب خطی متغیرهای پیش "
+"بینی کننده دیگر هستند."
 
 #: R/anovarm.b.R
 #, fuzzy
@@ -5919,14 +6137,16 @@ msgstr "متغیر 'split by' '{var}' حاوی هیچ داده‌ای نیست."
 
 #: ttestOneS/options/hypothesis.description.ui
 #, fuzzy
-msgid "the alternative and null hypotheses;\n"
+msgid ""
+"the alternative and null hypotheses;\n"
 "\n"
 "|              | Alternative (Hₐ)  | Null (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
 "| ≠ Test value | Mean ≠ Test value | Mean = Test value  |\n"
 "| > Test value | Mean > Test value | Mean <= Test value |\n"
 "| < Test value | Mean < Test value | Mean >= Test value |"
-msgstr "فرضیه های جایگزین و خالی;\n"
+msgstr ""
+"فرضیه های جایگزین و خالی;\n"
 "\n"
 "|              | جایگزین (Hₐ)  | خالی (H₀)          |\n"
 "|--------------|-------------------|--------------------|\n"
@@ -5950,25 +6170,33 @@ msgstr "فرضیه جایگزین. اجازه می دهد تا آزمون های
 #: package/analyses/ancova.description
 #: ancova/options.description.main
 #, fuzzy
-msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Covariance (ANCOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, one or more categorical\n"
 "explanatory variables, and one or more continuous explanatory variables\n"
 "(or covariates). It is essentially the same analysis as ANOVA, but\n"
 "with the addition of covariates."
-msgstr "تجزیه و تحلیل کوواریانس (ANCOVA) برای khám phá رابطه بین یک متغیر وابسته پیوسته، یک یا چند متغیر توضیحی طبقه بندی شده و یک یا چند متغیر توضیحی پیوسته (یا کوواریانس) استفاده می شود. این تجزیه و تحلیل در واقع مشابه ANOVA است، اما با افزودن کوواریانس."
+msgstr ""
+"تجزیه و تحلیل کوواریانس (ANCOVA) برای khám phá رابطه بین یک متغیر وابسته "
+"پیوسته، یک یا چند متغیر توضیحی طبقه بندی شده و یک یا چند متغیر توضیحی پیوسته "
+"(یا کوواریانس) استفاده می شود. این تجزیه و تحلیل در واقع مشابه ANOVA است، "
+"اما با افزودن کوواریانس."
 
 #: package/analyses/anova.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
-msgstr "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgstr ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables."
 
 #: anova/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables.\n"
 "\n"
@@ -5979,23 +6207,37 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "factor). Alternatively, if one is unwilling to assume that the data is\n"
 "normally distributed, a non-parametric approach (such as Kruskal-Wallis)\n"
 "can be used."
-msgstr "تحلیل واریانس (ANOVA) برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی دسته‌ای استفاده می‌شود.\n"
+msgstr ""
+"تحلیل واریانس (ANOVA) برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا "
+"چند متغیر توضیحی دسته‌ای استفاده می‌شود.\n"
 "\n"
-"ANOVA فرض می‌کند که باقیمانده‌ها توزیع نرمال دارند و واریانس‌های همه گروه‌ها برابر هستند. اگر کسی نمی‌خواهد فرض کند که واریانس‌ها برابر هستند، می‌تواند از آزمون Welch استفاده کند (با این حال، آزمون Welch از بیش از یک عامل توضیحی پشتیبانی نمی‌کند). به عنوان جایگزین، اگر کسی نمی‌خواهد فرض کند که داده‌ها توزیع نرمال دارند، می‌توان از یک روش غیرپارامتریک (مانند کراسکال-والیس) استفاده کرد."
+"ANOVA فرض می‌کند که باقیمانده‌ها توزیع نرمال دارند و واریانس‌های همه گروه‌ها "
+"برابر هستند. اگر کسی نمی‌خواهد فرض کند که واریانس‌ها برابر هستند، می‌تواند "
+"از آزمون Welch استفاده کند (با این حال، آزمون Welch از بیش از یک عامل توضیحی "
+"پشتیبانی نمی‌کند). به عنوان جایگزین، اگر کسی نمی‌خواهد فرض کند که داده‌ها "
+"توزیع نرمال دارند، می‌توان از یک روش غیرپارامتریک (مانند کراسکال-والیس) "
+"استفاده کرد."
 
 #: package/analyses/anovaOneW.description
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
 "also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that\n"
 "it need not assume that the variances of all groups are equal."
-msgstr "تجزیه و تحلیل واریانس (ANOVA) برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی طبقه‌بندی شده استفاده می‌شود. این 'ANOVA یک‌طرفه' نسخه‌ای ساده‌شده از 'ANOVA معمولی' است که فقط یک عامل توضیحی را مجاز می‌داند، اما همچنین از ANOVA Welch نیز پشتیبانی می‌کند. ANOVA Welch این مزیت را دارد که نیازی به فرض برابری واریانس‌های所有 گروه‌ها ندارد."
+msgstr ""
+"تجزیه و تحلیل واریانس (ANOVA) برای بررسی رابطه بین یک متغیر وابسته پیوسته و "
+"یک یا چند متغیر توضیحی طبقه‌بندی شده استفاده می‌شود. این 'ANOVA یک‌طرفه' "
+"نسخه‌ای ساده‌شده از 'ANOVA معمولی' است که فقط یک عامل توضیحی را مجاز "
+"می‌داند، اما همچنین از ANOVA Welch نیز پشتیبانی می‌کند. ANOVA Welch این مزیت "
+"را دارد که نیازی به فرض برابری واریانس‌های所有 گروه‌ها ندارد."
 
 #: anovaOneW/options.description.main
 #, fuzzy
-msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgid ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -6007,7 +6249,8 @@ msgid "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "\n"
 "Note that the Welch's ANOVA is the same procedure as the Welch's\n"
 "independent samples t-test."
-msgstr "The Analysis of Variance (ANOVA) is used to explore the relationship\n"
+msgstr ""
+"The Analysis of Variance (ANOVA) is used to explore the relationship\n"
 "between a continuous dependent variable, and one or more categorical\n"
 "explanatory variables. This 'One-Way ANOVA' is a simplified version of\n"
 "the 'normal' ANOVA, allowing only a single explanatory factor, however\n"
@@ -6033,8 +6276,15 @@ msgstr "مفاهیم بین‌موضوعی مدل"
 #: package/analyses/propTest2.description
 #: propTest2/options.description.main
 #, fuzzy
-msgid "The Binomial test is used to test the Null hypothesis that the proportion of observations match some expected value. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportion must be some other value."
-msgstr "آزمون باینومی برای آزمایش فرضیه خنثی استفاده می‌شود که نسبت مشاهدات با یک مقدار مورد انتظار مطابقت دارد. اگر مقدار p-value پایین باشد، این نشان می‌دهد که فرضیه خنثی نادرست است و بنابراین نسبت واقعی باید یک مقدار دیگر باشد."
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion of "
+"observations match some expected value. If the p-value is low, this suggests "
+"that the Null hypothesis is false, and that the true proportion must be some "
+"other value."
+msgstr ""
+"آزمون باینومی برای آزمایش فرضیه خنثی استفاده می‌شود که نسبت مشاهدات با یک "
+"مقدار مورد انتظار مطابقت دارد. اگر مقدار p-value پایین باشد، این نشان می‌دهد "
+"که فرضیه خنثی نادرست است و بنابراین نسبت واقعی باید یک مقدار دیگر باشد."
 
 #: ancova/options/factors.description.ui
 #, fuzzy
@@ -6043,8 +6293,12 @@ msgstr "متغیرهای توضیحی (یا مستقل) دسته‌بندی شد
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The CI of the mean assumes sample means follow a t-distribution with N - 1 degrees of freedom"
-msgstr "CI میانگین فرض می کند که میانگین های نمونه از توزیع t با N - 1 درجه آزادی پیروی می کند"
+msgid ""
+"The CI of the mean assumes sample means follow a t-distribution with N - 1 "
+"degrees of freedom"
+msgstr ""
+"CI میانگین فرض می کند که میانگین های نمونه از توزیع t با N - 1 درجه آزادی "
+"پیروی می کند"
 
 #: ttestIS/options/ciWidthES.description.ui
 #: ttestOneS/options/ciWidthES.description.ui
@@ -6069,7 +6323,9 @@ msgstr "عرض فاصله اطمینان"
 
 #: ancova/options/covs.description.ui
 #, fuzzy
-msgid "the continuous explanatory (or independent) variables, also known as covariates."
+msgid ""
+"the continuous explanatory (or independent) variables, also known as "
+"covariates."
 msgstr "متغیرهای توضیحی پیوسته (یا مستقل)، که به عنوان کوواریانس نیز شناخته می‌شوند."
 
 #: ancova/options/contrasts.description.ui
@@ -6096,6 +6352,7 @@ msgstr "مقدار برش به {} تنظیم شده است"
 
 #: R/ancova.b.R
 #: R/mancova.b.R
+#: R/utilsreg.R
 #, fuzzy
 msgid "The dataset contains 0 rows (after removing rows with missing values)"
 msgstr "داده ها ۰ سطر را شامل می شود (بعد از حذف سطرهایی با مقادیر از دست رفته)"
@@ -6107,19 +6364,34 @@ msgstr "داده ها ۰ سطر دارد (یا همه سطرها مقادیر ا
 
 #: R/logregbin.b.R
 #, fuzzy
-msgid "The dependent variable '{}' has more than two levels; binomial logistic regression can only be performed on dependent variables with two levels."
-msgstr "متغیر وابسته '{}' بیش از دو سطح دارد. رگرسیون لجستیک دوجمله ای فقط می تواند روی متغیرهای وابسته با دو سطح انجام شود."
+msgid ""
+"The dependent variable '{}' has more than two levels; binomial logistic "
+"regression can only be performed on dependent variables with two levels."
+msgstr ""
+"متغیر وابسته '{}' بیش از دو سطح دارد. رگرسیون لجستیک دوجمله ای فقط می تواند "
+"روی متغیرهای وابسته با دو سطح انجام شود."
 
 #: R/logregord.b.R
 #, fuzzy
 msgid "The dependent variable '{dep}' has the following order: {orderedLevels}"
 msgstr "The dependent variable '{dep}' has the following order: {orderedLevels}"
 
+#: R/utilsreg.R
+msgid ""
+"The dependent variable '{varName}' has fewer than two levels with "
+"observations. This can happen when all observations of a level are excluded "
+"by filters or removed due to missing values."
+msgstr ""
+
 #: R/logregmulti.b.R
 #: R/logregord.b.R
 #, fuzzy
-msgid "The dependent variable \"{dep}\" has only two levels, consider doing a binomial logistic regression."
-msgstr "متغیر وابسته \"{dep}\" فقط دو سطح دارد، در نظر بگیرید که یک رگرسیون لجستیک باینری انجام دهید"
+msgid ""
+"The dependent variable \"{dep}\" has only two levels, consider doing a "
+"binomial logistic regression."
+msgstr ""
+"متغیر وابسته \"{dep}\" فقط دو سطح دارد، در نظر بگیرید که یک رگرسیون لجستیک "
+"باینری انجام دهید"
 
 #: ancova/options/dep.description.ui
 #, fuzzy
@@ -6133,8 +6405,12 @@ msgstr "متغیر وابسته. برای ANOVA، این متغیرها پیوس
 
 #: ttestIS/options/vars.description.ui
 #, fuzzy
-msgid "the dependent variables -- a separate t-test is performed for each dependent variable specified."
-msgstr "متغیرهای وابسته -- یک آزمون t جداگانه برای هر متغیر وابسته مشخص شده انجام می شود."
+msgid ""
+"the dependent variables -- a separate t-test is performed for each dependent "
+"variable specified."
+msgstr ""
+"متغیرهای وابسته -- یک آزمون t جداگانه برای هر متغیر وابسته مشخص شده انجام می "
+"شود."
 
 #: anovaOneW/options/deps.description.ui
 #, fuzzy
@@ -6155,20 +6431,44 @@ msgstr "متغیر توضیحی یا مستقل. برای ANOVA این متغی�
 
 #: anova/options/factors.description.ui
 #, fuzzy
-msgid "the explanatory or independent variables. For ANOVA these will be categorical."
+msgid ""
+"the explanatory or independent variables. For ANOVA these will be "
+"categorical."
 msgstr "متغیرهای توضیحی یا مستقل. برای ANOVA، اینها طبقه‌بندی می‌شوند."
 
 #: package/analyses/anovaRMNP.description
 #: anovaRMNP/options.description.main
 #, fuzzy
-msgid "The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory variable is 'within subjects' (where multiple measurements are from the same subject). It is analogous to Repeated Measures ANOVA, but with the advantage of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "آزمون فریدمن برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک متغیر توضیحی طبقه ای استفاده می شود، جایی که متغیر توضیحی 'در درون موضوعات' است (جایی که چندین اندازه گیری از یک موضوع گرفته می شود). این آزمون مشابه ANOVA با تکرار اندازه گیری است، اما با مزیت غیرپارامتریک بودن و عدم نیاز به فرضیه های نرمال بودن یا همگنی واریانس ها. با این حال، این آزمون محدودیت دارد که فقط می تواند یک متغیر توضیحی را در یک زمان آزمایش کند."
+msgid ""
+"The Friedman test is used to explore the relationship between a continuous "
+"dependent variable and a categorical explanatory variable, where the "
+"explanatory variable is 'within subjects' (where multiple measurements are "
+"from the same subject). It is analogous to Repeated Measures ANOVA, but with "
+"the advantage of being non-parametric, and not requiring the assumptions of "
+"normality or homogeneity of variances. However, it has the limitation that "
+"it can only test a single explanatory variable at a time."
+msgstr ""
+"آزمون فریدمن برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک متغیر توضیحی "
+"طبقه ای استفاده می شود، جایی که متغیر توضیحی 'در درون موضوعات' است (جایی که "
+"چندین اندازه گیری از یک موضوع گرفته می شود). این آزمون مشابه ANOVA با تکرار "
+"اندازه گیری است، اما با مزیت غیرپارامتریک بودن و عدم نیاز به فرضیه های نرمال "
+"بودن یا همگنی واریانس ها. با این حال، این آزمون محدودیت دارد که فقط می تواند "
+"یک متغیر توضیحی را در یک زمان آزمایش کند."
 
 #: package/analyses/anovaNP.description
 #: anovaNP/options.description.main
 #, fuzzy
-msgid "The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is analogous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test a single explanatory variable at a time."
-msgstr "آزمون کراسکال-والیس برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک متغیر توضیحی طبقه ای استفاده می شود. این آزمون مشابه با ANOVA است، اما مزیت آن این است که پارامتریک نیست و فرض کمتری دارد. با این حال، این آزمون محدودیت دارد که فقط می تواند یک متغیر توضیحی را در یک زمان آزمایش کند."
+msgid ""
+"The Kruskal-Wallis test is used to explore the relationship between a "
+"continuous dependent variable, and a categorical explanatory variable. It is "
+"analogous to ANOVA, but with the advantage of being non-parametric and "
+"having fewer assumptions. However, it has the limitation that it can only "
+"test a single explanatory variable at a time."
+msgstr ""
+"آزمون کراسکال-والیس برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک متغیر "
+"توضیحی طبقه ای استفاده می شود. این آزمون مشابه با ANOVA است، اما مزیت آن این "
+"است که پارامتریک نیست و فرض کمتری دارد. با این حال، این آزمون محدودیت دارد "
+"که فقط می تواند یک متغیر توضیحی را در یک زمان آزمایش کند."
 
 #: anovaRM/options/depLabel.description.ui
 #, fuzzy
@@ -6184,13 +6484,25 @@ msgstr "نحوه استفاده از lavaan برای برازش مدل"
 #: ttestIS/options/miss.description.ui
 #: ttestPS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each analysis. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "روش حذف مقدار گم‌شده. `تحلیل به تحلیل` مقادیر گم‌شده را از هر تحلیل حذف می‌کند. `لیست‌وار` یک سطر را از همه تحلیل‌ها حذف می‌کند اگر یکی از مقادیر آن گم‌شده باشد"
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each analysis. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"روش حذف مقدار گم‌شده. `تحلیل به تحلیل` مقادیر گم‌شده را از هر تحلیل حذف "
+"می‌کند. `لیست‌وار` یک سطر را از همه تحلیل‌ها حذف می‌کند اگر یکی از مقادیر آن "
+"گم‌شده باشد"
 
 #: ttestOneS/options/miss.description.ui
 #, fuzzy
-msgid "the missing value exclusion method. `Analysis by analysis` excludes missing values from each variable. `Listwise` excludes a row from all analyses if one of its values is missing."
-msgstr "روش حذف مقدار 缺 برای تجزیه و تحلیل. `تجزیه و تحلیل به ازای هر تجزیه و تحلیل` مقادیر 缺 را از هر متغیر حذف می کند. `لیست‌وار` یک سطر را از همه تجزیه و تحلیل‌ها حذف می کند اگر یکی از مقادیر آن 缺 باشد."
+msgid ""
+"the missing value exclusion method. `Analysis by analysis` excludes missing "
+"values from each variable. `Listwise` excludes a row from all analyses if "
+"one of its values is missing."
+msgstr ""
+"روش حذف مقدار 缺 برای تجزیه و تحلیل. `تجزیه و تحلیل به ازای هر تجزیه و تحلیل` "
+"مقادیر 缺 را از هر متغیر حذف می کند. `لیست‌وار` یک سطر را از همه تجزیه و "
+"تحلیل‌ها حذف می کند اگر یکی از مقادیر آن 缺 باشد."
 
 #: ancova/options/modelTerms.description.ui
 #, fuzzy
@@ -6199,13 +6511,21 @@ msgstr "پایانه‌های مدل که مدل را تشکیل می‌دهند
 
 #: anova/options/modelTerms.description.ui
 #, fuzzy
-msgid "the model terms which make up the model. By default a full factorial model is created, but here the exact terms making up the model can be adjusted."
-msgstr "عبارات مدل که مدل را تشکیل می‌دهند. به طور پیش‌فرض، یک مدل факторیل کامل ایجاد می‌شود، اما در اینجا می‌توان عبارات دقیق تشکیل‌دهنده مدل را تنظیم کرد."
+msgid ""
+"the model terms which make up the model. By default a full factorial model "
+"is created, but here the exact terms making up the model can be adjusted."
+msgstr ""
+"عبارات مدل که مدل را تشکیل می‌دهند. به طور پیش‌فرض، یک مدل факторیل کامل "
+"ایجاد می‌شود، اما در اینجا می‌توان عبارات دقیق تشکیل‌دهنده مدل را تنظیم کرد."
 
 #: ttestPS/options/pairs.description.ui
 #, fuzzy
-msgid "the pairs of measurements -- a separate t-test is performed for each pair of measurements."
-msgstr "جفت های اندازه گیری -- یک آزمون t جداگانه برای هر جفت اندازه گیری انجام می شود."
+msgid ""
+"the pairs of measurements -- a separate t-test is performed for each pair of "
+"measurements."
+msgstr ""
+"جفت های اندازه گیری -- یک آزمون t جداگانه برای هر جفت اندازه گیری انجام می "
+"شود."
 
 #: ancova/options/postHocCorr.description.ui
 #: anova/options/postHocCorr.description.ui
@@ -6216,28 +6536,43 @@ msgstr "اصلاحات مقایسه‌های چندگانه پس از آزمون
 
 #: ttestIS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.01 and 2.0, default 0.707."
-msgstr "پهنای پیشین برای عوامل بیزین آزمون تی استیودنت. نیاز به مقداری بین 0.01 و 2.0 دارد، مقدار پیش‌فرض 0.707"
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.01 and 2.0, default 0.707."
+msgstr ""
+"پهنای پیشین برای عوامل بیزین آزمون تی استیودنت. نیاز به مقداری بین 0.01 و "
+"2.0 دارد، مقدار پیش‌فرض 0.707"
 
 #: ttestOneS/options/bfPrior.description.ui
 #: ttestPS/options/bfPrior.description.ui
 #, fuzzy
-msgid "the prior width for the Student's t-test's Bayes factors. Requires a value between 0.5 and 2.0, default 0.707."
-msgstr "پهنای پیشین برای عوامل بیز توزیع t دانش آموز. نیازمند یک مقدار بین 0.5 و 2.0، پیش فرض 0.707."
+msgid ""
+"the prior width for the Student's t-test's Bayes factors. Requires a value "
+"between 0.5 and 2.0, default 0.707."
+msgstr ""
+"پهنای پیشین برای عوامل بیز توزیع t دانش آموز. نیازمند یک مقدار بین 0.5 و "
+"2.0، پیش فرض 0.707."
 
 #: package/analyses/anovaRM.description
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
 "subject). Additionally, this analysis allows the inclusion of\n"
 "covariates, allowing for repeated measures ANCOVAs as well."
-msgstr "ANOVA اندازه‌های مکرر برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی طبقه‌بندی شده استفاده می‌شود، که یکی یا چند متغیر توضیحی 'درون افراد' (جایی که چندین اندازه‌گیری از یک فرد گرفته می‌شود) هستند. علاوه بر این، این تحلیل شامل متغیرهای کنترلی می‌شود و بنابراین امکان انجام ANCOVAهای اندازه‌های مکرر را نیز فراهم می‌کند."
+msgstr ""
+"ANOVA اندازه‌های مکرر برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا "
+"چند متغیر توضیحی طبقه‌بندی شده استفاده می‌شود، که یکی یا چند متغیر توضیحی "
+"'درون افراد' (جایی که چندین اندازه‌گیری از یک فرد گرفته می‌شود) هستند. علاوه "
+"بر این، این تحلیل شامل متغیرهای کنترلی می‌شود و بنابراین امکان انجام "
+"ANCOVAهای اندازه‌های مکرر را نیز فراهم می‌کند."
 
 #: anovaRM/options.description.main
 #, fuzzy
-msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
+msgid ""
+"The Repeated Measures ANOVA is used to explore the relationship\n"
 "between a continuous dependent variable and one or more categorical\n"
 "explanatory variables, where one or more of the explanatory variables\n"
 "are 'within subjects' (where multiple measurements are from the same\n"
@@ -6251,11 +6586,19 @@ msgid "The Repeated Measures ANOVA is used to explore the relationship\n"
 "A non-parametric equivalent of the repeated measures ANOVA also exists;\n"
 "the Friedman test. However, it has the limitation of only being able to\n"
 "test a single factor."
-msgstr "تحلیل واریانس تکراری برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند متغیر توضیحی دسته‌ای استفاده می‌شود، جایی که یکی یا چند از متغیرهای توضیحی 'درون افراد' (جایی که چندین اندازه‌گیری از یک فرد است) هستند. علاوه بر این، این تحلیل امکان 포함 کوواریانس‌ها را نیز فراهم می‌کند و بنابراین امکان انجام تحلیل واریانس تکراری ANCOVA را نیز می‌دهد.\n"
+msgstr ""
+"تحلیل واریانس تکراری برای بررسی رابطه بین یک متغیر وابسته پیوسته و یک یا چند "
+"متغیر توضیحی دسته‌ای استفاده می‌شود، جایی که یکی یا چند از متغیرهای توضیحی "
+"'درون افراد' (جایی که چندین اندازه‌گیری از یک فرد است) هستند. علاوه بر این، "
+"این تحلیل امکان 포함 کوواریانس‌ها را نیز فراهم می‌کند و بنابراین امکان انجام "
+"تحلیل واریانس تکراری ANCOVA را نیز می‌دهد.\n"
 "\n"
-"این تحلیل نیاز دارد که داده‌ها در فرمت 'عریض' باشند، جایی که هر سطر یک فرد (برخلاف فرمت طولانی، جایی که هر اندازه‌گیری از متغیر وابسته به عنوان یک سطر نشان داده می‌شود) را نشان می‌دهد.\n"
+"این تحلیل نیاز دارد که داده‌ها در فرمت 'عریض' باشند، جایی که هر سطر یک فرد "
+"(برخلاف فرمت طولانی، جایی که هر اندازه‌گیری از متغیر وابسته به عنوان یک سطر "
+"نشان داده می‌شود) را نشان می‌دهد.\n"
 "\n"
-"یک معادل غیرپارامتریک از تحلیل واریانس تکراری نیز وجود دارد؛ آزمون فریدمن. با این حال، محدودیت آن فقط این است که只能 یک عامل را آزمایش کند."
+"یک معادل غیرپارامتریک از تحلیل واریانس تکراری نیز وجود دارد؛ آزمون فریدمن. "
+"با این حال، محدودیت آن فقط این است که只能 یک عامل را آزمایش کند."
 
 #: anovaRM/options/rm.description.ui
 #, fuzzy
@@ -6264,8 +6607,12 @@ msgstr "طراحی اندازه‌گیری مکرر"
 
 #: R/anovarm.b.R
 #, fuzzy
-msgid "The repeated measures has only two levels. The assumption of sphericity is always met when the repeated measures has only two levels."
-msgstr "اندازه‌گیری‌های تکراری فقط دو سطح دارد. فرض کرویت همیشه وقتی اندازه‌گیری‌های تکراری فقط دو سطح دارد برآورده می‌شود."
+msgid ""
+"The repeated measures has only two levels. The assumption of sphericity is "
+"always met when the repeated measures has only two levels."
+msgstr ""
+"اندازه‌گیری‌های تکراری فقط دو سطح دارد. فرض کرویت همیشه وقتی اندازه‌گیری‌های "
+"تکراری فقط دو سطح دارد برآورده می‌شود."
 
 #: anovaRM/options/rmCells.description.ui
 #, fuzzy
@@ -6279,20 +6626,32 @@ msgstr "پایانه‌های اندازه‌گیری تکراری مدل"
 
 #: R/utilsreg.R
 #, fuzzy
-msgid "The specified reference level was not found for the following variable(s): {vars}. Defaulting to the first available level. To use a custom reference level, ensure the defined reference level is available in the data."
-msgstr "سطح مرجع مشخص شده برای متغیرهای زیر یافت نشد: {vars}. به طور پیش فرض به اولین سطح در دسترس متوسل می شویم. برای استفاده از سطح مرجع سفارشی، اطمینان حاصل کنید که سطح مرجع تعریف شده در داده ها موجود است"
+msgid ""
+"The specified reference level was not found for the following variable(s): "
+"{vars}. Defaulting to the first available level. To use a custom reference "
+"level, ensure the defined reference level is available in the data."
+msgstr ""
+"سطح مرجع مشخص شده برای متغیرهای زیر یافت نشد: {vars}. به طور پیش فرض به "
+"اولین سطح در دسترس متوسل می شویم. برای استفاده از سطح مرجع سفارشی، اطمینان "
+"حاصل کنید که سطح مرجع تعریف شده در داده ها موجود است"
 
 #: package/analyses/ttestIS.description
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different."
-msgstr "آزمون t نمونه های مستقل دانشجو (ometimes به عنوان آزمون دو نمونه ای t نامیده می شود) برای آزمایش فرضیه ی خنثی که دو گروه میانگین یکسانی دارند، استفاده می شود. مقدار p کم نشان می دهد که فرضیه ی خنثی درست نیست و در نتیجه میانگین های گروه ها متفاوت هستند."
+msgstr ""
+"آزمون t نمونه های مستقل دانشجو (ometimes به عنوان آزمون دو نمونه ای t نامیده "
+"می شود) برای آزمایش فرضیه ی خنثی که دو گروه میانگین یکسانی دارند، استفاده می "
+"شود. مقدار p کم نشان می دهد که فرضیه ی خنثی درست نیست و در نتیجه میانگین های "
+"گروه ها متفاوت هستند."
 
 #: ttestIS/options.description.main
 #, fuzzy
-msgid "The Student's Independent samples t-test (sometimes called a two-samples\n"
+msgid ""
+"The Student's Independent samples t-test (sometimes called a two-samples\n"
 "t-test) is used to test the null hypothesis that two groups have the\n"
 "same mean. A low p-value suggests that the null hypothesis is not true,\n"
 "and therefore the group means are different.\n"
@@ -6305,21 +6664,37 @@ msgid "The Student's Independent samples t-test (sometimes called a two-samples\
 "distribution, the non-parametric Mann-Whitney U test can be used instead\n"
 "(However, note that the Mann-Whitney U test has a slightly different\n"
 "null hypothesis; that the distributions of each group is equal)."
-msgstr "آزمون تی مستقل دانش آموز (گاهی اوقات به عنوان آزمون تی دو نمونه‌ای نامیده می‌شود) برای آزمایش فرضیه خنثی استفاده می‌شود که دو گروه میانگین یکسانی دارند. یک مقدار p-value پایین نشان می‌دهد که فرضیه خنثی درست نیست و بنابراین میانگین‌های گروه‌ها متفاوت هستند.\n"
+msgstr ""
+"آزمون تی مستقل دانش آموز (گاهی اوقات به عنوان آزمون تی دو نمونه‌ای نامیده "
+"می‌شود) برای آزمایش فرضیه خنثی استفاده می‌شود که دو گروه میانگین یکسانی "
+"دارند. یک مقدار p-value پایین نشان می‌دهد که فرضیه خنثی درست نیست و بنابراین "
+"میانگین‌های گروه‌ها متفاوت هستند.\n"
 "\n"
-"آزمون تی مستقل دانش آموز فرض می‌کند که داده‌های هر گروه از یک توزیع نرمال هستند و واریانس‌های این گروه‌ها برابر هستند. اگر کسی نمی‌خواهد فرض کند که گروه‌ها واریانس‌های برابر دارند، می‌تواند از آزمون Welch استفاده کند. اگر کسی علاوه بر این نمی‌خواهد فرض کند که داده‌های هر گروه از یک توزیع نرمال هستند، می‌توان از آزمون غیرپارامتریک من-ویتنی یو استفاده کرد (با این حال، توجه داشته باشید که آزمون من-ویتنی یو فرضیه خنثی略اً متفاوتی دارد؛ اینکه توزیع‌های هر گروه برابر هستند)."
+"آزمون تی مستقل دانش آموز فرض می‌کند که داده‌های هر گروه از یک توزیع نرمال "
+"هستند و واریانس‌های این گروه‌ها برابر هستند. اگر کسی نمی‌خواهد فرض کند که "
+"گروه‌ها واریانس‌های برابر دارند، می‌تواند از آزمون Welch استفاده کند. اگر "
+"کسی علاوه بر این نمی‌خواهد فرض کند که داده‌های هر گروه از یک توزیع نرمال "
+"هستند، می‌توان از آزمون غیرپارامتریک من-ویتنی یو استفاده کرد (با این حال، "
+"توجه داشته باشید که آزمون من-ویتنی یو فرضیه خنثی略اً متفاوتی دارد؛ اینکه "
+"توزیع‌های هر گروه برابر هستند)."
 
 #: package/analyses/ttestOneS.description
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value."
-msgstr "آزمون t تک نمونه دانش آموز برای آزمایش فرضیه صفر استفاده می‌شود که می‌گوید متوسط واقعی برابر با یک مقدار خاص (معمولا صفر) است. یک مقدار p کم نشان می‌دهد که فرضیه صفر درست نیست و بنابراین متوسط واقعی باید با مقدار آزمون متفاوت باشد."
+msgstr ""
+"آزمون t تک نمونه دانش آموز برای آزمایش فرضیه صفر استفاده می‌شود که می‌گوید "
+"متوسط واقعی برابر با یک مقدار خاص (معمولا صفر) است. یک مقدار p کم نشان "
+"می‌دهد که فرضیه صفر درست نیست و بنابراین متوسط واقعی باید با مقدار آزمون "
+"متفاوت باشد."
 
 #: ttestOneS/options.description.main
 #, fuzzy
-msgid "The Student's One-sample t-test is used to test the null hypothesis that\n"
+msgid ""
+"The Student's One-sample t-test is used to test the null hypothesis that\n"
 "the true mean is equal to a particular value (typically zero). A low\n"
 "p-value suggests that the null hypothesis is not true, and therefore\n"
 "the true mean must be different from the test value.\n"
@@ -6329,22 +6704,34 @@ msgid "The Student's One-sample t-test is used to test the null hypothesis that\
 "non-parametric Wilcoxon signed-rank can be used in it's place (However,\n"
 "note that the Wilcoxon signed-rank has a slightly different null\n"
 "hypothesis; that the <i>median</i> is equal to the test value)."
-msgstr "تست t تک نمونه دانش آموز برای آزمایش فرضیه خالی استفاده می شود که میانگین واقعی برابر با یک مقدار خاص (معمولاً صفر) است. یک مقدار p کم نشان می دهد که فرضیه خالی درست نیست و بنابراین میانگین واقعی باید با مقدار تست متفاوت باشد.\n"
+msgstr ""
+"تست t تک نمونه دانش آموز برای آزمایش فرضیه خالی استفاده می شود که میانگین "
+"واقعی برابر با یک مقدار خاص (معمولاً صفر) است. یک مقدار p کم نشان می دهد که "
+"فرضیه خالی درست نیست و بنابراین میانگین واقعی باید با مقدار تست متفاوت باشد.\n"
 "\n"
-"test t تک نمونه دانش آموز فرض می کند که داده ها از توزیع نرمال هستند - در صورتی که کسی تمایل به فرض این ندارد، تست رتبه ای ویلکاکسون را می توان به جای آن استفاده کرد (با این حال، توجه داشته باشید که تست رتبه ای ویلکاکسون فرضیه خالی کمی متفاوت دارد؛ اینکه میانگین برابر با مقدار تست است)."
+"test t تک نمونه دانش آموز فرض می کند که داده ها از توزیع نرمال هستند - در "
+"صورتی که کسی تمایل به فرض این ندارد، تست رتبه ای ویلکاکسون را می توان به جای "
+"آن استفاده کرد (با این حال، توجه داشته باشید که تست رتبه ای ویلکاکسون فرضیه "
+"خالی کمی متفاوت دارد؛ اینکه میانگین برابر با مقدار تست است)."
 
 #: package/analyses/ttestPS.description
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
 "difference between the measurement pairs is not zero."
-msgstr "تست t نمونه های جفتی دانش آموز (که گاهی اوقات تست نمونه های وابسته نامیده می شود) برای آزمایش فرضیه خالی استفاده می شود که تفاوت بین جفت اندازه گیری ها برابر با صفر است. یک مقدار p کم نشان می دهد که فرضیه خالی درست نیست و تفاوت بین جفت اندازه گیری ها برابر با صفر نیست."
+msgstr ""
+"تست t نمونه های جفتی دانش آموز (که گاهی اوقات تست نمونه های وابسته نامیده می "
+"شود) برای آزمایش فرضیه خالی استفاده می شود که تفاوت بین جفت اندازه گیری ها "
+"برابر با صفر است. یک مقدار p کم نشان می دهد که فرضیه خالی درست نیست و تفاوت "
+"بین جفت اندازه گیری ها برابر با صفر نیست."
 
 #: ttestPS/options.description.main
 #, fuzzy
-msgid "The Student's paired samples t-test (sometimes called a\n"
+msgid ""
+"The Student's paired samples t-test (sometimes called a\n"
 "dependent-samples t-test) is used to test the null hypothesis that the\n"
 "difference between pairs of measurements is equal to zero. A low p-value\n"
 "suggests that the null hypothesis is not true, and that the\n"
@@ -6356,16 +6743,28 @@ msgid "The Student's paired samples t-test (sometimes called a\n"
 "(However, note that the Wilcoxon signed-rank has a slightly different\n"
 "null hypothesis; that the two groups of measurements follow the same\n"
 "distribution)."
-msgstr "آزمون t نمونه‌های جفتی دانش‌آموزان (که گاهی اوقات آزمون نمونه‌های وابسته نامیده می‌شود) برای آزمایش فرضیه صفر استفاده می‌شود که تفاوت بین جفت‌های اندازه‌گیری برابر با صفر است. یک مقدار p کم نشان می‌دهد که فرضیه صفر درست نیست و تفاوت بین جفت‌های اندازه‌گیری صفر نیست.\n"
+msgstr ""
+"آزمون t نمونه‌های جفتی دانش‌آموزان (که گاهی اوقات آزمون نمونه‌های وابسته "
+"نامیده می‌شود) برای آزمایش فرضیه صفر استفاده می‌شود که تفاوت بین جفت‌های "
+"اندازه‌گیری برابر با صفر است. یک مقدار p کم نشان می‌دهد که فرضیه صفر درست "
+"نیست و تفاوت بین جفت‌های اندازه‌گیری صفر نیست.\n"
 "\n"
-"آزمون t نمونه‌های جفتی دانش‌آموزان فرض می‌کند که تفاوت‌های جفت‌ها از توزیع نرمال پیروی می‌کنند - در صورتی که کسی نخواهد این فرض را داشته باشد، می‌توان از آزمون رتبه‌ای امضا شده ویلکاکسون به جای آن استفاده کرد (با این حال، توجه داشته باشید که آزمون رتبه‌ای امضا شده ویلکاکسون فرضیه صفر متفاوتی دارد؛ اینکه دو گروه از اندازه‌گیری‌ها از همان توزیع پیروی می‌کنند)."
+"آزمون t نمونه‌های جفتی دانش‌آموزان فرض می‌کند که تفاوت‌های جفت‌ها از توزیع "
+"نرمال پیروی می‌کنند - در صورتی که کسی نخواهد این فرض را داشته باشد، می‌توان "
+"از آزمون رتبه‌ای امضا شده ویلکاکسون به جای آن استفاده کرد (با این حال، توجه "
+"داشته باشید که آزمون رتبه‌ای امضا شده ویلکاکسون فرضیه صفر متفاوتی دارد؛ "
+"اینکه دو گروه از اندازه‌گیری‌ها از همان توزیع پیروی می‌کنند)."
 
 #: ancova/options/emMeans.description.ui
 #: anova/options/emMeans.description.ui
 #: anovaRM/options/emMeans.description.ui
 #, fuzzy
-msgid "the terms to provide estimated marginal means for. Here you can specify multiple terms."
-msgstr "اصطلاحاتی که می‌خواهید میانگین‌های حاشیه‌ای برآورد شده را برای آنها فراهم کنید. در اینجا می‌توانید چندین اصطلاح را مشخص کنید."
+msgid ""
+"the terms to provide estimated marginal means for. Here you can specify "
+"multiple terms."
+msgstr ""
+"اصطلاحاتی که می‌خواهید میانگین‌های حاشیه‌ای برآورد شده را برای آنها فراهم "
+"کنید. در اینجا می‌توانید چندین اصطلاح را مشخص کنید."
 
 #: ttestOneS/options/testValue.description.ui
 #, fuzzy
@@ -6396,8 +6795,12 @@ msgstr "شیء `aov` زیرین"
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variable {var} cannot be treated as numeric. Plots that expect numeric data will not be created for this variable."
-msgstr "متغیر {var} را نمی‌توان به عنوان عددی 처리 کرد. نمودارهایی که انتظار می‌رود داده‌های عددی داشته باشند، برای این متغیر ایجاد نخواهد شد."
+msgid ""
+"The variable {var} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for this variable."
+msgstr ""
+"متغیر {var} را نمی‌توان به عنوان عددی 처리 کرد. نمودارهایی که انتظار می‌رود "
+"داده‌های عددی داشته باشند، برای این متغیر ایجاد نخواهد شد."
 
 #: ttestIS/options/group.description.ui
 #, fuzzy
@@ -6406,13 +6809,21 @@ msgstr "متغیر مشخص‌کننده گروه‌ها؛ باید 2 سطح د�
 
 #: R/descriptives.b.R
 #, fuzzy
-msgid "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
-msgstr "The variables {vars} cannot be treated as numeric. Plots that expect numeric data will not be created for these variables."
+msgid ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
+msgstr ""
+"The variables {vars} cannot be treated as numeric. Plots that expect numeric "
+"data will not be created for these variables."
 
 #: ttestOneS/options/vars.description.ui
 #, fuzzy
-msgid "the variables of interest -- a separate t-test is performed for each variable specified."
-msgstr "متغیرهای مورد نظر -- یک تست t جداگانه برای هر متغیری که مشخص شده است، انجام می شود"
+msgid ""
+"the variables of interest -- a separate t-test is performed for each "
+"variable specified."
+msgstr ""
+"متغیرهای مورد نظر -- یک تست t جداگانه برای هر متغیری که مشخص شده است، انجام "
+"می شود"
 
 #: corrMatrix/options/vars.description.ui
 #: corrPart/options/vars.description.ui
@@ -6430,14 +6841,31 @@ msgstr "پهنای بازه‌های اطمینان."
 #: package/analyses/propTestN.description
 #: propTestN/options.description.main
 #, fuzzy
-msgid "The χ² Goodness of fit test (not to be confused with the χ² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
-msgstr "آزمون خوبی‌تناسب χ² (که نباید با آزمون استقلال χ² اشتباه گرفته شود)، فرضیه صفر را آزمایش می‌کند که نسبت مشاهدات با نسبت‌های مورد انتظار مطابقت دارد. اگر مقدار p کم باشد، این نشان می‌دهد که فرضیه صفر गलत است و نسبت‌های واقعی با آنچه آزمایش می‌شود متفاوت است."
+msgid ""
+"The χ² Goodness of fit test (not to be confused with the χ² test of "
+"independence), tests the Null hypothesis that the proportions of "
+"observations match some expected proportions. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportions "
+"are different to those tested."
+msgstr ""
+"آزمون خوبی‌تناسب χ² (که نباید با آزمون استقلال χ² اشتباه گرفته شود)، فرضیه "
+"صفر را آزمایش می‌کند که نسبت مشاهدات با نسبت‌های مورد انتظار مطابقت دارد. "
+"اگر مقدار p کم باشد، این نشان می‌دهد که فرضیه صفر गलत است و نسبت‌های واقعی "
+"با آنچه آزمایش می‌شود متفاوت است."
 
 #: package/analyses/contTables.description
 #: contTables/options.description.main
 #, fuzzy
-msgid "The χ² test of association (not to be confused with the χ² goodness of fit) is used to test whether two categorical variables are independent or associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables."
-msgstr "آزمون χ² برای ارتباط (که نباید با χ² برای برازش خوب اشتباه شود) برای بررسی این که آیا دو متغیر طبقه‌بندی شده مستقل هستند یا مرتبط، استفاده می‌شود. اگر مقدار p-value پایین باشد، این نشان می‌دهد که متغیرها مستقل نیستند و بین دو متغیر رابطه‌ای وجود دارد."
+msgid ""
+"The χ² test of association (not to be confused with the χ² goodness of fit) "
+"is used to test whether two categorical variables are independent or "
+"associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
+msgstr ""
+"آزمون χ² برای ارتباط (که نباید با χ² برای برازش خوب اشتباه شود) برای بررسی "
+"این که آیا دو متغیر طبقه‌بندی شده مستقل هستند یا مرتبط، استفاده می‌شود. اگر "
+"مقدار p-value پایین باشد، این نشان می‌دهد که متغیرها مستقل نیستند و بین دو "
+"متغیر رابطه‌ای وجود دارد."
 
 #: R/ancova.b.R
 #: R/anovaonew.b.R
@@ -6458,8 +6886,14 @@ msgstr "هیچ فاصله ماهالانوبیس با آستانه‌ای کمت
 
 #: package.description
 #, fuzzy
-msgid "This module represents the analyses included with jamovi. It contains many common analyses (such as t-tests, ANOVAs, regression, correlation matrices, proportion tests, contingency tables, factor analysis, etc)."
-msgstr "این ماژول نمایانگر تجزیه و تحلیل های موجود در jamovi است. شامل بسیاری از تجزیه و تحلیل های رایج (مانند تست های t، ANOVA، رگرسیون، ماتریس های همبستگی، تست های نسبت، جداول تصادفی، تجزیه و تحلیل عامل و غیره) است."
+msgid ""
+"This module represents the analyses included with jamovi. It contains many "
+"common analyses (such as t-tests, ANOVAs, regression, correlation matrices, "
+"proportion tests, contingency tables, factor analysis, etc)."
+msgstr ""
+"این ماژول نمایانگر تجزیه و تحلیل های موجود در jamovi است. شامل بسیاری از "
+"تجزیه و تحلیل های رایج (مانند تست های t، ANOVA، رگرسیون، ماتریس های همبستگی، "
+"تست های نسبت، جداول تصادفی، تجزیه و تحلیل عامل و غیره) است."
 
 #: logRegOrd/results/models.template/thres.columns.title
 #, fuzzy
@@ -6502,8 +6936,12 @@ msgstr "نمرات کم (N < 3) برای محاسبه آمار"
 
 #: R/mancova.b.R
 #, fuzzy
-msgid "Too few observations to calculate statistic. Each (sub)group must have at least as many observations as there are dependent variables."
-msgstr "اندازه مشاهده‌ها برای محاسبه آماره کافی نیست. هر (زیر)گروه باید حداقل به همان تعداد مشاهدات به عنوان متغیرهای وابسته داشته باشد."
+msgid ""
+"Too few observations to calculate statistic. Each (sub)group must have at "
+"least as many observations as there are dependent variables."
+msgstr ""
+"اندازه مشاهده‌ها برای محاسبه آماره کافی نیست. هر (زیر)گروه باید حداقل به "
+"همان تعداد مشاهدات به عنوان متغیرهای وابسته داشته باشد."
 
 #: R/anovaonew.b.R
 #, fuzzy
@@ -6538,11 +6976,16 @@ msgstr "Tooth Growth"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
+#: R/descriptives.b.R
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 #, fuzzy
 msgid "Total"
 msgstr "کل"
+
+#: descriptives/options/freqTotal.title
+msgid "Total row"
+msgstr ""
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
@@ -6740,7 +7183,9 @@ msgstr "واریانس ها"
 
 #: R/corrpart.b.R
 #, fuzzy
-msgid "variation from the control variables is only removed from the variables in the columns"
+msgid ""
+"variation from the control variables is only removed from the variables in "
+"the columns"
 msgstr "تنوع از متغیرهای کنترل فقط از متغیرهای ستون حذف می‌شود"
 
 #: efa/options/rotation/varimax.title
@@ -6774,8 +7219,12 @@ msgstr "W"
 #: anova/options/emmWeights.description.ui
 #: anovaRM/options/emmWeights.description.ui
 #, fuzzy
-msgid "weigh each cell equally. (Cells are weighed according to the cell frequency by default.)"
-msgstr "هربکسل را به طور مساوی وزن دهیم. (به طور پیش فرض، سلول ها بر اساس بسامد سلول وزن می شوند.)"
+msgid ""
+"weigh each cell equally. (Cells are weighed according to the cell frequency "
+"by default.)"
+msgstr ""
+"هربکسل را به طور مساوی وزن دهیم. (به طور پیش فرض، سلول ها بر اساس بسامد سلول "
+"وزن می شوند.)"
 
 #: weights/options/weights.title
 #: weights/ui[0][0].label
