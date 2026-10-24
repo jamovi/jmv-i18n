@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-10-24 04:51+0000\n"
-"Last-Translator: Yuri Smolyakov <smoyur@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-10-25 00:51+0000\n"
+"Last-Translator: Andrei Stepanov <adem@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
 "Language: ru\n"
@@ -528,7 +528,9 @@ msgstr "Аккуратность"
 #: jamovi/js/proptestn.events.js:68
 msgid "Active filters have excluded one level"
 msgid_plural "Active filters have excluded {n} levels"
-msgstr[0] ""
+msgstr[0] "Активные фильтры исключили один уровень"
+msgstr[1] "Активные фильтры исключили {n} уровня"
+msgstr[2] "Активные фильтры исключили {n} уровней"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -1459,7 +1461,7 @@ msgstr "Счетчик не может быть отрицательным"
 #: R/conttables.b.R
 #: R/proptestn.b.R
 msgid "Counts may not contain missing values"
-msgstr ""
+msgstr "Значения счётчиков не могут содержать пропущенные значения"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1520,7 +1522,7 @@ msgstr "Совокупный %"
 
 #: descriptives/options/freqCumPc.title
 msgid "Cumulative percentage"
-msgstr ""
+msgstr "Накопленный процент"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -2114,6 +2116,10 @@ msgid ""
 "removed due to missing values. To run the analysis, remove these unused "
 "levels from the factor."
 msgstr ""
+"Фактор «{factorName}» содержит уровни без наблюдений: {levels}. Это может "
+"произойти, когда все наблюдения уровня исключены фильтрами или удалены из-за "
+"пропущенных значений. Чтобы выполнить анализ, удалите эти неиспользуемые "
+"уровни из фактора."
 
 #: R/ancova.b.R
 msgid ""
@@ -2137,6 +2143,9 @@ msgid ""
 "happen when all observations of a level are excluded by filters or removed "
 "due to missing values."
 msgstr ""
+"Фактор «{varName}» имеет менее двух уровней с наблюдениями. Это может "
+"произойти, когда все наблюдения уровня исключены фильтрами или удалены из-за "
+"пропущенных значений."
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2303,7 +2312,7 @@ msgstr "Таблицы частот"
 
 #: descriptives/ui[3].label
 msgid "Frequency Tables"
-msgstr ""
+msgstr "Таблицы частот"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2404,7 +2413,7 @@ msgstr "Резюме группы"
 
 #: descriptives/options/freqGroupTotals.title
 msgid "Group totals"
-msgstr ""
+msgstr "Итоги по группам"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -3876,7 +3885,7 @@ msgstr "Корреляция{}Пирсона"
 
 #: descriptives/options/freqPc.title
 msgid "Percentage of total"
-msgstr ""
+msgstr "Процент от общего итога"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -5595,6 +5604,9 @@ msgid ""
 "observations. This can happen when all observations of a level are excluded "
 "by filters or removed due to missing values."
 msgstr ""
+"Зависимая переменная «{varName}» имеет менее двух уровней с наблюдениями. "
+"Это может произойти, когда все наблюдения уровня исключены фильтрами или "
+"удалены из-за пропущенных значений."
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
@@ -6161,7 +6173,7 @@ msgstr "Общий"
 
 #: descriptives/options/freqTotal.title
 msgid "Total row"
-msgstr ""
+msgstr "Строка итогов"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
