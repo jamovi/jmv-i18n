@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-06-05 04:20+0000\n"
-"Last-Translator: Jonathon Love <jon@thon.cc>\n"
-"Language-Team: Japanese "
-"<https://hosted.weblate.org/projects/jamovi/jmv-i18n/ja/>\n"
+"PO-Revision-Date: 2026-10-30 22:51+0000\n"
+"Last-Translator: SHIBATA Seiji <sbtseiji@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
+"ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -521,7 +521,8 @@ msgstr "精度"
 #: jamovi/js/proptestn.events.js:68
 msgid "Active filters have excluded one level"
 msgid_plural "Active filters have excluded {n} levels"
-msgstr[0] ""
+msgstr[0] "適用中のフィルターによって、1つの水準が除外されています"
+msgstr[1] "適用中のフィルターによって、{n} 個の水準が除外されています"
 
 #: linReg/ui[1]/modelSupplier[0]/blocks.addButton
 #: logLinear/ui[1]/modelSupplier[0]/blocks.addButton
@@ -1441,7 +1442,7 @@ msgstr "度数は正の値でなければなりません"
 #: R/conttables.b.R
 #: R/proptestn.b.R
 msgid "Counts may not contain missing values"
-msgstr ""
+msgstr "度数には欠損値を含められません"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
@@ -1502,7 +1503,7 @@ msgstr "累積%"
 
 #: descriptives/options/freqCumPc.title
 msgid "Cumulative percentage"
-msgstr ""
+msgstr "累積パーセント"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -2084,6 +2085,10 @@ msgid ""
 "removed due to missing values. To run the analysis, remove these unused "
 "levels from the factor."
 msgstr ""
+"因子「{factorName}」には、観測値のない水準が含まれています：{levels}。これは"
+"、ある水準の観測値がすべてフィルターによって除外された場合や、欠損値のために"
+"削除された場合に起こります。分析を実行するには、因子からこれらの未使用の水準"
+"を削除してください。"
 
 #: R/ancova.b.R
 msgid ""
@@ -2103,6 +2108,9 @@ msgid ""
 "happen when all observations of a level are excluded by filters or removed "
 "due to missing values."
 msgstr ""
+"因子「{varName}」には、観測値のある水準が2つ未満しかありません。これは、ある"
+"水準の観測値がすべてフィルターによって除外された場合や、欠損値のために削除さ"
+"れた場合に起こります。"
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2269,7 +2277,7 @@ msgstr "度数分布表"
 
 #: descriptives/ui[3].label
 msgid "Frequency Tables"
-msgstr ""
+msgstr "度数分布表"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2370,7 +2378,7 @@ msgstr "グループの要約"
 
 #: descriptives/options/freqGroupTotals.title
 msgid "Group totals"
-msgstr ""
+msgstr "グループ計"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -3806,7 +3814,7 @@ msgstr "ピアソンの相関係数"
 
 #: descriptives/options/freqPc.title
 msgid "Percentage of total"
-msgstr ""
+msgstr "全体での比率（％）"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -5459,6 +5467,9 @@ msgid ""
 "observations. This can happen when all observations of a level are excluded "
 "by filters or removed due to missing values."
 msgstr ""
+"従属変数「{varName}」には、観測値のある水準が2つ未満しかありません。これは、"
+"ある水準の観測値がすべてフィルターによって除外された場合や、欠損値のために削"
+"除された場合に起こります。"
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
@@ -5959,7 +5970,7 @@ msgstr "全体"
 
 #: descriptives/options/freqTotal.title
 msgid "Total row"
-msgstr ""
+msgstr "合計行"
 
 #: ancova/options/postHocCorr/tukey.title
 #: anova/options/postHocCorr/tukey.title
