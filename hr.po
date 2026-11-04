@@ -1,9 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-11-03 22:51+0000\n"
-"Last-Translator: Igor Dobrača <igor.dobraca@users.noreply.hosted.weblate.org>"
-"\n"
+"PO-Revision-Date: 2026-11-04 11:51+0000\n"
+"Last-Translator: Milo Ivir <milotype@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "hr/>\n"
 "Language: hr\n"
@@ -1424,7 +1423,7 @@ msgstr "Vrsta korelacije"
 #: propTest2/results/table.columns.title
 #: propTestN/results/props.columns.title
 msgid "Count"
-msgstr "Brojanje"
+msgstr "Zbroj"
 
 #: R/conttables.b.R
 #: R/descriptives.b.R
@@ -1433,7 +1432,7 @@ msgstr "Brojanje"
 #: contTables/ui[1][1][0][0][0].label
 #: descriptives/options/barCounts.title
 msgid "Counts"
-msgstr "Brojanja"
+msgstr "Zbrojevi"
 
 #: contTables/options/counts.title
 #: contTablesPaired/options/counts.title
@@ -1441,28 +1440,28 @@ msgstr "Brojanja"
 #: logLinear/ui[0][1].label
 #: propTestN/options/counts.title
 msgid "Counts (optional)"
-msgstr "Brojanja (opcionalno)"
+msgstr "Zbrojevi (opcionalno)"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 #: R/proptestn.b.R
 msgid "Counts may not be infinite"
-msgstr "Brojevi ne smiju biti beskonačni"
+msgstr "Zbrojevi ne smiju biti beskonačni"
 
 #: R/conttables.b.R
 #: R/conttablespaired.b.R
 #: R/proptestn.b.R
 msgid "Counts may not be negative"
-msgstr "Brojevi ne smiju biti negativni"
+msgstr "Zbrojevi ne smiju biti negativni"
 
 #: R/conttables.b.R
 #: R/proptestn.b.R
 msgid "Counts may not contain missing values"
-msgstr ""
+msgstr "Zbrojevi ne smiju sadržavati nedostajuće vrijednosti"
 
 #: R/conttablespaired.b.R
 msgid "Counts must be non-negative and finite"
-msgstr "Brojevi moraju biti ne-negativni i konačni"
+msgstr "Zbrojevi moraju biti ne-negativni i konačni"
 
 #: ancova/options/covs.title
 #: anovaRM/options/cov.title
@@ -1515,11 +1514,11 @@ msgstr "kubično"
 #: pca/results/factorStats/factorSummary.columns.title
 #: pca/results/eigen/initEigen.columns.title
 msgid "Cumulative %"
-msgstr "Kumulativni postotak"
+msgstr "Kumulativni %"
 
 #: descriptives/options/freqCumPc.title
 msgid "Cumulative percentage"
-msgstr ""
+msgstr "Kumulativni postotak"
 
 #: descriptives/options/pcNEqGr.title
 msgid "Cut point values"
@@ -2113,6 +2112,10 @@ msgid ""
 "removed due to missing values. To run the analysis, remove these unused "
 "levels from the factor."
 msgstr ""
+"Faktor '{factorName}' sadrži razine bez opažanja: {levels}. To se može "
+"dogoditi ako su sva opažanja određene razine isključena primjenom filtara "
+"ili uklonjena zbog nedostajućih vrijednosti. Za sprovođenje analize ukloni "
+"te nekorištene razine iz faktora."
 
 #: R/ancova.b.R
 msgid ""
@@ -2136,6 +2139,9 @@ msgid ""
 "happen when all observations of a level are excluded by filters or removed "
 "due to missing values."
 msgstr ""
+"Faktor '{varName}' ima manje od dvije razine s opažanjima. To se može "
+"dogoditi kada su sva opažanja neke razine isključena filtrima ili uklonjena "
+"zbog nedostajućih vrijednosti."
 
 #: jamovi/js/cfa.events.js:40
 msgid "Factor {0}"
@@ -2293,7 +2299,7 @@ msgstr "Učestalosti"
 
 #: descriptives/results/frequencies.template.title
 msgid "Frequencies of $key"
-msgstr "$key učestalost"
+msgstr "Učestalost od $key"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
@@ -2302,7 +2308,7 @@ msgstr "Tablice učestalosti"
 
 #: descriptives/ui[3].label
 msgid "Frequency Tables"
-msgstr ""
+msgstr "Tablice učestalosti"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
@@ -2403,7 +2409,7 @@ msgstr "Sažetak grupe"
 
 #: descriptives/options/freqGroupTotals.title
 msgid "Group totals"
-msgstr ""
+msgstr "Ukupni broj grupe"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -3868,7 +3874,7 @@ msgstr "Pearson{}Korelacija"
 
 #: descriptives/options/freqPc.title
 msgid "Percentage of total"
-msgstr ""
+msgstr "Postotak od ukupnog broja"
 
 #: contTables/options/yaxis/ypc.title
 #: contTables/ui[1][1][0][1][0].label
@@ -5569,6 +5575,9 @@ msgid ""
 "observations. This can happen when all observations of a level are excluded "
 "by filters or removed due to missing values."
 msgstr ""
+"Zavisna varijabla '{varName}' ima manje od dvije razine s opažanjima. To se "
+"može dogoditi kada su sva opažanja neke razine isključena filtrima ili "
+"uklonjena zbog nedostajućih vrijednosti."
 
 #: R/logregmulti.b.R
 #: R/logregord.b.R
