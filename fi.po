@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-10-30 22:51+0000\n"
+"PO-Revision-Date: 2026-11-18 00:09+0000\n"
 "Last-Translator: Arto Luoma <arto@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "fi/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2190,24 +2190,20 @@ msgid "Factor scores"
 msgstr "Faktoripistemäärät"
 
 #: R/efa.b.R
-#, fuzzy
 msgid "Factor Statistics"
-msgstr "Tekijätilastot"
+msgstr "Faktorien tunnusluvut"
 
 #: efa/options/factorSummary.title
-#, fuzzy
 msgid "Factor summary"
-msgstr "Tekijän yhteenveto"
+msgstr "Faktorien tiivistys"
 
 #: cfa/ui[2][1][0]/constrain_facVar.label
-#, fuzzy
 msgid "Factor variances = 1"
-msgstr "Tekijän varianssit = 1"
+msgstr "Faktorien varianssit = 1"
 
 #: efa/ui[1][0][1]/nFactorMethod_fixed/nFactors.suffix
-#, fuzzy
 msgid "factor(s)"
-msgstr "tekijä(t)"
+msgstr "faktori(a)"
 
 #: cfa/options/factors.title
 #: cfa/ui[0][0].label
@@ -2222,25 +2218,21 @@ msgstr "tekijä(t)"
 #: logRegOrd/options/factors.title
 #: logRegOrd/ui[0][2].label
 #: mancova/options/factors.title
-#, fuzzy
 msgid "Factors"
-msgstr "Tekijät"
+msgstr "Faktorit"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "factors"
-msgstr "tekijät"
+msgstr "faktorit"
 
 #: anovaOneW/results/anova.columns.content
-#, fuzzy
 msgid "Fisher's"
 msgstr "Fisherin"
 
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
-#, fuzzy
 msgid "Fisher's exact test"
-msgstr "Fisherin täsmätarkastelu"
+msgstr "Fisherin tarkka testi"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -2250,53 +2242,44 @@ msgstr "Fisherin täsmätarkastelu"
 #: logRegBin/ui[4][0][0][0].label
 #: logRegMulti/ui[3][0][0][0].label
 #: logRegOrd/ui[3][0][0][0].label
-#, fuzzy
 msgid "Fit Measures"
-msgstr "Sovitusmitat"
+msgstr "Sopivuusmitat"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Fitted"
-msgstr "Sovitetty"
+msgstr "Sovitettu"
 
 #: ancova/options/factors.title
 #: anova/options/factors.title
-#, fuzzy
 msgid "Fixed Factors"
-msgstr "Kiinteä tekijät"
+msgstr "Kiinteät tekijät"
 
 #: efa/options/nFactorMethod/fixed.title
 #: pca/ui[1][0][1]/nFactorMethod_fixed.label
-#, fuzzy
 msgid "Fixed number"
 msgstr "Kiinteä luku"
 
 #: R/cfa.b.R
-#, fuzzy
 msgid "fixed parameter"
 msgstr "kiinteä parametri"
 
 #: anovaOneW/options/phFlag.title
-#, fuzzy
 msgid "Flag significant comparisons"
-msgstr "Merkitse merkittävät vertailut"
+msgstr "Merkitse merkitsevät vertailut"
 
 #: corrMatrix/options/flag.title
 #: corrPart/options/flag.title
-#, fuzzy
 msgid "Flag significant correlations"
-msgstr "merkitse merkittävät korrelaatiot"
+msgstr "Merkitse merkitsevät korrelaatiot"
 
 #: corrMatrix/options/flag.description.ui
 #: corrPart/options/flag.description.ui
-#, fuzzy
 msgid "flag significant correlations (p < .05) with symbols."
-msgstr "merkitse merkittävät korrelaatiot (p < .05) symboleilla."
+msgstr "merkitse merkitsevät korrelaatiot (p < .05) symboleilla."
 
 #: anovaOneW/options/phFlag.description.ui
-#, fuzzy
 msgid "flag significant post-hoc comparisons."
-msgstr "merkkaa merkitsevät jälkikäteen suoritetut vertailut."
+msgstr "merkitse merkitsevät jälkikäteisvertailut."
 
 #: package/analyses/propTest2.menuGroup
 #: package/analyses/propTestN.menuGroup
@@ -2309,51 +2292,43 @@ msgstr "merkkaa merkitsevät jälkikäteen suoritetut vertailut."
 #: logLinear/options.menuGroup
 #: propTest2/options.menuGroup
 #: propTestN/options.menuGroup
-#, fuzzy
 msgid "Frequencies"
-msgstr "Tiheysjakaumat"
+msgstr "Frekvenssit"
 
 #: descriptives/results/frequencies.template.title
-#, fuzzy
 msgid "Frequencies of $key"
-msgstr "Avaimen $key tiheydet"
+msgstr "Muuttujan $key frekvensssit"
 
 #: descriptives/options/freq.title
 #: descriptives/ui[1][1]/freq.label
-#, fuzzy
 msgid "Frequency tables"
-msgstr "Taajuuksuustaulukot"
+msgstr "Frekvenssitaulukot"
 
 #: descriptives/ui[3].label
 msgid "Frequency Tables"
-msgstr ""
+msgstr "Frekvenssitaulukot"
 
 #: package/analyses/anovaRMNP.menuSubtitle
 #: anovaRMNP/options.menuSubtitle
 #: anovaRMNP/results/table.title
-#, fuzzy
 msgid "Friedman"
 msgstr "Friedman"
 
 #: cfa/ui[2][0][0]/miss_fiml.label
-#, fuzzy
 msgid "Full information maximum likelihood"
-msgstr "Täydellinen maksimiperuslikeliisyystutkimus"
+msgstr "Täyden informaation suurimman uskottavuuden"
 
 #: anovaOneW/ui[2][0][0][0]/phMethod_gamesHowell.label
-#, fuzzy
 msgid "Games-Howell (unequal variances)"
-msgstr "Games-Howell (epätasa-arvoinen varianssi)"
+msgstr "Games-Howell (erisuuret varianssit)"
 
 #: R/anovaonew.b.R
-#, fuzzy
 msgid "Games-Howell Post-Hoc Test – {dep}"
-msgstr "Games-Howellin jälkikäteen tehtävä testi – {riippuva}"
+msgstr "Gamesin-Howellin jälkikäteistesti – {dep}"
 
 #: contTables/options/gamma.title
 #: contTables/results/gamma.title
 #: contTables/results/gamma.columns.title
-#, fuzzy
 msgid "Gamma"
 msgstr "Gamma"
 
@@ -2364,38 +2339,31 @@ msgstr "Gamma"
 #: logLinear/ui[5][1][0][0].label
 #: logRegBin/ui[6][1][0][0].label
 #: logRegMulti/ui[5][1][0][0].label
-#, fuzzy
 msgid "General Options"
-msgstr "Yleiset vaihtoehdot"
+msgstr "Yleiset asetukset"
 
 #: anovaRM/options/effectSize/ges.title
-#, fuzzy
 msgid "Generalised η²"
 msgstr "Yleistetty η²"
 
 #: linReg/ui[2][1]/intercept_grandMean.label
-#, fuzzy
 msgid "Grand mean (simple coding)"
-msgstr "Yleinen keskiarvo (yksinkertainen koodaus)"
+msgstr "Yleiskeskiarvo (yksinkertainen koodaus)"
 
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
-#, fuzzy
 msgid "Greenhouse-Geisser"
 msgstr "Greenhouse-Geisser"
 
 #: anovaRM/results/assump/spherTable.columns.title
-#, fuzzy
 msgid "Greenhouse-Geisser ε"
-msgstr "Greenhouse-Geisser ε"
+msgstr "Greenhousen-Geisserin ε"
 
 #: ttestIS/results/desc.columns.title
-#, fuzzy
 msgid "Group"
 msgstr "Ryhmä"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Group 1"
 msgstr "Ryhmä 1"
 
@@ -2403,7 +2371,6 @@ msgstr "Ryhmä 1"
 #: contTables/ui[1][0][0][0][1]/hypothesis_twoGreater.label
 #: ttestIS/options/hypothesis/twoGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_twoGreater.label
-#, fuzzy
 msgid "Group 1 < Group 2"
 msgstr "Ryhmä 1 < Ryhmä 2"
 
@@ -2411,7 +2378,6 @@ msgstr "Ryhmä 1 < Ryhmä 2"
 #: contTables/ui[1][0][0][0][1]/hypothesis_different.label
 #: ttestIS/options/hypothesis/different.title
 #: ttestIS/ui[1][0][1]/hypothesis_different.label
-#, fuzzy
 msgid "Group 1 ≠ Group 2"
 msgstr "Ryhmä 1 ≠ Ryhmä 2"
 
@@ -2419,34 +2385,29 @@ msgstr "Ryhmä 1 ≠ Ryhmä 2"
 #: contTables/ui[1][0][0][0][1]/hypothesis_oneGreater.label
 #: ttestIS/options/hypothesis/oneGreater.title
 #: ttestIS/ui[1][0][1]/hypothesis_oneGreater.label
-#, fuzzy
 msgid "Group 1 > Group 2"
 msgstr "Ryhmä 1 > Ryhmä 2"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Group 2"
 msgstr "Ryhmä 2"
 
 #: anovaOneW/results/desc.title
 #: ttestIS/results/desc.title
-#, fuzzy
 msgid "Group Descriptives"
-msgstr "Ryhmien kuvailevat tiedot"
+msgstr "Ryhmien kuvailevat tunnusluvut"
 
 #: anovaRM/results/groupSummary.title
-#, fuzzy
 msgid "Group Summary"
-msgstr "Ryhmän yhteenveto"
+msgstr "Yhteenveto ryhmistä"
 
 #: anovaRM/options/groupSumm.title
-#, fuzzy
 msgid "Group summary"
-msgstr "Ryhmän yhteenveto"
+msgstr "Yhteenveto ryhmistä"
 
 #: descriptives/options/freqGroupTotals.title
 msgid "Group totals"
-msgstr ""
+msgstr "Ryhmien kokonaismäärät"
 
 #: anovaNP/options/group.title
 #: anovaOneW/options/group.title
@@ -2456,53 +2417,46 @@ msgid "Grouping Variable"
 msgstr "Ryhmittelymuuttuja"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid ""
 "Grouping variable '{a}' has less than 2 levels after missing values are "
 "excluded"
-msgstr "Ryhmämuuttuja '{a}' on vähemmän kuin 2 tasoa puuttuvien arvojen jälkeen"
+msgstr ""
+"Ryhmittelymuuttujalla '{a}' on vähemmän kuin 2 tasoa puuttuvien arvojen "
+"poissulkemisen jälkeen"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "Grouping variable '{a}' must have exactly 2 levels"
-msgstr "Ryhmitysmuuttuja '{a}' on oltava tasan 2 tasoa"
+msgstr "Ryhmittelymuuttujalla '{a}' on oltava täsmälleen 2 tasoa"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid "Grouping variable '{a}' must not also be a dependent variable"
-msgstr "Ryhmämuuttuja '{a}' ei saa olla myös riippuvainen muuttuja"
+msgstr "Ryhmittelymuuttuja '{a}' ei saa olla myöskään selitettävä muuttuja"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
-#, fuzzy
 msgid "Hₐ is negative correlation"
 msgstr "Hₐ on negatiivinen korrelaatio"
 
 #: R/corrmatrix.b.R
 #: R/corrpart.b.R
-#, fuzzy
 msgid "Hₐ is positive correlation"
 msgstr "Hₐ on positiivinen korrelaatio"
 
 #: R/proptest2.b.R
-#, fuzzy
 msgid "Hₐ is proportion {direction} {testValue}"
-msgstr "Hₐ on suhde {direction} {testValue}"
+msgstr "Hₐ on osuus {direction} {testValue}"
 
 #: R/conttables.b.R
-#, fuzzy
 msgid "Haldane-Anscombe correction applied"
-msgstr "Haldane-Anscomben korjaus sovellettu"
+msgstr "Haldanen-Anscomben korjaus tehty"
 
 #: efa/options/factorScoreMethod/Harman.title
-#, fuzzy
 msgid "Harman"
 msgstr "Harman"
 
 #: ancova/options/contrasts.template/type/helmert.title
 #: anova/options/contrasts.template/type/helmert.title
 #: anovaRM/options/contrasts.template/type/helmert.title
-#, fuzzy
 msgid "Helmert"
 msgstr "Helmert"
 
@@ -2510,43 +2464,37 @@ msgstr "Helmert"
 #: package/analyses/weights.menuGroup
 #: empty/options.menuGroup
 #: weights/options.menuGroup
-#, fuzzy
 msgid "hidden"
 msgstr "piilotettu"
 
 #: efa/options/hideLoadings.title
 #: pca/options/hideLoadings.title
-#, fuzzy
 msgid "Hide loadings below"
 msgstr "Piilota lataukset alle"
 
 #: R/descriptives.b.R
 msgid "Highest"
-msgstr ""
+msgstr "Suurimmat"
 
 #: cfa/options/hlCorRes.title
 #: cfa/options/hlMI.title
 #: contTables/options/hlresP.title
 #: contTables/options/hlresS.title
 #: contTables/options/hlresA.title
-#, fuzzy
 msgid "Highlight values above"
 msgstr "Korosta arvot yläpuolella"
 
 #: descriptives/options/hist.title
-#, fuzzy
 msgid "Histogram"
-msgstr "Jakauma"
+msgstr "Histogrammi"
 
 #: descriptives/ui[4][0][0][0].label
-#, fuzzy
 msgid "Histograms"
-msgstr "Jakaumakaaviot"
+msgstr "Histogrammit"
 
 #: ancova/options/postHocCorr/holm.title
 #: anova/options/postHocCorr/holm.title
 #: anovaRM/options/postHocCorr/holm.title
-#, fuzzy
 msgid "Holm"
 msgstr "Holm"
 
@@ -2555,35 +2503,30 @@ msgstr "Holm"
 #: anovaOneW/results/assump/eqv.title
 #: anovaRM/results/assump/leveneTable.title
 #: ttestIS/results/assum/eqv.title
-#, fuzzy
 msgid "Homogeneity of Variances Test (Levene's)"
-msgstr "Varianssin homogeenisuuden testi (Levenen testi)"
+msgstr "Varianssin homogeenisuustesti (Levenen testi)"
 
 #: ancova/options/homo.title
 #: anova/options/homo.title
 #: anovaOneW/options/eqv.title
 #: anovaRM/options/leveneTest.title
 #: ttestIS/options/eqv.title
-#, fuzzy
 msgid "Homogeneity test"
-msgstr "Yhdenmukaisuustesti"
+msgstr "Homogeenisuustesti"
 
 #: mancova/options/multivar/hotel.title
 #: mancova/results/multivar.columns.content
-#, fuzzy
 msgid "Hotelling's Trace"
 msgstr "Hotellingin jälki"
 
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
-#, fuzzy
 msgid "Huynh-Feldt"
 msgstr "Huynh-Feldt"
 
 #: anovaRM/results/assump/spherTable.columns.title
-#, fuzzy
 msgid "Huynh-Feldt ε"
-msgstr "Huynh-Feldt ε"
+msgstr "Huynhin-Feldtin ε"
 
 #: contTables/ui[1][0][0][0][1].label
 #: corrMatrix/options/hypothesis.title
@@ -2595,23 +2538,19 @@ msgstr "Huynh-Feldt ε"
 #: ttestIS/ui[1][0][1].label
 #: ttestOneS/ui[1][0][1].label
 #: ttestPS/ui[1][0][1].label
-#, fuzzy
 msgid "Hypothesis"
 msgstr "Hypoteesi"
 
 #: reliability/results/items.columns.superTitle
-#, fuzzy
 msgid "If item dropped"
-msgstr "Jos kohde poistetaan"
+msgstr "Jos muuttuja poistetaan"
 
 #: anovaRM/options/groupSumm.description.ui
-#, fuzzy
 msgid "include a summary of the groups"
 msgstr "sisällytä ryhmien yhteenveto"
 
 #: package/analyses/contTables.menuTitle
 #: contTables/options.menuTitle
-#, fuzzy
 msgid "Independent Samples"
 msgstr "Riippumattomat otokset"
 
@@ -2621,35 +2560,29 @@ msgstr "Riippumattomat otokset"
 #: ttestIS/ui.title
 #: ttestIS/results.title
 #: ttestIS/results/ttest.title
-#, fuzzy
 msgid "Independent Samples T-Test"
 msgstr "Riippumattomien otosten t-testi"
 
 #: cfa/results/factorLoadings.columns.title
-#, fuzzy
 msgid "Indicator"
 msgstr "Osoitin"
 
 #: pca/results/eigen/initEigen.title
-#, fuzzy
 msgid "Initial Eigenvalues"
-msgstr "Alkuperäiset ominaisarvot"
+msgstr "Ominaisarvot"
 
 #: efa/options/eigen.title
 #: pca/options/eigen.title
-#, fuzzy
 msgid "Initial eigenvalues"
-msgstr "Alkuperäiset ominaisarvot"
+msgstr "Ominaisarvot"
 
 #: pca/results/factorStats/factorCor.title
-#, fuzzy
 msgid "Inter-Component Correlations"
-msgstr "Komponenttien välinen korrelaatio"
+msgstr "Komponenttien väliset korrelaatiot"
 
 #: R/pca.b.R
-#, fuzzy
 msgid "Inter-Factor Correlations"
-msgstr "Tekijöiden väliset korrelaatiot"
+msgstr "Faktoreiden väliset korrelaatiot"
 
 #: R/linreg.b.R
 #: R/loglinear.b.R
@@ -2657,9 +2590,8 @@ msgstr "Tekijöiden väliset korrelaatiot"
 #: R/logregmulti.b.R
 #: linReg/options/intercept.title
 #: linReg/ui[2][1].label
-#, fuzzy
 msgid "Intercept"
-msgstr "Leikkauspiste"
+msgstr "Vakiotermi"
 
 #: cfa/ui[3][1][0]/ci/ciWidth.label
 #: contTables/options/ciWidth.title
@@ -2680,18 +2612,15 @@ msgstr "Leikkauspiste"
 #: logRegOrd/ui[4][0][1][1]/ciOR/ciWidthOR.label
 #: propTest2/ui[1][1][0]/ci/ciWidth.label
 #: propTest2/ui[2][1][0]/ciBayes/ciBayesWidth.label
-#, fuzzy
 msgid "Interval"
 msgstr "Väli"
 
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
-#, fuzzy
 msgid "IQR"
 msgstr "IQR"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid ""
 "It appears that your model has a 'singularity' problem. This usually means "
 "that the model is having trouble distinguishing between certain effects "
@@ -2700,188 +2629,159 @@ msgid ""
 "model by removing some of the effects or checking if your data might have "
 "redundant or highly correlated variables."
 msgstr ""
-"Mallissasi on \"singulaarisuus\" -ongelma. Tämä tarkoittaa yleensä, että "
-"malli kärsii vaikeuksista erottaa tiettyjä vaikutuksia toisistaan, koska "
-"jotkut muuttujat ovat liian läheisiä tai malli ei pysty arvioimaan kaikkia "
-"vaikutuksia luotettavasti. Ratkaisuksi voit yksinkertaistaa mallia "
-"poistamalla joitain vaikutuksia tai tarkistaa, onko datassasi turhia tai "
-"voimakkaasti korreloivia muuttujia."
+"Näyttää siltä, että mallillasi on singulaarisuusongelma. Tämä tarkoittaa "
+"yleensä sitä, että mallilla on vaikeuksia erottaa tiettyjä vaikutuksia "
+"toisistaan, koska jotkin muuttujat ovat liian läheisiä tai aineistoa ei ole "
+"riittävästi kaikkien vaikutusten estimoimiseksi luotettavaksi. Ratkaisuna "
+"voit harkita mallin yksinkertaistamissta poistamalla joitain vaikutuksia tai "
+"tarkistamalla, onko aineistossasi tarpeettomia tai voimakkaasti korreloivia "
+"muuttujia."
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Item '{item}' consists of one level only"
-msgstr "Kohde '{item}' koostuu vain yhdestä tasosta"
+msgstr "Tekijällä '{item}' on vain yksi taso"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
-#, fuzzy
 msgid "Item '{item}' contains infinite values"
-msgstr "Kohde '{item}' sisältää ääretön arvon"
+msgstr "Muuttujalla '{item}' on äärettömiä arvoja"
 
 #: R/anovarm.b.R
 #: R/reliability.b.R
-#, fuzzy
 msgid "Item '{item}' contains only missing values"
-msgstr "Kohde '{item}' sisältää vain puutteellisia arvoja"
+msgstr "Muuttujalla '{item}' on vain puuttuvia arvoja"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid "Item '{item}' has no variance"
-msgstr "Kohde '{item}' ei ole varianssia"
+msgstr "Muuttujalla '{item}' ei ole varianssia"
 
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Item '{item}' needs to be numeric"
-msgstr "Kohde '{item}' on oltava numeerinen"
+msgstr "Muuttujan '{item}' on oltava numeerinen"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid ""
 "item {item} correlates negatively with the total scale and probably should "
 "be reversed"
 msgstr ""
-"Kohde {item} korreloi negatiivisesti kokonais mittarin kanssa ja sen tulisi "
-"todennäköisesti olla käänteinen"
+"muuttuja {item} korreloi negatiivisesti kokonaispistemäärän kanssa, ja se "
+"tulisi luultavasti kääntää"
 
 #: reliability/results/items.title
-#, fuzzy
 msgid "Item Reliability Statistics"
-msgstr "Kohteen luotettavuustilastot"
+msgstr "Muuttujien luotettavuustunnusluvut"
 
 #: reliability/ui[1][1][0].label
-#, fuzzy
 msgid "Item Statistics"
-msgstr "Kohteen tilastot"
+msgstr "Muuttujien tunnusluvut"
 
 #: reliability/options/itemRestCor.title
 #: reliability/results/items.columns.title
-#, fuzzy
 msgid "Item-rest correlation"
-msgstr "Kohde-rest-korrelaatio"
+msgstr "Muuttuja-muut-korrelaatio"
 
 #: reliability/options/vars.title
-#, fuzzy
 msgid "Items"
-msgstr "Kohdat"
+msgstr "Muuttujat"
 
 #: R/reliability.b.R
-#, fuzzy
 msgid ""
 "items {items} correlate negatively with the total scale and probably should "
 "be reversed"
 msgstr ""
-"kohteet {items} korreloivat negatiivisesti kokonaisasteikolla ja ne tulisi "
-"luultavasti kääntää"
+"muuttujat {items} korreloivat negatiivisesti kokonaispistemäärän kanssa, ja "
+"ne tulisi luultavasti kääntää"
 
 #: descriptives/options/dotType/jitter.title
-#, fuzzy
 msgid "Jittered"
-msgstr "Satunnaistettu"
+msgstr "Ravistettu"
 
 #: corrMatrix/results/matrix.columns.content
 #: corrPart/results/matrix.columns.content
-#, fuzzy
 msgid "Kendall's Tau B"
-msgstr "Kendallin Tau B"
+msgstr "Kendallin tau-b"
 
 #: contTables/results/taub.columns.title
-#, fuzzy
 msgid "Kendall's Tau-B"
-msgstr "Kendallin Tau-B"
+msgstr "Kendallin tau-b"
 
 #: contTables/results/taub.title
-#, fuzzy
 msgid "Kendall's Tau-b"
-msgstr "Kendallin Tau-b"
+msgstr "Kendallin tau-b"
 
 #: contTables/options/taub.title
 #: corrMatrix/options/kendall.title
 #: corrPart/options/kendall.title
-#, fuzzy
 msgid "Kendall's tau-b"
 msgstr "Kendallin tau-b"
 
 #: pca/results/assump/kmo.title
-#, fuzzy
 msgid "KMO Measure of Sampling Adequacy"
-msgstr "KMO:n mittaus otannan sopivuudesta"
+msgstr "KMO-mittari otoksen sopivuudelle"
 
 #: efa/options/kmo.title
 #: pca/options/kmo.title
-#, fuzzy
 msgid "KMO measure of sampling adequacy"
-msgstr "KMO:n otosriittävyyden mittari"
+msgstr "KMO-mittari otoksen sopivuudelle"
 
 #: package/analyses/anovaNP.menuSubtitle
 #: anovaNP/options.menuSubtitle
 #: anovaNP/results/table.title
-#, fuzzy
 msgid "Kruskal-Wallis"
 msgstr "Kruskal-Wallis"
 
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
-#, fuzzy
 msgid "Kurtosis"
-msgstr "Kurtosis"
+msgstr "Huipukkuus"
 
 #: descriptives/options/boxLabelOutliers.title
-#, fuzzy
 msgid "Label outliers"
-msgstr "Merkkaa äritysarvot"
+msgstr "Merkitse poikkeavat arvot"
 
 #: contTables/options/layers.title
-#, fuzzy
 msgid "Layers"
 msgstr "Kerrokset"
 
 #: propTest2/results/table.columns.title
 #: propTestN/ui[2]/ratio.columns.label
 #: propTestN/results/props.columns.title
-#, fuzzy
 msgid "Level"
 msgstr "Taso"
 
 #: anovaRM/options/rm.default[0].levels[0]
-#, fuzzy
 msgid "Level 1"
 msgstr "Taso 1"
 
 #: anovaRM/options/rm.default[0].levels[1]
-#, fuzzy
 msgid "Level 2"
 msgstr "Taso 2"
 
 #: R/ttestis.b.R
-#, fuzzy
 msgid ""
 "Levene's test is significant (p < .05), suggesting a violation of the "
 "assumption of equal variances"
 msgstr ""
-"Levenen testi on merkitsevä (p < .05), mikä osoittaa yhdenmukaisuuden "
-"oletuksen rikkomista"
+"Levenen testi on merkitsevä (p < .05), mikä viittaa siihen, ettei oletus "
+"varianssien yhtäsuuruudesta pidä paikkaansa"
 
 #: R/proptest2.b.R
-#, fuzzy
 msgid "Likelihood"
-msgstr "Todennäköisyys"
+msgstr "Uskottavuus"
 
 #: contTables/options/likeRat.title
 #: contTables/results/chiSq.columns.content
-#, fuzzy
 msgid "Likelihood ratio"
-msgstr "Todennäköisyysosuus"
+msgstr "Uskottavuussuhdetesti"
 
 #: logLinear/options/omni.title
 #: logRegBin/options/omni.title
 #: logRegMulti/options/omni.title
 #: logRegOrd/options/omni.title
-#, fuzzy
 msgid "Likelihood ratio tests"
-msgstr "Todennääisyystutkimukset"
+msgstr "Uskottavuussuhdetestit"
 
 #: R/utilsanova.R
-#, fuzzy
 msgid "linear"
 msgstr "lineaarinen"
 
@@ -2890,35 +2790,31 @@ msgstr "lineaarinen"
 #: linReg/options.title
 #: linReg/ui.title
 #: linReg/results.title
-#, fuzzy
 msgid "Linear Regression"
-msgstr "Lineaari regressio"
+msgstr "Lineaarinen regressio"
 
 #: package/analyses/linReg.description
 #: linReg/options.description.main
-#, fuzzy
 msgid ""
 "Linear regression is used to explore the relationship between a continuous "
 "dependent variable, and one or more continuous and/or categorical "
 "explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, "
 "are in reality just forms of linear regression."
 msgstr ""
-"Lineaariset regressioanalyysit käytetään jatkuvan riippuvan muuttujan ja "
-"yhden tai useamman jatkuvan ja/tai kategorisen selittävän muuttujan välisen "
-"suhteen tutkimiseen. Muut tilastomenetelmät, kuten ANOVA ja ANCOVA, ovat "
-"itse asiassa lineaarisen regressioanalyysin muotoja."
+"Lineaarista regressioanalyysiä käytetään jatkuvan selitettävän muuttujan ja "
+"yhden tai useamman jatkuvan tai kategorisen selittävän muuttujan välisen "
+"suhteen tutkimiseen. Eräät muut tilastomenetelmät, kuten ANOVA ja ANCOVA, "
+"ovat itse asiassa lineaarisen regressioanalyysin muunnelmia."
 
 #: contTables/options/logOdds.title
 #: contTables/results/odds.columns.content
-#, fuzzy
 msgid "Log odds ratio"
-msgstr "Logaritminen oddsien suhde"
+msgstr "Log-vetosuhde"
 
 #: contTablesPaired/options/exact.title
 #: contTablesPaired/results/test.columns.content
-#, fuzzy
 msgid "Log odds ratio exact"
-msgstr "Logaritminen todennäköisyys"
+msgstr "Log-vetosuhde, tarkka testi"
 
 #: package/analyses/logLinear.title
 #: package/analyses/logLinear.menuTitle
@@ -2928,7 +2824,6 @@ msgstr "Logaritminen todennäköisyys"
 #: logLinear/options.description.main
 #: logLinear/ui.title
 #: logLinear/results.title
-#, fuzzy
 msgid "Log-Linear Regression"
 msgstr "Log-lineaarinen regressio"
 
@@ -2938,7 +2833,6 @@ msgstr "Log-lineaarinen regressio"
 #: logRegBin/options.menuSubgroup
 #: logRegMulti/options.menuSubgroup
 #: logRegOrd/options.menuSubgroup
-#, fuzzy
 msgid "Logistic Regression"
 msgstr "Logistinen regressio"
 
@@ -2966,89 +2860,75 @@ msgstr "Logistinen regressio"
 #: ttestIS/results/ttest.columns.title
 #: ttestOneS/results/ttest.columns.title
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "Lower"
-msgstr "Alempi"
+msgstr "Alaraja"
 
 #: R/descriptives.b.R
-#, fuzzy
 msgid "lower bound"
-msgstr "alempi raja"
+msgstr "alaraja"
 
 #: R/descriptives.b.R
 msgid "Lowest"
-msgstr ""
+msgstr "Pienimmät"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis ChiSq"
-msgstr "Mahalanobis ChiSq"
+msgstr "Mahalanobisin khi-neliö"
 
 #: linReg/options/mahal.title
 #: linReg/options/mahalOV.title
-#, fuzzy
 msgid "Mahalanobis distance"
-msgstr "Mahalanobis etäisyys"
+msgstr "Mahalanobisin etäisyys"
 
 #: linReg/results/models.template/dataSummary/mahal.title
 #: linReg/results/mahalOV.title
-#, fuzzy
 msgid "Mahalanobis Distance"
-msgstr "Mahalanobis-etäisyys"
+msgstr "Mahalanobisin etäisyys"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance (Chi sq.)"
-msgstr "Mahalanobisin etäisyys (Chi sq.)"
+msgstr "Mahalanobisin etäisyys (khin neliö)"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis distance (p)"
-msgstr "Mahalanobis-etäisyys (p)"
+msgstr "Mahalanobisin etäisyys (p)"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid ""
 "Mahalanobis distance can only be calculated for models with two or more "
 "covariates"
 msgstr ""
-"Mahalanobis-etäisyys voidaan laskea vain malleilla, joissa on kaksi tai "
-"useampi kovaariabbeli"
+"Mahalanobisin etäisyys voidaan laskea vain malleille, joilla on kaksi tai "
+"useampi jatkuva selittäjä"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Mahalanobis p"
-msgstr "Mahalanobis p"
+msgstr "Mahalanobisin p"
 
 #: package/analyses/mancova.title
 #: package/analyses/mancova.menuTitle
 #: mancova/options.title
 #: mancova/ui.title
 #: mancova/results.title
-#, fuzzy
 msgid "MANCOVA"
 msgstr "MANCOVA"
 
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
-#, fuzzy
 msgid "Mann-Whitney U"
-msgstr "Mann-Whitneyn U"
+msgstr "Mannin-Whitneyn U"
 
 #: contTables/options/mh.title
-#, fuzzy
 msgid "Mantel-Haenszel"
 msgstr "Mantel-Haenszel"
 
 #: contTables/results/mh.title
-#, fuzzy
 msgid "Mantel-Haenszel Test for Trend"
-msgstr "Mantel-Haenszelin Trendin Testi"
+msgstr "Mantelin-Haenszelin testi trendille"
 
 #: R/linreg.b.R
-#, fuzzy
 msgid "Marginal Mean"
-msgstr "Reuna-arvo"
+msgstr "Reunaodotusarvo"
 
 #: ancova/options/emMeans.title
 #: anova/options/emMeans.title
@@ -3057,9 +2937,8 @@ msgstr "Reuna-arvo"
 #: logLinear/options/emMeans.title
 #: logRegBin/options/emMeans.title
 #: logRegMulti/options/emMeans.title
-#, fuzzy
 msgid "Marginal Means"
-msgstr "Marginaalinen keskiarvo"
+msgstr "Reunaodotusarvot"
 
 #: ancova/options/emmPlots.title
 #: anova/options/emmPlots.title
@@ -3068,9 +2947,8 @@ msgstr "Marginaalinen keskiarvo"
 #: logLinear/options/emmPlots.title
 #: logRegBin/options/emmPlots.title
 #: logRegMulti/options/emmPlots.title
-#, fuzzy
 msgid "Marginal means plots"
-msgstr "Kuvailevat kaaviot"
+msgstr "Reunaodotusarvokuviot"
 
 #: ancova/options/emmTables.title
 #: anova/options/emmTables.title
@@ -3079,61 +2957,51 @@ msgstr "Kuvailevat kaaviot"
 #: logLinear/options/emmTables.title
 #: logRegBin/options/emmTables.title
 #: logRegMulti/options/emmTables.title
-#, fuzzy
 msgid "Marginal means tables"
-msgstr "Reunapaineiden keskiarvotaulukot"
+msgstr "Reunaodotusarvotaulukot"
 
 #: anovaRM/results/assump/spherTable.columns.title
-#, fuzzy
 msgid "Mauchly's W"
 msgstr "Mauchlyn W"
 
 #: linReg/results/models.template/dataSummary/cooks.columns.title
 #: linReg/results/models.template/dataSummary/mahal.columns.title
 #: logRegBin/results/models.template/dataSummary/cooks.columns.title
-#, fuzzy
 msgid "Max"
-msgstr "Maks"
+msgstr "Max"
 
 #: R/descriptives.b.R
 #: descriptives/options/max.title
-#, fuzzy
 msgid "Maximum"
 msgstr "Maksimi"
 
 #: R/pca.b.R
 #: efa/options/extraction/ml.title
-#, fuzzy
 msgid "Maximum likelihood"
-msgstr "Maksimiperususko"
+msgstr "Suurin uskottavuus"
 
 #: reliability/options/omegaScale.title
 #: reliability/results/scale.columns.title
 #: reliability/results/items.columns.title
-#, fuzzy
 msgid "McDonald's ω"
 msgstr "McDonaldin ω"
 
 #: reliability/options/omegaItems.title
-#, fuzzy
 msgid "McDonald's ω (if item is dropped)"
-msgstr "McDonaldin ω (jos kohde poistetaan)"
+msgstr "McDonaldin ω (jos muuttuja poistetaan)"
 
 #: logLinear/options/pseudoR2/r2mf.title
 #: logRegBin/options/pseudoR2/r2mf.title
 #: logRegMulti/options/pseudoR2/r2mf.title
 #: logRegOrd/options/pseudoR2/r2mf.title
-#, fuzzy
 msgid "McFadden's R²"
 msgstr "McFaddenin R²"
 
 #: R/conttablespaired.b.R
-#, fuzzy
 msgid "McNemar requires a 2x2 table"
-msgstr "McNemar vaatii 2x2 -taulukon"
+msgstr "McNemar vaatii 2x2-taulukon"
 
 #: contTablesPaired/results/test.title
-#, fuzzy
 msgid "McNemar Test"
 msgstr "McNemarin testi"
 
@@ -3141,7 +3009,6 @@ msgstr "McNemarin testi"
 #: package/analyses/contTablesPaired.description
 #: contTablesPaired/options.menuSubtitle
 #: contTablesPaired/options.description.main
-#, fuzzy
 msgid "McNemar test"
 msgstr "McNemarin testi"
 
@@ -3163,22 +3030,19 @@ msgstr "McNemarin testi"
 #: ttestIS/results/desc.columns.title
 #: ttestOneS/results/descriptives.columns.title
 #: ttestPS/results/desc.columns.title
-#, fuzzy
 msgid "Mean"
 msgstr "Keskiarvo"
 
 #: R/anovaonew.b.R
 #: R/ttestis.b.R
 #: R/ttestps.b.R
-#, fuzzy
 msgid "Mean ({ciWidth}% CI)"
-msgstr "Keskiarvo ({ciWidth}% CI)"
+msgstr "Keskiarvo ({ciWidth} % lv)"
 
 #: R/ancova.b.R
 #: R/anovarm.b.R
-#, fuzzy
 msgid "Mean Difference"
-msgstr "Keskinäinen ero"
+msgstr "Erotuksen keskiarvo"
 
 #: anovaOneW/options/phMeanDif.title
 #: anovaOneW/results/postHoc.template.columns.content
@@ -3191,9 +3055,8 @@ msgstr "Keskinäinen ero"
 #: ttestPS/options/meanDiff.title
 #: ttestPS/ui[1][1][0]/meanDiff.label
 #: ttestPS/results/ttest.columns.title
-#, fuzzy
 msgid "Mean difference"
-msgstr "Keskiarvon ero"
+msgstr "Erotuksen keskiarvo"
 
 #: descriptives/ui[2][2][1].label
 #, fuzzy
