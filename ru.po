@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-10-26 08:51+0000\n"
+"PO-Revision-Date: 2026-11-18 11:51+0000\n"
 "Last-Translator: Yuri Smolyakov <smoyur@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jmv-i18n/"
 "ru/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.11.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: R/errors.R
 msgid "'{col}' contains infinite values"
@@ -2238,7 +2238,7 @@ msgstr "Фишер"
 #: contTables/options/fisher.title
 #: contTables/results/chiSq.columns.content
 msgid "Fisher's exact test"
-msgstr "Точный тест Фишера"
+msgstr "Точный критерий Фишера"
 
 #: cfa/options/fitMeasures.title
 #: cfa/ui[4][1][0]/fitMeasures.label
@@ -2359,11 +2359,11 @@ msgstr "Объединенное среднее (простое кодирова
 #: anovaRM/options/spherCorr/GG.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Greenhouse-Geisser"
-msgstr "Гринхауз–Гейссер"
+msgstr "Гринхаус-Гейссер"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Greenhouse-Geisser ε"
-msgstr "Гринхаус–Гейссер ε"
+msgstr "Гринхаус-Гейссер ε"
 
 #: ttestIS/results/desc.columns.title
 msgid "Group"
@@ -2528,11 +2528,11 @@ msgstr "След Хотеллинга"
 #: anovaRM/options/spherCorr/HF.title
 #: anovaRM/results/rmTable.columns.content
 msgid "Huynh-Feldt"
-msgstr "Хаунх–Фельдт"
+msgstr "Хюйн-Фельдт"
 
 #: anovaRM/results/assump/spherTable.columns.title
 msgid "Huynh-Feldt ε"
-msgstr "Хейн–Фельдт ε"
+msgstr "Хюйн-Фельдт ε"
 
 #: contTables/ui[1][0][0][0][1].label
 #: corrMatrix/options/hypothesis.title
@@ -2624,7 +2624,7 @@ msgstr "Интервал"
 #: R/descriptives.b.R
 #: descriptives/options/iqr.title
 msgid "IQR"
-msgstr "Межквартильное расстояние"
+msgstr "МКР"
 
 #: R/utilsanova.R
 msgid ""
@@ -2734,7 +2734,7 @@ msgstr "KMO мера адекватности выборки"
 #: anovaNP/options.menuSubtitle
 #: anovaNP/results/table.title
 msgid "Kruskal-Wallis"
-msgstr "Краскел-Уоллис"
+msgstr "Критерий Краскела-Уоллиса"
 
 #: R/descriptives.b.R
 #: descriptives/options/kurt.title
@@ -2923,7 +2923,7 @@ msgstr "Многофакторный ковариационный анализ"
 #: ttestIS/options/mann.title
 #: ttestIS/results/ttest.columns.content
 msgid "Mann-Whitney U"
-msgstr "Манн-Уитни Ю"
+msgstr "Критерий Манна-Уитни (U)"
 
 #: contTables/options/mh.title
 msgid "Mantel-Haenszel"
@@ -3669,7 +3669,7 @@ msgstr "Вывод"
 
 #: R/pca.b.R
 msgid "Overall"
-msgstr "Общий"
+msgstr "Всего"
 
 #: R/ancova.b.R
 msgid "Overall model"
@@ -4090,7 +4090,7 @@ msgstr "Производительность апостериорной моде
 
 #: anovaOneW/ui[2][0][0][0].label
 msgid "Post-Hoc Test"
-msgstr "Апостериорный тест"
+msgstr "Критерий Post-Hoc"
 
 #: anovaOneW/options/phMethod.title
 #: anovaOneW/ui[2].label
@@ -5008,7 +5008,7 @@ msgstr "Тест Шапиро-Уилка на многомерную норма�
 
 #: R/descriptives.b.R
 msgid "Shapiro-Wilk W"
-msgstr "Шапиро-Уилк W"
+msgstr "W Шапиро-Уилка"
 
 #: contTables/options/bartype/dodge.title
 msgid "Side by side"
@@ -6169,7 +6169,7 @@ msgstr "Рост зубов"
 #: contTables/options/pcTot.title
 #: propTest2/results/table.columns.title
 msgid "Total"
-msgstr "Общий"
+msgstr "Всего"
 
 #: descriptives/options/freqTotal.title
 msgid "Total row"
